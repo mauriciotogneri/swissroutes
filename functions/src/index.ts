@@ -1,3 +1,4 @@
+import * as fs from "fs";
 import {onRequest} from "firebase-functions/v2/https";
 import {setGlobalOptions} from "firebase-functions/v2/options";
 
@@ -6,12 +7,6 @@ setGlobalOptions({
 });
 
 export const website = onRequest((request, response) => {
-  response.status(200).send(`<!doctype html>
-    <head>
-      <title>Time</title>
-    </head>
-    <body>
-      IT WORKS!
-    </body>
-  </html>`);
+  const template = fs.readFileSync("static/index.html", "utf-8");
+  response.status(200).send(template);
 });
