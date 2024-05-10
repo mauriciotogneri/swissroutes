@@ -193,11 +193,11 @@ function refreshOther() {
 
   // https://bike-energy.com/en/where-can-I-load-my-e-bike
   // https://www.google.com/maps/d/u/0/viewer?mid=1wdyB_yGO8FqEWUbD-HJTvpQ-KRY&ll=47.42434950245896%2C9.743405674684965&z=12
-  /*const checkboxOtherChargingStations = document.getElementById('checkboxOtherChargingStations').checked
+  const checkboxOtherChargingStations = document.getElementById('checkboxOtherChargingStations').checked
 
   if (checkboxOtherChargingStations) {
-    loadChargingStations(`other/charging_stations/charging_stations.json`)
-  }*/
+    loadChargingStations(`other/chargingstations/chargingstations.json`)
+  }
 }
 
 function loadRoute(type, url, focus) {
@@ -434,18 +434,19 @@ function showMountainHike(json) {
 }
 
 function showChargingStations(json) {
-  let content = ''
-  content += `<b style="font-weight:bold">${json.name}</b><br/><br/>`
+  const coordinates = json.Point.coordinates.split(',')
+
+  let content = `<b style="font-weight:bold">${json.name}</b><br/><br/>`
 
   if (json.description) {
     content += `<p>${json.description.__cdata}</p>`
   }
 
+  content += `<a href='https://www.google.com/maps/place/${coordinates[1]},${coordinates[0]}' target='_blank'>Address</a><br/><br/>`
+
   const infowindow = new google.maps.InfoWindow({
     content: content
   })
-
-  const coordinates = json.Point.coordinates.split(',')
 
   showMarker(parseFloat(coordinates[1]), parseFloat(coordinates[0]), infowindow, '+/-', json)
 }
