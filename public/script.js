@@ -459,6 +459,8 @@ function getGallery(json) {
     return json.properties.photo_gallery_small
   } else if (json.properties.sac_photos?.length > 0) {
     return json.properties.sac_photos.map((e) => e.photo_standard)
+  } else if (json.properties.foto) {
+    return [json.properties.foto]
   } else {
     return []
   }
