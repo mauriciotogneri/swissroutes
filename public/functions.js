@@ -47,31 +47,25 @@ function refresh() {
 
 function refreshMountainBiking() {
   const nationalChecked = document.getElementById('checkboxMountainBikingNational').checked
-  // TODO: remove
-  const nationalIds = [1, 2, 3]
 
   if (nationalChecked) {
-    for (const id of nationalIds) {
+    for (const id of MOUNTAINBIKING_NATIONAL_IDS) {
       loadRoute('mountainbiking', `mountainbiking/national/${id}.json`, false)
     }
   }
 
   const regionalChecked = document.getElementById('checkboxMountainBikingRegional').checked
-  // TODO: remove
-  const regionalIds = [22, 32, 33, 41, 44, 48, 50, 55, 56, 65, 66, 68, 90]
 
   if (regionalChecked) {
-    for (const id of regionalIds) {
+    for (const id of MOUNTAINBIKING_REGIONAL_IDS) {
       loadRoute('mountainbiking', `mountainbiking/regional/${id}.json`, false)
     }
   }
 
   const localChecked = document.getElementById('checkboxMountainBikingLocal').checked
-  // TODO: remove
-  const localIds = [114, 115, 116, 117, 118, 124, 129, 145, 146, 150, 157, 158, 159, 165, 166, 167, 173, 179, 180, 183, 184, 193, 199, 205, 207, 208, 209, 210, 211, 222, 225, 231, 232, 233, 236, 242, 245, 246, 247, 248, 250, 251, 255, 256, 257, 258, 259, 260, 261, 262, 277, 278, 279, 281, 290, 291, 294, 295, 301, 302, 304, 306, 307, 323, 324, 325, 326, 327, 328, 329, 330, 331, 332, 333, 334, 335, 336, 337, 338, 339, 341, 342, 350, 351, 352, 353, 354, 355, 356, 357, 358, 359, 360, 361, 362, 383, 384, 387, 388, 389, 390, 391, 392, 393, 394, 397, 399, 401, 402, 403, 404, 405, 406, 407, 408, 409, 410, 411, 412, 413, 414, 415, 416, 417, 430, 431, 432, 433, 434, 436, 437, 440, 441, 442, 443, 444, 445, 446, 447, 449, 450, 451, 452, 460, 461, 469, 470, 471, 472, 473, 474, 476, 477, 478, 479, 480, 481, 482, 490, 501, 502, 503, 504, 505, 541, 542, 543, 544, 545, 546, 547, 548, 549, 560, 565, 572, 582, 590, 592, 593, 599, 601, 602, 603, 606, 613, 615, 616, 630, 631, 632, 633, 634, 635, 636, 638, 639, 641, 642, 645, 646, 647, 650, 655, 658, 660, 661, 663, 671, 672, 673, 679, 690, 709, 710, 712, 713, 720, 723, 743, 746, 748, 770, 771, 772, 801, 802, 803, 820, 825, 835, 836, 843, 844, 862, 868, 890, 891, 901, 902, 903, 916, 921, 922, 923, 924, 925, 926, 955, 961, 963, 964, 966, 967, 969, 970, 982, 987, 988, 991, 993, 995, 996]
 
   if (localChecked) {
-    for (const id of localIds) {
+    for (const id of MOUNTAINBIKING_LOCAL_IDS) {
       loadRoute('mountainbiking', `mountainbiking/local/${id}.json`, false)
     }
   }
