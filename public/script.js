@@ -398,12 +398,12 @@ function showMountainHike(json) {
   let content = ''
   content += `<b>${json.properties.title} - ${json.properties.poi_title}</b><br/><br/>`
 
-  if (json.properties.abstract) {
-    content += `<p>${json.properties.abstract}</p>`
-  }
-
   if (json.properties.subtitle) {
     content += `<p>${json.properties.subtitle}</p>`
+  }
+
+  if (json.properties.abstract) {
+    content += `<p>${json.properties.abstract}</p>`
   }
 
   if (json.properties.ascent_altitude) {
@@ -414,15 +414,20 @@ function showMountainHike(json) {
     content += `<p>Difficulty: ${json.properties.mountain_hiking_difficulty}</p>`
   }
 
-  if (json.properties.sac_photos) {
-    content += `<img src='${json.properties.sac_photos[0].photo_big}' width=600/><br/>`
+  const galleryList = getGallery(json)
+
+  if (galleryList.length > 0) {
+    content += `<center><a class='prev' onclick='plusSlides(-1, ${json.properties.r_number})'>&#10094;</a>`
+    content += `<img id='gallery-${json.properties.r_number}' height='300' src='${galleryList[0]}'/>`
+    content += `<a class='next' onclick='plusSlides(1, ${json.properties.r_number})'>&#10095;</a><br/><br/>`
+    content += `<span><b id='index-${json.properties.r_number}'>1/${galleryList.length}</b></span><br/></center>`
   }
 
   const infowindow = new google.maps.InfoWindow({
     content: content
   })
 
-  showMarker(json.geometry.coordinates[0], json.geometry.coordinates[1], infowindow, 'Mountain Hike')
+  showMarker(json.geometry.coordinates[0], json.geometry.coordinates[1], infowindow, 'Mountain Hike', galleryList)
 }
 
 function showChargingStations(json) {
@@ -451,6 +456,8 @@ function getGallery(json) {
     return json.properties.photo_gallery_master
   } else if (json.properties.photo_gallery_small?.length > 0) {
     return json.properties.photo_gallery_small
+  } else if (json.properties.sac_photos?.length > 0) {
+    return json.properties.sac_photos.map((e) => e.photo_standard)
   } else {
     return []
   }
