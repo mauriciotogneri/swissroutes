@@ -9,10 +9,13 @@ let currentGalleryIndex = 0
 
 const COLORS = ['#e81123', '#c6ba15', '#ff8c00', '#ec008c', '#68217a', '#00188f', '#00bcf2', '#00b294', '#009e49', '#bad80a']
 
-function initMap() {
+function mapLoaded() {
   const mapOptions = {
     zoom: 9,
-    center: { lat: 46.75, lng: 8.10 }
+    center: {
+      lat: 46.75,
+      lng: 8.10,
+    }
   }
 
   map = new google.maps.Map(document.getElementById('map'), mapOptions)
@@ -470,7 +473,10 @@ function plusSlides(offset, id) {
 
 function showMarker(lat, lon, infowindow, text, gallery) {
   const marker = new google.maps.Marker({
-    position: { lat: lat, lng: lon },
+    position: {
+      lat: lat,
+      lng: lon,
+    },
     label: {
       text: text,
       fontSize: '12px',
