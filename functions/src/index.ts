@@ -50,9 +50,3 @@ const fillIds = (content: string, name: string, path: string): string => {
 
   return content.replace(`${base}[]`, `${base}${JSON.stringify(ids)}`);
 };
-
-export const gpx = onRequest((request, response) => {
-  const url = 'request.query.file';
-
-  response.status(200).send(url);
-});

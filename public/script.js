@@ -191,8 +191,6 @@ function refreshOther() {
     }
   }
 
-  // https://bike-energy.com/en/where-can-I-load-my-e-bike
-  // https://www.google.com/maps/d/u/0/viewer?mid=1wdyB_yGO8FqEWUbD-HJTvpQ-KRY&ll=47.42434950245896%2C9.743405674684965&z=12
   const checkboxOtherChargingStations = document.getElementById('checkboxOtherChargingStations').checked
 
   if (checkboxOtherChargingStations) {
