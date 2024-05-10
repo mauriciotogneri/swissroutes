@@ -345,7 +345,8 @@ function showPoint(label, baseLink, json) {
   }
 
   if (json.properties.street) {
-    content += `<p>${json.properties.street}, ${json.properties.zip} ${json.properties.place}</p>`
+    const address = `${json.properties.street}, ${json.properties.zip} ${json.properties.place}`
+    content += `<a href='https://www.google.com/maps/search/${address}' target='_blank'>${address}</a><br/><br/>`
   }
 
   if (json.properties.tel) {

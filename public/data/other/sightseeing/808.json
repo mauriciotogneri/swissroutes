@@ -1,1 +1,66 @@
-{"type":"Feature","id":808,"geometry":{"type":"Point","coordinates":[47.49014509957997,8.225616932130308]},"properties":{"land":null,"category":"all","language":"en","title":"Pump track Wasserschloss","abstract":"The Aargau pump track Wasserschloss was opened in 2018 and is the first asphalt pump track in the canton. The waves with different distances are well suited for practising jumping.","description":"The Wasserschloss pump track is suitable for beginners and advanced riders. It consists of a continuous asphalt loop with three 180° and two 90° steep face curves. Different wave distances allow for shorter and longer jumps. The track is therefore ideal for learning how to jump or to dare a long jump once in a while. The waves can also be rolled over without any problems.\n\n\nThe first asphalt pump track in the canton of Aargau is located right next to the football training grounds in Brugg. In addition to mountain bikes, it can also be used with stunt or freestyle scooters, skateboards, or inline skates.\n\n\nSurface: asphalt \nLength: 120 metres \nSurface area: 800 m2 \nWave and curve height: 40-140 cm\n","highlights":null,"foto":"https://images0.schweizmobil.ch/image/AG_Pumptrack_Wasserschloss_3_M.jpg","photo_gallery":["https://images0.schweizmobil.ch/image/AG_Pumptrack_Wasserschloss_1_s.jpg","https://images0.schweizmobil.ch/image/AG_Pumptrack_Wasserschloss_2_s.jpg","https://images0.schweizmobil.ch/image/AG_Pumptrack_Wasserschloss_3_s.jpg","https://images0.schweizmobil.ch/image/AG_Pumptrack_Wasserschloss_4_s.jpg","https://images0.schweizmobil.ch/image/AG_Pumptrack_Wasserschloss_5_s.jpg"],"photo_gallery_big":["https://images0.schweizmobil.ch/image-big/AG_Pumptrack_Wasserschloss_1_g.jpg","https://images0.schweizmobil.ch/image-big/AG_Pumptrack_Wasserschloss_2_g.jpg","https://images0.schweizmobil.ch/image-big/AG_Pumptrack_Wasserschloss_3_g.jpg","https://images0.schweizmobil.ch/image-big/AG_Pumptrack_Wasserschloss_4_g.jpg","https://images0.schweizmobil.ch/image-big/AG_Pumptrack_Wasserschloss_5_g.jpg"],"photo_gallery_copyright":["","","","",""],"photo_gallery_author":["","","","",""],"name":"Verein BikeAttrAktiv","name_2":null,"street":"Ländestrasse 4C","zip":"5210","place":"Windisch","tel":"-","fax":null,"email":"bikeattraktiv@bluewin.ch","url1_link":"https://www.bikeattraktiv.ch","x_coordinate":659308.3496804807,"y_coordinate":260229.16415738722,"change_date":null,"id":808,"r_key":808,"type":"Sight","url_sightseeing":"https://www.bikeattraktiv.ch","touristic_region":14}}
+{
+  "type": "Feature",
+  "id": 808,
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      47.49014509957997,
+      8.225616932130308
+    ]
+  },
+  "properties": {
+    "land": null,
+    "category": "all",
+    "language": "en",
+    "title": "Pump track Wasserschloss",
+    "abstract": "The Aargau pump track Wasserschloss was opened in 2018 and is the first asphalt pump track in the canton. The waves with different distances are well suited for practising jumping.",
+    "description": "The Wasserschloss pump track is suitable for beginners and advanced riders. It consists of a continuous asphalt loop with three 180° and two 90° steep face curves. Different wave distances allow for shorter and longer jumps. The track is therefore ideal for learning how to jump or to dare a long jump once in a while. The waves can also be rolled over without any problems.\n\n\nThe first asphalt pump track in the canton of Aargau is located right next to the football training grounds in Brugg. In addition to mountain bikes, it can also be used with stunt or freestyle scooters, skateboards, or inline skates.\n\n\nSurface: asphalt \nLength: 120 metres \nSurface area: 800 m2 \nWave and curve height: 40-140 cm\n",
+    "highlights": null,
+    "foto": "https://images0.schweizmobil.ch/image/AG_Pumptrack_Wasserschloss_3_M.jpg",
+    "photo_gallery": [
+      "https://images0.schweizmobil.ch/image/AG_Pumptrack_Wasserschloss_1_s.jpg",
+      "https://images0.schweizmobil.ch/image/AG_Pumptrack_Wasserschloss_2_s.jpg",
+      "https://images0.schweizmobil.ch/image/AG_Pumptrack_Wasserschloss_3_s.jpg",
+      "https://images0.schweizmobil.ch/image/AG_Pumptrack_Wasserschloss_4_s.jpg",
+      "https://images0.schweizmobil.ch/image/AG_Pumptrack_Wasserschloss_5_s.jpg"
+    ],
+    "photo_gallery_big": [
+      "https://images0.schweizmobil.ch/image-big/AG_Pumptrack_Wasserschloss_1_g.jpg",
+      "https://images0.schweizmobil.ch/image-big/AG_Pumptrack_Wasserschloss_2_g.jpg",
+      "https://images0.schweizmobil.ch/image-big/AG_Pumptrack_Wasserschloss_3_g.jpg",
+      "https://images0.schweizmobil.ch/image-big/AG_Pumptrack_Wasserschloss_4_g.jpg",
+      "https://images0.schweizmobil.ch/image-big/AG_Pumptrack_Wasserschloss_5_g.jpg"
+    ],
+    "photo_gallery_copyright": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "photo_gallery_author": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "name": "Verein BikeAttrAktiv",
+    "name_2": null,
+    "street": "Ländestrasse 4C",
+    "zip": "5210",
+    "place": "Windisch",
+    "tel": "",
+    "fax": null,
+    "email": "bikeattraktiv@bluewin.ch",
+    "url1_link": "https://www.bikeattraktiv.ch",
+    "x_coordinate": 659308.3496804807,
+    "y_coordinate": 260229.16415738722,
+    "change_date": null,
+    "id": 808,
+    "r_key": 808,
+    "type": "Sight",
+    "url_sightseeing": "https://www.bikeattraktiv.ch",
+    "touristic_region": 14
+  }
+}

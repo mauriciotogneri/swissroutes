@@ -1,1 +1,54 @@
-{"type":"Feature","id":122,"geometry":{"type":"Point","coordinates":[46.96830110804053,8.592658581806244]},"properties":{"land":null,"category":"all","language":"en","title":"Sweet chestnuts on Lake Lucerne","abstract":"Heat-loving vegetation thrives along the shores of Lake Lucerne thanks to the mild climate conditions. Sweet chestnuts have been common in central Switzerland since at least the 14th century and were an important source of nutrition in the past.","description":"Due to the warm foehn wind and mild climate, plants that lend a southern feel to the area thrive around Lake Lucerne. The sweet chestnut trees are an example of this thermophilic flora. Sweet chestnuts are first mentioned in Schwyz and Weggis in documents dating from the 14th century. It is not widely known today, however, that sweet chestnuts were relatively common in central Switzerland and were also an important foodstuff.\n\nLake Lucerne, which is divided into different basins and has a fjord-like aspect in parts, melds steeply and smoothly with the landscape. This variety in the landscape is due to glaciers. It is even possible to find relicts of the Ice Age, around 20,000 years ago, in the middle of Lucerne. Thus, among other features, kettle basins can be found in the Glacier Garden which were formed by melt water at the base of the glacier.\n\nAccording to legend, the \"cradle of the Swiss Confederation” is located on the Rütli meadow on the side arm of Lake Lucerne.\n\nThe 35-kilometre-long \"Swiss Way” hiking trail, which was inaugurated in 1991 to mark Switzerland’s 700th anniversary, is also located on the Rütli meadow.","highlights":null,"foto":"https://images0.schweizmobil.ch/image-big/GA140916-P65-34-Master_g.jpg","photo_gallery":["https://images0.schweizmobil.ch/f6a650318a5330736ff3f9620f19df4a58dd36f0","https://images0.schweizmobil.ch/image/35_Vierwaldstaettersee.jpg"],"photo_gallery_big":["https://images0.schweizmobil.ch/image-big/GA140916-P65-34-Master_g.jpg",""],"photo_gallery_copyright":["Copyright AURA Fotoagentur",""],"photo_gallery_author":["",""],"name":"Bundesamt für Umwelt","name_2":null,"street":"und Naturdenkmäler von nationaler Bedeutung (BLN)","zip":"BLN-Objekt-Nr.","place":"1606 ","tel":"-","fax":null,"email":"bln@bafu.admin.ch","url1_link":"https://www.bafu.admin.ch/bln","x_coordinate":687820.1418420452,"y_coordinate":202560.42507136083,"change_date":null,"id":122,"r_key":122,"type":"Sight","url_sightseeing":"https://www.bafu.admin.ch/bln","touristic_region":4}}
+{
+  "type": "Feature",
+  "id": 122,
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      46.96830110804053,
+      8.592658581806244
+    ]
+  },
+  "properties": {
+    "land": null,
+    "category": "all",
+    "language": "en",
+    "title": "Sweet chestnuts on Lake Lucerne",
+    "abstract": "Heat-loving vegetation thrives along the shores of Lake Lucerne thanks to the mild climate conditions. Sweet chestnuts have been common in central Switzerland since at least the 14th century and were an important source of nutrition in the past.",
+    "description": "Due to the warm foehn wind and mild climate, plants that lend a southern feel to the area thrive around Lake Lucerne. The sweet chestnut trees are an example of this thermophilic flora. Sweet chestnuts are first mentioned in Schwyz and Weggis in documents dating from the 14th century. It is not widely known today, however, that sweet chestnuts were relatively common in central Switzerland and were also an important foodstuff.\n\nLake Lucerne, which is divided into different basins and has a fjord-like aspect in parts, melds steeply and smoothly with the landscape. This variety in the landscape is due to glaciers. It is even possible to find relicts of the Ice Age, around 20,000 years ago, in the middle of Lucerne. Thus, among other features, kettle basins can be found in the Glacier Garden which were formed by melt water at the base of the glacier.\n\nAccording to legend, the \"cradle of the Swiss Confederation” is located on the Rütli meadow on the side arm of Lake Lucerne.\n\nThe 35-kilometre-long \"Swiss Way” hiking trail, which was inaugurated in 1991 to mark Switzerland’s 700th anniversary, is also located on the Rütli meadow.",
+    "highlights": null,
+    "foto": "https://images0.schweizmobil.ch/image-big/GA140916-P65-34-Master_g.jpg",
+    "photo_gallery": [
+      "https://images0.schweizmobil.ch/f6a650318a5330736ff3f9620f19df4a58dd36f0",
+      "https://images0.schweizmobil.ch/image/35_Vierwaldstaettersee.jpg"
+    ],
+    "photo_gallery_big": [
+      "https://images0.schweizmobil.ch/image-big/GA140916-P65-34-Master_g.jpg",
+      ""
+    ],
+    "photo_gallery_copyright": [
+      "Copyright AURA Fotoagentur",
+      ""
+    ],
+    "photo_gallery_author": [
+      "",
+      ""
+    ],
+    "name": "Bundesamt für Umwelt",
+    "name_2": null,
+    "street": "und Naturdenkmäler von nationaler Bedeutung (BLN)",
+    "zip": "BLN-Objekt-Nr.",
+    "place": "1606 ",
+    "tel": "",
+    "fax": null,
+    "email": "bln@bafu.admin.ch",
+    "url1_link": "https://www.bafu.admin.ch/bln",
+    "x_coordinate": 687820.1418420452,
+    "y_coordinate": 202560.42507136083,
+    "change_date": null,
+    "id": 122,
+    "r_key": 122,
+    "type": "Sight",
+    "url_sightseeing": "https://www.bafu.admin.ch/bln",
+    "touristic_region": 4
+  }
+}

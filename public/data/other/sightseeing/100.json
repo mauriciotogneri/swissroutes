@@ -1,1 +1,54 @@
-{"type":"Feature","id":100,"geometry":{"type":"Point","coordinates":[46.377850674627794,8.017456912611783]},"properties":{"land":null,"category":"all","language":"en","title":"Jungfrau-Aletsch-Bietschhorn","abstract":"The Jungfrau-Aletsch-Bietschhorn area has been inscribed as a UNESCO Natural World Heritage Site since 2001. This means that Switzerland is responsible for providing effective protection to this unique Alpine region and passing it on to future generations unharmed.","description":"The Eiger, Mönch and Jungfrau and the Great Aletsch Glacier undoubtedly form the most famous mountain landscape in Europe. Since the advent of tourism in the Alps, the spectacular mountain scenery in the Bernese Oberland has attracted visitors from all over the world. Today, popular tourist locations can be found there right next to almost inaccessible valleys.\n\nAt 23 kilometres in length the Aletsch glacier is the biggest glacier in the Alps. It is currently shrinking, however, at a rate of up to 50 metres per year.\n\nThe Jungfrau-Aletsch-Bietschhorn area was inscribed as a UNESCO World Natural Heritage Site in 2001 and extended in 2007. Maintaining this mountain landscape in its overall variety poses a particular challenge as it includes both unspoiled natural features and the cultural landscape formed as a result of traditional farming methods.\n\nOf particular value in the latter context are the cleverly designed irrigation channels (known locally as Suonen) which can be found in the southern part of the Bietschhorn area.","highlights":null,"foto":"https://images0.schweizmobil.ch/image/15_UNESCO-Weltnaturerbe-Jun.jpg","photo_gallery":["https://images0.schweizmobil.ch/image/15_UNESCO-Weltnaturerbe-Jun.jpg","https://images0.schweizmobil.ch/image/15_Unesco---Aletschgletcher.jpg"],"photo_gallery_big":["",""],"photo_gallery_copyright":["",""],"photo_gallery_author":["",""],"name":"Bundesamt für Umwelt","name_2":null,"street":"und Naturdenkmäler von nationaler Bedeutung (BLN)","zip":"BLN-Objekt-Nr.","place":"1507/1706 ","tel":"-","fax":null,"email":"bln@bafu.admin.ch","url1_link":"https://www.bafu.admin.ch/bln","x_coordinate":644533.0999497373,"y_coordinate":136440.39705547565,"change_date":null,"id":100,"r_key":100,"type":"Sight","url_sightseeing":"http://www.bafu.admin.ch/bln","touristic_region":11}}
+{
+  "type": "Feature",
+  "id": 100,
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      46.377850674627794,
+      8.017456912611783
+    ]
+  },
+  "properties": {
+    "land": null,
+    "category": "all",
+    "language": "en",
+    "title": "Jungfrau-Aletsch-Bietschhorn",
+    "abstract": "The Jungfrau-Aletsch-Bietschhorn area has been inscribed as a UNESCO Natural World Heritage Site since 2001. This means that Switzerland is responsible for providing effective protection to this unique Alpine region and passing it on to future generations unharmed.",
+    "description": "The Eiger, Mönch and Jungfrau and the Great Aletsch Glacier undoubtedly form the most famous mountain landscape in Europe. Since the advent of tourism in the Alps, the spectacular mountain scenery in the Bernese Oberland has attracted visitors from all over the world. Today, popular tourist locations can be found there right next to almost inaccessible valleys.\n\nAt 23 kilometres in length the Aletsch glacier is the biggest glacier in the Alps. It is currently shrinking, however, at a rate of up to 50 metres per year.\n\nThe Jungfrau-Aletsch-Bietschhorn area was inscribed as a UNESCO World Natural Heritage Site in 2001 and extended in 2007. Maintaining this mountain landscape in its overall variety poses a particular challenge as it includes both unspoiled natural features and the cultural landscape formed as a result of traditional farming methods.\n\nOf particular value in the latter context are the cleverly designed irrigation channels (known locally as Suonen) which can be found in the southern part of the Bietschhorn area.",
+    "highlights": null,
+    "foto": "https://images0.schweizmobil.ch/image/15_UNESCO-Weltnaturerbe-Jun.jpg",
+    "photo_gallery": [
+      "https://images0.schweizmobil.ch/image/15_UNESCO-Weltnaturerbe-Jun.jpg",
+      "https://images0.schweizmobil.ch/image/15_Unesco---Aletschgletcher.jpg"
+    ],
+    "photo_gallery_big": [
+      "",
+      ""
+    ],
+    "photo_gallery_copyright": [
+      "",
+      ""
+    ],
+    "photo_gallery_author": [
+      "",
+      ""
+    ],
+    "name": "Bundesamt für Umwelt",
+    "name_2": null,
+    "street": "und Naturdenkmäler von nationaler Bedeutung (BLN)",
+    "zip": "BLN-Objekt-Nr.",
+    "place": "1507/1706 ",
+    "tel": "",
+    "fax": null,
+    "email": "bln@bafu.admin.ch",
+    "url1_link": "https://www.bafu.admin.ch/bln",
+    "x_coordinate": 644533.0999497373,
+    "y_coordinate": 136440.39705547565,
+    "change_date": null,
+    "id": 100,
+    "r_key": 100,
+    "type": "Sight",
+    "url_sightseeing": "http://www.bafu.admin.ch/bln",
+    "touristic_region": 11
+  }
+}

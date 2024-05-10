@@ -1,1 +1,54 @@
-{"type":"Feature","id":25,"geometry":{"type":"Point","coordinates":[46.24638853910565,8.029025916647083]},"properties":{"land":null,"category":"all","language":"en","title":"Simplon-Hospice","abstract":"During the building of the road over the Simplon, Napoleon ordered a hospice to be built at the summit of the pass in 1801. The accommodation was completed by the Great Saint Bernard canons in 1831. The three-storey building is the largest pass hospice in the Alps.","description":"From 1800 to 1805 Napoleon Bonaparte had the first alpine pass route practicable for vehicles built over the Simplon. In 1801 he ordered the construction of a hospice at the summit of the pass that could also be used as a barracks. The running of the hospice was given over to the Augustine canons of the Great Saint Bernard hospice.\n\nThe laying of the foundation stone only took place in 1813. The following year Napoleon was overthrown and building work was suspended. The Great Saint Bernard canons completed the building by the Lausanne architect Henri Perregaux in 1831. The accommodation for over 300 people fed and lodged up to 12000 guests per year.\n\nThe three-storey building with steep gable roof measures and impressive 20 to 64m. The recently-renovated and modernised hospice is open all year round and can accommodate up to 130 guests. It is still run as a meeting place by the Great Saint Bernard canons The almost 9m high Simplon eagle has stood opposite the hospice as a stone sentinel since the 2nd World War.","highlights":null,"foto":"https://images0.schweizmobil.ch/image/8026_Simplon-Hospiz_2a.jpg","photo_gallery":["https://images0.schweizmobil.ch/image/8026_Simplon-Hospiz_2a.jpg","https://images0.schweizmobil.ch/image/8026_Simplon-Hospiz_1b.jpg"],"photo_gallery_big":["",""],"photo_gallery_copyright":["",""],"photo_gallery_author":["",""],"name":"Simplon Tourismus","name_2":null,"street":"-","zip":"3907","place":"Simplon Dorf","tel":"+41 (0)27 979 10 10","fax":null,"email":"info@simplon.ch","url1_link":"https://www.simplon.ch","x_coordinate":645533.1322974389,"y_coordinate":121833.66234480221,"change_date":null,"id":25,"r_key":25,"type":"Sight","url_sightseeing":"https://www.simplon.ch","touristic_region":11}}
+{
+  "type": "Feature",
+  "id": 25,
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      46.24638853910565,
+      8.029025916647083
+    ]
+  },
+  "properties": {
+    "land": null,
+    "category": "all",
+    "language": "en",
+    "title": "Simplon-Hospice",
+    "abstract": "During the building of the road over the Simplon, Napoleon ordered a hospice to be built at the summit of the pass in 1801. The accommodation was completed by the Great Saint Bernard canons in 1831. The three-storey building is the largest pass hospice in the Alps.",
+    "description": "From 1800 to 1805 Napoleon Bonaparte had the first alpine pass route practicable for vehicles built over the Simplon. In 1801 he ordered the construction of a hospice at the summit of the pass that could also be used as a barracks. The running of the hospice was given over to the Augustine canons of the Great Saint Bernard hospice.\n\nThe laying of the foundation stone only took place in 1813. The following year Napoleon was overthrown and building work was suspended. The Great Saint Bernard canons completed the building by the Lausanne architect Henri Perregaux in 1831. The accommodation for over 300 people fed and lodged up to 12000 guests per year.\n\nThe three-storey building with steep gable roof measures and impressive 20 to 64m. The recently-renovated and modernised hospice is open all year round and can accommodate up to 130 guests. It is still run as a meeting place by the Great Saint Bernard canons The almost 9m high Simplon eagle has stood opposite the hospice as a stone sentinel since the 2nd World War.",
+    "highlights": null,
+    "foto": "https://images0.schweizmobil.ch/image/8026_Simplon-Hospiz_2a.jpg",
+    "photo_gallery": [
+      "https://images0.schweizmobil.ch/image/8026_Simplon-Hospiz_2a.jpg",
+      "https://images0.schweizmobil.ch/image/8026_Simplon-Hospiz_1b.jpg"
+    ],
+    "photo_gallery_big": [
+      "",
+      ""
+    ],
+    "photo_gallery_copyright": [
+      "",
+      ""
+    ],
+    "photo_gallery_author": [
+      "",
+      ""
+    ],
+    "name": "Simplon Tourismus",
+    "name_2": null,
+    "street": "",
+    "zip": "3907",
+    "place": "Simplon Dorf",
+    "tel": "+41 (0)27 979 10 10",
+    "fax": null,
+    "email": "info@simplon.ch",
+    "url1_link": "https://www.simplon.ch",
+    "x_coordinate": 645533.1322974389,
+    "y_coordinate": 121833.66234480221,
+    "change_date": null,
+    "id": 25,
+    "r_key": 25,
+    "type": "Sight",
+    "url_sightseeing": "https://www.simplon.ch",
+    "touristic_region": 11
+  }
+}

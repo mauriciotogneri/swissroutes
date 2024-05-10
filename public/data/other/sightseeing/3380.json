@@ -1,1 +1,54 @@
-{"type":"Feature","id":3380,"geometry":{"type":"Point","coordinates":[47.368430345468255,8.542227213075211]},"properties":{"land":null,"category":"all","language":"en","title":"Frauenbadi river bath Zurich","abstract":"A visit to the «Frauenbadi» means you can swim through the Old Town against the backdrop of the Grossmünster Church. After dusk, the baths turn into a bar.","description":"The facility is Zürich’s oldest box bath, a closed rectangular wooden construction with sunning areas. It was built in 1837 as a small ‘bathing house for women’ in the Limmat. The facility is still reserved for women by day and houses a small library, a shop, and a juice stand offering sandwiches and freshly pressed juices. Shiatsu, Qigong Yangsheng and classic massages can also be enjoyed on request.\n\nOnly women are allowed to bathe by day, but men are welcome at night. The Barfussbar (‘barefoot bar’) is a barefoot zone in the box bath in the center of the Old Town. Cultural events such as concerts, spectator sports, and readings take place on ‘Culture Wednesdays.","highlights":null,"foto":"https://images0.schweizmobil.ch/image/9149_Frauenbadi_2a.jpg","photo_gallery":["https://images0.schweizmobil.ch/image/9149_Frauenbadi_1b.jpg","https://images0.schweizmobil.ch/image/9149_Frauenbadi_2a.jpg"],"photo_gallery_big":["",""],"photo_gallery_copyright":["",""],"photo_gallery_author":["",""],"name":"Frauenbadi","name_2":null,"street":"Stadthausquai 12","zip":"8001","place":"Zürich","tel":"+41 (0)44 211 95 92","fax":null,"email":"-","url1_link":"https://www.stadt-zuerich.ch/ssd/de/index/sport/schwimmen/sommerbaeder/frauenbad_stadthausquai.html","x_coordinate":683357.1444668057,"y_coordinate":246985.68385589888,"change_date":null,"id":3380,"r_key":3380,"type":"Sight","url_sightseeing":"https://www.stadt-zuerich.ch/ssd/de/index/sport/schwimmen/sommerbaeder/frauenbad_stadthausquai.html","touristic_region":3}}
+{
+  "type": "Feature",
+  "id": 3380,
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      47.368430345468255,
+      8.542227213075211
+    ]
+  },
+  "properties": {
+    "land": null,
+    "category": "all",
+    "language": "en",
+    "title": "Frauenbadi river bath Zurich",
+    "abstract": "A visit to the «Frauenbadi» means you can swim through the Old Town against the backdrop of the Grossmünster Church. After dusk, the baths turn into a bar.",
+    "description": "The facility is Zürich’s oldest box bath, a closed rectangular wooden construction with sunning areas. It was built in 1837 as a small ‘bathing house for women’ in the Limmat. The facility is still reserved for women by day and houses a small library, a shop, and a juice stand offering sandwiches and freshly pressed juices. Shiatsu, Qigong Yangsheng and classic massages can also be enjoyed on request.\n\nOnly women are allowed to bathe by day, but men are welcome at night. The Barfussbar (‘barefoot bar’) is a barefoot zone in the box bath in the center of the Old Town. Cultural events such as concerts, spectator sports, and readings take place on ‘Culture Wednesdays.",
+    "highlights": null,
+    "foto": "https://images0.schweizmobil.ch/image/9149_Frauenbadi_2a.jpg",
+    "photo_gallery": [
+      "https://images0.schweizmobil.ch/image/9149_Frauenbadi_1b.jpg",
+      "https://images0.schweizmobil.ch/image/9149_Frauenbadi_2a.jpg"
+    ],
+    "photo_gallery_big": [
+      "",
+      ""
+    ],
+    "photo_gallery_copyright": [
+      "",
+      ""
+    ],
+    "photo_gallery_author": [
+      "",
+      ""
+    ],
+    "name": "Frauenbadi",
+    "name_2": null,
+    "street": "Stadthausquai 12",
+    "zip": "8001",
+    "place": "Zürich",
+    "tel": "+41 (0)44 211 95 92",
+    "fax": null,
+    "email": "",
+    "url1_link": "https://www.stadt-zuerich.ch/ssd/de/index/sport/schwimmen/sommerbaeder/frauenbad_stadthausquai.html",
+    "x_coordinate": 683357.1444668057,
+    "y_coordinate": 246985.68385589888,
+    "change_date": null,
+    "id": 3380,
+    "r_key": 3380,
+    "type": "Sight",
+    "url_sightseeing": "https://www.stadt-zuerich.ch/ssd/de/index/sport/schwimmen/sommerbaeder/frauenbad_stadthausquai.html",
+    "touristic_region": 3
+  }
+}

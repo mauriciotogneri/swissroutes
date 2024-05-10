@@ -1,1 +1,54 @@
-{"type":"Feature","id":101,"geometry":{"type":"Point","coordinates":[46.474231270791165,6.783423489152067]},"properties":{"land":null,"category":"all","language":"en","title":"On the Lavaux vineyard terraces","abstract":"With its seven-kilometre-long terraces, Lavaux is one of the most famous wine-growing regions in Switzerland. The first terraces were created by monks in the 12th century. The area, which is located between Lausanne and Vevey, was inscribed as a UNESCO World Cultural Heritage Site in 2007.","description":"Lavaux is a magnificent terraced landscape on Lake Geneva. The region between Lausanne and Vevey is one of the best known wine-growing areas in Switzerland. Many painters and poets have been inspired by the picturesque wine villages and the magnificent view across Lake Geneva to the Savoie mountain peaks.\n\nThe vines benefit from the sunlight reflected by the lake and the heat that remains stored in the stone walls.\n\nThe Bishop of Lausanne gave various lands the Cistercian Order in the 12th century. The monks reclaimed the steep land by creating artificial terraces for wine growing. Today, Lavaux is a cultural landscape formed by generations of wine growers.\n\nAs an international acknowledgement of the uniqueness of this man-made landscape, the Lavaux wine-growing area was inscribed as a UNESCO World Cultural Heritage Site in 2007.","highlights":null,"foto":"https://images0.schweizmobil.ch/image/16_Lavaux-4-547717-148453.jpg","photo_gallery":["https://images0.schweizmobil.ch/image/16_Lavaux-4-547717-148453.jpg","https://images0.schweizmobil.ch/image/16_Lavaux.jpg"],"photo_gallery_big":["",""],"photo_gallery_copyright":["",""],"photo_gallery_author":["",""],"name":"Bundesamt für Umwelt","name_2":null,"street":"und Naturdenkmäler von nationaler Bedeutung (BLN)","zip":"BLN-Objekt-Nr.","place":"1202","tel":"-","fax":null,"email":"bln@bafu.admin.ch","url1_link":"https://www.bafu.admin.ch/bln","x_coordinate":549679.7871933198,"y_coordinate":147200.38973374237,"change_date":null,"id":101,"r_key":101,"type":"Sight","url_sightseeing":"https://www.bafu.admin.ch/bln","touristic_region":9}}
+{
+  "type": "Feature",
+  "id": 101,
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      46.474231270791165,
+      6.783423489152067
+    ]
+  },
+  "properties": {
+    "land": null,
+    "category": "all",
+    "language": "en",
+    "title": "On the Lavaux vineyard terraces",
+    "abstract": "With its seven-kilometre-long terraces, Lavaux is one of the most famous wine-growing regions in Switzerland. The first terraces were created by monks in the 12th century. The area, which is located between Lausanne and Vevey, was inscribed as a UNESCO World Cultural Heritage Site in 2007.",
+    "description": "Lavaux is a magnificent terraced landscape on Lake Geneva. The region between Lausanne and Vevey is one of the best known wine-growing areas in Switzerland. Many painters and poets have been inspired by the picturesque wine villages and the magnificent view across Lake Geneva to the Savoie mountain peaks.\n\nThe vines benefit from the sunlight reflected by the lake and the heat that remains stored in the stone walls.\n\nThe Bishop of Lausanne gave various lands the Cistercian Order in the 12th century. The monks reclaimed the steep land by creating artificial terraces for wine growing. Today, Lavaux is a cultural landscape formed by generations of wine growers.\n\nAs an international acknowledgement of the uniqueness of this man-made landscape, the Lavaux wine-growing area was inscribed as a UNESCO World Cultural Heritage Site in 2007.",
+    "highlights": null,
+    "foto": "https://images0.schweizmobil.ch/image/16_Lavaux-4-547717-148453.jpg",
+    "photo_gallery": [
+      "https://images0.schweizmobil.ch/image/16_Lavaux-4-547717-148453.jpg",
+      "https://images0.schweizmobil.ch/image/16_Lavaux.jpg"
+    ],
+    "photo_gallery_big": [
+      "",
+      ""
+    ],
+    "photo_gallery_copyright": [
+      "",
+      ""
+    ],
+    "photo_gallery_author": [
+      "",
+      ""
+    ],
+    "name": "Bundesamt für Umwelt",
+    "name_2": null,
+    "street": "und Naturdenkmäler von nationaler Bedeutung (BLN)",
+    "zip": "BLN-Objekt-Nr.",
+    "place": "1202",
+    "tel": "",
+    "fax": null,
+    "email": "bln@bafu.admin.ch",
+    "url1_link": "https://www.bafu.admin.ch/bln",
+    "x_coordinate": 549679.7871933198,
+    "y_coordinate": 147200.38973374237,
+    "change_date": null,
+    "id": 101,
+    "r_key": 101,
+    "type": "Sight",
+    "url_sightseeing": "https://www.bafu.admin.ch/bln",
+    "touristic_region": 9
+  }
+}

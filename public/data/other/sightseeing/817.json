@@ -1,1 +1,70 @@
-{"type":"Feature","id":817,"geometry":{"type":"Point","coordinates":[47.573255777087375,7.5930258401117685]},"properties":{"land":null,"category":"all","language":"en","title":"Horburg dirt and pump track","abstract":"There is a classic dirt pump track at the Horburg park in Basel. From the dirt line with a start ramp, you can access various lines. The pump track consists of successive bends, tables and waves. It is more suitable for advanced riders. ","description":"The «Horbi» features one of the oldest classic dirt parks in Switzerland. It is situated in the middle of the city of Basel in a park. The two main lines of the pump track are peppered with different elements that you can combine in various ways. One line is completely rollable, although you have to skip one or the other feature for this. The dirt line, which also leads into the pump track, is reserved for experts. Also the start ramp, which is secured with a chain. \n\nThe «Horbi» is well maintained and the lines are changed or newly created from time to time. So there is always something new to discover.\n\nThere is a table with seating in the starting area. The trees in the park provide shade, so that the facility can also be used in the summer heat. To avoid damaging the lines, riding is only allowed in dry conditions. Scooters or inline skates are not permitted on this facility.\n\nSurface: dirt\n","highlights":null,"foto":"https://images0.schweizmobil.ch/image/BS_Horburgpark_1_M.jpg","photo_gallery":["https://images0.schweizmobil.ch/image/BS_Horburgpark_1_M.jpg","https://images0.schweizmobil.ch/image/BS_Horburgpark_2a_M.jpg","https://images0.schweizmobil.ch/image/BS_Horburgpark_2b_M.jpg","https://images0.schweizmobil.ch/image/BS_Horburgpark_2c_M.jpg","https://images0.schweizmobil.ch/image/BS_Horburgpark_3_M.jpg","https://images0.schweizmobil.ch/image/BS_Horburgpark_4_M.jpg"],"photo_gallery_big":["","","","","",""],"photo_gallery_copyright":["","","","","",""],"photo_gallery_author":["","","","","",""],"name":"Trailnet Nordwestschweiz - Horbi Crew","name_2":null,"street":"Gottesackerstrasse","zip":"4057","place":"Basel","tel":"-","fax":null,"email":"horbi@trailnet.ch","url1_link":"https://www.trailnet-nordwestschweiz.ch/horbi-dirt/","x_coordinate":611617.5265418674,"y_coordinate":269184.3290786599,"change_date":null,"id":817,"r_key":817,"type":"Sight","url_sightseeing":"https://www.trailnet-nordwestschweiz.ch/horbi-dirt/","touristic_region":5}}
+{
+  "type": "Feature",
+  "id": 817,
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      47.573255777087375,
+      7.5930258401117685
+    ]
+  },
+  "properties": {
+    "land": null,
+    "category": "all",
+    "language": "en",
+    "title": "Horburg dirt and pump track",
+    "abstract": "There is a classic dirt pump track at the Horburg park in Basel. From the dirt line with a start ramp, you can access various lines. The pump track consists of successive bends, tables and waves. It is more suitable for advanced riders. ",
+    "description": "The «Horbi» features one of the oldest classic dirt parks in Switzerland. It is situated in the middle of the city of Basel in a park. The two main lines of the pump track are peppered with different elements that you can combine in various ways. One line is completely rollable, although you have to skip one or the other feature for this. The dirt line, which also leads into the pump track, is reserved for experts. Also the start ramp, which is secured with a chain. \n\nThe «Horbi» is well maintained and the lines are changed or newly created from time to time. So there is always something new to discover.\n\nThere is a table with seating in the starting area. The trees in the park provide shade, so that the facility can also be used in the summer heat. To avoid damaging the lines, riding is only allowed in dry conditions. Scooters or inline skates are not permitted on this facility.\n\nSurface: dirt\n",
+    "highlights": null,
+    "foto": "https://images0.schweizmobil.ch/image/BS_Horburgpark_1_M.jpg",
+    "photo_gallery": [
+      "https://images0.schweizmobil.ch/image/BS_Horburgpark_1_M.jpg",
+      "https://images0.schweizmobil.ch/image/BS_Horburgpark_2a_M.jpg",
+      "https://images0.schweizmobil.ch/image/BS_Horburgpark_2b_M.jpg",
+      "https://images0.schweizmobil.ch/image/BS_Horburgpark_2c_M.jpg",
+      "https://images0.schweizmobil.ch/image/BS_Horburgpark_3_M.jpg",
+      "https://images0.schweizmobil.ch/image/BS_Horburgpark_4_M.jpg"
+    ],
+    "photo_gallery_big": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "photo_gallery_copyright": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "photo_gallery_author": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "name": "Trailnet Nordwestschweiz - Horbi Crew",
+    "name_2": null,
+    "street": "Gottesackerstrasse",
+    "zip": "4057",
+    "place": "Basel",
+    "tel": "",
+    "fax": null,
+    "email": "horbi@trailnet.ch",
+    "url1_link": "https://www.trailnet-nordwestschweiz.ch/horbi-dirt/",
+    "x_coordinate": 611617.5265418674,
+    "y_coordinate": 269184.3290786599,
+    "change_date": null,
+    "id": 817,
+    "r_key": 817,
+    "type": "Sight",
+    "url_sightseeing": "https://www.trailnet-nordwestschweiz.ch/horbi-dirt/",
+    "touristic_region": 5
+  }
+}

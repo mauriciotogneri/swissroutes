@@ -1,1 +1,54 @@
-{"type":"Feature","id":126,"geometry":{"type":"Point","coordinates":[46.67377801796016,7.834226331303252]},"properties":{"land":null,"category":"all","language":"en","title":"The Weissenau near Interlaken","abstract":"The Weissenau on Lake Thun is a nature reserve which provides habitats for numerous species of flora and fauna. Significantly, in future, the regulation of the lake water level will take the interests of nature conservation into account along with those of flood protection.","description":"The Weissenau nature reserve is on Lake Thun near Interlaken. The area is characterized by alluvial sites and blanket mires and a rich variety of flora. The lakeshore provides feeding and breeding places for numerous bird species. Weissenau is also an important transit area and hibernation site for many bird species, and a moulting ground where the animals change their plumage.\n\nA flood relief tunnel is currently being built in Thun to extend the drainage capacity in the Aare. This should prevent further flooding on Lake Thun. The water level that should be established is currently being discussed in the context of the regulation of the lake water level. The blanket mires on the lakeshore, which can react sensitively to changes in the typical annual changes in the water level, should be taken into account here.","highlights":null,"foto":"https://images0.schweizmobil.ch/image/39_Weissenau-1-629011-16958.jpg","photo_gallery":["https://images0.schweizmobil.ch/image/39_Weissenau-1-629011-16958.jpg","https://images0.schweizmobil.ch/image/39_Weissenau.jpg"],"photo_gallery_big":["",""],"photo_gallery_copyright":["",""],"photo_gallery_author":["",""],"name":"Bundesamt für Umwelt","name_2":null,"street":"und Naturdenkmäler von nationaler Bedeutung (BLN)","zip":"BLN-Objekt-Nr.","place":"1508","tel":"-","fax":null,"email":"bln@bafu.admin.ch","url1_link":"https://www.bafu.admin.ch/bln","x_coordinate":630270.2915612286,"y_coordinate":169249.7871042895,"change_date":null,"id":126,"r_key":126,"type":"Sight","url_sightseeing":"https://www.bafu.admin.ch/bln","touristic_region":6}}
+{
+  "type": "Feature",
+  "id": 126,
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      46.67377801796016,
+      7.834226331303252
+    ]
+  },
+  "properties": {
+    "land": null,
+    "category": "all",
+    "language": "en",
+    "title": "The Weissenau near Interlaken",
+    "abstract": "The Weissenau on Lake Thun is a nature reserve which provides habitats for numerous species of flora and fauna. Significantly, in future, the regulation of the lake water level will take the interests of nature conservation into account along with those of flood protection.",
+    "description": "The Weissenau nature reserve is on Lake Thun near Interlaken. The area is characterized by alluvial sites and blanket mires and a rich variety of flora. The lakeshore provides feeding and breeding places for numerous bird species. Weissenau is also an important transit area and hibernation site for many bird species, and a moulting ground where the animals change their plumage.\n\nA flood relief tunnel is currently being built in Thun to extend the drainage capacity in the Aare. This should prevent further flooding on Lake Thun. The water level that should be established is currently being discussed in the context of the regulation of the lake water level. The blanket mires on the lakeshore, which can react sensitively to changes in the typical annual changes in the water level, should be taken into account here.",
+    "highlights": null,
+    "foto": "https://images0.schweizmobil.ch/image/39_Weissenau-1-629011-16958.jpg",
+    "photo_gallery": [
+      "https://images0.schweizmobil.ch/image/39_Weissenau-1-629011-16958.jpg",
+      "https://images0.schweizmobil.ch/image/39_Weissenau.jpg"
+    ],
+    "photo_gallery_big": [
+      "",
+      ""
+    ],
+    "photo_gallery_copyright": [
+      "",
+      ""
+    ],
+    "photo_gallery_author": [
+      "",
+      ""
+    ],
+    "name": "Bundesamt für Umwelt",
+    "name_2": null,
+    "street": "und Naturdenkmäler von nationaler Bedeutung (BLN)",
+    "zip": "BLN-Objekt-Nr.",
+    "place": "1508",
+    "tel": "",
+    "fax": null,
+    "email": "bln@bafu.admin.ch",
+    "url1_link": "https://www.bafu.admin.ch/bln",
+    "x_coordinate": 630270.2915612286,
+    "y_coordinate": 169249.7871042895,
+    "change_date": null,
+    "id": 126,
+    "r_key": 126,
+    "type": "Sight",
+    "url_sightseeing": "https://www.bafu.admin.ch/bln",
+    "touristic_region": 6
+  }
+}

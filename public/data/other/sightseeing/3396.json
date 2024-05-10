@@ -1,1 +1,66 @@
-{"type":"Feature","id":3396,"geometry":{"type":"Point","coordinates":[46.12604398259637,8.92132741334047]},"properties":{"land":null,"category":"all","language":"en","title":"Splash & Spa Tamaro","abstract":"Situated 10 km from Lugano, Splash & Spa Tamaro is the first water park open 365 days a year to offer water leisure activities, a spa and wellness treatments in a single complex, with more than 10,000 square metres dedicated to entertainment and well-being.","description":"The complex comprises Splash (7,000 square metres) and Spa (3,000 square metres), spread among three separate communicating domes. \n\nThe Entertainment dome features a large pool with one-metre-high waves, a hydromassage tub with a poolside bar and a children’s area with a selection of games, where parents can relax. The Action dome houses five latest-generation slides offering an unforgettable descent. \n\nThe Wellness & Spa dome contains a spacious and luxurious spa, where visitors can indulge in themed saunas and Turkish baths, massages and a range of other treatments to recharge their batteries and recover, in just a few hours, from the stress of everyday life.\n\nIn addition, the complex offers several outdoor attractions including a superb panoramic swimming pool heated to 34°C. Finally, there is a large terrace with an enchanting view of the surrounding mountains, a sauna and a salt-water pool heated to 34°C. \n\nSplash & Spa Tamaro offers all-round fun, entertainment, well-being and health and is open 365 days a year.","highlights":"Learner’s pool, kiddie pool\n \nSlide, salt-water pool, play area, quiet area\n\nSauna, showers, WC facilities, drinking water","foto":"https://images0.schweizmobil.ch/image-big/Baden_SchwimmbadRivera_1_g.jpg","photo_gallery":["https://images0.schweizmobil.ch/image/Baden_SchwimmbadRivera_1_s.jpg","https://images0.schweizmobil.ch/image/Baden_SchwimmbadRivera_2_s.jpg","https://images0.schweizmobil.ch/image/Baden_SchwimmbadRivera_3_s.jpg","https://images0.schweizmobil.ch/image/Baden_SchwimmbadRivera_4_s.jpg","https://images0.schweizmobil.ch/image/Baden_SchwimmbadRivera_5_s.jpg"],"photo_gallery_big":["https://images0.schweizmobil.ch/image-big/Baden_SchwimmbadRivera_1_g.jpg","https://images0.schweizmobil.ch/image-big/Baden_SchwimmbadRivera_2_g.jpg","https://images0.schweizmobil.ch/image-big/Baden_SchwimmbadRivera_3_g.jpg","","https://images0.schweizmobil.ch/image-big/Baden_SchwimmbadRivera_5_g.jpg"],"photo_gallery_copyright":["","","","",""],"photo_gallery_author":["","","","",""],"name":"Splash e Spa Tamaro SA","name_2":null,"street":"via Campagnole 1","zip":"6802","place":"Rivera","tel":"+41 (0)91 936 22 22","fax":null,"email":"-","url1_link":"https://www.splashespa.ch","x_coordinate":714598.3019738103,"y_coordinate":109366.30923444289,"change_date":null,"id":3396,"r_key":3396,"type":"Sight","url_sightseeing":"https://www.splashespa.ch","touristic_region":12}}
+{
+  "type": "Feature",
+  "id": 3396,
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      46.12604398259637,
+      8.92132741334047
+    ]
+  },
+  "properties": {
+    "land": null,
+    "category": "all",
+    "language": "en",
+    "title": "Splash & Spa Tamaro",
+    "abstract": "Situated 10 km from Lugano, Splash & Spa Tamaro is the first water park open 365 days a year to offer water leisure activities, a spa and wellness treatments in a single complex, with more than 10,000 square metres dedicated to entertainment and well-being.",
+    "description": "The complex comprises Splash (7,000 square metres) and Spa (3,000 square metres), spread among three separate communicating domes. \n\nThe Entertainment dome features a large pool with one-metre-high waves, a hydromassage tub with a poolside bar and a children’s area with a selection of games, where parents can relax. The Action dome houses five latest-generation slides offering an unforgettable descent. \n\nThe Wellness & Spa dome contains a spacious and luxurious spa, where visitors can indulge in themed saunas and Turkish baths, massages and a range of other treatments to recharge their batteries and recover, in just a few hours, from the stress of everyday life.\n\nIn addition, the complex offers several outdoor attractions including a superb panoramic swimming pool heated to 34°C. Finally, there is a large terrace with an enchanting view of the surrounding mountains, a sauna and a salt-water pool heated to 34°C. \n\nSplash & Spa Tamaro offers all-round fun, entertainment, well-being and health and is open 365 days a year.",
+    "highlights": "Learner’s pool, kiddie pool\n \nSlide, salt-water pool, play area, quiet area\n\nSauna, showers, WC facilities, drinking water",
+    "foto": "https://images0.schweizmobil.ch/image-big/Baden_SchwimmbadRivera_1_g.jpg",
+    "photo_gallery": [
+      "https://images0.schweizmobil.ch/image/Baden_SchwimmbadRivera_1_s.jpg",
+      "https://images0.schweizmobil.ch/image/Baden_SchwimmbadRivera_2_s.jpg",
+      "https://images0.schweizmobil.ch/image/Baden_SchwimmbadRivera_3_s.jpg",
+      "https://images0.schweizmobil.ch/image/Baden_SchwimmbadRivera_4_s.jpg",
+      "https://images0.schweizmobil.ch/image/Baden_SchwimmbadRivera_5_s.jpg"
+    ],
+    "photo_gallery_big": [
+      "https://images0.schweizmobil.ch/image-big/Baden_SchwimmbadRivera_1_g.jpg",
+      "https://images0.schweizmobil.ch/image-big/Baden_SchwimmbadRivera_2_g.jpg",
+      "https://images0.schweizmobil.ch/image-big/Baden_SchwimmbadRivera_3_g.jpg",
+      "",
+      "https://images0.schweizmobil.ch/image-big/Baden_SchwimmbadRivera_5_g.jpg"
+    ],
+    "photo_gallery_copyright": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "photo_gallery_author": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "name": "Splash e Spa Tamaro SA",
+    "name_2": null,
+    "street": "via Campagnole 1",
+    "zip": "6802",
+    "place": "Rivera",
+    "tel": "+41 (0)91 936 22 22",
+    "fax": null,
+    "email": "",
+    "url1_link": "https://www.splashespa.ch",
+    "x_coordinate": 714598.3019738103,
+    "y_coordinate": 109366.30923444289,
+    "change_date": null,
+    "id": 3396,
+    "r_key": 3396,
+    "type": "Sight",
+    "url_sightseeing": "https://www.splashespa.ch",
+    "touristic_region": 12
+  }
+}
