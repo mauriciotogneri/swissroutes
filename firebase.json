@@ -26,6 +26,16 @@
       "firebase.json",
       "**/.*",
       "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "/website",
+        "function": {
+          "functionId": "website",
+          "region": "europe-west6",
+          "pinTag": true
+        }
+      }
     ]
   }
 }
