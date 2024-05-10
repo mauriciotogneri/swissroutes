@@ -224,7 +224,7 @@ function loadRoute(type, url, focus) {
       showRoute(type, url, json, focus)
     }
   }
-  xhttp.open('GET', url, true)
+  xhttp.open('GET', `data/${url}`, true)
   xhttp.send()
 }
 
