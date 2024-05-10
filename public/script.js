@@ -6,6 +6,7 @@ let markersAdded = []
 let pathsAdded = []
 let currentGallery = []
 let currentGalleryIndex = 0
+let currentJson = null
 
 const COLORS = ['#e81123', '#c6ba15', '#ff8c00', '#ec008c', '#68217a', '#00188f', '#00bcf2', '#00b294', '#009e49', '#bad80a']
 
@@ -260,7 +261,7 @@ function showRoute(type, url, json, focus) {
   let content = ''
   content += `<img width='25' src='${json.properties.logo}' style='margin-right:10px'/>`
   content += `<a href='https://www.schweizmobil.ch/en/${type}-in-switzerland/route-${json.properties.r_number}' target='_blank'>${json.properties.title}</a>`
-  content += `<span style='position:absolute;left:100%;top:15px;transform:translateX(-150%);'><a href='?url=${encodeURIComponent(url)}&type=${type}' style='margin-right:20px' target='_blank'>SHARE</a><a href='gpx.php?file=${url}' target='_blank'>DOWNLOAD</a></span><br/><br/>`
+  content += `<span style='position:absolute;left:100%;top:15px;transform:translateX(-120%);'><a href='?url=${encodeURIComponent(url)}&type=${type}' style='margin-right:20px' target='_blank'>SHARE</a><span style="cursor:pointer" onclick='download()'><b>DOWNLOAD</b></span></span><br/><br/>`
   content += `<p><b>Length</b>: ${json.properties.length} km (${parseInt(json.properties.length_asphalt * 100 / json.properties.length)}% asphalted)<br/>`
   content += `<b>↗</b> ${json.properties.height_difference.toLocaleString()} m<br/>`
   content += `<b>↘</b> ${json.properties.height_difference_back.toLocaleString()} m</p>`
@@ -285,8 +286,8 @@ function showRoute(type, url, json, focus) {
   const end = point(lastStage[lastStage.length - 1][0], lastStage[lastStage.length - 1][1])
 
   const markerText = json.properties.r_number
-  const markerStart = showMarker(start.lat, start.lng, infowindow, markerText, galleryList)
-  const markerEnd = showMarker(end.lat, end.lng, infowindow, markerText, galleryList)
+  const markerStart = showMarker(start.lat, start.lng, infowindow, markerText, json, galleryList)
+  const markerEnd = showMarker(end.lat, end.lng, infowindow, markerText, json, galleryList)
   const color = nameToRGB(json.properties.title)
 
   let north = -90
@@ -303,7 +304,7 @@ function showRoute(type, url, json, focus) {
       path.push(newPoint)
     }
 
-    showPath(path, markerStart, infowindow, color, galleryList, focus)
+    showPath(path, markerStart, infowindow, color, galleryList, json, focus)
 
     for (let coordinate of path) {
       if (coordinate.lat > north) {
@@ -377,7 +378,7 @@ function showPoint(label, baseLink, json) {
 
   urls.forEach((url) => {
     content += `<a href='${url}' target='_blank'>${url}</a><br/><br/>`
-  });
+  })
 
   const galleryList = getGallery(json)
 
@@ -392,7 +393,7 @@ function showPoint(label, baseLink, json) {
     content: content
   })
 
-  showMarker(json.geometry.coordinates[0], json.geometry.coordinates[1], infowindow, label, galleryList)
+  showMarker(json.geometry.coordinates[0], json.geometry.coordinates[1], infowindow, label, json, galleryList)
 }
 
 function showMountainHike(json) {
@@ -428,7 +429,7 @@ function showMountainHike(json) {
     content: content
   })
 
-  showMarker(json.geometry.coordinates[0], json.geometry.coordinates[1], infowindow, 'Mountain Hike', galleryList)
+  showMarker(json.geometry.coordinates[0], json.geometry.coordinates[1], infowindow, 'Mountain Hike', json, galleryList)
 }
 
 function showChargingStations(json) {
@@ -445,7 +446,7 @@ function showChargingStations(json) {
 
   const coordinates = json.Point.coordinates.split(',')
 
-  showMarker(parseFloat(coordinates[1]), parseFloat(coordinates[0]), infowindow, '+/-')
+  showMarker(parseFloat(coordinates[1]), parseFloat(coordinates[0]), infowindow, '+/-', json)
 }
 
 function getGallery(json) {
@@ -484,7 +485,7 @@ function plusSlides(offset, id) {
   index.innerHTML = `${currentGalleryIndex + 1}/${currentGallery.length}`
 }
 
-function showMarker(lat, lon, infowindow, text, gallery) {
+function showMarker(lat, lon, infowindow, text, json, gallery) {
   const marker = new google.maps.Marker({
     position: {
       lat: lat,
@@ -508,6 +509,7 @@ function showMarker(lat, lon, infowindow, text, gallery) {
 
     currentGallery = gallery
     currentGalleryIndex = 0
+    currentJson = json
   })
 
   markersAdded.push(marker)
@@ -515,7 +517,7 @@ function showMarker(lat, lon, infowindow, text, gallery) {
   return marker
 }
 
-function showPath(coordinates, markerStart, infowindow, color, gallery, focus) {
+function showPath(coordinates, markerStart, infowindow, color, gallery, json, focus) {
   const path = new google.maps.Polyline({
     path: coordinates,
     geodesic: true,
@@ -534,6 +536,7 @@ function showPath(coordinates, markerStart, infowindow, color, gallery, focus) {
 
     currentGallery = gallery
     currentGalleryIndex = 0
+    currentJson = json
   })
 
   path.setMap(map)
@@ -558,4 +561,55 @@ function nameToRGB(name) {
   }
 
   return COLORS[hash % 10]
+}
+
+function download() {
+  const data = gpxData(currentJson)
+  const filename = `${currentJson.properties.r_number} - ${currentJson.properties.title}.gpx`
+  const file = new Blob([data], { type: 'application/xml' })
+
+  if (window.navigator.msSaveOrOpenBlob) {
+    window.navigator.msSaveOrOpenBlob(file, filename)
+  } else {
+    const a = document.createElement('a'),
+      url = URL.createObjectURL(file)
+    a.href = url
+    a.download = filename
+    document.body.appendChild(a)
+    a.click()
+
+    setTimeout(function () {
+      document.body.removeChild(a)
+      window.URL.revokeObjectURL(url)
+    }, 0)
+  }
+}
+
+function gpxData(json) {
+  const name = `${json.properties.r_number} - ${json.properties.title}`
+  let xml = "<?xml version='1.0' encoding='UTF-8'?>\n"
+  xml += "<gpx version='1.1' xmlns='http://www.topografix.com/GPX/1/1' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd'>\n"
+  xml += "\t<metadata>\n"
+  xml += `\t\t<name>${name}</name>\n`
+  xml += "\t</metadata>\n"
+  xml += "\t<trk>\n"
+  xml += `\t\t<name>${name}</name>\n`
+
+  for (const stage of json.geometry.coordinates) {
+    xml += "\t\t<trkseg>\n"
+
+    for (const point of stage) {
+      const lat = point[0]
+      const lon = point[1]
+
+      xml += `\t\t\t<trkpt lat='${lat}' lon='${lon}'></trkpt>\n`
+    }
+
+    xml += "\t\t</trkseg>\n"
+  }
+
+  xml += "\t</trk>\n"
+  xml += "</gpx>"
+
+  return xml
 }
