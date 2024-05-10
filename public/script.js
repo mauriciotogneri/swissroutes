@@ -265,7 +265,7 @@ function showRoute(type, url, json, focus) {
   content += `<p><b>Length</b>: ${json.properties.length} km (${parseInt(json.properties.length_asphalt * 100 / json.properties.length)}% asphalted)<br/>`
   content += `<b>↗</b> ${json.properties.height_difference.toLocaleString()} m<br/>`
   content += `<b>↘</b> ${json.properties.height_difference_back.toLocaleString()} m</p>`
-  content += `<p><b>${json.properties.abstract}</b></p>`
+  content += `<p><b style="font-weight:bold">${json.properties.abstract}</b></p>`
   content += `<p>${json.properties.description}</p>`
 
   if (galleryList.length > 0) {
@@ -398,7 +398,7 @@ function showPoint(label, baseLink, json) {
 
 function showMountainHike(json) {
   let content = ''
-  content += `<b>${json.properties.title} - ${json.properties.poi_title}</b><br/><br/>`
+  content += `<b style="font-weight:bold">${json.properties.title} - ${json.properties.poi_title}</b><br/><br/>`
 
   if (json.properties.subtitle) {
     content += `<p>${json.properties.subtitle}</p>`
@@ -434,7 +434,7 @@ function showMountainHike(json) {
 
 function showChargingStations(json) {
   let content = ''
-  content += `<b>${json.name}</b><br/><br/>`
+  content += `<b style="font-weight:bold">${json.name}</b><br/><br/>`
 
   if (json.description) {
     content += `<p>${json.description.__cdata}</p>`
