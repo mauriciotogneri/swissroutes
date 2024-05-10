@@ -29,7 +29,7 @@
     ],
     "rewrites": [
       {
-        "source": "/website",
+        "source": "/",
         "function": {
           "functionId": "website",
           "region": "europe-west6",
