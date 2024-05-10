@@ -20,6 +20,7 @@ function mapLoaded() {
   }
 
   map = new google.maps.Map(document.getElementById('map'), mapOptions)
+  refresh()
 }
 
 function refresh() {
@@ -38,10 +39,11 @@ function refresh() {
   refreshAccommodation()
   refreshOther()
 
-  // TODO
-  /*if (TYPE_PARAM && URL_PARAM) {
-    loadRoute(TYPE_PARAM, URL_PARAM, true)
-  }*/
+  if (PARAM_URL && PARAM_TYPE) {
+    loadRoute(PARAM_TYPE, PARAM_URL, true)
+    PARAM_TYPE = undefined
+    PARAM_URL = undefined
+  }
 }
 
 function refreshMountainBiking() {

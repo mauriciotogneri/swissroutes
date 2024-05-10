@@ -48,20 +48,10 @@
   <link rel="stylesheet" href="style.css">
   <script src="script.js"></script>
 
-  <!--<script type="text/javascript">
-    	<?php
-
-    		$url = $_GET["url"];
-    		$type = $_GET["type"];
-
-    		if (($url != '') && ($type != '')) {
-    			echo "const TYPE_PARAM='$type'\n";
-    			echo "const URL_PARAM='$url'\n";
-    			echo "loadRoute('$type', '$url', true)";
-    		}
-
-    	?>
-    </script>-->
+  <script type="text/javascript">
+    let PARAM_URL = undefined
+    let PARAM_TYPE = undefined
+  </script>
 </head>
 
 <body>

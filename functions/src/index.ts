@@ -9,6 +9,11 @@ setGlobalOptions({
 export const website = onRequest((request, response) => {
   let template = fs.readFileSync('static/index.html', 'utf-8');
 
+  if (request.query.url && request.query.type) {
+    template = template.replace('let PARAM_URL = undefined', `let PARAM_URL = '${request.query.url}'`);
+    template = template.replace('let PARAM_TYPE = undefined', `let PARAM_TYPE = '${request.query.type}'`);
+  }
+
   // mountainbiking
   template = fillIds(template, 'MOUNTAINBIKING_NATIONAL_IDS', 'mountainbiking/national');
   template = fillIds(template, 'MOUNTAINBIKING_REGIONAL_IDS', 'mountainbiking/regional');
