@@ -8,6 +8,13 @@ setGlobalOptions({
 
 export const website = onRequest((request, response) => {
   let template = fs.readFileSync("static/index.html", "utf-8");
+
+  // cycling
+  template = fillIds(template, "CYCLING_NATIONAL_IDS", "cycling/national");
+  template = fillIds(template, "CYCLING_REGIONAL_IDS", "cycling/regional");
+  template = fillIds(template, "CYCLING_LOCAL_IDS", "cycling/local");
+
+  // hiking
   template = fillIds(template, "HIKING_NATIONAL_IDS", "hiking/national");
   template = fillIds(template, "HIKING_REGIONAL_IDS", "hiking/regional");
   template = fillIds(template, "HIKING_LOCAL_IDS", "hiking/local");
