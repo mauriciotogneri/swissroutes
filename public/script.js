@@ -123,11 +123,9 @@ function refreshHiking() {
 
 function refreshAccommodation() {
   const campingChecked = document.getElementById('checkboxAccommodationCamping').checked
-  // TODO: remove
-  const campingIds = [18078, 18125, 18154, 18155, 18159, 18164, 18165, 18166, 18200, 18202, 18206, 18207, 18210, 18234, 18298, 18584, 18642, 18668, 18669, 18674, 18710, 20878, 20885, 20961, 20962, 20963, 20964, 20965, 20966, 20967, 20968, 20969, 20970, 20971, 20972, 20975, 20976, 20977, 20978, 20979, 20980, 20981, 20982, 20984, 20985, 20987, 20988, 21850, 21933, 22473, 25503, 26884, 27534, 28231, 28309, 28341, 29684, 29686, 29720, 29873, 31480, 31586, 31674, 32527, 32776, 33046, 33308, 33513, 33923, 33985]
 
   if (campingChecked) {
-    for (const id of campingIds) {
+    for (const id of ACCOMMODATION_CAMPING_IDS) {
       loadPoint('Camping', 'https://schweizmobil.ch/en/accommodation-', `accommodation/camping/${id}.json`)
     }
   }
@@ -141,31 +139,25 @@ function refreshAccommodation() {
   }
 
   const sleepingStrawChecked = document.getElementById('checkboxAccommodationSleepingStraw').checked
-  // TODO: remove
-  const sleepingStrawIds = [18134, 18587, 18655, 18660, 18670, 18676, 18680, 18695, 19911, 20419, 20425, 20429, 25956, 26161, 29697, 29700, 29736, 29737, 29738, 29751, 29752, 29924, 30014, 30265, 30266, 30755, 31409, 31478, 32530, 32840, 33275, 33500]
 
   if (sleepingStrawChecked) {
-    for (const id of sleepingStrawIds) {
+    for (const id of ACCOMMODATION_SLEEPINGSTRAW_IDS) {
       loadPoint('SleepingStraw', 'https://schweizmobil.ch/en/accommodation-', `accommodation/sleepingstraw/${id}.json`)
     }
   }
 
   const farmChecked = document.getElementById('checkboxAccommodationFarm').checked
-  // TODO: remove
-  const farmIds = [18097, 18132, 18235, 18237, 18243, 18610, 18651, 20779, 20905, 26879, 26894, 27113, 27343, 29758, 29867, 29894, 29908, 29954, 29989, 29991, 30211, 30307, 30887, 30907, 31281, 31415, 32111, 32257, 32561, 33079, 33260, 33261, 33262, 33263, 33264, 33506, 33512, 33530]
 
   if (farmChecked) {
-    for (const id of farmIds) {
+    for (const id of ACCOMMODATION_FARM_IDS) {
       loadPoint('Farm', 'https://schweizmobil.ch/en/accommodation-', `accommodation/farm/${id}.json`)
     }
   }
 
   const mountainHutChecked = document.getElementById('checkboxAccommodationMountainHut').checked
-  // TODO: remove
-  const mountainHutIds = [21759, 21914, 21942, 21943, 21944, 21945, 21946, 21947, 21948, 21949, 21950, 21951, 22120, 25467, 26336, 26342, 26878, 26882, 26883, 27259, 27699, 27707, 27708, 27712, 27713, 27714, 27715, 27716, 27717, 27718, 27719, 27722, 27723, 27724, 27725, 27726, 27727, 27728, 27729, 27730, 27731, 27732, 27733, 27734, 27735, 27736, 27738, 27739, 27740, 27742, 27743, 27745, 27746, 27747, 27749, 27750, 27752, 27754, 27756, 27757, 27758, 27759, 27760, 27761, 27763, 27764, 27765, 27767, 27768, 27770, 27771, 27773, 27774, 27775, 27776, 27777, 27778, 27779, 27780, 27781, 27782, 27783, 27784, 27785, 27786, 27787, 27788, 27789, 27790, 27791, 27792, 27793, 27794, 27795, 27796, 27797, 27798, 27800, 27801, 27802, 27803, 27804, 27805, 27806, 27807, 27808, 27809, 27811, 27812, 27814, 27815, 27816, 27817, 27818, 27819, 27820, 27822, 30134, 30202, 30477, 30579, 30960, 30961, 30962, 30963, 30964, 30965, 30966, 30967, 30968, 30969, 30970, 30971, 30972, 30973, 30974, 30975, 30976, 30977, 30978, 30979, 30980, 30981, 30982, 30983, 30984, 30985, 30986, 30987, 30988, 30989, 30990, 30991, 30992, 30993, 30994, 30995, 30996, 30997, 30999, 31032, 31159, 31267, 31334, 31404, 31705, 32598, 32599, 32600, 32601, 32602, 32604, 32605, 32606, 32607, 32608, 32609, 32610, 32611, 32612, 32613, 32614, 32615, 32616, 32617, 32618, 32619, 32620, 32621, 32622, 32623, 32624, 32625, 32626, 32627, 32628, 32629, 32630, 32631, 32633, 32634, 32635, 32636, 32638, 32639, 32640, 32641, 32642, 32643, 32644, 32645, 32646, 32647, 32648, 32649, 32650, 32651, 32652, 32653, 32654, 32655, 32656, 32696, 32889, 32891, 32893, 32895, 32896, 32897, 32983, 33118, 33425, 33582, 33600, 33602, 33603, 33604, 33605, 33606, 33607, 33608, 33673]
 
   if (mountainHutChecked) {
-    for (const id of mountainHutIds) {
+    for (const id of ACCOMMODATION_MOUNTAINHUT_IDS) {
       loadPoint('Mountain Hut', 'https://schweizmobil.ch/en/accommodation-', `accommodation/mountainhut/${id}.json`)
     }
   }

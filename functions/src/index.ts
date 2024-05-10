@@ -26,6 +26,10 @@ export const website = onRequest((request, response) => {
 
   // accommodation
   template = fillIds(template, 'ACCOMMODATION_BACKPACKER_IDS', 'accommodation/backpacker');
+  template = fillIds(template, 'ACCOMMODATION_CAMPING_IDS', 'accommodation/camping');
+  template = fillIds(template, 'ACCOMMODATION_FARM_IDS', 'accommodation/farm');
+  template = fillIds(template, 'ACCOMMODATION_MOUNTAINHUT_IDS', 'accommodation/mountainhut');
+  template = fillIds(template, 'ACCOMMODATION_SLEEPINGSTRAW_IDS', 'accommodation/sleepingstraw');
 
   response.status(200).send(template);
 });
