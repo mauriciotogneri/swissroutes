@@ -259,10 +259,11 @@ function showRoute(type, url, json, focus) {
 
   let content = ''
   content += `<img width='25' src='${json.properties.logo}' style='margin-right:10px'/>`
-  content += `<a href='https://www.schweizmobil.ch/en/${type}-in-switzerland/routes/route-0${json.properties.r_number}.html' target='_blank'>${json.properties.title}</a>`
+  content += `<a href='https://www.schweizmobil.ch/en/${type}-in-switzerland/route-${json.properties.r_number}' target='_blank'>${json.properties.title}</a>`
   content += `<span style='position:absolute;left:100%;top:15px;transform:translateX(-150%);'><a href='?url=${encodeURIComponent(url)}&type=${type}' style='margin-right:20px' target='_blank'>SHARE</a><a href='gpx.php?file=${url}' target='_blank'>DOWNLOAD</a></span><br/><br/>`
   content += `<p><b>Length</b>: ${json.properties.length} km (${parseInt(json.properties.length_asphalt * 100 / json.properties.length)}% asphalted)<br/>`
-  content += `<b>Height</b>: ${json.properties.height_difference.toLocaleString()} m</p>`
+  content += `<b>↗</b> ${json.properties.height_difference.toLocaleString()} m<br/>`
+  content += `<b>↘</b> ${json.properties.height_difference_back.toLocaleString()} m</p>`
   content += `<p><b>${json.properties.abstract}</b></p>`
   content += `<p>${json.properties.description}</p>`
 
