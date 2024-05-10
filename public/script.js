@@ -289,7 +289,6 @@ function showRoute(type, url, json, focus) {
 
   const markerText = json.properties.r_number
   const markerStart = showMarker(start.lat, start.lng, infowindow, markerText, json, galleryList)
-  const markerEnd = showMarker(end.lat, end.lng, infowindow, markerText, json, galleryList)
   const color = nameToRGB(json.properties.title)
 
   let north = -90
@@ -306,7 +305,7 @@ function showRoute(type, url, json, focus) {
       path.push(newPoint)
     }
 
-    showPath(path, markerStart, infowindow, color, galleryList, json, focus)
+    showPath(path, markerStart, infowindow, color, galleryList, json)
 
     for (let coordinate of path) {
       if (coordinate.lat > north) {
@@ -519,7 +518,7 @@ function showMarker(lat, lon, infowindow, text, json, gallery) {
   return marker
 }
 
-function showPath(coordinates, markerStart, infowindow, color, gallery, json, focus) {
+function showPath(coordinates, markerStart, infowindow, color, gallery, json) {
   const path = new google.maps.Polyline({
     path: coordinates,
     geodesic: true,
