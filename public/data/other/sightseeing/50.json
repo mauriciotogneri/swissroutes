@@ -1,1 +1,50 @@
-{"type":"Feature","id":50,"geometry":{"type":"Point","coordinates":[46.36655774671718,7.298800848871878]},"properties":{"land":null,"category":"all","language":"en","title":"Sanetschpass head","abstract":"The link between the Saanenland region and Rhonetal valley, dating back to the Middle Ages, had as much regional importance as today’s road over the Sanetschpass. Much of the original route, which is typical of its kind, still remains.","description":"The French name «Col du Sénin» for the Sanetschpass dates back to the 11th century «Sanona» for the River Saane. Both the Gemmi and Sanetsch are noted in the alliance of Bern with Heinrich von Raron, Bishop of Sitten of 17 July 1252. The alliance included the stipulation that any disputes between the parties would be settled at the top of these two passes. These were undoubtedly well-travelled connecting routes.\n\nIn the 14th and 15th centuries, the Sanetschpass was crossed many times by soldiers and was later noted as a well-known crossing by cartographers Sebastian Münster (1544) and Johannes Stumpf (1548). A further mention followed in an 1829 travel guide, the «Pocket Book for Travellers in the Bernese Oberland».\n\nFrom 1960 to 1968, the Berner Kraftwerke (power company) created a reservoir in Sanetsch – the Sanetschsee. A site road to Savièse was built to construct the reservoir dam. The continuation of this road to Gsteig remained a pack-animal track.","highlights":null,"foto":"https://images0.schweizmobil.ch/image/IVS_28_Sanetsch.jpg","photo_gallery":["https://images0.schweizmobil.ch/image/IVS_28_Sanetsch.jpg"],"photo_gallery_big":[""],"photo_gallery_copyright":[""],"photo_gallery_author":[""],"name":"Bundesinventar der historischen Verkehrswege der Schweiz (IVS)","name_2":null,"street":" ","zip":" ","place":" ","tel":" ","fax":null,"email":" ","url1_link":"https://www.ivs.admin.ch","x_coordinate":589239.9873412742,"y_coordinate":135030.08972231706,"change_date":null,"id":50,"r_key":50,"type":"Sight","url_sightseeing":"https://s.geo.admin.ch/6fb1747451","touristic_region":6}}
+{
+  "type": "Feature",
+  "id": 50,
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      46.36655774671718,
+      7.298800848871878
+    ]
+  },
+  "properties": {
+    "land": null,
+    "category": "all",
+    "language": "en",
+    "title": "Sanetschpass head",
+    "abstract": "The link between the Saanenland region and Rhonetal valley, dating back to the Middle Ages, had as much regional importance as today’s road over the Sanetschpass. Much of the original route, which is typical of its kind, still remains.",
+    "description": "The French name «Col du Sénin» for the Sanetschpass dates back to the 11th century «Sanona» for the River Saane. Both the Gemmi and Sanetsch are noted in the alliance of Bern with Heinrich von Raron, Bishop of Sitten of 17 July 1252. The alliance included the stipulation that any disputes between the parties would be settled at the top of these two passes. These were undoubtedly well-travelled connecting routes.\n\nIn the 14th and 15th centuries, the Sanetschpass was crossed many times by soldiers and was later noted as a well-known crossing by cartographers Sebastian Münster (1544) and Johannes Stumpf (1548). A further mention followed in an 1829 travel guide, the «Pocket Book for Travellers in the Bernese Oberland».\n\nFrom 1960 to 1968, the Berner Kraftwerke (power company) created a reservoir in Sanetsch – the Sanetschsee. A site road to Savièse was built to construct the reservoir dam. The continuation of this road to Gsteig remained a pack-animal track.",
+    "highlights": null,
+    "foto": "https://images0.schweizmobil.ch/image/IVS_28_Sanetsch.jpg",
+    "photo_gallery": [
+      "https://images0.schweizmobil.ch/image/IVS_28_Sanetsch.jpg"
+    ],
+    "photo_gallery_big": [
+      ""
+    ],
+    "photo_gallery_copyright": [
+      ""
+    ],
+    "photo_gallery_author": [
+      ""
+    ],
+    "name": "Bundesinventar der historischen Verkehrswege der Schweiz (IVS)",
+    "name_2": null,
+    "street": "",
+    "zip": "",
+    "place": "",
+    "tel": "",
+    "fax": null,
+    "email": "",
+    "url1_link": "https://www.ivs.admin.ch",
+    "x_coordinate": 589239.9873412742,
+    "y_coordinate": 135030.08972231706,
+    "change_date": null,
+    "id": 50,
+    "r_key": 50,
+    "type": "Sight",
+    "url_sightseeing": "https://s.geo.admin.ch/6fb1747451",
+    "touristic_region": 6
+  }
+}

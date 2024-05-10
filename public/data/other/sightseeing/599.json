@@ -1,1 +1,50 @@
-{"type":"Feature","id":599,"geometry":{"type":"Point","coordinates":[47.04201774032311,9.398899270581587]},"properties":{"land":null,"category":"all","language":"en","title":"Mels–Vermol","abstract":"The first road to Vermol was probably built in the 19th century but no reliable facts are known. However, the result remains an extremely spectacular engineered road, unique in the Sargans region.","description":"The hamlet of Vermol is the highest-altitude and youngest permanent settlement on Melserberg. The first mention dates from the early 15th century. For a long time the hamlet could only be reached along steep, unsecured paths, until a new road was planned towards the end of the 18th century. This was initiated by a change in living habits as well as land in the Rheintal valley which farmers had to work.\n\nThe new road was built specifically to provide the hamlet with access by a new route and not – as customary – by an extension to older, existing facilities. At this time, engineering roads were being built along the lines of the Napoleonic model in the entire Alpine region and the road to Vermol is no exception. Details such as cobbling, parapet walls and curb stones integrated into the walls give the road its unique character, particularly on the steep section running over the Seez ravine, between St. Martin and Vermol.\n\nThe road built in the 20th century did not have much effect on the existing road because the new road also had to be newly positioned. So nothing stands in the way of exploring the old road on foot and experiencing a slice of road-building history.","highlights":null,"foto":"https://images0.schweizmobil.ch/image/IVS_01_06_Vermol.jpg","photo_gallery":["https://images0.schweizmobil.ch/image/IVS_01_06_Vermol.jpg"],"photo_gallery_big":[""],"photo_gallery_copyright":[""],"photo_gallery_author":[""],"name":"Bundesinventar der historischen Verkehrswege der Schweiz (IVS)","name_2":null,"street":" ","zip":" ","place":" ","tel":" ","fax":null,"email":" ","url1_link":"https://www.ivs.admin.ch","x_coordinate":748959.9076549837,"y_coordinate":211970.04411718267,"change_date":null,"id":599,"r_key":599,"type":"Sight","url_sightseeing":"https://s.geo.admin.ch/6fb16a0afa","touristic_region":2}}
+{
+  "type": "Feature",
+  "id": 599,
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      47.04201774032311,
+      9.398899270581587
+    ]
+  },
+  "properties": {
+    "land": null,
+    "category": "all",
+    "language": "en",
+    "title": "Mels–Vermol",
+    "abstract": "The first road to Vermol was probably built in the 19th century but no reliable facts are known. However, the result remains an extremely spectacular engineered road, unique in the Sargans region.",
+    "description": "The hamlet of Vermol is the highest-altitude and youngest permanent settlement on Melserberg. The first mention dates from the early 15th century. For a long time the hamlet could only be reached along steep, unsecured paths, until a new road was planned towards the end of the 18th century. This was initiated by a change in living habits as well as land in the Rheintal valley which farmers had to work.\n\nThe new road was built specifically to provide the hamlet with access by a new route and not – as customary – by an extension to older, existing facilities. At this time, engineering roads were being built along the lines of the Napoleonic model in the entire Alpine region and the road to Vermol is no exception. Details such as cobbling, parapet walls and curb stones integrated into the walls give the road its unique character, particularly on the steep section running over the Seez ravine, between St. Martin and Vermol.\n\nThe road built in the 20th century did not have much effect on the existing road because the new road also had to be newly positioned. So nothing stands in the way of exploring the old road on foot and experiencing a slice of road-building history.",
+    "highlights": null,
+    "foto": "https://images0.schweizmobil.ch/image/IVS_01_06_Vermol.jpg",
+    "photo_gallery": [
+      "https://images0.schweizmobil.ch/image/IVS_01_06_Vermol.jpg"
+    ],
+    "photo_gallery_big": [
+      ""
+    ],
+    "photo_gallery_copyright": [
+      ""
+    ],
+    "photo_gallery_author": [
+      ""
+    ],
+    "name": "Bundesinventar der historischen Verkehrswege der Schweiz (IVS)",
+    "name_2": null,
+    "street": "",
+    "zip": "",
+    "place": "",
+    "tel": "",
+    "fax": null,
+    "email": "",
+    "url1_link": "https://www.ivs.admin.ch",
+    "x_coordinate": 748959.9076549837,
+    "y_coordinate": 211970.04411718267,
+    "change_date": null,
+    "id": 599,
+    "r_key": 599,
+    "type": "Sight",
+    "url_sightseeing": "https://s.geo.admin.ch/6fb16a0afa",
+    "touristic_region": 2
+  }
+}

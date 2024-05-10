@@ -1,1 +1,50 @@
-{"type":"Feature","id":45,"geometry":{"type":"Point","coordinates":[45.90117220810582,8.951144142928177]},"properties":{"land":null,"category":"all","language":"en","title":"Historic trail on Monte San Giorgio","abstract":"The trail from Meride to Monte San Giorgio was laid many years ago. Evidence of this is provided not only by the churches, Monte San Giorgio and San Silvestro along the route but also by the extraordinarily well-kept historic substance of the trail between Meride and Alboree.","description":"From the summit of Monte San Giorgio, which lies between the southern arms of the Lago Lugano lake, you have a grand panoramic view across the lake to the Alps. The summit can be reached from Meride along a historic trading trail. The first sightseeing attraction along the ancient route is the Monte San Giorgio Church dating from the 12th to 13th centuries. Finds from Roman times are also found in Meride. The skilfully paved trading trail then leads on to the San Silvestro Church. The trail is bordered by a 1.5-metre-high drywall on the uphill side and a 1 to 1.2-metre-high retaining wall in traditional style on the downhill side. The former Roman church, first documented in 1483, has frescos dating from 1690, the work of baroque painter, Francesco Antonio Giorioli.\n\nThe route then leads along the well-maintained historic trail to Alboree. This section is marked by its well-preserved, unusual paving. Irregular stone patterns are interspersed with more delicate, mosaic-like arrangements of a uniform size. This is one of the reasons why the section between Meride and Alboree is listed as an object of national importance with considerable substance in the Inventory of Swiss Historic Traffic Routes (IVS). It thus merits full  conservation as well as maximum protection. The route finally leads via Cassina and Forello to the summit of Monte San Giorgio, where we are rewarded with breathtaking views.","highlights":null,"foto":"https://images0.schweizmobil.ch/image/IVS_22_Monte_San_Giorgio.jpg","photo_gallery":["https://images0.schweizmobil.ch/image/IVS_22_Monte_San_Giorgio.jpg"],"photo_gallery_big":[""],"photo_gallery_copyright":[""],"photo_gallery_author":[""],"name":"Bundesinventar der historischen Verkehrswege der Schweiz (IVS)","name_2":null,"street":" ","zip":" ","place":" ","tel":" ","fax":null,"email":" ","url1_link":"https://www.ivs.admin.ch","x_coordinate":717384.8013410835,"y_coordinate":84416.82069362245,"change_date":null,"id":45,"r_key":45,"type":"Sight","url_sightseeing":"https://s.geo.admin.ch/6fb16561f3","touristic_region":12}}
+{
+  "type": "Feature",
+  "id": 45,
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      45.90117220810582,
+      8.951144142928177
+    ]
+  },
+  "properties": {
+    "land": null,
+    "category": "all",
+    "language": "en",
+    "title": "Historic trail on Monte San Giorgio",
+    "abstract": "The trail from Meride to Monte San Giorgio was laid many years ago. Evidence of this is provided not only by the churches, Monte San Giorgio and San Silvestro along the route but also by the extraordinarily well-kept historic substance of the trail between Meride and Alboree.",
+    "description": "From the summit of Monte San Giorgio, which lies between the southern arms of the Lago Lugano lake, you have a grand panoramic view across the lake to the Alps. The summit can be reached from Meride along a historic trading trail. The first sightseeing attraction along the ancient route is the Monte San Giorgio Church dating from the 12th to 13th centuries. Finds from Roman times are also found in Meride. The skilfully paved trading trail then leads on to the San Silvestro Church. The trail is bordered by a 1.5-metre-high drywall on the uphill side and a 1 to 1.2-metre-high retaining wall in traditional style on the downhill side. The former Roman church, first documented in 1483, has frescos dating from 1690, the work of baroque painter, Francesco Antonio Giorioli.\n\nThe route then leads along the well-maintained historic trail to Alboree. This section is marked by its well-preserved, unusual paving. Irregular stone patterns are interspersed with more delicate, mosaic-like arrangements of a uniform size. This is one of the reasons why the section between Meride and Alboree is listed as an object of national importance with considerable substance in the Inventory of Swiss Historic Traffic Routes (IVS). It thus merits full  conservation as well as maximum protection. The route finally leads via Cassina and Forello to the summit of Monte San Giorgio, where we are rewarded with breathtaking views.",
+    "highlights": null,
+    "foto": "https://images0.schweizmobil.ch/image/IVS_22_Monte_San_Giorgio.jpg",
+    "photo_gallery": [
+      "https://images0.schweizmobil.ch/image/IVS_22_Monte_San_Giorgio.jpg"
+    ],
+    "photo_gallery_big": [
+      ""
+    ],
+    "photo_gallery_copyright": [
+      ""
+    ],
+    "photo_gallery_author": [
+      ""
+    ],
+    "name": "Bundesinventar der historischen Verkehrswege der Schweiz (IVS)",
+    "name_2": null,
+    "street": "",
+    "zip": "",
+    "place": "",
+    "tel": "",
+    "fax": null,
+    "email": "",
+    "url1_link": "https://www.ivs.admin.ch",
+    "x_coordinate": 717384.8013410835,
+    "y_coordinate": 84416.82069362245,
+    "change_date": null,
+    "id": 45,
+    "r_key": 45,
+    "type": "Sight",
+    "url_sightseeing": "https://s.geo.admin.ch/6fb16561f3",
+    "touristic_region": 12
+  }
+}

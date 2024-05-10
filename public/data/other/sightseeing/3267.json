@@ -1,1 +1,58 @@
-{"type":"Feature","id":3267,"geometry":{"type":"Point","coordinates":[46.794508689745385,10.233921084252632]},"properties":{"land":null,"category":"all","language":"en","title":"PALÜDS Center da Trail","abstract":"The trail centre between Lais da Pesch and the HIF Swiss International School and Sports Academy in Ftan offers three routes with a variety of technical elements. Novices as well as advanced riders can playfully navigate flowy trails, berms, jump lines, and rollers in the middle of the forest.","description":" ","highlights":"Pachific\n•\tLength: 720m\n•\tDifficulty: easy\n\nSulvadi\n•\tLength: 200 m\n•\tDifficulty: difficult\n\nFoppas & Pflanzgartentrail:\n•\tLength: 350 m\n•\tDifficulty: easy","foto":"https://images0.schweizmobil.ch/image-big/PALÜDS_Center_da_Trail_1_g.jpg","photo_gallery":["https://images0.schweizmobil.ch/image/PALÜDS_Center_da_Trail_1_s.jpg","https://images0.schweizmobil.ch/image/PALÜDS_Center_da_Trail_2_s.jpg","https://images0.schweizmobil.ch/image/PALÜDS_Center_da_Trail_3_s.jpg"],"photo_gallery_big":["https://images0.schweizmobil.ch/image-big/PALÜDS_Center_da_Trail_1_g.jpg","https://images0.schweizmobil.ch/image-big/PALÜDS_Center_da_Trail_2_g.jpg","https://images0.schweizmobil.ch/image-big/PALÜDS_Center_da_Trail_3_g.jpg"],"photo_gallery_copyright":["","","Mayk Wendt"],"photo_gallery_author":["","",""],"name":"TESSVM AG","name_2":null,"street":"Stradun 403a","zip":"7550","place":"Scuol","tel":"+41 81 861 88 00","fax":null,"email":"info@engadin.com","url1_link":"https://www.engadin.com","x_coordinate":813369.8212067961,"y_coordinate":186395.02635103356,"change_date":null,"id":3267,"r_key":3267,"type":"Sight","url_sightseeing":"https://www.engadin.com/en/center-da-trails-ftan","touristic_region":1}}
+{
+  "type": "Feature",
+  "id": 3267,
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      46.794508689745385,
+      10.233921084252632
+    ]
+  },
+  "properties": {
+    "land": null,
+    "category": "all",
+    "language": "en",
+    "title": "PALÜDS Center da Trail",
+    "abstract": "The trail centre between Lais da Pesch and the HIF Swiss International School and Sports Academy in Ftan offers three routes with a variety of technical elements. Novices as well as advanced riders can playfully navigate flowy trails, berms, jump lines, and rollers in the middle of the forest.",
+    "description": "",
+    "highlights": "Pachific\n•\tLength: 720m\n•\tDifficulty: easy\n\nSulvadi\n•\tLength: 200 m\n•\tDifficulty: difficult\n\nFoppas & Pflanzgartentrail:\n•\tLength: 350 m\n•\tDifficulty: easy",
+    "foto": "https://images0.schweizmobil.ch/image-big/PALÜDS_Center_da_Trail_1_g.jpg",
+    "photo_gallery": [
+      "https://images0.schweizmobil.ch/image/PALÜDS_Center_da_Trail_1_s.jpg",
+      "https://images0.schweizmobil.ch/image/PALÜDS_Center_da_Trail_2_s.jpg",
+      "https://images0.schweizmobil.ch/image/PALÜDS_Center_da_Trail_3_s.jpg"
+    ],
+    "photo_gallery_big": [
+      "https://images0.schweizmobil.ch/image-big/PALÜDS_Center_da_Trail_1_g.jpg",
+      "https://images0.schweizmobil.ch/image-big/PALÜDS_Center_da_Trail_2_g.jpg",
+      "https://images0.schweizmobil.ch/image-big/PALÜDS_Center_da_Trail_3_g.jpg"
+    ],
+    "photo_gallery_copyright": [
+      "",
+      "",
+      "Mayk Wendt"
+    ],
+    "photo_gallery_author": [
+      "",
+      "",
+      ""
+    ],
+    "name": "TESSVM AG",
+    "name_2": null,
+    "street": "Stradun 403a",
+    "zip": "7550",
+    "place": "Scuol",
+    "tel": "+41 81 861 88 00",
+    "fax": null,
+    "email": "info@engadin.com",
+    "url1_link": "https://www.engadin.com",
+    "x_coordinate": 813369.8212067961,
+    "y_coordinate": 186395.02635103356,
+    "change_date": null,
+    "id": 3267,
+    "r_key": 3267,
+    "type": "Sight",
+    "url_sightseeing": "https://www.engadin.com/en/center-da-trails-ftan",
+    "touristic_region": 1
+  }
+}

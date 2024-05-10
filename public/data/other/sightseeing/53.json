@@ -1,1 +1,50 @@
-{"type":"Feature","id":53,"geometry":{"type":"Point","coordinates":[46.495746231532465,7.051433641405335]},"properties":{"land":null,"category":"all","language":"en","title":"Montbovon – bridges on the «Cheese Road»","abstract":"The small village of Montbovon is the historic traffic intersection in the Intyamon region from where Gruyere and Etivaz cheese was exported in all directions. Bearing witness to this are no fewer than 10 bridges in the municipal district.","description":"Montbovon, first documented in 1255 and located at the intersection of the Hongrin and Saane valleys, was for a long time a busy transit point. It forms a meeting point of three worlds in the Saane region – the Greyerz, Pays-d’Enhaut and Lac Léman basin. The junction of two railways, the MOB (1903) and TF (1904) also testify to its role as an intersection and brought modernity to the mountain valleys.\n\nThe eight road bridges and two railway bridges include several of Canton Fribourg’s most interesting historic structures: in today’s dammed Lessoc Gorge, a pack-animal trail bridge dating from 1667 spans the River Saane; the covered wooden bridge is the best-preserved in the canton. Further up the valley, another three bridges span the River Hongrin: at Les Basses Ciernes with a modern railway bridge and a road bridge from 1837, as well as the picturesque «Pont du Moulin»; the slightly inclined arched stone bridge dates from the 16th century and is considered one of the oldest in the canton.\n\nAlso worthy of mention upriver are the lattice girder bridge of the MOB railway built in 1902 and en route to the Col de Jaman, the Pont d'Allières (or Pont du Pontet) at the oldest verified bridging point in the canton (1578).","highlights":null,"foto":"https://images0.schweizmobil.ch/image/IVS_31_Montbovon.jpg","photo_gallery":["https://images0.schweizmobil.ch/image/IVS_31_Montbovon.jpg"],"photo_gallery_big":[""],"photo_gallery_copyright":[""],"photo_gallery_author":[""],"name":"Bundesinventar der historischen Verkehrswege der Schweiz (IVS)","name_2":null,"street":" ","zip":" ","place":" ","tel":" ","fax":null,"email":" ","url1_link":"https://www.ivs.admin.ch","x_coordinate":570274.8963411774,"y_coordinate":149455.55645602156,"change_date":null,"id":53,"r_key":53,"type":"Sight","url_sightseeing":"https://s.geo.admin.ch/6fb16b9a73","touristic_region":13}}
+{
+  "type": "Feature",
+  "id": 53,
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      46.495746231532465,
+      7.051433641405335
+    ]
+  },
+  "properties": {
+    "land": null,
+    "category": "all",
+    "language": "en",
+    "title": "Montbovon – bridges on the «Cheese Road»",
+    "abstract": "The small village of Montbovon is the historic traffic intersection in the Intyamon region from where Gruyere and Etivaz cheese was exported in all directions. Bearing witness to this are no fewer than 10 bridges in the municipal district.",
+    "description": "Montbovon, first documented in 1255 and located at the intersection of the Hongrin and Saane valleys, was for a long time a busy transit point. It forms a meeting point of three worlds in the Saane region – the Greyerz, Pays-d’Enhaut and Lac Léman basin. The junction of two railways, the MOB (1903) and TF (1904) also testify to its role as an intersection and brought modernity to the mountain valleys.\n\nThe eight road bridges and two railway bridges include several of Canton Fribourg’s most interesting historic structures: in today’s dammed Lessoc Gorge, a pack-animal trail bridge dating from 1667 spans the River Saane; the covered wooden bridge is the best-preserved in the canton. Further up the valley, another three bridges span the River Hongrin: at Les Basses Ciernes with a modern railway bridge and a road bridge from 1837, as well as the picturesque «Pont du Moulin»; the slightly inclined arched stone bridge dates from the 16th century and is considered one of the oldest in the canton.\n\nAlso worthy of mention upriver are the lattice girder bridge of the MOB railway built in 1902 and en route to the Col de Jaman, the Pont d'Allières (or Pont du Pontet) at the oldest verified bridging point in the canton (1578).",
+    "highlights": null,
+    "foto": "https://images0.schweizmobil.ch/image/IVS_31_Montbovon.jpg",
+    "photo_gallery": [
+      "https://images0.schweizmobil.ch/image/IVS_31_Montbovon.jpg"
+    ],
+    "photo_gallery_big": [
+      ""
+    ],
+    "photo_gallery_copyright": [
+      ""
+    ],
+    "photo_gallery_author": [
+      ""
+    ],
+    "name": "Bundesinventar der historischen Verkehrswege der Schweiz (IVS)",
+    "name_2": null,
+    "street": "",
+    "zip": "",
+    "place": "",
+    "tel": "",
+    "fax": null,
+    "email": "",
+    "url1_link": "https://www.ivs.admin.ch",
+    "x_coordinate": 570274.8963411774,
+    "y_coordinate": 149455.55645602156,
+    "change_date": null,
+    "id": 53,
+    "r_key": 53,
+    "type": "Sight",
+    "url_sightseeing": "https://s.geo.admin.ch/6fb16b9a73",
+    "touristic_region": 13
+  }
+}

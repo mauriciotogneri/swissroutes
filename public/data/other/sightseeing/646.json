@@ -1,1 +1,50 @@
-{"type":"Feature","id":646,"geometry":{"type":"Point","coordinates":[46.347192555225014,10.048667745451503]},"properties":{"land":null,"category":"all","language":"en","title":"Cavaglia–Poschiavo (Passo del Bernina)","abstract":"It wasn’t wanderlust that caused Davos and Prättigau people to travel into the Veltlin in the 17th century; they transported goods to exchange for corn and wine. For example on the stretch between Cavaglia and Poschiavo.","description":"The Bernina Railway makes a wide sweep from the plains of Cavaglia to Poschiavo. It masters the 600 metre height difference without cogwheels and is thus one of the world’s steepest adhesion railways. The historic pass route conquers the rise in terrain in a far simpler way. On part of the route it has been kept as an impressive cobbled path, a testament to the immense skill of the builders.\n\nFinds have confirmed that the Berninapass was already travelled in the Early Stone Age but its discovery as a trading route came far later. Traffic was boosted in the 16th century with the subjugation of the Veltlin by the Three Leagues and trade relations with the new neighbour, Venice.The Berninapass provided the shortest route from Venice to Chur. It allowed the two friends, Venice and France, to trade via the «neutral» territory of Switzerland without having to enter the Milan region. In travel literature the route is described as important but poorly maintained. In particular the steep ramp was difficult to negotiate – the exact section which today as a cobbled path is considered so impressive.","highlights":null,"foto":"https://images0.schweizmobil.ch/image/IVS_30_Cavaglia.jpg","photo_gallery":["https://images0.schweizmobil.ch/image/IVS_30_Cavaglia.jpg"],"photo_gallery_big":[""],"photo_gallery_copyright":[""],"photo_gallery_author":[""],"name":"Bundesinventar der historischen Verkehrswege der Schweiz (IVS)","name_2":null,"street":" ","zip":" ","place":" ","tel":" ","fax":null,"email":" ","url1_link":"https://www.ivs.admin.ch","x_coordinate":800889.785623354,"y_coordinate":136209.87061089577,"change_date":null,"id":646,"r_key":646,"type":"Sight","url_sightseeing":"https://s.geo.admin.ch/6fb15cad18","touristic_region":1}}
+{
+  "type": "Feature",
+  "id": 646,
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      46.347192555225014,
+      10.048667745451503
+    ]
+  },
+  "properties": {
+    "land": null,
+    "category": "all",
+    "language": "en",
+    "title": "Cavaglia–Poschiavo (Passo del Bernina)",
+    "abstract": "It wasn’t wanderlust that caused Davos and Prättigau people to travel into the Veltlin in the 17th century; they transported goods to exchange for corn and wine. For example on the stretch between Cavaglia and Poschiavo.",
+    "description": "The Bernina Railway makes a wide sweep from the plains of Cavaglia to Poschiavo. It masters the 600 metre height difference without cogwheels and is thus one of the world’s steepest adhesion railways. The historic pass route conquers the rise in terrain in a far simpler way. On part of the route it has been kept as an impressive cobbled path, a testament to the immense skill of the builders.\n\nFinds have confirmed that the Berninapass was already travelled in the Early Stone Age but its discovery as a trading route came far later. Traffic was boosted in the 16th century with the subjugation of the Veltlin by the Three Leagues and trade relations with the new neighbour, Venice.The Berninapass provided the shortest route from Venice to Chur. It allowed the two friends, Venice and France, to trade via the «neutral» territory of Switzerland without having to enter the Milan region. In travel literature the route is described as important but poorly maintained. In particular the steep ramp was difficult to negotiate – the exact section which today as a cobbled path is considered so impressive.",
+    "highlights": null,
+    "foto": "https://images0.schweizmobil.ch/image/IVS_30_Cavaglia.jpg",
+    "photo_gallery": [
+      "https://images0.schweizmobil.ch/image/IVS_30_Cavaglia.jpg"
+    ],
+    "photo_gallery_big": [
+      ""
+    ],
+    "photo_gallery_copyright": [
+      ""
+    ],
+    "photo_gallery_author": [
+      ""
+    ],
+    "name": "Bundesinventar der historischen Verkehrswege der Schweiz (IVS)",
+    "name_2": null,
+    "street": "",
+    "zip": "",
+    "place": "",
+    "tel": "",
+    "fax": null,
+    "email": "",
+    "url1_link": "https://www.ivs.admin.ch",
+    "x_coordinate": 800889.785623354,
+    "y_coordinate": 136209.87061089577,
+    "change_date": null,
+    "id": 646,
+    "r_key": 646,
+    "type": "Sight",
+    "url_sightseeing": "https://s.geo.admin.ch/6fb15cad18",
+    "touristic_region": 1
+  }
+}

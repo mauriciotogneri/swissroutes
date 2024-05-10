@@ -1,1 +1,50 @@
-{"type":"Feature","id":645,"geometry":{"type":"Point","coordinates":[46.98280181258624,8.78883881744116]},"properties":{"land":null,"category":"all","language":"en","title":"Staldenweg","abstract":"The Pragelpass links Muotatal with Klöntal. The pass, which was never turned into a road, made history with the march of the Suworow army in autumn 1799. The Staldenweg represents a small section of the pass.","description":"In a Muotathal Municipality register of trails dating from 1923, the Staldenweg is recorded as the only cattle-driving trail on the northern side of the Starlenbach valley. The approximately one kilometre-long climb covers a 230-metre height difference between Stalden and Haselbach and shows the typical features of a traditional alp track once negotiated with cattle. These cattle trails played an important role for the village community in terms of access to common pastures. The cattle trails were usually set in the landscape as lanes bordered by stone walls, thick hedgerows, lattice fencing or a combination of all three. Gates closed off sections of the trail or pastures. The cattle were allowed to graze on the way, but the borders meant they could not gain access to neighbouring land.\n\nThe use of such alp trails has gradually disappeared with today’s indoor/outdoor methods of keeping cattle. Consequently the trails are endangered by road improvements. Today’s new road crosses the old alp trail several times. Instead of the earlier herds of cattle, hikers now set off to enjoy the experience of a varied scenic landscape.","highlights":null,"foto":"https://images0.schweizmobil.ch/image/IVS_29_ViehwegEgg.jpg","photo_gallery":["https://images0.schweizmobil.ch/image/IVS_29_ViehwegEgg.jpg"],"photo_gallery_big":[""],"photo_gallery_copyright":[""],"photo_gallery_author":[""],"name":"Bundesinventar der historischen Verkehrswege der Schweiz (IVS)","name_2":null,"street":" ","zip":" ","place":" ","tel":" ","fax":null,"email":" ","url1_link":"https://www.ivs.admin.ch","x_coordinate":702720.0985842871,"y_coordinate":204410.39923245745,"change_date":null,"id":645,"r_key":645,"type":"Sight","url_sightseeing":"https://s.geo.admin.ch/6fb178fbd9","touristic_region":4}}
+{
+  "type": "Feature",
+  "id": 645,
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      46.98280181258624,
+      8.78883881744116
+    ]
+  },
+  "properties": {
+    "land": null,
+    "category": "all",
+    "language": "en",
+    "title": "Staldenweg",
+    "abstract": "The Pragelpass links Muotatal with Klöntal. The pass, which was never turned into a road, made history with the march of the Suworow army in autumn 1799. The Staldenweg represents a small section of the pass.",
+    "description": "In a Muotathal Municipality register of trails dating from 1923, the Staldenweg is recorded as the only cattle-driving trail on the northern side of the Starlenbach valley. The approximately one kilometre-long climb covers a 230-metre height difference between Stalden and Haselbach and shows the typical features of a traditional alp track once negotiated with cattle. These cattle trails played an important role for the village community in terms of access to common pastures. The cattle trails were usually set in the landscape as lanes bordered by stone walls, thick hedgerows, lattice fencing or a combination of all three. Gates closed off sections of the trail or pastures. The cattle were allowed to graze on the way, but the borders meant they could not gain access to neighbouring land.\n\nThe use of such alp trails has gradually disappeared with today’s indoor/outdoor methods of keeping cattle. Consequently the trails are endangered by road improvements. Today’s new road crosses the old alp trail several times. Instead of the earlier herds of cattle, hikers now set off to enjoy the experience of a varied scenic landscape.",
+    "highlights": null,
+    "foto": "https://images0.schweizmobil.ch/image/IVS_29_ViehwegEgg.jpg",
+    "photo_gallery": [
+      "https://images0.schweizmobil.ch/image/IVS_29_ViehwegEgg.jpg"
+    ],
+    "photo_gallery_big": [
+      ""
+    ],
+    "photo_gallery_copyright": [
+      ""
+    ],
+    "photo_gallery_author": [
+      ""
+    ],
+    "name": "Bundesinventar der historischen Verkehrswege der Schweiz (IVS)",
+    "name_2": null,
+    "street": "",
+    "zip": "",
+    "place": "",
+    "tel": "",
+    "fax": null,
+    "email": "",
+    "url1_link": "https://www.ivs.admin.ch",
+    "x_coordinate": 702720.0985842871,
+    "y_coordinate": 204410.39923245745,
+    "change_date": null,
+    "id": 645,
+    "r_key": 645,
+    "type": "Sight",
+    "url_sightseeing": "https://s.geo.admin.ch/6fb178fbd9",
+    "touristic_region": 4
+  }
+}

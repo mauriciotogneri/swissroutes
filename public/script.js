@@ -190,11 +190,11 @@ function refreshOther() {
 
   // https://bike-energy.com/en/where-can-I-load-my-e-bike
   // https://www.google.com/maps/d/u/0/viewer?mid=1wdyB_yGO8FqEWUbD-HJTvpQ-KRY&ll=47.42434950245896%2C9.743405674684965&z=12
-  const checkboxOtherChargingStations = document.getElementById('checkboxOtherChargingStations').checked
+  /*const checkboxOtherChargingStations = document.getElementById('checkboxOtherChargingStations').checked
 
   if (checkboxOtherChargingStations) {
     loadChargingStations(`other/charging_stations/charging_stations.json`)
-  }
+  }*/
 }
 
 function loadRoute(type, url, focus) {
@@ -334,7 +334,15 @@ function showRoute(type, url, json, focus) {
 
 function showPoint(label, baseLink, json) {
   let content = ''
-  content += `<a href='${baseLink}${json.id}' target='_blank'>${json.properties.name}</a><br/><br/>`
+  content += `<a href='${baseLink}${json.id}' target='_blank'>${json.properties.title ? json.properties.title : json.properties.name}</a><br/><br/>`
+
+  if (json.properties.abstract) {
+    content += `<p>${json.properties.abstract}</p>`
+  }
+
+  if (json.properties.description) {
+    content += `<p>${json.properties.description}</p>`
+  }
 
   if (json.properties.street) {
     content += `<p>${json.properties.street}, ${json.properties.zip} ${json.properties.place}</p>`
@@ -356,8 +364,12 @@ function showPoint(label, baseLink, json) {
     content += `<a href='${json.properties.url2_link}' target='_blank'>${json.properties.url2_link}</a><br/><br/>`
   }
 
-  if (json.properties.foto) {
-    content += `<img src='${json.properties.foto}' width=500/><br/>`
+  if (json.properties.url_sightseeing) {
+    content += `<a href='${json.properties.url_sightseeing}' target='_blank'>${json.properties.url_sightseeing}</a><br/><br/>`
+  }
+
+  if (json.properties.photo_gallery) {
+    content += `<img src='${json.properties.photo_gallery[0]}' width=500/><br/>`
   }
 
   const infowindow = new google.maps.InfoWindow({

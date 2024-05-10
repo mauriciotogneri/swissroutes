@@ -1,1 +1,50 @@
-{"type":"Feature","id":3279,"geometry":{"type":"Point","coordinates":[46.25254159069462,7.460720910857854]},"properties":{"land":null,"category":"all","language":"en","title":"Pumptrack Grône","abstract":"The circular asphalt course featuring rollers and berms is situated out in the countryside and is particularly suitable for families. Next to the pump track is a playground and a big lawn to romp around.","description":" ","highlights":"Surface area: 518 m2\nSurface: asphalt\nOpening hours: All year round from 8:00 to 21:30","foto":"https://images0.schweizmobil.ch/image-big/Pumptrack_Grône_g.jpg","photo_gallery":["https://images0.schweizmobil.ch/image/Pumptrack_Grône_s.jpg"],"photo_gallery_big":["https://images0.schweizmobil.ch/image-big/Pumptrack_Grône_g.jpg"],"photo_gallery_copyright":[""],"photo_gallery_author":[""],"name":"Commune de Grône","name_2":null,"street":"Rue Centrale 182","zip":"3979","place":"Grône","tel":"+41 27 458 15 03","fax":null,"email":"administration@grone.ch","url1_link":"https://www.grone.ch","x_coordinate":601703.9220059464,"y_coordinate":122346.63935785955,"change_date":null,"id":3279,"r_key":3279,"type":"Sight","url_sightseeing":"https://www.valais.ch/en/activities/mountain-bike/pumptracks/pumptrack-grone","touristic_region":11}}
+{
+  "type": "Feature",
+  "id": 3279,
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      46.25254159069462,
+      7.460720910857854
+    ]
+  },
+  "properties": {
+    "land": null,
+    "category": "all",
+    "language": "en",
+    "title": "Pumptrack Grône",
+    "abstract": "The circular asphalt course featuring rollers and berms is situated out in the countryside and is particularly suitable for families. Next to the pump track is a playground and a big lawn to romp around.",
+    "description": "",
+    "highlights": "Surface area: 518 m2\nSurface: asphalt\nOpening hours: All year round from 8:00 to 21:30",
+    "foto": "https://images0.schweizmobil.ch/image-big/Pumptrack_Grône_g.jpg",
+    "photo_gallery": [
+      "https://images0.schweizmobil.ch/image/Pumptrack_Grône_s.jpg"
+    ],
+    "photo_gallery_big": [
+      "https://images0.schweizmobil.ch/image-big/Pumptrack_Grône_g.jpg"
+    ],
+    "photo_gallery_copyright": [
+      ""
+    ],
+    "photo_gallery_author": [
+      ""
+    ],
+    "name": "Commune de Grône",
+    "name_2": null,
+    "street": "Rue Centrale 182",
+    "zip": "3979",
+    "place": "Grône",
+    "tel": "+41 27 458 15 03",
+    "fax": null,
+    "email": "administration@grone.ch",
+    "url1_link": "https://www.grone.ch",
+    "x_coordinate": 601703.9220059464,
+    "y_coordinate": 122346.63935785955,
+    "change_date": null,
+    "id": 3279,
+    "r_key": 3279,
+    "type": "Sight",
+    "url_sightseeing": "https://www.valais.ch/en/activities/mountain-bike/pumptracks/pumptrack-grone",
+    "touristic_region": 11
+  }
+}

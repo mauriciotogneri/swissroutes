@@ -1,1 +1,50 @@
-{"type":"Feature","id":632,"geometry":{"type":"Point","coordinates":[47.080591011873096,8.083471468922548]},"properties":{"land":null,"category":"all","language":"en","title":"Willisauer Landstrasse","abstract":"The alte Willisauer Landstrasse dates back to the 15th century and is now part of the ViaJacobi. The path was used not only by pilgrims and traders but also by unfortunates condemned to death on the gallows.","description":"The alte Landstrasse (old country road) from Werthenstein to Willisau is part of an east-west link between Luzern, Bern, Solothurn and western Switzerland. The 1.5 kilometre section between Griesbaume and Buholz was no longer continuously passable before its reactivation in 1998/99. The hike leads along slopes and sunken paths lined by hedges. Shrines, wooden crosses and other religious objects along the way are a reminder that you are on the ViaJacobi.\n\nIn medieval times, Buholz was the site of the provincial court of the Barons of Wolhusen, later of the provincial governor. The provincial court chapel is still found here today. At the beginning of the village stands the so-called «Armsünderchäppeli» (Poor Sinners Chapel). It’s said that this was the last station for those condemned to death. After spiritual counselling, the condemned person trod the path to the Galgenbergwald forest. A gallows was sited on the edge of the forest as a warning to passers-by. It probably consisted of two vertical supports and a crossbeam and the bodies of those executed were customarily left hanging for a long time. Today the site is surrounded by trees. A second possible gallows site is on the crest of the hill, indicated by piles of stones.","highlights":null,"foto":"https://images0.schweizmobil.ch/image/IVS_04_04_WillisauerLandstr.jpg","photo_gallery":["https://images0.schweizmobil.ch/image/IVS_04_04_WillisauerLandstr.jpg"],"photo_gallery_big":[""],"photo_gallery_copyright":[""],"photo_gallery_author":[""],"name":"Bundesinventar der historischen Verkehrswege der Schweiz (IVS)","name_2":null,"street":" ","zip":" ","place":" ","tel":" ","fax":null,"email":" ","url1_link":"https://www.ivs.admin.ch","x_coordinate":648970.090941422,"y_coordinate":214599.49052308718,"change_date":null,"id":632,"r_key":632,"type":"Sight","url_sightseeing":"https://s.geo.admin.ch/6fb18851f1","touristic_region":4}}
+{
+  "type": "Feature",
+  "id": 632,
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      47.080591011873096,
+      8.083471468922548
+    ]
+  },
+  "properties": {
+    "land": null,
+    "category": "all",
+    "language": "en",
+    "title": "Willisauer Landstrasse",
+    "abstract": "The alte Willisauer Landstrasse dates back to the 15th century and is now part of the ViaJacobi. The path was used not only by pilgrims and traders but also by unfortunates condemned to death on the gallows.",
+    "description": "The alte Landstrasse (old country road) from Werthenstein to Willisau is part of an east-west link between Luzern, Bern, Solothurn and western Switzerland. The 1.5 kilometre section between Griesbaume and Buholz was no longer continuously passable before its reactivation in 1998/99. The hike leads along slopes and sunken paths lined by hedges. Shrines, wooden crosses and other religious objects along the way are a reminder that you are on the ViaJacobi.\n\nIn medieval times, Buholz was the site of the provincial court of the Barons of Wolhusen, later of the provincial governor. The provincial court chapel is still found here today. At the beginning of the village stands the so-called «Armsünderchäppeli» (Poor Sinners Chapel). It’s said that this was the last station for those condemned to death. After spiritual counselling, the condemned person trod the path to the Galgenbergwald forest. A gallows was sited on the edge of the forest as a warning to passers-by. It probably consisted of two vertical supports and a crossbeam and the bodies of those executed were customarily left hanging for a long time. Today the site is surrounded by trees. A second possible gallows site is on the crest of the hill, indicated by piles of stones.",
+    "highlights": null,
+    "foto": "https://images0.schweizmobil.ch/image/IVS_04_04_WillisauerLandstr.jpg",
+    "photo_gallery": [
+      "https://images0.schweizmobil.ch/image/IVS_04_04_WillisauerLandstr.jpg"
+    ],
+    "photo_gallery_big": [
+      ""
+    ],
+    "photo_gallery_copyright": [
+      ""
+    ],
+    "photo_gallery_author": [
+      ""
+    ],
+    "name": "Bundesinventar der historischen Verkehrswege der Schweiz (IVS)",
+    "name_2": null,
+    "street": "",
+    "zip": "",
+    "place": "",
+    "tel": "",
+    "fax": null,
+    "email": "",
+    "url1_link": "https://www.ivs.admin.ch",
+    "x_coordinate": 648970.090941422,
+    "y_coordinate": 214599.49052308718,
+    "change_date": null,
+    "id": 632,
+    "r_key": 632,
+    "type": "Sight",
+    "url_sightseeing": "https://s.geo.admin.ch/6fb18851f1",
+    "touristic_region": 4
+  }
+}

@@ -1,1 +1,50 @@
-{"type":"Feature","id":3273,"geometry":{"type":"Point","coordinates":[46.09164338132616,7.233733148136185]},"properties":{"land":null,"category":"all","language":"en","title":"Skills Park Verbier","abstract":"The Verbier skills park is located in the forest near Médran, a perfect playground for young mountain biking fans. Jumps, bridges and turns at different levels of difficulty are an opportunity to playfully learn new skills.","description":" ","highlights":"Surface: natural\nOpening hours: July - September","foto":"https://images0.schweizmobil.ch/image-big/Skills_Park_Verbier_g.jpg","photo_gallery":["https://images0.schweizmobil.ch/image/Skills_Park_Verbier_s.jpg"],"photo_gallery_big":["https://images0.schweizmobil.ch/image-big/Skills_Park_Verbier_g.jpg"],"photo_gallery_copyright":[""],"photo_gallery_author":[""],"name":"Verbier Bikepark","name_2":null,"street":"CP 300","zip":"1936","place":"Verbier","tel":"+41 27 775 25 11","fax":null,"email":"info@verbierbikepark.ch","url1_link":"https://verbierbikepark.ch/","x_coordinate":584152.3184254701,"y_coordinate":104480.72947724117,"change_date":null,"id":3273,"r_key":3273,"type":"Sight","url_sightseeing":"https://www.valais.ch/en/activities/mountain-bike/pumptracks/skills-park-verbier","touristic_region":11}}
+{
+  "type": "Feature",
+  "id": 3273,
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      46.09164338132616,
+      7.233733148136185
+    ]
+  },
+  "properties": {
+    "land": null,
+    "category": "all",
+    "language": "en",
+    "title": "Skills Park Verbier",
+    "abstract": "The Verbier skills park is located in the forest near Médran, a perfect playground for young mountain biking fans. Jumps, bridges and turns at different levels of difficulty are an opportunity to playfully learn new skills.",
+    "description": "",
+    "highlights": "Surface: natural\nOpening hours: July - September",
+    "foto": "https://images0.schweizmobil.ch/image-big/Skills_Park_Verbier_g.jpg",
+    "photo_gallery": [
+      "https://images0.schweizmobil.ch/image/Skills_Park_Verbier_s.jpg"
+    ],
+    "photo_gallery_big": [
+      "https://images0.schweizmobil.ch/image-big/Skills_Park_Verbier_g.jpg"
+    ],
+    "photo_gallery_copyright": [
+      ""
+    ],
+    "photo_gallery_author": [
+      ""
+    ],
+    "name": "Verbier Bikepark",
+    "name_2": null,
+    "street": "CP 300",
+    "zip": "1936",
+    "place": "Verbier",
+    "tel": "+41 27 775 25 11",
+    "fax": null,
+    "email": "info@verbierbikepark.ch",
+    "url1_link": "https://verbierbikepark.ch/",
+    "x_coordinate": 584152.3184254701,
+    "y_coordinate": 104480.72947724117,
+    "change_date": null,
+    "id": 3273,
+    "r_key": 3273,
+    "type": "Sight",
+    "url_sightseeing": "https://www.valais.ch/en/activities/mountain-bike/pumptracks/skills-park-verbier",
+    "touristic_region": 11
+  }
+}

@@ -1,1 +1,50 @@
-{"type":"Feature","id":648,"geometry":{"type":"Point","coordinates":[47.3617391819613,8.343420812114639]},"properties":{"land":null,"category":"all","language":"en","title":"Bremgarten–Eggenwil","abstract":"The footpath alongside the Reuss from Bremgarten to Eggenwil is an up to 900-year-old link along the banks of the Reuss. The entire path is still almost in its original location and was renovated in 1995.","description":"The unstable banks of the Reuss have been at the mercy of erosion and flooding since time immemorial and as a rule rarely used as pathways. One exception was the Reuss bank path that was recorded on a map in 1748 as «Fuess Weg der Rüss nach auf Eckenwill» (footpath on the Reuss to Eckenwill). Before it became a town, the village of Bremgarten probably belonged to the court of Eggenwil and the path may have been the original Bremgarten church path. It would thus be about 800 to 900 years old. Its considerable age, continual course, cobbled sections and integration into the landscape has made it an object of national importance.\n\nThe path starts at the former Bremgarten boat jetty at Hermannsturm and follows the stabilized Reuss banks through «Risi». At Bibelots the path narrows to a track up to one-metre wide. The surface is gravel, but is mostly covered with water-soaked river sand. At Struss-Steinmannshüsli are the remains of an old uneven cobbled surface made of stones gathered from the surroundings. At the mouth of the Pflanzerbach, the varied path is separated from the river by a stretch of woodland.","highlights":null,"foto":"https://images0.schweizmobil.ch/image/IVS_42_Aargauerweg.jpg","photo_gallery":["https://images0.schweizmobil.ch/image/IVS_42_Aargauerweg.jpg"],"photo_gallery_big":[""],"photo_gallery_copyright":[""],"photo_gallery_author":[""],"name":"Bundesinventar der historischen Verkehrswege der Schweiz (IVS)","name_2":null,"street":" ","zip":" ","place":" ","tel":" ","fax":null,"email":" ","url1_link":"https://www.ivs.admin.ch","x_coordinate":668350.000426571,"y_coordinate":246049.7769727374,"change_date":null,"id":648,"r_key":648,"type":"Sight","url_sightseeing":"https://s.geo.admin.ch/6fb159d024","touristic_region":14}}
+{
+  "type": "Feature",
+  "id": 648,
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      47.3617391819613,
+      8.343420812114639
+    ]
+  },
+  "properties": {
+    "land": null,
+    "category": "all",
+    "language": "en",
+    "title": "Bremgarten–Eggenwil",
+    "abstract": "The footpath alongside the Reuss from Bremgarten to Eggenwil is an up to 900-year-old link along the banks of the Reuss. The entire path is still almost in its original location and was renovated in 1995.",
+    "description": "The unstable banks of the Reuss have been at the mercy of erosion and flooding since time immemorial and as a rule rarely used as pathways. One exception was the Reuss bank path that was recorded on a map in 1748 as «Fuess Weg der Rüss nach auf Eckenwill» (footpath on the Reuss to Eckenwill). Before it became a town, the village of Bremgarten probably belonged to the court of Eggenwil and the path may have been the original Bremgarten church path. It would thus be about 800 to 900 years old. Its considerable age, continual course, cobbled sections and integration into the landscape has made it an object of national importance.\n\nThe path starts at the former Bremgarten boat jetty at Hermannsturm and follows the stabilized Reuss banks through «Risi». At Bibelots the path narrows to a track up to one-metre wide. The surface is gravel, but is mostly covered with water-soaked river sand. At Struss-Steinmannshüsli are the remains of an old uneven cobbled surface made of stones gathered from the surroundings. At the mouth of the Pflanzerbach, the varied path is separated from the river by a stretch of woodland.",
+    "highlights": null,
+    "foto": "https://images0.schweizmobil.ch/image/IVS_42_Aargauerweg.jpg",
+    "photo_gallery": [
+      "https://images0.schweizmobil.ch/image/IVS_42_Aargauerweg.jpg"
+    ],
+    "photo_gallery_big": [
+      ""
+    ],
+    "photo_gallery_copyright": [
+      ""
+    ],
+    "photo_gallery_author": [
+      ""
+    ],
+    "name": "Bundesinventar der historischen Verkehrswege der Schweiz (IVS)",
+    "name_2": null,
+    "street": "",
+    "zip": "",
+    "place": "",
+    "tel": "",
+    "fax": null,
+    "email": "",
+    "url1_link": "https://www.ivs.admin.ch",
+    "x_coordinate": 668350.000426571,
+    "y_coordinate": 246049.7769727374,
+    "change_date": null,
+    "id": 648,
+    "r_key": 648,
+    "type": "Sight",
+    "url_sightseeing": "https://s.geo.admin.ch/6fb159d024",
+    "touristic_region": 14
+  }
+}

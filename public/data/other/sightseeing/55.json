@@ -1,1 +1,50 @@
-{"type":"Feature","id":55,"geometry":{"type":"Point","coordinates":[46.58260962506096,9.837873458170055]},"properties":{"land":null,"category":"all","language":"en","title":"Albulapass","abstract":"One of Switzerland’s best-kept engineered roads from the 19th century leads over the Albulapass. It is accompanied by the imposing structures of the Rhaetian Railway. In 2008 this became only the third railway in the world to be listed as a UNESCO World Heritage.","description":"Bronze finds prove that the Albulapass was already travelled in prehistoric times. The pass played a key role in passenger and goods transport in the High Middle Ages. It was important mainly because of its direct route: «If the Albula was as long as the Bernina, neither cock nor hen would use it».\n\nThe engineered road was built in the 19th century: from 1855-58 from Tiefencastel to Bergün, width 3.60 metres and from 1864- 66 from Bergün to La Punt, width 4.20 metres. The new engineered road took a completely different route to the old one.\n\nMost of its character and route have been retained. Despite improvements – particularly on the Engadine side –drystone walling and cemented retaining walls, traditional drainage (Tombini), milestones and several natural stone bridges can still be seen. Smaller elements such as wooden roadside posts, grit containers and cobbled drainage channels (cunettes) are also often found. In recent years, the traditional wooden fencing has mostly been replaced by metal crash barriers or new wooden fences.\n\nBetween Bergün and Preda, the pass route is dominated by impressive structures that are easily seen from the road. These belong to the Rhaetian Railway, which in 2008 became only the third railway in the world to be listed as a UNESCO World Heritage.","highlights":null,"foto":"https://images0.schweizmobil.ch/image/IVS_33_Albula.jpg","photo_gallery":["https://images0.schweizmobil.ch/image/IVS_33_Albula.jpg"],"photo_gallery_big":[""],"photo_gallery_copyright":[""],"photo_gallery_author":[""],"name":"Bundesinventar der historischen Verkehrswege der Schweiz (IVS)","name_2":null,"street":" ","zip":" ","place":" ","tel":" ","fax":null,"email":" ","url1_link":"https://www.ivs.admin.ch","x_coordinate":783869.9573364913,"y_coordinate":161849.99320913438,"change_date":null,"id":55,"r_key":55,"type":"Sight","url_sightseeing":"https://s.geo.admin.ch/6fb1527da4","touristic_region":1}}
+{
+  "type": "Feature",
+  "id": 55,
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      46.58260962506096,
+      9.837873458170055
+    ]
+  },
+  "properties": {
+    "land": null,
+    "category": "all",
+    "language": "en",
+    "title": "Albulapass",
+    "abstract": "One of Switzerland’s best-kept engineered roads from the 19th century leads over the Albulapass. It is accompanied by the imposing structures of the Rhaetian Railway. In 2008 this became only the third railway in the world to be listed as a UNESCO World Heritage.",
+    "description": "Bronze finds prove that the Albulapass was already travelled in prehistoric times. The pass played a key role in passenger and goods transport in the High Middle Ages. It was important mainly because of its direct route: «If the Albula was as long as the Bernina, neither cock nor hen would use it».\n\nThe engineered road was built in the 19th century: from 1855-58 from Tiefencastel to Bergün, width 3.60 metres and from 1864- 66 from Bergün to La Punt, width 4.20 metres. The new engineered road took a completely different route to the old one.\n\nMost of its character and route have been retained. Despite improvements – particularly on the Engadine side –drystone walling and cemented retaining walls, traditional drainage (Tombini), milestones and several natural stone bridges can still be seen. Smaller elements such as wooden roadside posts, grit containers and cobbled drainage channels (cunettes) are also often found. In recent years, the traditional wooden fencing has mostly been replaced by metal crash barriers or new wooden fences.\n\nBetween Bergün and Preda, the pass route is dominated by impressive structures that are easily seen from the road. These belong to the Rhaetian Railway, which in 2008 became only the third railway in the world to be listed as a UNESCO World Heritage.",
+    "highlights": null,
+    "foto": "https://images0.schweizmobil.ch/image/IVS_33_Albula.jpg",
+    "photo_gallery": [
+      "https://images0.schweizmobil.ch/image/IVS_33_Albula.jpg"
+    ],
+    "photo_gallery_big": [
+      ""
+    ],
+    "photo_gallery_copyright": [
+      ""
+    ],
+    "photo_gallery_author": [
+      ""
+    ],
+    "name": "Bundesinventar der historischen Verkehrswege der Schweiz (IVS)",
+    "name_2": null,
+    "street": "",
+    "zip": "",
+    "place": "",
+    "tel": "",
+    "fax": null,
+    "email": "",
+    "url1_link": "https://www.ivs.admin.ch",
+    "x_coordinate": 783869.9573364913,
+    "y_coordinate": 161849.99320913438,
+    "change_date": null,
+    "id": 55,
+    "r_key": 55,
+    "type": "Sight",
+    "url_sightseeing": "https://s.geo.admin.ch/6fb1527da4",
+    "touristic_region": 1
+  }
+}

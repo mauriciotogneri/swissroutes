@@ -1,1 +1,50 @@
-{"type":"Feature","id":64,"geometry":{"type":"Point","coordinates":[47.55144834583227,7.951606073223932]},"properties":{"land":null,"category":"all","language":"en","title":"Rhine bridge – Säckingen's lifeline","abstract":"A bridge between the town of of Säckingen and the south bank of the Rhine was officially recorded as early as 1270. At around 205 metres in length, the existing wooden bridge between Stein and Bad Säckingen is the longest of its kind in Europe.","description":"The Sackinger Monastery owned a large amount of property in the Fricktal valley and more distant regions of Switzerland until into the 19th century. This also formed a significant part of monastery assets. The Rhine bridge also provided easy access from this hinterland to the market of the town, which lay off the main traffic route. It thus became of vital economic significance.\n\nIt is not known when and by whom the oldest bridge was built. In the Middle Ages, this was repeatedly destroyed by floods and in 1570 the town decided on a new structure with the bridge for the first time set on stone pillars. These massive pillars, placed at irregular intervals and standing on the river bed, still characterize its design. The present superstructure was erected in 1810 by Blasius Baldischwiler and renewed by Fridolin Albietz in 1843. Each bridge section spans a substantial 21–31 metres.\n\nIn 1979 the bridge became the possession of the town of Säckingen and since then has been closed to vehicles. It was renovated in 1990. One of the recesses on the bridge holds a beautiful statue of St.John of Nepomuk, the patron saint of bridges, dating from 1772.","highlights":null,"foto":"https://images0.schweizmobil.ch/image/IVS_42_Bad_Saeckingen.jpg","photo_gallery":["https://images0.schweizmobil.ch/image/IVS_42_Bad_Saeckingen.jpg"],"photo_gallery_big":[""],"photo_gallery_copyright":[""],"photo_gallery_author":[""],"name":"Bundesinventar der historischen Verkehrswege der Schweiz (IVS)","name_2":null,"street":" ","zip":" ","place":" ","tel":" ","fax":null,"email":" ","url1_link":"https://www.ivs.admin.ch","x_coordinate":638614.7243171212,"y_coordinate":266874.9702902853,"change_date":null,"id":64,"r_key":64,"type":"Sight","url_sightseeing":"https://s.geo.admin.ch/6fb171b7ff","touristic_region":14}}
+{
+  "type": "Feature",
+  "id": 64,
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      47.55144834583227,
+      7.951606073223932
+    ]
+  },
+  "properties": {
+    "land": null,
+    "category": "all",
+    "language": "en",
+    "title": "Rhine bridge – Säckingen's lifeline",
+    "abstract": "A bridge between the town of of Säckingen and the south bank of the Rhine was officially recorded as early as 1270. At around 205 metres in length, the existing wooden bridge between Stein and Bad Säckingen is the longest of its kind in Europe.",
+    "description": "The Sackinger Monastery owned a large amount of property in the Fricktal valley and more distant regions of Switzerland until into the 19th century. This also formed a significant part of monastery assets. The Rhine bridge also provided easy access from this hinterland to the market of the town, which lay off the main traffic route. It thus became of vital economic significance.\n\nIt is not known when and by whom the oldest bridge was built. In the Middle Ages, this was repeatedly destroyed by floods and in 1570 the town decided on a new structure with the bridge for the first time set on stone pillars. These massive pillars, placed at irregular intervals and standing on the river bed, still characterize its design. The present superstructure was erected in 1810 by Blasius Baldischwiler and renewed by Fridolin Albietz in 1843. Each bridge section spans a substantial 21–31 metres.\n\nIn 1979 the bridge became the possession of the town of Säckingen and since then has been closed to vehicles. It was renovated in 1990. One of the recesses on the bridge holds a beautiful statue of St.John of Nepomuk, the patron saint of bridges, dating from 1772.",
+    "highlights": null,
+    "foto": "https://images0.schweizmobil.ch/image/IVS_42_Bad_Saeckingen.jpg",
+    "photo_gallery": [
+      "https://images0.schweizmobil.ch/image/IVS_42_Bad_Saeckingen.jpg"
+    ],
+    "photo_gallery_big": [
+      ""
+    ],
+    "photo_gallery_copyright": [
+      ""
+    ],
+    "photo_gallery_author": [
+      ""
+    ],
+    "name": "Bundesinventar der historischen Verkehrswege der Schweiz (IVS)",
+    "name_2": null,
+    "street": "",
+    "zip": "",
+    "place": "",
+    "tel": "",
+    "fax": null,
+    "email": "",
+    "url1_link": "https://www.ivs.admin.ch",
+    "x_coordinate": 638614.7243171212,
+    "y_coordinate": 266874.9702902853,
+    "change_date": null,
+    "id": 64,
+    "r_key": 64,
+    "type": "Sight",
+    "url_sightseeing": "https://s.geo.admin.ch/6fb171b7ff",
+    "touristic_region": 14
+  }
+}

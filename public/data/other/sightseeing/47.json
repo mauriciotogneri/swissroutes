@@ -1,1 +1,50 @@
-{"type":"Feature","id":47,"geometry":{"type":"Point","coordinates":[46.29527500532495,8.795507696852068]},"properties":{"land":null,"category":"all","language":"en","title":"With the Black Brothers in Val Verzasca","abstract":"Who doesn’t know the story of the «Schwarzen Brüder» (Black Brothers) from the Val Verzasca, the little chimney sweeps who were sold to Milan. A hike on impressive paths, one which tells many tales of misery and deprivation.","description":"Until the end of the 19th century, the inhabitants of many of the Ticino valleys were destitute, a fact which in many places drove younger people to leave and seek their fortune in the wide world. Some found it, others sank into poverty out of sheer longing for their beloved, familiar surroundings.\n\nOne story deals with the boy chimney sweeps, the«Schwarzen Brüder» (Black Brothers) from the Val Verzasca. The mostly intact historic pack -animal trail from Sonogno to Lavertezzo traces their footsteps. The valley is dominated by rock, whether the rockslides that repeatedly threatened the lives of the valley inhabitants, stone roofs on stone houses or skilfully layered stone walls, between which hikers travel along a path with stone steps and paving.\n\nThe trail continues through forests of chestnut trees and open grassland, where the drystone walling along the track also keeps cattle on the path to the alp. As well as other markers, artistically-decorated chapels along the way tell of hard times and an inherent piety.","highlights":null,"foto":"https://images0.schweizmobil.ch/image/IVS_25_Verzasca.jpg","photo_gallery":["https://images0.schweizmobil.ch/image/IVS_25_Verzasca.jpg"],"photo_gallery_big":[""],"photo_gallery_copyright":[""],"photo_gallery_author":[""],"name":"Bundesinventar der historischen Verkehrswege der Schweiz (IVS)","name_2":null,"street":" ","zip":" ","place":" ","tel":" ","fax":null,"email":" ","url1_link":"https://www.ivs.admin.ch","x_coordinate":704549.9793986278,"y_coordinate":128000.03121306612,"change_date":null,"id":47,"r_key":47,"type":"Sight","url_sightseeing":"https://s.geo.admin.ch/6fb188d6e5","touristic_region":12}}
+{
+  "type": "Feature",
+  "id": 47,
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      46.29527500532495,
+      8.795507696852068
+    ]
+  },
+  "properties": {
+    "land": null,
+    "category": "all",
+    "language": "en",
+    "title": "With the Black Brothers in Val Verzasca",
+    "abstract": "Who doesn’t know the story of the «Schwarzen Brüder» (Black Brothers) from the Val Verzasca, the little chimney sweeps who were sold to Milan. A hike on impressive paths, one which tells many tales of misery and deprivation.",
+    "description": "Until the end of the 19th century, the inhabitants of many of the Ticino valleys were destitute, a fact which in many places drove younger people to leave and seek their fortune in the wide world. Some found it, others sank into poverty out of sheer longing for their beloved, familiar surroundings.\n\nOne story deals with the boy chimney sweeps, the«Schwarzen Brüder» (Black Brothers) from the Val Verzasca. The mostly intact historic pack -animal trail from Sonogno to Lavertezzo traces their footsteps. The valley is dominated by rock, whether the rockslides that repeatedly threatened the lives of the valley inhabitants, stone roofs on stone houses or skilfully layered stone walls, between which hikers travel along a path with stone steps and paving.\n\nThe trail continues through forests of chestnut trees and open grassland, where the drystone walling along the track also keeps cattle on the path to the alp. As well as other markers, artistically-decorated chapels along the way tell of hard times and an inherent piety.",
+    "highlights": null,
+    "foto": "https://images0.schweizmobil.ch/image/IVS_25_Verzasca.jpg",
+    "photo_gallery": [
+      "https://images0.schweizmobil.ch/image/IVS_25_Verzasca.jpg"
+    ],
+    "photo_gallery_big": [
+      ""
+    ],
+    "photo_gallery_copyright": [
+      ""
+    ],
+    "photo_gallery_author": [
+      ""
+    ],
+    "name": "Bundesinventar der historischen Verkehrswege der Schweiz (IVS)",
+    "name_2": null,
+    "street": "",
+    "zip": "",
+    "place": "",
+    "tel": "",
+    "fax": null,
+    "email": "",
+    "url1_link": "https://www.ivs.admin.ch",
+    "x_coordinate": 704549.9793986278,
+    "y_coordinate": 128000.03121306612,
+    "change_date": null,
+    "id": 47,
+    "r_key": 47,
+    "type": "Sight",
+    "url_sightseeing": "https://s.geo.admin.ch/6fb188d6e5",
+    "touristic_region": 12
+  }
+}

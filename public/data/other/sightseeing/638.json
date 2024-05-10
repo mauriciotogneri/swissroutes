@@ -1,1 +1,50 @@
-{"type":"Feature","id":638,"geometry":{"type":"Point","coordinates":[46.55721084336321,6.688915145619372]},"properties":{"land":null,"category":"all","language":"en","title":"Bois de Peccau (Epalinges)","abstract":"On the historic route from Lausanne to Moudon, you hike east from Epalinges along ancient tracks through the Bois de Peccau forest. The contrast between the sunken paths and the road could not be greater","description":"Between Epalinges and Sainte-Catherine, the Bois de Peccau and the following trails to the east hold many sunken paths. The paths, documented in historic sources in 1670 belong to the former key link from Lausanne, via Moudon and Avenches to Bern, which tradesmen probably used to reach the Swiss Mittelland as far back as Roman times.\n\nThe sunken paths are now rarely used but still display considerable dimensions. The vestiges of the sunken paths lead up the slope for a distance of just over 500 metres with a width of 200 metres. What can be seen elsewhere is also confirmed here: while in densely populated areas many historic traffic routes fell victim to the pressure to build settlements and roads, evidence of former traffic links can still be found in forests. For this we can thank the Swiss Forestry Law introduced in 1876, which effectively hindered any further deforestation and at the same time protected the paths leading through here.\n\nWhether the paths actually date back to Roman times or were first created in modern times does not alter the fact that the sunken paths in the Bois de Peccau represent an intriguing experience.","highlights":null,"foto":"https://images0.schweizmobil.ch/image/IVS_05_01_Remigersteig.jpg","photo_gallery":["https://images0.schweizmobil.ch/image/IVS_05_01_Remigersteig.jpg"],"photo_gallery_big":[""],"photo_gallery_copyright":[""],"photo_gallery_author":[""],"name":"Bundesinventar der historischen Verkehrswege der Schweiz (IVS)","name_2":null,"street":" ","zip":" ","place":" ","tel":" ","fax":null,"email":" ","url1_link":"https://www.ivs.admin.ch","x_coordinate":542509.8311330089,"y_coordinate":156489.59765318056,"change_date":null,"id":638,"r_key":638,"type":"Sight","url_sightseeing":"https://s.geo.admin.ch/6fb158e4e3","touristic_region":9}}
+{
+  "type": "Feature",
+  "id": 638,
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      46.55721084336321,
+      6.688915145619372
+    ]
+  },
+  "properties": {
+    "land": null,
+    "category": "all",
+    "language": "en",
+    "title": "Bois de Peccau (Epalinges)",
+    "abstract": "On the historic route from Lausanne to Moudon, you hike east from Epalinges along ancient tracks through the Bois de Peccau forest. The contrast between the sunken paths and the road could not be greater",
+    "description": "Between Epalinges and Sainte-Catherine, the Bois de Peccau and the following trails to the east hold many sunken paths. The paths, documented in historic sources in 1670 belong to the former key link from Lausanne, via Moudon and Avenches to Bern, which tradesmen probably used to reach the Swiss Mittelland as far back as Roman times.\n\nThe sunken paths are now rarely used but still display considerable dimensions. The vestiges of the sunken paths lead up the slope for a distance of just over 500 metres with a width of 200 metres. What can be seen elsewhere is also confirmed here: while in densely populated areas many historic traffic routes fell victim to the pressure to build settlements and roads, evidence of former traffic links can still be found in forests. For this we can thank the Swiss Forestry Law introduced in 1876, which effectively hindered any further deforestation and at the same time protected the paths leading through here.\n\nWhether the paths actually date back to Roman times or were first created in modern times does not alter the fact that the sunken paths in the Bois de Peccau represent an intriguing experience.",
+    "highlights": null,
+    "foto": "https://images0.schweizmobil.ch/image/IVS_05_01_Remigersteig.jpg",
+    "photo_gallery": [
+      "https://images0.schweizmobil.ch/image/IVS_05_01_Remigersteig.jpg"
+    ],
+    "photo_gallery_big": [
+      ""
+    ],
+    "photo_gallery_copyright": [
+      ""
+    ],
+    "photo_gallery_author": [
+      ""
+    ],
+    "name": "Bundesinventar der historischen Verkehrswege der Schweiz (IVS)",
+    "name_2": null,
+    "street": "",
+    "zip": "",
+    "place": "",
+    "tel": "",
+    "fax": null,
+    "email": "",
+    "url1_link": "https://www.ivs.admin.ch",
+    "x_coordinate": 542509.8311330089,
+    "y_coordinate": 156489.59765318056,
+    "change_date": null,
+    "id": 638,
+    "r_key": 638,
+    "type": "Sight",
+    "url_sightseeing": "https://s.geo.admin.ch/6fb158e4e3",
+    "touristic_region": 9
+  }
+}

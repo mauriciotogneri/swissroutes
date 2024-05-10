@@ -1,1 +1,50 @@
-{"type":"Feature","id":41,"geometry":{"type":"Point","coordinates":[47.48641285520878,8.206799507525798]},"properties":{"land":null,"category":"all","language":"en","title":"Brugg: Home to bridges for two millennia","abstract":"The Romans were the first to bridge the narrow Aareschlucht gorge and records exist of a mediaeval bridge in 1064. Numerous important routes meet here and some, like the Remigersteig, have retained their traditional structure.","description":"Brugg is one of the oldest bridge sites in Switzerland. Written sources and illustrations record at least three consecutive wooden bridges over the gorge which spans only 12 metres. The town built the first stone bridge in 1577. Today’s concrete structure was built in 1924/25 and has retained the original design of its predecessors.\n\nIn late medieval times, the bridge was secured at each side by gateway structures and on the right river bank by the Schwarzer Turm (tower). The gateway structures were demolished in the first half of the 19th century and only the Schwarzer Turm remains.\n\nThe Remigersteig trail branches off the Bözbergstrasse and is just one of several historic paths that led to the bridge. It had two important functions until well into the 19th century: on a local level it linked the vineyards to the north-west of the town to the woodland on the Bruggerberg.\n\nAt the same time, it was also the road to the neighbouring villages of Riniken, Rüfenach and Remigen. It also gave access to the northern Aargau Jura mountains via Remigen. The Remigersteig was distinguished by its superior structure and paved surface which today lies beneath a layer of bitumen. Today it is famed for its impressive sunken path, one of Canton Aargau’s most magnificent examples.","highlights":null,"foto":"https://images0.schweizmobil.ch/image/IVS_17_Brugg.jpg","photo_gallery":["https://images0.schweizmobil.ch/image/IVS_17_Brugg.jpg"],"photo_gallery_big":[""],"photo_gallery_copyright":[""],"photo_gallery_author":[""],"name":"Bundesinventar der historischen Verkehrswege der Schweiz (IVS)","name_2":null,"street":" ","zip":" ","place":" ","tel":" ","fax":null,"email":" ","url1_link":"https://www.ivs.admin.ch","x_coordinate":657894.9263477846,"y_coordinate":259800.41802789547,"change_date":null,"id":41,"r_key":41,"type":"Sight","url_sightseeing":"https://s.geo.admin.ch/6fb15b82ad","touristic_region":14}}
+{
+  "type": "Feature",
+  "id": 41,
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      47.48641285520878,
+      8.206799507525798
+    ]
+  },
+  "properties": {
+    "land": null,
+    "category": "all",
+    "language": "en",
+    "title": "Brugg: Home to bridges for two millennia",
+    "abstract": "The Romans were the first to bridge the narrow Aareschlucht gorge and records exist of a mediaeval bridge in 1064. Numerous important routes meet here and some, like the Remigersteig, have retained their traditional structure.",
+    "description": "Brugg is one of the oldest bridge sites in Switzerland. Written sources and illustrations record at least three consecutive wooden bridges over the gorge which spans only 12 metres. The town built the first stone bridge in 1577. Today’s concrete structure was built in 1924/25 and has retained the original design of its predecessors.\n\nIn late medieval times, the bridge was secured at each side by gateway structures and on the right river bank by the Schwarzer Turm (tower). The gateway structures were demolished in the first half of the 19th century and only the Schwarzer Turm remains.\n\nThe Remigersteig trail branches off the Bözbergstrasse and is just one of several historic paths that led to the bridge. It had two important functions until well into the 19th century: on a local level it linked the vineyards to the north-west of the town to the woodland on the Bruggerberg.\n\nAt the same time, it was also the road to the neighbouring villages of Riniken, Rüfenach and Remigen. It also gave access to the northern Aargau Jura mountains via Remigen. The Remigersteig was distinguished by its superior structure and paved surface which today lies beneath a layer of bitumen. Today it is famed for its impressive sunken path, one of Canton Aargau’s most magnificent examples.",
+    "highlights": null,
+    "foto": "https://images0.schweizmobil.ch/image/IVS_17_Brugg.jpg",
+    "photo_gallery": [
+      "https://images0.schweizmobil.ch/image/IVS_17_Brugg.jpg"
+    ],
+    "photo_gallery_big": [
+      ""
+    ],
+    "photo_gallery_copyright": [
+      ""
+    ],
+    "photo_gallery_author": [
+      ""
+    ],
+    "name": "Bundesinventar der historischen Verkehrswege der Schweiz (IVS)",
+    "name_2": null,
+    "street": "",
+    "zip": "",
+    "place": "",
+    "tel": "",
+    "fax": null,
+    "email": "",
+    "url1_link": "https://www.ivs.admin.ch",
+    "x_coordinate": 657894.9263477846,
+    "y_coordinate": 259800.41802789547,
+    "change_date": null,
+    "id": 41,
+    "r_key": 41,
+    "type": "Sight",
+    "url_sightseeing": "https://s.geo.admin.ch/6fb15b82ad",
+    "touristic_region": 14
+  }
+}
