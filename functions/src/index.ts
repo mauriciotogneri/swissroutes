@@ -7,6 +7,15 @@ setGlobalOptions({
 });
 
 export const website = onRequest((request, response) => {
-  const template = fs.readFileSync("static/index.html", "utf-8");
+  let template = fs.readFileSync("static/index.html", "utf-8");
+  template = fillIds(template, "HIKING_NATIONAL_IDS", "hiking/national");
+
   response.status(200).send(template);
 });
+
+const fillIds = (content: string, name: string, path: string): string => {
+  const base = `const ${name} = `;
+  const ids = JSON.parse(fs.readFileSync(`static/data/${path}.json`, "utf-8"));
+
+  return content.replace(`${base}[]`, `${base}${JSON.stringify(ids)}`);
+};

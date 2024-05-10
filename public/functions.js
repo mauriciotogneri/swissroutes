@@ -105,10 +105,9 @@ function refreshCycling() {
 
 function refreshHiking() {
   const nationalChecked = document.getElementById('checkboxHikingNational').checked
-  const nationalIds = [1, 2, 3, 4, 5, 6, 7]
 
   if (nationalChecked) {
-    for (const id of nationalIds) {
+    for (const id of HIKING_NATIONAL_IDS) {
       loadRoute('hiking', `hiking/national/${id}.json`, false)
     }
   }
