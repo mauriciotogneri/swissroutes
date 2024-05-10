@@ -434,8 +434,6 @@ function showChargingStations(json) {
   const latitude = parseFloat(coordinates[1])
   const longitude = parseFloat(coordinates[0])
 
-  //46.128503, 5.923137
-  //47.858446, 10.583217
   if ((latitude >= 46.128503) && (latitude <= 47.858446) && (longitude >= 5.923137) && (longitude <= 10.583217)) {
     let content = `<b style="font-weight:bold">${json.name}</b><br/><br/>`
 
