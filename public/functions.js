@@ -1,11 +1,11 @@
 "use strict"
 
-var map = null
-var openedInfoWindow = null
-var markersAdded = []
-var pathsAdded = []
-var currentGallery = []
-var currentGalleryIndex = 0
+let map = null
+let openedInfoWindow = null
+let markersAdded = []
+let pathsAdded = []
+let currentGallery = []
+let currentGalleryIndex = 0
 
 const COLORS = ['#e81123', '#c6ba15', '#ff8c00', '#ec008c', '#68217a', '#00188f', '#00bcf2', '#00b294', '#009e49', '#bad80a']
 
@@ -19,11 +19,11 @@ function initMap() {
 }
 
 function refresh() {
-  for (var marker of markersAdded) {
+  for (let marker of markersAdded) {
     marker.setMap(null)
   }
 
-  for (var path of pathsAdded) {
+  for (let path of pathsAdded) {
     path.setMap(null)
   }
 
@@ -271,9 +271,9 @@ function loadChargingStations(url) {
 function showRoute(type, url, json, focus) {
   const stages = json.geometry.coordinates
 
-  var galleryList = getGallery(json)
+  let galleryList = getGallery(json)
 
-  var content = ''
+  let content = ''
   content += `<img width='25' src='${json.properties.logo}' style='margin-right:10px'/>`
   content += `<a href='https://www.schweizmobil.ch/en/${type}-in-switzerland/routes/route-0${json.properties.r_number}.html' target='_blank'>${json.properties.title}</a>`
   content += `<span style='position:absolute;left:100%;top:15px;transform:translateX(-150%);'><a href='?url=${encodeURIComponent(url)}&type=${type}' style='margin-right:20px' target='_blank'>SHARE</a><a href='gpx.php?file=${url}' target='_blank'>DOWNLOAD</a></span><br/><br/>`
@@ -301,23 +301,23 @@ function showRoute(type, url, json, focus) {
   const markerEnd = showMarker(end.lat, end.lng, infowindow, markerText, galleryList)
   const color = nameToRGB(json.properties.title)
 
-  var north = -90
-  var south = 90
-  var east = -180
-  var west = 180
+  let north = -90
+  let south = 90
+  let east = -180
+  let west = 180
 
-  for (var i = 0; i < stages.length; i++) {
+  for (let i = 0; i < stages.length; i++) {
     const stage = stages[i]
     const path = []
 
-    for (var j = 0; j < stage.length; j++) {
+    for (let j = 0; j < stage.length; j++) {
       const newPoint = point(stage[j][0], stage[j][1])
       path.push(newPoint)
     }
 
     showPath(path, markerStart, infowindow, color, galleryList, focus)
 
-    for (var coordinate of path) {
+    for (let coordinate of path) {
       if (coordinate.lat > north) {
         north = coordinate.lat
       }
@@ -349,7 +349,7 @@ function showRoute(type, url, json, focus) {
 }
 
 function showPoint(label, baseLink, json) {
-  var content = ''
+  let content = ''
   content += `<a href='${baseLink}${json.id}' target='_blank'>${json.properties.name}</a><br/><br/>`
 
   if (json.properties.street) {
@@ -384,7 +384,7 @@ function showPoint(label, baseLink, json) {
 }
 
 function showMountainHike(json) {
-  var content = ''
+  let content = ''
   content += `<b>${json.properties.title} - ${json.properties.poi_title}</b><br/><br/>`
 
   if (json.properties.abstract) {
@@ -415,7 +415,7 @@ function showMountainHike(json) {
 }
 
 function showChargingStations(json) {
-  var content = ''
+  let content = ''
   content += `<b>${json.name}</b><br/><br/>`
 
   if (json.description) {
@@ -432,7 +432,7 @@ function showChargingStations(json) {
 }
 
 function getGallery(json) {
-  var galleryList = []
+  let galleryList = []
 
   if (json.properties.photo_gallery.length > 0) {
     galleryList = json.properties.photo_gallery
@@ -532,9 +532,9 @@ function point(lat, lng) {
 }
 
 function nameToRGB(name) {
-  var hash = 0
+  let hash = 0
 
-  for (var i = 0; i < name.length; i++) {
+  for (let i = 0; i < name.length; i++) {
     hash = Math.abs(name.charCodeAt(i) + ((hash << 5) - hash))
   }
 
