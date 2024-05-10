@@ -255,7 +255,7 @@ function loadChargingStations(url) {
 function showRoute(type, url, json, focus) {
   const stages = json.geometry.coordinates
 
-  let galleryList = getGallery(json)
+  const galleryList = getGallery(json)
 
   let content = ''
   content += `<img width='25' src='${json.properties.logo}' style='margin-right:10px'/>`
@@ -356,27 +356,36 @@ function showPoint(label, baseLink, json) {
     content += `<p>${json.properties.email}</p>`
   }
 
+  const urls = new Set()
+
   if (json.properties.url1_link) {
-    content += `<a href='${json.properties.url1_link}' target='_blank'>${json.properties.url1_link}</a><br/><br/>`
+    urls.add(json.properties.url1_link)
   }
 
   if (json.properties.url2_link) {
-    content += `<a href='${json.properties.url2_link}' target='_blank'>${json.properties.url2_link}</a><br/><br/>`
+    urls.add(json.properties.url2_link)
   }
 
   if (json.properties.url_sightseeing) {
-    content += `<a href='${json.properties.url_sightseeing}' target='_blank'>${json.properties.url_sightseeing}</a><br/><br/>`
+    urls.add(json.properties.url_sightseeing)
   }
 
-  if (json.properties.photo_gallery) {
-    content += `<img src='${json.properties.photo_gallery[0]}' width=500/><br/>`
-  }
+  urls.forEach((url) => {
+    content += `<a href='${url}' target='_blank'>${url}</a><br/><br/>`
+  });
+
+  const galleryList = getGallery(json)
+
+  content += `<center><a class='prev' onclick='plusSlides(-1, ${json.properties.r_number})'>&#10094;</a>`
+  content += `<img id='gallery-${json.properties.r_number}' height='300' src='${galleryList[0]}'/>`
+  content += `<a class='next' onclick='plusSlides(1, ${json.properties.r_number})'>&#10095;</a><br/><br/>`
+  content += `<span><b id='index-${json.properties.r_number}'>1/${galleryList.length}</b></span><br/></center>`
 
   const infowindow = new google.maps.InfoWindow({
     content: content
   })
 
-  showMarker(json.geometry.coordinates[0], json.geometry.coordinates[1], infowindow, label)
+  showMarker(json.geometry.coordinates[0], json.geometry.coordinates[1], infowindow, label, galleryList)
 }
 
 function showMountainHike(json) {
