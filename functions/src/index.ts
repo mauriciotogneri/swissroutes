@@ -9,6 +9,8 @@ setGlobalOptions({
 export const website = onRequest((request, response) => {
   let template = fs.readFileSync("static/index.html", "utf-8");
   template = fillIds(template, "HIKING_NATIONAL_IDS", "hiking/national");
+  template = fillIds(template, "HIKING_REGIONAL_IDS", "hiking/regional");
+  template = fillIds(template, "HIKING_LOCAL_IDS", "hiking/local");
 
   response.status(200).send(template);
 });
