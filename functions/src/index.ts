@@ -24,6 +24,9 @@ export const website = onRequest((request, response) => {
   template = fillIds(template, 'HIKING_REGIONAL_IDS', 'hiking/regional');
   template = fillIds(template, 'HIKING_LOCAL_IDS', 'hiking/local');
 
+  // accommodation
+  template = fillIds(template, 'ACCOMMODATION_BACKPACKER_IDS', 'accommodation/backpacker');
+
   response.status(200).send(template);
 });
 
