@@ -37,12 +37,10 @@ function refresh() {
   refreshAccommodation()
   refreshOther()
 
-  console.log(TYPE_PARAM)
-  console.log(URL_PARAM)
-
-  if (TYPE_PARAM && URL_PARAM) {
+  // TODO
+  /*if (TYPE_PARAM && URL_PARAM) {
     loadRoute(TYPE_PARAM, URL_PARAM, true)
-  }
+  }*/
 }
 
 function refreshMountainBiking() {
@@ -233,7 +231,7 @@ function loadPoint(label, baseLink, url) {
       showPoint(label, baseLink, json)
     }
   }
-  xhttp.open('GET', url, true)
+  xhttp.open('GET', `data/${url}`, true)
   xhttp.send()
 }
 
@@ -245,7 +243,7 @@ function loadMountainHike(url) {
       showMountainHike(json)
     }
   }
-  xhttp.open('GET', url, true)
+  xhttp.open('GET', `data/${url}`, true)
   xhttp.send()
 }
 
@@ -264,7 +262,7 @@ function loadChargingStations(url) {
       }
     }
   }
-  xhttp.open('GET', url, true)
+  xhttp.open('GET', `data/${url}`, true)
   xhttp.send()
 }
 
