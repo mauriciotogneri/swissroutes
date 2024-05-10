@@ -243,10 +243,6 @@ function loadChargingStations(url) {
       const json = JSON.parse(xhttp.responseText)
 
       for (const entry of json) {
-        const coordinates = entry.Point.coordinates.split(',')
-        const lat = coordinates[1]
-        const lon = coordinates[0]
-
         showChargingStations(entry)
       }
     }
@@ -435,20 +431,26 @@ function showMountainHike(json) {
 
 function showChargingStations(json) {
   const coordinates = json.Point.coordinates.split(',')
+  const latitude = parseFloat(coordinates[1])
+  const longitude = parseFloat(coordinates[0])
 
-  let content = `<b style="font-weight:bold">${json.name}</b><br/><br/>`
+  //46.128503, 5.923137
+  //47.858446, 10.583217
+  if ((latitude >= 46.128503) && (latitude <= 47.858446) && (longitude >= 5.923137) && (longitude <= 10.583217)) {
+    let content = `<b style="font-weight:bold">${json.name}</b><br/><br/>`
 
-  if (json.description) {
-    content += `<p>${json.description.__cdata}</p>`
+    if (json.description) {
+      content += `<p>${json.description.__cdata}</p>`
+    }
+
+    content += `<a href='https://www.google.com/maps/place/${latitude},${longitude}' target='_blank'>Address</a><br/><br/>`
+
+    const infowindow = new google.maps.InfoWindow({
+      content: content
+    })
+
+    showMarker(latitude, longitude, infowindow, '+/-', json)
   }
-
-  content += `<a href='https://www.google.com/maps/place/${coordinates[1]},${coordinates[0]}' target='_blank'>Address</a><br/><br/>`
-
-  const infowindow = new google.maps.InfoWindow({
-    content: content
-  })
-
-  showMarker(parseFloat(coordinates[1]), parseFloat(coordinates[0]), infowindow, '+/-', json)
 }
 
 function getGallery(json) {
