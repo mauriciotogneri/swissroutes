@@ -265,10 +265,13 @@ function showRoute(type, url, json, focus) {
   content += `<b>Height</b>: ${json.properties.height_difference.toLocaleString()} m</p>`
   content += `<p><b>${json.properties.abstract}</b></p>`
   content += `<p>${json.properties.description}</p>`
-  content += `<center><a class='prev' onclick='plusSlides(-1, ${json.properties.r_number})'>&#10094;</a>`
-  content += `<img id='gallery-${json.properties.r_number}' height='300' src='${galleryList[0]}'/>`
-  content += `<a class='next' onclick='plusSlides(1, ${json.properties.r_number})'>&#10095;</a><br/><br/>`
-  content += `<span><b id='index-${json.properties.r_number}'>1/${galleryList.length}</b></span><br/></center>`
+
+  if (galleryList.length > 0) {
+    content += `<center><a class='prev' onclick='plusSlides(-1, ${json.properties.r_number})'>&#10094;</a>`
+    content += `<img id='gallery-${json.properties.r_number}' height='300' src='${galleryList[0]}'/>`
+    content += `<a class='next' onclick='plusSlides(1, ${json.properties.r_number})'>&#10095;</a><br/><br/>`
+    content += `<span><b id='index-${json.properties.r_number}'>1/${galleryList.length}</b></span><br/></center>`
+  }
 
   const infowindow = new google.maps.InfoWindow({
     content: content
@@ -377,10 +380,12 @@ function showPoint(label, baseLink, json) {
 
   const galleryList = getGallery(json)
 
-  content += `<center><a class='prev' onclick='plusSlides(-1, ${json.properties.r_number})'>&#10094;</a>`
-  content += `<img id='gallery-${json.properties.r_number}' height='300' src='${galleryList[0]}'/>`
-  content += `<a class='next' onclick='plusSlides(1, ${json.properties.r_number})'>&#10095;</a><br/><br/>`
-  content += `<span><b id='index-${json.properties.r_number}'>1/${galleryList.length}</b></span><br/></center>`
+  if (galleryList.length > 0) {
+    content += `<center><a class='prev' onclick='plusSlides(-1, ${json.properties.r_number})'>&#10094;</a>`
+    content += `<img id='gallery-${json.properties.r_number}' height='300' src='${galleryList[0]}'/>`
+    content += `<a class='next' onclick='plusSlides(1, ${json.properties.r_number})'>&#10095;</a><br/><br/>`
+    content += `<span><b id='index-${json.properties.r_number}'>1/${galleryList.length}</b></span><br/></center>`
+  }
 
   const infowindow = new google.maps.InfoWindow({
     content: content
@@ -438,22 +443,17 @@ function showChargingStations(json) {
 }
 
 function getGallery(json) {
-  let galleryList = []
-
-  if (json.properties.photo_gallery.length > 0) {
-    galleryList = json.properties.photo_gallery
+  if (json.properties.photo_gallery?.length > 0) {
+    return json.properties.photo_gallery
+  } else if (json.properties.photo_gallery_big?.length > 0) {
+    return json.properties.photo_gallery_big
+  } else if (json.properties.photo_gallery_master?.length > 0) {
+    return json.properties.photo_gallery_master
+  } else if (json.properties.photo_gallery_small?.length > 0) {
+    return json.properties.photo_gallery_small
+  } else {
+    return []
   }
-  else if (json.properties.photo_gallery_big.length > 0) {
-    galleryList = json.properties.photo_gallery_big
-  }
-  else if (json.properties.photo_gallery_master.length > 0) {
-    galleryList = json.properties.photo_gallery_master
-  }
-  else if (json.properties.photo_gallery_small.length > 0) {
-    galleryList = json.properties.photo_gallery_small
-  }
-
-  return galleryList
 }
 
 function plusSlides(offset, id) {
