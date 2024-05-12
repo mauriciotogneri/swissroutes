@@ -1,7 +1,8 @@
 const fs = require('fs')
 
-async function downloadFile(url, filePath, isPoint) {
+async function downloadFile(name, id, filePath, isPoint) {
   try {
+    const url = `https://map.schweizmobil.ch/api/4/query/featuresmultilayers?attributes=yes&translated=true&language=en&${name}=${id}`
     const json = await getFile(url)
 
     const features = json.features

@@ -22,9 +22,8 @@ async function downloadGroup(group, folder) {
 
 async function downloadType(id, group, type, folder) {
   console.log(`${group}-${type}: ${id}`)
-  const url = `https://map.schweizmobil.ch/api/4/query/featuresmultilayers?attributes=yes&translated=true&language=en&${group}${type}=${id}`
   const filePath = `output/${folder}/${id}.json`
-  await helpers.downloadFile(url, filePath, false)
+  await helpers.downloadFile(`${group}${type}`, id, filePath, false)
 }
 
 run().catch(console.error)

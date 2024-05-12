@@ -17,9 +17,8 @@ async function downloadType(folder, type, allIds) {
     if (!allIds.includes(id)) {
       allIds.push(id)
       console.log(`${folder.toUpperCase()}: ${id}`)
-      const url = `https://map.schweizmobil.ch/api/4/query/featuresmultilayers?attributes=yes&translated=true&language=en&${type}=${id}`
       const filePath = `output/accommodation/${folder}/${id}.json`
-      await helpers.downloadFile(url, filePath, true)
+      await helpers.downloadFile(type, id, filePath, true)
     }
   }
 }
