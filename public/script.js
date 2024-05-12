@@ -1,12 +1,12 @@
 "use strict"
 
-let map = null
-let openedInfoWindow = null
+let map = undefined
+let openedInfoWindow = undefined
 let markersAdded = []
 let pathsAdded = []
 let currentGallery = []
 let currentGalleryIndex = 0
-let currentJson = null
+let currentJson = undefined
 
 const COLORS = ['#e81123', '#c6ba15', '#ff8c00', '#ec008c', '#68217a', '#00188f', '#00bcf2', '#00b294', '#009e49', '#bad80a']
 
@@ -47,11 +47,14 @@ function refresh() {
 }
 
 function refreshMountainBiking() {
+  const lengthMin = readInt('filterMountainBikingLengthMin')
+  const lengthMax = readInt('filterMountainBikingLengthMax')
+
   const nationalChecked = document.getElementById('checkboxMountainBikingNational').checked
 
   if (nationalChecked) {
     for (const id of MOUNTAINBIKING_NATIONAL_IDS) {
-      loadRoute('mountainbiking', `mountainbiking/national/${id}.json`, false)
+      loadRoute('mountainbiking', `mountainbiking/national/${id}.json`, false, lengthMin, lengthMax)
     }
   }
 
@@ -59,7 +62,7 @@ function refreshMountainBiking() {
 
   if (regionalChecked) {
     for (const id of MOUNTAINBIKING_REGIONAL_IDS) {
-      loadRoute('mountainbiking', `mountainbiking/regional/${id}.json`, false)
+      loadRoute('mountainbiking', `mountainbiking/regional/${id}.json`, false, lengthMin, lengthMax)
     }
   }
 
@@ -67,7 +70,7 @@ function refreshMountainBiking() {
 
   if (localChecked) {
     for (const id of MOUNTAINBIKING_LOCAL_IDS) {
-      loadRoute('mountainbiking', `mountainbiking/local/${id}.json`, false)
+      loadRoute('mountainbiking', `mountainbiking/local/${id}.json`, false, lengthMin, lengthMax)
     }
   }
 }
@@ -198,12 +201,12 @@ function refreshOther() {
   }
 }
 
-function loadRoute(type, url, focus) {
+function loadRoute(type, url, focus, lengthMin, lengthMax) {
   const xhttp = new XMLHttpRequest()
   xhttp.onreadystatechange = function () {
     if (this.readyState == 4 && this.status == 200) {
       const json = JSON.parse(xhttp.responseText)
-      showRoute(type, url, json, focus)
+      showRoute(type, url, json, focus, lengthMin, lengthMax)
     }
   }
   xhttp.open('GET', `data/${url}`, true)
@@ -249,7 +252,17 @@ function loadChargingStations(url) {
   xhttp.send()
 }
 
-function showRoute(type, url, json, focus) {
+function showRoute(type, url, json, focus, lengthMin, lengthMax) {
+  const length = parseInt(json.properties.length)
+
+  if (lengthMin && (length < lengthMin)) {
+    return
+  }
+
+  if (lengthMax && (length > lengthMax)) {
+    return
+  }
+
   const stages = json.geometry.coordinates
 
   const galleryList = getGallery(json)
@@ -258,7 +271,7 @@ function showRoute(type, url, json, focus) {
   content += `<img width='25' src='${json.properties.logo}' style='margin-right:10px'/>`
   content += `<a href='https://www.schweizmobil.ch/en/${type}-in-switzerland/route-${json.properties.r_number}' target='_blank'>${json.properties.title}</a>`
   content += `<span style='position:absolute;left:100%;top:15px;transform:translateX(-120%);'><a href='?url=${encodeURIComponent(url)}&type=${type}' style='margin-right:20px' target='_blank'>SHARE</a><span style="cursor:pointer;font-weight:bold;color:rgba(var(--bs-link-color-rgb),var(--bs-link-opacity,1))" onclick='download()'>DOWNLOAD</span></span><br/><br/>`
-  content += `<p><b>Length</b>: ${json.properties.length} km (${parseInt(json.properties.length_asphalt * 100 / json.properties.length)}% asphalted)<br/>`
+  content += `<p><b>Length</b>: ${length} km (${parseInt(json.properties.length_asphalt * 100 / length)}% asphalted)<br/>`
   content += `<b>↗</b> ${json.properties.height_difference.toLocaleString()} m<br/>`
   content += `<b>↘</b> ${json.properties.height_difference_back.toLocaleString()} m</p>`
   content += `<p><b style="font-weight:bold">${json.properties.abstract}</b></p>`
@@ -505,7 +518,7 @@ function showMarker(lat, lon, infowindow, text, json, gallery) {
   })
 
   marker.addListener('click', () => {
-    if (openedInfoWindow != null) {
+    if (openedInfoWindow) {
       openedInfoWindow.close()
     }
 
@@ -532,7 +545,7 @@ function showPath(coordinates, markerStart, infowindow, color, gallery, json) {
   })
 
   path.addListener('click', () => {
-    if (openedInfoWindow != null) {
+    if (openedInfoWindow) {
       openedInfoWindow.close()
     }
 
@@ -617,4 +630,10 @@ function gpxData(json) {
   xml += "</gpx>"
 
   return xml
+}
+
+function readInt(field) {
+  const value = document.getElementById(field).value
+
+  return value ? parseInt(value) : undefined
 }
