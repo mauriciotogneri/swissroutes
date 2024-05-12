@@ -1,9 +1,10 @@
 # Swiss Routes
 
-* https://schweizmobil.ch/en
-* https://map.schweizmobil.ch
+# Switzerland Mobility
+Website: https://schweizmobil.ch/en
+Map: https://map.schweizmobil.ch
 
-# Charging stations
+# Bike Energy
 Website: https://bike-energy.com/en/where-can-I-load-my-e-bike
 Map: https://www.google.com/maps/d/u/0/viewer?mid=1wdyB_yGO8FqEWUbD-HJTvpQ-KRY
 
