@@ -1,9 +1,11 @@
 const helpers = require('./helpers.js')
 
 async function run() {
-  await helpers.downloadPoint('other', 'serviceshop', 'Cycleservice')
-  await helpers.downloadPoint('other', 'sightseeing', 'Sightseeing')
-  await helpers.downloadPoint('other', 'mountain', 'MountainHiking')
+  const allIds = []
+
+  await helpers.downloadPoint('other', 'serviceshop', 'Cycleservice', allIds)
+  await helpers.downloadPoint('other', 'sightseeing', 'Sightseeing', allIds)
+  await helpers.downloadPoint('other', 'mountain', 'MountainHiking', allIds)
 }
 
 run().catch(console.error)
