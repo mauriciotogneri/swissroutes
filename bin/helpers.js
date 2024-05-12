@@ -97,7 +97,14 @@ async function getIds(type) {
   return result
 }
 
+async function downloadRoute(id, group, type, folder) {
+  console.log(`${group}-${type}: ${id}`)
+  const filePath = `output/${folder}/${id}.json`
+  await helpers.downloadFile(`${group}${type}`, id, filePath, false)
+}
+
 module.exports = {
   downloadFile,
   getIds,
+  downloadRoute,
 }

@@ -11,7 +11,7 @@ async function downloadType(folder, type) {
 
   for (const id of ids) {
     console.log(`${folder.toUpperCase()}: ${id}`)
-    const filePath = `output/other/${folder}/{id}.json`
+    const filePath = `output/other/${folder}/${id}.json`
     await helpers.downloadFile(type, id, filePath, true)
   }
 }
