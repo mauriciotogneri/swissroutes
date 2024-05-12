@@ -111,11 +111,17 @@ function refreshCycling() {
 }
 
 function refreshHiking() {
+  const lengthMin = readInt('filterHikingLengthMin')
+  const lengthMax = readInt('filterHikingLengthMax')
+
+  const heightMin = readInt('filterHikingHeightMin')
+  const heightMax = readInt('filterHikingHeightMax')
+
   const nationalChecked = document.getElementById('checkboxHikingNational').checked
 
   if (nationalChecked) {
     for (const id of HIKING_NATIONAL_IDS) {
-      loadRoute('hiking', `hiking/national/${id}.json`, false)
+      loadRoute('hiking', `hiking/national/${id}.json`, false, lengthMin, lengthMax, heightMin, heightMax)
     }
   }
 
@@ -123,7 +129,7 @@ function refreshHiking() {
 
   if (regionalChecked) {
     for (const id of HIKING_REGIONAL_IDS) {
-      loadRoute('hiking', `hiking/regional/${id}.json`, false)
+      loadRoute('hiking', `hiking/regional/${id}.json`, false, lengthMin, lengthMax, heightMin, heightMax)
     }
   }
 
@@ -131,7 +137,7 @@ function refreshHiking() {
 
   if (localChecked) {
     for (const id of HIKING_LOCAL_IDS) {
-      loadRoute('hiking', `hiking/local/${id}.json`, false)
+      loadRoute('hiking', `hiking/local/${id}.json`, false, lengthMin, lengthMax, heightMin, heightMax)
     }
   }
 }
