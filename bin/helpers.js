@@ -77,8 +77,22 @@ function getPoint(y, x) {
   return [lat, lng]
 }
 
-function getIds() {
-  return []
+async function getIds(url) {
+  const result = []
+
+  try {
+    const json = await getFile(url)
+    const features = json.features
+
+    for (let i = 0; i < features.size(); i++) {
+      const feature = features[i]
+      result.push(parseInt(feature[id]))
+    }
+  } catch (e) {
+    console.log(`Error getting ids: ${url}\n${e.toString()}`)
+  }
+
+  return result
 }
 
 module.exports = {

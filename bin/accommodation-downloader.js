@@ -1,13 +1,14 @@
 const helpers = require('./helpers.js')
 
 async function run() {
-  downloadType("serviceshop", "Cycleservice")
-  downloadType("sightseeing", "Sightseeing")
-  downloadType("mountain", "MountainHiking")
+  downloadType('serviceshop', 'Cycleservice')
+  downloadType('sightseeing', 'Sightseeing')
+  downloadType('mountain', 'MountainHiking')
 }
 
 async function downloadType(folder, type) {
-  const ids = helpers.getIds(`https://wmts0.schweizmobil.ch/poi-clusters-prod/21781/clustered_${type}.geojson`)
+  const ids = await helpers.getIds(`https://wmts0.schweizmobil.ch/poi-clusters-prod/21781/clustered_${type}.geojson`)
+  console.log(ids)
 
   for (const id of ids) {
     console.log(`${folder.toUpperCase()}: ${id}`)
