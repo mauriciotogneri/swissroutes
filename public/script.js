@@ -50,11 +50,14 @@ function refreshMountainBiking() {
   const lengthMin = readInt('filterMountainBikingLengthMin')
   const lengthMax = readInt('filterMountainBikingLengthMax')
 
+  const heightMin = readInt('filterMountainBikingHeightMin')
+  const heightMax = readInt('filterMountainBikingHeightMax')
+
   const nationalChecked = document.getElementById('checkboxMountainBikingNational').checked
 
   if (nationalChecked) {
     for (const id of MOUNTAINBIKING_NATIONAL_IDS) {
-      loadRoute('mountainbiking', `mountainbiking/national/${id}.json`, false, lengthMin, lengthMax)
+      loadRoute('mountainbiking', `mountainbiking/national/${id}.json`, false, lengthMin, lengthMax, heightMin, heightMax)
     }
   }
 
@@ -62,7 +65,7 @@ function refreshMountainBiking() {
 
   if (regionalChecked) {
     for (const id of MOUNTAINBIKING_REGIONAL_IDS) {
-      loadRoute('mountainbiking', `mountainbiking/regional/${id}.json`, false, lengthMin, lengthMax)
+      loadRoute('mountainbiking', `mountainbiking/regional/${id}.json`, false, lengthMin, lengthMax, heightMin, heightMax)
     }
   }
 
@@ -70,7 +73,7 @@ function refreshMountainBiking() {
 
   if (localChecked) {
     for (const id of MOUNTAINBIKING_LOCAL_IDS) {
-      loadRoute('mountainbiking', `mountainbiking/local/${id}.json`, false, lengthMin, lengthMax)
+      loadRoute('mountainbiking', `mountainbiking/local/${id}.json`, false, lengthMin, lengthMax, heightMin, heightMax)
     }
   }
 }
@@ -201,12 +204,12 @@ function refreshOther() {
   }
 }
 
-function loadRoute(type, url, focus, lengthMin, lengthMax) {
+function loadRoute(type, url, focus, lengthMin, lengthMax, heightMin, heightMax) {
   const xhttp = new XMLHttpRequest()
   xhttp.onreadystatechange = function () {
     if (this.readyState == 4 && this.status == 200) {
       const json = JSON.parse(xhttp.responseText)
-      showRoute(type, url, json, focus, lengthMin, lengthMax)
+      showRoute(type, url, json, focus, lengthMin, lengthMax, heightMin, heightMax)
     }
   }
   xhttp.open('GET', `data/${url}`, true)
@@ -252,14 +255,23 @@ function loadChargingStations(url) {
   xhttp.send()
 }
 
-function showRoute(type, url, json, focus, lengthMin, lengthMax) {
+function showRoute(type, url, json, focus, lengthMin, lengthMax, heightMin, heightMax) {
   const length = parseInt(json.properties.length)
+  const height = parseInt(json.properties.height_difference)
 
   if (lengthMin && (length < lengthMin)) {
     return
   }
 
   if (lengthMax && (length > lengthMax)) {
+    return
+  }
+
+  if (heightMin && (height < heightMin)) {
+    return
+  }
+
+  if (heightMax && (height > heightMax)) {
     return
   }
 
