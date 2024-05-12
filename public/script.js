@@ -79,11 +79,17 @@ function refreshMountainBiking() {
 }
 
 function refreshCycling() {
+  const lengthMin = readInt('filterCyclingLengthMin')
+  const lengthMax = readInt('filterCyclingLengthMax')
+
+  const heightMin = readInt('filterCyclingHeightMin')
+  const heightMax = readInt('filterCyclingHeightMax')
+
   const nationalChecked = document.getElementById('checkboxCyclingNational').checked
 
   if (nationalChecked) {
     for (const id of CYCLING_NATIONAL_IDS) {
-      loadRoute('cycling', `cycling/national/${id}.json`, false)
+      loadRoute('cycling', `cycling/national/${id}.json`, false, lengthMin, lengthMax, heightMin, heightMax)
     }
   }
 
@@ -91,7 +97,7 @@ function refreshCycling() {
 
   if (regionalChecked) {
     for (const id of CYCLING_REGIONAL_IDS) {
-      loadRoute('cycling', `cycling/regional/${id}.json`, false)
+      loadRoute('cycling', `cycling/regional/${id}.json`, false, lengthMin, lengthMax, heightMin, heightMax)
     }
   }
 
@@ -99,7 +105,7 @@ function refreshCycling() {
 
   if (localChecked) {
     for (const id of CYCLING_LOCAL_IDS) {
-      loadRoute('cycling', `cycling/local/${id}.json`, false)
+      loadRoute('cycling', `cycling/local/${id}.json`, false, lengthMin, lengthMax, heightMin, heightMax)
     }
   }
 }

@@ -134,6 +134,24 @@
                   <label class="form-check-label" for="checkboxCyclingLocal">Local</label>
                 </div>
 
+                <div class="input-group mb-3" style="margin-top: 15px">
+                  <span class="input-group-text" id="basic-addon1">Length</span>
+                  <input id="filterCyclingLengthMin" type="text" class="form-control" placeholder="Min"
+                    aria-label="Min" aria-describedby="basic-addon1">
+                  <input id="filterCyclingLengthMax" type="text" class="form-control" placeholder="Max"
+                    aria-label="Max" aria-describedby="basic-addon1">
+                </div>
+
+                <div class="input-group mb-3">
+                  <span class="input-group-text" id="basic-addon1">Height</span>
+                  <input id="filterCyclingHeightMin" type="text" class="form-control" placeholder="Min"
+                    aria-label="Min" aria-describedby="basic-addon1">
+                  <input id="filterCyclingHeightMax" type="text" class="form-control" placeholder="Max"
+                    aria-label="Max" aria-describedby="basic-addon1">
+                </div>
+
+                <button type="button" class="btn btn-primary" style="width: 100%" onclick="refresh()">Search</button>
+
               </div>
             </div>
           </div>
