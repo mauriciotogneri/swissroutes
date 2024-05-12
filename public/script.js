@@ -404,7 +404,11 @@ function showMountainHike(json) {
   }
 
   if (json.properties.ascent_altitude) {
-    content += `<p>Altitude: ${json.properties.ascent_altitude.toLocaleString()} m</p>`
+    content += `<p>Ascent: ${json.properties.ascent_altitude.toLocaleString()} m</p>`
+  }
+
+  if (json.properties.descent_altitude) {
+    content += `<p>Descent: ${json.properties.descent_altitude.toLocaleString()} m</p>`
   }
 
   if (json.properties.mountain_hiking_difficulty) {
