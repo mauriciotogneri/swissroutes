@@ -219,7 +219,7 @@ function refreshOther() {
 function loadRoute(type, url, focus, lengthMin, lengthMax, heightMin, heightMax) {
   const xhttp = new XMLHttpRequest()
   xhttp.onreadystatechange = function () {
-    if (this.readyState == 4 && this.status == 200) {
+    if (this.readyState === 4 && this.status === 200) {
       const json = JSON.parse(xhttp.responseText)
       showRoute(type, url, json, focus, lengthMin, lengthMax, heightMin, heightMax)
     }
@@ -231,7 +231,7 @@ function loadRoute(type, url, focus, lengthMin, lengthMax, heightMin, heightMax)
 function loadPoint(label, baseLink, url) {
   const xhttp = new XMLHttpRequest()
   xhttp.onreadystatechange = function () {
-    if (this.readyState == 4 && this.status == 200) {
+    if (this.readyState === 4 && this.status === 200) {
       const json = JSON.parse(xhttp.responseText)
       showPoint(label, baseLink, json)
     }
@@ -243,7 +243,7 @@ function loadPoint(label, baseLink, url) {
 function loadMountainHike(url) {
   const xhttp = new XMLHttpRequest()
   xhttp.onreadystatechange = function () {
-    if (this.readyState == 4 && this.status == 200) {
+    if (this.readyState === 4 && this.status === 200) {
       const json = JSON.parse(xhttp.responseText)
       showMountainHike(json)
     }
@@ -255,7 +255,7 @@ function loadMountainHike(url) {
 function loadChargingStations(url) {
   const xhttp = new XMLHttpRequest()
   xhttp.onreadystatechange = function () {
-    if (this.readyState == 4 && this.status == 200) {
+    if (this.readyState === 4 && this.status === 200) {
       const json = JSON.parse(xhttp.responseText)
 
       for (const entry of json) {
@@ -470,7 +470,7 @@ function showChargingStations(json) {
   const longitude = parseFloat(coordinates[0])
 
   if ((latitude >= 46.128503) && (latitude <= 47.858446) && (longitude >= 5.923137) && (longitude <= 10.583217)) {
-    const name = typeof json.name == 'string' ? json.name : json.name['__cdata']
+    const name = typeof json.name === 'string' ? json.name : json.name['__cdata']
     let content = `<b style="font-weight:bold">${name}</b><br/><br/>`
 
     if (json.description) {
