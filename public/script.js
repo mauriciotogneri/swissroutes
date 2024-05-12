@@ -201,11 +201,11 @@ function refreshOther() {
     }
   }
 
-  const mountainChecked = document.getElementById('checkboxOtherMountain').checked
+  const mountainHikeChecked = document.getElementById('checkboxOtherMountainHike').checked
 
-  if (mountainChecked) {
-    for (const id of OTHER_MOUNTAIN_IDS) {
-      loadMountainHike(`other/mountain/${id}.json`)
+  if (mountainHikeChecked) {
+    for (const id of OTHER_MOUNTAINHIKE_IDS) {
+      loadMountainHike(`other/mountainhike/${id}.json`)
     }
   }
 

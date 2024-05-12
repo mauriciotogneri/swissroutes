@@ -37,7 +37,7 @@ export const website = onRequest((request, response) => {
   template = fillIds(template, 'ACCOMMODATION_SLEEPINGSTRAW_IDS', 'accommodation/sleepingstraw');
 
   // other
-  template = fillIds(template, 'OTHER_MOUNTAIN_IDS', 'other/mountain');
+  template = fillIds(template, 'OTHER_MOUNTAINHIKE_IDS', 'other/mountainhike');
   template = fillIds(template, 'OTHER_SERVICESHOP_IDS', 'other/serviceshop');
   template = fillIds(template, 'OTHER_SIGHTSEEING_IDS', 'other/sightseeing');
 

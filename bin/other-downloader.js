@@ -5,7 +5,7 @@ async function run() {
 
   await helpers.downloadPoint('other', 'serviceshop', 'Cycleservice', allIds)
   await helpers.downloadPoint('other', 'sightseeing', 'Sightseeing', allIds)
-  await helpers.downloadPoint('other', 'mountain', 'MountainHiking', allIds)
+  await helpers.downloadPoint('other', 'mountainhike', 'MountainHiking', allIds)
 }
 
 run().catch(console.error)
