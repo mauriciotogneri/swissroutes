@@ -1,0 +1,48 @@
+{
+    "type": "Feature",
+    "id": 37079,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.91816872937254,
+                7.252166622902152
+            ]
+        ]
+    },
+    "properties": {
+        "id": 31281,
+        "land": "\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"",
+        "type": "Uebernachte",
+        "types": [
+            "bedbreakfast",
+            "farmaccom"
+        ],
+        "category": "all",
+        "language": "en",
+        "name": "gast & hof",
+        "stars_hotellerie": "3",
+        "stars_parahotellerie": null,
+        "q_label": null,
+        "hotelgroup": "BnB Switzerland",
+        "street": "Bärfischenhaus 15",
+        "zip": "3204",
+        "place": "Rosshäusern",
+        "tel": "+41 (0)31 747 58 16",
+        "beds": 7,
+        "campingplaces": null,
+        "pricefrom": 50,
+        "priceto": 65,
+        "price_week": null,
+        "email": "info@gastundhof.ch",
+        "url1_text": "www.bnb.ch/1055",
+        "url1_link": "https://www.bnb.ch/1055",
+        "url2_text": "www.gastundhof.ch",
+        "url2_link": "https://www.gastundhof.ch",
+        "foto": "https://images.schweizmobil.ch/image-big/Rosshaeusern_Gastundhof_g.jpg",
+        "foto_abstract": null,
+        "x_coordinate": 585796.6337187723,
+        "y_coordinate": 196358.13562170728,
+        "change_date": null
+    }
+}

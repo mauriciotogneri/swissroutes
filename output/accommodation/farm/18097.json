@@ -1,0 +1,48 @@
+{
+    "type": "Feature",
+    "id": 36685,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                47.64622268453891,
+                8.975290307814321
+            ]
+        ]
+    },
+    "properties": {
+        "id": 18097,
+        "land": "\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"",
+        "type": "Uebernachte",
+        "types": [
+            "bedbreakfast",
+            "farmaccom"
+        ],
+        "category": "all",
+        "language": "en",
+        "name": "B&B Freudenberg",
+        "stars_hotellerie": null,
+        "stars_parahotellerie": "3",
+        "q_label": null,
+        "hotelgroup": "BnB Switzerland",
+        "street": "Hagenbuchstrasse 1",
+        "zip": "8507",
+        "place": "Hörhausen",
+        "tel": "+41 (0)52 763 24 18",
+        "beds": 8,
+        "campingplaces": null,
+        "pricefrom": 45,
+        "priceto": 50,
+        "price_week": null,
+        "email": "freudenberg8507@bluewin.ch",
+        "url1_text": "www.bnb.ch/535",
+        "url1_link": "https://www.bnb.ch/535",
+        "url2_text": null,
+        "url2_link": null,
+        "foto": "https://images.schweizmobil.ch/image/Hoerhausen_BnB_Freudenberg.jpg",
+        "foto_abstract": null,
+        "x_coordinate": 715459.8809189029,
+        "y_coordinate": 278416.7877157461,
+        "change_date": null
+    }
+}

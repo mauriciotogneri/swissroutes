@@ -1,0 +1,47 @@
+{
+    "type": "Feature",
+    "id": 37609,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                47.60130183818588,
+                8.20042933435154
+            ]
+        ]
+    },
+    "properties": {
+        "id": 18610,
+        "land": "\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"",
+        "type": "Uebernachte",
+        "types": [
+            "farmaccom"
+        ],
+        "category": "all",
+        "language": "en",
+        "name": "Ponyhof Reitferien auf dem Bauernhof",
+        "stars_hotellerie": null,
+        "stars_parahotellerie": null,
+        "q_label": null,
+        "hotelgroup": null,
+        "street": "Talgass 61 / Hinterhag 370",
+        "zip": "5324",
+        "place": "Reuenthal",
+        "tel": "+41 (0)56 246 13 64",
+        "beds": 36,
+        "campingplaces": null,
+        "pricefrom": 25,
+        "priceto": 25,
+        "price_week": null,
+        "email": "info@ponyhof-reuenthal.ch",
+        "url1_text": "www.ponyhof-reuenthal.ch",
+        "url1_link": "https://www.ponyhof-reuenthal.ch",
+        "url2_text": null,
+        "url2_link": null,
+        "foto": "https://images.schweizmobil.ch/image/Reuenthal_Ponyhof.jpg",
+        "foto_abstract": null,
+        "x_coordinate": 657290.8921079864,
+        "y_coordinate": 272569.5586412664,
+        "change_date": null
+    }
+}

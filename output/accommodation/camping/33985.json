@@ -1,0 +1,47 @@
+{
+    "type": "Feature",
+    "id": 37742,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.85543637426835,
+                9.234990770687327
+            ]
+        ]
+    },
+    "properties": {
+        "id": 33985,
+        "land": "\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"",
+        "type": "Uebernachte",
+        "types": [
+            "campingsite"
+        ],
+        "category": "all",
+        "language": "en",
+        "name": "TCS Pop-Up Glamping",
+        "stars_hotellerie": null,
+        "stars_parahotellerie": null,
+        "q_label": null,
+        "hotelgroup": "TCS Camping",
+        "street": "Alp Nagens",
+        "zip": "7032",
+        "place": "Laax GR",
+        "tel": "+41 (0)81 927 99 99",
+        "beds": null,
+        "campingplaces": 22,
+        "pricefrom": 115,
+        "priceto": 115,
+        "price_week": null,
+        "email": "glamping@laax.com",
+        "url1_text": "www.tcs.ch",
+        "url1_link": "https://www.tcs.ch/de/camping-reisen/camping-insider/campingplaetze/tcs-campingplaetze/tcs-pop-up-glamping-flims-laax.php",
+        "url2_text": null,
+        "url2_link": null,
+        "foto": "https://images.schweizmobil.ch/image-big/Laax_TCS_Pop_Up_g.jpg",
+        "foto_abstract": null,
+        "x_coordinate": 736981.7218233229,
+        "y_coordinate": 190935.02314902155,
+        "change_date": null
+    }
+}

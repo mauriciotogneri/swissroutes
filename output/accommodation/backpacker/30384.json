@@ -1,0 +1,47 @@
+{
+    "type": "Feature",
+    "id": 37030,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                47.495382895266935,
+                8.718233840453316
+            ]
+        ]
+    },
+    "properties": {
+        "id": 30384,
+        "land": "\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"",
+        "type": "Uebernachte",
+        "types": [
+            "backpacker"
+        ],
+        "category": "all",
+        "language": "en",
+        "name": "Depot195",
+        "stars_hotellerie": null,
+        "stars_parahotellerie": null,
+        "q_label": null,
+        "hotelgroup": "Swiss Hostels",
+        "street": "Lagerplatz 4",
+        "zip": "8400",
+        "place": "Winterthur",
+        "tel": "+41 (0)52 203 13 63",
+        "beds": 84,
+        "campingplaces": null,
+        "pricefrom": 46.5,
+        "priceto": 79.5,
+        "price_week": null,
+        "email": "info@depot195.ch",
+        "url1_text": "www.depot195.ch",
+        "url1_link": "https://www.depot195.ch",
+        "url2_text": "www.swisshostels.com",
+        "url2_link": "https://www.swisshostels.com",
+        "foto": "https://images.schweizmobil.ch/image-small/Winterthur_Depot195_neu.jpg",
+        "foto_abstract": null,
+        "x_coordinate": 696420.9537225812,
+        "y_coordinate": 261300.53252634412,
+        "change_date": null
+    }
+}

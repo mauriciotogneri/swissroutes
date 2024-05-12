@@ -2,15 +2,16 @@ const helpers = require('./helpers.js')
 
 async function run() {
   const allIds = []
-  downloadType('camping', 'Campingsite', allIds)
-  downloadType('backpacker', 'Backpacker', allIds)
-  downloadType('sleepingstraw', 'Sleepingstraw', allIds)
-  downloadType('farm', 'Farmaccom', allIds)
-  downloadType('mountainhut', 'Mountainhut', allIds)
+
+  await downloadType('camping', 'Campingsite', allIds)
+  await downloadType('backpacker', 'Backpacker', allIds)
+  await downloadType('sleepingstraw', 'Sleepingstraw', allIds)
+  await downloadType('farm', 'Farmaccom', allIds)
+  await downloadType('mountainhut', 'Mountainhut', allIds)
 }
 
 async function downloadType(folder, type, allIds) {
-  const ids = helpers.getIds(`https://wmts0.schweizmobil.ch/poi-clusters-prod/21781/clustered_${type}.geojson`)
+  const ids = await helpers.getIds(type)
 
   for (const id of ids) {
     if (!allIds.includes(id)) {

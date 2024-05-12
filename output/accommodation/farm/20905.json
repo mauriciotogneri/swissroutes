@@ -1,0 +1,48 @@
+{
+    "type": "Feature",
+    "id": 36688,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                47.05234002436965,
+                8.257929122642476
+            ]
+        ]
+    },
+    "properties": {
+        "id": 20905,
+        "land": "\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"",
+        "type": "Uebernachte",
+        "types": [
+            "bedbreakfast",
+            "farmaccom"
+        ],
+        "category": "all",
+        "language": "en",
+        "name": "B&B Haus im Löchli",
+        "stars_hotellerie": null,
+        "stars_parahotellerie": "1",
+        "q_label": null,
+        "hotelgroup": "BnB Switzerland",
+        "street": "Cheerstrasse 7",
+        "zip": "6014",
+        "place": "Luzern",
+        "tel": "+41 (0)41 250 90 73",
+        "beds": 4,
+        "campingplaces": null,
+        "pricefrom": 50,
+        "priceto": 50,
+        "price_week": null,
+        "email": "bnb_loechli@bluewin.ch",
+        "url1_text": "www.bnb.ch/960",
+        "url1_link": "https://www.bnb.ch/960",
+        "url2_text": null,
+        "url2_link": null,
+        "foto": "https://images.schweizmobil.ch/image/Littau_BnB_Haus_im_Loechli.jpg",
+        "foto_abstract": null,
+        "x_coordinate": 662251.1903981145,
+        "y_coordinate": 211582.56224827407,
+        "change_date": null
+    }
+}

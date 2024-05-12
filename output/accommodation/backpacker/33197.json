@@ -1,0 +1,48 @@
+{
+    "type": "Feature",
+    "id": 37568,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.888634663071535,
+                8.72958799502493
+            ]
+        ]
+    },
+    "properties": {
+        "id": 33197,
+        "land": "\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"",
+        "type": "Uebernachte",
+        "types": [
+            "backpacker",
+            "groupaccom"
+        ],
+        "category": "all",
+        "language": "en",
+        "name": "Naturfreundehaus Rietlig",
+        "stars_hotellerie": null,
+        "stars_parahotellerie": null,
+        "q_label": null,
+        "hotelgroup": "Amis de la Nature Suisse",
+        "street": "Bodenbergstrasse 2",
+        "zip": "6464",
+        "place": "Spiringen",
+        "tel": "+41 (0)41 879 15 98",
+        "beds": 39,
+        "campingplaces": null,
+        "pricefrom": 52,
+        "priceto": 60,
+        "price_week": null,
+        "email": "rietlig@nfh.ch",
+        "url1_text": "https://rietlig.nfh.ch",
+        "url1_link": "https://rietlig.nfh.ch",
+        "url2_text": null,
+        "url2_link": null,
+        "foto": "https://images.schweizmobil.ch/image-big/Spiringen_NF_Rietlig_2021_g.jpg",
+        "foto_abstract": null,
+        "x_coordinate": 698385.9376359341,
+        "y_coordinate": 193867.04182829018,
+        "change_date": null
+    }
+}

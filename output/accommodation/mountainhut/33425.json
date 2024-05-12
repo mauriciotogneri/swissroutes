@@ -1,0 +1,48 @@
+{
+    "type": "Feature",
+    "id": 36772,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.796582392036534,
+                9.46361579618005
+            ]
+        ]
+    },
+    "properties": {
+        "id": 33425,
+        "land": "\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"",
+        "type": "Uebernachte",
+        "types": [
+            "groupaccom",
+            "mountainhut"
+        ],
+        "category": "all",
+        "language": "en",
+        "name": "Bergrestaurant, Skihütte + Jurte Feldis",
+        "stars_hotellerie": null,
+        "stars_parahotellerie": null,
+        "q_label": null,
+        "hotelgroup": null,
+        "street": null,
+        "zip": "7404",
+        "place": "Feldis",
+        "tel": "+41 (0)77 536 55 15",
+        "beds": 14,
+        "campingplaces": null,
+        "pricefrom": 60,
+        "priceto": 60,
+        "price_week": null,
+        "email": "allegra@skihuette-feldis.ch",
+        "url1_text": "www.skihuette-feldis.ch",
+        "url1_link": "https://www.skihuette-feldis.ch",
+        "url2_text": null,
+        "url2_link": null,
+        "foto": "https://images.schweizmobil.ch/image-big/Feldis_Skihuette_g.jpg",
+        "foto_abstract": null,
+        "x_coordinate": 754580.3167637989,
+        "y_coordinate": 184819.5366452593,
+        "change_date": null
+    }
+}

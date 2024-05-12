@@ -1,0 +1,48 @@
+{
+    "type": "Feature",
+    "id": 36733,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                47.1891127914266,
+                8.928930856792618
+            ]
+        ]
+    },
+    "properties": {
+        "id": 18237,
+        "land": "\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"",
+        "type": "Uebernachte",
+        "types": [
+            "groupaccom",
+            "farmaccom"
+        ],
+        "category": "all",
+        "language": "en",
+        "name": "Bauernhof Rosenbergerhof",
+        "stars_hotellerie": null,
+        "stars_parahotellerie": "2",
+        "q_label": null,
+        "hotelgroup": "BnB Switzerland",
+        "street": "Rosenbergerhof",
+        "zip": "8856",
+        "place": "Tuggen",
+        "tel": "+41 (0)55 445 14 58",
+        "beds": 43,
+        "campingplaces": null,
+        "pricefrom": 30,
+        "priceto": 60,
+        "price_week": null,
+        "email": "j.r.bamert@bluewin.ch",
+        "url1_text": "www.bnb.ch/1783",
+        "url1_link": "https://www.bnb.ch/1783",
+        "url2_text": "www.ferienhof.ch",
+        "url2_link": "https://www.ferienhof.ch",
+        "foto": "https://images.schweizmobil.ch/image/Tuggen_FeBa_Bamert1.jpg",
+        "foto_abstract": null,
+        "x_coordinate": 712941.6427199699,
+        "y_coordinate": 227535.45732101856,
+        "change_date": null
+    }
+}

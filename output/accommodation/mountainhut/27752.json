@@ -1,0 +1,48 @@
+{
+    "type": "Feature",
+    "id": 36995,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.765573533428956,
+                10.334477538341803
+            ]
+        ]
+    },
+    "properties": {
+        "id": 27752,
+        "land": "\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"",
+        "type": "Uebernachte",
+        "types": [
+            "groupaccom",
+            "mountainhut"
+        ],
+        "category": "all",
+        "language": "en",
+        "name": "Chamanna Lischana CAS",
+        "stars_hotellerie": null,
+        "stars_parahotellerie": null,
+        "q_label": null,
+        "hotelgroup": "Schweizer Alpen-Club SAC",
+        "street": null,
+        "zip": "7550",
+        "place": "Scuol",
+        "tel": "+41 (0)81 864 95 44",
+        "beds": 42,
+        "campingplaces": null,
+        "pricefrom": 65,
+        "priceto": 85,
+        "price_week": null,
+        "email": "info@lischanahuette.ch",
+        "url1_text": "www.lischanahuette.ch",
+        "url1_link": "https://www.lischanahuette.ch",
+        "url2_text": "Online booking",
+        "url2_link": "http://www.alpenonline.ch/reservation/calendar?hut_id=78&lang=de",
+        "foto": "https://images.schweizmobil.ch/image/Chamanna_Lischana_CAS.jpg",
+        "foto_abstract": null,
+        "x_coordinate": 821160.2435826003,
+        "y_coordinate": 183459.55262451858,
+        "change_date": null
+    }
+}

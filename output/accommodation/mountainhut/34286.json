@@ -1,0 +1,47 @@
+{
+    "type": "Feature",
+    "id": 38993,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.953301905533785,
+                8.979977814805142
+            ]
+        ]
+    },
+    "properties": {
+        "id": 34286,
+        "land": "\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"",
+        "type": "Uebernachte",
+        "types": [
+            "mountainhut"
+        ],
+        "category": "all",
+        "language": "en",
+        "name": "Ortstockhaus",
+        "stars_hotellerie": null,
+        "stars_parahotellerie": null,
+        "q_label": null,
+        "hotelgroup": null,
+        "street": "Braunwaldalp",
+        "zip": "8784",
+        "place": "Braunwald",
+        "tel": "+41 (0)55 533 59 31",
+        "beds": 27,
+        "campingplaces": null,
+        "pricefrom": 125,
+        "priceto": 125,
+        "price_week": null,
+        "email": "info@ortstockhaus.ch",
+        "url1_text": "www.ortstockhaus.ch",
+        "url1_link": "https://www.ortstockhaus.ch",
+        "url2_text": null,
+        "url2_link": null,
+        "foto": "https://images.schweizmobil.ch/image-big/Braunwald_Ortstockhaus_g.jpg",
+        "foto_abstract": null,
+        "x_coordinate": 717324.9319417195,
+        "y_coordinate": 201399.45748152945,
+        "change_date": null
+    }
+}

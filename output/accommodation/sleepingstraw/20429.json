@@ -1,0 +1,48 @@
+{
+    "type": "Feature",
+    "id": 37520,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.76330555860154,
+                6.887569279195727
+            ]
+        ]
+    },
+    "properties": {
+        "id": 20429,
+        "land": "\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"",
+        "type": "Uebernachte",
+        "types": [
+            "groupaccom",
+            "sleepingstraw"
+        ],
+        "category": "all",
+        "language": "en",
+        "name": "Le Bochet",
+        "stars_hotellerie": null,
+        "stars_parahotellerie": null,
+        "q_label": null,
+        "hotelgroup": "Agritourism Switzerland",
+        "street": "Le Bochet, Route de Ménières 61",
+        "zip": "1523",
+        "place": "Granges-près-Marnand",
+        "tel": "+41 (0)26 668 22 13",
+        "beds": 50,
+        "campingplaces": null,
+        "pricefrom": 25,
+        "priceto": 30,
+        "price_week": null,
+        "email": "jj.estoppey@bluewin.ch",
+        "url1_text": "www.myfarm.ch",
+        "url1_link": "https://www.myfarm.ch",
+        "url2_text": null,
+        "url2_link": null,
+        "foto": "https://images.schweizmobil.ch/image-big/Granges_pres_Marnand_SiS_Le_Bochet_2017_g.jpg",
+        "foto_abstract": null,
+        "x_coordinate": 557903.9751887352,
+        "y_coordinate": 179273.91100317403,
+        "change_date": null
+    }
+}

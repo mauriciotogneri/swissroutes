@@ -1,0 +1,49 @@
+{
+    "type": "Feature",
+    "id": 37035,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                47.18766705544814,
+                9.446738526641267
+            ]
+        ]
+    },
+    "properties": {
+        "id": 30307,
+        "land": "\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"",
+        "type": "Uebernachte",
+        "types": [
+            "bedbreakfast",
+            "farmaccom",
+            "vacationapptmt"
+        ],
+        "category": "all",
+        "language": "en",
+        "name": "Dorfengrabenhof",
+        "stars_hotellerie": null,
+        "stars_parahotellerie": null,
+        "q_label": null,
+        "hotelgroup": null,
+        "street": "Dorfengrabenstr. 22",
+        "zip": "9472",
+        "place": "Grabs",
+        "tel": "+41 (0)81 771 38 57",
+        "beds": 4,
+        "campingplaces": null,
+        "pricefrom": 50,
+        "priceto": 60,
+        "price_week": null,
+        "email": "margrith.keller@rsnweb.ch",
+        "url1_text": "www.dorfengrabenhof.ch",
+        "url1_link": "https://www.dorfengrabenhof.ch",
+        "url2_text": null,
+        "url2_link": null,
+        "foto": "https://images.schweizmobil.ch/image-big/Grabs_Dorfengrabenhof_g.jpg",
+        "foto_abstract": null,
+        "x_coordinate": 752179.9862410475,
+        "y_coordinate": 228249.25239944953,
+        "change_date": null
+    }
+}

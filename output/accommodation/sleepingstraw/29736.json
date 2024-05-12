@@ -1,0 +1,47 @@
+{
+    "type": "Feature",
+    "id": 37157,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                47.417166635139395,
+                9.425820538506393
+            ]
+        ]
+    },
+    "properties": {
+        "id": 29736,
+        "land": "\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"",
+        "type": "Uebernachte",
+        "types": [
+            "sleepingstraw"
+        ],
+        "category": "all",
+        "language": "en",
+        "name": "Hof Hohenwiesen",
+        "stars_hotellerie": null,
+        "stars_parahotellerie": null,
+        "q_label": null,
+        "hotelgroup": "Agritourism Switzerland",
+        "street": "Speicherstrasse 170 a",
+        "zip": "9000",
+        "place": "St. Gallen",
+        "tel": "+41 (0)71 222 64 69",
+        "beds": 10,
+        "campingplaces": null,
+        "pricefrom": 25,
+        "priceto": 25,
+        "price_week": null,
+        "email": "fam.forrer.ch@bluewin.ch",
+        "url1_text": "www.myfarm.ch",
+        "url1_link": "https://www.myfarm.ch",
+        "url2_text": null,
+        "url2_link": null,
+        "foto": "https://images.schweizmobil.ch/image/Speicher_Agrotourismus_Forrer.jpg",
+        "foto_abstract": null,
+        "x_coordinate": 749948.6663808532,
+        "y_coordinate": 253716.48629394436,
+        "change_date": null
+    }
+}

@@ -1,0 +1,47 @@
+{
+    "type": "Feature",
+    "id": 37723,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.824451532486286,
+                9.282249476726719
+            ]
+        ]
+    },
+    "properties": {
+        "id": 33922,
+        "land": "\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"",
+        "type": "Uebernachte",
+        "types": [
+            "campingsite"
+        ],
+        "category": "all",
+        "language": "en",
+        "name": "TCS Camping Flims",
+        "stars_hotellerie": null,
+        "stars_parahotellerie": "2",
+        "q_label": null,
+        "hotelgroup": "TCS Camping",
+        "street": "Via Prau le Selva 7",
+        "zip": "7018",
+        "place": "Flims Waldhaus",
+        "tel": "+41 (0)81 911 15 75",
+        "beds": null,
+        "campingplaces": 65,
+        "pricefrom": 11,
+        "priceto": 22,
+        "price_week": null,
+        "email": "camping.flims@tcs.ch",
+        "url1_text": "www.tcs.ch",
+        "url1_link": "https://www.tcs.ch/de/camping-reisen/camping-insider/campingplaetze/tcs-campingplaetze/campingplatz-flims.php",
+        "url2_text": null,
+        "url2_link": null,
+        "foto": "https://images.schweizmobil.ch/image-big/TCS_Flims_g.jpg",
+        "foto_abstract": null,
+        "x_coordinate": 740665.0390992193,
+        "y_coordinate": 187575.55569859868,
+        "change_date": null
+    }
+}

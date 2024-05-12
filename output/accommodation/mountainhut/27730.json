@@ -1,0 +1,48 @@
+{
+    "type": "Feature",
+    "id": 37547,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.8926452862974,
+                9.188300683164693
+            ]
+        ]
+    },
+    "properties": {
+        "id": 27730,
+        "land": "\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"",
+        "type": "Uebernachte",
+        "types": [
+            "groupaccom",
+            "mountainhut"
+        ],
+        "category": "all",
+        "language": "en",
+        "name": "Martinsmadhütte SAC",
+        "stars_hotellerie": null,
+        "stars_parahotellerie": null,
+        "q_label": null,
+        "hotelgroup": "Schweizer Alpen-Club SAC",
+        "street": null,
+        "zip": "8767",
+        "place": "Elm",
+        "tel": "+41 (0)55 642 12 12",
+        "beds": 60,
+        "campingplaces": null,
+        "pricefrom": 65,
+        "priceto": 85,
+        "price_week": null,
+        "email": "info@sac-randen.ch",
+        "url1_text": "www.sac-randen.ch",
+        "url1_link": "https://www.sac-randen.ch/Huetten_Martinsmad.htm",
+        "url2_text": null,
+        "url2_link": null,
+        "foto": "https://images.schweizmobil.ch/image-big/SAC_Martinsmadhuette_2022_g.jpg",
+        "foto_abstract": null,
+        "x_coordinate": 733329.7294747113,
+        "y_coordinate": 194990.13820114717,
+        "change_date": null
+    }
+}

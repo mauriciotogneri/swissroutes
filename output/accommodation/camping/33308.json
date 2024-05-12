@@ -1,0 +1,47 @@
+{
+    "type": "Feature",
+    "id": 36872,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.662231458577494,
+                6.508445562592895
+            ]
+        ]
+    },
+    "properties": {
+        "id": 33308,
+        "land": "\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"",
+        "type": "Uebernachte",
+        "types": [
+            "campingsite"
+        ],
+        "category": "all",
+        "language": "en",
+        "name": "Camping des Buis",
+        "stars_hotellerie": null,
+        "stars_parahotellerie": null,
+        "q_label": null,
+        "hotelgroup": null,
+        "street": "Route de la Piscine 20a",
+        "zip": "1315",
+        "place": "La Sarraz",
+        "tel": "+41 (0)77 269 15 20",
+        "beds": 6,
+        "campingplaces": 110,
+        "pricefrom": 20,
+        "priceto": 80,
+        "price_week": null,
+        "email": "gerant@piscinelavenoge.ch",
+        "url1_text": "www.piscinedelavenoge.ch",
+        "url1_link": "https://www.piscinedelavenoge.ch",
+        "url2_text": null,
+        "url2_link": null,
+        "foto": "https://images.schweizmobil.ch/image-big/La_Sarraz_Camping_g.jpg",
+        "foto_abstract": null,
+        "x_coordinate": 528809.2702701915,
+        "y_coordinate": 168311.86907491685,
+        "change_date": null
+    }
+}

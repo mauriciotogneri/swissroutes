@@ -1,0 +1,48 @@
+{
+    "type": "Feature",
+    "id": 37517,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.9630431298258,
+                6.692147348583486
+            ]
+        ]
+    },
+    "properties": {
+        "id": 33530,
+        "land": "\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"",
+        "type": "Uebernachte",
+        "types": [
+            "farmaccom",
+            "vacationapptmt"
+        ],
+        "category": "all",
+        "language": "en",
+        "name": "Le  Mont de Travers",
+        "stars_hotellerie": null,
+        "stars_parahotellerie": null,
+        "q_label": null,
+        "hotelgroup": null,
+        "street": "Le Mont 4",
+        "zip": "2105",
+        "place": "Travers",
+        "tel": "+41 (0)79 367 61 22",
+        "beds": 7,
+        "campingplaces": null,
+        "pricefrom": 65,
+        "priceto": 100,
+        "price_week": null,
+        "email": "baurh@bluewin.ch",
+        "url1_text": null,
+        "url1_link": null,
+        "url2_text": null,
+        "url2_link": null,
+        "foto": "https://images.schweizmobil.ch/image-big/Travers_Mont_de_Travers_g.jpg",
+        "foto_abstract": null,
+        "x_coordinate": 543186.8279482394,
+        "y_coordinate": 201600.4484721142,
+        "change_date": null
+    }
+}

@@ -1,0 +1,49 @@
+{
+    "type": "Feature",
+    "id": 36730,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.96214938231049,
+                8.376571017098513
+            ]
+        ]
+    },
+    "properties": {
+        "id": 18680,
+        "land": "\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"",
+        "type": "Uebernachte",
+        "types": [
+            "bedbreakfast",
+            "sleepingstraw",
+            "farmaccom"
+        ],
+        "category": "all",
+        "language": "en",
+        "name": "Bauernhof Familie Waser",
+        "stars_hotellerie": null,
+        "stars_parahotellerie": null,
+        "q_label": null,
+        "hotelgroup": "Agritourism Switzerland",
+        "street": "Buochserstrasse 50",
+        "zip": "6370",
+        "place": "Stans",
+        "tel": "+41 (0)41 610 81 25",
+        "beds": 30,
+        "campingplaces": null,
+        "pricefrom": 30,
+        "priceto": 50,
+        "price_week": null,
+        "email": "waser@stanserboden.ch",
+        "url1_text": "www.stanserboden.ch",
+        "url1_link": "https://www.stanserboden.ch",
+        "url2_text": "www.myfarm.ch",
+        "url2_link": "https://www.myfarm.ch",
+        "foto": "https://images.schweizmobil.ch/image-big/Stans_Agrotourismus_Waser_Niederberger_2019_g.jpg",
+        "foto_abstract": null,
+        "x_coordinate": 671385.7574043728,
+        "y_coordinate": 201657.601081174,
+        "change_date": null
+    }
+}

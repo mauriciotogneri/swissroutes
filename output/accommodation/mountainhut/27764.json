@@ -1,0 +1,48 @@
+{
+    "type": "Feature",
+    "id": 37009,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.83055566240516,
+                10.132489439991861
+            ]
+        ]
+    },
+    "properties": {
+        "id": 27764,
+        "land": "\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"",
+        "type": "Uebernachte",
+        "types": [
+            "groupaccom",
+            "mountainhut"
+        ],
+        "category": "all",
+        "language": "en",
+        "name": "Chamonna Tuoi CAS",
+        "stars_hotellerie": null,
+        "stars_parahotellerie": null,
+        "q_label": null,
+        "hotelgroup": "Schweizer Alpen-Club SAC",
+        "street": null,
+        "zip": "7545",
+        "place": "Guarda",
+        "tel": "+41 (0)81 862 23 22",
+        "beds": 77,
+        "campingplaces": null,
+        "pricefrom": 25,
+        "priceto": 25,
+        "price_week": null,
+        "email": "info@tuoi.ch",
+        "url1_text": "www.tuoi.ch",
+        "url1_link": "https://www.tuoi.ch",
+        "url2_text": "Online booking",
+        "url2_link": "http://www.alpenonline.ch/reservation/calendar?header=yes&hut_id=33&lang=de",
+        "foto": "https://images.schweizmobil.ch/image/Chamanna_Tuoi_CAS.jpg",
+        "foto_abstract": null,
+        "x_coordinate": 805492.2369553077,
+        "y_coordinate": 190129.3613122884,
+        "change_date": null
+    }
+}

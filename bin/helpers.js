@@ -16,8 +16,8 @@ async function downloadFile(url, filePath, isPoint) {
       const newCoordinates = []
 
       if (isPoint) {
-        const y = coordinates.get(0).getAsInt()
-        const x = coordinates.get(1).getAsInt()
+        const y = parseInt(coordinates[0])
+        const x = parseInt(coordinates[1])
         newCoordinates.push(getPoint(y, x))
       } else {
         for (let i = 0; i < coordinates.length; i++) {
@@ -77,16 +77,17 @@ function getPoint(y, x) {
   return [lat, lng]
 }
 
-async function getIds(url) {
+async function getIds(type) {
+  const url = `https://data.schweizmobil.ch/poi-clusters-prod/21781/clustered_${type}.geojson`
   const result = []
 
   try {
     const json = await getFile(url)
     const features = json.features
 
-    for (let i = 0; i < features.size(); i++) {
+    for (let i = 0; i < features.length; i++) {
       const feature = features[i]
-      result.push(parseInt(feature[id]))
+      result.push(parseInt(feature['id']))
     }
   } catch (e) {
     console.log(`Error getting ids: ${url}\n${e.toString()}`)

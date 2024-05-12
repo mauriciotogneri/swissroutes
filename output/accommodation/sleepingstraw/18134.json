@@ -1,0 +1,47 @@
+{
+    "type": "Feature",
+    "id": 36736,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                47.549355798540596,
+                8.558963402196882
+            ]
+        ]
+    },
+    "properties": {
+        "id": 18134,
+        "land": "\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"",
+        "type": "Uebernachte",
+        "types": [
+            "sleepingstraw"
+        ],
+        "category": "all",
+        "language": "en",
+        "name": "Bauernhof Wyden",
+        "stars_hotellerie": null,
+        "stars_parahotellerie": null,
+        "q_label": null,
+        "hotelgroup": null,
+        "street": "Wyden",
+        "zip": "8428",
+        "place": "Teufen ZH",
+        "tel": "+41 (0)44 865 04 26",
+        "beds": 20,
+        "campingplaces": 10,
+        "pricefrom": 15,
+        "priceto": 25,
+        "price_week": null,
+        "email": "info@hof-wyden.ch",
+        "url1_text": "www.hof-wyden.ch",
+        "url1_link": "https://www.hof-wyden.ch",
+        "url2_text": null,
+        "url2_link": null,
+        "foto": "https://images.schweizmobil.ch/image/Teufen_Bauernhof_Wyden.jpg",
+        "foto_abstract": null,
+        "x_coordinate": 684334.2710171796,
+        "y_coordinate": 267117.16033990856,
+        "change_date": null
+    }
+}

@@ -1,0 +1,49 @@
+{
+    "type": "Feature",
+    "id": 37602,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.61887221092226,
+                8.567611934610694
+            ]
+        ]
+    },
+    "properties": {
+        "id": 18607,
+        "land": "\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"",
+        "type": "Uebernachte",
+        "types": [
+            "hotel",
+            "backpacker",
+            "groupaccom"
+        ],
+        "category": "all",
+        "language": "en",
+        "name": "Pension zum Turm, Urner Ski- und Wanderheim",
+        "stars_hotellerie": null,
+        "stars_parahotellerie": null,
+        "q_label": null,
+        "hotelgroup": "GastroSuisse",
+        "street": "Gotthardstrasse",
+        "zip": "6493",
+        "place": "Hospental",
+        "tel": "+41 (0)41 887 16 86",
+        "beds": 39,
+        "campingplaces": null,
+        "pricefrom": 45,
+        "priceto": 62,
+        "price_week": null,
+        "email": "turminfo@bluewin.ch",
+        "url1_text": "www.gasthaus-pizzeria-zum-turm.ch",
+        "url1_link": "https://www.gasthaus-pizzeria-zum-turm.ch",
+        "url2_text": null,
+        "url2_link": null,
+        "foto": "https://images.schweizmobil.ch/image/Hospental_Gasthaus_Pension_zum_Turm.jpg",
+        "foto_abstract": null,
+        "x_coordinate": 686473.6265528905,
+        "y_coordinate": 163691.2113577251,
+        "change_date": null
+    }
+}

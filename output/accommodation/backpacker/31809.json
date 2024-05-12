@@ -1,0 +1,49 @@
+{
+    "type": "Feature",
+    "id": 37599,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.75727758720578,
+                9.122387285769253
+            ]
+        ]
+    },
+    "properties": {
+        "id": 31809,
+        "land": "\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"",
+        "type": "Uebernachte",
+        "types": [
+            "bedbreakfast",
+            "backpacker",
+            "groupaccom"
+        ],
+        "category": "all",
+        "language": "en",
+        "name": "Pension Casa Quadra",
+        "stars_hotellerie": null,
+        "stars_parahotellerie": null,
+        "q_label": null,
+        "hotelgroup": null,
+        "street": "Affeier 13a",
+        "zip": "7134",
+        "place": "Obersaxen",
+        "tel": "+41 (0)81 933 22 58",
+        "beds": 31,
+        "campingplaces": null,
+        "pricefrom": 40,
+        "priceto": 65,
+        "price_week": null,
+        "email": "casa@quadra-obersaxen.ch",
+        "url1_text": "www.quadra-obersaxen.ch",
+        "url1_link": "https://www.quadra-obersaxen.ch",
+        "url2_text": null,
+        "url2_link": null,
+        "foto": "https://images.schweizmobil.ch/image-small/Obersaxen_Casa_Quadra.jpg",
+        "foto_abstract": null,
+        "x_coordinate": 728630.1823518339,
+        "y_coordinate": 179835.9119162101,
+        "change_date": null
+    }
+}

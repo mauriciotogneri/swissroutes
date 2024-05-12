@@ -1,0 +1,48 @@
+{
+    "type": "Feature",
+    "id": 36728,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.3991219517068,
+                8.145190562144098
+            ]
+        ]
+    },
+    "properties": {
+        "id": 18132,
+        "land": "\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"",
+        "type": "Uebernachte",
+        "types": [
+            "bedbreakfast",
+            "farmaccom"
+        ],
+        "category": "all",
+        "language": "en",
+        "name": "Bauernhof Bergland Produkte",
+        "stars_hotellerie": null,
+        "stars_parahotellerie": "1",
+        "q_label": null,
+        "hotelgroup": "Agritourism Switzerland",
+        "street": "Bieu 25",
+        "zip": "3995",
+        "place": "Ernen",
+        "tel": "+41 (0)27 971 23 60",
+        "beds": 4,
+        "campingplaces": null,
+        "pricefrom": 60,
+        "priceto": 110,
+        "price_week": null,
+        "email": "home@bergland.ch",
+        "url1_text": "www.bergland.ch",
+        "url1_link": "https://www.bergland.ch",
+        "url2_text": "www.myfarm.ch",
+        "url2_link": "https://www.myfarm.ch",
+        "foto": "https://images.schweizmobil.ch/image-big/Ernen_Bauernhof_Bergland_Produkte_g.jpg",
+        "foto_abstract": null,
+        "x_coordinate": 654339.6420951117,
+        "y_coordinate": 138885.23207870775,
+        "change_date": null
+    }
+}

@@ -1,0 +1,49 @@
+{
+    "type": "Feature",
+    "id": 36759,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.88547258115508,
+                8.73235954891612
+            ]
+        ]
+    },
+    "properties": {
+        "id": 30579,
+        "land": "\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"",
+        "type": "Uebernachte",
+        "types": [
+            "hotel",
+            "groupaccom",
+            "mountainhut"
+        ],
+        "category": "all",
+        "language": "en",
+        "name": "Berggasthaus Ratzi",
+        "stars_hotellerie": null,
+        "stars_parahotellerie": null,
+        "q_label": null,
+        "hotelgroup": null,
+        "street": "Ratzistrasse 33",
+        "zip": "6464",
+        "place": "Spiringen",
+        "tel": "+41 (0)41 879 12 30",
+        "beds": 69,
+        "campingplaces": null,
+        "pricefrom": 65,
+        "priceto": 90,
+        "price_week": null,
+        "email": "berggasthaus.ratzi@bluewin.ch",
+        "url1_text": "www.ratzi-berggasthaus.ch",
+        "url1_link": "https://www.ratzi-berggasthaus.ch",
+        "url2_text": null,
+        "url2_link": null,
+        "foto": "https://images.schweizmobil.ch/image-big/Spiringen_Ratzi_2023_g.jpg",
+        "foto_abstract": null,
+        "x_coordinate": 698602.8151849675,
+        "y_coordinate": 193519.2708804018,
+        "change_date": null
+    }
+}

@@ -1,0 +1,48 @@
+{
+    "type": "Feature",
+    "id": 37656,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.91548356434636,
+                9.275458481694724
+            ]
+        ]
+    },
+    "properties": {
+        "id": 26883,
+        "land": "\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"",
+        "type": "Uebernachte",
+        "types": [
+            "groupaccom",
+            "mountainhut"
+        ],
+        "category": "all",
+        "language": "en",
+        "name": "Sardonahütte SAC",
+        "stars_hotellerie": null,
+        "stars_parahotellerie": null,
+        "q_label": null,
+        "hotelgroup": "Schweizer Alpen-Club SAC",
+        "street": null,
+        "zip": "7315",
+        "place": "Vättis",
+        "tel": "+41 (0)81 306 13 88",
+        "beds": 43,
+        "campingplaces": null,
+        "pricefrom": 21,
+        "priceto": 63,
+        "price_week": null,
+        "email": "jaeger.beat@bluewin.ch",
+        "url1_text": "www.sardonahuette.ch",
+        "url1_link": "https://www.sardonahuette.ch",
+        "url2_text": null,
+        "url2_link": null,
+        "foto": "https://images.schweizmobil.ch/image/Sardonahuette_SAC.jpg",
+        "foto_abstract": null,
+        "x_coordinate": 739910.1447056867,
+        "y_coordinate": 197680.36429432803,
+        "change_date": null
+    }
+}

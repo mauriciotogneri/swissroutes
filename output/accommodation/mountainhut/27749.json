@@ -1,0 +1,48 @@
+{
+    "type": "Feature",
+    "id": 37499,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.541547071805866,
+                9.041728502839307
+            ]
+        ]
+    },
+    "properties": {
+        "id": 27749,
+        "land": "\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"",
+        "type": "Uebernachte",
+        "types": [
+            "groupaccom",
+            "mountainhut"
+        ],
+        "category": "all",
+        "language": "en",
+        "name": "Länta-Hütte SAC",
+        "stars_hotellerie": null,
+        "stars_parahotellerie": null,
+        "q_label": null,
+        "hotelgroup": "Schweizer Alpen-Club SAC",
+        "street": null,
+        "zip": "7132",
+        "place": "Vals",
+        "tel": "+41 (0)81 935 17 13",
+        "beds": 33,
+        "campingplaces": null,
+        "pricefrom": 65,
+        "priceto": 85,
+        "price_week": null,
+        "email": "karto-vals@bluewin.ch",
+        "url1_text": "www.laentahuette.ch",
+        "url1_link": "http://www.laentahuette.ch",
+        "url2_text": null,
+        "url2_link": null,
+        "foto": "https://images.schweizmobil.ch/image/Laentahuette_SAC.jpg",
+        "foto_abstract": null,
+        "x_coordinate": 722959.8319336151,
+        "y_coordinate": 155729.93705577852,
+        "change_date": null
+    }
+}

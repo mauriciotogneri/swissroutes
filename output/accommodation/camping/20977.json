@@ -1,0 +1,47 @@
+{
+    "type": "Feature",
+    "id": 37730,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                45.99503287098358,
+                8.90870117177836
+            ]
+        ]
+    },
+    "properties": {
+        "id": 20977,
+        "land": "\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"",
+        "type": "Uebernachte",
+        "types": [
+            "campingsite"
+        ],
+        "category": "all",
+        "language": "en",
+        "name": "TCS Camping Lugano-Muzzano",
+        "stars_hotellerie": null,
+        "stars_parahotellerie": "4",
+        "q_label": null,
+        "hotelgroup": "TCS Camping",
+        "street": "Via alla Foce 14",
+        "zip": "6933",
+        "place": "Muzzano",
+        "tel": "+41 (0)91 994 77 88",
+        "beds": null,
+        "campingplaces": 185,
+        "pricefrom": 40,
+        "priceto": 53,
+        "price_week": null,
+        "email": "camping.muzzano@tcs.ch",
+        "url1_text": "www.tcs-camping.ch",
+        "url1_link": "https://www.tcs.ch/it/camping-viaggi/camping-insider/campeggi/tcs-campeggi/campeggio-lugano-muzzano.php",
+        "url2_text": null,
+        "url2_link": null,
+        "foto": "https://images.schweizmobil.ch/image/Muzzano_TCS_La_Piodella.jpg",
+        "foto_abstract": null,
+        "x_coordinate": 713895.1361378423,
+        "y_coordinate": 94786.57089162018,
+        "change_date": null
+    }
+}

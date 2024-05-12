@@ -1,0 +1,47 @@
+{
+    "type": "Feature",
+    "id": 36716,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.68446472481983,
+                7.861819878191123
+            ]
+        ]
+    },
+    "properties": {
+        "id": 18826,
+        "land": "\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"",
+        "type": "Uebernachte",
+        "types": [
+            "backpacker"
+        ],
+        "category": "all",
+        "language": "en",
+        "name": "Backpackers Villa Sonnenhof",
+        "stars_hotellerie": null,
+        "stars_parahotellerie": null,
+        "q_label": "QQ",
+        "hotelgroup": "Swiss Hostels",
+        "street": "Alpenstrasse 16",
+        "zip": "3800",
+        "place": "Interlaken",
+        "tel": "+41 (0)33 826 71 71",
+        "beds": 190,
+        "campingplaces": null,
+        "pricefrom": 40,
+        "priceto": 89,
+        "price_week": null,
+        "email": "mail@villa.ch",
+        "url1_text": "www.villa.ch",
+        "url1_link": "https://www.villa.ch",
+        "url2_text": "www.swisshostels.com",
+        "url2_link": "https://www.swisshostels.com",
+        "foto": "https://images.schweizmobil.ch/image-big/Interlaken_Backpackers_Villa_Sonnenhof_g.jpg",
+        "foto_abstract": null,
+        "x_coordinate": 632375.7971563415,
+        "y_coordinate": 170448.03261211235,
+        "change_date": null
+    }
+}

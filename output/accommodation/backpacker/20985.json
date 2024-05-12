@@ -1,0 +1,48 @@
+{
+    "type": "Feature",
+    "id": 37740,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                47.198163973278945,
+                7.517738419298335
+            ]
+        ]
+    },
+    "properties": {
+        "id": 20985,
+        "land": "\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"",
+        "type": "Uebernachte",
+        "types": [
+            "backpacker",
+            "campingsite"
+        ],
+        "category": "all",
+        "language": "en",
+        "name": "TCS Camping Solothurn",
+        "stars_hotellerie": null,
+        "stars_parahotellerie": "4",
+        "q_label": null,
+        "hotelgroup": "TCS Camping",
+        "street": "Glutzhofstrasse 5",
+        "zip": "4500",
+        "place": "Solothurn",
+        "tel": "+41 (0)32 621 89 35",
+        "beds": null,
+        "campingplaces": 120,
+        "pricefrom": 25,
+        "priceto": 42,
+        "price_week": null,
+        "email": "camping.solothurn@tcs.ch",
+        "url1_text": "www.tcs-camping.ch",
+        "url1_link": "https://www.tcs.ch/de/camping-reisen/camping-insider/campingplaetze/tcs-campingplaetze/campingplatz-solothurn.php",
+        "url2_text": null,
+        "url2_link": null,
+        "foto": "https://images.schweizmobil.ch/image/Solothurn_Camping_tcs.jpg",
+        "foto_abstract": null,
+        "x_coordinate": 605994.7586171507,
+        "y_coordinate": 227472.5045566606,
+        "change_date": null
+    }
+}

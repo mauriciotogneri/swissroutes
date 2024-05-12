@@ -1,0 +1,49 @@
+{
+    "type": "Feature",
+    "id": 36763,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                47.707003053688666,
+                8.457002912806946
+            ]
+        ]
+    },
+    "properties": {
+        "id": 27113,
+        "land": "\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"",
+        "type": "Uebernachte",
+        "types": [
+            "groupaccom",
+            "farmaccom",
+            "vacationapptmt"
+        ],
+        "category": "all",
+        "language": "en",
+        "name": "Berghof Hallau",
+        "stars_hotellerie": null,
+        "stars_parahotellerie": "2",
+        "q_label": null,
+        "hotelgroup": "Agritourism Switzerland",
+        "street": "Berghof",
+        "zip": "8215",
+        "place": "Hallau",
+        "tel": "0848 488 088",
+        "beds": 40,
+        "campingplaces": null,
+        "pricefrom": 35,
+        "priceto": 55,
+        "price_week": null,
+        "email": "info@berghof-hallau.ch",
+        "url1_text": "www.e-domizil.ch",
+        "url1_link": "https://www.e-domizil.ch/ferienwohnung/862350",
+        "url2_text": "www.myfarm.ch",
+        "url2_link": "https://www.myfarm.ch",
+        "foto": "https://images.schweizmobil.ch/image-big/Hallau_Berghof_Hallau_g.jpg",
+        "foto_abstract": null,
+        "x_coordinate": 676432.9482962997,
+        "y_coordinate": 284540.4876317989,
+        "change_date": null
+    }
+}

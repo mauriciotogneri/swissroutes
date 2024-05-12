@@ -1,0 +1,49 @@
+{
+    "type": "Feature",
+    "id": 36979,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                47.120633350716076,
+                6.8937902884386695
+            ]
+        ]
+    },
+    "properties": {
+        "id": 18210,
+        "land": "\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"",
+        "type": "Uebernachte",
+        "types": [
+            "groupaccom",
+            "vacationapptmt",
+            "campingsite"
+        ],
+        "category": "all",
+        "language": "en",
+        "name": "Centre de vacances / Camping",
+        "stars_hotellerie": null,
+        "stars_parahotellerie": "4",
+        "q_label": null,
+        "hotelgroup": null,
+        "street": "Clermont 157",
+        "zip": "2616",
+        "place": "La Cibourg",
+        "tel": "+41 (0)32 968 39 37",
+        "beds": 48,
+        "campingplaces": 30,
+        "pricefrom": 8,
+        "priceto": 35,
+        "price_week": null,
+        "email": "lacibourg@bluewin.ch",
+        "url1_text": "www.centrelacibourg.ch",
+        "url1_link": "https://www.centrelacibourg.ch",
+        "url2_text": null,
+        "url2_link": null,
+        "foto": "https://images.schweizmobil.ch/image/La_Cibourg_Camping.jpg",
+        "foto_abstract": null,
+        "x_coordinate": 558654.8867643956,
+        "y_coordinate": 218993.16480554422,
+        "change_date": null
+    }
+}

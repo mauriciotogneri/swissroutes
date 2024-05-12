@@ -1,0 +1,48 @@
+{
+    "type": "Feature",
+    "id": 37487,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                47.10550807057984,
+                6.830141006806002
+            ]
+        ]
+    },
+    "properties": {
+        "id": 31646,
+        "land": "\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"",
+        "type": "Uebernachte",
+        "types": [
+            "backpacker",
+            "groupaccom"
+        ],
+        "category": "all",
+        "language": "en",
+        "name": "La Coquille",
+        "stars_hotellerie": null,
+        "stars_parahotellerie": null,
+        "q_label": null,
+        "hotelgroup": null,
+        "street": "Rue du 1er-Mars 14",
+        "zip": "2300",
+        "place": "La Chaux-de-Fonds",
+        "tel": "+41 (0)32 968 51 57",
+        "beds": 30,
+        "campingplaces": null,
+        "pricefrom": 25,
+        "priceto": 58,
+        "price_week": null,
+        "email": "maison@lacoquille.ch",
+        "url1_text": "www.lacoquille.ch",
+        "url1_link": "https://www.lacoquille.ch",
+        "url2_text": null,
+        "url2_link": null,
+        "foto": "https://images.schweizmobil.ch/image-small/La_Chaux_de_Fonds_La_Coquille.jpg",
+        "foto_abstract": null,
+        "x_coordinate": 553811.0756955218,
+        "y_coordinate": 217347.8497504115,
+        "change_date": null
+    }
+}

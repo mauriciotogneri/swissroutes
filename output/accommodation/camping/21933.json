@@ -1,0 +1,47 @@
+{
+    "type": "Feature",
+    "id": 36870,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.95589564031734,
+                7.018072759135259
+            ]
+        ]
+    },
+    "properties": {
+        "id": 21933,
+        "land": "\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"",
+        "type": "Uebernachte",
+        "types": [
+            "campingsite"
+        ],
+        "category": "all",
+        "language": "en",
+        "name": "Camping de Cudrefin",
+        "stars_hotellerie": null,
+        "stars_parahotellerie": "4",
+        "q_label": null,
+        "hotelgroup": null,
+        "street": "Grand'Rue 2",
+        "zip": "1588",
+        "place": "Cudrefin",
+        "tel": "+41 (0)26 677 32 77",
+        "beds": null,
+        "campingplaces": 150,
+        "pricefrom": 16,
+        "priceto": 25,
+        "price_week": null,
+        "email": "camping@cudrefin.ch",
+        "url1_text": "www.camping-cudrefin.ch",
+        "url1_link": "https://www.camping-cudrefin.ch",
+        "url2_text": null,
+        "url2_link": null,
+        "foto": "https://images.schweizmobil.ch/image/Cudrefin_Camping.jpg",
+        "foto_abstract": null,
+        "x_coordinate": 567987.3080883862,
+        "y_coordinate": 200621.7845814196,
+        "change_date": null
+    }
+}

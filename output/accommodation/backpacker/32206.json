@@ -1,0 +1,47 @@
+{
+    "type": "Feature",
+    "id": 36665,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                47.21010691028644,
+                6.952080775211886
+            ]
+        ]
+    },
+    "properties": {
+        "id": 32206,
+        "land": "\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"",
+        "type": "Uebernachte",
+        "types": [
+            "backpacker"
+        ],
+        "category": "all",
+        "language": "en",
+        "name": "Auberge du Peu-Péquignot",
+        "stars_hotellerie": null,
+        "stars_parahotellerie": null,
+        "q_label": null,
+        "hotelgroup": null,
+        "street": "Le Peu-Péquignot 5",
+        "zip": "2340",
+        "place": "Le Noirmont",
+        "tel": "+41 (0)32 953 14 37",
+        "beds": 30,
+        "campingplaces": null,
+        "pricefrom": 35,
+        "priceto": 70,
+        "price_week": null,
+        "email": "welcome@aubergedupeupe.ch",
+        "url1_text": "www.aubergedupeupe.ch",
+        "url1_link": "https://www.aubergedupeupe.ch",
+        "url2_text": null,
+        "url2_link": null,
+        "foto": "https://images.schweizmobil.ch/image-big/Le_Noirmont_Peu_Pequignot_2021_g.JPG",
+        "foto_abstract": null,
+        "x_coordinate": 563139.2592438636,
+        "y_coordinate": 228911.83261752114,
+        "change_date": null
+    }
+}

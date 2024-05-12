@@ -1,0 +1,49 @@
+{
+    "type": "Feature",
+    "id": 37539,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                47.19616790167299,
+                8.780287986044547
+            ]
+        ]
+    },
+    "properties": {
+        "id": 18674,
+        "land": "\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"",
+        "type": "Uebernachte",
+        "types": [
+            "groupaccom",
+            "sleepingstraw",
+            "campingsite"
+        ],
+        "category": "all",
+        "language": "en",
+        "name": "Lützelhof",
+        "stars_hotellerie": null,
+        "stars_parahotellerie": null,
+        "q_label": "Q",
+        "hotelgroup": "Agritourism Switzerland",
+        "street": "Etzelstrasse 126",
+        "zip": "8808",
+        "place": "Pfäffikon SZ",
+        "tel": "+41 (0)55 420 21 93",
+        "beds": 40,
+        "campingplaces": 2,
+        "pricefrom": 16,
+        "priceto": 35,
+        "price_week": null,
+        "email": "info@luetzelhof.ch",
+        "url1_text": "www.luetzelhof.ch",
+        "url1_link": "https://www.luetzelhof.ch",
+        "url2_text": "www.myfarm.ch",
+        "url2_link": "https://www.myfarm.ch",
+        "foto": "https://images.schweizmobil.ch/image/Pfaeffkon_SiS_Luetzelhof.JPG",
+        "foto_abstract": null,
+        "x_coordinate": 701664.8585994485,
+        "y_coordinate": 228116.95060355496,
+        "change_date": null
+    }
+}

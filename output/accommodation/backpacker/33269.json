@@ -1,0 +1,47 @@
+{
+    "type": "Feature",
+    "id": 37606,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.751442410729766,
+                8.101040003709905
+            ]
+        ]
+    },
+    "properties": {
+        "id": 33269,
+        "land": "\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"",
+        "type": "Uebernachte",
+        "types": [
+            "backpacker"
+        ],
+        "category": "all",
+        "language": "en",
+        "name": "Pilgerherberge Brienzwiler",
+        "stars_hotellerie": null,
+        "stars_parahotellerie": null,
+        "q_label": null,
+        "hotelgroup": null,
+        "street": "Dorfstrasse 4",
+        "zip": "3856",
+        "place": "Brienzwiler",
+        "tel": "+41 (0)78 862 90 48",
+        "beds": 12,
+        "campingplaces": null,
+        "pricefrom": 15,
+        "priceto": 28,
+        "price_week": null,
+        "email": "pilgerherberge-brienzwiler@viajacobi4.ch",
+        "url1_text": "www.pilgerherberge-brienzwiler.ch",
+        "url1_link": "https://www.pilgerherberge-brienzwiler.ch",
+        "url2_text": null,
+        "url2_link": null,
+        "foto": "https://images.schweizmobil.ch/image-big/Brienzwiler_Pilgerherberge_g.jpg",
+        "foto_abstract": null,
+        "x_coordinate": 650613.0561065675,
+        "y_coordinate": 178020.2184091371,
+        "change_date": null
+    }
+}

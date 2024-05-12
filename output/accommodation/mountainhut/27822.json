@@ -1,0 +1,47 @@
+{
+    "type": "Feature",
+    "id": 37048,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.71808977543465,
+                8.720458294982258
+            ]
+        ]
+    },
+    "properties": {
+        "id": 27822,
+        "land": "\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"",
+        "type": "Uebernachte",
+        "types": [
+            "mountainhut"
+        ],
+        "category": "all",
+        "language": "en",
+        "name": "Etzlihütte SAC",
+        "stars_hotellerie": null,
+        "stars_parahotellerie": null,
+        "q_label": null,
+        "hotelgroup": "Schweizer Alpen-Club SAC",
+        "street": null,
+        "zip": "6474",
+        "place": "Amsteg",
+        "tel": "+41 (0)41 820 22 88",
+        "beds": 75,
+        "campingplaces": null,
+        "pricefrom": 65,
+        "priceto": 85,
+        "price_week": null,
+        "email": "info@etzlihuette.ch",
+        "url1_text": "www.etzlihuette.ch",
+        "url1_link": "https://www.etzlihuette.ch",
+        "url2_text": null,
+        "url2_link": null,
+        "foto": "https://images.schweizmobil.ch/image/Etzlihuette_SAC.jpg",
+        "foto_abstract": null,
+        "x_coordinate": 697999.900481044,
+        "y_coordinate": 174899.533937537,
+        "change_date": null
+    }
+}

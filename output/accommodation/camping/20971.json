@@ -1,0 +1,49 @@
+{
+    "type": "Feature",
+    "id": 37728,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.69256005458037,
+                7.869230552579446
+            ]
+        ]
+    },
+    "properties": {
+        "id": 20971,
+        "land": "\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"",
+        "type": "Uebernachte",
+        "types": [
+            "backpacker",
+            "groupaccom",
+            "campingsite"
+        ],
+        "category": "all",
+        "language": "en",
+        "name": "TCS Camping Interlaken",
+        "stars_hotellerie": null,
+        "stars_parahotellerie": "3",
+        "q_label": null,
+        "hotelgroup": "TCS Camping",
+        "street": "Brienzstr. 24",
+        "zip": "3800",
+        "place": "Interlaken",
+        "tel": "+41 (0)33 822 44 24",
+        "beds": 68,
+        "campingplaces": 91,
+        "pricefrom": 24,
+        "priceto": 70,
+        "price_week": null,
+        "email": "welcome@riverlodge.ch",
+        "url1_text": "www.tcs-camping.ch",
+        "url1_link": "https://www.tcs.ch/de/camping-reisen/camping-insider/campingplaetze/tcs-campingplaetze/campingplatz-interlaken.php",
+        "url2_text": null,
+        "url2_link": null,
+        "foto": "https://images.schweizmobil.ch/image/Interlaken_Camping_tcs.jpg",
+        "foto_abstract": null,
+        "x_coordinate": 632937.7488248333,
+        "y_coordinate": 171351.5499986365,
+        "change_date": null
+    }
+}

@@ -1,0 +1,47 @@
+{
+    "type": "Feature",
+    "id": 36996,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.49672575261827,
+                6.247891656583314
+            ]
+        ]
+    },
+    "properties": {
+        "id": 33260,
+        "land": "\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"",
+        "type": "Uebernachte",
+        "types": [
+            "farmaccom"
+        ],
+        "category": "all",
+        "language": "en",
+        "name": "Chambre à la ferme Bassin",
+        "stars_hotellerie": null,
+        "stars_parahotellerie": null,
+        "q_label": null,
+        "hotelgroup": "Agritourism Switzerland",
+        "street": "Chemin les Salles 1",
+        "zip": "1261",
+        "place": "Marchissy",
+        "tel": "+41 (0)79 255 03 65",
+        "beds": 5,
+        "campingplaces": null,
+        "pricefrom": 95,
+        "priceto": 220,
+        "price_week": null,
+        "email": "familledlbassin@bluewin.ch",
+        "url1_text": "www.marchissylessalles.ch",
+        "url1_link": "https://www.marchissylessalles.ch",
+        "url2_text": "www.myfarm.ch",
+        "url2_link": "https://www.myfarm.ch",
+        "foto": "https://images.schweizmobil.ch/image/Juraverein_Platzhalter.jpg",
+        "foto_abstract": null,
+        "x_coordinate": 508590.1351230599,
+        "y_coordinate": 150184.88838308564,
+        "change_date": null
+    }
+}

@@ -1,0 +1,47 @@
+{
+    "type": "Feature",
+    "id": 37160,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.853363176279906,
+                7.173101134417932
+            ]
+        ]
+    },
+    "properties": {
+        "id": 20425,
+        "land": "\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"",
+        "type": "Uebernachte",
+        "types": [
+            "sleepingstraw"
+        ],
+        "category": "all",
+        "language": "en",
+        "name": "Hof Ottisberg",
+        "stars_hotellerie": null,
+        "stars_parahotellerie": null,
+        "q_label": null,
+        "hotelgroup": "Agritourism Switzerland",
+        "street": "Ottisberg 12",
+        "zip": "3186",
+        "place": "Düdingen",
+        "tel": "+41 (0)26 493 14 70",
+        "beds": 30,
+        "campingplaces": null,
+        "pricefrom": 30,
+        "priceto": 30,
+        "price_week": null,
+        "email": "j.k.zimmermann@bluewin.ch",
+        "url1_text": "www.myfarm.ch",
+        "url1_link": "https://www.myfarm.ch",
+        "url2_text": null,
+        "url2_link": null,
+        "foto": "https://images.schweizmobil.ch/image/Duedingen_SiS_Zimmermann.jpg",
+        "foto_abstract": null,
+        "x_coordinate": 579749.965811801,
+        "y_coordinate": 189171.82121463562,
+        "change_date": null
+    }
+}

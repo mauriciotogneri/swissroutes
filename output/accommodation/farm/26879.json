@@ -1,0 +1,48 @@
+{
+    "type": "Feature",
+    "id": 36672,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                47.2068418882607,
+                7.489347276498569
+            ]
+        ]
+    },
+    "properties": {
+        "id": 26879,
+        "land": "\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"",
+        "type": "Uebernachte",
+        "types": [
+            "bedbreakfast",
+            "farmaccom"
+        ],
+        "category": "all",
+        "language": "en",
+        "name": "B&B Aarhof",
+        "stars_hotellerie": null,
+        "stars_parahotellerie": null,
+        "q_label": null,
+        "hotelgroup": "BnB Switzerland",
+        "street": "Wächterweg 3",
+        "zip": "4512",
+        "place": "Bellach",
+        "tel": "+41 (0)32 622 83 79",
+        "beds": 6,
+        "campingplaces": null,
+        "pricefrom": 50,
+        "priceto": 60,
+        "price_week": null,
+        "email": "lupro@bluewin.ch",
+        "url1_text": "www.bnb.ch/1691",
+        "url1_link": "https://www.bnb.ch/1691",
+        "url2_text": "www.aarhof-bellach.ch",
+        "url2_link": "https://www.aarhof-bellach.ch",
+        "foto": "https://images.schweizmobil.ch/image/Bellach_BnB_Aarhof.JPG",
+        "foto_abstract": null,
+        "x_coordinate": 603842.877226194,
+        "y_coordinate": 228435.76329295622,
+        "change_date": null
+    }
+}

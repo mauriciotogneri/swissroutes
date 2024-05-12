@@ -1,0 +1,48 @@
+{
+    "type": "Feature",
+    "id": 37488,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.92889340359893,
+                6.66868323415098
+            ]
+        ]
+    },
+    "properties": {
+        "id": 18078,
+        "land": "\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"",
+        "type": "Uebernachte",
+        "types": [
+            "sleepingstraw",
+            "campingsite"
+        ],
+        "category": "all",
+        "language": "en",
+        "name": "La Coué",
+        "stars_hotellerie": null,
+        "stars_parahotellerie": null,
+        "q_label": "Q",
+        "hotelgroup": null,
+        "street": "La Coué 1",
+        "zip": "2105",
+        "place": "Travers",
+        "tel": "+41 (0)79 693 57 23",
+        "beds": 25,
+        "campingplaces": 6,
+        "pricefrom": 10,
+        "priceto": 32,
+        "price_week": null,
+        "email": "reservations@lacoue.ch",
+        "url1_text": "www.lacoue.ch",
+        "url1_link": "https://www.lacoue.ch",
+        "url2_text": "www.myfarm.ch",
+        "url2_link": "https://www.myfarm.ch",
+        "foto": "https://images.schweizmobil.ch/image-big/Travers_La_Coue_g.jpeg",
+        "foto_abstract": null,
+        "x_coordinate": 541363.3046455673,
+        "y_coordinate": 197821.44961800767,
+        "change_date": null
+    }
+}

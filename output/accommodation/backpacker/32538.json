@@ -1,0 +1,47 @@
+{
+    "type": "Feature",
+    "id": 37019,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.21491183173222,
+                6.146029975653828
+            ]
+        ]
+    },
+    "properties": {
+        "id": 32538,
+        "land": "\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"",
+        "type": "Uebernachte",
+        "types": [
+            "backpacker"
+        ],
+        "category": "all",
+        "language": "en",
+        "name": "City Hostel Geneva",
+        "stars_hotellerie": null,
+        "stars_parahotellerie": null,
+        "q_label": "Q",
+        "hotelgroup": "Swiss Hostels",
+        "street": "Rue Ferrier 2",
+        "zip": "1200",
+        "place": "Genève",
+        "tel": "+41 (0)22 901 15 00",
+        "beds": 98,
+        "campingplaces": null,
+        "pricefrom": 32,
+        "priceto": 43,
+        "price_week": null,
+        "email": "info@cityhostel.ch",
+        "url1_text": "www.cityhostel.ch",
+        "url1_link": "https://www.cityhostel.ch",
+        "url2_text": "www.swisshostels.com",
+        "url2_link": "https://www.swisshostels.com",
+        "foto": "https://images.schweizmobil.ch/image/Genf_SBP_City_Hostel_Geneva.JPG",
+        "foto_abstract": null,
+        "x_coordinate": 500255.2197547358,
+        "y_coordinate": 118984.51457831271,
+        "change_date": null
+    }
+}

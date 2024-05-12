@@ -1,0 +1,49 @@
+{
+    "type": "Feature",
+    "id": 37662,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.82177640498837,
+                9.708400622866774
+            ]
+        ]
+    },
+    "properties": {
+        "id": 30265,
+        "land": "\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"",
+        "type": "Uebernachte",
+        "types": [
+            "groupaccom",
+            "sleepingstraw",
+            "vacationapptmt"
+        ],
+        "category": "all",
+        "language": "en",
+        "name": "Schluocht-Hof",
+        "stars_hotellerie": null,
+        "stars_parahotellerie": null,
+        "q_label": null,
+        "hotelgroup": "Agritourism Switzerland",
+        "street": "Schluocht 50",
+        "zip": "7057",
+        "place": "Langwies",
+        "tel": "0848 488 088",
+        "beds": 24,
+        "campingplaces": null,
+        "pricefrom": 30,
+        "priceto": 75,
+        "price_week": null,
+        "email": "renato_mattli@bluewin.ch",
+        "url1_text": "www.e-domizil.ch",
+        "url1_link": "https://www.e-domizil.ch/ferienwohnung/862476",
+        "url2_text": "www.myfarm.ch",
+        "url2_link": "https://www.myfarm.ch",
+        "foto": "https://images.schweizmobil.ch/image-small/Langwies_Agrotourismus_Mattli.jpg",
+        "foto_abstract": null,
+        "x_coordinate": 773180.7711558292,
+        "y_coordinate": 188130.2068017264,
+        "change_date": null
+    }
+}

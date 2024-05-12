@@ -1,0 +1,47 @@
+{
+    "type": "Feature",
+    "id": 36615,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.302925836647745,
+                9.124048968921546
+            ]
+        ]
+    },
+    "properties": {
+        "id": 33264,
+        "land": "\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"",
+        "type": "Uebernachte",
+        "types": [
+            "farmaccom"
+        ],
+        "category": "all",
+        "language": "en",
+        "name": "Agriturismo Raisc",
+        "stars_hotellerie": null,
+        "stars_parahotellerie": null,
+        "q_label": null,
+        "hotelgroup": "Agritourism Switzerland",
+        "street": "Via Braggio 26",
+        "zip": "6544",
+        "place": "Braggio",
+        "tel": "+41 (0)79 281 34 86",
+        "beds": 22,
+        "campingplaces": null,
+        "pricefrom": 100,
+        "priceto": 100,
+        "price_week": null,
+        "email": "luag.berta@bluewin.ch",
+        "url1_text": "www.myfarm.ch",
+        "url1_link": "https://www.myfarm.ch",
+        "url2_text": null,
+        "url2_link": null,
+        "foto": "https://images.schweizmobil.ch/image-big/Braggio_Raisc_g.jpg",
+        "foto_abstract": null,
+        "x_coordinate": 729842.0357873997,
+        "y_coordinate": 129341.07365468329,
+        "change_date": null
+    }
+}

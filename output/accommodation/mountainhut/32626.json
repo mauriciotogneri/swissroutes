@@ -1,0 +1,47 @@
+{
+    "type": "Feature",
+    "id": 36932,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.49805969978045,
+                8.910949250938863
+            ]
+        ]
+    },
+    "properties": {
+        "id": 32626,
+        "land": "\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"",
+        "type": "Uebernachte",
+        "types": [
+            "mountainhut"
+        ],
+        "category": "all",
+        "language": "en",
+        "name": "Capanna Gorda",
+        "stars_hotellerie": null,
+        "stars_parahotellerie": null,
+        "q_label": null,
+        "hotelgroup": null,
+        "street": "Monti di Gorda",
+        "zip": "6719",
+        "place": "Aquila",
+        "tel": "+41 (0)79 504 38 46",
+        "beds": 32,
+        "campingplaces": null,
+        "pricefrom": 15,
+        "priceto": 15,
+        "price_week": null,
+        "email": "info@capannagorda@gmail.com",
+        "url1_text": "www.capannagorda-sanda.ch",
+        "url1_link": "https://www.capannagorda-sanda.ch",
+        "url2_text": "http://www.capanneti.ch/it/capanne/gorda",
+        "url2_link": "http://www.capanneti.ch/it/capanne/gorda",
+        "foto": "https://images.schweizmobil.ch/image-big/41_Gorda_g.jpg",
+        "foto_abstract": null,
+        "x_coordinate": 713020.0353307906,
+        "y_coordinate": 150699.58141365726,
+        "change_date": null
+    }
+}

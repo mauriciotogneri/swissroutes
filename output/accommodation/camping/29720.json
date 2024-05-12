@@ -1,0 +1,48 @@
+{
+    "type": "Feature",
+    "id": 37711,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                47.34589809664882,
+                9.394319571636714
+            ]
+        ]
+    },
+    "properties": {
+        "id": 29720,
+        "land": "\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"",
+        "type": "Uebernachte",
+        "types": [
+            "sleepingstraw",
+            "campingsite"
+        ],
+        "category": "all",
+        "language": "en",
+        "name": "Strohgade",
+        "stars_hotellerie": null,
+        "stars_parahotellerie": null,
+        "q_label": null,
+        "hotelgroup": "Agritourism Switzerland",
+        "street": "Lankstrasse 3",
+        "zip": "9050",
+        "place": "Appenzell",
+        "tel": "+41 (0)71 787 83 10",
+        "beds": 42,
+        "campingplaces": 5,
+        "pricefrom": 15,
+        "priceto": 28,
+        "price_week": null,
+        "email": "reto.regula@bluewin.ch",
+        "url1_text": "www.strohgade.ch",
+        "url1_link": "https://www.strohgade.ch",
+        "url2_text": "www.myfarm.ch",
+        "url2_link": "https://www.myfarm.ch",
+        "foto": "https://images.schweizmobil.ch/image/Appenzell_Agrotourismus_Burelisauer.jpg",
+        "foto_abstract": null,
+        "x_coordinate": 747769.7908390097,
+        "y_coordinate": 245735.23874399852,
+        "change_date": null
+    }
+}

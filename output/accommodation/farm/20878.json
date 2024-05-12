@@ -1,0 +1,49 @@
+{
+    "type": "Feature",
+    "id": 37493,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.859831794268146,
+                6.862674059815164
+            ]
+        ]
+    },
+    "properties": {
+        "id": 20878,
+        "land": "\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"",
+        "type": "Uebernachte",
+        "types": [
+            "groupaccom",
+            "farmaccom",
+            "campingsite"
+        ],
+        "category": "all",
+        "language": "en",
+        "name": "La Ferme de la Corbière",
+        "stars_hotellerie": null,
+        "stars_parahotellerie": "3",
+        "q_label": null,
+        "hotelgroup": "Agritourism Switzerland",
+        "street": "La Corbière 2",
+        "zip": "1470",
+        "place": "Estavayer-le-Lac",
+        "tel": "+41 (0)26 663 36 19",
+        "beds": 68,
+        "campingplaces": 30,
+        "pricefrom": 14,
+        "priceto": 45,
+        "price_week": null,
+        "email": "info@corbiere.ch",
+        "url1_text": "www.corbiere.ch",
+        "url1_link": "https://www.corbiere.ch",
+        "url2_text": "www.myfarm.ch",
+        "url2_link": "https://www.myfarm.ch",
+        "foto": "https://images.schweizmobil.ch/image/Estavayer_le_Lac_BnB_Ferme_de_la_Corbiere.jpg",
+        "foto_abstract": null,
+        "x_coordinate": 556080.0474103056,
+        "y_coordinate": 190017.29249567149,
+        "change_date": null
+    }
+}

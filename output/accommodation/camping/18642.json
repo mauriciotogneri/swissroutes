@@ -1,0 +1,47 @@
+{
+    "type": "Feature",
+    "id": 37628,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                47.164006829519856,
+                7.407526003190849
+            ]
+        ]
+    },
+    "properties": {
+        "id": 18642,
+        "land": "\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"",
+        "type": "Uebernachte",
+        "types": [
+            "campingsite"
+        ],
+        "category": "all",
+        "language": "en",
+        "name": "Restaurant-Camping 'Strausak' Staad",
+        "stars_hotellerie": null,
+        "stars_parahotellerie": "1",
+        "q_label": null,
+        "hotelgroup": null,
+        "street": "Staadstrasse 214",
+        "zip": "2540",
+        "place": "Grenchen",
+        "tel": "+41 (0)32 652 11 33",
+        "beds": null,
+        "campingplaces": 20,
+        "pricefrom": 13,
+        "priceto": 17,
+        "price_week": null,
+        "email": null,
+        "url1_text": null,
+        "url1_link": null,
+        "url2_text": null,
+        "url2_link": null,
+        "foto": "https://images.schweizmobil.ch/image/Grenchen_Strausak.jpg",
+        "foto_abstract": null,
+        "x_coordinate": 597641.9766515429,
+        "y_coordinate": 223672.27346425576,
+        "change_date": null
+    }
+}

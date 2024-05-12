@@ -1,0 +1,48 @@
+{
+    "type": "Feature",
+    "id": 37570,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                47.159449736863614,
+                9.167610663033644
+            ]
+        ]
+    },
+    "properties": {
+        "id": 33118,
+        "land": "\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"",
+        "type": "Uebernachte",
+        "types": [
+            "groupaccom",
+            "mountainhut"
+        ],
+        "category": "all",
+        "language": "en",
+        "name": "Naturfreundehaus Tscherwald",
+        "stars_hotellerie": null,
+        "stars_parahotellerie": null,
+        "q_label": null,
+        "hotelgroup": "Amis de la Nature Suisse",
+        "street": "Vorderbergstrasse 306",
+        "zip": "8873",
+        "place": "Amden",
+        "tel": "+41 (0)44 945 25 45",
+        "beds": 50,
+        "campingplaces": null,
+        "pricefrom": 12,
+        "priceto": 28,
+        "price_week": null,
+        "email": "tscherwald@nfh.ch",
+        "url1_text": "www.tscherwald.ch",
+        "url1_link": "https://www.tscherwald.ch",
+        "url2_text": null,
+        "url2_link": null,
+        "foto": "https://images.schweizmobil.ch/image-big/Amden_Naturfreundehaus_Tscherwald_g.jpg",
+        "foto_abstract": null,
+        "x_coordinate": 731099.6927325411,
+        "y_coordinate": 224609.89128521213,
+        "change_date": null
+    }
+}
