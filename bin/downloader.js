@@ -28,44 +28,48 @@ async function downloadType(id, group, type, folder) {
 }
 
 async function downloadFile(url, filePath, isPoint) {
-  const json = await getFile(url)
+  try {
+    const json = await getFile(url)
 
-  const features = json.features
+    const features = json.features
 
-  if (features.length > 1) {
-    throw new Error(`MORE THAN ONE FEATURE: ${url}`)
-  }
-
-  if (features.length === 1) {
-    const route = features[0]
-    const coordinates = route.geometry.coordinates
-    const newCoordinates = []
-
-    if (isPoint) {
-      const y = coordinates.get(0).getAsInt()
-      const x = coordinates.get(1).getAsInt()
-      newCoordinates.push(getPoint(y, x))
-    } else {
-      for (let i = 0; i < coordinates.length; i++) {
-        const stage = coordinates[i]
-        const newStage = []
-
-        for (let j = 0; j < stage.length; j++) {
-          const point = stage[j]
-          const y = parseInt(point[0])
-          const x = parseInt(point[1])
-          const newPoint = getPoint(y, x)
-
-          newStage.push(newPoint)
-        }
-
-        newCoordinates.push(newStage)
-      }
+    if (features.length > 1) {
+      throw new Error(`MORE THAN ONE FEATURE: ${url}`)
     }
 
-    route.geometry.coordinates = newCoordinates
+    if (features.length === 1) {
+      const route = features[0]
+      const coordinates = route.geometry.coordinates
+      const newCoordinates = []
 
-    writeFile(filePath, route)
+      if (isPoint) {
+        const y = coordinates.get(0).getAsInt()
+        const x = coordinates.get(1).getAsInt()
+        newCoordinates.push(getPoint(y, x))
+      } else {
+        for (let i = 0; i < coordinates.length; i++) {
+          const stage = coordinates[i]
+          const newStage = []
+
+          for (let j = 0; j < stage.length; j++) {
+            const point = stage[j]
+            const y = parseInt(point[0])
+            const x = parseInt(point[1])
+            const newPoint = getPoint(y, x)
+
+            newStage.push(newPoint)
+          }
+
+          newCoordinates.push(newStage)
+        }
+      }
+
+      route.geometry.coordinates = newCoordinates
+
+      writeFile(filePath, route)
+    }
+  } catch (e) {
+    console.log(`Error downloading file: ${url}\n${e.toString()}`)
   }
 }
 
