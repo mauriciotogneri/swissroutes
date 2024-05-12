@@ -77,7 +77,11 @@ function getPoint(y, x) {
   return [lat, lng]
 }
 
+function getIds() {
+  return []
+}
+
 module.exports = {
   downloadFile,
-
+  getIds,
 }
