@@ -432,30 +432,26 @@ function showMountainHike(json) {
   let content = ''
   content += `<b style="font-weight:bold">${json.properties.title} - ${json.properties.poi_title}</b><br/><br/>`
 
-  if (json.properties.subtitle) {
-    content += `<p>${json.properties.subtitle}</p>`
-  }
-
   if (json.properties.abstract) {
     content += `<p>${json.properties.abstract}</p>`
   }
 
+  if (json.properties.mountain_hiking_difficulty) {
+    content += `<b>Difficulty:</b> ${json.properties.mountain_hiking_difficulty}<br/>`
+  }
+
   if (json.properties.ascent_altitude) {
-    content += `<p>Ascent: ${json.properties.ascent_altitude.toLocaleString()} m</p>`
+    content += `<b>↗</b> ${json.properties.ascent_altitude.toLocaleString()} m<br/>`
   }
 
   if (json.properties.descent_altitude) {
-    content += `<p>Descent: ${json.properties.descent_altitude.toLocaleString()} m</p>`
-  }
-
-  if (json.properties.mountain_hiking_difficulty) {
-    content += `<p>Difficulty: ${json.properties.mountain_hiking_difficulty}</p>`
+    content += `<b>↘</b> ${json.properties.descent_altitude.toLocaleString()} m<br/>`
   }
 
   const galleryList = getGallery(json)
 
   if (galleryList.length > 0) {
-    content += `<center><a class='prev' onclick='plusSlides(-1, ${json.properties.r_number})'>&#10094;</a>`
+    content += `<br/><center><a class='prev' onclick='plusSlides(-1, ${json.properties.r_number})'>&#10094;</a>`
     content += `<img id='gallery-${json.properties.r_number}' height='300' src='${galleryList[0]}'/>`
     content += `<a class='next' onclick='plusSlides(1, ${json.properties.r_number})'>&#10095;</a><br/><br/>`
     content += `<span><b id='index-${json.properties.r_number}'>1/${galleryList.length}</b></span><br/></center>`
