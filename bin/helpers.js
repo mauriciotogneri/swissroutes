@@ -103,8 +103,22 @@ async function downloadRoute(id, group, type, folder) {
   await helpers.downloadFile(`${group}${type}`, id, filePath, false)
 }
 
+async function downloadPoint(group, folder, type, allIds) {
+  const ids = await helpers.getIds(type)
+
+  for (const id of ids) {
+    if (!allIds.includes(id)) {
+      allIds.push(id)
+      console.log(`${folder.toUpperCase()}: ${id}`)
+      const filePath = `output/${group}/${folder}/${id}.json`
+      await helpers.downloadFile(type, id, filePath, true)
+    }
+  }
+}
+
 module.exports = {
   downloadFile,
   getIds,
   downloadRoute,
+  downloadPoint,
 }
