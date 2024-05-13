@@ -115,7 +115,7 @@ async function downloadPoint(group, folder, type) {
     await downloadFile(type, id, filePath, true)
   }
 
-  fs.writeFileSync(`output/index/${group}/${folder}.json`, JSON.stringify(ids, null, 4), 'utf-8');
+  writeFile(`output/index/${group}/${folder}.json`, ids);
 }
 
 module.exports = {
