@@ -1,1 +1,72 @@
-{"type":"Feature","id":172,"geometry":{"type":"Point","coordinates":[46.578142621784075,8.614931189903741]},"properties":{"id":172,"land":null,"category":"all","language":"en","type":"Mountaineering","ascent_altitude":1000,"ascent_time_max":225,"sac_chm_route":true,"sac_created":"2020-05-04 13:35:08","descent_altitude":1000,"descent_time_max":120,"descent_time_min":null,"sac_orig_id":909,"sac_modified":"2020-05-04 13:35:36","sac_status":"published","poi_title":"Pizzo Centrale","abstract":"Once upon a time Gotthard was considered the highest peak of the Alps. What would then be the highest peak above Gotthard, Pizzo Centrale? The question could make you ponder, but let’s drop the subject. From the many routes leading to Pizzo Centrale we have selected a rather unusual one, which also rewards mixed groups: those who take it easy leave Val Prevat to the ambitious, and at the summit the two groups meet to enjoy the view and undertake the descent together.","subtitle":"To the high point of Gotthard – but in an unusual way","title":"Traverse from east to south-west","sac_type":"mountain_hiking","mountain_hiking_difficulty":"T5","alpine_tour_difficulty":null,"alpine_climbing_difficulty":null,"grade":null,"height_climbing_wall":null,"via_ferrata_difficulty":null,"ski_tour_difficulty":null,"mountaineering_sacphoto_ids":[522,523],"sac_poi_id":330,"x_coordinate":690165.6774296972,"y_coordinate":159217.17362411538,"change_date":"2023-03-30 12:14:03","sac_photos":[{"change_date":"2023-03-30 12:08:27","id":522,"photo_big":"https://static.suissealpine.sac-cas.ch/1522064556_1355825414Ma.jpg","photo_master":"https://static.suissealpine.sac-cas.ch/1522064556_1355825414master.jpg","photo_sac_id":252465,"photo_sac_original":"https://static.suissealpine.sac-cas.ch/1522064556_1355825414.jpg","photo_small":"https://static.suissealpine.sac-cas.ch/1522064556_1355825414M.jpg","photo_standard":"https://static.suissealpine.sac-cas.ch/1522064556_1355825414Mc.jpg","title":"On the descent from Pizzo Centrale towards Lago della Sella."},{"change_date":"2023-03-30 12:08:27","id":523,"photo_big":"https://static.suissealpine.sac-cas.ch/1522064062_1424867712Ma.jpg","photo_master":"https://static.suissealpine.sac-cas.ch/1522064062_1424867712master.jpg","photo_sac_id":252460,"photo_sac_original":"https://static.suissealpine.sac-cas.ch/1522064062_1424867712.jpg","photo_small":"https://static.suissealpine.sac-cas.ch/1522064062_1424867712M.jpg","photo_standard":"https://static.suissealpine.sac-cas.ch/1522064062_1424867712Mc.jpg","title":"Pizzo Centrale (in the background to the left) towers above the Gotthard area and the upper Leventina. View from Monte Prosa."}]}}
+{
+    "type": "Feature",
+    "id": 172,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.57814261456684,
+            8.614931233015845
+        ]
+    },
+    "properties": {
+        "id": 172,
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "type": "Mountaineering",
+        "ascent_altitude": 1000,
+        "ascent_time_max": 225,
+        "sac_chm_route": true,
+        "sac_created": "2020-05-04 13:35:08",
+        "descent_altitude": 1000,
+        "descent_time_max": 120,
+        "descent_time_min": null,
+        "sac_orig_id": 909,
+        "sac_modified": "2020-05-04 13:35:36",
+        "sac_status": "published",
+        "poi_title": "Pizzo Centrale",
+        "abstract": "Once upon a time Gotthard was considered the highest peak of the Alps. What would then be the highest peak above Gotthard, Pizzo Centrale? The question could make you ponder, but let’s drop the subject. From the many routes leading to Pizzo Centrale we have selected a rather unusual one, which also rewards mixed groups: those who take it easy leave Val Prevat to the ambitious, and at the summit the two groups meet to enjoy the view and undertake the descent together.",
+        "subtitle": "To the high point of Gotthard – but in an unusual way",
+        "title": "Traverse from east to south-west",
+        "sac_type": "mountain_hiking",
+        "mountain_hiking_difficulty": "T5",
+        "alpine_tour_difficulty": null,
+        "alpine_climbing_difficulty": null,
+        "grade": null,
+        "height_climbing_wall": null,
+        "via_ferrata_difficulty": null,
+        "ski_tour_difficulty": null,
+        "mountaineering_sacphoto_ids": [
+            522,
+            523
+        ],
+        "sac_poi_id": 330,
+        "x_coordinate": 690165.6774296972,
+        "y_coordinate": 159217.17362411538,
+        "change_date": "2023-03-30 12:14:03",
+        "sac_photos": [
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 522,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1522064556_1355825414Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1522064556_1355825414master.jpg",
+                "photo_sac_id": 252465,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1522064556_1355825414.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1522064556_1355825414M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1522064556_1355825414Mc.jpg",
+                "title": "On the descent from Pizzo Centrale towards Lago della Sella."
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 523,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1522064062_1424867712Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1522064062_1424867712master.jpg",
+                "photo_sac_id": 252460,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1522064062_1424867712.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1522064062_1424867712M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1522064062_1424867712Mc.jpg",
+                "title": "Pizzo Centrale (in the background to the left) towers above the Gotthard area and the upper Leventina. View from Monte Prosa."
+            }
+        ]
+    }
+}

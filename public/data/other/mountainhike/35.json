@@ -1,1 +1,144 @@
-{"type":"Feature","id":35,"geometry":{"type":"Point","coordinates":[46.70194933794555,8.414077663200592]},"properties":{"id":35,"land":null,"category":"all","language":"en","type":"Mountaineering","ascent_altitude":940,"ascent_time_max":180,"sac_chm_route":true,"sac_created":"2019-03-28 20:57:42","descent_altitude":null,"descent_time_max":null,"descent_time_min":null,"sac_orig_id":276,"sac_modified":"2020-07-27 15:05:39","sac_status":"published","poi_title":"Tierberglihütte SAC","abstract":"A \"normal\" hut path leads to the Tierbergli hut, which can be shortened by one third by driving to the car park Umpol (about 2100 m). From this parking lot you can also reach the entrance to the first part of a via ferrata. The first section of via ferrata ends near P. 2427, where the hut path intersects it. Here you can either ascend to complete the second part of the via ferrata or ascend via the \"normal\" hut path to the Tierbergli hut. Warning! Take proper shock absorbing slings if you intend to use the 'via ferrata' - normal slings are not rated for this purpose.","subtitle":"Many ways lead to the Tierberglihütte","title":"From Hotel Steingletscher","sac_type":"mountain_hiking","mountain_hiking_difficulty":"T4","alpine_tour_difficulty":null,"alpine_climbing_difficulty":null,"grade":null,"height_climbing_wall":null,"via_ferrata_difficulty":null,"ski_tour_difficulty":null,"mountaineering_sacphoto_ids":[125,126,127,128,129,130,131,132],"sac_poi_id":2147000269,"x_coordinate":674599.9620424282,"y_coordinate":172768.52994869964,"change_date":"2023-03-30 12:13:52","sac_photos":[{"change_date":"2023-03-30 12:08:27","id":125,"photo_big":"https://static.suissealpine.sac-cas.ch/1520415959_1209028036Ma.jpg","photo_master":"https://static.suissealpine.sac-cas.ch/1520415959_1209028036master.jpg","photo_sac_id":250955,"photo_sac_original":"https://static.suissealpine.sac-cas.ch/1520415959_1209028036.jpg","photo_small":"https://static.suissealpine.sac-cas.ch/1520415959_1209028036M.jpg","photo_standard":"https://static.suissealpine.sac-cas.ch/1520415959_1209028036Mc.jpg","title":"View from the car park Umpol direction Tierbergli. The hut path runs in the lower left half of the picture, the via ferrata more to the right."},{"change_date":"2023-03-30 12:08:27","id":126,"photo_big":"https://static.suissealpine.sac-cas.ch/1530879491_467897271Ma.jpg","photo_master":"https://static.suissealpine.sac-cas.ch/1530879491_467897271master.jpg","photo_sac_id":256397,"photo_sac_original":"https://static.suissealpine.sac-cas.ch/1530879491_467897271.jpg","photo_small":"https://static.suissealpine.sac-cas.ch/1530879491_467897271M.jpg","photo_standard":"https://static.suissealpine.sac-cas.ch/1530879491_467897271Mc.jpg","title":"[no data]"},{"change_date":"2023-03-30 12:08:27","id":127,"photo_big":"https://static.suissealpine.sac-cas.ch/1530879491_1620530151Ma.jpg","photo_master":"https://static.suissealpine.sac-cas.ch/1530879491_1620530151master.jpg","photo_sac_id":256398,"photo_sac_original":"https://static.suissealpine.sac-cas.ch/1530879491_1620530151.jpg","photo_small":"https://static.suissealpine.sac-cas.ch/1530879491_1620530151M.jpg","photo_standard":"https://static.suissealpine.sac-cas.ch/1530879491_1620530151Mc.jpg","title":"[no data]"},{"change_date":"2023-03-30 12:08:27","id":128,"photo_big":"https://static.suissealpine.sac-cas.ch/1530879491_313025298Ma.jpg","photo_master":"https://static.suissealpine.sac-cas.ch/1530879491_313025298master.jpg","photo_sac_id":256399,"photo_sac_original":"https://static.suissealpine.sac-cas.ch/1530879491_313025298.jpg","photo_small":"https://static.suissealpine.sac-cas.ch/1530879491_313025298M.jpg","photo_standard":"https://static.suissealpine.sac-cas.ch/1530879491_313025298Mc.jpg","title":"[no data]"},{"change_date":"2023-03-30 12:08:27","id":129,"photo_big":"https://static.suissealpine.sac-cas.ch/1530879491_729064224Ma.jpg","photo_master":"https://static.suissealpine.sac-cas.ch/1530879491_729064224master.jpg","photo_sac_id":256400,"photo_sac_original":"https://static.suissealpine.sac-cas.ch/1530879491_729064224.jpg","photo_small":"https://static.suissealpine.sac-cas.ch/1530879491_729064224M.jpg","photo_standard":"https://static.suissealpine.sac-cas.ch/1530879491_729064224Mc.jpg","title":"[no data]"},{"change_date":"2023-03-30 12:08:27","id":130,"photo_big":"https://static.suissealpine.sac-cas.ch/1530879491_671260987Ma.jpg","photo_master":"https://static.suissealpine.sac-cas.ch/1530879491_671260987master.jpg","photo_sac_id":256401,"photo_sac_original":"https://static.suissealpine.sac-cas.ch/1530879491_671260987.jpg","photo_small":"https://static.suissealpine.sac-cas.ch/1530879491_671260987M.jpg","photo_standard":"https://static.suissealpine.sac-cas.ch/1530879491_671260987Mc.jpg","title":"[no data]"},{"change_date":"2023-03-30 12:08:27","id":131,"photo_big":"https://static.suissealpine.sac-cas.ch/1530879491_1112826494Ma.jpg","photo_master":"https://static.suissealpine.sac-cas.ch/1530879491_1112826494master.jpg","photo_sac_id":256402,"photo_sac_original":"https://static.suissealpine.sac-cas.ch/1530879491_1112826494.jpg","photo_small":"https://static.suissealpine.sac-cas.ch/1530879491_1112826494M.jpg","photo_standard":"https://static.suissealpine.sac-cas.ch/1530879491_1112826494Mc.jpg","title":"[no data]"},{"change_date":"2023-03-30 12:08:27","id":132,"photo_big":"https://static.suissealpine.sac-cas.ch/1520414391_524730671Ma.jpg","photo_master":"https://static.suissealpine.sac-cas.ch/1520414391_524730671master.jpg","photo_sac_id":250953,"photo_sac_original":"https://static.suissealpine.sac-cas.ch/1520414391_524730671.jpg","photo_small":"https://static.suissealpine.sac-cas.ch/1520414391_524730671M.jpg","photo_standard":"https://static.suissealpine.sac-cas.ch/1520414391_524730671Mc.jpg","title":"[no data]"}]}}
+{
+    "type": "Feature",
+    "id": 35,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.70194934313841,
+            8.414077691652757
+        ]
+    },
+    "properties": {
+        "id": 35,
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "type": "Mountaineering",
+        "ascent_altitude": 940,
+        "ascent_time_max": 180,
+        "sac_chm_route": true,
+        "sac_created": "2019-03-28 20:57:42",
+        "descent_altitude": null,
+        "descent_time_max": null,
+        "descent_time_min": null,
+        "sac_orig_id": 276,
+        "sac_modified": "2020-07-27 15:05:39",
+        "sac_status": "published",
+        "poi_title": "Tierberglihütte SAC",
+        "abstract": "A \"normal\" hut path leads to the Tierbergli hut, which can be shortened by one third by driving to the car park Umpol (about 2100 m). From this parking lot you can also reach the entrance to the first part of a via ferrata. The first section of via ferrata ends near P. 2427, where the hut path intersects it. Here you can either ascend to complete the second part of the via ferrata or ascend via the \"normal\" hut path to the Tierbergli hut. Warning! Take proper shock absorbing slings if you intend to use the 'via ferrata' - normal slings are not rated for this purpose.",
+        "subtitle": "Many ways lead to the Tierberglihütte",
+        "title": "From Hotel Steingletscher",
+        "sac_type": "mountain_hiking",
+        "mountain_hiking_difficulty": "T4",
+        "alpine_tour_difficulty": null,
+        "alpine_climbing_difficulty": null,
+        "grade": null,
+        "height_climbing_wall": null,
+        "via_ferrata_difficulty": null,
+        "ski_tour_difficulty": null,
+        "mountaineering_sacphoto_ids": [
+            125,
+            126,
+            127,
+            128,
+            129,
+            130,
+            131,
+            132
+        ],
+        "sac_poi_id": 2147000269,
+        "x_coordinate": 674599.9620424282,
+        "y_coordinate": 172768.52994869964,
+        "change_date": "2023-03-30 12:13:52",
+        "sac_photos": [
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 125,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1520415959_1209028036Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1520415959_1209028036master.jpg",
+                "photo_sac_id": 250955,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1520415959_1209028036.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1520415959_1209028036M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1520415959_1209028036Mc.jpg",
+                "title": "View from the car park Umpol direction Tierbergli. The hut path runs in the lower left half of the picture, the via ferrata more to the right."
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 126,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1530879491_467897271Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1530879491_467897271master.jpg",
+                "photo_sac_id": 256397,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1530879491_467897271.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1530879491_467897271M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1530879491_467897271Mc.jpg",
+                "title": "[no data]"
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 127,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1530879491_1620530151Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1530879491_1620530151master.jpg",
+                "photo_sac_id": 256398,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1530879491_1620530151.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1530879491_1620530151M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1530879491_1620530151Mc.jpg",
+                "title": "[no data]"
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 128,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1530879491_313025298Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1530879491_313025298master.jpg",
+                "photo_sac_id": 256399,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1530879491_313025298.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1530879491_313025298M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1530879491_313025298Mc.jpg",
+                "title": "[no data]"
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 129,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1530879491_729064224Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1530879491_729064224master.jpg",
+                "photo_sac_id": 256400,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1530879491_729064224.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1530879491_729064224M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1530879491_729064224Mc.jpg",
+                "title": "[no data]"
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 130,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1530879491_671260987Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1530879491_671260987master.jpg",
+                "photo_sac_id": 256401,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1530879491_671260987.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1530879491_671260987M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1530879491_671260987Mc.jpg",
+                "title": "[no data]"
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 131,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1530879491_1112826494Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1530879491_1112826494master.jpg",
+                "photo_sac_id": 256402,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1530879491_1112826494.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1530879491_1112826494M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1530879491_1112826494Mc.jpg",
+                "title": "[no data]"
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 132,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1520414391_524730671Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1520414391_524730671master.jpg",
+                "photo_sac_id": 250953,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1520414391_524730671.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1520414391_524730671M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1520414391_524730671Mc.jpg",
+                "title": "[no data]"
+            }
+        ]
+    }
+}

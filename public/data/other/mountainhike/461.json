@@ -1,1 +1,84 @@
-{"type":"Feature","id":461,"geometry":{"type":"Point","coordinates":[46.9564710996702,9.244704430348886]},"properties":{"id":461,"land":null,"category":"all","language":"en","type":"Mountaineering","ascent_altitude":1660,"ascent_time_max":270,"sac_chm_route":true,"sac_created":"2020-08-12 15:54:37","descent_altitude":1660,"descent_time_max":210,"descent_time_min":null,"sac_orig_id":2377,"sac_modified":"2020-08-12 15:54:44","sac_status":"published","poi_title":"Foostock / Ruchen","abstract":"Foostock is a little detour from Foopass, which links (or separates) the cantons of Glarus and St. Gall. Foopass is reached on the Sardona World Heritage Trail from Elm (route 73 by Wanderland Schweiz). The area is famous for the Glarus Thrust, which reveals the processes forming mountains. On the ascent to Foopass this is less the subject than the length and wildness of the gorge along which the hiking trail winds its way up to Alp Ramin and further on to Foopass. From there up to Foostöckli the terrain is gentle. If you want to visit its bigger brother summit behind, you need to take a test of courage on a steep path. There, nothing is in the way of the splendid view to Chrauchtal or Weisstannental and beyond.","subtitle":"No \"faux pas\" on the Foopass","title":"From Elm via Foopass","sac_type":"mountain_hiking","mountain_hiking_difficulty":"T4","alpine_tour_difficulty":null,"alpine_climbing_difficulty":null,"grade":null,"height_climbing_wall":null,"via_ferrata_difficulty":null,"ski_tour_difficulty":null,"mountaineering_sacphoto_ids":[1598,1599,1600],"sac_poi_id":657,"x_coordinate":737463.4523759657,"y_coordinate":202181.65113054376,"change_date":"2023-03-30 12:14:31","sac_photos":[{"change_date":"2023-03-30 12:08:27","id":1598,"photo_big":"https://static.suissealpine.sac-cas.ch/1535374853_1624538806Ma.jpg","photo_master":"https://static.suissealpine.sac-cas.ch/1535374853_1624538806master.jpg","photo_sac_id":257240,"photo_sac_original":"https://static.suissealpine.sac-cas.ch/1535374853_1624538806.jpg","photo_small":"https://static.suissealpine.sac-cas.ch/1535374853_1624538806M.jpg","photo_standard":"https://static.suissealpine.sac-cas.ch/1535374853_1624538806Mc.jpg","title":"Secluded and long: Weisstannental (alternative descent)"},{"change_date":"2023-03-30 12:08:27","id":1599,"photo_big":"https://static.suissealpine.sac-cas.ch/1535374853_318023775Ma.jpg","photo_master":"https://static.suissealpine.sac-cas.ch/1535374853_318023775master.jpg","photo_sac_id":257241,"photo_sac_original":"https://static.suissealpine.sac-cas.ch/1535374853_318023775.jpg","photo_small":"https://static.suissealpine.sac-cas.ch/1535374853_318023775M.jpg","photo_standard":"https://static.suissealpine.sac-cas.ch/1535374853_318023775Mc.jpg","title":"Behind Fahnenstock the Ringelspitz range is visible."},{"change_date":"2023-03-30 12:08:27","id":1600,"photo_big":"https://static.suissealpine.sac-cas.ch/1535374853_56136072Ma.jpg","photo_master":"https://static.suissealpine.sac-cas.ch/1535374853_56136072master.jpg","photo_sac_id":257242,"photo_sac_original":"https://static.suissealpine.sac-cas.ch/1535374853_56136072.jpg","photo_small":"https://static.suissealpine.sac-cas.ch/1535374853_56136072M.jpg","photo_standard":"https://static.suissealpine.sac-cas.ch/1535374853_56136072Mc.jpg","title":"Foostock has a little brother, Foostöckli."}]}}
+{
+    "type": "Feature",
+    "id": 461,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.956471099687874,
+            9.244704385709817
+        ]
+    },
+    "properties": {
+        "id": 461,
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "type": "Mountaineering",
+        "ascent_altitude": 1660,
+        "ascent_time_max": 270,
+        "sac_chm_route": true,
+        "sac_created": "2020-08-12 15:54:37",
+        "descent_altitude": 1660,
+        "descent_time_max": 210,
+        "descent_time_min": null,
+        "sac_orig_id": 2377,
+        "sac_modified": "2020-08-12 15:54:44",
+        "sac_status": "published",
+        "poi_title": "Foostock / Ruchen",
+        "abstract": "Foostock is a little detour from Foopass, which links (or separates) the cantons of Glarus and St. Gall. Foopass is reached on the Sardona World Heritage Trail from Elm (route 73 by Wanderland Schweiz). The area is famous for the Glarus Thrust, which reveals the processes forming mountains. On the ascent to Foopass this is less the subject than the length and wildness of the gorge along which the hiking trail winds its way up to Alp Ramin and further on to Foopass. From there up to Foostöckli the terrain is gentle. If you want to visit its bigger brother summit behind, you need to take a test of courage on a steep path. There, nothing is in the way of the splendid view to Chrauchtal or Weisstannental and beyond.",
+        "subtitle": "No \"faux pas\" on the Foopass",
+        "title": "From Elm via Foopass",
+        "sac_type": "mountain_hiking",
+        "mountain_hiking_difficulty": "T4",
+        "alpine_tour_difficulty": null,
+        "alpine_climbing_difficulty": null,
+        "grade": null,
+        "height_climbing_wall": null,
+        "via_ferrata_difficulty": null,
+        "ski_tour_difficulty": null,
+        "mountaineering_sacphoto_ids": [
+            1598,
+            1599,
+            1600
+        ],
+        "sac_poi_id": 657,
+        "x_coordinate": 737463.4523759657,
+        "y_coordinate": 202181.65113054376,
+        "change_date": "2023-03-30 12:14:31",
+        "sac_photos": [
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 1598,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1535374853_1624538806Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1535374853_1624538806master.jpg",
+                "photo_sac_id": 257240,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1535374853_1624538806.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1535374853_1624538806M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1535374853_1624538806Mc.jpg",
+                "title": "Secluded and long: Weisstannental (alternative descent)"
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 1599,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1535374853_318023775Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1535374853_318023775master.jpg",
+                "photo_sac_id": 257241,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1535374853_318023775.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1535374853_318023775M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1535374853_318023775Mc.jpg",
+                "title": "Behind Fahnenstock the Ringelspitz range is visible."
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 1600,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1535374853_56136072Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1535374853_56136072master.jpg",
+                "photo_sac_id": 257242,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1535374853_56136072.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1535374853_56136072M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1535374853_56136072Mc.jpg",
+                "title": "Foostock has a little brother, Foostöckli."
+            }
+        ]
+    }
+}

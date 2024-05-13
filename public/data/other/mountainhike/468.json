@@ -1,1 +1,84 @@
-{"type":"Feature","id":468,"geometry":{"type":"Point","coordinates":[46.71131010211431,9.825675805348627]},"properties":{"id":468,"land":null,"category":"all","language":"en","type":"Mountaineering","ascent_altitude":null,"ascent_time_max":240,"sac_chm_route":true,"sac_created":"2019-03-19 13:09:19","descent_altitude":null,"descent_time_max":180,"descent_time_min":null,"sac_orig_id":2385,"sac_modified":"2019-04-17 14:24:12","sac_status":"published","poi_title":"Älplihorn (Monstein)","abstract":"The journey to the very end of Sertigtal is already an event, as Sertig is a Walser valley in pristine condition. It is located in a mountainous world which is characteristic for the Grisons: a number of small valleys formed by now dwindling glaciers lead up to schistose threethousanders with views beyond the borders of Switzerland.","subtitle":"In the heart of the Grisons","title":"From Sertig Sand","sac_type":"mountain_hiking","mountain_hiking_difficulty":"T5","alpine_tour_difficulty":null,"alpine_climbing_difficulty":null,"grade":null,"height_climbing_wall":null,"via_ferrata_difficulty":null,"ski_tour_difficulty":null,"mountaineering_sacphoto_ids":[1626,1627,1628],"sac_poi_id":5063,"x_coordinate":782499.9836266165,"y_coordinate":176121.9261254633,"change_date":"2023-03-30 12:14:31","sac_photos":[{"change_date":"2023-03-30 12:08:27","id":1626,"photo_big":"https://static.suissealpine.sac-cas.ch/1536238270_1246519881Ma.jpg","photo_master":"https://static.suissealpine.sac-cas.ch/1536238270_1246519881master.jpg","photo_sac_id":257612,"photo_sac_original":"https://static.suissealpine.sac-cas.ch/1536238270_1246519881.jpg","photo_small":"https://static.suissealpine.sac-cas.ch/1536238270_1246519881M.jpg","photo_standard":"https://static.suissealpine.sac-cas.ch/1536238270_1246519881Mc.jpg","title":"The last metres to the main summit of Älplihorn"},{"change_date":"2023-03-30 12:08:27","id":1627,"photo_big":"https://static.suissealpine.sac-cas.ch/1536238271_127463100Ma.jpg","photo_master":"https://static.suissealpine.sac-cas.ch/1536238271_127463100master.jpg","photo_sac_id":257613,"photo_sac_original":"https://static.suissealpine.sac-cas.ch/1536238271_127463100.jpg","photo_small":"https://static.suissealpine.sac-cas.ch/1536238271_127463100M.jpg","photo_standard":"https://static.suissealpine.sac-cas.ch/1536238271_127463100Mc.jpg","title":"A view deep down while ascending, in the background is the Ducan range."},{"change_date":"2023-03-30 12:08:27","id":1628,"photo_big":"https://static.suissealpine.sac-cas.ch/1536238270_1825126303Ma.jpg","photo_master":"https://static.suissealpine.sac-cas.ch/1536238270_1825126303master.jpg","photo_sac_id":257614,"photo_sac_original":"https://static.suissealpine.sac-cas.ch/1536238270_1825126303.jpg","photo_small":"https://static.suissealpine.sac-cas.ch/1536238270_1825126303M.jpg","photo_standard":"https://static.suissealpine.sac-cas.ch/1536238270_1825126303Mc.jpg","title":"On Chrachenhorn, a rewarding neighbour summit of Älplihorn. In the background is Älplihorn (the ascent is on the face to the right)."}]}}
+{
+    "type": "Feature",
+    "id": 468,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.71131011210888,
+            9.825675722178266
+        ]
+    },
+    "properties": {
+        "id": 468,
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "type": "Mountaineering",
+        "ascent_altitude": null,
+        "ascent_time_max": 240,
+        "sac_chm_route": true,
+        "sac_created": "2019-03-19 13:09:19",
+        "descent_altitude": null,
+        "descent_time_max": 180,
+        "descent_time_min": null,
+        "sac_orig_id": 2385,
+        "sac_modified": "2019-04-17 14:24:12",
+        "sac_status": "published",
+        "poi_title": "Älplihorn (Monstein)",
+        "abstract": "The journey to the very end of Sertigtal is already an event, as Sertig is a Walser valley in pristine condition. It is located in a mountainous world which is characteristic for the Grisons: a number of small valleys formed by now dwindling glaciers lead up to schistose threethousanders with views beyond the borders of Switzerland.",
+        "subtitle": "In the heart of the Grisons",
+        "title": "From Sertig Sand",
+        "sac_type": "mountain_hiking",
+        "mountain_hiking_difficulty": "T5",
+        "alpine_tour_difficulty": null,
+        "alpine_climbing_difficulty": null,
+        "grade": null,
+        "height_climbing_wall": null,
+        "via_ferrata_difficulty": null,
+        "ski_tour_difficulty": null,
+        "mountaineering_sacphoto_ids": [
+            1626,
+            1627,
+            1628
+        ],
+        "sac_poi_id": 5063,
+        "x_coordinate": 782499.9836266165,
+        "y_coordinate": 176121.9261254633,
+        "change_date": "2023-03-30 12:14:31",
+        "sac_photos": [
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 1626,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1536238270_1246519881Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1536238270_1246519881master.jpg",
+                "photo_sac_id": 257612,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1536238270_1246519881.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1536238270_1246519881M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1536238270_1246519881Mc.jpg",
+                "title": "The last metres to the main summit of Älplihorn"
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 1627,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1536238271_127463100Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1536238271_127463100master.jpg",
+                "photo_sac_id": 257613,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1536238271_127463100.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1536238271_127463100M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1536238271_127463100Mc.jpg",
+                "title": "A view deep down while ascending, in the background is the Ducan range."
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 1628,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1536238270_1825126303Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1536238270_1825126303master.jpg",
+                "photo_sac_id": 257614,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1536238270_1825126303.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1536238270_1825126303M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1536238270_1825126303Mc.jpg",
+                "title": "On Chrachenhorn, a rewarding neighbour summit of Älplihorn. In the background is Älplihorn (the ascent is on the face to the right)."
+            }
+        ]
+    }
+}

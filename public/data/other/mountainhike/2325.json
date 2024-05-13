@@ -1,1 +1,108 @@
-{"type":"Feature","id":2325,"geometry":{"type":"Point","coordinates":[46.130163077097876,7.679551398881951]},"properties":{"id":2325,"land":null,"category":"all","language":"en","type":"Mountaineering","ascent_altitude":1580,"ascent_time_max":285,"sac_chm_route":true,"sac_created":"2022-05-09 14:36:43","descent_altitude":null,"descent_time_max":null,"descent_time_min":null,"sac_orig_id":591,"sac_modified":"2022-05-09 14:36:49","sac_status":"published","poi_title":"Cabane de Tracuit CAS","abstract":"Long, but charming approach. The less difficult, even longer approach via the Roc de la Vache is a nice alternative. Or if you prefer a challenge and some exposure, try the variant over the Pas du Chasseur (for details see approach for the Cabane d 'Arpitettaz).","subtitle":null,"title":"From Zinal","sac_type":"mountain_hiking","mountain_hiking_difficulty":"T4","alpine_tour_difficulty":null,"alpine_climbing_difficulty":null,"grade":null,"height_climbing_wall":null,"via_ferrata_difficulty":null,"ski_tour_difficulty":null,"mountaineering_sacphoto_ids":[3737,3738,3739,3740,3741],"sac_poi_id":2147000273,"x_coordinate":618620.1595882291,"y_coordinate":108770.34977866398,"change_date":"2023-03-30 12:15:01","sac_photos":[{"change_date":"2023-03-30 12:08:27","id":3737,"photo_big":"https://static.suissealpine.sac-cas.ch/1530193569_1344479428Ma.jpg","photo_master":"https://static.suissealpine.sac-cas.ch/1530193569_1344479428master.jpg","photo_sac_id":253925,"photo_sac_original":"https://static.suissealpine.sac-cas.ch/1530193569_1344479428.jpg","photo_small":"https://static.suissealpine.sac-cas.ch/1530193569_1344479428M.jpg","photo_standard":"https://static.suissealpine.sac-cas.ch/1530193569_1344479428Mc.jpg","title":"Roc de la Vache in shadow in the foreground."},{"change_date":"2023-03-30 12:08:27","id":3738,"photo_big":"https://static.suissealpine.sac-cas.ch/1569587161_177673898Ma.jpg","photo_master":"https://static.suissealpine.sac-cas.ch/1569587161_177673898master.jpg","photo_sac_id":253924,"photo_sac_original":"https://static.suissealpine.sac-cas.ch/1569587161_177673898.jpg","photo_small":"https://static.suissealpine.sac-cas.ch/1569587161_177673898M.jpg","photo_standard":"https://static.suissealpine.sac-cas.ch/1569587161_177673898Mc.jpg","title":"At Combautanna, Cabane de Tracuit left on the horizon."},{"change_date":"2023-03-30 12:08:27","id":3739,"photo_big":"https://static.suissealpine.sac-cas.ch/1569587161_1185026067Ma.jpg","photo_master":"https://static.suissealpine.sac-cas.ch/1569587161_1185026067master.jpg","photo_sac_id":256195,"photo_sac_original":"https://static.suissealpine.sac-cas.ch/1569587161_1185026067.jpg","photo_small":"https://static.suissealpine.sac-cas.ch/1569587161_1185026067M.jpg","photo_standard":"https://static.suissealpine.sac-cas.ch/1569587161_1185026067Mc.jpg","title":"Just below the Cabane de Tracuit"},{"change_date":"2023-03-30 12:08:27","id":3740,"photo_big":"https://static.suissealpine.sac-cas.ch/1625036306_519120098Ma.jpg","photo_master":"https://static.suissealpine.sac-cas.ch/1625036306_519120098master.jpg","photo_sac_id":246046,"photo_sac_original":"https://static.suissealpine.sac-cas.ch/1625036306_519120098.jpg","photo_small":"https://static.suissealpine.sac-cas.ch/1625036306_519120098M.jpg","photo_standard":"https://static.suissealpine.sac-cas.ch/1625036306_519120098Mc.jpg","title":"Col de Tracuit with the die Diablons des Dames behind."},{"change_date":"2023-03-30 12:08:27","id":3741,"photo_big":"https://static.suissealpine.sac-cas.ch/1530191451_1115146398Ma.jpg","photo_master":"https://static.suissealpine.sac-cas.ch/1530191451_1115146398master.jpg","photo_sac_id":256189,"photo_sac_original":"https://static.suissealpine.sac-cas.ch/1530191451_1115146398.jpg","photo_small":"https://static.suissealpine.sac-cas.ch/1530191451_1115146398M.jpg","photo_standard":"https://static.suissealpine.sac-cas.ch/1530191451_1115146398Mc.jpg","title":"The ultra-modern Cabane de Tracuit - SAC section Chaussy."}]}}
+{
+    "type": "Feature",
+    "id": 2325,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.13016305526681,
+            7.679551407978232
+        ]
+    },
+    "properties": {
+        "id": 2325,
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "type": "Mountaineering",
+        "ascent_altitude": 1580,
+        "ascent_time_max": 285,
+        "sac_chm_route": true,
+        "sac_created": "2022-05-09 14:36:43",
+        "descent_altitude": null,
+        "descent_time_max": null,
+        "descent_time_min": null,
+        "sac_orig_id": 591,
+        "sac_modified": "2022-05-09 14:36:49",
+        "sac_status": "published",
+        "poi_title": "Cabane de Tracuit CAS",
+        "abstract": "Long, but charming approach. The less difficult, even longer approach via the Roc de la Vache is a nice alternative. Or if you prefer a challenge and some exposure, try the variant over the Pas du Chasseur (for details see approach for the Cabane d 'Arpitettaz).",
+        "subtitle": null,
+        "title": "From Zinal",
+        "sac_type": "mountain_hiking",
+        "mountain_hiking_difficulty": "T4",
+        "alpine_tour_difficulty": null,
+        "alpine_climbing_difficulty": null,
+        "grade": null,
+        "height_climbing_wall": null,
+        "via_ferrata_difficulty": null,
+        "ski_tour_difficulty": null,
+        "mountaineering_sacphoto_ids": [
+            3737,
+            3738,
+            3739,
+            3740,
+            3741
+        ],
+        "sac_poi_id": 2147000273,
+        "x_coordinate": 618620.1595882291,
+        "y_coordinate": 108770.34977866398,
+        "change_date": "2023-03-30 12:15:01",
+        "sac_photos": [
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 3737,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1530193569_1344479428Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1530193569_1344479428master.jpg",
+                "photo_sac_id": 253925,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1530193569_1344479428.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1530193569_1344479428M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1530193569_1344479428Mc.jpg",
+                "title": "Roc de la Vache in shadow in the foreground."
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 3738,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1569587161_177673898Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1569587161_177673898master.jpg",
+                "photo_sac_id": 253924,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1569587161_177673898.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1569587161_177673898M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1569587161_177673898Mc.jpg",
+                "title": "At Combautanna, Cabane de Tracuit left on the horizon."
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 3739,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1569587161_1185026067Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1569587161_1185026067master.jpg",
+                "photo_sac_id": 256195,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1569587161_1185026067.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1569587161_1185026067M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1569587161_1185026067Mc.jpg",
+                "title": "Just below the Cabane de Tracuit"
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 3740,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1625036306_519120098Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1625036306_519120098master.jpg",
+                "photo_sac_id": 246046,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1625036306_519120098.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1625036306_519120098M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1625036306_519120098Mc.jpg",
+                "title": "Col de Tracuit with the die Diablons des Dames behind."
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 3741,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1530191451_1115146398Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1530191451_1115146398master.jpg",
+                "photo_sac_id": 256189,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1530191451_1115146398.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1530191451_1115146398M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1530191451_1115146398Mc.jpg",
+                "title": "The ultra-modern Cabane de Tracuit - SAC section Chaussy."
+            }
+        ]
+    }
+}

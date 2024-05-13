@@ -1,1 +1,72 @@
-{"type":"Feature","id":180,"geometry":{"type":"Point","coordinates":[46.43304915446746,8.777001815866846]},"properties":{"id":180,"land":null,"category":"all","language":"en","type":"Mountaineering","ascent_altitude":920,"ascent_time_max":210,"sac_chm_route":true,"sac_created":"2020-05-04 13:51:30","descent_altitude":1060,"descent_time_max":90,"descent_time_min":null,"sac_orig_id":918,"sac_modified":"2020-05-04 13:51:45","sac_status":"published","poi_title":"Pizzo Forno","abstract":"In terms of view the mountains of the Leventina leave nothing to be desired. Some of them are even outstanding vantage points. If we had to name a winner, it would be Pizzo Forno. With its free-standing position – it is not part of the main chain, but juts out into the valley – it offers a multitude of perspectives. Monitor the weather forecast and choose a dry clear day, preferably in the fall, to undertake the tour.","subtitle":"A 360° panorama","title":"Traverse from Capanna Campo Tencia to Rifugio Alpe Sponda","sac_type":"mountain_hiking","mountain_hiking_difficulty":"T4","alpine_tour_difficulty":null,"alpine_climbing_difficulty":null,"grade":null,"height_climbing_wall":null,"via_ferrata_difficulty":null,"ski_tour_difficulty":null,"mountaineering_sacphoto_ids":[545,546],"sac_poi_id":667,"x_coordinate":702862.6250634171,"y_coordinate":143289.61637280742,"change_date":"2023-03-30 12:14:04","sac_photos":[{"change_date":"2023-03-30 12:08:27","id":545,"photo_big":"https://static.suissealpine.sac-cas.ch/1513857445_1718100744Ma.jpg","photo_master":"https://static.suissealpine.sac-cas.ch/1513857445_1718100744master.jpg","photo_sac_id":248300,"photo_sac_original":"https://static.suissealpine.sac-cas.ch/1513857445_1718100744.jpg","photo_small":"https://static.suissealpine.sac-cas.ch/1513857445_1718100744M.jpg","photo_standard":"https://static.suissealpine.sac-cas.ch/1513857445_1718100744Mc.jpg","title":"Inventive trail markings in Lavina di Croslina."},{"change_date":"2023-03-30 12:08:27","id":546,"photo_big":"https://static.suissealpine.sac-cas.ch/1513856983_2112537405Ma.jpg","photo_master":"https://static.suissealpine.sac-cas.ch/1513856983_2112537405master.jpg","photo_sac_id":248298,"photo_sac_original":"https://static.suissealpine.sac-cas.ch/1513856983_2112537405.jpg","photo_small":"https://static.suissealpine.sac-cas.ch/1513856983_2112537405M.jpg","photo_standard":"https://static.suissealpine.sac-cas.ch/1513856983_2112537405Mc.jpg","title":"Pizzo Forno from the south-west."}]}}
+{
+    "type": "Feature",
+    "id": 180,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.433049149673174,
+            8.777001809692635
+        ]
+    },
+    "properties": {
+        "id": 180,
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "type": "Mountaineering",
+        "ascent_altitude": 920,
+        "ascent_time_max": 210,
+        "sac_chm_route": true,
+        "sac_created": "2020-05-04 13:51:30",
+        "descent_altitude": 1060,
+        "descent_time_max": 90,
+        "descent_time_min": null,
+        "sac_orig_id": 918,
+        "sac_modified": "2020-05-04 13:51:45",
+        "sac_status": "published",
+        "poi_title": "Pizzo Forno",
+        "abstract": "In terms of view the mountains of the Leventina leave nothing to be desired. Some of them are even outstanding vantage points. If we had to name a winner, it would be Pizzo Forno. With its free-standing position – it is not part of the main chain, but juts out into the valley – it offers a multitude of perspectives. Monitor the weather forecast and choose a dry clear day, preferably in the fall, to undertake the tour.",
+        "subtitle": "A 360° panorama",
+        "title": "Traverse from Capanna Campo Tencia to Rifugio Alpe Sponda",
+        "sac_type": "mountain_hiking",
+        "mountain_hiking_difficulty": "T4",
+        "alpine_tour_difficulty": null,
+        "alpine_climbing_difficulty": null,
+        "grade": null,
+        "height_climbing_wall": null,
+        "via_ferrata_difficulty": null,
+        "ski_tour_difficulty": null,
+        "mountaineering_sacphoto_ids": [
+            545,
+            546
+        ],
+        "sac_poi_id": 667,
+        "x_coordinate": 702862.6250634171,
+        "y_coordinate": 143289.61637280742,
+        "change_date": "2023-03-30 12:14:04",
+        "sac_photos": [
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 545,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1513857445_1718100744Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1513857445_1718100744master.jpg",
+                "photo_sac_id": 248300,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1513857445_1718100744.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1513857445_1718100744M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1513857445_1718100744Mc.jpg",
+                "title": "Inventive trail markings in Lavina di Croslina."
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 546,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1513856983_2112537405Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1513856983_2112537405master.jpg",
+                "photo_sac_id": 248298,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1513856983_2112537405.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1513856983_2112537405M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1513856983_2112537405Mc.jpg",
+                "title": "Pizzo Forno from the south-west."
+            }
+        ]
+    }
+}

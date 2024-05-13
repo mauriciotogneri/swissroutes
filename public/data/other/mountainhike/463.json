@@ -1,1 +1,96 @@
-{"type":"Feature","id":463,"geometry":{"type":"Point","coordinates":[47.05381737793119,9.707406705092563]},"properties":{"id":463,"land":null,"category":"all","language":"en","type":"Mountaineering","ascent_altitude":1100,"ascent_time_max":210,"sac_chm_route":true,"sac_created":"2019-03-19 10:37:42","descent_altitude":1100,"descent_time_max":210,"descent_time_min":180,"sac_orig_id":2380,"sac_modified":"2019-04-17 14:53:26","sac_status":"published","poi_title":"Schesaplana","abstract":"The Schweizerweg (Swiss trail) leads directly up to Schesaplana from Schesaplanahütte. It goes through a rocky escarpment that, viewed from afar, seems to be insurmountable. Actually, it is surprisingly easy to hike up and down this passage. In the upper part of the ascent you go along a number of ledges which are of geological interest. The whole tour is ideal for alpine hiking rookies.","subtitle":"Teh Schweizerweg","title":"From Schesaplanahütte","sac_type":"mountain_hiking","mountain_hiking_difficulty":"T4","alpine_tour_difficulty":null,"alpine_climbing_difficulty":null,"grade":null,"height_climbing_wall":null,"via_ferrata_difficulty":null,"ski_tour_difficulty":null,"mountaineering_sacphoto_ids":[1604,1605,1606,1607],"sac_poi_id":1690,"x_coordinate":772358.5309450179,"y_coordinate":213913.22169849888,"change_date":"2023-03-30 12:14:31","sac_photos":[{"change_date":"2023-03-30 12:08:27","id":1604,"photo_big":"https://static.suissealpine.sac-cas.ch/1536310550_329540236Ma.jpg","photo_master":"https://static.suissealpine.sac-cas.ch/1536310550_329540236master.jpg","photo_sac_id":257634,"photo_sac_original":"https://static.suissealpine.sac-cas.ch/1536310550_329540236.jpg","photo_small":"https://static.suissealpine.sac-cas.ch/1536310550_329540236M.jpg","photo_standard":"https://static.suissealpine.sac-cas.ch/1536310550_329540236Mc.jpg","title":"On the Schweizerweg"},{"change_date":"2023-03-30 12:08:27","id":1605,"photo_big":"https://static.suissealpine.sac-cas.ch/1536310550_717035164Ma.jpg","photo_master":"https://static.suissealpine.sac-cas.ch/1536310550_717035164master.jpg","photo_sac_id":257635,"photo_sac_original":"https://static.suissealpine.sac-cas.ch/1536310550_717035164.jpg","photo_small":"https://static.suissealpine.sac-cas.ch/1536310550_717035164M.jpg","photo_standard":"https://static.suissealpine.sac-cas.ch/1536310550_717035164Mc.jpg","title":"Lünersee viewed from Gamsluggen"},{"change_date":"2023-03-30 12:08:27","id":1606,"photo_big":"https://static.suissealpine.sac-cas.ch/1536310551_16746893Ma.jpg","photo_master":"https://static.suissealpine.sac-cas.ch/1536310551_16746893master.jpg","photo_sac_id":257636,"photo_sac_original":"https://static.suissealpine.sac-cas.ch/1536310551_16746893.jpg","photo_small":"https://static.suissealpine.sac-cas.ch/1536310551_16746893M.jpg","photo_standard":"https://static.suissealpine.sac-cas.ch/1536310551_16746893Mc.jpg","title":"On the ledges leading up the last stretch to Schesaplana"},{"change_date":"2023-03-30 12:08:27","id":1607,"photo_big":"https://static.suissealpine.sac-cas.ch/1536311089_626641177Ma.jpg","photo_master":"https://static.suissealpine.sac-cas.ch/1536311089_626641177master.jpg","photo_sac_id":257633,"photo_sac_original":"https://static.suissealpine.sac-cas.ch/1536311089_626641177.jpg","photo_small":"https://static.suissealpine.sac-cas.ch/1536311089_626641177M.jpg","photo_standard":"https://static.suissealpine.sac-cas.ch/1536311089_626641177Mc.jpg","title":"The ascent is on the south cliffs of the Schesaplana range, slightly left of the centre of the photo."}]}}
+{
+    "type": "Feature",
+    "id": 463,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            47.053817379531246,
+            9.70740662301261
+        ]
+    },
+    "properties": {
+        "id": 463,
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "type": "Mountaineering",
+        "ascent_altitude": 1100,
+        "ascent_time_max": 210,
+        "sac_chm_route": true,
+        "sac_created": "2019-03-19 10:37:42",
+        "descent_altitude": 1100,
+        "descent_time_max": 210,
+        "descent_time_min": 180,
+        "sac_orig_id": 2380,
+        "sac_modified": "2019-04-17 14:53:26",
+        "sac_status": "published",
+        "poi_title": "Schesaplana",
+        "abstract": "The Schweizerweg (Swiss trail) leads directly up to Schesaplana from Schesaplanahütte. It goes through a rocky escarpment that, viewed from afar, seems to be insurmountable. Actually, it is surprisingly easy to hike up and down this passage. In the upper part of the ascent you go along a number of ledges which are of geological interest. The whole tour is ideal for alpine hiking rookies.",
+        "subtitle": "Teh Schweizerweg",
+        "title": "From Schesaplanahütte",
+        "sac_type": "mountain_hiking",
+        "mountain_hiking_difficulty": "T4",
+        "alpine_tour_difficulty": null,
+        "alpine_climbing_difficulty": null,
+        "grade": null,
+        "height_climbing_wall": null,
+        "via_ferrata_difficulty": null,
+        "ski_tour_difficulty": null,
+        "mountaineering_sacphoto_ids": [
+            1604,
+            1605,
+            1606,
+            1607
+        ],
+        "sac_poi_id": 1690,
+        "x_coordinate": 772358.5309450179,
+        "y_coordinate": 213913.22169849888,
+        "change_date": "2023-03-30 12:14:31",
+        "sac_photos": [
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 1604,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1536310550_329540236Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1536310550_329540236master.jpg",
+                "photo_sac_id": 257634,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1536310550_329540236.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1536310550_329540236M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1536310550_329540236Mc.jpg",
+                "title": "On the Schweizerweg"
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 1605,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1536310550_717035164Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1536310550_717035164master.jpg",
+                "photo_sac_id": 257635,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1536310550_717035164.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1536310550_717035164M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1536310550_717035164Mc.jpg",
+                "title": "Lünersee viewed from Gamsluggen"
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 1606,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1536310551_16746893Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1536310551_16746893master.jpg",
+                "photo_sac_id": 257636,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1536310551_16746893.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1536310551_16746893M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1536310551_16746893Mc.jpg",
+                "title": "On the ledges leading up the last stretch to Schesaplana"
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 1607,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1536311089_626641177Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1536311089_626641177master.jpg",
+                "photo_sac_id": 257633,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1536311089_626641177.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1536311089_626641177M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1536311089_626641177Mc.jpg",
+                "title": "The ascent is on the south cliffs of the Schesaplana range, slightly left of the centre of the photo."
+            }
+        ]
+    }
+}

@@ -1,1 +1,84 @@
-{"type":"Feature","id":450,"geometry":{"type":"Point","coordinates":[47.239961123461065,9.316049405510505]},"properties":{"id":450,"land":null,"category":"all","language":"en","type":"Mountaineering","ascent_altitude":970,"ascent_time_max":180,"sac_chm_route":true,"sac_created":"2020-08-12 15:13:51","descent_altitude":1400,"descent_time_max":240,"descent_time_min":180,"sac_orig_id":2361,"sac_modified":"2020-08-12 15:13:56","sac_status":"published","poi_title":"Silberplatten","abstract":"It is obvious why Silberplatten has its name: the slab made of compact limestone glitters silvery in the sun. Of course, there is no silver to be found, but instead an itinerary winding its way up to the summit. Climbing is not required.","subtitle":"Better silver than gold?","title":"From Schwägalp, descent to Unterwasser","sac_type":"mountain_hiking","mountain_hiking_difficulty":"T4","alpine_tour_difficulty":null,"alpine_climbing_difficulty":null,"grade":null,"height_climbing_wall":null,"via_ferrata_difficulty":null,"ski_tour_difficulty":null,"mountaineering_sacphoto_ids":[1556,1557,1558],"sac_poi_id":1805,"x_coordinate":742138.8141544468,"y_coordinate":233816.87608551513,"change_date":"2023-03-30 12:14:30","sac_photos":[{"change_date":"2023-03-30 12:08:27","id":1556,"photo_big":"https://static.suissealpine.sac-cas.ch/1555336900_1873063632Ma.jpg","photo_master":"https://static.suissealpine.sac-cas.ch/1555336900_1873063632master.jpg","photo_sac_id":256631,"photo_sac_original":"https://static.suissealpine.sac-cas.ch/1555336900_1873063632.jpg","photo_small":"https://static.suissealpine.sac-cas.ch/1555336900_1873063632M.jpg","photo_standard":"https://static.suissealpine.sac-cas.ch/1555336900_1873063632Mc.jpg","title":"The itinerary on Silberplatte just before the summit"},{"change_date":"2023-03-30 12:08:27","id":1557,"photo_big":"https://static.suissealpine.sac-cas.ch/1555336900_1618837867Ma.jpg","photo_master":"https://static.suissealpine.sac-cas.ch/1555336900_1618837867master.jpg","photo_sac_id":256626,"photo_sac_original":"https://static.suissealpine.sac-cas.ch/1555336900_1618837867.jpg","photo_small":"https://static.suissealpine.sac-cas.ch/1555336900_1618837867M.jpg","photo_standard":"https://static.suissealpine.sac-cas.ch/1555336900_1618837867Mc.jpg","title":"View to the first part of the tour: on the right the grassy Grenzchopf, then Silberplatten, Silberplattenköpfe, Stosssattel (which you cross) and Stoss"},{"change_date":"2023-03-30 12:08:27","id":1558,"photo_big":"https://static.suissealpine.sac-cas.ch/1555336900_2046414585Ma.jpg","photo_master":"https://static.suissealpine.sac-cas.ch/1555336900_2046414585master.jpg","photo_sac_id":256622,"photo_sac_original":"https://static.suissealpine.sac-cas.ch/1555336900_2046414585.jpg","photo_small":"https://static.suissealpine.sac-cas.ch/1555336900_2046414585M.jpg","photo_standard":"https://static.suissealpine.sac-cas.ch/1555336900_2046414585Mc.jpg","title":"Traversing from Tierwies to Silberplatten"}]}}
+{
+    "type": "Feature",
+    "id": 450,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            47.23996113711943,
+            9.316049349143633
+        ]
+    },
+    "properties": {
+        "id": 450,
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "type": "Mountaineering",
+        "ascent_altitude": 970,
+        "ascent_time_max": 180,
+        "sac_chm_route": true,
+        "sac_created": "2020-08-12 15:13:51",
+        "descent_altitude": 1400,
+        "descent_time_max": 240,
+        "descent_time_min": 180,
+        "sac_orig_id": 2361,
+        "sac_modified": "2020-08-12 15:13:56",
+        "sac_status": "published",
+        "poi_title": "Silberplatten",
+        "abstract": "It is obvious why Silberplatten has its name: the slab made of compact limestone glitters silvery in the sun. Of course, there is no silver to be found, but instead an itinerary winding its way up to the summit. Climbing is not required.",
+        "subtitle": "Better silver than gold?",
+        "title": "From Schwägalp, descent to Unterwasser",
+        "sac_type": "mountain_hiking",
+        "mountain_hiking_difficulty": "T4",
+        "alpine_tour_difficulty": null,
+        "alpine_climbing_difficulty": null,
+        "grade": null,
+        "height_climbing_wall": null,
+        "via_ferrata_difficulty": null,
+        "ski_tour_difficulty": null,
+        "mountaineering_sacphoto_ids": [
+            1556,
+            1557,
+            1558
+        ],
+        "sac_poi_id": 1805,
+        "x_coordinate": 742138.8141544468,
+        "y_coordinate": 233816.87608551513,
+        "change_date": "2023-03-30 12:14:30",
+        "sac_photos": [
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 1556,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1555336900_1873063632Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1555336900_1873063632master.jpg",
+                "photo_sac_id": 256631,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1555336900_1873063632.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1555336900_1873063632M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1555336900_1873063632Mc.jpg",
+                "title": "The itinerary on Silberplatte just before the summit"
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 1557,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1555336900_1618837867Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1555336900_1618837867master.jpg",
+                "photo_sac_id": 256626,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1555336900_1618837867.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1555336900_1618837867M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1555336900_1618837867Mc.jpg",
+                "title": "View to the first part of the tour: on the right the grassy Grenzchopf, then Silberplatten, Silberplattenköpfe, Stosssattel (which you cross) and Stoss"
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 1558,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1555336900_2046414585Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1555336900_2046414585master.jpg",
+                "photo_sac_id": 256622,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1555336900_2046414585.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1555336900_2046414585M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1555336900_2046414585Mc.jpg",
+                "title": "Traversing from Tierwies to Silberplatten"
+            }
+        ]
+    }
+}

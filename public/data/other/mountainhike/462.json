@@ -1,1 +1,84 @@
-{"type":"Feature","id":462,"geometry":{"type":"Point","coordinates":[47.06077833190413,9.607055384084825]},"properties":{"id":462,"land":null,"category":"all","language":"en","type":"Mountaineering","ascent_altitude":1200,"ascent_time_max":210,"sac_chm_route":true,"sac_created":"2019-03-08 13:13:17","descent_altitude":1400,"descent_time_max":300,"descent_time_min":null,"sac_orig_id":2378,"sac_modified":"2019-04-17 14:56:37","sac_status":"published","poi_title":"Naafkopf","abstract":"Naafkopf is close to the borders of Switzerland and Austria and offers a splendid view to Rätikon, Flumserberge and Churfirsten. This and the numerous ascents justify a two-day stay on this mountain. The ascent from Malbun via Pfälzerhütte (Fürstin-Gina-Weg) is an interesting approach, while the descent via Barthümeljoch, Alp Ljes and Jeninser Alp is a more romantic alternative. Now and then pathfinder skills are needed to interpret confusing markings, for example on the top: the gentle ridge from the summit down to Barthümeljoch seems to be chamois terrain, but in fact it is easy to hike down.","subtitle":"On chamois trails to the border triangle","title":"From Sareis (Malbun) to Älplibahn","sac_type":"mountain_hiking","mountain_hiking_difficulty":"T3+","alpine_tour_difficulty":null,"alpine_climbing_difficulty":null,"grade":null,"height_climbing_wall":null,"via_ferrata_difficulty":null,"ski_tour_difficulty":null,"mountaineering_sacphoto_ids":[1601,1602,1603],"sac_poi_id":1269,"x_coordinate":764715.568622611,"y_coordinate":214471.07907782294,"change_date":"2023-03-30 12:14:31","sac_photos":[{"change_date":"2023-03-30 12:08:27","id":1601,"photo_big":"https://static.suissealpine.sac-cas.ch/1535383478_1447232777Ma.jpg","photo_master":"https://static.suissealpine.sac-cas.ch/1535383478_1447232777master.jpg","photo_sac_id":257257,"photo_sac_original":"https://static.suissealpine.sac-cas.ch/1535383478_1447232777.jpg","photo_small":"https://static.suissealpine.sac-cas.ch/1535383478_1447232777M.jpg","photo_standard":"https://static.suissealpine.sac-cas.ch/1535383478_1447232777Mc.jpg","title":"From the east there is a pathless, pretty ridge leading up to the summit."},{"change_date":"2023-03-30 12:08:27","id":1602,"photo_big":"https://static.suissealpine.sac-cas.ch/1535383478_2086990318Ma.jpg","photo_master":"https://static.suissealpine.sac-cas.ch/1535383478_2086990318master.jpg","photo_sac_id":257258,"photo_sac_original":"https://static.suissealpine.sac-cas.ch/1535383478_2086990318.jpg","photo_small":"https://static.suissealpine.sac-cas.ch/1535383478_2086990318M.jpg","photo_standard":"https://static.suissealpine.sac-cas.ch/1535383478_2086990318Mc.jpg","title":"View south-eastward to the high plain between Glegghorn (right) and Vilan (left)"},{"change_date":"2023-03-30 12:08:27","id":1603,"photo_big":"https://static.suissealpine.sac-cas.ch/1535383479_954898225Ma.jpg","photo_master":"https://static.suissealpine.sac-cas.ch/1535383479_954898225master.jpg","photo_sac_id":257259,"photo_sac_original":"https://static.suissealpine.sac-cas.ch/1535383479_954898225.jpg","photo_small":"https://static.suissealpine.sac-cas.ch/1535383479_954898225M.jpg","photo_standard":"https://static.suissealpine.sac-cas.ch/1535383479_954898225Mc.jpg","title":"Slippery terrain on the ascent to Naafkopf"}]}}
+{
+    "type": "Feature",
+    "id": 462,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            47.060778333087555,
+            9.607055292646741
+        ]
+    },
+    "properties": {
+        "id": 462,
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "type": "Mountaineering",
+        "ascent_altitude": 1200,
+        "ascent_time_max": 210,
+        "sac_chm_route": true,
+        "sac_created": "2019-03-08 13:13:17",
+        "descent_altitude": 1400,
+        "descent_time_max": 300,
+        "descent_time_min": null,
+        "sac_orig_id": 2378,
+        "sac_modified": "2019-04-17 14:56:37",
+        "sac_status": "published",
+        "poi_title": "Naafkopf",
+        "abstract": "Naafkopf is close to the borders of Switzerland and Austria and offers a splendid view to Rätikon, Flumserberge and Churfirsten. This and the numerous ascents justify a two-day stay on this mountain. The ascent from Malbun via Pfälzerhütte (Fürstin-Gina-Weg) is an interesting approach, while the descent via Barthümeljoch, Alp Ljes and Jeninser Alp is a more romantic alternative. Now and then pathfinder skills are needed to interpret confusing markings, for example on the top: the gentle ridge from the summit down to Barthümeljoch seems to be chamois terrain, but in fact it is easy to hike down.",
+        "subtitle": "On chamois trails to the border triangle",
+        "title": "From Sareis (Malbun) to Älplibahn",
+        "sac_type": "mountain_hiking",
+        "mountain_hiking_difficulty": "T3+",
+        "alpine_tour_difficulty": null,
+        "alpine_climbing_difficulty": null,
+        "grade": null,
+        "height_climbing_wall": null,
+        "via_ferrata_difficulty": null,
+        "ski_tour_difficulty": null,
+        "mountaineering_sacphoto_ids": [
+            1601,
+            1602,
+            1603
+        ],
+        "sac_poi_id": 1269,
+        "x_coordinate": 764715.568622611,
+        "y_coordinate": 214471.07907782294,
+        "change_date": "2023-03-30 12:14:31",
+        "sac_photos": [
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 1601,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1535383478_1447232777Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1535383478_1447232777master.jpg",
+                "photo_sac_id": 257257,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1535383478_1447232777.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1535383478_1447232777M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1535383478_1447232777Mc.jpg",
+                "title": "From the east there is a pathless, pretty ridge leading up to the summit."
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 1602,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1535383478_2086990318Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1535383478_2086990318master.jpg",
+                "photo_sac_id": 257258,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1535383478_2086990318.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1535383478_2086990318M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1535383478_2086990318Mc.jpg",
+                "title": "View south-eastward to the high plain between Glegghorn (right) and Vilan (left)"
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 1603,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1535383479_954898225Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1535383479_954898225master.jpg",
+                "photo_sac_id": 257259,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1535383479_954898225.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1535383479_954898225M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1535383479_954898225Mc.jpg",
+                "title": "Slippery terrain on the ascent to Naafkopf"
+            }
+        ]
+    }
+}

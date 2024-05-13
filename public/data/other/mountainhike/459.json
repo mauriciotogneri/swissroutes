@@ -1,1 +1,132 @@
-{"type":"Feature","id":459,"geometry":{"type":"Point","coordinates":[46.94220067398006,9.293148805313889]},"properties":{"id":459,"land":null,"category":"all","language":"en","type":"Mountaineering","ascent_altitude":1470,"ascent_time_max":300,"sac_chm_route":true,"sac_created":"2022-05-19 11:47:55","descent_altitude":650,"descent_time_max":135,"descent_time_min":105,"sac_orig_id":2374,"sac_modified":"2022-05-19 11:48:34","sac_status":"published","poi_title":"Fahnenstock","abstract":"This alpine hike is a summit tour and at the same time a (long) access variant to Sardonahütte. Speaking of Sardona: this tour takes place in the Tectonic Arena Sardona, which in July 2008 was named a site of UNESCO World Heritage. In this hardly known region on territory of the cantons of St. Gall, Glarus and The Grisons the traces of the formation of mountains can be seen especially well. Ascending to Fahnenstock, one notices especially the results of erosion. Dry meadows and alluvial plains alternate with talus and cwms with tiny lakes. Not before reaching the summit you get a view to Sardona where you can observe a dead straight line in the rock running over several kilometres.  Along this line old rock was thrust on top of young rock by unimaginable forces.","subtitle":"A world heritage site sends its regards","title":"From Gigerwald across Heubützlipass and on the east ridge, descent to Sardonahütte SAC","sac_type":"mountain_hiking","mountain_hiking_difficulty":"T4","alpine_tour_difficulty":null,"alpine_climbing_difficulty":null,"grade":null,"height_climbing_wall":null,"via_ferrata_difficulty":null,"ski_tour_difficulty":null,"mountaineering_sacphoto_ids":[1588,1589,1590,1591,1592,1593,1594],"sac_poi_id":1539,"x_coordinate":741187.8793880582,"y_coordinate":200681.72344647197,"change_date":"2023-03-30 12:14:31","sac_photos":[{"change_date":"2023-03-30 12:08:27","id":1588,"photo_big":"https://static.suissealpine.sac-cas.ch/1535363585_1308449104Ma.jpg","photo_master":"https://static.suissealpine.sac-cas.ch/1535363585_1308449104master.jpg","photo_sac_id":257225,"photo_sac_original":"https://static.suissealpine.sac-cas.ch/1535363585_1308449104.jpg","photo_small":"https://static.suissealpine.sac-cas.ch/1535363585_1308449104M.jpg","photo_standard":"https://static.suissealpine.sac-cas.ch/1535363585_1308449104Mc.jpg","title":"Gigerwaldsee on the ascent from Calfeisental"},{"change_date":"2023-03-30 12:08:27","id":1589,"photo_big":"https://static.suissealpine.sac-cas.ch/1535363587_1182839701Ma.jpg","photo_master":"https://static.suissealpine.sac-cas.ch/1535363587_1182839701master.jpg","photo_sac_id":257226,"photo_sac_original":"https://static.suissealpine.sac-cas.ch/1535363587_1182839701.jpg","photo_small":"https://static.suissealpine.sac-cas.ch/1535363587_1182839701M.jpg","photo_standard":"https://static.suissealpine.sac-cas.ch/1535363587_1182839701Mc.jpg","title":"Heubützlisee"},{"change_date":"2023-03-30 12:08:27","id":1590,"photo_big":"https://static.suissealpine.sac-cas.ch/1535363585_762219828Ma.jpg","photo_master":"https://static.suissealpine.sac-cas.ch/1535363585_762219828master.jpg","photo_sac_id":257227,"photo_sac_original":"https://static.suissealpine.sac-cas.ch/1535363585_762219828.jpg","photo_small":"https://static.suissealpine.sac-cas.ch/1535363585_762219828M.jpg","photo_standard":"https://static.suissealpine.sac-cas.ch/1535363585_762219828Mc.jpg","title":"Heubützlisee; above is the Ringelspitz range."},{"change_date":"2023-03-30 12:08:27","id":1591,"photo_big":"https://static.suissealpine.sac-cas.ch/1535363587_1146735740Ma.jpg","photo_master":"https://static.suissealpine.sac-cas.ch/1535363587_1146735740master.jpg","photo_sac_id":257228,"photo_sac_original":"https://static.suissealpine.sac-cas.ch/1535363587_1146735740.jpg","photo_small":"https://static.suissealpine.sac-cas.ch/1535363587_1146735740M.jpg","photo_standard":"https://static.suissealpine.sac-cas.ch/1535363587_1146735740Mc.jpg","title":"The bifurcation to Heubützlipass"},{"change_date":"2023-03-30 12:08:27","id":1592,"photo_big":"https://static.suissealpine.sac-cas.ch/1535363585_72485580Ma.jpg","photo_master":"https://static.suissealpine.sac-cas.ch/1535363585_72485580master.jpg","photo_sac_id":257224,"photo_sac_original":"https://static.suissealpine.sac-cas.ch/1535363585_72485580.jpg","photo_small":"https://static.suissealpine.sac-cas.ch/1535363585_72485580M.jpg","photo_standard":"https://static.suissealpine.sac-cas.ch/1535363585_72485580Mc.jpg","title":"[no data]"},{"change_date":"2023-03-30 12:08:27","id":1593,"photo_big":"https://static.suissealpine.sac-cas.ch/1535363586_718982422Ma.jpg","photo_master":"https://static.suissealpine.sac-cas.ch/1535363586_718982422master.jpg","photo_sac_id":257229,"photo_sac_original":"https://static.suissealpine.sac-cas.ch/1535363586_718982422.jpg","photo_small":"https://static.suissealpine.sac-cas.ch/1535363586_718982422M.jpg","photo_standard":"https://static.suissealpine.sac-cas.ch/1535363586_718982422Mc.jpg","title":"Well-marked: on the way to Sardonahütte SAC"},{"change_date":"2023-03-30 12:08:27","id":1594,"photo_big":"https://static.suissealpine.sac-cas.ch/1535363587_1862735758Ma.jpg","photo_master":"https://static.suissealpine.sac-cas.ch/1535363587_1862735758master.jpg","photo_sac_id":257230,"photo_sac_original":"https://static.suissealpine.sac-cas.ch/1535363587_1862735758.jpg","photo_small":"https://static.suissealpine.sac-cas.ch/1535363587_1862735758M.jpg","photo_standard":"https://static.suissealpine.sac-cas.ch/1535363587_1862735758Mc.jpg","title":"The finish line is in sight: Sardonahütte owned by the SAC Zindelspitz section."}]}}
+{
+    "type": "Feature",
+    "id": 459,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.94220067336008,
+            9.293148840837382
+        ]
+    },
+    "properties": {
+        "id": 459,
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "type": "Mountaineering",
+        "ascent_altitude": 1470,
+        "ascent_time_max": 300,
+        "sac_chm_route": true,
+        "sac_created": "2022-05-19 11:47:55",
+        "descent_altitude": 650,
+        "descent_time_max": 135,
+        "descent_time_min": 105,
+        "sac_orig_id": 2374,
+        "sac_modified": "2022-05-19 11:48:34",
+        "sac_status": "published",
+        "poi_title": "Fahnenstock",
+        "abstract": "This alpine hike is a summit tour and at the same time a (long) access variant to Sardonahütte. Speaking of Sardona: this tour takes place in the Tectonic Arena Sardona, which in July 2008 was named a site of UNESCO World Heritage. In this hardly known region on territory of the cantons of St. Gall, Glarus and The Grisons the traces of the formation of mountains can be seen especially well. Ascending to Fahnenstock, one notices especially the results of erosion. Dry meadows and alluvial plains alternate with talus and cwms with tiny lakes. Not before reaching the summit you get a view to Sardona where you can observe a dead straight line in the rock running over several kilometres.  Along this line old rock was thrust on top of young rock by unimaginable forces.",
+        "subtitle": "A world heritage site sends its regards",
+        "title": "From Gigerwald across Heubützlipass and on the east ridge, descent to Sardonahütte SAC",
+        "sac_type": "mountain_hiking",
+        "mountain_hiking_difficulty": "T4",
+        "alpine_tour_difficulty": null,
+        "alpine_climbing_difficulty": null,
+        "grade": null,
+        "height_climbing_wall": null,
+        "via_ferrata_difficulty": null,
+        "ski_tour_difficulty": null,
+        "mountaineering_sacphoto_ids": [
+            1588,
+            1589,
+            1590,
+            1591,
+            1592,
+            1593,
+            1594
+        ],
+        "sac_poi_id": 1539,
+        "x_coordinate": 741187.8793880582,
+        "y_coordinate": 200681.72344647197,
+        "change_date": "2023-03-30 12:14:31",
+        "sac_photos": [
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 1588,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1535363585_1308449104Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1535363585_1308449104master.jpg",
+                "photo_sac_id": 257225,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1535363585_1308449104.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1535363585_1308449104M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1535363585_1308449104Mc.jpg",
+                "title": "Gigerwaldsee on the ascent from Calfeisental"
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 1589,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1535363587_1182839701Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1535363587_1182839701master.jpg",
+                "photo_sac_id": 257226,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1535363587_1182839701.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1535363587_1182839701M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1535363587_1182839701Mc.jpg",
+                "title": "Heubützlisee"
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 1590,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1535363585_762219828Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1535363585_762219828master.jpg",
+                "photo_sac_id": 257227,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1535363585_762219828.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1535363585_762219828M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1535363585_762219828Mc.jpg",
+                "title": "Heubützlisee; above is the Ringelspitz range."
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 1591,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1535363587_1146735740Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1535363587_1146735740master.jpg",
+                "photo_sac_id": 257228,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1535363587_1146735740.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1535363587_1146735740M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1535363587_1146735740Mc.jpg",
+                "title": "The bifurcation to Heubützlipass"
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 1592,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1535363585_72485580Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1535363585_72485580master.jpg",
+                "photo_sac_id": 257224,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1535363585_72485580.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1535363585_72485580M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1535363585_72485580Mc.jpg",
+                "title": "[no data]"
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 1593,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1535363586_718982422Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1535363586_718982422master.jpg",
+                "photo_sac_id": 257229,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1535363586_718982422.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1535363586_718982422M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1535363586_718982422Mc.jpg",
+                "title": "Well-marked: on the way to Sardonahütte SAC"
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 1594,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1535363587_1862735758Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1535363587_1862735758master.jpg",
+                "photo_sac_id": 257230,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1535363587_1862735758.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1535363587_1862735758M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1535363587_1862735758Mc.jpg",
+                "title": "The finish line is in sight: Sardonahütte owned by the SAC Zindelspitz section."
+            }
+        ]
+    }
+}

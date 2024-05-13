@@ -1,1 +1,84 @@
-{"type":"Feature","id":457,"geometry":{"type":"Point","coordinates":[47.11922366113474,9.000437630846463]},"properties":{"id":457,"land":null,"category":"all","language":"en","type":"Mountaineering","ascent_altitude":760,"ascent_time_max":180,"sac_chm_route":true,"sac_created":"2019-04-17 16:14:09","descent_altitude":1320,"descent_time_max":210,"descent_time_min":null,"sac_orig_id":2371,"sac_modified":"2019-04-17 16:14:58","sac_status":"published","poi_title":"Wageten","abstract":"Wageten is the western outcrop of Brügglergrat, which leads towards Glarnerland. It is accessible from all sides. Besides the access from Schwändital via Lochegg there is an interesting alternative from Niederurner Tal, which can be reached by an original aerial cableway. The view from Wageten down to Walensee and to Glarner Alpen is breath-taking. The whole package of landscape, view and enjoyable scrambling on the last stretch make the tour to Wageten a unique adventure off the beaten paths.","subtitle":"High above the Walensee","title":"From Morgenholz","sac_type":"mountain_hiking","mountain_hiking_difficulty":"T4+","alpine_tour_difficulty":null,"alpine_climbing_difficulty":null,"grade":null,"height_climbing_wall":null,"via_ferrata_difficulty":null,"ski_tour_difficulty":null,"mountaineering_sacphoto_ids":[1582,1583,1584],"sac_poi_id":3404,"x_coordinate":718514.9217882229,"y_coordinate":219872.356473399,"change_date":"2023-03-30 12:14:30","sac_photos":[{"change_date":"2023-03-30 12:08:27","id":1582,"photo_big":"https://static.suissealpine.sac-cas.ch/1535361295_62398539Ma.jpg","photo_master":"https://static.suissealpine.sac-cas.ch/1535361295_62398539master.jpg","photo_sac_id":257221,"photo_sac_original":"https://static.suissealpine.sac-cas.ch/1535361295_62398539.jpg","photo_small":"https://static.suissealpine.sac-cas.ch/1535361295_62398539M.jpg","photo_standard":"https://static.suissealpine.sac-cas.ch/1535361295_62398539Mc.jpg","title":"View from the Wageten summit"},{"change_date":"2023-03-30 12:08:27","id":1583,"photo_big":"https://static.suissealpine.sac-cas.ch/1541610968_1744458601Ma.jpg","photo_master":"https://static.suissealpine.sac-cas.ch/1541610968_1744458601master.jpg","photo_sac_id":257222,"photo_sac_original":"https://static.suissealpine.sac-cas.ch/1541610968_1744458601.jpg","photo_small":"https://static.suissealpine.sac-cas.ch/1541610968_1744458601M.jpg","photo_standard":"https://static.suissealpine.sac-cas.ch/1541610968_1744458601Mc.jpg","title":"Dwarf pines facilitate the summit ascent."},{"change_date":"2023-03-30 12:08:27","id":1584,"photo_big":"https://static.suissealpine.sac-cas.ch/1535361295_749923235Ma.jpg","photo_master":"https://static.suissealpine.sac-cas.ch/1535361295_749923235master.jpg","photo_sac_id":257223,"photo_sac_original":"https://static.suissealpine.sac-cas.ch/1535361295_749923235.jpg","photo_small":"https://static.suissealpine.sac-cas.ch/1535361295_749923235M.jpg","photo_standard":"https://static.suissealpine.sac-cas.ch/1535361295_749923235Mc.jpg","title":"At the south foot of Wageten: the rock wall offers many climbing routes."}]}}
+{
+    "type": "Feature",
+    "id": 457,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            47.11922365741429,
+            9.00043761268825
+        ]
+    },
+    "properties": {
+        "id": 457,
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "type": "Mountaineering",
+        "ascent_altitude": 760,
+        "ascent_time_max": 180,
+        "sac_chm_route": true,
+        "sac_created": "2019-04-17 16:14:09",
+        "descent_altitude": 1320,
+        "descent_time_max": 210,
+        "descent_time_min": null,
+        "sac_orig_id": 2371,
+        "sac_modified": "2019-04-17 16:14:58",
+        "sac_status": "published",
+        "poi_title": "Wageten",
+        "abstract": "Wageten is the western outcrop of Brügglergrat, which leads towards Glarnerland. It is accessible from all sides. Besides the access from Schwändital via Lochegg there is an interesting alternative from Niederurner Tal, which can be reached by an original aerial cableway. The view from Wageten down to Walensee and to Glarner Alpen is breath-taking. The whole package of landscape, view and enjoyable scrambling on the last stretch make the tour to Wageten a unique adventure off the beaten paths.",
+        "subtitle": "High above the Walensee",
+        "title": "From Morgenholz",
+        "sac_type": "mountain_hiking",
+        "mountain_hiking_difficulty": "T4+",
+        "alpine_tour_difficulty": null,
+        "alpine_climbing_difficulty": null,
+        "grade": null,
+        "height_climbing_wall": null,
+        "via_ferrata_difficulty": null,
+        "ski_tour_difficulty": null,
+        "mountaineering_sacphoto_ids": [
+            1582,
+            1583,
+            1584
+        ],
+        "sac_poi_id": 3404,
+        "x_coordinate": 718514.9217882229,
+        "y_coordinate": 219872.356473399,
+        "change_date": "2023-03-30 12:14:30",
+        "sac_photos": [
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 1582,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1535361295_62398539Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1535361295_62398539master.jpg",
+                "photo_sac_id": 257221,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1535361295_62398539.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1535361295_62398539M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1535361295_62398539Mc.jpg",
+                "title": "View from the Wageten summit"
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 1583,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1541610968_1744458601Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1541610968_1744458601master.jpg",
+                "photo_sac_id": 257222,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1541610968_1744458601.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1541610968_1744458601M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1541610968_1744458601Mc.jpg",
+                "title": "Dwarf pines facilitate the summit ascent."
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 1584,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1535361295_749923235Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1535361295_749923235master.jpg",
+                "photo_sac_id": 257223,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1535361295_749923235.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1535361295_749923235M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1535361295_749923235Mc.jpg",
+                "title": "At the south foot of Wageten: the rock wall offers many climbing routes."
+            }
+        ]
+    }
+}

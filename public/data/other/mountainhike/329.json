@@ -1,1 +1,144 @@
-{"type":"Feature","id":329,"geometry":{"type":"Point","coordinates":[46.6390763229246,7.27576285188994]},"properties":{"id":329,"land":null,"category":"all","language":"en","type":"Mountaineering","ascent_altitude":1080,"ascent_time_max":180,"sac_chm_route":true,"sac_created":"2020-08-12 11:53:02","descent_altitude":1080,"descent_time_max":135,"descent_time_min":null,"sac_orig_id":1648,"sac_modified":"2020-08-12 11:53:05","sac_status":"published","poi_title":"Spitzflue","abstract":"Spitzflue and Fochsenflue are mighty mountains with sheer cliffs rising up from Schwarzsee. While Spitzflue needs to be climbed, Fochsenflue has a mountain hiking trail up to the summit. Still, viewed from Untere Euschels (one of the seven \"buvette\"-type restaurants along the way), Spitzflue looks almost impossible to climb. Anybody who makes it to the top and signs the summit book, can be proud of themself.","subtitle":"On the way in primeval landscapes","title":"Schwarzsee – Spitzflue – Fochsenflue","sac_type":"mountain_hiking","mountain_hiking_difficulty":"T5-","alpine_tour_difficulty":null,"alpine_climbing_difficulty":null,"grade":null,"height_climbing_wall":null,"via_ferrata_difficulty":null,"ski_tour_difficulty":null,"mountaineering_sacphoto_ids":[1054,1055,1056,1057,1058,1059,1060,1061],"sac_poi_id":1850,"x_coordinate":587529.4796022106,"y_coordinate":165328.29700621142,"change_date":"2023-03-30 12:14:19","sac_photos":[{"change_date":"2023-03-30 12:08:27","id":1054,"photo_big":"https://static.suissealpine.sac-cas.ch/1523780754_990548201Ma.jpg","photo_master":"https://static.suissealpine.sac-cas.ch/1523780754_990548201master.jpg","photo_sac_id":253785,"photo_sac_original":"https://static.suissealpine.sac-cas.ch/1523780754_990548201.jpg","photo_small":"https://static.suissealpine.sac-cas.ch/1523780754_990548201M.jpg","photo_standard":"https://static.suissealpine.sac-cas.ch/1523780754_990548201Mc.jpg","title":"Spitzflue"},{"change_date":"2023-03-30 12:08:27","id":1055,"photo_big":"https://static.suissealpine.sac-cas.ch/1562244481_1319984020Ma.jpg","photo_master":"https://static.suissealpine.sac-cas.ch/1562244481_1319984020master.jpg","photo_sac_id":253774,"photo_sac_original":"https://static.suissealpine.sac-cas.ch/1562244481_1319984020.jpg","photo_small":"https://static.suissealpine.sac-cas.ch/1562244481_1319984020M.jpg","photo_standard":"https://static.suissealpine.sac-cas.ch/1562244481_1319984020Mc.jpg","title":"Spitzflue - Fochsenflue - Chörblispitz (from right to left)"},{"change_date":"2023-03-30 12:08:27","id":1056,"photo_big":"https://static.suissealpine.sac-cas.ch/1540285391_2027329511Ma.jpg","photo_master":"https://static.suissealpine.sac-cas.ch/1540285391_2027329511master.jpg","photo_sac_id":253786,"photo_sac_original":"https://static.suissealpine.sac-cas.ch/1540285391_2027329511.jpg","photo_small":"https://static.suissealpine.sac-cas.ch/1540285391_2027329511M.jpg","photo_standard":"https://static.suissealpine.sac-cas.ch/1540285391_2027329511Mc.jpg","title":"Breccaschlund in the morning: very shady"},{"change_date":"2023-03-30 12:08:27","id":1057,"photo_big":"https://static.suissealpine.sac-cas.ch/1523780468_1035891019Ma.jpg","photo_master":"https://static.suissealpine.sac-cas.ch/1523780468_1035891019master.jpg","photo_sac_id":253787,"photo_sac_original":"https://static.suissealpine.sac-cas.ch/1523780468_1035891019.jpg","photo_small":"https://static.suissealpine.sac-cas.ch/1523780468_1035891019M.jpg","photo_standard":"https://static.suissealpine.sac-cas.ch/1523780468_1035891019Mc.jpg","title":"Spitzflue above the saddle"},{"change_date":"2023-03-30 12:08:27","id":1058,"photo_big":"https://static.suissealpine.sac-cas.ch/1523780609_1498570168Ma.jpg","photo_master":"https://static.suissealpine.sac-cas.ch/1523780609_1498570168master.jpg","photo_sac_id":253788,"photo_sac_original":"https://static.suissealpine.sac-cas.ch/1523780609_1498570168.jpg","photo_small":"https://static.suissealpine.sac-cas.ch/1523780609_1498570168M.jpg","photo_standard":"https://static.suissealpine.sac-cas.ch/1523780609_1498570168Mc.jpg","title":"View from Spitzflue deep down to Schwarzsee"},{"change_date":"2023-03-30 12:08:27","id":1059,"photo_big":"https://static.suissealpine.sac-cas.ch/1523780642_1736231328Ma.jpg","photo_master":"https://static.suissealpine.sac-cas.ch/1523780642_1736231328master.jpg","photo_sac_id":253789,"photo_sac_original":"https://static.suissealpine.sac-cas.ch/1523780642_1736231328.jpg","photo_small":"https://static.suissealpine.sac-cas.ch/1523780642_1736231328M.jpg","photo_standard":"https://static.suissealpine.sac-cas.ch/1523780642_1736231328Mc.jpg","title":"View from the main summit to the secondary summit with the cross"},{"change_date":"2023-03-30 12:08:27","id":1060,"photo_big":"https://static.suissealpine.sac-cas.ch/1523782460_838561359Ma.jpg","photo_master":"https://static.suissealpine.sac-cas.ch/1523782460_838561359master.jpg","photo_sac_id":253792,"photo_sac_original":"https://static.suissealpine.sac-cas.ch/1523782460_838561359.jpg","photo_small":"https://static.suissealpine.sac-cas.ch/1523782460_838561359M.jpg","photo_standard":"https://static.suissealpine.sac-cas.ch/1523782460_838561359Mc.jpg","title":"Fochsenflue in front of Chörblispitz"},{"change_date":"2023-03-30 12:08:27","id":1061,"photo_big":"https://static.suissealpine.sac-cas.ch/1540285391_1471592065Ma.jpg","photo_master":"https://static.suissealpine.sac-cas.ch/1540285391_1471592065master.jpg","photo_sac_id":253784,"photo_sac_original":"https://static.suissealpine.sac-cas.ch/1540285391_1471592065.jpg","photo_small":"https://static.suissealpine.sac-cas.ch/1540285391_1471592065M.jpg","photo_standard":"https://static.suissealpine.sac-cas.ch/1540285391_1471592065Mc.jpg","title":"Descending from Fochsenflue to Euschelspass"}]}}
+{
+    "type": "Feature",
+    "id": 329,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.63907631854872,
+            7.275762848410987
+        ]
+    },
+    "properties": {
+        "id": 329,
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "type": "Mountaineering",
+        "ascent_altitude": 1080,
+        "ascent_time_max": 180,
+        "sac_chm_route": true,
+        "sac_created": "2020-08-12 11:53:02",
+        "descent_altitude": 1080,
+        "descent_time_max": 135,
+        "descent_time_min": null,
+        "sac_orig_id": 1648,
+        "sac_modified": "2020-08-12 11:53:05",
+        "sac_status": "published",
+        "poi_title": "Spitzflue",
+        "abstract": "Spitzflue and Fochsenflue are mighty mountains with sheer cliffs rising up from Schwarzsee. While Spitzflue needs to be climbed, Fochsenflue has a mountain hiking trail up to the summit. Still, viewed from Untere Euschels (one of the seven \"buvette\"-type restaurants along the way), Spitzflue looks almost impossible to climb. Anybody who makes it to the top and signs the summit book, can be proud of themself.",
+        "subtitle": "On the way in primeval landscapes",
+        "title": "Schwarzsee – Spitzflue – Fochsenflue",
+        "sac_type": "mountain_hiking",
+        "mountain_hiking_difficulty": "T5-",
+        "alpine_tour_difficulty": null,
+        "alpine_climbing_difficulty": null,
+        "grade": null,
+        "height_climbing_wall": null,
+        "via_ferrata_difficulty": null,
+        "ski_tour_difficulty": null,
+        "mountaineering_sacphoto_ids": [
+            1054,
+            1055,
+            1056,
+            1057,
+            1058,
+            1059,
+            1060,
+            1061
+        ],
+        "sac_poi_id": 1850,
+        "x_coordinate": 587529.4796022106,
+        "y_coordinate": 165328.29700621142,
+        "change_date": "2023-03-30 12:14:19",
+        "sac_photos": [
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 1054,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1523780754_990548201Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1523780754_990548201master.jpg",
+                "photo_sac_id": 253785,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1523780754_990548201.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1523780754_990548201M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1523780754_990548201Mc.jpg",
+                "title": "Spitzflue"
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 1055,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1562244481_1319984020Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1562244481_1319984020master.jpg",
+                "photo_sac_id": 253774,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1562244481_1319984020.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1562244481_1319984020M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1562244481_1319984020Mc.jpg",
+                "title": "Spitzflue - Fochsenflue - Chörblispitz (from right to left)"
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 1056,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1540285391_2027329511Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1540285391_2027329511master.jpg",
+                "photo_sac_id": 253786,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1540285391_2027329511.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1540285391_2027329511M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1540285391_2027329511Mc.jpg",
+                "title": "Breccaschlund in the morning: very shady"
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 1057,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1523780468_1035891019Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1523780468_1035891019master.jpg",
+                "photo_sac_id": 253787,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1523780468_1035891019.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1523780468_1035891019M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1523780468_1035891019Mc.jpg",
+                "title": "Spitzflue above the saddle"
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 1058,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1523780609_1498570168Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1523780609_1498570168master.jpg",
+                "photo_sac_id": 253788,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1523780609_1498570168.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1523780609_1498570168M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1523780609_1498570168Mc.jpg",
+                "title": "View from Spitzflue deep down to Schwarzsee"
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 1059,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1523780642_1736231328Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1523780642_1736231328master.jpg",
+                "photo_sac_id": 253789,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1523780642_1736231328.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1523780642_1736231328M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1523780642_1736231328Mc.jpg",
+                "title": "View from the main summit to the secondary summit with the cross"
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 1060,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1523782460_838561359Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1523782460_838561359master.jpg",
+                "photo_sac_id": 253792,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1523782460_838561359.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1523782460_838561359M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1523782460_838561359Mc.jpg",
+                "title": "Fochsenflue in front of Chörblispitz"
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 1061,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1540285391_1471592065Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1540285391_1471592065master.jpg",
+                "photo_sac_id": 253784,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1540285391_1471592065.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1540285391_1471592065M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1540285391_1471592065Mc.jpg",
+                "title": "Descending from Fochsenflue to Euschelspass"
+            }
+        ]
+    }
+}

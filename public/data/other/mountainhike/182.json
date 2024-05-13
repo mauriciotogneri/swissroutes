@@ -1,1 +1,108 @@
-{"type":"Feature","id":182,"geometry":{"type":"Point","coordinates":[46.54485236786492,8.484445791867358]},"properties":{"id":182,"land":null,"category":"all","language":"en","type":"Mountaineering","ascent_altitude":1050,"ascent_time_max":360,"sac_chm_route":true,"sac_created":"2020-08-18 14:48:18","descent_altitude":570,"descent_time_max":null,"descent_time_min":null,"sac_orig_id":921,"sac_modified":"2020-08-18 14:48:28","sac_status":"published","poi_title":"Rotondohütte SAC","abstract":"The tour is like hiking through a Swiss Army open air museum. The area is full of traces of military activities: countless shell splinters litter the ground, large boards inform the hiker about shooting exercises with the corresponding interdictions and warnings. Barracks, concrete pillboxes and gun emplacements, and audaciously constructed trails remind the hiker of the time of World War II. Maybe you can feel the anxiety of the soldiers about the big attack that never came.","subtitle":"An impressive trail lined with remains of World War II","title":"From Gotthardpass via Passo di Lucendro and Ronggergrat","sac_type":"mountain_hiking","mountain_hiking_difficulty":"T4","alpine_tour_difficulty":null,"alpine_climbing_difficulty":null,"grade":null,"height_climbing_wall":null,"via_ferrata_difficulty":null,"ski_tour_difficulty":null,"mountaineering_sacphoto_ids":[3095,3094,3093,549,550],"sac_poi_id":2147000223,"x_coordinate":680213.3262913207,"y_coordinate":155375.1742915524,"change_date":"2023-03-30 12:14:04","sac_photos":[{"change_date":"2023-03-30 12:08:27","id":3095,"photo_big":"https://static.suissealpine.sac-cas.ch/1597752620_827136452Ma.jpg","photo_master":"https://static.suissealpine.sac-cas.ch/1597752620_827136452master.jpg","photo_sac_id":280642,"photo_sac_original":"https://static.suissealpine.sac-cas.ch/1597752620_827136452.jpg","photo_small":"https://static.suissealpine.sac-cas.ch/1597752620_827136452M.jpg","photo_standard":"https://static.suissealpine.sac-cas.ch/1597752620_827136452Mc.jpg","title":"View into the area of the Rotondo Hut, which is located on the right side of the picture."},{"change_date":"2023-03-30 12:08:27","id":3094,"photo_big":"https://static.suissealpine.sac-cas.ch/1557581623_1121259864Ma.jpg","photo_master":"https://static.suissealpine.sac-cas.ch/1557581623_1121259864master.jpg","photo_sac_id":249865,"photo_sac_original":"https://static.suissealpine.sac-cas.ch/1557581623_1121259864.jpg","photo_small":"https://static.suissealpine.sac-cas.ch/1557581623_1121259864M.jpg","photo_standard":"https://static.suissealpine.sac-cas.ch/1557581623_1121259864Mc.jpg","title":"Ronggergrat with the military trail."},{"change_date":"2023-03-30 12:08:27","id":3093,"photo_big":"https://static.suissealpine.sac-cas.ch/1597752465_665773171Ma.jpg","photo_master":"https://static.suissealpine.sac-cas.ch/1597752465_665773171master.jpg","photo_sac_id":280641,"photo_sac_original":"https://static.suissealpine.sac-cas.ch/1597752465_665773171.jpg","photo_small":"https://static.suissealpine.sac-cas.ch/1597752465_665773171M.jpg","photo_standard":"https://static.suissealpine.sac-cas.ch/1597752465_665773171Mc.jpg","title":"Ronggergrat with the military trail."},{"change_date":"2023-03-30 12:08:27","id":549,"photo_big":"https://static.suissealpine.sac-cas.ch/1513871313_2121873255Ma.jpg","photo_master":"https://static.suissealpine.sac-cas.ch/1513871313_2121873255master.jpg","photo_sac_id":248310,"photo_sac_original":"https://static.suissealpine.sac-cas.ch/1513871313_2121873255.jpg","photo_small":"https://static.suissealpine.sac-cas.ch/1513871313_2121873255M.jpg","photo_standard":"https://static.suissealpine.sac-cas.ch/1513871313_2121873255Mc.jpg","title":"Pizzo Lucendro. The hike is along its foot, then following Ronggergrat (left)."},{"change_date":"2023-03-30 12:08:27","id":550,"photo_big":"https://static.suissealpine.sac-cas.ch/1513872194_385341786Ma.jpg","photo_master":"https://static.suissealpine.sac-cas.ch/1513872194_385341786master.jpg","photo_sac_id":248313,"photo_sac_original":"https://static.suissealpine.sac-cas.ch/1513872194_385341786.jpg","photo_small":"https://static.suissealpine.sac-cas.ch/1513872194_385341786M.jpg","photo_standard":"https://static.suissealpine.sac-cas.ch/1513872194_385341786Mc.jpg","title":"Rotondohütte SAC (left) and Pizzo Lucendro. To the far right is Ronggergrat and the new lake in the glacier forefield."}]}}
+{
+    "type": "Feature",
+    "id": 182,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.54485236070196,
+            8.484445754431327
+        ]
+    },
+    "properties": {
+        "id": 182,
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "type": "Mountaineering",
+        "ascent_altitude": 1050,
+        "ascent_time_max": 360,
+        "sac_chm_route": true,
+        "sac_created": "2020-08-18 14:48:18",
+        "descent_altitude": 570,
+        "descent_time_max": null,
+        "descent_time_min": null,
+        "sac_orig_id": 921,
+        "sac_modified": "2020-08-18 14:48:28",
+        "sac_status": "published",
+        "poi_title": "Rotondohütte SAC",
+        "abstract": "The tour is like hiking through a Swiss Army open air museum. The area is full of traces of military activities: countless shell splinters litter the ground, large boards inform the hiker about shooting exercises with the corresponding interdictions and warnings. Barracks, concrete pillboxes and gun emplacements, and audaciously constructed trails remind the hiker of the time of World War II. Maybe you can feel the anxiety of the soldiers about the big attack that never came.",
+        "subtitle": "An impressive trail lined with remains of World War II",
+        "title": "From Gotthardpass via Passo di Lucendro and Ronggergrat",
+        "sac_type": "mountain_hiking",
+        "mountain_hiking_difficulty": "T4",
+        "alpine_tour_difficulty": null,
+        "alpine_climbing_difficulty": null,
+        "grade": null,
+        "height_climbing_wall": null,
+        "via_ferrata_difficulty": null,
+        "ski_tour_difficulty": null,
+        "mountaineering_sacphoto_ids": [
+            3095,
+            3094,
+            3093,
+            549,
+            550
+        ],
+        "sac_poi_id": 2147000223,
+        "x_coordinate": 680213.3262913207,
+        "y_coordinate": 155375.1742915524,
+        "change_date": "2023-03-30 12:14:04",
+        "sac_photos": [
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 3095,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1597752620_827136452Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1597752620_827136452master.jpg",
+                "photo_sac_id": 280642,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1597752620_827136452.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1597752620_827136452M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1597752620_827136452Mc.jpg",
+                "title": "View into the area of the Rotondo Hut, which is located on the right side of the picture."
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 3094,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1557581623_1121259864Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1557581623_1121259864master.jpg",
+                "photo_sac_id": 249865,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1557581623_1121259864.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1557581623_1121259864M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1557581623_1121259864Mc.jpg",
+                "title": "Ronggergrat with the military trail."
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 3093,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1597752465_665773171Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1597752465_665773171master.jpg",
+                "photo_sac_id": 280641,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1597752465_665773171.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1597752465_665773171M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1597752465_665773171Mc.jpg",
+                "title": "Ronggergrat with the military trail."
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 549,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1513871313_2121873255Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1513871313_2121873255master.jpg",
+                "photo_sac_id": 248310,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1513871313_2121873255.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1513871313_2121873255M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1513871313_2121873255Mc.jpg",
+                "title": "Pizzo Lucendro. The hike is along its foot, then following Ronggergrat (left)."
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 550,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1513872194_385341786Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1513872194_385341786master.jpg",
+                "photo_sac_id": 248313,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1513872194_385341786.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1513872194_385341786M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1513872194_385341786Mc.jpg",
+                "title": "Rotondohütte SAC (left) and Pizzo Lucendro. To the far right is Ronggergrat and the new lake in the glacier forefield."
+            }
+        ]
+    }
+}

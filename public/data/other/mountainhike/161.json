@@ -1,1 +1,60 @@
-{"type":"Feature","id":161,"geometry":{"type":"Point","coordinates":[46.54655239669134,8.427133074619586]},"properties":{"id":161,"land":null,"category":"all","language":"en","type":"Mountaineering","ascent_altitude":760,"ascent_time_max":210,"sac_chm_route":true,"sac_created":"2020-05-01 13:25:54","descent_altitude":760,"descent_time_max":150,"descent_time_min":null,"sac_orig_id":866,"sac_modified":"2020-05-01 13:27:28","sac_status":"published","poi_title":"Gross Muttenhorn","abstract":"Gross Muttenhorn is the northernmost and highest peak of Muttenhörner. The towering summit is a relatively easy target for alpine hikers. The ridge walk with the beautiful view offers remnants of military activity and a few exposed passages. From the summit you have a surprising view to the Rotondo range in the south and to Galenstock in the north as well as down to the Rhone and Urseren valleys.","subtitle":"Ridge walk to an imposing pyramid","title":"From Tällilücke and over the west ridge","sac_type":"mountain_hiking","mountain_hiking_difficulty":"T4+","alpine_tour_difficulty":null,"alpine_climbing_difficulty":null,"grade":null,"height_climbing_wall":null,"via_ferrata_difficulty":null,"ski_tour_difficulty":null,"mountaineering_sacphoto_ids":[498],"sac_poi_id":1258,"x_coordinate":675815.528637231,"y_coordinate":155507.16634122079,"change_date":"2023-03-30 12:14:02","sac_photos":[{"change_date":"2023-03-30 12:08:27","id":498,"photo_big":"https://static.suissealpine.sac-cas.ch/1513626908_1590372374Ma.jpg","photo_master":"https://static.suissealpine.sac-cas.ch/1513626908_1590372374master.jpg","photo_sac_id":248067,"photo_sac_original":"https://static.suissealpine.sac-cas.ch/1513626908_1590372374.jpg","photo_small":"https://static.suissealpine.sac-cas.ch/1513626908_1590372374M.jpg","photo_standard":"https://static.suissealpine.sac-cas.ch/1513626908_1590372374Mc.jpg","title":"The imposing pyramid of Gross Muttenhorn"}]}}
+{
+    "type": "Feature",
+    "id": 161,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.54655240523517,
+            8.427133079469762
+        ]
+    },
+    "properties": {
+        "id": 161,
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "type": "Mountaineering",
+        "ascent_altitude": 760,
+        "ascent_time_max": 210,
+        "sac_chm_route": true,
+        "sac_created": "2020-05-01 13:25:54",
+        "descent_altitude": 760,
+        "descent_time_max": 150,
+        "descent_time_min": null,
+        "sac_orig_id": 866,
+        "sac_modified": "2020-05-01 13:27:28",
+        "sac_status": "published",
+        "poi_title": "Gross Muttenhorn",
+        "abstract": "Gross Muttenhorn is the northernmost and highest peak of Muttenhörner. The towering summit is a relatively easy target for alpine hikers. The ridge walk with the beautiful view offers remnants of military activity and a few exposed passages. From the summit you have a surprising view to the Rotondo range in the south and to Galenstock in the north as well as down to the Rhone and Urseren valleys.",
+        "subtitle": "Ridge walk to an imposing pyramid",
+        "title": "From Tällilücke and over the west ridge",
+        "sac_type": "mountain_hiking",
+        "mountain_hiking_difficulty": "T4+",
+        "alpine_tour_difficulty": null,
+        "alpine_climbing_difficulty": null,
+        "grade": null,
+        "height_climbing_wall": null,
+        "via_ferrata_difficulty": null,
+        "ski_tour_difficulty": null,
+        "mountaineering_sacphoto_ids": [
+            498
+        ],
+        "sac_poi_id": 1258,
+        "x_coordinate": 675815.528637231,
+        "y_coordinate": 155507.16634122079,
+        "change_date": "2023-03-30 12:14:02",
+        "sac_photos": [
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 498,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1513626908_1590372374Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1513626908_1590372374master.jpg",
+                "photo_sac_id": 248067,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1513626908_1590372374.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1513626908_1590372374M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1513626908_1590372374Mc.jpg",
+                "title": "The imposing pyramid of Gross Muttenhorn"
+            }
+        ]
+    }
+}

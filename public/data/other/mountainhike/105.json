@@ -1,1 +1,84 @@
-{"type":"Feature","id":105,"geometry":{"type":"Point","coordinates":[46.42615747014763,7.589684818010797]},"properties":{"id":105,"land":null,"category":"all","language":"en","type":"Mountaineering","ascent_altitude":1100,"ascent_time_max":165,"sac_chm_route":true,"sac_created":"2020-03-17 08:03:37","descent_altitude":1100,"descent_time_max":135,"descent_time_min":null,"sac_orig_id":621,"sac_modified":"2020-03-17 08:03:37","sac_status":"published","poi_title":"Tierhöri / Tierhörnli","abstract":"The rocky head sitting on the grassy cone-shaped mountain is an inviting view, even from afar. Tierhöri can be reached within only a few hours. The ascent is mainly easy, but on the summit structure the hike turns into a truly alpine endeavour. You need the help of your hands, and being sure-footed, unafraid of heights and experienced in scrambling is required. Chindbettihore is a neighbouring summit which can be included in this tour.","subtitle":"Short tour to an original summit","title":"From Engstligenalp via Chindbettipass","sac_type":"mountain_hiking","mountain_hiking_difficulty":"T5-","alpine_tour_difficulty":null,"alpine_climbing_difficulty":null,"grade":null,"height_climbing_wall":null,"via_ferrata_difficulty":null,"ski_tour_difficulty":null,"mountaineering_sacphoto_ids":[363,364,365],"sac_poi_id":1976,"x_coordinate":611611.8927986163,"y_coordinate":141657.96981122624,"change_date":"2023-03-30 12:13:57","sac_photos":[{"change_date":"2023-03-30 12:08:27","id":363,"photo_big":"https://static.suissealpine.sac-cas.ch/1566907068_988362384Ma.jpg","photo_master":"https://static.suissealpine.sac-cas.ch/1566907068_988362384master.jpg","photo_sac_id":247442,"photo_sac_original":"https://static.suissealpine.sac-cas.ch/1566907068_988362384.jpg","photo_small":"https://static.suissealpine.sac-cas.ch/1566907068_988362384M.jpg","photo_standard":"https://static.suissealpine.sac-cas.ch/1566907068_988362384Mc.jpg","title":"Tierhöri viewed from the south-east (from Rote Totz)"},{"change_date":"2023-03-30 12:08:27","id":364,"photo_big":"https://static.suissealpine.sac-cas.ch/1511894614_117967901Ma.jpg","photo_master":"https://static.suissealpine.sac-cas.ch/1511894614_117967901master.jpg","photo_sac_id":247444,"photo_sac_original":"https://static.suissealpine.sac-cas.ch/1511894614_117967901.jpg","photo_small":"https://static.suissealpine.sac-cas.ch/1511894614_117967901M.jpg","photo_standard":"https://static.suissealpine.sac-cas.ch/1511894614_117967901Mc.jpg","title":"Below the couloirs on the south-east side of Tierhöri"},{"change_date":"2023-03-30 12:08:27","id":365,"photo_big":"https://static.suissealpine.sac-cas.ch/1511894563_937882741Ma.jpg","photo_master":"https://static.suissealpine.sac-cas.ch/1511894563_937882741master.jpg","photo_sac_id":247443,"photo_sac_original":"https://static.suissealpine.sac-cas.ch/1511894563_937882741.jpg","photo_small":"https://static.suissealpine.sac-cas.ch/1511894563_937882741M.jpg","photo_standard":"https://static.suissealpine.sac-cas.ch/1511894563_937882741Mc.jpg","title":"On the ascent from Chindbettipass to Tierhöri. On the left-hand side is Chindbettihorn, below on the right Tälliseeli."}]}}
+{
+    "type": "Feature",
+    "id": 105,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.42615747652946,
+            7.58968482188694
+        ]
+    },
+    "properties": {
+        "id": 105,
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "type": "Mountaineering",
+        "ascent_altitude": 1100,
+        "ascent_time_max": 165,
+        "sac_chm_route": true,
+        "sac_created": "2020-03-17 08:03:37",
+        "descent_altitude": 1100,
+        "descent_time_max": 135,
+        "descent_time_min": null,
+        "sac_orig_id": 621,
+        "sac_modified": "2020-03-17 08:03:37",
+        "sac_status": "published",
+        "poi_title": "Tierhöri / Tierhörnli",
+        "abstract": "The rocky head sitting on the grassy cone-shaped mountain is an inviting view, even from afar. Tierhöri can be reached within only a few hours. The ascent is mainly easy, but on the summit structure the hike turns into a truly alpine endeavour. You need the help of your hands, and being sure-footed, unafraid of heights and experienced in scrambling is required. Chindbettihore is a neighbouring summit which can be included in this tour.",
+        "subtitle": "Short tour to an original summit",
+        "title": "From Engstligenalp via Chindbettipass",
+        "sac_type": "mountain_hiking",
+        "mountain_hiking_difficulty": "T5-",
+        "alpine_tour_difficulty": null,
+        "alpine_climbing_difficulty": null,
+        "grade": null,
+        "height_climbing_wall": null,
+        "via_ferrata_difficulty": null,
+        "ski_tour_difficulty": null,
+        "mountaineering_sacphoto_ids": [
+            363,
+            364,
+            365
+        ],
+        "sac_poi_id": 1976,
+        "x_coordinate": 611611.8927986163,
+        "y_coordinate": 141657.96981122624,
+        "change_date": "2023-03-30 12:13:57",
+        "sac_photos": [
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 363,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1566907068_988362384Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1566907068_988362384master.jpg",
+                "photo_sac_id": 247442,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1566907068_988362384.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1566907068_988362384M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1566907068_988362384Mc.jpg",
+                "title": "Tierhöri viewed from the south-east (from Rote Totz)"
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 364,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1511894614_117967901Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1511894614_117967901master.jpg",
+                "photo_sac_id": 247444,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1511894614_117967901.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1511894614_117967901M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1511894614_117967901Mc.jpg",
+                "title": "Below the couloirs on the south-east side of Tierhöri"
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 365,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1511894563_937882741Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1511894563_937882741master.jpg",
+                "photo_sac_id": 247443,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1511894563_937882741.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1511894563_937882741M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1511894563_937882741Mc.jpg",
+                "title": "On the ascent from Chindbettipass to Tierhöri. On the left-hand side is Chindbettihorn, below on the right Tälliseeli."
+            }
+        ]
+    }
+}

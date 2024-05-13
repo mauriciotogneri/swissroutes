@@ -1,1 +1,72 @@
-{"type":"Feature","id":119,"geometry":{"type":"Point","coordinates":[46.600202331988484,7.949529529489933]},"properties":{"id":119,"land":null,"category":"all","language":"en","type":"Mountaineering","ascent_altitude":400,"ascent_time_max":120,"sac_chm_route":true,"sac_created":"2019-08-15 07:10:11","descent_altitude":550,"descent_time_max":75,"descent_time_min":null,"sac_orig_id":665,"sac_modified":"2019-08-15 07:10:13","sac_status":"published","poi_title":"Tschuggen (BE)","abstract":"Tschuggen is beleaguered by ski and chair lifts, and the busy hiking trail between Männlichen and Kleine Scheidegg passes at its foot, yet on Tschuggen one is mostly all alone in the world, despite the faint path on parts of the south-east ridge. Thanks to the lifts and trains Tschuggen is easy to reach. Those who love longer hikes will discover some natural gems albeit the seemingly overdeveloped region. And those who prefer difficulty, will find even alpine terrain to climb on. Besides, Tschuggen can be easily combined with a tour to Lauberhorn.","subtitle":"In the midst of the hullabaloo, yet off the beaten track","title":"South-east ridge","sac_type":"mountain_hiking","mountain_hiking_difficulty":"T4-","alpine_tour_difficulty":null,"alpine_climbing_difficulty":null,"grade":null,"height_climbing_wall":null,"via_ferrata_difficulty":null,"ski_tour_difficulty":null,"mountaineering_sacphoto_ids":[391,392],"sac_poi_id":2056,"x_coordinate":639146.7700284853,"y_coordinate":161121.24683476123,"change_date":"2023-03-30 12:13:58","sac_photos":[{"change_date":"2023-03-30 12:08:27","id":391,"photo_big":"https://static.suissealpine.sac-cas.ch/1512573851_779360544Ma.jpg","photo_master":"https://static.suissealpine.sac-cas.ch/1512573851_779360544master.jpg","photo_sac_id":247598,"photo_sac_original":"https://static.suissealpine.sac-cas.ch/1512573851_779360544.jpg","photo_small":"https://static.suissealpine.sac-cas.ch/1512573851_779360544M.jpg","photo_standard":"https://static.suissealpine.sac-cas.ch/1512573851_779360544Mc.jpg","title":"Faint trail on the south-east ridge of Tschuggen"},{"change_date":"2023-03-30 12:08:27","id":392,"photo_big":"https://static.suissealpine.sac-cas.ch/1512573709_2044014547Ma.jpg","photo_master":"https://static.suissealpine.sac-cas.ch/1512573709_2044014547master.jpg","photo_sac_id":247594,"photo_sac_original":"https://static.suissealpine.sac-cas.ch/1512573709_2044014547.jpg","photo_small":"https://static.suissealpine.sac-cas.ch/1512573709_2044014547M.jpg","photo_standard":"https://static.suissealpine.sac-cas.ch/1512573709_2044014547Mc.jpg","title":"Tschuggen rises up between Mönch and Jungfrau. View from the Männlichen summit station."}]}}
+{
+    "type": "Feature",
+    "id": 119,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.60020232876575,
+            7.949529546990424
+        ]
+    },
+    "properties": {
+        "id": 119,
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "type": "Mountaineering",
+        "ascent_altitude": 400,
+        "ascent_time_max": 120,
+        "sac_chm_route": true,
+        "sac_created": "2019-08-15 07:10:11",
+        "descent_altitude": 550,
+        "descent_time_max": 75,
+        "descent_time_min": null,
+        "sac_orig_id": 665,
+        "sac_modified": "2019-08-15 07:10:13",
+        "sac_status": "published",
+        "poi_title": "Tschuggen (BE)",
+        "abstract": "Tschuggen is beleaguered by ski and chair lifts, and the busy hiking trail between Männlichen and Kleine Scheidegg passes at its foot, yet on Tschuggen one is mostly all alone in the world, despite the faint path on parts of the south-east ridge. Thanks to the lifts and trains Tschuggen is easy to reach. Those who love longer hikes will discover some natural gems albeit the seemingly overdeveloped region. And those who prefer difficulty, will find even alpine terrain to climb on. Besides, Tschuggen can be easily combined with a tour to Lauberhorn.",
+        "subtitle": "In the midst of the hullabaloo, yet off the beaten track",
+        "title": "South-east ridge",
+        "sac_type": "mountain_hiking",
+        "mountain_hiking_difficulty": "T4-",
+        "alpine_tour_difficulty": null,
+        "alpine_climbing_difficulty": null,
+        "grade": null,
+        "height_climbing_wall": null,
+        "via_ferrata_difficulty": null,
+        "ski_tour_difficulty": null,
+        "mountaineering_sacphoto_ids": [
+            391,
+            392
+        ],
+        "sac_poi_id": 2056,
+        "x_coordinate": 639146.7700284853,
+        "y_coordinate": 161121.24683476123,
+        "change_date": "2023-03-30 12:13:58",
+        "sac_photos": [
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 391,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1512573851_779360544Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1512573851_779360544master.jpg",
+                "photo_sac_id": 247598,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1512573851_779360544.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1512573851_779360544M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1512573851_779360544Mc.jpg",
+                "title": "Faint trail on the south-east ridge of Tschuggen"
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 392,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1512573709_2044014547Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1512573709_2044014547master.jpg",
+                "photo_sac_id": 247594,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1512573709_2044014547.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1512573709_2044014547M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1512573709_2044014547Mc.jpg",
+                "title": "Tschuggen rises up between Mönch and Jungfrau. View from the Männlichen summit station."
+            }
+        ]
+    }
+}

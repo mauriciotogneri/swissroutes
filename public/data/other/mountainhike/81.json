@@ -1,1 +1,72 @@
-{"type":"Feature","id":81,"geometry":{"type":"Point","coordinates":[46.3764108252001,7.462122960609049]},"properties":{"id":81,"land":null,"category":"all","language":"en","type":"Mountaineering","ascent_altitude":280,"ascent_time_max":90,"sac_chm_route":true,"sac_created":"2019-08-15 07:10:24","descent_altitude":1580,"descent_time_max":195,"descent_time_min":null,"sac_orig_id":556,"sac_modified":"2019-08-15 07:10:25","sac_status":"published","poi_title":"Rohrbachstein","abstract":"If you start from Pointe de la Plaine Morte, you reach Rohrbachstein pretty fast. Those who want to take it easier, can enjoy an original summit in a terrific high alpine landscape characterised by the Glacier de la Plaine Morte and the surrounding summits. There are turquoise or deeply blue mountain lakes glowing deep below, and on the descent to Iffigenalp the vast landscape of Rawilpass does not fail to impress the hikers.","subtitle":"A rock castle on a mountain of rubble","title":"From Wisshorelücke and on the west face","sac_type":"mountain_hiking","mountain_hiking_difficulty":"T4+","alpine_tour_difficulty":null,"alpine_climbing_difficulty":null,"grade":null,"height_climbing_wall":null,"via_ferrata_difficulty":null,"ski_tour_difficulty":null,"mountaineering_sacphoto_ids":[316,317],"sac_poi_id":1520,"x_coordinate":601807.9213692737,"y_coordinate":136116.704402469,"change_date":"2023-03-30 12:13:54","sac_photos":[{"change_date":"2023-03-30 12:08:27","id":316,"photo_big":"https://static.suissealpine.sac-cas.ch/1511884627_601052397Ma.jpg","photo_master":"https://static.suissealpine.sac-cas.ch/1511884627_601052397master.jpg","photo_sac_id":247440,"photo_sac_original":"https://static.suissealpine.sac-cas.ch/1511884627_601052397.jpg","photo_small":"https://static.suissealpine.sac-cas.ch/1511884627_601052397M.jpg","photo_standard":"https://static.suissealpine.sac-cas.ch/1511884627_601052397Mc.jpg","title":"Scrambling on the summit structures of Rohrbachstein"},{"change_date":"2023-03-30 12:08:27","id":317,"photo_big":"https://static.suissealpine.sac-cas.ch/1545138703_1613406831Ma.jpg","photo_master":"https://static.suissealpine.sac-cas.ch/1545138703_1613406831master.jpg","photo_sac_id":247439,"photo_sac_original":"https://static.suissealpine.sac-cas.ch/1545138703_1613406831.jpg","photo_small":"https://static.suissealpine.sac-cas.ch/1545138703_1613406831M.jpg","photo_standard":"https://static.suissealpine.sac-cas.ch/1545138703_1613406831Mc.jpg","title":"The unique structure of the Rohrbachstein summit with an attractive route and an excellent view"}]}}
+{
+    "type": "Feature",
+    "id": 81,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.37641080271059,
+            7.462122960308433
+        ]
+    },
+    "properties": {
+        "id": 81,
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "type": "Mountaineering",
+        "ascent_altitude": 280,
+        "ascent_time_max": 90,
+        "sac_chm_route": true,
+        "sac_created": "2019-08-15 07:10:24",
+        "descent_altitude": 1580,
+        "descent_time_max": 195,
+        "descent_time_min": null,
+        "sac_orig_id": 556,
+        "sac_modified": "2019-08-15 07:10:25",
+        "sac_status": "published",
+        "poi_title": "Rohrbachstein",
+        "abstract": "If you start from Pointe de la Plaine Morte, you reach Rohrbachstein pretty fast. Those who want to take it easier, can enjoy an original summit in a terrific high alpine landscape characterised by the Glacier de la Plaine Morte and the surrounding summits. There are turquoise or deeply blue mountain lakes glowing deep below, and on the descent to Iffigenalp the vast landscape of Rawilpass does not fail to impress the hikers.",
+        "subtitle": "A rock castle on a mountain of rubble",
+        "title": "From Wisshorelücke and on the west face",
+        "sac_type": "mountain_hiking",
+        "mountain_hiking_difficulty": "T4+",
+        "alpine_tour_difficulty": null,
+        "alpine_climbing_difficulty": null,
+        "grade": null,
+        "height_climbing_wall": null,
+        "via_ferrata_difficulty": null,
+        "ski_tour_difficulty": null,
+        "mountaineering_sacphoto_ids": [
+            316,
+            317
+        ],
+        "sac_poi_id": 1520,
+        "x_coordinate": 601807.9213692737,
+        "y_coordinate": 136116.704402469,
+        "change_date": "2023-03-30 12:13:54",
+        "sac_photos": [
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 316,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1511884627_601052397Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1511884627_601052397master.jpg",
+                "photo_sac_id": 247440,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1511884627_601052397.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1511884627_601052397M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1511884627_601052397Mc.jpg",
+                "title": "Scrambling on the summit structures of Rohrbachstein"
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 317,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1545138703_1613406831Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1545138703_1613406831master.jpg",
+                "photo_sac_id": 247439,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1545138703_1613406831.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1545138703_1613406831M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1545138703_1613406831Mc.jpg",
+                "title": "The unique structure of the Rohrbachstein summit with an attractive route and an excellent view"
+            }
+        ]
+    }
+}

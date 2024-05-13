@@ -1,1 +1,84 @@
-{"type":"Feature","id":287,"geometry":{"type":"Point","coordinates":[47.022019449572646,9.041102242353954]},"properties":{"id":287,"land":null,"category":"all","language":"en","type":"Mountaineering","ascent_altitude":1650,"ascent_time_max":300,"sac_chm_route":true,"sac_created":"2022-08-02 14:54:51","descent_altitude":1500,"descent_time_max":180,"descent_time_min":120,"sac_orig_id":1369,"sac_modified":"2022-08-02 14:54:52","sac_status":"published","poi_title":"Vorder Glärnisch","abstract":"Vorder Glärnisch is for alpine hikers what Glärnisch is for climbers: an exciting tour to a fabulous viewpoint. The view down to Glarus from Vorder Glärnisch is even more impressive than from Vrenelisgärtli. The city of Glarus burnt down 150 years ago and was rebuilt as a planned city with a geometrical street layout, which, viewed from the summit, looks like a scale model. The ascent on the steep south face with its two huge gullies is more interesting than the usual white-blue marked route on the barren north face which has scree and rubble.","subtitle":"Vrenelis' little brother","title":"Traverse from Schwändi to Klöntalersee","sac_type":"mountain_hiking","mountain_hiking_difficulty":"T5-","alpine_tour_difficulty":null,"alpine_climbing_difficulty":null,"grade":null,"height_climbing_wall":null,"via_ferrata_difficulty":null,"ski_tour_difficulty":null,"mountaineering_sacphoto_ids":[888,889,890],"sac_poi_id":794,"x_coordinate":721820.5886503826,"y_coordinate":209130.7816741498,"change_date":"2023-03-30 12:14:14","sac_photos":[{"change_date":"2023-03-30 12:08:27","id":888,"photo_big":"https://static.suissealpine.sac-cas.ch/1555341147_1526623915Ma.jpg","photo_master":"https://static.suissealpine.sac-cas.ch/1555341147_1526623915master.jpg","photo_sac_id":256781,"photo_sac_original":"https://static.suissealpine.sac-cas.ch/1555341147_1526623915.jpg","photo_small":"https://static.suissealpine.sac-cas.ch/1555341147_1526623915M.jpg","photo_standard":"https://static.suissealpine.sac-cas.ch/1555341147_1526623915Mc.jpg","title":"Traversing Hanslirus: it is not as bad as it looks here."},{"change_date":"2023-03-30 12:08:27","id":889,"photo_big":"https://static.suissealpine.sac-cas.ch/1534163323_2029062832Ma.jpg","photo_master":"https://static.suissealpine.sac-cas.ch/1534163323_2029062832master.jpg","photo_sac_id":256782,"photo_sac_original":"https://static.suissealpine.sac-cas.ch/1534163323_2029062832.jpg","photo_small":"https://static.suissealpine.sac-cas.ch/1534163323_2029062832M.jpg","photo_standard":"https://static.suissealpine.sac-cas.ch/1534163323_2029062832Mc.jpg","title":"Descending to Hintersackberg / Klöntal: steep, but the difficulties are manageable thanks to the well-designed alpine hiking trail."},{"change_date":"2023-03-30 12:08:27","id":890,"photo_big":"https://static.suissealpine.sac-cas.ch/1555402905_160773831Ma.jpg","photo_master":"https://static.suissealpine.sac-cas.ch/1555402905_160773831master.jpg","photo_sac_id":256783,"photo_sac_original":"https://static.suissealpine.sac-cas.ch/1555402905_160773831.jpg","photo_small":"https://static.suissealpine.sac-cas.ch/1555402905_160773831M.jpg","photo_standard":"https://static.suissealpine.sac-cas.ch/1555402905_160773831Mc.jpg","title":"The bifurcation on the descent via Schlattalpli"}]}}
+{
+    "type": "Feature",
+    "id": 287,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            47.02201944885565,
+            9.041102205570454
+        ]
+    },
+    "properties": {
+        "id": 287,
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "type": "Mountaineering",
+        "ascent_altitude": 1650,
+        "ascent_time_max": 300,
+        "sac_chm_route": true,
+        "sac_created": "2022-08-02 14:54:51",
+        "descent_altitude": 1500,
+        "descent_time_max": 180,
+        "descent_time_min": 120,
+        "sac_orig_id": 1369,
+        "sac_modified": "2022-08-02 14:54:52",
+        "sac_status": "published",
+        "poi_title": "Vorder Glärnisch",
+        "abstract": "Vorder Glärnisch is for alpine hikers what Glärnisch is for climbers: an exciting tour to a fabulous viewpoint. The view down to Glarus from Vorder Glärnisch is even more impressive than from Vrenelisgärtli. The city of Glarus burnt down 150 years ago and was rebuilt as a planned city with a geometrical street layout, which, viewed from the summit, looks like a scale model. The ascent on the steep south face with its two huge gullies is more interesting than the usual white-blue marked route on the barren north face which has scree and rubble.",
+        "subtitle": "Vrenelis' little brother",
+        "title": "Traverse from Schwändi to Klöntalersee",
+        "sac_type": "mountain_hiking",
+        "mountain_hiking_difficulty": "T5-",
+        "alpine_tour_difficulty": null,
+        "alpine_climbing_difficulty": null,
+        "grade": null,
+        "height_climbing_wall": null,
+        "via_ferrata_difficulty": null,
+        "ski_tour_difficulty": null,
+        "mountaineering_sacphoto_ids": [
+            888,
+            889,
+            890
+        ],
+        "sac_poi_id": 794,
+        "x_coordinate": 721820.5886503826,
+        "y_coordinate": 209130.7816741498,
+        "change_date": "2023-03-30 12:14:14",
+        "sac_photos": [
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 888,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1555341147_1526623915Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1555341147_1526623915master.jpg",
+                "photo_sac_id": 256781,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1555341147_1526623915.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1555341147_1526623915M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1555341147_1526623915Mc.jpg",
+                "title": "Traversing Hanslirus: it is not as bad as it looks here."
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 889,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1534163323_2029062832Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1534163323_2029062832master.jpg",
+                "photo_sac_id": 256782,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1534163323_2029062832.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1534163323_2029062832M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1534163323_2029062832Mc.jpg",
+                "title": "Descending to Hintersackberg / Klöntal: steep, but the difficulties are manageable thanks to the well-designed alpine hiking trail."
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 890,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1555402905_160773831Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1555402905_160773831master.jpg",
+                "photo_sac_id": 256783,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1555402905_160773831.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1555402905_160773831M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1555402905_160773831Mc.jpg",
+                "title": "The bifurcation on the descent via Schlattalpli"
+            }
+        ]
+    }
+}

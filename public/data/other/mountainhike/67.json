@@ -1,1 +1,84 @@
-{"type":"Feature","id":67,"geometry":{"type":"Point","coordinates":[46.635860073331436,7.367358659921036]},"properties":{"id":67,"land":null,"category":"all","language":"en","type":"Mountaineering","ascent_altitude":1080,"ascent_time_max":210,"sac_chm_route":true,"sac_created":"2019-08-15 07:11:51","descent_altitude":1080,"descent_time_max":120,"descent_time_min":null,"sac_orig_id":438,"sac_modified":"2019-08-15 07:11:55","sac_status":"published","poi_title":"Mittagflue / Mittagsflue (Boltigen)","abstract":"Whoever is hiking in Simmental must visit Mittagflue at all costs. It is hardly believable that there is a trail up to this rock with its vertical walls on the Simmental side. Admittedly, the trail leads «only» to the secondary summit, and the last bit is rough and steep. More challenging are various couloirs and grassy gullies, through which an interesting itinerary leads up to the summit. It is the main itinerary presented here. Whatever trail you choose, the easier one to the secondary summit or the more difficult one to the main summit: the view from both points is breathtaking.","subtitle":"Simmental’s mightiest rock","title":"North-west couloir","sac_type":"mountain_hiking","mountain_hiking_difficulty":"T5-","alpine_tour_difficulty":null,"alpine_climbing_difficulty":null,"grade":null,"height_climbing_wall":null,"via_ferrata_difficulty":null,"ski_tour_difficulty":null,"mountaineering_sacphoto_ids":[245,246,247],"sac_poi_id":4118,"x_coordinate":594542.0397998393,"y_coordinate":164960.8972017996,"change_date":"2023-03-30 12:13:53","sac_photos":[{"change_date":"2023-03-30 12:08:27","id":245,"photo_big":"https://static.suissealpine.sac-cas.ch/1510751845_465748906Ma.jpg","photo_master":"https://static.suissealpine.sac-cas.ch/1510751845_465748906master.jpg","photo_sac_id":247103,"photo_sac_original":"https://static.suissealpine.sac-cas.ch/1510751845_465748906.jpg","photo_small":"https://static.suissealpine.sac-cas.ch/1510751845_465748906M.jpg","photo_standard":"https://static.suissealpine.sac-cas.ch/1510751845_465748906Mc.jpg","title":"View of Mittagflue from Boltigen. To the right Holzerhore and in between the couloir through which the main itinerary leads."},{"change_date":"2023-03-30 12:08:27","id":246,"photo_big":"https://static.suissealpine.sac-cas.ch/1510489820_430001873Ma.jpg","photo_master":"https://static.suissealpine.sac-cas.ch/1510489820_430001873master.jpg","photo_sac_id":247110,"photo_sac_original":"https://static.suissealpine.sac-cas.ch/1510489820_430001873.jpg","photo_small":"https://static.suissealpine.sac-cas.ch/1510489820_430001873M.jpg","photo_standard":"https://static.suissealpine.sac-cas.ch/1510489820_430001873Mc.jpg","title":"In the couloir between Mittagflue and Holzerhore"},{"change_date":"2023-03-30 12:08:27","id":247,"photo_big":"https://static.suissealpine.sac-cas.ch/1510485869_1922403530Ma.jpg","photo_master":"https://static.suissealpine.sac-cas.ch/1510485869_1922403530master.jpg","photo_sac_id":247104,"photo_sac_original":"https://static.suissealpine.sac-cas.ch/1510485869_1922403530.jpg","photo_small":"https://static.suissealpine.sac-cas.ch/1510485869_1922403530M.jpg","photo_standard":"https://static.suissealpine.sac-cas.ch/1510485869_1922403530Mc.jpg","title":"View to the gullies coming down from the summit and the north-western couloir."}]}}
+{
+    "type": "Feature",
+    "id": 67,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.63586006065719,
+            7.367358661453303
+        ]
+    },
+    "properties": {
+        "id": 67,
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "type": "Mountaineering",
+        "ascent_altitude": 1080,
+        "ascent_time_max": 210,
+        "sac_chm_route": true,
+        "sac_created": "2019-08-15 07:11:51",
+        "descent_altitude": 1080,
+        "descent_time_max": 120,
+        "descent_time_min": null,
+        "sac_orig_id": 438,
+        "sac_modified": "2019-08-15 07:11:55",
+        "sac_status": "published",
+        "poi_title": "Mittagflue / Mittagsflue (Boltigen)",
+        "abstract": "Whoever is hiking in Simmental must visit Mittagflue at all costs. It is hardly believable that there is a trail up to this rock with its vertical walls on the Simmental side. Admittedly, the trail leads «only» to the secondary summit, and the last bit is rough and steep. More challenging are various couloirs and grassy gullies, through which an interesting itinerary leads up to the summit. It is the main itinerary presented here. Whatever trail you choose, the easier one to the secondary summit or the more difficult one to the main summit: the view from both points is breathtaking.",
+        "subtitle": "Simmental’s mightiest rock",
+        "title": "North-west couloir",
+        "sac_type": "mountain_hiking",
+        "mountain_hiking_difficulty": "T5-",
+        "alpine_tour_difficulty": null,
+        "alpine_climbing_difficulty": null,
+        "grade": null,
+        "height_climbing_wall": null,
+        "via_ferrata_difficulty": null,
+        "ski_tour_difficulty": null,
+        "mountaineering_sacphoto_ids": [
+            245,
+            246,
+            247
+        ],
+        "sac_poi_id": 4118,
+        "x_coordinate": 594542.0397998393,
+        "y_coordinate": 164960.8972017996,
+        "change_date": "2023-03-30 12:13:53",
+        "sac_photos": [
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 245,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1510751845_465748906Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1510751845_465748906master.jpg",
+                "photo_sac_id": 247103,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1510751845_465748906.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1510751845_465748906M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1510751845_465748906Mc.jpg",
+                "title": "View of Mittagflue from Boltigen. To the right Holzerhore and in between the couloir through which the main itinerary leads."
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 246,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1510489820_430001873Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1510489820_430001873master.jpg",
+                "photo_sac_id": 247110,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1510489820_430001873.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1510489820_430001873M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1510489820_430001873Mc.jpg",
+                "title": "In the couloir between Mittagflue and Holzerhore"
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 247,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1510485869_1922403530Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1510485869_1922403530master.jpg",
+                "photo_sac_id": 247104,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1510485869_1922403530.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1510485869_1922403530M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1510485869_1922403530Mc.jpg",
+                "title": "View to the gullies coming down from the summit and the north-western couloir."
+            }
+        ]
+    }
+}

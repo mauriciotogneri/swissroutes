@@ -1,1 +1,84 @@
-{"type":"Feature","id":815,"geometry":{"type":"Point","coordinates":[46.70194933794555,8.414077663200592]},"properties":{"id":815,"land":null,"category":"all","language":"en","type":"Mountaineering","ascent_altitude":240,"ascent_time_max":60,"sac_chm_route":true,"sac_created":"2021-06-21 12:28:29","descent_altitude":null,"descent_time_max":null,"descent_time_min":null,"sac_orig_id":852,"sac_modified":"2021-06-21 12:28:33","sac_status":"published","poi_title":"Tierberglihütte SAC","abstract":"A \"normal\" hut trail leads to the Tierberglihütte, which can be shortened by driving to the car park at Umpol (about 2100m above sea level, toll road). From this parking lot you can also quickly reach the start of the via ferrata.","subtitle":"On foot or with the car to the start.","title":"Approach to the Tierbergli via ferrata.","sac_type":"mountain_hiking","mountain_hiking_difficulty":"T2","alpine_tour_difficulty":null,"alpine_climbing_difficulty":null,"grade":null,"height_climbing_wall":null,"via_ferrata_difficulty":null,"ski_tour_difficulty":null,"mountaineering_sacphoto_ids":[3267,3268,3269],"sac_poi_id":2147000269,"x_coordinate":674599.9620424282,"y_coordinate":172768.52994869964,"change_date":"2023-03-30 12:14:56","sac_photos":[{"change_date":"2023-03-30 12:08:27","id":3267,"photo_big":"https://static.suissealpine.sac-cas.ch/1520417021_909369303Ma.jpg","photo_master":"https://static.suissealpine.sac-cas.ch/1520417021_909369303master.jpg","photo_sac_id":250960,"photo_sac_original":"https://static.suissealpine.sac-cas.ch/1520417021_909369303.jpg","photo_small":"https://static.suissealpine.sac-cas.ch/1520417021_909369303M.jpg","photo_standard":"https://static.suissealpine.sac-cas.ch/1520417021_909369303Mc.jpg","title":"Approach to the start of the ferrata"},{"change_date":"2023-03-30 12:08:27","id":3268,"photo_big":"https://static.suissealpine.sac-cas.ch/1520418059_1366510679Ma.jpg","photo_master":"https://static.suissealpine.sac-cas.ch/1520418059_1366510679master.jpg","photo_sac_id":250964,"photo_sac_original":"https://static.suissealpine.sac-cas.ch/1520418059_1366510679.jpg","photo_small":"https://static.suissealpine.sac-cas.ch/1520418059_1366510679M.jpg","photo_standard":"https://static.suissealpine.sac-cas.ch/1520418059_1366510679Mc.jpg","title":"Start of the ferrata."},{"change_date":"2023-03-30 12:08:27","id":3269,"photo_big":"https://static.suissealpine.sac-cas.ch/1520417623_1680124012Ma.jpg","photo_master":"https://static.suissealpine.sac-cas.ch/1520417623_1680124012master.jpg","photo_sac_id":250962,"photo_sac_original":"https://static.suissealpine.sac-cas.ch/1520417623_1680124012.jpg","photo_small":"https://static.suissealpine.sac-cas.ch/1520417623_1680124012M.jpg","photo_standard":"https://static.suissealpine.sac-cas.ch/1520417623_1680124012Mc.jpg","title":"View down onto the approach, the Umpol car park bottom left."}]}}
+{
+    "type": "Feature",
+    "id": 815,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.70194934313841,
+            8.414077691652757
+        ]
+    },
+    "properties": {
+        "id": 815,
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "type": "Mountaineering",
+        "ascent_altitude": 240,
+        "ascent_time_max": 60,
+        "sac_chm_route": true,
+        "sac_created": "2021-06-21 12:28:29",
+        "descent_altitude": null,
+        "descent_time_max": null,
+        "descent_time_min": null,
+        "sac_orig_id": 852,
+        "sac_modified": "2021-06-21 12:28:33",
+        "sac_status": "published",
+        "poi_title": "Tierberglihütte SAC",
+        "abstract": "A \"normal\" hut trail leads to the Tierberglihütte, which can be shortened by driving to the car park at Umpol (about 2100m above sea level, toll road). From this parking lot you can also quickly reach the start of the via ferrata.",
+        "subtitle": "On foot or with the car to the start.",
+        "title": "Approach to the Tierbergli via ferrata.",
+        "sac_type": "mountain_hiking",
+        "mountain_hiking_difficulty": "T2",
+        "alpine_tour_difficulty": null,
+        "alpine_climbing_difficulty": null,
+        "grade": null,
+        "height_climbing_wall": null,
+        "via_ferrata_difficulty": null,
+        "ski_tour_difficulty": null,
+        "mountaineering_sacphoto_ids": [
+            3267,
+            3268,
+            3269
+        ],
+        "sac_poi_id": 2147000269,
+        "x_coordinate": 674599.9620424282,
+        "y_coordinate": 172768.52994869964,
+        "change_date": "2023-03-30 12:14:56",
+        "sac_photos": [
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 3267,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1520417021_909369303Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1520417021_909369303master.jpg",
+                "photo_sac_id": 250960,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1520417021_909369303.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1520417021_909369303M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1520417021_909369303Mc.jpg",
+                "title": "Approach to the start of the ferrata"
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 3268,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1520418059_1366510679Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1520418059_1366510679master.jpg",
+                "photo_sac_id": 250964,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1520418059_1366510679.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1520418059_1366510679M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1520418059_1366510679Mc.jpg",
+                "title": "Start of the ferrata."
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 3269,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1520417623_1680124012Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1520417623_1680124012master.jpg",
+                "photo_sac_id": 250962,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1520417623_1680124012.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1520417623_1680124012M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1520417623_1680124012Mc.jpg",
+                "title": "View down onto the approach, the Umpol car park bottom left."
+            }
+        ]
+    }
+}

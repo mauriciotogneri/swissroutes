@@ -1,1 +1,72 @@
-{"type":"Feature","id":808,"geometry":{"type":"Point","coordinates":[46.4031440778418,9.644231087972997]},"properties":{"id":808,"land":null,"category":"all","language":"en","type":"Mountaineering","ascent_altitude":950,"ascent_time_max":180,"sac_chm_route":true,"sac_created":"2020-08-24 14:51:42","descent_altitude":950,"descent_time_max":135,"descent_time_min":null,"sac_orig_id":836,"sac_modified":"2020-08-24 14:51:45","sac_status":"published","poi_title":"Piz Blanch","abstract":"In winter, the barren faces of Piz Blanch are avalanche-prone. This is one of the reasons why the north-south connection across Septimerpass touching the foot of Piz Blanch was abandoned after the roads across Maloja and Julier had been built. Today the col is famous with mountain bikers and hikers, but the unobtrusive Piz Blanch off the beaten path is rarely climbed. There is an attractive, pathless hike up to the summit with its magnificent view. The faces are steep, the summit and the north ridge are exposed, but if you are sure-footed there is no real danger.","subtitle":"Easy, rarely undertaken roundtrip","title":"Traverse east face – north ridge","sac_type":"mountain_hiking","mountain_hiking_difficulty":"T4-","alpine_tour_difficulty":null,"alpine_climbing_difficulty":null,"grade":null,"height_climbing_wall":null,"via_ferrata_difficulty":null,"ski_tour_difficulty":null,"mountaineering_sacphoto_ids":[3248,3249],"sac_poi_id":6133,"x_coordinate":769594.3178779846,"y_coordinate":141471.48681437297,"change_date":"2023-03-30 12:14:55","sac_photos":[{"change_date":"2023-03-30 12:08:27","id":3248,"photo_big":"https://static.suissealpine.sac-cas.ch/1565851327_1195450650Ma.jpg","photo_master":"https://static.suissealpine.sac-cas.ch/1565851327_1195450650master.jpg","photo_sac_id":247981,"photo_sac_original":"https://static.suissealpine.sac-cas.ch/1565851327_1195450650.jpg","photo_small":"https://static.suissealpine.sac-cas.ch/1565851327_1195450650M.jpg","photo_standard":"https://static.suissealpine.sac-cas.ch/1565851327_1195450650Mc.jpg","title":"View from the summit to the north: to the right of the nameless embossment Motta da Sett is visible."},{"change_date":"2023-03-30 12:08:27","id":3249,"photo_big":"https://static.suissealpine.sac-cas.ch/1565851373_172741496Ma.jpg","photo_master":"https://static.suissealpine.sac-cas.ch/1565851373_172741496master.jpg","photo_sac_id":247979,"photo_sac_original":"https://static.suissealpine.sac-cas.ch/1565851373_172741496.jpg","photo_small":"https://static.suissealpine.sac-cas.ch/1565851373_172741496M.jpg","photo_standard":"https://static.suissealpine.sac-cas.ch/1565851373_172741496Mc.jpg","title":"The beautiful summit ridge of Piz Blanch. To the right in the middle ground are Piz Lizun and one of the Pizzi di Maroz."}]}}
+{
+    "type": "Feature",
+    "id": 808,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.40314408560099,
+            9.644231026495085
+        ]
+    },
+    "properties": {
+        "id": 808,
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "type": "Mountaineering",
+        "ascent_altitude": 950,
+        "ascent_time_max": 180,
+        "sac_chm_route": true,
+        "sac_created": "2020-08-24 14:51:42",
+        "descent_altitude": 950,
+        "descent_time_max": 135,
+        "descent_time_min": null,
+        "sac_orig_id": 836,
+        "sac_modified": "2020-08-24 14:51:45",
+        "sac_status": "published",
+        "poi_title": "Piz Blanch",
+        "abstract": "In winter, the barren faces of Piz Blanch are avalanche-prone. This is one of the reasons why the north-south connection across Septimerpass touching the foot of Piz Blanch was abandoned after the roads across Maloja and Julier had been built. Today the col is famous with mountain bikers and hikers, but the unobtrusive Piz Blanch off the beaten path is rarely climbed. There is an attractive, pathless hike up to the summit with its magnificent view. The faces are steep, the summit and the north ridge are exposed, but if you are sure-footed there is no real danger.",
+        "subtitle": "Easy, rarely undertaken roundtrip",
+        "title": "Traverse east face – north ridge",
+        "sac_type": "mountain_hiking",
+        "mountain_hiking_difficulty": "T4-",
+        "alpine_tour_difficulty": null,
+        "alpine_climbing_difficulty": null,
+        "grade": null,
+        "height_climbing_wall": null,
+        "via_ferrata_difficulty": null,
+        "ski_tour_difficulty": null,
+        "mountaineering_sacphoto_ids": [
+            3248,
+            3249
+        ],
+        "sac_poi_id": 6133,
+        "x_coordinate": 769594.3178779846,
+        "y_coordinate": 141471.48681437297,
+        "change_date": "2023-03-30 12:14:55",
+        "sac_photos": [
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 3248,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1565851327_1195450650Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1565851327_1195450650master.jpg",
+                "photo_sac_id": 247981,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1565851327_1195450650.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1565851327_1195450650M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1565851327_1195450650Mc.jpg",
+                "title": "View from the summit to the north: to the right of the nameless embossment Motta da Sett is visible."
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 3249,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1565851373_172741496Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1565851373_172741496master.jpg",
+                "photo_sac_id": 247979,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1565851373_172741496.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1565851373_172741496M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1565851373_172741496Mc.jpg",
+                "title": "The beautiful summit ridge of Piz Blanch. To the right in the middle ground are Piz Lizun and one of the Pizzi di Maroz."
+            }
+        ]
+    }
+}

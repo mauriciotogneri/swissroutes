@@ -1,1 +1,60 @@
-{"type":"Feature","id":432,"geometry":{"type":"Point","coordinates":[46.122349550971734,8.667142747114783]},"properties":{"id":432,"land":null,"category":"all","language":"en","type":"Mountaineering","ascent_altitude":740,"ascent_time_max":135,"sac_chm_route":true,"sac_created":"2020-05-04 19:43:05","descent_altitude":null,"descent_time_max":null,"descent_time_min":null,"sac_orig_id":2149,"sac_modified":"2020-05-04 19:43:06","sac_status":"published","poi_title":"Rifugio Al Legn","abstract":"From the very beginning, it's possible to guess at the spectacular views awaiting you on this tour. And it doesn't disappoint: especially in the upper part you can hardly take it all in, with Lake Maggiore and all the mountains around.","subtitle":"The higher you get the better it is.","title":"From Cortaccio","sac_type":"mountain_hiking","mountain_hiking_difficulty":"T2","alpine_tour_difficulty":null,"alpine_climbing_difficulty":null,"grade":null,"height_climbing_wall":null,"via_ferrata_difficulty":null,"ski_tour_difficulty":null,"mountaineering_sacphoto_ids":[1501],"sac_poi_id":2147000150,"x_coordinate":694960.6579491852,"y_coordinate":108616.6866754274,"change_date":"2023-03-30 12:14:28","sac_photos":[{"change_date":"2023-03-30 12:08:27","id":1501,"photo_big":"https://static.suissealpine.sac-cas.ch/1526042033_1815942633Ma.jpg","photo_master":"https://static.suissealpine.sac-cas.ch/1526042033_1815942633master.jpg","photo_sac_id":254918,"photo_sac_original":"https://static.suissealpine.sac-cas.ch/1526042033_1815942633.jpg","photo_small":"https://static.suissealpine.sac-cas.ch/1526042033_1815942633M.jpg","photo_standard":"https://static.suissealpine.sac-cas.ch/1526042033_1815942633Mc.jpg","title":"Ascending to the Rifugio Al Legn, with a view of Lake Maggiore. In the foreground, Cortaccio can be seen in its forest clearing."}]}}
+{
+    "type": "Feature",
+    "id": 432,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.122349560178655,
+            8.667142790785135
+        ]
+    },
+    "properties": {
+        "id": 432,
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "type": "Mountaineering",
+        "ascent_altitude": 740,
+        "ascent_time_max": 135,
+        "sac_chm_route": true,
+        "sac_created": "2020-05-04 19:43:05",
+        "descent_altitude": null,
+        "descent_time_max": null,
+        "descent_time_min": null,
+        "sac_orig_id": 2149,
+        "sac_modified": "2020-05-04 19:43:06",
+        "sac_status": "published",
+        "poi_title": "Rifugio Al Legn",
+        "abstract": "From the very beginning, it's possible to guess at the spectacular views awaiting you on this tour. And it doesn't disappoint: especially in the upper part you can hardly take it all in, with Lake Maggiore and all the mountains around.",
+        "subtitle": "The higher you get the better it is.",
+        "title": "From Cortaccio",
+        "sac_type": "mountain_hiking",
+        "mountain_hiking_difficulty": "T2",
+        "alpine_tour_difficulty": null,
+        "alpine_climbing_difficulty": null,
+        "grade": null,
+        "height_climbing_wall": null,
+        "via_ferrata_difficulty": null,
+        "ski_tour_difficulty": null,
+        "mountaineering_sacphoto_ids": [
+            1501
+        ],
+        "sac_poi_id": 2147000150,
+        "x_coordinate": 694960.6579491852,
+        "y_coordinate": 108616.6866754274,
+        "change_date": "2023-03-30 12:14:28",
+        "sac_photos": [
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 1501,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1526042033_1815942633Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1526042033_1815942633master.jpg",
+                "photo_sac_id": 254918,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1526042033_1815942633.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1526042033_1815942633M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1526042033_1815942633Mc.jpg",
+                "title": "Ascending to the Rifugio Al Legn, with a view of Lake Maggiore. In the foreground, Cortaccio can be seen in its forest clearing."
+            }
+        ]
+    }
+}

@@ -1,1 +1,60 @@
-{"type":"Feature","id":112,"geometry":{"type":"Point","coordinates":[46.41542083047092,7.599747953892045]},"properties":{"id":112,"land":null,"category":"all","language":"en","type":"Mountaineering","ascent_altitude":1250,"ascent_time_max":270,"sac_chm_route":true,"sac_created":"2020-03-17 08:21:41","descent_altitude":1250,"descent_time_max":210,"descent_time_min":180,"sac_orig_id":653,"sac_modified":"2020-03-17 09:11:48","sac_status":"published","poi_title":"Rote Totz / Roter Totz","abstract":"Roter Totz is an impressive, but easily accessible rock bastion above Daubensee. The long, varied hike climbs from green meadows up to a vast, barren landscape formed by limestone slabs, scree and the remains of a glacier. While the high valley of Tälligletscher may be snow-covered until late into the summer, Rote Chumme, bathed in the morning sun, can already be hot in spring.","subtitle":"A sea of stone above Gemmipass","title":"South-western ridge","sac_type":"mountain_hiking","mountain_hiking_difficulty":"T4+","alpine_tour_difficulty":null,"alpine_climbing_difficulty":null,"grade":null,"height_climbing_wall":null,"via_ferrata_difficulty":null,"ski_tour_difficulty":null,"mountaineering_sacphoto_ids":[375],"sac_poi_id":1999,"x_coordinate":612387.6454658507,"y_coordinate":140465.58879363732,"change_date":"2023-03-30 12:13:58","sac_photos":[{"change_date":"2023-03-30 12:08:27","id":375,"photo_big":"https://static.suissealpine.sac-cas.ch/1566907068_856936316Ma.jpg","photo_master":"https://static.suissealpine.sac-cas.ch/1566907068_856936316master.jpg","photo_sac_id":247550,"photo_sac_original":"https://static.suissealpine.sac-cas.ch/1566907068_856936316.jpg","photo_small":"https://static.suissealpine.sac-cas.ch/1566907068_856936316M.jpg","photo_standard":"https://static.suissealpine.sac-cas.ch/1566907068_856936316Mc.jpg","title":"View from Rote Chumme to Roter Totz"}]}}
+{
+    "type": "Feature",
+    "id": 112,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.41542083472864,
+            7.599747953588381
+        ]
+    },
+    "properties": {
+        "id": 112,
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "type": "Mountaineering",
+        "ascent_altitude": 1250,
+        "ascent_time_max": 270,
+        "sac_chm_route": true,
+        "sac_created": "2020-03-17 08:21:41",
+        "descent_altitude": 1250,
+        "descent_time_max": 210,
+        "descent_time_min": 180,
+        "sac_orig_id": 653,
+        "sac_modified": "2020-03-17 09:11:48",
+        "sac_status": "published",
+        "poi_title": "Rote Totz / Roter Totz",
+        "abstract": "Roter Totz is an impressive, but easily accessible rock bastion above Daubensee. The long, varied hike climbs from green meadows up to a vast, barren landscape formed by limestone slabs, scree and the remains of a glacier. While the high valley of Tälligletscher may be snow-covered until late into the summer, Rote Chumme, bathed in the morning sun, can already be hot in spring.",
+        "subtitle": "A sea of stone above Gemmipass",
+        "title": "South-western ridge",
+        "sac_type": "mountain_hiking",
+        "mountain_hiking_difficulty": "T4+",
+        "alpine_tour_difficulty": null,
+        "alpine_climbing_difficulty": null,
+        "grade": null,
+        "height_climbing_wall": null,
+        "via_ferrata_difficulty": null,
+        "ski_tour_difficulty": null,
+        "mountaineering_sacphoto_ids": [
+            375
+        ],
+        "sac_poi_id": 1999,
+        "x_coordinate": 612387.6454658507,
+        "y_coordinate": 140465.58879363732,
+        "change_date": "2023-03-30 12:13:58",
+        "sac_photos": [
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 375,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1566907068_856936316Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1566907068_856936316master.jpg",
+                "photo_sac_id": 247550,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1566907068_856936316.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1566907068_856936316M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1566907068_856936316Mc.jpg",
+                "title": "View from Rote Chumme to Roter Totz"
+            }
+        ]
+    }
+}

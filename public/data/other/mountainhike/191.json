@@ -1,1 +1,72 @@
-{"type":"Feature","id":191,"geometry":{"type":"Point","coordinates":[46.19858261514271,7.954055755715192]},"properties":{"id":191,"land":null,"category":"all","language":"en","type":"Mountaineering","ascent_altitude":1420,"ascent_time_max":270,"sac_chm_route":true,"sac_created":"2021-12-15 11:24:20","descent_altitude":1420,"descent_time_max":210,"descent_time_min":null,"sac_orig_id":936,"sac_modified":"2021-12-15 11:24:29","sac_status":"published","poi_title":"Mattwaldhorn","abstract":"The hike to Simelihorn and Mattwaldhorn offers a number of scenic highlights. In the lower part it is the larch and pine, which grows here up to a timberline at ca. 2400 m. The segments on the ridge are multifaceted and require some scrambling, but never get dangerous, and the panoramic view from the summit goes to the highest peaks of the Valais and the Bernese Alps.","subtitle":"Surrounded by fourthousanders","title":"West ridge (from Gspon via Simelihorn)","sac_type":"mountain_hiking","mountain_hiking_difficulty":"T4-","alpine_tour_difficulty":null,"alpine_climbing_difficulty":null,"grade":null,"height_climbing_wall":null,"via_ferrata_difficulty":null,"ski_tour_difficulty":null,"mountaineering_sacphoto_ids":[562,563],"sac_poi_id":1142,"x_coordinate":639786.8549644686,"y_coordinate":116478.25029272168,"change_date":"2023-03-30 12:14:05","sac_photos":[{"change_date":"2023-03-30 12:08:27","id":562,"photo_big":"https://static.suissealpine.sac-cas.ch/1514276590_815408630Ma.jpg","photo_master":"https://static.suissealpine.sac-cas.ch/1514276590_815408630master.jpg","photo_sac_id":248406,"photo_sac_original":"https://static.suissealpine.sac-cas.ch/1514276590_815408630.jpg","photo_small":"https://static.suissealpine.sac-cas.ch/1514276590_815408630M.jpg","photo_standard":"https://static.suissealpine.sac-cas.ch/1514276590_815408630Mc.jpg","title":"On Mattwaldhorn. On the left-hand sie is the Mischabel range, on the right-hand side Weisshorn."},{"change_date":"2023-03-30 12:08:27","id":563,"photo_big":"https://static.suissealpine.sac-cas.ch/1576136738_1483130033Ma.jpg","photo_master":"https://static.suissealpine.sac-cas.ch/1576136738_1483130033master.jpg","photo_sac_id":248403,"photo_sac_original":"https://static.suissealpine.sac-cas.ch/1576136738_1483130033.jpg","photo_small":"https://static.suissealpine.sac-cas.ch/1576136738_1483130033M.jpg","photo_standard":"https://static.suissealpine.sac-cas.ch/1576136738_1483130033Mc.jpg","title":"View from Simelhorn across the west ridge to Mattwaldhorn. In the background are Fletschhorn, Lagginhorn and Weissmies."}]}}
+{
+    "type": "Feature",
+    "id": 191,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.1985826099025,
+            7.954055758195283
+        ]
+    },
+    "properties": {
+        "id": 191,
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "type": "Mountaineering",
+        "ascent_altitude": 1420,
+        "ascent_time_max": 270,
+        "sac_chm_route": true,
+        "sac_created": "2021-12-15 11:24:20",
+        "descent_altitude": 1420,
+        "descent_time_max": 210,
+        "descent_time_min": null,
+        "sac_orig_id": 936,
+        "sac_modified": "2021-12-15 11:24:29",
+        "sac_status": "published",
+        "poi_title": "Mattwaldhorn",
+        "abstract": "The hike to Simelihorn and Mattwaldhorn offers a number of scenic highlights. In the lower part it is the larch and pine, which grows here up to a timberline at ca. 2400 m. The segments on the ridge are multifaceted and require some scrambling, but never get dangerous, and the panoramic view from the summit goes to the highest peaks of the Valais and the Bernese Alps.",
+        "subtitle": "Surrounded by fourthousanders",
+        "title": "West ridge (from Gspon via Simelihorn)",
+        "sac_type": "mountain_hiking",
+        "mountain_hiking_difficulty": "T4-",
+        "alpine_tour_difficulty": null,
+        "alpine_climbing_difficulty": null,
+        "grade": null,
+        "height_climbing_wall": null,
+        "via_ferrata_difficulty": null,
+        "ski_tour_difficulty": null,
+        "mountaineering_sacphoto_ids": [
+            562,
+            563
+        ],
+        "sac_poi_id": 1142,
+        "x_coordinate": 639786.8549644686,
+        "y_coordinate": 116478.25029272168,
+        "change_date": "2023-03-30 12:14:05",
+        "sac_photos": [
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 562,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1514276590_815408630Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1514276590_815408630master.jpg",
+                "photo_sac_id": 248406,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1514276590_815408630.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1514276590_815408630M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1514276590_815408630Mc.jpg",
+                "title": "On Mattwaldhorn. On the left-hand sie is the Mischabel range, on the right-hand side Weisshorn."
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 563,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1576136738_1483130033Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1576136738_1483130033master.jpg",
+                "photo_sac_id": 248403,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1576136738_1483130033.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1576136738_1483130033M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1576136738_1483130033Mc.jpg",
+                "title": "View from Simelhorn across the west ridge to Mattwaldhorn. In the background are Fletschhorn, Lagginhorn and Weissmies."
+            }
+        ]
+    }
+}

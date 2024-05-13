@@ -1,1 +1,144 @@
-{"type":"Feature","id":469,"geometry":{"type":"Point","coordinates":[46.511315741992064,9.702250090699582]},"properties":{"id":469,"land":null,"category":"all","language":"en","type":"Mountaineering","ascent_altitude":1250,"ascent_time_max":240,"sac_chm_route":true,"sac_created":"2020-10-27 16:53:21","descent_altitude":1250,"descent_time_max":180,"descent_time_min":120,"sac_orig_id":2386,"sac_modified":"2020-10-27 16:53:23","sac_status":"published","poi_title":"Piz d'Agnel","abstract":"Alp Flix with its overwhelming diversity of plant life is a hiking destination in its own right. For those who not only want to enjoy the beauty of the high moor landscape, but wish to climb an attractive mountain, Piz d’Agnel is their first choice. The ascent is demanding, but exciting and rewarded by a splendid panorama.","subtitle":"Beautiful like an angel","title":"From Alp Flix","sac_type":"mountain_hiking","mountain_hiking_difficulty":"T4","alpine_tour_difficulty":null,"alpine_climbing_difficulty":null,"grade":null,"height_climbing_wall":null,"via_ferrata_difficulty":null,"ski_tour_difficulty":null,"mountaineering_sacphoto_ids":[3384,3385,3386,3387,3388,1629,1630,1631],"sac_poi_id":11,"x_coordinate":773707.4447707273,"y_coordinate":153618.2747446463,"change_date":"2023-03-30 12:14:32","sac_photos":[{"change_date":"2023-03-30 12:08:27","id":3384,"photo_big":"https://static.suissealpine.sac-cas.ch/1603816271_1064189400Ma.jpg","photo_master":"https://static.suissealpine.sac-cas.ch/1603816271_1064189400master.jpg","photo_sac_id":282304,"photo_sac_original":"https://static.suissealpine.sac-cas.ch/1603816271_1064189400.jpg","photo_small":"https://static.suissealpine.sac-cas.ch/1603816271_1064189400M.jpg","photo_standard":"https://static.suissealpine.sac-cas.ch/1603816271_1064189400Mc.jpg","title":"In the ascent on the south side of the Ava da las Tigias."},{"change_date":"2023-03-30 12:08:27","id":3385,"photo_big":"https://static.suissealpine.sac-cas.ch/1603816271_231418098Ma.jpg","photo_master":"https://static.suissealpine.sac-cas.ch/1603816271_231418098master.jpg","photo_sac_id":282302,"photo_sac_original":"https://static.suissealpine.sac-cas.ch/1603816271_231418098.jpg","photo_small":"https://static.suissealpine.sac-cas.ch/1603816271_231418098M.jpg","photo_standard":"https://static.suissealpine.sac-cas.ch/1603816271_231418098Mc.jpg","title":"The pasture landscape near Malpass."},{"change_date":"2023-03-30 12:08:27","id":3386,"photo_big":"https://static.suissealpine.sac-cas.ch/1603816271_414751897Ma.jpg","photo_master":"https://static.suissealpine.sac-cas.ch/1603816271_414751897master.jpg","photo_sac_id":282303,"photo_sac_original":"https://static.suissealpine.sac-cas.ch/1603816271_414751897.jpg","photo_small":"https://static.suissealpine.sac-cas.ch/1603816271_414751897M.jpg","photo_standard":"https://static.suissealpine.sac-cas.ch/1603816271_414751897Mc.jpg","title":"Easy scramble passages on the southwest ridge of the Piz d'Agnel."},{"change_date":"2023-03-30 12:08:27","id":3387,"photo_big":"https://static.suissealpine.sac-cas.ch/1536328509_1814675290Ma.jpg","photo_master":"https://static.suissealpine.sac-cas.ch/1536328509_1814675290master.jpg","photo_sac_id":257687,"photo_sac_original":"https://static.suissealpine.sac-cas.ch/1536328509_1814675290.jpg","photo_small":"https://static.suissealpine.sac-cas.ch/1536328509_1814675290M.jpg","photo_standard":"https://static.suissealpine.sac-cas.ch/1536328509_1814675290Mc.jpg","title":"Piz d'Agnel (to the left of the centre) viewed from the glacier forefield (alternative descent)"},{"change_date":"2023-03-30 12:08:27","id":3388,"photo_big":"https://static.suissealpine.sac-cas.ch/1603817001_446433563Ma.jpg","photo_master":"https://static.suissealpine.sac-cas.ch/1603817001_446433563master.jpg","photo_sac_id":257689,"photo_sac_original":"https://static.suissealpine.sac-cas.ch/1603817001_446433563.jpg","photo_small":"https://static.suissealpine.sac-cas.ch/1603817001_446433563M.jpg","photo_standard":"https://static.suissealpine.sac-cas.ch/1603817001_446433563Mc.jpg","title":"View back to the Piz d'Agnel."},{"change_date":"2023-03-30 12:08:27","id":1629,"photo_big":"https://static.suissealpine.sac-cas.ch/1536328164_477117727Ma.jpg","photo_master":"https://static.suissealpine.sac-cas.ch/1536328164_477117727master.jpg","photo_sac_id":257684,"photo_sac_original":"https://static.suissealpine.sac-cas.ch/1536328164_477117727.jpg","photo_small":"https://static.suissealpine.sac-cas.ch/1536328164_477117727M.jpg","photo_standard":"https://static.suissealpine.sac-cas.ch/1536328164_477117727Mc.jpg","title":"Shortly before the exposed summit of Piz d'Agnel"},{"change_date":"2023-03-30 12:08:27","id":1630,"photo_big":"https://static.suissealpine.sac-cas.ch/1603816327_1100237474Ma.jpg","photo_master":"https://static.suissealpine.sac-cas.ch/1603816327_1100237474master.jpg","photo_sac_id":257685,"photo_sac_original":"https://static.suissealpine.sac-cas.ch/1603816327_1100237474.jpg","photo_small":"https://static.suissealpine.sac-cas.ch/1603816327_1100237474M.jpg","photo_standard":"https://static.suissealpine.sac-cas.ch/1603816327_1100237474Mc.jpg","title":"At Lai Blo; in the background are Piz Platta (right), Piz Forbesch and Piz Arblatsch."},{"change_date":"2023-03-30 12:08:27","id":1631,"photo_big":"https://static.suissealpine.sac-cas.ch/1536328164_709272678Ma.jpg","photo_master":"https://static.suissealpine.sac-cas.ch/1536328164_709272678master.jpg","photo_sac_id":257686,"photo_sac_original":"https://static.suissealpine.sac-cas.ch/1536328164_709272678.jpg","photo_small":"https://static.suissealpine.sac-cas.ch/1536328164_709272678M.jpg","photo_standard":"https://static.suissealpine.sac-cas.ch/1536328164_709272678Mc.jpg","title":"Piz d'Agnel (to the left of the centre) viewed from the glacier snout of Vadret d’Agnel (alternative descent)"}]}}
+{
+    "type": "Feature",
+    "id": 469,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.51131572956952,
+            9.702250175418815
+        ]
+    },
+    "properties": {
+        "id": 469,
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "type": "Mountaineering",
+        "ascent_altitude": 1250,
+        "ascent_time_max": 240,
+        "sac_chm_route": true,
+        "sac_created": "2020-10-27 16:53:21",
+        "descent_altitude": 1250,
+        "descent_time_max": 180,
+        "descent_time_min": 120,
+        "sac_orig_id": 2386,
+        "sac_modified": "2020-10-27 16:53:23",
+        "sac_status": "published",
+        "poi_title": "Piz d'Agnel",
+        "abstract": "Alp Flix with its overwhelming diversity of plant life is a hiking destination in its own right. For those who not only want to enjoy the beauty of the high moor landscape, but wish to climb an attractive mountain, Piz d’Agnel is their first choice. The ascent is demanding, but exciting and rewarded by a splendid panorama.",
+        "subtitle": "Beautiful like an angel",
+        "title": "From Alp Flix",
+        "sac_type": "mountain_hiking",
+        "mountain_hiking_difficulty": "T4",
+        "alpine_tour_difficulty": null,
+        "alpine_climbing_difficulty": null,
+        "grade": null,
+        "height_climbing_wall": null,
+        "via_ferrata_difficulty": null,
+        "ski_tour_difficulty": null,
+        "mountaineering_sacphoto_ids": [
+            3384,
+            3385,
+            3386,
+            3387,
+            3388,
+            1629,
+            1630,
+            1631
+        ],
+        "sac_poi_id": 11,
+        "x_coordinate": 773707.4447707273,
+        "y_coordinate": 153618.2747446463,
+        "change_date": "2023-03-30 12:14:32",
+        "sac_photos": [
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 3384,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1603816271_1064189400Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1603816271_1064189400master.jpg",
+                "photo_sac_id": 282304,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1603816271_1064189400.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1603816271_1064189400M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1603816271_1064189400Mc.jpg",
+                "title": "In the ascent on the south side of the Ava da las Tigias."
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 3385,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1603816271_231418098Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1603816271_231418098master.jpg",
+                "photo_sac_id": 282302,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1603816271_231418098.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1603816271_231418098M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1603816271_231418098Mc.jpg",
+                "title": "The pasture landscape near Malpass."
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 3386,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1603816271_414751897Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1603816271_414751897master.jpg",
+                "photo_sac_id": 282303,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1603816271_414751897.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1603816271_414751897M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1603816271_414751897Mc.jpg",
+                "title": "Easy scramble passages on the southwest ridge of the Piz d'Agnel."
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 3387,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1536328509_1814675290Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1536328509_1814675290master.jpg",
+                "photo_sac_id": 257687,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1536328509_1814675290.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1536328509_1814675290M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1536328509_1814675290Mc.jpg",
+                "title": "Piz d'Agnel (to the left of the centre) viewed from the glacier forefield (alternative descent)"
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 3388,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1603817001_446433563Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1603817001_446433563master.jpg",
+                "photo_sac_id": 257689,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1603817001_446433563.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1603817001_446433563M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1603817001_446433563Mc.jpg",
+                "title": "View back to the Piz d'Agnel."
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 1629,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1536328164_477117727Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1536328164_477117727master.jpg",
+                "photo_sac_id": 257684,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1536328164_477117727.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1536328164_477117727M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1536328164_477117727Mc.jpg",
+                "title": "Shortly before the exposed summit of Piz d'Agnel"
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 1630,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1603816327_1100237474Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1603816327_1100237474master.jpg",
+                "photo_sac_id": 257685,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1603816327_1100237474.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1603816327_1100237474M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1603816327_1100237474Mc.jpg",
+                "title": "At Lai Blo; in the background are Piz Platta (right), Piz Forbesch and Piz Arblatsch."
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 1631,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1536328164_709272678Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1536328164_709272678master.jpg",
+                "photo_sac_id": 257686,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1536328164_709272678.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1536328164_709272678M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1536328164_709272678Mc.jpg",
+                "title": "Piz d'Agnel (to the left of the centre) viewed from the glacier snout of Vadret d’Agnel (alternative descent)"
+            }
+        ]
+    }
+}

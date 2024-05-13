@@ -1,1 +1,120 @@
-{"type":"Feature","id":165,"geometry":{"type":"Point","coordinates":[46.833725682323056,8.332505552505067]},"properties":{"id":165,"land":null,"category":"all","language":"en","type":"Mountaineering","ascent_altitude":1000,"ascent_time_max":180,"sac_chm_route":true,"sac_created":"2019-11-11 10:38:21","descent_altitude":1000,"descent_time_max":135,"descent_time_min":null,"sac_orig_id":897,"sac_modified":"2019-11-11 10:38:24","sac_status":"published","poi_title":"Widderfeld Stock","abstract":"Widderfeld, Bockistock, Chalberdössli, Chüematt, Stierendossen, Geissberg, Hüenderstuben, Rosswang, Ochsenmatt, Schafbandschnauz: the names around Widderfeld Stock, on the border between the cantons of Ob- and Nidwalden, seem to assemble the region’s entire universe of farm animals. Widder = ram; Bock = billy goat; Chalb = calf; Chüe = cows; Stier = bull; Geiss = goat; Hüender = chickens; Ross = horse; Ochs = oxen; Schaf = sheep. No wonder that there is also a Hüethütte, Hirtplanggen, Läckchänel, Melchplatz, Mälchgaden and Metzgerplanggen. Hüet = herd; Hirt = herder; Läck = lick; Melch = to milk; Metzger = butcher. And if you search thoroughly there is even a Wolfisalp (Wolf = wolf).","subtitle":"Ross, Chalber and Metzger on Widderfeld","title":"Eggen - Widderfeld Stock – Eggen","sac_type":"mountain_hiking","mountain_hiking_difficulty":"T4","alpine_tour_difficulty":null,"alpine_climbing_difficulty":null,"grade":null,"height_climbing_wall":null,"via_ferrata_difficulty":null,"ski_tour_difficulty":null,"mountaineering_sacphoto_ids":[2801,2800,2799,2798,506,507],"sac_poi_id":6152,"x_coordinate":668194.3938316253,"y_coordinate":187342.96350667864,"change_date":"2023-03-30 12:14:02","sac_photos":[{"change_date":"2023-03-30 12:08:27","id":2801,"photo_big":"https://static.suissealpine.sac-cas.ch/1513768681_227288695Ma.jpg","photo_master":"https://static.suissealpine.sac-cas.ch/1513768681_227288695master.jpg","photo_sac_id":248168,"photo_sac_original":"https://static.suissealpine.sac-cas.ch/1513768681_227288695.jpg","photo_small":"https://static.suissealpine.sac-cas.ch/1513768681_227288695M.jpg","photo_standard":"https://static.suissealpine.sac-cas.ch/1513768681_227288695Mc.jpg","title":"On schrofen terrain the trail leads down to Rosswang."},{"change_date":"2023-03-30 12:08:27","id":2800,"photo_big":"https://static.suissealpine.sac-cas.ch/1513768617_486359174Ma.jpg","photo_master":"https://static.suissealpine.sac-cas.ch/1513768617_486359174master.jpg","photo_sac_id":248167,"photo_sac_original":"https://static.suissealpine.sac-cas.ch/1513768617_486359174.jpg","photo_small":"https://static.suissealpine.sac-cas.ch/1513768617_486359174M.jpg","photo_standard":"https://static.suissealpine.sac-cas.ch/1513768617_486359174Mc.jpg","title":"Down to Bockihütte, in the background is Widderfeld Stock"},{"change_date":"2023-03-30 12:08:27","id":2799,"photo_big":"https://static.suissealpine.sac-cas.ch/1513768479_1652103806Ma.jpg","photo_master":"https://static.suissealpine.sac-cas.ch/1513768479_1652103806master.jpg","photo_sac_id":248165,"photo_sac_original":"https://static.suissealpine.sac-cas.ch/1513768479_1652103806.jpg","photo_small":"https://static.suissealpine.sac-cas.ch/1513768479_1652103806M.jpg","photo_standard":"https://static.suissealpine.sac-cas.ch/1513768479_1652103806Mc.jpg","title":"A small rocky tower before the summit"},{"change_date":"2023-03-30 12:08:27","id":2798,"photo_big":"https://static.suissealpine.sac-cas.ch/1513768433_1402330300Ma.jpg","photo_master":"https://static.suissealpine.sac-cas.ch/1513768433_1402330300master.jpg","photo_sac_id":248164,"photo_sac_original":"https://static.suissealpine.sac-cas.ch/1513768433_1402330300.jpg","photo_small":"https://static.suissealpine.sac-cas.ch/1513768433_1402330300M.jpg","photo_standard":"https://static.suissealpine.sac-cas.ch/1513768433_1402330300Mc.jpg","title":"The trail zigzags up Chrachen, fixed ropes are now installed there."},{"change_date":"2023-03-30 12:08:27","id":506,"photo_big":"https://static.suissealpine.sac-cas.ch/1573463953_1276294979Ma.jpg","photo_master":"https://static.suissealpine.sac-cas.ch/1573463953_1276294979master.jpg","photo_sac_id":248166,"photo_sac_original":"https://static.suissealpine.sac-cas.ch/1573463953_1276294979.jpg","photo_small":"https://static.suissealpine.sac-cas.ch/1573463953_1276294979M.jpg","photo_standard":"https://static.suissealpine.sac-cas.ch/1573463953_1276294979Mc.jpg","title":"On the way to Bockigrat, Stierendossen and Bockistock"},{"change_date":"2023-03-30 12:08:27","id":507,"photo_big":"https://static.suissealpine.sac-cas.ch/1513768358_1056143791Ma.jpg","photo_master":"https://static.suissealpine.sac-cas.ch/1513768358_1056143791master.jpg","photo_sac_id":248163,"photo_sac_original":"https://static.suissealpine.sac-cas.ch/1513768358_1056143791.jpg","photo_small":"https://static.suissealpine.sac-cas.ch/1513768358_1056143791M.jpg","photo_standard":"https://static.suissealpine.sac-cas.ch/1513768358_1056143791Mc.jpg","title":"The massive silhouette of Widderfeld Stock"}]}}
+{
+    "type": "Feature",
+    "id": 165,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.83372568245043,
+            8.332505527430078
+        ]
+    },
+    "properties": {
+        "id": 165,
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "type": "Mountaineering",
+        "ascent_altitude": 1000,
+        "ascent_time_max": 180,
+        "sac_chm_route": true,
+        "sac_created": "2019-11-11 10:38:21",
+        "descent_altitude": 1000,
+        "descent_time_max": 135,
+        "descent_time_min": null,
+        "sac_orig_id": 897,
+        "sac_modified": "2019-11-11 10:38:24",
+        "sac_status": "published",
+        "poi_title": "Widderfeld Stock",
+        "abstract": "Widderfeld, Bockistock, Chalberdössli, Chüematt, Stierendossen, Geissberg, Hüenderstuben, Rosswang, Ochsenmatt, Schafbandschnauz: the names around Widderfeld Stock, on the border between the cantons of Ob- and Nidwalden, seem to assemble the region’s entire universe of farm animals. Widder = ram; Bock = billy goat; Chalb = calf; Chüe = cows; Stier = bull; Geiss = goat; Hüender = chickens; Ross = horse; Ochs = oxen; Schaf = sheep. No wonder that there is also a Hüethütte, Hirtplanggen, Läckchänel, Melchplatz, Mälchgaden and Metzgerplanggen. Hüet = herd; Hirt = herder; Läck = lick; Melch = to milk; Metzger = butcher. And if you search thoroughly there is even a Wolfisalp (Wolf = wolf).",
+        "subtitle": "Ross, Chalber and Metzger on Widderfeld",
+        "title": "Eggen - Widderfeld Stock – Eggen",
+        "sac_type": "mountain_hiking",
+        "mountain_hiking_difficulty": "T4",
+        "alpine_tour_difficulty": null,
+        "alpine_climbing_difficulty": null,
+        "grade": null,
+        "height_climbing_wall": null,
+        "via_ferrata_difficulty": null,
+        "ski_tour_difficulty": null,
+        "mountaineering_sacphoto_ids": [
+            2801,
+            2800,
+            2799,
+            2798,
+            506,
+            507
+        ],
+        "sac_poi_id": 6152,
+        "x_coordinate": 668194.3938316253,
+        "y_coordinate": 187342.96350667864,
+        "change_date": "2023-03-30 12:14:02",
+        "sac_photos": [
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 2801,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1513768681_227288695Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1513768681_227288695master.jpg",
+                "photo_sac_id": 248168,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1513768681_227288695.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1513768681_227288695M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1513768681_227288695Mc.jpg",
+                "title": "On schrofen terrain the trail leads down to Rosswang."
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 2800,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1513768617_486359174Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1513768617_486359174master.jpg",
+                "photo_sac_id": 248167,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1513768617_486359174.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1513768617_486359174M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1513768617_486359174Mc.jpg",
+                "title": "Down to Bockihütte, in the background is Widderfeld Stock"
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 2799,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1513768479_1652103806Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1513768479_1652103806master.jpg",
+                "photo_sac_id": 248165,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1513768479_1652103806.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1513768479_1652103806M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1513768479_1652103806Mc.jpg",
+                "title": "A small rocky tower before the summit"
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 2798,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1513768433_1402330300Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1513768433_1402330300master.jpg",
+                "photo_sac_id": 248164,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1513768433_1402330300.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1513768433_1402330300M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1513768433_1402330300Mc.jpg",
+                "title": "The trail zigzags up Chrachen, fixed ropes are now installed there."
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 506,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1573463953_1276294979Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1573463953_1276294979master.jpg",
+                "photo_sac_id": 248166,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1573463953_1276294979.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1573463953_1276294979M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1573463953_1276294979Mc.jpg",
+                "title": "On the way to Bockigrat, Stierendossen and Bockistock"
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 507,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1513768358_1056143791Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1513768358_1056143791master.jpg",
+                "photo_sac_id": 248163,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1513768358_1056143791.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1513768358_1056143791M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1513768358_1056143791Mc.jpg",
+                "title": "The massive silhouette of Widderfeld Stock"
+            }
+        ]
+    }
+}

@@ -1,1 +1,84 @@
-{"type":"Feature","id":149,"geometry":{"type":"Point","coordinates":[46.92787262697932,8.544279804526063]},"properties":{"id":149,"land":null,"category":"all","language":"en","type":"Mountaineering","ascent_altitude":1470,"ascent_time_max":240,"sac_chm_route":true,"sac_created":"2020-05-04 10:08:27","descent_altitude":1480,"descent_time_max":165,"descent_time_min":null,"sac_orig_id":809,"sac_modified":"2020-05-04 10:08:30","sac_status":"published","poi_title":"Oberbauenstock","abstract":"From Flüelen they look like two almost identical pictures of the same mountain: the Bauenstöcke. From a close range, however, Niderbauen Chulm (formerly called «Seelisbergerkulm») and Oberbauenstock («Baberg») turn out to be totally different characters, in terms of hiking as well as the landscape, which makes the traverse even more interesting. This is a Lake Lucerne tour par excellence, due to the central position directly above the lake.","subtitle":"Bauenstöcke: neighbours, but very different from each other","title":"Traverse from Niderbauen Chulm to Stockhütte","sac_type":"mountain_hiking","mountain_hiking_difficulty":"T4+","alpine_tour_difficulty":null,"alpine_climbing_difficulty":null,"grade":null,"height_climbing_wall":null,"via_ferrata_difficulty":null,"ski_tour_difficulty":null,"mountaineering_sacphoto_ids":[473,474,475],"sac_poi_id":1313,"x_coordinate":684202.0564613375,"y_coordinate":198013.23163301815,"change_date":"2023-03-30 12:14:01","sac_photos":[{"change_date":"2023-03-30 12:08:27","id":473,"photo_big":"https://static.suissealpine.sac-cas.ch/1513343786_861097896Ma.jpg","photo_master":"https://static.suissealpine.sac-cas.ch/1513343786_861097896master.jpg","photo_sac_id":247940,"photo_sac_original":"https://static.suissealpine.sac-cas.ch/1513343786_861097896.jpg","photo_small":"https://static.suissealpine.sac-cas.ch/1513343786_861097896M.jpg","photo_standard":"https://static.suissealpine.sac-cas.ch/1513343786_861097896Mc.jpg","title":"To the left of the rocky Oberbauenstock the gentle dome of Niderbauen Chulm is visible."},{"change_date":"2023-03-30 12:08:27","id":474,"photo_big":"https://static.suissealpine.sac-cas.ch/1513344014_516627004Ma.jpg","photo_master":"https://static.suissealpine.sac-cas.ch/1513344014_516627004master.jpg","photo_sac_id":247942,"photo_sac_original":"https://static.suissealpine.sac-cas.ch/1513344014_516627004.jpg","photo_small":"https://static.suissealpine.sac-cas.ch/1513344014_516627004M.jpg","photo_standard":"https://static.suissealpine.sac-cas.ch/1513344014_516627004Mc.jpg","title":"The scrambling passages on the ascent to Oberbauenstock."},{"change_date":"2023-03-30 12:08:27","id":475,"photo_big":"https://static.suissealpine.sac-cas.ch/1513344080_1154043125Ma.jpg","photo_master":"https://static.suissealpine.sac-cas.ch/1513344080_1154043125master.jpg","photo_sac_id":247943,"photo_sac_original":"https://static.suissealpine.sac-cas.ch/1513344080_1154043125.jpg","photo_small":"https://static.suissealpine.sac-cas.ch/1513344080_1154043125M.jpg","photo_standard":"https://static.suissealpine.sac-cas.ch/1513344080_1154043125Mc.jpg","title":"A long, mostly grassy ridge leads from Oberbauenstock to Lückli."}]}}
+{
+    "type": "Feature",
+    "id": 149,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.92787262681779,
+            8.544279817540804
+        ]
+    },
+    "properties": {
+        "id": 149,
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "type": "Mountaineering",
+        "ascent_altitude": 1470,
+        "ascent_time_max": 240,
+        "sac_chm_route": true,
+        "sac_created": "2020-05-04 10:08:27",
+        "descent_altitude": 1480,
+        "descent_time_max": 165,
+        "descent_time_min": null,
+        "sac_orig_id": 809,
+        "sac_modified": "2020-05-04 10:08:30",
+        "sac_status": "published",
+        "poi_title": "Oberbauenstock",
+        "abstract": "From Flüelen they look like two almost identical pictures of the same mountain: the Bauenstöcke. From a close range, however, Niderbauen Chulm (formerly called «Seelisbergerkulm») and Oberbauenstock («Baberg») turn out to be totally different characters, in terms of hiking as well as the landscape, which makes the traverse even more interesting. This is a Lake Lucerne tour par excellence, due to the central position directly above the lake.",
+        "subtitle": "Bauenstöcke: neighbours, but very different from each other",
+        "title": "Traverse from Niderbauen Chulm to Stockhütte",
+        "sac_type": "mountain_hiking",
+        "mountain_hiking_difficulty": "T4+",
+        "alpine_tour_difficulty": null,
+        "alpine_climbing_difficulty": null,
+        "grade": null,
+        "height_climbing_wall": null,
+        "via_ferrata_difficulty": null,
+        "ski_tour_difficulty": null,
+        "mountaineering_sacphoto_ids": [
+            473,
+            474,
+            475
+        ],
+        "sac_poi_id": 1313,
+        "x_coordinate": 684202.0564613375,
+        "y_coordinate": 198013.23163301815,
+        "change_date": "2023-03-30 12:14:01",
+        "sac_photos": [
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 473,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1513343786_861097896Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1513343786_861097896master.jpg",
+                "photo_sac_id": 247940,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1513343786_861097896.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1513343786_861097896M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1513343786_861097896Mc.jpg",
+                "title": "To the left of the rocky Oberbauenstock the gentle dome of Niderbauen Chulm is visible."
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 474,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1513344014_516627004Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1513344014_516627004master.jpg",
+                "photo_sac_id": 247942,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1513344014_516627004.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1513344014_516627004M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1513344014_516627004Mc.jpg",
+                "title": "The scrambling passages on the ascent to Oberbauenstock."
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 475,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1513344080_1154043125Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1513344080_1154043125master.jpg",
+                "photo_sac_id": 247943,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1513344080_1154043125.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1513344080_1154043125M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1513344080_1154043125Mc.jpg",
+                "title": "A long, mostly grassy ridge leads from Oberbauenstock to Lückli."
+            }
+        ]
+    }
+}

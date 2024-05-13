@@ -1,8 +1,9 @@
 const fs = require('fs')
 
 async function downloadFile(name, id, filePath, isPoint) {
+  const url = `https://map.schweizmobil.ch/api/4/query/featuresmultilayers?attributes=yes&translated=true&language=en&${name}=${id}`
+
   try {
-    const url = `https://map.schweizmobil.ch/api/4/query/featuresmultilayers?attributes=yes&translated=true&language=en&${name}=${id}`
     const json = await getFile(url)
 
     const features = json.features
@@ -14,12 +15,12 @@ async function downloadFile(name, id, filePath, isPoint) {
     if (features.length === 1) {
       const route = features[0]
       const coordinates = route.geometry.coordinates
-      const newCoordinates = []
+      let newCoordinates = []
 
       if (isPoint) {
         const y = parseInt(coordinates[0])
         const x = parseInt(coordinates[1])
-        newCoordinates.push(getPoint(y, x))
+        newCoordinates = getPoint(y, x)
       } else {
         for (let i = 0; i < coordinates.length; i++) {
           const stage = coordinates[i]
@@ -111,11 +112,11 @@ async function downloadPoint(group, folder, type) {
   for (let i = 0; i < ids.length; i++) {
     const id = ids[i]
     console.log(`${folder.toUpperCase()}: ${id} (${parseInt((i / ids.length) * 100)}%)`)
-    const filePath = `output/data/${group}/${folder}/${id}.json`
+    const filePath = `public/data/${group}/${folder}/${id}.json`
     await downloadFile(type, id, filePath, true)
   }
 
-  writeFile(`output/index/${group}/${folder}.json`, ids);
+  writeFile(`functions/static/index/${group}/${folder}.json`, ids);
 }
 
 module.exports = {

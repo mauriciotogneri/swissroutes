@@ -1,1 +1,60 @@
-{"type":"Feature","id":205,"geometry":{"type":"Point","coordinates":[46.42976273244232,8.725889124711891]},"properties":{"id":205,"land":null,"category":"all","language":"en","type":"Mountaineering","ascent_altitude":950,"ascent_time_max":150,"sac_chm_route":true,"sac_created":"2020-06-26 13:46:17","descent_altitude":2300,"descent_time_max":240,"descent_time_min":null,"sac_orig_id":1019,"sac_modified":"2020-06-26 13:46:27","sac_status":"published","poi_title":"Pizzo Campo Tencia","abstract":"The canton of Ticino counts 50 threethousanders, but most of them are shared with its neighbours The Grisons, Uri, Valais and Italy. But not so Pizzo Campo Tencia: it is the highest all Ticino summit. In old pictures you can see that it was a heavily glaciered summit with huge seracs, and the first ascent in 1867 required many complicated detours. The glaciers have shrunk considerably in the meantime, and easier routes were discovered. Therefore, Pizzo Campo Tencia has become a premium target for alpine hikers.","subtitle":"Un tremila tutto ticinese (an all Ticino threethousander)","title":"From Capanna Campo Tencia CAS via Pizzo Campo Tencia to Prato","sac_type":"mountain_hiking","mountain_hiking_difficulty":"T4+","alpine_tour_difficulty":null,"alpine_climbing_difficulty":null,"grade":null,"height_climbing_wall":null,"via_ferrata_difficulty":null,"ski_tour_difficulty":null,"mountaineering_sacphoto_ids":[594],"sac_poi_id":291,"x_coordinate":698940.07241269,"y_coordinate":142858.19201376784,"change_date":"2023-03-30 12:14:06","sac_photos":[{"change_date":"2023-03-30 12:08:27","id":594,"photo_big":"https://static.suissealpine.sac-cas.ch/1597815208_539423025Ma.jpg","photo_master":"https://static.suissealpine.sac-cas.ch/1597815208_539423025master.jpg","photo_sac_id":248639,"photo_sac_original":"https://static.suissealpine.sac-cas.ch/1597815208_539423025.jpg","photo_small":"https://static.suissealpine.sac-cas.ch/1597815208_539423025M.jpg","photo_standard":"https://static.suissealpine.sac-cas.ch/1597815208_539423025Mc.jpg","title":"The snow-covered Pizzo Campo Tencia viewed from Matro in an unusual perspective, to the right is Pizzo Forno"}]}}
+{
+    "type": "Feature",
+    "id": 205,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.429762738238146,
+            8.72588912565599
+        ]
+    },
+    "properties": {
+        "id": 205,
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "type": "Mountaineering",
+        "ascent_altitude": 950,
+        "ascent_time_max": 150,
+        "sac_chm_route": true,
+        "sac_created": "2020-06-26 13:46:17",
+        "descent_altitude": 2300,
+        "descent_time_max": 240,
+        "descent_time_min": null,
+        "sac_orig_id": 1019,
+        "sac_modified": "2020-06-26 13:46:27",
+        "sac_status": "published",
+        "poi_title": "Pizzo Campo Tencia",
+        "abstract": "The canton of Ticino counts 50 threethousanders, but most of them are shared with its neighbours The Grisons, Uri, Valais and Italy. But not so Pizzo Campo Tencia: it is the highest all Ticino summit. In old pictures you can see that it was a heavily glaciered summit with huge seracs, and the first ascent in 1867 required many complicated detours. The glaciers have shrunk considerably in the meantime, and easier routes were discovered. Therefore, Pizzo Campo Tencia has become a premium target for alpine hikers.",
+        "subtitle": "Un tremila tutto ticinese (an all Ticino threethousander)",
+        "title": "From Capanna Campo Tencia CAS via Pizzo Campo Tencia to Prato",
+        "sac_type": "mountain_hiking",
+        "mountain_hiking_difficulty": "T4+",
+        "alpine_tour_difficulty": null,
+        "alpine_climbing_difficulty": null,
+        "grade": null,
+        "height_climbing_wall": null,
+        "via_ferrata_difficulty": null,
+        "ski_tour_difficulty": null,
+        "mountaineering_sacphoto_ids": [
+            594
+        ],
+        "sac_poi_id": 291,
+        "x_coordinate": 698940.07241269,
+        "y_coordinate": 142858.19201376784,
+        "change_date": "2023-03-30 12:14:06",
+        "sac_photos": [
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 594,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1597815208_539423025Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1597815208_539423025master.jpg",
+                "photo_sac_id": 248639,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1597815208_539423025.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1597815208_539423025M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1597815208_539423025Mc.jpg",
+                "title": "The snow-covered Pizzo Campo Tencia viewed from Matro in an unusual perspective, to the right is Pizzo Forno"
+            }
+        ]
+    }
+}
