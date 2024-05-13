@@ -76,7 +76,7 @@ async function getFile(url) {
 }
 
 function writeFile(filePath, json) {
-  const content = JSON.stringify(json, null, 4)
+  const content = JSON.stringify(json)
   fs.writeFileSync(filePath, content, 'utf-8')
 }
 
@@ -124,7 +124,7 @@ async function getIds(type) {
 async function downloadRoute(id, group, type, folder, total) {
   console.log(`${group}-${type}: ${id} (${parseInt((id / total) * 100)}%)`)
   const filePath = `public/data/${folder}/${id}.json`
-  
+
   return downloadFile(`${group}${type}`, id, filePath, false)
 }
 
