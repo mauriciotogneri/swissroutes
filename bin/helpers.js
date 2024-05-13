@@ -13,8 +13,8 @@ async function downloadFile(name, id, filePath, isPoint) {
     }
 
     if (features.length === 1) {
-      const route = features[0]
-      const coordinates = route.geometry.coordinates
+      const element = features[0]
+      const coordinates = element.geometry.coordinates
       let newCoordinates = []
 
       if (isPoint) {
@@ -39,13 +39,32 @@ async function downloadFile(name, id, filePath, isPoint) {
         }
       }
 
-      route.geometry.coordinates = newCoordinates
+      element.geometry.coordinates = newCoordinates
 
-      writeFile(filePath, route)
+      const properties = element.properties
+      properties.street = sanitize(properties.street)
+      properties.zip = sanitize(properties.zip)
+      properties.place = sanitize(properties.place)
+      properties.tel = sanitize(properties.tel)
+      properties.email = sanitize(properties.email)
+      properties.abstract = sanitize(properties.abstract)
+      properties.description = sanitize(properties.description)
+      properties.highlights = sanitize(properties.highlights)
+      properties.title = sanitize(properties.title)
+      properties.name = sanitize(properties.name)
+      properties.url1_link = sanitize(properties.url1_link)
+      properties.url2_link = sanitize(properties.url2_link)
+      properties.url_sightseeing = sanitize(properties.url_sightseeing)
+
+      writeFile(filePath, element)
     }
   } catch (e) {
     console.log(`Error downloading file: ${url}\n${e.toString()}`)
   }
+}
+
+function sanitize(value) {
+  return value ? value.trim() : value
 }
 
 async function getFile(url) {
