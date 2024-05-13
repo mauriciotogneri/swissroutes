@@ -541,7 +541,7 @@ function getGallery(json) {
   } else if (json.properties.photo_gallery_small?.length > 0) {
     return json.properties.photo_gallery_small
   } else if (json.properties.sac_photos?.length > 0) {
-    return json.properties.sac_photos.map((e) => e.photo_standard)
+    return json.properties.sac_photos.map((e) => e.photo_big)
   } else if (json.properties.foto) {
     return [json.properties.foto]
   } else {
