@@ -46,7 +46,7 @@ export const website = onRequest((request, response) => {
 
 const fillIds = (content: string, name: string, path: string): string => {
   const base = `const ${name} = `;
-  const ids = JSON.parse(fs.readFileSync(`static/data/${path}.json`, 'utf-8'));
+  const ids = JSON.parse(fs.readFileSync(`static/index/${path}.json`, 'utf-8'));
 
   return content.replace(`${base}[]`, `${base}${JSON.stringify(ids)}`);
 };
