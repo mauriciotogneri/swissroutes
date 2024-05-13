@@ -107,25 +107,18 @@ async function downloadRoute(id, group, type, folder) {
 
 async function downloadPoint(group, folder, type) {
   const ids = await getIds(type)
-  const result = []
-  let counter = 0
 
-  for (const id of ids) {
-    result.push(id)
-    console.log(`${folder.toUpperCase()}: ${id} (${parseInt((counter / ids.length) * 100)}%)`)
+  for (let i = 0; i < ids.length; i++) {
+    const id = ids[i]
+    console.log(`${folder.toUpperCase()}: ${id} (${parseInt((i / ids.length) * 100)}%)`)
     const filePath = `output/data/${group}/${folder}/${id}.json`
     await downloadFile(type, id, filePath, true)
-    counter++
   }
 
-  fs.writeFileSync(`output/index/${group}/${folder}.json`, JSON.stringify(result, null, 4), 'utf-8');
-
-  return result
+  fs.writeFileSync(`output/index/${group}/${folder}.json`, JSON.stringify(ids, null, 4), 'utf-8');
 }
 
 module.exports = {
-  downloadFile,
-  getIds,
   downloadRoute,
   downloadPoint,
 }
