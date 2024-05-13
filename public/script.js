@@ -147,7 +147,7 @@ function refreshMountainHike() {
   const mountainHikeChecked = document.getElementById('checkboxMountainHike').checked
 
   if (mountainHikeChecked) {
-    for (const id of OTHER_MOUNTAINHIKE_IDS) {
+    for (const id of MOUNTAINHIKE_IDS) {
       loadMountainHike(`other/mountainhike/${id}.json`)
     }
   }

@@ -29,6 +29,9 @@ export const website = onRequest((request, response) => {
   template = fillIds(template, 'HIKING_REGIONAL_IDS', 'hiking/regional');
   template = fillIds(template, 'HIKING_LOCAL_IDS', 'hiking/local');
 
+  // other
+  template = fillIds(template, 'MOUNTAINHIKE_IDS', 'other/mountainhike');
+
   // accommodation
   template = fillIds(template, 'ACCOMMODATION_BACKPACKER_IDS', 'accommodation/backpacker');
   template = fillIds(template, 'ACCOMMODATION_CAMPING_IDS', 'accommodation/camping');
@@ -37,7 +40,6 @@ export const website = onRequest((request, response) => {
   template = fillIds(template, 'ACCOMMODATION_SLEEPINGSTRAW_IDS', 'accommodation/sleepingstraw');
 
   // other
-  template = fillIds(template, 'OTHER_MOUNTAINHIKE_IDS', 'other/mountainhike');
   template = fillIds(template, 'OTHER_SERVICESHOP_IDS', 'other/serviceshop');
   template = fillIds(template, 'OTHER_SIGHTSEEING_IDS', 'other/sightseeing');
 
