@@ -1,1 +1,34 @@
-{"type":"Feature","id":2842,"geometry":{"type":"Point","coordinates":[46.960354078379204,7.454350662913719]},"properties":{"land":"\"velo\",\"mountainbike\"","category":"all","language":"en","title":"Arthur Fegbli + Co.","abstract":null,"name":"Arthur Fegbli + Co.","street":"Stauffacherstrasse 13","zip":"3000","place":"Bern 22","tel":"+41 31 331 79 44","email":null,"url1_text":null,"url1_link":null,"organisation":"2rad / 2routes / 2ruote","foto":null,"x_coordinate":601196.322377581,"y_coordinate":201031.4638299146,"change_date":null,"id":50,"type":"Service"}}
+{
+    "type": "Feature",
+    "id": 2842,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.96035407792306,
+            7.454350662564908
+        ]
+    },
+    "properties": {
+        "land": "\"velo\",\"mountainbike\"",
+        "category": "all",
+        "language": "en",
+        "title": "Arthur Fegbli + Co.",
+        "abstract": null,
+        "name": "Arthur Fegbli + Co.",
+        "street": "Stauffacherstrasse 13",
+        "zip": "3000",
+        "place": "Bern 22",
+        "tel": "+41 31 331 79 44",
+        "email": null,
+        "url1_text": null,
+        "url1_link": null,
+        "organisation": "2rad / 2routes / 2ruote",
+        "foto": null,
+        "foto_abstract": null,
+        "x_coordinate": 601196.322377581,
+        "y_coordinate": 201031.4638299146,
+        "change_date": null,
+        "id": 50,
+        "type": "Service"
+    }
+}

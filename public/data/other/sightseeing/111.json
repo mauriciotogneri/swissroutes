@@ -1,54 +1,60 @@
 {
-  "type": "Feature",
-  "id": 111,
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      46.17350693875044,
-      7.418696182501342
-    ]
-  },
-  "properties": {
-    "land": null,
-    "category": "all",
-    "language": "en",
-    "title": "The bizarre pyramids of Euseigne",
-    "abstract": "The bizarre pyramid rocks of Euseigne in the canton of Valais were formed by erosion processes. Blocks of stone on top of the pyramids protect the softer moraine material below from erosion.",
-    "description": "The bizarre pyramids of Euseigne, a very special natural phenomenon, can be found and marvelled at where the Val d’Hérence and Val d’Hérémence valleys divide. The 10 to 15-metre high stone formations were formed by erosion processes. Top stones perch on the summit of the pyramids. These consist of harder material than the moraine material beneath them. Thanks to the top stones the pyramids themselves were protected against erosion. However, even they – symbols of transience – will be worn down sooner or later.",
-    "highlights": null,
-    "foto": "https://images0.schweizmobil.ch/image/24_Pyramides-d'Euseigne-1-5.jpg",
-    "photo_gallery": [
-      "https://images0.schweizmobil.ch/image/24_Pyramides-d'Euseigne-1-5.jpg",
-      "https://images0.schweizmobil.ch/image/24_Euseigne-Pyramides1.jpg"
-    ],
-    "photo_gallery_big": [
-      "",
-      ""
-    ],
-    "photo_gallery_copyright": [
-      "",
-      ""
-    ],
-    "photo_gallery_author": [
-      "",
-      ""
-    ],
-    "name": "Bundesamt für Umwelt",
-    "name_2": null,
-    "street": "und Naturdenkmäler von nationaler Bedeutung (BLN)",
-    "zip": "BLN-Objekt-Nr.",
-    "place": "1708",
-    "tel": "",
-    "fax": null,
-    "email": "bln@bafu.admin.ch",
-    "url1_link": "https://www.bafu.admin.ch/bln",
-    "x_coordinate": 598460.3796553529,
-    "y_coordinate": 113560.105720891,
-    "change_date": null,
+    "type": "Feature",
     "id": 111,
-    "r_key": 111,
-    "type": "Sight",
-    "url_sightseeing": "https://www.bafu.admin.ch/bln",
-    "touristic_region": 11
-  }
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.17350691138394,
+            7.418696182101808
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "The bizarre pyramids of Euseigne",
+        "abstract": "The bizarre pyramid rocks of Euseigne in the canton of Valais were formed by erosion processes. Blocks of stone on top of the pyramids protect the softer moraine material below from erosion.",
+        "description": "The bizarre pyramids of Euseigne, a very special natural phenomenon, can be found and marvelled at where the Val d’Hérence and Val d’Hérémence valleys divide. The 10 to 15-metre high stone formations were formed by erosion processes. Top stones perch on the summit of the pyramids. These consist of harder material than the moraine material beneath them. Thanks to the top stones the pyramids themselves were protected against erosion. However, even they – symbols of transience – will be worn down sooner or later.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/24_Pyramides-d'Euseigne-1-5.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/24_Pyramides-d'Euseigne-1-5.jpg",
+            "https://images.schweizmobil.ch/image/24_Euseigne-Pyramides1.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "Bundesamt für Umwelt",
+        "name_2": null,
+        "street": "und Naturdenkmäler von nationaler Bedeutung (BLN)",
+        "zip": "BLN-Objekt-Nr.",
+        "place": "1708",
+        "tel": "-",
+        "fax": null,
+        "email": "bln@bafu.admin.ch",
+        "url1_link": "https://www.bafu.admin.ch/bln",
+        "x_coordinate": 598460.3796553529,
+        "y_coordinate": 113560.105720891,
+        "change_date": null,
+        "id": 111,
+        "r_key": 111,
+        "type": "Sight",
+        "url_sightseeing": "https://www.bafu.admin.ch/bln",
+        "touristic_region": 11,
+        "canton": 7
+    }
 }

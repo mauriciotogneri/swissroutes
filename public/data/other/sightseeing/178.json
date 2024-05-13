@@ -1,1 +1,60 @@
-{"type":"Feature","id":178,"geometry":{"type":"Point","coordinates":[46.385530701668465,7.637903235565062]},"properties":{"land":null,"category":"all","language":"en","title":"Thermal canyon walk Dalaschlucht","abstract":"The path leads 600 meters into the gorge, the force of the water is almost within reach, along mossy rock faces, until you reach a 35 meter deep waterfall.","description":"Over narrow stairs the trail leads along the edge of the waterfall to its source, a spring. Perfectly shaped and almost artistically designed it lies in the Dala gorge - a pool of spiritual power, when you consider that, at the beginning of time, water had its origin in the middle of paradise.\n\nThe trail to the waterfall and the stairs is wheelchair-accessible and flanked by spectacular insights and views.","highlights":null,"foto":"https://images0.schweizmobil.ch/image/11342_Thermalquellensteg_Dalaschlucht_1a.jpg","photo_gallery":["https://images0.schweizmobil.ch/image/11342_Thermalquellensteg_Dalaschlucht_1a.jpg","https://images0.schweizmobil.ch/image/11342_Thermalquellensteg_Dalaschlucht_2b.jpg"],"photo_gallery_big":["",""],"photo_gallery_copyright":["",""],"photo_gallery_author":["",""],"name":"Leukerbad Tourismus","name_2":null,"street":"Rathaus","zip":"3954","place":"Leukerbad","tel":"+41 (0)27 472 71 71","fax":null,"email":"info@leukerbad.ch","url1_link":"https://www.leukerbad.ch","x_coordinate":615329.9941796387,"y_coordinate":137149.58193391917,"change_date":null,"id":178,"r_key":178,"type":"Sight","url_sightseeing":"http://www.leukerbad.ch/adventures/summer/hiking/thermal-canyon-walk/","touristic_region":11}}
+{
+    "type": "Feature",
+    "id": 178,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.38553067334069,
+            7.63790324054705
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Thermal canyon walk Dalaschlucht",
+        "abstract": "The path leads 600 meters into the gorge, the force of the water is almost within reach, along mossy rock faces, until you reach a 35 meter deep waterfall.",
+        "description": "Over narrow stairs the trail leads along the edge of the waterfall to its source, a spring. Perfectly shaped and almost artistically designed it lies in the Dala gorge - a pool of spiritual power, when you consider that, at the beginning of time, water had its origin in the middle of paradise.\n\nThe trail to the waterfall and the stairs is wheelchair-accessible and flanked by spectacular insights and views.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/11342_Thermalquellensteg_Dalaschlucht_1a.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/11342_Thermalquellensteg_Dalaschlucht_1a.jpg",
+            "https://images.schweizmobil.ch/image/11342_Thermalquellensteg_Dalaschlucht_2b.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "Leukerbad Tourismus",
+        "name_2": null,
+        "street": "Rathaus",
+        "zip": "3954",
+        "place": "Leukerbad",
+        "tel": "+41 (0)27 472 71 71",
+        "fax": null,
+        "email": "info@leukerbad.ch",
+        "url1_link": "https://www.leukerbad.ch",
+        "x_coordinate": 615329.9941796387,
+        "y_coordinate": 137149.58193391917,
+        "change_date": null,
+        "id": 178,
+        "r_key": 178,
+        "type": "Sight",
+        "url_sightseeing": "http://www.leukerbad.ch/adventures/summer/hiking/thermal-canyon-walk/",
+        "touristic_region": 11,
+        "canton": 7
+    }
+}

@@ -1,1 +1,34 @@
-{"type":"Feature","id":2954,"geometry":{"type":"Point","coordinates":[47.28313526324267,7.948184036750906]},"properties":{"land":"\"velo\",\"mountainbike\"","category":"all","language":"en","title":"Wullschleger Velo und Motorradsport AG","abstract":null,"name":"Wullschleger Velo und Motorradsport AG","street":"Luzernerstrasse 22","zip":"4800","place":"Zofingen","tel":"+41 62 751 42 70","email":null,"url1_text":null,"url1_link":"https://www.velomoto.ch","organisation":"2rad / 2routes / 2ruote","foto":null,"x_coordinate":638550.8197490129,"y_coordinate":237041.1378508212,"change_date":null,"id":173,"type":"Service"}}
+{
+    "type": "Feature",
+    "id": 2954,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            47.28313525408893,
+            7.948184028233546
+        ]
+    },
+    "properties": {
+        "land": "\"velo\",\"mountainbike\"",
+        "category": "all",
+        "language": "en",
+        "title": "Wullschleger Velo und Motorradsport AG",
+        "abstract": null,
+        "name": "Wullschleger Velo und Motorradsport AG",
+        "street": "Luzernerstrasse 22",
+        "zip": "4800",
+        "place": "Zofingen",
+        "tel": "+41 62 751 42 70",
+        "email": null,
+        "url1_text": null,
+        "url1_link": "https://www.velomoto.ch",
+        "organisation": "2rad / 2routes / 2ruote",
+        "foto": null,
+        "foto_abstract": null,
+        "x_coordinate": 638550.8197490129,
+        "y_coordinate": 237041.1378508212,
+        "change_date": null,
+        "id": 173,
+        "type": "Service"
+    }
+}

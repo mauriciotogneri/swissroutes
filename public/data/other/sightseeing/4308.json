@@ -1,0 +1,70 @@
+{
+    "type": "Feature",
+    "id": 4308,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.83899710666213,
+            8.17472914609986
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Pumptrack Sarneraatal",
+        "abstract": "The pump track is located at Giswil school. The main track is very varied with plenty of connections, a long straight section and big curves. The smaller Zinsli track is suitable for children and beginners and is well separated from the main one. All motorless roller sports equipment is permitted, such as bicycles, wheels, kickboards, in-lines and skateboards.",
+        "description": "Length main track: 230m \nLength  Zinsli-Track: 60m\nArea: 2000m2",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image-big/Pumptrack_Sarneraatal_4_g.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/Pumptrack_Sarneraatal_1_s.jpg",
+            "https://images.schweizmobil.ch/image/Pumptrack_Sarneraatal_2_s.jpg",
+            "https://images.schweizmobil.ch/image/Pumptrack_Sarneraatal_3_s.jpg",
+            "https://images.schweizmobil.ch/image/Pumptrack_Sarneraatal_4_s.jpg"
+        ],
+        "photo_gallery_big": [
+            "https://images.schweizmobil.ch/image-big/Pumptrack_Sarneraatal_1_g.jpg",
+            "https://images.schweizmobil.ch/image-big/Pumptrack_Sarneraatal_2_g.jpg",
+            "https://images.schweizmobil.ch/image-big/Pumptrack_Sarneraatal_3_g.jpg",
+            "https://images.schweizmobil.ch/image-big/Pumptrack_Sarneraatal_4_g.jpg"
+        ],
+        "photo_gallery_copyright": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "name": "Flow Bikeverein",
+        "name_2": null,
+        "street": "Schulhauspl. 4a",
+        "zip": "6072",
+        "place": "Sachseln",
+        "tel": "-",
+        "fax": null,
+        "email": "info@flow-bikeverein.ch",
+        "url1_link": "https://flow-bikeverein.ch",
+        "x_coordinate": 656152.9081810645,
+        "y_coordinate": 187803.82646997445,
+        "change_date": null,
+        "id": 4308,
+        "r_key": 4308,
+        "type": "Sight",
+        "url_sightseeing": "https://www.flow-bikeverein.ch/pumptrack",
+        "touristic_region": 4,
+        "canton": 18
+    }
+}

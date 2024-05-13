@@ -1,1 +1,34 @@
-{"type":"Feature","id":3070,"geometry":{"type":"Point","coordinates":[47.38048153012017,8.505117602376847]},"properties":{"land":"\"velo\",\"mountainbike\"","category":"all","language":"en","title":"Velowerkstatt SEB","abstract":null,"name":"Velowerkstatt SEB","street":"Badenerstrasse 437","zip":"8003","place":"Zürich","tel":"+41 44 404 78 00","email":null,"url1_text":null,"url1_link":"https://www.eam-zürich.ch","organisation":"2rad / 2routes / 2ruote","foto":null,"x_coordinate":680536.8864465933,"y_coordinate":248286.55722437438,"change_date":null,"id":307,"type":"Service"}}
+{
+    "type": "Feature",
+    "id": 3070,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            47.4151301572907,
+            8.533070030641513
+        ]
+    },
+    "properties": {
+        "land": "\"velo\",\"mountainbike\"",
+        "category": "all",
+        "language": "en",
+        "title": "Stadt Zürich SEB",
+        "abstract": null,
+        "name": "Stadt Zürich SEB",
+        "street": "Robert-Maillart-Strasse 14",
+        "zip": "8056",
+        "place": "Zürich",
+        "tel": "+41 44 404 78 00",
+        "email": null,
+        "url1_text": null,
+        "url1_link": "https://www.stadt-zuerich.ch/velowerkstatt",
+        "organisation": "2rad / 2routes / 2ruote",
+        "foto": null,
+        "foto_abstract": null,
+        "x_coordinate": 682593.6602741005,
+        "y_coordinate": 252167.73015864522,
+        "change_date": null,
+        "id": 307,
+        "type": "Service"
+    }
+}

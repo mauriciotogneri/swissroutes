@@ -1,1 +1,60 @@
-{"type":"Feature","id":77,"geometry":{"type":"Point","coordinates":[46.58954323560002,7.905324873472773]},"properties":{"land":null,"category":"all","language":"en","title":"Staubbachfall Lauterbrunnen","abstract":"The Staubbachfall - with its 300 metres one of the highest free-falling waterfalls in Europe - inspired Goethe to write his poem «The song of ghosts over waters».","description":"This breathtaking natural spectacle can be admired from close up thanks to the \"Staubbach Gallery\": From the foot of the waterfall a short, steep ascent leads in about 10 minutes on foot to the \"Staubbachhubel\", from where you can reach the back of the waterfall through a tunnel and over some stairs. How the Staubbach Falls were first measured in the 18th century can be read on one of the two information boards at the foot of the Staubbach Falls.","highlights":null,"foto":"https://images0.schweizmobil.ch/image/11528_Staubbachfall_Lauterbrunnen_1a.jpg","photo_gallery":["https://images0.schweizmobil.ch/image/11528_Staubbachfall_Lauterbrunnen_1a.jpg","https://images0.schweizmobil.ch/image/11528_Staubbachfall_Lauterbrunnen_2b.jpg"],"photo_gallery_big":["",""],"photo_gallery_copyright":["",""],"photo_gallery_author":["",""],"name":"Lauterbrunnen Tourismus","name_2":null,"street":"Stutzli 460","zip":"3822","place":"Lauterbrunnen","tel":"+41 33 856 856 8","fax":null,"email":"info@lauterbrunnen.swiss","url1_link":"https://www.lauterbrunnen.swiss","x_coordinate":635766.3516820782,"y_coordinate":159915.15999129362,"change_date":null,"id":77,"r_key":77,"type":"Sight","url_sightseeing":"https://www.myswitzerland.com/en/staubbachfaelle.html","touristic_region":6}}
+{
+    "type": "Feature",
+    "id": 77,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.589543227192166,
+            7.905324850033468
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Staubbachfall Lauterbrunnen",
+        "abstract": "The Staubbachfall - with its 300 metres one of the highest free-falling waterfalls in Europe - inspired Goethe to write his poem «The song of ghosts over waters».",
+        "description": "This breathtaking natural spectacle can be admired from close up thanks to the \"Staubbach Gallery\": From the foot of the waterfall a short, steep ascent leads in about 10 minutes on foot to the \"Staubbachhubel\", from where you can reach the back of the waterfall through a tunnel and over some stairs. How the Staubbach Falls were first measured in the 18th century can be read on one of the two information boards at the foot of the Staubbach Falls.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/11528_Staubbachfall_Lauterbrunnen_1a.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/11528_Staubbachfall_Lauterbrunnen_1a.jpg",
+            "https://images.schweizmobil.ch/image/11528_Staubbachfall_Lauterbrunnen_2b.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "Lauterbrunnen Tourismus",
+        "name_2": null,
+        "street": "Stutzli 460",
+        "zip": "3822",
+        "place": "Lauterbrunnen",
+        "tel": "+41 33 856 856 8",
+        "fax": null,
+        "email": "info@lauterbrunnen.swiss",
+        "url1_link": "https://www.lauterbrunnen.swiss",
+        "x_coordinate": 635766.3516820782,
+        "y_coordinate": 159915.15999129362,
+        "change_date": null,
+        "id": 77,
+        "r_key": 77,
+        "type": "Sight",
+        "url_sightseeing": "https://www.myswitzerland.com/en/staubbachfaelle.html",
+        "touristic_region": 6,
+        "canton": 12
+    }
+}

@@ -1,1 +1,60 @@
-{"type":"Feature","id":282,"geometry":{"type":"Point","coordinates":[47.138141661316546,9.522668185921333]},"properties":{"land":null,"category":"all","language":"en","title":"Liechtenstein state museum","abstract":"The state museum has 42 exhibition rooms in which you can extensively research Liechtenstein's cultural heritage. Cultural history, state history and natural history all carefully arranged.","description":"The architects Brunner, Brunhart and Kranz combined two historical buildings, the former tavern, «Zum Adler», and the old state administration office, with an extension built into the steep slope in front of the palace to form a spacious museum complex. The permanent exhibition on the history and culture of the principality is based on six key concepts: «settlement» (with a focus on archaeology), «protection» (Middle Ages), «governing» (Modern Age), «celebration» (folklore), «creation» (19th-21st centuries) and «utilisation» (natural history). Each of these areas has a representative object and the other elements of the exhibition are allocated to this according to their content. They provide more in-depth information on their key topic, and make reference to the other areas.","highlights":null,"foto":"https://images0.schweizmobil.ch/image/9214_Liechtensteinisches-Landesmuseum_1a.jpg","photo_gallery":["https://images0.schweizmobil.ch/image/9214_Liechtensteinisches-Landesmuseum_1a.jpg","https://images0.schweizmobil.ch/image/9214_Liechtensteinisches-Landesmuseum_2b.jpg"],"photo_gallery_big":["",""],"photo_gallery_copyright":["",""],"photo_gallery_author":["",""],"name":"Liechtensteinisches Landesmuseum","name_2":null,"street":"Städtle 43","zip":"9490","place":"Vaduz","tel":"+423 239 68 20","fax":null,"email":"info@landesmuseum.li","url1_link":"https://www.landesmuseum.li","x_coordinate":758078.2919955963,"y_coordinate":222895.8343363722,"change_date":null,"id":282,"r_key":282,"type":"Sight","url_sightseeing":"https://www.landesmuseum.li","touristic_region":2}}
+{
+    "type": "Feature",
+    "id": 282,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            47.138141653436755,
+            9.522668186280988
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Liechtenstein state museum",
+        "abstract": "The state museum has 42 exhibition rooms in which you can extensively research Liechtenstein's cultural heritage. Cultural history, state history and natural history all carefully arranged.",
+        "description": "The architects Brunner, Brunhart and Kranz combined two historical buildings, the former tavern, «Zum Adler», and the old state administration office, with an extension built into the steep slope in front of the palace to form a spacious museum complex. The permanent exhibition on the history and culture of the principality is based on six key concepts: «settlement» (with a focus on archaeology), «protection» (Middle Ages), «governing» (Modern Age), «celebration» (folklore), «creation» (19th-21st centuries) and «utilisation» (natural history). Each of these areas has a representative object and the other elements of the exhibition are allocated to this according to their content. They provide more in-depth information on their key topic, and make reference to the other areas.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/9214_Liechtensteinisches-Landesmuseum_1a.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/9214_Liechtensteinisches-Landesmuseum_1a.jpg",
+            "https://images.schweizmobil.ch/image/9214_Liechtensteinisches-Landesmuseum_2b.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "Liechtensteinisches Landesmuseum",
+        "name_2": null,
+        "street": "Städtle 43",
+        "zip": "9490",
+        "place": "Vaduz",
+        "tel": "+423 239 68 20",
+        "fax": null,
+        "email": "info@landesmuseum.li",
+        "url1_link": "https://www.landesmuseum.li",
+        "x_coordinate": 758078.2919955963,
+        "y_coordinate": 222895.8343363722,
+        "change_date": null,
+        "id": 282,
+        "r_key": 282,
+        "type": "Sight",
+        "url_sightseeing": "https://www.landesmuseum.li",
+        "touristic_region": 2,
+        "canton": 1
+    }
+}

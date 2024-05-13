@@ -1,1 +1,95 @@
-{"type":"Feature","id":163,"geometry":{"type":"Point","coordinates":[46.38541179277399,8.129165492912058]},"properties":{"land":null,"category":"all","language":"en","title":"The magic forest from Ernen","abstract":"The magical forest from the squirrel Brüna is an ideal half or full day outing for families with children between the ages of 3 - 10 years. There are almost 20 different posts where the children can play with nature. Barbecue pits allows you to linger.","description":"Brüna's magical forest is not imaginary. There really is such a place. It is located on the Wasen, between Ernen, a wonderfull village of the valley of Goms in Valais and Ausserbinn. In 2007, integrated between the red firs and the moss-filled boulders, an adventure trail was built by the non-profit Zauberwald Fondation. On the almost 20 posts the children can play with nature and let their fantasy take over. Barbecue pits, tables/benches and drinking water allows you to linger.\n\nThe story of Brüna is also available as a children's book (in german) and a CD (german/french/italian). It is Andreas Weissen's first children's book. He is a famous Oberwalliser legend narrator. It is illustrated by Pauline Rey.","highlights":null,"foto":"https://images0.schweizmobil.ch/image/11340_Zauberwald_Ernen_2a.jpg","photo_gallery":["https://images0.schweizmobil.ch/image/11340_Zauberwald_Ernen_2a.jpg","https://images0.schweizmobil.ch/image/11340_Zauberwald_Ernen_1b.jpg","https://images0.schweizmobil.ch/image/11340_Ernen_Zauberwald_Ausgang_Baumstamm_2.jpg","https://images0.schweizmobil.ch/image/11340_Ernen_Zauberwald_Baumhaus_3.jpg","https://images0.schweizmobil.ch/image/11340_Ernen_Zauberwald_Im_Kobel_2.jpg","https://images0.schweizmobil.ch/image/11340_Ernen_Zauberwald_Kinderspielplatz_Zauberwald.jpg","https://images0.schweizmobil.ch/image/11340_Ernen_Zauberwald_Rennen_auf_Baumstamm_hoch_form.jpg","https://images0.schweizmobil.ch/image/11340_Ernen_Zauberwald_Schreiben_an_Schorsch.jpg","https://images0.schweizmobil.ch/image/11340_Ernen_Zauberwald_Seilziehen_2.jpg"],"photo_gallery_big":["","","","","","","","",""],"photo_gallery_copyright":["","","","","","","","",""],"photo_gallery_author":["","","","","","","","",""],"name":"Zauberwald Ernen","name_2":null,"street":"Hengert 17","zip":"3995","place":"Ernen","tel":"+41 (0)27 971 17 42","fax":null,"email":"ernen@landschaftspark-binntal.ch","url1_link":"https://www.zauberwaldernen.ch","x_coordinate":653120.2519586848,"y_coordinate":137350.24781541456,"change_date":null,"id":163,"r_key":163,"type":"Sight","url_sightseeing":"https://www.zauberwaldernen.ch","touristic_region":11}}
+{
+    "type": "Feature",
+    "id": 163,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.38541181548977,
+            8.129165513672264
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "The magic forest from Ernen",
+        "abstract": "The magical forest from the squirrel Brüna is an ideal half or full day outing for families with children between the ages of 3 - 10 years. There are almost 20 different posts where the children can play with nature. Barbecue pits allows you to linger.",
+        "description": "Brüna's magical forest is not imaginary. There really is such a place. It is located on the Wasen, between Ernen, a wonderfull village of the valley of Goms in Valais and Ausserbinn. In 2007, integrated between the red firs and the moss-filled boulders, an adventure trail was built by the non-profit Zauberwald Fondation. On the almost 20 posts the children can play with nature and let their fantasy take over. Barbecue pits, tables/benches and drinking water allows you to linger.\n\nThe story of Brüna is also available as a children's book (in german) and a CD (german/french/italian). It is Andreas Weissen's first children's book. He is a famous Oberwalliser legend narrator. It is illustrated by Pauline Rey.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/11340_Zauberwald_Ernen_2a.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/11340_Zauberwald_Ernen_2a.jpg",
+            "https://images.schweizmobil.ch/image/11340_Zauberwald_Ernen_1b.jpg",
+            "https://images.schweizmobil.ch/image/11340_Ernen_Zauberwald_Ausgang_Baumstamm_2.jpg",
+            "https://images.schweizmobil.ch/image/11340_Ernen_Zauberwald_Baumhaus_3.jpg",
+            "https://images.schweizmobil.ch/image/11340_Ernen_Zauberwald_Im_Kobel_2.jpg",
+            "https://images.schweizmobil.ch/image/11340_Ernen_Zauberwald_Kinderspielplatz_Zauberwald.jpg",
+            "https://images.schweizmobil.ch/image/11340_Ernen_Zauberwald_Rennen_auf_Baumstamm_hoch_form.jpg",
+            "https://images.schweizmobil.ch/image/11340_Ernen_Zauberwald_Schreiben_an_Schorsch.jpg",
+            "https://images.schweizmobil.ch/image/11340_Ernen_Zauberwald_Seilziehen_2.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "name": "Zauberwald Ernen",
+        "name_2": null,
+        "street": "Hengert 17",
+        "zip": "3995",
+        "place": "Ernen",
+        "tel": "+41 (0)27 971 17 42",
+        "fax": null,
+        "email": "ernen@landschaftspark-binntal.ch",
+        "url1_link": "https://www.zauberwaldernen.ch",
+        "x_coordinate": 653120.2519586848,
+        "y_coordinate": 137350.24781541456,
+        "change_date": null,
+        "id": 163,
+        "r_key": 163,
+        "type": "Sight",
+        "url_sightseeing": "https://www.zauberwaldernen.ch",
+        "touristic_region": 11,
+        "canton": 7
+    }
+}

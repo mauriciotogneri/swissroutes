@@ -1,1 +1,60 @@
-{"type":"Feature","id":454,"geometry":{"type":"Point","coordinates":[46.779232091530666,9.681796845228973]},"properties":{"land":null,"category":"all","language":"en","title":"Arosa Untersee","abstract":"What families are usually looking for at the sea, they can find in Arosa 1800 metres above it! Here they can spend their time on a beautiful sandy beach.","description":"Traditionally, only men swam in this lake. The colder one, the Obersee, was reserved for women! Today things are a little different. The Untersee has everything to offer all the family. Along with a beautiful beach there is a solar-heated paddling pool. There is also a lawn and sun deck to lie on.\n\nTip - Since 1947 a very successful sports tournament has been held at the lake. The 10 disciplines completed by competing teams, provides spectators with a lot of fun.","highlights":null,"foto":"https://images0.schweizmobil.ch/image/11272_Untersee_Arosa_1a.jpg","photo_gallery":["https://images0.schweizmobil.ch/image/11272_Untersee_Arosa_1a.jpg","https://images0.schweizmobil.ch/image/11272_Untersee_Arosa_2b.jpg"],"photo_gallery_big":["",""],"photo_gallery_copyright":["",""],"photo_gallery_author":["",""],"name":"Arosa Tourismus","name_2":null,"street":"Arosastrasse 27","zip":"7050","place":"Arosa","tel":"+41 (0)81 378 70 20","fax":null,"email":"arosa@arosa.swiss","url1_link":"https://www.arosa.ch","x_coordinate":771286.2341192493,"y_coordinate":183344.64894770822,"change_date":null,"id":454,"r_key":454,"type":"Sight","url_sightseeing":"https://www.graubuenden.ch/en/explore-regions/arosa/lido-untersee-lake-0","touristic_region":1}}
+{
+    "type": "Feature",
+    "id": 454,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.779232093496745,
+            9.681796821712066
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Arosa Untersee",
+        "abstract": "What families are usually looking for at the sea, they can find in Arosa 1800 metres above it! Here they can spend their time on a beautiful sandy beach.",
+        "description": "Traditionally, only men swam in this lake. The colder one, the Obersee, was reserved for women! Today things are a little different. The Untersee has everything to offer all the family. Along with a beautiful beach there is a solar-heated paddling pool. There is also a lawn and sun deck to lie on.\n\nTip - Since 1947 a very successful sports tournament has been held at the lake. The 10 disciplines completed by competing teams, provides spectators with a lot of fun.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/11272_Untersee_Arosa_1a.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/11272_Untersee_Arosa_1a.jpg",
+            "https://images.schweizmobil.ch/image/11272_Untersee_Arosa_2b.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "Arosa Tourismus",
+        "name_2": null,
+        "street": "Arosastrasse 27",
+        "zip": "7050",
+        "place": "Arosa",
+        "tel": "+41 (0)81 378 70 20",
+        "fax": null,
+        "email": "arosa@arosa.swiss",
+        "url1_link": "https://www.arosa.ch",
+        "x_coordinate": 771286.2341192493,
+        "y_coordinate": 183344.64894770822,
+        "change_date": null,
+        "id": 454,
+        "r_key": 454,
+        "type": "Sight",
+        "url_sightseeing": "https://www.graubuenden.ch/en/explore-regions/arosa/lido-untersee-lake-0",
+        "touristic_region": 1,
+        "canton": 2
+    }
+}

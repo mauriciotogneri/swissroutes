@@ -1,50 +1,55 @@
 {
-  "type": "Feature",
-  "id": 3262,
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      46.48331870873255,
-      9.83214482784812
-    ]
-  },
-  "properties": {
-    "land": null,
-    "category": "all",
-    "language": "en",
-    "title": "Pumptrack Signalbahn",
-    "abstract": "Practice makes perfect. The pump track located near the valley station of Signalbahn in St. Moritz is ideal to prepare for the flow trails at Corviglia.",
-    "description": "",
-    "highlights": null,
-    "foto": "https://images0.schweizmobil.ch/image-big/GR_5_Pumptrack_Signal_Talstation_1_g.jpg",
-    "photo_gallery": [
-      "https://images0.schweizmobil.ch/image/GR_5_Pumptrack_Signal_Talstation_1_s.jpg"
-    ],
-    "photo_gallery_big": [
-      "https://images0.schweizmobil.ch/image-big/GR_5_Pumptrack_Signal_Talstation_1_g.jpg"
-    ],
-    "photo_gallery_copyright": [
-      ""
-    ],
-    "photo_gallery_author": [
-      ""
-    ],
-    "name": "Engadin St. Moritz Tourismus AG",
-    "name_2": null,
-    "street": "Via Maistra 1",
-    "zip": "7500",
-    "place": "St. Moritz",
-    "tel": "+41 81 830 08 14",
-    "fax": null,
-    "email": "allegra@estm.ch",
-    "url1_link": "https://www.engadin.ch",
-    "x_coordinate": 783767.7412688019,
-    "y_coordinate": 150803.01329531858,
-    "change_date": null,
+    "type": "Feature",
     "id": 3262,
-    "r_key": 3262,
-    "type": "Sight",
-    "url_sightseeing": "https://www.mountains.ch/en/Mountain-adventure/Summer/mountain-biking/skillpark-pumptracks",
-    "touristic_region": 1
-  }
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.4833187060091,
+            9.832144752145997
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Pumptrack Signalbahn",
+        "abstract": "Practice makes perfect. The pump track located near the valley station of Signalbahn in St. Moritz is ideal to prepare for the flow trails at Corviglia.",
+        "description": " ",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image-big/GR_5_Pumptrack_Signal_Talstation_1_g.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/GR_5_Pumptrack_Signal_Talstation_1_s.jpg"
+        ],
+        "photo_gallery_big": [
+            "https://images.schweizmobil.ch/image-big/GR_5_Pumptrack_Signal_Talstation_1_g.jpg"
+        ],
+        "photo_gallery_copyright": [
+            ""
+        ],
+        "photo_gallery_author": [
+            ""
+        ],
+        "photo_gallery_abstract": [
+            ""
+        ],
+        "name": "Engadin St. Moritz Tourismus AG",
+        "name_2": null,
+        "street": "Via Maistra 1",
+        "zip": "7500",
+        "place": "St. Moritz",
+        "tel": "+41 81 830 08 14",
+        "fax": null,
+        "email": "allegra@estm.ch",
+        "url1_link": "https://www.engadin.ch",
+        "x_coordinate": 783767.7412688019,
+        "y_coordinate": 150803.01329531858,
+        "change_date": null,
+        "id": 3262,
+        "r_key": 3262,
+        "type": "Sight",
+        "url_sightseeing": "https://www.mountains.ch/en/Mountain-adventure/Summer/mountain-biking/skillpark-pumptracks",
+        "touristic_region": 1,
+        "canton": 2
+    }
 }

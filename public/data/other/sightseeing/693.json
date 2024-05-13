@@ -1,1 +1,70 @@
-{"type":"Feature","id":693,"geometry":{"type":"Point","coordinates":[46.81078337352429,9.855189827909069]},"properties":{"land":null,"category":"all","language":"en","title":"Davos Adventure Park","abstract":"The Davos Adventure Park at the entrance to the Flüela Valley is a freerider bike park suitable for all mountain bike riders. It doesn't matter how skilled a rider you are as the park's routes are designed to be fun for beginners and experienced riders alike.","description":"The Davos Adventure Park offers a variety of elements, such as tables, pump track, jumps and north shore buildings, which allow riders to assess their skills and provide an opportunity to hone them.\n\nThe pump track out of loose materials has been kept very simple and low. Suitable for children and beautifully located under the trees. The adjacent bar & restaurant are an added bonus and encourage riders to stay and enjoy an after work drink at the Davos Adventure Park.\n\nPump track wave and bend height: 20 – 40cm / surface: gravel.","highlights":null,"foto":"https://images0.schweizmobil.ch/image/Bikepark_Faerich1.jpg","photo_gallery":["https://images0.schweizmobil.ch/image/Bikepark_Faerich1.jpg","https://images0.schweizmobil.ch/image/Bikepark_Faerich2.jpg","https://images0.schweizmobil.ch/image/Bikepark_Faerich3.jpg","https://images0.schweizmobil.ch/image/Bikepark_Faerich4.jpg"],"photo_gallery_big":["","","",""],"photo_gallery_copyright":["","","",""],"photo_gallery_author":["","","",""],"name":"Destination Davos Klosters","name_2":null,"street":"Talstrasse 41","zip":"7270","place":"Davos Platz","tel":"+41 (0)81 415 21 21","fax":null,"email":"info@davos.ch","url1_link":"https://www.davos-klosters.ch","x_coordinate":784414.8350339459,"y_coordinate":187243.5881421365,"change_date":null,"id":693,"r_key":693,"type":"Sight","url_sightseeing":"https://www.davos.ch/aktivitaeten/outdoor-abenteuer/davos-adventure-park","touristic_region":1}}
+{
+    "type": "Feature",
+    "id": 693,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.81078336957782,
+            9.855189836657509
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Davos Adventure Park",
+        "abstract": "The Davos Adventure Park at the entrance to the Flüela Valley is a freerider bike park suitable for all mountain bike riders. It doesn't matter how skilled a rider you are as the park's routes are designed to be fun for beginners and experienced riders alike.",
+        "description": "The Davos Adventure Park offers a variety of elements, such as tables, pump track, jumps and north shore buildings, which allow riders to assess their skills and provide an opportunity to hone them.\n\nThe pump track out of loose materials has been kept very simple and low. Suitable for children and beautifully located under the trees. The adjacent bar & restaurant are an added bonus and encourage riders to stay and enjoy an after work drink at the Davos Adventure Park.\n\nPump track wave and bend height: 20 – 40cm / surface: gravel.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/Bikepark_Faerich1.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/Bikepark_Faerich1.jpg",
+            "https://images.schweizmobil.ch/image/Bikepark_Faerich2.jpg",
+            "https://images.schweizmobil.ch/image/Bikepark_Faerich3.jpg",
+            "https://images.schweizmobil.ch/image/Bikepark_Faerich4.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "name": "Destination Davos Klosters",
+        "name_2": null,
+        "street": "Talstrasse 41",
+        "zip": "7270",
+        "place": "Davos Platz",
+        "tel": "+41 (0)81 415 21 21",
+        "fax": null,
+        "email": "info@davos.ch",
+        "url1_link": "https://www.davos-klosters.ch",
+        "x_coordinate": 784414.8350339459,
+        "y_coordinate": 187243.5881421365,
+        "change_date": null,
+        "id": 693,
+        "r_key": 693,
+        "type": "Sight",
+        "url_sightseeing": "https://www.davos.ch/aktivitaeten/outdoor-abenteuer/davos-adventure-park",
+        "touristic_region": 1,
+        "canton": 2
+    }
+}

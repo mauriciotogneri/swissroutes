@@ -1,1 +1,34 @@
-{"type":"Feature","id":3064,"geometry":{"type":"Point","coordinates":[46.69538609826586,9.439637894921589]},"properties":{"land":"\"velo\",\"mountainbike\"","category":"all","language":"en","title":"Garage Glade Reno GmbH","abstract":null,"name":"Garage Glade Reno GmbH","street":"Neudorfstrasse 28","zip":"7430","place":"Thusis","tel":"+41 81 651 11 44","email":null,"url1_text":null,"url1_link":null,"organisation":"2rad / 2routes / 2ruote","foto":null,"x_coordinate":753037.1021825115,"y_coordinate":173526.0892014865,"change_date":null,"id":301,"type":"Service"}}
+{
+    "type": "Feature",
+    "id": 3064,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.69538610548216,
+            9.439637938056379
+        ]
+    },
+    "properties": {
+        "land": "\"velo\",\"mountainbike\"",
+        "category": "all",
+        "language": "en",
+        "title": "Garage Glade Reno GmbH",
+        "abstract": null,
+        "name": "Garage Glade Reno GmbH",
+        "street": "Neudorfstrasse 28",
+        "zip": "7430",
+        "place": "Thusis",
+        "tel": "+41 81 651 11 44",
+        "email": null,
+        "url1_text": null,
+        "url1_link": null,
+        "organisation": "2rad / 2routes / 2ruote",
+        "foto": null,
+        "foto_abstract": null,
+        "x_coordinate": 753037.1021825115,
+        "y_coordinate": 173526.0892014865,
+        "change_date": null,
+        "id": 301,
+        "type": "Service"
+    }
+}

@@ -1,1 +1,34 @@
-{"type":"Feature","id":2820,"geometry":{"type":"Point","coordinates":[46.620622463587964,7.056153503128417]},"properties":{"land":"\"velo\",\"mountainbike\"","category":"all","language":"en","title":"Cycles Passion SA","abstract":null,"name":"Cycles Passion SA","street":"Chemin des Crêts 8A","zip":"1630","place":"Bulle","tel":"+41 26 913 17 17","email":null,"url1_text":null,"url1_link":"https://www.cycles-passion.ch","organisation":"2rad / 2routes / 2ruote","foto":null,"x_coordinate":570704.3770007725,"y_coordinate":163335.98735992005,"change_date":null,"id":26,"type":"Service"}}
+{
+    "type": "Feature",
+    "id": 2820,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.62062246376154,
+            7.056153497340536
+        ]
+    },
+    "properties": {
+        "land": "\"velo\",\"mountainbike\"",
+        "category": "all",
+        "language": "en",
+        "title": "Cycles Passion SA",
+        "abstract": null,
+        "name": "Cycles Passion SA",
+        "street": "Chemin des Crêts 8A",
+        "zip": "1630",
+        "place": "Bulle",
+        "tel": "+41 26 913 17 17",
+        "email": null,
+        "url1_text": null,
+        "url1_link": "https://www.cycles-passion.ch",
+        "organisation": "2rad / 2routes / 2ruote",
+        "foto": null,
+        "foto_abstract": null,
+        "x_coordinate": 570704.3770007725,
+        "y_coordinate": 163335.98735992005,
+        "change_date": null,
+        "id": 26,
+        "type": "Service"
+    }
+}

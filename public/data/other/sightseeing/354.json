@@ -1,1 +1,60 @@
-{"type":"Feature","id":354,"geometry":{"type":"Point","coordinates":[46.817651985801994,9.70536882817951]},"properties":{"land":null,"category":"all","language":"en","title":"Langwies Viaduct","abstract":"The Langwies Viaduct, a pioneering achievement in railway construction, is best experienced by train.","description":"At the beginning of the previous century, bold pioneers risked the mountains of the Grisons and accomplished true masterpieces in the form of the Langwies, Landwasser and Wiesner Viaducts.\n\nThe stretch from Chur to Arosa was the last part of the Rhaetian Railway network to be built. To build this part, new techniques were used, with the result that the Langwies Viaduct was the world's first railway bridge to be built entirely of reinforced concrete.","highlights":null,"foto":"https://images0.schweizmobil.ch/image/8621_Langwieserviadukt_1a.jpg","photo_gallery":["https://images0.schweizmobil.ch/image/8621_Langwieserviadukt_1a.jpg","https://images0.schweizmobil.ch/image/8621_Langwieserviadukt_2b.jpg"],"photo_gallery_big":["",""],"photo_gallery_copyright":["",""],"photo_gallery_author":["",""],"name":"Arosa Tourismus","name_2":null,"street":"Arosastrasse 27","zip":"7050","place":"Arosa","tel":"+41 (0)81 378 70 20","fax":null,"email":"arosa@arosa.swiss","url1_link":"https://www.arosa.ch","x_coordinate":772962.8837503269,"y_coordinate":187665.6996030718,"change_date":null,"id":354,"r_key":354,"type":"Sight","url_sightseeing":"https://www.graubuenden.ch/de/viadukte-kuehne-bauwerke-rhaetischen-bahn","touristic_region":1}}
+{
+    "type": "Feature",
+    "id": 354,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.817651981162584,
+            9.705368893455955
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Langwies Viaduct",
+        "abstract": "The Langwies Viaduct, a pioneering achievement in railway construction, is best experienced by train.",
+        "description": "At the beginning of the previous century, bold pioneers risked the mountains of the Grisons and accomplished true masterpieces in the form of the Langwies, Landwasser and Wiesner Viaducts.\n\nThe stretch from Chur to Arosa was the last part of the Rhaetian Railway network to be built. To build this part, new techniques were used, with the result that the Langwies Viaduct was the world's first railway bridge to be built entirely of reinforced concrete.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/8621_Langwieserviadukt_1a.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/8621_Langwieserviadukt_1a.jpg",
+            "https://images.schweizmobil.ch/image/8621_Langwieserviadukt_2b.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "Arosa Tourismus",
+        "name_2": null,
+        "street": "Arosastrasse 27",
+        "zip": "7050",
+        "place": "Arosa",
+        "tel": "+41 (0)81 378 70 20",
+        "fax": null,
+        "email": "arosa@arosa.swiss",
+        "url1_link": "https://www.arosa.ch",
+        "x_coordinate": 772962.8837503269,
+        "y_coordinate": 187665.6996030718,
+        "change_date": null,
+        "id": 354,
+        "r_key": 354,
+        "type": "Sight",
+        "url_sightseeing": "https://www.graubuenden.ch/de/viadukte-kuehne-bauwerke-rhaetischen-bahn",
+        "touristic_region": 1,
+        "canton": 2
+    }
+}

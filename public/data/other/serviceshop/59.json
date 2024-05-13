@@ -1,1 +1,34 @@
-{"type":"Feature","id":2851,"geometry":{"type":"Point","coordinates":[47.02589344711022,7.4460036705412085]},"properties":{"land":"\"velo\",\"mountainbike\"","category":"all","language":"en","title":"Velo Virus","abstract":null,"name":"Velo Virus","street":"Bielstrasse 12","zip":"3053","place":"Münchenbuchsee","tel":"+41 31 869 36 10","email":null,"url1_text":null,"url1_link":"https://www.velovirus.ch","organisation":"2rad / 2routes / 2ruote","foto":null,"x_coordinate":600560.9442543734,"y_coordinate":208317.56516903735,"change_date":null,"id":59,"type":"Service"}}
+{
+    "type": "Feature",
+    "id": 2851,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            47.02589344501764,
+            7.446003670344172
+        ]
+    },
+    "properties": {
+        "land": "\"velo\",\"mountainbike\"",
+        "category": "all",
+        "language": "en",
+        "title": "Velo Virus AG",
+        "abstract": null,
+        "name": "Velo Virus AG",
+        "street": "Bielstrasse 12",
+        "zip": "3053",
+        "place": "Münchenbuchsee",
+        "tel": "+41 31 869 36 10",
+        "email": null,
+        "url1_text": null,
+        "url1_link": "https://www.velovirus.ch",
+        "organisation": "2rad / 2routes / 2ruote",
+        "foto": null,
+        "foto_abstract": null,
+        "x_coordinate": 600560.9442543734,
+        "y_coordinate": 208317.56516903735,
+        "change_date": null,
+        "id": 59,
+        "type": "Service"
+    }
+}

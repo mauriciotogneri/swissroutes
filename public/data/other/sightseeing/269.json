@@ -1,1 +1,65 @@
-{"type":"Feature","id":269,"geometry":{"type":"Point","coordinates":[47.55963081286934,9.377016204154643]},"properties":{"land":null,"category":"all","language":"en","title":"Locorama - Railway adventure park","abstract":"The old engine depot, situated within walking distance from the station and the Romanshorn harbour, offers live railway history.","description":"Thurgau's last steam engine, the central Thurgau railway's historical Ec 3/5 demonstrates the steam engine age together with the enormous express steam engine S 3/6 from the Bavarian state railway. A historic post wagon, a salon wagon and a buffet car invite you to linger in their nostalgic rooms. Visits to other historic vehicles can be expected; at special times the garden railway travels around the 1:1 track.\n\nLast but not least, the 6-track, 50m-long engine garage and the outside area with 20m turntable, water standpipe and coal shed create a special atmosphere for entertainment and fun.","highlights":null,"foto":"https://images0.schweizmobil.ch/image/LOKORAMA_3.jpg","photo_gallery":["https://images0.schweizmobil.ch/image/LOKORAMA_3.jpg","https://images0.schweizmobil.ch/image/LOKORAMA_2.jpg","https://images0.schweizmobil.ch/image/LOKORAMA_1.jpg"],"photo_gallery_big":["","",""],"photo_gallery_copyright":["","",""],"photo_gallery_author":["","",""],"name":"Locorama","name_2":null,"street":"Egnacher Weg 1","zip":"8590","place":"Romanshorn","tel":"+41 (0)71 460 24 27","fax":null,"email":"office@locorama.ch","url1_link":"https://www.locorama.ch","x_coordinate":745875.0037550039,"y_coordinate":269459.1072130294,"change_date":null,"id":269,"r_key":269,"type":"Sight","url_sightseeing":"https://locorama.ch/","touristic_region":2}}
+{
+    "type": "Feature",
+    "id": 269,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            47.55963082573631,
+            9.377016112729047
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Locorama - Railway adventure park",
+        "abstract": "The old engine depot, situated within walking distance from the station and the Romanshorn harbour, offers live railway history.",
+        "description": "Thurgau's last steam engine, the central Thurgau railway's historical Ec 3/5 demonstrates the steam engine age together with the enormous express steam engine S 3/6 from the Bavarian state railway. A historic post wagon, a salon wagon and a buffet car invite you to linger in their nostalgic rooms. Visits to other historic vehicles can be expected; at special times the garden railway travels around the 1:1 track.\n\nLast but not least, the 6-track, 50m-long engine garage and the outside area with 20m turntable, water standpipe and coal shed create a special atmosphere for entertainment and fun.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/LOKORAMA_3.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/LOKORAMA_3.jpg",
+            "https://images.schweizmobil.ch/image/LOKORAMA_2.jpg",
+            "https://images.schweizmobil.ch/image/LOKORAMA_1.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            "",
+            ""
+        ],
+        "name": "Locorama",
+        "name_2": null,
+        "street": "Egnacher Weg 1",
+        "zip": "8590",
+        "place": "Romanshorn",
+        "tel": "+41 (0)71 460 24 27",
+        "fax": null,
+        "email": "office@locorama.ch",
+        "url1_link": "https://www.locorama.ch",
+        "x_coordinate": 745875.0037550039,
+        "y_coordinate": 269459.1072130294,
+        "change_date": null,
+        "id": 269,
+        "r_key": 269,
+        "type": "Sight",
+        "url_sightseeing": "https://locorama.ch/",
+        "touristic_region": 2,
+        "canton": 6
+    }
+}

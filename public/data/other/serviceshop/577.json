@@ -1,1 +1,34 @@
-{"type":"Feature","id":3296,"geometry":{"type":"Point","coordinates":[47.22315733475245,9.200838592882354]},"properties":{"land":"\"velo\",\"mountainbike\"","category":"all","language":"en","title":"Velo Köbi GmbH","abstract":null,"name":"Velo Köbi GmbH","street":"Hauptstrasse 49","zip":"9650","place":"Nesslau","tel":"+41 79 253 01 14","email":null,"url1_text":null,"url1_link":"https://www.velokoebi.ch","organisation":"2rad / 2routes / 2ruote","foto":null,"x_coordinate":733459.09384805,"y_coordinate":231746.09435881517,"change_date":null,"id":577,"type":"Service"}}
+{
+    "type": "Feature",
+    "id": 3296,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            47.22315733464875,
+            9.200838569377384
+        ]
+    },
+    "properties": {
+        "land": "\"velo\",\"mountainbike\"",
+        "category": "all",
+        "language": "en",
+        "title": "Velo Köbi GmbH",
+        "abstract": null,
+        "name": "Velo Köbi GmbH",
+        "street": "Hauptstrasse 49",
+        "zip": "9650",
+        "place": "Nesslau",
+        "tel": "+41 79 253 01 14",
+        "email": null,
+        "url1_text": null,
+        "url1_link": "https://www.velokoebi.ch",
+        "organisation": "2rad / 2routes / 2ruote",
+        "foto": null,
+        "foto_abstract": null,
+        "x_coordinate": 733459.09384805,
+        "y_coordinate": 231746.09435881797,
+        "change_date": null,
+        "id": 577,
+        "type": "Service"
+    }
+}

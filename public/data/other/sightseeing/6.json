@@ -1,70 +1,80 @@
 {
-  "type": "Feature",
-  "id": 6,
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      47.29414542767664,
-      7.445908465350417
-    ]
-  },
-  "properties": {
-    "land": null,
-    "category": "all",
-    "language": "en",
-    "title": "Crémines–Raimeux de Crémines",
-    "abstract": "The track from Crémines up the Mont Raimeux is one of four routes linking the Grandval valley with the higher reaches used for forestry and farming. After an impressive ascent, views sweep over a peaceful, rolling landscape.",
-    "description": "The Land Register Map of Crémines Municipality dating from 1819 shows a track leading out of the village up Mont Raimeux in a series of bends negotiating the almost 500 metres height difference. The track leads through an escarpment interspersed with rock faces and is modelled on an Alpine pass road. Three hairpin bends are built into the mountain flank and drilling holes show that blasting was necessary for the construction. Carefully built retaining walls and parapet walls, fixed with metal brackets on exposed sections, testify to solid execution methods.\n\nThe structure has not experienced any change since 1859. The surface of the track, still of Jura marl, should also not be merely taken for granted. In many places, access tracks of this kind have been asphalted over for long-term use and tourism. The uphill experience is made all the more fascinating by the hedges and rows of trees at the beginning, superb views from the steepest section and finally the walk through the gentle Jura landscape. A small tower affording wonderful panoramic views is found at the highest point, at 1200 metres altitude.",
-    "highlights": null,
-    "foto": "https://images0.schweizmobil.ch/image/IVS_G80_Cremines.jpg",
-    "photo_gallery": [
-      "https://images0.schweizmobil.ch/image/IVS_G80_Cremines.jpg",
-      "https://images0.schweizmobil.ch/image/20110510_Bern_Grandval_Mont_Raimeux_CorneliaJost_11.jpg",
-      "https://images0.schweizmobil.ch/image/20110510_Bern_Grandval_Mont_Raimeux_CorneliaJost_38.jpg",
-      "https://images0.schweizmobil.ch/image/20110510_Bern_Grandval_Mont_Raimeux_CorneliaJost_39.jpg",
-      "https://images0.schweizmobil.ch/image/20110510_Bern_Grandval_Mont_Raimeux_CorneliaJost_47.jpg",
-      "https://images0.schweizmobil.ch/image/20110510_Bern_Grandval_Mont_Raimeux_CorneliaJost_52.jpg"
-    ],
-    "photo_gallery_big": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-    ],
-    "photo_gallery_copyright": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-    ],
-    "photo_gallery_author": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-    ],
-    "name": "Bundesinventar der historischen Verkehrswege der Schweiz (IVS)",
-    "name_2": null,
-    "street": "",
-    "zip": "",
-    "place": "",
-    "tel": "",
-    "fax": null,
-    "email": "",
-    "url1_link": "https://www.ivs.admin.ch",
-    "x_coordinate": 600550.1805410158,
-    "y_coordinate": 238140.43444317047,
-    "change_date": null,
+    "type": "Feature",
     "id": 6,
-    "r_key": 6,
-    "type": "Sight",
-    "url_sightseeing": "https://s.geo.admin.ch/6fb15e164e",
-    "touristic_region": 8
-  }
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            47.29414543745535,
+            7.445908465391146
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Crémines–Raimeux de Crémines",
+        "abstract": "The track from Crémines up the Mont Raimeux is one of four routes linking the Grandval valley with the higher reaches used for forestry and farming. After an impressive ascent, views sweep over a peaceful, rolling landscape.",
+        "description": "The Land Register Map of Crémines Municipality dating from 1819 shows a track leading out of the village up Mont Raimeux in a series of bends negotiating the almost 500 metres height difference. The track leads through an escarpment interspersed with rock faces and is modelled on an Alpine pass road. Three hairpin bends are built into the mountain flank and drilling holes show that blasting was necessary for the construction. Carefully built retaining walls and parapet walls, fixed with metal brackets on exposed sections, testify to solid execution methods.\n\nThe structure has not experienced any change since 1859. The surface of the track, still of Jura marl, should also not be merely taken for granted. In many places, access tracks of this kind have been asphalted over for long-term use and tourism. The uphill experience is made all the more fascinating by the hedges and rows of trees at the beginning, superb views from the steepest section and finally the walk through the gentle Jura landscape. A small tower affording wonderful panoramic views is found at the highest point, at 1200 metres altitude.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/IVS_G80_Cremines.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/IVS_G80_Cremines.jpg",
+            "https://images.schweizmobil.ch/image/20110510_Bern_Grandval_Mont_Raimeux_CorneliaJost_52.jpg",
+            "https://images.schweizmobil.ch/image/20110510_Bern_Grandval_Mont_Raimeux_CorneliaJost_47.jpg",
+            "https://images.schweizmobil.ch/image/20110510_Bern_Grandval_Mont_Raimeux_CorneliaJost_39.jpg",
+            "https://images.schweizmobil.ch/image/20110510_Bern_Grandval_Mont_Raimeux_CorneliaJost_38.jpg",
+            "https://images.schweizmobil.ch/image/20110510_Bern_Grandval_Mont_Raimeux_CorneliaJost_11.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "name": "Bundesinventar der historischen Verkehrswege der Schweiz (IVS)",
+        "name_2": null,
+        "street": " ",
+        "zip": " ",
+        "place": " ",
+        "tel": " ",
+        "fax": null,
+        "email": " ",
+        "url1_link": "https://www.ivs.admin.ch",
+        "x_coordinate": 600550.1805410158,
+        "y_coordinate": 238140.43444317047,
+        "change_date": null,
+        "id": 6,
+        "r_key": 6,
+        "type": "Sight",
+        "url_sightseeing": "https://s.geo.admin.ch/6fb15e164e",
+        "touristic_region": 8,
+        "canton": 12
+    }
 }

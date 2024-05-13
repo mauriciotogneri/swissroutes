@@ -1,1 +1,75 @@
-{"type":"Feature","id":722,"geometry":{"type":"Point","coordinates":[46.951288247809615,10.374934187631426]},"properties":{"land":null,"category":"all","language":"en","title":"Freeride Samnaun","abstract":"These flowtrails in the Silvretta- Arena either take you from the Alptrider Sattel or from the Viderjoch to Alp Trida and then continue over the Unteralp to Laret – almost 800 altitude metres of trail fun. Each of the starting points can be reached by mountain railway from Samnaun.","description":"These routes were built by hand by former world-class downhiller Claudio Caluori. Roots and blocks were removed. The jumps, wooden bridges over the mountain streams and the great views of the Silvretta peaks provide bikers with an exciting and technically challenging mountain biking experience. Before the descent you can soak up the sunshine and recharge your batteries on the sun terraces at the restaurants on the Alptrider Sattel and Alp Trida. The course was set out so that passing touring riders can also have a good time.\n\nBikers and their equipment can be transported on mountain railways to the starting points on the Alptrider Sattel, the Viderjoch and on Alp Trida - free of charge with the Samnaun visitor card. All the flowtrails can, however, be accessed using muscle power from Samnaun-Laret via Alp Trida. Bikes can be cleaned at the bike washing station on Alp Trida.","highlights":null,"foto":"https://images0.schweizmobil.ch/image/Freeride_Samnaun_Enduro_Viderjoch_Samnaun04.jpg","photo_gallery":["https://images0.schweizmobil.ch/image/Freeride_Samnaun_Enduro_Viderjoch_Samnaun01.jpg","https://images0.schweizmobil.ch/image/Freeride_Samnaun_Enduro_Viderjoch_Samnaun02.jpg","https://images0.schweizmobil.ch/image/Freeride_Samnaun_Enduro_Viderjoch_Samnaun04.jpg","https://images0.schweizmobil.ch/image/Freeride_Samnaun_Flowtrail_Sattel_Samnaun02.jpg","https://images0.schweizmobil.ch/image/Freeride_Samnaun_Flowtrail_Sattel_Samnaun03.jpg"],"photo_gallery_big":["","","","",""],"photo_gallery_copyright":["","","","",""],"photo_gallery_author":["","","","",""],"name":"Tourismus Engadin Scuol Samnaun Val Müstair AG","name_2":null,"street":"Stradun 403a","zip":"7550","place":"Scuol","tel":"+41 (0)81 861 88 00","fax":null,"email":"info@engadin.com","url1_link":"https://www.engadin.com","x_coordinate":823475.4330196225,"y_coordinate":204205.12348939964,"change_date":null,"id":722,"r_key":722,"type":"Sight","url_sightseeing":"https://www.samnaun.ch/de/aktivitaeten-erlebnisse/mountainbiken","touristic_region":1}}
+{
+    "type": "Feature",
+    "id": 722,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.95128824480228,
+            10.374934262373099
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Freeride Samnaun",
+        "abstract": "These flowtrails in the Silvretta- Arena either take you from the Alptrider Sattel or from the Viderjoch to Alp Trida and then continue over the Unteralp to Laret – almost 800 altitude metres of trail fun. Each of the starting points can be reached by mountain railway from Samnaun.",
+        "description": "These routes were built by hand by former world-class downhiller Claudio Caluori. Roots and blocks were removed. The jumps, wooden bridges over the mountain streams and the great views of the Silvretta peaks provide bikers with an exciting and technically challenging mountain biking experience. Before the descent you can soak up the sunshine and recharge your batteries on the sun terraces at the restaurants on the Alptrider Sattel and Alp Trida. The course was set out so that passing touring riders can also have a good time.\n\nBikers and their equipment can be transported on mountain railways to the starting points on the Alptrider Sattel, the Viderjoch and on Alp Trida - free of charge with the Samnaun visitor card. All the flowtrails can, however, be accessed using muscle power from Samnaun-Laret via Alp Trida. Bikes can be cleaned at the bike washing station on Alp Trida.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/Freeride_Samnaun_Enduro_Viderjoch_Samnaun04.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/Freeride_Samnaun_Enduro_Viderjoch_Samnaun01.jpg",
+            "https://images.schweizmobil.ch/image/Freeride_Samnaun_Enduro_Viderjoch_Samnaun02.jpg",
+            "https://images.schweizmobil.ch/image/Freeride_Samnaun_Enduro_Viderjoch_Samnaun04.jpg",
+            "https://images.schweizmobil.ch/image/Freeride_Samnaun_Flowtrail_Sattel_Samnaun02.jpg",
+            "https://images.schweizmobil.ch/image/Freeride_Samnaun_Flowtrail_Sattel_Samnaun03.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "name": "Tourismus Engadin Scuol Samnaun Val Müstair AG",
+        "name_2": null,
+        "street": "Stradun 403a",
+        "zip": "7550",
+        "place": "Scuol",
+        "tel": "+41 (0)81 861 88 00",
+        "fax": null,
+        "email": "info@engadin.com",
+        "url1_link": "https://www.engadin.com",
+        "x_coordinate": 823475.4330196225,
+        "y_coordinate": 204205.12348939964,
+        "change_date": null,
+        "id": 722,
+        "r_key": 722,
+        "type": "Sight",
+        "url_sightseeing": "https://www.samnaun.ch/de/aktivitaeten-erlebnisse/mountainbiken",
+        "touristic_region": 1,
+        "canton": 2
+    }
+}

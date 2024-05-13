@@ -1,54 +1,60 @@
 {
-  "type": "Feature",
-  "id": 102,
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      46.39415213423092,
-      6.919490302076202
-    ]
-  },
-  "properties": {
-    "land": null,
-    "category": "all",
-    "language": "en",
-    "title": "Les Grangettes",
-    "abstract": "The area where the river Rhone enters Lake Geneva is characterized by reed banks, alluvial forests and extensive reed areas. It is an important resting and hibernation place for migratory birds. The nature reserve is a mire of international importance.",
-    "description": "In the mid-19th century, large stretches of the Rhone course were still natural and unspoiled. Precautionary measures to prevent flooding were implemented in the two major Rhone correction projects (1863-1894 and 1930-1960).\n\nIt is possible to see how the valley floor once looked from \"Les Grangettes”, the area where the Rhone enters Lake Geneva. Extensive reed areas and alluvial forests extend along the area between the actual river mouth and Villeneuve. An old arm of the Rhone is still very visible there today.\n\nThe \"Les Grangettes” wetland is an important resting and hibernation place for migratory birds and is included in the Ramsar Convention List of Wetlands of International Importance.\n\nIt is intended, inter alia, to restore the course of the river to its natural state throughout the Rhone Valley as part of the proposed third Rhone correction.",
-    "highlights": null,
-    "foto": "https://images0.schweizmobil.ch/image/17_Grangettes-2-558953-1384.jpg",
-    "photo_gallery": [
-      "https://images0.schweizmobil.ch/image/17_Grangettes-2-558953-1384.jpg",
-      "https://images0.schweizmobil.ch/image/17_Les-Grangettes-Rhone-Delta.jpg"
-    ],
-    "photo_gallery_big": [
-      "",
-      ""
-    ],
-    "photo_gallery_copyright": [
-      "",
-      ""
-    ],
-    "photo_gallery_author": [
-      "",
-      ""
-    ],
-    "name": "Bundesamt für Umwelt",
-    "name_2": null,
-    "street": "und Naturdenkmäler von nationaler Bedeutung (BLN)",
-    "zip": "BLN-Objekt-Nr.",
-    "place": "1502",
-    "tel": "",
-    "fax": null,
-    "email": "bln@bafu.admin.ch",
-    "url1_link": "https://www.bafu.admin.ch/bln",
-    "x_coordinate": 560070.1334736629,
-    "y_coordinate": 138220.09151938476,
-    "change_date": null,
+    "type": "Feature",
     "id": 102,
-    "r_key": 102,
-    "type": "Sight",
-    "url_sightseeing": "https://www.bafu.admin.ch/bln",
-    "touristic_region": 9
-  }
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.394152118478274,
+            6.9194903139441415
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Les Grangettes",
+        "abstract": "The area where the river Rhone enters Lake Geneva is characterized by reed banks, alluvial forests and extensive reed areas. It is an important resting and hibernation place for migratory birds. The nature reserve is a mire of international importance.",
+        "description": "In the mid-19th century, large stretches of the Rhone course were still natural and unspoiled. Precautionary measures to prevent flooding were implemented in the two major Rhone correction projects (1863-1894 and 1930-1960).\n\nIt is possible to see how the valley floor once looked from \"Les Grangettes”, the area where the Rhone enters Lake Geneva. Extensive reed areas and alluvial forests extend along the area between the actual river mouth and Villeneuve. An old arm of the Rhone is still very visible there today.\n\nThe \"Les Grangettes” wetland is an important resting and hibernation place for migratory birds and is included in the Ramsar Convention List of Wetlands of International Importance.\n\nIt is intended, inter alia, to restore the course of the river to its natural state throughout the Rhone Valley as part of the proposed third Rhone correction.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/17_Grangettes-2-558953-1384.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/17_Grangettes-2-558953-1384.jpg",
+            "https://images.schweizmobil.ch/image/17_Les-Grangettes-Rhone-Delta.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "Bundesamt für Umwelt",
+        "name_2": null,
+        "street": "und Naturdenkmäler von nationaler Bedeutung (BLN)",
+        "zip": "BLN-Objekt-Nr.",
+        "place": "1502",
+        "tel": "-",
+        "fax": null,
+        "email": "bln@bafu.admin.ch",
+        "url1_link": "https://www.bafu.admin.ch/bln",
+        "x_coordinate": 560070.1334736629,
+        "y_coordinate": 138220.09151938476,
+        "change_date": null,
+        "id": 102,
+        "r_key": 102,
+        "type": "Sight",
+        "url_sightseeing": "https://www.bafu.admin.ch/bln",
+        "touristic_region": 9,
+        "canton": 27
+    }
 }

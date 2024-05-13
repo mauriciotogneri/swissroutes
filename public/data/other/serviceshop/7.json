@@ -1,1 +1,34 @@
-{"type":"Feature","id":2803,"geometry":{"type":"Point","coordinates":[46.51099231538405,6.498129411604454]},"properties":{"land":"\"velo\",\"mountainbike\"","category":"all","language":"en","title":"Guibert Bike","abstract":null,"name":"Guibert Bike","street":"Place St-Louis 7","zip":"1110","place":"Morges","tel":"+41 21 803 76 06","email":null,"url1_text":null,"url1_link":"https://www.magasin-de-velos.ch","organisation":"2rad / 2routes / 2ruote","foto":null,"x_coordinate":527818.3679079188,"y_coordinate":151509.77374331965,"change_date":null,"id":7,"type":"Service"}}
+{
+    "type": "Feature",
+    "id": 2803,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.510992325506585,
+            6.498129407303074
+        ]
+    },
+    "properties": {
+        "land": "\"velo\",\"mountainbike\"",
+        "category": "all",
+        "language": "en",
+        "title": "Guibert Bike",
+        "abstract": null,
+        "name": "Guibert Bike",
+        "street": "Place St-Louis 7",
+        "zip": "1110",
+        "place": "Morges",
+        "tel": "+41 21 803 76 06",
+        "email": null,
+        "url1_text": null,
+        "url1_link": "https://www.magasin-de-velos.ch",
+        "organisation": "2rad / 2routes / 2ruote",
+        "foto": null,
+        "foto_abstract": null,
+        "x_coordinate": 527818.3679079188,
+        "y_coordinate": 151509.77374331965,
+        "change_date": null,
+        "id": 7,
+        "type": "Service"
+    }
+}

@@ -1,1 +1,60 @@
-{"type":"Feature","id":13,"geometry":{"type":"Point","coordinates":[46.64728077055175,8.592098847819777]},"properties":{"land":null,"category":"all","language":"en","title":"Monument of Suworow","abstract":"To the end of the 18th century, the Swiss had to submit themselves to the commander of the Frenchman, Napoleon Bonaparte. In 1799, particularly the Russians tried to defeat the French ruler and his powerful army.","description":"The Russian general Suworow advanced as far as the Gotthard pass, in order to unite with other troops near Zurich, after victorious combats in upper Italy on the 24th of September 1799. After serious struggles in the Schöllenen canyon he attained the capital of Uri, Altdorf, two days later. But there he was stuck, because the French had had taken away all ships from Flüelen. For this reason, on the 27th of September in 1799, the general ordered his troops to decamp and continue their way to Bürglen and farther over the Chinzig pass in the direction of Muotathal. The army, consisting of 22'000 men, sneaked up to the 2'073 m high Chinzig peak in the rain and snow, similar to a huge caterpillar. The exhausted soldiers had to march onward from the Muota valley via the Pragel and Panixer pass, since the way to Zurich was barred here as well.\n\nThe troops of only 14'000 survivors quitted Switzerland on the 11th of October in 1799 via Ilanz and Chur, on the Swiss-Austrian boarder.","highlights":null,"foto":"https://images0.schweizmobil.ch/image/8635_Suworow-Denkmal_2a.jpg","photo_gallery":["https://images0.schweizmobil.ch/image/8635_Suworow-Denkmal_2a.jpg","https://images0.schweizmobil.ch/image/8635_Suworow-Denkmal_1b.jpg"],"photo_gallery_big":["",""],"photo_gallery_copyright":["",""],"photo_gallery_author":["",""],"name":"Andermatt-Urserntal Tourismus GmbH","name_2":null,"street":"Gotthardstrasse 2","zip":"6490","place":"Andermatt","tel":"+41 (0)41 888 71 00","fax":null,"email":"info@andermatt.ch","url1_link":"https://www.andermatt.ch","x_coordinate":688302.0981687142,"y_coordinate":166876.37137460487,"change_date":null,"id":13,"r_key":13,"type":"Sight","url_sightseeing":"http://www.uri.info/en/geschichte/mythosgotthard/suworow","touristic_region":4}}
+{
+    "type": "Feature",
+    "id": 13,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.64728076923862,
+            8.592098830063383
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Monument of Suworow",
+        "abstract": "To the end of the 18th century, the Swiss had to submit themselves to the commander of the Frenchman, Napoleon Bonaparte. In 1799, particularly the Russians tried to defeat the French ruler and his powerful army.",
+        "description": "The Russian general Suworow advanced as far as the Gotthard pass, in order to unite with other troops near Zurich, after victorious combats in upper Italy on the 24th of September 1799. After serious struggles in the Schöllenen canyon he attained the capital of Uri, Altdorf, two days later. But there he was stuck, because the French had had taken away all ships from Flüelen. For this reason, on the 27th of September in 1799, the general ordered his troops to decamp and continue their way to Bürglen and farther over the Chinzig pass in the direction of Muotathal. The army, consisting of 22'000 men, sneaked up to the 2'073 m high Chinzig peak in the rain and snow, similar to a huge caterpillar. The exhausted soldiers had to march onward from the Muota valley via the Pragel and Panixer pass, since the way to Zurich was barred here as well.\n\nThe troops of only 14'000 survivors quitted Switzerland on the 11th of October in 1799 via Ilanz and Chur, on the Swiss-Austrian boarder.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/8635_Suworow-Denkmal_2a.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/8635_Suworow-Denkmal_2a.jpg",
+            "https://images.schweizmobil.ch/image/8635_Suworow-Denkmal_1b.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "Andermatt-Urserntal Tourismus GmbH",
+        "name_2": null,
+        "street": "Gotthardstrasse 2",
+        "zip": "6490",
+        "place": "Andermatt",
+        "tel": "+41 (0)41 888 71 00",
+        "fax": null,
+        "email": "info@andermatt.ch",
+        "url1_link": "https://www.andermatt.ch",
+        "x_coordinate": 688302.0981687142,
+        "y_coordinate": 166876.37137460487,
+        "change_date": null,
+        "id": 13,
+        "r_key": 13,
+        "type": "Sight",
+        "url_sightseeing": "http://www.uri.info/en/geschichte/mythosgotthard/suworow",
+        "touristic_region": 4,
+        "canton": 4
+    }
+}

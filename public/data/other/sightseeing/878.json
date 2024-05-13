@@ -1,1 +1,70 @@
-{"type":"Feature","id":878,"geometry":{"type":"Point","coordinates":[46.46834113940869,7.547672390702933]},"properties":{"land":null,"category":"all","language":"en","title":"Höchst-Trail","abstract":"In the summer, the mountain bikers take over the legendary Chuenisbärgli, where World Cup ski races are held every winter. Chuenisbärgli is located on the Höchst Trail, which meanders from high above Adelboden down to the valley. It is perfectly embedded in the terrain and the jumps and berms offer lots of excitement to experienced and adventurous riders. ","description":"Chuenisbärgli is considered to be the most difficult giant slalom course of the alpine World Cup ski competitions. But in the summer it belongs to the mountain bikers. They zoom from the Höchsthorn mountain station via Chuenisbärgli down to Bergläger. The Höchst Trail is the first bike track in the Adelboden-Lenk region.\n\nTake the convenient Höchst chairlift to get to the start at about 1900 m. Before a breath-taking backdrop, the bikers then shred 3.8 km and 410 altitude meters down the mountain over jumps and through berms. The Höchst Trail has an average gradient of 10 percent and riders of all levels are sure to have fun here.\n \nThe Höchst Trail was designed to optimally integrate natural forms of the terrain into the route.  As a result, the ride combined with the amazing outdoor experience is an absolute highlight.\n\n\nLength: 3.8 km\nSurface: natural ground\nDifficulty: red trail (intermediate)","highlights":null,"foto":"https://images0.schweizmobil.ch/image-big/BE_Hoechst_Trail_Adelboden_4_g.jpg","photo_gallery":["https://images0.schweizmobil.ch/image/BE_Hoechst_Trail_Adelboden_1_s.jpg","https://images0.schweizmobil.ch/image/BE_Hoechst_Trail_Adelboden_2_s.jpg","https://images0.schweizmobil.ch/image/BE_Hoechst_Trail_Adelboden_3_s.jpg","https://images0.schweizmobil.ch/image/BE_Hoechst_Trail_Adelboden_4_s.jpg"],"photo_gallery_big":["https://images0.schweizmobil.ch/image-big/BE_Hoechst_Trail_Adelboden_1_g.jpg","https://images0.schweizmobil.ch/image-big/BE_Hoechst_Trail_Adelboden_2_g.jpg","https://images0.schweizmobil.ch/image-big/BE_Hoechst_Trail_Adelboden_3_g.jpg","https://images0.schweizmobil.ch/image-big/BE_Hoechst_Trail_Adelboden_4_g.jpg"],"photo_gallery_copyright":["Dieses Bild ist urheberrechtlich geschuetzt.","Dieses Bild ist urheberrechtlich geschuetzt.","Dieses Bild ist urheberrechtlich geschuetzt.","Dieses Bild ist urheberrechtlich geschuetzt."],"photo_gallery_author":["","RPro-Photography","RPro-Photography","RPro-Photography"],"name":"Bergbahnen Adelboden AG","name_2":null,"street":"Bonderlenstrasse 4","zip":"3715","place":"Adelboden","tel":"+41 (0)33 673 90 90","fax":null,"email":"info@adelboden-lenk.ch","url1_link":"https://www.adelboden-lenk.ch","x_coordinate":608375.3434284836,"y_coordinate":146341.59506938222,"change_date":null,"id":878,"r_key":878,"type":"Sight","url_sightseeing":"https://www.adelboden-lenk.ch/bike","touristic_region":6}}
+{
+    "type": "Feature",
+    "id": 878,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.46834113493742,
+            7.547672387977942
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Höchst-Trail",
+        "abstract": "In the summer, the mountain bikers take over the legendary Chuenisbärgli, where World Cup ski races are held every winter. Chuenisbärgli is located on the Höchst Trail, which meanders from high above Adelboden down to the valley. It is perfectly embedded in the terrain and the jumps and berms offer lots of excitement to experienced and adventurous riders. ",
+        "description": "Chuenisbärgli is considered to be the most difficult giant slalom course of the alpine World Cup ski competitions. But in the summer it belongs to the mountain bikers. They zoom from the Höchsthorn mountain station via Chuenisbärgli down to Bergläger. The Höchst Trail is the first bike track in the Adelboden-Lenk region.\n\nTake the convenient Höchst chairlift to get to the start at about 1900 m. Before a breath-taking backdrop, the bikers then shred 3.8 km and 410 altitude meters down the mountain over jumps and through berms. The Höchst Trail has an average gradient of 10 percent and riders of all levels are sure to have fun here.\n \nThe Höchst Trail was designed to optimally integrate natural forms of the terrain into the route.  As a result, the ride combined with the amazing outdoor experience is an absolute highlight.\n\n\nLength: 3.8 km\nSurface: natural ground\nDifficulty: red trail (intermediate)",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image-big/BE_Hoechst_Trail_Adelboden_4_g.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/BE_Hoechst_Trail_Adelboden_1_s.jpg",
+            "https://images.schweizmobil.ch/image/BE_Hoechst_Trail_Adelboden_2_s.jpg",
+            "https://images.schweizmobil.ch/image/BE_Hoechst_Trail_Adelboden_3_s.jpg",
+            "https://images.schweizmobil.ch/image/BE_Hoechst_Trail_Adelboden_4_s.jpg"
+        ],
+        "photo_gallery_big": [
+            "https://images.schweizmobil.ch/image-big/BE_Hoechst_Trail_Adelboden_1_g.jpg",
+            "https://images.schweizmobil.ch/image-big/BE_Hoechst_Trail_Adelboden_2_g.jpg",
+            "https://images.schweizmobil.ch/image-big/BE_Hoechst_Trail_Adelboden_3_g.jpg",
+            "https://images.schweizmobil.ch/image-big/BE_Hoechst_Trail_Adelboden_4_g.jpg"
+        ],
+        "photo_gallery_copyright": [
+            "Dieses Bild ist urheberrechtlich geschuetzt.",
+            "Dieses Bild ist urheberrechtlich geschuetzt.",
+            "Dieses Bild ist urheberrechtlich geschuetzt.",
+            "Dieses Bild ist urheberrechtlich geschuetzt."
+        ],
+        "photo_gallery_author": [
+            "",
+            "RPro-Photography",
+            "RPro-Photography",
+            "RPro-Photography"
+        ],
+        "photo_gallery_abstract": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "name": "Bergbahnen Adelboden AG",
+        "name_2": null,
+        "street": "Bonderlenstrasse 4",
+        "zip": "3715",
+        "place": "Adelboden",
+        "tel": "+41 (0)33 673 90 90",
+        "fax": null,
+        "email": "info@adelboden-lenk.ch",
+        "url1_link": "https://www.adelboden-lenk.ch",
+        "x_coordinate": 608375.3434284836,
+        "y_coordinate": 146341.59506938222,
+        "change_date": null,
+        "id": 878,
+        "r_key": 878,
+        "type": "Sight",
+        "url_sightseeing": "https://www.adelboden-lenk.ch/bike",
+        "touristic_region": 6,
+        "canton": 12
+    }
+}

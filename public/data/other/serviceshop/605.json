@@ -1,1 +1,34 @@
-{"type":"Feature","id":3933,"geometry":{"type":"Point","coordinates":[47.494851955416465,8.339990784733288]},"properties":{"land":"\"velo\",\"mountainbike\"","category":"all","language":"en","title":"Landhus Bikeshop GmbH","abstract":null,"name":"Landhus Bikeshop GmbH","street":"Landstrasse 33","zip":"5420","place":"Ehrendingen","tel":"+41 56 222 35 86","email":null,"url1_text":null,"url1_link":"https://www.bikeshop-ehrendingen.ch","organisation":null,"foto":null,"x_coordinate":667921.6938606324,"y_coordinate":260845.52374957385,"change_date":null,"id":605,"type":"Service"}}
+{
+    "type": "Feature",
+    "id": 3933,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            47.494851965914584,
+            8.339990814919544
+        ]
+    },
+    "properties": {
+        "land": "\"velo\",\"mountainbike\"",
+        "category": "all",
+        "language": "en",
+        "title": "Landhus Bikeshop GmbH",
+        "abstract": null,
+        "name": "Landhus Bikeshop GmbH",
+        "street": "Landstrasse 33",
+        "zip": "5420",
+        "place": "Ehrendingen",
+        "tel": "+41 56 222 35 86",
+        "email": null,
+        "url1_text": null,
+        "url1_link": "https://www.bikeshop-ehrendingen.ch",
+        "organisation": null,
+        "foto": null,
+        "foto_abstract": null,
+        "x_coordinate": 667921.6938606324,
+        "y_coordinate": 260845.52374957106,
+        "change_date": null,
+        "id": 605,
+        "type": "Service"
+    }
+}

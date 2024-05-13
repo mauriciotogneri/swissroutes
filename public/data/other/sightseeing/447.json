@@ -1,1 +1,60 @@
-{"type":"Feature","id":447,"geometry":{"type":"Point","coordinates":[47.02677817512131,9.51335277934871]},"properties":{"land":null,"category":"all","language":"en","title":"Fläsch – award winning village","abstract":"At the entrance of the wine region, Bündner Herrschaft, lies a small village, Fläsch. Thanks to its innovative layout and contemporary architecture, the village won the much sought after 2010 Wakker prize.","description":"As a wine producer, Fläsch has many advantages. Tucked into the foot of the mountains the vineyards profit both from south facing slopes and the shield the mountains offer. Then in the autumn the warm wind of the «Fohn» brings the grapes to full ripeness.  The outstanding quality of the «älteste Flascher» is well-known. The village boosts of 16 vineyards, where wine is produced on site.\n\nThe Wakker prize 2010 is well-earned. Thanks to the skilful allocation of the land, the vineyards and orchards at the centre of the village have maintained their character, while the contemporary architectural design has been successfully developed. The overall effect enhances what is already a beautiful village.","highlights":null,"foto":"https://images0.schweizmobil.ch/image/11273_Wakkerdorf_Flaesch_1a.jpg","photo_gallery":["https://images0.schweizmobil.ch/image/11273_Wakkerdorf_Flaesch_1a.jpg","https://images0.schweizmobil.ch/image/11273_Wakkerdorf_Flaesch_2b.jpg"],"photo_gallery_big":["",""],"photo_gallery_copyright":["",""],"photo_gallery_author":["",""],"name":"Gemeindekanzlei Fläsch","name_2":null,"street":"Rathaus","zip":"7306","place":"Fläsch","tel":"+41 (0)81 302 23 95","fax":null,"email":"info@flaesch.ch","url1_link":"https://www.flaesch.ch","x_coordinate":757699.6969983026,"y_coordinate":210500.03375361173,"change_date":null,"id":447,"r_key":447,"type":"Sight","url_sightseeing":"https://www.flaesch.ch/leben-in-flaesch/wakkerdorf","touristic_region":1}}
+{
+    "type": "Feature",
+    "id": 447,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            47.02677817730162,
+            9.513352729221577
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Fläsch – award winning village",
+        "abstract": "At the entrance of the wine region, Bündner Herrschaft, lies a small village, Fläsch. Thanks to its innovative layout and contemporary architecture, the village won the much sought after 2010 Wakker prize.",
+        "description": "As a wine producer, Fläsch has many advantages. Tucked into the foot of the mountains the vineyards profit both from south facing slopes and the shield the mountains offer. Then in the autumn the warm wind of the «Fohn» brings the grapes to full ripeness.  The outstanding quality of the «älteste Flascher» is well-known. The village boosts of 16 vineyards, where wine is produced on site.\n\nThe Wakker prize 2010 is well-earned. Thanks to the skilful allocation of the land, the vineyards and orchards at the centre of the village have maintained their character, while the contemporary architectural design has been successfully developed. The overall effect enhances what is already a beautiful village.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/11273_Wakkerdorf_Flaesch_1a.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/11273_Wakkerdorf_Flaesch_1a.jpg",
+            "https://images.schweizmobil.ch/image/11273_Wakkerdorf_Flaesch_2b.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "Gemeindekanzlei Fläsch",
+        "name_2": null,
+        "street": "Rathaus",
+        "zip": "7306",
+        "place": "Fläsch",
+        "tel": "+41 (0)81 302 23 95",
+        "fax": null,
+        "email": "info@flaesch.ch",
+        "url1_link": "https://www.flaesch.ch",
+        "x_coordinate": 757699.6969983026,
+        "y_coordinate": 210500.03375361173,
+        "change_date": null,
+        "id": 447,
+        "r_key": 447,
+        "type": "Sight",
+        "url_sightseeing": "https://www.flaesch.ch/leben-in-flaesch/wakkerdorf",
+        "touristic_region": 1,
+        "canton": 2
+    }
+}

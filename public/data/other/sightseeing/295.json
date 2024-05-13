@@ -1,1 +1,60 @@
-{"type":"Feature","id":295,"geometry":{"type":"Point","coordinates":[47.099108413279794,9.063276471965096]},"properties":{"land":null,"category":"all","language":"en","title":"Freulerpalast","abstract":"The Freulerpalast is a top-class destination - an experience for everyone. It takes its name from the colonel and cavalier Kaspar Freuler (1595-1651), who commanded the Swiss Guards Regiment in France from 1635.","description":"Freuler arranged for a spectacular residence to be built in Näfels between 1642-47, with a design and furnishings that are unique in Switzerland. The interior is a surprise for every visitor with a sequence of wonderful rooms with elaborate entrances, early Baroque stucco-work, splendid coffered ceilings, wall panelling and tile stoves.\n\nThe varied Glarus state museum uses precious objects and paintings to bring alive the diverse culture and history of the Canton of Glarus. There is an impressive presentation of the well-known Glarus textile printing, which began around 1740 and conquered markets all over the world in the 19th century. The sections on \"Glarus military and weapons” and \"Glarus – the cradle of skiing in Switzerland” are also interestingly designed.","highlights":null,"foto":"https://images0.schweizmobil.ch/image/9061_Freulerpalast_1a.jpg","photo_gallery":["https://images0.schweizmobil.ch/image/9061_Freulerpalast_1a.jpg","https://images0.schweizmobil.ch/image/9061_Freulerpalast_2b.jpg"],"photo_gallery_big":["",""],"photo_gallery_copyright":["",""],"photo_gallery_author":["",""],"name":"Touristinfo Glarnerland GmbH","name_2":null,"street":"Autobahnraststätte A3","zip":"8867","place":"Niederurnen","tel":"+41 (0)55 610 21 25","fax":null,"email":"info@glarnerland.ch","url1_link":"https://www.glarnerland.ch","x_coordinate":723328.2497090815,"y_coordinate":217733.94220338442,"change_date":null,"id":295,"r_key":295,"type":"Sight","url_sightseeing":"https://www.freulerpalast.ch","touristic_region":2}}
+{
+    "type": "Feature",
+    "id": 295,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            47.09910841136868,
+            9.06327646786123
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Freulerpalast",
+        "abstract": "The Freulerpalast is a top-class destination - an experience for everyone. It takes its name from the colonel and cavalier Kaspar Freuler (1595-1651), who commanded the Swiss Guards Regiment in France from 1635.",
+        "description": "Freuler arranged for a spectacular residence to be built in Näfels between 1642-47, with a design and furnishings that are unique in Switzerland. The interior is a surprise for every visitor with a sequence of wonderful rooms with elaborate entrances, early Baroque stucco-work, splendid coffered ceilings, wall panelling and tile stoves.\n\nThe varied Glarus state museum uses precious objects and paintings to bring alive the diverse culture and history of the Canton of Glarus. There is an impressive presentation of the well-known Glarus textile printing, which began around 1740 and conquered markets all over the world in the 19th century. The sections on \"Glarus military and weapons” and \"Glarus – the cradle of skiing in Switzerland” are also interestingly designed.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/9061_Freulerpalast_1a.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/9061_Freulerpalast_1a.jpg",
+            "https://images.schweizmobil.ch/image/9061_Freulerpalast_2b.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "Touristinfo Glarnerland GmbH",
+        "name_2": null,
+        "street": "Autobahnraststätte A3",
+        "zip": "8867",
+        "place": "Niederurnen",
+        "tel": "+41 (0)55 610 21 25",
+        "fax": null,
+        "email": "info@glarnerland.ch",
+        "url1_link": "https://www.glarnerland.ch",
+        "x_coordinate": 723328.2497090815,
+        "y_coordinate": 217733.94220338442,
+        "change_date": null,
+        "id": 295,
+        "r_key": 295,
+        "type": "Sight",
+        "url_sightseeing": "https://www.freulerpalast.ch",
+        "touristic_region": 2,
+        "canton": 14
+    }
+}

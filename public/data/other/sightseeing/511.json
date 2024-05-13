@@ -1,1 +1,60 @@
-{"type":"Feature","id":511,"geometry":{"type":"Point","coordinates":[46.9028476788025,7.240224101230201]},"properties":{"land":null,"category":"all","language":"en","title":"Läubliplatz in Laupen","abstract":"At the heart of the delightful medieval town centre of Laupen, the Läubliplatz charms with its green and shady network of branches. A very special gem.","description":"Anyone meandering through the Marktgasse market street leading to the slightly sloping Läubliplatz has the impression of entering a big stage, with picturesque old houses forming the surrounding scenery. Some of these have covered arbours, similar to those found in the city of Berne, hence the name of the place.\n\nThe little town of Laupen, with charming medieval town centre, was constructed above the former flood zone on the castle hill; where visitors today continue to view some of the old round wall that still remains standing.","highlights":null,"foto":"https://images0.schweizmobil.ch/image/8023_Laeubliplatz-in-Laupen_1a.jpg","photo_gallery":["https://images0.schweizmobil.ch/image/8023_Laeubliplatz-in-Laupen_1a.jpg","https://images0.schweizmobil.ch/image/8023_Laeubliplatz-in-Laupen_2b.jpg"],"photo_gallery_big":["",""],"photo_gallery_copyright":["",""],"photo_gallery_author":["",""],"name":"Tourismus Region Laupen","name_2":null,"street":"Postfach 63","zip":"3177","place":"Laupen","tel":"+41 (0)31 740 10 60","fax":null,"email":"tourismus@regionlaupen.ch","url1_link":"https://www.regionlaupen.ch ","x_coordinate":584882.0426564665,"y_coordinate":194657.26205534642,"change_date":null,"id":511,"r_key":511,"type":"Sight","url_sightseeing":"http://www.regionlaupen.ch","touristic_region":6}}
+{
+    "type": "Feature",
+    "id": 511,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.90284767825489,
+            7.240224102512798
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Läubliplatz in Laupen",
+        "abstract": "At the heart of the delightful medieval town centre of Laupen, the Läubliplatz charms with its green and shady network of branches. A very special gem.",
+        "description": "Anyone meandering through the Marktgasse market street leading to the slightly sloping Läubliplatz has the impression of entering a big stage, with picturesque old houses forming the surrounding scenery. Some of these have covered arbours, similar to those found in the city of Berne, hence the name of the place.\n\nThe little town of Laupen, with charming medieval town centre, was constructed above the former flood zone on the castle hill; where visitors today continue to view some of the old round wall that still remains standing.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/8023_Laeubliplatz-in-Laupen_1a.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/8023_Laeubliplatz-in-Laupen_1a.jpg",
+            "https://images.schweizmobil.ch/image/8023_Laeubliplatz-in-Laupen_2b.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "Tourismus Region Laupen",
+        "name_2": null,
+        "street": "Postfach 63",
+        "zip": "3177",
+        "place": "Laupen",
+        "tel": "+41 (0)31 740 10 60",
+        "fax": null,
+        "email": "tourismus@regionlaupen.ch",
+        "url1_link": "https://www.regionlaupen.ch ",
+        "x_coordinate": 584882.0426564665,
+        "y_coordinate": 194657.26205534642,
+        "change_date": null,
+        "id": 511,
+        "r_key": 511,
+        "type": "Sight",
+        "url_sightseeing": "http://www.regionlaupen.ch",
+        "touristic_region": 6,
+        "canton": 12
+    }
+}

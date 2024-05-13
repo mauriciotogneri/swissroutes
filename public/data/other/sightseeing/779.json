@@ -1,1 +1,70 @@
-{"type":"Feature","id":779,"geometry":{"type":"Point","coordinates":[46.61201499821002,7.531827648432091]},"properties":{"land":null,"category":"all","language":"en","title":"Bikepark Wiriehorn","abstract":"With three different bike routes and a pump track, the Wiriehorn Hot Trail Bikepark beckons with a varied mountain biking experience. The trails are suitable for advanced riders and beginners alike. ","description":"The Wiriehorn chairlift will transport your bike quickly and easily to the top station at Nüegg, where the trails start (refer to the chairlift operating times). The three downhill trails of varied terrain with steep bends, wood wall bends, drops and dusts promise exhilarating downhill sessions: \n\n-\tAlptrail (easy)\n-\tOld T-Bar (intermediate)\n-\tWeryhorny (difficult)\n\nSul percorso di scoperta \"Alptrail\" si imparano le basi della mountain bike attraverso esercizi pratici. Il percorso è paragonabile a un percorso vita: prima si leggono i cartelli e poi si mette alla prova la propria abilità. Il motto è: \"La pratica rende perfetti\"!\n\nThe pump track is ideal for those who wish to hone their skills. Located at the end of the other runs, it can be used by all visitors.  \n\nAll trails finish right next to the bottom chairlift station, where you will find showers and bike washing facilities. There is also a barbecue area. Camping in the large car park is permitted. ","highlights":null,"foto":"https://images0.schweizmobil.ch/image-big/BE_Bikepark_Wiriehorn_1_g.jpg","photo_gallery":["https://images0.schweizmobil.ch/image/BE_Bikepark_Wiriehorn_1_s.jpg","https://images0.schweizmobil.ch/image/BE_Bikepark_Wiriehorn_2_s.jpg","https://images0.schweizmobil.ch/image/BE_Bikepark_Wiriehorn_3_s.jpg","https://images0.schweizmobil.ch/image/BE_Bikepark_Wiriehorn_4_s.jpg"],"photo_gallery_big":["https://images0.schweizmobil.ch/image-big/BE_Bikepark_Wiriehorn_1_g.jpg","https://images0.schweizmobil.ch/image-big/BE_Bikepark_Wiriehorn_2_g.jpg","https://images0.schweizmobil.ch/image-big/BE_Bikepark_Wiriehorn_3_g.jpg","https://images0.schweizmobil.ch/image-big/BE_Bikepark_Wiriehorn_4_g.jpg"],"photo_gallery_copyright":["","","",""],"photo_gallery_author":["","","",""],"name":"Wiriehornbahnen AG","name_2":null,"street":"Riedli 15","zip":"3756 ","place":"Zwischenflüh","tel":"+41 33 684 12 33","fax":null,"email":"info@wiriehorn.ch","url1_link":"https://www.wiriehorn.ch","x_coordinate":607139.8718062612,"y_coordinate":162311.1953113891,"change_date":null,"id":779,"r_key":779,"type":"Sight","url_sightseeing":"https://www.wiriehorn.ch/bikepark","touristic_region":6}}
+{
+    "type": "Feature",
+    "id": 779,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.61201500152263,
+            7.531827646997606
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Bikepark Wiriehorn",
+        "abstract": "With three different bike routes and a pump track, the Wiriehorn Hot Trail Bikepark beckons with a varied mountain biking experience. The trails are suitable for advanced riders and beginners alike. ",
+        "description": "The Wiriehorn chairlift will transport your bike quickly and easily to the top station at Nüegg, where the trails start (refer to the chairlift operating times). The three downhill trails of varied terrain with steep bends, wood wall bends, drops and dusts promise exhilarating downhill sessions: \n\n-\tAlptrail (easy)\n-\tOld T-Bar (intermediate)\n-\tWeryhorny (difficult)\n\nSul percorso di scoperta \"Alptrail\" si imparano le basi della mountain bike attraverso esercizi pratici. Il percorso è paragonabile a un percorso vita: prima si leggono i cartelli e poi si mette alla prova la propria abilità. Il motto è: \"La pratica rende perfetti\"!\n\nThe pump track is ideal for those who wish to hone their skills. Located at the end of the other runs, it can be used by all visitors.  \n\nAll trails finish right next to the bottom chairlift station, where you will find showers and bike washing facilities. There is also a barbecue area. Camping in the large car park is permitted. ",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image-big/BE_Bikepark_Wiriehorn_1_g.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/BE_Bikepark_Wiriehorn_1_s.jpg",
+            "https://images.schweizmobil.ch/image/BE_Bikepark_Wiriehorn_2_s.jpg",
+            "https://images.schweizmobil.ch/image/BE_Bikepark_Wiriehorn_3_s.jpg",
+            "https://images.schweizmobil.ch/image/BE_Bikepark_Wiriehorn_4_s.jpg"
+        ],
+        "photo_gallery_big": [
+            "https://images.schweizmobil.ch/image-big/BE_Bikepark_Wiriehorn_1_g.jpg",
+            "https://images.schweizmobil.ch/image-big/BE_Bikepark_Wiriehorn_2_g.jpg",
+            "https://images.schweizmobil.ch/image-big/BE_Bikepark_Wiriehorn_3_g.jpg",
+            "https://images.schweizmobil.ch/image-big/BE_Bikepark_Wiriehorn_4_g.jpg"
+        ],
+        "photo_gallery_copyright": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "name": "Wiriehornbahnen AG",
+        "name_2": null,
+        "street": "Riedli 15",
+        "zip": "3756 ",
+        "place": "Zwischenflüh",
+        "tel": "+41 33 684 12 33",
+        "fax": null,
+        "email": "info@wiriehorn.ch",
+        "url1_link": "https://www.wiriehorn.ch",
+        "x_coordinate": 607139.8718062612,
+        "y_coordinate": 162311.1953113891,
+        "change_date": null,
+        "id": 779,
+        "r_key": 779,
+        "type": "Sight",
+        "url_sightseeing": "https://www.wiriehorn.ch/bikepark",
+        "touristic_region": 6,
+        "canton": 12
+    }
+}

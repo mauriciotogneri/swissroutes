@@ -1,1 +1,60 @@
-{"type":"Feature","id":378,"geometry":{"type":"Point","coordinates":[47.557629831662126,8.291668024197024]},"properties":{"land":null,"category":"all","language":"en","title":"Weinbaumuseum Aargau","abstract":"Experience wine growing from the vine shoot through to the wine tasting. In the former Wiss-Trotte (wine press) built in 1788 in Tegerfeld, one of the largest wine growing districts of the Aargau region, you will gain an insight into how the wide range of Aargau's wines are produced.","description":"As an agricultural product, since ancient times wine has played an important role both in industry as well as in the social and ritual life. So trace the history of wine and in the Cantonal Wine Museum in Tegerfelden follow the route of the wine from the vine through to bottling. Learn about the history of pressing and cooperage, everything you need to know about grapes, vines and wine and enjoy the diversity of Aargau's wines at a wine tasting session. You will be accom-panied on your guided tour by knowledgeable museum guides who will be happy to answer your questions at any time.\n\nEnjoy the unique atmosphere of the former Wiss-Trotte (wine press) and end your visit to the museum to the sound of music, a fine plate of meat or cheese and a glass of choice wine.","highlights":null,"foto":"https://images0.schweizmobil.ch/image/12795_Weinbaumuseum_Aargau_1a.jpg","photo_gallery":["https://images0.schweizmobil.ch/image/12795_Weinbaumuseum_Aargau_1a.jpg","https://images0.schweizmobil.ch/image/12795_Weinbaumuseum_Aargau_2b.jpg"],"photo_gallery_big":["",""],"photo_gallery_copyright":["",""],"photo_gallery_author":["",""],"name":"Aargau Tourismus AG","name_2":null,"street":"Laurstrasse 10","zip":"5200","place":"Brugg","tel":"+41 (0)62 823 00 73","fax":null,"email":"info@aargautourismus.ch","url1_link":"https://www.aargautourismus.ch","x_coordinate":664204.9083680039,"y_coordinate":267784.7732005001,"change_date":null,"id":378,"r_key":378,"type":"Sight","url_sightseeing":"https://www.weinbau-museum.ch","touristic_region":14}}
+{
+    "type": "Feature",
+    "id": 378,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            47.557629863466474,
+            8.291668025550033
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Weinbaumuseum Aargau",
+        "abstract": "Experience wine growing from the vine shoot through to the wine tasting. In the former Wiss-Trotte (wine press) built in 1788 in Tegerfeld, one of the largest wine growing districts of the Aargau region, you will gain an insight into how the wide range of Aargau's wines are produced.",
+        "description": "As an agricultural product, since ancient times wine has played an important role both in industry as well as in the social and ritual life. So trace the history of wine and in the Cantonal Wine Museum in Tegerfelden follow the route of the wine from the vine through to bottling. Learn about the history of pressing and cooperage, everything you need to know about grapes, vines and wine and enjoy the diversity of Aargau's wines at a wine tasting session. You will be accom-panied on your guided tour by knowledgeable museum guides who will be happy to answer your questions at any time.\n\nEnjoy the unique atmosphere of the former Wiss-Trotte (wine press) and end your visit to the museum to the sound of music, a fine plate of meat or cheese and a glass of choice wine.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/12795_Weinbaumuseum_Aargau_1a.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/12795_Weinbaumuseum_Aargau_1a.jpg",
+            "https://images.schweizmobil.ch/image/12795_Weinbaumuseum_Aargau_2b.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "Aargau Tourismus AG",
+        "name_2": null,
+        "street": "Laurstrasse 10",
+        "zip": "5200",
+        "place": "Brugg",
+        "tel": "+41 (0)62 823 00 73",
+        "fax": null,
+        "email": "info@aargautourismus.ch",
+        "url1_link": "https://www.aargautourismus.ch",
+        "x_coordinate": 664204.9083680039,
+        "y_coordinate": 267784.7732005001,
+        "change_date": null,
+        "id": 378,
+        "r_key": 378,
+        "type": "Sight",
+        "url_sightseeing": "https://www.weinbau-museum.ch",
+        "touristic_region": 14,
+        "canton": 13
+    }
+}

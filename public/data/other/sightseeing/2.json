@@ -1,50 +1,55 @@
 {
-  "type": "Feature",
-  "id": 2,
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      47.24392236760803,
-      7.514055046510451
-    ]
-  },
-  "properties": {
-    "land": null,
-    "category": "all",
-    "language": "en",
-    "title": "Stigelos (Rüttenen–Weissenstein)",
-    "abstract": "Those who take the footpath up the Weissenstein reach an impressive rock labyrinth at «Stigenlos». The path through the rocks once served as access to the Nesselboden and Weissenstein pastures.",
-    "description": "Before the chairlift was built in 1950, there were only two ways to reach the summit of the Weissenstein. You either took the road or climbed up the path, laid by the latest in 1644, from Leewald above Rüttenen to Nesselboden. The exact dating is made possible by an inscription in the rocks of the «Stigenlos». The date of a path renovation can also be found there. The exposed nature and steepness of the path made further renovations necessary so that it could be used in comparative safety.\n\nAfter an alp hut had been converted into a health centre in the first quarter of the 19th century, illustrious guests from all over Europe took this path to the Weissenstein. Whey cures amidst this spectacular Mittelland and Alpine scenery were easily marketed. Early guests visiting for the sake of their health no longer seemed intimidated by nature but rather sought harmony with it, regarding the natural world as an attraction. But first the exertions of the climb, described in numerous travel reports, had to be overcome. The landscape painter, Samuel Birman also recorded this in his travels through Switzerland in 1810.",
-    "highlights": null,
-    "foto": "https://images0.schweizmobil.ch/image/IVS_B5_Weissenstein.jpg",
-    "photo_gallery": [
-      "https://images0.schweizmobil.ch/image/IVS_B5_Weissenstein.jpg"
-    ],
-    "photo_gallery_big": [
-      ""
-    ],
-    "photo_gallery_copyright": [
-      ""
-    ],
-    "photo_gallery_author": [
-      ""
-    ],
-    "name": "Bundesinventar der historischen Verkehrswege der Schweiz (IVS)",
-    "name_2": null,
-    "street": "",
-    "zip": "",
-    "place": "",
-    "tel": "",
-    "fax": null,
-    "email": "",
-    "url1_link": "https://www.ivs.admin.ch",
-    "x_coordinate": 605710.314908597,
-    "y_coordinate": 232559.70056570027,
-    "change_date": null,
+    "type": "Feature",
     "id": 2,
-    "r_key": 2,
-    "type": "Sight",
-    "url_sightseeing": "https://s.geo.admin.ch/6fb179f96f",
-    "touristic_region": 8
-  }
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            47.2439223680084,
+            7.514055044235835
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Stigelos (Rüttenen–Weissenstein)",
+        "abstract": "Those who take the footpath up the Weissenstein reach an impressive rock labyrinth at «Stigenlos». The path through the rocks once served as access to the Nesselboden and Weissenstein pastures.",
+        "description": "Before the chairlift was built in 1950, there were only two ways to reach the summit of the Weissenstein. You either took the road or climbed up the path, laid by the latest in 1644, from Leewald above Rüttenen to Nesselboden. The exact dating is made possible by an inscription in the rocks of the «Stigenlos». The date of a path renovation can also be found there. The exposed nature and steepness of the path made further renovations necessary so that it could be used in comparative safety.\n\nAfter an alp hut had been converted into a health centre in the first quarter of the 19th century, illustrious guests from all over Europe took this path to the Weissenstein. Whey cures amidst this spectacular Mittelland and Alpine scenery were easily marketed. Early guests visiting for the sake of their health no longer seemed intimidated by nature but rather sought harmony with it, regarding the natural world as an attraction. But first the exertions of the climb, described in numerous travel reports, had to be overcome. The landscape painter, Samuel Birman also recorded this in his travels through Switzerland in 1810.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/IVS_B5_Weissenstein.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/IVS_B5_Weissenstein.jpg"
+        ],
+        "photo_gallery_big": [
+            ""
+        ],
+        "photo_gallery_copyright": [
+            ""
+        ],
+        "photo_gallery_author": [
+            ""
+        ],
+        "photo_gallery_abstract": [
+            ""
+        ],
+        "name": "Bundesinventar der historischen Verkehrswege der Schweiz (IVS)",
+        "name_2": null,
+        "street": " ",
+        "zip": " ",
+        "place": " ",
+        "tel": " ",
+        "fax": null,
+        "email": " ",
+        "url1_link": "https://www.ivs.admin.ch",
+        "x_coordinate": 605710.314908597,
+        "y_coordinate": 232559.70056570027,
+        "change_date": null,
+        "id": 2,
+        "r_key": 2,
+        "type": "Sight",
+        "url_sightseeing": "https://s.geo.admin.ch/6fb179f96f",
+        "touristic_region": 8,
+        "canton": 16
+    }
 }

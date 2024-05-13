@@ -1,50 +1,55 @@
 {
-  "type": "Feature",
-  "id": 658,
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      46.698970464975275,
-      8.846468505791739
-    ]
-  },
-  "properties": {
-    "land": null,
-    "category": "all",
-    "language": "en",
-    "title": "Disentis–Sontga Gada",
-    "abstract": "Up to the head of the pass, the mule track from Disentis over the Passo del Lucamagno to Olivone seems to have hardly changed for centuries. With the best-preserved lane around Disentis, the path is a first-class culturally historic monument.",
-    "description": "With a summit height of 1972 m, the Passo del Lucamagno is the lowest pass in Graubunden, climbing in one haul directly over the Alpine ridge. Being relatively easy to negotiate, the Lucamagno was already used in late Roman times. Written mention was first made in 965. Transit over the pass experienced its heyday from the Early to High Middle Ages.\n\nThe pass was considerably patronized by the Imperial Abbey and Disentis Monastery. The importance of the pass was signified by no fewer than four hospices, the most significant being the Sontga Maria at the pass head, first documented in 1374. Today, this lies at the bottom of the reservoir created in 1968. In the Late Middle Ages, the Passo del Lucomagno lost much of its importance to the Septimerpass and later the Splügenpass.\n\nThe mule track from Disentis to Sontga Gada is an almost continuous 1 to 2 metre wide lane bordered by free-standing walls built of stones gathered in the vicinity. On the side towards the mountain slope, the walls, which are partly interspersed with bushes, serve as retaining walls. The surface of the path is overgrown with grass. The path, which begins as a gentle climb and then levels out, is now a hiking trail. It is crossed twice by the tracks of the Furka-Oberalp Railway.",
-    "highlights": null,
-    "foto": "https://images0.schweizmobil.ch/image/IVS_85_SendaSursilvana.jpg",
-    "photo_gallery": [
-      "https://images0.schweizmobil.ch/image/IVS_85_SendaSursilvana.jpg"
-    ],
-    "photo_gallery_big": [
-      ""
-    ],
-    "photo_gallery_copyright": [
-      ""
-    ],
-    "photo_gallery_author": [
-      ""
-    ],
-    "name": "Bundesinventar der historischen Verkehrswege der Schweiz (IVS)",
-    "name_2": null,
-    "street": "",
-    "zip": "",
-    "place": "",
-    "tel": "",
-    "fax": null,
-    "email": "",
-    "url1_link": "https://www.ivs.admin.ch",
-    "x_coordinate": 707670.1120209335,
-    "y_coordinate": 172939.47658616997,
-    "change_date": null,
+    "type": "Feature",
     "id": 658,
-    "r_key": 658,
-    "type": "Sight",
-    "url_sightseeing": "https://s.geo.admin.ch/6fb160200f",
-    "touristic_region": 1
-  }
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.698970469441605,
+            8.846468483865685
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Disentis–Sontga Gada",
+        "abstract": "Up to the head of the pass, the mule track from Disentis over the Passo del Lucamagno to Olivone seems to have hardly changed for centuries. With the best-preserved lane around Disentis, the path is a first-class culturally historic monument.",
+        "description": "With a summit height of 1972 m, the Passo del Lucamagno is the lowest pass in Graubunden, climbing in one haul directly over the Alpine ridge. Being relatively easy to negotiate, the Lucamagno was already used in late Roman times. Written mention was first made in 965. Transit over the pass experienced its heyday from the Early to High Middle Ages.\n\nThe pass was considerably patronized by the Imperial Abbey and Disentis Monastery. The importance of the pass was signified by no fewer than four hospices, the most significant being the Sontga Maria at the pass head, first documented in 1374. Today, this lies at the bottom of the reservoir created in 1968. In the Late Middle Ages, the Passo del Lucomagno lost much of its importance to the Septimerpass and later the Splügenpass.\n\nThe mule track from Disentis to Sontga Gada is an almost continuous 1 to 2 metre wide lane bordered by free-standing walls built of stones gathered in the vicinity. On the side towards the mountain slope, the walls, which are partly interspersed with bushes, serve as retaining walls. The surface of the path is overgrown with grass. The path, which begins as a gentle climb and then levels out, is now a hiking trail. It is crossed twice by the tracks of the Furka-Oberalp Railway.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/IVS_85_SendaSursilvana.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/IVS_85_SendaSursilvana.jpg"
+        ],
+        "photo_gallery_big": [
+            ""
+        ],
+        "photo_gallery_copyright": [
+            ""
+        ],
+        "photo_gallery_author": [
+            ""
+        ],
+        "photo_gallery_abstract": [
+            ""
+        ],
+        "name": "Bundesinventar der historischen Verkehrswege der Schweiz (IVS)",
+        "name_2": null,
+        "street": "   ",
+        "zip": " ",
+        "place": " ",
+        "tel": " ",
+        "fax": null,
+        "email": " ",
+        "url1_link": "https://www.ivs.admin.ch",
+        "x_coordinate": 707670.1120209335,
+        "y_coordinate": 172939.47658616997,
+        "change_date": null,
+        "id": 658,
+        "r_key": 658,
+        "type": "Sight",
+        "url_sightseeing": "https://s.geo.admin.ch/6fb160200f",
+        "touristic_region": 1,
+        "canton": 2
+    }
 }

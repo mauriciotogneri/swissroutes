@@ -1,1 +1,34 @@
-{"type":"Feature","id":3114,"geometry":{"type":"Point","coordinates":[47.49830882930402,8.722883381309913]},"properties":{"land":"\"velo\",\"mountainbike\"","category":"all","language":"en","title":"BIKE STOP GmbH","abstract":null,"name":"BIKE STOP GmbH","street":"Untere Vogelsangstrasse 2","zip":"8400","place":"Winterthur","tel":"+41 52 214 25 25","email":null,"url1_text":null,"url1_link":"https://www.bikestop.ch","organisation":"2rad / 2routes / 2ruote","foto":null,"x_coordinate":696765.2184216272,"y_coordinate":261631.9777584845,"change_date":null,"id":363,"type":"Service"}}
+{
+    "type": "Feature",
+    "id": 3114,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            47.498308815033184,
+            8.722883425459022
+        ]
+    },
+    "properties": {
+        "land": "\"velo\",\"mountainbike\"",
+        "category": "all",
+        "language": "en",
+        "title": "BIKE STOP GmbH",
+        "abstract": null,
+        "name": "BIKE STOP GmbH",
+        "street": "Untere Vogelsangstrasse 2",
+        "zip": "8400",
+        "place": "Winterthur",
+        "tel": "+41 52 214 25 25",
+        "email": null,
+        "url1_text": null,
+        "url1_link": "https://www.bikestop.ch",
+        "organisation": "2rad / 2routes / 2ruote",
+        "foto": null,
+        "foto_abstract": null,
+        "x_coordinate": 696765.2184216272,
+        "y_coordinate": 261631.9777584845,
+        "change_date": null,
+        "id": 363,
+        "type": "Service"
+    }
+}

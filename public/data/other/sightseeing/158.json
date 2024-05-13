@@ -1,1 +1,60 @@
-{"type":"Feature","id":158,"geometry":{"type":"Point","coordinates":[46.38247346993464,6.240699146884074]},"properties":{"land":null,"category":"all","language":"en","title":"Château de Nyon","abstract":"Since 1888, the Castle of Nyon has housed the History and Porcelain Museum featuring a major collection of porcelain made in the 18th century in the famous Nyon factory.","description":"The entire castle is accessible to the public and presents the history of Nyon at its porcelain collections. The exhibitions endeavour to maintain the collections in sync with the exhibition halls to stimulate visitors’ impression of being in an inhabited house.\n\nThe history of Nyon between 1000 B.C. and 1999 A.D. is shown on the upper floor. Thirteen display cases show objects evoking the region's past. In addition, the district's former prison cells have been maintained in their original state and are shown together with documents describing their history.","highlights":null,"foto":"https://images0.schweizmobil.ch/image/11399_Chateau_de_Nyon_3a.jpg","photo_gallery":["https://images0.schweizmobil.ch/image/11399_Chateau_de_Nyon_3a.jpg","https://images0.schweizmobil.ch/image/11399_Chateau_de_Nyon_2b.jpg"],"photo_gallery_big":["",""],"photo_gallery_copyright":["",""],"photo_gallery_author":["",""],"name":"Office du tourisme de Nyon","name_2":null,"street":"Avenue Viollier 8","zip":"1260","place":"Nyon","tel":"+41 (0)22 365 66 00 ","fax":null,"email":"info@nrt.ch","url1_link":"https://www.nyon-tourisme.ch","x_coordinate":507844.77401874814,"y_coordinate":137493.04786445756,"change_date":null,"id":158,"r_key":158,"type":"Sight","url_sightseeing":"https://www.chateaudenyon.ch","touristic_region":9}}
+{
+    "type": "Feature",
+    "id": 158,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.382473501887,
+            6.240699151838744
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Château de Nyon",
+        "abstract": "Since 1888, the Castle of Nyon has housed the History and Porcelain Museum featuring a major collection of porcelain made in the 18th century in the famous Nyon factory.",
+        "description": "The entire castle is accessible to the public and presents the history of Nyon at its porcelain collections. The exhibitions endeavour to maintain the collections in sync with the exhibition halls to stimulate visitors’ impression of being in an inhabited house.\n\nThe history of Nyon between 1000 B.C. and 1999 A.D. is shown on the upper floor. Thirteen display cases show objects evoking the region's past. In addition, the district's former prison cells have been maintained in their original state and are shown together with documents describing their history.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/11399_Chateau_de_Nyon_3a.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/11399_Chateau_de_Nyon_3a.jpg",
+            "https://images.schweizmobil.ch/image/11399_Chateau_de_Nyon_2b.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "Office du tourisme de Nyon",
+        "name_2": null,
+        "street": "Avenue Viollier 8",
+        "zip": "1260",
+        "place": "Nyon",
+        "tel": "+41 (0)22 365 66 00 ",
+        "fax": null,
+        "email": "info@nrt.ch",
+        "url1_link": "https://www.nyon-tourisme.ch",
+        "x_coordinate": 507844.77401874814,
+        "y_coordinate": 137493.04786445756,
+        "change_date": null,
+        "id": 158,
+        "r_key": 158,
+        "type": "Sight",
+        "url_sightseeing": "https://www.chateaudenyon.ch",
+        "touristic_region": 9,
+        "canton": 27
+    }
+}

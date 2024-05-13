@@ -1,54 +1,60 @@
 {
-  "type": "Feature",
-  "id": 3277,
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      46.20668822226122,
-      7.867814000396965
-    ]
-  },
-  "properties": {
-    "land": null,
-    "category": "all",
-    "language": "en",
-    "title": "SISU Flowtrail Grächen",
-    "abstract": "The flow trail designed especially for families begins at Hannigalp at an altitude of 2124 m. The flowing downhill ride meanders through pine and larch forests past charming Alpine huts, all the way to Grächen.",
-    "description": "",
-    "highlights": "Length: 4 km\nOpening hours: Mid-June to mid-October (analogous to the opening of the lifts)",
-    "foto": "https://images0.schweizmobil.ch/image-big/SISU_Flowtrail_Grächen_1_g.jpg",
-    "photo_gallery": [
-      "https://images0.schweizmobil.ch/image/SISU_Flowtrail_Grächen_2_s.jpg",
-      "https://images0.schweizmobil.ch/image/SISU_Flowtrail_Grächen_1_s.jpg"
-    ],
-    "photo_gallery_big": [
-      "https://images0.schweizmobil.ch/image-big/SISU_Flowtrail_Grächen_2_g.jpg",
-      "https://images0.schweizmobil.ch/image-big/SISU_Flowtrail_Grächen_1_g.jpg"
-    ],
-    "photo_gallery_copyright": [
-      "",
-      ""
-    ],
-    "photo_gallery_author": [
-      "",
-      ""
-    ],
-    "name": "Grächen und St. Niklaus Tourismus und Gewerbe",
-    "name_2": null,
-    "street": "Dorfplatz",
-    "zip": "3925",
-    "place": "Grächen",
-    "tel": "+41 27 955 60 64",
-    "fax": null,
-    "email": "info@graechen.ch",
-    "url1_link": "https://www.graechen.ch",
-    "x_coordinate": 633124.1599261835,
-    "y_coordinate": 117339.75829602242,
-    "change_date": null,
+    "type": "Feature",
     "id": 3277,
-    "r_key": 3277,
-    "type": "Sight",
-    "url_sightseeing": "https://www.valais.ch/en/activities/mountain-bike/flowtrails/sisu-flowtrail-grachen",
-    "touristic_region": 11
-  }
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.206688248109295,
+            7.867814002750557
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Flowtrail Grächen",
+        "abstract": "The flow trail designed especially for families begins at Hannigalp at an altitude of 2124 m. The flowing downhill ride meanders through pine and larch forests past charming Alpine huts, all the way to Grächen.",
+        "description": " ",
+        "highlights": "Length: 4 km\nOpening hours: Mid-June to mid-October (analogous to the opening of the lifts)",
+        "foto": "https://images.schweizmobil.ch/image-big/SISU_Flowtrail_Grächen_1_g.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/SISU_Flowtrail_Grächen_2_s.jpg",
+            "https://images.schweizmobil.ch/image/SISU_Flowtrail_Grächen_1_s.jpg"
+        ],
+        "photo_gallery_big": [
+            "https://images.schweizmobil.ch/image-big/SISU_Flowtrail_Grächen_2_g.jpg",
+            "https://images.schweizmobil.ch/image-big/SISU_Flowtrail_Grächen_1_g.jpg"
+        ],
+        "photo_gallery_copyright": [
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "Grächen und St. Niklaus Tourismus und Gewerbe",
+        "name_2": null,
+        "street": "Dorfplatz",
+        "zip": "3925",
+        "place": "Grächen",
+        "tel": "+41 27 955 60 64",
+        "fax": null,
+        "email": "info@graechen.ch",
+        "url1_link": "https://www.graechen.ch",
+        "x_coordinate": 633124.1599261835,
+        "y_coordinate": 117339.75829602242,
+        "change_date": null,
+        "id": 3277,
+        "r_key": 3277,
+        "type": "Sight",
+        "url_sightseeing": "https://www.valais.ch/en/activities/mountain-bike/flowtrails/sisu-flowtrail-grachen",
+        "touristic_region": 11,
+        "canton": 7
+    }
 }

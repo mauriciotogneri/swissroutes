@@ -1,1 +1,55 @@
-{"type":"Feature","id":888,"geometry":{"type":"Point","coordinates":[46.74099800975975,8.195179346185254]},"properties":{"land":null,"category":"all","language":"en","title":"Pumptrack Hasliberg","abstract":"In the midst of the Haslital Valley there is a fun and weather-resistant asphalt pump track. It is located on an area of 700 m2, right on the edge of the forest, within the Grossenstein athletic field.","description":"The generous endless loop consists of rollers and turns. With BMX, skateboard, inline skates, mountain bike, or scooter - you can create countless combinations with any type of wheels. \n\nThose who can or want to do more can even get airborne in the turns or on the rollers. The Hasliberg pump track is made of asphalt and therefore it is weather-resistant. It is an ideal training ground and a recreational area for anybody who enjoys travelling on wheels.\n\n\nSurface area: 700 m2\nLength: 140 m\nSurface: asphalt","highlights":null,"foto":"https://images0.schweizmobil.ch/image-big/BE_Pumptrack_Hasliberg_2_g.jpg","photo_gallery":["https://images0.schweizmobil.ch/image/BE_Pumptrack_Hasliberg_2_s.jpg"],"photo_gallery_big":["https://images0.schweizmobil.ch/image-big/BE_Pumptrack_Hasliberg_2_g.jpg"],"photo_gallery_copyright":[""],"photo_gallery_author":[""],"name":"Haslital Tourismus","name_2":null,"street":"Bahnhofplatz 12","zip":"3860","place":"Meiringen","tel":"+41 (0)33 972 50 50","fax":null,"email":"info@haslital.swiss","url1_link":"https://www.haslital.swiss","x_coordinate":657817.8564337072,"y_coordinate":176924.69504306078,"change_date":null,"id":888,"r_key":888,"type":"Sight","url_sightseeing":"https://jungfrauregion.swiss/en/summer/see-and-do/activities/adventure-fun/pumptrack-hasliberg/","touristic_region":6}}
+{
+    "type": "Feature",
+    "id": 888,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.740998007067695,
+            8.195179334426294
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Pumptrack Hasliberg",
+        "abstract": "In the midst of the Haslital Valley there is a fun and weather-resistant asphalt pump track. It is located on an area of 700 m2, right on the edge of the forest, within the Grossenstein athletic field.",
+        "description": "The generous endless loop consists of rollers and turns. With BMX, skateboard, inline skates, mountain bike, or scooter - you can create countless combinations with any type of wheels. \n\nThose who can or want to do more can even get airborne in the turns or on the rollers. The Hasliberg pump track is made of asphalt and therefore it is weather-resistant. It is an ideal training ground and a recreational area for anybody who enjoys travelling on wheels.\n\n\nSurface area: 700 m2\nLength: 140 m\nSurface: asphalt",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image-big/BE_Pumptrack_Hasliberg_2_g.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/BE_Pumptrack_Hasliberg_2_s.jpg"
+        ],
+        "photo_gallery_big": [
+            "https://images.schweizmobil.ch/image-big/BE_Pumptrack_Hasliberg_2_g.jpg"
+        ],
+        "photo_gallery_copyright": [
+            ""
+        ],
+        "photo_gallery_author": [
+            ""
+        ],
+        "photo_gallery_abstract": [
+            ""
+        ],
+        "name": "Haslital Tourismus",
+        "name_2": null,
+        "street": "Bahnhofplatz 12",
+        "zip": "3860",
+        "place": "Meiringen",
+        "tel": "+41 (0)33 972 50 50",
+        "fax": null,
+        "email": "info@haslital.swiss",
+        "url1_link": "https://www.haslital.swiss",
+        "x_coordinate": 657817.8564337072,
+        "y_coordinate": 176924.69504306078,
+        "change_date": null,
+        "id": 888,
+        "r_key": 888,
+        "type": "Sight",
+        "url_sightseeing": "https://jungfrauregion.swiss/en/summer/see-and-do/activities/adventure-fun/pumptrack-hasliberg/",
+        "touristic_region": 6,
+        "canton": 12
+    }
+}

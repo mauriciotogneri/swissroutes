@@ -1,50 +1,55 @@
 {
-  "type": "Feature",
-  "id": 37,
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      47.13248435020206,
-      9.511583073207683
-    ]
-  },
-  "properties": {
-    "land": null,
-    "category": "all",
-    "language": "en",
-    "title": "Wooden bridge and Rhein at Sevelen",
-    "abstract": "Of 15 wooden bridges in the St. Gallen Rheintal, only the bridge at Sevelen has survived flooding, fires and the emergence of motorised traffic. Today it is a lone example of its type, built in the process of the straightening of the Rhine’s course.",
-    "description": "The old ferries were gradually replaced by wooden bridges after the project to straighten and control the flow of the Rhine was completed in the 1860s. 13 road and two railway bridges were built between Trübbach and the Bodensee (Lake Constance) between 1867 and 1879.\n\nThe first roofed wooden bridge at Sevelen was constructed in the war years of 1870-71 to connect the Landschaft Werdenberg with the Liechtenstein capital of Vaduz. By 1900, it had fallen into a state of such disrepair that it became in danger of collapsing at high water. A new Howe type truss bridge was built on the existing pillars and opened on 1 June 1901. It was replaced as a road bridge by a concrete bridge 200 metres upriver in 1973, and subsequently used by pedestrians and non-motorised traffic. It was given protected landmark status in 1981.\n\nWith its length of 135 metres and width of almost 6 metres, the bridge at Sevelen is the largest preserved Howe type timber bridge in Europe and one of the most significant examples of early Swiss timber engineering. It rests on five wooden double pillars that are reinforced with metal at the lower sections. The span between the pillars measures 26 metres in the two end sections and 20 metres in the four middle sections.",
-    "highlights": null,
-    "foto": "https://images0.schweizmobil.ch/image/IVS_13_Sevelen.jpg",
-    "photo_gallery": [
-      "https://images0.schweizmobil.ch/image/IVS_13_Sevelen.jpg"
-    ],
-    "photo_gallery_big": [
-      ""
-    ],
-    "photo_gallery_copyright": [
-      ""
-    ],
-    "photo_gallery_author": [
-      ""
-    ],
-    "name": "Bundesinventar der historischen Verkehrswege der Schweiz (IVS)",
-    "name_2": null,
-    "street": "",
-    "zip": "",
-    "place": "",
-    "tel": "",
-    "fax": null,
-    "email": "",
-    "url1_link": "https://www.ivs.admin.ch",
-    "x_coordinate": 757254.6756374938,
-    "y_coordinate": 222244.5354658657,
-    "change_date": null,
+    "type": "Feature",
     "id": 37,
-    "r_key": 37,
-    "type": "Sight",
-    "url_sightseeing": "https://s.geo.admin.ch/6fb1895d91",
-    "touristic_region": 2
-  }
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            47.13248434188182,
+            9.511583131721707
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Wooden bridge and Rhein at Sevelen",
+        "abstract": "Of 15 wooden bridges in the St. Gallen Rheintal, only the bridge at Sevelen has survived flooding, fires and the emergence of motorised traffic. Today it is a lone example of its type, built in the process of the straightening of the Rhine’s course.",
+        "description": "The old ferries were gradually replaced by wooden bridges after the project to straighten and control the flow of the Rhine was completed in the 1860s. 13 road and two railway bridges were built between Trübbach and the Bodensee (Lake Constance) between 1867 and 1879.\n\nThe first roofed wooden bridge at Sevelen was constructed in the war years of 1870-71 to connect the Landschaft Werdenberg with the Liechtenstein capital of Vaduz. By 1900, it had fallen into a state of such disrepair that it became in danger of collapsing at high water. A new Howe type truss bridge was built on the existing pillars and opened on 1 June 1901. It was replaced as a road bridge by a concrete bridge 200 metres upriver in 1973, and subsequently used by pedestrians and non-motorised traffic. It was given protected landmark status in 1981.\n\nWith its length of 135 metres and width of almost 6 metres, the bridge at Sevelen is the largest preserved Howe type timber bridge in Europe and one of the most significant examples of early Swiss timber engineering. It rests on five wooden double pillars that are reinforced with metal at the lower sections. The span between the pillars measures 26 metres in the two end sections and 20 metres in the four middle sections.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/IVS_13_Sevelen.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/IVS_13_Sevelen.jpg"
+        ],
+        "photo_gallery_big": [
+            ""
+        ],
+        "photo_gallery_copyright": [
+            ""
+        ],
+        "photo_gallery_author": [
+            ""
+        ],
+        "photo_gallery_abstract": [
+            ""
+        ],
+        "name": "Bundesinventar der historischen Verkehrswege der Schweiz (IVS)",
+        "name_2": null,
+        "street": " ",
+        "zip": " ",
+        "place": " ",
+        "tel": " ",
+        "fax": null,
+        "email": " ",
+        "url1_link": "https://www.ivs.admin.ch",
+        "x_coordinate": 757254.6756374938,
+        "y_coordinate": 222244.5354658657,
+        "change_date": null,
+        "id": 37,
+        "r_key": 37,
+        "type": "Sight",
+        "url_sightseeing": "https://s.geo.admin.ch/6fb1895d91",
+        "touristic_region": 2,
+        "canton": 1
+    }
 }

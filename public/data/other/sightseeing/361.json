@@ -1,1 +1,60 @@
-{"type":"Feature","id":361,"geometry":{"type":"Point","coordinates":[46.809899129866345,9.310648449698723]},"properties":{"land":null,"category":"all","language":"en","title":"The Rhine Gorge","abstract":"This «Little Swiss Grand Canyon» is a natural monument offering a host of activities such as hiking and river rafting.","description":"The Rhine Gorge, or «Ruinaulta» in Romansh, is one of the most magnificent and diverse landscapes in the Alps. Created about 10,000 years ago by a rockslide, the gorge walls reach heights of up to 300 metres. In its depths, the Upper Rhine winds its way for 14 kilometres. It is fed from Lake Toma at the Oberalp Pass, the Rhine's official source. From there it is exactly 1,233 kilometres to its outlet in the North Sea near Rotterdam in the Netherlands.\n\nBetween Ilanz and Rheichenau, the Rhine is a thrilling experience. River rafters and canoeists find this stretch of the river a natural paradise where you can even spot a chamois or a little ringed plover. Between Ilanz and Reichenau there are seven boat launch areas and demarcated picnic spots.","highlights":null,"foto":"https://images0.schweizmobil.ch/image/9777_Rheinschlucht_1_a.jpg","photo_gallery":["https://images0.schweizmobil.ch/image/9777_Rheinschlucht_1_a.jpg","https://images0.schweizmobil.ch/image/Chutzenturm_Drohne_c_BEW-5_master_s.jpg"],"photo_gallery_big":["","https://images0.schweizmobil.ch/image-big/Chutzenturm_Drohne_c_BEW-5_master_g.jpg"],"photo_gallery_copyright":["",""],"photo_gallery_author":["",""],"name":"Flims Laax Falera","name_2":null,"street":"Via Nova 62","zip":"7017","place":"Flims Dorf","tel":"+41 (0)81 920 92 00","fax":null,"email":"info@flimslaaxfalera.ch","url1_link":"https://www.flimslaax.com","x_coordinate":742870.1009107414,"y_coordinate":186009.8321183043,"change_date":null,"id":361,"r_key":361,"type":"Sight","url_sightseeing":"https://www.rheinschlucht.ch","touristic_region":1}}
+{
+    "type": "Feature",
+    "id": 361,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.80989912976437,
+            9.310648527747055
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "The Rhine Gorge",
+        "abstract": "This «Little Swiss Grand Canyon» is a natural monument offering a host of activities such as hiking and river rafting.",
+        "description": "The Rhine Gorge, or «Ruinaulta» in Romansh, is one of the most magnificent and diverse landscapes in the Alps. Created about 10,000 years ago by a rockslide, the gorge walls reach heights of up to 300 metres. In its depths, the Upper Rhine winds its way for 14 kilometres. It is fed from Lake Toma at the Oberalp Pass, the Rhine's official source. From there it is exactly 1,233 kilometres to its outlet in the North Sea near Rotterdam in the Netherlands.\n\nBetween Ilanz and Rheichenau, the Rhine is a thrilling experience. River rafters and canoeists find this stretch of the river a natural paradise where you can even spot a chamois or a little ringed plover. Between Ilanz and Reichenau there are seven boat launch areas and demarcated picnic spots.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/9777_Rheinschlucht_1_a.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/9777_Rheinschlucht_1_a.jpg",
+            "https://images.schweizmobil.ch/image/ST0035193_master_s.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            "https://images.schweizmobil.ch/image-big/ST0035193_master_g.jpg"
+        ],
+        "photo_gallery_copyright": [
+            "",
+            "Switzerland Tourism/Jan Geerk"
+        ],
+        "photo_gallery_author": [
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "Flims Laax Falera",
+        "name_2": null,
+        "street": "Via Nova 62",
+        "zip": "7017",
+        "place": "Flims Dorf",
+        "tel": "+41 (0)81 920 92 00",
+        "fax": null,
+        "email": "info@flimslaaxfalera.ch",
+        "url1_link": "https://www.flimslaax.com",
+        "x_coordinate": 742870.1009107414,
+        "y_coordinate": 186009.8321183043,
+        "change_date": null,
+        "id": 361,
+        "r_key": 361,
+        "type": "Sight",
+        "url_sightseeing": "https://www.rheinschlucht.ch",
+        "touristic_region": 1,
+        "canton": 2
+    }
+}

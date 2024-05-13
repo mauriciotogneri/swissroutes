@@ -1,1 +1,34 @@
-{"type":"Feature","id":3007,"geometry":{"type":"Point","coordinates":[46.92505988010187,8.263079944251857]},"properties":{"land":"\"velo\",\"mountainbike\"","category":"all","language":"en","title":"Fusion World GmbH","abstract":null,"name":"Fusion World GmbH","street":"Steinhausstrasse 4","zip":"6056","place":"Kägiswil","tel":"+41 41 671 00 30","email":null,"url1_text":null,"url1_link":"https://www.fusionsworld.ch","organisation":"2rad / 2routes / 2ruote","foto":null,"x_coordinate":662791.0952455353,"y_coordinate":197437.52836155827,"change_date":null,"id":235,"type":"Service"}}
+{
+    "type": "Feature",
+    "id": 3007,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.92505987947302,
+            8.263079979348113
+        ]
+    },
+    "properties": {
+        "land": "\"velo\",\"mountainbike\"",
+        "category": "all",
+        "language": "en",
+        "title": "Fusion World GmbH",
+        "abstract": null,
+        "name": "Fusion World GmbH",
+        "street": "Steinhausstrasse 4",
+        "zip": "6056",
+        "place": "Kägiswil",
+        "tel": "+41 41 671 00 30",
+        "email": null,
+        "url1_text": null,
+        "url1_link": "https://www.fusionsworld.ch",
+        "organisation": "2rad / 2routes / 2ruote",
+        "foto": null,
+        "foto_abstract": null,
+        "x_coordinate": 662791.0952455353,
+        "y_coordinate": 197437.52836155827,
+        "change_date": null,
+        "id": 235,
+        "type": "Service"
+    }
+}

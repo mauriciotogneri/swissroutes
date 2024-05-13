@@ -1,1 +1,65 @@
-{"type":"Feature","id":3398,"geometry":{"type":"Point","coordinates":[46.807492024278616,9.256887804152065]},"properties":{"land":null,"category":"all","language":"en","title":"Lake Laax","abstract":"Located in the centre of the village, Laax lake offers a unique blend of lake and mountain activities. The lake features a beach volleyball court, a playground with pump track, barbecue points and pedal boats.","description":"Ils lags' is Romansch for 'the lakes'. As such, the lake in the village contributed significantly to the naming of Laax. In summer, Laaxersee lake offers cool bathing and an enjoyable atmosphere, with the sunbathing lawn providing more than enough space for sunlovers.\n\nThis natural recreational and fun-promoting paradise attracts both locals and holiday guests. Bathe, sunbathe, pedal a boat or play ball games in the ample space – there is even a children's zoo. Laaxersee lake offers an exciting day out.","highlights":"Kiddie pool, 1 m springboard\n\nSlide, beach volleyball court\n\nPlay area, quiet area, barbecue points\n\nShowers, WC facilities\n\nSun loungers: meadow, lawn\n\nLake trampoline, children's zoo, kiosk\n\nPedal boat and subs hire, e-bike charging station","foto":"https://images0.schweizmobil.ch/image/Baden_SeebadLax_5.jpg","photo_gallery":["https://images0.schweizmobil.ch/image/Baden_SeebadLax_3.jpg","https://images0.schweizmobil.ch/image/Baden_SeebadLax_2.jpg","https://images0.schweizmobil.ch/image/Baden_SeebadLax_5.jpg"],"photo_gallery_big":["","",""],"photo_gallery_copyright":["","",""],"photo_gallery_author":["","",""],"name":"Bogn Cuvretg Hallenbad Laax","name_2":null,"street":"Via Grava 45","zip":"7031","place":"Laax","tel":"+41 (0)81 921 46 10","fax":null,"email":"grava@kns.ch","url1_link":"https://www.flims.com/de/aktivitaeten/badeseen/laaxersee/","x_coordinate":738774.1547438486,"y_coordinate":185645.4876574604,"change_date":null,"id":3398,"r_key":3398,"type":"Sight","url_sightseeing":"https://www.flimslaax.com/en/outdoor-activities/mountain-lakes/lake-laax","touristic_region":1}}
+{
+    "type": "Feature",
+    "id": 3398,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.80749202372388,
+            9.256887900351861
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Lake Laax",
+        "abstract": "Located in the centre of the village, Laax lake offers a unique blend of lake and mountain activities. The lake features a beach volleyball court, a playground with pump track, barbecue points and pedal boats.",
+        "description": "Ils lags' is Romansch for 'the lakes'. As such, the lake in the village contributed significantly to the naming of Laax. In summer, Laaxersee lake offers cool bathing and an enjoyable atmosphere, with the sunbathing lawn providing more than enough space for sunlovers.\n\nThis natural recreational and fun-promoting paradise attracts both locals and holiday guests. Bathe, sunbathe, pedal a boat or play ball games in the ample space – there is even a children's zoo. Laaxersee lake offers an exciting day out.",
+        "highlights": "Kiddie pool, 1 m springboard\n\nSlide, beach volleyball court\n\nPlay area, quiet area, barbecue points\n\nShowers, WC facilities\n\nSun loungers: meadow, lawn\n\nLake trampoline, children's zoo, kiosk\n\nPedal boat and subs hire, e-bike charging station",
+        "foto": "https://images.schweizmobil.ch/image/Baden_SeebadLax_5.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/Baden_SeebadLax_2.jpg",
+            "https://images.schweizmobil.ch/image/Baden_SeebadLax_5.jpg",
+            "https://images.schweizmobil.ch/image/Baden_SeebadLax_3.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            "",
+            ""
+        ],
+        "name": "Bogn Cuvretg Hallenbad Laax",
+        "name_2": null,
+        "street": "Via Grava 45",
+        "zip": "7031",
+        "place": "Laax",
+        "tel": "+41 (0)81 921 46 10",
+        "fax": null,
+        "email": "grava@kns.ch",
+        "url1_link": "https://www.flims.com/de/aktivitaeten/badeseen/laaxersee/",
+        "x_coordinate": 738774.1547438486,
+        "y_coordinate": 185645.4876574604,
+        "change_date": null,
+        "id": 3398,
+        "r_key": 3398,
+        "type": "Sight",
+        "url_sightseeing": "https://www.flimslaax.com/en/outdoor-activities/mountain-lakes/lake-laax",
+        "touristic_region": 1,
+        "canton": 2
+    }
+}

@@ -1,1 +1,34 @@
-{"type":"Feature","id":3053,"geometry":{"type":"Point","coordinates":[46.834276963319084,9.450348787742806]},"properties":{"land":"\"velo\",\"mountainbike\"","category":"all","language":"en","title":"Maissen Velos-Motos Inh. Thomas Maissen","abstract":null,"name":"Maissen Velos-Motos Inh. Thomas Maissen","street":"Via Nova 40","zip":"7013","place":"Domat/Ems","tel":"+41 81 633 36 33","email":null,"url1_text":null,"url1_link":"https://www.velosmotosmaissen.ch","organisation":"2rad / 2routes / 2ruote","foto":null,"x_coordinate":753460.1187197575,"y_coordinate":188982.02982742584,"change_date":null,"id":289,"type":"Service"}}
+{
+    "type": "Feature",
+    "id": 3053,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.834276958902315,
+            9.450348840221746
+        ]
+    },
+    "properties": {
+        "land": "\"velo\",\"mountainbike\"",
+        "category": "all",
+        "language": "en",
+        "title": "Maissen Velos-Motos Inh. Thomas Maissen",
+        "abstract": null,
+        "name": "Maissen Velos-Motos Inh. Thomas Maissen",
+        "street": "Via Nova 40",
+        "zip": "7013",
+        "place": "Domat/Ems",
+        "tel": "+41 81 633 36 33",
+        "email": null,
+        "url1_text": null,
+        "url1_link": "https://www.velosmotosmaissen.ch",
+        "organisation": "2rad / 2routes / 2ruote",
+        "foto": null,
+        "foto_abstract": null,
+        "x_coordinate": 753460.1187197575,
+        "y_coordinate": 188982.02982742584,
+        "change_date": null,
+        "id": 289,
+        "type": "Service"
+    }
+}

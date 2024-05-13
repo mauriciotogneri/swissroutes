@@ -1,1 +1,34 @@
-{"type":"Feature","id":3110,"geometry":{"type":"Point","coordinates":[47.429526026968155,8.696343876880993]},"properties":{"land":"\"velo\",\"mountainbike\"","category":"all","language":"en","title":"Velobude VBW GmbH","abstract":null,"name":"Velobude VBW GmbH","street":"Lindenstrasse 15","zip":"8307","place":"Effretikon","tel":"+41 52 343 43 48","email":null,"url1_text":null,"url1_link":"https://www.velobude.ch","organisation":"2rad / 2routes / 2ruote","foto":null,"x_coordinate":694888.2863743221,"y_coordinate":253952.13238996407,"change_date":null,"id":358,"type":"Service"}}
+{
+    "type": "Feature",
+    "id": 3110,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            47.42952601790067,
+            8.696343854392088
+        ]
+    },
+    "properties": {
+        "land": "\"velo\",\"mountainbike\"",
+        "category": "all",
+        "language": "en",
+        "title": "Velobude VBW GmbH",
+        "abstract": null,
+        "name": "Velobude VBW GmbH",
+        "street": "Lindenstrasse 15",
+        "zip": "8307",
+        "place": "Effretikon",
+        "tel": "+41 52 343 43 48",
+        "email": null,
+        "url1_text": null,
+        "url1_link": "https://www.velobude.ch",
+        "organisation": "2rad / 2routes / 2ruote",
+        "foto": null,
+        "foto_abstract": null,
+        "x_coordinate": 694888.2863743221,
+        "y_coordinate": 253952.13238996407,
+        "change_date": null,
+        "id": 358,
+        "type": "Service"
+    }
+}

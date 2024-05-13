@@ -1,50 +1,55 @@
 {
-  "type": "Feature",
-  "id": 52,
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      46.79554839572927,
-      9.340546322503855
-    ]
-  },
-  "properties": {
-    "land": null,
-    "category": "all",
-    "language": "en",
-    "title": "Versamer Gorge – a daring passageway",
-    "abstract": "The wild, eroded landscape in the lower reaches of the Rabiusa River at Versam is anything but traffic friendly. The road, built with considerable effort in 1880/81, is one of the most spectacular examples of transport infrastructure in the Swiss Alps.",
-    "description": "The historic road around the Versamer Gorge has everything that an authentic mountain road should offer: massive walls, hairpin bends, tunnels, bridges and spectacular panoramas with abrupt drops, sheer cliffs and deep ravines. Particular attractions are the sections through the cliff walls above the confluence of the Rabiusa and Vorderrhein, the Rabiusa bridge and the walled hairpin bends on the ascent to Versam.\n\nTo protect traffic from rock falls or crashing over the edge, the road though the rock sections has two galleries, three tunnels and parapet walls, in places combined with timber barriers. One particularly striking point is a section hewn through the cliff and dominated by a mighty tooth of rock on the valley side.\n\nThe Versamer Gorge is bridged by a daring steel construction dating from 1897. The structure crosses the Rabiusa at a height of 70 metres. Fortunately, great care has been taken over previous renovation work and the bridge has retained its character.",
-    "highlights": null,
-    "foto": "https://images0.schweizmobil.ch/image/IVS_30_Versamer_Tobel.jpg",
-    "photo_gallery": [
-      "https://images0.schweizmobil.ch/image/IVS_30_Versamer_Tobel.jpg"
-    ],
-    "photo_gallery_big": [
-      ""
-    ],
-    "photo_gallery_copyright": [
-      ""
-    ],
-    "photo_gallery_author": [
-      ""
-    ],
-    "name": "Bundesinventar der historischen Verkehrswege der Schweiz (IVS)",
-    "name_2": null,
-    "street": "",
-    "zip": "",
-    "place": "",
-    "tel": "",
-    "fax": null,
-    "email": "",
-    "url1_link": "https://www.ivs.admin.ch",
-    "x_coordinate": 745190.262530331,
-    "y_coordinate": 184469.92671048825,
-    "change_date": null,
+    "type": "Feature",
     "id": 52,
-    "r_key": 52,
-    "type": "Sight",
-    "url_sightseeing": "https://s.geo.admin.ch/6fb1849624",
-    "touristic_region": 1
-  }
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.79554839359662,
+            9.340546315431295
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Versamer Gorge – a daring passageway",
+        "abstract": "The wild, eroded landscape in the lower reaches of the Rabiusa River at Versam is anything but traffic friendly. The road, built with considerable effort in 1880/81, is one of the most spectacular examples of transport infrastructure in the Swiss Alps.",
+        "description": "The historic road around the Versamer Gorge has everything that an authentic mountain road should offer: massive walls, hairpin bends, tunnels, bridges and spectacular panoramas with abrupt drops, sheer cliffs and deep ravines. Particular attractions are the sections through the cliff walls above the confluence of the Rabiusa and Vorderrhein, the Rabiusa bridge and the walled hairpin bends on the ascent to Versam.\n\nTo protect traffic from rock falls or crashing over the edge, the road though the rock sections has two galleries, three tunnels and parapet walls, in places combined with timber barriers. One particularly striking point is a section hewn through the cliff and dominated by a mighty tooth of rock on the valley side.\n\nThe Versamer Gorge is bridged by a daring steel construction dating from 1897. The structure crosses the Rabiusa at a height of 70 metres. Fortunately, great care has been taken over previous renovation work and the bridge has retained its character.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/IVS_30_Versamer_Tobel.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/IVS_30_Versamer_Tobel.jpg"
+        ],
+        "photo_gallery_big": [
+            ""
+        ],
+        "photo_gallery_copyright": [
+            ""
+        ],
+        "photo_gallery_author": [
+            ""
+        ],
+        "photo_gallery_abstract": [
+            ""
+        ],
+        "name": "Bundesinventar der historischen Verkehrswege der Schweiz (IVS)",
+        "name_2": null,
+        "street": " ",
+        "zip": " ",
+        "place": " ",
+        "tel": " ",
+        "fax": null,
+        "email": " ",
+        "url1_link": "https://www.ivs.admin.ch",
+        "x_coordinate": 745190.262530331,
+        "y_coordinate": 184469.92671048825,
+        "change_date": null,
+        "id": 52,
+        "r_key": 52,
+        "type": "Sight",
+        "url_sightseeing": "https://s.geo.admin.ch/6fb1849624",
+        "touristic_region": 1,
+        "canton": 2
+    }
 }

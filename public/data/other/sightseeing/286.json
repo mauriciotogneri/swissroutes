@@ -1,1 +1,60 @@
-{"type":"Feature","id":286,"geometry":{"type":"Point","coordinates":[47.116938544447095,9.54409341771404]},"properties":{"land":null,"category":"all","language":"en","title":"Galina falconry","abstract":"The Galina falconry in Malbun offers unadulterated thrills. You cannot get any closer to an eagle, falcon, hawk or eagle owl than you can at this unique falconry show.","description":"In the falconry show you can experience hawks, eagle owls, buzzards, falcons, ravens and golden eagles close up. You can sense the boundless energy and majestic poise of these noble wild animals at first hand. The Galina falconry provides an insight into the great art of traditional falconry and displays the stunning skills of these special hunters in the mountain town of Malbun, 1600m above sea level.\n\nYou also have the opportunity to accompany the falconer Norman Vögeli on a walk with his female golden eagle. \"Under the Eagle’s Spell” is the name of the one and a half-hour discovery walk, which brings you unusually close to the king of the air.","highlights":null,"foto":"https://images0.schweizmobil.ch/image/9206_Falknerei-Galina_1a.jpg","photo_gallery":["https://images0.schweizmobil.ch/image/9206_Falknerei-Galina_1a.jpg","https://images0.schweizmobil.ch/image/9206_Falknerei-Galina_2b.jpg"],"photo_gallery_big":["",""],"photo_gallery_copyright":["",""],"photo_gallery_author":["",""],"name":"Falknerei Galina","name_2":null,"street":"Hotel Restaurant","zip":"9497","place":"Malbun","tel":"+423 265 34 24","fax":null,"email":"info@galina.li","url1_link":"https://www.galina.li","x_coordinate":759766.6897208435,"y_coordinate":220582.0719928791,"change_date":null,"id":286,"r_key":286,"type":"Sight","url_sightseeing":"https://www.galina.li","touristic_region":2}}
+{
+    "type": "Feature",
+    "id": 286,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            47.11693854714466,
+            9.544093371822726
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Galina falconry",
+        "abstract": "The Galina falconry in Malbun offers unadulterated thrills. You cannot get any closer to an eagle, falcon, hawk or eagle owl than you can at this unique falconry show.",
+        "description": "In the falconry show you can experience hawks, eagle owls, buzzards, falcons, ravens and golden eagles close up. You can sense the boundless energy and majestic poise of these noble wild animals at first hand. The Galina falconry provides an insight into the great art of traditional falconry and displays the stunning skills of these special hunters in the mountain town of Malbun, 1600m above sea level.\n\nYou also have the opportunity to accompany the falconer Norman Vögeli on a walk with his female golden eagle. \"Under the Eagle’s Spell” is the name of the one and a half-hour discovery walk, which brings you unusually close to the king of the air.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/9206_Falknerei-Galina_1a.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/9206_Falknerei-Galina_1a.jpg",
+            "https://images.schweizmobil.ch/image/9206_Falknerei-Galina_2b.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "Falknerei Galina",
+        "name_2": null,
+        "street": "Hotel Restaurant",
+        "zip": "9497",
+        "place": "Malbun",
+        "tel": "+423 265 34 24",
+        "fax": null,
+        "email": "info@galina.li",
+        "url1_link": "https://www.galina.li",
+        "x_coordinate": 759766.6897208435,
+        "y_coordinate": 220582.0719928791,
+        "change_date": null,
+        "id": 286,
+        "r_key": 286,
+        "type": "Sight",
+        "url_sightseeing": "https://www.galina.li",
+        "touristic_region": 2,
+        "canton": 1
+    }
+}

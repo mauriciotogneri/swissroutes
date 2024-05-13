@@ -1,1 +1,34 @@
-{"type":"Feature","id":3261,"geometry":{"type":"Point","coordinates":[47.05757286110221,7.626895500445794]},"properties":{"land":"\"velo\",\"mountainbike\"","category":"all","language":"en","title":"rad-werk Durrer","abstract":null,"name":"rad-werk Durrer","street":"Mühlegasse 4","zip":"3400","place":"Burgdorf","tel":"+41 34 53013 08","email":null,"url1_text":null,"url1_link":"https://www.rad-werk.ch","organisation":"2rad / 2routes / 2ruote","foto":null,"x_coordinate":614303.7540275407,"y_coordinate":211856.4951566776,"change_date":null,"id":541,"type":"Service"}}
+{
+    "type": "Feature",
+    "id": 3261,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            47.05757286164341,
+            7.626895504231468
+        ]
+    },
+    "properties": {
+        "land": "\"velo\",\"mountainbike\"",
+        "category": "all",
+        "language": "en",
+        "title": "rad-werk Durrer",
+        "abstract": null,
+        "name": "rad-werk Durrer",
+        "street": "Mühlegasse 4",
+        "zip": "3400",
+        "place": "Burgdorf",
+        "tel": "+41 34 53013 08",
+        "email": null,
+        "url1_text": null,
+        "url1_link": "https://www.rad-werk.ch",
+        "organisation": "2rad / 2routes / 2ruote",
+        "foto": null,
+        "foto_abstract": null,
+        "x_coordinate": 614303.7540275407,
+        "y_coordinate": 211856.4951566776,
+        "change_date": null,
+        "id": 541,
+        "type": "Service"
+    }
+}

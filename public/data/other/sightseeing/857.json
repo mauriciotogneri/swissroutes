@@ -1,1 +1,80 @@
-{"type":"Feature","id":857,"geometry":{"type":"Point","coordinates":[46.17535050865246,6.845184614744838]},"properties":{"land":null,"category":"all","language":"en","title":"Bikepark Champéry-Morgins","abstract":"The bike park in the Dents du Midi region is a mountain biker’s paradise: eleven downhill trails of different levels meander through the magnificent alpine scenery. Still, the infamous black world cup track in Champéry is not for everyone…","description":"Besides extended tours, the Dents du Midi region also offers lots of action with its eleven downhill trails. “Chevreuil”, the red trail through the forest, is located in Champéry as is the legendary black world cup track named “Coupe du Monde”, where the first world cup race was held. It is steep and challenging and this is why it’s not as busy as the other trails. The backdrop with seven 3000 meter peaks surrounding the Val-¬d’Illiez is an awesome view during the ride down.\n\n“Crosets”, “Grand-Conche”, “Loquet”, and “Sundance” in Les Crosets are four intermediate level tracks (red), primarily running across meadows. Those who prefer riding in the forest should go to Morgins. The following five tracks promise downhill fun for any level: “La Çarigole” (blue), “La Noire” (black), “La Quatreans” (green), “Le Madzé” (red), and “La Tobogane” (red).\n\nFrom the Champéry-Morgins bike park you can get to four other bike parks on the French side of the Portes du Soleil region. They are located near the resorts of Châtel, Les Gets, Morzine, and Avoriaz. Overall, twenty ski lifts are available allowing you to easily shuttle back and forth between Switzerland and France. \n\n\nTracks: 1 green, 1 blue, 7 red, and 2 black ","highlights":null,"foto":"https://images0.schweizmobil.ch/image/VS_Bikepark_Champery-Morgins_1_M.jpg","photo_gallery":["https://images0.schweizmobil.ch/image/VS_Bikepark_Champery-Morgins_1_s.jpg","https://images0.schweizmobil.ch/image/VS_Bikepark_Champery-Morgins_2_s.jpg","https://images0.schweizmobil.ch/image/VS_Bikepark_Champery-Morgins_3_s.jpg","https://images0.schweizmobil.ch/image/VS_Bikepark_Champery-Morgins_4_s.jpg","https://images0.schweizmobil.ch/image/VS_Bikepark_Champery-Morgins_5_s.jpg","https://images0.schweizmobil.ch/image/VS_Bikepark_Champery-Morgins_6_s.jpg"],"photo_gallery_big":["https://images0.schweizmobil.ch/image-big/VS_Bikepark_Champery-Morgins_1_g.jpg","https://images0.schweizmobil.ch/image-big/VS_Bikepark_Champery-Morgins_2_g.jpg","https://images0.schweizmobil.ch/image-big/VS_Bikepark_Champery-Morgins_3_g.jpg","https://images0.schweizmobil.ch/image-big/VS_Bikepark_Champery-Morgins_4_g.jpg","https://images0.schweizmobil.ch/image-big/VS_Bikepark_Champery-Morgins_5_g.jpg","https://images0.schweizmobil.ch/image-big/VS_Bikepark_Champery-Morgins_6_g.jpg"],"photo_gallery_copyright":["Sylvain Cochard","2015 REBUFFAT","","Sylvain Cochard","Norihiko Matsuda","2015 REBUFFAT"],"photo_gallery_author":["Sylvain Cochard","JulesRebuffat EDITION","","Sylvain Cochard","Norihiko Matsuda","JulesRebuffat EDITION"],"name":"Région Dents du Midi SA","name_2":null,"street":"Route de Champéry 22","zip":"1873","place":"Val-d’Illiez","tel":"+41 (0)24 477 13 15","fax":null,"email":"info@rddm.ch","url1_link":"https://www.regiondentsdumidi.ch ","x_coordinate":554171.042965549,"y_coordinate":113938.43810497236,"change_date":null,"id":857,"r_key":857,"type":"Sight","url_sightseeing":"https://www.valais.ch/en/activities/mountain-bike/bikeparks","touristic_region":11}}
+{
+    "type": "Feature",
+    "id": 857,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.17535050159556,
+            6.8451846383136985
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Bikepark Champéry-Morgins",
+        "abstract": "The bike park in the Dents du Midi region is a mountain biker’s paradise: eleven downhill trails of different levels meander through the magnificent alpine scenery. Still, the infamous black world cup track in Champéry is not for everyone…",
+        "description": "Besides extended tours, the Dents du Midi region also offers lots of action with its eleven downhill trails. “Chevreuil”, the red trail through the forest, is located in Champéry as is the legendary black world cup track named “Coupe du Monde”, where the first world cup race was held. It is steep and challenging and this is why it’s not as busy as the other trails. The backdrop with seven 3000 meter peaks surrounding the Val-¬d’Illiez is an awesome view during the ride down.\n\n“Crosets”, “Grand-Conche”, “Loquet”, and “Sundance” in Les Crosets are four intermediate level tracks (red), primarily running across meadows. Those who prefer riding in the forest should go to Morgins. The following five tracks promise downhill fun for any level: “La Çarigole” (blue), “La Noire” (black), “La Quatreans” (green), “Le Madzé” (red), and “La Tobogane” (red).\n\nFrom the Champéry-Morgins bike park you can get to four other bike parks on the French side of the Portes du Soleil region. They are located near the resorts of Châtel, Les Gets, Morzine, and Avoriaz. Overall, twenty ski lifts are available allowing you to easily shuttle back and forth between Switzerland and France. \n\n\nTracks: 1 green, 1 blue, 7 red, and 2 black ",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/VS_Bikepark_Champery-Morgins_1_M.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/VS_Bikepark_Champery-Morgins_1_s.jpg",
+            "https://images.schweizmobil.ch/image/VS_Bikepark_Champery-Morgins_2_s.jpg",
+            "https://images.schweizmobil.ch/image/VS_Bikepark_Champery-Morgins_3_s.jpg",
+            "https://images.schweizmobil.ch/image/VS_Bikepark_Champery-Morgins_4_s.jpg",
+            "https://images.schweizmobil.ch/image/VS_Bikepark_Champery-Morgins_5_s.jpg",
+            "https://images.schweizmobil.ch/image/VS_Bikepark_Champery-Morgins_6_s.jpg"
+        ],
+        "photo_gallery_big": [
+            "https://images.schweizmobil.ch/image-big/VS_Bikepark_Champery-Morgins_1_g.jpg",
+            "https://images.schweizmobil.ch/image-big/VS_Bikepark_Champery-Morgins_2_g.jpg",
+            "https://images.schweizmobil.ch/image-big/VS_Bikepark_Champery-Morgins_3_g.jpg",
+            "https://images.schweizmobil.ch/image-big/VS_Bikepark_Champery-Morgins_4_g.jpg",
+            "https://images.schweizmobil.ch/image-big/VS_Bikepark_Champery-Morgins_5_g.jpg",
+            "https://images.schweizmobil.ch/image-big/VS_Bikepark_Champery-Morgins_6_g.jpg"
+        ],
+        "photo_gallery_copyright": [
+            "Sylvain Cochard",
+            "2015 REBUFFAT",
+            "",
+            "Sylvain Cochard",
+            "Norihiko Matsuda",
+            "2015 REBUFFAT"
+        ],
+        "photo_gallery_author": [
+            "Sylvain Cochard",
+            "JulesRebuffat EDITION",
+            "",
+            "Sylvain Cochard",
+            "Norihiko Matsuda",
+            "JulesRebuffat EDITION"
+        ],
+        "photo_gallery_abstract": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "name": "Région Dents du Midi SA",
+        "name_2": null,
+        "street": "Route de Champéry 22",
+        "zip": "1873",
+        "place": "Val-d’Illiez",
+        "tel": "+41 (0)24 477 13 15",
+        "fax": null,
+        "email": "info@rddm.ch",
+        "url1_link": "https://www.regiondentsdumidi.ch ",
+        "x_coordinate": 554171.042965549,
+        "y_coordinate": 113938.43810497236,
+        "change_date": null,
+        "id": 857,
+        "r_key": 857,
+        "type": "Sight",
+        "url_sightseeing": "https://www.valais.ch/en/activities/mountain-bike/bikeparks",
+        "touristic_region": 11,
+        "canton": 7
+    }
+}

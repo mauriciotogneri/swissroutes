@@ -1,1 +1,60 @@
-{"type":"Feature","id":149,"geometry":{"type":"Point","coordinates":[47.4189128643674,9.285813285302643]},"properties":{"land":null,"category":"all","language":"en","title":"Walter Zoo","abstract":"Be amazed by the diversity of 130 different animal species from all over the world! Stand in awe of the Siberian tiger, be intrigued by the fauna of the jungle, and enjoy the play of the chimpanzees.","description":"During the summer months, a fairytale is performed every afternoon in the zoo's own circus tent. Experience how the story is presented with different animals and artist numbers.","highlights":null,"foto":"https://images0.schweizmobil.ch/image/11331_Abenteuerland_Walter_Zoo_2a.jpg","photo_gallery":["https://images0.schweizmobil.ch/image/11331_Abenteuerland_Walter_Zoo_2a.jpg","https://images0.schweizmobil.ch/image/11331_Abenteuerland_Walter_Zoo_1b.jpg"],"photo_gallery_big":["",""],"photo_gallery_copyright":["",""],"photo_gallery_author":["",""],"name":"St.Gallen-Bodensee Tourismus","name_2":null,"street":"Bankgasse 9","zip":"9001","place":"St.Gallen","tel":"+41 (0)71 227 37 37","fax":null,"email":"info@st.gallen-bodensee.ch","url1_link":"https://www.st.gallen-bodensee.ch","x_coordinate":739381.3590772834,"y_coordinate":253652.80393967297,"change_date":null,"id":149,"r_key":149,"type":"Sight","url_sightseeing":"https://www.walterzoo.ch","touristic_region":2}}
+{
+    "type": "Feature",
+    "id": 149,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            47.418912868571404,
+            9.285813201143732
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Walter Zoo",
+        "abstract": "Be amazed by the diversity of 130 different animal species from all over the world! Stand in awe of the Siberian tiger, be intrigued by the fauna of the jungle, and enjoy the play of the chimpanzees.",
+        "description": "During the summer months, a fairytale is performed every afternoon in the zoo's own circus tent. Experience how the story is presented with different animals and artist numbers.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/11331_Abenteuerland_Walter_Zoo_2a.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/11331_Abenteuerland_Walter_Zoo_2a.jpg",
+            "https://images.schweizmobil.ch/image/11331_Abenteuerland_Walter_Zoo_1b.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "St.Gallen-Bodensee Tourismus",
+        "name_2": null,
+        "street": "Bankgasse 9",
+        "zip": "9001",
+        "place": "St.Gallen",
+        "tel": "+41 (0)71 227 37 37",
+        "fax": null,
+        "email": "info@st.gallen-bodensee.ch",
+        "url1_link": "https://www.st.gallen-bodensee.ch",
+        "x_coordinate": 739381.3590772834,
+        "y_coordinate": 253652.80393967297,
+        "change_date": null,
+        "id": 149,
+        "r_key": 149,
+        "type": "Sight",
+        "url_sightseeing": "https://www.walterzoo.ch",
+        "touristic_region": 2,
+        "canton": 23
+    }
+}

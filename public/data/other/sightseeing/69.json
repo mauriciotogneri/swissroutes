@@ -1,1 +1,60 @@
-{"type":"Feature","id":69,"geometry":{"type":"Point","coordinates":[46.20045488751475,6.14768160394949]},"properties":{"land":null,"category":"all","language":"en","title":"Town Hall","abstract":"The seat of Geneva's Government. Geneva’s Parliament is housed in this 15th century building. In the adjoining Baudet Tower are the offices of the Council of State.","description":"Don’t miss the cobbled ramp which at the end of the 16th century facilitated the arrival of dignitaries on horseback. It follows a spiral course, but rather than curved, it is square-shaped.\n\nOn the ground floor, in the south wing added in the beginning of the 1700s, you will find the Alabama Room (named after the so-called Alabama dispute between the United States and England and its international arbitration held here in 1872) where, in 1864, the First Geneva Convention was signed, marking the birth of the Red Cross.\n\nEvery summer, the inner courtyard of the Town Hall comes to life with a series of outdoor concerts.","highlights":null,"foto":"https://images0.schweizmobil.ch/image/9728_Das-Rathaus_3a.jpg","photo_gallery":["https://images0.schweizmobil.ch/image/9728_Das-Rathaus_3a.jpg","https://images0.schweizmobil.ch/image/9728_Das-Rathaus_1b.jpg"],"photo_gallery_big":["",""],"photo_gallery_copyright":["",""],"photo_gallery_author":["",""],"name":"Fondation Genève Tourisme & Congrès","name_2":null,"street":"Quai du Mont-Blanc 2","zip":"1201","place":"Genève","tel":"+41 (0)22 909 70 00","fax":null,"email":"info@geneve.com","url1_link":"https://www.geneve.com","x_coordinate":500356.8177325035,"y_coordinate":117375.16847950876,"change_date":null,"id":69,"r_key":69,"type":"Sight","url_sightseeing":"https://www.geneve.com/en/see-do/attractions/","touristic_region":10}}
+{
+    "type": "Feature",
+    "id": 69,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.200454902207255,
+            6.147681575718836
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Town Hall",
+        "abstract": "The seat of Geneva's Government. Geneva’s Parliament is housed in this 15th century building. In the adjoining Baudet Tower are the offices of the Council of State.",
+        "description": "Don’t miss the cobbled ramp which at the end of the 16th century facilitated the arrival of dignitaries on horseback. It follows a spiral course, but rather than curved, it is square-shaped.\n\nOn the ground floor, in the south wing added in the beginning of the 1700s, you will find the Alabama Room (named after the so-called Alabama dispute between the United States and England and its international arbitration held here in 1872) where, in 1864, the First Geneva Convention was signed, marking the birth of the Red Cross.\n\nEvery summer, the inner courtyard of the Town Hall comes to life with a series of outdoor concerts.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/9728_Das-Rathaus_3a.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/9728_Das-Rathaus_3a.jpg",
+            "https://images.schweizmobil.ch/image/9728_Das-Rathaus_1b.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "Fondation Genève Tourisme & Congrès",
+        "name_2": null,
+        "street": "Quai du Mont-Blanc 2",
+        "zip": "1201",
+        "place": "Genève",
+        "tel": "+41 (0)22 909 70 00",
+        "fax": null,
+        "email": "info@geneve.com",
+        "url1_link": "https://www.geneve.com",
+        "x_coordinate": 500356.8177325035,
+        "y_coordinate": 117375.16847950876,
+        "change_date": null,
+        "id": 69,
+        "r_key": 69,
+        "type": "Sight",
+        "url_sightseeing": "https://www.geneve.com/en/see-do/attractions/",
+        "touristic_region": 10,
+        "canton": 22
+    }
+}

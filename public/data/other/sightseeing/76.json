@@ -1,1 +1,60 @@
-{"type":"Feature","id":76,"geometry":{"type":"Point","coordinates":[46.809579136130374,6.647079436568116]},"properties":{"land":null,"category":"all","language":"en","title":"Château de Grandson","abstract":"This ancient fortress (11th to 14th century) rising above Lake Neuchâtel features an exceptional collection of arms and armour, scale models of castles and battles, as well as a historical museum with a section dedicated to the Burgundy wars.","description":"This impressive masterpiece was built by the Grandson family between the 11th and the 13th century. It played a key role in the Burgundy wars and the battle of Grandson (1476), when the Duke of Burgundy, Charles the Bold, was defeated by the Swiss Confederates and left behind exquisite spoils of war.\nDon't miss the 150 m long rampart walk dating of the 15th century and, for a few cold thrills, the torture chamber and the dungeon.\n\nThere are magnificent Renaissance stalls, many arms and armour collections, as well as scale models of historical battles. \n\nGrandson Castle is the second largest castle in Switzerland.","highlights":null,"foto":"https://images0.schweizmobil.ch/image/11402_Chateau_de_Grandson_1a.jpg","photo_gallery":["https://images0.schweizmobil.ch/image/11402_Chateau_de_Grandson_1a.jpg","https://images0.schweizmobil.ch/image/11402_Chateau_de_Grandson_2b.jpg"],"photo_gallery_big":["",""],"photo_gallery_copyright":["",""],"photo_gallery_author":["",""],"name":"Office du Tourisme de Grandson","name_2":null,"street":"Rue Haute 13","zip":"1422","place":"Grandson","tel":"+41 (0)24 445 60 70","fax":null,"email":"tourisme@terroirs-region-grandson.ch","url1_link":"https://www.grandson-tourisme.ch","x_coordinate":539584.3199769361,"y_coordinate":184574.91906487403,"change_date":null,"id":76,"r_key":76,"type":"Sight","url_sightseeing":"https://www.chateau-grandson.ch","touristic_region":9}}
+{
+    "type": "Feature",
+    "id": 76,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.80957913313769,
+            6.647079460543647
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Château de Grandson",
+        "abstract": "This ancient fortress (11th to 14th century) rising above Lake Neuchâtel features an exceptional collection of arms and armour, scale models of castles and battles, as well as a historical museum with a section dedicated to the Burgundy wars.",
+        "description": "This impressive masterpiece was built by the Grandson family between the 11th and the 13th century. It played a key role in the Burgundy wars and the battle of Grandson (1476), when the Duke of Burgundy, Charles the Bold, was defeated by the Swiss Confederates and left behind exquisite spoils of war.\nDon't miss the 150 m long rampart walk dating of the 15th century and, for a few cold thrills, the torture chamber and the dungeon.\n\nThere are magnificent Renaissance stalls, many arms and armour collections, as well as scale models of historical battles. \n\nGrandson Castle is the second largest castle in Switzerland.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/11402_Chateau_de_Grandson_1a.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/11402_Chateau_de_Grandson_1a.jpg",
+            "https://images.schweizmobil.ch/image/11402_Chateau_de_Grandson_2b.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "Agence ADNV/Office du Tourisme du Nord vaudois",
+        "name_2": null,
+        "street": "Avenue de la Gare 2",
+        "zip": "1401",
+        "place": "Yverdon-les-Bains",
+        "tel": "+41 24 423 03 13",
+        "fax": null,
+        "email": "tourisme@adnv.ch",
+        "url1_link": "https://www.yverdonlesbainsregion.ch/fr/P927/chateau-de-grandson?group=1979",
+        "x_coordinate": 539584.3199769361,
+        "y_coordinate": 184574.91906487403,
+        "change_date": null,
+        "id": 76,
+        "r_key": 76,
+        "type": "Sight",
+        "url_sightseeing": "https://www.chateau-grandson.ch",
+        "touristic_region": 9,
+        "canton": 27
+    }
+}

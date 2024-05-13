@@ -1,1 +1,55 @@
-{"type":"Feature","id":893,"geometry":{"type":"Point","coordinates":[46.76774866038213,7.601167111983228]},"properties":{"land":null,"category":"all","language":"en","title":"Pumptrack Lerchenfeld","abstract":"The asphalt pump track with rollers and berms is located in the middle of the Lerchenfeld neighbourhood of Thun. There is a separate section for kids and beginners. It covers a total of 900 m2 and is part of the playground of the same name.","description":"The weather-resistant pump track is a playground for everyone, big or small, because any type of non-motorised wheels can be used. Balance can be trained on the rollers and berms, even jumps are possible.\n\nAdjacent to it is a climbing frame, a sandbox with a fountain, a ping pong table, additional green areas, and a public toilet. All of this is part of the generous Lerchenfeld playground.\n\nSurface area: 900 m2\nLength: 150 m","highlights":null,"foto":"https://images0.schweizmobil.ch/image-big/Pumptrack_Lerchenfeld_g.jpg","photo_gallery":["https://images0.schweizmobil.ch/image/Pumptrack_Lerchenfeld_s.jpg"],"photo_gallery_big":["https://images0.schweizmobil.ch/image-big/Pumptrack_Lerchenfeld_g.jpg"],"photo_gallery_copyright":[""],"photo_gallery_author":[""],"name":"Amt für Bildung und Sport der Stadt Thun","name_2":null,"street":"Hofstettenstrasse 14","zip":"3602","place":"Thun","tel":"+41 33 225 84 06","fax":null,"email":"familie@thun.ch","url1_link":"https://www.thun.ch","x_coordinate":612415.326603677,"y_coordinate":179632.88225566546,"change_date":null,"id":893,"r_key":893,"type":"Sight","url_sightseeing":"https://www.interlaken.ch/en/experiences/poi/lerchenfeld-pump-track","touristic_region":6}}
+{
+    "type": "Feature",
+    "id": 893,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.767748664816374,
+            7.601167108887056
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Pumptrack Lerchenfeld",
+        "abstract": "The asphalt pump track with rollers and berms is located in the middle of the Lerchenfeld neighbourhood of Thun. There is a separate section for kids and beginners. It covers a total of 900 m2 and is part of the playground of the same name.",
+        "description": "The weather-resistant pump track is a playground for everyone, big or small, because any type of non-motorised wheels can be used. Balance can be trained on the rollers and berms, even jumps are possible.\n\nAdjacent to it is a climbing frame, a sandbox with a fountain, a ping pong table, additional green areas, and a public toilet. All of this is part of the generous Lerchenfeld playground.\n\nSurface area: 900 m2\nLength: 150 m",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image-big/Pumptrack_Lerchenfeld_g.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/Pumptrack_Lerchenfeld_s.jpg"
+        ],
+        "photo_gallery_big": [
+            "https://images.schweizmobil.ch/image-big/Pumptrack_Lerchenfeld_g.jpg"
+        ],
+        "photo_gallery_copyright": [
+            ""
+        ],
+        "photo_gallery_author": [
+            ""
+        ],
+        "photo_gallery_abstract": [
+            ""
+        ],
+        "name": "Amt für Bildung und Sport der Stadt Thun",
+        "name_2": null,
+        "street": "Hofstettenstrasse 14",
+        "zip": "3602",
+        "place": "Thun",
+        "tel": "+41 33 225 84 06",
+        "fax": null,
+        "email": "familie@thun.ch",
+        "url1_link": "https://www.thun.ch",
+        "x_coordinate": 612415.326603677,
+        "y_coordinate": 179632.88225566546,
+        "change_date": null,
+        "id": 893,
+        "r_key": 893,
+        "type": "Sight",
+        "url_sightseeing": "https://www.interlaken.ch/en/experiences/poi/lerchenfeld-pump-track",
+        "touristic_region": 6,
+        "canton": 12
+    }
+}

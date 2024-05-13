@@ -1,50 +1,55 @@
 {
-  "type": "Feature",
-  "id": 657,
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      47.377663328419686,
-      7.353761464523789
-    ]
-  },
-  "properties": {
-    "land": null,
-    "category": "all",
-    "language": "en",
-    "title": "Delémont, Le Mexique–Vorbourg",
-    "abstract": "Two footpaths lead from Le Mexique near Delsberg to the historic site of Vorbourg with its castle ruins and chapel. Thanks to its unique character and well-preserved remains, the path is considered to be an object of national importance.",
-    "description": "The castle in Vorbourg was first mentioned in the 10th century. Its owners have included various counts and also the French State. The town of Delsberg bought the complex in 1822 and today it belongs to the Citizens Community. An upper castle was probably destroyed by an earthquake in 1356. The lower castle and chapel were built between 1150 and 1350, damaged by the earthquake and rebuilt in 1365. After being destroyed during the Swabian War in 1499, it was finally abandoned during the 16th century.\n\nSince the 17th century, the Chapelle Notre-Dame-du-Vorbourg has enjoyed considerable popularity in the Jura as a place of pilgrimage dedicated to the Virgin Mary. The path begins in Le Mexique, where the Way of the Cross also branches off to the chapel. An over 300-metre-long lane leads in a slight north-east curve through the Champ de Sous la Côte. Trees limit the width of the path to 3 to 3.5 metres. The gravel used on the following forest section is clearly recognizable. The path then gets narrower and steeper, the west side soon bordered by rock slopes. It scales the ruins and continues up to the chapel around hairpin bends partly cut into boulders. A spectacular view opens out from the rocky rise.",
-    "highlights": null,
-    "foto": "https://images0.schweizmobil.ch/image/IVS_80_ChapelleVorbourg.jpg",
-    "photo_gallery": [
-      "https://images0.schweizmobil.ch/image/IVS_80_ChapelleVorbourg.jpg"
-    ],
-    "photo_gallery_big": [
-      ""
-    ],
-    "photo_gallery_copyright": [
-      ""
-    ],
-    "photo_gallery_author": [
-      ""
-    ],
-    "name": "Bundesinventar der historischen Verkehrswege der Schweiz (IVS)",
-    "name_2": null,
-    "street": "",
-    "zip": "",
-    "place": "",
-    "tel": "",
-    "fax": null,
-    "email": "",
-    "url1_link": "https://www.ivs.admin.ch",
-    "x_coordinate": 593590.167967322,
-    "y_coordinate": 247429.78041310556,
-    "change_date": null,
+    "type": "Feature",
     "id": 657,
-    "r_key": 657,
-    "type": "Sight",
-    "url_sightseeing": "https://s.geo.admin.ch/6fb15f321f",
-    "touristic_region": 8
-  }
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            47.377663336548295,
+            7.353761463378301
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Delémont, Le Mexique–Vorbourg",
+        "abstract": "Two footpaths lead from Le Mexique near Delsberg to the historic site of Vorbourg with its castle ruins and chapel. Thanks to its unique character and well-preserved remains, the path is considered to be an object of national importance.",
+        "description": "The castle in Vorbourg was first mentioned in the 10th century. Its owners have included various counts and also the French State. The town of Delsberg bought the complex in 1822 and today it belongs to the Citizens Community. An upper castle was probably destroyed by an earthquake in 1356. The lower castle and chapel were built between 1150 and 1350, damaged by the earthquake and rebuilt in 1365. After being destroyed during the Swabian War in 1499, it was finally abandoned during the 16th century.\n\nSince the 17th century, the Chapelle Notre-Dame-du-Vorbourg has enjoyed considerable popularity in the Jura as a place of pilgrimage dedicated to the Virgin Mary. The path begins in Le Mexique, where the Way of the Cross also branches off to the chapel. An over 300-metre-long lane leads in a slight north-east curve through the Champ de Sous la Côte. Trees limit the width of the path to 3 to 3.5 metres. The gravel used on the following forest section is clearly recognizable. The path then gets narrower and steeper, the west side soon bordered by rock slopes. It scales the ruins and continues up to the chapel around hairpin bends partly cut into boulders. A spectacular view opens out from the rocky rise.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/IVS_80_ChapelleVorbourg.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/IVS_80_ChapelleVorbourg.jpg"
+        ],
+        "photo_gallery_big": [
+            ""
+        ],
+        "photo_gallery_copyright": [
+            ""
+        ],
+        "photo_gallery_author": [
+            ""
+        ],
+        "photo_gallery_abstract": [
+            ""
+        ],
+        "name": "Bundesinventar der historischen Verkehrswege der Schweiz (IVS)",
+        "name_2": null,
+        "street": " ",
+        "zip": " ",
+        "place": " ",
+        "tel": " ",
+        "fax": null,
+        "email": " ",
+        "url1_link": "https://www.ivs.admin.ch",
+        "x_coordinate": 593590.167967322,
+        "y_coordinate": 247429.78041310556,
+        "change_date": null,
+        "id": 657,
+        "r_key": 657,
+        "type": "Sight",
+        "url_sightseeing": "https://s.geo.admin.ch/6fb15f321f",
+        "touristic_region": 8,
+        "canton": 24
+    }
 }

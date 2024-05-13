@@ -1,1 +1,34 @@
-{"type":"Feature","id":3086,"geometry":{"type":"Point","coordinates":[47.43180178032934,8.563609799442268]},"properties":{"land":"\"velo\",\"mountainbike\"","category":"all","language":"en","title":"2Rad Tenger GmbH","abstract":null,"name":"2Rad Tenger GmbH","street":"Schaffhauserstrasse 88","zip":"8152","place":"Glattbrugg","tel":"+41 44 810 63 38","email":null,"url1_text":null,"url1_link":"https://www.2rad-tenger.ch","organisation":"2rad / 2routes / 2ruote","foto":null,"x_coordinate":684871.6506483129,"y_coordinate":254053.56628149867,"change_date":null,"id":327,"type":"Service"}}
+{
+    "type": "Feature",
+    "id": 3086,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            47.43180177058352,
+            8.563609778800709
+        ]
+    },
+    "properties": {
+        "land": "\"velo\",\"mountainbike\"",
+        "category": "all",
+        "language": "en",
+        "title": "2Rad Tenger GmbH",
+        "abstract": null,
+        "name": "2Rad Tenger GmbH",
+        "street": "Schaffhauserstrasse 88",
+        "zip": "8152",
+        "place": "Glattbrugg",
+        "tel": "+41 44 810 63 38",
+        "email": null,
+        "url1_text": null,
+        "url1_link": "https://www.2rad-tenger.ch",
+        "organisation": "2rad / 2routes / 2ruote",
+        "foto": null,
+        "foto_abstract": null,
+        "x_coordinate": 684871.6506483129,
+        "y_coordinate": 254053.56628149867,
+        "change_date": null,
+        "id": 327,
+        "type": "Service"
+    }
+}

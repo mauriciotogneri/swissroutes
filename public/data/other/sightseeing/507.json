@@ -1,1 +1,60 @@
-{"type":"Feature","id":507,"geometry":{"type":"Point","coordinates":[46.94721245256288,7.451496500524101]},"properties":{"land":null,"category":"all","language":"en","title":"Münster Cathedral Bern","abstract":"The majestic church, offering stupendous views from the gallery tower with 65 meter-climb and 312 stairs, is a superb piece of architecture pertaining to the late medieval ages - and one of Switzerland's most important churches. Views over the Old Town are unique.","description":"The cathedral is the most impressive late Gothic construction in the city; majestically towering above the rooftops of the houses of Berne's Old Town as Switzerland's largest ecclesiastical building. Construction of the cathedral commenced in 1421 - and over generations, numerous constructors have worked on this masterpiece. The tower was not completed until 1893.\n\nAn outstanding feature is the portal, through which the portrayal of the youngest court is admired. And a matchless viewpoint over the Old Town and further afar is from the top of 344 stairs of the tower gallery inside the overall 100 meter-high cathedral tower.\n\nFrom Switzerland's highest church tower, visitors enjoy extraordinary views over the city and environs; reaching as far as the Bernese Mittelland and snow-capped mountains of the Bernese Oberland.","highlights":null,"foto":"https://images0.schweizmobil.ch/image/8028_Berner-Muenster_1a.jpg","photo_gallery":["https://images0.schweizmobil.ch/image/8028_Berner-Muenster_1a.jpg","https://images0.schweizmobil.ch/image/8028_Berner-Muenster_2b.jpg"],"photo_gallery_big":["",""],"photo_gallery_copyright":["",""],"photo_gallery_author":["",""],"name":"Bern Tourismus","name_2":null,"street":"Bahnhofplatz 10a","zip":"3011","place":"Bern","tel":"+41 (0)31 328 12 12","fax":null,"email":"info@bern.com","url1_link":"https://www.bern.com","x_coordinate":600979.622864664,"y_coordinate":199570.64253952325,"change_date":null,"id":507,"r_key":507,"type":"Sight","url_sightseeing":"http://www.bern.com/de/stadt-bern/sehenswuerdigkeiten/muenster-bern","touristic_region":6}}
+{
+    "type": "Feature",
+    "id": 507,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.94721245243243,
+            7.451496500471418
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Münster Cathedral Bern",
+        "abstract": "The majestic church, offering stupendous views from the gallery tower with 65 meter-climb and 312 stairs, is a superb piece of architecture pertaining to the late medieval ages - and one of Switzerland's most important churches. Views over the Old Town are unique.",
+        "description": "The cathedral is the most impressive late Gothic construction in the city; majestically towering above the rooftops of the houses of Berne's Old Town as Switzerland's largest ecclesiastical building. Construction of the cathedral commenced in 1421 - and over generations, numerous constructors have worked on this masterpiece. The tower was not completed until 1893.\n\nAn outstanding feature is the portal, through which the portrayal of the youngest court is admired. And a matchless viewpoint over the Old Town and further afar is from the top of 344 stairs of the tower gallery inside the overall 100 meter-high cathedral tower.\n\nFrom Switzerland's highest church tower, visitors enjoy extraordinary views over the city and environs; reaching as far as the Bernese Mittelland and snow-capped mountains of the Bernese Oberland.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/8028_Berner-Muenster_1a.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/8028_Berner-Muenster_1a.jpg",
+            "https://images.schweizmobil.ch/image/8028_Berner-Muenster_2b.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "Bern Tourismus",
+        "name_2": null,
+        "street": "Bahnhofplatz 10a",
+        "zip": "3011",
+        "place": "Bern",
+        "tel": "+41 (0)31 328 12 12",
+        "fax": null,
+        "email": "info@bern.com",
+        "url1_link": "https://www.bern.com",
+        "x_coordinate": 600979.622864664,
+        "y_coordinate": 199570.64253952325,
+        "change_date": null,
+        "id": 507,
+        "r_key": 507,
+        "type": "Sight",
+        "url_sightseeing": "http://www.bern.com/de/stadt-bern/sehenswuerdigkeiten/muenster-bern",
+        "touristic_region": 6,
+        "canton": 12
+    }
+}

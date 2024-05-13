@@ -1,1 +1,34 @@
-{"type":"Feature","id":2974,"geometry":{"type":"Point","coordinates":[47.48900262444498,8.288020330240109]},"properties":{"land":"\"velo\",\"mountainbike\"","category":"all","language":"en","title":"Velo-Meier Nussbaumen GmbH","abstract":null,"name":"Velo-Meier Nussbaumen GmbH","street":"Feldstrasse 6","zip":"5415","place":"Nussbaumen AG","tel":"+41 56 282 14 40","email":null,"url1_text":null,"url1_link":null,"organisation":"2rad / 2routes / 2ruote","foto":null,"x_coordinate":664012.0283055131,"y_coordinate":260151.43673092962,"change_date":null,"id":198,"type":"Service"}}
+{
+    "type": "Feature",
+    "id": 2974,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            47.48900262811106,
+            8.28802035054022
+        ]
+    },
+    "properties": {
+        "land": "\"velo\",\"mountainbike\"",
+        "category": "all",
+        "language": "en",
+        "title": "Velo-Meier Nussbaumen GmbH",
+        "abstract": null,
+        "name": "Velo-Meier Nussbaumen GmbH",
+        "street": "Feldstrasse 6",
+        "zip": "5415",
+        "place": "Nussbaumen AG",
+        "tel": "+41 56 282 14 40",
+        "email": null,
+        "url1_text": null,
+        "url1_link": null,
+        "organisation": "2rad / 2routes / 2ruote",
+        "foto": null,
+        "foto_abstract": null,
+        "x_coordinate": 664012.0283055131,
+        "y_coordinate": 260151.43673092962,
+        "change_date": null,
+        "id": 198,
+        "type": "Service"
+    }
+}

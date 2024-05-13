@@ -1,1 +1,60 @@
-{"type":"Feature","id":390,"geometry":{"type":"Point","coordinates":[47.48147454292561,8.307377410167936]},"properties":{"land":null,"category":"all","language":"en","title":"Villa Langmatt","abstract":"Renoir, Cézanne, Monet - discover the masterpieces of the French impressionist era in Villa Langmatt and as an additional culinary delight to the enjoyment of the art, enjoy a stylish picnic in the over one-hundred year old park.","description":"Villa Langmatt, built by the Brown industrial family (co-founder of BBC, today ABB) at the beginning of the 20th Century, houses a superb collection of works of art from the French impressionist era as well as ceramics from East Asia and Europe. Wander through the family's previous living quarters and enjoy the ambiance of a villa which is more than 100 years old.\n\nIn addition to the permanent exhibition, the Langmatt Museum also holds special exhibitions. Various festivals and events for young and old are also staged in Villa Langmatt to coincide with the various seasons, including the annual public picnic in the Villa's romantic park.","highlights":null,"foto":"https://images0.schweizmobil.ch/image/12792_Villa_Langmatt_1a.jpg","photo_gallery":["https://images0.schweizmobil.ch/image/12792_Villa_Langmatt_1a.jpg","https://images0.schweizmobil.ch/image/12792_Villa_Langmatt_2b.jpg"],"photo_gallery_big":["",""],"photo_gallery_copyright":["",""],"photo_gallery_author":["",""],"name":"Aargau Tourismus AG","name_2":null,"street":"Laurstrasse 10","zip":"5200","place":"Brugg","tel":"+41 (0)62 823 00 73","fax":null,"email":"info@aargautourismus.ch","url1_link":"https://www.aargautourismus.ch","x_coordinate":665480.239235607,"y_coordinate":259330.22637634253,"change_date":null,"id":390,"r_key":390,"type":"Sight","url_sightseeing":"https://www.langmatt.ch","touristic_region":14}}
+{
+    "type": "Feature",
+    "id": 390,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            47.48147452980095,
+            8.307377393093336
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Villa Langmatt",
+        "abstract": "Renoir, Cézanne, Monet - discover the masterpieces of the French impressionist era in Villa Langmatt and as an additional culinary delight to the enjoyment of the art, enjoy a stylish picnic in the over one-hundred year old park.",
+        "description": "Villa Langmatt, built by the Brown industrial family (co-founder of BBC, today ABB) at the beginning of the 20th Century, houses a superb collection of works of art from the French impressionist era as well as ceramics from East Asia and Europe. Wander through the family's previous living quarters and enjoy the ambiance of a villa which is more than 100 years old.\n\nIn addition to the permanent exhibition, the Langmatt Museum also holds special exhibitions. Various festivals and events for young and old are also staged in Villa Langmatt to coincide with the various seasons, including the annual public picnic in the Villa's romantic park.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/12792_Villa_Langmatt_1a.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/12792_Villa_Langmatt_1a.jpg",
+            "https://images.schweizmobil.ch/image/12792_Villa_Langmatt_2b.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "Aargau Tourismus AG",
+        "name_2": null,
+        "street": "Laurstrasse 10",
+        "zip": "5200",
+        "place": "Brugg",
+        "tel": "+41 (0)62 823 00 73",
+        "fax": null,
+        "email": "info@aargautourismus.ch",
+        "url1_link": "https://www.aargautourismus.ch",
+        "x_coordinate": 665480.239235607,
+        "y_coordinate": 259330.22637634253,
+        "change_date": null,
+        "id": 390,
+        "r_key": 390,
+        "type": "Sight",
+        "url_sightseeing": "https://www.langmatt.ch",
+        "touristic_region": 14,
+        "canton": 13
+    }
+}

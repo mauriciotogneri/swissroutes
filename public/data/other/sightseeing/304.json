@@ -1,1 +1,60 @@
-{"type":"Feature","id":304,"geometry":{"type":"Point","coordinates":[46.918571195540565,9.172060746275003]},"properties":{"land":null,"category":"all","language":"en","title":"Slate factory","abstract":"The slate factory is embedded among cosy wooden houses. The introduction of compulsory schooling in the mid-19th century saw a boom in the production of writing tablets and styluses.","description":"On 11 September 1881, a catastrophic mine collapse was caused by an insufficient understanding of mining, resulting in the deaths of 114 inhabitants. The mine reopened around 10 years after the incident, but it was laid to rest once and for all by the outbreak of the First World War.\n\nWhen production was halted, the pro Elm foundation inherited the factory building so that it could preserve the last remaining evidence of a once-blossoming slate trade. The slate museum in Elm is Switzerland’s last functional slate factory.\n\nAll of the tools, devices and machinery that are needed to produce slate are on hand. Today you can still see and smell the slate dust, sawdust and glue. The old craft is now presented on approx. 1.5hr guided tours, coupled with the most modern museum teaching methods.","highlights":null,"foto":"https://images0.schweizmobil.ch/image/9105_Schiefertafelfabrik_2a.jpg","photo_gallery":["https://images0.schweizmobil.ch/image/9105_Schiefertafelfabrik_2a.jpg","https://images0.schweizmobil.ch/image/9105_Schiefertafelfabrik_1b.jpg"],"photo_gallery_big":["",""],"photo_gallery_copyright":["",""],"photo_gallery_author":["",""],"name":"Landesplattenberg Engi GmbH","name_2":null,"street":"Sernftalstrasse 109","zip":"8765","place":"Engi","tel":"+41 (0)55 642 55 55","fax":null,"email":"info@landesplattenberg.ch","url1_link":"https://www.plattenberg.ch","x_coordinate":732028.7150112852,"y_coordinate":197844.5967554858,"change_date":null,"id":304,"r_key":304,"type":"Sight","url_sightseeing":"https://www.plattenberg.ch","touristic_region":2}}
+{
+    "type": "Feature",
+    "id": 304,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.91857119422941,
+            9.172060765054896
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Slate factory",
+        "abstract": "The slate factory is embedded among cosy wooden houses. The introduction of compulsory schooling in the mid-19th century saw a boom in the production of writing tablets and styluses.",
+        "description": "On 11 September 1881, a catastrophic mine collapse was caused by an insufficient understanding of mining, resulting in the deaths of 114 inhabitants. The mine reopened around 10 years after the incident, but it was laid to rest once and for all by the outbreak of the First World War.\n\nWhen production was halted, the pro Elm foundation inherited the factory building so that it could preserve the last remaining evidence of a once-blossoming slate trade. The slate museum in Elm is Switzerland’s last functional slate factory.\n\nAll of the tools, devices and machinery that are needed to produce slate are on hand. Today you can still see and smell the slate dust, sawdust and glue. The old craft is now presented on approx. 1.5hr guided tours, coupled with the most modern museum teaching methods.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/9105_Schiefertafelfabrik_2a.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/9105_Schiefertafelfabrik_2a.jpg",
+            "https://images.schweizmobil.ch/image/9105_Schiefertafelfabrik_1b.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "Landesplattenberg Engi GmbH",
+        "name_2": null,
+        "street": "Sernftalstrasse 109",
+        "zip": "8765",
+        "place": "Engi",
+        "tel": "+41 (0)55 642 55 55",
+        "fax": null,
+        "email": "info@landesplattenberg.ch",
+        "url1_link": "https://www.plattenberg.ch",
+        "x_coordinate": 732028.7150112852,
+        "y_coordinate": 197844.5967554858,
+        "change_date": null,
+        "id": 304,
+        "r_key": 304,
+        "type": "Sight",
+        "url_sightseeing": "https://www.plattenberg.ch",
+        "touristic_region": 2,
+        "canton": 14
+    }
+}

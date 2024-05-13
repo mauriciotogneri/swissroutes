@@ -1,1 +1,60 @@
-{"type":"Feature","id":280,"geometry":{"type":"Point","coordinates":[47.1181676317329,9.543311265817628]},"properties":{"land":null,"category":"all","language":"en","title":"Walser museum","abstract":"This important local history collection provides a genuine living insight into the life and history of the Walser community.","description":"The local history museum in Triesenberg provides information on the culture and traditions of the Liechtenstein Walser. It offers a good overview of the region’s settlement history and the effects of the immigration of the Walser from Wallis (Valais) from the 14th century.\n\nA highlight of the exhibition is the reconstruction of the dairy room and living room of an old Steg Maiensässhütte (Alpine hut) from around 1900. The \"Triesenberg” multivision show is a real treat for the eyes and ears. Lasting approx. 25 minutes, it presents the life and history of the mountain community with an impressive cross-fade projection on three large screens. The show is available in four languages and is a recommended way to begin your museum visit.","highlights":null,"foto":"https://images0.schweizmobil.ch/image/9216_Walsermuseum_1a.jpg","photo_gallery":["https://images0.schweizmobil.ch/image/9216_Walsermuseum_1a.jpg","https://images0.schweizmobil.ch/image/9216_Walsermuseum_2b.jpg"],"photo_gallery_big":["",""],"photo_gallery_copyright":["",""],"photo_gallery_author":["",""],"name":"Walsermuseum","name_2":null,"street":"Landstrasse 4","zip":"9497","place":"Triesenberg","tel":"+423 262 19 26","fax":null,"email":"info@triesenberg.li","url1_link":"https://www.triesenberg.li","x_coordinate":759703.8477946627,"y_coordinate":220717.1791790463,"change_date":null,"id":280,"r_key":280,"type":"Sight","url_sightseeing":"https://tourismus.li/lie/ort/Walsermuseum%20in%20Triesenberg/","touristic_region":2}}
+{
+    "type": "Feature",
+    "id": 280,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            47.118167626771736,
+            9.543311247431875
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Walser museum",
+        "abstract": "This important local history collection provides a genuine living insight into the life and history of the Walser community.",
+        "description": "The local history museum in Triesenberg provides information on the culture and traditions of the Liechtenstein Walser. It offers a good overview of the region’s settlement history and the effects of the immigration of the Walser from Wallis (Valais) from the 14th century.\n\nA highlight of the exhibition is the reconstruction of the dairy room and living room of an old Steg Maiensässhütte (Alpine hut) from around 1900. The \"Triesenberg” multivision show is a real treat for the eyes and ears. Lasting approx. 25 minutes, it presents the life and history of the mountain community with an impressive cross-fade projection on three large screens. The show is available in four languages and is a recommended way to begin your museum visit.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/9216_Walsermuseum_1a.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/9216_Walsermuseum_1a.jpg",
+            "https://images.schweizmobil.ch/image/9216_Walsermuseum_2b.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "Walsermuseum",
+        "name_2": null,
+        "street": "Landstrasse 4",
+        "zip": "9497",
+        "place": "Triesenberg",
+        "tel": "+423 262 19 26",
+        "fax": null,
+        "email": "info@triesenberg.li",
+        "url1_link": "https://www.triesenberg.li",
+        "x_coordinate": 759703.8477946627,
+        "y_coordinate": 220717.1791790463,
+        "change_date": null,
+        "id": 280,
+        "r_key": 280,
+        "type": "Sight",
+        "url_sightseeing": "https://tourismus.li/lie/ort/Walsermuseum%20in%20Triesenberg/",
+        "touristic_region": 2,
+        "canton": 1
+    }
+}

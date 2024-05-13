@@ -1,1 +1,34 @@
-{"type":"Feature","id":3124,"geometry":{"type":"Point","coordinates":[47.63535558745701,8.790222097198992]},"properties":{"land":"\"velo\",\"mountainbike\"","category":"all","language":"en","title":"Bike Lounge by Reto Wiesmann","abstract":null,"name":"Bike Lounge by Reto Wiesmann","street":"Wetti 17","zip":"8476","place":"Unterstammheim","tel":"+41 54 745 23 79","email":null,"url1_text":null,"url1_link":"https://www.bike-lounge.ch","organisation":"2rad / 2routes / 2ruote","foto":null,"x_coordinate":701576.091083762,"y_coordinate":276952.3263295669,"change_date":null,"id":378,"type":"Service"}}
+{
+    "type": "Feature",
+    "id": 3124,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            47.63535556106709,
+            8.790222090511364
+        ]
+    },
+    "properties": {
+        "land": "\"velo\",\"mountainbike\"",
+        "category": "all",
+        "language": "en",
+        "title": "Bike Lounge by Reto Wiesmann",
+        "abstract": null,
+        "name": "Bike Lounge by Reto Wiesmann",
+        "street": "Wetti 17",
+        "zip": "8476",
+        "place": "Unterstammheim",
+        "tel": "+41 54 745 23 79",
+        "email": null,
+        "url1_text": null,
+        "url1_link": "https://www.bike-lounge.ch",
+        "organisation": "2rad / 2routes / 2ruote",
+        "foto": null,
+        "foto_abstract": null,
+        "x_coordinate": 701576.091083762,
+        "y_coordinate": 276952.3263295669,
+        "change_date": null,
+        "id": 378,
+        "type": "Service"
+    }
+}

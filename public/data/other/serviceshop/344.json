@@ -1,1 +1,34 @@
-{"type":"Feature","id":3100,"geometry":{"type":"Point","coordinates":[47.69401534829889,8.604489631076172]},"properties":{"land":"\"velo\",\"mountainbike\"","category":"all","language":"en","title":"Randenbike GmbH","abstract":null,"name":"Randenbike GmbH","street":"Schaffhauserstrasse 237","zip":"8222","place":"Beringen","tel":"+41 52 685 14 25","email":null,"url1_text":null,"url1_link":"https://www.randenbike.ch","organisation":"2rad / 2routes / 2ruote","foto":null,"x_coordinate":687522.3089279841,"y_coordinate":283250.2801603704,"change_date":null,"id":344,"type":"Service"}}
+{
+    "type": "Feature",
+    "id": 3100,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            47.694015338661174,
+            8.604489629873312
+        ]
+    },
+    "properties": {
+        "land": "\"velo\",\"mountainbike\"",
+        "category": "all",
+        "language": "en",
+        "title": "Randenbike GmbH",
+        "abstract": null,
+        "name": "Randenbike GmbH",
+        "street": "Schaffhauserstrasse 237",
+        "zip": "8222",
+        "place": "Beringen",
+        "tel": "+41 52 685 14 25",
+        "email": null,
+        "url1_text": null,
+        "url1_link": "https://www.randenbike.ch",
+        "organisation": "2rad / 2routes / 2ruote",
+        "foto": null,
+        "foto_abstract": null,
+        "x_coordinate": 687522.3089279841,
+        "y_coordinate": 283250.2801603704,
+        "change_date": null,
+        "id": 344,
+        "type": "Service"
+    }
+}

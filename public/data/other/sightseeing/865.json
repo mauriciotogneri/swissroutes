@@ -1,1 +1,60 @@
-{"type":"Feature","id":865,"geometry":{"type":"Point","coordinates":[46.00107578743116,7.736772077087603]},"properties":{"land":null,"category":"all","language":"en","title":"Moos-Trail","abstract":"Technically easy and nicely flowing: the Moos trail is a short, family-friendly country flow trail starting in the hamlet of Furi. It features lovely curves and bends and ends at the Moos in Zermatt. The challenge: try to reach the valley without pedalling.","description":"1.3 km long, an average gradient of 7.3% and around 10 minutes of flowy fun: that's what the Moos trail in the middle of the mountain bike paradise of Zermatt is all about. The gentle descent with an altitude difference of 95 metres leads from Furi down to Zermatt, making it perfect for beginners. \n\nThe starting point of the trail can be reached by bike through the village of Zermatt to Winkelmatten via Moosstrasse towards the hamlet of Furi. Those who like to take it easy can use the Matterhorn Express. The trail starts at Schweigmatten below the mountain restaurant. One look down to Zermatt - and off you go.\n\nYou ride through the sparse forest over wide curves and bumps. Perfect for beginners, but professionals will also have fun: the super-soft track is ideal for making the most of your momentum. So why not try to reach the valley without pedalling? Or even chainless? Along the way, you'll catch a glimpse of a typical Valais barn or a cable car above your head. The descent is quick and can be done several times in a row.\n\nLength: 1.3 km","highlights":null,"foto":"https://images0.schweizmobil.ch/image/VS_Moos_Trail_Zermatt_1_M.jpg","photo_gallery":["https://images0.schweizmobil.ch/image/VS_Moos_Trail_Zermatt_1_s.jpg","https://images0.schweizmobil.ch/image/VS_Moos_Trail_Zermatt_2_s.jpg"],"photo_gallery_big":["https://images0.schweizmobil.ch/image-big/VS_Moos_Trail_Zermatt_1_g.jpg","https://images0.schweizmobil.ch/image-big/VS_Moos_Trail_Zermatt_2_g.jpg"],"photo_gallery_copyright":["D.CARLIER / davidcarlierphotography.com","D.CARLIER / davidcarlierphotography.com"],"photo_gallery_author":["D.Carlier","D.Carlier"],"name":"Zermatt Tourismus","name_2":null,"street":"Bahnhofplatz 5","zip":"3920","place":"Zermatt","tel":"+41 (0)27 966 81 00","fax":null,"email":"info@zermatt.ch","url1_link":"https://www.zermatt.ch ","x_coordinate":623097.846931492,"y_coordinate":94435.09308891438,"change_date":null,"id":865,"r_key":865,"type":"Sight","url_sightseeing":"https://www.valais.ch/en/activities/mountain-bike/flowtrails","touristic_region":11}}
+{
+    "type": "Feature",
+    "id": 865,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.00107575681953,
+            7.736772087847506
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Moos-Trail",
+        "abstract": "Technically easy and nicely flowing: the Moos trail is a short, family-friendly country flow trail starting in the hamlet of Furi. It features lovely curves and bends and ends at the Moos in Zermatt. The challenge: try to reach the valley without pedalling.",
+        "description": "1.3 km long, an average gradient of 7.3% and around 10 minutes of flowy fun: that's what the Moos trail in the middle of the mountain bike paradise of Zermatt is all about. The gentle descent with an altitude difference of 95 metres leads from Furi down to Zermatt, making it perfect for beginners. \n\nThe starting point of the trail can be reached by bike through the village of Zermatt to Winkelmatten via Moosstrasse towards the hamlet of Furi. Those who like to take it easy can use the Matterhorn Express. The trail starts at Schweigmatten below the mountain restaurant. One look down to Zermatt - and off you go.\n\nYou ride through the sparse forest over wide curves and bumps. Perfect for beginners, but professionals will also have fun: the super-soft track is ideal for making the most of your momentum. So why not try to reach the valley without pedalling? Or even chainless? Along the way, you'll catch a glimpse of a typical Valais barn or a cable car above your head. The descent is quick and can be done several times in a row.\n\nLength: 1.3 km",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/VS_Moos_Trail_Zermatt_1_M.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/VS_Moos_Trail_Zermatt_1_s.jpg",
+            "https://images.schweizmobil.ch/image/VS_Moos_Trail_Zermatt_2_s.jpg"
+        ],
+        "photo_gallery_big": [
+            "https://images.schweizmobil.ch/image-big/VS_Moos_Trail_Zermatt_1_g.jpg",
+            "https://images.schweizmobil.ch/image-big/VS_Moos_Trail_Zermatt_2_g.jpg"
+        ],
+        "photo_gallery_copyright": [
+            "D.CARLIER / davidcarlierphotography.com",
+            "D.CARLIER / davidcarlierphotography.com"
+        ],
+        "photo_gallery_author": [
+            "D.Carlier",
+            "D.Carlier"
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "Zermatt Tourismus",
+        "name_2": null,
+        "street": "Bahnhofplatz 5",
+        "zip": "3920",
+        "place": "Zermatt",
+        "tel": "+41 (0)27 966 81 00",
+        "fax": null,
+        "email": "info@zermatt.ch",
+        "url1_link": "https://www.zermatt.ch ",
+        "x_coordinate": 623097.846931492,
+        "y_coordinate": 94435.09308891438,
+        "change_date": null,
+        "id": 865,
+        "r_key": 865,
+        "type": "Sight",
+        "url_sightseeing": "https://www.valais.ch/en/activities/mountain-bike/flowtrails",
+        "touristic_region": 11,
+        "canton": 7
+    }
+}

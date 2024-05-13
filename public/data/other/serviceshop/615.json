@@ -1,1 +1,34 @@
-{"type":"Feature","id":3943,"geometry":{"type":"Point","coordinates":[47.43924433459736,7.537609913545001]},"properties":{"land":"\"velo\",\"mountainbike\"","category":"all","language":"en","title":"wedobike E-Bike Store","abstract":null,"name":"wedobike E-Bike Store","street":"Grienweg 7","zip":"4222","place":"Zwingen","tel":"+41 61 406 25 35","email":null,"url1_text":null,"url1_link":"https://www.wedobike.ch","organisation":null,"foto":null,"x_coordinate":607466.1539297965,"y_coordinate":254277.51338295796,"change_date":null,"id":615,"type":"Service"}}
+{
+    "type": "Feature",
+    "id": 3943,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            47.439244342817105,
+            7.537609913041539
+        ]
+    },
+    "properties": {
+        "land": "\"velo\",\"mountainbike\"",
+        "category": "all",
+        "language": "en",
+        "title": "wedobike E-Bike Store",
+        "abstract": null,
+        "name": "wedobike E-Bike Store",
+        "street": "Grienweg 7",
+        "zip": "4222",
+        "place": "Zwingen",
+        "tel": "+41 61 406 25 35",
+        "email": null,
+        "url1_text": null,
+        "url1_link": "https://www.wedobike.ch",
+        "organisation": null,
+        "foto": null,
+        "foto_abstract": null,
+        "x_coordinate": 607466.1539297965,
+        "y_coordinate": 254277.51338295796,
+        "change_date": null,
+        "id": 615,
+        "type": "Service"
+    }
+}

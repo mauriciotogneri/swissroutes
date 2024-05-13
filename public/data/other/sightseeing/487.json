@@ -1,1 +1,60 @@
-{"type":"Feature","id":487,"geometry":{"type":"Point","coordinates":[46.54723635579808,7.0181177549175935]},"properties":{"land":null,"category":"all","language":"en","title":"Le Moléson","abstract":"High above the medieval town of Gruyères is the iconic Mount Moléson. Its 2002-metrehigh summit offers spectacular panoramic views of Western Switzerland. Moléson - a mystical mountain!","description":"A funicular and cable car take you to the top of the Moléson (2002 m).\n\nThe village of Moléson-sur-Gruyères, on the flanks of the Moléson, the prominent landmark of the Fribourg Pre-Alps, has transformed its slopes into a veritable leisure park: skis, bobsleds, Via Ferrata (via ferrata), cheese making in an alpine cheese dairy, family fun on the summer toboggan run or in the Devalkart. The via ferrata attracts mountaineers with a head for heights.","highlights":null,"foto":"https://images0.schweizmobil.ch/image-big/7985_Le_Moleson_sommet_Moleson_g.jpg","photo_gallery":["https://images0.schweizmobil.ch/image/7985_Le_Moleson_sommet_Moleson_s.jpg","https://images0.schweizmobil.ch/image/7985_Le-Moleson_2b.jpg"],"photo_gallery_big":["https://images0.schweizmobil.ch/image-big/7985_Le_Moleson_sommet_Moleson_g.jpg",""],"photo_gallery_copyright":["",""],"photo_gallery_author":["",""],"name":"Fribourg Region","name_2":null,"street":"Route de la Glâne 107","zip":"1701","place":"Fribourg","tel":"+41 (0)26 407 70 20","fax":null,"email":"information@fribourgregion.ch","url1_link":"https://www.fribourgregion.ch","x_coordinate":567747.6697483273,"y_coordinate":155192.59265524813,"change_date":null,"id":487,"r_key":487,"type":"Sight","url_sightseeing":"https://www.moleson.ch","touristic_region":13}}
+{
+    "type": "Feature",
+    "id": 487,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.547236358774676,
+            7.018117766436584
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Le Moléson",
+        "abstract": "High above the medieval town of Gruyères is the iconic Mount Moléson. Its 2002-metrehigh summit offers spectacular panoramic views of Western Switzerland. Moléson - a mystical mountain!",
+        "description": "A funicular and cable car take you to the top of the Moléson (2002 m).\n\nThe village of Moléson-sur-Gruyères, on the flanks of the Moléson, the prominent landmark of the Fribourg Pre-Alps, has transformed its slopes into a veritable leisure park: skis, bobsleds, Via Ferrata (via ferrata), cheese making in an alpine cheese dairy, family fun on the summer toboggan run or in the Devalkart. The via ferrata attracts mountaineers with a head for heights.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image-big/7985_Le_Moleson_sommet_Moleson_g.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/7985_Le_Moleson_sommet_Moleson_s.jpg",
+            "https://images.schweizmobil.ch/image/7985_Le-Moleson_2b.jpg"
+        ],
+        "photo_gallery_big": [
+            "https://images.schweizmobil.ch/image-big/7985_Le_Moleson_sommet_Moleson_g.jpg",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "Fribourg Region",
+        "name_2": null,
+        "street": "Route de la Glâne 107",
+        "zip": "1701",
+        "place": "Fribourg",
+        "tel": "+41 (0)26 407 70 20",
+        "fax": null,
+        "email": "information@fribourgregion.ch",
+        "url1_link": "https://www.fribourgregion.ch",
+        "x_coordinate": 567747.6697483273,
+        "y_coordinate": 155192.59265524813,
+        "change_date": null,
+        "id": 487,
+        "r_key": 487,
+        "type": "Sight",
+        "url_sightseeing": "https://www.moleson.ch",
+        "touristic_region": 13,
+        "canton": 5
+    }
+}

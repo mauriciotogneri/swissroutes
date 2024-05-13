@@ -1,1 +1,34 @@
-{"type":"Feature","id":3229,"geometry":{"type":"Point","coordinates":[46.93985563206466,7.781260327718332]},"properties":{"land":"\"velo\",\"mountainbike\"","category":"all","language":"en","title":"Radsport Emmental GmbH","abstract":null,"name":"Radsport Emmental GmbH","street":"Schmiedenstrasse 8","zip":"3550","place":"Langnau i. E.","tel":"+41 34 402 44 17","email":null,"url1_text":null,"url1_link":"https://www.radsportzaugg.ch","organisation":"2rad / 2routes / 2ruote","foto":null,"x_coordinate":626088.9754922979,"y_coordinate":198809.04929828955,"change_date":null,"id":501,"type":"Service"}}
+{
+    "type": "Feature",
+    "id": 3229,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.93985563193516,
+            7.781260336334727
+        ]
+    },
+    "properties": {
+        "land": "\"velo\",\"mountainbike\"",
+        "category": "all",
+        "language": "en",
+        "title": "Radsport Emmental GmbH",
+        "abstract": null,
+        "name": "Radsport Emmental GmbH",
+        "street": "Schmiedenstrasse 8",
+        "zip": "3550",
+        "place": "Langnau i. E.",
+        "tel": "+41 34 402 44 17",
+        "email": null,
+        "url1_text": null,
+        "url1_link": "https://www.radsportzaugg.ch",
+        "organisation": "2rad / 2routes / 2ruote",
+        "foto": null,
+        "foto_abstract": null,
+        "x_coordinate": 626088.9754922979,
+        "y_coordinate": 198809.04929828955,
+        "change_date": null,
+        "id": 501,
+        "type": "Service"
+    }
+}

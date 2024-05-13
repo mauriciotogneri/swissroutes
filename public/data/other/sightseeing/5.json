@@ -1,50 +1,55 @@
 {
-  "type": "Feature",
-  "id": 5,
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      47.39531151344981,
-      8.951906930345443
-    ]
-  },
-  "properties": {
-    "land": null,
-    "category": "all",
-    "language": "en",
-    "title": "Fischingen–Hörnli",
-    "abstract": "The route from Hinterthurgau monastery town of Fischingen up to the Hörnli is part of the Jakobsweg (Route of St. James). The hike leads along the road through woodlands and fields to Hörnli at 1133 m altitude, a popular excursion destination in the whole region.",
-    "description": "A boundary stone from 1640 at the side of the road is the oldest evidence of this section of the Jakobsweg (Route of St. James). The former pilgrims’ hostel «Zum Kreuz» at Allenwinden dates back to before the 19th century. But the path was first recorded on a map at a much later date. From Fischingen the route ran as a road through Murgtal as far as Au, then as a footpath up to Hörnli. In the meantime, parts of the route have been replaced or developed as roads.\n\nTo reach Au, you pass a small bridge at the southern end of Fischingen and then follow a gravel path. As you leave Au you encounter St. Idda, a baroque figure in a modern shrine. Various legends are woven around the former Countess of Toggenburg.\n\nA lane leads into the steep eastern flank of the Eggholz ridge. Here the «Landgraviate Thurgau» probably left the boundary stone with the inscription «LT». in the 18th century. The boundary point between the cantons of Thurgau, Zurich and St. Gallen is marked by a boundary stone dating from 1640. Hörnli is reached via the eastern slopes of the Chlihörnli.",
-    "highlights": null,
-    "foto": "https://images0.schweizmobil.ch/image/IVS_F4_Chlihoernli.jpg",
-    "photo_gallery": [
-      "https://images0.schweizmobil.ch/image/IVS_F4_Chlihoernli.jpg"
-    ],
-    "photo_gallery_big": [
-      ""
-    ],
-    "photo_gallery_copyright": [
-      ""
-    ],
-    "photo_gallery_author": [
-      ""
-    ],
-    "name": "Bundesinventar der historischen Verkehrswege der Schweiz (IVS)",
-    "name_2": null,
-    "street": "",
-    "zip": "",
-    "place": "",
-    "tel": "",
-    "fax": null,
-    "email": "",
-    "url1_link": "https://www.ivs.admin.ch",
-    "x_coordinate": 714240.0215603416,
-    "y_coordinate": 250489.7280914199,
-    "change_date": null,
+    "type": "Feature",
     "id": 5,
-    "r_key": 5,
-    "type": "Sight",
-    "url_sightseeing": "https://s.geo.admin.ch/6fb1609dc3",
-    "touristic_region": 2
-  }
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            47.39531150435352,
+            8.951906954440034
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Fischingen–Hörnli",
+        "abstract": "The route from Hinterthurgau monastery town of Fischingen up to the Hörnli is part of the Jakobsweg (Route of St. James). The hike leads along the road through woodlands and fields to Hörnli at 1133 m altitude, a popular excursion destination in the whole region.",
+        "description": "A boundary stone from 1640 at the side of the road is the oldest evidence of this section of the Jakobsweg (Route of St. James). The former pilgrims’ hostel «Zum Kreuz» at Allenwinden dates back to before the 19th century. But the path was first recorded on a map at a much later date. From Fischingen the route ran as a road through Murgtal as far as Au, then as a footpath up to Hörnli. In the meantime, parts of the route have been replaced or developed as roads.\n\nTo reach Au, you pass a small bridge at the southern end of Fischingen and then follow a gravel path. As you leave Au you encounter St. Idda, a baroque figure in a modern shrine. Various legends are woven around the former Countess of Toggenburg.\n\nA lane leads into the steep eastern flank of the Eggholz ridge. Here the «Landgraviate Thurgau» probably left the boundary stone with the inscription «LT». in the 18th century. The boundary point between the cantons of Thurgau, Zurich and St. Gallen is marked by a boundary stone dating from 1640. Hörnli is reached via the eastern slopes of the Chlihörnli.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/IVS_F4_Chlihoernli.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/IVS_F4_Chlihoernli.jpg"
+        ],
+        "photo_gallery_big": [
+            ""
+        ],
+        "photo_gallery_copyright": [
+            ""
+        ],
+        "photo_gallery_author": [
+            ""
+        ],
+        "photo_gallery_abstract": [
+            ""
+        ],
+        "name": "Bundesinventar der historischen Verkehrswege der Schweiz (IVS)",
+        "name_2": null,
+        "street": "   ",
+        "zip": " ",
+        "place": " ",
+        "tel": " ",
+        "fax": null,
+        "email": " ",
+        "url1_link": "https://www.ivs.admin.ch",
+        "x_coordinate": 714240.0215603416,
+        "y_coordinate": 250489.7280914199,
+        "change_date": null,
+        "id": 5,
+        "r_key": 5,
+        "type": "Sight",
+        "url_sightseeing": "https://s.geo.admin.ch/6fb1609dc3",
+        "touristic_region": 2,
+        "canton": 6
+    }
 }

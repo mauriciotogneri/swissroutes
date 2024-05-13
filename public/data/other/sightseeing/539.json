@@ -1,1 +1,85 @@
-{"type":"Feature","id":539,"geometry":{"type":"Point","coordinates":[46.19071262654574,8.781970387665037]},"properties":{"land":null,"category":"all","language":"en","title":"Cardada Cimetta","abstract":"Easily reachable in only 5 minutes with the modern cablecar from Orselina, Cardada Cimetta offers breathtaking views, a beautiful  mountain scenery and a wide net of hiking trails. An oasis where you can relax and undertake many activities immersed in nature.","description":"The ultra modern cable car, designed by architect Mario Botta, takes you from Orselina at 395 metres above sea level to Cardada at 1,340 metres above sea level in just 5 minutes.\n\nThe breathtaking view which can be enjoyed from Cardada is without a doubt the most striking aspect of this splendid mountain. Whether you are just walking along the numerous pathways or relaxing at one of the tables of Cardada's enticing restaurants at a height of 1,340 metres, it offers a stupendous view of the whole of the magnificent Locarno region. Climbing right up to Cimetta at 1,670 metres above sea level, the view widens out offering a 360 degree panorama.\n\nCardada Cimetta is not only an extraordinary place on account of its breathtaking views but also because it offers a magnificent setting coupled with a particularly pleasant climate. Due to its south facing position the mountain is continuously embraced by the sun's rays, from dawn to dusk, and is an ideal place for long activities throughout the day.","highlights":null,"foto":"https://images0.schweizmobil.ch/image-big/Cardada_Cimetta_Ticino_Turismo2_g.jpg","photo_gallery":["https://images0.schweizmobil.ch/image/Cardada_Cimetta_Ticino_Turismo2_s.jpg","https://images0.schweizmobil.ch/image/8155_Cardada_2b.jpg","https://images0.schweizmobil.ch/image/Cardada_Funivia.jpg","https://images0.schweizmobil.ch/image/Cardada_Osservatorio_geologico.jpg","https://images0.schweizmobil.ch/image/Cardada_Passeggiate.jpg","https://images0.schweizmobil.ch/image/Cardada_Passerella.jpg","https://images0.schweizmobil.ch/image/Cardada_Seggiovia.jpg"],"photo_gallery_big":["https://images0.schweizmobil.ch/image-big/Cardada_Cimetta_Ticino_Turismo2_g.jpg","","","","","",""],"photo_gallery_copyright":["","","","","","",""],"photo_gallery_author":["","","","","","",""],"name":"Ascona-Locarno Turismo","name_2":null,"street":"Piazza Stazione / Stazione FFS","zip":"6600","place":"Locarno-Muralto","tel":"+41 (0)848 091 091","fax":null,"email":"info@ascona-locarno.com","url1_link":"https://www.ascona-locarno.com","x_coordinate":703705.0400704747,"y_coordinate":116360.33199810649,"change_date":null,"id":539,"r_key":539,"type":"Sight","url_sightseeing":"https://www.cardada.ch","touristic_region":12}}
+{
+    "type": "Feature",
+    "id": 539,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.19071264141069,
+            8.78197043457692
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Cardada Cimetta",
+        "abstract": "Easily reachable in only 5 minutes with the modern cablecar from Orselina, Cardada Cimetta offers breathtaking views, a beautiful  mountain scenery and a wide net of hiking trails. An oasis where you can relax and undertake many activities immersed in nature.",
+        "description": "The ultra modern cable car, designed by architect Mario Botta, takes you from Orselina at 395 metres above sea level to Cardada at 1,340 metres above sea level in just 5 minutes.\n\nThe breathtaking view which can be enjoyed from Cardada is without a doubt the most striking aspect of this splendid mountain. Whether you are just walking along the numerous pathways or relaxing at one of the tables of Cardada's enticing restaurants at a height of 1,340 metres, it offers a stupendous view of the whole of the magnificent Locarno region. Climbing right up to Cimetta at 1,670 metres above sea level, the view widens out offering a 360 degree panorama.\n\nCardada Cimetta is not only an extraordinary place on account of its breathtaking views but also because it offers a magnificent setting coupled with a particularly pleasant climate. Due to its south facing position the mountain is continuously embraced by the sun's rays, from dawn to dusk, and is an ideal place for long activities throughout the day.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image-big/Cardada_Cimetta_Ticino_Turismo2_g.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/Cardada_Cimetta_Ticino_Turismo2_s.jpg",
+            "https://images.schweizmobil.ch/image/8155_Cardada_2b.jpg",
+            "https://images.schweizmobil.ch/image/Cardada_Funivia.jpg",
+            "https://images.schweizmobil.ch/image/Cardada_Osservatorio_geologico.jpg",
+            "https://images.schweizmobil.ch/image/Cardada_Passeggiate.jpg",
+            "https://images.schweizmobil.ch/image/Cardada_Passerella.jpg",
+            "https://images.schweizmobil.ch/image/Cardada_Seggiovia.jpg"
+        ],
+        "photo_gallery_big": [
+            "https://images.schweizmobil.ch/image-big/Cardada_Cimetta_Ticino_Turismo2_g.jpg",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "name": "Ascona-Locarno Turismo",
+        "name_2": null,
+        "street": "Piazza Stazione / Stazione FFS",
+        "zip": "6600",
+        "place": "Locarno-Muralto",
+        "tel": "+41 (0)848 091 091",
+        "fax": null,
+        "email": "info@ascona-locarno.com",
+        "url1_link": "https://www.ascona-locarno.com",
+        "x_coordinate": 703705.0400704747,
+        "y_coordinate": 116360.33199810649,
+        "change_date": null,
+        "id": 539,
+        "r_key": 539,
+        "type": "Sight",
+        "url_sightseeing": "https://www.cardada.ch",
+        "touristic_region": 12,
+        "canton": 19
+    }
+}

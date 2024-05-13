@@ -1,1 +1,60 @@
-{"type":"Feature","id":206,"geometry":{"type":"Point","coordinates":[47.5139628551899,8.764181250115099]},"properties":{"land":null,"category":"all","language":"en","title":"Technorama - The Swiss Science Center","abstract":"Switzerland's only Science Center is a tactile «museum»: here science becomes an experience of the senses. The curious can experiment at more than 500 interactive stations. Become the scientist!","description":"At Technorama the \"wow effect\" fully kicks in, no matter whether you are a professor or whether changing a light bulb is as far as your technical capabilities will go: suddenly you realise that natural science and technology are incredible fun. Whilst you explore, marvel, try out and understand you soon turn into a scientist yourself.\n\nBesides the interactive exhibits you will also find shows and presentations on the daily schedule. The spacious self-service restaurant provides you with refreshments. If you prefer to bring your own sandwiches, you may use one of the picnic areas in the building or take a stroll in the park, where barbecue areas are also available.","highlights":null,"foto":"https://images0.schweizmobil.ch/image/8933_Technorama_The-Swiss-Science-Center_1a.jpg","photo_gallery":["https://images0.schweizmobil.ch/image/8933_Technorama_The-Swiss-Science-Center_1a.jpg","https://images0.schweizmobil.ch/image/8933_Technorama-The-Swiss-Science-Center_2b.jpg"],"photo_gallery_big":["",""],"photo_gallery_copyright":["",""],"photo_gallery_author":["",""],"name":"Technorama - The Swiss Science Center","name_2":null,"street":"Technoramastrasse 1","zip":"8404","place":"Winterthur","tel":"+41 (0)52 244 08 44","fax":null,"email":"info@technorama.ch","url1_link":"https://www.technorama.ch","x_coordinate":699847.3479261382,"y_coordinate":263423.55801787775,"change_date":null,"id":206,"r_key":206,"type":"Sight","url_sightseeing":"https://winterthur.com/de/winterthur-entdecken/erlebnisse/technorama.html","touristic_region":3}}
+{
+    "type": "Feature",
+    "id": 206,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            47.51396285215534,
+            8.764181298275558
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Technorama - The Swiss Science Center",
+        "abstract": "Switzerland's only Science Center is a tactile «museum»: here science becomes an experience of the senses. The curious can experiment at more than 500 interactive stations. Become the scientist!",
+        "description": "At Technorama the \"wow effect\" fully kicks in, no matter whether you are a professor or whether changing a light bulb is as far as your technical capabilities will go: suddenly you realise that natural science and technology are incredible fun. Whilst you explore, marvel, try out and understand you soon turn into a scientist yourself.\n\nBesides the interactive exhibits you will also find shows and presentations on the daily schedule. The spacious self-service restaurant provides you with refreshments. If you prefer to bring your own sandwiches, you may use one of the picnic areas in the building or take a stroll in the park, where barbecue areas are also available.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image-big/8933_Technorama_The_Swiss_Science_Center_1_g.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/8933_Technorama_The_Swiss_Science_Center_1_s.jpg",
+            "https://images.schweizmobil.ch/image/8933_Technorama_The_Swiss_Science_Center_2_s.jpg"
+        ],
+        "photo_gallery_big": [
+            "https://images.schweizmobil.ch/image-big/8933_Technorama_The_Swiss_Science_Center_1_g.jpg",
+            "https://images.schweizmobil.ch/image-big/8933_Technorama_The_Swiss_Science_Center_2_g.jpg"
+        ],
+        "photo_gallery_copyright": [
+            "                                                      ",
+            ""
+        ],
+        "photo_gallery_author": [
+            "                                    ",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "Technorama - The Swiss Science Center",
+        "name_2": null,
+        "street": "Technoramastrasse 1",
+        "zip": "8404",
+        "place": "Winterthur",
+        "tel": "+41 (0)52 244 08 44",
+        "fax": null,
+        "email": "info@technorama.ch",
+        "url1_link": "https://www.technorama.ch",
+        "x_coordinate": 699847.3479261382,
+        "y_coordinate": 263423.55801787775,
+        "change_date": null,
+        "id": 206,
+        "r_key": 206,
+        "type": "Sight",
+        "url_sightseeing": "https://winterthur.com/de/winterthur-entdecken/erlebnisse/technorama.html",
+        "touristic_region": 3,
+        "canton": 3
+    }
+}

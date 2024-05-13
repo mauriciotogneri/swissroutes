@@ -1,50 +1,55 @@
 {
-  "type": "Feature",
-  "id": 33,
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      46.7302201352804,
-      6.402489023276445
-    ]
-  },
-  "properties": {
-    "land": null,
-    "category": "all",
-    "language": "en",
-    "title": "Roman road track to transport salt",
-    "abstract": "A historic Roman road track can be found at the edge of Ballaigues in the direction of the French border. A very attractive section of this seemingly archaic route was excavated in a wooded area near Chez Barrat.",
-    "description": "A road track can be compared to modern tramlines. But instead of metal rails, wheel ruts were cut into the road surface to help guide the carts. This was particularly important on the descent when the wheels were blocked for braking, creating a serious risk of skidding. Modern wheel brake mechanisms weren’t invented until the 19th century.\n\nRoad tracks are known as «Roman roads» all over the country, and the one at Ballaigues is no exception. The rock-based foundations could lead you to believe that the road tracks were navigable for centuries or even millennia, but the actual life span of such a track wouldn’t have been more than a few decades: the wear and tear caused by the laden carts, beasts of burden and exposure to the elements was immense.\n\nSalt was hauled from the French mines of Salins-les-Bains and Arc-et-Senans over the Ballaigues road track to western Switzerland and Bern until the mid-19th century.",
-    "highlights": null,
-    "foto": "https://images0.schweizmobil.ch/image/IVS_08_Salztransport.jpg",
-    "photo_gallery": [
-      "https://images0.schweizmobil.ch/image/IVS_08_Salztransport.jpg"
-    ],
-    "photo_gallery_big": [
-      ""
-    ],
-    "photo_gallery_copyright": [
-      ""
-    ],
-    "photo_gallery_author": [
-      ""
-    ],
-    "name": "Bundesinventar der historischen Verkehrswege der Schweiz (IVS)",
-    "name_2": null,
-    "street": "",
-    "zip": "",
-    "place": "",
-    "tel": "",
-    "fax": null,
-    "email": "",
-    "url1_link": "https://www.ivs.admin.ch",
-    "x_coordinate": 520800.164058281,
-    "y_coordinate": 175970.12063118815,
-    "change_date": null,
+    "type": "Feature",
     "id": 33,
-    "r_key": 33,
-    "type": "Sight",
-    "url_sightseeing": "https://s.geo.admin.ch/6fb1727203",
-    "touristic_region": 9
-  }
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.7302201349721,
+            6.402489017667564
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Roman road track to transport salt",
+        "abstract": "A historic Roman road track can be found at the edge of Ballaigues in the direction of the French border. A very attractive section of this seemingly archaic route was excavated in a wooded area near Chez Barrat.",
+        "description": "A road track can be compared to modern tramlines. But instead of metal rails, wheel ruts were cut into the road surface to help guide the carts. This was particularly important on the descent when the wheels were blocked for braking, creating a serious risk of skidding. Modern wheel brake mechanisms weren’t invented until the 19th century.\n\nRoad tracks are known as «Roman roads» all over the country, and the one at Ballaigues is no exception. The rock-based foundations could lead you to believe that the road tracks were navigable for centuries or even millennia, but the actual life span of such a track wouldn’t have been more than a few decades: the wear and tear caused by the laden carts, beasts of burden and exposure to the elements was immense.\n\nSalt was hauled from the French mines of Salins-les-Bains and Arc-et-Senans over the Ballaigues road track to western Switzerland and Bern until the mid-19th century.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/IVS_08_Salztransport.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/IVS_08_Salztransport.jpg"
+        ],
+        "photo_gallery_big": [
+            ""
+        ],
+        "photo_gallery_copyright": [
+            ""
+        ],
+        "photo_gallery_author": [
+            ""
+        ],
+        "photo_gallery_abstract": [
+            ""
+        ],
+        "name": "Bundesinventar der historischen Verkehrswege der Schweiz (IVS)",
+        "name_2": null,
+        "street": " ",
+        "zip": " ",
+        "place": " ",
+        "tel": " ",
+        "fax": null,
+        "email": " ",
+        "url1_link": "https://www.ivs.admin.ch",
+        "x_coordinate": 520800.164058281,
+        "y_coordinate": 175970.12063118815,
+        "change_date": null,
+        "id": 33,
+        "r_key": 33,
+        "type": "Sight",
+        "url_sightseeing": "https://s.geo.admin.ch/6fb1727203",
+        "touristic_region": 9,
+        "canton": 27
+    }
 }

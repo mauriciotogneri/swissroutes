@@ -1,1 +1,60 @@
-{"type":"Feature","id":405,"geometry":{"type":"Point","coordinates":[46.49765468018827,7.71800987267189]},"properties":{"land":null,"category":"all","language":"en","title":"Oeschinensee","abstract":"Surrounded by the imposing mountain world, the deep-blue Oeschinensee lake lies cradled between glaciers and ancient woods of pine. Some guides even proclaim this mountain lake to be the most beautiful throughout the Alps - and they're not far wrong.","description":"The region delights the hearts of hikers, families and nature lovers alike. And since a while a fast sled run by the cable car and mountain station adds excitement to scenic beauty. Water fans get their fill with the possibility of taking a colourful rowing boat on the lake; as well as fishing in what is known as an extremely fishrich and crystal clear lake. In fact, the water is so clean and pure that the locals use it as drink water.\n\nVisitors not only relax and replenish resources in the guest houses around the lake, but also in the pleasing SAC mountain huts that, high up in the mountains, grant fantastic sweeping views over the region. And the hut keepers of these mountain dwellings offer guided glacial crossings, along with mountain climbing…and very often an interesting tale or two.","highlights":null,"foto":"https://images0.schweizmobil.ch/image/9786_Oeschinensee_1a.jpg","photo_gallery":["https://images0.schweizmobil.ch/image/9786_Oeschinensee_1a.jpg","https://images0.schweizmobil.ch/image/9786_Oeschinensee_2b.jpg"],"photo_gallery_big":["",""],"photo_gallery_copyright":["",""],"photo_gallery_author":["",""],"name":"TALK (Tourismus Adelboden-Lenk-Kandersteg) AG","name_2":null,"street":"Äussere Dorfstrasse 26","zip":"3718","place":"Kandersteg","tel":"+41 (0)33 675 80 80","fax":null,"email":"Info@kandersteg.ch","url1_link":"https://www.kandersteg.ch","x_coordinate":621447.620973258,"y_coordinate":149632.08506298656,"change_date":null,"id":405,"r_key":405,"type":"Sight","url_sightseeing":"https://www.oeschinensee.ch","touristic_region":6}}
+{
+    "type": "Feature",
+    "id": 405,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.49765467855936,
+            7.718009883573812
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Oeschinensee",
+        "abstract": "Surrounded by the imposing mountain world, the deep-blue Oeschinensee lake lies cradled between glaciers and ancient woods of pine. Some guides even proclaim this mountain lake to be the most beautiful throughout the Alps - and they're not far wrong.",
+        "description": "The region delights the hearts of hikers, families and nature lovers alike. And since a while a fast sled run by the cable car and mountain station adds excitement to scenic beauty. Water fans get their fill with the possibility of taking a colourful rowing boat on the lake; as well as fishing in what is known as an extremely fishrich and crystal clear lake. In fact, the water is so clean and pure that the locals use it as drink water.\n\nVisitors not only relax and replenish resources in the guest houses around the lake, but also in the pleasing SAC mountain huts that, high up in the mountains, grant fantastic sweeping views over the region. And the hut keepers of these mountain dwellings offer guided glacial crossings, along with mountain climbing…and very often an interesting tale or two.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/9786_Oeschinensee_1a.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/9786_Oeschinensee_1a.jpg",
+            "https://images.schweizmobil.ch/image/9786_Oeschinensee_2b.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "TALK (Tourismus Adelboden-Lenk-Kandersteg) AG",
+        "name_2": null,
+        "street": "Äussere Dorfstrasse 26",
+        "zip": "3718",
+        "place": "Kandersteg",
+        "tel": "+41 (0)33 675 80 80",
+        "fax": null,
+        "email": "Info@kandersteg.ch",
+        "url1_link": "https://www.kandersteg.ch",
+        "x_coordinate": 621447.620973258,
+        "y_coordinate": 149632.08506298656,
+        "change_date": null,
+        "id": 405,
+        "r_key": 405,
+        "type": "Sight",
+        "url_sightseeing": "https://www.oeschinensee.ch",
+        "touristic_region": 6,
+        "canton": 12
+    }
+}

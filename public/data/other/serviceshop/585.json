@@ -1,1 +1,34 @@
-{"type":"Feature","id":3304,"geometry":{"type":"Point","coordinates":[47.04933207350759,8.61098574511651]},"properties":{"land":"\"velo\",\"mountainbike\"","category":"all","language":"en","title":"Bike Haus Eberli","abstract":null,"name":"Bike Haus Eberli","street":"Bahnhofstrasse 2","zip":"6422","place":"Steinen","tel":"+41 41 530 70 90","email":null,"url1_text":null,"url1_link":"https://www.bikehauseberli.ch","organisation":null,"foto":null,"x_coordinate":689080.3479808238,"y_coordinate":211588.358792738,"change_date":null,"id":585,"type":"Service"}}
+{
+    "type": "Feature",
+    "id": 3304,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            47.04933207544576,
+            8.610985765775402
+        ]
+    },
+    "properties": {
+        "land": "\"velo\",\"mountainbike\"",
+        "category": "all",
+        "language": "en",
+        "title": "Bike Haus Eberli",
+        "abstract": null,
+        "name": "Bike Haus Eberli",
+        "street": "Bahnhofstrasse 2",
+        "zip": "6422",
+        "place": "Steinen",
+        "tel": "+41 41 530 70 90",
+        "email": null,
+        "url1_text": null,
+        "url1_link": "https://www.bikehauseberli.ch",
+        "organisation": null,
+        "foto": null,
+        "foto_abstract": null,
+        "x_coordinate": 689080.3479808238,
+        "y_coordinate": 211588.358792738,
+        "change_date": null,
+        "id": 585,
+        "type": "Service"
+    }
+}

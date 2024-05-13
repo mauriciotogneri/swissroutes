@@ -1,1 +1,34 @@
-{"type":"Feature","id":2947,"geometry":{"type":"Point","coordinates":[47.32161353526248,7.849093821388739]},"properties":{"land":"\"velo\",\"mountainbike\"","category":"all","language":"en","title":"Lack Robert","abstract":null,"name":"Lack Robert","street":"Kreuzfeld 40","zip":"4616","place":"Kappel SO","tel":"+41 62 216 16 73","email":null,"url1_text":null,"url1_link":null,"organisation":"2rad / 2routes / 2ruote","foto":null,"x_coordinate":631031.9367179434,"y_coordinate":241275.37947324105,"change_date":null,"id":165,"type":"Service"}}
+{
+    "type": "Feature",
+    "id": 2947,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            47.321613550196076,
+            7.849093828162523
+        ]
+    },
+    "properties": {
+        "land": "\"velo\",\"mountainbike\"",
+        "category": "all",
+        "language": "en",
+        "title": "Lack Robert",
+        "abstract": null,
+        "name": "Lack Robert",
+        "street": "Kreuzfeld 40",
+        "zip": "4616",
+        "place": "Kappel SO",
+        "tel": "+41 62 216 16 73",
+        "email": null,
+        "url1_text": null,
+        "url1_link": null,
+        "organisation": "2rad / 2routes / 2ruote",
+        "foto": null,
+        "foto_abstract": null,
+        "x_coordinate": 631031.9367179434,
+        "y_coordinate": 241275.37947324105,
+        "change_date": null,
+        "id": 165,
+        "type": "Service"
+    }
+}

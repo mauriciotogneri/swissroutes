@@ -1,74 +1,85 @@
 {
-  "type": "Feature",
-  "id": 96,
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      47.203143823283675,
-      8.786878197586583
-    ]
-  },
-  "properties": {
-    "land": null,
-    "category": "all",
-    "language": "en",
-    "title": "The Frauenwinkel",
-    "abstract": "The impressive reed and lakeshore mire landscape of the Frauenwinkel is the largest nature reserve on Lake Zurich. The area, which also includes the islands Ufenau and Lützelau, has belonged to Einsiedeln Monastery for over one thousand years.",
-    "description": "The 350-hectare Frauenwinkel nature reserve, which also includes the islands Ufenau and Lützelau, is the largest and most valuable nature reserve on Lake Zurich. It has belonged to Einsiedeln Monastery for over one thousand years. The name goes back to a gift bestowed on the foundation of \"Unserer lieben Frau” (\"Our Venerable Lady”) in 965 by Holy Roman Emperor Otto the Great.\n\nThe Frauenwinkel reserve provides shelter for a considerable range of unusual plant and animal species. For example, along with Lake Constance, Frauenwinkel was one of the last areas in which the Eurasian curlew (Numenius arquata) bred in Switzerland. However, it would appear that it no longer provides the conditions necessary for the successful breeding of this species. Nonetheless numerous specimens of this rare bird regularly sojourn in Switzerland: they are migrants from north and eastern Europe which seek winter homes on Lake Constance and Upper Lake Zurich.",
-    "highlights": null,
-    "foto": "https://images0.schweizmobil.ch/image-big/10_Frauenwinkel-2-702753-229601_g.jpg",
-    "photo_gallery": [
-      "https://images0.schweizmobil.ch/image/10_Frauenwinkel-2-702753-229601_s.jpg",
-      "https://images0.schweizmobil.ch/image/10-Frauenwinkel_s.jpg",
-      "https://images0.schweizmobil.ch/image/Der_Frauenwinkel_0108_0362_s.jpg",
-      "https://images0.schweizmobil.ch/image/Der_Frauenwinkel_DSC_3596_s.jpg",
-      "https://images0.schweizmobil.ch/image/Der_Frauenwinkel_Frauenwinkel_1_s.jpg",
-      "https://images0.schweizmobil.ch/image/Der_Frauenwinkel_IMG_1138_s.jpg",
-      "https://images0.schweizmobil.ch/image/Der_Frauenwinkel_Rundweg_Frauenwinkel_Luegeten_2_s.jpg"
-    ],
-    "photo_gallery_big": [
-      "https://images0.schweizmobil.ch/image-big/10_Frauenwinkel-2-702753-229601_g.jpg",
-      "https://images0.schweizmobil.ch/image-big/10-Frauenwinkel_g.jpg",
-      "https://images0.schweizmobil.ch/image-big/Der_Frauenwinkel_0108_0362_g.jpg",
-      "https://images0.schweizmobil.ch/image-big/Der_Frauenwinkel_DSC_3596_g.jpg",
-      "https://images0.schweizmobil.ch/image-big/Der_Frauenwinkel_Frauenwinkel_1_g.jpg",
-      "https://images0.schweizmobil.ch/image-big/Der_Frauenwinkel_IMG_1138_g.jpg",
-      "https://images0.schweizmobil.ch/image-big/Der_Frauenwinkel_Rundweg_Frauenwinkel_Luegeten_2_g.jpg"
-    ],
-    "photo_gallery_copyright": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-    ],
-    "photo_gallery_author": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-    ],
-    "name": "Bundesamt für Umwelt",
-    "name_2": null,
-    "street": "und Naturdenkmäler von nationaler Bedeutung (BLN)",
-    "zip": "BLN-Objekt-Nr.",
-    "place": "1405",
-    "tel": "",
-    "fax": null,
-    "email": "bln@bafu.admin.ch",
-    "url1_link": "https://www.bafu.admin.ch/bln",
-    "x_coordinate": 702150.0926552329,
-    "y_coordinate": 228900.28445969246,
-    "change_date": null,
+    "type": "Feature",
     "id": 96,
-    "r_key": 96,
-    "type": "Sight",
-    "url_sightseeing": "https://www.frauenwinkel.ch",
-    "touristic_region": 3
-  }
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            47.20314382935824,
+            8.78687818939984
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "The Frauenwinkel",
+        "abstract": "The impressive reed and lakeshore mire landscape of the Frauenwinkel is the largest nature reserve on Lake Zurich. The area, which also includes the islands Ufenau and Lützelau, has belonged to Einsiedeln Monastery for over one thousand years.",
+        "description": "The 350-hectare Frauenwinkel nature reserve, which also includes the islands Ufenau and Lützelau, is the largest and most valuable nature reserve on Lake Zurich. It has belonged to Einsiedeln Monastery for over one thousand years. The name goes back to a gift bestowed on the foundation of \"Unserer lieben Frau” (\"Our Venerable Lady”) in 965 by Holy Roman Emperor Otto the Great.\n\nThe Frauenwinkel reserve provides shelter for a considerable range of unusual plant and animal species. For example, along with Lake Constance, Frauenwinkel was one of the last areas in which the Eurasian curlew (Numenius arquata) bred in Switzerland. However, it would appear that it no longer provides the conditions necessary for the successful breeding of this species. Nonetheless numerous specimens of this rare bird regularly sojourn in Switzerland: they are migrants from north and eastern Europe which seek winter homes on Lake Constance and Upper Lake Zurich.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image-big/10_Frauenwinkel-2-702753-229601_g.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/10_Frauenwinkel-2-702753-229601_s.jpg",
+            "https://images.schweizmobil.ch/image/10-Frauenwinkel_s.jpg",
+            "https://images.schweizmobil.ch/image/Der_Frauenwinkel_0108_0362_s.jpg",
+            "https://images.schweizmobil.ch/image/Der_Frauenwinkel_DSC_3596_s.jpg",
+            "https://images.schweizmobil.ch/image/Der_Frauenwinkel_Frauenwinkel_1_s.jpg",
+            "https://images.schweizmobil.ch/image/Der_Frauenwinkel_IMG_1138_s.jpg",
+            "https://images.schweizmobil.ch/image/Der_Frauenwinkel_Rundweg_Frauenwinkel_Luegeten_2_s.jpg"
+        ],
+        "photo_gallery_big": [
+            "https://images.schweizmobil.ch/image-big/10_Frauenwinkel-2-702753-229601_g.jpg",
+            "https://images.schweizmobil.ch/image-big/10-Frauenwinkel_g.jpg",
+            "https://images.schweizmobil.ch/image-big/Der_Frauenwinkel_0108_0362_g.jpg",
+            "https://images.schweizmobil.ch/image-big/Der_Frauenwinkel_DSC_3596_g.jpg",
+            "https://images.schweizmobil.ch/image-big/Der_Frauenwinkel_Frauenwinkel_1_g.jpg",
+            "https://images.schweizmobil.ch/image-big/Der_Frauenwinkel_IMG_1138_g.jpg",
+            "https://images.schweizmobil.ch/image-big/Der_Frauenwinkel_Rundweg_Frauenwinkel_Luegeten_2_g.jpg"
+        ],
+        "photo_gallery_copyright": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "name": "Bundesamt für Umwelt",
+        "name_2": null,
+        "street": "und Naturdenkmäler von nationaler Bedeutung (BLN)",
+        "zip": "BLN-Objekt-Nr.",
+        "place": "1405",
+        "tel": "-",
+        "fax": null,
+        "email": "bln@bafu.admin.ch",
+        "url1_link": "https://www.bafu.admin.ch/bln",
+        "x_coordinate": 702150.0926552329,
+        "y_coordinate": 228900.28445969246,
+        "change_date": null,
+        "id": 96,
+        "r_key": 96,
+        "type": "Sight",
+        "url_sightseeing": "https://www.frauenwinkel.ch",
+        "touristic_region": 3,
+        "canton": 11
+    }
 }

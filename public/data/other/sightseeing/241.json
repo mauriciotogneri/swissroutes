@@ -1,1 +1,65 @@
-{"type":"Feature","id":241,"geometry":{"type":"Point","coordinates":[47.05109625578662,8.307212466660518]},"properties":{"land":null,"category":"all","language":"en","title":"Chapel Bridge (Kapellbrücke)","abstract":"The Chapel Bridge was built in the first half of the 14th century as part of the city's inner fortification ring. The bridge derived its name from St. Peter's Chapel, which was once connected to the north bridgehead.","description":"The triangular paintings have adorned the bridge since the 17th century and depict scenes from the town and Swiss history. The Chapel Bridge almost completely burned down on the night of August 18, 1993. Only the two bridgeheads and the Water Tower could be saved. In an unprecedented campaign, the bridge was reconstructed within eight months and the «new» Chapel Bridge was opened again on April 14, 1994, thus concluding the most recent chapter in the fascinating history of Lucerne's worldwide famous landmark.","highlights":null,"foto":"https://images0.schweizmobil.ch/image/Kapellbruecke_EA140525_L7_18.jpg","photo_gallery":["https://images0.schweizmobil.ch/image/Kapellbruecke_EA140525_L7_18.jpg","https://images0.schweizmobil.ch/image/EA140718-H-37.jpg","https://images0.schweizmobil.ch/image/9151_Kapellbruecke_2b.jpg"],"photo_gallery_big":["","",""],"photo_gallery_copyright":["","",""],"photo_gallery_author":["","",""],"name":"Luzern Tourismus","name_2":null,"street":"Bahnhofstrasse 3","zip":"6002","place":"Luzern","tel":"+41 41 227 17 17","fax":null,"email":"luzern@luzern.com","url1_link":"https://www.luzern.com","x_coordinate":665997.671007098,"y_coordinate":211484.98312600816,"change_date":null,"id":241,"r_key":241,"type":"Sight","url_sightseeing":"http://www.luzern.com/en/sightseeing-fuehrungen/sehenswuerdigkeiten/kapellbruecke","touristic_region":4}}
+{
+    "type": "Feature",
+    "id": 241,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            47.051096256388576,
+            8.307212505385912
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Chapel Bridge (Kapellbrücke)",
+        "abstract": "The Chapel Bridge was built in the first half of the 14th century as part of the city's inner fortification ring. The bridge derived its name from St. Peter's Chapel, which was once connected to the north bridgehead.",
+        "description": "The triangular paintings have adorned the bridge since the 17th century and depict scenes from the town and Swiss history. The Chapel Bridge almost completely burned down on the night of August 18, 1993. Only the two bridgeheads and the Water Tower could be saved. In an unprecedented campaign, the bridge was reconstructed within eight months and the «new» Chapel Bridge was opened again on April 14, 1994, thus concluding the most recent chapter in the fascinating history of Lucerne's worldwide famous landmark.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/Kapellbruecke_EA140525_L7_18.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/Kapellbruecke_EA140525_L7_18.jpg",
+            "https://images.schweizmobil.ch/image/EA140718-H-37.jpg",
+            "https://images.schweizmobil.ch/image/9151_Kapellbruecke_2b.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            "",
+            ""
+        ],
+        "name": "Luzern Tourismus",
+        "name_2": null,
+        "street": "Bahnhofstrasse 3",
+        "zip": "6002",
+        "place": "Luzern",
+        "tel": "+41 41 227 17 17",
+        "fax": null,
+        "email": "luzern@luzern.com",
+        "url1_link": "https://www.luzern.com",
+        "x_coordinate": 665997.671007098,
+        "y_coordinate": 211484.98312600816,
+        "change_date": null,
+        "id": 241,
+        "r_key": 241,
+        "type": "Sight",
+        "url_sightseeing": "http://www.luzern.com/en/sightseeing-fuehrungen/sehenswuerdigkeiten/kapellbruecke",
+        "touristic_region": 4,
+        "canton": 15
+    }
+}

@@ -1,1 +1,34 @@
-{"type":"Feature","id":2924,"geometry":{"type":"Point","coordinates":[47.466914234541576,7.598288152234834]},"properties":{"land":"\"velo\",\"mountainbike\"","category":"all","language":"en","title":"Karlen Radsport","abstract":null,"name":"Karlen Radsport","street":"Hauptstrasse 66","zip":"4147","place":"Aesch BL","tel":"+41 61 751 12 54","email":null,"url1_text":null,"url1_link":null,"organisation":"2rad / 2routes / 2ruote","foto":null,"x_coordinate":612037.9937503475,"y_coordinate":257361.48483737663,"change_date":null,"id":139,"type":"Service"}}
+{
+    "type": "Feature",
+    "id": 2924,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            47.466914240955994,
+            7.598288156398173
+        ]
+    },
+    "properties": {
+        "land": "\"velo\",\"mountainbike\"",
+        "category": "all",
+        "language": "en",
+        "title": "Karlen Radsport",
+        "abstract": null,
+        "name": "Karlen Radsport",
+        "street": "Hauptstrasse 66",
+        "zip": "4147",
+        "place": "Aesch BL",
+        "tel": "+41 61 751 12 54",
+        "email": null,
+        "url1_text": null,
+        "url1_link": null,
+        "organisation": "2rad / 2routes / 2ruote",
+        "foto": null,
+        "foto_abstract": null,
+        "x_coordinate": 612037.9937503475,
+        "y_coordinate": 257361.48483737663,
+        "change_date": null,
+        "id": 139,
+        "type": "Service"
+    }
+}

@@ -1,1 +1,55 @@
-{"type":"Feature","id":522,"geometry":{"type":"Point","coordinates":[46.708766066398454,6.4106693268259285]},"properties":{"land":null,"category":"all","language":"en","title":"Pré-Giroud artillery fort","abstract":"The Pré-Giroud artillery fort in Vallorbe was built and used during the Second World War. Carved out of the rocks, it forms part of our military heritage.","description":"Unique in the Jurassic Arc! The Fort of Vallorbe, which was built from 1937 to 1941, is a typical example of a fortified building of the years preceding World War II. It consists of three autonomous small forts equipped with six casemates with cannons or with machine guns linked to the underground observation posts. There are also ammunition stores, a machine room for 130 soldiers, a surgery room with infirmary, etc...","highlights":null,"foto":"https://images0.schweizmobil.ch/image/7998_Fort-Pre-Giroud_1a.jpg","photo_gallery":["https://images0.schweizmobil.ch/image/7998_Fort-Pre-Giroud_1a.jpg"],"photo_gallery_big":[""],"photo_gallery_copyright":[""],"photo_gallery_author":[""],"name":"Office du tourisme Vallorbe","name_2":null,"street":"CP 90, Grandes-Forges 11","zip":"1337","place":"Vallorbe","tel":"+41 (0)21 843 25 83","fax":null,"email":"contact@vallorbe-tourisme.ch","url1_link":"https://www.yverdonlesbainsregion.ch","x_coordinate":521394.8548981714,"y_coordinate":173577.54308745655,"change_date":null,"id":522,"r_key":522,"type":"Sight","url_sightseeing":"https://www.pre-giroud.ch","touristic_region":9}}
+{
+    "type": "Feature",
+    "id": 522,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.708766064832275,
+            6.410669353440601
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Pré-Giroud artillery fort",
+        "abstract": "The Pré-Giroud artillery fort in Vallorbe was built and used during the Second World War. Carved out of the rocks, it forms part of our military heritage.",
+        "description": "Unique in the Jurassic Arc! The Fort of Vallorbe, which was built from 1937 to 1941, is a typical example of a fortified building of the years preceding World War II. It consists of three autonomous small forts equipped with six casemates with cannons or with machine guns linked to the underground observation posts. There are also ammunition stores, a machine room for 130 soldiers, a surgery room with infirmary, etc...",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/7998_Fort-Pre-Giroud_1a.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/7998_Fort-Pre-Giroud_1a.jpg"
+        ],
+        "photo_gallery_big": [
+            ""
+        ],
+        "photo_gallery_copyright": [
+            ""
+        ],
+        "photo_gallery_author": [
+            ""
+        ],
+        "photo_gallery_abstract": [
+            ""
+        ],
+        "name": "Agence ADNV / Office du Tourisme du Nord vaudois",
+        "name_2": null,
+        "street": "Avenue de la Gare 2",
+        "zip": "1401",
+        "place": "Yverdon-les-Bains",
+        "tel": "+41 24 423 03 13",
+        "fax": null,
+        "email": "tourisme@adnv.ch",
+        "url1_link": "https://www.yverdonlesbainsregion.ch",
+        "x_coordinate": 521394.8548981714,
+        "y_coordinate": 173577.54308745655,
+        "change_date": null,
+        "id": 522,
+        "r_key": 522,
+        "type": "Sight",
+        "url_sightseeing": "https://www.pre-giroud.ch",
+        "touristic_region": 9,
+        "canton": 27
+    }
+}

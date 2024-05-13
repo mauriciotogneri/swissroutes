@@ -1,1 +1,34 @@
-{"type":"Feature","id":2930,"geometry":{"type":"Point","coordinates":[47.54933548702368,7.77761690726042]},"properties":{"land":"\"velo\",\"mountainbike\"","category":"all","language":"en","title":"wedobike E-Bike Store","abstract":null,"name":"wedobike E-Bike Store","street":"Erlenweg 11","zip":"4310","place":"Rheinfelden","tel":"+41 61 831 75 00","email":null,"url1_text":null,"url1_link":"https://www.wedobike.ch","organisation":"2rad / 2routes / 2ruote","foto":null,"x_coordinate":625518.15397214,"y_coordinate":266568.24747259135,"change_date":null,"id":146,"type":"Service"}}
+{
+    "type": "Feature",
+    "id": 2930,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            47.54933546809907,
+            7.777616905467514
+        ]
+    },
+    "properties": {
+        "land": "\"velo\",\"mountainbike\"",
+        "category": "all",
+        "language": "en",
+        "title": "wedobike E-Bike Store",
+        "abstract": null,
+        "name": "wedobike E-Bike Store",
+        "street": "Erlenweg 11",
+        "zip": "4310",
+        "place": "Rheinfelden",
+        "tel": "+41 61 831 75 00",
+        "email": null,
+        "url1_text": null,
+        "url1_link": "https://www.wedobike.ch",
+        "organisation": "2rad / 2routes / 2ruote",
+        "foto": null,
+        "foto_abstract": null,
+        "x_coordinate": 625518.15397214,
+        "y_coordinate": 266568.24747259135,
+        "change_date": null,
+        "id": 146,
+        "type": "Service"
+    }
+}

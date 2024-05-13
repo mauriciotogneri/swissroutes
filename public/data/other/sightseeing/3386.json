@@ -1,1 +1,75 @@
-{"type":"Feature","id":3386,"geometry":{"type":"Point","coordinates":[46.16245438105251,8.803661176098233]},"properties":{"land":null,"category":"all","language":"en","title":"Termali Salini & Spa Lido Locarno","abstract":"The Lido Locarno presents itself as a true recreational, sports and well-being oasis focused on a water theme in the splendid scenario of Lake Maggiore: the most complete and modern bathing facility in Ticino!","description":"The Lido is open throughout the year and in all weather conditions, with its numerous indoor and outdoor swimming pools, from the Olympic size swimming pool to the thermal pool, from the play pool, with its water effects, to the 4 fantastic chutes and represents the most complete and modern bathing facility in Ticino.\n\nIn summer visitors can profit from the vast outdoor infrastructure where, besides the swimming pools, there are spacious green areas for relaxing and sunbathing: the beach, the diving platform and a beach volleyball field. Besides the snack bar, which is open all year round, in summer there is also the self-service restaurant and the beach lounge.\n\nMoreover, the Lido Locarno offers a contemporary fitness centre with an incomparable view of the lake and a magnificent SPA: the Termali Salini & Spa Lido Locarno. Since the opening in 2013, this modern structure offers an oasis of relaxation, situated directly on the shores of Lake Maggiore, with salt water pools, saunas, Spa area and restaurants, all with a fantastic view onto the lake and the surrounding mountains.","highlights":null,"foto":"https://images0.schweizmobil.ch/image/11383_Lido_Locarno_1a.jpg","photo_gallery":["https://images0.schweizmobil.ch/image/11383_Lido_Locarno_1a.jpg","https://images0.schweizmobil.ch/image/11383_Lido_Locarno_2b.jpg","https://images0.schweizmobil.ch/image/Termali_Salini_Spa_Lido_LocarnoTS3.jpg","https://images0.schweizmobil.ch/image/Termali_Salini_Spa_Lido_LocarnoTS2.jpg","https://images0.schweizmobil.ch/image/Termali_Salini_Spa_Lido_LocarnoTS6.jpg"],"photo_gallery_big":["","","","",""],"photo_gallery_copyright":["","","","",""],"photo_gallery_author":["","","","",""],"name":"AQUA-SPA-RESORTS SA Terme & Spa","name_2":null,"street":"Via G. Respini 7","zip":"6600","place":"Locarno","tel":"+41 (0)91 786 96 96","fax":null,"email":"info@termali-salini.ch","url1_link":"https://www.termali-salini.ch","x_coordinate":705434.0022531588,"y_coordinate":113248.1717274901,"change_date":null,"id":3386,"r_key":3386,"type":"Sight","url_sightseeing":"https://www.termali-salini.ch","touristic_region":12}}
+{
+    "type": "Feature",
+    "id": 3386,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.16245435838197,
+            8.80366116915905
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Termali Salini & Spa Lido Locarno",
+        "abstract": "The Lido Locarno presents itself as a true recreational, sports and well-being oasis focused on a water theme in the splendid scenario of Lake Maggiore: the most complete and modern bathing facility in Ticino!",
+        "description": "The Lido is open throughout the year and in all weather conditions, with its numerous indoor and outdoor swimming pools, from the Olympic size swimming pool to the thermal pool, from the play pool, with its water effects, to the 4 fantastic chutes and represents the most complete and modern bathing facility in Ticino.\n\nIn summer visitors can profit from the vast outdoor infrastructure where, besides the swimming pools, there are spacious green areas for relaxing and sunbathing: the beach, the diving platform and a beach volleyball field. Besides the snack bar, which is open all year round, in summer there is also the self-service restaurant and the beach lounge.\n\nMoreover, the Lido Locarno offers a contemporary fitness centre with an incomparable view of the lake and a magnificent SPA: the Termali Salini & Spa Lido Locarno. Since the opening in 2013, this modern structure offers an oasis of relaxation, situated directly on the shores of Lake Maggiore, with salt water pools, saunas, Spa area and restaurants, all with a fantastic view onto the lake and the surrounding mountains.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/11383_Lido_Locarno_1a.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/Termali_Salini_Spa_Lido_LocarnoTS6.jpg",
+            "https://images.schweizmobil.ch/image/Termali_Salini_Spa_Lido_LocarnoTS2.jpg",
+            "https://images.schweizmobil.ch/image/Termali_Salini_Spa_Lido_LocarnoTS3.jpg",
+            "https://images.schweizmobil.ch/image/11383_Lido_Locarno_2b.jpg",
+            "https://images.schweizmobil.ch/image/11383_Lido_Locarno_1a.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "name": "AQUA-SPA-RESORTS SA Terme & Spa",
+        "name_2": null,
+        "street": "Via G. Respini 7",
+        "zip": "6600",
+        "place": "Locarno",
+        "tel": "+41 (0)91 786 96 96",
+        "fax": null,
+        "email": "info@termali-salini.ch",
+        "url1_link": "https://www.termali-salini.ch",
+        "x_coordinate": 705434.0022531588,
+        "y_coordinate": 113248.1717274901,
+        "change_date": null,
+        "id": 3386,
+        "r_key": 3386,
+        "type": "Sight",
+        "url_sightseeing": "https://www.termali-salini.ch",
+        "touristic_region": 12,
+        "canton": 19
+    }
+}

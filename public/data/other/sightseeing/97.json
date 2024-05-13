@@ -1,54 +1,60 @@
 {
-  "type": "Feature",
-  "id": 97,
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      46.72799621622626,
-      7.445439737308827
-    ]
-  },
-  "properties": {
-    "land": null,
-    "category": "all",
-    "language": "en",
-    "title": "In the mires of Gurnigel/Gantrisch",
-    "abstract": "The landscape of Gantrisch and Gurnigel forms a characteristic mosaic of forest and open land with many blanket mires and some raised ones. The land on the watershed between Gürbe, Sense and Schwarzwasser has long been used as an amenity area by urban dwellers.",
-    "description": "The landscape of Gantrisch and Gurnigel extends across several hill ranges on the watersheds between Gürbe, Sense and Schwarzwasser. Some of the areas are difficult to access and remain, therefore, in an unspoiled natural state. The landscape has a characteristic mosaic of forest and open land with many blanket mires and some raised ones. In some locations, the open land between the forests is covered by blanket mires.\n\nIn geological terms, the area is dominated by flysch – a relatively watertight marine sediment. The landscape forms are dictated by the soft flysch which has a propensity to slide: deeply-incised torrent ravines and rifts alternate with narrow ridges and high hills.\n\nThe agricultural use of the area and Alpine grazing are adapted to the natural features of the landscape. Agricultural buildings are mostly located on elevated sites outside of the mire areas and are often accompanied by sycamore trees.\n\nThe area has long been used as an amenity area. Up to the outbreak of the Second World War and the closure of the Gurnigelbad spa hotel, Gurnigel was famous for its sulphurous springs.",
-    "highlights": null,
-    "foto": "https://images0.schweizmobil.ch/image/11_In-den-Mooren-und-Waelde.jpg",
-    "photo_gallery": [
-      "https://images0.schweizmobil.ch/image/11_In-den-Mooren-und-Waelde.jpg",
-      "https://images0.schweizmobil.ch/image/11_Gurnigel-Gantrisch.jpg"
-    ],
-    "photo_gallery_big": [
-      "",
-      ""
-    ],
-    "photo_gallery_copyright": [
-      "",
-      ""
-    ],
-    "photo_gallery_author": [
-      "",
-      ""
-    ],
-    "name": "Bundesamt für Umwelt",
-    "name_2": null,
-    "street": "Moorlandschaftsinventar",
-    "zip": "Objekt-Nr.163",
-    "place": "Gurnigel / Gantrisch",
-    "tel": "",
-    "fax": null,
-    "email": " aoel@bafu.admin.ch",
-    "url1_link": "http://www.bafu.admin.ch",
-    "x_coordinate": 600520.0872755282,
-    "y_coordinate": 175200.15953408356,
-    "change_date": null,
+    "type": "Feature",
     "id": 97,
-    "r_key": 97,
-    "type": "Sight",
-    "url_sightseeing": "http://www.bafu.admin.ch/landschaft/14534/15821/15846/index.html?lang=fr",
-    "touristic_region": 6
-  }
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.72799622263352,
+            7.4454397372911165
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "In the mires of Gurnigel/Gantrisch",
+        "abstract": "The landscape of Gantrisch and Gurnigel forms a characteristic mosaic of forest and open land with many blanket mires and some raised ones. The land on the watershed between Gürbe, Sense and Schwarzwasser has long been used as an amenity area by urban dwellers.",
+        "description": "The landscape of Gantrisch and Gurnigel extends across several hill ranges on the watersheds between Gürbe, Sense and Schwarzwasser. Some of the areas are difficult to access and remain, therefore, in an unspoiled natural state. The landscape has a characteristic mosaic of forest and open land with many blanket mires and some raised ones. In some locations, the open land between the forests is covered by blanket mires.\n\nIn geological terms, the area is dominated by flysch – a relatively watertight marine sediment. The landscape forms are dictated by the soft flysch which has a propensity to slide: deeply-incised torrent ravines and rifts alternate with narrow ridges and high hills.\n\nThe agricultural use of the area and Alpine grazing are adapted to the natural features of the landscape. Agricultural buildings are mostly located on elevated sites outside of the mire areas and are often accompanied by sycamore trees.\n\nThe area has long been used as an amenity area. Up to the outbreak of the Second World War and the closure of the Gurnigelbad spa hotel, Gurnigel was famous for its sulphurous springs.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/11_In-den-Mooren-und-Waelde.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/11_In-den-Mooren-und-Waelde.jpg",
+            "https://images.schweizmobil.ch/image/11_Gurnigel-Gantrisch.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "Bundesamt für Umwelt",
+        "name_2": null,
+        "street": "Moorlandschaftsinventar",
+        "zip": "Objekt-Nr.163",
+        "place": "Gurnigel / Gantrisch",
+        "tel": "-",
+        "fax": null,
+        "email": " aoel@bafu.admin.ch",
+        "url1_link": "http://www.bafu.admin.ch",
+        "x_coordinate": 600520.0872755282,
+        "y_coordinate": 175200.15953408356,
+        "change_date": null,
+        "id": 97,
+        "r_key": 97,
+        "type": "Sight",
+        "url_sightseeing": "http://www.bafu.admin.ch/landschaft/14534/15821/15846/index.html?lang=fr",
+        "touristic_region": 6,
+        "canton": 12
+    }
 }

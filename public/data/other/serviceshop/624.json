@@ -1,0 +1,34 @@
+{
+    "type": "Feature",
+    "id": 5251,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            47.254737623929145,
+            6.998692212867498
+        ]
+    },
+    "properties": {
+        "land": "\"velo\",\"mountainbike\"",
+        "category": "all",
+        "language": "en",
+        "title": "La ForgeÔvélo",
+        "abstract": null,
+        "name": "La ForgeÔvélo",
+        "street": "Rue Vaillant 1",
+        "zip": "2350",
+        "place": "Saignelégier",
+        "tel": "+41 32 951 19 19",
+        "email": null,
+        "url1_text": null,
+        "url1_link": "https://www.laforgeovelo.ch",
+        "organisation": "2rad / 2routes / 2ruote",
+        "foto": null,
+        "foto_abstract": null,
+        "x_coordinate": 566698.2135052715,
+        "y_coordinate": 233852.70240341645,
+        "change_date": null,
+        "id": 624,
+        "type": "Service"
+    }
+}

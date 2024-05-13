@@ -1,1 +1,34 @@
-{"type":"Feature","id":3183,"geometry":{"type":"Point","coordinates":[47.4439768011098,9.415906602857397]},"properties":{"land":"\"velo\",\"mountainbike\"","category":"all","language":"en","title":"Vesto AG","abstract":null,"name":"Vesto AG","street":"Rorschacherstrasse 290","zip":"9016","place":"St. Gallen","tel":"+41 71 280 13 30","email":null,"url1_text":null,"url1_link":"https://www.vesto.ch","organisation":"2rad / 2routes / 2ruote","foto":null,"x_coordinate":749125.9177486664,"y_coordinate":256677.49231075254,"change_date":null,"id":447,"type":"Service"}}
+{
+    "type": "Feature",
+    "id": 3183,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            47.443976811326934,
+            9.415906671218814
+        ]
+    },
+    "properties": {
+        "land": "\"velo\",\"mountainbike\"",
+        "category": "all",
+        "language": "en",
+        "title": "Vesto AG",
+        "abstract": null,
+        "name": "Vesto AG",
+        "street": "Rorschacherstrasse 290",
+        "zip": "9016",
+        "place": "St. Gallen",
+        "tel": "+41 71 280 13 30",
+        "email": null,
+        "url1_text": null,
+        "url1_link": "https://www.vesto.ch",
+        "organisation": "2rad / 2routes / 2ruote",
+        "foto": null,
+        "foto_abstract": null,
+        "x_coordinate": 749125.9177486664,
+        "y_coordinate": 256677.49231075254,
+        "change_date": null,
+        "id": 447,
+        "type": "Service"
+    }
+}

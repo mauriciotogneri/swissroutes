@@ -1,1 +1,100 @@
-{"type":"Feature","id":822,"geometry":{"type":"Point","coordinates":[46.773017457443366,9.659048707151536]},"properties":{"land":null,"category":"all","language":"en","title":"Skill Center Arosa","abstract":"Easy loops, a short flow trail and two technical trails: the skill centre at the bottom station of the Hörnli Express offers several practice trails, especially for children, to prepare them for the mountain bike experiences in Arosa. ","description":"The perfect infrastructure with four different practice trails and a conveyor belt is available for improving your own biking technique. The skill centre uses the same training concept as the Arosa bike school which combines biking technique with playful elements such as the \"bear biking gang\".\n\n\"Beni's loops\" are especially suitable for children between 5 and 7 years of age. They are equipped with a stone field, generous approach curves, waves and hollows, a simple footbridge and a swing.\n\nThe flow trail \"Ella's flow\" is suitable for children between 8 and 12 years of age and an ideal preparation for the flow trail on the Hörnli. There are bends, waves and hollows as well as a jumping element.\n\nThe two technical trails \"Gian's jump\" contain tighter approach curves, two jumps and corresponding drops. They are suitable for children between 10 and 14 years of age. There are also sections with single trail character and tricky stone elements. \n\nSurface: natural surface  \n","highlights":null,"foto":"https://images0.schweizmobil.ch/image/GR_Skill-Center_Arosa_1_M.jpg","photo_gallery":["https://images0.schweizmobil.ch/image/GR_Skill-Center_Arosa_10_s.jpg","https://images0.schweizmobil.ch/image/GR_Skill-Center_Arosa_1_s.jpg","https://images0.schweizmobil.ch/image/GR_Skill-Center_Arosa_2_s.jpg","https://images0.schweizmobil.ch/image/GR_Skill-Center_Arosa_3_s.jpg","https://images0.schweizmobil.ch/image/GR_Skill-Center_Arosa_4_s.jpg","https://images0.schweizmobil.ch/image/GR_Skill-Center_Arosa_5_s.jpg","https://images0.schweizmobil.ch/image/GR_Skill-Center_Arosa_6_s.jpg","https://images0.schweizmobil.ch/image/GR_Skill-Center_Arosa_7_s.jpg","https://images0.schweizmobil.ch/image/GR_Skill-Center_Arosa_8_s.jpg","https://images0.schweizmobil.ch/image/GR_Skill-Center_Arosa_9_s.jpg"],"photo_gallery_big":["https://images0.schweizmobil.ch/image-big/GR_Skill-Center_Arosa_10_g.jpg","https://images0.schweizmobil.ch/image-big/GR_Skill-Center_Arosa_1_g.jpg","https://images0.schweizmobil.ch/image-big/GR_Skill-Center_Arosa_2_g.jpg","https://images0.schweizmobil.ch/image-big/GR_Skill-Center_Arosa_3_g.jpg","https://images0.schweizmobil.ch/image-big/GR_Skill-Center_Arosa_4_g.jpg","https://images0.schweizmobil.ch/image-big/GR_Skill-Center_Arosa_5_g.jpg","https://images0.schweizmobil.ch/image-big/GR_Skill-Center_Arosa_6_g.jpg","https://images0.schweizmobil.ch/image-big/GR_Skill-Center_Arosa_7_g.jpg","https://images0.schweizmobil.ch/image-big/GR_Skill-Center_Arosa_8_g.jpg","https://images0.schweizmobil.ch/image-big/GR_Skill-Center_Arosa_9_g.jpg"],"photo_gallery_copyright":["Nina Mattli","Nina Mattli","Nina Mattli","Nina Mattli","Nina Mattli","Nina Mattli","Nina Mattli","Nina Mattli","Nina Mattli","Nina Mattli"],"photo_gallery_author":["Nina Mattli","Nina Mattli","Nina Mattli","Nina Mattli","Nina Mattli","Nina Mattli","Nina Mattli","Nina Mattli","Nina Mattli","Nina Mattli"],"name":"Arosa Bergbahnen AG","name_2":null,"street":"Seeblickstrasse 29","zip":"7050","place":"Arosa","tel":"+41 (0)81 378 84 84","fax":null,"email":"info@arosabergbahnen.ch","url1_link":"https://www.arosalenzerheide.swiss/arosa","x_coordinate":769569.8633950319,"y_coordinate":182604.06124570637,"change_date":null,"id":822,"r_key":822,"type":"Sight","url_sightseeing":"https://arosalenzerheide.swiss/en/Region/Arosa/Summer/Biking","touristic_region":1}}
+{
+    "type": "Feature",
+    "id": 822,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.77301745114578,
+            9.659048699009986
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Skill Center Arosa",
+        "abstract": "Easy loops, a short flow trail and two technical trails: the skill centre at the bottom station of the Hörnli Express offers several practice trails, especially for children, to prepare them for the mountain bike experiences in Arosa. ",
+        "description": "The perfect infrastructure with four different practice trails and a conveyor belt is available for improving your own biking technique. The skill centre uses the same training concept as the Arosa bike school which combines biking technique with playful elements such as the \"bear biking gang\".\n\n\"Beni's loops\" are especially suitable for children between 5 and 7 years of age. They are equipped with a stone field, generous approach curves, waves and hollows, a simple footbridge and a swing.\n\nThe flow trail \"Ella's flow\" is suitable for children between 8 and 12 years of age and an ideal preparation for the flow trail on the Hörnli. There are bends, waves and hollows as well as a jumping element.\n\nThe two technical trails \"Gian's jump\" contain tighter approach curves, two jumps and corresponding drops. They are suitable for children between 10 and 14 years of age. There are also sections with single trail character and tricky stone elements. \n\nSurface: natural surface  \n",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/GR_Skill-Center_Arosa_1_M.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/GR_Skill-Center_Arosa_10_s.jpg",
+            "https://images.schweizmobil.ch/image/GR_Skill-Center_Arosa_1_s.jpg",
+            "https://images.schweizmobil.ch/image/GR_Skill-Center_Arosa_2_s.jpg",
+            "https://images.schweizmobil.ch/image/GR_Skill-Center_Arosa_3_s.jpg",
+            "https://images.schweizmobil.ch/image/GR_Skill-Center_Arosa_4_s.jpg",
+            "https://images.schweizmobil.ch/image/GR_Skill-Center_Arosa_5_s.jpg",
+            "https://images.schweizmobil.ch/image/GR_Skill-Center_Arosa_6_s.jpg",
+            "https://images.schweizmobil.ch/image/GR_Skill-Center_Arosa_7_s.jpg",
+            "https://images.schweizmobil.ch/image/GR_Skill-Center_Arosa_8_s.jpg",
+            "https://images.schweizmobil.ch/image/GR_Skill-Center_Arosa_9_s.jpg"
+        ],
+        "photo_gallery_big": [
+            "https://images.schweizmobil.ch/image-big/GR_Skill-Center_Arosa_10_g.jpg",
+            "https://images.schweizmobil.ch/image-big/GR_Skill-Center_Arosa_1_g.jpg",
+            "https://images.schweizmobil.ch/image-big/GR_Skill-Center_Arosa_2_g.jpg",
+            "https://images.schweizmobil.ch/image-big/GR_Skill-Center_Arosa_3_g.jpg",
+            "https://images.schweizmobil.ch/image-big/GR_Skill-Center_Arosa_4_g.jpg",
+            "https://images.schweizmobil.ch/image-big/GR_Skill-Center_Arosa_5_g.jpg",
+            "https://images.schweizmobil.ch/image-big/GR_Skill-Center_Arosa_6_g.jpg",
+            "https://images.schweizmobil.ch/image-big/GR_Skill-Center_Arosa_7_g.jpg",
+            "https://images.schweizmobil.ch/image-big/GR_Skill-Center_Arosa_8_g.jpg",
+            "https://images.schweizmobil.ch/image-big/GR_Skill-Center_Arosa_9_g.jpg"
+        ],
+        "photo_gallery_copyright": [
+            "Nina Mattli",
+            "Nina Mattli",
+            "Nina Mattli",
+            "Nina Mattli",
+            "Nina Mattli",
+            "Nina Mattli",
+            "Nina Mattli",
+            "Nina Mattli",
+            "Nina Mattli",
+            "Nina Mattli"
+        ],
+        "photo_gallery_author": [
+            "Nina Mattli",
+            "Nina Mattli",
+            "Nina Mattli",
+            "Nina Mattli",
+            "Nina Mattli",
+            "Nina Mattli",
+            "Nina Mattli",
+            "Nina Mattli",
+            "Nina Mattli",
+            "Nina Mattli"
+        ],
+        "photo_gallery_abstract": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "name": "Arosa Bergbahnen AG",
+        "name_2": null,
+        "street": "Seeblickstrasse 29",
+        "zip": "7050",
+        "place": "Arosa",
+        "tel": "+41 (0)81 378 84 84",
+        "fax": null,
+        "email": "info@arosabergbahnen.ch",
+        "url1_link": "https://www.arosalenzerheide.swiss/arosa",
+        "x_coordinate": 769569.8633950319,
+        "y_coordinate": 182604.06124570637,
+        "change_date": null,
+        "id": 822,
+        "r_key": 822,
+        "type": "Sight",
+        "url_sightseeing": "https://arosalenzerheide.swiss/en/Region/Arosa/Summer/Biking",
+        "touristic_region": 1,
+        "canton": 2
+    }
+}

@@ -1,74 +1,85 @@
 {
-  "type": "Feature",
-  "id": 602,
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      46.54589243088847,
-      8.568528215246785
-    ]
-  },
-  "properties": {
-    "land": null,
-    "category": "all",
-    "language": "en",
-    "title": "Tremola road (Val Tremola)",
-    "abstract": "The Tremolastrasse is Switzerland’s longest memorial to road construction. It snakes up as a light-coloured ribbon from Airolo to the Gotthardpass. Enjoy impressive views of the road on the mule track from the pass into the upper Levantine.",
-    "description": "The world-famous serpentine road on slopes of the Val Tremola was created with the construction of the Gotthard Pass road. On the most spectacular section, the road climbs 300 metres altitude around 24 bends over a distance of four kilometres. Each bend has its own name. The pass road from Göschenen to Airolo was built between 1827 and 1832 to plans by Ticino engineer Francesco Meschini, after the access roads from Basel and Chiasso had been continually developed in the decade from 1810.\n\nToday the Tremolastrasse largely retains the appearance of the reconstruction completed in 1951. The road is six to seven metres wide and bordered by retaining walls up to eight metres thick. The old drystone walls still exist in places. The granite cobblestones and kilometre stones have for the most part been retained but the two road inspectors’ houses have vanished. Until it was demolished in 1989, the first house stood at the beginning of the Tremolastrasse. The second was sited a little further up, beneath the von Voltone. Destroyed by an avalanche in 1874, it was never rebuilt because of the imminent opening of the Gotthard Railway in 1882.",
-    "highlights": null,
-    "foto": "https://images0.schweizmobil.ch/image/IVS_02_03_Tremola.jpg",
-    "photo_gallery": [
-      "https://images0.schweizmobil.ch/image/IVS_02_03_Tremola.jpg",
-      "https://images0.schweizmobil.ch/image/20110928_Tessin_Tremola_Kunststrasse_FRB_29.jpg",
-      "https://images0.schweizmobil.ch/image/20110928_Tessin_Tremola_Kunststrasse_FRB_32.jpg",
-      "https://images0.schweizmobil.ch/image/20120622_Uri_Hospental_Gotthardkunststrasse_Trockenmauer_JZU_63.jpg",
-      "https://images0.schweizmobil.ch/image/20110928_Tessin_Tremola_Kunststrasse_FRB_4.jpg",
-      "https://images0.schweizmobil.ch/image/20110928_Tessin_Tremola_Kunststrasse_FRB_10.jpg",
-      "https://images0.schweizmobil.ch/image/20110928_Tessin_Tremola_Kunststrasse_FRB_35.jpg"
-    ],
-    "photo_gallery_big": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-    ],
-    "photo_gallery_copyright": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-    ],
-    "photo_gallery_author": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-    ],
-    "name": "Bundesinventar der historischen Verkehrswege der Schweiz (IVS)",
-    "name_2": null,
-    "street": "",
-    "zip": "",
-    "place": "",
-    "tel": "",
-    "fax": null,
-    "email": "",
-    "url1_link": "https://www.ivs.admin.ch",
-    "x_coordinate": 686660.1378642163,
-    "y_coordinate": 155580.1763450763,
-    "change_date": null,
+    "type": "Feature",
     "id": 602,
-    "r_key": 602,
-    "type": "Sight",
-    "url_sightseeing": "https://s.geo.admin.ch/6fb1832357",
-    "touristic_region": 12
-  }
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.54589243208124,
+            8.568528245240138
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Tremola road (Val Tremola)",
+        "abstract": "The Tremolastrasse is Switzerland’s longest memorial to road construction. It snakes up as a light-coloured ribbon from Airolo to the Gotthardpass. Enjoy impressive views of the road on the mule track from the pass into the upper Levantine.",
+        "description": "The world-famous serpentine road on slopes of the Val Tremola was created with the construction of the Gotthard Pass road. On the most spectacular section, the road climbs 300 metres altitude around 24 bends over a distance of four kilometres. Each bend has its own name. The pass road from Göschenen to Airolo was built between 1827 and 1832 to plans by Ticino engineer Francesco Meschini, after the access roads from Basel and Chiasso had been continually developed in the decade from 1810.\n\nToday the Tremolastrasse largely retains the appearance of the reconstruction completed in 1951. The road is six to seven metres wide and bordered by retaining walls up to eight metres thick. The old drystone walls still exist in places. The granite cobblestones and kilometre stones have for the most part been retained but the two road inspectors’ houses have vanished. Until it was demolished in 1989, the first house stood at the beginning of the Tremolastrasse. The second was sited a little further up, beneath the von Voltone. Destroyed by an avalanche in 1874, it was never rebuilt because of the imminent opening of the Gotthard Railway in 1882.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/IVS_02_03_Tremola.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/IVS_02_03_Tremola.jpg",
+            "https://images.schweizmobil.ch/image/20110928_Tessin_Tremola_Kunststrasse_FRB_29.jpg",
+            "https://images.schweizmobil.ch/image/20110928_Tessin_Tremola_Kunststrasse_FRB_32.jpg",
+            "https://images.schweizmobil.ch/image/20120622_Uri_Hospental_Gotthardkunststrasse_Trockenmauer_JZU_63.jpg",
+            "https://images.schweizmobil.ch/image/20110928_Tessin_Tremola_Kunststrasse_FRB_4.jpg",
+            "https://images.schweizmobil.ch/image/20110928_Tessin_Tremola_Kunststrasse_FRB_10.jpg",
+            "https://images.schweizmobil.ch/image/20110928_Tessin_Tremola_Kunststrasse_FRB_35.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "name": "Bundesinventar der historischen Verkehrswege der Schweiz (IVS)",
+        "name_2": null,
+        "street": " ",
+        "zip": " ",
+        "place": " ",
+        "tel": " ",
+        "fax": null,
+        "email": " ",
+        "url1_link": "https://www.ivs.admin.ch",
+        "x_coordinate": 686660.1378642163,
+        "y_coordinate": 155580.1763450763,
+        "change_date": null,
+        "id": 602,
+        "r_key": 602,
+        "type": "Sight",
+        "url_sightseeing": "https://s.geo.admin.ch/6fb1832357",
+        "touristic_region": 12,
+        "canton": 19
+    }
 }

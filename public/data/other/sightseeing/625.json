@@ -1,1 +1,60 @@
-{"type":"Feature","id":625,"geometry":{"type":"Point","coordinates":[46.31534710479812,7.990488477874712]},"properties":{"land":null,"category":"all","language":"en","title":"Castle Kaspar Stockalper","abstract":"Built in the 17th century by Stockalper, it's the biggest private castle in Switzerland and is now a land marked building. Thanks to the Stockalper Foundation, the castle gardens have been restored to their original state.","description":"A guided tour of the castle will show you the diversity of all the different halls, the newly renovated castle chapel and the extraordinary wallpapers in the hall of Three Kings.\n\nDuring the tour, you will get to know the history of Stockalper and his fascination for the number three. Taking a walk through the beautiful gardens will complete your tour of the castle.","highlights":null,"foto":"https://images0.schweizmobil.ch/image/8051_Stockalperschloss_1a.jpg","photo_gallery":["https://images0.schweizmobil.ch/image/8051_Stockalperschloss_1a.jpg","https://images0.schweizmobil.ch/image/8051_Stockalperschloss_2b.jpg"],"photo_gallery_big":["",""],"photo_gallery_copyright":["",""],"photo_gallery_author":["",""],"name":"Brig Simplon Tourismus","name_2":null,"street":"Bahnhofstrasse 2","zip":"3900","place":"Brig","tel":"+41 (0)27 921 60 30","fax":null,"email":"info@brig-simplon.ch","url1_link":"https://www.brig-simplon.ch","x_coordinate":642507.708777399,"y_coordinate":129477.81593951066,"change_date":null,"id":625,"r_key":625,"type":"Sight","url_sightseeing":"https://www.brig-simplon.ch/stockalperpalace/index.php","touristic_region":11}}
+{
+    "type": "Feature",
+    "id": 625,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.31534711609171,
+            7.990488474516342
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Castle Kaspar Stockalper",
+        "abstract": "Built in the 17th century by Stockalper, it's the biggest private castle in Switzerland and is now a land marked building. Thanks to the Stockalper Foundation, the castle gardens have been restored to their original state.",
+        "description": "A guided tour of the castle will show you the diversity of all the different halls, the newly renovated castle chapel and the extraordinary wallpapers in the hall of Three Kings.\n\nDuring the tour, you will get to know the history of Stockalper and his fascination for the number three. Taking a walk through the beautiful gardens will complete your tour of the castle.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/8051_Stockalperschloss_1a.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/8051_Stockalperschloss_1a.jpg",
+            "https://images.schweizmobil.ch/image/8051_Stockalperschloss_2b.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "Brig Simplon Tourismus",
+        "name_2": null,
+        "street": "Bahnhofstrasse 2",
+        "zip": "3900",
+        "place": "Brig",
+        "tel": "+41 (0)27 921 60 30",
+        "fax": null,
+        "email": "info@brig-simplon.ch",
+        "url1_link": "https://www.brig-simplon.ch",
+        "x_coordinate": 642507.708777399,
+        "y_coordinate": 129477.81593951066,
+        "change_date": null,
+        "id": 625,
+        "r_key": 625,
+        "type": "Sight",
+        "url_sightseeing": "https://www.brig-simplon.ch/stockalperpalace/index.php",
+        "touristic_region": 11,
+        "canton": 7
+    }
+}

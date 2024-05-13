@@ -1,1 +1,34 @@
-{"type":"Feature","id":3107,"geometry":{"type":"Point","coordinates":[47.647446019337586,9.170261324588763]},"properties":{"land":"\"velo\",\"mountainbike\"","category":"all","language":"en","title":"Velo Rüegger AG","abstract":null,"name":"Velo Rüegger AG","street":"Löwenstrasse 28","zip":"8280","place":"Kreuzlingen","tel":"+41 71 672 56 72","email":null,"url1_text":null,"url1_link":"https://www.velorueegger.ch","organisation":"2rad / 2routes / 2ruote","foto":null,"x_coordinate":730103.8197464787,"y_coordinate":278857.5657286901,"change_date":null,"id":354,"type":"Service"}}
+{
+    "type": "Feature",
+    "id": 3107,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            47.64744604596663,
+            9.17026123282016
+        ]
+    },
+    "properties": {
+        "land": "\"velo\",\"mountainbike\"",
+        "category": "all",
+        "language": "en",
+        "title": "Velo Rüegger AG",
+        "abstract": null,
+        "name": "Velo Rüegger AG",
+        "street": "Löwenstrasse 28",
+        "zip": "8280",
+        "place": "Kreuzlingen",
+        "tel": "+41 71 672 56 72",
+        "email": null,
+        "url1_text": null,
+        "url1_link": "https://www.velorueegger.ch",
+        "organisation": "2rad / 2routes / 2ruote",
+        "foto": null,
+        "foto_abstract": null,
+        "x_coordinate": 730103.8197464787,
+        "y_coordinate": 278857.5657286901,
+        "change_date": null,
+        "id": 354,
+        "type": "Service"
+    }
+}

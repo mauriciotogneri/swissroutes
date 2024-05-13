@@ -1,1 +1,90 @@
-{"type":"Feature","id":807,"geometry":{"type":"Point","coordinates":[46.88944079759163,7.3662617063183955]},"properties":{"land":null,"category":"all","language":"en","title":"Swiss Bike Park Oberried","abstract":"With an area of 30,000 m2, the \"Swiss Bike Park\" is the largest biker playground in Switzerland. With pump tracks, trails, cross-country tracks, a trick jump facility or a course for special bikes, it combines the needs of top-level, disabled and popular sports.","description":"The planning took around eleven years, and the result is impressive: the Swiss Bike Park Oberried offers trails and courses for every level on an area the size of four football fields. Right at the beginning of the park, the asphalt pump track and the kids’ pump track invite you to have fun and to practice. Adrenaline fans dare to try the \"trick jumps\" facility where they will land on an air cushion.\n\nNot far away, you can discover a wide range of technical trails and drops. Easy flowing loops, several rock gardens and various other elements invite you to learn and enhance your experience. The goal is to boost the joy of cycling, to gain confidence and to achieve individual progress.\n\nAs a unique sports and leisure facility in the immediate vicinity of one of the Swiss language boundaries, the catchment area of the Swiss Bike Park extends to the whole of Switzerland, across the language borders. Another special feature: the bike park is also accessible to people with disabilities. There are wide trails, an adventure course for special bikes as well as a panoramic route.\n\n\nPump track:\nSurface: asphalt \nLength: 295 metres  \nSurface area: 600 m2 \nWave and curve height: 30-120 cm  \n\nTrail surfaces: gravel mix, various rock gardens, root trails, steps, bike academy course with practice obstacles.\n","highlights":null,"foto":"https://images0.schweizmobil.ch/image/BE_BikePark_Oberried_1_M.jpg","photo_gallery":["https://images0.schweizmobil.ch/image/BE_BikePark_Oberried_1_s.jpg","https://images0.schweizmobil.ch/image/BE_BikePark_Oberried_2_s.jpg","https://images0.schweizmobil.ch/image/BE_BikePark_Oberried_3_s.jpg","https://images0.schweizmobil.ch/image/BE_BikePark_Oberried_4_s.jpg","https://images0.schweizmobil.ch/image/BE_BikePark_Oberried_5_s.jpg","https://images0.schweizmobil.ch/image/BE_BikePark_Oberried_6_s.jpg","https://images0.schweizmobil.ch/image/BE_BikePark_Oberried_7_s.jpg","https://images0.schweizmobil.ch/image/BE_BikePark_Oberried_8_s.jpg"],"photo_gallery_big":["https://images0.schweizmobil.ch/image-big/BE_BikePark_Oberried_1_g.jpg","https://images0.schweizmobil.ch/image-big/BE_BikePark_Oberried_2_g.jpg","https://images0.schweizmobil.ch/image-big/BE_BikePark_Oberried_3_g.jpg","https://images0.schweizmobil.ch/image-big/BE_BikePark_Oberried_4_g.jpg","https://images0.schweizmobil.ch/image-big/BE_BikePark_Oberried_5_g.jpg","https://images0.schweizmobil.ch/image-big/BE_BikePark_Oberried_6_g.jpg","https://images0.schweizmobil.ch/image-big/BE_BikePark_Oberried_7_g.jpg","https://images0.schweizmobil.ch/image-big/BE_BikePark_Oberried_8_g.jpg"],"photo_gallery_copyright":["","","","","","","",""],"photo_gallery_author":["","","","","SVENJA","","SVENJA",""],"name":"Swiss Bike Park AG","name_2":null,"street":"Oberriedgässli 6","zip":"3145","place":"Niederscherli","tel":"+41 (0)31 848 22 12","fax":null,"email":"info@swissbikepark.ch","url1_link":"https://www.swissbikepark.ch","x_coordinate":594484.9344364252,"y_coordinate":193150.8869808459,"change_date":null,"id":807,"r_key":807,"type":"Sight","url_sightseeing":"https://www.swissbikepark.ch","touristic_region":6}}
+{
+    "type": "Feature",
+    "id": 807,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.88944079763932,
+            7.3662617075258545
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Swiss Bike Park Oberried",
+        "abstract": "With an area of 30,000 m2, the \"Swiss Bike Park\" is the largest biker playground in Switzerland. With pump tracks, trails, cross-country tracks, a trick jump facility or a course for special bikes, it combines the needs of top-level, disabled and popular sports.",
+        "description": "The planning took around eleven years, and the result is impressive: the Swiss Bike Park Oberried offers trails and courses for every level on an area the size of four football fields. Right at the beginning of the park, the asphalt pump track and the kids’ pump track invite you to have fun and to practice. Adrenaline fans dare to try the \"trick jumps\" facility where they will land on an air cushion.\n\nNot far away, you can discover a wide range of technical trails and drops. Easy flowing loops, several rock gardens and various other elements invite you to learn and enhance your experience. The goal is to boost the joy of cycling, to gain confidence and to achieve individual progress.\n\nAs a unique sports and leisure facility in the immediate vicinity of one of the Swiss language boundaries, the catchment area of the Swiss Bike Park extends to the whole of Switzerland, across the language borders. Another special feature: the bike park is also accessible to people with disabilities. There are wide trails, an adventure course for special bikes as well as a panoramic route.\n\n\nPump track:\nSurface: asphalt \nLength: 295 metres  \nSurface area: 600 m2 \nWave and curve height: 30-120 cm  \n\nTrail surfaces: gravel mix, various rock gardens, root trails, steps, bike academy course with practice obstacles.\n",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/BE_BikePark_Oberried_1_M.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/BE_BikePark_Oberried_1_s.jpg",
+            "https://images.schweizmobil.ch/image/BE_BikePark_Oberried_2_s.jpg",
+            "https://images.schweizmobil.ch/image/BE_BikePark_Oberried_3_s.jpg",
+            "https://images.schweizmobil.ch/image/BE_BikePark_Oberried_4_s.jpg",
+            "https://images.schweizmobil.ch/image/BE_BikePark_Oberried_5_s.jpg",
+            "https://images.schweizmobil.ch/image/BE_BikePark_Oberried_6_s.jpg",
+            "https://images.schweizmobil.ch/image/BE_BikePark_Oberried_7_s.jpg",
+            "https://images.schweizmobil.ch/image/BE_BikePark_Oberried_8_s.jpg"
+        ],
+        "photo_gallery_big": [
+            "https://images.schweizmobil.ch/image-big/BE_BikePark_Oberried_1_g.jpg",
+            "https://images.schweizmobil.ch/image-big/BE_BikePark_Oberried_2_g.jpg",
+            "https://images.schweizmobil.ch/image-big/BE_BikePark_Oberried_3_g.jpg",
+            "https://images.schweizmobil.ch/image-big/BE_BikePark_Oberried_4_g.jpg",
+            "https://images.schweizmobil.ch/image-big/BE_BikePark_Oberried_5_g.jpg",
+            "https://images.schweizmobil.ch/image-big/BE_BikePark_Oberried_6_g.jpg",
+            "https://images.schweizmobil.ch/image-big/BE_BikePark_Oberried_7_g.jpg",
+            "https://images.schweizmobil.ch/image-big/BE_BikePark_Oberried_8_g.jpg"
+        ],
+        "photo_gallery_copyright": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            "",
+            "",
+            "",
+            "SVENJA",
+            "",
+            "SVENJA",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "name": "Swiss Bike Park AG",
+        "name_2": null,
+        "street": "Oberriedgässli 6",
+        "zip": "3145",
+        "place": "Niederscherli",
+        "tel": "+41 (0)31 848 22 12",
+        "fax": null,
+        "email": "info@swissbikepark.ch",
+        "url1_link": "https://www.swissbikepark.ch",
+        "x_coordinate": 594484.9344364252,
+        "y_coordinate": 193150.8869808459,
+        "change_date": null,
+        "id": 807,
+        "r_key": 807,
+        "type": "Sight",
+        "url_sightseeing": "https://www.swissbikepark.ch",
+        "touristic_region": 6,
+        "canton": 12
+    }
+}

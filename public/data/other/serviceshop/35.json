@@ -1,1 +1,34 @@
-{"type":"Feature","id":2828,"geometry":{"type":"Point","coordinates":[46.31866844964567,6.933467153958762]},"properties":{"land":"\"velo\",\"mountainbike\"","category":"all","language":"en","title":"Union Cycliste Internationale","abstract":null,"name":"Union Cycliste Internationale","street":"Chemin de la Mêlée 12","zip":"1860","place":"Aigle","tel":"+41 24 468 58 95","email":null,"url1_text":null,"url1_link":"https://www.uci.ch","organisation":"2rad / 2routes / 2ruote","foto":null,"x_coordinate":561091.996556577,"y_coordinate":129822.4799013962,"change_date":null,"id":35,"type":"Service"}}
+{
+    "type": "Feature",
+    "id": 2828,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.3182906609073,
+            6.933470655779172
+        ]
+    },
+    "properties": {
+        "land": "\"velo\",\"mountainbike\"",
+        "category": "all",
+        "language": "en",
+        "title": "CMC Exploitation SA",
+        "abstract": null,
+        "name": "CMC Exploitation SA",
+        "street": "Allée Ferdi Kübler",
+        "zip": "1860",
+        "place": "Aigle",
+        "tel": "+41 24 468 58 95",
+        "email": null,
+        "url1_text": null,
+        "url1_link": "https://www.uci.ch",
+        "organisation": "2rad / 2routes / 2ruote",
+        "foto": null,
+        "foto_abstract": null,
+        "x_coordinate": 561091.7238698456,
+        "y_coordinate": 129780.23801621184,
+        "change_date": null,
+        "id": 35,
+        "type": "Service"
+    }
+}

@@ -1,1 +1,34 @@
-{"type":"Feature","id":3274,"geometry":{"type":"Point","coordinates":[47.259625558991594,8.178462570032753]},"properties":{"land":"\"velo\",\"mountainbike\"","category":"all","language":"en","title":"District12 GmbH","abstract":null,"name":"District12 GmbH","street":"Aarauerstrasse 19","zip":"5734","place":"Reinach","tel":"+41 62 530 40 40","email":null,"url1_text":null,"url1_link":"https://www.district12.ch","organisation":"2rad / 2routes / 2ruote","foto":null,"x_coordinate":655996.7574531642,"y_coordinate":234566.04264112734,"change_date":null,"id":554,"type":"Service"}}
+{
+    "type": "Feature",
+    "id": 3274,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            47.27011116446027,
+            8.170401166069663
+        ]
+    },
+    "properties": {
+        "land": "\"velo\",\"mountainbike\"",
+        "category": "all",
+        "language": "en",
+        "title": "District12 GmbH",
+        "abstract": null,
+        "name": "District12 GmbH",
+        "street": "Weiden 22",
+        "zip": "5733",
+        "place": "Leimbach",
+        "tel": "+41 62 530 40 40",
+        "email": null,
+        "url1_text": null,
+        "url1_link": "https://www.district12.ch",
+        "organisation": "2rad / 2routes / 2ruote",
+        "foto": null,
+        "foto_abstract": null,
+        "x_coordinate": 655375.8641724492,
+        "y_coordinate": 235726.53702777546,
+        "change_date": null,
+        "id": 554,
+        "type": "Service"
+    }
+}

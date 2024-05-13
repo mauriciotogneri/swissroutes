@@ -1,1 +1,60 @@
-{"type":"Feature","id":129,"geometry":{"type":"Point","coordinates":[47.16555820623649,7.1368396513482555]},"properties":{"land":null,"category":"all","language":"en","title":"The Anabaptists' Bridge","abstract":"Walk the paths followed four hundred years ago by the Anabaptists, a community that took refuge in the hills of the Jura. Discover the historic cultural centres of this epic journey amid the unique scenery of the Chasseral Regional Park.","description":"The Anabaptists practised their religion as discreetly as possible to avoid further persecution. One of their secret meeting places was the gorge under the old Anabaptists' Bridge. Nowadays, interested visitors come here to discover this exceptional spot and the mysterious inscriptions carved into the rock which have still not been deciphered.\n\nIn the region you can discover various other vestiges of Anabaptist history, especially the unpublished documents from the Anabaptist Archives.\n\nThe ascent to the Chasseral provides a delightful end to the walk, with views of the Alps, as well as of the Emmental and the Alpine foothills of Canton Berne, where the Anabaptists came from. Regional specialities are there for the tasting at several country inns along the way.","highlights":null,"foto":"https://images0.schweizmobil.ch/image/11483_Taeuferbruecke_1a.jpg","photo_gallery":["https://images0.schweizmobil.ch/image/11483_Taeuferbruecke_1a.jpg","https://images0.schweizmobil.ch/image/11483_Taeuferbruecke_2b.jpg"],"photo_gallery_big":["",""],"photo_gallery_copyright":["",""],"photo_gallery_author":["",""],"name":"Parc régional Chasseral","name_2":null,"street":"Place de la Gare 2","zip":"2610","place":"Saint-Imier","tel":"+41 (0)32 942 39 49","fax":null,"email":"info@parcchasseral.ch","url1_link":"https://www.parcchasseral.ch","x_coordinate":577117.8858207152,"y_coordinate":223888.4181744525,"change_date":null,"id":129,"r_key":129,"type":"Sight","url_sightseeing":"https://www.j3l.ch/en/P33215/anabaptistes-bridge","touristic_region":8}}
+{
+    "type": "Feature",
+    "id": 129,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            47.16555821202585,
+            7.13683964936763
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "The Anabaptists' Bridge",
+        "abstract": "Walk the paths followed four hundred years ago by the Anabaptists, a community that took refuge in the hills of the Jura. Discover the historic cultural centres of this epic journey amid the unique scenery of the Chasseral Regional Park.",
+        "description": "The Anabaptists practised their religion as discreetly as possible to avoid further persecution. One of their secret meeting places was the gorge under the old Anabaptists' Bridge. Nowadays, interested visitors come here to discover this exceptional spot and the mysterious inscriptions carved into the rock which have still not been deciphered.\n\nIn the region you can discover various other vestiges of Anabaptist history, especially the unpublished documents from the Anabaptist Archives.\n\nThe ascent to the Chasseral provides a delightful end to the walk, with views of the Alps, as well as of the Emmental and the Alpine foothills of Canton Berne, where the Anabaptists came from. Regional specialities are there for the tasting at several country inns along the way.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/11483_Taeuferbruecke_1a.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/11483_Taeuferbruecke_1a.jpg",
+            "https://images.schweizmobil.ch/image/11483_Taeuferbruecke_2b.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "Parc régional Chasseral",
+        "name_2": null,
+        "street": "Place de la Gare 2",
+        "zip": "2610",
+        "place": "Saint-Imier",
+        "tel": "+41 (0)32 942 39 49",
+        "fax": null,
+        "email": "info@parcchasseral.ch",
+        "url1_link": "https://www.parcchasseral.ch",
+        "x_coordinate": 577117.8858207152,
+        "y_coordinate": 223888.4181744525,
+        "change_date": null,
+        "id": 129,
+        "r_key": 129,
+        "type": "Sight",
+        "url_sightseeing": "https://www.j3l.ch/en/P33215/anabaptistes-bridge",
+        "touristic_region": 8,
+        "canton": 12
+    }
+}

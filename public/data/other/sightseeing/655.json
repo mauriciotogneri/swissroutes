@@ -1,50 +1,55 @@
 {
-  "type": "Feature",
-  "id": 655,
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      46.23493874772587,
-      8.840730772249621
-    ]
-  },
-  "properties": {
-    "land": null,
-    "category": "all",
-    "language": "en",
-    "title": "Mergoscia–Corippo",
-    "abstract": "The hike west of the Lago di Vogorno offers beautiful landscape away from the road into the Val Verzasca. And at the end, the spectacle of one of the most beautiful villages in the Ticino – Corippo, that has suffered considerably over the past 150 years from migration.",
-    "description": "In contrast to the villages east of the valley, those on the west of the Verzasca river or rather the reservoir Lago di Vogorno, created in 1965, had no access road until 1883. Until then the only way to reach Mergoscia and Corippo from Contra was by a mule track that, as often found in the Ticino, was laid as steps in the steep terrain, thus well-protected from erosion and long lasting. The link between Mergoscia and Corippo was documented as having this form as early as 1741. It demonstrates great skill in construction technology and also leads to the mills and the areas used for farming.\n\nWayside chapels are also numerous, testifying to the deep faith of the valley inhabitants. No doubt the von Liano Chapel built in 1634 heard many beseeching prayers from the wild valley, where people repeatedly fell victim to rockfalls and floods. After all, with great trust in God the inhabitants built some superb structures, one example being the bridge below Corippo. The old village centre of Corippo is under a Swiss Heritage Society preservation order. It’s worthwhile spending time in the village and its church.",
-    "highlights": null,
-    "foto": "https://images0.schweizmobil.ch/image/IVS_74_BrueckeCorippo.jpg",
-    "photo_gallery": [
-      "https://images0.schweizmobil.ch/image/IVS_74_BrueckeCorippo.jpg"
-    ],
-    "photo_gallery_big": [
-      ""
-    ],
-    "photo_gallery_copyright": [
-      ""
-    ],
-    "photo_gallery_author": [
-      ""
-    ],
-    "name": "Bundesinventar der historischen Verkehrswege der Schweiz (IVS)",
-    "name_2": null,
-    "street": "",
-    "zip": "",
-    "place": "",
-    "tel": "",
-    "fax": null,
-    "email": "",
-    "url1_link": "https://www.ivs.admin.ch",
-    "x_coordinate": 708153.7526356982,
-    "y_coordinate": 121355.7759600046,
-    "change_date": null,
+    "type": "Feature",
     "id": 655,
-    "r_key": 655,
-    "type": "Sight",
-    "url_sightseeing": "https://s.geo.admin.ch/6fb16a92f0",
-    "touristic_region": 12
-  }
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.23493873315601,
+            8.840730765729191
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Mergoscia–Corippo",
+        "abstract": "The hike west of the Lago di Vogorno offers beautiful landscape away from the road into the Val Verzasca. And at the end, the spectacle of one of the most beautiful villages in the Ticino – Corippo, that has suffered considerably over the past 150 years from migration.",
+        "description": "In contrast to the villages east of the valley, those on the west of the Verzasca river or rather the reservoir Lago di Vogorno, created in 1965, had no access road until 1883. Until then the only way to reach Mergoscia and Corippo from Contra was by a mule track that, as often found in the Ticino, was laid as steps in the steep terrain, thus well-protected from erosion and long lasting. The link between Mergoscia and Corippo was documented as having this form as early as 1741. It demonstrates great skill in construction technology and also leads to the mills and the areas used for farming.\n\nWayside chapels are also numerous, testifying to the deep faith of the valley inhabitants. No doubt the von Liano Chapel built in 1634 heard many beseeching prayers from the wild valley, where people repeatedly fell victim to rockfalls and floods. After all, with great trust in God the inhabitants built some superb structures, one example being the bridge below Corippo. The old village centre of Corippo is under a Swiss Heritage Society preservation order. It’s worthwhile spending time in the village and its church.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/IVS_74_BrueckeCorippo.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/IVS_74_BrueckeCorippo.jpg"
+        ],
+        "photo_gallery_big": [
+            ""
+        ],
+        "photo_gallery_copyright": [
+            ""
+        ],
+        "photo_gallery_author": [
+            ""
+        ],
+        "photo_gallery_abstract": [
+            ""
+        ],
+        "name": "Bundesinventar der historischen Verkehrswege der Schweiz (IVS)",
+        "name_2": null,
+        "street": " ",
+        "zip": " ",
+        "place": " ",
+        "tel": " ",
+        "fax": null,
+        "email": " ",
+        "url1_link": "https://www.ivs.admin.ch",
+        "x_coordinate": 708153.7526356982,
+        "y_coordinate": 121355.7759600046,
+        "change_date": null,
+        "id": 655,
+        "r_key": 655,
+        "type": "Sight",
+        "url_sightseeing": "https://s.geo.admin.ch/6fb16a92f0",
+        "touristic_region": 12,
+        "canton": 19
+    }
 }

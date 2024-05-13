@@ -1,1 +1,95 @@
-{"type":"Feature","id":414,"geometry":{"type":"Point","coordinates":[46.748174410758196,8.077809518084997]},"properties":{"land":null,"category":"all","language":"en","title":"Ballenberg","abstract":"Swiss time appears to have stood still and things remained as always at the Ballenberg open-air museum. And over 100 original century-old buildings from all parts of Switzerland rekindle the past and provide a memorable live picture of the past.","description":"Come inside and see real-life views of the past; including kitchen, small chambers and living room scenes – along with out-houses and courtyards pertaining to different times and regions; all faithfully reconstructed in original fashion. The  660 000 m² premises provide a live and interesting outing for all the family, and views of typical dwellings and former lifestyles from practically all corners of the country.\n\nOriginal, true-to-life workshops also grant an idea of the types of former arts and crafts and the tools used for such; with instruments for wood cutting, basketwork, spinning, weaving, lace-making and iron-monger’s tasks, through to cheese-making, baking and more.\n\nAnd besides food for thought, healthy physical appetites are well catered for with three cosy guest houses on the premises, and the promise of good and healthy Swiss food. A number of picnic places, where cut wood conveniently stands at the ready, are also available to guests who prefer to cater for themselves.","highlights":null,"foto":"https://images0.schweizmobil.ch/image-big/POI_Ballenberg2017_06_10_bezu_Familie_0941_g.jpg","photo_gallery":["https://images0.schweizmobil.ch/image/POI_Ballenberg_DSC6327_s.jpg","https://images0.schweizmobil.ch/image/POI_Ballenberg_DSC5818_s.jpg","https://images0.schweizmobil.ch/image/POI_Ballenberg_DSC6164_s.jpg","https://images0.schweizmobil.ch/image/POI_Ballenberg_DSC6358_s.jpg","https://images0.schweizmobil.ch/image/POI_Ballenberg2017_06_10_bezu_Familie_0941_s.jpg","https://images0.schweizmobil.ch/image/POI_Ballenberg2017_06_10_bezu_Familie_1760_s.jpg","https://images0.schweizmobil.ch/image/POI_Ballenberg2018_06_30_mime_Familie_5223_s.jpg","https://images0.schweizmobil.ch/image/POI_Ballenberg2018_06_30_mime_Familie_5232_s.jpg","https://images0.schweizmobil.ch/image/POI_Ballenberg2018_09_27_mime_KEY_Familie_6288_s.jpg"],"photo_gallery_big":["https://images0.schweizmobil.ch/image-big/POI_Ballenberg_DSC6327_g.jpg","https://images0.schweizmobil.ch/image-big/POI_Ballenberg_DSC5818_g.jpg","https://images0.schweizmobil.ch/image-big/POI_Ballenberg_DSC6164_g.jpg","https://images0.schweizmobil.ch/image-big/POI_Ballenberg_DSC6358_g.jpg","https://images0.schweizmobil.ch/image-big/POI_Ballenberg2017_06_10_bezu_Familie_0941_g.jpg","https://images0.schweizmobil.ch/image-big/POI_Ballenberg2017_06_10_bezu_Familie_1760_g.jpg","https://images0.schweizmobil.ch/image-big/POI_Ballenberg2018_06_30_mime_Familie_5223_g.jpg","https://images0.schweizmobil.ch/image-big/POI_Ballenberg2018_06_30_mime_Familie_5232_g.jpg","https://images0.schweizmobil.ch/image-big/POI_Ballenberg2018_09_27_mime_KEY_Familie_6288_g.jpg"],"photo_gallery_copyright":["","","","","Freilichtmuseum Ballenberg / Ben Zurbriggen Fotografie","Freilichtmuseum Ballenberg / Ben Zurbriggen Fotografie","","",""],"photo_gallery_author":["","","","","BEN ZURBRIGGEN FOTOGRAFIE","BEN ZURBRIGGEN FOTOGRAFIE","","",""],"name":"Ballenberg","name_2":null,"street":"Museumsstrasse 100","zip":"3858","place":"Hofstetten bei Brienz","tel":"+41 (0)33 952 10 30","fax":null,"email":"info@ballenberg.ch","url1_link":"https://www.ballenberg.ch","x_coordinate":648841.8586591403,"y_coordinate":177642.00718368858,"change_date":null,"id":414,"r_key":414,"type":"Sight","url_sightseeing":"https://www.ballenberg.ch","touristic_region":6}}
+{
+    "type": "Feature",
+    "id": 414,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.74817441323404,
+            8.077809523306355
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Ballenberg",
+        "abstract": "Swiss time appears to have stood still and things remained as always at the Ballenberg open-air museum. And over 100 original century-old buildings from all parts of Switzerland rekindle the past and provide a memorable live picture of the past.",
+        "description": "Come inside and see real-life views of the past; including kitchen, small chambers and living room scenes – along with out-houses and courtyards pertaining to different times and regions; all faithfully reconstructed in original fashion. The  660 000 m² premises provide a live and interesting outing for all the family, and views of typical dwellings and former lifestyles from practically all corners of the country.\n\nOriginal, true-to-life workshops also grant an idea of the types of former arts and crafts and the tools used for such; with instruments for wood cutting, basketwork, spinning, weaving, lace-making and iron-monger’s tasks, through to cheese-making, baking and more.\n\nAnd besides food for thought, healthy physical appetites are well catered for with three cosy guest houses on the premises, and the promise of good and healthy Swiss food. A number of picnic places, where cut wood conveniently stands at the ready, are also available to guests who prefer to cater for themselves.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image-big/POI_Ballenberg2017_06_10_bezu_Familie_0941_g.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/POI_Ballenberg_DSC6327_s.jpg",
+            "https://images.schweizmobil.ch/image/POI_Ballenberg_DSC5818_s.jpg",
+            "https://images.schweizmobil.ch/image/POI_Ballenberg_DSC6164_s.jpg",
+            "https://images.schweizmobil.ch/image/POI_Ballenberg_DSC6358_s.jpg",
+            "https://images.schweizmobil.ch/image/POI_Ballenberg2017_06_10_bezu_Familie_0941_s.jpg",
+            "https://images.schweizmobil.ch/image/POI_Ballenberg2017_06_10_bezu_Familie_1760_s.jpg",
+            "https://images.schweizmobil.ch/image/POI_Ballenberg2018_06_30_mime_Familie_5223_s.jpg",
+            "https://images.schweizmobil.ch/image/POI_Ballenberg2018_06_30_mime_Familie_5232_s.jpg",
+            "https://images.schweizmobil.ch/image/POI_Ballenberg2018_09_27_mime_KEY_Familie_6288_s.jpg"
+        ],
+        "photo_gallery_big": [
+            "https://images.schweizmobil.ch/image-big/POI_Ballenberg_DSC6327_g.jpg",
+            "https://images.schweizmobil.ch/image-big/POI_Ballenberg_DSC5818_g.jpg",
+            "https://images.schweizmobil.ch/image-big/POI_Ballenberg_DSC6164_g.jpg",
+            "https://images.schweizmobil.ch/image-big/POI_Ballenberg_DSC6358_g.jpg",
+            "https://images.schweizmobil.ch/image-big/POI_Ballenberg2017_06_10_bezu_Familie_0941_g.jpg",
+            "https://images.schweizmobil.ch/image-big/POI_Ballenberg2017_06_10_bezu_Familie_1760_g.jpg",
+            "https://images.schweizmobil.ch/image-big/POI_Ballenberg2018_06_30_mime_Familie_5223_g.jpg",
+            "https://images.schweizmobil.ch/image-big/POI_Ballenberg2018_06_30_mime_Familie_5232_g.jpg",
+            "https://images.schweizmobil.ch/image-big/POI_Ballenberg2018_09_27_mime_KEY_Familie_6288_g.jpg"
+        ],
+        "photo_gallery_copyright": [
+            "",
+            "",
+            "",
+            "",
+            "Freilichtmuseum Ballenberg / Ben Zurbriggen Fotografie",
+            "Freilichtmuseum Ballenberg / Ben Zurbriggen Fotografie",
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            "",
+            "",
+            "",
+            "BEN ZURBRIGGEN FOTOGRAFIE",
+            "BEN ZURBRIGGEN FOTOGRAFIE",
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "name": "Ballenberg",
+        "name_2": null,
+        "street": "Museumsstrasse 100",
+        "zip": "3858",
+        "place": "Hofstetten bei Brienz",
+        "tel": "+41 (0)33 952 10 30",
+        "fax": null,
+        "email": "info@ballenberg.ch",
+        "url1_link": "https://www.ballenberg.ch",
+        "x_coordinate": 648841.8586591403,
+        "y_coordinate": 177642.00718368858,
+        "change_date": null,
+        "id": 414,
+        "r_key": 414,
+        "type": "Sight",
+        "url_sightseeing": "https://www.ballenberg.ch",
+        "touristic_region": 6,
+        "canton": 12
+    }
+}

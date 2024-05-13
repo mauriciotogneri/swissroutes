@@ -1,1 +1,75 @@
-{"type":"Feature","id":427,"geometry":{"type":"Point","coordinates":[46.398707940314615,8.146667514482447]},"properties":{"land":null,"category":"all","language":"en","title":"Binntal Nature Park","abstract":"The Binntal, in Valais, offers many surprises: It is richer in minerals than any other Alpine region. The village of Ernen tramsforms in summer into a classical music village. A unique wild tulip grows in the old rye fields of Grengiols. The king of hotels, Caesar Ritz, was born in Niederwald.","description":"The regional Park lies in the Upper Valais and includes the six municipalities of Binn, Ernen, Grengiols, Bister, Niederwald and Blitzingen. The central area of the Park is Binntal, which had already been protected by the population in 1964 and belongs today in the landscape inventory and natural monuments of national importance. \n\nBinntal is particularly well-known for its minerals. No other region in the Alps is so rich in minerals. Binntal Nature Park is also renowned for its extensive natural and cultural landscapes, which are maintained with a lot of love and care. Several chapels and churches, barns and storehouses are considered to be cultural assets of cantonal and national significance. The villages and their hamlets have been so well-maintained that they stand as Sites of National and Regional Importance. The mountain village of Ernen is transformed in summer into a world-class classical music village. Visitors will also not be disappointed with the culinary treats in the Park. \n\nAlthough there are no major tourist destinations in Binntal Nature Park, there are innumerable kilometres of marked hiking trails that invite you to discover the region on foot. In winter, you can enjoy the snow-covered landscape by following beautiful winter footpaths and attractive snowshoe trails. The historical transport link to the neighbouring «Parco Naturale Veglia-Devero» in Italy goes through the Park via the wild and romantic Twingi gorge and over the Albrun pass.","highlights":null,"foto":"https://images0.schweizmobil.ch/image/10464_Naturpark-Binntal_1a.jpg","photo_gallery":["https://images0.schweizmobil.ch/image/10464_Naturpark-Binntal_1a.jpg","https://images0.schweizmobil.ch/image/10464_Naturpark-Binntal_2b.jpg","https://images0.schweizmobil.ch/image/Landschaftspark_Binntal_09_78233_01_s.jpg","https://images0.schweizmobil.ch/image/Landschaftspark_Binntal_09_78380_01_s.jpg","https://images0.schweizmobil.ch/image/Landschaftspark_Binntal_s.jpg"],"photo_gallery_big":["","","https://images0.schweizmobil.ch/image-big/Landschaftspark_Binntal_09_78233_01_g.jpg","https://images0.schweizmobil.ch/image-big/Landschaftspark_Binntal_09_78380_01_g.jpg","https://images0.schweizmobil.ch/image-big/Landschaftspark_Binntal_g.jpg"],"photo_gallery_copyright":["","","","",""],"photo_gallery_author":["","","","",""],"name":"Landschaftspark Binntal","name_2":null,"street":"Dorfstrasse 30","zip":"3996","place":"Binn","tel":"+41 27 971 50 50","fax":null,"email":"info@landschaftspark-binntal.ch","url1_link":"https://www.landschaftspark-binntal.ch","x_coordinate":654453.1041601566,"y_coordinate":138840.67482532235,"change_date":null,"id":427,"r_key":427,"type":"Sight","url_sightseeing":"https://www.landschaftspark-binntal.ch","touristic_region":11}}
+{
+    "type": "Feature",
+    "id": 427,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.39870792396419,
+            8.146667508726177
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Binntal Nature Park",
+        "abstract": "The Binntal, in Valais, offers many surprises: It is richer in minerals than any other Alpine region. The village of Ernen tramsforms in summer into a classical music village. A unique wild tulip grows in the old rye fields of Grengiols. The king of hotels, Caesar Ritz, was born in Niederwald.",
+        "description": "The regional Park lies in the Upper Valais and includes the six municipalities of Binn, Ernen, Grengiols, Bister, Niederwald and Blitzingen. The central area of the Park is Binntal, which had already been protected by the population in 1964 and belongs today in the landscape inventory and natural monuments of national importance. \n\nBinntal is particularly well-known for its minerals. No other region in the Alps is so rich in minerals. Binntal Nature Park is also renowned for its extensive natural and cultural landscapes, which are maintained with a lot of love and care. Several chapels and churches, barns and storehouses are considered to be cultural assets of cantonal and national significance. The villages and their hamlets have been so well-maintained that they stand as Sites of National and Regional Importance. The mountain village of Ernen is transformed in summer into a world-class classical music village. Visitors will also not be disappointed with the culinary treats in the Park. \n\nAlthough there are no major tourist destinations in Binntal Nature Park, there are innumerable kilometres of marked hiking trails that invite you to discover the region on foot. In winter, you can enjoy the snow-covered landscape by following beautiful winter footpaths and attractive snowshoe trails. The historical transport link to the neighbouring «Parco Naturale Veglia-Devero» in Italy goes through the Park via the wild and romantic Twingi gorge and over the Albrun pass.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/10464_Naturpark-Binntal_1a.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/10464_Naturpark-Binntal_1a.jpg",
+            "https://images.schweizmobil.ch/image/10464_Naturpark-Binntal_2b.jpg",
+            "https://images.schweizmobil.ch/image/Landschaftspark_Binntal_09_78233_01_s.jpg",
+            "https://images.schweizmobil.ch/image/Landschaftspark_Binntal_09_78380_01_s.jpg",
+            "https://images.schweizmobil.ch/image/Landschaftspark_Binntal_s.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            "",
+            "https://images.schweizmobil.ch/image-big/Landschaftspark_Binntal_09_78233_01_g.jpg",
+            "https://images.schweizmobil.ch/image-big/Landschaftspark_Binntal_09_78380_01_g.jpg",
+            "https://images.schweizmobil.ch/image-big/Landschaftspark_Binntal_g.jpg"
+        ],
+        "photo_gallery_copyright": [
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "name": "Landschaftspark Binntal",
+        "name_2": null,
+        "street": "Dorfstrasse 30",
+        "zip": "3996",
+        "place": "Binn",
+        "tel": "+41 27 971 50 50",
+        "fax": null,
+        "email": "info@landschaftspark-binntal.ch",
+        "url1_link": "https://www.landschaftspark-binntal.ch",
+        "x_coordinate": 654453.1041601566,
+        "y_coordinate": 138840.67482532235,
+        "change_date": null,
+        "id": 427,
+        "r_key": 427,
+        "type": "Sight",
+        "url_sightseeing": "https://www.landschaftspark-binntal.ch",
+        "touristic_region": 11,
+        "canton": 7
+    }
+}

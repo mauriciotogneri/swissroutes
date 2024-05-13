@@ -1,1 +1,34 @@
-{"type":"Feature","id":3030,"geometry":{"type":"Point","coordinates":[47.17495307931387,8.425707852729467]},"properties":{"land":"\"velo\",\"mountainbike\"","category":"all","language":"en","title":"Bikegarage A&B GmbH","abstract":null,"name":"Bikegarage A&B GmbH","street":"Dorfgässli 6","zip":"6331","place":"Hünenberg","tel":"+41 41 780 77 70","email":null,"url1_text":null,"url1_link":"https://www.bikegarage.ch","organisation":"2rad / 2routes / 2ruote","foto":null,"x_coordinate":674827.9867975378,"y_coordinate":225359.2835634229,"change_date":null,"id":262,"type":"Service"}}
+{
+    "type": "Feature",
+    "id": 3030,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            47.174953087033124,
+            8.425707846291997
+        ]
+    },
+    "properties": {
+        "land": "\"velo\",\"mountainbike\"",
+        "category": "all",
+        "language": "en",
+        "title": "Bikegarage A&B GmbH",
+        "abstract": null,
+        "name": "Bikegarage A&B GmbH",
+        "street": "Dorfgässli 6",
+        "zip": "6331",
+        "place": "Hünenberg",
+        "tel": "+41 41 780 77 70",
+        "email": null,
+        "url1_text": null,
+        "url1_link": "https://www.bikegarage.ch",
+        "organisation": "2rad / 2routes / 2ruote",
+        "foto": null,
+        "foto_abstract": null,
+        "x_coordinate": 674827.9867975378,
+        "y_coordinate": 225359.2835634229,
+        "change_date": null,
+        "id": 262,
+        "type": "Service"
+    }
+}

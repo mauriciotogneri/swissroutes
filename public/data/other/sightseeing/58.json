@@ -1,50 +1,55 @@
 {
-  "type": "Feature",
-  "id": 58,
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      46.52429465989869,
-      8.87229764271145
-    ]
-  },
-  "properties": {
-    "land": null,
-    "category": "all",
-    "language": "en",
-    "title": "On engineered road over the Lukmanier",
-    "abstract": "Away from today’s pass road, parts of the engineered road built over the Lukmanier in the 19th century are still preserved. The historic substance is particularly fascinating between Campra and Segno in the Valle Santa Maria.",
-    "description": "With a summit level of 1915 m, the Lukmanierpass is the lowest pass in Graubunden to lead directly over the Alpine ridge. The engineered road was built in the 1870s: from Disentis to Platta in 1870-72 and from 1874 on the Ticino side in Olivone. The road was opened to traffic in 1877 and a post-coach service over the Lukmanier started one year later.\n\nPlans for the construction of a railway were drawn up as early as the mid-19th century but were abandoned in favour of the Gotthard Railway. Nevertheless in 1911/12 a narrow gauge railway was built from the south to Acquarossa and on through the Vorderrheintal valley to the northern pass village of Disentis.\n\nParts of the 19th century engineered road were flooded in connection with the construction of a dam on the Lukmanier and replaced with a new road. Also replaced were sections endangered by avalanches and rock falls in Val Medel and Valle Santa Maria. A particularly impressive section of the engineered road still remains between Campra and Segno, with retaining walls up to 7 metres high, Tombini (drainage) and rows of border stones.",
-    "highlights": null,
-    "foto": "https://images0.schweizmobil.ch/image/IVS_36_Lukmanier.jpg",
-    "photo_gallery": [
-      "https://images0.schweizmobil.ch/image/IVS_36_Lukmanier.jpg"
-    ],
-    "photo_gallery_big": [
-      ""
-    ],
-    "photo_gallery_copyright": [
-      ""
-    ],
-    "photo_gallery_author": [
-      ""
-    ],
-    "name": "Bundesinventar der historischen Verkehrswege der Schweiz (IVS)",
-    "name_2": null,
-    "street": "",
-    "zip": "",
-    "place": "",
-    "tel": "",
-    "fax": null,
-    "email": "",
-    "url1_link": "https://www.ivs.admin.ch",
-    "x_coordinate": 710000.173203431,
-    "y_coordinate": 153560.012981315,
-    "change_date": null,
+    "type": "Feature",
     "id": 58,
-    "r_key": 58,
-    "type": "Sight",
-    "url_sightseeing": "https://s.geo.admin.ch/6fb16ec2cf",
-    "touristic_region": 12
-  }
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.52429467398567,
+            8.872297650853715
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "On engineered road over the Lukmanier",
+        "abstract": "Away from today’s pass road, parts of the engineered road built over the Lukmanier in the 19th century are still preserved. The historic substance is particularly fascinating between Campra and Segno in the Valle Santa Maria.",
+        "description": "With a summit level of 1915 m, the Lukmanierpass is the lowest pass in Graubunden to lead directly over the Alpine ridge. The engineered road was built in the 1870s: from Disentis to Platta in 1870-72 and from 1874 on the Ticino side in Olivone. The road was opened to traffic in 1877 and a post-coach service over the Lukmanier started one year later.\n\nPlans for the construction of a railway were drawn up as early as the mid-19th century but were abandoned in favour of the Gotthard Railway. Nevertheless in 1911/12 a narrow gauge railway was built from the south to Acquarossa and on through the Vorderrheintal valley to the northern pass village of Disentis.\n\nParts of the 19th century engineered road were flooded in connection with the construction of a dam on the Lukmanier and replaced with a new road. Also replaced were sections endangered by avalanches and rock falls in Val Medel and Valle Santa Maria. A particularly impressive section of the engineered road still remains between Campra and Segno, with retaining walls up to 7 metres high, Tombini (drainage) and rows of border stones.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/IVS_36_Lukmanier.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/IVS_36_Lukmanier.jpg"
+        ],
+        "photo_gallery_big": [
+            ""
+        ],
+        "photo_gallery_copyright": [
+            ""
+        ],
+        "photo_gallery_author": [
+            ""
+        ],
+        "photo_gallery_abstract": [
+            ""
+        ],
+        "name": "Bundesinventar der historischen Verkehrswege der Schweiz (IVS)",
+        "name_2": null,
+        "street": " ",
+        "zip": " ",
+        "place": " ",
+        "tel": " ",
+        "fax": null,
+        "email": " ",
+        "url1_link": "https://www.ivs.admin.ch",
+        "x_coordinate": 710000.173203431,
+        "y_coordinate": 153560.012981315,
+        "change_date": null,
+        "id": 58,
+        "r_key": 58,
+        "type": "Sight",
+        "url_sightseeing": "https://s.geo.admin.ch/6fb16ec2cf",
+        "touristic_region": 12,
+        "canton": 19
+    }
 }

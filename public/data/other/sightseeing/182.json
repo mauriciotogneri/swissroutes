@@ -1,1 +1,60 @@
-{"type":"Feature","id":182,"geometry":{"type":"Point","coordinates":[46.164714390383644,7.028835508803317]},"properties":{"land":null,"category":"all","language":"en","title":"Labyrinthe Aventure","abstract":"The Labyrinthe Aventure is the world's largest maze. With its 3 km course, this model of the Valais leads you to the discovery of towns and villages of the region and enables you to discover our secret valleys.","description":"Recreational garden, the Labyrinthe Aventure is primarily a spectacular natural setting which you can visit on a school trip, in family or even alone. Located between Martigny and St-Maurice, the park invites adventurers of all ages to share moments of pleasure in an authentic and friendly atmosphere.\n\nAfter having found your way among thousands of Thuja trees, a playground awaits you at the end of the maze : Gigantic slides measuring 30 meters, zip lines, a climbing wall, trampoline, etc.\n\nDepending upon the season, the park offers various themes such as Halloween, an Easter egg hunt or a treasure hunt.","highlights":null,"foto":"https://images0.schweizmobil.ch/image/11338_Labyrinthe_Aventure_1a.jpg","photo_gallery":["https://images0.schweizmobil.ch/image/11338_Labyrinthe_Aventure_1a.jpg","https://images0.schweizmobil.ch/image/11338_Labyrinthe_Aventure_2b.jpg"],"photo_gallery_big":["",""],"photo_gallery_copyright":["",""],"photo_gallery_author":["",""],"name":"Labyrinthe Aventure","name_2":null,"street":"route des Iles Vieilles 30","zip":"1902","place":"Evionnaz","tel":"+41 (0)78 660 60 64","fax":null,"email":"labyav@gmail.com","url1_link":"https://www.labyrinthe.ch","x_coordinate":568347.0938779089,"y_coordinate":112665.84718332357,"change_date":null,"id":182,"r_key":182,"type":"Sight","url_sightseeing":"https://www.labyrinthe.ch","touristic_region":11}}
+{
+    "type": "Feature",
+    "id": 182,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.164714371875384,
+            7.0288354853687975
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Labyrinthe Aventure",
+        "abstract": "The Labyrinthe Aventure is the world's largest maze. With its 3 km course, this model of the Valais leads you to the discovery of towns and villages of the region and enables you to discover our secret valleys.",
+        "description": "Recreational garden, the Labyrinthe Aventure is primarily a spectacular natural setting which you can visit on a school trip, in family or even alone. Located between Martigny and St-Maurice, the park invites adventurers of all ages to share moments of pleasure in an authentic and friendly atmosphere.\n\nAfter having found your way among thousands of Thuja trees, a playground awaits you at the end of the maze : Gigantic slides measuring 30 meters, zip lines, a climbing wall, trampoline, etc.\n\nDepending upon the season, the park offers various themes such as Halloween, an Easter egg hunt or a treasure hunt.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/11338_Labyrinthe_Aventure_1a.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/11338_Labyrinthe_Aventure_1a.jpg",
+            "https://images.schweizmobil.ch/image/11338_Labyrinthe_Aventure_2b.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "Labyrinthe Aventure",
+        "name_2": null,
+        "street": "route des Iles Vieilles 30",
+        "zip": "1902",
+        "place": "Evionnaz",
+        "tel": "+41 (0)78 660 60 64",
+        "fax": null,
+        "email": "labyav@gmail.com",
+        "url1_link": "https://www.labyrinthe.ch",
+        "x_coordinate": 568347.0938779089,
+        "y_coordinate": 112665.84718332357,
+        "change_date": null,
+        "id": 182,
+        "r_key": 182,
+        "type": "Sight",
+        "url_sightseeing": "https://www.labyrinthe.ch",
+        "touristic_region": 11,
+        "canton": 7
+    }
+}

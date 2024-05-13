@@ -1,1 +1,60 @@
-{"type":"Feature","id":221,"geometry":{"type":"Point","coordinates":[47.16489952415461,8.517520831413249]},"properties":{"land":null,"category":"all","language":"en","title":"Kunsthaus Zug","abstract":"The Art Gallery offers various different collections on specific subjects, ranging from classic modern to contemporary art, and including art from our region.","description":"Regularly in cooperation with other institutions or combined with other events. Public places are also available for artistic presentations, when the \"Kunsthaus Zug mobil\" - an exhibition room on wheels - is used for exhibitions and a variety of other activities.\n\nThe art collection itself has long been the focal point of the diverse activities of the Art Gallery. It holds the most significant collection of Viennese modern art outside Austria, exhibiting works by Klimt, Schiele, and others.","highlights":null,"foto":"https://images0.schweizmobil.ch/image/9165_Kunsthaus-Zug_1a.jpg","photo_gallery":["https://images0.schweizmobil.ch/image/9165_Kunsthaus-Zug_1a.jpg","https://images0.schweizmobil.ch/image/9165_Kunsthaus-Zug_2b.jpg"],"photo_gallery_big":["",""],"photo_gallery_copyright":["",""],"photo_gallery_author":["",""],"name":"Zug Tourismus","name_2":null,"street":"Bahnhofplatz","zip":"6300","place":"Zug","tel":"+41 (0)41 723 68 00","fax":null,"email":"info@zug.ch","url1_link":"https://www.zug-tourismus.ch","x_coordinate":681802.726192115,"y_coordinate":224333.68380007477,"change_date":null,"id":221,"r_key":221,"type":"Sight","url_sightseeing":"https://www.kunsthauszug.ch","touristic_region":3}}
+{
+    "type": "Feature",
+    "id": 221,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            47.16489952288927,
+            8.517520790689014
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Kunsthaus Zug",
+        "abstract": "The Art Gallery offers various different collections on specific subjects, ranging from classic modern to contemporary art, and including art from our region.",
+        "description": "Regularly in cooperation with other institutions or combined with other events. Public places are also available for artistic presentations, when the \"Kunsthaus Zug mobil\" - an exhibition room on wheels - is used for exhibitions and a variety of other activities.\n\nThe art collection itself has long been the focal point of the diverse activities of the Art Gallery. It holds the most significant collection of Viennese modern art outside Austria, exhibiting works by Klimt, Schiele, and others.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/9165_Kunsthaus-Zug_1a.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/9165_Kunsthaus-Zug_1a.jpg",
+            "https://images.schweizmobil.ch/image/9165_Kunsthaus-Zug_2b.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "Zug Tourismus",
+        "name_2": null,
+        "street": "Bahnhofplatz",
+        "zip": "6300",
+        "place": "Zug",
+        "tel": "+41 (0)41 723 68 00",
+        "fax": null,
+        "email": "info@zug.ch",
+        "url1_link": "https://www.zug-tourismus.ch",
+        "x_coordinate": 681802.726192115,
+        "y_coordinate": 224333.68380007477,
+        "change_date": null,
+        "id": 221,
+        "r_key": 221,
+        "type": "Sight",
+        "url_sightseeing": "https://www.kunsthauszug.ch",
+        "touristic_region": 3,
+        "canton": 21
+    }
+}

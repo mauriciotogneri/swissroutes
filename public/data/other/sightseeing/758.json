@@ -1,1 +1,65 @@
-{"type":"Feature","id":758,"geometry":{"type":"Point","coordinates":[45.86350956389816,8.979080299458433]},"properties":{"land":null,"category":"all","language":"en","title":"Pumptrack Mendrisio","abstract":"Mendrisio sets itself as ideal destination for bikers. The parabolic dunes, have been specially designed to make the practice of exciting mountain bike into the heart of the city.","description":"Third facility of its kind in Switzerland and among the largest in Europe, the pumptrack is located near the school and wants to be a new meeting point for young people across the region who wish to combine sports to entertainment, increasing their ability in technical mountain biking.\n\nAccess to pumptrack is completely free. The structure is not monitored and we ask our users to respect some basic rules. Should not underestimate the difficulty of the course. Is recommended to wear helmets and protections for the arts. Should be used only mountain bike in good condition without hindering other users. Children should never be left alone on the path.\n\nLength: 150 m\nTrackwidth: 1,5 m\nSurface: asphalt\n","highlights":null,"foto":"https://images0.schweizmobil.ch/image/Mendrisio_Pumptrack1_2014.jpg","photo_gallery":["https://images0.schweizmobil.ch/image/Mendrisio_Pumptrack1_2014.jpg","https://images0.schweizmobil.ch/image/Mendrisio_Pumptrack2_2014.jpg","https://images0.schweizmobil.ch/image/Mendrisio_Pumptrack3_2014.jpg"],"photo_gallery_big":["","",""],"photo_gallery_copyright":["","",""],"photo_gallery_author":["","",""],"name":"Associazione MoMo Bike Mendrisio, Mitka Fontana","name_2":null,"street":"Via Agostino Maspoli","zip":"6850","place":"Mendrisio","tel":"+41 (0)79 220 24 03","fax":null,"email":"info@momobike.ch","url1_link":"https://www.momobike.ch","x_coordinate":719634.396365476,"y_coordinate":80272.0812568372,"change_date":null,"id":758,"r_key":758,"type":"Sight","url_sightseeing":"https://www.momobike.ch/?page_id=389","touristic_region":12}}
+{
+    "type": "Feature",
+    "id": 758,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            45.8635095550844,
+            8.979080267697244
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Pumptrack Mendrisio",
+        "abstract": "Mendrisio sets itself as ideal destination for bikers. The parabolic dunes, have been specially designed to make the practice of exciting mountain bike into the heart of the city.",
+        "description": "Third facility of its kind in Switzerland and among the largest in Europe, the pumptrack is located near the school and wants to be a new meeting point for young people across the region who wish to combine sports to entertainment, increasing their ability in technical mountain biking.\n\nAccess to pumptrack is completely free. The structure is not monitored and we ask our users to respect some basic rules. Should not underestimate the difficulty of the course. Is recommended to wear helmets and protections for the arts. Should be used only mountain bike in good condition without hindering other users. Children should never be left alone on the path.\n\nLength: 150 m\nTrackwidth: 1,5 m\nSurface: asphalt\n",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/Mendrisio_Pumptrack1_2014.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/Mendrisio_Pumptrack3_2014.jpg",
+            "https://images.schweizmobil.ch/image/Mendrisio_Pumptrack2_2014.jpg",
+            "https://images.schweizmobil.ch/image/Mendrisio_Pumptrack1_2014.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            "",
+            ""
+        ],
+        "name": "Associazione MoMo Bike Mendrisio, Mitka Fontana",
+        "name_2": null,
+        "street": "Via Agostino Maspoli",
+        "zip": "6850",
+        "place": "Mendrisio",
+        "tel": "+41 (0)79 220 24 03",
+        "fax": null,
+        "email": "info@momobike.ch",
+        "url1_link": "https://www.momobike.ch",
+        "x_coordinate": 719634.396365476,
+        "y_coordinate": 80272.0812568372,
+        "change_date": null,
+        "id": 758,
+        "r_key": 758,
+        "type": "Sight",
+        "url_sightseeing": "https://www.momobike.ch/?page_id=389",
+        "touristic_region": 12,
+        "canton": 19
+    }
+}

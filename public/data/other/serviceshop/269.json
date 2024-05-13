@@ -1,1 +1,34 @@
-{"type":"Feature","id":3036,"geometry":{"type":"Point","coordinates":[47.08160352366331,8.439489080292065]},"properties":{"land":"\"velo\",\"mountainbike\"","category":"all","language":"en","title":"Rolf Aebi & Co.","abstract":null,"name":"Rolf Aebi & Co.","street":"Bahnhofstrasse 9","zip":"6403","place":"Küssnacht am Rigi","tel":"+41 41 850 19 55","email":null,"url1_text":null,"url1_link":"https://www.zweirad-aebi.ch","organisation":"2rad / 2routes / 2ruote","foto":null,"x_coordinate":676004.137491275,"y_coordinate":214995.1850513389,"change_date":null,"id":269,"type":"Service"}}
+{
+    "type": "Feature",
+    "id": 3036,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            47.081603520568926,
+            8.439489099751105
+        ]
+    },
+    "properties": {
+        "land": "\"velo\",\"mountainbike\"",
+        "category": "all",
+        "language": "en",
+        "title": "Rolf Aebi & Co.",
+        "abstract": null,
+        "name": "Rolf Aebi & Co.",
+        "street": "Bahnhofstrasse 9",
+        "zip": "6403",
+        "place": "Küssnacht am Rigi",
+        "tel": "+41 41 850 19 55",
+        "email": null,
+        "url1_text": null,
+        "url1_link": "https://www.zweirad-aebi.ch",
+        "organisation": "2rad / 2routes / 2ruote",
+        "foto": null,
+        "foto_abstract": null,
+        "x_coordinate": 676004.137491275,
+        "y_coordinate": 214995.1850513389,
+        "change_date": null,
+        "id": 269,
+        "type": "Service"
+    }
+}

@@ -1,1 +1,34 @@
-{"type":"Feature","id":3089,"geometry":{"type":"Point","coordinates":[47.48268950669564,8.453269011690734]},"properties":{"land":"\"velo\",\"mountainbike\"","category":"all","language":"en","title":"2-Rad Jack Müller AG","abstract":null,"name":"2-Rad Jack Müller AG","street":"Wehntalerstrasse 28","zip":"8157","place":"Dielsdorf","tel":"+41 44 853 13 44","email":null,"url1_text":null,"url1_link":"https://www.2-rad-jackmueller.ch","organisation":"2rad / 2routes / 2ruote","foto":null,"x_coordinate":676474.7420460366,"y_coordinate":259597.8125698934,"change_date":null,"id":330,"type":"Service"}}
+{
+    "type": "Feature",
+    "id": 3089,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            47.48268950278781,
+            8.45326896525905
+        ]
+    },
+    "properties": {
+        "land": "\"velo\",\"mountainbike\"",
+        "category": "all",
+        "language": "en",
+        "title": "2-Rad Jack Müller AG",
+        "abstract": null,
+        "name": "2-Rad Jack Müller AG",
+        "street": "Wehntalerstrasse 28",
+        "zip": "8157",
+        "place": "Dielsdorf",
+        "tel": "+41 44 853 13 44",
+        "email": null,
+        "url1_text": null,
+        "url1_link": "https://www.2-rad-jackmueller.ch",
+        "organisation": "2rad / 2routes / 2ruote",
+        "foto": null,
+        "foto_abstract": null,
+        "x_coordinate": 676474.7420460366,
+        "y_coordinate": 259597.8125698934,
+        "change_date": null,
+        "id": 330,
+        "type": "Service"
+    }
+}

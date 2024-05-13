@@ -1,50 +1,55 @@
 {
-  "type": "Feature",
-  "id": 57,
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      46.66324022109092,
-      9.44750420488044
-    ]
-  },
-  "properties": {
-    "land": null,
-    "category": "all",
-    "language": "en",
-    "title": "Viamala – from a bad to a good route",
-    "abstract": "The Viamala, a gorge cut deep into Graubunden slate by the Hinterrhein river, is not only an impressive natural monument but also an outstanding testimony to bold road building by our forefathers.",
-    "description": "The history of traffic through the Viamala Gorge is marked by bold building projects. The Romans were the first to tackle such difficult topography. Two galleries cut in the rocks on the west bank show the remains of their pack-animal trails, still visible from the kiosk on the other side of the gorge.\n\nThe name Viamala – bad route – dates back to the Middle Ages when the Roman path fell slowly but surely into ruin. It was not until the 15th century that the route was revived: in the «Viamala Letter» dated 1473, the municipalities of Thusis, Masein and Cazis committed themselves «…to hew, repair and set about the Reichsstrasse and the path between Thusis and Schams, the so-called «Fyamala». A well-organized trade traffic then grew up, which helped the people along the transit routes of Splügen and San Bernardino become very prosperous.\n\nIn the 19th century, the construction of a modern road for coaches and large goods wagons brought radical changes to transportation. From then on, passenger and goods transport was provided by paid coachmen instead of local farm traders.\n\nThe commercial route in the Viamala has all the elements required of a historic monument and first-class tourist attraction: retaining walls, tunnels, open galleries, hairpin bends, parapet walls, balustrades and elegant arched stone bridges.",
-    "highlights": null,
-    "foto": "https://images0.schweizmobil.ch/image/IVS_35_Viamala.jpg",
-    "photo_gallery": [
-      "https://images0.schweizmobil.ch/image/IVS_35_Viamala.jpg"
-    ],
-    "photo_gallery_big": [
-      ""
-    ],
-    "photo_gallery_copyright": [
-      ""
-    ],
-    "photo_gallery_author": [
-      ""
-    ],
-    "name": "Bundesinventar der historischen Verkehrswege der Schweiz (IVS)",
-    "name_2": null,
-    "street": "",
-    "zip": "",
-    "place": "",
-    "tel": "",
-    "fax": null,
-    "email": "",
-    "url1_link": "https://www.ivs.admin.ch",
-    "x_coordinate": 753730.3548207745,
-    "y_coordinate": 169969.75209191395,
-    "change_date": null,
+    "type": "Feature",
     "id": 57,
-    "r_key": 57,
-    "type": "Sight",
-    "url_sightseeing": "https://s.geo.admin.ch/6fb1854a43",
-    "touristic_region": 1
-  }
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.66324021624725,
+            9.44750413901042
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Viamala – from a bad to a good route",
+        "abstract": "The Viamala, a gorge cut deep into Graubunden slate by the Hinterrhein river, is not only an impressive natural monument but also an outstanding testimony to bold road building by our forefathers.",
+        "description": "The history of traffic through the Viamala Gorge is marked by bold building projects. The Romans were the first to tackle such difficult topography. Two galleries cut in the rocks on the west bank show the remains of their pack-animal trails, still visible from the kiosk on the other side of the gorge.\n\nThe name Viamala – bad route – dates back to the Middle Ages when the Roman path fell slowly but surely into ruin. It was not until the 15th century that the route was revived: in the «Viamala Letter» dated 1473, the municipalities of Thusis, Masein and Cazis committed themselves «…to hew, repair and set about the Reichsstrasse and the path between Thusis and Schams, the so-called «Fyamala». A well-organized trade traffic then grew up, which helped the people along the transit routes of Splügen and San Bernardino become very prosperous.\n\nIn the 19th century, the construction of a modern road for coaches and large goods wagons brought radical changes to transportation. From then on, passenger and goods transport was provided by paid coachmen instead of local farm traders.\n\nThe commercial route in the Viamala has all the elements required of a historic monument and first-class tourist attraction: retaining walls, tunnels, open galleries, hairpin bends, parapet walls, balustrades and elegant arched stone bridges.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/IVS_35_Viamala.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/IVS_35_Viamala.jpg"
+        ],
+        "photo_gallery_big": [
+            ""
+        ],
+        "photo_gallery_copyright": [
+            ""
+        ],
+        "photo_gallery_author": [
+            ""
+        ],
+        "photo_gallery_abstract": [
+            ""
+        ],
+        "name": "Bundesinventar der historischen Verkehrswege der Schweiz (IVS)",
+        "name_2": null,
+        "street": " ",
+        "zip": " ",
+        "place": " ",
+        "tel": " ",
+        "fax": null,
+        "email": " ",
+        "url1_link": "https://www.ivs.admin.ch",
+        "x_coordinate": 753730.3548207745,
+        "y_coordinate": 169969.75209191395,
+        "change_date": null,
+        "id": 57,
+        "r_key": 57,
+        "type": "Sight",
+        "url_sightseeing": "https://s.geo.admin.ch/6fb1854a43",
+        "touristic_region": 1,
+        "canton": 2
+    }
 }

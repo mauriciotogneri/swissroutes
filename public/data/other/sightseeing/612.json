@@ -1,1 +1,60 @@
-{"type":"Feature","id":612,"geometry":{"type":"Point","coordinates":[46.820666296418956,6.937435053173981]},"properties":{"land":null,"category":"all","language":"en","title":"Abbey of Payerne","abstract":"The abbey church in Payerne is a jewel of Romanesque art. It was built in the 11th century according to a typically Cluniac layout.","description":"The royal family of Burgundy founded the first religious community in Payerne towards 950 A.D. It had an abbey church built in several stages between 960 and 1100 A.D. The nave with its chevet of five apses formed one of the purest interior designs in Swiss Romanesque art. The abbey church enjoyed continuous prosperity thanks to the connections with the abbey in Cluny and thanks to the protection of the royal family. The functional and symbolic harmony of the room (pre-nave with its high chapel dedicated to Saint Michael, nave, transept, choir and chapels) is enhanced by sculpted decorations (canopies, Lombard bands, atlases) and Romanesque (pre-nave) or Gothic (chapels) mural paintings. In 1536, the Reform expelled the monks. The Abbey Church was desacralized and used as a granary until the 20th century.\n\nMeanwhile the Abbey church has been renovated. It is a fine Romanesque monument and hosts prestigious art exhibitions.","highlights":null,"foto":"https://images0.schweizmobil.ch/image/7912_Abteikirche-von-Payerne_2a.jpg","photo_gallery":["https://images0.schweizmobil.ch/image/7912_Abteikirche-von-Payerne_2a.jpg","https://images0.schweizmobil.ch/image/7912_Abteikirche-von-Payerne_1b.jpg"],"photo_gallery_big":["",""],"photo_gallery_copyright":["",""],"photo_gallery_author":["",""],"name":"Abbatiale de Payerne","name_2":null,"street":"Place du Marché 3","zip":"1530","place":"Payerne","tel":"+41 (0)26 662 67 04","fax":null,"email":"musee-abbatiale@payerne.ch","url1_link":"https://www.abbatiale-payerne.ch","x_coordinate":561753.6447810826,"y_coordinate":185624.77626922433,"change_date":null,"id":612,"r_key":612,"type":"Sight","url_sightseeing":"https://www.region-du-leman.ch/en/P626/the-payerne-abbey-church","touristic_region":9}}
+{
+    "type": "Feature",
+    "id": 612,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.820666292574536,
+            6.937435058792985
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Abbey of Payerne",
+        "abstract": "The abbey church in Payerne is a jewel of Romanesque art. It was built in the 11th century according to a typically Cluniac layout.",
+        "description": "The royal family of Burgundy founded the first religious community in Payerne towards 950 A.D. It had an abbey church built in several stages between 960 and 1100 A.D. The nave with its chevet of five apses formed one of the purest interior designs in Swiss Romanesque art. The abbey church enjoyed continuous prosperity thanks to the connections with the abbey in Cluny and thanks to the protection of the royal family. The functional and symbolic harmony of the room (pre-nave with its high chapel dedicated to Saint Michael, nave, transept, choir and chapels) is enhanced by sculpted decorations (canopies, Lombard bands, atlases) and Romanesque (pre-nave) or Gothic (chapels) mural paintings. In 1536, the Reform expelled the monks. The Abbey Church was desacralized and used as a granary until the 20th century.\n\nMeanwhile the Abbey church has been renovated. It is a fine Romanesque monument and hosts prestigious art exhibitions.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/7912_Abteikirche-von-Payerne_2a.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/7912_Abteikirche-von-Payerne_2a.jpg",
+            "https://images.schweizmobil.ch/image/7912_Abteikirche-von-Payerne_1b.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "Abbatiale de Payerne",
+        "name_2": null,
+        "street": "Place du Marché 3",
+        "zip": "1530",
+        "place": "Payerne",
+        "tel": "+41 (0)26 662 67 04",
+        "fax": null,
+        "email": "musee-abbatiale@payerne.ch",
+        "url1_link": "https://www.abbatiale-payerne.ch",
+        "x_coordinate": 561753.6447810826,
+        "y_coordinate": 185624.77626922433,
+        "change_date": null,
+        "id": 612,
+        "r_key": 612,
+        "type": "Sight",
+        "url_sightseeing": "https://www.region-du-leman.ch/en/P626/the-payerne-abbey-church",
+        "touristic_region": 9,
+        "canton": 27
+    }
+}

@@ -1,1 +1,34 @@
-{"type":"Feature","id":3152,"geometry":{"type":"Point","coordinates":[47.25673199264013,8.796158488812118]},"properties":{"land":"\"velo\",\"mountainbike\"","category":"all","language":"en","title":"Radlager AG","abstract":null,"name":"Radlager AG","street":"Oberwolfhauserstrasse 8","zip":"8633","place":"Wolfhausen","tel":"+41 55 243 12 93","email":null,"url1_text":null,"url1_link":"https://www.radlager.ch","organisation":"2rad / 2routes / 2ruote","foto":null,"x_coordinate":702750.7969079165,"y_coordinate":234869.53407996666,"change_date":null,"id":409,"type":"Service"}}
+{
+    "type": "Feature",
+    "id": 3152,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            47.25673199032053,
+            8.7961584446491
+        ]
+    },
+    "properties": {
+        "land": "\"velo\",\"mountainbike\"",
+        "category": "all",
+        "language": "en",
+        "title": "Radlager AG",
+        "abstract": null,
+        "name": "Radlager AG",
+        "street": "Oberwolfhauserstrasse 8",
+        "zip": "8633",
+        "place": "Wolfhausen",
+        "tel": "+41 55 243 12 93",
+        "email": null,
+        "url1_text": null,
+        "url1_link": "https://www.radlager.ch",
+        "organisation": "2rad / 2routes / 2ruote",
+        "foto": null,
+        "foto_abstract": null,
+        "x_coordinate": 702750.7969079165,
+        "y_coordinate": 234869.53407996666,
+        "change_date": null,
+        "id": 409,
+        "type": "Service"
+    }
+}

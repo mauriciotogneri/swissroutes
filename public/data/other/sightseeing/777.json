@@ -1,1 +1,70 @@
-{"type":"Feature","id":777,"geometry":{"type":"Point","coordinates":[46.365552129752984,7.6425080088945965]},"properties":{"land":null,"category":"all","language":"en","title":"Flowtrail Leukerbad","abstract":"Flowtrail Leukerbad - the bike trail for everyone! The trail leads from Rinderhütte to Torrentalp. The concept of the flowtrail fits for different target groups, who like mountainbiking a lot.","description":"The route guidance of the flowtrail Leukerbad is integrated into the landscape with an average gradient of 10%. In combination with the locale topography, there are waves, small jumps as well a various curves. Jumping is possible but not mandatory. It is an attractive and easy-going downhill course, which appeals to both, pros and beginners.\n\nBikes can be rented at the mountain station Rinderhütte.","highlights":null,"foto":"https://images0.schweizmobil.ch/image-big/Flowtrail_Torrent_Leukerbad_1_c_Simon_Ricklin_g.jpg","photo_gallery":["https://images0.schweizmobil.ch/image/Flowtrail_Torrent_Leukerbad_1_c_Simon_Ricklin_s.jpg","https://images0.schweizmobil.ch/image/Flowtrail_Torrent_Leukerbad_2_s.jpg","https://images0.schweizmobil.ch/image/Flowtrail_Torrent_Leukerbad_4_Flowtrail_Torrent_Leukerbad_1_c_Simon_Ricklin_s.jpg","https://images0.schweizmobil.ch/image/Flowtrail_Torrent_Leukerbad_5_s.jpg"],"photo_gallery_big":["https://images0.schweizmobil.ch/image-big/Flowtrail_Torrent_Leukerbad_1_c_Simon_Ricklin_g.jpg","https://images0.schweizmobil.ch/image-big/Flowtrail_Torrent_Leukerbad_2_g.jpg","https://images0.schweizmobil.ch/image-big/Flowtrail_Torrent_Leukerbad_4_Flowtrail_Torrent_Leukerbad_1_c_Simon_Ricklin_g.jpg","https://images0.schweizmobil.ch/image-big/Flowtrail_Torrent_Leukerbad_5_g.jpg"],"photo_gallery_copyright":["","","",""],"photo_gallery_author":["","","",""],"name":"Leukerbad Tourismus","name_2":null,"street":"Rathaus","zip":"3954","place":"Leukerbad","tel":"+41 (0)27 472 71 71","fax":null,"email":"info@leukerbad.ch","url1_link":"https://www.leukerbad.ch","x_coordinate":615689.6107525111,"y_coordinate":134929.4157128367,"change_date":null,"id":777,"r_key":777,"type":"Sight","url_sightseeing":"https://www.leukerbad.ch/en/tour/flowtrail-leukerbad-59088936","touristic_region":11}}
+{
+    "type": "Feature",
+    "id": 777,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.36555214459722,
+            7.642508002617698
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Flowtrail Leukerbad",
+        "abstract": "Flowtrail Leukerbad - the bike trail for everyone! The trail leads from Rinderhütte to Torrentalp. The concept of the flowtrail fits for different target groups, who like mountainbiking a lot.",
+        "description": "The route guidance of the flowtrail Leukerbad is integrated into the landscape with an average gradient of 10%. In combination with the locale topography, there are waves, small jumps as well a various curves. Jumping is possible but not mandatory. It is an attractive and easy-going downhill course, which appeals to both, pros and beginners.\n\nBikes can be rented at the mountain station Rinderhütte.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image-big/Flowtrail_Torrent_Leukerbad_1_c_Simon_Ricklin_g.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/Flowtrail_Torrent_Leukerbad_5_s.jpg",
+            "https://images.schweizmobil.ch/image/Flowtrail_Torrent_Leukerbad_4_Flowtrail_Torrent_Leukerbad_1_c_Simon_Ricklin_s.jpg",
+            "https://images.schweizmobil.ch/image/Flowtrail_Torrent_Leukerbad_2_s.jpg",
+            "https://images.schweizmobil.ch/image/Flowtrail_Torrent_Leukerbad_1_c_Simon_Ricklin_s.jpg"
+        ],
+        "photo_gallery_big": [
+            "https://images.schweizmobil.ch/image-big/Flowtrail_Torrent_Leukerbad_5_g.jpg",
+            "https://images.schweizmobil.ch/image-big/Flowtrail_Torrent_Leukerbad_4_Flowtrail_Torrent_Leukerbad_1_c_Simon_Ricklin_g.jpg",
+            "https://images.schweizmobil.ch/image-big/Flowtrail_Torrent_Leukerbad_2_g.jpg",
+            "https://images.schweizmobil.ch/image-big/Flowtrail_Torrent_Leukerbad_1_c_Simon_Ricklin_g.jpg"
+        ],
+        "photo_gallery_copyright": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "name": "Leukerbad Tourismus",
+        "name_2": null,
+        "street": "Rathaus",
+        "zip": "3954",
+        "place": "Leukerbad",
+        "tel": "+41 (0)27 472 71 71",
+        "fax": null,
+        "email": "info@leukerbad.ch",
+        "url1_link": "https://www.leukerbad.ch",
+        "x_coordinate": 615689.6107525111,
+        "y_coordinate": 134929.4157128367,
+        "change_date": null,
+        "id": 777,
+        "r_key": 777,
+        "type": "Sight",
+        "url_sightseeing": "https://www.leukerbad.ch/en/tour/flowtrail-leukerbad-59088936",
+        "touristic_region": 11,
+        "canton": 7
+    }
+}

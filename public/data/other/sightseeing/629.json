@@ -1,1 +1,60 @@
-{"type":"Feature","id":629,"geometry":{"type":"Point","coordinates":[46.22886324963955,7.61016197298504]},"properties":{"land":null,"category":"all","language":"en","title":"Chemin des planètes","abstract":"Enjoy this 6 km long path situated between 2200 and 2500 m above sea level while facing the prestigious «4000» of the Valaisan Alps. You will encounter the 9 planets of the solar system built to scale on works of art.","description":"The solar system has been reproduced on a smaller scale all the way along this path, that way, with every step forward, you will move a million kilometres forward through the cosmos. Without noticing it, you will move three times faster than the speed of light. Leaving from the sun, you travel a distance all the greater that the object is remote from the sun.\n\nWhilst stopping along this celestial path, you will learn about the planets’ dimensions , their characteristics and above all be able to discover and admire the beauty of one which is only a stone’s throw away – planet Earth. Beyond the simple enjoyment of fresh air and magnificent mountain scenery, we offer you a chance to approach in a more concrete way one of the most astonishing sciences : astronomy.","highlights":null,"foto":"https://images0.schweizmobil.ch/image/8163_Planetenweg_2a.jpg","photo_gallery":["https://images0.schweizmobil.ch/image/8163_Planetenweg_2a.jpg","https://images0.schweizmobil.ch/image/8163_Planetenweg_1b.jpg"],"photo_gallery_big":["",""],"photo_gallery_copyright":["",""],"photo_gallery_author":["",""],"name":"Office du Tourisme de St-Luc","name_2":null,"street":"Rte Principale 18","zip":"3961","place":"St.Luc","tel":"+41 (0)27 476 17 10","fax":null,"email":"saint-luc@anniviers.ch","url1_link":"https://www.anniviers.ch","x_coordinate":613233.1501958796,"y_coordinate":119728.34187436856,"change_date":null,"id":629,"r_key":629,"type":"Sight","url_sightseeing":"https://www.ofxb.ch","touristic_region":11}}
+{
+    "type": "Feature",
+    "id": 629,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.228863218682385,
+            7.6101619675397
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Chemin des planètes",
+        "abstract": "Enjoy this 6 km long path situated between 2200 and 2500 m above sea level while facing the prestigious «4000» of the Valaisan Alps. You will encounter the 9 planets of the solar system built to scale on works of art.",
+        "description": "The solar system has been reproduced on a smaller scale all the way along this path, that way, with every step forward, you will move a million kilometres forward through the cosmos. Without noticing it, you will move three times faster than the speed of light. Leaving from the sun, you travel a distance all the greater that the object is remote from the sun.\n\nWhilst stopping along this celestial path, you will learn about the planets’ dimensions , their characteristics and above all be able to discover and admire the beauty of one which is only a stone’s throw away – planet Earth. Beyond the simple enjoyment of fresh air and magnificent mountain scenery, we offer you a chance to approach in a more concrete way one of the most astonishing sciences : astronomy.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/8163_Planetenweg_2a.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/8163_Planetenweg_2a.jpg",
+            "https://images.schweizmobil.ch/image/8163_Planetenweg_1b.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "Office du Tourisme de St-Luc",
+        "name_2": null,
+        "street": "Rte Principale 18",
+        "zip": "3961",
+        "place": "St.Luc",
+        "tel": "+41 (0)27 476 17 10",
+        "fax": null,
+        "email": "saint-luc@anniviers.ch",
+        "url1_link": "https://www.anniviers.ch",
+        "x_coordinate": 613233.1501958796,
+        "y_coordinate": 119728.34187436856,
+        "change_date": null,
+        "id": 629,
+        "r_key": 629,
+        "type": "Sight",
+        "url_sightseeing": "https://www.ofxb.ch",
+        "touristic_region": 11,
+        "canton": 7
+    }
+}

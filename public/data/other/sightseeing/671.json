@@ -1,1 +1,60 @@
-{"type":"Feature","id":671,"geometry":{"type":"Point","coordinates":[46.76693061252841,7.329508903921968]},"properties":{"land":null,"category":"all","language":"en","title":"Vreneli Museum","abstract":"«s isch äben e Mönsch uf Ärde» (There's a man on earth) Thus begins Switzerland's oldest and best-known folk song, which continues to be sung even today. More information about the song and its history is available in the charming Vreneli Museum, which is open for tours by appointment only.\n","description":"In the village of Guggisberg, at the foot of the Guggershorn, stands the stately Linde farmstead, where Vreneli lived. The owner of the Zelg farm had once hoped to join the two farms by marrying his son to the Linde farmer’s daughter. But Vreneli was already in love with Simes Hans-Joggeli, who lived on the other side of the mountain.\n\nDuring a fight with Hans-Joggeli, the young man from the Zelg farm fell and lay unconscious. Simes Hans-Joggeli thought the young man was dead, so he fled abroad – as a legionnaire, according to the story. Vreneli apparently didn’t live to see him return.\n\nThis story forms the basis for one of Switzerland's oldest folk songs. The Vreneli Museum is located in an outbuilding next to the village church. It tells more about the story while showing a typical home and artifacts from Vreneli’s time.","highlights":null,"foto":"https://images0.schweizmobil.ch/image/Vreneli-Museum-02-05-12-018_a.jpg","photo_gallery":["https://images0.schweizmobil.ch/image/Vreneli-Museum-02-05-12-018_a.jpg","https://images0.schweizmobil.ch/image/Vreneli-Museum-22-6-12-002_b.jpg"],"photo_gallery_big":["",""],"photo_gallery_copyright":["",""],"photo_gallery_author":["",""],"name":"Trägerverein Vreneli-Museum","name_2":null,"street":"Sand 257","zip":"3158","place":"Guggisberg","tel":"+41 31 735 51 26","fax":null,"email":"a-hauser@bluewin.ch","url1_link":"https://www.vreneli-museum.ch","x_coordinate":591664.9763652565,"y_coordinate":179534.90588193224,"change_date":null,"id":671,"r_key":671,"type":"Sight","url_sightseeing":"https://www.vreneli-museum.ch","touristic_region":6}}
+{
+    "type": "Feature",
+    "id": 671,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.76693061110616,
+            7.329508905816287
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Vreneli Museum",
+        "abstract": "«s isch äben e Mönsch uf Ärde» (There's a man on earth) Thus begins Switzerland's oldest and best-known folk song, which continues to be sung even today. More information about the song and its history is available in the charming Vreneli Museum, which is open for tours by appointment only.\n",
+        "description": "In the village of Guggisberg, at the foot of the Guggershorn, stands the stately Linde farmstead, where Vreneli lived. The owner of the Zelg farm had once hoped to join the two farms by marrying his son to the Linde farmer’s daughter. But Vreneli was already in love with Simes Hans-Joggeli, who lived on the other side of the mountain.\n\nDuring a fight with Hans-Joggeli, the young man from the Zelg farm fell and lay unconscious. Simes Hans-Joggeli thought the young man was dead, so he fled abroad – as a legionnaire, according to the story. Vreneli apparently didn’t live to see him return.\n\nThis story forms the basis for one of Switzerland's oldest folk songs. The Vreneli Museum is located in an outbuilding next to the village church. It tells more about the story while showing a typical home and artifacts from Vreneli’s time.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/Vreneli-Museum-02-05-12-018_a.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/Vreneli-Museum-02-05-12-018_a.jpg",
+            "https://images.schweizmobil.ch/image/Vreneli-Museum-22-6-12-002_b.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "Trägerverein Vreneli-Museum",
+        "name_2": null,
+        "street": "Sand 257",
+        "zip": "3158",
+        "place": "Guggisberg",
+        "tel": "+41 31 735 51 26",
+        "fax": null,
+        "email": "a-hauser@bluewin.ch",
+        "url1_link": "https://www.vreneli-museum.ch",
+        "x_coordinate": 591664.9763652565,
+        "y_coordinate": 179534.90588193224,
+        "change_date": null,
+        "id": 671,
+        "r_key": 671,
+        "type": "Sight",
+        "url_sightseeing": "https://www.vreneli-museum.ch",
+        "touristic_region": 6,
+        "canton": 12
+    }
+}

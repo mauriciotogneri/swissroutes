@@ -1,1 +1,95 @@
-{"type":"Feature","id":873,"geometry":{"type":"Point","coordinates":[46.229340566916385,7.609774606043045]},"properties":{"land":null,"category":"all","language":"en","title":"Bikepark St-Luc","abstract":"Three different level trails, a jump zone in between, and a funicular to get back to the top – the St-Luc bike park has everything a mountain biker’s heart desires. While you plunge down the 500 m vertical drop, you are surrounded by the picture-perfect mountain scenery of the Val d’Anniviers.","description":"With the funicular it’s easy to climb 500 meters in altitude, before you choose one of the three different level trails. There is an easy, an intermediate and a difficult downhill trail. All three feature wooden bridges, steep turns and jumps.\n\nThe blue trail is ideal for beginners. It is broad and the elements are easy. But even experienced riders like to use this fun 2.5 km trail for a warm-up. The first part follows the forest, the second goes right through it. The red trail is also 2.5 km long. It is made for more experienced riders and it is steeper and more aerial than the blue trail. \n\nThe third downhill is for advanced riders only. The narrow black trail is 2.2 km long and leads through the forest – and it should not be underestimated. It has two jump lines with a bunny-up zone where you can try to defy gravity.  \n\n\nTotal trail length: 7 km\n\nBlue trail: 2.5 km\nRed trail: 2.5 km\nBlack trail: 2.2 km","highlights":null,"foto":"https://images0.schweizmobil.ch/image-big/VS_Bikepark_St-Luc_7_g.jpg","photo_gallery":["https://images0.schweizmobil.ch/image/VS_Bikepark_St-Luc_1_s.jpg","https://images0.schweizmobil.ch/image/VS_Bikepark_St-Luc_2_s.jpg","https://images0.schweizmobil.ch/image/VS_Bikepark_St-Luc_3_s.jpg","https://images0.schweizmobil.ch/image/VS_Bikepark_St-Luc_4_s.jpg","https://images0.schweizmobil.ch/image/VS_Bikepark_St-Luc_5_s.jpg","https://images0.schweizmobil.ch/image/VS_Bikepark_St-Luc_6_s.jpg","https://images0.schweizmobil.ch/image/VS_Bikepark_St-Luc_7_s.jpg","https://images0.schweizmobil.ch/image/VS_Bikepark_St-Luc_8_s.jpg","https://images0.schweizmobil.ch/image/VS_Bikepark_St-Luc_9_s.jpg"],"photo_gallery_big":["https://images0.schweizmobil.ch/image-big/VS_Bikepark_St-Luc_1_g.jpg","https://images0.schweizmobil.ch/image-big/VS_Bikepark_St-Luc_2_g.jpg","https://images0.schweizmobil.ch/image-big/VS_Bikepark_St-Luc_3_g.jpg","https://images0.schweizmobil.ch/image-big/VS_Bikepark_St-Luc_4_g.jpg","https://images0.schweizmobil.ch/image-big/VS_Bikepark_St-Luc_5_g.jpg","https://images0.schweizmobil.ch/image-big/VS_Bikepark_St-Luc_6_g.jpg","https://images0.schweizmobil.ch/image-big/VS_Bikepark_St-Luc_7_g.jpg","https://images0.schweizmobil.ch/image-big/VS_Bikepark_St-Luc_8_g.jpg","https://images0.schweizmobil.ch/image-big/VS_Bikepark_St-Luc_9_g.jpg"],"photo_gallery_copyright":["","","","","","","","",""],"photo_gallery_author":["","","","Ricardo Hernandez","","","","","Ricardo Hernandez"],"name":"Anniviers Tourisme","name_2":null,"street":"Rue du Village 6","zip":"3961","place":"Grimentz","tel":"+41 (0)27 476 17 10","fax":null,"email":"saint-luc@anniviers.ch","url1_link":"https://www.valdanniviers.ch ","x_coordinate":613203.7174014547,"y_coordinate":119781.6374559897,"change_date":null,"id":873,"r_key":873,"type":"Sight","url_sightseeing":"https://www.valais.ch/en/activities/mountain-bike/bikeparks","touristic_region":11}}
+{
+    "type": "Feature",
+    "id": 873,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.229340572109635,
+            7.609774609708335
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Bikepark St-Luc",
+        "abstract": "Three different level trails, a jump zone in between, and a funicular to get back to the top – the St-Luc bike park has everything a mountain biker’s heart desires. While you plunge down the 500 m vertical drop, you are surrounded by the picture-perfect mountain scenery of the Val d’Anniviers.",
+        "description": "With the funicular it’s easy to climb 500 meters in altitude, before you choose one of the three different level trails. There is an easy, an intermediate and a difficult downhill trail. All three feature wooden bridges, steep turns and jumps.\n\nThe blue trail is ideal for beginners. It is broad and the elements are easy. But even experienced riders like to use this fun 2.5 km trail for a warm-up. The first part follows the forest, the second goes right through it. The red trail is also 2.5 km long. It is made for more experienced riders and it is steeper and more aerial than the blue trail. \n\nThe third downhill is for advanced riders only. The narrow black trail is 2.2 km long and leads through the forest – and it should not be underestimated. It has two jump lines with a bunny-up zone where you can try to defy gravity.  \n\n\nTotal trail length: 7 km\n\nBlue trail: 2.5 km\nRed trail: 2.5 km\nBlack trail: 2.2 km",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image-big/VS_Bikepark_St-Luc_7_g.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/VS_Bikepark_St-Luc_1_s.jpg",
+            "https://images.schweizmobil.ch/image/VS_Bikepark_St-Luc_2_s.jpg",
+            "https://images.schweizmobil.ch/image/VS_Bikepark_St-Luc_3_s.jpg",
+            "https://images.schweizmobil.ch/image/VS_Bikepark_St-Luc_4_s.jpg",
+            "https://images.schweizmobil.ch/image/VS_Bikepark_St-Luc_5_s.jpg",
+            "https://images.schweizmobil.ch/image/VS_Bikepark_St-Luc_6_s.jpg",
+            "https://images.schweizmobil.ch/image/VS_Bikepark_St-Luc_7_s.jpg",
+            "https://images.schweizmobil.ch/image/VS_Bikepark_St-Luc_8_s.jpg",
+            "https://images.schweizmobil.ch/image/VS_Bikepark_St-Luc_9_s.jpg"
+        ],
+        "photo_gallery_big": [
+            "https://images.schweizmobil.ch/image-big/VS_Bikepark_St-Luc_1_g.jpg",
+            "https://images.schweizmobil.ch/image-big/VS_Bikepark_St-Luc_2_g.jpg",
+            "https://images.schweizmobil.ch/image-big/VS_Bikepark_St-Luc_3_g.jpg",
+            "https://images.schweizmobil.ch/image-big/VS_Bikepark_St-Luc_4_g.jpg",
+            "https://images.schweizmobil.ch/image-big/VS_Bikepark_St-Luc_5_g.jpg",
+            "https://images.schweizmobil.ch/image-big/VS_Bikepark_St-Luc_6_g.jpg",
+            "https://images.schweizmobil.ch/image-big/VS_Bikepark_St-Luc_7_g.jpg",
+            "https://images.schweizmobil.ch/image-big/VS_Bikepark_St-Luc_8_g.jpg",
+            "https://images.schweizmobil.ch/image-big/VS_Bikepark_St-Luc_9_g.jpg"
+        ],
+        "photo_gallery_copyright": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            "",
+            "",
+            "Ricardo Hernandez",
+            "",
+            "",
+            "",
+            "",
+            "Ricardo Hernandez"
+        ],
+        "photo_gallery_abstract": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "name": "Anniviers Tourisme",
+        "name_2": null,
+        "street": "Rue du Village 6",
+        "zip": "3961",
+        "place": "Grimentz",
+        "tel": "+41 (0)27 476 17 10",
+        "fax": null,
+        "email": "saint-luc@anniviers.ch",
+        "url1_link": "https://www.valdanniviers.ch ",
+        "x_coordinate": 613203.7174014547,
+        "y_coordinate": 119781.6374559897,
+        "change_date": null,
+        "id": 873,
+        "r_key": 873,
+        "type": "Sight",
+        "url_sightseeing": "https://www.valais.ch/en/activities/mountain-bike/bikeparks",
+        "touristic_region": 11,
+        "canton": 7
+    }
+}

@@ -1,1 +1,75 @@
-{"type":"Feature","id":796,"geometry":{"type":"Point","coordinates":[47.352020707858756,7.904491254376994]},"properties":{"land":null,"category":"all","language":"en","title":"Swiss Writer's Path","abstract":"The Swiss Writer's Path surprises with more than 60 audio stations, the Quai Cornichon with 30 more cabaret gems, an interactive puzzle cabin, as well as a family tour with Christian Schenker. The audio tours with stories by Alex Capus, Franz Hohler, Pedro Lenz and other writers from Olten seduce as you stroll and listen.","description":"Explore the extensive and diverse Olten literary scene and enjoy classics, cabaret and poetry slam: The audio tours narrated by the voices of the Olten writers Alex Capus, Franz Hohler, Pedro Lenz and other writers from Olten entice as you embark on an informative listening tour. The stories are read by the authors themselves and are closely related to their personality and the pertinent location. In addition, we can offer you a family tour with Christian Schenker encompassing 11 listening stations, an explorer’s map and a corresponding CD.\n\nHow do the tours work? Scan the QR codes with your own smartphone or tablet at approximately 60 listening stations and indulge in stories that last two to four minutes. You can download the QR code scanner for free in the App Store (ideally: 3G Vision «i-nigma» for iOS, Application4u «free QR Code Scanner» for Android). You can rent iPods (CHF 5.- per device, reservation recommend-ed) at the Tourist Office (Mon to Sat) or at the Hotel Astoria in the event you do not own a smartphone.\n\nThe tours and stations can be combined at your discretion. The standard tour for each writer comprising eight stations lasts around 45 minutes. The family tour with fun puzzles lasts approximately two hours. Be forewarned - not everyone completes the full tour, as Olten offers many delightful distractions: fine restaurants, a charming historical town centre, the river Aare and many an excursion in Olten's hillscape bearing wit-ness to breathtaking views.","highlights":null,"foto":"https://images0.schweizmobil.ch/image-big/POI_Schweizer_Schriftstellerweg_Olten_Eroeffnung-Schweizer-Schriftstellerweg-Franz-Hohler_2016_g.jpg","photo_gallery":["https://images0.schweizmobil.ch/image/POI_Schweizer_Schriftstellerweg_Olten_Eroeffnung-Familientour_Christian_Schenker_2018_s.jpg","https://images0.schweizmobil.ch/image/POI_Schweizer_Schriftstellerweg_Olten_Eroeffnung-Schweizer-Schriftstellerweg-Franz-Hohler_2016_s.jpg","https://images0.schweizmobil.ch/image/POI_Schweizer_Schriftstellerweg_Olten_Eroeffnung-Schweizer-Schriftstellerweg-Lenz-Hohler-Capus_2016_s.jpg","https://images0.schweizmobil.ch/image/POI_Schweizer_Schriftstellerweg_Olten_Peter-Bichsel_2018_s.jpg","https://images0.schweizmobil.ch/image/POI_Schweizer_Schriftstellerweg_Olten_Quai-Cornichon_2017_s.jpg"],"photo_gallery_big":["https://images0.schweizmobil.ch/image-big/POI_Schweizer_Schriftstellerweg_Olten_Eroeffnung-Familientour_Christian_Schenker_2018_g.jpg","https://images0.schweizmobil.ch/image-big/POI_Schweizer_Schriftstellerweg_Olten_Eroeffnung-Schweizer-Schriftstellerweg-Franz-Hohler_2016_g.jpg","https://images0.schweizmobil.ch/image-big/POI_Schweizer_Schriftstellerweg_Olten_Eroeffnung-Schweizer-Schriftstellerweg-Lenz-Hohler-Capus_2016_g.jpg","https://images0.schweizmobil.ch/image-big/POI_Schweizer_Schriftstellerweg_Olten_Peter-Bichsel_2018_g.jpg","https://images0.schweizmobil.ch/image-big/POI_Schweizer_Schriftstellerweg_Olten_Quai-Cornichon_2017_g.jpg"],"photo_gallery_copyright":["","Andre Albrecht","","","Copyright: Edy Mueller, CH-4600 Olten"],"photo_gallery_author":["","","","","Photographer: Edy Mueller"],"name":"Region Olten Tourismus","name_2":null,"street":"Frohburgstrasse 1","zip":"4601","place":"Olten","tel":"+41 (0)62 213 16 16","fax":null,"email":"info@oltentourismus.ch","url1_link":"https://www.oltentourismus.ch","x_coordinate":635199.337896241,"y_coordinate":244679.67895424718,"change_date":null,"id":796,"r_key":796,"type":"Sight","url_sightseeing":"https://www.oltenliteraturstadt.ch","touristic_region":14}}
+{
+    "type": "Feature",
+    "id": 796,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            47.352020699177515,
+            7.904491235355711
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Swiss Writer's Path",
+        "abstract": "The Swiss Writer's Path surprises with more than 60 audio stations, the Quai Cornichon with 30 more cabaret gems, an interactive puzzle cabin, as well as a family tour with Christian Schenker. The audio tours with stories by Alex Capus, Franz Hohler, Pedro Lenz and other writers from Olten seduce as you stroll and listen.",
+        "description": "Explore the extensive and diverse Olten literary scene and enjoy classics, cabaret and poetry slam: The audio tours narrated by the voices of the Olten writers Alex Capus, Franz Hohler, Pedro Lenz and other writers from Olten entice as you embark on an informative listening tour. The stories are read by the authors themselves and are closely related to their personality and the pertinent location. In addition, we can offer you a family tour with Christian Schenker encompassing 11 listening stations, an explorer’s map and a corresponding CD.\n\nHow do the tours work? Scan the QR codes with your own smartphone or tablet at approximately 60 listening stations and indulge in stories that last two to four minutes. You can download the QR code scanner for free in the App Store (ideally: 3G Vision «i-nigma» for iOS, Application4u «free QR Code Scanner» for Android). You can rent iPods (CHF 5.- per device, reservation recommend-ed) at the Tourist Office (Mon to Sat) or at the Hotel Astoria in the event you do not own a smartphone.\n\nThe tours and stations can be combined at your discretion. The standard tour for each writer comprising eight stations lasts around 45 minutes. The family tour with fun puzzles lasts approximately two hours. Be forewarned - not everyone completes the full tour, as Olten offers many delightful distractions: fine restaurants, a charming historical town centre, the river Aare and many an excursion in Olten's hillscape bearing wit-ness to breathtaking views.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image-big/POI_Schweizer_Schriftstellerweg_Olten_Eroeffnung-Schweizer-Schriftstellerweg-Franz-Hohler_2016_g.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/POI_Schweizer_Schriftstellerweg_Olten_Eroeffnung-Familientour_Christian_Schenker_2018_s.jpg",
+            "https://images.schweizmobil.ch/image/POI_Schweizer_Schriftstellerweg_Olten_Eroeffnung-Schweizer-Schriftstellerweg-Franz-Hohler_2016_s.jpg",
+            "https://images.schweizmobil.ch/image/POI_Schweizer_Schriftstellerweg_Olten_Eroeffnung-Schweizer-Schriftstellerweg-Lenz-Hohler-Capus_2016_s.jpg",
+            "https://images.schweizmobil.ch/image/POI_Schweizer_Schriftstellerweg_Olten_Peter-Bichsel_2018_s.jpg",
+            "https://images.schweizmobil.ch/image/POI_Schweizer_Schriftstellerweg_Olten_Quai-Cornichon_2017_s.jpg"
+        ],
+        "photo_gallery_big": [
+            "https://images.schweizmobil.ch/image-big/POI_Schweizer_Schriftstellerweg_Olten_Eroeffnung-Familientour_Christian_Schenker_2018_g.jpg",
+            "https://images.schweizmobil.ch/image-big/POI_Schweizer_Schriftstellerweg_Olten_Eroeffnung-Schweizer-Schriftstellerweg-Franz-Hohler_2016_g.jpg",
+            "https://images.schweizmobil.ch/image-big/POI_Schweizer_Schriftstellerweg_Olten_Eroeffnung-Schweizer-Schriftstellerweg-Lenz-Hohler-Capus_2016_g.jpg",
+            "https://images.schweizmobil.ch/image-big/POI_Schweizer_Schriftstellerweg_Olten_Peter-Bichsel_2018_g.jpg",
+            "https://images.schweizmobil.ch/image-big/POI_Schweizer_Schriftstellerweg_Olten_Quai-Cornichon_2017_g.jpg"
+        ],
+        "photo_gallery_copyright": [
+            "",
+            "Andre Albrecht",
+            "",
+            "",
+            "Copyright: Edy Mueller, CH-4600 Olten"
+        ],
+        "photo_gallery_author": [
+            "",
+            "",
+            "",
+            "",
+            "Photographer: Edy Mueller"
+        ],
+        "photo_gallery_abstract": [
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "name": "Region Olten Tourismus",
+        "name_2": null,
+        "street": "Frohburgstrasse 1",
+        "zip": "4601",
+        "place": "Olten",
+        "tel": "+41 (0)62 213 16 16",
+        "fax": null,
+        "email": "info@oltentourismus.ch",
+        "url1_link": "https://www.oltentourismus.ch",
+        "x_coordinate": 635199.337896241,
+        "y_coordinate": 244679.67895424718,
+        "change_date": null,
+        "id": 796,
+        "r_key": 796,
+        "type": "Sight",
+        "url_sightseeing": "https://www.oltenliteraturstadt.ch",
+        "touristic_region": 14,
+        "canton": 16
+    }
+}

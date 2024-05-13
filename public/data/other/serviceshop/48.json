@@ -1,1 +1,34 @@
-{"type":"Feature","id":2840,"geometry":{"type":"Point","coordinates":[47.27993567128416,7.376663048590178]},"properties":{"land":"\"velo\",\"mountainbike\"","category":"all","language":"en","title":"Centre 2 Roues Bobillier","abstract":null,"name":"Centre 2 Roues Bobillier","street":"Rue Centrale 17a","zip":"2740","place":"Moutier","tel":"+41 32 493 18 11","email":null,"url1_text":null,"url1_link":"https://www.bobilliercycles.ch","organisation":"2rad / 2routes / 2ruote","foto":null,"x_coordinate":595311.6334742968,"y_coordinate":236562.46960297995,"change_date":null,"id":48,"type":"Service"}}
+{
+    "type": "Feature",
+    "id": 2840,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            47.27993567605188,
+            7.376663049658802
+        ]
+    },
+    "properties": {
+        "land": "\"velo\",\"mountainbike\"",
+        "category": "all",
+        "language": "en",
+        "title": "Centre 2 Roues Bobillier",
+        "abstract": null,
+        "name": "Centre 2 Roues Bobillier",
+        "street": "Rue Centrale 17a",
+        "zip": "2740",
+        "place": "Moutier",
+        "tel": "+41 32 493 18 11",
+        "email": null,
+        "url1_text": null,
+        "url1_link": "https://www.bobilliercycles.ch",
+        "organisation": "2rad / 2routes / 2ruote",
+        "foto": null,
+        "foto_abstract": null,
+        "x_coordinate": 595311.6334742968,
+        "y_coordinate": 236562.46960297995,
+        "change_date": null,
+        "id": 48,
+        "type": "Service"
+    }
+}

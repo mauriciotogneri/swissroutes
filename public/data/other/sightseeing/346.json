@@ -1,1 +1,60 @@
-{"type":"Feature","id":346,"geometry":{"type":"Point","coordinates":[46.52198600424103,9.901431983569848]},"properties":{"land":null,"category":"all","language":"en","title":"Muottas Muragl","abstract":"This mountain was already appreciated as a lookout point by the 19th century tourism pioneers. Those who want to savour the mountain's true beauty stay here overnight to experience the enchanting sunset.","description":"Against the backdrop of the mountains surrounding this high altitude valley in an impressive guard of honour, an Engadin showpiece unfolds from Muottas Muragl and displays an exceptional scene: The lake district spread out on the valley floor like an open book; one that is especially beautiful to read at sunset.\n\nNot only does the mountain occupy a geographical position in the heart of the Engadine, but, thanks to the Grisons' oldest railway, the viewing area with its sun terrace and children's playground is very much part of the region's holiday programme. In fact, the summit is renowned as a base for walking and hiking.\n\nSunset casts a spell on the Upper Engadin – and Muottas Muragl is your own private theatre box. To experience the sunset, one has to stay overnight at the mountain hotel. The last descent is at 11 pm.","highlights":null,"foto":"https://images0.schweizmobil.ch/image/8446_Muottas-Muragl_1a.jpg","photo_gallery":["https://images0.schweizmobil.ch/image/8446_Muottas-Muragl_1a.jpg","https://images0.schweizmobil.ch/image/8446_Muottas-Muragl_2b.jpg"],"photo_gallery_big":["",""],"photo_gallery_copyright":["",""],"photo_gallery_author":["",""],"name":"Pontresina Tourist Information","name_2":null,"street":"Via Maistra 133","zip":"7504","place":"Pontresina","tel":"+41 (0)81 838 83 00","fax":null,"email":"pontresina@engadin.ch","url1_link":"https://www.engadin.ch/de/pontresina/","x_coordinate":788950.1852024577,"y_coordinate":155264.2967866172,"change_date":null,"id":346,"r_key":346,"type":"Sight","url_sightseeing":"https://www.graubuenden.ch/de/sommerurlaub/genussurlaub/natur/berge/aussichtsberge-und-gletscher/muottas-muragl-samedan.html","touristic_region":1}}
+{
+    "type": "Feature",
+    "id": 346,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.521986019610864,
+            9.901431955670597
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Muottas Muragl",
+        "abstract": "This mountain was already appreciated as a lookout point by the 19th century tourism pioneers. Those who want to savour the mountain's true beauty stay here overnight to experience the enchanting sunset.",
+        "description": "Against the backdrop of the mountains surrounding this high altitude valley in an impressive guard of honour, an Engadin showpiece unfolds from Muottas Muragl and displays an exceptional scene: The lake district spread out on the valley floor like an open book; one that is especially beautiful to read at sunset.\n\nNot only does the mountain occupy a geographical position in the heart of the Engadine, but, thanks to the Grisons' oldest railway, the viewing area with its sun terrace and children's playground is very much part of the region's holiday programme. In fact, the summit is renowned as a base for walking and hiking.\n\nSunset casts a spell on the Upper Engadin – and Muottas Muragl is your own private theatre box. To experience the sunset, one has to stay overnight at the mountain hotel. The last descent is at 11 pm.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/8446_Muottas-Muragl_1a.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/8446_Muottas-Muragl_1a.jpg",
+            "https://images.schweizmobil.ch/image/8446_Muottas-Muragl_2b.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "Pontresina Tourist Information",
+        "name_2": null,
+        "street": "Via Maistra 133",
+        "zip": "7504",
+        "place": "Pontresina",
+        "tel": "+41 (0)81 838 83 00",
+        "fax": null,
+        "email": "pontresina@engadin.ch",
+        "url1_link": "https://www.engadin.ch/de/pontresina/",
+        "x_coordinate": 788950.1852024577,
+        "y_coordinate": 155264.2967866172,
+        "change_date": null,
+        "id": 346,
+        "r_key": 346,
+        "type": "Sight",
+        "url_sightseeing": "https://www.graubuenden.ch/de/sommerurlaub/genussurlaub/natur/berge/aussichtsberge-und-gletscher/muottas-muragl-samedan.html",
+        "touristic_region": 1,
+        "canton": 2
+    }
+}

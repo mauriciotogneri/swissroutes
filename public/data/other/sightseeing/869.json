@@ -1,1 +1,75 @@
-{"type":"Feature","id":869,"geometry":{"type":"Point","coordinates":[46.172314932613546,7.571669591710525]},"properties":{"land":null,"category":"all","language":"en","title":"Pumptrack Grimentz","abstract":"At the current time, the only pump track in the Val d’Anniviers is located on the outskirts of the mountain climbing village of Grimentz. Bring your mountain bike and tackle the bumps and banked asphalt turns.","description":"The pump track in Grimentz near the Clos des Frès recreation area is ideal for training and for all those who want to improve their technique on the back-to-back bumps and banked turns. \n\nThe loop extends over an area of 900 m2 and is suitable for mountain bikes, BMX bikes, skateboards, scooters, and rollerblades. \n\nIf you want to take a break, stop and look at the splendour of the region’s 4000 meter peaks surrounding the valley, before you continue to hone your mountain biking skills on the pump track.\n\n\nSurface: asphalt\nRoller height: between 30 and 120 cm\nTurn height: 130 cm \nSurface area: 900 m2","highlights":null,"foto":"https://images0.schweizmobil.ch/image-big/VS_Pumptrack_Grimentz_3_g.jpg","photo_gallery":["https://images0.schweizmobil.ch/image/VS_Pumptrack_Grimentz_1_s.jpg","https://images0.schweizmobil.ch/image/VS_Pumptrack_Grimentz_2_s.jpg","https://images0.schweizmobil.ch/image/VS_Pumptrack_Grimentz_3_s.jpg","https://images0.schweizmobil.ch/image/VS_Pumptrack_Grimentz_4_s.jpg","https://images0.schweizmobil.ch/image/VS_Pumptrack_Grimentz_5_s.jpg"],"photo_gallery_big":["https://images0.schweizmobil.ch/image-big/VS_Pumptrack_Grimentz_1_g.jpg","https://images0.schweizmobil.ch/image-big/VS_Pumptrack_Grimentz_2_g.jpg","https://images0.schweizmobil.ch/image-big/VS_Pumptrack_Grimentz_3_g.jpg","https://images0.schweizmobil.ch/image-big/VS_Pumptrack_Grimentz_4_g.jpg","https://images0.schweizmobil.ch/image-big/VS_Pumptrack_Grimentz_5_g.jpg"],"photo_gallery_copyright":["","","","",""],"photo_gallery_author":["ROM_DANIEL","ROM_DANIEL","ROM_DANIEL","ROM_DANIEL",""],"name":"Anniviers Tourisme","name_2":null,"street":"Rue du Village 6","zip":"3961","place":"Grimentz","tel":"+41 (0)27 476 17 00","fax":null,"email":"grimentz@anniviers.ch","url1_link":"https://www.valdanniviers.ch ","x_coordinate":610274.2449605869,"y_coordinate":113436.20068726117,"change_date":null,"id":869,"r_key":869,"type":"Sight","url_sightseeing":"https://www.valais.ch/en/activities/mountain-bike/pumptracks","touristic_region":11}}
+{
+    "type": "Feature",
+    "id": 869,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.172314905355876,
+            7.571669597670935
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Pumptrack Grimentz",
+        "abstract": "At the current time, the only pump track in the Val d’Anniviers is located on the outskirts of the mountain climbing village of Grimentz. Bring your mountain bike and tackle the bumps and banked asphalt turns.",
+        "description": "The pump track in Grimentz near the Clos des Frès recreation area is ideal for training and for all those who want to improve their technique on the back-to-back bumps and banked turns. \n\nThe loop extends over an area of 900 m2 and is suitable for mountain bikes, BMX bikes, skateboards, scooters, and rollerblades. \n\nIf you want to take a break, stop and look at the splendour of the region’s 4000 meter peaks surrounding the valley, before you continue to hone your mountain biking skills on the pump track.\n\n\nSurface: asphalt\nRoller height: between 30 and 120 cm\nTurn height: 130 cm \nSurface area: 900 m2",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image-big/VS_Pumptrack_Grimentz_3_g.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/VS_Pumptrack_Grimentz_1_s.jpg",
+            "https://images.schweizmobil.ch/image/VS_Pumptrack_Grimentz_2_s.jpg",
+            "https://images.schweizmobil.ch/image/VS_Pumptrack_Grimentz_3_s.jpg",
+            "https://images.schweizmobil.ch/image/VS_Pumptrack_Grimentz_4_s.jpg",
+            "https://images.schweizmobil.ch/image/VS_Pumptrack_Grimentz_5_s.jpg"
+        ],
+        "photo_gallery_big": [
+            "https://images.schweizmobil.ch/image-big/VS_Pumptrack_Grimentz_1_g.jpg",
+            "https://images.schweizmobil.ch/image-big/VS_Pumptrack_Grimentz_2_g.jpg",
+            "https://images.schweizmobil.ch/image-big/VS_Pumptrack_Grimentz_3_g.jpg",
+            "https://images.schweizmobil.ch/image-big/VS_Pumptrack_Grimentz_4_g.jpg",
+            "https://images.schweizmobil.ch/image-big/VS_Pumptrack_Grimentz_5_g.jpg"
+        ],
+        "photo_gallery_copyright": [
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "ROM_DANIEL",
+            "ROM_DANIEL",
+            "ROM_DANIEL",
+            "ROM_DANIEL",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "name": "Anniviers Tourisme",
+        "name_2": null,
+        "street": "Rue du Village 6",
+        "zip": "3961",
+        "place": "Grimentz",
+        "tel": "+41 (0)27 476 17 00",
+        "fax": null,
+        "email": "grimentz@anniviers.ch",
+        "url1_link": "https://www.valdanniviers.ch ",
+        "x_coordinate": 610274.2449605869,
+        "y_coordinate": 113436.20068725756,
+        "change_date": null,
+        "id": 869,
+        "r_key": 869,
+        "type": "Sight",
+        "url_sightseeing": "https://www.valais.ch/en/activities/mountain-bike/pumptracks",
+        "touristic_region": 11,
+        "canton": 7
+    }
+}

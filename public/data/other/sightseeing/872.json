@@ -1,1 +1,65 @@
-{"type":"Feature","id":872,"geometry":{"type":"Point","coordinates":[46.38000713396528,8.035313585694288]},"properties":{"land":null,"category":"all","language":"en","title":"Pumptrack Riederalp","abstract":"In the heart of the Aletsch Arena, at an altitude of approximately 2000 m, is the modular pump track Riederalp, also known as “iische Park”. Small kids particularly like the park.","description":"The 46 meter long and one meter wide circuit consists of low rollers and easy banked turns. However, it is not only made for curious beginners, even advanced riders have fun here as they indulge in their passion for mountain biking or do laps with a bike or with rollerblades.\n\n“Iische Park”, as the locals call the pump track, is located on a meadow close to the Restaurant Alpenrose and directly adjacent to it is a big air bag to practice jumps with the mountain bike.\n\nSurface: synthetics\nSurface area: 500 m2","highlights":null,"foto":"https://images0.schweizmobil.ch/image-big/VS_Pumptrack_Riederalp_3_g.jpg","photo_gallery":["https://images0.schweizmobil.ch/image/VS_Pumptrack_Riederalp_2_s.jpg","https://images0.schweizmobil.ch/image/VS_Pumptrack_Riederalp_3_s.jpg","https://images0.schweizmobil.ch/image/VS_Pumptrack_Riederalp_4_s.jpg"],"photo_gallery_big":["https://images0.schweizmobil.ch/image-big/VS_Pumptrack_Riederalp_2_g.jpg","https://images0.schweizmobil.ch/image-big/VS_Pumptrack_Riederalp_3_g.jpg","https://images0.schweizmobil.ch/image-big/VS_Pumptrack_Riederalp_4_g.jpg"],"photo_gallery_copyright":["aletscharena.ch","aletscharena.ch","aletscharena.ch"],"photo_gallery_author":["Raphael Wernli","Raphael Wernli","Raphael Wernli"],"name":"Aletsch Arena","name_2":null,"street":"Furkastrasse 39","zip":"3983","place":"Mörel-Filet","tel":"+41 (0)27 928 58 58","fax":null,"email":"info@aletscharena.ch","url1_link":"https://www.aletscharena.ch ","x_coordinate":645905.362660458,"y_coordinate":136690.79188769957,"change_date":null,"id":872,"r_key":872,"type":"Sight","url_sightseeing":"https://www.valais.ch/en/activities/mountain-bike/pumptracks","touristic_region":11}}
+{
+    "type": "Feature",
+    "id": 872,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.380007109959244,
+            8.035313566433468
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Pumptrack Riederalp",
+        "abstract": "In the heart of the Aletsch Arena, at an altitude of approximately 2000 m, is the modular pump track Riederalp, also known as “iische Park”. Small kids particularly like the park.",
+        "description": "The 46 meter long and one meter wide circuit consists of low rollers and easy banked turns. However, it is not only made for curious beginners, even advanced riders have fun here as they indulge in their passion for mountain biking or do laps with a bike or with rollerblades.\n\n“Iische Park”, as the locals call the pump track, is located on a meadow close to the Restaurant Alpenrose and directly adjacent to it is a big air bag to practice jumps with the mountain bike.\n\nSurface: synthetics\nSurface area: 500 m2",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image-big/VS_Pumptrack_Riederalp_3_g.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/VS_Pumptrack_Riederalp_2_s.jpg",
+            "https://images.schweizmobil.ch/image/VS_Pumptrack_Riederalp_3_s.jpg",
+            "https://images.schweizmobil.ch/image/VS_Pumptrack_Riederalp_4_s.jpg"
+        ],
+        "photo_gallery_big": [
+            "https://images.schweizmobil.ch/image-big/VS_Pumptrack_Riederalp_2_g.jpg",
+            "https://images.schweizmobil.ch/image-big/VS_Pumptrack_Riederalp_3_g.jpg",
+            "https://images.schweizmobil.ch/image-big/VS_Pumptrack_Riederalp_4_g.jpg"
+        ],
+        "photo_gallery_copyright": [
+            "aletscharena.ch",
+            "aletscharena.ch",
+            "aletscharena.ch"
+        ],
+        "photo_gallery_author": [
+            "Raphael Wernli",
+            "Raphael Wernli",
+            "Raphael Wernli"
+        ],
+        "photo_gallery_abstract": [
+            "",
+            "",
+            ""
+        ],
+        "name": "Aletsch Arena",
+        "name_2": null,
+        "street": "Furkastrasse 39",
+        "zip": "3983",
+        "place": "Mörel-Filet",
+        "tel": "+41 (0)27 928 58 58",
+        "fax": null,
+        "email": "info@aletscharena.ch",
+        "url1_link": "https://www.aletscharena.ch ",
+        "x_coordinate": 645905.362660458,
+        "y_coordinate": 136690.79188769957,
+        "change_date": null,
+        "id": 872,
+        "r_key": 872,
+        "type": "Sight",
+        "url_sightseeing": "https://www.valais.ch/en/activities/mountain-bike/pumptracks",
+        "touristic_region": 11,
+        "canton": 7
+    }
+}

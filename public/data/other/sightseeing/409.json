@@ -1,1 +1,60 @@
-{"type":"Feature","id":409,"geometry":{"type":"Point","coordinates":[46.54735366138976,7.984078128599965]},"properties":{"land":null,"category":"all","language":"en","title":"Jungfraujoch","abstract":"Bringing tourists to the top of the seemingly inpenetrable Jungfraujoch, at an altitude of 3454 m.a.s.l. was a bold plan. After 16 years of construction, the railroad line Kleine Scheidegg-Jungfraujoch was finally inaugurated in 1912.","description":"A high point in the history of mountain railways - after 16 years of construction, the Jungfrau Railway was inaugurated on Swiss National Day in 1912 and at 3454m, remains Europe's highest railway station to this day. A trip up into this fascinating glacier world is one of the highlights of travelling in Switzerland.\n\nThe ride is absolutely spectacular. For safety reasons, the last segment was pulled through the mountain. Although one rides in a tunnel, there are several stops on the way which allow interested passengers to disembark briefly and to catch a glimpse of the surrounding panorama.\n\nOnce on top, one may initially feel a little out of breath because of the altitude. Once one has adjusted, one should take in the incomparable view from the Sphinx Terrace, from the walking plateau and from the restaurant. To the North one will glimpse the Jura, just across the Mönch and Jungfrau, to the South the endless ice flows of Europe\"s largest glacier, the Aletsch Glacier, and rows and rows of mountain ranges.","highlights":null,"foto":"https://images0.schweizmobil.ch/image/9802_Jungfraujoch_1a.jpg","photo_gallery":["https://images0.schweizmobil.ch/image/9802_Jungfraujoch_1a.jpg","https://images0.schweizmobil.ch/image/9802_Jungfraujoch_2b.jpg"],"photo_gallery_big":["",""],"photo_gallery_copyright":["",""],"photo_gallery_author":["",""],"name":"Grindelwald Tourismus","name_2":null,"street":"Dorfstrasse 110","zip":"3818","place":"Grindelwald","tel":"+41 (0)33 854 12 12","fax":null,"email":"info@grindelwald.swiss","url1_link":"https://www.grindelwald.ch","x_coordinate":641834.8543498452,"y_coordinate":155264.07929875597,"change_date":null,"id":409,"r_key":409,"type":"Sight","url_sightseeing":"https://www.jungfraujoch.ch","touristic_region":11}}
+{
+    "type": "Feature",
+    "id": 409,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.547353676178346,
+            7.98407812225507
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Jungfraujoch",
+        "abstract": "Bringing tourists to the top of the seemingly inpenetrable Jungfraujoch, at an altitude of 3454 m.a.s.l. was a bold plan. After 16 years of construction, the railroad line Kleine Scheidegg-Jungfraujoch was finally inaugurated in 1912.",
+        "description": "A high point in the history of mountain railways - after 16 years of construction, the Jungfrau Railway was inaugurated on Swiss National Day in 1912 and at 3454m, remains Europe's highest railway station to this day. A trip up into this fascinating glacier world is one of the highlights of travelling in Switzerland.\n\nThe ride is absolutely spectacular. For safety reasons, the last segment was pulled through the mountain. Although one rides in a tunnel, there are several stops on the way which allow interested passengers to disembark briefly and to catch a glimpse of the surrounding panorama.\n\nOnce on top, one may initially feel a little out of breath because of the altitude. Once one has adjusted, one should take in the incomparable view from the Sphinx Terrace, from the walking plateau and from the restaurant. To the North one will glimpse the Jura, just across the Mönch and Jungfrau, to the South the endless ice flows of Europe\"s largest glacier, the Aletsch Glacier, and rows and rows of mountain ranges.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/9802_Jungfraujoch_1a.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/9802_Jungfraujoch_1a.jpg",
+            "https://images.schweizmobil.ch/image/9802_Jungfraujoch_2b.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "Grindelwald Tourismus",
+        "name_2": null,
+        "street": "Dorfstrasse 110",
+        "zip": "3818",
+        "place": "Grindelwald",
+        "tel": "+41 (0)33 854 12 12",
+        "fax": null,
+        "email": "info@grindelwald.swiss",
+        "url1_link": "https://www.grindelwald.ch",
+        "x_coordinate": 641834.8543498452,
+        "y_coordinate": 155264.07929875597,
+        "change_date": null,
+        "id": 409,
+        "r_key": 409,
+        "type": "Sight",
+        "url_sightseeing": "https://www.jungfraujoch.ch",
+        "touristic_region": 11,
+        "canton": 7
+    }
+}

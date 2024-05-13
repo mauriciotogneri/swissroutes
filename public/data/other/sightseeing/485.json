@@ -1,1 +1,60 @@
-{"type":"Feature","id":485,"geometry":{"type":"Point","coordinates":[46.91750379342543,7.118303420307694]},"properties":{"land":null,"category":"all","language":"en","title":"Bois Domingue - Viewpoint and exhibition","abstract":"Panoramic view of Le Vully and the Jura mountains. A green oasis only a stone's throw away from the town of Morat. Also not to be missed - an exhibition on the historic Battle of Morat.","description":"To the south of Morat and only 15 mins from the train station lies the Bois Domingue. Steeped in history, this hill offers stunning views of the lakes and the Jura mountains.\n\nAn exhibition describes the political backdrop to the historic Battle of Morat, how the events unfolded and why it was to become a pivotal moment in Switzerland’s history.","highlights":null,"foto":"https://images0.schweizmobil.ch/image/7969_Aussichtspunkt-Bois-Domingue_1a1.jpg","photo_gallery":["https://images0.schweizmobil.ch/image/7969_Aussichtspunkt-Bois-Domingue_1a1.jpg","https://images0.schweizmobil.ch/image/7969_Aussichtspunkt-Bois-Domingue_1b.jpg"],"photo_gallery_big":["",""],"photo_gallery_copyright":["",""],"photo_gallery_author":["",""],"name":"Murten Tourismus","name_2":null,"street":"Französische Kirchgasse 6","zip":"3280","place":"Murten","tel":"+41 (0)26 670 51 12","fax":null,"email":"info@regionmurtensee.ch","url1_link":"https://www.regionmurtensee.ch","x_coordinate":575599.9172993526,"y_coordinate":196317.8417118609,"change_date":null,"id":485,"r_key":485,"type":"Sight","url_sightseeing":"https://www.regionmurtensee.ch/en/P11548/bodenmuenzi","touristic_region":13}}
+{
+    "type": "Feature",
+    "id": 485,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.91750379435698,
+            7.118303417277044
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Bois Domingue - Viewpoint and exhibition",
+        "abstract": "Panoramic view of Le Vully and the Jura mountains. A green oasis only a stone's throw away from the town of Morat. Also not to be missed - an exhibition on the historic Battle of Morat.",
+        "description": "To the south of Morat and only 15 mins from the train station lies the Bois Domingue. Steeped in history, this hill offers stunning views of the lakes and the Jura mountains.\n\nAn exhibition describes the political backdrop to the historic Battle of Morat, how the events unfolded and why it was to become a pivotal moment in Switzerland’s history.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/7969_Aussichtspunkt-Bois-Domingue_1a1.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/7969_Aussichtspunkt-Bois-Domingue_1a1.jpg",
+            "https://images.schweizmobil.ch/image/7969_Aussichtspunkt-Bois-Domingue_1b.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "Murten Tourismus",
+        "name_2": null,
+        "street": "Französische Kirchgasse 6",
+        "zip": "3280",
+        "place": "Murten",
+        "tel": "+41 (0)26 670 51 12",
+        "fax": null,
+        "email": "info@regionmurtensee.ch",
+        "url1_link": "https://www.regionmurtensee.ch",
+        "x_coordinate": 575599.9172993526,
+        "y_coordinate": 196317.8417118609,
+        "change_date": null,
+        "id": 485,
+        "r_key": 485,
+        "type": "Sight",
+        "url_sightseeing": "https://www.regionmurtensee.ch/en/P11548/bodenmuenzi",
+        "touristic_region": 13,
+        "canton": 5
+    }
+}

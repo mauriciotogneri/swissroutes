@@ -1,1 +1,34 @@
-{"type":"Feature","id":3104,"geometry":{"type":"Point","coordinates":[47.64603493064493,8.87542778871093]},"properties":{"land":"\"velo\",\"mountainbike\"","category":"all","language":"en","title":"Jud Anton","abstract":null,"name":"Jud Anton","street":"alte Bahnhofstrasse 2","zip":"8264","place":"Eschenz","tel":"+41 52 741 31 55","email":null,"url1_text":null,"url1_link":null,"organisation":"2rad / 2routes / 2ruote","foto":null,"x_coordinate":707957.3514211704,"y_coordinate":278253.45988774794,"change_date":null,"id":351,"type":"Service"}}
+{
+    "type": "Feature",
+    "id": 3104,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            47.64603492155992,
+            8.875427814417668
+        ]
+    },
+    "properties": {
+        "land": "\"velo\",\"mountainbike\"",
+        "category": "all",
+        "language": "en",
+        "title": "Jud Anton",
+        "abstract": null,
+        "name": "Jud Anton",
+        "street": "alte Bahnhofstrasse 2",
+        "zip": "8264",
+        "place": "Eschenz",
+        "tel": "+41 52 741 31 55",
+        "email": null,
+        "url1_text": null,
+        "url1_link": null,
+        "organisation": "2rad / 2routes / 2ruote",
+        "foto": null,
+        "foto_abstract": null,
+        "x_coordinate": 707957.3514211704,
+        "y_coordinate": 278253.45988774794,
+        "change_date": null,
+        "id": 351,
+        "type": "Service"
+    }
+}

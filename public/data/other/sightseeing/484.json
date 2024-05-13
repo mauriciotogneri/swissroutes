@@ -1,1 +1,60 @@
-{"type":"Feature","id":484,"geometry":{"type":"Point","coordinates":[46.959453214026254,7.091973953161055]},"properties":{"land":null,"category":"all","language":"en","title":"Mount Vully - Home of good food and wine","abstract":"Mount Vully, a wine-producing region on the shores of Lake Murten, is the ideal destination for bons viveurs! Try the perch fillets with a glass of the excellent local wine, before rounding off your meal with a slice of the famous gâteau du Vully.","description":"Mount Vully is situated on the western side of the Seeland's largest plain and resembles a pearl gently placed between the three lakes of Murten, Neuchâtel and Biel. The Celtic and Helvetic tribes appreciated the region's temperate climate and the local countryside's particular charm. Secrets from these ancient settlers can be re-discovered in Vully's archaeological sites.\n\nThe white wine grape, Chasselas, is grown on some 75 hectares of Le Vully vineyards (around 73% of the total surface area), while approximately 20% is given over to red wine varieties, in particular Pinot Noir.\n\nThe gâteau du Vully is perhaps the region’s most famous regional specialty, particularly the original baked cream and sugar version. However the savoury version with bacon and cumin seeds is equally delicious and well worth a try.","highlights":null,"foto":"https://images0.schweizmobil.ch/image/7982_Mont-Vully_Wein-und-Gastronomie_1a.jpg","photo_gallery":["https://images0.schweizmobil.ch/image/7982_Mont-Vully_Wein-und-Gastronomie_1a.jpg","https://images0.schweizmobil.ch/image/7982_Mont-Vully_Wein-und-Gastronomie_2b.jpg"],"photo_gallery_big":["",""],"photo_gallery_copyright":["",""],"photo_gallery_author":["",""],"name":"Vully Tourisme","name_2":null,"street":"Route de la Gare 1","zip":"1786","place":"Sugiez","tel":"+41 (0)26 673 18 72","fax":null,"email":"info@levully.ch","url1_link":"https://www.levully.ch","x_coordinate":573614.9612805188,"y_coordinate":200989.95443991257,"change_date":null,"id":484,"r_key":484,"type":"Sight","url_sightseeing":"https://www.levully.ch","touristic_region":13}}
+{
+    "type": "Feature",
+    "id": 484,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.95945321436101,
+            7.091973955996852
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Mount Vully - Home of good food and wine",
+        "abstract": "Mount Vully, a wine-producing region on the shores of Lake Murten, is the ideal destination for bons viveurs! Try the perch fillets with a glass of the excellent local wine, before rounding off your meal with a slice of the famous gâteau du Vully.",
+        "description": "Mount Vully is situated on the western side of the Seeland's largest plain and resembles a pearl gently placed between the three lakes of Murten, Neuchâtel and Biel. The Celtic and Helvetic tribes appreciated the region's temperate climate and the local countryside's particular charm. Secrets from these ancient settlers can be re-discovered in Vully's archaeological sites.\n\nThe white wine grape, Chasselas, is grown on some 75 hectares of Le Vully vineyards (around 73% of the total surface area), while approximately 20% is given over to red wine varieties, in particular Pinot Noir.\n\nThe gâteau du Vully is perhaps the region’s most famous regional specialty, particularly the original baked cream and sugar version. However the savoury version with bacon and cumin seeds is equally delicious and well worth a try.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/7982_Mont-Vully_Wein-und-Gastronomie_1a.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/7982_Mont-Vully_Wein-und-Gastronomie_1a.jpg",
+            "https://images.schweizmobil.ch/image/7982_Mont-Vully_Wein-und-Gastronomie_2b.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "Vully Tourisme",
+        "name_2": null,
+        "street": "Route de la Gare 1",
+        "zip": "1786",
+        "place": "Sugiez",
+        "tel": "+41 (0)26 673 18 72",
+        "fax": null,
+        "email": "info@levully.ch",
+        "url1_link": "https://www.levully.ch",
+        "x_coordinate": 573614.9612805188,
+        "y_coordinate": 200989.95443991257,
+        "change_date": null,
+        "id": 484,
+        "r_key": 484,
+        "type": "Sight",
+        "url_sightseeing": "https://www.levully.ch",
+        "touristic_region": 13,
+        "canton": 5
+    }
+}

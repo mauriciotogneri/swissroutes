@@ -1,1 +1,60 @@
-{"type":"Feature","id":464,"geometry":{"type":"Point","coordinates":[47.36950604967709,7.354502592384942]},"properties":{"land":null,"category":"all","language":"en","title":"Coutellerie Wenger","abstract":"Everybody knows the famous Swiss Army knife. Delémont, capital of the canton of Jura, is where it is made.","description":"Free guided tours for groups (from 6 to 15 persons) lasting about one hour are offered. Tours (which must be reserved in advance) take place throughout the year except between mid-July and mid-August and at the end of December (annual holidays). Individuals are welcome at the factory shop every day. All Wenger products are available there, from knives to watches as well as products designed for travel or hiking.","highlights":null,"foto":"https://images0.schweizmobil.ch/image/11298_Coutellerie_Wenger_1a.jpg","photo_gallery":["https://images0.schweizmobil.ch/image/11298_Coutellerie_Wenger_1a.jpg","https://images0.schweizmobil.ch/image/11298_Coutellerie_Wenger_2b.jpg"],"photo_gallery_big":["",""],"photo_gallery_copyright":["",""],"photo_gallery_author":["",""],"name":"Jura Tourisme","name_2":null,"street":"Place de la Gare 9","zip":"2800","place":"Delémont","tel":"+41 (0)32 432 41 70","fax":null,"email":"info@juratourisme.ch","url1_link":"https://www.juratourisme.ch","x_coordinate":593645.0687596836,"y_coordinate":246522.4749960911,"change_date":null,"id":464,"r_key":464,"type":"Sight","url_sightseeing":"https://www.wenger.ch","touristic_region":8}}
+{
+    "type": "Feature",
+    "id": 464,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            47.369506059195835,
+            7.3545025949404685
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Coutellerie Wenger",
+        "abstract": "Everybody knows the famous Swiss Army knife. Delémont, capital of the canton of Jura, is where it is made.",
+        "description": "Free guided tours for groups (from 6 to 15 persons) lasting about one hour are offered. Tours (which must be reserved in advance) take place throughout the year except between mid-July and mid-August and at the end of December (annual holidays). Individuals are welcome at the factory shop every day. All Wenger products are available there, from knives to watches as well as products designed for travel or hiking.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/11298_Coutellerie_Wenger_1a.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/11298_Coutellerie_Wenger_1a.jpg",
+            "https://images.schweizmobil.ch/image/11298_Coutellerie_Wenger_2b.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "Jura Tourisme",
+        "name_2": null,
+        "street": "Place de la Gare 9",
+        "zip": "2800",
+        "place": "Delémont",
+        "tel": "+41 (0)32 432 41 70",
+        "fax": null,
+        "email": "info@juratourisme.ch",
+        "url1_link": "https://www.juratourisme.ch",
+        "x_coordinate": 593645.0687596836,
+        "y_coordinate": 246522.4749960911,
+        "change_date": null,
+        "id": 464,
+        "r_key": 464,
+        "type": "Sight",
+        "url_sightseeing": "https://www.wenger.ch",
+        "touristic_region": 8,
+        "canton": 24
+    }
+}

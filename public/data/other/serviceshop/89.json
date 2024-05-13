@@ -1,1 +1,34 @@
-{"type":"Feature","id":2879,"geometry":{"type":"Point","coordinates":[46.97335088810732,7.7475423000791075]},"properties":{"land":"\"velo\",\"mountainbike\"","category":"all","language":"en","title":"B. Müller GmbH","abstract":null,"name":"B. Müller GmbH","street":"Langnaustrasse 8","zip":"3436","place":"Zollbrück","tel":"+41 34 496 77 35","email":null,"url1_text":null,"url1_link":"https://www.mueller-zweirad.ch","organisation":"2rad / 2routes / 2ruote","foto":null,"x_coordinate":623506.103490621,"y_coordinate":202522.60409597462,"change_date":null,"id":89,"type":"Service"}}
+{
+    "type": "Feature",
+    "id": 2879,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.97335088712569,
+            7.747542291689007
+        ]
+    },
+    "properties": {
+        "land": "\"velo\",\"mountainbike\"",
+        "category": "all",
+        "language": "en",
+        "title": "B. Müller GmbH",
+        "abstract": null,
+        "name": "B. Müller GmbH",
+        "street": "Langnaustrasse 8",
+        "zip": "3436",
+        "place": "Zollbrück",
+        "tel": "+41 34 496 77 35",
+        "email": null,
+        "url1_text": null,
+        "url1_link": "https://www.mueller-zweirad.ch",
+        "organisation": "2rad / 2routes / 2ruote",
+        "foto": null,
+        "foto_abstract": null,
+        "x_coordinate": 623506.103490621,
+        "y_coordinate": 202522.60409597462,
+        "change_date": null,
+        "id": 89,
+        "type": "Service"
+    }
+}

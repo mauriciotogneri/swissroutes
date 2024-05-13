@@ -1,1 +1,34 @@
-{"type":"Feature","id":3305,"geometry":{"type":"Point","coordinates":[46.72768534779078,9.558010534823115]},"properties":{"land":"\"velo\",\"mountainbike\"","category":"all","language":"en","title":"Pesko Sport AG","abstract":null,"name":"Pesko Sport AG","street":"Voa Principale 56","zip":"7078","place":"Lenzerheide","tel":"+41 81 358 1010","email":null,"url1_text":null,"url1_link":"https://www.pesko.ch","organisation":null,"foto":null,"x_coordinate":761991.6765906499,"y_coordinate":177353.2410931298,"change_date":null,"id":586,"type":"Service"}}
+{
+    "type": "Feature",
+    "id": 3305,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.727685355470015,
+            9.558010532828625
+        ]
+    },
+    "properties": {
+        "land": "\"velo\",\"mountainbike\"",
+        "category": "all",
+        "language": "en",
+        "title": "Pesko Sport AG",
+        "abstract": null,
+        "name": "Pesko Sport AG",
+        "street": "Voa Principale 56",
+        "zip": "7078",
+        "place": "Lenzerheide",
+        "tel": "+41 81 358 1010",
+        "email": null,
+        "url1_text": null,
+        "url1_link": "https://www.pesko.ch",
+        "organisation": null,
+        "foto": null,
+        "foto_abstract": null,
+        "x_coordinate": 761991.6765906501,
+        "y_coordinate": 177353.2410931241,
+        "change_date": null,
+        "id": 586,
+        "type": "Service"
+    }
+}

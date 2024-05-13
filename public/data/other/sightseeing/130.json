@@ -1,1 +1,65 @@
-{"type":"Feature","id":130,"geometry":{"type":"Point","coordinates":[47.2617549583847,7.168614225766283]},"properties":{"land":null,"category":"all","language":"en","title":"Tête de Moine cheese museum of Bellelay","abstract":"In Bellelay, home to the Tête de Moine AOC, Fromage de Bellelay, you can visit the historic cheese dairy with its informative trail. Guided tours by request. This dairy is housed in the barn of the former monastery, now the Bellelay tourist office.","description":"The museum is dedicated to cheese and to Tête de Moine, featuring tools, numerous utensils (moulds, milk churns, scales, centrifuges and other milk-processing equipment), explanatory panels and a collection of genuine and counterfeit «girolles» (cheese scrapers). Beside the historic dairy, Promotion Bellelay SA is home to a riding centre and a museum dedicated to the history of the Freiberger breed of horses, as well as to dormitories and banqueting facilities.\n\nOn the nature trail, you can discover the landscape and its flora and fauna. Over the centuries, the history of Tête de Moine has always been closely linked to Bellelay Abbey, where regular organ concerts are held. To make a spur-of-the-moment visit, just ask for the key to the Abbey at the clinic reception desk. Guided tours are organized for groups.\n\nEvery Tête de Moine AOC cheese starts life on the mountain pastures of the Swiss Jura – the only place the cows find that special blend of aromatic herbs and plants that give this cheese its unique flavour and exceptional character. A typical product of its native heath.","highlights":null,"foto":"https://images0.schweizmobil.ch/image/Sehenswuerdigkeit_MuseeTetedeMoine.jpg","photo_gallery":["https://images0.schweizmobil.ch/image/Sehenswuerdigkeit_MuseeTetedeMoine.jpg","https://images0.schweizmobil.ch/image/11486_Tete_de_Moine_Museum_Bellelay_1a.jpg","https://images0.schweizmobil.ch/image/11486_Tete_de_Moine_Museum_Bellelay_2b.jpg"],"photo_gallery_big":["","",""],"photo_gallery_copyright":["","",""],"photo_gallery_author":["","",""],"name":"Jura bernois Tourisme","name_2":null,"street":"Avenue de la Gare 9","zip":"2740","place":"Moutier","tel":"+41 32 494 53 43","fax":null,"email":"moutier@jurabernois.ch","url1_link":"https://www.jurabernois.ch","x_coordinate":579563.6954120989,"y_coordinate":234574.77255360418,"change_date":null,"id":130,"r_key":130,"type":"Sight","url_sightseeing":"https://www.j3l.ch/en/P32337/maison-de-la-tete-de-moine","touristic_region":8}}
+{
+    "type": "Feature",
+    "id": 130,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            47.26175497366528,
+            7.1686142299086475
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Tête de Moine cheese museum of Bellelay",
+        "abstract": "In Bellelay, home to the Tête de Moine AOC, Fromage de Bellelay, you can visit the historic cheese dairy with its informative trail. Guided tours by request. This dairy is housed in the barn of the former monastery, now the Bellelay tourist office.",
+        "description": "The museum is dedicated to cheese and to Tête de Moine, featuring tools, numerous utensils (moulds, milk churns, scales, centrifuges and other milk-processing equipment), explanatory panels and a collection of genuine and counterfeit «girolles» (cheese scrapers). Beside the historic dairy, Promotion Bellelay SA is home to a riding centre and a museum dedicated to the history of the Freiberger breed of horses, as well as to dormitories and banqueting facilities.\n\nOn the nature trail, you can discover the landscape and its flora and fauna. Over the centuries, the history of Tête de Moine has always been closely linked to Bellelay Abbey, where regular organ concerts are held. To make a spur-of-the-moment visit, just ask for the key to the Abbey at the clinic reception desk. Guided tours are organized for groups.\n\nEvery Tête de Moine AOC cheese starts life on the mountain pastures of the Swiss Jura – the only place the cows find that special blend of aromatic herbs and plants that give this cheese its unique flavour and exceptional character. A typical product of its native heath.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/Sehenswuerdigkeit_MuseeTetedeMoine.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/Sehenswuerdigkeit_MuseeTetedeMoine.jpg",
+            "https://images.schweizmobil.ch/image/11486_Tete_de_Moine_Museum_Bellelay_1a.jpg",
+            "https://images.schweizmobil.ch/image/11486_Tete_de_Moine_Museum_Bellelay_2b.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            "",
+            ""
+        ],
+        "name": "Jura bernois Tourisme",
+        "name_2": null,
+        "street": "Avenue de la Gare 9",
+        "zip": "2740",
+        "place": "Moutier",
+        "tel": "+41 32 494 53 43",
+        "fax": null,
+        "email": "moutier@jurabernois.ch",
+        "url1_link": "https://www.jurabernois.ch",
+        "x_coordinate": 579563.6954120989,
+        "y_coordinate": 234574.77255360418,
+        "change_date": null,
+        "id": 130,
+        "r_key": 130,
+        "type": "Sight",
+        "url_sightseeing": "https://www.j3l.ch/en/P32337/maison-de-la-tete-de-moine",
+        "touristic_region": 8,
+        "canton": 12
+    }
+}

@@ -1,66 +1,75 @@
 {
-  "type": "Feature",
-  "id": 715,
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      47.13804751412371,
-      7.222888521679754
-    ]
-  },
-  "properties": {
-    "land": null,
-    "category": "all",
-    "language": "en",
-    "title": "BielTrail ",
-    "abstract": "On the BielTrail, between the Magglingen sports center and the bilingual Biel watchmaking town, mountain-bikers can train and exhibit their skills on this downhill track. A challenging stretch through the woods tenders free-flowing fun and some spectacular as well as technically challenging hurdles.",
-    "description": "On constructing this special track, particular attention was paid to exploiting the natural terrain with its varied substrates and highs and lows. Doubles, Tables, Step-ups and Step-downs stand at the ready for ambitious bikers, along with stony patches, with all hurdles avoidable if you're aiming for a more straightforward run.\n\nA stretch requiring experience, a good level of fitness and proper gear – full-face helmet and kneepads are a must! A well-maintained bike with good suspension (140mm) is also advisable.\n\nParts of the stretch run close to the town. Outside the track general traffic rules apply. Please pay attention to road traffic (between the track exit and cable railway) and remember consideration for other users of the woodland path is a must!\n\nStretch length: 1950 m\nAltitude: 440 m\nCharacteristics: short and steep passages, stony patches, exposed roots, diversified, Kicker from 2 - 9m.\n\nYou can get to the start under your own steam or with the FUNIC Biel-Magglingen funicular railway.",
-    "highlights": null,
-    "foto": "https://images0.schweizmobil.ch/image/vtt_bieltrail1_c_michael_suter.jpg",
-    "photo_gallery": [
-      "https://images0.schweizmobil.ch/image/vtt_bieltrail1_c_michael_suter.jpg",
-      "https://images0.schweizmobil.ch/image/vtt_bieltrail3_c_michael_suter.jpg",
-      "https://images0.schweizmobil.ch/image/POI_BielTrail_2013_1.jpg",
-      "https://images0.schweizmobil.ch/image/POI_BielTrail_2013_2.jpg",
-      "https://images0.schweizmobil.ch/image/vtt_bieltrail2_c_michael_suter.jpg"
-    ],
-    "photo_gallery_big": [
-      "",
-      "",
-      "",
-      "",
-      ""
-    ],
-    "photo_gallery_copyright": [
-      "",
-      "",
-      "",
-      "",
-      ""
-    ],
-    "photo_gallery_author": [
-      "",
-      "",
-      "",
-      "",
-      ""
-    ],
-    "name": "Verein trailnet.ch",
-    "name_2": null,
-    "street": "",
-    "zip": "",
-    "place": "Bern",
-    "tel": "",
-    "fax": null,
-    "email": "info@trailnet.ch",
-    "url1_link": "https://www.trailnet.ch",
-    "x_coordinate": 583633.8673802505,
-    "y_coordinate": 220808.3827232732,
-    "change_date": null,
+    "type": "Feature",
     "id": 715,
-    "r_key": 715,
-    "type": "Sight",
-    "url_sightseeing": "https://www.trailnet-bielbienne.ch/bieltrail/",
-    "touristic_region": 8
-  }
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            47.13804751305648,
+            7.222888516363249
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "BielTrail ",
+        "abstract": "On the BielTrail, between the Magglingen sports center and the bilingual Biel watchmaking town, mountain-bikers can train and exhibit their skills on this downhill track. A challenging stretch through the woods tenders free-flowing fun and some spectacular as well as technically challenging hurdles.",
+        "description": "On constructing this special track, particular attention was paid to exploiting the natural terrain with its varied substrates and highs and lows. Doubles, Tables, Step-ups and Step-downs stand at the ready for ambitious bikers, along with stony patches, with all hurdles avoidable if you're aiming for a more straightforward run.\n\nA stretch requiring experience, a good level of fitness and proper gear – full-face helmet and kneepads are a must! A well-maintained bike with good suspension (140mm) is also advisable.\n\nParts of the stretch run close to the town. Outside the track general traffic rules apply. Please pay attention to road traffic (between the track exit and cable railway) and remember consideration for other users of the woodland path is a must!\n\nStretch length: 1950 m\nAltitude: 440 m\nCharacteristics: short and steep passages, stony patches, exposed roots, diversified, Kicker from 2 - 9m.\n\nYou can get to the start under your own steam or with the FUNIC Biel-Magglingen funicular railway.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/vtt_bieltrail1_c_michael_suter.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/vtt_bieltrail1_c_michael_suter.jpg",
+            "https://images.schweizmobil.ch/image/vtt_bieltrail3_c_michael_suter.jpg",
+            "https://images.schweizmobil.ch/image/POI_BielTrail_2013_1.jpg",
+            "https://images.schweizmobil.ch/image/POI_BielTrail_2013_2.jpg",
+            "https://images.schweizmobil.ch/image/vtt_bieltrail2_c_michael_suter.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "name": "Verein trailnet.ch",
+        "name_2": null,
+        "street": "-",
+        "zip": "-",
+        "place": "Bern",
+        "tel": " ",
+        "fax": null,
+        "email": "info@trailnet.ch",
+        "url1_link": "https://www.trailnet.ch",
+        "x_coordinate": 583633.8673802505,
+        "y_coordinate": 220808.3827232732,
+        "change_date": null,
+        "id": 715,
+        "r_key": 715,
+        "type": "Sight",
+        "url_sightseeing": "https://www.trailnet-bielbienne.ch/bieltrail/",
+        "touristic_region": 8,
+        "canton": 12
+    }
 }

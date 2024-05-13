@@ -1,1 +1,60 @@
-{"type":"Feature","id":555,"geometry":{"type":"Point","coordinates":[46.662931905271996,9.446616886192798]},"properties":{"land":null,"category":"all","language":"en","title":"Viamala Gorge","abstract":"The Via Mala Gorge is situated between Thusis and Andeer. Its name translates as «bad road», and for centuries it has enjoyed a unique mythical status. This natural monument with its rock walls reaching up 300 m is easily accessible to visitors.","description":"The Viamala is an impressive sight, a historic and legendary feature of Graubünden. The thoughts of the famous philosopher Friedrich Nietzsche sum up its fascination: «I shall write nothing about the terrible magnificence of the Viamala gorge. It makes me feel as if I had never really known Switzerland before». At one time this natural monument was probably the most feared section of the historic transit route known as the Via Spluga between Thusis and Chiavenna. Nowadays, it is a «must see» for tourists. 359 stone steps lead you safely down into the depths of the gorge, where a rocky gallery and visitors' platform offer fascinating views.","highlights":null,"foto":"https://images0.schweizmobil.ch/image/8255_Viamala-Schlucht_1a.jpg","photo_gallery":["https://images0.schweizmobil.ch/image/8255_Viamala-Schlucht_1a.jpg","https://images0.schweizmobil.ch/image/8255_Viamala-Schlucht_2b.jpg"],"photo_gallery_big":["",""],"photo_gallery_copyright":["",""],"photo_gallery_author":["",""],"name":"Viamala Tourismus","name_2":null,"street":"Bodenplatz4","zip":"7435","place":"Splügen","tel":"+41 (0)81 650 90 30","fax":null,"email":"info@viamala.ch","url1_link":"https://www.viamala.ch","x_coordinate":753663.9090253442,"y_coordinate":169933.57766561263,"change_date":null,"id":555,"r_key":555,"type":"Sight","url_sightseeing":"http://www.viamala.ch/sommer/viamala-und-rofflaschlucht.html","touristic_region":1}}
+{
+    "type": "Feature",
+    "id": 555,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.662931908845906,
+            9.44661695816025
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Viamala Gorge",
+        "abstract": "The Via Mala Gorge is situated between Thusis and Andeer. Its name translates as «bad road», and for centuries it has enjoyed a unique mythical status. This natural monument with its rock walls reaching up 300 m is easily accessible to visitors.",
+        "description": "The Viamala is an impressive sight, a historic and legendary feature of Graubünden. The thoughts of the famous philosopher Friedrich Nietzsche sum up its fascination: «I shall write nothing about the terrible magnificence of the Viamala gorge. It makes me feel as if I had never really known Switzerland before». At one time this natural monument was probably the most feared section of the historic transit route known as the Via Spluga between Thusis and Chiavenna. Nowadays, it is a «must see» for tourists. 359 stone steps lead you safely down into the depths of the gorge, where a rocky gallery and visitors' platform offer fascinating views.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/8255_Viamala-Schlucht_1a.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/8255_Viamala-Schlucht_1a.jpg",
+            "https://images.schweizmobil.ch/image/8255_Viamala-Schlucht_2b.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "Viamala Tourismus",
+        "name_2": null,
+        "street": "Bodenplatz4",
+        "zip": "7435",
+        "place": "Splügen",
+        "tel": "+41 (0)81 650 90 30",
+        "fax": null,
+        "email": "info@viamala.ch",
+        "url1_link": "https://www.viamala.ch",
+        "x_coordinate": 753663.9090253442,
+        "y_coordinate": 169933.57766561263,
+        "change_date": null,
+        "id": 555,
+        "r_key": 555,
+        "type": "Sight",
+        "url_sightseeing": "http://www.viamala.ch/sommer/viamala-und-rofflaschlucht.html",
+        "touristic_region": 1,
+        "canton": 2
+    }
+}

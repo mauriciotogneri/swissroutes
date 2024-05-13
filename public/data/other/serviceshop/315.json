@@ -1,1 +1,34 @@
-{"type":"Feature","id":3075,"geometry":{"type":"Point","coordinates":[47.38800182057137,8.53582437024823]},"properties":{"land":"\"velo\",\"mountainbike\"","category":"all","language":"en","title":"Veloatelier","abstract":null,"name":"Veloatelier","street":"Kornhausstrasse 21","zip":"8037","place":"Zürich","tel":"+41 44 364 15 10","email":null,"url1_text":null,"url1_link":"https://www.veloatelier.ch","organisation":"2rad / 2routes / 2ruote","foto":null,"x_coordinate":682843.3513263959,"y_coordinate":249154.52813469036,"change_date":null,"id":315,"type":"Service"}}
+{
+    "type": "Feature",
+    "id": 3075,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            47.38800183388859,
+            8.535824394275865
+        ]
+    },
+    "properties": {
+        "land": "\"velo\",\"mountainbike\"",
+        "category": "all",
+        "language": "en",
+        "title": "Veloatelier",
+        "abstract": null,
+        "name": "Veloatelier",
+        "street": "Kornhausstrasse 21",
+        "zip": "8037",
+        "place": "Zürich",
+        "tel": "+41 44 364 15 10",
+        "email": null,
+        "url1_text": null,
+        "url1_link": "https://www.veloatelier.ch",
+        "organisation": "2rad / 2routes / 2ruote",
+        "foto": null,
+        "foto_abstract": null,
+        "x_coordinate": 682843.3513263959,
+        "y_coordinate": 249154.52813469036,
+        "change_date": null,
+        "id": 315,
+        "type": "Service"
+    }
+}

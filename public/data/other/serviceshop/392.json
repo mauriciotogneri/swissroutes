@@ -1,1 +1,34 @@
-{"type":"Feature","id":3135,"geometry":{"type":"Point","coordinates":[47.54460878183459,9.290514869264266]},"properties":{"land":"\"velo\",\"mountainbike\"","category":"all","language":"en","title":"Keller Heinz","abstract":null,"name":"Keller Heinz","street":"Weinfelderstrasse 41","zip":"8580","place":"Amriswil","tel":"+41 71 411 38 40","email":null,"url1_text":null,"url1_link":"https://www.velos-motos-keller.ch","organisation":"2rad / 2routes / 2ruote","foto":null,"x_coordinate":739406.8106168049,"y_coordinate":267632.2688818654,"change_date":null,"id":392,"type":"Service"}}
+{
+    "type": "Feature",
+    "id": 3135,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            47.54460880636523,
+            9.290514928482812
+        ]
+    },
+    "properties": {
+        "land": "\"velo\",\"mountainbike\"",
+        "category": "all",
+        "language": "en",
+        "title": "Keller Heinz",
+        "abstract": null,
+        "name": "Keller Heinz",
+        "street": "Weinfelderstrasse 41",
+        "zip": "8580",
+        "place": "Amriswil",
+        "tel": "+41 71 411 38 40",
+        "email": null,
+        "url1_text": null,
+        "url1_link": "https://www.velos-motos-keller.ch",
+        "organisation": "2rad / 2routes / 2ruote",
+        "foto": null,
+        "foto_abstract": null,
+        "x_coordinate": 739406.8106168049,
+        "y_coordinate": 267632.2688818654,
+        "change_date": null,
+        "id": 392,
+        "type": "Service"
+    }
+}

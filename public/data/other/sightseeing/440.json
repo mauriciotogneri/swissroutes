@@ -1,1 +1,60 @@
-{"type":"Feature","id":440,"geometry":{"type":"Point","coordinates":[46.20334411451006,7.170658641592589]},"properties":{"land":null,"category":"all","language":"en","title":"Lucky-Luke Treasure Hunt","abstract":"Through the treasure hunt circuits, you will have fun to discover the adventures of the hero and Ovronnaz's area. The 2 circuits use the official footpaths. The big circuit is open all year round.","description":"The principle is simple; follow the different posts and elucidate the enigmas. Parents may have, though this hunt, an opportunity to motivate their children to walk. The circuits can be fragmented and.made on several days. Each participant gets, at the end, a gift in relation with Lucky-Luke and participate in the drawing lot. Many prices can be won.","highlights":null,"foto":"https://images0.schweizmobil.ch/image/11350_Lucky_Luke_Trail_1a.jpg","photo_gallery":["https://images0.schweizmobil.ch/image/11350_Lucky_Luke_Trail_1a.jpg","https://images0.schweizmobil.ch/image/11350_Lucky_Luke_Trail_2b.jpg"],"photo_gallery_big":["",""],"photo_gallery_copyright":["",""],"photo_gallery_author":["",""],"name":"Office du Tourisme d’Ovronnaz","name_2":null,"street":"Route des Muverans 38","zip":"1911","place":"Ovronnaz","tel":"+41 (0)27 306 42 93","fax":null,"email":"info@ovronnaz.ch","url1_link":"https://www.ovronnaz.ch","x_coordinate":579316.8072355052,"y_coordinate":116912.66981733832,"change_date":null,"id":440,"r_key":440,"type":"Sight","url_sightseeing":"http://www.ovronnaz.ch/en/hiking/educational-trails/","touristic_region":11}}
+{
+    "type": "Feature",
+    "id": 440,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.20334414239004,
+            7.170658642811549
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Lucky-Luke Treasure Hunt",
+        "abstract": "Through the treasure hunt circuits, you will have fun to discover the adventures of the hero and Ovronnaz's area. The 2 circuits use the official footpaths. The big circuit is open all year round.",
+        "description": "The principle is simple; follow the different posts and elucidate the enigmas. Parents may have, though this hunt, an opportunity to motivate their children to walk. The circuits can be fragmented and.made on several days. Each participant gets, at the end, a gift in relation with Lucky-Luke and participate in the drawing lot. Many prices can be won.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/11350_Lucky_Luke_Trail_1a.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/11350_Lucky_Luke_Trail_1a.jpg",
+            "https://images.schweizmobil.ch/image/11350_Lucky_Luke_Trail_2b.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "Office du Tourisme d’Ovronnaz",
+        "name_2": null,
+        "street": "Route des Muverans 38",
+        "zip": "1911",
+        "place": "Ovronnaz",
+        "tel": "+41 (0)27 306 42 93",
+        "fax": null,
+        "email": "info@ovronnaz.ch",
+        "url1_link": "https://www.ovronnaz.ch",
+        "x_coordinate": 579316.8072355052,
+        "y_coordinate": 116912.66981733832,
+        "change_date": null,
+        "id": 440,
+        "r_key": 440,
+        "type": "Sight",
+        "url_sightseeing": "http://www.ovronnaz.ch/en/hiking/educational-trails/",
+        "touristic_region": 11,
+        "canton": 7
+    }
+}

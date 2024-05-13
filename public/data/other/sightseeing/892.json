@@ -1,66 +1,75 @@
 {
-  "type": "Feature",
-  "id": 892,
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      46.74881773322576,
-      7.577265860262656
-    ]
-  },
-  "properties": {
-    "land": null,
-    "category": "all",
-    "language": "en",
-    "title": "Pumptrack Thierachern",
-    "abstract": "The generous asphalt pump track in Thierachern offers much variety. It is an active meeting place for young and old. Children and beginners can practice on the kids track.",
-    "description": "The 209 m asphalt circuit consists of rollers, hills and berms. Opportunities to ride and jump and create various possible combinations ensure that even experienced riders will not be bored. The smallest bike fans enjoy the adjacent 45 m kids track.\n\nThe weather-resistant facility in the Mülimatt area boosts coordination, balance and strength. Anybody with wheels can use it. The pump track was completed in May 2020 with the help of many volunteers.\n\n \nSurface: asphalt\nLength pump track: 209 m\nLength kids track: 45 m",
-    "highlights": null,
-    "foto": "https://images0.schweizmobil.ch/image-big/BE_Pumptrack_Thierachern_1_g.jpg",
-    "photo_gallery": [
-      "https://images0.schweizmobil.ch/image/BE_Pumptrack_Thierachern_1_s.jpg",
-      "https://images0.schweizmobil.ch/image/BE_Pumptrack_Thierachern_2_s.jpg",
-      "https://images0.schweizmobil.ch/image/BE_Pumptrack_Thierachern_3_s.jpg",
-      "https://images0.schweizmobil.ch/image/BE_Pumptrack_Thierachern_4_s.jpg",
-      "https://images0.schweizmobil.ch/image/BE_Pumptrack_Thierachern_5_s.jpg"
-    ],
-    "photo_gallery_big": [
-      "https://images0.schweizmobil.ch/image-big/BE_Pumptrack_Thierachern_1_g.jpg",
-      "https://images0.schweizmobil.ch/image-big/BE_Pumptrack_Thierachern_2_g.jpg",
-      "https://images0.schweizmobil.ch/image-big/BE_Pumptrack_Thierachern_3_g.jpg",
-      "https://images0.schweizmobil.ch/image-big/BE_Pumptrack_Thierachern_4_g.jpg",
-      "https://images0.schweizmobil.ch/image-big/BE_Pumptrack_Thierachern_5_g.jpg"
-    ],
-    "photo_gallery_copyright": [
-      "",
-      "",
-      "",
-      "",
-      ""
-    ],
-    "photo_gallery_author": [
-      "",
-      "",
-      "",
-      "",
-      ""
-    ],
-    "name": "Verein Pumptrack Thierachern",
-    "name_2": null,
-    "street": "Mühlestrasse 14c",
-    "zip": "3634",
-    "place": "Thierachern",
-    "tel": "",
-    "fax": null,
-    "email": "info@pumptrack-thierachern.ch",
-    "url1_link": "https://www.pumptrack-thierachern.ch ",
-    "x_coordinate": 610593.4023425811,
-    "y_coordinate": 177524.99795108679,
-    "change_date": null,
+    "type": "Feature",
     "id": 892,
-    "r_key": 892,
-    "type": "Sight",
-    "url_sightseeing": "https://www.interlaken.ch/en/experiences/poi/thierachern-pump-track",
-    "touristic_region": 6
-  }
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.74881773962233,
+            7.577265862005315
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Pumptrack Thierachern",
+        "abstract": "The generous asphalt pump track in Thierachern offers much variety. It is an active meeting place for young and old. Children and beginners can practice on the kids track.",
+        "description": "The 209 m asphalt circuit consists of rollers, hills and berms. Opportunities to ride and jump and create various possible combinations ensure that even experienced riders will not be bored. The smallest bike fans enjoy the adjacent 45 m kids track.\n\nThe weather-resistant facility in the Mülimatt area boosts coordination, balance and strength. Anybody with wheels can use it. The pump track was completed in May 2020 with the help of many volunteers.\n\n \nSurface: asphalt\nLength pump track: 209 m\nLength kids track: 45 m",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image-big/BE_Pumptrack_Thierachern_1_g.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/BE_Pumptrack_Thierachern_1_s.jpg",
+            "https://images.schweizmobil.ch/image/BE_Pumptrack_Thierachern_2_s.jpg",
+            "https://images.schweizmobil.ch/image/BE_Pumptrack_Thierachern_3_s.jpg",
+            "https://images.schweizmobil.ch/image/BE_Pumptrack_Thierachern_4_s.jpg",
+            "https://images.schweizmobil.ch/image/BE_Pumptrack_Thierachern_5_s.jpg"
+        ],
+        "photo_gallery_big": [
+            "https://images.schweizmobil.ch/image-big/BE_Pumptrack_Thierachern_1_g.jpg",
+            "https://images.schweizmobil.ch/image-big/BE_Pumptrack_Thierachern_2_g.jpg",
+            "https://images.schweizmobil.ch/image-big/BE_Pumptrack_Thierachern_3_g.jpg",
+            "https://images.schweizmobil.ch/image-big/BE_Pumptrack_Thierachern_4_g.jpg",
+            "https://images.schweizmobil.ch/image-big/BE_Pumptrack_Thierachern_5_g.jpg"
+        ],
+        "photo_gallery_copyright": [
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "name": "Verein Pumptrack Thierachern",
+        "name_2": null,
+        "street": "Mühlestrasse 14c",
+        "zip": "3634",
+        "place": "Thierachern",
+        "tel": "-",
+        "fax": null,
+        "email": "info@pumptrack-thierachern.ch",
+        "url1_link": "https://www.pumptrack-thierachern.ch ",
+        "x_coordinate": 610593.4023425811,
+        "y_coordinate": 177524.99795108679,
+        "change_date": null,
+        "id": 892,
+        "r_key": 892,
+        "type": "Sight",
+        "url_sightseeing": "https://www.interlaken.ch/en/experiences/poi/thierachern-pump-track",
+        "touristic_region": 6,
+        "canton": 12
+    }
 }

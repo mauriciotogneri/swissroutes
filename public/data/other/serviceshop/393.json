@@ -1,1 +1,34 @@
-{"type":"Feature","id":3136,"geometry":{"type":"Point","coordinates":[47.54817842869904,9.305773937026327]},"properties":{"land":"\"velo\",\"mountainbike\"","category":"all","language":"en","title":"Zweirad Kläusli AG","abstract":null,"name":"Zweirad Kläusli AG","street":"Romanshorner Strasse 30","zip":"8580","place":"Amriswil","tel":"+41 71 411 97 57","email":null,"url1_text":null,"url1_link":null,"organisation":"2rad / 2routes / 2ruote","foto":null,"x_coordinate":740545.1295893667,"y_coordinate":268056.3121953307,"change_date":null,"id":393,"type":"Service"}}
+{
+    "type": "Feature",
+    "id": 3136,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            47.548178407458124,
+            9.30577399387486
+        ]
+    },
+    "properties": {
+        "land": "\"velo\",\"mountainbike\"",
+        "category": "all",
+        "language": "en",
+        "title": "Zweirad Kläusli AG",
+        "abstract": null,
+        "name": "Zweirad Kläusli AG",
+        "street": "Romanshorner Strasse 30",
+        "zip": "8580",
+        "place": "Amriswil",
+        "tel": "+41 71 411 97 57",
+        "email": null,
+        "url1_text": null,
+        "url1_link": null,
+        "organisation": "2rad / 2routes / 2ruote",
+        "foto": null,
+        "foto_abstract": null,
+        "x_coordinate": 740545.1295893667,
+        "y_coordinate": 268056.3121953307,
+        "change_date": null,
+        "id": 393,
+        "type": "Service"
+    }
+}

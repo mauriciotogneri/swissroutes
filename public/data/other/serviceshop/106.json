@@ -1,1 +1,34 @@
-{"type":"Feature","id":2895,"geometry":{"type":"Point","coordinates":[46.494691886030154,7.562704680523465]},"properties":{"land":"\"velo\",\"mountainbike\"","category":"all","language":"en","title":"Büschlen Bikesport & more","abstract":null,"name":"Büschlen Bikesport & more","street":"Schlegelistrasse 1","zip":"3715","place":"Adelboden","tel":"+41 33 673 24 60","email":null,"url1_text":null,"url1_link":"https://www.bueschlen-garage.ch","organisation":"2rad / 2routes / 2ruote","foto":null,"x_coordinate":609525.9704116229,"y_coordinate":149272.50162917827,"change_date":null,"id":106,"type":"Service"}}
+{
+    "type": "Feature",
+    "id": 2895,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.49469189233301,
+            7.562704679004544
+        ]
+    },
+    "properties": {
+        "land": "\"velo\",\"mountainbike\"",
+        "category": "all",
+        "language": "en",
+        "title": "Büschlen Bikesport & more",
+        "abstract": null,
+        "name": "Büschlen Bikesport & more",
+        "street": "Schlegelistrasse 1",
+        "zip": "3715",
+        "place": "Adelboden",
+        "tel": "+41 33 673 24 60",
+        "email": null,
+        "url1_text": null,
+        "url1_link": "https://www.bueschlen-garage.ch",
+        "organisation": "2rad / 2routes / 2ruote",
+        "foto": null,
+        "foto_abstract": null,
+        "x_coordinate": 609525.9704116229,
+        "y_coordinate": 149272.50162917827,
+        "change_date": null,
+        "id": 106,
+        "type": "Service"
+    }
+}

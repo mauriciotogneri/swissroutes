@@ -1,1 +1,60 @@
-{"type":"Feature","id":17,"geometry":{"type":"Point","coordinates":[46.87525949207381,8.66304097528725]},"properties":{"land":null,"category":"all","language":"en","title":"Tell museum","abstract":"The Tell museum displays extensive collections of documents and objects of historic and artistic kind from six centuries, all to do with the Swiss national hero Wilhelm Tell.","description":"The charming village of Tell, Bürglen, situated on the fortified Staldenhügel, is very old. A deed of donation from King Ludwig the German testifies that Bürglen was already under the rule of the convent Fraumünster in Zurich in 857. Bürglen has always been considered as home of Wilhelm Tell.","highlights":null,"foto":"https://images0.schweizmobil.ch/image/8639_Tell-Museum_1a.jpg","photo_gallery":["https://images0.schweizmobil.ch/image/8639_Tell-Museum_1a.jpg","https://images0.schweizmobil.ch/image/8639_Tell-Museum_2b.jpg"],"photo_gallery_big":["",""],"photo_gallery_copyright":["",""],"photo_gallery_author":["",""],"name":"Uri Tourismus AG","name_2":null,"street":"Schützengasse 11","zip":"6460","place":"Altdorf","tel":"+41 (0)41 874 80 00","fax":null,"email":"info@uri.swisss","url1_link":"https://www.uri.swiss","x_coordinate":693337.7071446724,"y_coordinate":192299.59188288738,"change_date":null,"id":17,"r_key":17,"type":"Sight","url_sightseeing":"https://www.tellmuseum.ch","touristic_region":4}}
+{
+    "type": "Feature",
+    "id": 17,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.87525949377927,
+            8.663040982983054
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Tell museum",
+        "abstract": "The Tell museum displays extensive collections of documents and objects of historic and artistic kind from six centuries, all to do with the Swiss national hero Wilhelm Tell.",
+        "description": "The charming village of Tell, Bürglen, situated on the fortified Staldenhügel, is very old. A deed of donation from King Ludwig the German testifies that Bürglen was already under the rule of the convent Fraumünster in Zurich in 857. Bürglen has always been considered as home of Wilhelm Tell.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/8639_Tell-Museum_1a.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/8639_Tell-Museum_1a.jpg",
+            "https://images.schweizmobil.ch/image/8639_Tell-Museum_2b.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "Uri Tourismus AG",
+        "name_2": null,
+        "street": "Schützengasse 11",
+        "zip": "6460",
+        "place": "Altdorf",
+        "tel": "+41 (0)41 874 80 00",
+        "fax": null,
+        "email": "info@uri.swisss",
+        "url1_link": "https://www.uri.swiss",
+        "x_coordinate": 693337.7071446724,
+        "y_coordinate": 192299.59188288738,
+        "change_date": null,
+        "id": 17,
+        "r_key": 17,
+        "type": "Sight",
+        "url_sightseeing": "https://www.tellmuseum.ch",
+        "touristic_region": 4,
+        "canton": 4
+    }
+}

@@ -1,1 +1,60 @@
-{"type":"Feature","id":451,"geometry":{"type":"Point","coordinates":[46.93377071583938,9.761322900123938]},"properties":{"land":null,"category":"all","language":"en","title":"Farm visit - «Chrüzhof»","abstract":"Stay on a genuine mountain farm in Pany, Prättigau and enjoy an experience far from the city! The Chrüzhof is a place where guests and locals are welcome, right among animals and the life of a farming family.","description":"Explore and discover an unspoiled world, while seeing the donkeys, and horses, the farmyard ducks and peacocks, the dwarf goats and the mini-pigs and of course the cattle and calves! But no farm is complete without cats and chickens, not to mention the doves and much more besides!\n\nThe 21-hectare farm is made up of beautiful meadows and woodland and has much to offer its guests. For example, you can become truly rustic by sleeping on straw!\n\nHave you ever tried milking? Now is your chance! From 5.30 every evening the farmer will happily show you. Children are welcome to feed the cows and calves. But for many adults this is also an opportunity to experience many news things. Or do you already know why calves come to Pany in the holidays and return two years later to the farms where they were born?","highlights":null,"foto":"https://images0.schweizmobil.ch/image/11270_Hofbesichtigung_Chruezhof_1a.jpg","photo_gallery":["https://images0.schweizmobil.ch/image/11270_Hofbesichtigung_Chruezhof_1a.jpg","https://images0.schweizmobil.ch/image/11270_Hofbesichtigung_Chruezhof_2b.jpg"],"photo_gallery_big":["",""],"photo_gallery_copyright":["",""],"photo_gallery_author":["",""],"name":"Prättigau Tourismus","name_2":null,"street":"Valzeinastrasse 6","zip":"7214","place":"Grüsch","tel":"+41 (0)81 325 11 11","fax":null,"email":"info@praettigau.ch","url1_link":"https://www.praettigau.ch","x_coordinate":776848.7151997231,"y_coordinate":200693.90747947016,"change_date":null,"id":451,"r_key":451,"type":"Sight","url_sightseeing":"https://www.chruezhof-pany.ch","touristic_region":1}}
+{
+    "type": "Feature",
+    "id": 451,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.933770714509315,
+            9.761322974589635
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Farm visit - «Chrüzhof»",
+        "abstract": "Stay on a genuine mountain farm in Pany, Prättigau and enjoy an experience far from the city! The Chrüzhof is a place where guests and locals are welcome, right among animals and the life of a farming family.",
+        "description": "Explore and discover an unspoiled world, while seeing the donkeys, and horses, the farmyard ducks and peacocks, the dwarf goats and the mini-pigs and of course the cattle and calves! But no farm is complete without cats and chickens, not to mention the doves and much more besides!\n\nThe 21-hectare farm is made up of beautiful meadows and woodland and has much to offer its guests. For example, you can become truly rustic by sleeping on straw!\n\nHave you ever tried milking? Now is your chance! From 5.30 every evening the farmer will happily show you. Children are welcome to feed the cows and calves. But for many adults this is also an opportunity to experience many news things. Or do you already know why calves come to Pany in the holidays and return two years later to the farms where they were born?",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/11270_Hofbesichtigung_Chruezhof_1a.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/11270_Hofbesichtigung_Chruezhof_1a.jpg",
+            "https://images.schweizmobil.ch/image/11270_Hofbesichtigung_Chruezhof_2b.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "Prättigau Marketing",
+        "name_2": null,
+        "street": "Feldweg 19",
+        "zip": "7233",
+        "place": "Jenaz",
+        "tel": "+41 81 325 11",
+        "fax": null,
+        "email": "info@praettigau.ch",
+        "url1_link": "https://www.praettigau.info",
+        "x_coordinate": 776848.7151997231,
+        "y_coordinate": 200693.90747947016,
+        "change_date": null,
+        "id": 451,
+        "r_key": 451,
+        "type": "Sight",
+        "url_sightseeing": "https://www.chruezhof-pany.ch",
+        "touristic_region": 1,
+        "canton": 2
+    }
+}

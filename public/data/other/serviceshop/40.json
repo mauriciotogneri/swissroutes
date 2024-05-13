@@ -1,1 +1,34 @@
-{"type":"Feature","id":2832,"geometry":{"type":"Point","coordinates":[46.98410163914338,6.878455522145436]},"properties":{"land":"\"velo\",\"mountainbike\"","category":"all","language":"en","title":"LocoEmotion","abstract":null,"name":"LocoEmotion","street":"Avenue Soguel 8a","zip":"2035","place":"Corcelles NE","tel":"+41 32 861 49 61","email":null,"url1_text":null,"url1_link":"https://www.locoemotion.ch","organisation":"2rad / 2routes / 2ruote","foto":null,"x_coordinate":557382.1994065172,"y_coordinate":203823.32999128022,"change_date":null,"id":40,"type":"Service"}}
+{
+    "type": "Feature",
+    "id": 2832,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.984101639022924,
+            6.878455509228804
+        ]
+    },
+    "properties": {
+        "land": "\"velo\",\"mountainbike\"",
+        "category": "all",
+        "language": "en",
+        "title": "LocoEmotion",
+        "abstract": null,
+        "name": "LocoEmotion",
+        "street": "Avenue Soguel 8a",
+        "zip": "2035",
+        "place": "Corcelles NE",
+        "tel": "+41 32 861 49 61",
+        "email": null,
+        "url1_text": null,
+        "url1_link": "https://www.locoemotion.ch",
+        "organisation": "2rad / 2routes / 2ruote",
+        "foto": null,
+        "foto_abstract": null,
+        "x_coordinate": 557382.1994065172,
+        "y_coordinate": 203823.32999128022,
+        "change_date": null,
+        "id": 40,
+        "type": "Service"
+    }
+}

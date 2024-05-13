@@ -1,1 +1,60 @@
-{"type":"Feature","id":496,"geometry":{"type":"Point","coordinates":[47.33809931239671,7.705328452731944]},"properties":{"land":null,"category":"all","language":"en","title":"Hair and Comb Museum","abstract":"The HAARUNDKAMM hair and comb museum is dedicated to the cultural use of combs and the production of this particular item.","description":"The HAARUNDKAM hair & comb museum is the only museum of its kind in German-speaking Europe that's exclusively occupied with the cultural history as well as the manual and industrial manufacturing of combs. \r\nPhotographs, tools, machinery and the many products manufactured in the factory document the traditional production of combs. Artistically created and decorative combs made of horn, tortoiseshell and celluloid as well as clips, hair bands and diadems are viewed – together with moustache, eyelash and lice combs that demonstrate the diversity of the luxury goods and articles of daily use produced in Mümliswil.\n\nThe tradition of comb making as well as the history of the location is shown in lively manner in the surroundings of the old factory. Furthermore, the exhibition is thematically completed with picture material and objects used for hairstyle fashions - and an operative hairdressing salon bridges the gap between the past and present.","highlights":null,"foto":"https://images0.schweizmobil.ch/image/8040_Haar-&-Kamm-Museum_2a.jpg","photo_gallery":["https://images0.schweizmobil.ch/image/8040_Haar-&-Kamm-Museum_2a.jpg","https://images0.schweizmobil.ch/image/8040_Haar-&-Kamm-Museum_1b.jpg"],"photo_gallery_big":["",""],"photo_gallery_copyright":["",""],"photo_gallery_author":["",""],"name":"Museum HAARUNDKAMM","name_2":null,"street":"Kammpark 10","zip":"4717","place":"Mümliswil","tel":"+41 (0)62 391 29 01","fax":null,"email":"info@naturparkthal.ch","url1_link":"https://www.haarundkamm.ch","x_coordinate":620156.7332889191,"y_coordinate":243061.9299517193,"change_date":null,"id":496,"r_key":496,"type":"Sight","url_sightseeing":"https://www.haarundkamm.ch","touristic_region":8}}
+{
+    "type": "Feature",
+    "id": 496,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            47.33809931811433,
+            7.705328455281052
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Hair and Comb Museum",
+        "abstract": "The HAARUNDKAMM hair and comb museum is dedicated to the cultural use of combs and the production of this particular item.",
+        "description": "The HAARUNDKAM hair & comb museum is the only museum of its kind in German-speaking Europe that's exclusively occupied with the cultural history as well as the manual and industrial manufacturing of combs. \r\nPhotographs, tools, machinery and the many products manufactured in the factory document the traditional production of combs. Artistically created and decorative combs made of horn, tortoiseshell and celluloid as well as clips, hair bands and diadems are viewed – together with moustache, eyelash and lice combs that demonstrate the diversity of the luxury goods and articles of daily use produced in Mümliswil.\n\nThe tradition of comb making as well as the history of the location is shown in lively manner in the surroundings of the old factory. Furthermore, the exhibition is thematically completed with picture material and objects used for hairstyle fashions - and an operative hairdressing salon bridges the gap between the past and present.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/8040_Haar-&-Kamm-Museum_2a.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/8040_Haar-&-Kamm-Museum_2a.jpg",
+            "https://images.schweizmobil.ch/image/8040_Haar-&-Kamm-Museum_1b.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "Museum HAARUNDKAMM",
+        "name_2": null,
+        "street": "Kammpark 10",
+        "zip": "4717",
+        "place": "Mümliswil",
+        "tel": "+41 (0)62 391 29 01",
+        "fax": null,
+        "email": "info@naturparkthal.ch",
+        "url1_link": "https://www.haarundkamm.ch",
+        "x_coordinate": 620156.7332889191,
+        "y_coordinate": 243061.9299517193,
+        "change_date": null,
+        "id": 496,
+        "r_key": 496,
+        "type": "Sight",
+        "url_sightseeing": "https://www.haarundkamm.ch",
+        "touristic_region": 8,
+        "canton": 16
+    }
+}

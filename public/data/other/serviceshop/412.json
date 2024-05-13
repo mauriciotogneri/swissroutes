@@ -1,1 +1,34 @@
-{"type":"Feature","id":3155,"geometry":{"type":"Point","coordinates":[47.227050437644884,8.822186417335733]},"properties":{"land":"\"velo\",\"mountainbike\"","category":"all","language":"en","title":"Wemar Zwei-Rad AG","abstract":null,"name":"Wemar Zwei-Rad AG","street":"Neue Jonastr. 46","zip":"8640","place":"Rapperswil SG","tel":"+41 55 210 21 53","email":null,"url1_text":null,"url1_link":"https://www.wemar-zweirad.ch","organisation":"2rad / 2routes / 2ruote","foto":null,"x_coordinate":704778.2028743757,"y_coordinate":231604.68910279425,"change_date":null,"id":412,"type":"Service"}}
+{
+    "type": "Feature",
+    "id": 3155,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            47.22990005696981,
+            8.849069926076915
+        ]
+    },
+    "properties": {
+        "land": "\"velo\",\"mountainbike\"",
+        "category": "all",
+        "language": "en",
+        "title": "Wemar Zwei-Rad AG",
+        "abstract": null,
+        "name": "Wemar Zwei-Rad AG",
+        "street": "St. Gallerstrasse 120",
+        "zip": "8645",
+        "place": "Jona",
+        "tel": "+41 55 210 21 53",
+        "email": null,
+        "url1_text": null,
+        "url1_link": "https://www.wemar-zweirad.ch",
+        "organisation": "2rad / 2routes / 2ruote",
+        "foto": null,
+        "foto_abstract": null,
+        "x_coordinate": 706808.6899117762,
+        "y_coordinate": 231957.75280811774,
+        "change_date": null,
+        "id": 412,
+        "type": "Service"
+    }
+}

@@ -1,1 +1,85 @@
-{"type":"Feature","id":730,"geometry":{"type":"Point","coordinates":[46.95961433223593,8.520349184051803]},"properties":{"land":null,"category":"all","language":"en","title":"Wood Trail und Natural Bike Park","abstract":"Practice your technique along 3 km of forest tracks. The 30 signposts with tips and tricks help you along the way. On the Wood Trail you can improve your technical skills. This is the Natural bike park Emmetten.","description":"Starting at the Hotel Seeblick you follow the 3km of the bike trail over Lake Lucerne and Schluchtweg until you reach Schöneck. Here you can take a well-earned rest at the St. Anna Chapel. Around 30 coloured signposts with tips and tricks from expert biker Lukas Stöckli cover almost every situation. They help you on your way and lead you step by step to an improvement in your biking style. The course allows you to practice the more challenging obstacles time and time again, until you can ride the trail in one go.\n\nOn the same point the Wood Trail starts. The Trail is only suitable in dry weather and for adults who want to improve their corner or even jump technique. As your speed increases the tour over the wood trail becomes a flow. Youths must be accompanied by an adult, who can walk next to the trail and guide the biker. If you don’t feel ready for the wood trail there is always the option of booking a course with the bike arena Emmetten.","highlights":null,"foto":"https://images0.schweizmobil.ch/image/Wood_Trail_und_Natural_Bike_Park_D3P9865_web.jpg","photo_gallery":["https://images0.schweizmobil.ch/image/Wood_Trail_und_Natural_Bike_Park_D3P9865_web.jpg","https://images0.schweizmobil.ch/image/Wood_Trail_und_Natural_Bike_Park_D4D8009.jpg","https://images0.schweizmobil.ch/image/Wood_Trail_und_Natural_Bike_Park_D2X0030.jpg","https://images0.schweizmobil.ch/image/Wood_Trail_und_Natural_Bike_ParkCHP_090613_134_web.jpg","https://images0.schweizmobil.ch/image/Wood_Trail_und_Natural_Bike_ParkTro_091120_023.jpg","https://images0.schweizmobil.ch/image/Wood_Trail_und_Natural_Bike_ParkBik_090726_017.jpg","https://images0.schweizmobil.ch/image/Wood_Trail_und_Natural_Bike_ParkEm_110409_075.jpg"],"photo_gallery_big":["","","","","","",""],"photo_gallery_copyright":["","","","","","",""],"photo_gallery_author":["","","","","","",""],"name":"bike arena emmetten","name_2":null,"street":"Dorfstrasse 28 ","zip":"6376","place":"Emmetten","tel":"+41 (0)41 620 15 64","fax":null,"email":"ride@bikearena-emmetten.ch","url1_link":"https://www.bikearena-emmetten.ch","x_coordinate":682331.8754549767,"y_coordinate":201516.0624530507,"change_date":null,"id":730,"r_key":730,"type":"Sight","url_sightseeing":"https://www.klewenalp.ch/de/sommer/biken","touristic_region":4}}
+{
+    "type": "Feature",
+    "id": 730,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.95961433228795,
+            8.520349160946175
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Wood Trail und Natural Bike Park",
+        "abstract": "Practice your technique along 3 km of forest tracks. The 30 signposts with tips and tricks help you along the way. On the Wood Trail you can improve your technical skills. This is the Natural bike park Emmetten.",
+        "description": "Starting at the Hotel Seeblick you follow the 3km of the bike trail over Lake Lucerne and Schluchtweg until you reach Schöneck. Here you can take a well-earned rest at the St. Anna Chapel. Around 30 coloured signposts with tips and tricks from expert biker Lukas Stöckli cover almost every situation. They help you on your way and lead you step by step to an improvement in your biking style. The course allows you to practice the more challenging obstacles time and time again, until you can ride the trail in one go.\n\nOn the same point the Wood Trail starts. The Trail is only suitable in dry weather and for adults who want to improve their corner or even jump technique. As your speed increases the tour over the wood trail becomes a flow. Youths must be accompanied by an adult, who can walk next to the trail and guide the biker. If you don’t feel ready for the wood trail there is always the option of booking a course with the bike arena Emmetten.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/Wood_Trail_und_Natural_Bike_Park_D3P9865_web.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/Wood_Trail_und_Natural_Bike_Park_D3P9865_web.jpg",
+            "https://images.schweizmobil.ch/image/Wood_Trail_und_Natural_Bike_Park_D4D8009.jpg",
+            "https://images.schweizmobil.ch/image/Wood_Trail_und_Natural_Bike_Park_D2X0030.jpg",
+            "https://images.schweizmobil.ch/image/Wood_Trail_und_Natural_Bike_ParkCHP_090613_134_web.jpg",
+            "https://images.schweizmobil.ch/image/Wood_Trail_und_Natural_Bike_ParkTro_091120_023.jpg",
+            "https://images.schweizmobil.ch/image/Wood_Trail_und_Natural_Bike_ParkBik_090726_017.jpg",
+            "https://images.schweizmobil.ch/image/Wood_Trail_und_Natural_Bike_ParkEm_110409_075.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "name": "bike arena emmetten",
+        "name_2": null,
+        "street": "Dorfstrasse 28 ",
+        "zip": "6376",
+        "place": "Emmetten",
+        "tel": "+41 (0)41 620 15 64",
+        "fax": null,
+        "email": "ride@bikearena-emmetten.ch",
+        "url1_link": "https://www.bikearena-emmetten.ch",
+        "x_coordinate": 682331.8754549767,
+        "y_coordinate": 201516.0624530507,
+        "change_date": null,
+        "id": 730,
+        "r_key": 730,
+        "type": "Sight",
+        "url_sightseeing": "https://www.klewenalp.ch/de/sommer/biken",
+        "touristic_region": 4,
+        "canton": 10
+    }
+}

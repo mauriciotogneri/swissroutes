@@ -1,1 +1,34 @@
-{"type":"Feature","id":3035,"geometry":{"type":"Point","coordinates":[46.93318340565244,8.390669143511143]},"properties":{"land":"\"velo\",\"mountainbike\"","category":"all","language":"en","title":"2-Rad Barmettler","abstract":null,"name":"2-Rad Barmettler","street":"Stettlistrasse 8","zip":"6383","place":"Dallenwil","tel":"+41 41 628 12 75","email":null,"url1_text":null,"url1_link":"https://www.2radbarmettler.ch","organisation":"2rad / 2routes / 2ruote","foto":null,"x_coordinate":672497.1399712138,"y_coordinate":198450.1356474274,"change_date":null,"id":267,"type":"Service"}}
+{
+    "type": "Feature",
+    "id": 3035,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.93318340635624,
+            8.390669107009021
+        ]
+    },
+    "properties": {
+        "land": "\"velo\",\"mountainbike\"",
+        "category": "all",
+        "language": "en",
+        "title": "2-Rad Barmettler",
+        "abstract": null,
+        "name": "2-Rad Barmettler",
+        "street": "Stettlistrasse 8",
+        "zip": "6383",
+        "place": "Dallenwil",
+        "tel": "+41 41 628 12 75",
+        "email": null,
+        "url1_text": null,
+        "url1_link": "https://www.2radbarmettler.ch",
+        "organisation": "2rad / 2routes / 2ruote",
+        "foto": null,
+        "foto_abstract": null,
+        "x_coordinate": 672497.1399712138,
+        "y_coordinate": 198450.1356474274,
+        "change_date": null,
+        "id": 267,
+        "type": "Service"
+    }
+}

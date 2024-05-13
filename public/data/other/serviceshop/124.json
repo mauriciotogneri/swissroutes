@@ -1,1 +1,34 @@
-{"type":"Feature","id":2910,"geometry":{"type":"Point","coordinates":[47.56243817068159,7.569648811331496]},"properties":{"land":"\"velo\",\"mountainbike\"","category":"all","language":"en","title":"Velove","abstract":null,"name":"Velove","street":"Strassburgerallee 76","zip":"4055","place":"Basel","tel":"+41 61 381 24 39","email":null,"url1_text":null,"url1_link":"https://www.velove.ch","organisation":"2rad / 2routes / 2ruote","foto":null,"x_coordinate":609860.3277453359,"y_coordinate":267978.08343104547,"change_date":null,"id":124,"type":"Service"}}
+{
+    "type": "Feature",
+    "id": 2910,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            47.56243815151078,
+            7.5696488160440385
+        ]
+    },
+    "properties": {
+        "land": "\"velo\",\"mountainbike\"",
+        "category": "all",
+        "language": "en",
+        "title": "Velove",
+        "abstract": null,
+        "name": "Velove",
+        "street": "Strassburgerallee 76",
+        "zip": "4055",
+        "place": "Basel",
+        "tel": "+41 61 381 24 39",
+        "email": null,
+        "url1_text": null,
+        "url1_link": "https://www.velove.ch",
+        "organisation": "2rad / 2routes / 2ruote",
+        "foto": null,
+        "foto_abstract": null,
+        "x_coordinate": 609860.3277453359,
+        "y_coordinate": 267978.08343104547,
+        "change_date": null,
+        "id": 124,
+        "type": "Service"
+    }
+}

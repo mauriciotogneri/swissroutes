@@ -1,1 +1,70 @@
-{"type":"Feature","id":692,"geometry":{"type":"Point","coordinates":[46.84735989129651,9.525687173344158]},"properties":{"land":null,"category":"all","language":"en","title":"Alpenbikepark Chur","abstract":"Straight from the city by mountain cableway to the mountain bike freeride trails of the Alpine Bike Park. Five varied trails and 1,000m difference in altitude offer pure adrenalin rushes on Chur's Brambrüesch Mountain.","description":"The Chur-Dreibündenstein mountain cableway takes mountain bike riders straight from the city 1,000m up Chur's Brambrüesch Mountain – where the downhill and freeride fun begins. The freeride trails were made famous by the Swiss MTB Championships in 2009 and have been continually developped and signposted ever since. With the Brambi Flow (blue), 702 Alpenride (red), 703 Rock'n'Roll (black), 707 Chur Flow (blue) and 708 Vertigo (black) there are five varied trails available.\n\nThe Alpine Bike Park offers pure bike fun for beginners, advanced riders and pros. The trails feature a variety of elements, such as banked turns, jumps, north shores, drops, root and stone sections, at various points. The breath-taking view down Chur's Rhine Valley adds an extra kick to already racing pulses. The finish, riding into the Alpine city of Chur is unique: where else can you enjoy the relaxed atmosphere of a car-free Old Town and enjoy a delicious cup of coffee or ice cream before re-embarking on the cableway and looking forward to the next descent? ","highlights":null,"foto":"https://images0.schweizmobil.ch/image/Brambruesch_Alpenbikepark_Bergbahn_2008.jpg","photo_gallery":["https://images0.schweizmobil.ch/image/Brambruesch_Alpenbikepark_Bergbahn_2008.jpg","https://images0.schweizmobil.ch/image/Brambruesch_Alpenbikepark_Sprung_2013.jpg","https://images0.schweizmobil.ch/image/Brambruesch_AlpenbikeparkChur_Trail_2013.jpg","https://images0.schweizmobil.ch/image/Brambruesch_AlpenbikeparkChur_Wallride_2013.jpg"],"photo_gallery_big":["","","",""],"photo_gallery_copyright":["","","",""],"photo_gallery_author":["","","",""],"name":"Chur Tourismus","name_2":null,"street":"Bahnhofplatz 3","zip":"7001","place":"Chur","tel":"+41 (0)81 252 18 18","fax":null,"email":"info@churtourismus.ch","url1_link":"https://www.churtourismus.ch","x_coordinate":759167.2499342579,"y_coordinate":190586.85485467128,"change_date":null,"id":692,"r_key":692,"type":"Sight","url_sightseeing":"https://www.alpenbikepark.ch/","touristic_region":1}}
+{
+    "type": "Feature",
+    "id": 692,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.84735989680492,
+            9.525687086840657
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Alpenbikepark Chur",
+        "abstract": "Straight from the city by mountain cableway to the mountain bike freeride trails of the Alpine Bike Park. Five varied trails and 1,000m difference in altitude offer pure adrenalin rushes on Chur's Brambrüesch Mountain.",
+        "description": "The Chur-Dreibündenstein mountain cableway takes mountain bike riders straight from the city 1,000m up Chur's Brambrüesch Mountain – where the downhill and freeride fun begins. The freeride trails were made famous by the Swiss MTB Championships in 2009 and have been continually developped and signposted ever since. With the Brambi Flow (blue), 702 Alpenride (red), 703 Rock'n'Roll (black), 707 Chur Flow (blue) and 708 Vertigo (black) there are five varied trails available.\n\nThe Alpine Bike Park offers pure bike fun for beginners, advanced riders and pros. The trails feature a variety of elements, such as banked turns, jumps, north shores, drops, root and stone sections, at various points. The breath-taking view down Chur's Rhine Valley adds an extra kick to already racing pulses. The finish, riding into the Alpine city of Chur is unique: where else can you enjoy the relaxed atmosphere of a car-free Old Town and enjoy a delicious cup of coffee or ice cream before re-embarking on the cableway and looking forward to the next descent? ",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/Brambruesch_Alpenbikepark_Bergbahn_2008.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/Brambruesch_Alpenbikepark_Bergbahn_2008.jpg",
+            "https://images.schweizmobil.ch/image/Brambruesch_Alpenbikepark_Sprung_2013.jpg",
+            "https://images.schweizmobil.ch/image/Brambruesch_AlpenbikeparkChur_Trail_2013.jpg",
+            "https://images.schweizmobil.ch/image/Brambruesch_AlpenbikeparkChur_Wallride_2013.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "name": "Chur Tourismus",
+        "name_2": null,
+        "street": "Bahnhofplatz 3",
+        "zip": "7001",
+        "place": "Chur",
+        "tel": "+41 (0)81 252 18 18",
+        "fax": null,
+        "email": "info@churtourismus.ch",
+        "url1_link": "https://www.churtourismus.ch",
+        "x_coordinate": 759167.2499342579,
+        "y_coordinate": 190586.85485467128,
+        "change_date": null,
+        "id": 692,
+        "r_key": 692,
+        "type": "Sight",
+        "url_sightseeing": "https://www.alpenbikepark.ch/",
+        "touristic_region": 1,
+        "canton": 2
+    }
+}

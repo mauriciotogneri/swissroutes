@@ -1,1 +1,60 @@
-{"type":"Feature","id":677,"geometry":{"type":"Point","coordinates":[46.948925644091055,7.474510368644349]},"properties":{"land":null,"category":"all","language":"en","title":"Zentrum Paul Klee","abstract":"With some 4,000 works of art, Zentrum Paul Klee is home to the world's most important collection of Paul Klee's paintings, watercolors and sketches, along with documents and biographical material from all periods of his work.","description":"One of the center's key tasks consists of mediating Paul Klee's artistic, pedagogic and theoretical work and its significance by way of various channels and media. Through its many activities, Zentrum Paul Klee is establishing itself as a global center of expertise for the study and mediation of the life and work of Paul Klee. The center has exhibition rooms available for alternating presentations. The building, designed by architect Renzo Piano, and its surroundings also provide a unique symbiosis of nature and art.\n\nThe multimedia Museum Street is a welcome place to stroll, interact and enjoy a break. The various offers at ZPK are supplemented by special exhibits, a wide range of art mediation activities for children, youth and adults – particularly at the children's museum Creaviva – as well as concerts and other events.","highlights":null,"foto":"https://images0.schweizmobil.ch/image/ZPK_Aussenansicht_a.jpg","photo_gallery":["https://images0.schweizmobil.ch/image/ZPK_Aussenansicht_a.jpg","https://images0.schweizmobil.ch/image/ZPK_Creaviva_b.jpg"],"photo_gallery_big":["",""],"photo_gallery_copyright":["",""],"photo_gallery_author":["",""],"name":"Zentrum Paul Klee","name_2":null,"street":"Monument im Fruchtland 3","zip":"3006","place":"Bern","tel":"+41 (0)31 359 01 01","fax":null,"email":"info@zpk.org","url1_link":"https://www.zpk.org","x_coordinate":602731.3228562162,"y_coordinate":199761.2677287728,"change_date":null,"id":677,"r_key":677,"type":"Sight","url_sightseeing":"https://www.zpk.org","touristic_region":6}}
+{
+    "type": "Feature",
+    "id": 677,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.948925644099226,
+            7.474510367682124
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Zentrum Paul Klee",
+        "abstract": "With some 4,000 works of art, Zentrum Paul Klee is home to the world's most important collection of Paul Klee's paintings, watercolors and sketches, along with documents and biographical material from all periods of his work.",
+        "description": "One of the center's key tasks consists of mediating Paul Klee's artistic, pedagogic and theoretical work and its significance by way of various channels and media. Through its many activities, Zentrum Paul Klee is establishing itself as a global center of expertise for the study and mediation of the life and work of Paul Klee. The center has exhibition rooms available for alternating presentations. The building, designed by architect Renzo Piano, and its surroundings also provide a unique symbiosis of nature and art.\n\nThe multimedia Museum Street is a welcome place to stroll, interact and enjoy a break. The various offers at ZPK are supplemented by special exhibits, a wide range of art mediation activities for children, youth and adults – particularly at the children's museum Creaviva – as well as concerts and other events.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/ZPK_Aussenansicht_a.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/ZPK_Creaviva_b.jpg",
+            "https://images.schweizmobil.ch/image/ZPK_Aussenansicht_a.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "Zentrum Paul Klee",
+        "name_2": null,
+        "street": "Monument im Fruchtland 3",
+        "zip": "3006",
+        "place": "Bern",
+        "tel": "+41 (0)31 359 01 01",
+        "fax": null,
+        "email": "info@zpk.org",
+        "url1_link": "https://www.zpk.org",
+        "x_coordinate": 602731.3228562162,
+        "y_coordinate": 199761.2677287728,
+        "change_date": null,
+        "id": 677,
+        "r_key": 677,
+        "type": "Sight",
+        "url_sightseeing": "https://www.zpk.org",
+        "touristic_region": 6,
+        "canton": 12
+    }
+}

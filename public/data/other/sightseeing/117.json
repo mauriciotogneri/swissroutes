@@ -1,54 +1,60 @@
 {
-  "type": "Feature",
-  "id": 117,
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      46.64967682575474,
-      8.683299729104093
-    ]
-  },
-  "properties": {
-    "land": null,
-    "category": "all",
-    "language": "en",
-    "title": "Where the Vorderrhein rises",
-    "abstract": "It’s worth taking a detour in a southerly direction on the Grisons side of the Oberalppass. The source of the Vorderrhein (i.e. “Upper Rhine”) is located here. The Alpine landscape in the Maighels valley with its numerous blanket mires has remained largely intact.",
-    "description": "The small remote valley of Val Maighelsstlich is located to the south east of the Oberalppass. Human influence has never held much sway in this valley. Despite its use for Alpine grazing, the landscape has remained largely intact.\n\nVal Maighels lies in a typical mountain landscape formed by glaciers and characterized by blanket mires. The Val Maighels mire landscape is one of the highest in Switzerland.\n\nTypically for the altitude of 2,200 metres ASL and the acidic and damp substratum, common sedge communities thrive here. Common cottongrass is the dominant species. In summer its inflorescences are transformed into light blue \"balls of wool” which are prominent from a distance.\n\nAll of the main high mountain blanket mire types can be found in the Val Maighels: blanket mires in flood plains, on slopes in association with spring swamps, in the siltation zones of water courses and on the impermeable stone between glaciated knobs.\n\nLake Toma between Oberalppass and Val Maighels is particularly attractive. The source of the Vorderrhein is located here.",
-    "highlights": null,
-    "foto": "https://images0.schweizmobil.ch/image/30_Wo-der-Vorderrhein-entsp1.jpg",
-    "photo_gallery": [
-      "https://images0.schweizmobil.ch/image/30_Wo-der-Vorderrhein-entsp1.jpg",
-      "https://images0.schweizmobil.ch/image/30_Vorderrhein.jpg"
-    ],
-    "photo_gallery_big": [
-      "",
-      ""
-    ],
-    "photo_gallery_copyright": [
-      "",
-      ""
-    ],
-    "photo_gallery_author": [
-      "",
-      ""
-    ],
-    "name": "Bundesamt für Umwelt",
-    "name_2": null,
-    "street": "und Naturdenkmäler von nationaler Bedeutung (BLN)",
-    "zip": "BLN-Objekt-Nr.",
-    "place": "1901",
-    "tel": "",
-    "fax": null,
-    "email": "bln@bafu.admin.ch",
-    "url1_link": "https://www.bafu.admin.ch/bln",
-    "x_coordinate": 695279.784580619,
-    "y_coordinate": 167249.8385037632,
-    "change_date": null,
+    "type": "Feature",
     "id": 117,
-    "r_key": 117,
-    "type": "Sight",
-    "url_sightseeing": "https://www.bafu.admin.ch/bln",
-    "touristic_region": 1
-  }
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.64967683860535,
+            8.68329972026131
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Where the Vorderrhein rises",
+        "abstract": "It’s worth taking a detour in a southerly direction on the Grisons side of the Oberalppass. The source of the Vorderrhein (i.e. “Upper Rhine”) is located here. The Alpine landscape in the Maighels valley with its numerous blanket mires has remained largely intact.",
+        "description": "The small remote valley of Val Maighelsstlich is located to the south east of the Oberalppass. Human influence has never held much sway in this valley. Despite its use for Alpine grazing, the landscape has remained largely intact.\n\nVal Maighels lies in a typical mountain landscape formed by glaciers and characterized by blanket mires. The Val Maighels mire landscape is one of the highest in Switzerland.\n\nTypically for the altitude of 2,200 metres ASL and the acidic and damp substratum, common sedge communities thrive here. Common cottongrass is the dominant species. In summer its inflorescences are transformed into light blue \"balls of wool” which are prominent from a distance.\n\nAll of the main high mountain blanket mire types can be found in the Val Maighels: blanket mires in flood plains, on slopes in association with spring swamps, in the siltation zones of water courses and on the impermeable stone between glaciated knobs.\n\nLake Toma between Oberalppass and Val Maighels is particularly attractive. The source of the Vorderrhein is located here.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/30_Wo-der-Vorderrhein-entsp1.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/30_Wo-der-Vorderrhein-entsp1.jpg",
+            "https://images.schweizmobil.ch/image/30_Vorderrhein.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "Bundesamt für Umwelt",
+        "name_2": null,
+        "street": "und Naturdenkmäler von nationaler Bedeutung (BLN)",
+        "zip": "BLN-Objekt-Nr.",
+        "place": "1901",
+        "tel": "-",
+        "fax": null,
+        "email": "bln@bafu.admin.ch",
+        "url1_link": "https://www.bafu.admin.ch/bln",
+        "x_coordinate": 695279.784580619,
+        "y_coordinate": 167249.8385037632,
+        "change_date": null,
+        "id": 117,
+        "r_key": 117,
+        "type": "Sight",
+        "url_sightseeing": "https://www.bafu.admin.ch/bln",
+        "touristic_region": 1,
+        "canton": 2
+    }
 }

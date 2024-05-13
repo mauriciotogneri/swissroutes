@@ -1,1 +1,60 @@
-{"type":"Feature","id":274,"geometry":{"type":"Point","coordinates":[47.054042830048175,9.447591149766145]},"properties":{"land":null,"category":"all","language":"en","title":"Gonzen mine","abstract":"The Gonzen is an impressive rock face towering over Sargans. The rock contains iron and had already been discovered over 2000 years ago, and it was excavated for a long time. You can now explore this underground world on an amazing journey into the inside of the mountain.","description":"The mining of Gonzen is an ancient practice; the Romans gathered the high-quality iron ore using primitive surface mining methods. Mining accelerated in the Middle Ages – the Swiss used the Gonzen ore as from 1483 to produce their much-feared weapons for cutting and thrusting. The iron lords supervised the production of ore and ensured that there was always sufficient wood on hand for tunnel building and enough charcoal to smelt the ore.\n\nThe mining activity has created a labyrinth of tunnels and galleries that is almost 90km in length. The mining of iron ore had to come to an end in 1966 for economic reasons. Part of the mine has been open to the general public since 1983. The Gonzen Express takes you through the main tunnel to the heart of the Gonzen.\n\nThe \"Pro Gonzenbergwerk Verein” (Pro Gonzen mine association) organises regular guided tours. Various programmes can be booked for groups. A museum and a restaurant also form part of the Gonzen mine.","highlights":null,"foto":"https://images0.schweizmobil.ch/image/9199_Gonzenbergwerk_1a.jpg","photo_gallery":["https://images0.schweizmobil.ch/image/9199_Gonzenbergwerk_1a.jpg","https://images0.schweizmobil.ch/image/9199_Gonzenbergwerk_2b.jpg"],"photo_gallery_big":["",""],"photo_gallery_copyright":["",""],"photo_gallery_author":["",""],"name":"Heidiland Tourismus AG","name_2":null,"street":"Am Platz 1","zip":"7310","place":"Bad Ragaz","tel":"+41 (0)81 300 40 20","fax":null,"email":"spavillage@heidiland.com","url1_link":"https://www.spavillage.ch","x_coordinate":752624.0141549425,"y_coordinate":213400.59781551702,"change_date":null,"id":274,"r_key":274,"type":"Sight","url_sightseeing":"https://www.bergwerk-gonzen.ch","touristic_region":2}}
+{
+    "type": "Feature",
+    "id": 274,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            47.054042832857185,
+            9.447591200710034
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Gonzen mine",
+        "abstract": "The Gonzen is an impressive rock face towering over Sargans. The rock contains iron and had already been discovered over 2000 years ago, and it was excavated for a long time. You can now explore this underground world on an amazing journey into the inside of the mountain.",
+        "description": "The mining of Gonzen is an ancient practice; the Romans gathered the high-quality iron ore using primitive surface mining methods. Mining accelerated in the Middle Ages – the Swiss used the Gonzen ore as from 1483 to produce their much-feared weapons for cutting and thrusting. The iron lords supervised the production of ore and ensured that there was always sufficient wood on hand for tunnel building and enough charcoal to smelt the ore.\n\nThe mining activity has created a labyrinth of tunnels and galleries that is almost 90km in length. The mining of iron ore had to come to an end in 1966 for economic reasons. Part of the mine has been open to the general public since 1983. The Gonzen Express takes you through the main tunnel to the heart of the Gonzen.\n\nThe \"Pro Gonzenbergwerk Verein” (Pro Gonzen mine association) organises regular guided tours. Various programmes can be booked for groups. A museum and a restaurant also form part of the Gonzen mine.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/9199_Gonzenbergwerk_1a.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/9199_Gonzenbergwerk_1a.jpg",
+            "https://images.schweizmobil.ch/image/9199_Gonzenbergwerk_2b.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "Heidiland Tourismus AG",
+        "name_2": null,
+        "street": "Am Platz 1",
+        "zip": "7310",
+        "place": "Bad Ragaz",
+        "tel": "+41 (0)81 300 40 20",
+        "fax": null,
+        "email": "spavillage@heidiland.com",
+        "url1_link": "https://www.spavillage.ch",
+        "x_coordinate": 752624.0141549425,
+        "y_coordinate": 213400.59781551702,
+        "change_date": null,
+        "id": 274,
+        "r_key": 274,
+        "type": "Sight",
+        "url_sightseeing": "https://www.bergwerk-gonzen.ch",
+        "touristic_region": 2,
+        "canton": 23
+    }
+}

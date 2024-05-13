@@ -1,50 +1,55 @@
 {
-  "type": "Feature",
-  "id": 3274,
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      46.180534503421995,
-      7.55762550518784
-    ]
-  },
-  "properties": {
-    "land": null,
-    "category": "all",
-    "language": "en",
-    "title": "Skills Park Grimentz",
-    "abstract": "The skills park, consisting of three different trails at various levels of difficulty, is located at the top of the Bendolla cable car in Grimentz.",
-    "description": "",
-    "highlights": "Surface: natural\nOpening hours: Late June to late August",
-    "foto": "https://images0.schweizmobil.ch/image-big/5_Skills_Park_Grimentz_g.jpg",
-    "photo_gallery": [
-      "https://images0.schweizmobil.ch/image/5_Skills_Park_Grimentz_s.jpg"
-    ],
-    "photo_gallery_big": [
-      "https://images0.schweizmobil.ch/image-big/5_Skills_Park_Grimentz_g.jpg"
-    ],
-    "photo_gallery_copyright": [
-      ""
-    ],
-    "photo_gallery_author": [
-      ""
-    ],
-    "name": "ESS Grimentz",
-    "name_2": null,
-    "street": "Amis de la Nature 18",
-    "zip": "3961",
-    "place": "Grimentz",
-    "tel": "+41 27 475 50 60",
-    "fax": null,
-    "email": "info@ess-grimentz.ch",
-    "url1_link": "https://www.ess-grimentz.ch",
-    "x_coordinate": 609188.5579903219,
-    "y_coordinate": 114348.25231648398,
-    "change_date": null,
+    "type": "Feature",
     "id": 3274,
-    "r_key": 3274,
-    "type": "Sight",
-    "url_sightseeing": "https://www.valais.ch/en/activities/mountain-bike/pumptracks/skills-park-grimentz-kids-bike-league",
-    "touristic_region": 11
-  }
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.18053451423712,
+            7.557625503751
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Skills Park Grimentz",
+        "abstract": "The skills park, consisting of three different trails at various levels of difficulty, is located at the top of the Bendolla cable car in Grimentz.",
+        "description": " ",
+        "highlights": "Surface: natural\nOpening hours: Late June to late August",
+        "foto": "https://images.schweizmobil.ch/image-big/5_Skills_Park_Grimentz_g.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/5_Skills_Park_Grimentz_s.jpg"
+        ],
+        "photo_gallery_big": [
+            "https://images.schweizmobil.ch/image-big/5_Skills_Park_Grimentz_g.jpg"
+        ],
+        "photo_gallery_copyright": [
+            ""
+        ],
+        "photo_gallery_author": [
+            ""
+        ],
+        "photo_gallery_abstract": [
+            ""
+        ],
+        "name": "ESS Grimentz",
+        "name_2": null,
+        "street": "Amis de la Nature 18",
+        "zip": "3961",
+        "place": "Grimentz",
+        "tel": "+41 27 475 50 60",
+        "fax": null,
+        "email": "info@ess-grimentz.ch",
+        "url1_link": "https://www.ess-grimentz.ch",
+        "x_coordinate": 609188.5579903219,
+        "y_coordinate": 114348.25231648398,
+        "change_date": null,
+        "id": 3274,
+        "r_key": 3274,
+        "type": "Sight",
+        "url_sightseeing": "https://www.valais.ch/en/activities/mountain-bike/pumptracks/skills-park-grimentz-kids-bike-league",
+        "touristic_region": 11,
+        "canton": 7
+    }
 }

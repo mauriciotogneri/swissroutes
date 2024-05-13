@@ -1,1 +1,60 @@
-{"type":"Feature","id":627,"geometry":{"type":"Point","coordinates":[46.05761827939611,7.9048650625830215]},"properties":{"land":null,"category":"all","language":"en","title":"Adventure Allalin","abstract":"The highest underground funicular in the world, the «Metro Alpin», takes you from there to the Mittelallalin. From the highest revolving restaurant in the world at 3500 metres above sea-level, the Giants of the Alps seem so close you can almost touch them. Next door, the secrets of the glaciers are revealed in the biggest ice pavilion in the world.","description":"The Alpin Express takes you up to the station of the Metro Alpin at 3000 m above sea-level in a very short time. The highest underground funicular in the world takes you to the Mittelallalin, the highest snow sports area in the Saas-Fee region, and to the highest revolving restaurant in the world at 3500 m above sea-level. Enjoy a brunch and a succession of fantastic mountain landscapes with the highest Swiss summits unfolding in front of you in the space of an hour.\n\nA visit to the biggest ice pavilion in the world next door is a very special adventure. You experience close contact with the materials in the glacial ice on your journey into the \"underworld\" of the Fee glacier. The grotto measuring 5500 cubic metres will cast its spell on you. If you are interested to find out what a glacier looks like from the inside, visit the world's largest ice pavilion and the secret will be revealed. ","highlights":null,"foto":"https://images0.schweizmobil.ch/image/8053_Erlebnis-Allalin_2a.jpg","photo_gallery":["https://images0.schweizmobil.ch/image/8053_Erlebnis-Allalin_2a.jpg","https://images0.schweizmobil.ch/image/8053_Erlebnis-Allalin_1b.jpg"],"photo_gallery_big":["",""],"photo_gallery_copyright":["",""],"photo_gallery_author":["",""],"name":"Saastal Tourismus AG","name_2":null,"street":"Obere Dorfstrasse 2","zip":"3906","place":"Saas-Fee","tel":"+41 (0)27 958 18 58","fax":null,"email":"info@saas-fee.ch","url1_link":"https://www.saas-fee.ch","x_coordinate":636082.0424685042,"y_coordinate":100784.8129792828,"change_date":null,"id":627,"r_key":627,"type":"Sight","url_sightseeing":"https://www.saas-fee.ch/","touristic_region":11}}
+{
+    "type": "Feature",
+    "id": 627,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.0576182725859,
+            7.904865068464561
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Adventure Allalin",
+        "abstract": "The highest underground funicular in the world, the «Metro Alpin», takes you from there to the Mittelallalin. From the highest revolving restaurant in the world at 3500 metres above sea-level, the Giants of the Alps seem so close you can almost touch them. Next door, the secrets of the glaciers are revealed in the biggest ice pavilion in the world.",
+        "description": "The Alpin Express takes you up to the station of the Metro Alpin at 3000 m above sea-level in a very short time. The highest underground funicular in the world takes you to the Mittelallalin, the highest snow sports area in the Saas-Fee region, and to the highest revolving restaurant in the world at 3500 m above sea-level. Enjoy a brunch and a succession of fantastic mountain landscapes with the highest Swiss summits unfolding in front of you in the space of an hour.\n\nA visit to the biggest ice pavilion in the world next door is a very special adventure. You experience close contact with the materials in the glacial ice on your journey into the \"underworld\" of the Fee glacier. The grotto measuring 5500 cubic metres will cast its spell on you. If you are interested to find out what a glacier looks like from the inside, visit the world's largest ice pavilion and the secret will be revealed. ",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/8053_Erlebnis-Allalin_2a.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/8053_Erlebnis-Allalin_2a.jpg",
+            "https://images.schweizmobil.ch/image/8053_Erlebnis-Allalin_1b.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "Saastal Tourismus AG",
+        "name_2": null,
+        "street": "Obere Dorfstrasse 2",
+        "zip": "3906",
+        "place": "Saas-Fee",
+        "tel": "+41 (0)27 958 18 58",
+        "fax": null,
+        "email": "info@saas-fee.ch",
+        "url1_link": "https://www.saas-fee.ch",
+        "x_coordinate": 636082.0424685042,
+        "y_coordinate": 100784.8129792828,
+        "change_date": null,
+        "id": 627,
+        "r_key": 627,
+        "type": "Sight",
+        "url_sightseeing": "https://www.saas-fee.ch/",
+        "touristic_region": 11,
+        "canton": 7
+    }
+}

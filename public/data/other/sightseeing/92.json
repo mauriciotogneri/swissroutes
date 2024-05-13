@@ -1,54 +1,60 @@
 {
-  "type": "Feature",
-  "id": 92,
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      46.974722935397885,
-      7.0539739126806635
-    ]
-  },
-  "properties": {
-    "land": null,
-    "category": "all",
-    "language": "en",
-    "title": "The nature reserve centre La Sauge",
-    "abstract": "The Swiss bird life protection and nature reserve centre La Sauge is located on the banks of the Broye Canal close to two very important Swiss bird life protection areas: the Fanel and the nature reserve Cudrefin - the number one destination to discover the Grande Cariçaie.",
-    "description": "The nature reserve is intended to receive visitors, to inform and to create new living habitats for the promotion of the biodiversity. The centre supported by the Swiss organisation for bird life protection and its exterior grounds (flower fields, hedges, stone walls, rifts and big ponds) were realized on former agriculturally utilized areas. Since then within the new habitats rare species settled down such as the kingfisher or the European tree frog. Ten thousands of visitors have visited the centre so far.\n\nThe nature reserve centre offers its visitors nature trails and various hides for the observation of wild animals, exhibitions, examples of living habitats for the nature protection at home, guided tours with professional guides, a nature lab etc.\n\nNot very far from the centre there is an organic farm and a restaurant where some of the on-site grown products are used.",
-    "highlights": null,
-    "foto": "https://images0.schweizmobil.ch/image/7937_La_Sauge_1a.jpg",
-    "photo_gallery": [
-      "https://images0.schweizmobil.ch/image/7937_La_Sauge_1a.jpg",
-      "https://images0.schweizmobil.ch/image/7937_La_Sauge_2b.jpg"
-    ],
-    "photo_gallery_big": [
-      "",
-      ""
-    ],
-    "photo_gallery_copyright": [
-      "",
-      ""
-    ],
-    "photo_gallery_author": [
-      "",
-      ""
-    ],
-    "name": "Bundesamt für Umwelt",
-    "name_2": null,
-    "street": "und Naturdenkmäler von nationaler Bedeutung (BLN)",
-    "zip": "BLN-Objekt-Nr.",
-    "place": "1208",
-    "tel": "",
-    "fax": null,
-    "email": "bln@bafu.admin.ch",
-    "url1_link": "https://www.bafu.admin.ch/bln",
-    "x_coordinate": 570730.0005356355,
-    "y_coordinate": 202700.00115417902,
-    "change_date": null,
+    "type": "Feature",
     "id": 92,
-    "r_key": 92,
-    "type": "Sight",
-    "url_sightseeing": "http://www.grande-caricaie.ch/spip/spip.php?rubrique210",
-    "touristic_region": 9
-  }
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.974722934801235,
+            7.053973922617491
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "The nature reserve centre La Sauge",
+        "abstract": "The Swiss bird life protection and nature reserve centre La Sauge is located on the banks of the Broye Canal close to two very important Swiss bird life protection areas: the Fanel and the nature reserve Cudrefin - the number one destination to discover the Grande Cariçaie.",
+        "description": "The nature reserve is intended to receive visitors, to inform and to create new living habitats for the promotion of the biodiversity. The centre supported by the Swiss organisation for bird life protection and its exterior grounds (flower fields, hedges, stone walls, rifts and big ponds) were realized on former agriculturally utilized areas. Since then within the new habitats rare species settled down such as the kingfisher or the European tree frog. Ten thousands of visitors have visited the centre so far.\n\nThe nature reserve centre offers its visitors nature trails and various hides for the observation of wild animals, exhibitions, examples of living habitats for the nature protection at home, guided tours with professional guides, a nature lab etc.\n\nNot very far from the centre there is an organic farm and a restaurant where some of the on-site grown products are used.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/7937_La_Sauge_1a.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/7937_La_Sauge_1a.jpg",
+            "https://images.schweizmobil.ch/image/7937_La_Sauge_2b.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "Bundesamt für Umwelt",
+        "name_2": null,
+        "street": "und Naturdenkmäler von nationaler Bedeutung (BLN)",
+        "zip": "BLN-Objekt-Nr.",
+        "place": "1208",
+        "tel": "-",
+        "fax": null,
+        "email": "bln@bafu.admin.ch",
+        "url1_link": "https://www.bafu.admin.ch/bln",
+        "x_coordinate": 570730.0005356355,
+        "y_coordinate": 202700.00115417902,
+        "change_date": null,
+        "id": 92,
+        "r_key": 92,
+        "type": "Sight",
+        "url_sightseeing": "http://www.grande-caricaie.ch/spip/spip.php?rubrique210",
+        "touristic_region": 9,
+        "canton": null
+    }
 }

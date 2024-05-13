@@ -1,1 +1,60 @@
-{"type":"Feature","id":168,"geometry":{"type":"Point","coordinates":[46.3501736313718,8.786523663994876]},"properties":{"land":null,"category":"all","language":"en","title":"Museo di Val Verzasca","abstract":"The Val Verzasca museum in Sonogno houses items pertaining to everyday life and farming and herding in the Verzasca Valley, with an eye to preserving and safeguarding the peasant culture of the past.","description":"The museum is located in the Verzasca Valley, in an old house that overlooks the village square of Sonogno. Since 1974, the museum houses a collection comprising about a thousand objects that reflect the everyday life of the past of the valley. From the beginning, the Museo di Val Verzasca has promoted the knowledge and preservation of all evidence related to culture and agro-pastoral activities of the Verzasca Valley. The nature of the objects collected and the design of the building only allow the construction of simple and small exhibitions. Since 2010 the permanent exhibition runs in four areas: the economy of subsistence, the typical house, the school and the history of the local chimney sweeps. The temporary exhibition of striking images of Hannes Binder tells the story of «The Brothers Blacks» by Lisa Tetzner. In the village of Frasco the museum has restored and put back in operation.","highlights":null,"foto":"https://images0.schweizmobil.ch/image/11488_Museo_di_Val_Verzasca_1a1.jpg","photo_gallery":["https://images0.schweizmobil.ch/image/11488_Museo_di_Val_Verzasca_1a1.jpg","https://images0.schweizmobil.ch/image/11488_Museo_di_Val_Verzasca_3b.jpg"],"photo_gallery_big":["",""],"photo_gallery_copyright":["",""],"photo_gallery_author":["",""],"name":"Ascona-Locarno Turismo","name_2":null,"street":"Via Brere 3a","zip":"6598","place":"Tenero","tel":"+41 (0)848 091 091","fax":null,"email":"tenero@ascona-locarno.com ","url1_link":"https://www.ascona-locarno.com","x_coordinate":703752.5063409574,"y_coordinate":134090.14823820067,"change_date":null,"id":168,"r_key":168,"type":"Sight","url_sightseeing":"https://www.museovalverzasca.ch","touristic_region":12}}
+{
+    "type": "Feature",
+    "id": 168,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.35017360137746,
+            8.786523635706075
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Museo di Val Verzasca",
+        "abstract": "The Val Verzasca museum in Sonogno houses items pertaining to everyday life and farming and herding in the Verzasca Valley, with an eye to preserving and safeguarding the peasant culture of the past.",
+        "description": "The museum is located in the Verzasca Valley, in an old house that overlooks the village square of Sonogno. Since 1974, the museum houses a collection comprising about a thousand objects that reflect the everyday life of the past of the valley. From the beginning, the Museo di Val Verzasca has promoted the knowledge and preservation of all evidence related to culture and agro-pastoral activities of the Verzasca Valley. The nature of the objects collected and the design of the building only allow the construction of simple and small exhibitions. Since 2010 the permanent exhibition runs in four areas: the economy of subsistence, the typical house, the school and the history of the local chimney sweeps. The temporary exhibition of striking images of Hannes Binder tells the story of «The Brothers Blacks» by Lisa Tetzner. In the village of Frasco the museum has restored and put back in operation.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/11488_Museo_di_Val_Verzasca_1a1.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/11488_Museo_di_Val_Verzasca_1a1.jpg",
+            "https://images.schweizmobil.ch/image/11488_Museo_di_Val_Verzasca_3b.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "Ascona-Locarno Turismo",
+        "name_2": null,
+        "street": "Via Brere 3a",
+        "zip": "6598",
+        "place": "Tenero",
+        "tel": "+41 (0)848 091 091",
+        "fax": null,
+        "email": "tenero@ascona-locarno.com ",
+        "url1_link": "https://www.ascona-locarno.com",
+        "x_coordinate": 703752.5063409574,
+        "y_coordinate": 134090.14823820067,
+        "change_date": null,
+        "id": 168,
+        "r_key": 168,
+        "type": "Sight",
+        "url_sightseeing": "https://www.museovalverzasca.ch",
+        "touristic_region": 12,
+        "canton": 19
+    }
+}

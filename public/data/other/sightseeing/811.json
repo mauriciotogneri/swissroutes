@@ -1,1 +1,95 @@
-{"type":"Feature","id":811,"geometry":{"type":"Point","coordinates":[47.038687774956855,8.783468474364334]},"properties":{"land":null,"category":"all","language":"en","title":"Kabi Bike Park","abstract":"The Kabi Bike Park in Oberiberg offers a total of six different trails over a length of 750 metres. The little ones dare to try the Baby and Kids’ Loop. For advanced bikers, there are four skill trails with bends, drops and other elements.","description":"To get fit for off-road mountain biking, this bike park at the foot of the Roggenstock offers three levels of difficulty: the baby loop is an easy trail with flat curves and minimal incline and decline. This trail is also suitable for running bikes. The kids’ loop has more generous radii as well as larger waves and hollows.\n\nThe flow trail and the turn trail which combine natural surfaces with approach curves and wooden elements are suitable as an introduction to off-road mountain biking. The tech trail uses stone and balance elements as well as roots to train off-road riding. The jump trail is for experienced riders who learn to jump with a drop, wooden elements and natural jumps.\n\nAll trails are accessible via a \"magic carpet\". The operating times of the conveyor belt are shown on the website. The Kabi Bike Park is open daily and use of the trails is free of charge.\n\n\n\nBaby Loop: \nLength: 30 m\nNumber of curves: 2\nInclination: 0-3%\n\n\nKids’ Loop: \nLength: 135 m\nNumber of curves: 4\nInclination: 0-3%\n\n\nFlow Trail: \nLength: 150 m\nNumber of curves: 5\nInclination: 5%\n\n\nTech Trail: \nLength: 125 m\nNumber of curves: 5\nInclination: 5%\n\n\nJump Trail: \nLength: 135 m\nNumber of curves: 1\nInclination: 5%\n\n\nTurn Trail:\nLength: 150 m\nNumber of curves: 7\nInclination: 5%\n","highlights":null,"foto":"https://images0.schweizmobil.ch/image/SZ_Kabi_Bikepark_2_M.jpg","photo_gallery":["https://images0.schweizmobil.ch/image/SZ_Kabi_Bikepark_1_s.jpg","https://images0.schweizmobil.ch/image/SZ_Kabi_Bikepark_2_s.jpg","https://images0.schweizmobil.ch/image/SZ_Kabi_Bikepark_3_s.jpg","https://images0.schweizmobil.ch/image/SZ_Kabi_Bikepark_4_s.jpg","https://images0.schweizmobil.ch/image/SZ_Kabi_Bikepark_5_s.jpg","https://images0.schweizmobil.ch/image/SZ_Kabi_Bikepark_6_s.jpg","https://images0.schweizmobil.ch/image/SZ_Kabi_Bikepark_7_s.jpg","https://images0.schweizmobil.ch/image/SZ_Kabi_Bikepark_8_s.jpg","https://images0.schweizmobil.ch/image/SZ_Kabi_Bikepark_9_s.jpg"],"photo_gallery_big":["https://images0.schweizmobil.ch/image-big/SZ_Kabi_Bikepark_1_g.jpg","https://images0.schweizmobil.ch/image-big/SZ_Kabi_Bikepark_2_g.jpg","https://images0.schweizmobil.ch/image-big/SZ_Kabi_Bikepark_3_g.jpg","https://images0.schweizmobil.ch/image-big/SZ_Kabi_Bikepark_4_g.jpg","https://images0.schweizmobil.ch/image-big/SZ_Kabi_Bikepark_5_g.jpg","https://images0.schweizmobil.ch/image-big/SZ_Kabi_Bikepark_6_g.jpg","https://images0.schweizmobil.ch/image-big/SZ_Kabi_Bikepark_7_g.jpg","https://images0.schweizmobil.ch/image-big/SZ_Kabi_Bikepark_8_g.jpg","https://images0.schweizmobil.ch/image-big/SZ_Kabi_Bikepark_9_g.jpg"],"photo_gallery_copyright":["(c) Zuerrer Fotografie Buchrain 2020","(c) Zuerrer Fotografie Buchrain 2020","(c) Zuerrer Fotografie Buchrain 2020","(c) Zuerrer Fotografie Buchrain 2020","(c) Zuerrer Fotografie Buchrain 2020","(c) Zuerrer Fotografie Buchrain 2020","(c) Zuerrer Fotografie Buchrain 2020","(c) Zuerrer Fotografie Buchrain 2020","(c) Zuerrer Fotografie Buchrain 2020"],"photo_gallery_author":["ZUERRER FOTOGRAFIE","ZUERRER FOTOGRAFIE","ZUERRER FOTOGRAFIE","ZUERRER FOTOGRAFIE","ZUERRER FOTOGRAFIE","ZUERRER FOTOGRAFIE","ZUERRER FOTOGRAFIE","ZUERRER FOTOGRAFIE","ZUERRER FOTOGRAFIE"],"name":"Schweizer Bike Schule Hoch-Ybrig","name_2":null,"street":"Tschalunstrasse 1","zip":"8843","place":"Oberiberg","tel":"+41 (0)55 414 16 88","fax":null,"email":"info@sss-ybrig.ch","url1_link":"https://www.bikeschulehochybrig.ch","x_coordinate":702205.1111687833,"y_coordinate":210615.87188291154,"change_date":null,"id":811,"r_key":811,"type":"Sight","url_sightseeing":"https://www.bikeschulehochybrig.ch","touristic_region":4}}
+{
+    "type": "Feature",
+    "id": 811,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            47.038687778950624,
+            8.783468463702938
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Kabi Bike Park",
+        "abstract": "The Kabi Bike Park in Oberiberg offers a total of six different trails over a length of 750 metres. The little ones dare to try the Baby and Kids’ Loop. For advanced bikers, there are four skill trails with bends, drops and other elements.",
+        "description": "To get fit for off-road mountain biking, this bike park at the foot of the Roggenstock offers three levels of difficulty: the baby loop is an easy trail with flat curves and minimal incline and decline. This trail is also suitable for running bikes. The kids’ loop has more generous radii as well as larger waves and hollows.\n\nThe flow trail and the turn trail which combine natural surfaces with approach curves and wooden elements are suitable as an introduction to off-road mountain biking. The tech trail uses stone and balance elements as well as roots to train off-road riding. The jump trail is for experienced riders who learn to jump with a drop, wooden elements and natural jumps.\n\nAll trails are accessible via a \"magic carpet\". The operating times of the conveyor belt are shown on the website. The Kabi Bike Park is open daily and use of the trails is free of charge.\n\n\n\nBaby Loop: \nLength: 30 m\nNumber of curves: 2\nInclination: 0-3%\n\n\nKids’ Loop: \nLength: 135 m\nNumber of curves: 4\nInclination: 0-3%\n\n\nFlow Trail: \nLength: 150 m\nNumber of curves: 5\nInclination: 5%\n\n\nTech Trail: \nLength: 125 m\nNumber of curves: 5\nInclination: 5%\n\n\nJump Trail: \nLength: 135 m\nNumber of curves: 1\nInclination: 5%\n\n\nTurn Trail:\nLength: 150 m\nNumber of curves: 7\nInclination: 5%\n",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/SZ_Kabi_Bikepark_2_M.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/SZ_Kabi_Bikepark_1_s.jpg",
+            "https://images.schweizmobil.ch/image/SZ_Kabi_Bikepark_2_s.jpg",
+            "https://images.schweizmobil.ch/image/SZ_Kabi_Bikepark_3_s.jpg",
+            "https://images.schweizmobil.ch/image/SZ_Kabi_Bikepark_4_s.jpg",
+            "https://images.schweizmobil.ch/image/SZ_Kabi_Bikepark_5_s.jpg",
+            "https://images.schweizmobil.ch/image/SZ_Kabi_Bikepark_6_s.jpg",
+            "https://images.schweizmobil.ch/image/SZ_Kabi_Bikepark_7_s.jpg",
+            "https://images.schweizmobil.ch/image/SZ_Kabi_Bikepark_8_s.jpg",
+            "https://images.schweizmobil.ch/image/SZ_Kabi_Bikepark_9_s.jpg"
+        ],
+        "photo_gallery_big": [
+            "https://images.schweizmobil.ch/image-big/SZ_Kabi_Bikepark_1_g.jpg",
+            "https://images.schweizmobil.ch/image-big/SZ_Kabi_Bikepark_2_g.jpg",
+            "https://images.schweizmobil.ch/image-big/SZ_Kabi_Bikepark_3_g.jpg",
+            "https://images.schweizmobil.ch/image-big/SZ_Kabi_Bikepark_4_g.jpg",
+            "https://images.schweizmobil.ch/image-big/SZ_Kabi_Bikepark_5_g.jpg",
+            "https://images.schweizmobil.ch/image-big/SZ_Kabi_Bikepark_6_g.jpg",
+            "https://images.schweizmobil.ch/image-big/SZ_Kabi_Bikepark_7_g.jpg",
+            "https://images.schweizmobil.ch/image-big/SZ_Kabi_Bikepark_8_g.jpg",
+            "https://images.schweizmobil.ch/image-big/SZ_Kabi_Bikepark_9_g.jpg"
+        ],
+        "photo_gallery_copyright": [
+            "(c) Zuerrer Fotografie Buchrain 2020",
+            "(c) Zuerrer Fotografie Buchrain 2020",
+            "(c) Zuerrer Fotografie Buchrain 2020",
+            "(c) Zuerrer Fotografie Buchrain 2020",
+            "(c) Zuerrer Fotografie Buchrain 2020",
+            "(c) Zuerrer Fotografie Buchrain 2020",
+            "(c) Zuerrer Fotografie Buchrain 2020",
+            "(c) Zuerrer Fotografie Buchrain 2020",
+            "(c) Zuerrer Fotografie Buchrain 2020"
+        ],
+        "photo_gallery_author": [
+            "ZUERRER FOTOGRAFIE",
+            "ZUERRER FOTOGRAFIE",
+            "ZUERRER FOTOGRAFIE",
+            "ZUERRER FOTOGRAFIE",
+            "ZUERRER FOTOGRAFIE",
+            "ZUERRER FOTOGRAFIE",
+            "ZUERRER FOTOGRAFIE",
+            "ZUERRER FOTOGRAFIE",
+            "ZUERRER FOTOGRAFIE"
+        ],
+        "photo_gallery_abstract": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "name": "Schweizer Bike Schule Hoch-Ybrig",
+        "name_2": null,
+        "street": "Tschalunstrasse 1",
+        "zip": "8843",
+        "place": "Oberiberg",
+        "tel": "+41 (0)55 414 16 88",
+        "fax": null,
+        "email": "info@sss-ybrig.ch",
+        "url1_link": "https://www.bikeschulehochybrig.ch",
+        "x_coordinate": 702205.1111687833,
+        "y_coordinate": 210615.87188291154,
+        "change_date": null,
+        "id": 811,
+        "r_key": 811,
+        "type": "Sight",
+        "url_sightseeing": "https://www.bikeschulehochybrig.ch",
+        "touristic_region": 4,
+        "canton": 11
+    }
+}

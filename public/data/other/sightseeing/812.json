@@ -1,1 +1,75 @@
-{"type":"Feature","id":812,"geometry":{"type":"Point","coordinates":[47.19551025271194,8.816922801193222]},"properties":{"land":null,"category":"all","language":"en","title":"Pump track Altendorf","abstract":"In a beautiful location directly on Lake Zurich, young and old can let off steam on the pump track in the Haab area of Altendorf. The circuit consists of bumps and bends.","description":"The combination of gentle jumps and curves makes this pump track suitable for beginners as well as advanced riders. \nVisitors can ride the entire track on one main line. Since this line intersects at many places, there are countless variations possible. Whether on a mountain bike, bicycle, kickboard or inline skates – great fun and an idyllic scenery are guaranteed.\n\n\nNext to the pump track, there are barbecue facilities for visitors, plenty of benches and an open meadow area to linger. The Altendorf train station is just 200 m away, and there is also a public car park available.\n\nPump track area: 1100 m2\nWave and curve height: 30-120 cm\n","highlights":null,"foto":"https://images0.schweizmobil.ch/image/SZ_Pumptrack_Altendorf_1_M.jpg","photo_gallery":["https://images0.schweizmobil.ch/image/SZ_Pumptrack_Altendorf_1_s.jpg","https://images0.schweizmobil.ch/image/SZ_Pumptrack_Altendorf_2_s.jpg","https://images0.schweizmobil.ch/image/SZ_Pumptrack_Altendorf_3_s.jpg","https://images0.schweizmobil.ch/image/SZ_Pumptrack_Altendorf_4_s.jpg","https://images0.schweizmobil.ch/image/SZ_Pumptrack_Altendorf_5_s.jpg"],"photo_gallery_big":["https://images0.schweizmobil.ch/image-big/SZ_Pumptrack_Altendorf_1_g.jpg","https://images0.schweizmobil.ch/image-big/SZ_Pumptrack_Altendorf_2_g.jpg","https://images0.schweizmobil.ch/image-big/SZ_Pumptrack_Altendorf_3_g.jpg","https://images0.schweizmobil.ch/image-big/SZ_Pumptrack_Altendorf_4_g.jpg","https://images0.schweizmobil.ch/image-big/SZ_Pumptrack_Altendorf_5_g.jpg"],"photo_gallery_copyright":["","","","",""],"photo_gallery_author":["","","","",""],"name":"Verkehrsverein Altendorf","name_2":null,"street":"Hinterfeld 2C","zip":"8852","place":"Altendorf","tel":"+41 (0)76 499 79 45","fax":null,"email":"kontakt@verkehrsverein-altendorf.ch","url1_link":"https://www.verkehrsverein-altendorf.ch","x_coordinate":704441.4956960652,"y_coordinate":228091.696159832,"change_date":null,"id":812,"r_key":812,"type":"Sight","url_sightseeing":"https://www.verkehrsverein-altendorf.ch/entdecken/pumptrack","touristic_region":3}}
+{
+    "type": "Feature",
+    "id": 812,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            47.195510249494966,
+            8.816922774564766
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Pump track Altendorf",
+        "abstract": "In a beautiful location directly on Lake Zurich, young and old can let off steam on the pump track in the Haab area of Altendorf. The circuit consists of bumps and bends.",
+        "description": "The combination of gentle jumps and curves makes this pump track suitable for beginners as well as advanced riders. \nVisitors can ride the entire track on one main line. Since this line intersects at many places, there are countless variations possible. Whether on a mountain bike, bicycle, kickboard or inline skates – great fun and an idyllic scenery are guaranteed.\n\n\nNext to the pump track, there are barbecue facilities for visitors, plenty of benches and an open meadow area to linger. The Altendorf train station is just 200 m away, and there is also a public car park available.\n\nPump track area: 1100 m2\nWave and curve height: 30-120 cm\n",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/SZ_Pumptrack_Altendorf_1_M.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/SZ_Pumptrack_Altendorf_1_s.jpg",
+            "https://images.schweizmobil.ch/image/SZ_Pumptrack_Altendorf_2_s.jpg",
+            "https://images.schweizmobil.ch/image/SZ_Pumptrack_Altendorf_3_s.jpg",
+            "https://images.schweizmobil.ch/image/SZ_Pumptrack_Altendorf_4_s.jpg",
+            "https://images.schweizmobil.ch/image/SZ_Pumptrack_Altendorf_5_s.jpg"
+        ],
+        "photo_gallery_big": [
+            "https://images.schweizmobil.ch/image-big/SZ_Pumptrack_Altendorf_1_g.jpg",
+            "https://images.schweizmobil.ch/image-big/SZ_Pumptrack_Altendorf_2_g.jpg",
+            "https://images.schweizmobil.ch/image-big/SZ_Pumptrack_Altendorf_3_g.jpg",
+            "https://images.schweizmobil.ch/image-big/SZ_Pumptrack_Altendorf_4_g.jpg",
+            "https://images.schweizmobil.ch/image-big/SZ_Pumptrack_Altendorf_5_g.jpg"
+        ],
+        "photo_gallery_copyright": [
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "name": "Verkehrsverein Altendorf",
+        "name_2": null,
+        "street": "Hinterfeld 2C",
+        "zip": "8852",
+        "place": "Altendorf",
+        "tel": "+41 (0)76 499 79 45",
+        "fax": null,
+        "email": "kontakt@verkehrsverein-altendorf.ch",
+        "url1_link": "https://www.verkehrsverein-altendorf.ch",
+        "x_coordinate": 704441.4956960652,
+        "y_coordinate": 228091.696159832,
+        "change_date": null,
+        "id": 812,
+        "r_key": 812,
+        "type": "Sight",
+        "url_sightseeing": "https://www.verkehrsverein-altendorf.ch/entdecken/pumptrack",
+        "touristic_region": 3,
+        "canton": 11
+    }
+}

@@ -1,1 +1,34 @@
-{"type":"Feature","id":3043,"geometry":{"type":"Point","coordinates":[46.87596022937808,8.629891354760325]},"properties":{"land":"\"velo\",\"mountainbike\"","category":"all","language":"en","title":"Zurfluh Lorenz","abstract":null,"name":"Zurfluh Lorenz","street":"Reussacherstrasse 24","zip":"6460","place":"Altdorf UR","tel":"+41 41 870 72 71","email":null,"url1_text":null,"url1_link":null,"organisation":"2rad / 2routes / 2ruote","foto":null,"x_coordinate":690809.6863064294,"y_coordinate":192338.50284153997,"change_date":null,"id":278,"type":"Service"}}
+{
+    "type": "Feature",
+    "id": 3043,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.875960230932485,
+            8.629891321751856
+        ]
+    },
+    "properties": {
+        "land": "\"velo\",\"mountainbike\"",
+        "category": "all",
+        "language": "en",
+        "title": "Zurfluh Lorenz",
+        "abstract": null,
+        "name": "Zurfluh Lorenz",
+        "street": "Reussacherstrasse 24",
+        "zip": "6460",
+        "place": "Altdorf UR",
+        "tel": "+41 41 870 72 71",
+        "email": null,
+        "url1_text": null,
+        "url1_link": null,
+        "organisation": "2rad / 2routes / 2ruote",
+        "foto": null,
+        "foto_abstract": null,
+        "x_coordinate": 690809.6863064294,
+        "y_coordinate": 192338.50284153997,
+        "change_date": null,
+        "id": 278,
+        "type": "Service"
+    }
+}

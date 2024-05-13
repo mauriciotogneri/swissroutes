@@ -1,1 +1,60 @@
-{"type":"Feature","id":407,"geometry":{"type":"Point","coordinates":[46.532414777020406,7.665034130463395]},"properties":{"land":null,"category":"all","language":"en","title":"Blausee","abstract":"It's no exaggeration to describe the Blausee lake as fascinating and precious jewel of the Bernese Alps. And the deep-blue lake, with its crystal-clear waters, lies in the idyllic 20 ha large grounds of a traffic-free natural park.","description":"Visitors to the delightful Blausee lake not only discover a jewel situated in a privileged location amidst stunning nature; but also excellent restaurants along with Alpine bio-trout breeding, romantic walks, fun and adventure for children, illuminated parking areas and almost mystic views of the lake at night.\n\nThe crystal-clear waters of the lake, with rich mineral content, remain more or less at a constant temperature of around 8ºc both in summer and winter. And this is the source of the tastiest Blausee lake trout – naturally bred biologically.  Fish here thrive and grow in conditions similar to those in the wilds; the results of which are a particularly firm, fleshy and tasty fish.","highlights":null,"foto":"https://images0.schweizmobil.ch/image/9814_Blausee_1a.jpg","photo_gallery":["https://images0.schweizmobil.ch/image/9814_Blausee_1a.jpg","https://images0.schweizmobil.ch/image/9814_Blausee_2b.jpg"],"photo_gallery_big":["",""],"photo_gallery_copyright":["",""],"photo_gallery_author":["",""],"name":"TALK (Tourismus Adelboden-Lenk-Kandersteg) AG","name_2":null,"street":"Äussere Dorfstrasse 26","zip":"3718","place":"Kandersteg","tel":"+41 (0)33 675 80 80","fax":null,"email":"info@kandersteg.ch","url1_link":"https://www.kandersteg.ch","x_coordinate":617369.3140516407,"y_coordinate":153483.11003613556,"change_date":null,"id":407,"r_key":407,"type":"Sight","url_sightseeing":"https://www.blausee.ch","touristic_region":6}}
+{
+    "type": "Feature",
+    "id": 407,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.53241477344928,
+            7.665034127305047
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Blausee",
+        "abstract": "It's no exaggeration to describe the Blausee lake as fascinating and precious jewel of the Bernese Alps. And the deep-blue lake, with its crystal-clear waters, lies in the idyllic 20 ha large grounds of a traffic-free natural park.",
+        "description": "Visitors to the delightful Blausee lake not only discover a jewel situated in a privileged location amidst stunning nature; but also excellent restaurants along with Alpine bio-trout breeding, romantic walks, fun and adventure for children, illuminated parking areas and almost mystic views of the lake at night.\n\nThe crystal-clear waters of the lake, with rich mineral content, remain more or less at a constant temperature of around 8ºc both in summer and winter. And this is the source of the tastiest Blausee lake trout – naturally bred biologically.  Fish here thrive and grow in conditions similar to those in the wilds; the results of which are a particularly firm, fleshy and tasty fish.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/9814_Blausee_1a.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/9814_Blausee_1a.jpg",
+            "https://images.schweizmobil.ch/image/9814_Blausee_2b.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "TALK (Tourismus Adelboden-Lenk-Kandersteg) AG",
+        "name_2": null,
+        "street": "Äussere Dorfstrasse 26",
+        "zip": "3718",
+        "place": "Kandersteg",
+        "tel": "+41 (0)33 675 80 80",
+        "fax": null,
+        "email": "info@kandersteg.ch",
+        "url1_link": "https://www.kandersteg.ch",
+        "x_coordinate": 617369.3140516407,
+        "y_coordinate": 153483.11003613556,
+        "change_date": null,
+        "id": 407,
+        "r_key": 407,
+        "type": "Sight",
+        "url_sightseeing": "https://www.blausee.ch",
+        "touristic_region": 6,
+        "canton": 12
+    }
+}

@@ -1,1 +1,34 @@
-{"type":"Feature","id":3160,"geometry":{"type":"Point","coordinates":[47.227943228155965,8.958368182820328]},"properties":{"land":"\"velo\",\"mountainbike\"","category":"all","language":"en","title":"Radbar","abstract":null,"name":"Radbar","street":"St. Gallerstrasse 48","zip":"8716","place":"Schmerikon","tel":"+41 55 292 21 00","email":null,"url1_text":null,"url1_link":"https://www.radbar.ch","organisation":"2rad / 2routes / 2ruote","foto":null,"x_coordinate":715088.8266585051,"y_coordinate":231894.44710556747,"change_date":null,"id":419,"type":"Service"}}
+{
+    "type": "Feature",
+    "id": 3160,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            47.227943242839984,
+            8.958368171436424
+        ]
+    },
+    "properties": {
+        "land": "\"velo\",\"mountainbike\"",
+        "category": "all",
+        "language": "en",
+        "title": "Radbar",
+        "abstract": null,
+        "name": "Radbar",
+        "street": "St. Gallerstrasse 48",
+        "zip": "8716",
+        "place": "Schmerikon",
+        "tel": "+41 55 292 21 00",
+        "email": null,
+        "url1_text": null,
+        "url1_link": "https://www.radbar.ch",
+        "organisation": "2rad / 2routes / 2ruote",
+        "foto": null,
+        "foto_abstract": null,
+        "x_coordinate": 715088.8266585051,
+        "y_coordinate": 231894.44710556747,
+        "change_date": null,
+        "id": 419,
+        "type": "Service"
+    }
+}

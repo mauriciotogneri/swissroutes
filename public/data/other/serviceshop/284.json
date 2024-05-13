@@ -1,1 +1,34 @@
-{"type":"Feature","id":3049,"geometry":{"type":"Point","coordinates":[46.8458439282312,9.50958846924181]},"properties":{"land":"\"velo\",\"mountainbike\"","category":"all","language":"en","title":"Steffi Velosport","abstract":null,"name":"Steffi Velosport","street":"Richtstrasse 4","zip":"7000","place":"Chur","tel":"+41 81 284 22 88","email":null,"url1_text":null,"url1_link":"https://www.steffi.ch","organisation":"2rad / 2routes / 2ruote","foto":null,"x_coordinate":757944.1467558157,"y_coordinate":190385.3963989063,"change_date":null,"id":284,"type":"Service"}}
+{
+    "type": "Feature",
+    "id": 3049,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.84584392979462,
+            9.509588550525484
+        ]
+    },
+    "properties": {
+        "land": "\"velo\",\"mountainbike\"",
+        "category": "all",
+        "language": "en",
+        "title": "Steffi Velosport",
+        "abstract": null,
+        "name": "Steffi Velosport",
+        "street": "Richtstrasse 4",
+        "zip": "7000",
+        "place": "Chur",
+        "tel": "+41 81 284 22 88",
+        "email": null,
+        "url1_text": null,
+        "url1_link": "https://www.steffi.ch",
+        "organisation": "2rad / 2routes / 2ruote",
+        "foto": null,
+        "foto_abstract": null,
+        "x_coordinate": 757944.1467558157,
+        "y_coordinate": 190385.3963989063,
+        "change_date": null,
+        "id": 284,
+        "type": "Service"
+    }
+}

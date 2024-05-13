@@ -1,1 +1,34 @@
-{"type":"Feature","id":3181,"geometry":{"type":"Point","coordinates":[47.4248424623539,9.383418256827206]},"properties":{"land":"\"velo\",\"mountainbike\"","category":"all","language":"en","title":"Velo Pfiffner AG","abstract":null,"name":"Velo Pfiffner AG","street":"Linsebühlstrasse 67","zip":"9000","place":"St. Gallen","tel":"+41 71 223 62 62","email":null,"url1_text":null,"url1_link":null,"organisation":"2rad / 2routes / 2ruote","foto":null,"x_coordinate":746728.779155333,"y_coordinate":254489.93303019353,"change_date":null,"id":445,"type":"Service"}}
+{
+    "type": "Feature",
+    "id": 3181,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            47.42484244636383,
+            9.383418334668368
+        ]
+    },
+    "properties": {
+        "land": "\"velo\",\"mountainbike\"",
+        "category": "all",
+        "language": "en",
+        "title": "Velo Pfiffner AG",
+        "abstract": null,
+        "name": "Velo Pfiffner AG",
+        "street": "Linsebühlstrasse 67",
+        "zip": "9000",
+        "place": "St. Gallen",
+        "tel": "+41 71 223 62 62",
+        "email": null,
+        "url1_text": null,
+        "url1_link": null,
+        "organisation": "2rad / 2routes / 2ruote",
+        "foto": null,
+        "foto_abstract": null,
+        "x_coordinate": 746728.779155333,
+        "y_coordinate": 254489.93303019353,
+        "change_date": null,
+        "id": 445,
+        "type": "Service"
+    }
+}

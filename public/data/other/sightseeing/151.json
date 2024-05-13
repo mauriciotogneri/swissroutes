@@ -1,1 +1,60 @@
-{"type":"Feature","id":151,"geometry":{"type":"Point","coordinates":[47.70265217657989,8.46084983211469]},"properties":{"land":null,"category":"all","language":"en","title":"Klettgauer Rebenlandschaft","abstract":"The largest connected winegrowing area in German-speaking Switzerland is in Hallau, the heart of the Schaffhausen Blauburgunderland.","description":"In picturesque Hallau, a winegrowing village, there are less than 2000 inhabitants. However, this little village has brought forth exceptional wine: with neighbouring Oberhallau Gächlingen and Trasadingen it produces the largest share of the region's wine! 389 hectares of vineyards cover Hallau like a colourful king's robe in autumn. St. Moritz's, the  mountain church, stands proudly high above the vineyards, it is an eye-catching landmark for the whole of the Klettgau valley.\n\nThe winegrowers cultivate Pinor Noir, Riesling x Sylvaner, Chardonnay, Pinot Gris, Räuschling and Gamay x Reichensteiner in the deep and fertile soil. Full-bodied, deep red grapes grow in sun-kissed Klettgau, the largest  connected winegrowing area in German-speaking Switzerland.\n\nTip: Enjoy the Provencal-like view over the vineyards from St. Moritz's mountain church whilst sipping a refreshing fruity Schaffhausen Pinor Noir.","highlights":null,"foto":"https://images0.schweizmobil.ch/image/11328_Klettgauer_Rebenlandschaft_1a.jpg","photo_gallery":["https://images0.schweizmobil.ch/image/11328_Klettgauer_Rebenlandschaft_1a.jpg","https://images0.schweizmobil.ch/image/11328_Klettgauer_Rebenlandschaft_2b.jpg"],"photo_gallery_big":["",""],"photo_gallery_copyright":["",""],"photo_gallery_author":["",""],"name":"Schaffhauserland Tourismus","name_2":null,"street":"Vordergasse 73","zip":"8200","place":"Schaffhausen","tel":"+41 (0)52 632 40 20","fax":null,"email":"info@schaffhauserland.ch","url1_link":"https://www.schaffhauserland.ch","x_coordinate":676727.0006013373,"y_coordinate":284060.001151519,"change_date":null,"id":151,"r_key":151,"type":"Sight","url_sightseeing":"https://www.blauburgunderland.ch","touristic_region":2}}
+{
+    "type": "Feature",
+    "id": 151,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            47.70265219136509,
+            8.460849794306153
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Klettgauer Rebenlandschaft",
+        "abstract": "The largest connected winegrowing area in German-speaking Switzerland is in Hallau, the heart of the Schaffhausen Blauburgunderland.",
+        "description": "In picturesque Hallau, a winegrowing village, there are less than 2000 inhabitants. However, this little village has brought forth exceptional wine: with neighbouring Oberhallau Gächlingen and Trasadingen it produces the largest share of the region's wine! 389 hectares of vineyards cover Hallau like a colourful king's robe in autumn. St. Moritz's, the  mountain church, stands proudly high above the vineyards, it is an eye-catching landmark for the whole of the Klettgau valley.\n\nThe winegrowers cultivate Pinor Noir, Riesling x Sylvaner, Chardonnay, Pinot Gris, Räuschling and Gamay x Reichensteiner in the deep and fertile soil. Full-bodied, deep red grapes grow in sun-kissed Klettgau, the largest  connected winegrowing area in German-speaking Switzerland.\n\nTip: Enjoy the Provencal-like view over the vineyards from St. Moritz's mountain church whilst sipping a refreshing fruity Schaffhausen Pinor Noir.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/11328_Klettgauer_Rebenlandschaft_1a.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/11328_Klettgauer_Rebenlandschaft_1a.jpg",
+            "https://images.schweizmobil.ch/image/11328_Klettgauer_Rebenlandschaft_2b.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "Schaffhauserland Tourismus",
+        "name_2": null,
+        "street": "Vordergasse 73",
+        "zip": "8200",
+        "place": "Schaffhausen",
+        "tel": "+41 (0)52 632 40 20",
+        "fax": null,
+        "email": "info@schaffhauserland.ch",
+        "url1_link": "https://www.schaffhauserland.ch",
+        "x_coordinate": 676727.0006013373,
+        "y_coordinate": 284060.001151519,
+        "change_date": null,
+        "id": 151,
+        "r_key": 151,
+        "type": "Sight",
+        "url_sightseeing": "https://www.blauburgunderland.ch",
+        "touristic_region": 2,
+        "canton": null
+    }
+}

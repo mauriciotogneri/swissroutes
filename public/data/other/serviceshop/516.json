@@ -1,1 +1,34 @@
-{"type":"Feature","id":3242,"geometry":{"type":"Point","coordinates":[47.22328833190257,7.101684223641327]},"properties":{"land":"\"velo\",\"mountainbike\"","category":"all","language":"en","title":"Fabien Bike Sàrl","abstract":null,"name":"Fabien Bike Sàrl","street":"Grand-Rue 131","zip":"2720","place":"Tramelan","tel":"+41 32 487 35 19","email":null,"url1_text":null,"url1_link":"https://www.fabien-bike.ch","organisation":"2rad / 2routes / 2ruote","foto":null,"x_coordinate":574479.6733694897,"y_coordinate":230317.46994733548,"change_date":null,"id":516,"type":"Service"}}
+{
+    "type": "Feature",
+    "id": 3242,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            47.22328833929192,
+            7.101684234780667
+        ]
+    },
+    "properties": {
+        "land": "\"velo\",\"mountainbike\"",
+        "category": "all",
+        "language": "en",
+        "title": "Fabien Bike Sàrl",
+        "abstract": null,
+        "name": "Fabien Bike Sàrl",
+        "street": "Grand-Rue 131",
+        "zip": "2720",
+        "place": "Tramelan",
+        "tel": "+41 32 487 35 19",
+        "email": null,
+        "url1_text": null,
+        "url1_link": "https://www.fabien-bike.ch",
+        "organisation": "2rad / 2routes / 2ruote",
+        "foto": null,
+        "foto_abstract": null,
+        "x_coordinate": 574479.6733694897,
+        "y_coordinate": 230317.46994733548,
+        "change_date": null,
+        "id": 516,
+        "type": "Service"
+    }
+}

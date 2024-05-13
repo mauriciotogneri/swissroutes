@@ -1,1 +1,34 @@
-{"type":"Feature","id":2890,"geometry":{"type":"Point","coordinates":[46.74248834955489,7.614019295677541]},"properties":{"land":"\"velo\",\"mountainbike\"","category":"all","language":"en","title":"Velo Schneiter","abstract":null,"name":"Velo Schneiter","street":"Adlerstrasse 18","zip":"3604","place":"Thun","tel":"+41 33 336 60 04","email":null,"url1_text":null,"url1_link":"https://www.veloschneiter.ch","organisation":"2rad / 2routes / 2ruote","foto":null,"x_coordinate":613403.1311304191,"y_coordinate":176826.8994813741,"change_date":null,"id":101,"type":"Service"}}
+{
+    "type": "Feature",
+    "id": 2890,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.74248835769268,
+            7.614019291646723
+        ]
+    },
+    "properties": {
+        "land": "\"velo\",\"mountainbike\"",
+        "category": "all",
+        "language": "en",
+        "title": "Velo Schneiter",
+        "abstract": null,
+        "name": "Velo Schneiter",
+        "street": "Adlerstrasse 18",
+        "zip": "3604",
+        "place": "Thun",
+        "tel": "+41 33 336 60 04",
+        "email": null,
+        "url1_text": null,
+        "url1_link": "https://www.veloschneiter.ch",
+        "organisation": "2rad / 2routes / 2ruote",
+        "foto": null,
+        "foto_abstract": null,
+        "x_coordinate": 613403.1311304191,
+        "y_coordinate": 176826.8994813741,
+        "change_date": null,
+        "id": 101,
+        "type": "Service"
+    }
+}

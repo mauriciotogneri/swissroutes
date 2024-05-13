@@ -1,1 +1,60 @@
-{"type":"Feature","id":679,"geometry":{"type":"Point","coordinates":[46.94302090996511,7.4493021046146675]},"properties":{"land":null,"category":"all","language":"en","title":"Bern Historical Museum","abstract":"Bern Historical Museum is one of Switzerland's most significant art-historical museums. Its permanent collection features highlights from the fields of archeology, prehistory and early history, as well as ethnography.","description":"In the temporary exhibition hall, innovative exhibitions are displayed in an area covering 1,200 square meters. The Burgundian tapestries, the hydria from Grächwil and the Königsfelden diptych enjoy international renown. The museum presents its collections in various creative ways, including by audiovisual means.\n\nThe integrated Einstein Museum presents the life and work of the famed physicist in an exciting way within the context of world history. Animated films and experiments illustrate the genius's revolutionary theories.\n\nKubus, an extension added in 2009, perfectly complements the museum park in terms of architecture. And yet, with its modern shapes and materials, it still presents a fascinating contrast to the castle built in 1894.","highlights":null,"foto":"https://images0.schweizmobil.ch/image/BT751_a.jpg","photo_gallery":["https://images0.schweizmobil.ch/image/BT1613_b.jpg","https://images0.schweizmobil.ch/image/BT751_a.jpg"],"photo_gallery_big":["",""],"photo_gallery_copyright":["",""],"photo_gallery_author":["",""],"name":"Bernisches Historisches Museum","name_2":null,"street":"Helvetiaplatz 5","zip":"3005","place":"Bern","tel":"+41 (0)31 350 77 11","fax":null,"email":"info@bhm.ch","url1_link":"https://www.bhm.ch","x_coordinate":600812.9527696648,"y_coordinate":199104.8145572312,"change_date":null,"id":679,"r_key":679,"type":"Sight","url_sightseeing":"https://www.bhm.ch","touristic_region":6}}
+{
+    "type": "Feature",
+    "id": 679,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.94302091007567,
+            7.4493021044445165
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Bern Historical Museum",
+        "abstract": "Bern Historical Museum is one of Switzerland's most significant art-historical museums. Its permanent collection features highlights from the fields of archeology, prehistory and early history, as well as ethnography.",
+        "description": "In the temporary exhibition hall, innovative exhibitions are displayed in an area covering 1,200 square meters. The Burgundian tapestries, the hydria from Grächwil and the Königsfelden diptych enjoy international renown. The museum presents its collections in various creative ways, including by audiovisual means.\n\nThe integrated Einstein Museum presents the life and work of the famed physicist in an exciting way within the context of world history. Animated films and experiments illustrate the genius's revolutionary theories.\n\nKubus, an extension added in 2009, perfectly complements the museum park in terms of architecture. And yet, with its modern shapes and materials, it still presents a fascinating contrast to the castle built in 1894.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/BT751_a.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/BT1613_b.jpg",
+            "https://images.schweizmobil.ch/image/BT751_a.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "Bernisches Historisches Museum",
+        "name_2": null,
+        "street": "Helvetiaplatz 5",
+        "zip": "3005",
+        "place": "Bern",
+        "tel": "+41 (0)31 350 77 11",
+        "fax": null,
+        "email": "info@bhm.ch",
+        "url1_link": "https://www.bhm.ch",
+        "x_coordinate": 600812.9527696648,
+        "y_coordinate": 199104.8145572312,
+        "change_date": null,
+        "id": 679,
+        "r_key": 679,
+        "type": "Sight",
+        "url_sightseeing": "https://www.bhm.ch",
+        "touristic_region": 6,
+        "canton": 12
+    }
+}

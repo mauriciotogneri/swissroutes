@@ -1,1 +1,34 @@
-{"type":"Feature","id":2922,"geometry":{"type":"Point","coordinates":[47.48911449232014,7.608770835150474]},"properties":{"land":"\"velo\",\"mountainbike\"","category":"all","language":"en","title":"Brino Velo AG","abstract":null,"name":"Brino Velo AG","street":"Neu-Arlesheimerstrasse 16/18","zip":"4143","place":"Dornach","tel":"+41 61 701 97 75","email":null,"url1_text":null,"url1_link":"https://www.brino.ch","organisation":"2rad / 2routes / 2ruote","foto":null,"x_coordinate":612822.0463411795,"y_coordinate":259831.45203371442,"change_date":null,"id":137,"type":"Service"}}
+{
+    "type": "Feature",
+    "id": 2922,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            47.48911448455089,
+            7.608770831014605
+        ]
+    },
+    "properties": {
+        "land": "\"velo\",\"mountainbike\"",
+        "category": "all",
+        "language": "en",
+        "title": "Brino Velo AG",
+        "abstract": null,
+        "name": "Brino Velo AG",
+        "street": "Neu-Arlesheimerstrasse 16/18",
+        "zip": "4143",
+        "place": "Dornach",
+        "tel": "+41 61 701 97 75",
+        "email": null,
+        "url1_text": null,
+        "url1_link": "https://www.brino.ch",
+        "organisation": "2rad / 2routes / 2ruote",
+        "foto": null,
+        "foto_abstract": null,
+        "x_coordinate": 612822.0463411795,
+        "y_coordinate": 259831.45203371442,
+        "change_date": null,
+        "id": 137,
+        "type": "Service"
+    }
+}

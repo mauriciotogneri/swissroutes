@@ -1,1 +1,34 @@
-{"type":"Feature","id":3237,"geometry":{"type":"Point","coordinates":[47.51018893959841,9.425128100590515]},"properties":{"land":"\"velo\",\"mountainbike\"","category":"all","language":"en","title":"Bike Action GmbH","abstract":null,"name":"Bike Action GmbH","street":"St. Gallerstrasse 51","zip":"9320","place":"Arbon","tel":"+41 71 446 02 20","email":null,"url1_text":null,"url1_link":"https://www.bikeaction.ch","organisation":"2rad / 2routes / 2ruote","foto":null,"x_coordinate":749634.7311984878,"y_coordinate":264054.3210280113,"change_date":null,"id":509,"type":"Service"}}
+{
+    "type": "Feature",
+    "id": 3237,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            47.510188963826735,
+            9.425128053171466
+        ]
+    },
+    "properties": {
+        "land": "\"velo\",\"mountainbike\"",
+        "category": "all",
+        "language": "en",
+        "title": "Bike Action GmbH",
+        "abstract": null,
+        "name": "Bike Action GmbH",
+        "street": "St. Gallerstrasse 51",
+        "zip": "9320",
+        "place": "Arbon",
+        "tel": "+41 71 446 02 20",
+        "email": null,
+        "url1_text": null,
+        "url1_link": "https://www.bikeaction.ch",
+        "organisation": "2rad / 2routes / 2ruote",
+        "foto": null,
+        "foto_abstract": null,
+        "x_coordinate": 749634.7311984878,
+        "y_coordinate": 264054.3210280113,
+        "change_date": null,
+        "id": 509,
+        "type": "Service"
+    }
+}

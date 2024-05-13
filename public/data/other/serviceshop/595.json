@@ -1,1 +1,34 @@
-{"type":"Feature","id":3314,"geometry":{"type":"Point","coordinates":[47.38821207121549,8.752775823985424]},"properties":{"land":"\"velo\",\"mountainbike\"","category":"all","language":"en","title":"Velo Tröhler","abstract":null,"name":"Velo Tröhler","street":"Sennhüttenweg 3","zip":"8320","place":"Fehraltorf","tel":"+41 44 954 34 33","email":null,"url1_text":null,"url1_link":"https://www.velotroehler.ch","organisation":null,"foto":null,"x_coordinate":699222.1465795275,"y_coordinate":249429.56918273075,"change_date":null,"id":595,"type":"Service"}}
+{
+    "type": "Feature",
+    "id": 3314,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            47.38821207593832,
+            8.752775864328894
+        ]
+    },
+    "properties": {
+        "land": "\"velo\",\"mountainbike\"",
+        "category": "all",
+        "language": "en",
+        "title": "Velo Tröhler",
+        "abstract": null,
+        "name": "Velo Tröhler",
+        "street": "Sennhüttenweg 3",
+        "zip": "8320",
+        "place": "Fehraltorf",
+        "tel": "+41 44 954 34 33",
+        "email": null,
+        "url1_text": null,
+        "url1_link": "https://www.velotroehler.ch",
+        "organisation": null,
+        "foto": null,
+        "foto_abstract": null,
+        "x_coordinate": 699222.1465795275,
+        "y_coordinate": 249429.56918273075,
+        "change_date": null,
+        "id": 595,
+        "type": "Service"
+    }
+}

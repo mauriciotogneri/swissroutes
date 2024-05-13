@@ -1,1 +1,60 @@
-{"type":"Feature","id":466,"geometry":{"type":"Point","coordinates":[47.27955804841296,7.080446515721304]},"properties":{"land":null,"category":"all","language":"en","title":"Scooter-biking in the Franches-Montagnes","abstract":"Discover the magnificent scenery of the Franches-Montagnes with an unusual form of transport.","description":"Whether you're 7 or 77, you'll enjoy following one of three signposted routes from Saignelégier railway station to Glovelier, Goumois or Soubey, through wonderful, lush countryside. And there are even special picnic areas along the way!","highlights":null,"foto":"https://images0.schweizmobil.ch/image/11407_Ausfahrt_mit_dem_Trotti_Bike_1a.jpg","photo_gallery":["https://images0.schweizmobil.ch/image/11407_Ausfahrt_mit_dem_Trotti_Bike_1a.jpg","https://images0.schweizmobil.ch/image/11407_Ausfahrt_mit_dem_Trotti_Bike_2b.jpg"],"photo_gallery_big":["",""],"photo_gallery_copyright":["",""],"photo_gallery_author":["",""],"name":"Jura Tourisme","name_2":null,"street":"Rue de la Gruère 6","zip":"2350","place":"Saignelégier","tel":"+41 (0)32 432 41 50","fax":null,"email":"info@juratourisme.ch","url1_link":"https://www.juratourisme.ch","x_coordinate":572899.6293724988,"y_coordinate":236580.54931988945,"change_date":null,"id":466,"r_key":466,"type":"Sight","url_sightseeing":"https://www.les-cj.ch/angebote/freizeit/mit_dem_trotti-bike","touristic_region":8}}
+{
+    "type": "Feature",
+    "id": 466,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            47.27955804779056,
+            7.080446525914798
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Scooter-biking in the Franches-Montagnes",
+        "abstract": "Discover the magnificent scenery of the Franches-Montagnes with an unusual form of transport.",
+        "description": "Whether you're 7 or 77, you'll enjoy following one of three signposted routes from Saignelégier railway station to Glovelier, Goumois or Soubey, through wonderful, lush countryside. And there are even special picnic areas along the way!",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/11407_Ausfahrt_mit_dem_Trotti_Bike_1a.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/11407_Ausfahrt_mit_dem_Trotti_Bike_1a.jpg",
+            "https://images.schweizmobil.ch/image/11407_Ausfahrt_mit_dem_Trotti_Bike_2b.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "Jura Tourisme",
+        "name_2": null,
+        "street": "Rue de la Gruère 6",
+        "zip": "2350",
+        "place": "Saignelégier",
+        "tel": "+41 (0)32 432 41 50",
+        "fax": null,
+        "email": "info@juratourisme.ch",
+        "url1_link": "https://www.juratourisme.ch",
+        "x_coordinate": 572899.6293724988,
+        "y_coordinate": 236580.54931988945,
+        "change_date": null,
+        "id": 466,
+        "r_key": 466,
+        "type": "Sight",
+        "url_sightseeing": "https://www.les-cj.ch/angebote/freizeit/mit_dem_trotti-bike",
+        "touristic_region": 8,
+        "canton": 24
+    }
+}

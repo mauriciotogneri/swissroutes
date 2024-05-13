@@ -1,70 +1,80 @@
 {
-  "type": "Feature",
-  "id": 27,
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      46.7309100538838,
-      8.427436213276268
-    ]
-  },
-  "properties": {
-    "land": null,
-    "category": "all",
-    "language": "en",
-    "title": "Impressive road construction on the Sust",
-    "abstract": "Travelling over the Sustenpass today doesn’t just mean traversing a mountainous region of scenic splendour but also using two iconic roads of national significance: the 19th century «Communicationsstrasse» and the 20th century «Touristenstrasse».",
-    "description": "The most spectacular stretch of road on the Sustenpass is undoubtedly the actual pass crossing between Obermad on the Bernese and Guferalp on the Uri side. This is where the engineering expertise that went into the construction of the two roads is displayed at its most impressive. The «Communicationsstrasse» was designed as a road of 8 Bernese feet wide (2.35 metre) and a maximum gradient of 2 inches per Bernese foot (16.5%), navigable for light conveyances and pack animals carrying heavy loads (150-200kg), and in winter for sledges until the harshest conditions set in. The road follows the terrain with magnificent dam constructions, drystone walling, water and cross drainage channels.\n\nThe jewel of engineering skill on the Sustenpass however is the modern pass road built in 1938-45. It was built to serve the needs of the growing tourism sector, to secure strategic military advantages and promote trade and industry in the mountainous region. Meticulous attention was paid to ensuring that «the construction becomes as one with the magnificent landscape». As a consequence, all supporting walls are clad in native stone and the road includes the greatest possible number of tunnels, bridges, scenic photo halts and even an artificial waterfall to enhance its touristic potential.",
-    "highlights": null,
-    "foto": "https://images0.schweizmobil.ch/image/IVS_01_Susten.jpg",
-    "photo_gallery": [
-      "https://images0.schweizmobil.ch/image/IVS_01_Susten.jpg",
-      "https://images0.schweizmobil.ch/image/20120927_Bern_Gadmen_SustenpassFeldmoos_FRB_96.jpg",
-      "https://images0.schweizmobil.ch/image/20120927_Bern_Gadmen_SustenpassFeldmoos_FRB_98.jpg",
-      "https://images0.schweizmobil.ch/image/20120927_Bern_Gadmen_SustenpassFeldmoos_FRB_165.jpg",
-      "https://images0.schweizmobil.ch/image/20120927_Bern_Gadmen_SustenpassFeldmoos_FRB_169.jpg",
-      "https://images0.schweizmobil.ch/image/20120927_Bern_Gadmen_SustenpassFeldmoos_FRB_181.jpg"
-    ],
-    "photo_gallery_big": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-    ],
-    "photo_gallery_copyright": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-    ],
-    "photo_gallery_author": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-    ],
-    "name": "Bundesinventar der historischen Verkehrswege der Schweiz (IVS)",
-    "name_2": null,
-    "street": "",
-    "zip": "",
-    "place": "",
-    "tel": "",
-    "fax": null,
-    "email": "",
-    "url1_link": "https://www.ivs.admin.ch",
-    "x_coordinate": 675580.3170127372,
-    "y_coordinate": 176000.4495858312,
-    "change_date": null,
+    "type": "Feature",
     "id": 27,
-    "r_key": 27,
-    "type": "Sight",
-    "url_sightseeing": "https://s.geo.admin.ch/6fb16664ea",
-    "touristic_region": 6
-  }
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.730910055859695,
+            8.427436201833268
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Impressive road construction on the Sust",
+        "abstract": "Travelling over the Sustenpass today doesn’t just mean traversing a mountainous region of scenic splendour but also using two iconic roads of national significance: the 19th century «Communicationsstrasse» and the 20th century «Touristenstrasse».",
+        "description": "The most spectacular stretch of road on the Sustenpass is undoubtedly the actual pass crossing between Obermad on the Bernese and Guferalp on the Uri side. This is where the engineering expertise that went into the construction of the two roads is displayed at its most impressive. The «Communicationsstrasse» was designed as a road of 8 Bernese feet wide (2.35 metre) and a maximum gradient of 2 inches per Bernese foot (16.5%), navigable for light conveyances and pack animals carrying heavy loads (150-200kg), and in winter for sledges until the harshest conditions set in. The road follows the terrain with magnificent dam constructions, drystone walling, water and cross drainage channels.\n\nThe jewel of engineering skill on the Sustenpass however is the modern pass road built in 1938-45. It was built to serve the needs of the growing tourism sector, to secure strategic military advantages and promote trade and industry in the mountainous region. Meticulous attention was paid to ensuring that «the construction becomes as one with the magnificent landscape». As a consequence, all supporting walls are clad in native stone and the road includes the greatest possible number of tunnels, bridges, scenic photo halts and even an artificial waterfall to enhance its touristic potential.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/IVS_01_Susten.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/IVS_01_Susten.jpg",
+            "https://images.schweizmobil.ch/image/20120927_Bern_Gadmen_SustenpassFeldmoos_FRB_181.jpg",
+            "https://images.schweizmobil.ch/image/20120927_Bern_Gadmen_SustenpassFeldmoos_FRB_169.jpg",
+            "https://images.schweizmobil.ch/image/20120927_Bern_Gadmen_SustenpassFeldmoos_FRB_165.jpg",
+            "https://images.schweizmobil.ch/image/20120927_Bern_Gadmen_SustenpassFeldmoos_FRB_98.jpg",
+            "https://images.schweizmobil.ch/image/20120927_Bern_Gadmen_SustenpassFeldmoos_FRB_96.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "name": "Bundesinventar der historischen Verkehrswege der Schweiz (IVS)",
+        "name_2": null,
+        "street": " ",
+        "zip": " ",
+        "place": " ",
+        "tel": " ",
+        "fax": null,
+        "email": " ",
+        "url1_link": "https://www.ivs.admin.ch",
+        "x_coordinate": 675580.3170127372,
+        "y_coordinate": 176000.4495858312,
+        "change_date": null,
+        "id": 27,
+        "r_key": 27,
+        "type": "Sight",
+        "url_sightseeing": "https://s.geo.admin.ch/6fb16664ea",
+        "touristic_region": 6,
+        "canton": 12
+    }
 }

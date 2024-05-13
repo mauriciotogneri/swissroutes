@@ -1,1 +1,34 @@
-{"type":"Feature","id":3288,"geometry":{"type":"Point","coordinates":[47.42985417593947,8.96434226279718]},"properties":{"land":"\"velo\",\"mountainbike\"","category":"all","language":"en","title":"BIKE by Irene GmbH","abstract":null,"name":"BIKE by Irene GmbH","street":"Kurhausstrasse 30","zip":"8374","place":"Dussnang","tel":"+41 71 977 2000","email":null,"url1_text":null,"url1_link":"https://www.bikebyirene.ch","organisation":"2rad / 2routes / 2ruote","foto":null,"x_coordinate":715104.3388235009,"y_coordinate":254347.46738873684,"change_date":null,"id":569,"type":"Service"}}
+{
+    "type": "Feature",
+    "id": 3288,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            47.4298541663281,
+            8.964342298446027
+        ]
+    },
+    "properties": {
+        "land": "\"velo\",\"mountainbike\"",
+        "category": "all",
+        "language": "en",
+        "title": "BIKE by Irene GmbH",
+        "abstract": null,
+        "name": "BIKE by Irene GmbH",
+        "street": "Kurhausstrasse 30",
+        "zip": "8374",
+        "place": "Dussnang",
+        "tel": "+41 71 977 2000",
+        "email": null,
+        "url1_text": null,
+        "url1_link": "https://www.bikebyirene.ch",
+        "organisation": "2rad / 2routes / 2ruote",
+        "foto": null,
+        "foto_abstract": null,
+        "x_coordinate": 715104.3388235009,
+        "y_coordinate": 254347.46738873684,
+        "change_date": null,
+        "id": 569,
+        "type": "Service"
+    }
+}

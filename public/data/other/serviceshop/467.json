@@ -1,1 +1,34 @@
-{"type":"Feature","id":3201,"geometry":{"type":"Point","coordinates":[47.48078736292042,9.535286346123778]},"properties":{"land":"\"velo\",\"mountainbike\"","category":"all","language":"en","title":"Motorradshop Peter Thür","abstract":null,"name":"Motorradshop Peter Thür","street":"Hauptstrasse 48","zip":"9422","place":"Staad SG","tel":"+41 71 855 43 66","email":null,"url1_text":null,"url1_link":null,"organisation":"2rad / 2routes / 2ruote","foto":null,"x_coordinate":758017.2494749238,"y_coordinate":261002.54002165288,"change_date":null,"id":467,"type":"Service"}}
+{
+    "type": "Feature",
+    "id": 3201,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            47.48078735113549,
+            9.535286417386997
+        ]
+    },
+    "properties": {
+        "land": "\"velo\",\"mountainbike\"",
+        "category": "all",
+        "language": "en",
+        "title": "Motorradshop Peter Thür",
+        "abstract": null,
+        "name": "Motorradshop Peter Thür",
+        "street": "Hauptstrasse 48",
+        "zip": "9422",
+        "place": "Staad SG",
+        "tel": "+41 71 855 43 66",
+        "email": null,
+        "url1_text": null,
+        "url1_link": null,
+        "organisation": "2rad / 2routes / 2ruote",
+        "foto": null,
+        "foto_abstract": null,
+        "x_coordinate": 758017.2494749238,
+        "y_coordinate": 261002.54002165288,
+        "change_date": null,
+        "id": 467,
+        "type": "Service"
+    }
+}

@@ -1,1 +1,34 @@
-{"type":"Feature","id":2938,"geometry":{"type":"Point","coordinates":[47.4614065970746,7.914161487272543]},"properties":{"land":"\"velo\",\"mountainbike\"","category":"all","language":"en","title":"Erny Erich","abstract":null,"name":"Erny Erich","street":"Hirschengasse 76","zip":"4467","place":"Rothenfluh","tel":"+41 61 991 05 07","email":null,"url1_text":null,"url1_link":null,"organisation":"2rad / 2routes / 2ruote","foto":null,"x_coordinate":635856.352358044,"y_coordinate":256845.04628429245,"change_date":null,"id":156,"type":"Service"}}
+{
+    "type": "Feature",
+    "id": 2938,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            47.46140661376248,
+            7.914161473110517
+        ]
+    },
+    "properties": {
+        "land": "\"velo\",\"mountainbike\"",
+        "category": "all",
+        "language": "en",
+        "title": "Erny Erich",
+        "abstract": null,
+        "name": "Erny Erich",
+        "street": "Hirschengasse 76",
+        "zip": "4467",
+        "place": "Rothenfluh",
+        "tel": "+41 61 991 05 07",
+        "email": null,
+        "url1_text": null,
+        "url1_link": null,
+        "organisation": "2rad / 2routes / 2ruote",
+        "foto": null,
+        "foto_abstract": null,
+        "x_coordinate": 635856.352358044,
+        "y_coordinate": 256845.04628429245,
+        "change_date": null,
+        "id": 156,
+        "type": "Service"
+    }
+}

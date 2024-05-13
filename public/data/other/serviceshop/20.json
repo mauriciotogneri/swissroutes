@@ -1,1 +1,34 @@
-{"type":"Feature","id":2815,"geometry":{"type":"Point","coordinates":[46.18006546377119,6.139590328775725]},"properties":{"land":"\"velo\",\"mountainbike\"","category":"all","language":"en","title":"Speed Bike Sarl","abstract":null,"name":"Speed Bike Sarl","street":"Avenue de la praille 25","zip":"1227","place":"Carouge GE","tel":"+41 22 342 42 01","email":null,"url1_text":null,"url1_link":"https://www.speedbike.ch","organisation":"2rad / 2routes / 2ruote","foto":null,"x_coordinate":499694.0797551043,"y_coordinate":115119.14939215814,"change_date":null,"id":20,"type":"Service"}}
+{
+    "type": "Feature",
+    "id": 2815,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.18006546528571,
+            6.139590287749707
+        ]
+    },
+    "properties": {
+        "land": "\"velo\",\"mountainbike\"",
+        "category": "all",
+        "language": "en",
+        "title": "Speed Bike Sarl",
+        "abstract": null,
+        "name": "Speed Bike Sarl",
+        "street": "Avenue de la praille 25",
+        "zip": "1227",
+        "place": "Carouge GE",
+        "tel": "+41 22 342 42 01",
+        "email": null,
+        "url1_text": null,
+        "url1_link": "https://www.speedbike.ch",
+        "organisation": "2rad / 2routes / 2ruote",
+        "foto": null,
+        "foto_abstract": null,
+        "x_coordinate": 499694.0797551043,
+        "y_coordinate": 115119.14939215814,
+        "change_date": null,
+        "id": 20,
+        "type": "Service"
+    }
+}

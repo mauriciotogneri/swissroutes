@@ -1,1 +1,80 @@
-{"type":"Feature","id":819,"geometry":{"type":"Point","coordinates":[47.24495607016598,9.524669088607334]},"properties":{"land":null,"category":"all","language":"en","title":"Pump track Ruggell ","abstract":"The asphalt pump track in Ruggell consists of two loops that are connected at several points. Lane changes and jumps can be practised here in an optimal way. ","description":"The pump track, located not far from the village centre of Ruggell, is made of seamless asphalt. It can therefore be ridden in many ways: with balance bikes, scooters, skateboards, BMX or, of course, with conventional mountain bikes.\n\nThe circuit is laid out in the form of a double loop and makes optimum use of the available space. The inner loop is narrower and is connected in itself and with the surrounding loop in several places. This requires increased concentration when riding and makes it possible to train for lane changes and simple jumps.\n\nChildren and young people as well as adults can train their skills at the respective level and continuously improve them. When building the pump track in 2019, the insights of professionals were taken into account. Next to the facility, a drinking fountain and seating area invite you to rest and relax. \n\nSurface: Asphalt, seamless\nCircuit length: 170 m\nWave and curve height: 0.5 to 1.60 m\n","highlights":null,"foto":"https://images0.schweizmobil.ch/image/FL_Pumptrack_Ruggell_6_M.jpg","photo_gallery":["https://images0.schweizmobil.ch/image/FL_Pumptrack_Ruggell_1_s.jpg","https://images0.schweizmobil.ch/image/FL_Pumptrack_Ruggell_2_s.jpg","https://images0.schweizmobil.ch/image/FL_Pumptrack_Ruggell_3_s.jpg","https://images0.schweizmobil.ch/image/FL_Pumptrack_Ruggell_4_s.jpg","https://images0.schweizmobil.ch/image/FL_Pumptrack_Ruggell_5_s.jpg","https://images0.schweizmobil.ch/image/FL_Pumptrack_Ruggell_6_s.jpg"],"photo_gallery_big":["https://images0.schweizmobil.ch/image-big/FL_Pumptrack_Ruggell_1_g.jpg","https://images0.schweizmobil.ch/image-big/FL_Pumptrack_Ruggell_2_g.jpg","https://images0.schweizmobil.ch/image-big/FL_Pumptrack_Ruggell_3_g.jpg","https://images0.schweizmobil.ch/image-big/FL_Pumptrack_Ruggell_4_g.jpg","https://images0.schweizmobil.ch/image-big/FL_Pumptrack_Ruggell_5_g.jpg","https://images0.schweizmobil.ch/image-big/FL_Pumptrack_Ruggell_6_g.jpg"],"photo_gallery_copyright":["Gemeinde Ruggell","Gemeinde Ruggell","©Paul J. Trummer / www.travel-lightart.com","©Paul J. Trummer / www.travel-lightart.com","©Paul J. Trummer / www.travel-lightart.com","©Paul Trummer/TravelLightart"],"photo_gallery_author":["Gemeinde Ruggell","Gemeinde Ruggell","©Paul J. Trummer / www.travel-lightart.com","©Paul J. Trummer / www.travel-lightart.com","©Paul J. Trummer / www.travel-lightart.com","©Paul Trummer/TravelLightart"],"name":"Gemeinde Ruggell","name_2":null,"street":"Poststrasse 1","zip":"9491","place":"Ruggell","tel":"+423 377 49 20","fax":null,"email":"info@ruggell.li","url1_link":"https://www.ruggell.li","x_coordinate":757914.9803409857,"y_coordinate":234770.45541626465,"change_date":null,"id":819,"r_key":819,"type":"Sight","url_sightseeing":"https://www.ruggell.li/spielplaetze","touristic_region":2}}
+{
+    "type": "Feature",
+    "id": 819,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            47.24495606310498,
+            9.524669117805558
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Pump track Ruggell ",
+        "abstract": "The asphalt pump track in Ruggell consists of two loops that are connected at several points. Lane changes and jumps can be practised here in an optimal way. ",
+        "description": "The pump track, located not far from the village centre of Ruggell, is made of seamless asphalt. It can therefore be ridden in many ways: with balance bikes, scooters, skateboards, BMX or, of course, with conventional mountain bikes.\n\nThe circuit is laid out in the form of a double loop and makes optimum use of the available space. The inner loop is narrower and is connected in itself and with the surrounding loop in several places. This requires increased concentration when riding and makes it possible to train for lane changes and simple jumps.\n\nChildren and young people as well as adults can train their skills at the respective level and continuously improve them. When building the pump track in 2019, the insights of professionals were taken into account. Next to the facility, a drinking fountain and seating area invite you to rest and relax. \n\nSurface: Asphalt, seamless\nCircuit length: 170 m\nWave and curve height: 0.5 to 1.60 m\n",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/FL_Pumptrack_Ruggell_6_M.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/FL_Pumptrack_Ruggell_1_s.jpg",
+            "https://images.schweizmobil.ch/image/FL_Pumptrack_Ruggell_2_s.jpg",
+            "https://images.schweizmobil.ch/image/FL_Pumptrack_Ruggell_3_s.jpg",
+            "https://images.schweizmobil.ch/image/FL_Pumptrack_Ruggell_4_s.jpg",
+            "https://images.schweizmobil.ch/image/FL_Pumptrack_Ruggell_5_s.jpg",
+            "https://images.schweizmobil.ch/image/FL_Pumptrack_Ruggell_6_s.jpg"
+        ],
+        "photo_gallery_big": [
+            "https://images.schweizmobil.ch/image-big/FL_Pumptrack_Ruggell_1_g.jpg",
+            "https://images.schweizmobil.ch/image-big/FL_Pumptrack_Ruggell_2_g.jpg",
+            "https://images.schweizmobil.ch/image-big/FL_Pumptrack_Ruggell_3_g.jpg",
+            "https://images.schweizmobil.ch/image-big/FL_Pumptrack_Ruggell_4_g.jpg",
+            "https://images.schweizmobil.ch/image-big/FL_Pumptrack_Ruggell_5_g.jpg",
+            "https://images.schweizmobil.ch/image-big/FL_Pumptrack_Ruggell_6_g.jpg"
+        ],
+        "photo_gallery_copyright": [
+            "Gemeinde Ruggell",
+            "Gemeinde Ruggell",
+            "©Paul J. Trummer / www.travel-lightart.com",
+            "©Paul J. Trummer / www.travel-lightart.com",
+            "©Paul J. Trummer / www.travel-lightart.com",
+            "©Paul Trummer/TravelLightart"
+        ],
+        "photo_gallery_author": [
+            "Gemeinde Ruggell",
+            "Gemeinde Ruggell",
+            "©Paul J. Trummer / www.travel-lightart.com",
+            "©Paul J. Trummer / www.travel-lightart.com",
+            "©Paul J. Trummer / www.travel-lightart.com",
+            "©Paul Trummer/TravelLightart"
+        ],
+        "photo_gallery_abstract": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "name": "Gemeinde Ruggell",
+        "name_2": null,
+        "street": "Poststrasse 1",
+        "zip": "9491",
+        "place": "Ruggell",
+        "tel": "+423 377 49 20",
+        "fax": null,
+        "email": "info@ruggell.li",
+        "url1_link": "https://www.ruggell.li",
+        "x_coordinate": 757914.9803409857,
+        "y_coordinate": 234770.45541626465,
+        "change_date": null,
+        "id": 819,
+        "r_key": 819,
+        "type": "Sight",
+        "url_sightseeing": "https://www.ruggell.li/spielplaetze",
+        "touristic_region": 2,
+        "canton": 1
+    }
+}

@@ -1,66 +1,75 @@
 {
-  "type": "Feature",
-  "id": 3286,
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      46.686686653260544,
-      7.1547573219795355
-    ]
-  },
-  "properties": {
-    "land": null,
-    "category": "all",
-    "language": "en",
-    "title": "BERRA Bike Park",
-    "abstract": "The BERRA bike park is located at the heart of the Gruyères region. Two downhill trails are available for mountain bikes and e-mountain bikes and are easy to get to with the ski lift. The blue trail with moderate turns and jumps is perfect for those who are new to downhill riding. The red trail offers technically challenging elements.",
-    "description": "",
-    "highlights": "Length of red piste (La Tschaka): 3.35 km\nLength blue piste (Allières): 4.84 km",
-    "foto": "https://images0.schweizmobil.ch/image-big/BERRA_Bike_Park_1_g.jpg",
-    "photo_gallery": [
-      "https://images0.schweizmobil.ch/image/BERRA_Bike_Park_1_s.jpg",
-      "https://images0.schweizmobil.ch/image/BERRA_Bike_Park_2_s.jpg",
-      "https://images0.schweizmobil.ch/image/BERRA_Bike_Park_3_s.jpg",
-      "https://images0.schweizmobil.ch/image/BERRA_Bike_Park_4_s.jpg",
-      "https://images0.schweizmobil.ch/image/BERRA_Bike_Park_5_s.jpg"
-    ],
-    "photo_gallery_big": [
-      "https://images0.schweizmobil.ch/image-big/BERRA_Bike_Park_1_g.jpg",
-      "https://images0.schweizmobil.ch/image-big/BERRA_Bike_Park_2_g.jpg",
-      "https://images0.schweizmobil.ch/image-big/BERRA_Bike_Park_3_g.jpg",
-      "https://images0.schweizmobil.ch/image-big/BERRA_Bike_Park_4_g.jpg",
-      "https://images0.schweizmobil.ch/image-big/BERRA_Bike_Park_5_g.jpg"
-    ],
-    "photo_gallery_copyright": [
-      "",
-      "",
-      "",
-      "",
-      ""
-    ],
-    "photo_gallery_author": [
-      "",
-      "",
-      "",
-      "",
-      ""
-    ],
-    "name": "SRM La Berra SA",
-    "name_2": null,
-    "street": "Route de la Berra 92",
-    "zip": "1634",
-    "place": "La Roche",
-    "tel": "+41 26 413 21 52",
-    "fax": null,
-    "email": "info@laberra.ch",
-    "url1_link": "https://www.laberra.ch",
-    "x_coordinate": 578283.2067667969,
-    "y_coordinate": 170647.41085007557,
-    "change_date": null,
+    "type": "Feature",
     "id": 3286,
-    "r_key": 3286,
-    "type": "Sight",
-    "url_sightseeing": "https://www.laberra.ch/de/alle-aktivitaeten-reader/berra-bike-park-3",
-    "touristic_region": 13
-  }
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.68668665529674,
+            7.15475733180784
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "BERRA Bike Park",
+        "abstract": "The BERRA bike park is located at the heart of the Gruyères region. Two downhill trails are available for mountain bikes and e-mountain bikes and are easy to get to with the ski lift. The blue trail with moderate turns and jumps is perfect for those who are new to downhill riding. The red trail offers technically challenging elements.",
+        "description": " ",
+        "highlights": "Length of red piste (La Tschaka): 3.35 km\nLength blue piste (Allières): 4.84 km",
+        "foto": "https://images.schweizmobil.ch/image-big/BERRA_Bike_Park_1_g.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/BERRA_Bike_Park_1_s.jpg",
+            "https://images.schweizmobil.ch/image/BERRA_Bike_Park_2_s.jpg",
+            "https://images.schweizmobil.ch/image/BERRA_Bike_Park_3_s.jpg",
+            "https://images.schweizmobil.ch/image/BERRA_Bike_Park_4_s.jpg",
+            "https://images.schweizmobil.ch/image/BERRA_Bike_Park_5_s.jpg"
+        ],
+        "photo_gallery_big": [
+            "https://images.schweizmobil.ch/image-big/BERRA_Bike_Park_1_g.jpg",
+            "https://images.schweizmobil.ch/image-big/BERRA_Bike_Park_2_g.jpg",
+            "https://images.schweizmobil.ch/image-big/BERRA_Bike_Park_3_g.jpg",
+            "https://images.schweizmobil.ch/image-big/BERRA_Bike_Park_4_g.jpg",
+            "https://images.schweizmobil.ch/image-big/BERRA_Bike_Park_5_g.jpg"
+        ],
+        "photo_gallery_copyright": [
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "name": "SRM La Berra SA",
+        "name_2": null,
+        "street": "Route de la Berra 92",
+        "zip": "1634",
+        "place": "La Roche",
+        "tel": "+41 26 413 21 52",
+        "fax": null,
+        "email": "info@laberra.ch",
+        "url1_link": "https://www.laberra.ch",
+        "x_coordinate": 578283.2067667969,
+        "y_coordinate": 170647.41085007557,
+        "change_date": null,
+        "id": 3286,
+        "r_key": 3286,
+        "type": "Sight",
+        "url_sightseeing": "https://www.laberra.ch/de/alle-aktivitaeten-reader/berra-bike-park-3",
+        "touristic_region": 13,
+        "canton": 5
+    }
 }

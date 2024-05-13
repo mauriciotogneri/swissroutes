@@ -1,1 +1,34 @@
-{"type":"Feature","id":3044,"geometry":{"type":"Point","coordinates":[46.853259281725286,8.645636796951718]},"properties":{"land":"\"velo\",\"mountainbike\"","category":"all","language":"en","title":"Bikewelt Gisler GmbH","abstract":null,"name":"Bikewelt Gisler GmbH","street":"Umfahrungsstrasse 2","zip":"6467","place":"Schattdorf","tel":"+41 41 870 50 20","email":null,"url1_text":null,"url1_link":"https://www.bikeweltgisler.ch","organisation":"2rad / 2routes / 2ruote","foto":null,"x_coordinate":692048.2614559671,"y_coordinate":189833.5975437155,"change_date":null,"id":279,"type":"Service"}}
+{
+    "type": "Feature",
+    "id": 3044,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.85325928024144,
+            8.645636838633092
+        ]
+    },
+    "properties": {
+        "land": "\"velo\",\"mountainbike\"",
+        "category": "all",
+        "language": "en",
+        "title": "Bikewelt Gisler GmbH",
+        "abstract": null,
+        "name": "Bikewelt Gisler GmbH",
+        "street": "Umfahrungsstrasse 2",
+        "zip": "6467",
+        "place": "Schattdorf",
+        "tel": "+41 41 870 50 20",
+        "email": null,
+        "url1_text": null,
+        "url1_link": "https://www.bikeweltgisler.ch",
+        "organisation": "2rad / 2routes / 2ruote",
+        "foto": null,
+        "foto_abstract": null,
+        "x_coordinate": 692048.2614559671,
+        "y_coordinate": 189833.5975437155,
+        "change_date": null,
+        "id": 279,
+        "type": "Service"
+    }
+}

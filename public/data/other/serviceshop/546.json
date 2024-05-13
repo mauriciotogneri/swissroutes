@@ -1,1 +1,34 @@
-{"type":"Feature","id":3266,"geometry":{"type":"Point","coordinates":[47.552466165988,7.540783169060546]},"properties":{"land":"\"velo\",\"mountainbike\"","category":"all","language":"en","title":"Radsport Huber","abstract":null,"name":"Radsport Huber","street":"Binningerstrasse 2","zip":"4123","place":"Allschwil","tel":"+41 61 483 88 88","email":null,"url1_text":null,"url1_link":"https://www.radsporthuber.ch","organisation":"2rad / 2routes / 2ruote","foto":null,"x_coordinate":607689.7853276794,"y_coordinate":266866.32937770063,"change_date":null,"id":546,"type":"Service"}}
+{
+    "type": "Feature",
+    "id": 3266,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            47.552466139215866,
+            7.540783167583028
+        ]
+    },
+    "properties": {
+        "land": "\"velo\",\"mountainbike\"",
+        "category": "all",
+        "language": "en",
+        "title": "Radsport Huber",
+        "abstract": null,
+        "name": "Radsport Huber",
+        "street": "Binningerstrasse 2",
+        "zip": "4123",
+        "place": "Allschwil",
+        "tel": "+41 61 483 88 88",
+        "email": null,
+        "url1_text": null,
+        "url1_link": "https://www.radsporthuber.ch",
+        "organisation": "2rad / 2routes / 2ruote",
+        "foto": null,
+        "foto_abstract": null,
+        "x_coordinate": 607689.7853276794,
+        "y_coordinate": 266866.32937770063,
+        "change_date": null,
+        "id": 546,
+        "type": "Service"
+    }
+}

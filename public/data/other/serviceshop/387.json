@@ -1,1 +1,34 @@
-{"type":"Feature","id":3131,"geometry":{"type":"Point","coordinates":[47.54617596341089,8.84273019131253]},"properties":{"land":"\"velo\",\"mountainbike\"","category":"all","language":"en","title":"Jörg August","abstract":null,"name":"Jörg August","street":"Hauptstrasse 32","zip":"8546","place":"Islikon","tel":"+41 52 375 12 23","email":null,"url1_text":null,"url1_link":null,"organisation":"2rad / 2routes / 2ruote","foto":null,"x_coordinate":705699.3646813651,"y_coordinate":267107.2698496436,"change_date":null,"id":387,"type":"Service"}}
+{
+    "type": "Feature",
+    "id": 3131,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            47.546175968736044,
+            8.842730155014364
+        ]
+    },
+    "properties": {
+        "land": "\"velo\",\"mountainbike\"",
+        "category": "all",
+        "language": "en",
+        "title": "Jörg August",
+        "abstract": null,
+        "name": "Jörg August",
+        "street": "Hauptstrasse 32",
+        "zip": "8546",
+        "place": "Islikon",
+        "tel": "+41 52 375 12 23",
+        "email": null,
+        "url1_text": null,
+        "url1_link": null,
+        "organisation": "2rad / 2routes / 2ruote",
+        "foto": null,
+        "foto_abstract": null,
+        "x_coordinate": 705699.364681365,
+        "y_coordinate": 267107.26984964637,
+        "change_date": null,
+        "id": 387,
+        "type": "Service"
+    }
+}

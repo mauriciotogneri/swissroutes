@@ -1,1 +1,60 @@
-{"type":"Feature","id":3388,"geometry":{"type":"Point","coordinates":[46.621683010888155,9.181068288966166]},"properties":{"land":null,"category":"all","language":"en","title":"Therme Vals","abstract":"Listed as a protected building only 2 years after it was opened, the Therme Vals is a unique bathing and therapy landscape replete with quiet sensuality. 60,000 stone slabs were used in the complex.","description":"In 1986 the architect Peter Zumthor, from Haldenstein in Grisons, was commissioned to build a new spa, which was opened in 1996. Only two years later the Therme was listed as a protected building. Photos of the Therme have been published around the world and it has been hailed as «a lesson in courage and aesthetics», «a unique archaic bathing and therapy landscape replete with quiet sensuality», and «a spa such as has never been seen before».\n\nThe Therme is a rectangular construction with stacked walls of Valser Quartzite quarried only two kilometres from the Therme. 60,000 stone slabs were used in the complex.\n\nFor millions of years water has collected in five billion tons of Bündner schist, it has seeped through cracks and crevices to a depth of 1,000 metres and penetrated the dolomite rock layer, from whence it finally resurfaces at the foot of Piz Aul. The water emerges at a temperature of 30° C.","highlights":null,"foto":"https://images0.schweizmobil.ch/image/8443_Therme-Vals_2a.jpg","photo_gallery":["https://images0.schweizmobil.ch/image/8443_Therme-Vals_2a.jpg","https://images0.schweizmobil.ch/image/8443_Therme-Vals_1b.jpg"],"photo_gallery_big":["",""],"photo_gallery_copyright":["",""],"photo_gallery_author":["",""],"name":"7132 Hotel","name_2":null,"street":"Poststrasse 45","zip":"7132","place":"Vals","tel":"+41 (0)58 713 20 00","fax":null,"email":"hotel@7132.com","url1_link":"https://www.7132.com","x_coordinate":733447.8525928622,"y_coordinate":164863.33203080308,"change_date":null,"id":3388,"r_key":3388,"type":"Sight","url_sightseeing":"https://www.7132.com","touristic_region":1}}
+{
+    "type": "Feature",
+    "id": 3388,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.621683024971176,
+            9.181068206562147
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Therme Vals",
+        "abstract": "Listed as a protected building only 2 years after it was opened, the Therme Vals is a unique bathing and therapy landscape replete with quiet sensuality. 60,000 stone slabs were used in the complex.",
+        "description": "In 1986 the architect Peter Zumthor, from Haldenstein in Grisons, was commissioned to build a new spa, which was opened in 1996. Only two years later the Therme was listed as a protected building. Photos of the Therme have been published around the world and it has been hailed as «a lesson in courage and aesthetics», «a unique archaic bathing and therapy landscape replete with quiet sensuality», and «a spa such as has never been seen before».\n\nThe Therme is a rectangular construction with stacked walls of Valser Quartzite quarried only two kilometres from the Therme. 60,000 stone slabs were used in the complex.\n\nFor millions of years water has collected in five billion tons of Bündner schist, it has seeped through cracks and crevices to a depth of 1,000 metres and penetrated the dolomite rock layer, from whence it finally resurfaces at the foot of Piz Aul. The water emerges at a temperature of 30° C.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/8443_Therme-Vals_2a.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/8443_Therme-Vals_1b.jpg",
+            "https://images.schweizmobil.ch/image/8443_Therme-Vals_2a.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "7132 Hotel",
+        "name_2": null,
+        "street": "Poststrasse 45",
+        "zip": "7132",
+        "place": "Vals",
+        "tel": "+41 (0)58 713 20 00",
+        "fax": null,
+        "email": "hotel@7132.com",
+        "url1_link": "https://www.7132.com",
+        "x_coordinate": 733447.8525928622,
+        "y_coordinate": 164863.33203080308,
+        "change_date": null,
+        "id": 3388,
+        "r_key": 3388,
+        "type": "Sight",
+        "url_sightseeing": "https://www.7132.com",
+        "touristic_region": 1,
+        "canton": 2
+    }
+}

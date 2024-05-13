@@ -1,1 +1,60 @@
-{"type":"Feature","id":3377,"geometry":{"type":"Point","coordinates":[46.79747075830069,10.301459426281166]},"properties":{"land":null,"category":"all","language":"en","title":"Engadin Bad Scuol","abstract":"Guests can truly relax in the Roman-Irish spa in the Engadin Bad Scuol. As the forerunner of all wellness oases, Bogn Engiadina is fascinating.","description":"Here guests can combine health promotion with prevention in the utmost enjoyable manner, amongst other things, in the Roman-Irish spa – the first of its kind in Switzerland.\n\nTwo spa cultures are joined into one in this resort. The Romans swore by relaxation in steam baths of varying heat, whereas the ancient Irish enjoyed their spa experience in warm, dry air.\n\nIf you find yourself at Bogn Engiadina Scuol, you should most definitely also stop by at the pump room in the foyer. Here you can sample the trendiest mineral waters.","highlights":null,"foto":"https://images0.schweizmobil.ch/image/8850_Engadin-Bad-Scuol_1a.jpg","photo_gallery":["https://images0.schweizmobil.ch/image/8850_Engadin-Bad-Scuol_2b.jpg","https://images0.schweizmobil.ch/image/8850_Engadin-Bad-Scuol_1a.jpg"],"photo_gallery_big":["",""],"photo_gallery_copyright":["",""],"photo_gallery_author":["",""],"name":"Bogn Engiadina Scuol (BES) SA","name_2":null,"street":"Via dals Bogns 323","zip":"7550","place":"Scuol","tel":"+41 (0)81 861 26 00","fax":null,"email":"bad@cseb.ch","url1_link":"https://www.bognengiadina.ch","x_coordinate":818510.1909757941,"y_coordinate":186910.87673909383,"change_date":null,"id":3377,"r_key":3377,"type":"Sight","url_sightseeing":"https://www.bognengiadina.ch","touristic_region":1}}
+{
+    "type": "Feature",
+    "id": 3377,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.797470754937194,
+            10.301459401226696
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Engadin Bad Scuol",
+        "abstract": "Guests can truly relax in the Roman-Irish spa in the Engadin Bad Scuol. As the forerunner of all wellness oases, Bogn Engiadina is fascinating.",
+        "description": "Here guests can combine health promotion with prevention in the utmost enjoyable manner, amongst other things, in the Roman-Irish spa – the first of its kind in Switzerland.\n\nTwo spa cultures are joined into one in this resort. The Romans swore by relaxation in steam baths of varying heat, whereas the ancient Irish enjoyed their spa experience in warm, dry air.\n\nIf you find yourself at Bogn Engiadina Scuol, you should most definitely also stop by at the pump room in the foyer. Here you can sample the trendiest mineral waters.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/8850_Engadin-Bad-Scuol_1a.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/8850_Engadin-Bad-Scuol_1a.jpg",
+            "https://images.schweizmobil.ch/image/8850_Engadin-Bad-Scuol_2b.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "Bogn Engiadina Scuol (BES) SA",
+        "name_2": null,
+        "street": "Via dals Bogns 323",
+        "zip": "7550",
+        "place": "Scuol",
+        "tel": "+41 (0)81 861 26 00",
+        "fax": null,
+        "email": "bad@cseb.ch",
+        "url1_link": "https://www.bognengiadina.ch",
+        "x_coordinate": 818510.1909757941,
+        "y_coordinate": 186910.87673909383,
+        "change_date": null,
+        "id": 3377,
+        "r_key": 3377,
+        "type": "Sight",
+        "url_sightseeing": "https://www.bognengiadina.ch",
+        "touristic_region": 1,
+        "canton": 2
+    }
+}

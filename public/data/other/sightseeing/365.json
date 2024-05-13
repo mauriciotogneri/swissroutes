@@ -1,1 +1,60 @@
-{"type":"Feature","id":365,"geometry":{"type":"Point","coordinates":[46.58058547899131,9.418958904866194]},"properties":{"land":null,"category":"all","language":"en","title":"Roffla Gorge","abstract":"Along the A13 national highway between Andeer and Splügen is where you'll find Roffla Gorge, which was made accessible to tourists through laborious manual labour carried out from 1904 to 1914 by Christian Pitschen Melchior.","description":"After visiting the Niagara Falls on a trip to America, Christian Pitschen Melchior was inspired to also make a tourist attraction out of a waterfall in his own country.\n\nThus with arduous manual labour he chiselled and blasted what remains to this day a virtually unchanged gallery preserved in the hard rock. This gallery leads to an impressive waterfall and then actually right underneath the Rhine to its other side.\n\nAt the entrance to Roffla Gorge there is a historic inn with a restaurant and a small museum that documents the fascinating history of the rock gallery.","highlights":null,"foto":"https://images0.schweizmobil.ch/image/9964_Rofflaschlucht_1a.jpg","photo_gallery":["https://images0.schweizmobil.ch/image/9964_Rofflaschlucht_1a.jpg","https://images0.schweizmobil.ch/image/9964_Rofflaschlucht_2b.jpg"],"photo_gallery_big":["",""],"photo_gallery_copyright":["",""],"photo_gallery_author":["",""],"name":"Viamala Tourismus","name_2":null,"street":"Bodenplatz 4","zip":"7435","place":"Splügen","tel":"+41 (0)81 650 90 30","fax":null,"email":"info@viamala.ch","url1_link":"https://www.viamala.ch","x_coordinate":751778.7277865864,"y_coordinate":160728.16928351572,"change_date":null,"id":365,"r_key":365,"type":"Sight","url_sightseeing":"https://www.rofflaschlucht.ch","touristic_region":1}}
+{
+    "type": "Feature",
+    "id": 365,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.580585470810234,
+            9.418958935718047
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Roffla Gorge",
+        "abstract": "Along the A13 national highway between Andeer and Splügen is where you'll find Roffla Gorge, which was made accessible to tourists through laborious manual labour carried out from 1904 to 1914 by Christian Pitschen Melchior.",
+        "description": "After visiting the Niagara Falls on a trip to America, Christian Pitschen Melchior was inspired to also make a tourist attraction out of a waterfall in his own country.\n\nThus with arduous manual labour he chiselled and blasted what remains to this day a virtually unchanged gallery preserved in the hard rock. This gallery leads to an impressive waterfall and then actually right underneath the Rhine to its other side.\n\nAt the entrance to Roffla Gorge there is a historic inn with a restaurant and a small museum that documents the fascinating history of the rock gallery.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/9964_Rofflaschlucht_1a.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/9964_Rofflaschlucht_1a.jpg",
+            "https://images.schweizmobil.ch/image/9964_Rofflaschlucht_2b.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "Viamala Tourismus",
+        "name_2": null,
+        "street": "Bodenplatz 4",
+        "zip": "7435",
+        "place": "Splügen",
+        "tel": "+41 (0)81 650 90 30",
+        "fax": null,
+        "email": "info@viamala.ch",
+        "url1_link": "https://www.viamala.ch",
+        "x_coordinate": 751778.7277865864,
+        "y_coordinate": 160728.16928351572,
+        "change_date": null,
+        "id": 365,
+        "r_key": 365,
+        "type": "Sight",
+        "url_sightseeing": "https://www.rofflaschlucht.ch",
+        "touristic_region": 1,
+        "canton": 2
+    }
+}

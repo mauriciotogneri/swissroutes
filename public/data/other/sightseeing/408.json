@@ -1,1 +1,60 @@
-{"type":"Feature","id":408,"geometry":{"type":"Point","coordinates":[46.9765607115688,8.788629302288417]},"properties":{"land":null,"category":"all","language":"en","title":"Hölloch - Muotathal","abstract":"The largest cave system in Europe is located in the heart of Central Switzerland – the Hölloch. For thousands of years, water has shaped this natural wonder, creating a tranquil and mysterious underground world in the middle of a magnificent alpine landscape.","description":"More than 200 kilometers of passageways have been explored in this fascinating underground world. Led by a certified cave guide, visitors can choose from a variety of spelunking tours and experience the timeless fascination of this exceptional natural wonder. The tours are comparable to a mountain hike and suitable for everyone 9 years of age and older. However, a good physical condition and surefootedness are required.\n\nThe tours offered depend on the season of the year. All tours are possible during the winter (ca. November to March). In summer you can satisfy your thirst for spirit of adventure on a varied Hölloch parcours (3.5 hours), tracing the tracks of the first cave explorers, or get a taste of spelunking on a short tour.","highlights":null,"foto":"https://images0.schweizmobil.ch/image/7795_detail1_a.jpg","photo_gallery":["https://images0.schweizmobil.ch/image/7795_detail1_a.jpg","https://images0.schweizmobil.ch/image/7795_b.jpg"],"photo_gallery_big":["",""],"photo_gallery_copyright":["",""],"photo_gallery_author":["",""],"name":"Schwyz Tourismus","name_2":null,"street":"Zeughaustrasse 10","zip":"6430","place":"Schwyz","tel":"+41 (0)41 855 59 50","fax":null,"email":"info@schwyz-tourismus.ch","url1_link":"https://www.schwyz-tourismus.ch","x_coordinate":702716.0592097783,"y_coordinate":203716.51803127804,"change_date":null,"id":408,"r_key":408,"type":"Sight","url_sightseeing":"https://www.trekking.ch","touristic_region":4}}
+{
+    "type": "Feature",
+    "id": 408,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.976560712385,
+            8.788629316925181
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Hölloch - Muotathal",
+        "abstract": "The largest cave system in Europe is located in the heart of Central Switzerland – the Hölloch. For thousands of years, water has shaped this natural wonder, creating a tranquil and mysterious underground world in the middle of a magnificent alpine landscape.",
+        "description": "More than 200 kilometers of passageways have been explored in this fascinating underground world. Led by a certified cave guide, visitors can choose from a variety of spelunking tours and experience the timeless fascination of this exceptional natural wonder. The tours are comparable to a mountain hike and suitable for everyone 9 years of age and older. However, a good physical condition and surefootedness are required.\n\nThe tours offered depend on the season of the year. All tours are possible during the winter (ca. November to March). In summer you can satisfy your thirst for spirit of adventure on a varied Hölloch parcours (3.5 hours), tracing the tracks of the first cave explorers, or get a taste of spelunking on a short tour.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/7795_detail1_a.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/7795_detail1_a.jpg",
+            "https://images.schweizmobil.ch/image/7795_b.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "Schwyz Tourismus",
+        "name_2": null,
+        "street": "Zeughaustrasse 10",
+        "zip": "6430",
+        "place": "Schwyz",
+        "tel": "+41 (0)41 855 59 50",
+        "fax": null,
+        "email": "info@schwyz-tourismus.ch",
+        "url1_link": "https://www.schwyz-tourismus.ch",
+        "x_coordinate": 702716.0592097783,
+        "y_coordinate": 203716.51803127804,
+        "change_date": null,
+        "id": 408,
+        "r_key": 408,
+        "type": "Sight",
+        "url_sightseeing": "https://www.trekking.ch",
+        "touristic_region": 4,
+        "canton": 11
+    }
+}

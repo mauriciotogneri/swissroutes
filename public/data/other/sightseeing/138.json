@@ -1,1 +1,60 @@
-{"type":"Feature","id":138,"geometry":{"type":"Point","coordinates":[47.142053395764854,9.270219616864509]},"properties":{"land":null,"category":"all","language":"en","title":"Paxmal","abstract":"The Paxmal is based on the primal concept of peace for all. Karl Bickel built this lifework and universal pacifist artwork between 1924 and 1949. It is located high above Lake Walen in front of the soaring faces of the Churfirsten mountain range.","description":"The well-known stamp engraver, artist and designer created the monument during 25 years as a recluse with great self-discipline, given his social and material isolation. The Paxmal (peace monument) is not a place of worship but a quiet, peaceful locale for collecting your thoughts, contemplation and meditation.\n\nThe left wall of the monument depicts earthly life: a human couple in its existence and development, love and procreation. The right wall is dedicated to spiritual life: the awakening, toiling, seeing and evolving humankind. This incomparable work of art stimulates meditation and reflection upon ourselves and our social systems on the way to becoming all-embracing, creative and good human beings.","highlights":null,"foto":"https://images0.schweizmobil.ch/image/11324_Paxmal_1a.jpg","photo_gallery":["https://images0.schweizmobil.ch/image/11324_Paxmal_1a.jpg","https://images0.schweizmobil.ch/image/11324_Paxmal_2b.jpg"],"photo_gallery_big":["",""],"photo_gallery_copyright":["",""],"photo_gallery_author":["",""],"name":"Ferienregion Heidiland","name_2":null,"street":"Walenseestrasse 18","zip":"8882","place":"Unterterzen","tel":"+41 (0)81 720 17 17","fax":null,"email":"unterterzen@heidiland.com","url1_link":"https://www.heidiland.com","x_coordinate":738923.0637247132,"y_coordinate":222852.50964700716,"change_date":null,"id":138,"r_key":138,"type":"Sight","url_sightseeing":"https://www.museumbickel.ch","touristic_region":2}}
+{
+    "type": "Feature",
+    "id": 138,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            47.14205339801829,
+            9.270219560639845
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Paxmal",
+        "abstract": "The Paxmal is based on the primal concept of peace for all. Karl Bickel built this lifework and universal pacifist artwork between 1924 and 1949. It is located high above Lake Walen in front of the soaring faces of the Churfirsten mountain range.",
+        "description": "The well-known stamp engraver, artist and designer created the monument during 25 years as a recluse with great self-discipline, given his social and material isolation. The Paxmal (peace monument) is not a place of worship but a quiet, peaceful locale for collecting your thoughts, contemplation and meditation.\n\nThe left wall of the monument depicts earthly life: a human couple in its existence and development, love and procreation. The right wall is dedicated to spiritual life: the awakening, toiling, seeing and evolving humankind. This incomparable work of art stimulates meditation and reflection upon ourselves and our social systems on the way to becoming all-embracing, creative and good human beings.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/11324_Paxmal_1a.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/11324_Paxmal_1a.jpg",
+            "https://images.schweizmobil.ch/image/11324_Paxmal_2b.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "Ferienregion Heidiland",
+        "name_2": null,
+        "street": "Walenseestrasse 18",
+        "zip": "8882",
+        "place": "Unterterzen",
+        "tel": "+41 (0)81 720 17 17",
+        "fax": null,
+        "email": "unterterzen@heidiland.com",
+        "url1_link": "https://www.heidiland.com",
+        "x_coordinate": 738923.0637247132,
+        "y_coordinate": 222852.50964700716,
+        "change_date": null,
+        "id": 138,
+        "r_key": 138,
+        "type": "Sight",
+        "url_sightseeing": "https://www.museumbickel.ch",
+        "touristic_region": 2,
+        "canton": 23
+    }
+}

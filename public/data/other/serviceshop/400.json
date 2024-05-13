@@ -1,1 +1,34 @@
-{"type":"Feature","id":3143,"geometry":{"type":"Point","coordinates":[47.380145037558115,8.652269941416783]},"properties":{"land":"\"velo\",\"mountainbike\"","category":"all","language":"en","title":"2Rad-Shop GmbH","abstract":null,"name":"2Rad-Shop GmbH","street":"Greifenseestrasse 1","zip":"8603","place":"Schwerzenbach","tel":"+41 44 825 44 70","email":null,"url1_text":null,"url1_link":"https://www.2rad-shop.ch","organisation":"2rad / 2routes / 2ruote","foto":null,"x_coordinate":691648.639647885,"y_coordinate":248410.2047520408,"change_date":null,"id":400,"type":"Service"}}
+{
+    "type": "Feature",
+    "id": 3143,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            47.380145051447364,
+            8.652269974861294
+        ]
+    },
+    "properties": {
+        "land": "\"velo\",\"mountainbike\"",
+        "category": "all",
+        "language": "en",
+        "title": "2Rad-Shop GmbH",
+        "abstract": null,
+        "name": "2Rad-Shop GmbH",
+        "street": "Greifenseestrasse 1",
+        "zip": "8603",
+        "place": "Schwerzenbach",
+        "tel": "+41 44 825 44 70",
+        "email": null,
+        "url1_text": null,
+        "url1_link": "https://www.2rad-shop.ch",
+        "organisation": "2rad / 2routes / 2ruote",
+        "foto": null,
+        "foto_abstract": null,
+        "x_coordinate": 691648.639647885,
+        "y_coordinate": 248410.2047520408,
+        "change_date": null,
+        "id": 400,
+        "type": "Service"
+    }
+}

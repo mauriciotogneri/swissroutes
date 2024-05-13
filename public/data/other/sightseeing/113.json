@@ -1,54 +1,60 @@
 {
-  "type": "Feature",
-  "id": 113,
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      47.418305432351104,
-      8.274410071448196
-    ]
-  },
-  "properties": {
-    "land": null,
-    "category": "all",
-    "language": "en",
-    "title": "The varied landscape of the Reuss",
-    "abstract": "The river Reuss follows a relatively natural course between Bremgarten and its confluence with the Aare. Land near Fischbach and Sulz, which was reclaimed from the Reuss in the 19th century, is now being returned to it.",
-    "description": "Almost all of Switzerland’s big rivers have been straightened and corrected. The stretch of the Reuss between Bremgarten and its confluence with the Aare is an exception. The river flows almost entirely freely along this 25-kilometre stretch – unhampered by power stations, reservoirs and long protective dykes.\n\nDownstream of Bremgarten the river meanders through a richly structured landscape. Two old courses can be found near Fischbach and Sulz which are known as the \"Dead Reuss” and \"Old Reuss”. They were both created in the 19th century when a river engineering project divided two large loops of the river. Measures were recently implemented in the area to provide more space for the river again.\n\nA few kilometres downstream, beyond Mellingen, the Reuss has eroded around 40 metres-deep into the Ice-Age debris deposits. This marks the maximum glaciation of the Reuss glacier during the last Ice Age around 10,000 years ago.",
-    "highlights": null,
-    "foto": "https://images0.schweizmobil.ch/image/26_Reusslandschsaft-Brugg-1.jpg",
-    "photo_gallery": [
-      "https://images0.schweizmobil.ch/image/26_Reusslandschsaft-Brugg-1.jpg",
-      "https://images0.schweizmobil.ch/image/26_Reusslandschaft.jpg"
-    ],
-    "photo_gallery_big": [
-      "",
-      ""
-    ],
-    "photo_gallery_copyright": [
-      "",
-      ""
-    ],
-    "photo_gallery_author": [
-      "",
-      ""
-    ],
-    "name": "Bundesamt für Umwelt",
-    "name_2": null,
-    "street": "und Naturdenkmäler von nationaler Bedeutung (BLN)",
-    "zip": "BLN-Objekt-Nr.",
-    "place": "1305",
-    "tel": "",
-    "fax": null,
-    "email": "bln@bafu.admin.ch",
-    "url1_link": "https://www.bafu.admin.ch/bln",
-    "x_coordinate": 663070.0944425365,
-    "y_coordinate": 252280.10373503857,
-    "change_date": null,
+    "type": "Feature",
     "id": 113,
-    "r_key": 113,
-    "type": "Sight",
-    "url_sightseeing": "https://www.bafu.admin.ch/bln",
-    "touristic_region": 14
-  }
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            47.41830542020405,
+            8.274410081620958
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "The varied landscape of the Reuss",
+        "abstract": "The river Reuss follows a relatively natural course between Bremgarten and its confluence with the Aare. Land near Fischbach and Sulz, which was reclaimed from the Reuss in the 19th century, is now being returned to it.",
+        "description": "Almost all of Switzerland’s big rivers have been straightened and corrected. The stretch of the Reuss between Bremgarten and its confluence with the Aare is an exception. The river flows almost entirely freely along this 25-kilometre stretch – unhampered by power stations, reservoirs and long protective dykes.\n\nDownstream of Bremgarten the river meanders through a richly structured landscape. Two old courses can be found near Fischbach and Sulz which are known as the \"Dead Reuss” and \"Old Reuss”. They were both created in the 19th century when a river engineering project divided two large loops of the river. Measures were recently implemented in the area to provide more space for the river again.\n\nA few kilometres downstream, beyond Mellingen, the Reuss has eroded around 40 metres-deep into the Ice-Age debris deposits. This marks the maximum glaciation of the Reuss glacier during the last Ice Age around 10,000 years ago.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/26_Reusslandschsaft-Brugg-1.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/26_Reusslandschsaft-Brugg-1.jpg",
+            "https://images.schweizmobil.ch/image/26_Reusslandschaft.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "Bundesamt für Umwelt",
+        "name_2": null,
+        "street": "und Naturdenkmäler von nationaler Bedeutung (BLN)",
+        "zip": "BLN-Objekt-Nr.",
+        "place": "1305",
+        "tel": "-",
+        "fax": null,
+        "email": "bln@bafu.admin.ch",
+        "url1_link": "https://www.bafu.admin.ch/bln",
+        "x_coordinate": 663070.0944425365,
+        "y_coordinate": 252280.10373503857,
+        "change_date": null,
+        "id": 113,
+        "r_key": 113,
+        "type": "Sight",
+        "url_sightseeing": "https://www.bafu.admin.ch/bln",
+        "touristic_region": 14,
+        "canton": 13
+    }
 }

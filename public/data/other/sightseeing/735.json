@@ -1,1 +1,75 @@
-{"type":"Feature","id":735,"geometry":{"type":"Point","coordinates":[47.39586674096777,9.38907847171586]},"properties":{"land":null,"category":"all","language":"en","title":"The A.Vogel Show Garden at Teufen","abstract":"Experience the life and philosophy of the natural medicine pioneer Alfred Vogel (1902-1996) in Teufen, Switzerland. Around 120 different medicinal plants and culinary herbs grow in the idyllic grounds.","description":"Experience natural medicine first hand and explore the fascinating life of A.Vogel.\n\nLearn how you can do even more for your health at Teufen. Early in the morning, golden drops shimmer between folded lady's mantle leaves. Around midday, the heat of the sun releases the heady fragrance of lavender. It fills the air and accompanies you all along your way.\n\nAt A.Vogel in Teufen you experience nature with all your senses. The medicinal show garden is open to the public, and its 120 different medicinal plants and culinary herbs are a veritable feast for the eyes. The A.Vogel museum and chemist shop welcome visitors during normal opening hours.","highlights":null,"foto":"https://images0.schweizmobil.ch/image/A_Vogel_Schaugarten_Produkt_herstellen.jpg","photo_gallery":["https://images0.schweizmobil.ch/image/A_Vogel_Schaugarten_Luftaufnahme.jpg","https://images0.schweizmobil.ch/image/A_Vogel_Schaugarten_Teufen.jpg","https://images0.schweizmobil.ch/image/A_Vogel_Schaugarten_Leben_Alfred_Vogel.jpg","https://images0.schweizmobil.ch/image/A_Vogel_Schaugarten_Produkt_herstellen.jpg","https://images0.schweizmobil.ch/image/A_Vogel_Schaugarten_Echinacea_purpurea.jpg"],"photo_gallery_big":["","","","",""],"photo_gallery_copyright":["","","","",""],"photo_gallery_author":["","","","",""],"name":"Appenzellerland Tourismus AR","name_2":null,"street":"St. Gallerstrasse 49","zip":"9100","place":"Herisau","tel":"+41 (0)71 898 33 00","fax":null,"email":"info@appenzellerland.ch","url1_link":"https://www.appenzellerland.ch","x_coordinate":747235.824109737,"y_coordinate":251279.4339035166,"change_date":null,"id":735,"r_key":735,"type":"Sight","url_sightseeing":"http://www.avogel.ch/de/avogel-welt/avogel-heute/teufen/erlebnis-teufen.php","touristic_region":2}}
+{
+    "type": "Feature",
+    "id": 735,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            47.39586673389649,
+            9.389078390711378
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "The A.Vogel Show Garden at Teufen",
+        "abstract": "Experience the life and philosophy of the natural medicine pioneer Alfred Vogel (1902-1996) in Teufen, Switzerland. Around 120 different medicinal plants and culinary herbs grow in the idyllic grounds.",
+        "description": "Experience natural medicine first hand and explore the fascinating life of A.Vogel.\n\nLearn how you can do even more for your health at Teufen. Early in the morning, golden drops shimmer between folded lady's mantle leaves. Around midday, the heat of the sun releases the heady fragrance of lavender. It fills the air and accompanies you all along your way.\n\nAt A.Vogel in Teufen you experience nature with all your senses. The medicinal show garden is open to the public, and its 120 different medicinal plants and culinary herbs are a veritable feast for the eyes. The A.Vogel museum and chemist shop welcome visitors during normal opening hours.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/A_Vogel_Schaugarten_Produkt_herstellen.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/A_Vogel_Schaugarten_Echinacea_purpurea.jpg",
+            "https://images.schweizmobil.ch/image/A_Vogel_Schaugarten_Produkt_herstellen.jpg",
+            "https://images.schweizmobil.ch/image/A_Vogel_Schaugarten_Leben_Alfred_Vogel.jpg",
+            "https://images.schweizmobil.ch/image/A_Vogel_Schaugarten_Teufen.jpg",
+            "https://images.schweizmobil.ch/image/A_Vogel_Schaugarten_Luftaufnahme.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "name": "Appenzellerland Tourismus AG",
+        "name_2": null,
+        "street": "St. Gallerstrasse 49",
+        "zip": "9100",
+        "place": "Herisau",
+        "tel": "+41 (0)71 898 33 00",
+        "fax": null,
+        "email": "info@appenzellerland.ch",
+        "url1_link": "https://www.appenzellerland.ch",
+        "x_coordinate": 747235.824109737,
+        "y_coordinate": 251279.4339035166,
+        "change_date": null,
+        "id": 735,
+        "r_key": 735,
+        "type": "Sight",
+        "url_sightseeing": "http://www.avogel.ch/de/avogel-welt/avogel-heute/teufen/erlebnis-teufen.php",
+        "touristic_region": 2,
+        "canton": 23
+    }
+}

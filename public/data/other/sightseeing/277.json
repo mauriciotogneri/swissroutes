@@ -1,1 +1,60 @@
-{"type":"Feature","id":277,"geometry":{"type":"Point","coordinates":[47.66681806792549,8.858200918380122]},"properties":{"land":null,"category":"all","language":"en","title":"Hohenklingen Fortress","abstract":"The Hohenklingen Fortress, an example of a medieval fortress built on a hill, is situated 590m above sea level,  overlooking the picturesque little town of Stein am Rhein on a Nagelfluh, (gompholite) summit, that runs in a west-east direction.","description":"Its history presumably begins in the 11th century. Already in 1863 there was a modest convalescent home with six guest rooms above the great hall and a restaurant in the three rooms located in the central block.\n\nToday the fortress is privately owned and has been almost completely restored to its original condition. Enjoy a glass of local red wine in the fortress restaurant. You will have an outstanding view to the Swiss alps and over Stein am Rhein.","highlights":null,"foto":"https://images0.schweizmobil.ch/image/9081_Burg-Hohenklingen_1a.jpg","photo_gallery":["https://images0.schweizmobil.ch/image/9081_Burg-Hohenklingen_1a.jpg","https://images0.schweizmobil.ch/image/9081_Burg-Hohenklingen_2b.jpg"],"photo_gallery_big":["",""],"photo_gallery_copyright":["",""],"photo_gallery_author":["",""],"name":"Schaffhauserland Tourismus","name_2":null,"street":"Vordergasse 73","zip":"8201","place":"Schaffhausen","tel":"+41 (0)52 632 40 20","fax":null,"email":"info@schaffhauserland.ch","url1_link":"https://www.schaffhauserland.ch","x_coordinate":706621.000625367,"y_coordinate":280540.00114085607,"change_date":null,"id":277,"r_key":277,"type":"Sight","url_sightseeing":"https://www.burghohenklingen.ch","touristic_region":2}}
+{
+    "type": "Feature",
+    "id": 277,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            47.66681805494853,
+            8.85820095544364
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Hohenklingen Fortress",
+        "abstract": "The Hohenklingen Fortress, an example of a medieval fortress built on a hill, is situated 590m above sea level,  overlooking the picturesque little town of Stein am Rhein on a Nagelfluh, (gompholite) summit, that runs in a west-east direction.",
+        "description": "Its history presumably begins in the 11th century. Already in 1863 there was a modest convalescent home with six guest rooms above the great hall and a restaurant in the three rooms located in the central block.\n\nToday the fortress is privately owned and has been almost completely restored to its original condition. Enjoy a glass of local red wine in the fortress restaurant. You will have an outstanding view to the Swiss alps and over Stein am Rhein.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/9081_Burg-Hohenklingen_1a.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/9081_Burg-Hohenklingen_1a.jpg",
+            "https://images.schweizmobil.ch/image/9081_Burg-Hohenklingen_2b.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "Schaffhauserland Tourismus",
+        "name_2": null,
+        "street": "Vordergasse 73",
+        "zip": "8201",
+        "place": "Schaffhausen",
+        "tel": "+41 (0)52 632 40 20",
+        "fax": null,
+        "email": "info@schaffhauserland.ch",
+        "url1_link": "https://www.schaffhauserland.ch",
+        "x_coordinate": 706621.000625367,
+        "y_coordinate": 280540.00114085607,
+        "change_date": null,
+        "id": 277,
+        "r_key": 277,
+        "type": "Sight",
+        "url_sightseeing": "https://www.burghohenklingen.ch",
+        "touristic_region": 2,
+        "canton": null
+    }
+}

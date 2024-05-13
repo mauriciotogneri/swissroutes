@@ -1,1 +1,34 @@
-{"type":"Feature","id":3243,"geometry":{"type":"Point","coordinates":[46.96241425669413,7.452143941630698]},"properties":{"land":"\"velo\",\"mountainbike\"","category":"all","language":"en","title":"Mr. Feeldgood Bern","abstract":null,"name":"Mr. Feeldgood Bern","street":"Scheibenstrasse 43","zip":"3014","place":"Bern","tel":"+41 31 332 13 00","email":null,"url1_text":null,"url1_link":"https://www.mr-feelgood.ch","organisation":"2rad / 2routes / 2ruote","foto":null,"x_coordinate":601028.8374640611,"y_coordinate":201260.44680739607,"change_date":null,"id":517,"type":"Service"}}
+{
+    "type": "Feature",
+    "id": 3243,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.962414256260566,
+            7.452143941264375
+        ]
+    },
+    "properties": {
+        "land": "\"velo\",\"mountainbike\"",
+        "category": "all",
+        "language": "en",
+        "title": "Mr. Feeldgood Bern",
+        "abstract": null,
+        "name": "Mr. Feeldgood Bern",
+        "street": "Scheibenstrasse 43",
+        "zip": "3014",
+        "place": "Bern",
+        "tel": "+41 31 332 13 00",
+        "email": null,
+        "url1_text": null,
+        "url1_link": "https://www.mr-feelgood.ch",
+        "organisation": "2rad / 2routes / 2ruote",
+        "foto": null,
+        "foto_abstract": null,
+        "x_coordinate": 601028.8374640611,
+        "y_coordinate": 201260.44680739607,
+        "change_date": null,
+        "id": 517,
+        "type": "Service"
+    }
+}

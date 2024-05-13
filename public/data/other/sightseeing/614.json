@@ -1,50 +1,55 @@
 {
-  "type": "Feature",
-  "id": 614,
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      47.05443503500712,
-      8.312952604936193
-    ]
-  },
-  "properties": {
-    "land": null,
-    "category": "all",
-    "language": "en",
-    "title": "Schweizerhofquai/Nationalquai",
-    "abstract": "With the decision in 1836 to replace the wooden Hofbrücke (bridge) with the embankment wall of a quay system, Luzern’s town council took an important step towards the city’s development into a world-famous tourist resort.",
-    "description": "On the spot where the quay complex and the «Schweizerhof», Luzern’s first luxury hotel have stood since 1845, a wooden bridge once linked Luzern’s old town with the manorial Monastery of St. Leodegar im Hof. Proved to date back to the 13th century, the covered wooden bridge served as a church path, along which it was forbidden to either ride or drive cows.\n\nIn the second half of the 19th century, the lake embankment between Schwanenplatz and today’s Kursaal allowed the creation of the city tourism street, the quay walls providing an anchorage for the first steamships on the lake. This first tourism street had a huge influence on the urban development of Luzern. A 900-metre-long promenade was built running parallel to the street, with an equally long alley of chestnut trees in whose shade tourists can enjoy views of the lake, the surrounding mountains and now the Culture and Congress Centre (KKL) designed by architect Jean Nouvel. The people of Luzern have repeatedly proved to be courageous and to take the right decisions in their endeavours to develop the city.",
-    "highlights": null,
-    "foto": "https://images0.schweizmobil.ch/image/IVS_03_03_Nationalquai.jpg",
-    "photo_gallery": [
-      "https://images0.schweizmobil.ch/image/IVS_03_03_Nationalquai.jpg"
-    ],
-    "photo_gallery_big": [
-      ""
-    ],
-    "photo_gallery_copyright": [
-      ""
-    ],
-    "photo_gallery_author": [
-      ""
-    ],
-    "name": "Bundesinventar der historischen Verkehrswege der Schweiz (IVS)",
-    "name_2": null,
-    "street": "",
-    "zip": "",
-    "place": "",
-    "tel": "",
-    "fax": null,
-    "email": "",
-    "url1_link": "https://www.ivs.admin.ch",
-    "x_coordinate": 666429.6693119102,
-    "y_coordinate": 211860.00830185207,
-    "change_date": null,
+    "type": "Feature",
     "id": 614,
-    "r_key": 614,
-    "type": "Sight",
-    "url_sightseeing": "https://s.geo.admin.ch/6fb1760e6c",
-    "touristic_region": 4
-  }
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            47.05443503494213,
+            8.3129526493897
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Schweizerhofquai/Nationalquai",
+        "abstract": "With the decision in 1836 to replace the wooden Hofbrücke (bridge) with the embankment wall of a quay system, Luzern’s town council took an important step towards the city’s development into a world-famous tourist resort.",
+        "description": "On the spot where the quay complex and the «Schweizerhof», Luzern’s first luxury hotel have stood since 1845, a wooden bridge once linked Luzern’s old town with the manorial Monastery of St. Leodegar im Hof. Proved to date back to the 13th century, the covered wooden bridge served as a church path, along which it was forbidden to either ride or drive cows.\n\nIn the second half of the 19th century, the lake embankment between Schwanenplatz and today’s Kursaal allowed the creation of the city tourism street, the quay walls providing an anchorage for the first steamships on the lake. This first tourism street had a huge influence on the urban development of Luzern. A 900-metre-long promenade was built running parallel to the street, with an equally long alley of chestnut trees in whose shade tourists can enjoy views of the lake, the surrounding mountains and now the Culture and Congress Centre (KKL) designed by architect Jean Nouvel. The people of Luzern have repeatedly proved to be courageous and to take the right decisions in their endeavours to develop the city.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/IVS_03_03_Nationalquai.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/IVS_03_03_Nationalquai.jpg"
+        ],
+        "photo_gallery_big": [
+            ""
+        ],
+        "photo_gallery_copyright": [
+            ""
+        ],
+        "photo_gallery_author": [
+            ""
+        ],
+        "photo_gallery_abstract": [
+            ""
+        ],
+        "name": "Bundesinventar der historischen Verkehrswege der Schweiz (IVS)",
+        "name_2": null,
+        "street": " ",
+        "zip": " ",
+        "place": " ",
+        "tel": " ",
+        "fax": null,
+        "email": " ",
+        "url1_link": "https://www.ivs.admin.ch",
+        "x_coordinate": 666429.6693119102,
+        "y_coordinate": 211860.00830185207,
+        "change_date": null,
+        "id": 614,
+        "r_key": 614,
+        "type": "Sight",
+        "url_sightseeing": "https://s.geo.admin.ch/6fb1760e6c",
+        "touristic_region": 4,
+        "canton": 15
+    }
 }

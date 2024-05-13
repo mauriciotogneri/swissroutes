@@ -1,1 +1,34 @@
-{"type":"Feature","id":2976,"geometry":{"type":"Point","coordinates":[47.46907936511397,8.324087681228736]},"properties":{"land":"\"velo\",\"mountainbike\"","category":"all","language":"en","title":"Aliverti AG","abstract":null,"name":"Aliverti AG","street":"Schartenstrasse 68","zip":"5430","place":"Wettingen","tel":"+41 56 426 72 89","email":null,"url1_text":null,"url1_link":"https://www.aliverti.ch","organisation":"2rad / 2routes / 2ruote","foto":null,"x_coordinate":666755.1993586792,"y_coordinate":257966.79880599768,"change_date":null,"id":200,"type":"Service"}}
+{
+    "type": "Feature",
+    "id": 2976,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            47.4690793528094,
+            8.324087723782075
+        ]
+    },
+    "properties": {
+        "land": "\"velo\",\"mountainbike\"",
+        "category": "all",
+        "language": "en",
+        "title": "Aliverti AG",
+        "abstract": null,
+        "name": "Aliverti AG",
+        "street": "Schartenstrasse 68",
+        "zip": "5430",
+        "place": "Wettingen",
+        "tel": "+41 56 426 72 89",
+        "email": null,
+        "url1_text": null,
+        "url1_link": "https://www.aliverti.ch",
+        "organisation": "2rad / 2routes / 2ruote",
+        "foto": null,
+        "foto_abstract": null,
+        "x_coordinate": 666755.1993586792,
+        "y_coordinate": 257966.79880599768,
+        "change_date": null,
+        "id": 200,
+        "type": "Service"
+    }
+}

@@ -1,1 +1,34 @@
-{"type":"Feature","id":2907,"geometry":{"type":"Point","coordinates":[47.544102318034625,7.575341734566818]},"properties":{"land":"\"velo\",\"mountainbike\"","category":"all","language":"en","title":"Radsport Kobel","abstract":null,"name":"Radsport Kobel","street":"Holeestrasse 1","zip":"4054","place":"Basel","tel":"+41 61 421 06 76","email":null,"url1_text":null,"url1_link":"https://www.kobel-radsport.ch","organisation":"2rad / 2routes / 2ruote","foto":null,"x_coordinate":610292.8325403109,"y_coordinate":265940.7268302623,"change_date":null,"id":120,"type":"Service"}}
+{
+    "type": "Feature",
+    "id": 2907,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            47.54410231698609,
+            7.575341732740824
+        ]
+    },
+    "properties": {
+        "land": "\"velo\",\"mountainbike\"",
+        "category": "all",
+        "language": "en",
+        "title": "Radsport Kobel",
+        "abstract": null,
+        "name": "Radsport Kobel",
+        "street": "Holeestrasse 1",
+        "zip": "4054",
+        "place": "Basel",
+        "tel": "+41 61 421 06 76",
+        "email": null,
+        "url1_text": null,
+        "url1_link": "https://www.kobel-radsport.ch",
+        "organisation": "2rad / 2routes / 2ruote",
+        "foto": null,
+        "foto_abstract": null,
+        "x_coordinate": 610292.8325403109,
+        "y_coordinate": 265940.7268302623,
+        "change_date": null,
+        "id": 120,
+        "type": "Service"
+    }
+}

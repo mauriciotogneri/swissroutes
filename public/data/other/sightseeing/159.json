@@ -1,1 +1,60 @@
-{"type":"Feature","id":159,"geometry":{"type":"Point","coordinates":[46.74371108027961,6.536681313637941]},"properties":{"land":null,"category":"all","language":"en","title":"Mosaïques romaines d’Orbe-Boscéaz","abstract":"The most beautiful set of Roman mosaics north of the Alps was unearthed on the Boscéaz site near Orbe. These unique vestiges of a luxurious villa represent figurative scenes and geometrical patterns.","description":"Five pavilions protect the site containing the largest set of Roman mosaics in Switzerland. The site is located in Boscéaz near Orbe, a small medieval town in the Yverdon-les-Bains region. The mosaics, which were discovered in the mid-19th century, adorned 9 of the 100 rooms of a huge and luxurious Gallo-Roman villa built towards 160 A.D. The villa was destroyed during the invasions and the grounds were used as a quarry in the Middle Ages. No above-ground structures remain.\n\n","highlights":null,"foto":"https://images0.schweizmobil.ch/image/11403_Mosaiques_Romaine_3a1.jpg","photo_gallery":["https://images0.schweizmobil.ch/image/11403_Mosaiques_Romaine_3a1.jpg","https://images0.schweizmobil.ch/image/11403_Mosaiques_Romaine_4b.jpg"],"photo_gallery_big":["",""],"photo_gallery_copyright":["",""],"photo_gallery_author":["",""],"name":"Office du Tourisme d'Orbe","name_2":null,"street":"Grand-Rue 1","zip":"1350","place":"Orbe","tel":"+41 (0)24 442 92 37","fax":null,"email":"tourisme@orbe.ch","url1_link":"https://www.orbe-tourisme.ch","x_coordinate":531074.0292292862,"y_coordinate":177343.88191744266,"change_date":null,"id":159,"r_key":159,"type":"Sight","url_sightseeing":"https://www.yverdonlesbainsregion.ch/en/P522/orbe-roman-mosaics","touristic_region":9}}
+{
+    "type": "Feature",
+    "id": 159,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.743711075945185,
+            6.536681301997751
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Mosaïques romaines d’Orbe-Boscéaz",
+        "abstract": "The most beautiful set of Roman mosaics north of the Alps was unearthed on the Boscéaz site near Orbe. These unique vestiges of a luxurious villa represent figurative scenes and geometrical patterns.",
+        "description": "Five pavilions protect the site containing the largest set of Roman mosaics in Switzerland. The site is located in Boscéaz near Orbe, a small medieval town in the Yverdon-les-Bains region. The mosaics, which were discovered in the mid-19th century, adorned 9 of the 100 rooms of a huge and luxurious Gallo-Roman villa built towards 160 A.D. The villa was destroyed during the invasions and the grounds were used as a quarry in the Middle Ages. No above-ground structures remain.\n\n",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/11403_Mosaiques_Romaine_3a1.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/11403_Mosaiques_Romaine_3a1.jpg",
+            "https://images.schweizmobil.ch/image/11403_Mosaiques_Romaine_4b.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "Agence ADNV / Office du Tourisme du Nord vaudois",
+        "name_2": null,
+        "street": "Avenue de la Gare 2",
+        "zip": "1401",
+        "place": "Yverdon-les-Bains",
+        "tel": "+41 24 423 03 13",
+        "fax": null,
+        "email": "tourisme@adnv.ch",
+        "url1_link": "https://www.yverdonlesbainsregion.ch/fr/P522/mosaiques-romaines-d-orbe?group=2263",
+        "x_coordinate": 531074.0292292862,
+        "y_coordinate": 177343.88191744266,
+        "change_date": null,
+        "id": 159,
+        "r_key": 159,
+        "type": "Sight",
+        "url_sightseeing": "https://www.yverdonlesbainsregion.ch/en/P522/orbe-roman-mosaics",
+        "touristic_region": 9,
+        "canton": 27
+    }
+}

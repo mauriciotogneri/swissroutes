@@ -1,54 +1,60 @@
 {
-  "type": "Feature",
-  "id": 87,
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      45.9831324455306,
-      7.783140902699216
-    ]
-  },
-  "properties": {
-    "land": null,
-    "category": "all",
-    "language": "en",
-    "title": "Around the Matterhorn",
-    "abstract": "Dent Blanche, Matterhorn, Monte Rosa: this glaciated mountain landscape of breathtaking beauty extends into the Valais Alps. A renowned tourism region, it is a particularly popular location for hiking, winter sport and Alpine touring (Haute Route).",
-    "description": "It would be difficult to find someone in Switzerland who does not know the Matterhorn – at least by name. In reality, however, many Swiss people have never seen it and these people are usually rather embarrassed when visitors rave about what is probably Switzerland’s most famous mountain.\n\nThe Matterhorn was conquered for the first time in 1865. An estimated 3,000 mountaineers try to climb the \"Hore” every year.\n\nWith the Dent Blanche, the Matterhorn and the Monte Rosa massif (to which Switzerland’s highest mountain belongs, the 4634-metre-high Dufourspitze), there are several ‘four-thousanders’ in this part of the Valais Alps.\n\nThe Gornergrat, which is accessed by a mountain railway, provides a particularly beautiful view of the breathtaking mountain vista. An international high altitude research station is located on the Gornergrat.\n\nThanks to the «Haute Route», the classic Alpine touring route, the entire area is also an Eldorado for skitourers.",
-    "highlights": null,
-    "foto": "https://images0.schweizmobil.ch/image/5_Im-Reich-der-Viertausende.jpg",
-    "photo_gallery": [
-      "https://images0.schweizmobil.ch/image/5_Im-Reich-der-Viertausende.jpg",
-      "https://images0.schweizmobil.ch/image/5_Matterhorn.jpg"
-    ],
-    "photo_gallery_big": [
-      "",
-      ""
-    ],
-    "photo_gallery_copyright": [
-      "",
-      ""
-    ],
-    "photo_gallery_author": [
-      "",
-      ""
-    ],
-    "name": "Bundesamt für Umwelt",
-    "name_2": null,
-    "street": "und Naturdenkmäler von nationaler Bedeutung (BLN)",
-    "zip": "BLN-Objekt-Nr.",
-    "place": "1707",
-    "tel": "",
-    "fax": null,
-    "email": "bln@bafu.admin.ch",
-    "url1_link": "https://www.bafu.admin.ch/bln",
-    "x_coordinate": 626698.9822563769,
-    "y_coordinate": 92455.44898069564,
-    "change_date": null,
+    "type": "Feature",
     "id": 87,
-    "r_key": 87,
-    "type": "Sight",
-    "url_sightseeing": "https://www.bafu.admin.ch/bln",
-    "touristic_region": 11
-  }
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            45.983132475198296,
+            7.783140893477981
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Around the Matterhorn",
+        "abstract": "Dent Blanche, Matterhorn, Monte Rosa: this glaciated mountain landscape of breathtaking beauty extends into the Valais Alps. A renowned tourism region, it is a particularly popular location for hiking, winter sport and Alpine touring (Haute Route).",
+        "description": "It would be difficult to find someone in Switzerland who does not know the Matterhorn – at least by name. In reality, however, many Swiss people have never seen it and these people are usually rather embarrassed when visitors rave about what is probably Switzerland’s most famous mountain.\n\nThe Matterhorn was conquered for the first time in 1865. An estimated 3,000 mountaineers try to climb the \"Hore” every year.\n\nWith the Dent Blanche, the Matterhorn and the Monte Rosa massif (to which Switzerland’s highest mountain belongs, the 4634-metre-high Dufourspitze), there are several ‘four-thousanders’ in this part of the Valais Alps.\n\nThe Gornergrat, which is accessed by a mountain railway, provides a particularly beautiful view of the breathtaking mountain vista. An international high altitude research station is located on the Gornergrat.\n\nThanks to the «Haute Route», the classic Alpine touring route, the entire area is also an Eldorado for skitourers.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/5_Im-Reich-der-Viertausende.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/5_Im-Reich-der-Viertausende.jpg",
+            "https://images.schweizmobil.ch/image/5_Matterhorn.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "Bundesamt für Umwelt",
+        "name_2": null,
+        "street": "und Naturdenkmäler von nationaler Bedeutung (BLN)",
+        "zip": "BLN-Objekt-Nr.",
+        "place": "1707",
+        "tel": "-",
+        "fax": null,
+        "email": "bln@bafu.admin.ch",
+        "url1_link": "https://www.bafu.admin.ch/bln",
+        "x_coordinate": 626698.9822563769,
+        "y_coordinate": 92455.44898069564,
+        "change_date": null,
+        "id": 87,
+        "r_key": 87,
+        "type": "Sight",
+        "url_sightseeing": "https://www.bafu.admin.ch/bln",
+        "touristic_region": 11,
+        "canton": 7
+    }
 }

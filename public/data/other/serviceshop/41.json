@@ -1,1 +1,34 @@
-{"type":"Feature","id":2833,"geometry":{"type":"Point","coordinates":[47.13287626786344,7.254398011391242]},"properties":{"land":"\"velo\",\"mountainbike\"","category":"all","language":"en","title":"Velowerkstatt Grüens Huus","abstract":null,"name":"Velowerkstatt Grüens Huus","street":"Zionsweg 44","zip":"2503","place":"Biel/Bienne","tel":"+41 32 365 14 46","email":null,"url1_text":null,"url1_link":"https://www.gruenshuus.ch","organisation":"2rad / 2routes / 2ruote","foto":null,"x_coordinate":586022.1191114627,"y_coordinate":220227.48539774478,"change_date":null,"id":41,"type":"Service"}}
+{
+    "type": "Feature",
+    "id": 2833,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            47.13287626680406,
+            7.254398008744957
+        ]
+    },
+    "properties": {
+        "land": "\"velo\",\"mountainbike\"",
+        "category": "all",
+        "language": "en",
+        "title": "Velowerkstatt Grüens Huus",
+        "abstract": null,
+        "name": "Velowerkstatt Grüens Huus",
+        "street": "Zionsweg 44",
+        "zip": "2503",
+        "place": "Biel/Bienne",
+        "tel": "+41 32 365 14 46",
+        "email": null,
+        "url1_text": null,
+        "url1_link": "https://www.gruenshuus.ch",
+        "organisation": "2rad / 2routes / 2ruote",
+        "foto": null,
+        "foto_abstract": null,
+        "x_coordinate": 586022.1191114627,
+        "y_coordinate": 220227.48539774478,
+        "change_date": null,
+        "id": 41,
+        "type": "Service"
+    }
+}

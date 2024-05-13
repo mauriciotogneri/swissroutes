@@ -1,1 +1,60 @@
-{"type":"Feature","id":416,"geometry":{"type":"Point","coordinates":[46.719900013352294,8.211678834641763]},"properties":{"land":null,"category":"all","language":"en","title":"Aareschlucht","abstract":"The Aare River winds its way between the villages of Meiringen and Innertkirchen through a gorge that is 1.4 km long and up to 200 metres deep. Traverse this unique wonder of nature on a safe walkway and through tunnels.","description":"Over thousands of years the tumbling waters of the young Aare gradually eroded a passage by rushing and gurgling their way ever deeper into the rock until the present gorge with its niches, grottoes and hollows was formed.\n\nLa gola dell'Aare è situata tra le località di Meiringen e Innertkirchen nella Valle dell'Hasli nell'Oberland Bernese. È lunga 1,4 chilometri e profonda anche 200 metri. L'ingresso principale della gola si trova 1 km a est della cittadina di Meiringen. Nelle immediate vicinanze della gola partono numerosi percorsi escursionistici e ciclistici SwitzerlandMobility.","highlights":null,"foto":"https://images0.schweizmobil.ch/image/9580_Aareschlucht_1a.jpg","photo_gallery":["https://images0.schweizmobil.ch/image/9580_Aareschlucht_1a.jpg","https://images0.schweizmobil.ch/image/9580_Aareschlucht_2b.jpg"],"photo_gallery_big":["",""],"photo_gallery_copyright":["",""],"photo_gallery_author":["",""],"name":"Haslital Tourismus","name_2":null,"street":"Bahnhofstrasse 22","zip":"3860","place":"Meiringen","tel":"+41 (0)33 972 50 50","fax":null,"email":"info@haslital.ch","url1_link":"https://www.haslital.ch","x_coordinate":659101.1243707391,"y_coordinate":174591.45757259545,"change_date":null,"id":416,"r_key":416,"type":"Sight","url_sightseeing":"https://www.haslital.ch/de/page.cfm/Erlebnisse/Wasser/2439","touristic_region":6}}
+{
+    "type": "Feature",
+    "id": 416,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.71990001333984,
+            8.211678829040547
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Aareschlucht",
+        "abstract": "The Aare River winds its way between the villages of Meiringen and Innertkirchen through a gorge that is 1.4 km long and up to 200 metres deep. Traverse this unique wonder of nature on a safe walkway and through tunnels.",
+        "description": "Over thousands of years the tumbling waters of the young Aare gradually eroded a passage by rushing and gurgling their way ever deeper into the rock until the present gorge with its niches, grottoes and hollows was formed.\n\nLa gola dell'Aare è situata tra le località di Meiringen e Innertkirchen nella Valle dell'Hasli nell'Oberland Bernese. È lunga 1,4 chilometri e profonda anche 200 metri. L'ingresso principale della gola si trova 1 km a est della cittadina di Meiringen. Nelle immediate vicinanze della gola partono numerosi percorsi escursionistici e ciclistici SwitzerlandMobility.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/9580_Aareschlucht_1a.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/9580_Aareschlucht_1a.jpg",
+            "https://images.schweizmobil.ch/image/9580_Aareschlucht_2b.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "Haslital Tourismus",
+        "name_2": null,
+        "street": "Bahnhofstrasse 22",
+        "zip": "3860",
+        "place": "Meiringen",
+        "tel": "+41 (0)33 972 50 50",
+        "fax": null,
+        "email": "info@haslital.ch",
+        "url1_link": "https://www.haslital.ch",
+        "x_coordinate": 659101.1243707391,
+        "y_coordinate": 174591.45757259545,
+        "change_date": null,
+        "id": 416,
+        "r_key": 416,
+        "type": "Sight",
+        "url_sightseeing": "https://www.haslital.ch/de/page.cfm/Erlebnisse/Wasser/2439",
+        "touristic_region": 6,
+        "canton": 12
+    }
+}

@@ -1,1 +1,55 @@
-{"type":"Feature","id":706,"geometry":{"type":"Point","coordinates":[46.83385098638312,9.281338979094649]},"properties":{"land":null,"category":"all","language":"en","title":"Skill Area Flims Bergbahnen","abstract":"The skill area is located at the mountain cableways in Flims Dorf. It is the perfect place for you to hone and learn skills.","description":"If you want to improve your skills on the bike, the Skills Area is just the thing. The skill area consists of a trail with a root and stone area, banked and hairpin bends, and two small jumps of varying heights. After warming up at the skill area, take the two chairlifts to the Runca Trail – the perfect place to put everything you practiced to the test.\n\nLength: 150m / surface: gravel.","highlights":null,"foto":"https://images0.schweizmobil.ch/image/Flims_Talstation_Skill_Area_2013_1.jpg","photo_gallery":["https://images0.schweizmobil.ch/image/Flims_Talstation_Skill_Area_2013_1.jpg"],"photo_gallery_big":[""],"photo_gallery_copyright":[""],"photo_gallery_author":[""],"name":"Flims Laax Falera","name_2":null,"street":"Via Nova 62","zip":"7017","place":"Flims Dorf","tel":"+41 (0)81 920 92 00","fax":null,"email":"info@flimslaaxfalera.ch","url1_link":"https://www.flims.com","x_coordinate":740571.839507662,"y_coordinate":188618.63835516354,"change_date":null,"id":706,"r_key":706,"type":"Sight","url_sightseeing":"https://www.flimslaax.com/","touristic_region":1}}
+{
+    "type": "Feature",
+    "id": 706,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.83385098230964,
+            9.2813390026623
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Skill Area Flims Bergbahnen",
+        "abstract": "The skill area is located at the mountain cableways in Flims Dorf. It is the perfect place for you to hone and learn skills.",
+        "description": "If you want to improve your skills on the bike, the Skills Area is just the thing. The skill area consists of a trail with a root and stone area, banked and hairpin bends, and two small jumps of varying heights. After warming up at the skill area, take the two chairlifts to the Runca Trail – the perfect place to put everything you practiced to the test.\n\nLength: 150m / surface: gravel.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/Flims_Talstation_Skill_Area_2013_1.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/Flims_Talstation_Skill_Area_2013_1.jpg"
+        ],
+        "photo_gallery_big": [
+            ""
+        ],
+        "photo_gallery_copyright": [
+            ""
+        ],
+        "photo_gallery_author": [
+            ""
+        ],
+        "photo_gallery_abstract": [
+            ""
+        ],
+        "name": "Flims Laax Falera",
+        "name_2": null,
+        "street": "Via Nova 62",
+        "zip": "7017",
+        "place": "Flims Dorf",
+        "tel": "+41 (0)81 920 92 00",
+        "fax": null,
+        "email": "info@flimslaaxfalera.ch",
+        "url1_link": "https://www.flims.com",
+        "x_coordinate": 740571.839507662,
+        "y_coordinate": 188618.63835516354,
+        "change_date": null,
+        "id": 706,
+        "r_key": 706,
+        "type": "Sight",
+        "url_sightseeing": "https://www.flimslaax.com/",
+        "touristic_region": 1,
+        "canton": 2
+    }
+}

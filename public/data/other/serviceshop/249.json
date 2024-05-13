@@ -1,1 +1,34 @@
-{"type":"Feature","id":3018,"geometry":{"type":"Point","coordinates":[47.13654121562265,8.134421438139178]},"properties":{"land":"\"velo\",\"mountainbike\"","category":"all","language":"en","title":"Galliker Nottwil","abstract":null,"name":"Galliker Nottwil","street":"Kantonsstrasse 20","zip":"6207","place":"Nottwil","tel":"+41 41 937 28 70","email":null,"url1_text":null,"url1_link":"https://www.gallikernottwil.ch","organisation":"2rad / 2routes / 2ruote","foto":null,"x_coordinate":652784.0868794917,"y_coordinate":220852.47798183933,"change_date":null,"id":249,"type":"Service"}}
+{
+    "type": "Feature",
+    "id": 3018,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            47.13654121989619,
+            8.134421443572117
+        ]
+    },
+    "properties": {
+        "land": "\"velo\",\"mountainbike\"",
+        "category": "all",
+        "language": "en",
+        "title": "Galliker Nottwil",
+        "abstract": null,
+        "name": "Galliker Nottwil",
+        "street": "Kantonsstrasse 20",
+        "zip": "6207",
+        "place": "Nottwil",
+        "tel": "+41 41 937 28 70",
+        "email": null,
+        "url1_text": null,
+        "url1_link": "https://www.gallikernottwil.ch",
+        "organisation": "2rad / 2routes / 2ruote",
+        "foto": null,
+        "foto_abstract": null,
+        "x_coordinate": 652784.0868794917,
+        "y_coordinate": 220852.47798183933,
+        "change_date": null,
+        "id": 249,
+        "type": "Service"
+    }
+}

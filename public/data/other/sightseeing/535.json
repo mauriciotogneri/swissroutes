@@ -1,62 +1,70 @@
 {
-  "type": "Feature",
-  "id": 535,
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      46.829270191972824,
-      7.402450572637965
-    ]
-  },
-  "properties": {
-    "land": null,
-    "category": "all",
-    "language": "en",
-    "title": "Rossgrabebrügg / Schwandbachbrügg",
-    "abstract": "In 1932/33, two concrete bridges designed by Robert Maillart were built between Hinterfultigen and Elisried during the construction of a new improved road. Today they are greatly admired as masterpieces from an exceptional engineer.",
-    "description": "The Schwarzenburg region, on the border of Canton Bern, is the focus of interest for civil engineers thanks to the genius of bridge builder Robert Maillart (1872–1940). Although there were deep-cut ravines, called «Gräben», often with rushing streams to negotiate, the local population maintained a lively relationship with the market town of Schwarzenburg. This is reflected in the local Fultig dialect, which has more in common with the people of Schwarzenburg than with the inhabitants of much nearer Rüeggisberg.\n\nUntil the construction of the road in 1932/33, historically documented paths led through the ravines and were often only negotiable with great effort. The situation changed with the new road and Robert Maillart’s two bridges spanning the Schwandbachgraben and Rossgraben ravines. At the time, his filigree constructions were extremely controversial as aesthetic tastes demanded a solid construction and bulky structures were considered attractive. Fortunately the elegant structures prevailed and in 1984 were admitted to the list of art antiquities – at just over 50 years old.",
-    "highlights": null,
-    "foto": "https://images0.schweizmobil.ch/image/IVS_03_02_Schwandbachbr.jpg",
-    "photo_gallery": [
-      "https://images0.schweizmobil.ch/image/IVS_03_02_Schwandbachbr.jpg",
-      "https://images0.schweizmobil.ch/image/20071006_Bern_Rossgrabenbruecke_Maillart_FRB_16.jpg",
-      "https://images0.schweizmobil.ch/image/20071006_Bern_Schwandbachbruecke_Maillart_FRB_14.jpg",
-      "https://images0.schweizmobil.ch/image/20071006_Bern_Schwandbachbruecke_Maillart_FRB_24.jpg"
-    ],
-    "photo_gallery_big": [
-      "",
-      "",
-      "",
-      ""
-    ],
-    "photo_gallery_copyright": [
-      "",
-      "",
-      "",
-      ""
-    ],
-    "photo_gallery_author": [
-      "",
-      "",
-      "",
-      ""
-    ],
-    "name": "Bundesinventar der historischen Verkehrswege der Schweiz (IVS)",
-    "name_2": null,
-    "street": "",
-    "zip": "",
-    "place": "",
-    "tel": "",
-    "fax": null,
-    "email": "",
-    "url1_link": "https://www.ivs.admin.ch",
-    "x_coordinate": 597239.928448446,
-    "y_coordinate": 186459.8995235189,
-    "change_date": null,
+    "type": "Feature",
     "id": 535,
-    "r_key": 535,
-    "type": "Sight",
-    "url_sightseeing": "https://s.geo.admin.ch/6fb173009d",
-    "touristic_region": 6
-  }
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.8292701916482,
+            7.402450573540664
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Rossgrabebrügg / Schwandbachbrügg",
+        "abstract": "In 1932/33, two concrete bridges designed by Robert Maillart were built between Hinterfultigen and Elisried during the construction of a new improved road. Today they are greatly admired as masterpieces from an exceptional engineer.",
+        "description": "The Schwarzenburg region, on the border of Canton Bern, is the focus of interest for civil engineers thanks to the genius of bridge builder Robert Maillart (1872–1940). Although there were deep-cut ravines, called «Gräben», often with rushing streams to negotiate, the local population maintained a lively relationship with the market town of Schwarzenburg. This is reflected in the local Fultig dialect, which has more in common with the people of Schwarzenburg than with the inhabitants of much nearer Rüeggisberg.\n\nUntil the construction of the road in 1932/33, historically documented paths led through the ravines and were often only negotiable with great effort. The situation changed with the new road and Robert Maillart’s two bridges spanning the Schwandbachgraben and Rossgraben ravines. At the time, his filigree constructions were extremely controversial as aesthetic tastes demanded a solid construction and bulky structures were considered attractive. Fortunately the elegant structures prevailed and in 1984 were admitted to the list of art antiquities – at just over 50 years old.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/IVS_03_02_Schwandbachbr.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/IVS_03_02_Schwandbachbr.jpg",
+            "https://images.schweizmobil.ch/image/20071006_Bern_Schwandbachbruecke_Maillart_FRB_24.jpg",
+            "https://images.schweizmobil.ch/image/20071006_Bern_Schwandbachbruecke_Maillart_FRB_14.jpg",
+            "https://images.schweizmobil.ch/image/20071006_Bern_Rossgrabenbruecke_Maillart_FRB_16.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "name": "Bundesinventar der historischen Verkehrswege der Schweiz (IVS)",
+        "name_2": null,
+        "street": " ",
+        "zip": " ",
+        "place": " ",
+        "tel": " ",
+        "fax": null,
+        "email": " ",
+        "url1_link": "https://www.ivs.admin.ch",
+        "x_coordinate": 597239.928448446,
+        "y_coordinate": 186459.8995235189,
+        "change_date": null,
+        "id": 535,
+        "r_key": 535,
+        "type": "Sight",
+        "url_sightseeing": "https://s.geo.admin.ch/6fb173009d",
+        "touristic_region": 6,
+        "canton": 12
+    }
 }

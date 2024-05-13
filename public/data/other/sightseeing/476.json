@@ -1,1 +1,60 @@
-{"type":"Feature","id":476,"geometry":{"type":"Point","coordinates":[46.582220896565886,7.072876782820002]},"properties":{"land":null,"category":"all","language":"en","title":"La Maison du Gruyère - Cheese dairy","abstract":"Snuggling near the mountain pastures at the foot of Gruyères Castle. The Maison du Gruyère invites you to discover the world-famous Gruyère AOC.","description":"The Maison du Gruyère show dairy exhibition is a treat for all the senses. Three to four times a day, depending on the season, professionals will show you how Gruyère AOC is made using age-old, traditional techniques.\n\nTwice a day 36 farmers deliver their milk to the (cheese dairy), milk from cows that graze the lush grass and fragrant flora of alpine meadows as high as 800 to 1600 metres above sea level. Under the watchful eyes of visitors the master cheese-makers and their team produce up to 48 wheels of Gruyère a day, observing the stringent AOC (appellation d'origine contrôlée) specifications.","highlights":null,"foto":"https://images0.schweizmobil.ch/image/7974_Schaukaeserei_2_a.jpg","photo_gallery":["https://images0.schweizmobil.ch/image/7974_Schaukaeserei_2_a.jpg","https://images0.schweizmobil.ch/image/7974_Schaukaeserei_1_b.jpg"],"photo_gallery_big":["",""],"photo_gallery_copyright":["",""],"photo_gallery_author":["",""],"name":"Fribourg Region","name_2":null,"street":"Route de la Glâne 107","zip":"1701","place":"Fribourg","tel":"+41 (0)26 407 70 20","fax":null,"email":"information@fribourgregion.ch","url1_link":"https://www.fribourgregion.ch","x_coordinate":571965.0519747512,"y_coordinate":159060.02122538388,"change_date":null,"id":476,"r_key":476,"type":"Sight","url_sightseeing":"https://www.lamaisondugruyere.ch","touristic_region":13}}
+{
+    "type": "Feature",
+    "id": 476,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.5822209110197,
+            7.072876782286825
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "La Maison du Gruyère - Cheese dairy",
+        "abstract": "Snuggling near the mountain pastures at the foot of Gruyères Castle. The Maison du Gruyère invites you to discover the world-famous Gruyère AOC.",
+        "description": "The Maison du Gruyère show dairy exhibition is a treat for all the senses. Three to four times a day, depending on the season, professionals will show you how Gruyère AOC is made using age-old, traditional techniques.\n\nTwice a day 36 farmers deliver their milk to the (cheese dairy), milk from cows that graze the lush grass and fragrant flora of alpine meadows as high as 800 to 1600 metres above sea level. Under the watchful eyes of visitors the master cheese-makers and their team produce up to 48 wheels of Gruyère a day, observing the stringent AOC (appellation d'origine contrôlée) specifications.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/7974_Schaukaeserei_2_a.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/7974_Schaukaeserei_2_a.jpg",
+            "https://images.schweizmobil.ch/image/7974_Schaukaeserei_1_b.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "Fribourg Region",
+        "name_2": null,
+        "street": "Route de la Glâne 107",
+        "zip": "1701",
+        "place": "Fribourg",
+        "tel": "+41 (0)26 407 70 20",
+        "fax": null,
+        "email": "information@fribourgregion.ch",
+        "url1_link": "https://www.fribourgregion.ch",
+        "x_coordinate": 571965.0519747512,
+        "y_coordinate": 159060.02122538388,
+        "change_date": null,
+        "id": 476,
+        "r_key": 476,
+        "type": "Sight",
+        "url_sightseeing": "https://www.lamaisondugruyere.ch",
+        "touristic_region": 13,
+        "canton": 5
+    }
+}

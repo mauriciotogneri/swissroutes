@@ -1,1 +1,34 @@
-{"type":"Feature","id":2917,"geometry":{"type":"Point","coordinates":[47.4995349981818,7.553010786465468]},"properties":{"land":"\"velo\",\"mountainbike\"","category":"all","language":"en","title":"Velo Schrade GmbH","abstract":null,"name":"Velo Schrade GmbH","street":"Oberwilerstrasse 9","zip":"4106","place":"Therwil","tel":"+41 61 721 14 11","email":null,"url1_text":null,"url1_link":"https://www.veloschrade.ch","organisation":"2rad / 2routes / 2ruote","foto":null,"x_coordinate":608618.8892102136,"y_coordinate":260982.44008722453,"change_date":null,"id":131,"type":"Service"}}
+{
+    "type": "Feature",
+    "id": 2917,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            47.49953499743724,
+            7.553010786948779
+        ]
+    },
+    "properties": {
+        "land": "\"velo\",\"mountainbike\"",
+        "category": "all",
+        "language": "en",
+        "title": "Velo Schrade GmbH",
+        "abstract": null,
+        "name": "Velo Schrade GmbH",
+        "street": "Oberwilerstrasse 9",
+        "zip": "4106",
+        "place": "Therwil",
+        "tel": "+41 61 721 14 11",
+        "email": null,
+        "url1_text": null,
+        "url1_link": "https://www.veloschrade.ch",
+        "organisation": "2rad / 2routes / 2ruote",
+        "foto": null,
+        "foto_abstract": null,
+        "x_coordinate": 608618.8892102136,
+        "y_coordinate": 260982.44008722453,
+        "change_date": null,
+        "id": 131,
+        "type": "Service"
+    }
+}

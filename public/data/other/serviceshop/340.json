@@ -1,1 +1,34 @@
-{"type":"Feature","id":3098,"geometry":{"type":"Point","coordinates":[47.70644393935284,8.621552305531251]},"properties":{"land":"\"velo\",\"mountainbike\"","category":"all","language":"en","title":"Radsport Schumacher SH GmbH","abstract":null,"name":"Radsport Schumacher SH GmbH","street":"Hohlenbaumstrasse 99","zip":"8200","place":"Schaffhausen","tel":"+41 52 625 05 77","email":null,"url1_text":null,"url1_link":"https://www.radsport-schumacher-sh.ch","organisation":"2rad / 2routes / 2ruote","foto":null,"x_coordinate":688782.0652775055,"y_coordinate":284651.4447982956,"change_date":null,"id":340,"type":"Service"}}
+{
+    "type": "Feature",
+    "id": 3098,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            47.70644393184885,
+            8.62155233785726
+        ]
+    },
+    "properties": {
+        "land": "\"velo\",\"mountainbike\"",
+        "category": "all",
+        "language": "en",
+        "title": "Radsport Schumacher SH GmbH",
+        "abstract": null,
+        "name": "Radsport Schumacher SH GmbH",
+        "street": "Hohlenbaumstrasse 99",
+        "zip": "8200",
+        "place": "Schaffhausen",
+        "tel": "+41 52 625 05 77",
+        "email": null,
+        "url1_text": null,
+        "url1_link": "https://www.radsport-schumacher-sh.ch",
+        "organisation": "2rad / 2routes / 2ruote",
+        "foto": null,
+        "foto_abstract": null,
+        "x_coordinate": 688782.0652775055,
+        "y_coordinate": 284651.4447982956,
+        "change_date": null,
+        "id": 340,
+        "type": "Service"
+    }
+}

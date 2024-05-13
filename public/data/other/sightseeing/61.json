@@ -1,50 +1,55 @@
 {
-  "type": "Feature",
-  "id": 61,
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      47.35539741538441,
-      7.76104466020596
-    ]
-  },
-  "properties": {
-    "land": null,
-    "category": "all",
-    "language": "en",
-    "title": "Hauenstein: From traders and travellers",
-    "abstract": "Many paths lead from the Rheinknie near Basel over the Jura passes to the Swiss Mittelland. The pass over the Ober Hauenstein has long been regarded as the main route. The cut through the rocks with the Geleisestrasse on the Chräiegg is commonly known as a «Roman road».",
-    "description": "The cut through the rocks on the Chräiegg is known as Hauenstein (hew stone) and gave the pass its name.\n\nA road over the Hauenstein was first recorded in 1145 in a deed at the Schöntal Monastery near Langenbruck. The pass is however much older and was already used in Roman times as a link from Salodurum to Augusta Raurica.\n\nApart from its military importance, the crossing was also used by traders, travellers and pilgrims who, from the 16th century, were able to find their way through the area with the aid of maps.\n\nThe passage with the Geleisestrasse is split into two sections divided by a land slide. The northern section is marked by a cut in the rocks in which six levels of road were found. The southern section is spectacular because of its over-50-metre length.\n\nThe passage was abandoned in the middle of the 18th century. Larger transport wagons and coaches required new roads with gentler gradients. This was not possible on the Chräiegg route, which was furnished with wheel ruts.",
-    "highlights": null,
-    "foto": "https://images0.schweizmobil.ch/image/IVS_39_Hauenstein_Chraeiegg.jpg",
-    "photo_gallery": [
-      "https://images0.schweizmobil.ch/image/IVS_39_Hauenstein_Chraeiegg.jpg"
-    ],
-    "photo_gallery_big": [
-      ""
-    ],
-    "photo_gallery_copyright": [
-      ""
-    ],
-    "photo_gallery_author": [
-      ""
-    ],
-    "name": "Bundesinventar der historischen Verkehrswege der Schweiz (IVS)",
-    "name_2": null,
-    "street": "",
-    "zip": "",
-    "place": "",
-    "tel": "",
-    "fax": null,
-    "email": "",
-    "url1_link": "https://www.ivs.admin.ch",
-    "x_coordinate": 624359.9816284803,
-    "y_coordinate": 245000.00503843147,
-    "change_date": null,
+    "type": "Feature",
     "id": 61,
-    "r_key": 61,
-    "type": "Sight",
-    "url_sightseeing": "https://s.geo.admin.ch/6fb16470b0",
-    "touristic_region": 5
-  }
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            47.3553973993327,
+            7.761044648901686
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Hauenstein: From traders and travellers",
+        "abstract": "Many paths lead from the Rheinknie near Basel over the Jura passes to the Swiss Mittelland. The pass over the Ober Hauenstein has long been regarded as the main route. The cut through the rocks with the Geleisestrasse on the Chräiegg is commonly known as a «Roman road».",
+        "description": "The cut through the rocks on the Chräiegg is known as Hauenstein (hew stone) and gave the pass its name.\n\nA road over the Hauenstein was first recorded in 1145 in a deed at the Schöntal Monastery near Langenbruck. The pass is however much older and was already used in Roman times as a link from Salodurum to Augusta Raurica.\n\nApart from its military importance, the crossing was also used by traders, travellers and pilgrims who, from the 16th century, were able to find their way through the area with the aid of maps.\n\nThe passage with the Geleisestrasse is split into two sections divided by a land slide. The northern section is marked by a cut in the rocks in which six levels of road were found. The southern section is spectacular because of its over-50-metre length.\n\nThe passage was abandoned in the middle of the 18th century. Larger transport wagons and coaches required new roads with gentler gradients. This was not possible on the Chräiegg route, which was furnished with wheel ruts.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/IVS_39_Hauenstein_Chraeiegg.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/IVS_39_Hauenstein_Chraeiegg.jpg"
+        ],
+        "photo_gallery_big": [
+            ""
+        ],
+        "photo_gallery_copyright": [
+            ""
+        ],
+        "photo_gallery_author": [
+            ""
+        ],
+        "photo_gallery_abstract": [
+            ""
+        ],
+        "name": "Bundesinventar der historischen Verkehrswege der Schweiz (IVS)",
+        "name_2": null,
+        "street": " ",
+        "zip": " ",
+        "place": " ",
+        "tel": " ",
+        "fax": null,
+        "email": " ",
+        "url1_link": "https://www.ivs.admin.ch",
+        "x_coordinate": 624359.9816284803,
+        "y_coordinate": 245000.00503843147,
+        "change_date": null,
+        "id": 61,
+        "r_key": 61,
+        "type": "Sight",
+        "url_sightseeing": "https://s.geo.admin.ch/6fb16470b0",
+        "touristic_region": 5,
+        "canton": 9
+    }
 }

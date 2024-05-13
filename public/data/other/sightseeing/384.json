@@ -1,1 +1,60 @@
-{"type":"Feature","id":384,"geometry":{"type":"Point","coordinates":[47.4804155733828,8.21861384130135]},"properties":{"land":null,"category":"all","language":"en","title":"Vindonissa Legionnaires' Path","abstract":"Follow in the 2000 year old tracks of the Roman Legionnaires and senior officers in the only Roman camp in Switzerland. At 11 staged sites you see, hear and feel their way into life at that time in a playful way.","description":"The Vindonissa Legionnaires' Path allows you to experience the stories of the Ancient Romans with every one of the senses. Where 6000 legionnaires once prepared themselves for their deployment on behalf of the Roman Emperor, today you can still eavesdrop on the conversations in the officers' sunken kitchen, see the ruins of the Roman thermal baths brought to life through light and fragrances, or marvel at the only Roman aqueduct North of the Alps still working today.\n\nThemed and fun tours are regularly held in the Legionnaires' Camp in Windisch, enabling visitors to gain a closer insight into the life of the Romans. For adventure seekers there is also the opportunity to stay overnight in the faithfully restored Legionnaires' accommodation, including experiencing Roman cooking over the fire and playing ancient games. Immerse yourself into the fascinating history of the Legionnaires and officers!","highlights":null,"foto":"https://images0.schweizmobil.ch/image/12782_Legionaerspfad_Vindonissa_1a.jpg","photo_gallery":["https://images0.schweizmobil.ch/image/12782_Legionaerspfad_Vindonissa_1a.jpg","https://images0.schweizmobil.ch/image/12782_Legionawrspfad_Vindonissa_2b.jpg"],"photo_gallery_big":["",""],"photo_gallery_copyright":["",""],"photo_gallery_author":["",""],"name":"Aargau Tourismus AG","name_2":null,"street":"Laurstrasse 10","zip":"5200","place":"Brugg","tel":"+41 (0)62 823 00 73","fax":null,"email":"info@aargautourismus.ch","url1_link":"https://www.aargautourismus.ch","x_coordinate":658791.59444479,"y_coordinate":259142.11252509878,"change_date":null,"id":384,"r_key":384,"type":"Sight","url_sightseeing":"https://www.legionaerspfad.ch","touristic_region":14}}
+{
+    "type": "Feature",
+    "id": 384,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            47.48041556466546,
+            8.218613835919546
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Vindonissa Legionnaires' Path",
+        "abstract": "Follow in the 2000 year old tracks of the Roman Legionnaires and senior officers in the only Roman camp in Switzerland. At 11 staged sites you see, hear and feel their way into life at that time in a playful way.",
+        "description": "The Vindonissa Legionnaires' Path allows you to experience the stories of the Ancient Romans with every one of the senses. Where 6000 legionnaires once prepared themselves for their deployment on behalf of the Roman Emperor, today you can still eavesdrop on the conversations in the officers' sunken kitchen, see the ruins of the Roman thermal baths brought to life through light and fragrances, or marvel at the only Roman aqueduct North of the Alps still working today.\n\nThemed and fun tours are regularly held in the Legionnaires' Camp in Windisch, enabling visitors to gain a closer insight into the life of the Romans. For adventure seekers there is also the opportunity to stay overnight in the faithfully restored Legionnaires' accommodation, including experiencing Roman cooking over the fire and playing ancient games. Immerse yourself into the fascinating history of the Legionnaires and officers!",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/12782_Legionaerspfad_Vindonissa_1a.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/12782_Legionaerspfad_Vindonissa_1a.jpg",
+            "https://images.schweizmobil.ch/image/12782_Legionawrspfad_Vindonissa_2b.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "Aargau Tourismus AG",
+        "name_2": null,
+        "street": "Laurstrasse 10",
+        "zip": "5200",
+        "place": "Brugg",
+        "tel": "+41 (0)62 823 00 73",
+        "fax": null,
+        "email": "info@aargautourismus.ch",
+        "url1_link": "https://www.aargautourismus.ch",
+        "x_coordinate": 658791.59444479,
+        "y_coordinate": 259142.11252509878,
+        "change_date": null,
+        "id": 384,
+        "r_key": 384,
+        "type": "Sight",
+        "url_sightseeing": "https://www.legionaerspfad.ch",
+        "touristic_region": 14,
+        "canton": 13
+    }
+}

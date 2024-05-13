@@ -1,0 +1,55 @@
+{
+    "type": "Feature",
+    "id": 4311,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.36921378792238,
+            7.9679293439117265
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Skills Park Hexenland",
+        "abstract": "In the Skills Park Hexenland on the Belalp, you will pick up all the important technical riding ingredients for having fun on the trails. The realm of the Belalp witch Vero includes several short trails featuring obstacles such as the Rock Garden, table jumps, approach curves, drops and much more. You can quickly get back to the start with the specially designed uphill trail.",
+        "description": "Opening period: June to October\n\nType of terrain: natural\n\nTotal length of trail: 940m",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image-big/Skills_Park_Hexenland_Blatten-Belalp_2023_1_g.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/Skills_Park_Hexenland_Blatten-Belalp_2023_1_s.jpg"
+        ],
+        "photo_gallery_big": [
+            "https://images.schweizmobil.ch/image-big/Skills_Park_Hexenland_Blatten-Belalp_2023_1_g.jpg"
+        ],
+        "photo_gallery_copyright": [
+            ""
+        ],
+        "photo_gallery_author": [
+            ""
+        ],
+        "photo_gallery_abstract": [
+            ""
+        ],
+        "name": "Blatten-Belalp Tourismus AG",
+        "name_2": null,
+        "street": "Rischinustrasse 5",
+        "zip": "3914",
+        "place": "Blatten bei Naters",
+        "tel": "+41 (0)27 921 60 40",
+        "fax": null,
+        "email": "tourismus@belalp.ch",
+        "url1_link": "https://www.belalp.ch",
+        "x_coordinate": 640729.6615143357,
+        "y_coordinate": 135453.07213620824,
+        "change_date": null,
+        "id": 4311,
+        "r_key": 4311,
+        "type": "Sight",
+        "url_sightseeing": "https://www.valais.ch/en/activities/mountain-bike/pumptracks/skills-park-hexenland",
+        "touristic_region": 11,
+        "canton": 7
+    }
+}

@@ -1,1 +1,34 @@
-{"type":"Feature","id":3290,"geometry":{"type":"Point","coordinates":[47.3732707173433,8.682887406665944]},"properties":{"land":"\"velo\",\"mountainbike\"","category":"all","language":"en","title":"Bike W. Küng AG","abstract":null,"name":"Bike W. Küng AG","street":"Gewerbestrasse 1","zip":"8606","place":"Nänikon-Greifensee","tel":"+41 43 399 20 78","email":null,"url1_text":null,"url1_link":null,"organisation":"2rad / 2routes / 2ruote","foto":null,"x_coordinate":693972.0618364662,"y_coordinate":247682.68315425076,"change_date":null,"id":571,"type":"Service"}}
+{
+    "type": "Feature",
+    "id": 3290,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            47.373270730822895,
+            8.682887440092152
+        ]
+    },
+    "properties": {
+        "land": "\"velo\",\"mountainbike\"",
+        "category": "all",
+        "language": "en",
+        "title": "Bike W. Küng AG",
+        "abstract": null,
+        "name": "Bike W. Küng AG",
+        "street": "Gewerbestrasse 1",
+        "zip": "8606",
+        "place": "Nänikon-Greifensee",
+        "tel": "+41 43 399 20 78",
+        "email": null,
+        "url1_text": null,
+        "url1_link": null,
+        "organisation": "2rad / 2routes / 2ruote",
+        "foto": null,
+        "foto_abstract": null,
+        "x_coordinate": 693972.0618364662,
+        "y_coordinate": 247682.68315425076,
+        "change_date": null,
+        "id": 571,
+        "type": "Service"
+    }
+}

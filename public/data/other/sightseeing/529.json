@@ -1,1 +1,60 @@
-{"type":"Feature","id":529,"geometry":{"type":"Point","coordinates":[46.14411979102372,8.903360865106688]},"properties":{"land":null,"category":"all","language":"en","title":"Mount Pioda’s chestnut grove","abstract":"Chestnut grove near Mount Pioda (above Quartino) crossed by a new didactic route with illustrating signs referring to the chestnut tree.","description":"The repristined wood occupies a surface of 4.15 hectares, plus a private property of 1.12 hectares. It stretches on a slope situated between 390 and 525 m. Mount Pioda is easily accessible both from the north of Quartino, following the mule track known as «Strada Romana», and from the south, from Mount Ceneri. Once within the chestnut grove a winding path permits wood management and offers a pleasant didactic route.\n\nFrom a historical point of view Strada Romana was very important as it linked the Magadino Plain to Mount Ceneri, thus connecting two fundamental road networks: that from Bellinzona to Lugano and that from Bellinzona to Magadino. This chestnut grove has enhanced the value of the wood's patrimony and contributed to the chestnut crop, which was an essential aliment of the past rural life. Nowadays the area has become a popular site, known for excursions mostly among schoolchildren.","highlights":null,"foto":"https://images0.schweizmobil.ch/image/8126_Kastanienwald-Monte-Pioda_1a.jpg","photo_gallery":["https://images0.schweizmobil.ch/image/8126_Kastanienwald-Monte-Pioda_1a.jpg","https://images0.schweizmobil.ch/image/8126_Kastanienwald-Monte-Pioda_2b1.jpg"],"photo_gallery_big":["",""],"photo_gallery_copyright":["",""],"photo_gallery_author":["",""],"name":"Ascona-Locarno Turismo","name_2":null,"street":"Via Cantonale 29","zip":"6574","place":"Vira Gambarogno","tel":"+41 (0)848 091 091","fax":null,"email":"gambarogno@ascona-locarno.com","url1_link":"https://www.ascona-locarno.com","x_coordinate":713172.7929948583,"y_coordinate":111349.7594568343,"change_date":null,"id":529,"r_key":529,"type":"Sight","url_sightseeing":"https://www.ascona-locarno.com/en/Esplora/Gambarogno.html","touristic_region":12}}
+{
+    "type": "Feature",
+    "id": 529,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.14411980445421,
+            8.903360837810126
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Mount Pioda’s chestnut grove",
+        "abstract": "Chestnut grove near Mount Pioda (above Quartino) crossed by a new didactic route with illustrating signs referring to the chestnut tree.",
+        "description": "The repristined wood occupies a surface of 4.15 hectares, plus a private property of 1.12 hectares. It stretches on a slope situated between 390 and 525 m. Mount Pioda is easily accessible both from the north of Quartino, following the mule track known as «Strada Romana», and from the south, from Mount Ceneri. Once within the chestnut grove a winding path permits wood management and offers a pleasant didactic route.\n\nFrom a historical point of view Strada Romana was very important as it linked the Magadino Plain to Mount Ceneri, thus connecting two fundamental road networks: that from Bellinzona to Lugano and that from Bellinzona to Magadino. This chestnut grove has enhanced the value of the wood's patrimony and contributed to the chestnut crop, which was an essential aliment of the past rural life. Nowadays the area has become a popular site, known for excursions mostly among schoolchildren.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/8126_Kastanienwald-Monte-Pioda_1a.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/8126_Kastanienwald-Monte-Pioda_1a.jpg",
+            "https://images.schweizmobil.ch/image/8126_Kastanienwald-Monte-Pioda_2b1.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "Ascona-Locarno Turismo",
+        "name_2": null,
+        "street": "Via Cantonale 29",
+        "zip": "6574",
+        "place": "Vira Gambarogno",
+        "tel": "+41 (0)848 091 091",
+        "fax": null,
+        "email": "gambarogno@ascona-locarno.com",
+        "url1_link": "https://www.ascona-locarno.com",
+        "x_coordinate": 713172.7929948583,
+        "y_coordinate": 111349.7594568343,
+        "change_date": null,
+        "id": 529,
+        "r_key": 529,
+        "type": "Sight",
+        "url_sightseeing": "https://www.ascona-locarno.com/en/Esplora/Gambarogno.html",
+        "touristic_region": 12,
+        "canton": 19
+    }
+}

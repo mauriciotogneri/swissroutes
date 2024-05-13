@@ -1,1 +1,70 @@
-{"type":"Feature","id":71,"geometry":{"type":"Point","coordinates":[46.17517743451107,8.793826198135879]},"properties":{"land":null,"category":"all","language":"en","title":"Sanctuary Madonna del Sasso - Orselina","abstract":"The beautiful Sanctuary of Madonna del Sasso in Orselina, reopen in spring 2012 after intensive restoration works, it is one of the most important historical and religious places in the Canton of Ticino as well as a place of pilgrimage.","description":"In the place where the Virgin Mary supposedly appeared in a vision to the monk Bartolomeo d'Ivrea (1480) a small church was built in 1487. Later this church was extended and a monastery was added. Inside, the church is divided into a central nave with two side aisles; the vaulted ceiling is covered with particularly interesting frescoes and stucco decorations. The focal point of the church is the main altar (1792) bearing a 15th century carved wooden statue of the Madonna del Sasso.\n\nThe Sanctuary of Madonna del Sasso is situated on the summit of a rock face above Locarno and offers a breathtaking panoramic view on the town of Locarno, lake Maggiore and the entire region. The small museum at the side of the Sanctuary exhibits a collection of ex-votos and is open regularly.\n\nThere is also the beautiful Via Crucis (Way of the Cross), with its stations and chapels, typical of the Lombardy Sacred Mountains. The Sanctuary is also comfortably accessible by the funicular train with the departure station close to the SBB railway station.","highlights":null,"foto":"https://images0.schweizmobil.ch/image/12726_Wallfahrtskirche_Madonna_del_Sasso_1a.jpg","photo_gallery":["https://images0.schweizmobil.ch/image/12726_Wallfahrtskirche_Madonna_del_Sasso_1a.jpg","https://images0.schweizmobil.ch/image/12726_Wallfahrtskirche_Madonna_del_Sasso_2b.jpg","https://images0.schweizmobil.ch/image/Santuario_Madonna_del_Sasso_1.jpg","https://images0.schweizmobil.ch/image/Santuario_Madonna_del_Sasso_2.jpg"],"photo_gallery_big":["","","",""],"photo_gallery_copyright":["","","",""],"photo_gallery_author":["","","",""],"name":"Ascona-Locarno Turismo","name_2":null,"street":"Piazza Stazione / Bahnhof SBB","zip":"6600","place":"Locarno-Muralto","tel":"+41 (0)848 091 091","fax":null,"email":"info@ascona-locarno.com","url1_link":"https://www.ascona-locarno.com ","x_coordinate":704650.3637880587,"y_coordinate":114649.93561048985,"change_date":null,"id":71,"r_key":71,"type":"Sight","url_sightseeing":"https://www.ascona-locarno.com/en/commons/details/Santuario-della-Madonna-del-Sasso/2693.html","touristic_region":12}}
+{
+    "type": "Feature",
+    "id": 71,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.17517741396591,
+            8.793826220320032
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Sanctuary Madonna del Sasso - Orselina",
+        "abstract": "The beautiful Sanctuary of Madonna del Sasso in Orselina, reopen in spring 2012 after intensive restoration works, it is one of the most important historical and religious places in the Canton of Ticino as well as a place of pilgrimage.",
+        "description": "In the place where the Virgin Mary supposedly appeared in a vision to the monk Bartolomeo d'Ivrea (1480) a small church was built in 1487. Later this church was extended and a monastery was added. Inside, the church is divided into a central nave with two side aisles; the vaulted ceiling is covered with particularly interesting frescoes and stucco decorations. The focal point of the church is the main altar (1792) bearing a 15th century carved wooden statue of the Madonna del Sasso.\n\nThe Sanctuary of Madonna del Sasso is situated on the summit of a rock face above Locarno and offers a breathtaking panoramic view on the town of Locarno, lake Maggiore and the entire region. The small museum at the side of the Sanctuary exhibits a collection of ex-votos and is open regularly.\n\nThere is also the beautiful Via Crucis (Way of the Cross), with its stations and chapels, typical of the Lombardy Sacred Mountains. The Sanctuary is also comfortably accessible by the funicular train with the departure station close to the SBB railway station.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/12726_Wallfahrtskirche_Madonna_del_Sasso_1a.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/12726_Wallfahrtskirche_Madonna_del_Sasso_1a.jpg",
+            "https://images.schweizmobil.ch/image/12726_Wallfahrtskirche_Madonna_del_Sasso_2b.jpg",
+            "https://images.schweizmobil.ch/image/Santuario_Madonna_del_Sasso_1.jpg",
+            "https://images.schweizmobil.ch/image/Santuario_Madonna_del_Sasso_2.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "name": "Ascona-Locarno Turismo",
+        "name_2": null,
+        "street": "Piazza Stazione / Bahnhof SBB",
+        "zip": "6600",
+        "place": "Locarno-Muralto",
+        "tel": "+41 (0)848 091 091",
+        "fax": null,
+        "email": "info@ascona-locarno.com",
+        "url1_link": "https://www.ascona-locarno.com ",
+        "x_coordinate": 704650.3637880587,
+        "y_coordinate": 114649.93561048985,
+        "change_date": null,
+        "id": 71,
+        "r_key": 71,
+        "type": "Sight",
+        "url_sightseeing": "https://www.ascona-locarno.com/en/commons/details/Santuario-della-Madonna-del-Sasso/2693.html",
+        "touristic_region": 12,
+        "canton": 19
+    }
+}

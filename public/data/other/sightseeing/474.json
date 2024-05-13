@@ -1,1 +1,60 @@
-{"type":"Feature","id":474,"geometry":{"type":"Point","coordinates":[46.80734005425217,7.160672263886956]},"properties":{"land":null,"category":"all","language":"en","title":"Jean Tinguely/Niki de Saint Phalle","abstract":"This gallery pays tribute to two major figures in the world of 20th century art. Jean Tinguely and his wife Niki de St Phalle left a profound mark on Fribourg’s cultural and artistic life.","description":"A former tramway depot near the Fribourg Museum of Art and History is home to the Espace Jean Tinguely - Niki de Saint Phalle. It was specially designed to accommodate the works of the artists.\n\nJean Tinguely was a leading exponent of kinetic art. His sculptures gradually evolved towards works that appealed to several senses at the same time: sight, hearing, touch and sometimes even smell. Niki de St Phalle, a French-born artist, was Jean Tinguely's wife. Her most well-known and memorable works are probably Les Nanas.","highlights":null,"foto":"https://images0.schweizmobil.ch/image/7972_Jean_Tinguely_Niki-de-Saint_Phalle_1_a.jpg","photo_gallery":["https://images0.schweizmobil.ch/image/7972_Jean_Tinguely_Niki-de-Saint_Phalle_1_a.jpg","https://images0.schweizmobil.ch/image/7972_Jean_Tinguely_Niki-de-Saint_Phalle_2b.jpg"],"photo_gallery_big":["",""],"photo_gallery_copyright":["",""],"photo_gallery_author":["",""],"name":"Fribourg Region","name_2":null,"street":"Route de la Glâne 107","zip":"1701","place":"Fribourg","tel":"+41 (0)26 407 70 20","fax":null,"email":"information@fribourgregion.ch","url1_link":"https://www.fribourgregion.ch","x_coordinate":578783.0372097485,"y_coordinate":184058.06015866186,"change_date":null,"id":474,"r_key":474,"type":"Sight","url_sightseeing":"https://www.fr.ch/mahf/culture-et-tourisme/musees/espace-jean-tinguely-niki-de-saint-phalle","touristic_region":13}}
+{
+    "type": "Feature",
+    "id": 474,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.80734005291848,
+            7.160672260479799
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Jean Tinguely/Niki de Saint Phalle",
+        "abstract": "This gallery pays tribute to two major figures in the world of 20th century art. Jean Tinguely and his wife Niki de St Phalle left a profound mark on Fribourg’s cultural and artistic life.",
+        "description": "A former tramway depot near the Fribourg Museum of Art and History is home to the Espace Jean Tinguely - Niki de Saint Phalle. It was specially designed to accommodate the works of the artists.\n\nJean Tinguely was a leading exponent of kinetic art. His sculptures gradually evolved towards works that appealed to several senses at the same time: sight, hearing, touch and sometimes even smell. Niki de St Phalle, a French-born artist, was Jean Tinguely's wife. Her most well-known and memorable works are probably Les Nanas.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/7972_Jean_Tinguely_Niki-de-Saint_Phalle_1_a.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/7972_Jean_Tinguely_Niki-de-Saint_Phalle_1_a.jpg",
+            "https://images.schweizmobil.ch/image/7972_Jean_Tinguely_Niki-de-Saint_Phalle_2b.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "Fribourg Region",
+        "name_2": null,
+        "street": "Route de la Glâne 107",
+        "zip": "1701",
+        "place": "Fribourg",
+        "tel": "+41 (0)26 407 70 20",
+        "fax": null,
+        "email": "information@fribourgregion.ch",
+        "url1_link": "https://www.fribourgregion.ch",
+        "x_coordinate": 578783.0372097485,
+        "y_coordinate": 184058.06015866186,
+        "change_date": null,
+        "id": 474,
+        "r_key": 474,
+        "type": "Sight",
+        "url_sightseeing": "https://www.fr.ch/mahf/culture-et-tourisme/musees/espace-jean-tinguely-niki-de-saint-phalle",
+        "touristic_region": 13,
+        "canton": 5
+    }
+}

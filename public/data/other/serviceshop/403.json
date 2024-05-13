@@ -1,1 +1,34 @@
-{"type":"Feature","id":3146,"geometry":{"type":"Point","coordinates":[47.35689434844992,8.712197852652647]},"properties":{"land":"\"velo\",\"mountainbike\"","category":"all","language":"en","title":"Velo-Laden Uster GmbH","abstract":null,"name":"Velo-Laden Uster GmbH","street":"Oberlandstrasse 3","zip":"8610","place":"Uster","tel":"+41 44 941 10 50","email":null,"url1_text":null,"url1_link":"https://www.velo-laden.ch","organisation":"2rad / 2routes / 2ruote","foto":null,"x_coordinate":696215.0421897821,"y_coordinate":245897.2819859544,"change_date":null,"id":403,"type":"Service"}}
+{
+    "type": "Feature",
+    "id": 3146,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            47.356894352931995,
+            8.712197823123418
+        ]
+    },
+    "properties": {
+        "land": "\"velo\",\"mountainbike\"",
+        "category": "all",
+        "language": "en",
+        "title": "Velo-Laden Uster GmbH",
+        "abstract": null,
+        "name": "Velo-Laden Uster GmbH",
+        "street": "Oberlandstrasse 3",
+        "zip": "8610",
+        "place": "Uster",
+        "tel": "+41 44 941 10 50",
+        "email": null,
+        "url1_text": null,
+        "url1_link": "https://www.velo-laden.ch",
+        "organisation": "2rad / 2routes / 2ruote",
+        "foto": null,
+        "foto_abstract": null,
+        "x_coordinate": 696215.0421897821,
+        "y_coordinate": 245897.2819859544,
+        "change_date": null,
+        "id": 403,
+        "type": "Service"
+    }
+}

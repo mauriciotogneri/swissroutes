@@ -1,1 +1,90 @@
-{"type":"Feature","id":586,"geometry":{"type":"Point","coordinates":[47.050960462493606,8.553161348773383]},"properties":{"land":null,"category":"all","language":"en","title":"Natur- und Tierpark Goldau","abstract":"The Nature Reserve and Wildlife Park Goldau is situated in a scenic mountain landscape. The 42-hectare large park is home of more than 100 European species of wild animals. The park contains an animal free-range area with Sika deer and mouflons. Another highlight is the shared enclosure for bears and wolves. ","description":"TThe Nature Reserve and Wildlife Park Goldau is located in a wild and romantic landslide area. On 42 hectares of pristine nature, over 100 European species of wild animals such as bears, wolves, foxes, bearded vultures, owls and many more can be observed at close range.\n\nIn the spacious animal free-range area, mouflons and sika deer wait for food cubes and strokes. An attraction is the community area for bears and wolves. Thanks to spacious viewing points, bears and wolves can be observed during their daily encounters, playing and bathing.\n\nFresh air whets one’s appetite. Numerous barbecue areas with free wood and picnic areas invite you to linger in the Nature Reserve and Wildlife Park Goldau. In the parc restaurant you will find a wide range of food and drinks.","highlights":null,"foto":"https://images0.schweizmobil.ch/image-big/Tierpark_Goldau_Woelfe_43_g.jpg","photo_gallery":["https://images0.schweizmobil.ch/image/Tierpark_Goldau_Woelfe_43_s.jpg","https://images0.schweizmobil.ch/image/Tierpark_Goldau_Baer_s.jpg","https://images0.schweizmobil.ch/image/Tierpark_Goldau_Bartgeier_s.jpg","https://images0.schweizmobil.ch/image/Tierpark_Goldau_Fuchs_s.jpg","https://images0.schweizmobil.ch/image/Tierpark_Goldau_Ranger_s.jpg","https://images0.schweizmobil.ch/image/Tierpark_Goldau_Restaurant_GrueneGans_s.jpg","https://images0.schweizmobil.ch/image/Tierpark_Goldau_Sikahirsch_Kind_s.jpg","https://images0.schweizmobil.ch/image/Tierpark_Goldau_Turm_s.jpg"],"photo_gallery_big":["https://images0.schweizmobil.ch/image-big/Tierpark_Goldau_Woelfe_43_g.jpg","https://images0.schweizmobil.ch/image-big/Tierpark_Goldau_Baer_g.jpg","https://images0.schweizmobil.ch/image-big/Tierpark_Goldau_Bartgeier_g.jpg","https://images0.schweizmobil.ch/image-big/Tierpark_Goldau_Fuchs_g.jpg","https://images0.schweizmobil.ch/image-big/Tierpark_Goldau_Ranger_g.jpg","https://images0.schweizmobil.ch/image-big/Tierpark_Goldau_Restaurant_GrueneGans_g.jpg","https://images0.schweizmobil.ch/image-big/Tierpark_Goldau_Sikahirsch_Kind_g.jpg","https://images0.schweizmobil.ch/image-big/Tierpark_Goldau_Turm_g.jpg"],"photo_gallery_copyright":["","","","","","","",""],"photo_gallery_author":["","","","","","","",""],"name":"Natur- und Tierpark Goldau","name_2":null,"street":"Parkstr. 40","zip":"6410","place":"Goldau","tel":"+41 (0)41 859 06 06","fax":null,"email":"info@tierpark.ch","url1_link":"https://www.tierpark.ch","x_coordinate":684684.6925648456,"y_coordinate":211705.5331474531,"change_date":null,"id":586,"r_key":586,"type":"Sight","url_sightseeing":"https://www.tierpark.ch","touristic_region":4}}
+{
+    "type": "Feature",
+    "id": 586,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            47.050960462837566,
+            8.553161356424797
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Natur- und Tierpark Goldau",
+        "abstract": "The Nature Reserve and Wildlife Park Goldau is situated in a scenic mountain landscape. The 42-hectare large park is home of more than 100 European species of wild animals. The park contains an animal free-range area with Sika deer and mouflons. Another highlight is the shared enclosure for bears and wolves. ",
+        "description": "TThe Nature Reserve and Wildlife Park Goldau is located in a wild and romantic landslide area. On 42 hectares of pristine nature, over 100 European species of wild animals such as bears, wolves, foxes, bearded vultures, owls and many more can be observed at close range.\n\nIn the spacious animal free-range area, mouflons and sika deer wait for food cubes and strokes. An attraction is the community area for bears and wolves. Thanks to spacious viewing points, bears and wolves can be observed during their daily encounters, playing and bathing.\n\nFresh air whets one’s appetite. Numerous barbecue areas with free wood and picnic areas invite you to linger in the Nature Reserve and Wildlife Park Goldau. In the parc restaurant you will find a wide range of food and drinks.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image-big/Tierpark_Goldau_Woelfe_43_g.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/Tierpark_Goldau_Woelfe_43_s.jpg",
+            "https://images.schweizmobil.ch/image/Tierpark_Goldau_Baer_s.jpg",
+            "https://images.schweizmobil.ch/image/Tierpark_Goldau_Bartgeier_s.jpg",
+            "https://images.schweizmobil.ch/image/Tierpark_Goldau_Fuchs_s.jpg",
+            "https://images.schweizmobil.ch/image/Tierpark_Goldau_Ranger_s.jpg",
+            "https://images.schweizmobil.ch/image/Tierpark_Goldau_Restaurant_GrueneGans_s.jpg",
+            "https://images.schweizmobil.ch/image/Tierpark_Goldau_Sikahirsch_Kind_s.jpg",
+            "https://images.schweizmobil.ch/image/Tierpark_Goldau_Turm_s.jpg"
+        ],
+        "photo_gallery_big": [
+            "https://images.schweizmobil.ch/image-big/Tierpark_Goldau_Woelfe_43_g.jpg",
+            "https://images.schweizmobil.ch/image-big/Tierpark_Goldau_Baer_g.jpg",
+            "https://images.schweizmobil.ch/image-big/Tierpark_Goldau_Bartgeier_g.jpg",
+            "https://images.schweizmobil.ch/image-big/Tierpark_Goldau_Fuchs_g.jpg",
+            "https://images.schweizmobil.ch/image-big/Tierpark_Goldau_Ranger_g.jpg",
+            "https://images.schweizmobil.ch/image-big/Tierpark_Goldau_Restaurant_GrueneGans_g.jpg",
+            "https://images.schweizmobil.ch/image-big/Tierpark_Goldau_Sikahirsch_Kind_g.jpg",
+            "https://images.schweizmobil.ch/image-big/Tierpark_Goldau_Turm_g.jpg"
+        ],
+        "photo_gallery_copyright": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "name": "Natur- und Tierpark Goldau",
+        "name_2": null,
+        "street": "Parkstr. 42",
+        "zip": "6410",
+        "place": "Goldau",
+        "tel": "+41 (0)41 859 06 06",
+        "fax": null,
+        "email": "info@tierpark.ch",
+        "url1_link": "https://www.tierpark.ch",
+        "x_coordinate": 684684.6925648456,
+        "y_coordinate": 211705.5331474531,
+        "change_date": null,
+        "id": 586,
+        "r_key": 586,
+        "type": "Sight",
+        "url_sightseeing": "https://www.tierpark.ch",
+        "touristic_region": 4,
+        "canton": 11
+    }
+}

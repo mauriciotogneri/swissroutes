@@ -1,1 +1,65 @@
-{"type":"Feature","id":771,"geometry":{"type":"Point","coordinates":[46.41425787818835,6.927440051289269]},"properties":{"land":null,"category":"all","language":"en","title":"Chillon Castle","abstract":"As if floating on its rocky island, the fortified Chillon Castle is the most visited historical monument in Switzerland.","description":"In Veytaux, near Montreux, Chillon Castle has stood proudly on its rocky island since the 12th century, appearing to float on the surface of Lake Geneva. Home to regular exhibitions and cultural events, it's the most visited historical monument in Switzerland.\n\nThis idyllic setting has been a delight for all to see since the 12th century: with Lake Geneva and the Alps as its backdrop, the imposing fortified Chillon Castle is surrounded by the most beautiful scenery. Not surprising that this romantic setting was for centuries a source of inspiration for many artists. Made famous by Jean-Jacques Rousseau who based the story of his novel «New Heloise» here in the 18th century, the Chillon Castle then attracted the poet Lord Byron, inspired by a true story to write his most famous poem, «The Prisoner of Chillon».\n\nA modern museography, temporary exhibitions that are constantly being renewed and cultural events give life to the castle. Apart from individual visits or audio-guided tours, the public may hire guides to discover the castle in a different way: visits combined with workshops, visits in costumes and for children, holiday workshops and theme anniversaries. The Verrée Vaudoise is the ideal place to taste the wines of Clos de Chillon and sample other regional products.","highlights":null,"foto":"https://images0.schweizmobil.ch/image/Chateau_Chillon.jpg","photo_gallery":["https://images0.schweizmobil.ch/image/Chateau_Chillon.jpg","https://images0.schweizmobil.ch/image/Chateau_Chillon_copyright_Stephan_Engler2.jpg","https://images0.schweizmobil.ch/image/Chateau_Chillon_touristes.jpg"],"photo_gallery_big":["","",""],"photo_gallery_copyright":["","",""],"photo_gallery_author":["","",""],"name":"Office du Tourisme du Canton de Vaud","name_2":null,"street":"Avenue d'Ouchy 60","zip":"1001","place":"Lausanne","tel":"+41 (0)21 613 26 26","fax":null,"email":"info@region-du-leman.ch","url1_link":"https://www.region-du-leman.ch","x_coordinate":560696.2025644275,"y_coordinate":140451.54946357536,"change_date":null,"id":771,"r_key":771,"type":"Sight","url_sightseeing":"http://www.chillon.ch/","touristic_region":9}}
+{
+    "type": "Feature",
+    "id": 771,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.414257879180155,
+            6.9274400434003605
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Chillon Castle",
+        "abstract": "As if floating on its rocky island, the fortified Chillon Castle is the most visited historical monument in Switzerland.",
+        "description": "In Veytaux, near Montreux, Chillon Castle has stood proudly on its rocky island since the 12th century, appearing to float on the surface of Lake Geneva. Home to regular exhibitions and cultural events, it's the most visited historical monument in Switzerland.\n\nThis idyllic setting has been a delight for all to see since the 12th century: with Lake Geneva and the Alps as its backdrop, the imposing fortified Chillon Castle is surrounded by the most beautiful scenery. Not surprising that this romantic setting was for centuries a source of inspiration for many artists. Made famous by Jean-Jacques Rousseau who based the story of his novel «New Heloise» here in the 18th century, the Chillon Castle then attracted the poet Lord Byron, inspired by a true story to write his most famous poem, «The Prisoner of Chillon».\n\nA modern museography, temporary exhibitions that are constantly being renewed and cultural events give life to the castle. Apart from individual visits or audio-guided tours, the public may hire guides to discover the castle in a different way: visits combined with workshops, visits in costumes and for children, holiday workshops and theme anniversaries. The Verrée Vaudoise is the ideal place to taste the wines of Clos de Chillon and sample other regional products.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/Chateau_Chillon.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/Chateau_Chillon.jpg",
+            "https://images.schweizmobil.ch/image/Chateau_Chillon_copyright_Stephan_Engler2.jpg",
+            "https://images.schweizmobil.ch/image/Chateau_Chillon_touristes.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            "",
+            ""
+        ],
+        "name": "Office du Tourisme du Canton de Vaud",
+        "name_2": null,
+        "street": "Avenue d'Ouchy 60",
+        "zip": "1001",
+        "place": "Lausanne",
+        "tel": "+41 (0)21 613 26 26",
+        "fax": null,
+        "email": "info@region-du-leman.ch",
+        "url1_link": "https://www.region-du-leman.ch",
+        "x_coordinate": 560696.2025644275,
+        "y_coordinate": 140451.54946357536,
+        "change_date": null,
+        "id": 771,
+        "r_key": 771,
+        "type": "Sight",
+        "url_sightseeing": "http://www.chillon.ch/",
+        "touristic_region": 9,
+        "canton": 27
+    }
+}

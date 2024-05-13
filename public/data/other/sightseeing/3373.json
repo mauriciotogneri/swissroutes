@@ -1,1 +1,90 @@
-{"type":"Feature","id":3373,"geometry":{"type":"Point","coordinates":[46.68148794061278,8.773277275741272]},"properties":{"land":null,"category":"all","language":"en","title":"Bogn Sedrun","abstract":"Bogn Sedrun, a bathing experience with a difference! Relax and drift away in a Roman-styled sauna landscape. What better way to rest and be refreshed! Or, if you prefer, just a floor below get into the action! Here is fun for all the family.","description":"Roman baths include a cadarium (aromatic bath), a sudatorium (steam bath) and a tepidarium (rest room). To cool down duck under the Hammam fountain or pass through the showers which are guaranteed to surprise you. After this you will feel complete new, but one place still remains - the inner courtyard with its pool and bar.\n\nFun is the top priority in the family baths both for young or old. Whether adventure and action, or simply to swim this pool has something for everyone. The massage waterfall, the wild water canal, the whirlpool - what more could anyone desire? And for those looking for replenishment there is the cosy restaurant in view of the swimming-bath.","highlights":null,"foto":"https://images0.schweizmobil.ch/image-big/Baden_Bogn_Sedrun_2_g.jpg","photo_gallery":["https://images0.schweizmobil.ch/image/Baden_Bogn_Sedrun_2_s.jpg","https://images0.schweizmobil.ch/image/Baden_Bogn_Sedrun_4_s.jpg","https://images0.schweizmobil.ch/image/Baden_Bogn_Sedrun_3_s.jpg","https://images0.schweizmobil.ch/image/Baden_Bogn_Sedrun_5_s.jpg","https://images0.schweizmobil.ch/image/Baden_Bogn_Sedrun_6_s.jpg","https://images0.schweizmobil.ch/image/Baden_Bogn_Sedrun_7_s.jpg","https://images0.schweizmobil.ch/image/Baden_Bogn_Sedrun_8_s.jpg","https://images0.schweizmobil.ch/image/Baden_Bogn_Sedrun_9_s.jpg"],"photo_gallery_big":["https://images0.schweizmobil.ch/image-big/Baden_Bogn_Sedrun_2_g.jpg","https://images0.schweizmobil.ch/image-big/Baden_Bogn_Sedrun_4_g.jpg","https://images0.schweizmobil.ch/image-big/Baden_Bogn_Sedrun_3_g.jpg","","","https://images0.schweizmobil.ch/image-big/Baden_Bogn_Sedrun_7_g.jpg","https://images0.schweizmobil.ch/image-big/Baden_Bogn_Sedrun_8_g.jpg","https://images0.schweizmobil.ch/image-big/Baden_Bogn_Sedrun_9_g.jpg"],"photo_gallery_copyright":["","","","","","","",""],"photo_gallery_author":["","","","","","","",""],"name":"Bogn Sedrun","name_2":null,"street":"Via dil Bogn 16","zip":"7188","place":"Sedrun","tel":"+41 (0)81 949 14 32","fax":null,"email":"info@bognsedrun.ch","url1_link":"https://bognsedrun.ch","x_coordinate":702106.2016186964,"y_coordinate":170898.7350490159,"change_date":null,"id":3373,"r_key":3373,"type":"Sight","url_sightseeing":"https://bognsedrun.ch","touristic_region":1}}
+{
+    "type": "Feature",
+    "id": 3373,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.68148793552277,
+            8.773277308259745
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Bogn Sedrun",
+        "abstract": "Bogn Sedrun, a bathing experience with a difference! Relax and drift away in a Roman-styled sauna landscape. What better way to rest and be refreshed! Or, if you prefer, just a floor below get into the action! Here is fun for all the family.",
+        "description": "Roman baths include a cadarium (aromatic bath), a sudatorium (steam bath) and a tepidarium (rest room). To cool down duck under the Hammam fountain or pass through the showers which are guaranteed to surprise you. After this you will feel complete new, but one place still remains - the inner courtyard with its pool and bar.\n\nFun is the top priority in the family baths both for young or old. Whether adventure and action, or simply to swim this pool has something for everyone. The massage waterfall, the wild water canal, the whirlpool - what more could anyone desire? And for those looking for replenishment there is the cosy restaurant in view of the swimming-bath.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image-big/Baden_Bogn_Sedrun_2_g.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/Baden_Bogn_Sedrun_2_s.jpg",
+            "https://images.schweizmobil.ch/image/Baden_Bogn_Sedrun_4_s.jpg",
+            "https://images.schweizmobil.ch/image/Baden_Bogn_Sedrun_3_s.jpg",
+            "https://images.schweizmobil.ch/image/Baden_Bogn_Sedrun_5_s.jpg",
+            "https://images.schweizmobil.ch/image/Baden_Bogn_Sedrun_6_s.jpg",
+            "https://images.schweizmobil.ch/image/Baden_Bogn_Sedrun_7_s.jpg",
+            "https://images.schweizmobil.ch/image/Baden_Bogn_Sedrun_8_s.jpg",
+            "https://images.schweizmobil.ch/image/Baden_Bogn_Sedrun_9_s.jpg"
+        ],
+        "photo_gallery_big": [
+            "https://images.schweizmobil.ch/image-big/Baden_Bogn_Sedrun_2_g.jpg",
+            "https://images.schweizmobil.ch/image-big/Baden_Bogn_Sedrun_4_g.jpg",
+            "https://images.schweizmobil.ch/image-big/Baden_Bogn_Sedrun_3_g.jpg",
+            "",
+            "",
+            "https://images.schweizmobil.ch/image-big/Baden_Bogn_Sedrun_7_g.jpg",
+            "https://images.schweizmobil.ch/image-big/Baden_Bogn_Sedrun_8_g.jpg",
+            "https://images.schweizmobil.ch/image-big/Baden_Bogn_Sedrun_9_g.jpg"
+        ],
+        "photo_gallery_copyright": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "name": "Bogn Sedrun",
+        "name_2": null,
+        "street": "Via dil Bogn 16",
+        "zip": "7188",
+        "place": "Sedrun",
+        "tel": "+41 (0)81 949 14 32",
+        "fax": null,
+        "email": "info@bognsedrun.ch",
+        "url1_link": "https://bognsedrun.ch",
+        "x_coordinate": 702106.2016186964,
+        "y_coordinate": 170898.7350490159,
+        "change_date": null,
+        "id": 3373,
+        "r_key": 3373,
+        "type": "Sight",
+        "url_sightseeing": "https://bognsedrun.ch",
+        "touristic_region": 1,
+        "canton": 2
+    }
+}

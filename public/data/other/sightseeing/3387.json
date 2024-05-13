@@ -1,1 +1,60 @@
-{"type":"Feature","id":3387,"geometry":{"type":"Point","coordinates":[46.30251953343424,7.931897752610054]},"properties":{"land":null,"category":"all","language":"en","title":"Brigerbad - The open-air thermal complex","abstract":"More and more families are discovering holidays here with us in sunny Oberwallis! We do not have the sea nearby, but instead we offer pristine alpine lakes and thermal baths.","description":"Our tip: Dive into the pools here in Brigerbad with your entire family. The biggest thermal complex of Switzerland, with its extended camping areas, can be easily reached by car or train from all over the region. You can choose between different open air pools, the thrilling «riverpool», the sports pools, as we call them and the Olympiasize pools. If that doesn’t tickle you, why not try our 600-feet-long slide!","highlights":null,"foto":"https://images0.schweizmobil.ch/image/8058_Thermalbad-Brigerbad_1a.jpg","photo_gallery":["https://images0.schweizmobil.ch/image/8058_Thermalbad-Brigerbad_2b.jpg","https://images0.schweizmobil.ch/image/8058_Thermalbad-Brigerbad_1a.jpg"],"photo_gallery_big":["",""],"photo_gallery_copyright":["",""],"photo_gallery_author":["",""],"name":"Thermalquellen Brigerbad AG","name_2":null,"street":"Thermalbad 1","zip":"3900","place":"Brigerbad","tel":"+41 (0)27 948 48 48","fax":null,"email":"thermalquellen@brigerbad.ch","url1_link":"https://www.thermalbad-wallis.ch","x_coordinate":638003.7324833943,"y_coordinate":128021.56716630312,"change_date":null,"id":3387,"r_key":3387,"type":"Sight","url_sightseeing":"https://www.thermalbad-wallis.ch","touristic_region":11}}
+{
+    "type": "Feature",
+    "id": 3387,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.30251954398584,
+            7.931897735026305
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Brigerbad - The open-air thermal complex",
+        "abstract": "More and more families are discovering holidays here with us in sunny Oberwallis! We do not have the sea nearby, but instead we offer pristine alpine lakes and thermal baths.",
+        "description": "Our tip: Dive into the pools here in Brigerbad with your entire family. The biggest thermal complex of Switzerland, with its extended camping areas, can be easily reached by car or train from all over the region. You can choose between different open air pools, the thrilling «riverpool», the sports pools, as we call them and the Olympiasize pools. If that doesn’t tickle you, why not try our 600-feet-long slide!",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/8058_Thermalbad-Brigerbad_1a.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/8058_Thermalbad-Brigerbad_2b.jpg",
+            "https://images.schweizmobil.ch/image/8058_Thermalbad-Brigerbad_1a.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "Thermalquellen Brigerbad AG",
+        "name_2": null,
+        "street": "Thermalbad 1",
+        "zip": "3900",
+        "place": "Brigerbad",
+        "tel": "+41 (0)27 948 48 48",
+        "fax": null,
+        "email": "thermalquellen@brigerbad.ch",
+        "url1_link": "https://www.thermalbad-wallis.ch",
+        "x_coordinate": 638003.7324833943,
+        "y_coordinate": 128021.56716630312,
+        "change_date": null,
+        "id": 3387,
+        "r_key": 3387,
+        "type": "Sight",
+        "url_sightseeing": "https://www.thermalbad-wallis.ch",
+        "touristic_region": 11,
+        "canton": 7
+    }
+}

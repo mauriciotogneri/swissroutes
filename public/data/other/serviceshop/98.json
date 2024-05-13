@@ -1,1 +1,34 @@
-{"type":"Feature","id":2887,"geometry":{"type":"Point","coordinates":[46.92325733868616,7.837453505086803]},"properties":{"land":"\"velo\",\"mountainbike\"","category":"all","language":"en","title":"2 Rad Bärtschi GmbH","abstract":null,"name":"2 Rad Bärtschi GmbH","street":"Dorfstrasse 67","zip":"3555","place":"Trubschachen","tel":"+41 34 495 54 73","email":null,"url1_text":null,"url1_link":"https://www.2-rad-baertschi.ch","organisation":"2rad / 2routes / 2ruote","foto":null,"x_coordinate":630376.6998357788,"y_coordinate":196984.9352549228,"change_date":null,"id":98,"type":"Service"}}
+{
+    "type": "Feature",
+    "id": 2887,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.92325733793736,
+            7.837453500750477
+        ]
+    },
+    "properties": {
+        "land": "\"velo\",\"mountainbike\"",
+        "category": "all",
+        "language": "en",
+        "title": "2 Rad Bärtschi GmbH",
+        "abstract": null,
+        "name": "2 Rad Bärtschi GmbH",
+        "street": "Dorfstrasse 67",
+        "zip": "3555",
+        "place": "Trubschachen",
+        "tel": "+41 34 495 54 73",
+        "email": null,
+        "url1_text": null,
+        "url1_link": "https://www.2-rad-baertschi.ch",
+        "organisation": "2rad / 2routes / 2ruote",
+        "foto": null,
+        "foto_abstract": null,
+        "x_coordinate": 630376.6998357788,
+        "y_coordinate": 196984.9352549228,
+        "change_date": null,
+        "id": 98,
+        "type": "Service"
+    }
+}

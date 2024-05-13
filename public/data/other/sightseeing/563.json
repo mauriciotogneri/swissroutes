@@ -1,1 +1,60 @@
-{"type":"Feature","id":563,"geometry":{"type":"Point","coordinates":[47.55399072606856,7.593421590728793]},"properties":{"land":null,"category":"all","language":"en","title":"Kunstmuseum Basel","abstract":"The Kunstmuseum Basel is the oldest public art collection in the world and owns the largest collection of works by the Holbein family.","description":"The Renaissance is also represented with works by Witz, Cranach the Elder, Grünewald, and others. Highlights of the 19th century are paintings by Böcklin, van Gogh, Gauguin and Cézanne. In the 20th century, the main focuses are on cubism (Picasso, Braque, Léger), German Expressionism and American art since 1950. Contemporary art from the 1960s onwards is exhibited in the Museum of Contemporary Art.","highlights":null,"foto":"https://images0.schweizmobil.ch/image/8186_Kunstmuseum-Basel_1a.jpg","photo_gallery":["https://images0.schweizmobil.ch/image/8186_Kunstmuseum-Basel_1a.jpg","https://images0.schweizmobil.ch/image/8186_Kunstmuseum-Basel_2b.jpg"],"photo_gallery_big":["",""],"photo_gallery_copyright":["",""],"photo_gallery_author":["",""],"name":"Basel Tourismus Tourist Information","name_2":null,"street":"Steinenberg 14","zip":"4010","place":"Basel","tel":"+41 (0)61 268 68 68","fax":null,"email":"info@basel.com","url1_link":"https://www.basel.com","x_coordinate":611651.0731220655,"y_coordinate":267042.89050778997,"change_date":null,"id":563,"r_key":563,"type":"Sight","url_sightseeing":"https://www.kunstmuseumbasel.ch/","touristic_region":5}}
+{
+    "type": "Feature",
+    "id": 563,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            47.55399072074661,
+            7.593421590607191
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Kunstmuseum Basel",
+        "abstract": "The Kunstmuseum Basel is the oldest public art collection in the world and owns the largest collection of works by the Holbein family.",
+        "description": "The Renaissance is also represented with works by Witz, Cranach the Elder, Grünewald, and others. Highlights of the 19th century are paintings by Böcklin, van Gogh, Gauguin and Cézanne. In the 20th century, the main focuses are on cubism (Picasso, Braque, Léger), German Expressionism and American art since 1950. Contemporary art from the 1960s onwards is exhibited in the Museum of Contemporary Art.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/8186_Kunstmuseum-Basel_1a.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/8186_Kunstmuseum-Basel_1a.jpg",
+            "https://images.schweizmobil.ch/image/8186_Kunstmuseum-Basel_2b.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "Basel Tourismus Tourist Information",
+        "name_2": null,
+        "street": "Steinenberg 14",
+        "zip": "4010",
+        "place": "Basel",
+        "tel": "+41 (0)61 268 68 68",
+        "fax": null,
+        "email": "info@basel.com",
+        "url1_link": "https://www.basel.com",
+        "x_coordinate": 611651.0731220655,
+        "y_coordinate": 267042.89050778997,
+        "change_date": null,
+        "id": 563,
+        "r_key": 563,
+        "type": "Sight",
+        "url_sightseeing": "https://www.kunstmuseumbasel.ch/",
+        "touristic_region": 5,
+        "canton": 8
+    }
+}

@@ -1,50 +1,55 @@
 {
-  "type": "Feature",
-  "id": 546,
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      47.14366576666489,
-      8.757018852408274
-    ]
-  },
-  "properties": {
-    "land": null,
-    "category": "all",
-    "language": "en",
-    "title": "Alte Etzelstrasse",
-    "abstract": "Called the «Alte Etzelstrasse», the path between Galgenchäppeli and Horgenberg is a short section of the old trading route from Rapperswil to Einsiedeln, which was also used by pilgrims from Zurich to travel to the Black Madonna in Einsiedeln Monastery.",
-    "description": "Einsiedeln Monastery owned the path over the Etzelpass and until the construction of the road (1768-1775) controlled a substantial share of goods transported from the Zurich area to Central Switzerland and the south.\n\nEinsiedeln was also an important gathering point for pilgrims starting out on the walk to Rome or Santiago de Compostela. Many of these pilgrims reached Einsiedeln via the Etzelstrasse, and with the sunken path of the Horgenberggütsch had to master a section which repeatedly led to complaints because of its steepness and related difficult conditions. A sunken path runs parallel to today’s route and this could have served as a form of avoidance detour in times of «heavy traffic». Today’s hikers enjoy a beautiful view towards Einsiedeln and the Mythen peaks at the Mary’s Column.",
-    "highlights": null,
-    "foto": "https://images0.schweizmobil.ch/image/IVS_03_04_AlteEtzelstrase.jpg",
-    "photo_gallery": [
-      "https://images0.schweizmobil.ch/image/IVS_03_04_AlteEtzelstrase.jpg"
-    ],
-    "photo_gallery_big": [
-      ""
-    ],
-    "photo_gallery_copyright": [
-      ""
-    ],
-    "photo_gallery_author": [
-      ""
-    ],
-    "name": "Bundesinventar der historischen Verkehrswege der Schweiz (IVS)",
-    "name_2": null,
-    "street": "",
-    "zip": "",
-    "place": "",
-    "tel": "",
-    "fax": null,
-    "email": "",
-    "url1_link": "https://www.ivs.admin.ch",
-    "x_coordinate": 699999.83545136,
-    "y_coordinate": 222250.040369473,
-    "change_date": null,
+    "type": "Feature",
     "id": 546,
-    "r_key": 546,
-    "type": "Sight",
-    "url_sightseeing": "https://s.geo.admin.ch/6fb15368e1",
-    "touristic_region": 4
-  }
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            47.143665763650766,
+            8.757018811297398
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Alte Etzelstrasse",
+        "abstract": "Called the «Alte Etzelstrasse», the path between Galgenchäppeli and Horgenberg is a short section of the old trading route from Rapperswil to Einsiedeln, which was also used by pilgrims from Zurich to travel to the Black Madonna in Einsiedeln Monastery.",
+        "description": "Einsiedeln Monastery owned the path over the Etzelpass and until the construction of the road (1768-1775) controlled a substantial share of goods transported from the Zurich area to Central Switzerland and the south.\n\nEinsiedeln was also an important gathering point for pilgrims starting out on the walk to Rome or Santiago de Compostela. Many of these pilgrims reached Einsiedeln via the Etzelstrasse, and with the sunken path of the Horgenberggütsch had to master a section which repeatedly led to complaints because of its steepness and related difficult conditions. A sunken path runs parallel to today’s route and this could have served as a form of avoidance detour in times of «heavy traffic». Today’s hikers enjoy a beautiful view towards Einsiedeln and the Mythen peaks at the Mary’s Column.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/IVS_03_04_AlteEtzelstrase.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/IVS_03_04_AlteEtzelstrase.jpg"
+        ],
+        "photo_gallery_big": [
+            ""
+        ],
+        "photo_gallery_copyright": [
+            ""
+        ],
+        "photo_gallery_author": [
+            ""
+        ],
+        "photo_gallery_abstract": [
+            ""
+        ],
+        "name": "Bundesinventar der historischen Verkehrswege der Schweiz (IVS)",
+        "name_2": null,
+        "street": " ",
+        "zip": " ",
+        "place": " ",
+        "tel": " ",
+        "fax": null,
+        "email": " ",
+        "url1_link": "https://www.ivs.admin.ch",
+        "x_coordinate": 699999.83545136,
+        "y_coordinate": 222250.040369473,
+        "change_date": null,
+        "id": 546,
+        "r_key": 546,
+        "type": "Sight",
+        "url_sightseeing": "https://s.geo.admin.ch/6fb15368e1",
+        "touristic_region": 4,
+        "canton": 11
+    }
 }

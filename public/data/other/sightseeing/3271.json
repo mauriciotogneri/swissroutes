@@ -1,50 +1,55 @@
 {
-  "type": "Feature",
-  "id": 3271,
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      46.1079568154567,
-      7.086232752333363
-    ]
-  },
-  "properties": {
-    "land": null,
-    "category": "all",
-    "language": "en",
-    "title": "Pumptrack Parc des Vorziers",
-    "abstract": "This facility is located near the Culture and Leisure Centre of Martigny. The 850 m2 pump track offers rollers, berms, loops and jumping elements, while the 650 m2 skate park is an exciting venue for both novice and advanced skaters.",
-    "description": "",
-    "highlights": "Surface area pumptrack: 850 m2\nSurface area skatepark: 650 m2\nSurface: asphalt",
-    "foto": "https://images0.schweizmobil.ch/image-big/Pumptrack_Parc_des_Vorziers_Martigny_g.jpg",
-    "photo_gallery": [
-      "https://images0.schweizmobil.ch/image/Pumptrack_Parc_des_Vorziers_Martigny_s.jpg"
-    ],
-    "photo_gallery_big": [
-      "https://images0.schweizmobil.ch/image-big/Pumptrack_Parc_des_Vorziers_Martigny_g.jpg"
-    ],
-    "photo_gallery_copyright": [
-      ""
-    ],
-    "photo_gallery_author": [
-      ""
-    ],
-    "name": "Administration municipale de Martigny",
-    "name_2": null,
-    "street": "Hôtel de Ville 1 / CP 176",
-    "zip": "1920",
-    "place": "Martigny",
-    "tel": "+41 27 721 21 11",
-    "fax": null,
-    "email": "info@villedemartigny.ch",
-    "url1_link": "https://www.martigny.ch",
-    "x_coordinate": 572752.2357790841,
-    "y_coordinate": 106334.5194033244,
-    "change_date": null,
+    "type": "Feature",
     "id": 3271,
-    "r_key": 3271,
-    "type": "Sight",
-    "url_sightseeing": "https://www.valais.ch/en/activities/mountain-bike/pumptracks/pumptrack-parc-des-vorziers-martigny",
-    "touristic_region": 11
-  }
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.10795683486527,
+            7.086232761599024
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Pumptrack Parc des Vorziers",
+        "abstract": "This facility is located near the Culture and Leisure Centre of Martigny. The 850 m2 pump track offers rollers, berms, loops and jumping elements, while the 650 m2 skate park is an exciting venue for both novice and advanced skaters.",
+        "description": " ",
+        "highlights": "Surface area pumptrack: 850 m2\nSurface area skatepark: 650 m2\nSurface: asphalt",
+        "foto": "https://images.schweizmobil.ch/image-big/Pumptrack_Parc_des_Vorziers_Martigny_g.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/Pumptrack_Parc_des_Vorziers_Martigny_s.jpg"
+        ],
+        "photo_gallery_big": [
+            "https://images.schweizmobil.ch/image-big/Pumptrack_Parc_des_Vorziers_Martigny_g.jpg"
+        ],
+        "photo_gallery_copyright": [
+            ""
+        ],
+        "photo_gallery_author": [
+            ""
+        ],
+        "photo_gallery_abstract": [
+            ""
+        ],
+        "name": "Administration municipale de Martigny",
+        "name_2": null,
+        "street": "Hôtel de Ville 1 / CP 176",
+        "zip": "1920",
+        "place": "Martigny",
+        "tel": "+41 27 721 21 11",
+        "fax": null,
+        "email": "info@villedemartigny.ch",
+        "url1_link": "https://www.martigny.ch",
+        "x_coordinate": 572752.2357790841,
+        "y_coordinate": 106334.5194033244,
+        "change_date": null,
+        "id": 3271,
+        "r_key": 3271,
+        "type": "Sight",
+        "url_sightseeing": "https://www.valais.ch/en/activities/mountain-bike/pumptracks/pumptrack-parc-des-vorziers-martigny",
+        "touristic_region": 11,
+        "canton": 7
+    }
 }

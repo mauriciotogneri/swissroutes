@@ -1,1 +1,95 @@
-{"type":"Feature","id":3381,"geometry":{"type":"Point","coordinates":[47.417793674520574,9.315638227195251]},"properties":{"land":null,"category":"all","language":"en","title":"Säntispark Abtwil","abstract":"So much to choose from in one place. Water activities, wellness, fitness, sports and play - Säntispark in Abtwil near St. Gallen offers all this and more.","description":"Water fun for young and old: The 110-metre wild water canyon with rapids, eddies and two water carousels is great fun! In addition, visitors can enjoy the wave pool with an impressive fountain and thundering surf, and the 90-metre water slide also offers a breathtaking experience. Treat yourself to the relaxing saltwater pool with bubble zones and massage jets. Daily water gymnastics and (high-tech) single solariums round off the health services.\n\nThe popular Säntispark sauna is well known as an exceptional facility. Complementing the sauna village is a beautiful sauna garden with a natural pond and a sauna on piles – the ideal combination for an unforgettable sauna experience.\n\nIn May 2009 the Säntispark wellness island opened its doors. Here our guests can let themselves go in the luxurious surroundings. And in a relaxed atmosphere they can savour something that is often lacking in daily life: time - time for body, mind and soul. Säntispark makes it easy to find that feeling of well-being.","highlights":null,"foto":"https://images0.schweizmobil.ch/image-big/POI_Saentispark_Abtwil_5_g.jpg","photo_gallery":["https://images0.schweizmobil.ch/image/POI_Saentispark_Abtwil_1_s.jpg","https://images0.schweizmobil.ch/image/POI_Saentispark_Abtwil_2_s.jpg","https://images0.schweizmobil.ch/image/POI_Saentispark_Abtwil_3_s.jpg","https://images0.schweizmobil.ch/image/POI_Saentispark_Abtwil_4_s.jpg","https://images0.schweizmobil.ch/image/POI_Saentispark_Abtwil_5_s.jpg"],"photo_gallery_big":["https://images0.schweizmobil.ch/image-big/POI_Saentispark_Abtwil_1_g.jpg","https://images0.schweizmobil.ch/image-big/POI_Saentispark_Abtwil_2_g.jpg","https://images0.schweizmobil.ch/image-big/POI_Saentispark_Abtwil_3_g.jpg","https://images0.schweizmobil.ch/image-big/POI_Saentispark_Abtwil_4_g.jpg","https://images0.schweizmobil.ch/image-big/POI_Saentispark_Abtwil_5_g.jpg"],"photo_gallery_copyright":["","","","",""],"photo_gallery_author":["","","","",""],"name":"Freizeit Säntispark","name_2":null,"street":"Wiesenbachstrasse 9","zip":"9030","place":"Abtwil","tel":"+41 (0)71 313 15 15","fax":null,"email":"freizeit@saentispark.ch","url1_link":"http://www.saentispark.ch","x_coordinate":741634.7568698933,"y_coordinate":253581.74219374935,"change_date":null,"id":3381,"r_key":3381,"type":"Sight","url_sightseeing":"https://www.saentispark.ch","touristic_region":2}}
+{
+    "type": "Feature",
+    "id": 3381,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            47.417793680646575,
+            9.315638196554128
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Säntispark Abtwil leisure and adventure centre",
+        "abstract": "With a variety of slides, swimming pools and a wide range of sports, the Säntispark in Abtwil is a paradise for families. If you prefer some peace and quiet, you can relax with a massage in the wellness area or visit the sauna.",
+        "description": "Säntispark is a popular destination for water enthusiasts, and especially those who love slides: more than 1,000 metres of sliding fun is on offer with eight large slides. Are you after an adrenaline rush? You can achieve this by diving through the trap door: as this opens, you plunge down into the depths. The longest slide in Säntispark is the 180-metre-long ice canal. Three people slide along here in a tyre. The whitewater canyon also offers a special experience with its many twists and turns. \n\nThe youngest visitors can have fun in the children’s pool world, where they can hunt for fish thanks to interactive light projections. Another highlight is the wave pool with surge zone and water fountain. \n\nThere is a great deal to look forward to outside the pool zone as well: the wellness area promises relaxation with its large sauna area, private spa, Roman-Irish bath and a wide range of massages. There are also sports and games to experience without water: how about a round of mini golf, fitness training, a game of bowling or a squash competition? There is plenty for sports fans to enjoy at Säntispark too.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image-big/POI_Saentispark_Abtwil_5_g.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/POI_Saentispark_Abtwil_4_s.jpg",
+            "https://images.schweizmobil.ch/image/POI_Saentispark_Abtwil_5_s.jpg",
+            "https://images.schweizmobil.ch/image/POI_Saentispark_Abtwil_3_s.jpg",
+            "https://images.schweizmobil.ch/image/POI_Saentispark_Abtwil_2_s.jpg",
+            "https://images.schweizmobil.ch/image/POI_Saentispark_Abtwil_1_s.jpg",
+            "https://images.schweizmobil.ch/image/Saentispark_Kinderbad_s.jpg",
+            "https://images.schweizmobil.ch/image/Saentispark_Wellenbad_s.jpg",
+            "https://images.schweizmobil.ch/image/Saentispark_SuperG_s.jpg",
+            "https://images.schweizmobil.ch/image/Saentispark_Rutschenwelt_s.jpg"
+        ],
+        "photo_gallery_big": [
+            "https://images.schweizmobil.ch/image-big/POI_Saentispark_Abtwil_4_g.jpg",
+            "https://images.schweizmobil.ch/image-big/POI_Saentispark_Abtwil_5_g.jpg",
+            "https://images.schweizmobil.ch/image-big/POI_Saentispark_Abtwil_3_g.jpg",
+            "https://images.schweizmobil.ch/image-big/POI_Saentispark_Abtwil_2_g.jpg",
+            "https://images.schweizmobil.ch/image-big/POI_Saentispark_Abtwil_1_g.jpg",
+            "https://images.schweizmobil.ch/image-big/Saentispark_Kinderbad_g.jpg",
+            "https://images.schweizmobil.ch/image-big/Saentispark_Wellenbad_g.jpg",
+            "https://images.schweizmobil.ch/image-big/Saentispark_SuperG_g.jpg",
+            "https://images.schweizmobil.ch/image-big/Saentispark_Rutschenwelt_g.jpg"
+        ],
+        "photo_gallery_copyright": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "name": "Freizeit Säntispark",
+        "name_2": null,
+        "street": "Wiesenbachstrasse 9",
+        "zip": "9030",
+        "place": "Abtwil",
+        "tel": "+41 (0)58 712 55 00",
+        "fax": null,
+        "email": "freizeit@saentispark.ch",
+        "url1_link": "http://www.saentispark.ch",
+        "x_coordinate": 741634.7568698933,
+        "y_coordinate": 253581.74219374935,
+        "change_date": null,
+        "id": 3381,
+        "r_key": 3381,
+        "type": "Sight",
+        "url_sightseeing": "https://www.saentispark.ch",
+        "touristic_region": 2,
+        "canton": 23
+    }
+}

@@ -1,70 +1,80 @@
 {
-  "type": "Feature",
-  "id": 285,
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      46.64738589818688,
-      8.590598776473726
-    ]
-  },
-  "properties": {
-    "land": null,
-    "category": "all",
-    "language": "en",
-    "title": "The diabolic and wild Schöllenenschlucht",
-    "abstract": "The Schöllenenschlucht (gorge) lies between Andermatt and Göschenen and was for centuries a natural barrier on the route between Uri and Italy via the Gotthard. The route was first opened as a through road when the Teufelsbrücke (Devil’s Bridge) was built around 1200AD.",
-    "description": "Legend has it that the devil himself built the first bridge in the Schöllenenschlucht (gorge). The abutments of the Teufelsbrücke (Devil’s Bridge), also known as the «Stiebender Steg» (Spindrift Footbridge) are still visible and date back to its construction in 1595. The bridge is said to have had neither handrail nor parapet. Records of the name «Teufelsbrücke» were first found in the travel journal of a Basel merchant called Ryff. The construction preceding today’s bridge collapsed on 2.8.1888 due to human negligence and a terrible storm.\n\nThe newest Teufelsbrücke was built during the construction of the first Gotthard pass road in 1830. The elegant modern road bridge built in 1955 is now suspended above it, with a mural by Uri artist Heinrich Danioth reminding passersby of the legend of the devil and his bridge.\n\nThe Suvorov Monument remembers fallen Russian soldiers in the battle of September 25 1799, when General Suvorov fought French forces at the Teufelsbrücke.\n\nThe southern entrance of the Schöllenen is the bottleneck on the ascent through the gorge. This bottleneck was traversed over the «Twärrenbrücke» bridge suspended high up on the cliff along the eastern bank of the Reuss river until 1706/07, when Morettini, an engineer from the Maggiatal, was responsible for blasting through the rock to build the first road tunnel, the «Urnerloch».",
-    "highlights": null,
-    "foto": "https://images0.schweizmobil.ch/image/IVS_02_Schoellenen.jpg",
-    "photo_gallery": [
-      "https://images0.schweizmobil.ch/image/IVS_02_Schoellenen.jpg",
-      "https://images0.schweizmobil.ch/image/20110928_Uri_Andermatt_Schoellenen_FRB_2.jpg",
-      "https://images0.schweizmobil.ch/image/20110928_Uri_Andermatt_Schoellenen_FRB_8.jpg",
-      "https://images0.schweizmobil.ch/image/20110928_Uri_Andermatt_Schoellenen_FRB_11.jpg",
-      "https://images0.schweizmobil.ch/image/20110928_Uri_Andermatt_Schoellenen_FRB_13.jpg",
-      "https://images0.schweizmobil.ch/image/20110928_Uri_Andermatt_Schoellenen_FRB_17.jpg"
-    ],
-    "photo_gallery_big": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-    ],
-    "photo_gallery_copyright": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-    ],
-    "photo_gallery_author": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-    ],
-    "name": "Bundesinventar der historischen Verkehrswege der Schweiz (IVS)",
-    "name_2": null,
-    "street": "",
-    "zip": "",
-    "place": "",
-    "tel": "",
-    "fax": null,
-    "email": "",
-    "url1_link": "https://www.ivs.admin.ch",
-    "x_coordinate": 688187.0960315072,
-    "y_coordinate": 166886.91146650098,
-    "change_date": null,
+    "type": "Feature",
     "id": 285,
-    "r_key": 285,
-    "type": "Sight",
-    "url_sightseeing": "https://s.geo.admin.ch/6fb1816cff",
-    "touristic_region": 4
-  }
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.64738590879197,
+            8.590598755202752
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "The diabolic and wild Schöllenenschlucht",
+        "abstract": "The Schöllenenschlucht (gorge) lies between Andermatt and Göschenen and was for centuries a natural barrier on the route between Uri and Italy via the Gotthard. The route was first opened as a through road when the Teufelsbrücke (Devil’s Bridge) was built around 1200AD.",
+        "description": "Legend has it that the devil himself built the first bridge in the Schöllenenschlucht (gorge). The abutments of the Teufelsbrücke (Devil’s Bridge), also known as the «Stiebender Steg» (Spindrift Footbridge) are still visible and date back to its construction in 1595. The bridge is said to have had neither handrail nor parapet. Records of the name «Teufelsbrücke» were first found in the travel journal of a Basel merchant called Ryff. The construction preceding today’s bridge collapsed on 2.8.1888 due to human negligence and a terrible storm.\n\nThe newest Teufelsbrücke was built during the construction of the first Gotthard pass road in 1830. The elegant modern road bridge built in 1955 is now suspended above it, with a mural by Uri artist Heinrich Danioth reminding passersby of the legend of the devil and his bridge.\n\nThe Suvorov Monument remembers fallen Russian soldiers in the battle of September 25 1799, when General Suvorov fought French forces at the Teufelsbrücke.\n\nThe southern entrance of the Schöllenen is the bottleneck on the ascent through the gorge. This bottleneck was traversed over the «Twärrenbrücke» bridge suspended high up on the cliff along the eastern bank of the Reuss river until 1706/07, when Morettini, an engineer from the Maggiatal, was responsible for blasting through the rock to build the first road tunnel, the «Urnerloch».",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/IVS_02_Schoellenen.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/IVS_02_Schoellenen.jpg",
+            "https://images.schweizmobil.ch/image/20110928_Uri_Andermatt_Schoellenen_FRB_2.jpg",
+            "https://images.schweizmobil.ch/image/20110928_Uri_Andermatt_Schoellenen_FRB_8.jpg",
+            "https://images.schweizmobil.ch/image/20110928_Uri_Andermatt_Schoellenen_FRB_11.jpg",
+            "https://images.schweizmobil.ch/image/20110928_Uri_Andermatt_Schoellenen_FRB_13.jpg",
+            "https://images.schweizmobil.ch/image/20110928_Uri_Andermatt_Schoellenen_FRB_17.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "name": "Bundesinventar der historischen Verkehrswege der Schweiz (IVS)",
+        "name_2": null,
+        "street": "   ",
+        "zip": " ",
+        "place": " ",
+        "tel": " ",
+        "fax": null,
+        "email": " ",
+        "url1_link": "https://www.ivs.admin.ch",
+        "x_coordinate": 688187.0960315072,
+        "y_coordinate": 166886.91146650098,
+        "change_date": null,
+        "id": 285,
+        "r_key": 285,
+        "type": "Sight",
+        "url_sightseeing": "https://s.geo.admin.ch/6fb1816cff",
+        "touristic_region": 4,
+        "canton": 4
+    }
 }

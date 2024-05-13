@@ -1,1 +1,34 @@
-{"type":"Feature","id":3045,"geometry":{"type":"Point","coordinates":[46.85262981969581,8.645609589230517]},"properties":{"land":"\"velo\",\"mountainbike\"","category":"all","language":"en","title":"GISLER MOTOS GmbH","abstract":null,"name":"GISLER MOTOS GmbH","street":"Schachengasse 3","zip":"6467","place":"Schattdorf","tel":"+41 41 870 59 57","email":null,"url1_text":null,"url1_link":"https://www.gisler-motos.ch","organisation":"2rad / 2routes / 2ruote","foto":null,"x_coordinate":692047.0510416509,"y_coordinate":189763.5341887391,"change_date":null,"id":280,"type":"Service"}}
+{
+    "type": "Feature",
+    "id": 3045,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.852629819042164,
+            8.645609609657113
+        ]
+    },
+    "properties": {
+        "land": "\"velo\",\"mountainbike\"",
+        "category": "all",
+        "language": "en",
+        "title": "GISLER MOTOS GmbH",
+        "abstract": null,
+        "name": "GISLER MOTOS GmbH",
+        "street": "Schachengasse 3",
+        "zip": "6467",
+        "place": "Schattdorf",
+        "tel": "+41 41 870 59 57",
+        "email": null,
+        "url1_text": null,
+        "url1_link": "https://www.gisler-motos.ch",
+        "organisation": "2rad / 2routes / 2ruote",
+        "foto": null,
+        "foto_abstract": null,
+        "x_coordinate": 692047.0510416509,
+        "y_coordinate": 189763.5341887391,
+        "change_date": null,
+        "id": 280,
+        "type": "Service"
+    }
+}

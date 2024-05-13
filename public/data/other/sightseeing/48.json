@@ -1,74 +1,85 @@
 {
-  "type": "Feature",
-  "id": 48,
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      47.20977663074527,
-      7.193639175634853
-    ]
-  },
-  "properties": {
-    "land": null,
-    "category": "all",
-    "language": "en",
-    "title": "Pierre Pertuis – building in times of",
-    "abstract": "Bereits in römischer Zeit gab es einen Verkehrsweg über den Col du Pierre Pertuis. 1745 baute der Fürstbischof von Basel für die Postkutschen eine befestigte Strasse. Der Motorverkehr machte 1915 und 1931/32 eine weitere Strassenerneuerung nötig.",
-    "description": "What do the Swiss do in times of crisis? They build roads. Today’s main road on the north side of the Col du Pierre Pertuis was built by the army in 1915 during mobilization for the First World War. A new road was built on the south side of the pass during the crisis years of 1931 to 1932. A metal panel opposite two parking areas is a reminder of this: «TROISIEME ROUTE DE PIERRE-PERTUIS CONSTRUITE PAR DECRET DU GRAND CONSEIL PENDANT LES ANNEES DE CRISE 1931-1932»\n\nOne of the most interesting road sections begins with a wide curve above Sonceboz and on the sunny side follows a small valley-like section to the pass summit. In the middle section, with its retaining and parapet walls on the valley side, the 1930 road is similar to other structures in the Alps. The banking above the road consists mainly of layered rock slabs. Another typical feature is the road edge lined with border stones.\n\nIn Sonceboz stands an hour-stone bearing the inscription «X LIEUES DE BERNE». This has been relocated from the old road to the 1930s construction. Its reverse side bears the identical inscription in German but this is already severely weathered. In the time of engineered road building, from 1742 all main roads in Canton Bern were provided with such stones, which were only in two languages in the Jura region. Their function was to show the road distance from the Zytgloggen-Turm (Clock Tower) in Bern.\n\nIn Roman times a road linking the Swiss plain with the area around the Doubs and Rhine rivers ran through the Pierre Pertuis. It served as a crosslink between the Avenches – Solothurn – Augst and Besançon – Mandeure – Kembs roads.\n\n13th century medieval monks discovered an inscription in Latin at the gateway to the Pierre Pertuis. It was first successfully deciphered by the famous literature Nobel prize winner and expert in ancient history Theodor Mommsen when he visited Tavannes in 1853. Translated into English, the inscription that dates back to 200AD says: «For the Holiness of the Emperors this road was built by Marcus Dunius Paternus, mayor of the colony of the Helvetians.» The colony of the Helvetians referred to the Roman settlement of Avenches/Aventicum.\n\nThe Bernese cantonal archaeological department has excavated a section of the road situated to the south of the municipality of Tavannes and dated it to the first century AD. Archaeologists were able to prove that the same road remained in use and was maintained long after the decline of the Roman Empire. Evidence exists of repairs carried out between the 6th and 9th centuries AD.",
-    "highlights": null,
-    "foto": "https://images0.schweizmobil.ch/image/IVS_26_Pierre_Pertuis_Krisenzeiten.jpg",
-    "photo_gallery": [
-      "https://images0.schweizmobil.ch/image/IVS_26_Pierre_Pertuis_Krisenzeiten.jpg",
-      "https://images0.schweizmobil.ch/image/Pierre_Pertuis_STE_8124_a-uploader_2.jpg",
-      "https://images0.schweizmobil.ch/image/IVS_12_Pierre_Pertuis.jpg",
-      "https://images0.schweizmobil.ch/image/Pierre_Pertuis_DSC00046DSC00047.jpg",
-      "https://images0.schweizmobil.ch/image/Pierre_Pertuis_DSC00046DSC00046.jpg",
-      "https://images0.schweizmobil.ch/image/Pierre_Pertuis_DSC00046DSC00042.jpg",
-      "https://images0.schweizmobil.ch/image/Pierre_Pertuis_DSC00046DSC00039.jpg"
-    ],
-    "photo_gallery_big": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-    ],
-    "photo_gallery_copyright": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-    ],
-    "photo_gallery_author": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-    ],
-    "name": "Bundesinventar der historischen Verkehrswege der Schweiz (IVS)",
-    "name_2": null,
-    "street": "",
-    "zip": "",
-    "place": "",
-    "tel": "",
-    "fax": null,
-    "email": "",
-    "url1_link": "https://www.ivs.admin.ch",
-    "x_coordinate": 581439.9629782927,
-    "y_coordinate": 228789.54048464866,
-    "change_date": null,
+    "type": "Feature",
     "id": 48,
-    "r_key": 48,
-    "type": "Sight",
-    "url_sightseeing": "https://s.geo.admin.ch/6fb1701bfa",
-    "touristic_region": 8
-  }
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            47.20977662547744,
+            7.193639175717198
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Pierre Pertuis – building in times of",
+        "abstract": "Bereits in römischer Zeit gab es einen Verkehrsweg über den Col du Pierre Pertuis. 1745 baute der Fürstbischof von Basel für die Postkutschen eine befestigte Strasse. Der Motorverkehr machte 1915 und 1931/32 eine weitere Strassenerneuerung nötig.",
+        "description": "What do the Swiss do in times of crisis? They build roads. Today’s main road on the north side of the Col du Pierre Pertuis was built by the army in 1915 during mobilization for the First World War. A new road was built on the south side of the pass during the crisis years of 1931 to 1932. A metal panel opposite two parking areas is a reminder of this: «TROISIEME ROUTE DE PIERRE-PERTUIS CONSTRUITE PAR DECRET DU GRAND CONSEIL PENDANT LES ANNEES DE CRISE 1931-1932»\n\nOne of the most interesting road sections begins with a wide curve above Sonceboz and on the sunny side follows a small valley-like section to the pass summit. In the middle section, with its retaining and parapet walls on the valley side, the 1930 road is similar to other structures in the Alps. The banking above the road consists mainly of layered rock slabs. Another typical feature is the road edge lined with border stones.\n\nIn Sonceboz stands an hour-stone bearing the inscription «X LIEUES DE BERNE». This has been relocated from the old road to the 1930s construction. Its reverse side bears the identical inscription in German but this is already severely weathered. In the time of engineered road building, from 1742 all main roads in Canton Bern were provided with such stones, which were only in two languages in the Jura region. Their function was to show the road distance from the Zytgloggen-Turm (Clock Tower) in Bern.\n\nIn Roman times a road linking the Swiss plain with the area around the Doubs and Rhine rivers ran through the Pierre Pertuis. It served as a crosslink between the Avenches – Solothurn – Augst and Besançon – Mandeure – Kembs roads.\n\n13th century medieval monks discovered an inscription in Latin at the gateway to the Pierre Pertuis. It was first successfully deciphered by the famous literature Nobel prize winner and expert in ancient history Theodor Mommsen when he visited Tavannes in 1853. Translated into English, the inscription that dates back to 200AD says: «For the Holiness of the Emperors this road was built by Marcus Dunius Paternus, mayor of the colony of the Helvetians.» The colony of the Helvetians referred to the Roman settlement of Avenches/Aventicum.\n\nThe Bernese cantonal archaeological department has excavated a section of the road situated to the south of the municipality of Tavannes and dated it to the first century AD. Archaeologists were able to prove that the same road remained in use and was maintained long after the decline of the Roman Empire. Evidence exists of repairs carried out between the 6th and 9th centuries AD.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/IVS_26_Pierre_Pertuis_Krisenzeiten.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/IVS_26_Pierre_Pertuis_Krisenzeiten.jpg",
+            "https://images.schweizmobil.ch/image/Pierre_Pertuis_STE_8124_a-uploader_2.jpg",
+            "https://images.schweizmobil.ch/image/IVS_12_Pierre_Pertuis.jpg",
+            "https://images.schweizmobil.ch/image/Pierre_Pertuis_DSC00046DSC00047.jpg",
+            "https://images.schweizmobil.ch/image/Pierre_Pertuis_DSC00046DSC00046.jpg",
+            "https://images.schweizmobil.ch/image/Pierre_Pertuis_DSC00046DSC00042.jpg",
+            "https://images.schweizmobil.ch/image/Pierre_Pertuis_DSC00046DSC00039.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "name": "Bundesinventar der historischen Verkehrswege der Schweiz (IVS)",
+        "name_2": null,
+        "street": " ",
+        "zip": " ",
+        "place": " ",
+        "tel": " ",
+        "fax": null,
+        "email": " ",
+        "url1_link": "https://www.ivs.admin.ch",
+        "x_coordinate": 581439.9629782927,
+        "y_coordinate": 228789.54048464866,
+        "change_date": null,
+        "id": 48,
+        "r_key": 48,
+        "type": "Sight",
+        "url_sightseeing": "https://s.geo.admin.ch/6fb1701bfa",
+        "touristic_region": 8,
+        "canton": 12
+    }
 }

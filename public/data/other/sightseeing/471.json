@@ -1,70 +1,80 @@
 {
-  "type": "Feature",
-  "id": 471,
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      46.89145839206347,
-      8.107579789662534
-    ]
-  },
-  "properties": {
-    "land": null,
-    "category": "all",
-    "language": "en",
-    "title": "Glaubenberg",
-    "abstract": "The Glauenberg mire landscape, which is located between the district of Entlebuch, Lake Lungern and Lake Sarnen, covers an area of 130 square kilometres and is Switzerland’s biggest mire landscape. The area is an important habitat for the highly endangered capercaillie species.",
-    "description": "The Glauenberg mire landscape extends from the Pilatuskette mountain range to Glaubenbüelen pass. It is Switzerland’s largest mire landscape. At 130 km2 in area, it is slightly bigger than Lake Lucerne.\n\nThe landscape features numerous mires, forest areas and Alpine pastures which, in some places, are closely dovetailed with each other. Human beings have used and left their mark on this landscape for centuries.\n\nThe mountain torrents have cut deep into the flysch. Flysch is a soft and relatively impermeable stone. Slopes in such areas are prone to landslides.\n\nThe varied mire landscape with individual shrub and tree groups provides good living conditions for grouse (capercaillie, common black grouse and hazel grouse). Lynx also live in this region. The first two lynx in Switzerland were released in Obwalden on the opposite side in the Melchtal valley in 1971.",
-    "highlights": null,
-    "foto": "https://images0.schweizmobil.ch/image/12_Glaubenberg-2-652464-193.jpg",
-    "photo_gallery": [
-      "https://images0.schweizmobil.ch/image/12_Glaubenberg-2-652464-193.jpg",
-      "https://images0.schweizmobil.ch/image/Glaubenberg_Fuerstei_Glaubenberg_s.jpg",
-      "https://images0.schweizmobil.ch/image/Glaubenberg_Moorlandschaften_1_s.jpg",
-      "https://images0.schweizmobil.ch/image/Glaubenberg_Moorlandschaften_2_s.jpg",
-      "https://images0.schweizmobil.ch/image/12_Glaubenberg.jpg",
-      "https://images0.schweizmobil.ch/image/Glaubenberg_Moorlandschaften_3_s.jpg"
-    ],
-    "photo_gallery_big": [
-      "",
-      "https://images0.schweizmobil.ch/image-big/Glaubenberg_Fuerstei_Glaubenberg_g.jpg",
-      "https://images0.schweizmobil.ch/image-big/Glaubenberg_Moorlandschaften_1_g.jpg",
-      "https://images0.schweizmobil.ch/image-big/Glaubenberg_Moorlandschaften_2_g.jpg",
-      "",
-      "https://images0.schweizmobil.ch/image-big/Glaubenberg_Moorlandschaften_3_g.jpg"
-    ],
-    "photo_gallery_copyright": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-    ],
-    "photo_gallery_author": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-    ],
-    "name": "Bundesamt für Umwelt",
-    "name_2": null,
-    "street": "und Naturdenkmäler von nationaler Bedeutung (BLN)",
-    "zip": "BLN-Objekt-Nr.",
-    "place": "1608",
-    "tel": "",
-    "fax": null,
-    "email": "bln@bafu.admin.ch",
-    "url1_link": "https://www.bafu.admin.ch/bln",
-    "x_coordinate": 650980.1337557042,
-    "y_coordinate": 193589.70664214616,
-    "change_date": null,
+    "type": "Feature",
     "id": 471,
-    "r_key": 471,
-    "type": "Sight",
-    "url_sightseeing": "https://www.bafu.admin.ch/bln",
-    "touristic_region": 4
-  }
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.891458393586305,
+            8.107579767531503
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Glaubenberg",
+        "abstract": "The Glauenberg mire landscape, which is located between the district of Entlebuch, Lake Lungern and Lake Sarnen, covers an area of 130 square kilometres and is Switzerland’s biggest mire landscape. The area is an important habitat for the highly endangered capercaillie species.",
+        "description": "The Glauenberg mire landscape extends from the Pilatuskette mountain range to Glaubenbüelen pass. It is Switzerland’s largest mire landscape. At 130 km2 in area, it is slightly bigger than Lake Lucerne.\n\nThe landscape features numerous mires, forest areas and Alpine pastures which, in some places, are closely dovetailed with each other. Human beings have used and left their mark on this landscape for centuries.\n\nThe mountain torrents have cut deep into the flysch. Flysch is a soft and relatively impermeable stone. Slopes in such areas are prone to landslides.\n\nThe varied mire landscape with individual shrub and tree groups provides good living conditions for grouse (capercaillie, common black grouse and hazel grouse). Lynx also live in this region. The first two lynx in Switzerland were released in Obwalden on the opposite side in the Melchtal valley in 1971.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/12_Glaubenberg-2-652464-193.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/12_Glaubenberg-2-652464-193.jpg",
+            "https://images.schweizmobil.ch/image/Glaubenberg_Fuerstei_Glaubenberg_s.jpg",
+            "https://images.schweizmobil.ch/image/Glaubenberg_Moorlandschaften_1_s.jpg",
+            "https://images.schweizmobil.ch/image/Glaubenberg_Moorlandschaften_2_s.jpg",
+            "https://images.schweizmobil.ch/image/12_Glaubenberg.jpg",
+            "https://images.schweizmobil.ch/image/Glaubenberg_Moorlandschaften_3_s.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            "https://images.schweizmobil.ch/image-big/Glaubenberg_Fuerstei_Glaubenberg_g.jpg",
+            "https://images.schweizmobil.ch/image-big/Glaubenberg_Moorlandschaften_1_g.jpg",
+            "https://images.schweizmobil.ch/image-big/Glaubenberg_Moorlandschaften_2_g.jpg",
+            "",
+            "https://images.schweizmobil.ch/image-big/Glaubenberg_Moorlandschaften_3_g.jpg"
+        ],
+        "photo_gallery_copyright": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "name": "Bundesamt für Umwelt",
+        "name_2": null,
+        "street": "und Naturdenkmäler von nationaler Bedeutung (BLN)",
+        "zip": "BLN-Objekt-Nr.",
+        "place": "1608",
+        "tel": "-",
+        "fax": null,
+        "email": "bln@bafu.admin.ch",
+        "url1_link": "https://www.bafu.admin.ch/bln",
+        "x_coordinate": 650980.133755704,
+        "y_coordinate": 193589.70664215327,
+        "change_date": null,
+        "id": 471,
+        "r_key": 471,
+        "type": "Sight",
+        "url_sightseeing": "https://www.bafu.admin.ch/bln",
+        "touristic_region": 4,
+        "canton": 18
+    }
 }

@@ -1,1 +1,34 @@
-{"type":"Feature","id":3163,"geometry":{"type":"Point","coordinates":[47.22191323312094,8.982230267731317]},"properties":{"land":"\"velo\",\"mountainbike\"","category":"all","language":"en","title":"Velowerkstatt Solanki","abstract":null,"name":"Velowerkstatt Solanki","street":"Ziegelhofstrasse 5","zip":"8730","place":"Uznach","tel":"+41 44 776 30 94","email":null,"url1_text":null,"url1_link":"https://www.velowerkstattsolanki.ch","organisation":"2rad / 2routes / 2ruote","foto":null,"x_coordinate":716908.6712982692,"y_coordinate":231259.45274830578,"change_date":null,"id":422,"type":"Service"}}
+{
+    "type": "Feature",
+    "id": 3163,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            47.22191323021967,
+            8.98223028191602
+        ]
+    },
+    "properties": {
+        "land": "\"velo\",\"mountainbike\"",
+        "category": "all",
+        "language": "en",
+        "title": "Velowerkstatt Solanki",
+        "abstract": null,
+        "name": "Velowerkstatt Solanki",
+        "street": "Ziegelhofstrasse 5",
+        "zip": "8730",
+        "place": "Uznach",
+        "tel": "+41 44 776 30 94",
+        "email": null,
+        "url1_text": null,
+        "url1_link": "https://www.velowerkstattsolanki.ch",
+        "organisation": "2rad / 2routes / 2ruote",
+        "foto": null,
+        "foto_abstract": null,
+        "x_coordinate": 716908.6712982692,
+        "y_coordinate": 231259.45274830578,
+        "change_date": null,
+        "id": 422,
+        "type": "Service"
+    }
+}

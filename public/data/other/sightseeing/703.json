@@ -1,1 +1,100 @@
-{"type":"Feature","id":703,"geometry":{"type":"Point","coordinates":[46.491297140738375,9.897221029528046]},"properties":{"land":null,"category":"all","language":"en","title":"Pumptrack Cuntschett Pontresina","abstract":"Pumping is fun – especially on the Pump Track Cuntschett in Pontresina. Learn to perfectly control your bike in tight bends and over waves and put your new skills to the test on your next mountain bike tour!","description":"The Pump Track Cuntschett is located in the immediate vicinity of the Pontresina railway station and is easily accessible by bike or on foot in a few minutes. The pump track offers perfect routes for beginners, ambitious enthusiasts and bike whizzes alike. Even skaters and, in winter, cross-country skiers find perfect bends, dips and waves at the track.\n\nPontresina’s pump track is suitable for riders of all ages and offers countless riding options over a total length of 350m. The concrete pump track can be used daily from May to October. When there’s snow some of the bends and dips are prepared for cross-country skiers, which means bike riders and skaters can’t use the pump track. No spe-cial skills required. Bikes and protective gear are available for hire from the Pontresina Sports bike shop.\n\nLength: 350 metre \narea: 1200m2 \nsurface: concrete.","highlights":null,"foto":"https://images0.schweizmobil.ch/image/Pumptrack_Pontresina_6.jpg","photo_gallery":["https://images0.schweizmobil.ch/image/Pumptrack_Pontresina_7.jpg","https://images0.schweizmobil.ch/image/Pumptrack_Pontresina_2.jpg","https://images0.schweizmobil.ch/image/Pumptrack_Pontresina_9.jpg","https://images0.schweizmobil.ch/image/Pumptrack_Pontresina_8.jpg","https://images0.schweizmobil.ch/image/Pumptrack_Pontresina_1.jpg","https://images0.schweizmobil.ch/image/Pumptrack_Pontresina_6.jpg","https://images0.schweizmobil.ch/image/Pumptrack_Pontresina_10.jpg","https://images0.schweizmobil.ch/image/Pumptrack_Pontresina_3.jpg","https://images0.schweizmobil.ch/image/Pumptrack_Pontresina_4.jpg","https://images0.schweizmobil.ch/image/Pumptrack_Pontresina_5.jpg"],"photo_gallery_big":["","","","","","","","","",""],"photo_gallery_copyright":["","","","","","","","","",""],"photo_gallery_author":["","","","","","","","","",""],"name":"Pontresina Tourist Information","name_2":null,"street":"Via Maistra 133","zip":"7504","place":"Pontresina","tel":"+41 (0)81 838 83 00","fax":null,"email":"pontresina@engadin.ch","url1_link":"https://www.engadin.ch","x_coordinate":788734.9743900063,"y_coordinate":151844.21020882734,"change_date":null,"id":703,"r_key":703,"type":"Sight","url_sightseeing":"https://www.engadin.ch/en/activities/mountainbike-pumptrack-cuntschett-en/","touristic_region":1}}
+{
+    "type": "Feature",
+    "id": 703,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.49129714537597,
+            9.897221095404115
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Pumptrack Cuntschett Pontresina",
+        "abstract": "Pumping is fun – especially on the Pump Track Cuntschett in Pontresina. Learn to perfectly control your bike in tight bends and over waves and put your new skills to the test on your next mountain bike tour!",
+        "description": "The Pump Track Cuntschett is located in the immediate vicinity of the Pontresina railway station and is easily accessible by bike or on foot in a few minutes. The pump track offers perfect routes for beginners, ambitious enthusiasts and bike whizzes alike. Even skaters and, in winter, cross-country skiers find perfect bends, dips and waves at the track.\n\nPontresina’s pump track is suitable for riders of all ages and offers countless riding options over a total length of 350m. The concrete pump track can be used daily from May to October. When there’s snow some of the bends and dips are prepared for cross-country skiers, which means bike riders and skaters can’t use the pump track. No spe-cial skills required. Bikes and protective gear are available for hire from the Pontresina Sports bike shop.\n\nLength: 350 metre \narea: 1200m2 \nsurface: concrete.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/Pumptrack_Pontresina_6.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/Pumptrack_Pontresina_7.jpg",
+            "https://images.schweizmobil.ch/image/Pumptrack_Pontresina_2.jpg",
+            "https://images.schweizmobil.ch/image/Pumptrack_Pontresina_9.jpg",
+            "https://images.schweizmobil.ch/image/Pumptrack_Pontresina_8.jpg",
+            "https://images.schweizmobil.ch/image/Pumptrack_Pontresina_1.jpg",
+            "https://images.schweizmobil.ch/image/Pumptrack_Pontresina_6.jpg",
+            "https://images.schweizmobil.ch/image/Pumptrack_Pontresina_10.jpg",
+            "https://images.schweizmobil.ch/image/Pumptrack_Pontresina_3.jpg",
+            "https://images.schweizmobil.ch/image/Pumptrack_Pontresina_4.jpg",
+            "https://images.schweizmobil.ch/image/Pumptrack_Pontresina_5.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "name": "Pontresina Tourist Information",
+        "name_2": null,
+        "street": "Via Maistra 133",
+        "zip": "7504",
+        "place": "Pontresina",
+        "tel": "+41 (0)81 838 83 00",
+        "fax": null,
+        "email": "pontresina@engadin.ch",
+        "url1_link": "https://www.engadin.ch",
+        "x_coordinate": 788734.9743900063,
+        "y_coordinate": 151844.21020882734,
+        "change_date": null,
+        "id": 703,
+        "r_key": 703,
+        "type": "Sight",
+        "url_sightseeing": "https://www.engadin.ch/en/activities/mountainbike-pumptrack-cuntschett-en/",
+        "touristic_region": 1,
+        "canton": 2
+    }
+}

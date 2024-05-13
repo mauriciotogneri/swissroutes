@@ -1,1 +1,34 @@
-{"type":"Feature","id":2940,"geometry":{"type":"Point","coordinates":[47.20762284322294,7.553957454518498]},"properties":{"land":"\"velo\",\"mountainbike\"","category":"all","language":"en","title":"Garage Allemann AG","abstract":null,"name":"Garage Allemann AG","street":"Allmendweg 8","zip":"4528","place":"Zuchwil","tel":"+41 32 685 78 15","email":null,"url1_text":null,"url1_link":"https://www.garage-allemann.ch","organisation":"2rad / 2routes / 2ruote","foto":null,"x_coordinate":608737.8149061803,"y_coordinate":228527.60506583832,"change_date":null,"id":158,"type":"Service"}}
+{
+    "type": "Feature",
+    "id": 2940,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            47.21026390962918,
+            7.557276283638288
+        ]
+    },
+    "properties": {
+        "land": "\"velo\",\"mountainbike\"",
+        "category": "all",
+        "language": "en",
+        "title": "Garage Allemann AG",
+        "abstract": null,
+        "name": "Garage Allemann AG",
+        "street": "Schichtstrasse 1",
+        "zip": "4528",
+        "place": "Zuchwil",
+        "tel": "+41 32 685 78 15",
+        "email": null,
+        "url1_text": null,
+        "url1_link": "https://www.garage-allemann.ch",
+        "organisation": "2rad / 2routes / 2ruote",
+        "foto": null,
+        "foto_abstract": null,
+        "x_coordinate": 608988.9045284301,
+        "y_coordinate": 228821.48398780616,
+        "change_date": null,
+        "id": 158,
+        "type": "Service"
+    }
+}

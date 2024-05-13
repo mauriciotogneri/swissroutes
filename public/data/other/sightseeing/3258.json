@@ -1,58 +1,65 @@
 {
-  "type": "Feature",
-  "id": 3258,
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      46.770226784061364,
-      9.070831072893322
-    ]
-  },
-  "properties": {
-    "land": null,
-    "category": "all",
-    "language": "en",
-    "title": "Pumptrack Brigels",
-    "abstract": "The small but excellent pump track is right next to the mini golf course in Brigels. The combination of turns and roller elements means non-stop excitement for the bikers. While the track was primarily designed for the young, it can also be used by adults. It is a perfect warm-up for the adjacent flow trails.",
-    "description": "",
-    "highlights": "Length: 49 m",
-    "foto": "https://images0.schweizmobil.ch/image-big/GR_3_Pumptrack_Brigels_2_g.jpg",
-    "photo_gallery": [
-      "https://images0.schweizmobil.ch/image/GR_3_Pumptrack_Brigels_1_s.jpg",
-      "https://images0.schweizmobil.ch/image/GR_3_Pumptrack_Brigels_2_s.jpg",
-      "https://images0.schweizmobil.ch/image/GR_3_Pumptrack_Brigels_3_s.jpg"
-    ],
-    "photo_gallery_big": [
-      "https://images0.schweizmobil.ch/image-big/GR_3_Pumptrack_Brigels_1_g.jpg",
-      "https://images0.schweizmobil.ch/image-big/GR_3_Pumptrack_Brigels_2_g.jpg",
-      "https://images0.schweizmobil.ch/image-big/GR_3_Pumptrack_Brigels_3_g.jpg"
-    ],
-    "photo_gallery_copyright": [
-      "PANOTOUR.CH",
-      "stefanieblochwitzfotografie.ch",
-      ""
-    ],
-    "photo_gallery_author": [
-      "",
-      "",
-      ""
-    ],
-    "name": "Surselva Tourismus Info Brigels",
-    "name_2": null,
-    "street": "Via Principala 34",
-    "zip": "7165",
-    "place": "Brigels",
-    "tel": "+41 81 943 13 31",
-    "fax": null,
-    "email": "info@brigels.com",
-    "url1_link": "https://www.surselva.info",
-    "x_coordinate": 724662.657370838,
-    "y_coordinate": 181191.99318513612,
-    "change_date": null,
+    "type": "Feature",
     "id": 3258,
-    "r_key": 3258,
-    "type": "Sight",
-    "url_sightseeing": "https://www.surselva.info/Media/Attraktionen/Pumptrack-Brigels",
-    "touristic_region": 1
-  }
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.770226783764,
+            9.0708311126843
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Pumptrack Brigels",
+        "abstract": "The small but excellent pump track is right next to the mini golf course in Brigels. The combination of turns and roller elements means non-stop excitement for the bikers. While the track was primarily designed for the young, it can also be used by adults. It is a perfect warm-up for the adjacent flow trails.",
+        "description": " ",
+        "highlights": "Length: 49 m",
+        "foto": "https://images.schweizmobil.ch/image-big/GR_3_Pumptrack_Brigels_2_g.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/GR_3_Pumptrack_Brigels_1_s.jpg",
+            "https://images.schweizmobil.ch/image/GR_3_Pumptrack_Brigels_2_s.jpg",
+            "https://images.schweizmobil.ch/image/GR_3_Pumptrack_Brigels_3_s.jpg"
+        ],
+        "photo_gallery_big": [
+            "https://images.schweizmobil.ch/image-big/GR_3_Pumptrack_Brigels_1_g.jpg",
+            "https://images.schweizmobil.ch/image-big/GR_3_Pumptrack_Brigels_2_g.jpg",
+            "https://images.schweizmobil.ch/image-big/GR_3_Pumptrack_Brigels_3_g.jpg"
+        ],
+        "photo_gallery_copyright": [
+            "PANOTOUR.CH",
+            "stefanieblochwitzfotografie.ch",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            "",
+            ""
+        ],
+        "name": "Surselva Tourismus Info Brigels",
+        "name_2": null,
+        "street": "Via Principala 34",
+        "zip": "7165",
+        "place": "Brigels",
+        "tel": "+41 81 943 13 31",
+        "fax": null,
+        "email": "info@brigels.com",
+        "url1_link": "https://www.surselva.info",
+        "x_coordinate": 724662.657370838,
+        "y_coordinate": 181191.99318513612,
+        "change_date": null,
+        "id": 3258,
+        "r_key": 3258,
+        "type": "Sight",
+        "url_sightseeing": "https://www.surselva.info/Media/Attraktionen/Pumptrack-Brigels",
+        "touristic_region": 1,
+        "canton": 2
+    }
 }

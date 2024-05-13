@@ -1,1 +1,60 @@
-{"type":"Feature","id":195,"geometry":{"type":"Point","coordinates":[47.37929179085556,8.539896134510856]},"properties":{"land":null,"category":"all","language":"en","title":"Swiss National Museum Zürich","abstract":"The National Museum houses Switzerland's most comprehensive collection of artifacts pertaining to its cultural heritage.  The museum building is reminiscent of a fairytale castle. The courtyard is a unique venue for superlative events.","description":"The Swiss National Museum was built by Gustav Gull in 1898, next to the Main Train Station. The National Museum houses Switzerland's most comprehensive collection of artifacts pertaining to its cultural heritage. The over 100-year old museum building is reminiscent of a fairytale castle. Surrounded by towers, the courtyard is a unique venue for superlative events such as Live on Ice in the winter and Live at Sunset in the summer.\n\nWhile visitors outside enjoy the arts, the past comes to life indoors: How did earlier generations live, think and feel? Their material legacy - from handicrafts to ordinary everyday objects - provide us with answers, from the prehistoric age right through to the present day.","highlights":null,"foto":"https://images0.schweizmobil.ch/image/8915_Schweizerisches-Landesmuseum-Zuerich_2a.jpg","photo_gallery":["https://images0.schweizmobil.ch/image/8915_Schweizerisches-Landesmuseum-Zuerich_2a.jpg","https://images0.schweizmobil.ch/image/8915_Schweizerisches-Landesmuseum-Zuerich_1b.jpg"],"photo_gallery_big":["",""],"photo_gallery_copyright":["",""],"photo_gallery_author":["",""],"name":"Zürich Tourismus","name_2":null,"street":"Im Hauptbahnhof","zip":"8021","place":"Zürich","tel":"+41 (0)44 215 40 00","fax":null,"email":"information@zuerich.com","url1_link":"https://www.zuerich.com","x_coordinate":683164.9776221103,"y_coordinate":248190.54020952922,"change_date":null,"id":195,"r_key":195,"type":"Sight","url_sightseeing":"https://hwww.zuerich.com/en/travel-trade/trade-why-zurich/trade-highlights/Landesmuseum-details.html","touristic_region":3}}
+{
+    "type": "Feature",
+    "id": 195,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            47.37929177815636,
+            8.539896147212705
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Swiss National Museum Zürich",
+        "abstract": "The National Museum houses Switzerland's most comprehensive collection of artifacts pertaining to its cultural heritage.  The museum building is reminiscent of a fairytale castle. The courtyard is a unique venue for superlative events.",
+        "description": "The Swiss National Museum was built by Gustav Gull in 1898, next to the Main Train Station. The National Museum houses Switzerland's most comprehensive collection of artifacts pertaining to its cultural heritage. The over 100-year old museum building is reminiscent of a fairytale castle. Surrounded by towers, the courtyard is a unique venue for superlative events such as Live on Ice in the winter and Live at Sunset in the summer.\n\nWhile visitors outside enjoy the arts, the past comes to life indoors: How did earlier generations live, think and feel? Their material legacy - from handicrafts to ordinary everyday objects - provide us with answers, from the prehistoric age right through to the present day.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/8915_Schweizerisches-Landesmuseum-Zuerich_2a.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/8915_Schweizerisches-Landesmuseum-Zuerich_2a.jpg",
+            "https://images.schweizmobil.ch/image/8915_Schweizerisches-Landesmuseum-Zuerich_1b.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "Zürich Tourismus",
+        "name_2": null,
+        "street": "Im Hauptbahnhof",
+        "zip": "8021",
+        "place": "Zürich",
+        "tel": "+41 (0)44 215 40 00",
+        "fax": null,
+        "email": "information@zuerich.com",
+        "url1_link": "https://www.zuerich.com",
+        "x_coordinate": 683164.9776221103,
+        "y_coordinate": 248190.54020952922,
+        "change_date": null,
+        "id": 195,
+        "r_key": 195,
+        "type": "Sight",
+        "url_sightseeing": "https://hwww.zuerich.com/en/travel-trade/trade-why-zurich/trade-highlights/Landesmuseum-details.html",
+        "touristic_region": 3,
+        "canton": 3
+    }
+}

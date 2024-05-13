@@ -1,1 +1,60 @@
-{"type":"Feature","id":21,"geometry":{"type":"Point","coordinates":[46.97874957389284,8.5868893463338]},"properties":{"land":null,"category":"all","language":"en","title":"Treib - Seelisberg Cable Railway","abstract":"The Treib-Seelisberg cable railway takes guests from the boat warf in Treib directly to the panorama plateau in Seelisberg within 8 minutes.","description":"The mountain cable railway station is situated along the hiking route «Weg der Schweiz» towards Rütli or Bauen. Just some minutes away from the cable railway station you can reach the cheese dairy (which is open for public viewing), the Schillerbalkon, a natural «balcony» surrounded by the wonderful mountain panorama, the pilgrimage chapel, a big playground and a romantic lake with a beach and camping facilities. There is a connecting ride of your trip by a post bus from the cable railway station in Seelisberg. The post bus operates the whole year round.","highlights":null,"foto":"https://images0.schweizmobil.ch/image/8771_Seilbahn-Eldorado--Treib-Seelisberg-Bahn_1a.jpg","photo_gallery":["https://images0.schweizmobil.ch/image/8771_Seilbahn-Eldorado--Treib-Seelisberg-Bahn_1a.jpg","https://images0.schweizmobil.ch/image/8771_Seilbahn-Eldorado--Treib-Seelisberg-Bahn_2b.jpg"],"photo_gallery_big":["",""],"photo_gallery_copyright":["",""],"photo_gallery_author":["",""],"name":"Uri Tourismus AG","name_2":null,"street":"Schützengasse 11","zip":"6460","place":"Altdorf","tel":"+41 (0)41 874 80 00","fax":null,"email":"info@uri.swiss","url1_link":"https://www.uri.swiss","x_coordinate":687364.8448497506,"y_coordinate":203715.60934202603,"change_date":null,"id":21,"r_key":21,"type":"Sight","url_sightseeing":"https://www.seelisberg.com/index.php/treib-seelisberg-bahn.html","touristic_region":4}}
+{
+    "type": "Feature",
+    "id": 21,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.9787495732585,
+            8.586889306069203
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Treib - Seelisberg Cable Railway",
+        "abstract": "The Treib-Seelisberg cable railway takes guests from the boat warf in Treib directly to the panorama plateau in Seelisberg within 8 minutes.",
+        "description": "The mountain cable railway station is situated along the hiking route «Weg der Schweiz» towards Rütli or Bauen. Just some minutes away from the cable railway station you can reach the cheese dairy (which is open for public viewing), the Schillerbalkon, a natural «balcony» surrounded by the wonderful mountain panorama, the pilgrimage chapel, a big playground and a romantic lake with a beach and camping facilities. There is a connecting ride of your trip by a post bus from the cable railway station in Seelisberg. The post bus operates the whole year round.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/8771_Seilbahn-Eldorado--Treib-Seelisberg-Bahn_1a.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/8771_Seilbahn-Eldorado--Treib-Seelisberg-Bahn_1a.jpg",
+            "https://images.schweizmobil.ch/image/8771_Seilbahn-Eldorado--Treib-Seelisberg-Bahn_2b.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "Uri Tourismus AG",
+        "name_2": null,
+        "street": "Schützengasse 11",
+        "zip": "6460",
+        "place": "Altdorf",
+        "tel": "+41 (0)41 874 80 00",
+        "fax": null,
+        "email": "info@uri.swiss",
+        "url1_link": "https://www.uri.swiss",
+        "x_coordinate": 687364.8448497506,
+        "y_coordinate": 203715.60934202603,
+        "change_date": null,
+        "id": 21,
+        "r_key": 21,
+        "type": "Sight",
+        "url_sightseeing": "https://www.seelisberg.com/index.php/treib-seelisberg-bahn.html",
+        "touristic_region": 4,
+        "canton": 4
+    }
+}

@@ -1,1 +1,90 @@
-{"type":"Feature","id":462,"geometry":{"type":"Point","coordinates":[47.100573239466364,6.827417515576682]},"properties":{"land":null,"category":"all","language":"en","title":"Watchmaking town planning (UNESCO)","abstract":"A world and a fascinating town to be discovered minute after minute. Don't miss the wonders of La Chaux-de-Fonds promoted to the UNESCO world heritage.","description":"The history of watchmaking linked with the development and town planning is fascinating. The tour takes us back to the time when the flourishing clock-making industry of the Neuchâtel mountains made more than half of the world's production. As you walk along the straight streets, you can easily imagine the clock-makers behind their windows (south-facing to catch the light) and the swarming employees going up and down the streets carrying parts from one workshop to another. These tours are a good opportunity to get to know the anecdotes that shaped the metropolis with the centuries. A must !","highlights":null,"foto":"https://images0.schweizmobil.ch/image-big/Stadtlandschaft_Uhrenindustrie_Unesco_CSonderegger_CDF_Damier_10_g.jpg","photo_gallery":["https://images0.schweizmobil.ch/image/Stadtlandschaft_Uhrenindustrie_Unesco_AHenchoz_CDF_Damier_10_s.jpg","https://images0.schweizmobil.ch/image/Stadtlandschaft_Uhrenindustrie_Unesco_cdf_02_03_helico_50_s.jpg","https://images0.schweizmobil.ch/image/Stadtlandschaft_Uhrenindustrie_Unesco_CS_153737_s.jpg","https://images0.schweizmobil.ch/image/Stadtlandschaft_Uhrenindustrie_Unesco_CSonderegger_CDF_Damier_10_s.jpg","https://images0.schweizmobil.ch/image/Stadtlandschaft_Uhrenindustrie_Unesco_CSonderegger_CDF_Vue_2_s.jpg","https://images0.schweizmobil.ch/image/Stadtlandschaft_Uhrenindustrie_Unesco_GBALG_CDF_Damier_2_s.jpg","https://images0.schweizmobil.ch/image/Stadtlandschaft_Uhrenindustrie_Unesco_GPerret_CDF_Damier_1_s.jpg","https://images0.schweizmobil.ch/image/Stadtlandschaft_Uhrenindustrie_Unesco_IMGP9556_s.jpg"],"photo_gallery_big":["https://images0.schweizmobil.ch/image-big/Stadtlandschaft_Uhrenindustrie_Unesco_AHenchoz_CDF_Damier_10_g.jpg","https://images0.schweizmobil.ch/image-big/Stadtlandschaft_Uhrenindustrie_Unesco_cdf_02_03_helico_50_g.jpg","https://images0.schweizmobil.ch/image-big/Stadtlandschaft_Uhrenindustrie_Unesco_CS_153737_g.jpg","https://images0.schweizmobil.ch/image-big/Stadtlandschaft_Uhrenindustrie_Unesco_CSonderegger_CDF_Damier_10_g.jpg","https://images0.schweizmobil.ch/image-big/Stadtlandschaft_Uhrenindustrie_Unesco_CSonderegger_CDF_Vue_2_g.jpg","https://images0.schweizmobil.ch/image-big/Stadtlandschaft_Uhrenindustrie_Unesco_GBALG_CDF_Damier_2_g.jpg","https://images0.schweizmobil.ch/image-big/Stadtlandschaft_Uhrenindustrie_Unesco_GPerret_CDF_Damier_1_g.jpg","https://images0.schweizmobil.ch/image-big/Stadtlandschaft_Uhrenindustrie_Unesco_IMGP9556_g.jpg"],"photo_gallery_copyright":["                                                      ","","","","sondereggerfotos.ch","","© Guillaume Perret",""],"photo_gallery_author":["MICHEL COMTE                        ","","","","","","","Markus Bühler-Rasom"],"name":"Tourisme neuchâtelois - Montagnes","name_2":null,"street":"Espacité 1","zip":"2300","place":"La Chaux-de-Fonds","tel":"+41 (0)32 889 68 95","fax":null,"email":"info.cdf@ne.ch","url1_link":"https://www.neuchateltourisme.ch","x_coordinate":553600.3267456796,"y_coordinate":216800.27485583338,"change_date":null,"id":462,"r_key":462,"type":"Sight","url_sightseeing":"https://www.neuchateltourisme.ch/en/decouvertes/town-heritage/patrimoine-horloger-unesco.2068.html","touristic_region":8}}
+{
+    "type": "Feature",
+    "id": 462,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            47.10057324481308,
+            6.827417507742434
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Watchmaking town planning (UNESCO)",
+        "abstract": "A world and a fascinating town to be discovered minute after minute. Don't miss the wonders of La Chaux-de-Fonds promoted to the UNESCO world heritage.",
+        "description": "The history of watchmaking linked with the development and town planning is fascinating. The tour takes us back to the time when the flourishing clock-making industry of the Neuchâtel mountains made more than half of the world's production. As you walk along the straight streets, you can easily imagine the clock-makers behind their windows (south-facing to catch the light) and the swarming employees going up and down the streets carrying parts from one workshop to another. These tours are a good opportunity to get to know the anecdotes that shaped the metropolis with the centuries. A must !",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image-big/Stadtlandschaft_Uhrenindustrie_Unesco_CSonderegger_CDF_Damier_10_g.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/Stadtlandschaft_Uhrenindustrie_Unesco_AHenchoz_CDF_Damier_10_s.jpg",
+            "https://images.schweizmobil.ch/image/Stadtlandschaft_Uhrenindustrie_Unesco_cdf_02_03_helico_50_s.jpg",
+            "https://images.schweizmobil.ch/image/Stadtlandschaft_Uhrenindustrie_Unesco_CS_153737_s.jpg",
+            "https://images.schweizmobil.ch/image/Stadtlandschaft_Uhrenindustrie_Unesco_CSonderegger_CDF_Damier_10_s.jpg",
+            "https://images.schweizmobil.ch/image/Stadtlandschaft_Uhrenindustrie_Unesco_CSonderegger_CDF_Vue_2_s.jpg",
+            "https://images.schweizmobil.ch/image/Stadtlandschaft_Uhrenindustrie_Unesco_GBALG_CDF_Damier_2_s.jpg",
+            "https://images.schweizmobil.ch/image/Stadtlandschaft_Uhrenindustrie_Unesco_GPerret_CDF_Damier_1_s.jpg",
+            "https://images.schweizmobil.ch/image/Stadtlandschaft_Uhrenindustrie_Unesco_IMGP9556_s.jpg"
+        ],
+        "photo_gallery_big": [
+            "https://images.schweizmobil.ch/image-big/Stadtlandschaft_Uhrenindustrie_Unesco_AHenchoz_CDF_Damier_10_g.jpg",
+            "https://images.schweizmobil.ch/image-big/Stadtlandschaft_Uhrenindustrie_Unesco_cdf_02_03_helico_50_g.jpg",
+            "https://images.schweizmobil.ch/image-big/Stadtlandschaft_Uhrenindustrie_Unesco_CS_153737_g.jpg",
+            "https://images.schweizmobil.ch/image-big/Stadtlandschaft_Uhrenindustrie_Unesco_CSonderegger_CDF_Damier_10_g.jpg",
+            "https://images.schweizmobil.ch/image-big/Stadtlandschaft_Uhrenindustrie_Unesco_CSonderegger_CDF_Vue_2_g.jpg",
+            "https://images.schweizmobil.ch/image-big/Stadtlandschaft_Uhrenindustrie_Unesco_GBALG_CDF_Damier_2_g.jpg",
+            "https://images.schweizmobil.ch/image-big/Stadtlandschaft_Uhrenindustrie_Unesco_GPerret_CDF_Damier_1_g.jpg",
+            "https://images.schweizmobil.ch/image-big/Stadtlandschaft_Uhrenindustrie_Unesco_IMGP9556_g.jpg"
+        ],
+        "photo_gallery_copyright": [
+            "                                                      ",
+            "",
+            "",
+            "",
+            "sondereggerfotos.ch",
+            "",
+            "© Guillaume Perret",
+            ""
+        ],
+        "photo_gallery_author": [
+            "MICHEL COMTE                        ",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "Markus Bühler-Rasom"
+        ],
+        "photo_gallery_abstract": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "name": "Tourisme neuchâtelois - Montagnes",
+        "name_2": null,
+        "street": "Espacité 1",
+        "zip": "2300",
+        "place": "La Chaux-de-Fonds",
+        "tel": "+41 (0)32 889 68 95",
+        "fax": null,
+        "email": "info.cdf@ne.ch",
+        "url1_link": "https://www.neuchateltourisme.ch",
+        "x_coordinate": 553600.3267456796,
+        "y_coordinate": 216800.27485583338,
+        "change_date": null,
+        "id": 462,
+        "r_key": 462,
+        "type": "Sight",
+        "url_sightseeing": "https://www.neuchateltourisme.ch/en/decouvertes/town-heritage/patrimoine-horloger-unesco.2068.html",
+        "touristic_region": 8,
+        "canton": 25
+    }
+}

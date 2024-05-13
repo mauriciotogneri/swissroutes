@@ -1,0 +1,34 @@
+{
+    "type": "Feature",
+    "id": 5260,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            47.511823706456454,
+            8.47757499933851
+        ]
+    },
+    "properties": {
+        "land": "\"velo\",\"mountainbike\"",
+        "category": "all",
+        "language": "en",
+        "title": "Bike Power Radsport",
+        "abstract": null,
+        "name": "Bike Power Radsport",
+        "street": "Zürcherstrasse 17",
+        "zip": "8173",
+        "place": "Neerach",
+        "tel": "+41 44 885 85 70",
+        "email": null,
+        "url1_text": null,
+        "url1_link": "https://www.bikepower.ch",
+        "organisation": "2rad / 2routes / 2ruote",
+        "foto": null,
+        "foto_abstract": null,
+        "x_coordinate": 678263.2494204391,
+        "y_coordinate": 262860.3550263187,
+        "change_date": null,
+        "id": 633,
+        "type": "Service"
+    }
+}

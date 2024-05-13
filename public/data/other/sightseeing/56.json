@@ -1,50 +1,55 @@
 {
-  "type": "Feature",
-  "id": 56,
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      46.49637849228309,
-      9.1705486826383
-    ]
-  },
-  "properties": {
-    "land": null,
-    "category": "all",
-    "language": "en",
-    "title": "San Bernardino Pass – once a mule trail",
-    "abstract": "The San Bernadino Pass is one of the most important transit routes in the Swiss road network. Very different routes and roads have developed over the years, from paths along pack-animal trails to the modern basis tunnel.",
-    "description": "The pass was given today’s name in the 15th century when a chapel was built in San Bernadino in honour of Saint Bernhardin of Siena. Before this it was known as Vogelsberg (Bird Mountain), perhaps because of its importance to the annual north-south flight of migrating birds.\n\nOver the centuries, the San Bernardino Pass has seen many travellers, from prehistoric hunters to migrating Valsers, pack-animal trains and warring armies to motoring tourists. During this time, the transport route has undergone continual adaptation: from footpath to pack-animal trail, a first navigable narrow road and the commercial route from 1818/23 to the basis tunnel from 1967.\n\nThe 19th century commercial road, with its many civil-engineering structures and the first hostel at the top of the pass, is regarded as an extremely beautiful example of construction. After 30 years of service, the basis tunnel had to undergo extensive renovations and the commercial road was further developed to take some of the heavy traffic. Thanks to maximum respect for the historic building structure, the pass road is now a prime example of the careful renovation of a road classed as a national monument.",
-    "highlights": null,
-    "foto": "https://images0.schweizmobil.ch/image/IVS_34_Bernardino.jpg",
-    "photo_gallery": [
-      "https://images0.schweizmobil.ch/image/IVS_34_Bernardino.jpg"
-    ],
-    "photo_gallery_big": [
-      ""
-    ],
-    "photo_gallery_copyright": [
-      ""
-    ],
-    "photo_gallery_author": [
-      ""
-    ],
-    "name": "Bundesinventar der historischen Verkehrswege der Schweiz (IVS)",
-    "name_2": null,
-    "street": "",
-    "zip": "",
-    "place": "",
-    "tel": "",
-    "fax": null,
-    "email": "",
-    "url1_link": "https://www.ivs.admin.ch",
-    "x_coordinate": 732949.7791014626,
-    "y_coordinate": 150919.843652442,
-    "change_date": null,
+    "type": "Feature",
     "id": 56,
-    "r_key": 56,
-    "type": "Sight",
-    "url_sightseeing": "https://s.geo.admin.ch/6fb17409ca",
-    "touristic_region": 1
-  }
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.496378504085655,
+            9.170548752896005
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "San Bernardino Pass – once a mule trail",
+        "abstract": "The San Bernadino Pass is one of the most important transit routes in the Swiss road network. Very different routes and roads have developed over the years, from paths along pack-animal trails to the modern basis tunnel.",
+        "description": "The pass was given today’s name in the 15th century when a chapel was built in San Bernadino in honour of Saint Bernhardin of Siena. Before this it was known as Vogelsberg (Bird Mountain), perhaps because of its importance to the annual north-south flight of migrating birds.\n\nOver the centuries, the San Bernardino Pass has seen many travellers, from prehistoric hunters to migrating Valsers, pack-animal trains and warring armies to motoring tourists. During this time, the transport route has undergone continual adaptation: from footpath to pack-animal trail, a first navigable narrow road and the commercial route from 1818/23 to the basis tunnel from 1967.\n\nThe 19th century commercial road, with its many civil-engineering structures and the first hostel at the top of the pass, is regarded as an extremely beautiful example of construction. After 30 years of service, the basis tunnel had to undergo extensive renovations and the commercial road was further developed to take some of the heavy traffic. Thanks to maximum respect for the historic building structure, the pass road is now a prime example of the careful renovation of a road classed as a national monument.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/IVS_34_Bernardino.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/IVS_34_Bernardino.jpg"
+        ],
+        "photo_gallery_big": [
+            ""
+        ],
+        "photo_gallery_copyright": [
+            ""
+        ],
+        "photo_gallery_author": [
+            ""
+        ],
+        "photo_gallery_abstract": [
+            ""
+        ],
+        "name": "Bundesinventar der historischen Verkehrswege der Schweiz (IVS)",
+        "name_2": null,
+        "street": " ",
+        "zip": " ",
+        "place": " ",
+        "tel": " ",
+        "fax": null,
+        "email": " ",
+        "url1_link": "https://www.ivs.admin.ch",
+        "x_coordinate": 732949.7791014626,
+        "y_coordinate": 150919.843652442,
+        "change_date": null,
+        "id": 56,
+        "r_key": 56,
+        "type": "Sight",
+        "url_sightseeing": "https://s.geo.admin.ch/6fb17409ca",
+        "touristic_region": 1,
+        "canton": 2
+    }
 }

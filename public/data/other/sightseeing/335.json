@@ -1,1 +1,60 @@
-{"type":"Feature","id":335,"geometry":{"type":"Point","coordinates":[46.783103431736905,9.52013184572063]},"properties":{"land":null,"category":"all","language":"en","title":"Pradaschier - toboggan run","abstract":"With 31 bends and a drop in height of 480 metres, this toboggan run winds its way down to the valley for more than 3100 metres, making it one of the longest toboggan runs open year-round.","description":"At 40 km per hour, this ride is a mad dash through hairpin bends high above the earth. Whoosh – and you're down in the valley.\n\nTo enjoy Pradaschier's 3100 metre-long all-seasons toboggan run to the full, you do not even need to know that it is the longest toboggan run in Switzerland. And the best thing about it is that in only 6 minutes the 4-seater chairlift transports people and toboggan riders from Churwalden back up to the starting point of the daredevil slide.\n\nSince the toboggan runs on elevated tracks, it is also fully functional in winter. Special round trip tickets for the excursion Chur - Brambrüsch (hike from Brambrüsch to Pradaschier), 2 toboggan rides, return to Chur by bus. The toboggan run is certified with the security label SIA (Safety adventure).","highlights":null,"foto":"https://images0.schweizmobil.ch/image/8860_Pradaschier_laengste-Rodelbahn-der-Welt_1a.jpg","photo_gallery":["https://images0.schweizmobil.ch/image/8860_Pradaschier_laengste-Rodelbahn-der-Welt_1a.jpg","https://images0.schweizmobil.ch/image/8860_Pradaschier_laengste-Rodelbahn-der-Welt_2b.jpg"],"photo_gallery_big":["",""],"photo_gallery_copyright":["",""],"photo_gallery_author":["",""],"name":"Ferienregion Lenzerheide","name_2":null,"street":"Voa Principala 37","zip":"7078","place":"Lenzerheide","tel":"+41 (0)81 385 57 00","fax":null,"email":"info@lenzerheide.com","url1_link":"https://www.lenzerheide.com","x_coordinate":758933.6131859653,"y_coordinate":183434.4480384628,"change_date":null,"id":335,"r_key":335,"type":"Sight","url_sightseeing":"https://www.graubuenden.ch/de/regionen-entdecken/chur/rodelbahn-pradaschier","touristic_region":1}}
+{
+    "type": "Feature",
+    "id": 335,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.78310343934746,
+            9.52013186204317
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Pradaschier - toboggan run",
+        "abstract": "With 31 bends and a drop in height of 480 metres, this toboggan run winds its way down to the valley for more than 3100 metres, making it one of the longest toboggan runs open year-round.",
+        "description": "At 40 km per hour, this ride is a mad dash through hairpin bends high above the earth. Whoosh – and you're down in the valley.\n\nTo enjoy Pradaschier's 3100 metre-long all-seasons toboggan run to the full, you do not even need to know that it is the longest toboggan run in Switzerland. And the best thing about it is that in only 6 minutes the 4-seater chairlift transports people and toboggan riders from Churwalden back up to the starting point of the daredevil slide.\n\nSince the toboggan runs on elevated tracks, it is also fully functional in winter. Special round trip tickets for the excursion Chur - Brambrüsch (hike from Brambrüsch to Pradaschier), 2 toboggan rides, return to Chur by bus. The toboggan run is certified with the security label SIA (Safety adventure).",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/8860_Pradaschier_laengste-Rodelbahn-der-Welt_1a.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/8860_Pradaschier_laengste-Rodelbahn-der-Welt_1a.jpg",
+            "https://images.schweizmobil.ch/image/8860_Pradaschier_laengste-Rodelbahn-der-Welt_2b.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "Ferienregion Lenzerheide",
+        "name_2": null,
+        "street": "Voa Principala 37",
+        "zip": "7078",
+        "place": "Lenzerheide",
+        "tel": "+41 (0)81 385 57 00",
+        "fax": null,
+        "email": "info@lenzerheide.com",
+        "url1_link": "https://www.lenzerheide.com",
+        "x_coordinate": 758933.6131859653,
+        "y_coordinate": 183434.4480384628,
+        "change_date": null,
+        "id": 335,
+        "r_key": 335,
+        "type": "Sight",
+        "url_sightseeing": "https://www.graubuenden.ch/de/regionen-entdecken/chur/rodelbahn-pradaschier",
+        "touristic_region": 1,
+        "canton": 2
+    }
+}

@@ -1,1 +1,75 @@
-{"type":"Feature","id":691,"geometry":{"type":"Point","coordinates":[46.86897161041106,9.880349882510401]},"properties":{"land":null,"category":"all","language":"en","title":"691 Gotschna Freeride","abstract":"Almost 6km long with an elevation drop of 590m. The Gotschna freeride trail takes you to Klosters via 200 steep turns, jumps and waves.","description":"The first Grisons A-line starts at the intermediate station at Gotschnaboden in Klosters. Riders can warm up and try a few tricks at the skill centre there. The trail offers pure fun. It includes a lot of steep turns, jumps and an 800m-long of north shore section. It's suitable for beginners and pros alike! There are challenging lines (marked black or red) for skilled riders while beginners should remain on the easier main trail (marked blue). This means that riders of varying ability can use the trail without getting in each other's way.\n\n50 banked turns, which technically skilled riders can ride without breaking, beckon. And there are over 30 tables. The trail offers experienced freeriders combinations with high jumps, hard waves, even vertical turns. The Gotschna freeride trail's key appeal is fun and the moderately steep terrain (10% gradient) from Gotschnaboden down to the base station of the Gotschna cableway. Having arrived at the finish, the Gotschna cableway takes you back up to the start in no time.\n\n Length: 5,800m / difference in altitude: 590m / 800m north shore / 50 banked turns / 30 tables / blue, red and black lines.","highlights":null,"foto":"https://images0.schweizmobil.ch/image/Gotschna_Freeride_1.jpg","photo_gallery":["https://images0.schweizmobil.ch/image/Gotschna_Freeride_1.jpg","https://images0.schweizmobil.ch/image/Gotschna_Freeride_2.jpg","https://images0.schweizmobil.ch/image/Gotschna_Freeride_3.jpg","https://images0.schweizmobil.ch/image/Gotschna_Freeride_4.jpg","https://images0.schweizmobil.ch/image/Gotschna_Freeride_5.jpg"],"photo_gallery_big":["","","","",""],"photo_gallery_copyright":["","","","",""],"photo_gallery_author":["","","","",""],"name":"Destination Davos Klosters","name_2":null,"street":"Talstrasse 41","zip":"7270","place":"Davos Platz","tel":"+41 (0)81 415 21 21","fax":null,"email":"info@davos.ch","url1_link":"https://www.davos-klosters.ch","x_coordinate":786132.1598740565,"y_coordinate":193768.79238644787,"change_date":null,"id":691,"r_key":691,"type":"Sight","url_sightseeing":"https://www.davos.ch/aktivitaeten/radsport/mountainbiken/gotschna-freeride-piste","touristic_region":1}}
+{
+    "type": "Feature",
+    "id": 691,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.86897160970723,
+            9.880349896957815
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "691 Gotschna Freeride",
+        "abstract": "Almost 6km long with an elevation drop of 590m. The Gotschna freeride trail takes you to Klosters via 200 steep turns, jumps and waves.",
+        "description": "The first Grisons A-line starts at the intermediate station at Gotschnaboden in Klosters. Riders can warm up and try a few tricks at the skill centre there. The trail offers pure fun. It includes a lot of steep turns, jumps and an 800m-long of north shore section. It's suitable for beginners and pros alike! There are challenging lines (marked black or red) for skilled riders while beginners should remain on the easier main trail (marked blue). This means that riders of varying ability can use the trail without getting in each other's way.\n\n50 banked turns, which technically skilled riders can ride without breaking, beckon. And there are over 30 tables. The trail offers experienced freeriders combinations with high jumps, hard waves, even vertical turns. The Gotschna freeride trail's key appeal is fun and the moderately steep terrain (10% gradient) from Gotschnaboden down to the base station of the Gotschna cableway. Having arrived at the finish, the Gotschna cableway takes you back up to the start in no time.\n\n Length: 5,800m / difference in altitude: 590m / 800m north shore / 50 banked turns / 30 tables / blue, red and black lines.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/Gotschna_Freeride_1.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/Gotschna_Freeride_1.jpg",
+            "https://images.schweizmobil.ch/image/Gotschna_Freeride_2.jpg",
+            "https://images.schweizmobil.ch/image/Gotschna_Freeride_3.jpg",
+            "https://images.schweizmobil.ch/image/Gotschna_Freeride_4.jpg",
+            "https://images.schweizmobil.ch/image/Gotschna_Freeride_5.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "name": "Destination Davos Klosters",
+        "name_2": null,
+        "street": "Talstrasse 41",
+        "zip": "7270",
+        "place": "Davos Platz",
+        "tel": "+41 (0)81 415 21 21",
+        "fax": null,
+        "email": "info@davos.ch",
+        "url1_link": "https://www.davos-klosters.ch",
+        "x_coordinate": 786132.1598740565,
+        "y_coordinate": 193768.79238644787,
+        "change_date": null,
+        "id": 691,
+        "r_key": 691,
+        "type": "Sight",
+        "url_sightseeing": "https://www.davos.ch/aktivitaeten/radsport/mountainbiken/gotschna-freeride-piste",
+        "touristic_region": 1,
+        "canton": 2
+    }
+}

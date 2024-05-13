@@ -1,1 +1,34 @@
-{"type":"Feature","id":3272,"geometry":{"type":"Point","coordinates":[47.46975197994261,8.301720952495398]},"properties":{"land":"\"velo\",\"mountainbike\"","category":"all","language":"en","title":"Bike Zone GmbH","abstract":null,"name":"Bike Zone GmbH","street":"Mellingerstrasse 58","zip":"5400","place":"Baden","tel":"+41 56 221 2023","email":null,"url1_text":null,"url1_link":"https://www.bikezone.ch","organisation":"2rad / 2routes / 2ruote","foto":null,"x_coordinate":665068.7319699654,"y_coordinate":258022.51113924908,"change_date":null,"id":552,"type":"Service"}}
+{
+    "type": "Feature",
+    "id": 3272,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            47.4697519807893,
+            8.301720964912848
+        ]
+    },
+    "properties": {
+        "land": "\"velo\",\"mountainbike\"",
+        "category": "all",
+        "language": "en",
+        "title": "Bike Zone GmbH",
+        "abstract": null,
+        "name": "Bike Zone GmbH",
+        "street": "Mellingerstrasse 58",
+        "zip": "5400",
+        "place": "Baden",
+        "tel": "+41 56 221 2023",
+        "email": null,
+        "url1_text": null,
+        "url1_link": "https://www.bikezone.ch",
+        "organisation": "2rad / 2routes / 2ruote",
+        "foto": null,
+        "foto_abstract": null,
+        "x_coordinate": 665068.7319699654,
+        "y_coordinate": 258022.51113924908,
+        "change_date": null,
+        "id": 552,
+        "type": "Service"
+    }
+}

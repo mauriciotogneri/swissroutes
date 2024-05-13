@@ -1,1 +1,34 @@
-{"type":"Feature","id":3058,"geometry":{"type":"Point","coordinates":[46.91523820875079,9.761033929671349]},"properties":{"land":"\"velo\",\"mountainbike\"","category":"all","language":"en","title":"Velo Flütsch","abstract":null,"name":"Velo Flütsch","street":"Industriestrasse 14","zip":"7240","place":"Küblis","tel":"+41 81 330 53 60","email":null,"url1_text":null,"url1_link":"https://www.velofluetsch.ch","organisation":"2rad / 2routes / 2ruote","foto":null,"x_coordinate":776887.6521952167,"y_coordinate":198633.0615123329,"change_date":null,"id":294,"type":"Service"}}
+{
+    "type": "Feature",
+    "id": 3058,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.915238210665066,
+            9.761033856634363
+        ]
+    },
+    "properties": {
+        "land": "\"velo\",\"mountainbike\"",
+        "category": "all",
+        "language": "en",
+        "title": "Velo Flütsch",
+        "abstract": null,
+        "name": "Velo Flütsch",
+        "street": "Industriestrasse 14",
+        "zip": "7240",
+        "place": "Küblis",
+        "tel": "+41 81 330 53 60",
+        "email": null,
+        "url1_text": null,
+        "url1_link": "https://www.velofluetsch.ch",
+        "organisation": "2rad / 2routes / 2ruote",
+        "foto": null,
+        "foto_abstract": null,
+        "x_coordinate": 776887.6521952167,
+        "y_coordinate": 198633.0615123329,
+        "change_date": null,
+        "id": 294,
+        "type": "Service"
+    }
+}

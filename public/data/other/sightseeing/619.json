@@ -1,1 +1,60 @@
-{"type":"Feature","id":619,"geometry":{"type":"Point","coordinates":[46.32901418001534,7.978796884364676]},"properties":{"land":null,"category":"all","language":"en","title":"Museum of the Swiss Guards","abstract":"In the past «Schweizer» or «Schweitzer» was synonymous with mercenary. Poverty and a deep longing for adventure drove the young Swiss men from their narrow valleys in the hands and service of foreign powers and onto European battlefields.","description":"No other town has contributed more Swiss Gards to the Papal chair than Naters. For this reason the historian Werner Bellwald decided to open a museum of the Swiss Guards in the old fortress just above Naters. Since the present-day Swiss Army no longer needed the fortress, the town bought the storage halls for ammunition deep within the granite. Now the halls house the collection of the museum.\n\nOur tip: Take a round-trip with the ‘little Simplon-Express’ through Brig and Naters. Afterwards you will be chauffeured up to the Museum of the Swiss Guard.","highlights":null,"foto":"https://images0.schweizmobil.ch/image/8017_Gardemuseum_1a.jpg","photo_gallery":["https://images0.schweizmobil.ch/image/8017_Gardemuseum_1a.jpg","https://images0.schweizmobil.ch/image/8017_Gardemuseum_2b.jpg"],"photo_gallery_big":["",""],"photo_gallery_copyright":["",""],"photo_gallery_author":["",""],"name":"Blatten - Belalp Tourismus","name_2":null,"street":"Rischinustrasse  5","zip":"3914","place":"Blatten","tel":"+41 (0)27 921 60 40","fax":null,"email":"tourismus@belalp.ch","url1_link":"https://www.belalp.ch","x_coordinate":641596.0661861621,"y_coordinate":130990.03011230519,"change_date":null,"id":619,"r_key":619,"type":"Sight","url_sightseeing":"https://www.zentrumgarde.ch","touristic_region":11}}
+{
+    "type": "Feature",
+    "id": 619,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.32901415253247,
+            7.978796895110713
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Museum of the Swiss Guards",
+        "abstract": "In the past «Schweizer» or «Schweitzer» was synonymous with mercenary. Poverty and a deep longing for adventure drove the young Swiss men from their narrow valleys in the hands and service of foreign powers and onto European battlefields.",
+        "description": "No other town has contributed more Swiss Gards to the Papal chair than Naters. For this reason the historian Werner Bellwald decided to open a museum of the Swiss Guards in the old fortress just above Naters. Since the present-day Swiss Army no longer needed the fortress, the town bought the storage halls for ammunition deep within the granite. Now the halls house the collection of the museum.\n\nOur tip: Take a round-trip with the ‘little Simplon-Express’ through Brig and Naters. Afterwards you will be chauffeured up to the Museum of the Swiss Guard.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/8017_Gardemuseum_1a.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/8017_Gardemuseum_1a.jpg",
+            "https://images.schweizmobil.ch/image/8017_Gardemuseum_2b.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "Blatten - Belalp Tourismus",
+        "name_2": null,
+        "street": "Rischinustrasse  5",
+        "zip": "3914",
+        "place": "Blatten",
+        "tel": "+41 (0)27 921 60 40",
+        "fax": null,
+        "email": "tourismus@belalp.ch",
+        "url1_link": "https://www.belalp.ch",
+        "x_coordinate": 641596.0661861621,
+        "y_coordinate": 130990.03011230519,
+        "change_date": null,
+        "id": 619,
+        "r_key": 619,
+        "type": "Sight",
+        "url_sightseeing": "https://www.zentrumgarde.ch",
+        "touristic_region": 11,
+        "canton": 7
+    }
+}

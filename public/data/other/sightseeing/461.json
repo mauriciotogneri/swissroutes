@@ -1,1 +1,60 @@
-{"type":"Feature","id":461,"geometry":{"type":"Point","coordinates":[47.342355803415444,7.43996046071113]},"properties":{"land":null,"category":"all","language":"en","title":"Taxidermist Schneiter","abstract":"Discover the extraordinary skill and imagination of taxidermy. Visit of the gallery «Noah's Ark» and its more than 3,000 stuffed animals, displayed in their natural surroundings.","description":"A small village in the Delémont valley is home to Europe's largest taxidermy exhibition. More than 3,000 different species are on show here. This is a magical visit that transports visitors to every part of the world.","highlights":null,"foto":"https://images0.schweizmobil.ch/image/11345_Tierpraeparator_Schneiter_1a.jpg","photo_gallery":["https://images0.schweizmobil.ch/image/11345_Tierpraeparator_Schneiter_1a.jpg","https://images0.schweizmobil.ch/image/11345_Tierpraeparator_Schneiter_2b.jpg"],"photo_gallery_big":["",""],"photo_gallery_copyright":["",""],"photo_gallery_author":["",""],"name":"Jura Tourisme","name_2":null,"street":"Place de la Gare 9","zip":"2800","place":"Delémont","tel":"+41 (0)32 432 41 70","fax":null,"email":"info@juratourisme.ch","url1_link":"https://www.juratourisme.ch","x_coordinate":600100.1007927422,"y_coordinate":243500.4115868766,"change_date":null,"id":461,"r_key":461,"type":"Sight","url_sightseeing":"https://www.arche-noe.ch","touristic_region":8}}
+{
+    "type": "Feature",
+    "id": 461,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            47.34235581467368,
+            7.439960460744838
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Taxidermist Schneiter",
+        "abstract": "Discover the extraordinary skill and imagination of taxidermy. Visit of the gallery «Noah's Ark» and its more than 3,000 stuffed animals, displayed in their natural surroundings.",
+        "description": "A small village in the Delémont valley is home to Europe's largest taxidermy exhibition. More than 3,000 different species are on show here. This is a magical visit that transports visitors to every part of the world.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/11345_Tierpraeparator_Schneiter_1a.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/11345_Tierpraeparator_Schneiter_1a.jpg",
+            "https://images.schweizmobil.ch/image/11345_Tierpraeparator_Schneiter_2b.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "Jura Tourisme",
+        "name_2": null,
+        "street": "Place de la Gare 9",
+        "zip": "2800",
+        "place": "Delémont",
+        "tel": "+41 (0)32 432 41 70",
+        "fax": null,
+        "email": "info@juratourisme.ch",
+        "url1_link": "https://www.juratourisme.ch",
+        "x_coordinate": 600100.1007927422,
+        "y_coordinate": 243500.4115868766,
+        "change_date": null,
+        "id": 461,
+        "r_key": 461,
+        "type": "Sight",
+        "url_sightseeing": "https://www.arche-noe.ch",
+        "touristic_region": 8,
+        "canton": 24
+    }
+}

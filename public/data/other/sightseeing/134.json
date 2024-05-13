@@ -1,1 +1,65 @@
-{"type":"Feature","id":134,"geometry":{"type":"Point","coordinates":[47.28721746585355,7.387322118046999]},"properties":{"land":null,"category":"all","language":"en","title":"Moutier's ravines","abstract":"Moutier lies in the hollow of the Grand Val at an altitude of 535 metres. The nearby ravines delight the hearts of mountaineers (with their wall climbs of varying degrees of difficulty) and of palaeontologists (because one even features dinosaur tracks).","description":"The River Birse, which crosses the Grand Val from south to north across the Jura range, has carved out sizeable ravines upstream of Moutier (Gorges de Court through the Graitery anticlines) and downstream of the town (Gorges de Moutier through the Mont Raimeux anticlines). These two transverse valleys perfectly illustrate the Jura fold pattern.\n\nThe Raimeux ridge is popular with hikers, climbers, paragliders and those in search of solitude. The routes are very different, but all are natural gems, and the ridge offers a breathtaking panorama and views of Moutier's ravines. The area's steep paths, grey cliffs and wild forests are simply irresistible.","highlights":null,"foto":"https://images0.schweizmobil.ch/image/11485_Gorges_de_Moutier_1a.jpg","photo_gallery":["https://images0.schweizmobil.ch/image/11485_Gorges_de_Moutier_1a.jpg","https://images0.schweizmobil.ch/image/11485_Gorges_de_Moutier_2b.jpg","https://images0.schweizmobil.ch/image/Sehenswuerdigkeit_GorgesdeMoutier.jpg"],"photo_gallery_big":["","",""],"photo_gallery_copyright":["","",""],"photo_gallery_author":["","",""],"name":"Jura bernois Tourisme","name_2":null,"street":"Avenue de la Gare 9","zip":"2740","place":"Moutier","tel":"+41 32 494 53 43","fax":null,"email":"moutier@jurabernois.ch","url1_link":"https://wwww.jurabernois.ch","x_coordinate":596118.7048170497,"y_coordinate":237371.2606725533,"change_date":null,"id":134,"r_key":134,"type":"Sight","url_sightseeing":"https://www.jurabernois.ch/en/leisure-activities/hiking.586/raimeux.955.html","touristic_region":8}}
+{
+    "type": "Feature",
+    "id": 134,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            47.28721748013342,
+            7.387322117900717
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Moutier's ravines",
+        "abstract": "Moutier lies in the hollow of the Grand Val at an altitude of 535 metres. The nearby ravines delight the hearts of mountaineers (with their wall climbs of varying degrees of difficulty) and of palaeontologists (because one even features dinosaur tracks).",
+        "description": "The River Birse, which crosses the Grand Val from south to north across the Jura range, has carved out sizeable ravines upstream of Moutier (Gorges de Court through the Graitery anticlines) and downstream of the town (Gorges de Moutier through the Mont Raimeux anticlines). These two transverse valleys perfectly illustrate the Jura fold pattern.\n\nThe Raimeux ridge is popular with hikers, climbers, paragliders and those in search of solitude. The routes are very different, but all are natural gems, and the ridge offers a breathtaking panorama and views of Moutier's ravines. The area's steep paths, grey cliffs and wild forests are simply irresistible.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/11485_Gorges_de_Moutier_1a.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/11485_Gorges_de_Moutier_1a.jpg",
+            "https://images.schweizmobil.ch/image/11485_Gorges_de_Moutier_2b.jpg",
+            "https://images.schweizmobil.ch/image/Sehenswuerdigkeit_GorgesdeMoutier.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            "",
+            ""
+        ],
+        "name": "Jura bernois Tourisme",
+        "name_2": null,
+        "street": "Avenue de la Gare 9",
+        "zip": "2740",
+        "place": "Moutier",
+        "tel": "+41 32 494 53 43",
+        "fax": null,
+        "email": "moutier@jurabernois.ch",
+        "url1_link": "https://wwww.jurabernois.ch",
+        "x_coordinate": 596118.7048170497,
+        "y_coordinate": 237371.2606725533,
+        "change_date": null,
+        "id": 134,
+        "r_key": 134,
+        "type": "Sight",
+        "url_sightseeing": "https://www.jurabernois.ch/en/leisure-activities/hiking.586/raimeux.955.html",
+        "touristic_region": 8,
+        "canton": 12
+    }
+}

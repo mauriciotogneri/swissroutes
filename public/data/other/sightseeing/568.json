@@ -1,1 +1,60 @@
-{"type":"Feature","id":568,"geometry":{"type":"Point","coordinates":[47.555664690774535,7.592549620027459]},"properties":{"land":null,"category":"all","language":"en","title":"Basel's Old Town","abstract":"Travel through time as you explore Basel on foot. Basel's Old Town is one of the best-preserved and most beautiful in Europe.","description":"In few other cities you will find buildings dating back to the 15th century contrasting with and yet complementing the modern works of internationally renowned architects.\n\nThe Old Town is divided in two sides by the Rhine: Grossbasel and Kleinbasel. Both parts of the city have their own individual charm. Kleinbasel entices first of all with the Rhine bank, which invites to linger and relax at the first rays of sunshine. The Old Town of Grossbasel on the other hand captivates with its snug spots and winding alleys, which invite to take a stroll.","highlights":null,"foto":"https://images0.schweizmobil.ch/image/8171_Basler-Altstadt_1a.jpg","photo_gallery":["https://images0.schweizmobil.ch/image/8171_Basler-Altstadt_1a.jpg","https://images0.schweizmobil.ch/image/8171_Basler-Altstadt_2b.jpg"],"photo_gallery_big":["",""],"photo_gallery_copyright":["",""],"photo_gallery_author":["",""],"name":"Basel Tourismus Tourist Information","name_2":null,"street":"Steinenberg 14","zip":"4010","place":"Basel","tel":"+41 (0)61 268 68 68","fax":null,"email":"info@basel.com","url1_link":"https://www.basel.com","x_coordinate":611585.97791183,"y_coordinate":267228.4485506498,"change_date":null,"id":568,"r_key":568,"type":"Sight","url_sightseeing":"https://www.basel.com/de/Sehenswuerdigkeiten/Die-Basler-Altstadt","touristic_region":5}}
+{
+    "type": "Feature",
+    "id": 568,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            47.55566471878244,
+            7.592549620492599
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Basel's Old Town",
+        "abstract": "Travel through time as you explore Basel on foot. Basel's Old Town is one of the best-preserved and most beautiful in Europe.",
+        "description": "In few other cities you will find buildings dating back to the 15th century contrasting with and yet complementing the modern works of internationally renowned architects.\n\nThe Old Town is divided in two sides by the Rhine: Grossbasel and Kleinbasel. Both parts of the city have their own individual charm. Kleinbasel entices first of all with the Rhine bank, which invites to linger and relax at the first rays of sunshine. The Old Town of Grossbasel on the other hand captivates with its snug spots and winding alleys, which invite to take a stroll.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/8171_Basler-Altstadt_1a.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/8171_Basler-Altstadt_1a.jpg",
+            "https://images.schweizmobil.ch/image/8171_Basler-Altstadt_2b.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "Basel Tourismus Tourist Information",
+        "name_2": null,
+        "street": "Steinenberg 14",
+        "zip": "4010",
+        "place": "Basel",
+        "tel": "+41 (0)61 268 68 68",
+        "fax": null,
+        "email": "info@basel.com",
+        "url1_link": "https://www.basel.com",
+        "x_coordinate": 611585.97791183,
+        "y_coordinate": 267228.4485506498,
+        "change_date": null,
+        "id": 568,
+        "r_key": 568,
+        "type": "Sight",
+        "url_sightseeing": "https://www.basel.com/de/Sehenswuerdigkeiten/Die-Basler-Altstadt",
+        "touristic_region": 5,
+        "canton": 8
+    }
+}

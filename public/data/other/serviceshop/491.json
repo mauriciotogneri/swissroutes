@@ -1,1 +1,34 @@
-{"type":"Feature","id":3221,"geometry":{"type":"Point","coordinates":[47.209995680185756,9.516411751760335]},"properties":{"land":"\"velo\",\"mountainbike\"","category":"all","language":"en","title":"Sele Radsport","abstract":null,"name":"Sele Radsport","street":"Silligatter 40","zip":"9492","place":"Eschen","tel":"+423 373 49 53","email":null,"url1_text":null,"url1_link":"https://www.sele-radsport.li","organisation":"2rad / 2routes / 2ruote","foto":null,"x_coordinate":757392.77742142,"y_coordinate":230868.4561565916,"change_date":null,"id":491,"type":"Service"}}
+{
+    "type": "Feature",
+    "id": 3221,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            47.20999568425964,
+            9.516411815411718
+        ]
+    },
+    "properties": {
+        "land": "\"velo\",\"mountainbike\"",
+        "category": "all",
+        "language": "en",
+        "title": "Sele Radsport",
+        "abstract": null,
+        "name": "Sele Radsport",
+        "street": "Silligatter 40",
+        "zip": "9492",
+        "place": "Eschen",
+        "tel": "+423 373 49 53",
+        "email": null,
+        "url1_text": null,
+        "url1_link": "https://www.sele-radsport.li",
+        "organisation": "2rad / 2routes / 2ruote",
+        "foto": null,
+        "foto_abstract": null,
+        "x_coordinate": 757392.77742142,
+        "y_coordinate": 230868.4561565916,
+        "change_date": null,
+        "id": 491,
+        "type": "Service"
+    }
+}

@@ -1,1 +1,34 @@
-{"type":"Feature","id":2948,"geometry":{"type":"Point","coordinates":[47.31969592976017,7.899606168723886]},"properties":{"land":"\"velo\",\"mountainbike\"","category":"all","language":"en","title":"biri-bikes","abstract":null,"name":"biri-bikes","street":"Hofmattstrasse 2","zip":"4663","place":"Aarburg","tel":"+41 62 791 55 44","email":null,"url1_text":null,"url1_link":"https://www.biri-bikes.ch","organisation":"2rad / 2routes / 2ruote","foto":null,"x_coordinate":634851.7144780771,"y_coordinate":241083.09240421324,"change_date":null,"id":166,"type":"Service"}}
+{
+    "type": "Feature",
+    "id": 2948,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            47.35511787407272,
+            7.95456294041681
+        ]
+    },
+    "properties": {
+        "land": "\"velo\",\"mountainbike\"",
+        "category": "all",
+        "language": "en",
+        "title": "biri-bikes",
+        "abstract": null,
+        "name": "biri-bikes",
+        "street": "Dullikerstrasse 4",
+        "zip": "4653",
+        "place": "Obergösgen",
+        "tel": "+41 62 791 55 44",
+        "email": null,
+        "url1_text": null,
+        "url1_link": "https://www.biri-bikes.ch",
+        "organisation": "2rad / 2routes / 2ruote",
+        "foto": null,
+        "foto_abstract": null,
+        "x_coordinate": 638980.1607615865,
+        "y_coordinate": 245047.97467723224,
+        "change_date": null,
+        "id": 166,
+        "type": "Service"
+    }
+}

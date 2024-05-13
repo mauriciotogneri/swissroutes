@@ -1,1 +1,34 @@
-{"type":"Feature","id":3186,"geometry":{"type":"Point","coordinates":[47.33514566776577,9.406538158892808]},"properties":{"land":"\"velo\",\"mountainbike\"","category":"all","language":"en","title":"Gollino Stefan Velos-Motos AG","abstract":null,"name":"Gollino Stefan Velos-Motos AG","street":"Zielstrasse 46","zip":"9050","place":"Appenzell","tel":"+41 71 787 48 38","email":null,"url1_text":null,"url1_link":null,"organisation":"2rad / 2routes / 2ruote","foto":null,"x_coordinate":748722.9014557855,"y_coordinate":244563.50889158738,"change_date":null,"id":450,"type":"Service"}}
+{
+    "type": "Feature",
+    "id": 3186,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            47.335145673741195,
+            9.406538252162088
+        ]
+    },
+    "properties": {
+        "land": "\"velo\",\"mountainbike\"",
+        "category": "all",
+        "language": "en",
+        "title": "Gollino Stefan Velos-Motos AG",
+        "abstract": null,
+        "name": "Gollino Stefan Velos-Motos AG",
+        "street": "Zielstrasse 46",
+        "zip": "9050",
+        "place": "Appenzell",
+        "tel": "+41 71 787 48 38",
+        "email": null,
+        "url1_text": null,
+        "url1_link": null,
+        "organisation": "2rad / 2routes / 2ruote",
+        "foto": null,
+        "foto_abstract": null,
+        "x_coordinate": 748722.9014557855,
+        "y_coordinate": 244563.50889158738,
+        "change_date": null,
+        "id": 450,
+        "type": "Service"
+    }
+}

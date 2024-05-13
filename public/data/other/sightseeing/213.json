@@ -1,1 +1,80 @@
-{"type":"Feature","id":213,"geometry":{"type":"Point","coordinates":[47.2179537620379,8.782049398033415]},"properties":{"land":null,"category":"all","language":"en","title":"Ufenau and Lützelau Islands in Lake Züri","abstract":"The islands of Ufnau and Lützelau are situated in the upper part of Lake Zürich. In 1927, the larger island of Ufnau (Ufnau is the correct name, Ufenau is used more often) was designated a nature conservation area together with the Frauenwinkel region.","description":"The owner and administrator of Ufenau Island is the Einsiedeln Monastery. For this reason, swimming on the island is not permitted. During a tour of the island, you will explore the parish church of St. Peter and Paul with archaeological finds from a Gallic-Roman temple from the 2nd and 3rd centuries, as well as St. Martin’s Chapel. From mid-March to mid-October, the island’s restaurant is open and provides hearty fare for its guests.\n\nSince April 2007 an obstacle-free trail exists on the Ufenau island; permitting all to experience the attractive island.\n\nOn Lützelau Island (3.38 hectares / 8.35 acres), there is a camping area, barbecue pit and a small restaurant. Part of the island is a designated conservation area and the other part is perfect for swimming in Lake Zürich.","highlights":null,"foto":"https://images0.schweizmobil.ch/image-big/Insel_Ufenau_VL_09_08_Zuerichsee_Ufenau_Luetzelau_15_M_g.jpg","photo_gallery":["https://images0.schweizmobil.ch/image/Insel_Ufenau_VL_09_08_Zuerichsee_Ufenau_Luetzelau_15_M_s.jpg","https://images0.schweizmobil.ch/image/Ruoss_Ufnau_Blick_von_Osten_5132_s.jpg","https://images0.schweizmobil.ch/image/Insel_Ufenau_Inseln-Ufenau-und-Luetzelau_2_M_s.jpg","https://images0.schweizmobil.ch/image/Rundweg_Ufnau_1_s.jpg","https://images0.schweizmobil.ch/image/Rundweg_Ufnau_2_s.jpg","https://images0.schweizmobil.ch/image/Ruoss_Ufnau_vlnr_Haus_zu_den_zwei_Raben_,_Kapelle_St_Martin,_Kirche_St_Peter_und_Paul_5240_s.jpg"],"photo_gallery_big":["https://images0.schweizmobil.ch/image-big/Insel_Ufenau_VL_09_08_Zuerichsee_Ufenau_Luetzelau_15_M_g.jpg","https://images0.schweizmobil.ch/image-big/Ruoss_Ufnau_Blick_von_Osten_5132_g.jpg","https://images0.schweizmobil.ch/image-big/Insel_Ufenau_Inseln-Ufenau-und-Luetzelau_2_M_g.jpg","https://images0.schweizmobil.ch/image-big/Rundweg_Ufnau_1_g.jpg","https://images0.schweizmobil.ch/image-big/Rundweg_Ufnau_2_g.jpg","https://images0.schweizmobil.ch/image-big/Ruoss_Ufnau_vlnr_Haus_zu_den_zwei_Raben_,_Kapelle_St_Martin,_Kirche_St_Peter_und_Paul_5240_g.jpg"],"photo_gallery_copyright":["","","","","",""],"photo_gallery_author":["","","","","",""],"name":"Rapperswil Zürichsee Tourismus","name_2":null,"street":"Fischmarktplatz 1","zip":"8640","place":"Rapperswil","tel":"+41 (0)55 225 77 10","fax":null,"email":"info@rzst.ch","url1_link":"https://www.rapperswil-zuerichsee.ch","x_coordinate":701756.7509693936,"y_coordinate":230540.31026119154,"change_date":null,"id":213,"r_key":213,"type":"Sight","url_sightseeing":"https://www.zuerichsee.ch/de/page.cfm/SightsRZ/NatureDRZ/1347","touristic_region":3}}
+{
+    "type": "Feature",
+    "id": 213,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            47.21795375606688,
+            8.78204941070832
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Ufenau and Lützelau Islands in Lake Züri",
+        "abstract": "The islands of Ufnau and Lützelau are situated in the upper part of Lake Zürich. In 1927, the larger island of Ufnau (Ufnau is the correct name, Ufenau is used more often) was designated a nature conservation area together with the Frauenwinkel region.",
+        "description": "The owner and administrator of Ufenau Island is the Einsiedeln Monastery. For this reason, swimming on the island is not permitted. During a tour of the island, you will explore the parish church of St. Peter and Paul with archaeological finds from a Gallic-Roman temple from the 2nd and 3rd centuries, as well as St. Martin’s Chapel. From mid-March to mid-October, the island’s restaurant is open and provides hearty fare for its guests.\n\nSince April 2007 an obstacle-free trail exists on the Ufenau island; permitting all to experience the attractive island.\n\nOn Lützelau Island (3.38 hectares / 8.35 acres), there is a camping area, barbecue pit and a small restaurant. Part of the island is a designated conservation area and the other part is perfect for swimming in Lake Zürich.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image-big/Insel_Ufenau_VL_09_08_Zuerichsee_Ufenau_Luetzelau_15_M_g.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/Insel_Ufenau_VL_09_08_Zuerichsee_Ufenau_Luetzelau_15_M_s.jpg",
+            "https://images.schweizmobil.ch/image/Ruoss_Ufnau_Blick_von_Osten_5132_s.jpg",
+            "https://images.schweizmobil.ch/image/Insel_Ufenau_Inseln-Ufenau-und-Luetzelau_2_M_s.jpg",
+            "https://images.schweizmobil.ch/image/Rundweg_Ufnau_1_s.jpg",
+            "https://images.schweizmobil.ch/image/Rundweg_Ufnau_2_s.jpg",
+            "https://images.schweizmobil.ch/image/Ruoss_Ufnau_vlnr_Haus_zu_den_zwei_Raben_,_Kapelle_St_Martin,_Kirche_St_Peter_und_Paul_5240_s.jpg"
+        ],
+        "photo_gallery_big": [
+            "https://images.schweizmobil.ch/image-big/Insel_Ufenau_VL_09_08_Zuerichsee_Ufenau_Luetzelau_15_M_g.jpg",
+            "https://images.schweizmobil.ch/image-big/Ruoss_Ufnau_Blick_von_Osten_5132_g.jpg",
+            "https://images.schweizmobil.ch/image-big/Insel_Ufenau_Inseln-Ufenau-und-Luetzelau_2_M_g.jpg",
+            "https://images.schweizmobil.ch/image-big/Rundweg_Ufnau_1_g.jpg",
+            "https://images.schweizmobil.ch/image-big/Rundweg_Ufnau_2_g.jpg",
+            "https://images.schweizmobil.ch/image-big/Ruoss_Ufnau_vlnr_Haus_zu_den_zwei_Raben_,_Kapelle_St_Martin,_Kirche_St_Peter_und_Paul_5240_g.jpg"
+        ],
+        "photo_gallery_copyright": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "name": "Rapperswil Zürichsee Tourismus",
+        "name_2": null,
+        "street": "Fischmarktplatz 1",
+        "zip": "8640",
+        "place": "Rapperswil",
+        "tel": "+41 (0)55 225 77 10",
+        "fax": null,
+        "email": "info@rzst.ch",
+        "url1_link": "https://www.rapperswil-zuerichsee.ch",
+        "x_coordinate": 701756.7509693936,
+        "y_coordinate": 230540.31026119154,
+        "change_date": null,
+        "id": 213,
+        "r_key": 213,
+        "type": "Sight",
+        "url_sightseeing": "https://www.zuerichsee.ch/de/page.cfm/SightsRZ/NatureDRZ/1347",
+        "touristic_region": 3,
+        "canton": 11
+    }
+}

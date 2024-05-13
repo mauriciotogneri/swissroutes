@@ -1,1 +1,34 @@
-{"type":"Feature","id":2847,"geometry":{"type":"Point","coordinates":[46.94180590524824,7.390423059356302]},"properties":{"land":"\"velo\",\"mountainbike\"","category":"all","language":"en","title":"Veloraum GmbH","abstract":null,"name":"Veloraum GmbH","street":"Bümplizerstrasse 112","zip":"3018","place":"Bern","tel":"+41 31 992 07 07","email":null,"url1_text":null,"url1_link":"https://www.veloraum.ch","organisation":"2rad / 2routes / 2ruote","foto":null,"x_coordinate":596329.8981188858,"y_coordinate":198970.31364275707,"change_date":null,"id":55,"type":"Service"}}
+{
+    "type": "Feature",
+    "id": 2847,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.941805905636016,
+            7.3904230595283735
+        ]
+    },
+    "properties": {
+        "land": "\"velo\",\"mountainbike\"",
+        "category": "all",
+        "language": "en",
+        "title": "Veloraum GmbH",
+        "abstract": null,
+        "name": "Veloraum GmbH",
+        "street": "Bümplizerstrasse 112",
+        "zip": "3018",
+        "place": "Bern",
+        "tel": "+41 31 992 07 07",
+        "email": null,
+        "url1_text": null,
+        "url1_link": "https://www.veloraum.ch",
+        "organisation": "2rad / 2routes / 2ruote",
+        "foto": null,
+        "foto_abstract": null,
+        "x_coordinate": 596329.8981188858,
+        "y_coordinate": 198970.31364275707,
+        "change_date": null,
+        "id": 55,
+        "type": "Service"
+    }
+}

@@ -1,1 +1,60 @@
-{"type":"Feature","id":666,"geometry":{"type":"Point","coordinates":[46.27599012959914,7.404712547214079]},"properties":{"land":null,"category":"all","language":"en","title":"Irrigation Channel Museum","abstract":"Irrigation channels from the mountains (Bisses in French) were once the life line for Valaisan farmer and to some extent they still are today. But that is not all: beautiful hiking trails exist alongside these idyllic channels and from now on this tourist attraction will have its own museum.","description":"The fascinating story of the irrigation channels and their great significance for Valais are displayed in eight rooms in a magnificent 17th century building. From the very first relics to the most recent.\n\nTo irrigate their meadows and growing's, the valaisan mountain-dweller went to remote rivers, which took their origin in the glacial period. To bring it where it was necessary, they began to build canals called Bisses. They cross ravines, cliffs and forests. Some of them have an unknown origin; others were built in the middle age.\n\nSome of the Bisses became obsolete when others were preserved and still in use today. The Bisses demonstrate the inventiveness and obstinacy of our ancestors and offer some of the most beautiful walks in the region.","highlights":null,"foto":"https://images0.schweizmobil.ch/image/Musee_des_bisses_a.jpg","photo_gallery":["https://images0.schweizmobil.ch/image/Musee_des_bisses_a.jpg","https://images0.schweizmobil.ch/image/maison_peinte_448px_b.jpg"],"photo_gallery_big":["",""],"photo_gallery_copyright":["",""],"photo_gallery_author":["",""],"name":"Musée des Bisses, Maison Peinte","name_2":null,"street":"rue du Pissieu 1","zip":"1966","place":"Botyre-Ayent","tel":"+41 (0)27 398 41 47","fax":null,"email":"contact@musee-des-bisses.ch","url1_link":"https://www.musee-des-bisses.ch","x_coordinate":597385.7885467771,"y_coordinate":124953.84305554673,"change_date":null,"id":666,"r_key":666,"type":"Sight","url_sightseeing":"https://www.musee-des-bisses.ch","touristic_region":11}}
+{
+    "type": "Feature",
+    "id": 666,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.27599014077697,
+            7.404712545760156
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Irrigation Channel Museum",
+        "abstract": "Irrigation channels from the mountains (Bisses in French) were once the life line for Valaisan farmer and to some extent they still are today. But that is not all: beautiful hiking trails exist alongside these idyllic channels and from now on this tourist attraction will have its own museum.",
+        "description": "The fascinating story of the irrigation channels and their great significance for Valais are displayed in eight rooms in a magnificent 17th century building. From the very first relics to the most recent.\n\nTo irrigate their meadows and growing's, the valaisan mountain-dweller went to remote rivers, which took their origin in the glacial period. To bring it where it was necessary, they began to build canals called Bisses. They cross ravines, cliffs and forests. Some of them have an unknown origin; others were built in the middle age.\n\nSome of the Bisses became obsolete when others were preserved and still in use today. The Bisses demonstrate the inventiveness and obstinacy of our ancestors and offer some of the most beautiful walks in the region.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/Musee_des_bisses_a.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/Musee_des_bisses_a.jpg",
+            "https://images.schweizmobil.ch/image/maison_peinte_448px_b.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "Musée des Bisses, Maison Peinte",
+        "name_2": null,
+        "street": "rue du Pissieu 1",
+        "zip": "1966",
+        "place": "Botyre-Ayent",
+        "tel": "+41 (0)27 398 41 47",
+        "fax": null,
+        "email": "contact@musee-des-bisses.ch",
+        "url1_link": "https://www.musee-des-bisses.ch",
+        "x_coordinate": 597385.7885467771,
+        "y_coordinate": 124953.84305554673,
+        "change_date": null,
+        "id": 666,
+        "r_key": 666,
+        "type": "Sight",
+        "url_sightseeing": "https://www.musee-des-bisses.ch",
+        "touristic_region": 11,
+        "canton": 7
+    }
+}

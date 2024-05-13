@@ -1,1 +1,34 @@
-{"type":"Feature","id":3180,"geometry":{"type":"Point","coordinates":[47.3678810448707,8.362947573472988]},"properties":{"land":"\"velo\",\"mountainbike\"","category":"all","language":"en","title":"Chilli Sport GmbH","abstract":null,"name":"Chilli Sport GmbH","street":"Bremgarterstrasse 2","zip":"8967","place":"Widen","tel":"+41 56 631 47 50","email":null,"url1_text":null,"url1_link":"https://www.chillisport.ch","organisation":"2rad / 2routes / 2ruote","foto":null,"x_coordinate":669817.2285236458,"y_coordinate":246749.57698701165,"change_date":null,"id":444,"type":"Service"}}
+{
+    "type": "Feature",
+    "id": 3180,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            47.3678810492201,
+            8.362947584968909
+        ]
+    },
+    "properties": {
+        "land": "\"velo\",\"mountainbike\"",
+        "category": "all",
+        "language": "en",
+        "title": "Chilli Sport GmbH",
+        "abstract": null,
+        "name": "Chilli Sport GmbH",
+        "street": "Bremgarterstrasse 2",
+        "zip": "8967",
+        "place": "Widen",
+        "tel": "+41 56 631 47 50",
+        "email": null,
+        "url1_text": null,
+        "url1_link": "https://www.chillisport.ch",
+        "organisation": "2rad / 2routes / 2ruote",
+        "foto": null,
+        "foto_abstract": null,
+        "x_coordinate": 669817.2285236458,
+        "y_coordinate": 246749.57698701165,
+        "change_date": null,
+        "id": 444,
+        "type": "Service"
+    }
+}

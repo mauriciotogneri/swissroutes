@@ -1,50 +1,55 @@
 {
-  "type": "Feature",
-  "id": 630,
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      46.77693142773242,
-      8.155510562994174
-    ]
-  },
-  "properties": {
-    "land": null,
-    "category": "all",
-    "language": "en",
-    "title": "Lungern–Brünigpass",
-    "abstract": "The Brünig has been an important pass since time immemorial. The path from Lungern over the Hagsflue, Oberhus and through the Cholhüttliwald to the pass summit is still widely used and probably corresponds to the traditional mule path over the Brünig.",
-    "description": "The mule track from Lungern to the Brünigpass climbs more than 300 metres over 4.5 km. The low Brünigpass (1000 m above sea level) in the half-canton of Obwalden is the southern portal to the Bernese Oberland, to the Valais and Italy and also to western Switzerland. Finds in a Mesolithic site (5000 BC) in a Hagsflue clearing point to regional or even inter-regional traffic between the Sarnen and Haslital valleys as far back as prehistoric times.\n\nIn many places, walls made of stones gathered in the vicinity and drystone walling lend the path a lane-like character. The most spectacular section is a stairway hewn out of the rock to conquer the Hagsflue. Ten steps chiselled out of the rock most likely date from Roman times. In the 16th century, the path to the pass was described as a kind of dirt track. At that time, a certain Thomas Halter had «travelled an extremely terrible mule track». However passage on horseback must have been possible in earlier days, because there is hardly any other way to explain the military forays of the Obwaldners over the Brünig from the 14th century on. Today’s path is proved to have been constructed, however the time from which it dates is\n\nunknown.",
-    "highlights": null,
-    "foto": "https://images0.schweizmobil.ch/image/IVS_04_03_Felsenhohlweg.jpg",
-    "photo_gallery": [
-      "https://images0.schweizmobil.ch/image/IVS_04_03_Felsenhohlweg.jpg"
-    ],
-    "photo_gallery_big": [
-      ""
-    ],
-    "photo_gallery_copyright": [
-      ""
-    ],
-    "photo_gallery_author": [
-      ""
-    ],
-    "name": "Bundesinventar der historischen Verkehrswege der Schweiz (IVS)",
-    "name_2": null,
-    "street": "",
-    "zip": "",
-    "place": "",
-    "tel": "",
-    "fax": null,
-    "email": "",
-    "url1_link": "https://www.ivs.admin.ch",
-    "x_coordinate": 654749.7838501987,
-    "y_coordinate": 180890.32998756887,
-    "change_date": null,
+    "type": "Feature",
     "id": 630,
-    "r_key": 630,
-    "type": "Sight",
-    "url_sightseeing": "https://s.geo.admin.ch/6fb1690a70",
-    "touristic_region": 4
-  }
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.77693142564963,
+            8.155510552261493
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Lungern–Brünigpass",
+        "abstract": "The Brünig has been an important pass since time immemorial. The path from Lungern over the Hagsflue, Oberhus and through the Cholhüttliwald to the pass summit is still widely used and probably corresponds to the traditional mule path over the Brünig.",
+        "description": "The mule track from Lungern to the Brünigpass climbs more than 300 metres over 4.5 km. The low Brünigpass (1000 m above sea level) in the half-canton of Obwalden is the southern portal to the Bernese Oberland, to the Valais and Italy and also to western Switzerland. Finds in a Mesolithic site (5000 BC) in a Hagsflue clearing point to regional or even inter-regional traffic between the Sarnen and Haslital valleys as far back as prehistoric times.\n\nIn many places, walls made of stones gathered in the vicinity and drystone walling lend the path a lane-like character. The most spectacular section is a stairway hewn out of the rock to conquer the Hagsflue. Ten steps chiselled out of the rock most likely date from Roman times. In the 16th century, the path to the pass was described as a kind of dirt track. At that time, a certain Thomas Halter had «travelled an extremely terrible mule track». However passage on horseback must have been possible in earlier days, because there is hardly any other way to explain the military forays of the Obwaldners over the Brünig from the 14th century on. Today’s path is proved to have been constructed, however the time from which it dates is\n\nunknown.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/IVS_04_03_Felsenhohlweg.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/IVS_04_03_Felsenhohlweg.jpg"
+        ],
+        "photo_gallery_big": [
+            ""
+        ],
+        "photo_gallery_copyright": [
+            ""
+        ],
+        "photo_gallery_author": [
+            ""
+        ],
+        "photo_gallery_abstract": [
+            ""
+        ],
+        "name": "Bundesinventar der historischen Verkehrswege der Schweiz (IVS)",
+        "name_2": null,
+        "street": " ",
+        "zip": " ",
+        "place": " ",
+        "tel": " ",
+        "fax": null,
+        "email": " ",
+        "url1_link": "https://www.ivs.admin.ch",
+        "x_coordinate": 654749.7838501987,
+        "y_coordinate": 180890.32998756887,
+        "change_date": null,
+        "id": 630,
+        "r_key": 630,
+        "type": "Sight",
+        "url_sightseeing": "https://s.geo.admin.ch/6fb1690a70",
+        "touristic_region": 4,
+        "canton": 18
+    }
 }

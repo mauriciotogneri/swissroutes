@@ -1,1 +1,34 @@
-{"type":"Feature","id":3029,"geometry":{"type":"Point","coordinates":[47.1739835698798,8.516727668421643]},"properties":{"land":"\"velo\",\"mountainbike\"","category":"all","language":"en","title":"welcome gmbh","abstract":null,"name":"welcome gmbh","street":"Aabachstrasse 10","zip":"6300","place":"Zug","tel":"+41 41 720 43 43","email":null,"url1_text":null,"url1_link":"https://www.welcomecycles.ch","organisation":"2rad / 2routes / 2ruote","foto":null,"x_coordinate":681728.9636722042,"y_coordinate":225342.241844283,"change_date":null,"id":260,"type":"Service"}}
+{
+    "type": "Feature",
+    "id": 3029,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            47.173983563612005,
+            8.516727714882595
+        ]
+    },
+    "properties": {
+        "land": "\"velo\",\"mountainbike\"",
+        "category": "all",
+        "language": "en",
+        "title": "welcome gmbh",
+        "abstract": null,
+        "name": "welcome gmbh",
+        "street": "Aabachstrasse 10",
+        "zip": "6300",
+        "place": "Zug",
+        "tel": "+41 41 720 43 43",
+        "email": null,
+        "url1_text": null,
+        "url1_link": "https://www.welcomecycles.ch",
+        "organisation": "2rad / 2routes / 2ruote",
+        "foto": null,
+        "foto_abstract": null,
+        "x_coordinate": 681728.9636722042,
+        "y_coordinate": 225342.241844283,
+        "change_date": null,
+        "id": 260,
+        "type": "Service"
+    }
+}

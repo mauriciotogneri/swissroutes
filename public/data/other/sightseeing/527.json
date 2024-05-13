@@ -1,1 +1,60 @@
-{"type":"Feature","id":527,"geometry":{"type":"Point","coordinates":[46.040406993778525,8.834938620460816]},"properties":{"land":null,"category":"all","language":"en","title":"Monte Lema Cableway","abstract":"During excusions in Malcantone one comes across the innovative cableway comprising three cabins that, since 1997, bring 30 people at a time to the top of Mount Lema in just 10-15 minutes.","description":"A chair-lift was inaugurated in1952 that carried excursionists to the top of Mount Lema from the town of Miglieglia in just 18 minutes. After 42 years of activity and having transported over 2'300'000 people to the peak of Mount Lema, the time arrived to carry out a radical substitution of the installation. During 1997 the old chair-lift was substituted with a modern cableway (two groups with three cabins that «come and go»; in other words one ascends while the other descends) as a new means of transport to quickly and more easily reach the top of the mountain. This new cableway can take 45 people per trip up to the peak in just 7 minutes (15 people in each cabin), for a total of 340 people per hour.  At the top, there is a Restaurant-Hostel, that has a magnificent terrace, and offers both rooms and wholesome meals. It is the arrival point for many excursionists, but also the departure point for lovers of paragliding, mountain bike riding and the flying of model airplanes.","highlights":null,"foto":"https://images0.schweizmobil.ch/image/8135_Seilbahn-auf-den-Monte-Lema_2a.jpg","photo_gallery":["https://images0.schweizmobil.ch/image/8135_Seilbahn-auf-den-Monte-Lema_2a.jpg","https://images0.schweizmobil.ch/image/8135_Seilbahn-auf-den-Monte-Lema_1b.jpg"],"photo_gallery_big":["",""],"photo_gallery_copyright":["",""],"photo_gallery_author":["",""],"name":"Ente Turistico del Luganese","name_2":null,"street":"Piazza Lago 5A","zip":"6987","place":"Caslano","tel":"+41 (0)58 220 65 01","fax":null,"email":"caslano@luganoregion.com","url1_link":"https://www.luganoregion.com","x_coordinate":708091.2962080982,"y_coordinate":99725.0132813364,"change_date":null,"id":527,"r_key":527,"type":"Sight","url_sightseeing":"https://www.montelema.ch","touristic_region":12}}
+{
+    "type": "Feature",
+    "id": 527,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.04040701502216,
+            8.834938663090742
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Monte Lema Cableway",
+        "abstract": "During excusions in Malcantone one comes across the innovative cableway comprising three cabins that, since 1997, bring 30 people at a time to the top of Mount Lema in just 10-15 minutes.",
+        "description": "A chair-lift was inaugurated in1952 that carried excursionists to the top of Mount Lema from the town of Miglieglia in just 18 minutes. After 42 years of activity and having transported over 2'300'000 people to the peak of Mount Lema, the time arrived to carry out a radical substitution of the installation. During 1997 the old chair-lift was substituted with a modern cableway (two groups with three cabins that «come and go»; in other words one ascends while the other descends) as a new means of transport to quickly and more easily reach the top of the mountain. This new cableway can take 45 people per trip up to the peak in just 7 minutes (15 people in each cabin), for a total of 340 people per hour.  At the top, there is a Restaurant-Hostel, that has a magnificent terrace, and offers both rooms and wholesome meals. It is the arrival point for many excursionists, but also the departure point for lovers of paragliding, mountain bike riding and the flying of model airplanes.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/8135_Seilbahn-auf-den-Monte-Lema_2a.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/8135_Seilbahn-auf-den-Monte-Lema_2a.jpg",
+            "https://images.schweizmobil.ch/image/8135_Seilbahn-auf-den-Monte-Lema_1b.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "Ente Turistico del Luganese",
+        "name_2": null,
+        "street": "Piazza Lago 5A",
+        "zip": "6987",
+        "place": "Caslano",
+        "tel": "+41 (0)58 220 65 01",
+        "fax": null,
+        "email": "caslano@luganoregion.com",
+        "url1_link": "https://www.luganoregion.com",
+        "x_coordinate": 708091.2962080982,
+        "y_coordinate": 99725.0132813364,
+        "change_date": null,
+        "id": 527,
+        "r_key": 527,
+        "type": "Sight",
+        "url_sightseeing": "https://www.montelema.ch",
+        "touristic_region": 12,
+        "canton": 19
+    }
+}

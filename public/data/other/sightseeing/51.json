@@ -1,66 +1,75 @@
 {
-  "type": "Feature",
-  "id": 51,
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      46.22407998647358,
-      8.021875899453535
-    ]
-  },
-  "properties": {
-    "land": null,
-    "category": "all",
-    "language": "en",
-    "title": "Simplonpass – by Napoleon and Stockalper",
-    "abstract": "In July 1831, Felix Mendelssohn travelled over the Simplonpass, where he enthused at the road engineered by Napoleon Bonaparte. He would probably have also gone into raptures at the Stockalperweg between the top of the pass and Simplon Dorf.",
-    "description": "In the 17th century, Kaspar Stockalper shaped the history of the Valais as no other person. He was merchant prince, politician and builder, to name only his most important activities. In 1634, when Stockalper was a 25-year-old entrepreneur, the Milanese granted him the right to carry goods over the Simplonpass. He subsequently had the medieval trail upgraded and many buildings constructed. These served for goods transport and representational purposes.\n\nIndividual sections of the trading route are dated by inscriptions, including the stretch between the hostel and Simplon Dorf, which was given today’s form in 1672. The old hostel, built in 1666, towers strikingly above the Bergalp landscape. A shelter stands at Engi, on the most attractive section of the entire Stockalperweg.\n\nAt Ägerbrigga, south of Maschihüs, the hiking trail changes to the Napoleonstrasse. The bridge is a valuable testament to road construction in the early 19th century and is a protected monument. However, Napoleon Bonaparte never actually saw his work.",
-    "highlights": null,
-    "foto": "https://images0.schweizmobil.ch/image/IVS_29_Simplon_Stockalper.jpg",
-    "photo_gallery": [
-      "https://images0.schweizmobil.ch/image/IVS_29_Simplon_Stockalper.jpg",
-      "https://images0.schweizmobil.ch/image/20120808_Wallis_Simplon_JZU_051.jpg",
-      "https://images0.schweizmobil.ch/image/20120808_Wallis_Simplon_JZU_046.jpg",
-      "https://images0.schweizmobil.ch/image/20120808_Wallis_Simplon_JZU_045.jpg",
-      "https://images0.schweizmobil.ch/image/20120808_Wallis_Simplon_JZU_053.jpg"
-    ],
-    "photo_gallery_big": [
-      "",
-      "",
-      "",
-      "",
-      ""
-    ],
-    "photo_gallery_copyright": [
-      "",
-      "",
-      "",
-      "",
-      ""
-    ],
-    "photo_gallery_author": [
-      "",
-      "",
-      "",
-      "",
-      ""
-    ],
-    "name": "Bundesinventar der historischen Verkehrswege der Schweiz (IVS)",
-    "name_2": null,
-    "street": "",
-    "zip": "",
-    "place": "",
-    "tel": "",
-    "fax": null,
-    "email": "",
-    "url1_link": "https://www.ivs.admin.ch",
-    "x_coordinate": 645000.1241391856,
-    "y_coordinate": 119349.50928165902,
-    "change_date": null,
+    "type": "Feature",
     "id": 51,
-    "r_key": 51,
-    "type": "Sight",
-    "url_sightseeing": "https://s.geo.admin.ch/6fb1772247",
-    "touristic_region": 11
-  }
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.22407998787132,
+            8.021875876292272
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Simplonpass – by Napoleon and Stockalper",
+        "abstract": "In July 1831, Felix Mendelssohn travelled over the Simplonpass, where he enthused at the road engineered by Napoleon Bonaparte. He would probably have also gone into raptures at the Stockalperweg between the top of the pass and Simplon Dorf.",
+        "description": "In the 17th century, Kaspar Stockalper shaped the history of the Valais as no other person. He was merchant prince, politician and builder, to name only his most important activities. In 1634, when Stockalper was a 25-year-old entrepreneur, the Milanese granted him the right to carry goods over the Simplonpass. He subsequently had the medieval trail upgraded and many buildings constructed. These served for goods transport and representational purposes.\n\nIndividual sections of the trading route are dated by inscriptions, including the stretch between the hostel and Simplon Dorf, which was given today’s form in 1672. The old hostel, built in 1666, towers strikingly above the Bergalp landscape. A shelter stands at Engi, on the most attractive section of the entire Stockalperweg.\n\nAt Ägerbrigga, south of Maschihüs, the hiking trail changes to the Napoleonstrasse. The bridge is a valuable testament to road construction in the early 19th century and is a protected monument. However, Napoleon Bonaparte never actually saw his work.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/IVS_29_Simplon_Stockalper.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/IVS_29_Simplon_Stockalper.jpg",
+            "https://images.schweizmobil.ch/image/20120808_Wallis_Simplon_JZU_051.jpg",
+            "https://images.schweizmobil.ch/image/20120808_Wallis_Simplon_JZU_046.jpg",
+            "https://images.schweizmobil.ch/image/20120808_Wallis_Simplon_JZU_045.jpg",
+            "https://images.schweizmobil.ch/image/20120808_Wallis_Simplon_JZU_053.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "name": "Bundesinventar der historischen Verkehrswege der Schweiz (IVS)",
+        "name_2": null,
+        "street": "  ",
+        "zip": " ",
+        "place": " ",
+        "tel": " ",
+        "fax": null,
+        "email": " ",
+        "url1_link": "https://www.ivs.admin.ch",
+        "x_coordinate": 645000.1241391856,
+        "y_coordinate": 119349.50928165902,
+        "change_date": null,
+        "id": 51,
+        "r_key": 51,
+        "type": "Sight",
+        "url_sightseeing": "https://s.geo.admin.ch/6fb1772247",
+        "touristic_region": 11,
+        "canton": 7
+    }
 }

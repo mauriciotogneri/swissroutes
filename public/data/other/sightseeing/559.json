@@ -1,1 +1,60 @@
-{"type":"Feature","id":559,"geometry":{"type":"Point","coordinates":[45.904996955563185,8.970993307670504]},"properties":{"land":null,"category":"all","language":"en","title":"Battistero Riva San Vitale","abstract":"One of the oldest places of Christianity. This is an octagonal-shaped building erected on the foundations of a villa or Roman thermal baths and dates back to the 5th century.","description":"The round font, from the Middle Ages, dominates the older octagonal-shaped one. The mosaic floor visible inside is the original, the frescoes date back to the end of the 12th century.","highlights":null,"foto":"https://images0.schweizmobil.ch/image/8165_Battistero-Riva-San-Vitale_2a.jpg","photo_gallery":["https://images0.schweizmobil.ch/image/8165_Battistero-Riva-San-Vitale_2a.jpg","https://images0.schweizmobil.ch/image/8165_Battistero-Riva-San-Vitale_1b.jpg"],"photo_gallery_big":["",""],"photo_gallery_copyright":["",""],"photo_gallery_author":["",""],"name":"Mendrisiotto Turismo","name_2":null,"street":"Via Angelo Maspoli 15","zip":"6850","place":"Mendrisio","tel":"+41 (0)91 641 30 50","fax":null,"email":"info@mendrisiottoturismo.ch","url1_link":"https://www.mendrisiottoturismo.ch","x_coordinate":718916.8624882298,"y_coordinate":84871.30295497704,"change_date":null,"id":559,"r_key":559,"type":"Sight","url_sightseeing":"https://www.mendrisiottoturismo.ch/en/esplora/cultura/Arte-e-cultura/commons/details/Baptistery-of-Riva-San-Vitale/2496.html","touristic_region":12}}
+{
+    "type": "Feature",
+    "id": 559,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            45.90499696805282,
+            8.970993340939891
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Battistero Riva San Vitale",
+        "abstract": "One of the oldest places of Christianity. This is an octagonal-shaped building erected on the foundations of a villa or Roman thermal baths and dates back to the 5th century.",
+        "description": "The round font, from the Middle Ages, dominates the older octagonal-shaped one. The mosaic floor visible inside is the original, the frescoes date back to the end of the 12th century.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/8165_Battistero-Riva-San-Vitale_2a.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/8165_Battistero-Riva-San-Vitale_2a.jpg",
+            "https://images.schweizmobil.ch/image/8165_Battistero-Riva-San-Vitale_1b.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "Mendrisiotto Turismo",
+        "name_2": null,
+        "street": "Via Angelo Maspoli 15",
+        "zip": "6850",
+        "place": "Mendrisio",
+        "tel": "+41 (0)91 641 30 50",
+        "fax": null,
+        "email": "info@mendrisiottoturismo.ch",
+        "url1_link": "https://www.mendrisiottoturismo.ch",
+        "x_coordinate": 718916.8624882298,
+        "y_coordinate": 84871.30295497704,
+        "change_date": null,
+        "id": 559,
+        "r_key": 559,
+        "type": "Sight",
+        "url_sightseeing": "https://www.mendrisiottoturismo.ch/en/esplora/cultura/Arte-e-cultura/commons/details/Baptistery-of-Riva-San-Vitale/2496.html",
+        "touristic_region": 12,
+        "canton": 19
+    }
+}

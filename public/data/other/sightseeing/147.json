@@ -1,1 +1,60 @@
-{"type":"Feature","id":147,"geometry":{"type":"Point","coordinates":[47.62346842308551,9.269022631487717]},"properties":{"land":null,"category":"all","language":"en","title":"Altnau Pier","abstract":"Schweizerische Bodensee Schifffahrt, the Lake Constance shipping company, is becoming ever more attractive. Since 2010 there is a pier for cruise ships to dock in Altnau, which is located about midway between Romanshorn and Kreuzlingen.","description":"The pier in Altnau is at the halfway point on the route between Romanshorn and Kreuzlingen. This stopover makes the cruise even more appealing. Various sports activities can now be combined with a lake cruise or a ride on the regional train known as Thurbo. Neighbouring countries are also within easy reach by ship.\n\nThe residents of Altnau themselves refer to their 250-metre pier as the «Eiffel Tower on Lake Constance» and are proud of their showpiece.","highlights":null,"foto":"https://images0.schweizmobil.ch/image/11320_Schiffsanlegestelle_Altnau_1a.jpg","photo_gallery":["https://images0.schweizmobil.ch/image/11320_Schiffsanlegestelle_Altnau_1a.jpg","https://images0.schweizmobil.ch/image/11320_Schiffsanlegestelle_Altnau_2b.jpg"],"photo_gallery_big":["",""],"photo_gallery_copyright":["",""],"photo_gallery_author":["",""],"name":"Thurgau Tourismus","name_2":null,"street":"Egelmoosstrasse 1","zip":"8580","place":"Amriswil","tel":"+41 (0)71 414 11 44","fax":null,"email":"info@thurgau-bodensee.ch","url1_link":"https://www.thurgau-bodensee.ch","x_coordinate":737584.8120306038,"y_coordinate":276360.36630824895,"change_date":null,"id":147,"r_key":147,"type":"Sight","url_sightseeing":"https://www.altnau.ch","touristic_region":2}}
+{
+    "type": "Feature",
+    "id": 147,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            47.62346840383729,
+            9.269022619834303
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Altnau Pier",
+        "abstract": "Schweizerische Bodensee Schifffahrt, the Lake Constance shipping company, is becoming ever more attractive. Since 2010 there is a pier for cruise ships to dock in Altnau, which is located about midway between Romanshorn and Kreuzlingen.",
+        "description": "The pier in Altnau is at the halfway point on the route between Romanshorn and Kreuzlingen. This stopover makes the cruise even more appealing. Various sports activities can now be combined with a lake cruise or a ride on the regional train known as Thurbo. Neighbouring countries are also within easy reach by ship.\n\nThe residents of Altnau themselves refer to their 250-metre pier as the «Eiffel Tower on Lake Constance» and are proud of their showpiece.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/11320_Schiffsanlegestelle_Altnau_1a.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/11320_Schiffsanlegestelle_Altnau_1a.jpg",
+            "https://images.schweizmobil.ch/image/11320_Schiffsanlegestelle_Altnau_2b.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "Thurgau Tourismus",
+        "name_2": null,
+        "street": "Egelmoosstrasse 1",
+        "zip": "8580",
+        "place": "Amriswil",
+        "tel": "+41 (0)71 414 11 44",
+        "fax": null,
+        "email": "info@thurgau-bodensee.ch",
+        "url1_link": "https://www.thurgau-bodensee.ch",
+        "x_coordinate": 737584.8120306038,
+        "y_coordinate": 276360.36630824895,
+        "change_date": null,
+        "id": 147,
+        "r_key": 147,
+        "type": "Sight",
+        "url_sightseeing": "https://www.altnau.ch",
+        "touristic_region": 2,
+        "canton": 6
+    }
+}

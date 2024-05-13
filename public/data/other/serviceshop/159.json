@@ -1,1 +1,34 @@
-{"type":"Feature","id":2941,"geometry":{"type":"Point","coordinates":[47.25153544383288,7.649005200627177]},"properties":{"land":"\"velo\",\"mountainbike\"","category":"all","language":"en","title":"Bitterli Bike GmbH","abstract":null,"name":"Bitterli Bike GmbH","street":"Stockrain 2","zip":"4537","place":"Wiedlisbach","tel":"+41 32 636 22 74","email":null,"url1_text":null,"url1_link":null,"organisation":"2rad / 2routes / 2ruote","foto":null,"x_coordinate":615925.1989670907,"y_coordinate":233424.25911390022,"change_date":null,"id":159,"type":"Service"}}
+{
+    "type": "Feature",
+    "id": 2941,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            47.251535433143275,
+            7.6490052073171615
+        ]
+    },
+    "properties": {
+        "land": "\"velo\",\"mountainbike\"",
+        "category": "all",
+        "language": "en",
+        "title": "Bitterli Bike GmbH",
+        "abstract": null,
+        "name": "Bitterli Bike GmbH",
+        "street": "Stockrain 2",
+        "zip": "4537",
+        "place": "Wiedlisbach",
+        "tel": "+41 32 636 22 74",
+        "email": null,
+        "url1_text": null,
+        "url1_link": null,
+        "organisation": "2rad / 2routes / 2ruote",
+        "foto": null,
+        "foto_abstract": null,
+        "x_coordinate": 615925.1989670907,
+        "y_coordinate": 233424.25911390022,
+        "change_date": null,
+        "id": 159,
+        "type": "Service"
+    }
+}

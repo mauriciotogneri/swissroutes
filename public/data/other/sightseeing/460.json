@@ -1,1 +1,60 @@
-{"type":"Feature","id":460,"geometry":{"type":"Point","coordinates":[47.3645044735694,7.342027152093895]},"properties":{"land":null,"category":"all","language":"en","title":"Musée jurassien d'Art et d'Histoire","abstract":"In the heart of the historic center of Delémont, the highly atmospheric Jura Museum of Art and History showcases the history of the Jura, focusing on cultural themes but also covering social, political and economic aspects.","description":"By organizing and hosting exhibitions and temporary presentations, the museum also aims to take a contemporary look at society, art and history. As a setting where visitors can exchange ideas and take time to reflect, the Museum is an active participant in the town's contemporary social and cultural life. Religious art is a key theme here: ecclesiastical treasures, paintings and sculptures, as well as more popular devotional items. Many of the objects come from the monasteries of Bellelay, Lucelle, Saint-Ursanne and in particular Moutier-Grandval, the abbey which was the birthplace of the Jura as a territorial entity. The crosier of St. Germain is a special attraction.","highlights":null,"foto":"https://images0.schweizmobil.ch/image/11303_Musee_Jurassien_d_Art_et_d_Histoire_1a.jpg","photo_gallery":["https://images0.schweizmobil.ch/image/11303_Musee_Jurassien_d_Art_et_d_Histoire_1a.jpg","https://images0.schweizmobil.ch/image/11303_Musee_Jurassien_d_Art_et_d_Histoire_2b.jpg"],"photo_gallery_big":["",""],"photo_gallery_copyright":["",""],"photo_gallery_author":["",""],"name":"Jura Tourisme","name_2":null,"street":"Place de la Gare 9","zip":"2800","place":"Delémont","tel":"+41 (0)32 432 41 70","fax":null,"email":"info@juratourisme.ch","url1_link":"https://www.juratourisme.ch","x_coordinate":592702.4855418426,"y_coordinate":245967.6638655513,"change_date":null,"id":460,"r_key":460,"type":"Sight","url_sightseeing":"https://www.mjah.ch","touristic_region":8}}
+{
+    "type": "Feature",
+    "id": 460,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            47.36450446036801,
+            7.342027154194556
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Musée jurassien d'Art et d'Histoire",
+        "abstract": "In the heart of the historic center of Delémont, the highly atmospheric Jura Museum of Art and History showcases the history of the Jura, focusing on cultural themes but also covering social, political and economic aspects.",
+        "description": "By organizing and hosting exhibitions and temporary presentations, the museum also aims to take a contemporary look at society, art and history. As a setting where visitors can exchange ideas and take time to reflect, the Museum is an active participant in the town's contemporary social and cultural life. Religious art is a key theme here: ecclesiastical treasures, paintings and sculptures, as well as more popular devotional items. Many of the objects come from the monasteries of Bellelay, Lucelle, Saint-Ursanne and in particular Moutier-Grandval, the abbey which was the birthplace of the Jura as a territorial entity. The crosier of St. Germain is a special attraction.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/11303_Musee_Jurassien_d_Art_et_d_Histoire_1a.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/11303_Musee_Jurassien_d_Art_et_d_Histoire_1a.jpg",
+            "https://images.schweizmobil.ch/image/11303_Musee_Jurassien_d_Art_et_d_Histoire_2b.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "Jura Tourisme",
+        "name_2": null,
+        "street": "Place de la Gare 9",
+        "zip": "2800",
+        "place": "Delémont",
+        "tel": "+41 (0)32 432 41 70",
+        "fax": null,
+        "email": "info@juratourisme.ch",
+        "url1_link": "https://www.juratourisme.ch",
+        "x_coordinate": 592702.4855418426,
+        "y_coordinate": 245967.6638655513,
+        "change_date": null,
+        "id": 460,
+        "r_key": 460,
+        "type": "Sight",
+        "url_sightseeing": "https://www.mjah.ch",
+        "touristic_region": 8,
+        "canton": 24
+    }
+}

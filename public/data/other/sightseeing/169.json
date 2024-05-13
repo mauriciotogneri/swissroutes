@@ -1,1 +1,60 @@
-{"type":"Feature","id":169,"geometry":{"type":"Point","coordinates":[46.019922198816914,7.746442943746107]},"properties":{"land":null,"category":"all","language":"en","title":"The Matterhorn Museum Zermatlantis","abstract":"Become a pioneer and discover the Zermatt of bygone days. The Matterhorn Museum Zermatlantis invites you on a round tour through Zermatt history staged in the form of an excavation site. A forgotten village is revealed once more.","description":"A visit to the museum is a must for every visitor to Zermatt. Under the glass dome of the former casino, next to the village church, a sunken world is being opened up underground: Zermatlantis. The people researching this fictive excavation have just gone to lunch, and you can therefore enter into the world of old Zermatt without any interference. You are there as the people in the poor farmers' village try to ward off the forces of nature with God's help. As alpinists conquer their cosmos and as the death of four mountaineers during the first ascent of the Matterhorn changes life in Zermatt for ever. Through the possibilities of state-of-the-art museum presentations, you can experience the myth of Zermatt for yourself. The farmers' village that became a world famous health resort. And anyone who has not gazed upon the broken rope from the first ascent has not really been in Zermatt.\n\nThe museum arranges special exhibitions on a regular basis and has established itself as the top location for cultural performances. Look out for the announcements on zermatt.ch. You can also hire the rooms of the museum for your own events.","highlights":null,"foto":"https://images0.schweizmobil.ch/image/11356_Matterhorn_Museum_Zermatlantis_1a.jpg","photo_gallery":["https://images0.schweizmobil.ch/image/11356_Matterhorn_Museum_Zermatlantis_1a.jpg","https://images0.schweizmobil.ch/image/11356_Matterhorn_Museum_Zermatlantis_2b.jpg"],"photo_gallery_big":["",""],"photo_gallery_copyright":["",""],"photo_gallery_author":["",""],"name":"Zermatt Tourismus","name_2":null,"street":"Bahnhofplatz 5","zip":"3920","place":"Zermatt","tel":"+41 (0)27 966 81 00","fax":null,"email":"info@zermatt.ch","url1_link":"https://www.zermatt.ch","x_coordinate":623838.0275970922,"y_coordinate":96533.46512420736,"change_date":null,"id":169,"r_key":169,"type":"Sight","url_sightseeing":"http://www.zermatt.ch/en/museum","touristic_region":11}}
+{
+    "type": "Feature",
+    "id": 169,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.019922221417545,
+            7.74644293906918
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "The Matterhorn Museum Zermatlantis",
+        "abstract": "Become a pioneer and discover the Zermatt of bygone days. The Matterhorn Museum Zermatlantis invites you on a round tour through Zermatt history staged in the form of an excavation site. A forgotten village is revealed once more.",
+        "description": "A visit to the museum is a must for every visitor to Zermatt. Under the glass dome of the former casino, next to the village church, a sunken world is being opened up underground: Zermatlantis. The people researching this fictive excavation have just gone to lunch, and you can therefore enter into the world of old Zermatt without any interference. You are there as the people in the poor farmers' village try to ward off the forces of nature with God's help. As alpinists conquer their cosmos and as the death of four mountaineers during the first ascent of the Matterhorn changes life in Zermatt for ever. Through the possibilities of state-of-the-art museum presentations, you can experience the myth of Zermatt for yourself. The farmers' village that became a world famous health resort. And anyone who has not gazed upon the broken rope from the first ascent has not really been in Zermatt.\n\nThe museum arranges special exhibitions on a regular basis and has established itself as the top location for cultural performances. Look out for the announcements on zermatt.ch. You can also hire the rooms of the museum for your own events.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/11356_Matterhorn_Museum_Zermatlantis_1a.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/11356_Matterhorn_Museum_Zermatlantis_1a.jpg",
+            "https://images.schweizmobil.ch/image/11356_Matterhorn_Museum_Zermatlantis_2b.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "Zermatt Tourismus",
+        "name_2": null,
+        "street": "Bahnhofplatz 5",
+        "zip": "3920",
+        "place": "Zermatt",
+        "tel": "+41 (0)27 966 81 00",
+        "fax": null,
+        "email": "info@zermatt.ch",
+        "url1_link": "https://www.zermatt.ch",
+        "x_coordinate": 623838.0275970922,
+        "y_coordinate": 96533.46512420736,
+        "change_date": null,
+        "id": 169,
+        "r_key": 169,
+        "type": "Sight",
+        "url_sightseeing": "http://www.zermatt.ch/en/museum",
+        "touristic_region": 11,
+        "canton": 7
+    }
+}

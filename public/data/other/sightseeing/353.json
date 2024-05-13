@@ -1,1 +1,60 @@
-{"type":"Feature","id":353,"geometry":{"type":"Point","coordinates":[46.38007217417255,9.232506548598582]},"properties":{"land":null,"category":"all","language":"en","title":"Misox Castle Buildings","abstract":"One of the most important ruins of the Grisons, and the largest in Switzerland. The castle's origins date back to the early Middle Ages.","description":"From the beginning of the 13th century, this castle was the feudal centre of the Misox valley. It had been in possession of the Sax-Misox since the early years of the 12th century. Around 1480 the complex was sold to Gian Giacomo Trivulzio, a Milanese mercenary commander. Under his ownership, the extensions that would eventually become the late medieval castle were started. This change led to unrest throughout the whole valley. After exerting pressure for a long period of time, the Misox subjects at last liberated themselves from Milanese power, and in 1551 they joined the «Grauen Bund» (The Grey League, or the Grisons).\n\nImportant restoration works were carried out in the 1990s. The castle courtyard once appeared smaller than at present, because it used to encompass several buildings such as residential buildings, blacksmiths, stables, granaries, the cheese dairy, foundry, water tank and probably even a mint, none of which has been preserved.\n\nThe ruins are open all year round. The ruins can be visited daily throughout the year, free of charge.","highlights":null,"foto":"https://images0.schweizmobil.ch/image/8444_Burganlage-Misox_1a.jpg","photo_gallery":["https://images0.schweizmobil.ch/image/8444_Burganlage-Misox_1a.jpg","https://images0.schweizmobil.ch/image/8444_Burganlage-Misox_2b.jpg"],"photo_gallery_big":["",""],"photo_gallery_copyright":["",""],"photo_gallery_author":["",""],"name":"Ente Turistico Regionale del Moesano","name_2":null,"street":"La Dogàna","zip":"6565","place":"San Bernardino","tel":"+41 (0)91 832 12 14","fax":null,"email":"info@visit-moesano.ch","url1_link":"https://moesano.graubuenden.ch","x_coordinate":738000.1527109947,"y_coordinate":138100.4956513651,"change_date":null,"id":353,"r_key":353,"type":"Sight","url_sightseeing":"https://www.desax.com/Hosting/Marsax/Ahnenforschung.nsf/vw_docnavi/7C45CC2B01115474C12573C5007BEEE6!opendocument","touristic_region":1}}
+{
+    "type": "Feature",
+    "id": 353,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.38007218262796,
+            9.232506593824189
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Misox Castle Buildings",
+        "abstract": "One of the most important ruins of the Grisons, and the largest in Switzerland. The castle's origins date back to the early Middle Ages.",
+        "description": "From the beginning of the 13th century, this castle was the feudal centre of the Misox valley. It had been in possession of the Sax-Misox since the early years of the 12th century. Around 1480 the complex was sold to Gian Giacomo Trivulzio, a Milanese mercenary commander. Under his ownership, the extensions that would eventually become the late medieval castle were started. This change led to unrest throughout the whole valley. After exerting pressure for a long period of time, the Misox subjects at last liberated themselves from Milanese power, and in 1551 they joined the «Grauen Bund» (The Grey League, or the Grisons).\n\nImportant restoration works were carried out in the 1990s. The castle courtyard once appeared smaller than at present, because it used to encompass several buildings such as residential buildings, blacksmiths, stables, granaries, the cheese dairy, foundry, water tank and probably even a mint, none of which has been preserved.\n\nThe ruins are open all year round. The ruins can be visited daily throughout the year, free of charge.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/8444_Burganlage-Misox_1a.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/8444_Burganlage-Misox_1a.jpg",
+            "https://images.schweizmobil.ch/image/8444_Burganlage-Misox_2b.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "Ente Turistico Regionale del Moesano",
+        "name_2": null,
+        "street": "La Dogàna",
+        "zip": "6565",
+        "place": "San Bernardino",
+        "tel": "+41 (0)91 832 12 14",
+        "fax": null,
+        "email": "info@visit-moesano.ch",
+        "url1_link": "https://moesano.graubuenden.ch",
+        "x_coordinate": 738000.1527109947,
+        "y_coordinate": 138100.4956513651,
+        "change_date": null,
+        "id": 353,
+        "r_key": 353,
+        "type": "Sight",
+        "url_sightseeing": "https://www.desax.com/Hosting/Marsax/Ahnenforschung.nsf/vw_docnavi/7C45CC2B01115474C12573C5007BEEE6!opendocument",
+        "touristic_region": 1,
+        "canton": 2
+    }
+}

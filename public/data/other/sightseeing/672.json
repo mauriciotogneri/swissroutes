@@ -1,1 +1,100 @@
-{"type":"Feature","id":672,"geometry":{"type":"Point","coordinates":[46.81566123336371,7.494547921535022]},"properties":{"land":null,"category":"all","language":"en","title":"Abegg Foundation","abstract":"The Abegg Foundation's museum exhibits over 300 textiles of art-historical value and select art objects. Along with its extensive library and scientific institute, the museum is known around the world.","description":"In December 1961, Werner and Margaret Abegg established the institute of the Abegg Foundation after years spent on their private collection. Since their early years, they were interested in and committed to the study and preservation of historical textiles.\n\nThe Abegg Foundation's textile collection enjoys worldwide acclaim. It comprises more than 7,000 textiles from Europe, the Near East and regions along the Silk Roads. The artifacts date from the fourth century BC until approximately 1800 AD.\n\nThe Abegg Foundation also has a significant collection of works of applied art, painting and sculpture. Works of art representing different genres are displayed next to textiles to demonstrate how the two fields pervaded and influenced each other.","highlights":null,"foto":"https://images0.schweizmobil.ch/image/Blick_in_Ausstellung_mit_Besuchern_72dpi.jpg","photo_gallery":["https://images0.schweizmobil.ch/image/Blick_in_Ausstellung_mit_Besuchern_72dpi.jpg","https://images0.schweizmobil.ch/image/5567_72dpi.jpg","https://images0.schweizmobil.ch/image/818_72dpi.jpg","https://images0.schweizmobil.ch/image/2191_72dpi.jpg","https://images0.schweizmobil.ch/image/Ansicht_Eingang.jpg","https://images0.schweizmobil.ch/image/Inv_1_72dpi.jpg","https://images0.schweizmobil.ch/image/Raum_Spaetantike_72dpi.jpg","https://images0.schweizmobil.ch/image/Inv_2_72dpi.jpg","https://images0.schweizmobil.ch/image/Inv_3_72dpi.jpg","https://images0.schweizmobil.ch/image/Inv_4_72dpi.jpg"],"photo_gallery_big":["","","","","","","","","",""],"photo_gallery_copyright":["","","","","","","","","",""],"photo_gallery_author":["","","","","","","","","",""],"name":"Abegg-Stiftung","name_2":null,"street":"Werner Abeggstrasse 67","zip":"3132","place":"Riggisberg","tel":"+41 (0)31 808 12 01","fax":null,"email":"info@abegg-stiftung.ch","url1_link":"https://www.abegg-stiftung.ch","x_coordinate":604267.3346784317,"y_coordinate":184947.69593966418,"change_date":null,"id":672,"r_key":672,"type":"Sight","url_sightseeing":"https://www.abegg-stiftung.ch","touristic_region":6}}
+{
+    "type": "Feature",
+    "id": 672,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.815661236073225,
+            7.4945479198661
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Abegg Foundation",
+        "abstract": "The Abegg Foundation's museum exhibits over 300 textiles of art-historical value and select art objects. Along with its extensive library and scientific institute, the museum is known around the world.",
+        "description": "In December 1961, Werner and Margaret Abegg established the institute of the Abegg Foundation after years spent on their private collection. Since their early years, they were interested in and committed to the study and preservation of historical textiles.\n\nThe Abegg Foundation's textile collection enjoys worldwide acclaim. It comprises more than 7,000 textiles from Europe, the Near East and regions along the Silk Roads. The artifacts date from the fourth century BC until approximately 1800 AD.\n\nThe Abegg Foundation also has a significant collection of works of applied art, painting and sculpture. Works of art representing different genres are displayed next to textiles to demonstrate how the two fields pervaded and influenced each other.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/Blick_in_Ausstellung_mit_Besuchern_72dpi.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/Blick_in_Ausstellung_mit_Besuchern_72dpi.jpg",
+            "https://images.schweizmobil.ch/image/5567_72dpi.jpg",
+            "https://images.schweizmobil.ch/image/818_72dpi.jpg",
+            "https://images.schweizmobil.ch/image/2191_72dpi.jpg",
+            "https://images.schweizmobil.ch/image/Ansicht_Eingang.jpg",
+            "https://images.schweizmobil.ch/image/Inv_1_72dpi.jpg",
+            "https://images.schweizmobil.ch/image/Raum_Spaetantike_72dpi.jpg",
+            "https://images.schweizmobil.ch/image/Inv_2_72dpi.jpg",
+            "https://images.schweizmobil.ch/image/Inv_3_72dpi.jpg",
+            "https://images.schweizmobil.ch/image/Inv_4_72dpi.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "name": "Abegg-Stiftung",
+        "name_2": null,
+        "street": "Werner Abeggstrasse 67",
+        "zip": "3132",
+        "place": "Riggisberg",
+        "tel": "+41 (0)31 808 12 01",
+        "fax": null,
+        "email": "info@abegg-stiftung.ch",
+        "url1_link": "https://www.abegg-stiftung.ch",
+        "x_coordinate": 604267.3346784317,
+        "y_coordinate": 184947.69593966418,
+        "change_date": null,
+        "id": 672,
+        "r_key": 672,
+        "type": "Sight",
+        "url_sightseeing": "https://www.abegg-stiftung.ch",
+        "touristic_region": 6,
+        "canton": 12
+    }
+}

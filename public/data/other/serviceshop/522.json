@@ -1,1 +1,34 @@
-{"type":"Feature","id":3246,"geometry":{"type":"Point","coordinates":[47.55887454880323,7.599839817400881]},"properties":{"land":"\"velo\",\"mountainbike\"","category":"all","language":"en","title":"Voyage Cycling Store","abstract":null,"name":"Voyage Cycling Store","street":"Grenzacherstrasse 10","zip":"4058","place":"Basel","tel":"+41 61 535 61 66","email":null,"url1_text":null,"url1_link":"https://www.voyagecyclingstore.ch","organisation":"2rad / 2routes / 2ruote","foto":null,"x_coordinate":612133.9555969418,"y_coordinate":267586.45973725163,"change_date":null,"id":522,"type":"Service"}}
+{
+    "type": "Feature",
+    "id": 3246,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            47.558874573242704,
+            7.599839811914082
+        ]
+    },
+    "properties": {
+        "land": "\"velo\",\"mountainbike\"",
+        "category": "all",
+        "language": "en",
+        "title": "Voyage Cycling Store",
+        "abstract": null,
+        "name": "Voyage Cycling Store",
+        "street": "Grenzacherstrasse 10",
+        "zip": "4058",
+        "place": "Basel",
+        "tel": "+41 61 535 61 66",
+        "email": null,
+        "url1_text": null,
+        "url1_link": "https://www.voyagecyclingstore.ch",
+        "organisation": "2rad / 2routes / 2ruote",
+        "foto": null,
+        "foto_abstract": null,
+        "x_coordinate": 612133.9555969418,
+        "y_coordinate": 267586.45973725163,
+        "change_date": null,
+        "id": 522,
+        "type": "Service"
+    }
+}

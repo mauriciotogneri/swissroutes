@@ -1,1 +1,75 @@
-{"type":"Feature","id":797,"geometry":{"type":"Point","coordinates":[47.5588026631501,7.563355451219849]},"properties":{"land":null,"category":"all","language":"en","title":"Basel's pump track","abstract":"The Buschweilerhof sports complex is home to the first permanent pump track in the city of Basel. At 55 metres long, the track is not too large. Thanks to the carefully moulded asphalt surface, even the youngest users can have great fun.","description":"The Iselin district in the west of Basel gained a new attraction in autumn 2018: the City Gardeners commissioned the construction of a pump track on an unused green space at the Buschweilerhof sports complex. It is the first of its kind in the city of Basel and the first asphalt pump track in the canton. \n\nWith a total area of around 380 m2 and a length of 55 metres, the undulating circular track built by Velosolutions is fairly small and with more moderate dimensions. In other words, it is mainly aimed at younger users. Thanks to the carefully moulded asphalt surface, Basel's pump track is also suitable for kick scooters, skateboards and balance bikes. \n\nThe track boasts another special feature too: a system to record the number of completed circuits which was installed during construction. The circuit counter allows the Sports Department to record data. Initial results indicate that it might be the first but not the last track to be built in Basel.","highlights":null,"foto":"https://images0.schweizmobil.ch/image-big/Pumptrack_Basel_Switzerland_dominik_bosshard-dji_0012_45203617521_o_g.jpg","photo_gallery":["https://images0.schweizmobil.ch/image/Pumptrack_Basel_Switzerland_dominik_bosshard-dji_0019_31329434258_o_s.jpg","https://images0.schweizmobil.ch/image/Pumptrack_Basel_Switzerland_dominik_bosshard-dji_0020_44481990514_o_s.jpg","https://images0.schweizmobil.ch/image/Pumptrack_Basel_Switzerland_dominik_bosshard-dji_0017_30264413137_o_s.jpg","https://images0.schweizmobil.ch/image/Pumptrack_Basel_Switzerland_dominik_bosshard-dji_0015_31329449778_o_s.jpg","https://images0.schweizmobil.ch/image/Pumptrack_Basel_Switzerland_dominik_bosshard-dji_0012_45203617521_o_s.jpg"],"photo_gallery_big":["https://images0.schweizmobil.ch/image-big/Pumptrack_Basel_Switzerland_dominik_bosshard-dji_0019_31329434258_o_g.jpg","https://images0.schweizmobil.ch/image-big/Pumptrack_Basel_Switzerland_dominik_bosshard-dji_0020_44481990514_o_g.jpg","https://images0.schweizmobil.ch/image-big/Pumptrack_Basel_Switzerland_dominik_bosshard-dji_0017_30264413137_o_g.jpg","https://images0.schweizmobil.ch/image-big/Pumptrack_Basel_Switzerland_dominik_bosshard-dji_0015_31329449778_o_g.jpg","https://images0.schweizmobil.ch/image-big/Pumptrack_Basel_Switzerland_dominik_bosshard-dji_0012_45203617521_o_g.jpg"],"photo_gallery_copyright":["","","","",""],"photo_gallery_author":["","","","",""],"name":"Kanton Basel-Stadt","name_2":null,"street":"Muensterplatz 11","zip":"4001","place":"Basel","tel":"+41 (0)61 267 91 52","fax":null,"email":"sportangebote@bs.ch","url1_link":"https://www.bvd.bs.ch","x_coordinate":609387.5862068053,"y_coordinate":267573.70204431296,"change_date":null,"id":797,"r_key":797,"type":"Sight","url_sightseeing":"https://www.jfs.bs.ch/fuer-sportlerinnen-und-sportler/sportangebote/kinder-jugendliche/pumptrack.html","touristic_region":5}}
+{
+    "type": "Feature",
+    "id": 797,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            47.55880263194047,
+            7.563355444983088
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Basel's pump track",
+        "abstract": "The Buschweilerhof sports complex is home to the first permanent pump track in the city of Basel. At 55 metres long, the track is not too large. Thanks to the carefully moulded asphalt surface, even the youngest users can have great fun.",
+        "description": "The Iselin district in the west of Basel gained a new attraction in autumn 2018: the City Gardeners commissioned the construction of a pump track on an unused green space at the Buschweilerhof sports complex. It is the first of its kind in the city of Basel and the first asphalt pump track in the canton. \n\nWith a total area of around 380 m2 and a length of 55 metres, the undulating circular track built by Velosolutions is fairly small and with more moderate dimensions. In other words, it is mainly aimed at younger users. Thanks to the carefully moulded asphalt surface, Basel's pump track is also suitable for kick scooters, skateboards and balance bikes. \n\nThe track boasts another special feature too: a system to record the number of completed circuits which was installed during construction. The circuit counter allows the Sports Department to record data. Initial results indicate that it might be the first but not the last track to be built in Basel.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image-big/Pumptrack_Basel_Switzerland_dominik_bosshard-dji_0012_45203617521_o_g.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/Pumptrack_Basel_Switzerland_dominik_bosshard-dji_0019_31329434258_o_s.jpg",
+            "https://images.schweizmobil.ch/image/Pumptrack_Basel_Switzerland_dominik_bosshard-dji_0020_44481990514_o_s.jpg",
+            "https://images.schweizmobil.ch/image/Pumptrack_Basel_Switzerland_dominik_bosshard-dji_0017_30264413137_o_s.jpg",
+            "https://images.schweizmobil.ch/image/Pumptrack_Basel_Switzerland_dominik_bosshard-dji_0015_31329449778_o_s.jpg",
+            "https://images.schweizmobil.ch/image/Pumptrack_Basel_Switzerland_dominik_bosshard-dji_0012_45203617521_o_s.jpg"
+        ],
+        "photo_gallery_big": [
+            "https://images.schweizmobil.ch/image-big/Pumptrack_Basel_Switzerland_dominik_bosshard-dji_0019_31329434258_o_g.jpg",
+            "https://images.schweizmobil.ch/image-big/Pumptrack_Basel_Switzerland_dominik_bosshard-dji_0020_44481990514_o_g.jpg",
+            "https://images.schweizmobil.ch/image-big/Pumptrack_Basel_Switzerland_dominik_bosshard-dji_0017_30264413137_o_g.jpg",
+            "https://images.schweizmobil.ch/image-big/Pumptrack_Basel_Switzerland_dominik_bosshard-dji_0015_31329449778_o_g.jpg",
+            "https://images.schweizmobil.ch/image-big/Pumptrack_Basel_Switzerland_dominik_bosshard-dji_0012_45203617521_o_g.jpg"
+        ],
+        "photo_gallery_copyright": [
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "name": "Kanton Basel-Stadt",
+        "name_2": null,
+        "street": "Muensterplatz 11",
+        "zip": "4001",
+        "place": "Basel",
+        "tel": "+41 (0)61 267 91 52",
+        "fax": null,
+        "email": "sportangebote@bs.ch",
+        "url1_link": "https://www.bvd.bs.ch",
+        "x_coordinate": 609387.5862068053,
+        "y_coordinate": 267573.70204431296,
+        "change_date": null,
+        "id": 797,
+        "r_key": 797,
+        "type": "Sight",
+        "url_sightseeing": "https://www.jfs.bs.ch/fuer-sportlerinnen-und-sportler/sportangebote/kinder-jugendliche/pumptrack.html",
+        "touristic_region": 5,
+        "canton": 8
+    }
+}

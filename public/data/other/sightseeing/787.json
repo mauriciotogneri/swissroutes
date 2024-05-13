@@ -1,1 +1,65 @@
-{"type":"Feature","id":787,"geometry":{"type":"Point","coordinates":[47.55578464127926,9.378909103703453]},"properties":{"land":null,"category":"all","language":"en","title":"Pumptrack am See, Salmsach","abstract":"In a stunning location on the shores of Lake Constance, Salmsach's Pumptrack am See – the pump track on the lake – inspires you to get active. Old and young with bicycles, scooters and skateboards can swoop around the curves and fly over the rollers – and have fantastic fun.","description":"In Salmsach am Bodensee, next door to grassy bathing spots and BBQ areas, you will find what is probably one of Switzerland's most gorgeous locations for a pump track. Pumptrack am See – the pump track on the lake – offers views over the lakes from its two enticing circuits, which incorporate rollers and berms for bikes, scooters, inline skating and skateboards. \n\nA smaller, easier circuit is ideal for novices and for the smaller visitors. The larger circuit covers 260m and offers a fantastic experience for the more advanced and those who want to test their skills. The goal is to ride the track without pedalling or pushing, just by balancing your weight. Riding the tracks requires stamina, coordination, and skill – and is tremendous fun. Young and old alike can enjoy the pump track complex.\n\nThe complex is open to the public all day, and is accessible free of charge. It is not possible to reserve the complex. It is situated a few hundred metres away from Romanshorn station, which offers SBB bicycle rental. Helmets are obligatory on the pump track.\n","highlights":null,"foto":"https://images0.schweizmobil.ch/image-big/Salmsach_Pumptrack_am_See_Drohne_Pumptrack_fertig_mit_See_5_g.jpg","photo_gallery":["https://images0.schweizmobil.ch/image/Salmsach_Pumptrack_am_See_Drohne_Pumptrack_fertig_mit_See_5_s.jpg","https://images0.schweizmobil.ch/image/Salmsach_Pumptrack_am_See_Fahrradfahrer_Pumptrack_am_See_s.jpg","https://images0.schweizmobil.ch/image/Salmsach_Pumptrack_am_See_IMG_5091_s.jpg"],"photo_gallery_big":["https://images0.schweizmobil.ch/image-big/Salmsach_Pumptrack_am_See_Drohne_Pumptrack_fertig_mit_See_5_g.jpg","https://images0.schweizmobil.ch/image-big/Salmsach_Pumptrack_am_See_Fahrradfahrer_Pumptrack_am_See_g.jpg","https://images0.schweizmobil.ch/image-big/Salmsach_Pumptrack_am_See_IMG_5091_g.jpg"],"photo_gallery_copyright":["","",""],"photo_gallery_author":["","",""],"name":"Gemeinde Salmsach","name_2":null,"street":"Arbonerstrasse 8","zip":"8599 ","place":"Salmsach","tel":"+41 (0)58 346 04 40","fax":null,"email":"info@salmsach.ch","url1_link":"https://www.salmsach.ch","x_coordinate":746028.5199434041,"y_coordinate":269035.8067524425,"change_date":null,"id":787,"r_key":787,"type":"Sight","url_sightseeing":"https://www.pumptrack-am-see.ch","touristic_region":2}}
+{
+    "type": "Feature",
+    "id": 787,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            47.55578463076037,
+            9.378909141380134
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Pumptrack am See, Salmsach",
+        "abstract": "In a stunning location on the shores of Lake Constance, Salmsach's Pumptrack am See – the pump track on the lake – inspires you to get active. Old and young with bicycles, scooters and skateboards can swoop around the curves and fly over the rollers – and have fantastic fun.",
+        "description": "In Salmsach am Bodensee, next door to grassy bathing spots and BBQ areas, you will find what is probably one of Switzerland's most gorgeous locations for a pump track. Pumptrack am See – the pump track on the lake – offers views over the lakes from its two enticing circuits, which incorporate rollers and berms for bikes, scooters, inline skating and skateboards. \n\nA smaller, easier circuit is ideal for novices and for the smaller visitors. The larger circuit covers 260m and offers a fantastic experience for the more advanced and those who want to test their skills. The goal is to ride the track without pedalling or pushing, just by balancing your weight. Riding the tracks requires stamina, coordination, and skill – and is tremendous fun. Young and old alike can enjoy the pump track complex.\n\nThe complex is open to the public all day, and is accessible free of charge. It is not possible to reserve the complex. It is situated a few hundred metres away from Romanshorn station, which offers SBB bicycle rental. Helmets are obligatory on the pump track.\n",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image-big/Salmsach_Pumptrack_am_See_Drohne_Pumptrack_fertig_mit_See_5_g.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/Salmsach_Pumptrack_am_See_Drohne_Pumptrack_fertig_mit_See_5_s.jpg",
+            "https://images.schweizmobil.ch/image/Salmsach_Pumptrack_am_See_Fahrradfahrer_Pumptrack_am_See_s.jpg",
+            "https://images.schweizmobil.ch/image/Salmsach_Pumptrack_am_See_IMG_5091_s.jpg"
+        ],
+        "photo_gallery_big": [
+            "https://images.schweizmobil.ch/image-big/Salmsach_Pumptrack_am_See_Drohne_Pumptrack_fertig_mit_See_5_g.jpg",
+            "https://images.schweizmobil.ch/image-big/Salmsach_Pumptrack_am_See_Fahrradfahrer_Pumptrack_am_See_g.jpg",
+            "https://images.schweizmobil.ch/image-big/Salmsach_Pumptrack_am_See_IMG_5091_g.jpg"
+        ],
+        "photo_gallery_copyright": [
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            "",
+            ""
+        ],
+        "name": "Gemeinde Salmsach",
+        "name_2": null,
+        "street": "Arbonerstrasse 8",
+        "zip": "8599 ",
+        "place": "Salmsach",
+        "tel": "+41 (0)58 346 04 40",
+        "fax": null,
+        "email": "info@salmsach.ch",
+        "url1_link": "https://www.salmsach.ch",
+        "x_coordinate": 746028.5199434041,
+        "y_coordinate": 269035.8067524425,
+        "change_date": null,
+        "id": 787,
+        "r_key": 787,
+        "type": "Sight",
+        "url_sightseeing": "https://www.pumptrack-am-see.ch",
+        "touristic_region": 2,
+        "canton": 6
+    }
+}

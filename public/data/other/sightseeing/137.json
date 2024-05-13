@@ -1,1 +1,90 @@
-{"type":"Feature","id":137,"geometry":{"type":"Point","coordinates":[47.02127278734197,8.651718353894836]},"properties":{"land":null,"category":"all","language":"en","title":"Forum of Swiss History Schwyz","abstract":"The Forum of Swiss History Schwyz is the cultural seat of the Swiss National Museum and one of the key museums of cultural history in the Alpine region.","description":"Opened in 1995, the Forum of Swiss History Schwyz is the cultural seat of the Swiss National Museum in central Switzerland. On the upper three floors, the museum focuses on the foundation and early development of the Old Swiss Confederacy in the Middle Ages. Precious, important objects from all parts of Switzerland as well as from abroad are on view. New media are specifically used for education and teaching. Various media stations offer the possibility of interactive involvement and entertaining, in-depth immersion in the exhibition topic. \n\nThe special exhibitions in the basement, which change regularly, are very important for the region and central Switzerland. They take up themes of topical interest and present them in a modern form. A cafeteria and an attractive museum shop complete the range of services available to visitors.","highlights":null,"foto":"https://images0.schweizmobil.ch/image-big/POI_Schweizerisches_Nationalmuseum_SZ_Aussenansicht_g.jpg","photo_gallery":["https://images0.schweizmobil.ch/image/POI_Schweizerisches_Nationalmuseum_SZ_Aussenansicht_s.jpg","https://images0.schweizmobil.ch/image/POI_Schweizerisches_Nationalmuseum_SZ_Aussenansicht2_s.jpg","https://images0.schweizmobil.ch/image/POI_Schweizerisches_Nationalmuseum_SZ_Die_Schwarze_Stube_s.jpg","https://images0.schweizmobil.ch/image/POI_Schweizerisches_Nationalmuseum_SZ_Landsgemeinde_s.jpg","https://images0.schweizmobil.ch/image/POI_Schweizerisches_Nationalmuseum_SZ_Ritter_s.jpg","https://images0.schweizmobil.ch/image/POI_Schweizerisches_Nationalmuseum_SZ_Sust_s.jpg","https://images0.schweizmobil.ch/image/POI_Schweizerisches_Nationalmuseum_SZ_Transport_s.jpg","https://images0.schweizmobil.ch/image/POI_Schweizerisches_Nationalmuseum_SZ_verkleiden_s.jpg"],"photo_gallery_big":["https://images0.schweizmobil.ch/image-big/POI_Schweizerisches_Nationalmuseum_SZ_Aussenansicht_g.jpg","https://images0.schweizmobil.ch/image-big/POI_Schweizerisches_Nationalmuseum_SZ_Aussenansicht2_g.jpg","https://images0.schweizmobil.ch/image-big/POI_Schweizerisches_Nationalmuseum_SZ_Die_Schwarze_Stube_g.jpg","https://images0.schweizmobil.ch/image-big/POI_Schweizerisches_Nationalmuseum_SZ_Landsgemeinde_g.jpg","https://images0.schweizmobil.ch/image-big/POI_Schweizerisches_Nationalmuseum_SZ_Ritter_g.jpg","https://images0.schweizmobil.ch/image-big/POI_Schweizerisches_Nationalmuseum_SZ_Sust_g.jpg","https://images0.schweizmobil.ch/image-big/POI_Schweizerisches_Nationalmuseum_SZ_Transport_g.jpg","https://images0.schweizmobil.ch/image-big/POI_Schweizerisches_Nationalmuseum_SZ_verkleiden_g.jpg"],"photo_gallery_copyright":["","","","","","","",""],"photo_gallery_author":["","","","","","","",""],"name":"Forum Schweizer Geschichte Schwyz","name_2":null,"street":"Hofmatt / Zeughaustrasse 5","zip":"6430","place":"Schwyz","tel":"+41 (0)41 819 60 11","fax":null,"email":"forumschwyz@nationalmuseum.ch","url1_link":"https://www.forumschwyz.ch","x_coordinate":692223.9120199322,"y_coordinate":208516.2841754494,"change_date":null,"id":137,"r_key":137,"type":"Sight","url_sightseeing":"http://www.forumschwyz.ch","touristic_region":4}}
+{
+    "type": "Feature",
+    "id": 137,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            47.02127279095541,
+            8.651718307846885
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Forum of Swiss History Schwyz",
+        "abstract": "The Forum of Swiss History Schwyz is the cultural seat of the Swiss National Museum and one of the key museums of cultural history in the Alpine region.",
+        "description": "Opened in 1995, the Forum of Swiss History Schwyz is the cultural seat of the Swiss National Museum in central Switzerland. On the upper three floors, the museum focuses on the foundation and early development of the Old Swiss Confederacy in the Middle Ages. Precious, important objects from all parts of Switzerland as well as from abroad are on view. New media are specifically used for education and teaching. Various media stations offer the possibility of interactive involvement and entertaining, in-depth immersion in the exhibition topic. \n\nThe special exhibitions in the basement, which change regularly, are very important for the region and central Switzerland. They take up themes of topical interest and present them in a modern form. A cafeteria and an attractive museum shop complete the range of services available to visitors.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image-big/POI_Schweizerisches_Nationalmuseum_SZ_Aussenansicht_g.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/POI_Schweizerisches_Nationalmuseum_SZ_Transport_s.jpg",
+            "https://images.schweizmobil.ch/image/POI_Schweizerisches_Nationalmuseum_SZ_Aussenansicht_s.jpg",
+            "https://images.schweizmobil.ch/image/POI_Schweizerisches_Nationalmuseum_SZ_Aussenansicht2_s.jpg",
+            "https://images.schweizmobil.ch/image/POI_Schweizerisches_Nationalmuseum_SZ_Die_Schwarze_Stube_s.jpg",
+            "https://images.schweizmobil.ch/image/POI_Schweizerisches_Nationalmuseum_SZ_Landsgemeinde_s.jpg",
+            "https://images.schweizmobil.ch/image/POI_Schweizerisches_Nationalmuseum_SZ_Ritter_s.jpg",
+            "https://images.schweizmobil.ch/image/POI_Schweizerisches_Nationalmuseum_SZ_Sust_s.jpg",
+            "https://images.schweizmobil.ch/image/POI_Schweizerisches_Nationalmuseum_SZ_verkleiden_s.jpg"
+        ],
+        "photo_gallery_big": [
+            "https://images.schweizmobil.ch/image-big/POI_Schweizerisches_Nationalmuseum_SZ_Transport_g.jpg",
+            "https://images.schweizmobil.ch/image-big/POI_Schweizerisches_Nationalmuseum_SZ_Aussenansicht_g.jpg",
+            "https://images.schweizmobil.ch/image-big/POI_Schweizerisches_Nationalmuseum_SZ_Aussenansicht2_g.jpg",
+            "https://images.schweizmobil.ch/image-big/POI_Schweizerisches_Nationalmuseum_SZ_Die_Schwarze_Stube_g.jpg",
+            "https://images.schweizmobil.ch/image-big/POI_Schweizerisches_Nationalmuseum_SZ_Landsgemeinde_g.jpg",
+            "https://images.schweizmobil.ch/image-big/POI_Schweizerisches_Nationalmuseum_SZ_Ritter_g.jpg",
+            "https://images.schweizmobil.ch/image-big/POI_Schweizerisches_Nationalmuseum_SZ_Sust_g.jpg",
+            "https://images.schweizmobil.ch/image-big/POI_Schweizerisches_Nationalmuseum_SZ_verkleiden_g.jpg"
+        ],
+        "photo_gallery_copyright": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "name": "Forum Schweizer Geschichte Schwyz",
+        "name_2": null,
+        "street": "Hofmatt / Zeughaustrasse 5",
+        "zip": "6430",
+        "place": "Schwyz",
+        "tel": "+41 (0)41 819 60 11",
+        "fax": null,
+        "email": "forumschwyz@nationalmuseum.ch",
+        "url1_link": "https://www.forumschwyz.ch",
+        "x_coordinate": 692223.9120199322,
+        "y_coordinate": 208516.2841754494,
+        "change_date": null,
+        "id": 137,
+        "r_key": 137,
+        "type": "Sight",
+        "url_sightseeing": "http://www.forumschwyz.ch",
+        "touristic_region": 4,
+        "canton": 11
+    }
+}

@@ -1,0 +1,34 @@
+{
+    "type": "Feature",
+    "id": 5259,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.835416405143995,
+            9.282467744993452
+        ]
+    },
+    "properties": {
+        "land": "\"velo\",\"mountainbike\"",
+        "category": "all",
+        "language": "en",
+        "title": "Green Valley GmbH Bike",
+        "abstract": null,
+        "name": "Green Valley GmbH Bike",
+        "street": "Via dil Crest 4",
+        "zip": "7017",
+        "place": "Flims Dorf",
+        "tel": "+41 81 511 03 09",
+        "email": null,
+        "url1_text": null,
+        "url1_link": "https://www.greenvalley.bike",
+        "organisation": "2rad / 2routes / 2ruote",
+        "foto": null,
+        "foto_abstract": null,
+        "x_coordinate": 740653.9501202845,
+        "y_coordinate": 188794.0389619455,
+        "change_date": null,
+        "id": 632,
+        "type": "Service"
+    }
+}

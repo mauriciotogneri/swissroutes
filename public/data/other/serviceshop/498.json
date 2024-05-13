@@ -1,1 +1,34 @@
-{"type":"Feature","id":3227,"geometry":{"type":"Point","coordinates":[46.94523324485853,7.423624338167912]},"properties":{"land":"\"velo\",\"mountainbike\"","category":"all","language":"en","title":"VeloKrea","abstract":null,"name":"VeloKrea","street":"Effingerstrasse 103","zip":"3008","place":"Bern","tel":"+41 31 381 19 00","email":null,"url1_text":null,"url1_link":"https://www.velokrea.ch","organisation":"2rad / 2routes / 2ruote","foto":null,"x_coordinate":598857.0331077111,"y_coordinate":199350.57941274284,"change_date":null,"id":498,"type":"Service"}}
+{
+    "type": "Feature",
+    "id": 3227,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.945233244874395,
+            7.423624337802987
+        ]
+    },
+    "properties": {
+        "land": "\"velo\",\"mountainbike\"",
+        "category": "all",
+        "language": "en",
+        "title": "VeloKrea Lussi",
+        "abstract": null,
+        "name": "VeloKrea Lussi",
+        "street": "Effingerstrasse 103",
+        "zip": "3008",
+        "place": "Bern",
+        "tel": "+41 31 381 19 00",
+        "email": null,
+        "url1_text": null,
+        "url1_link": "https://www.velokrea.ch",
+        "organisation": "2rad / 2routes / 2ruote",
+        "foto": null,
+        "foto_abstract": null,
+        "x_coordinate": 598857.0331077111,
+        "y_coordinate": 199350.57941274284,
+        "change_date": null,
+        "id": 498,
+        "type": "Service"
+    }
+}

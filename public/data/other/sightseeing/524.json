@@ -1,1 +1,70 @@
-{"type":"Feature","id":524,"geometry":{"type":"Point","coordinates":[45.97668680494717,8.946211398346657]},"properties":{"land":null,"category":"all","language":"en","title":"San Salvatore","abstract":"Mount San Salvatore (912 m above see level) stands out majestically in the Lugano skyline and offers an outstanding view of the Ceresio lake, the plain of Lombardy and of the magnificent chain of the Swiss and Savoy Alps. The roof of the church is an outlook point offering you a 360 degrees view.","description":"Funicular, Museum, permanent exhibition, old chapel, panorama, manifestations, climbing, park and gastronomy. Letting your gaze rest on infinite horizons, sipping a glass of excellent wine, watching your children having fun at the play ground. Mount San Salvatore offers you a moment to relax and rest, at just stone's throw from the frenetic pace of the city. From the summit you can descend on foot, along a path leading to Ciona (Carona). Moreover, taking the excursionist paths of the area, you can enjoy all the peculiarities of mountain slopes walking through uncontaminated and regenerating areas. It runs the whole year to its seasonal scedules.","highlights":null,"foto":"https://images0.schweizmobil.ch/image/8129_San-Salvatore_1a.jpg","photo_gallery":["https://images0.schweizmobil.ch/image/8129_San-Salvatore_1a.jpg","https://images0.schweizmobil.ch/image/8129_San_Salvatore_3_c_Ticino_Turismo.jpg","https://images0.schweizmobil.ch/image/8129_San_Salvatore_4_c_Ticino_Turismo.jpg","https://images0.schweizmobil.ch/image/8129_San-Salvatore_2b.jpg"],"photo_gallery_big":["","","",""],"photo_gallery_copyright":["","","",""],"photo_gallery_author":["","","",""],"name":"Ente Turistico del Luganese","name_2":null,"street":"Palazzo Civico - Piazza della Riforma","zip":"6900","place":"Lugano","tel":"+41 (0)58 220 65 04","fax":null,"email":"info@luganoregion.com","url1_link":"https://www.luganoregion.com","x_coordinate":716840.14022546,"y_coordinate":92802.18327686653,"change_date":null,"id":524,"r_key":524,"type":"Sight","url_sightseeing":"https://www.montesansalvatore.ch/en/","touristic_region":12}}
+{
+    "type": "Feature",
+    "id": 524,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            45.9766868040984,
+            8.946211430966384
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "San Salvatore",
+        "abstract": "Mount San Salvatore (912 m above see level) stands out majestically in the Lugano skyline and offers an outstanding view of the Ceresio lake, the plain of Lombardy and of the magnificent chain of the Swiss and Savoy Alps. The roof of the church is an outlook point offering you a 360 degrees view.",
+        "description": "Funicular, Museum, permanent exhibition, old chapel, panorama, manifestations, climbing, park and gastronomy. Letting your gaze rest on infinite horizons, sipping a glass of excellent wine, watching your children having fun at the play ground. Mount San Salvatore offers you a moment to relax and rest, at just stone's throw from the frenetic pace of the city. From the summit you can descend on foot, along a path leading to Ciona (Carona). Moreover, taking the excursionist paths of the area, you can enjoy all the peculiarities of mountain slopes walking through uncontaminated and regenerating areas. It runs the whole year to its seasonal scedules.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/8129_San-Salvatore_1a.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/8129_San-Salvatore_1a.jpg",
+            "https://images.schweizmobil.ch/image/8129_San_Salvatore_3_c_Ticino_Turismo.jpg",
+            "https://images.schweizmobil.ch/image/8129_San_Salvatore_4_c_Ticino_Turismo.jpg",
+            "https://images.schweizmobil.ch/image/8129_San-Salvatore_2b.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "name": "Ente Turistico del Luganese",
+        "name_2": null,
+        "street": "Palazzo Civico - Piazza della Riforma",
+        "zip": "6900",
+        "place": "Lugano",
+        "tel": "+41 (0)58 220 65 04",
+        "fax": null,
+        "email": "info@luganoregion.com",
+        "url1_link": "https://www.luganoregion.com",
+        "x_coordinate": 716840.14022546,
+        "y_coordinate": 92802.18327686653,
+        "change_date": null,
+        "id": 524,
+        "r_key": 524,
+        "type": "Sight",
+        "url_sightseeing": "https://www.montesansalvatore.ch/en/",
+        "touristic_region": 12,
+        "canton": 19
+    }
+}

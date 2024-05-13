@@ -1,1 +1,60 @@
-{"type":"Feature","id":420,"geometry":{"type":"Point","coordinates":[47.53302611915891,7.721949694772814]},"properties":{"land":null,"category":"all","language":"en","title":"Römerstadt Augusta Raurica","abstract":"Augusta Raurica offers over 20 places of interest, including the best preserved ancient theatre north of the Alps, a unique, restored Roman house and the Roman domestic animal park. Today, Augusta Raurica is the most visited tourist site in the Basel-Landschaft canton.","description":"Living history: Augusta Raurica is an ancient town with little \"written\" history. As a result, it is richer in terms of archaeological finds and sources of history. From no other Roman town have so many coin finds, god figurines, brooches or glassware been scientifically reclaimed as from Augusta Raurica. In the archives in Augst, the range of excavated documents and objects found is almost inexhaustible.\n\nAugusta Raurica, one of the most attractive recreation sites in the region, is the oldest Roman settlement on the Rhine and was home to approximately 20,000 people. Walk through the Roman house and experience the rich link between the Roman culture of the south with the indigenous Celtic way of life in the Roman museum. A visit to the silver treasure trove in the Roman museum is also worthwhile.","highlights":null,"foto":"https://images0.schweizmobil.ch/image/8011_Roemerstadt-Augusta-Raurica_1a.jpg","photo_gallery":["https://images0.schweizmobil.ch/image/8011_Roemerstadt-Augusta-Raurica_1a.jpg","https://images0.schweizmobil.ch/image/8011_Roemerstadt-Augusta-Raurica_2b.jpg"],"photo_gallery_big":["",""],"photo_gallery_copyright":["",""],"photo_gallery_author":["",""],"name":"Baselland Tourismus","name_2":null,"street":"Hardstrasse 1","zip":"4133","place":"Pratteln","tel":"+41 (0)61 927 65 44","fax":null,"email":"info@baselland-tourismus.ch","url1_link":"https://www.baselland-tourismus.ch","x_coordinate":621334.766349466,"y_coordinate":264738.2034859277,"change_date":null,"id":420,"r_key":420,"type":"Sight","url_sightseeing":"https://www.augusta-raurica.ch","touristic_region":5}}
+{
+    "type": "Feature",
+    "id": 420,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            47.533026137601766,
+            7.721949695776579
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Römerstadt Augusta Raurica",
+        "abstract": "Augusta Raurica offers over 20 places of interest, including the best preserved ancient theatre north of the Alps, a unique, restored Roman house and the Roman domestic animal park. Today, Augusta Raurica is the most visited tourist site in the Basel-Landschaft canton.",
+        "description": "Living history: Augusta Raurica is an ancient town with little \"written\" history. As a result, it is richer in terms of archaeological finds and sources of history. From no other Roman town have so many coin finds, god figurines, brooches or glassware been scientifically reclaimed as from Augusta Raurica. In the archives in Augst, the range of excavated documents and objects found is almost inexhaustible.\n\nAugusta Raurica, one of the most attractive recreation sites in the region, is the oldest Roman settlement on the Rhine and was home to approximately 20,000 people. Walk through the Roman house and experience the rich link between the Roman culture of the south with the indigenous Celtic way of life in the Roman museum. A visit to the silver treasure trove in the Roman museum is also worthwhile.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/8011_Roemerstadt-Augusta-Raurica_1a.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/8011_Roemerstadt-Augusta-Raurica_1a.jpg",
+            "https://images.schweizmobil.ch/image/8011_Roemerstadt-Augusta-Raurica_2b.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "Baselland Tourismus",
+        "name_2": null,
+        "street": "Hardstrasse 1",
+        "zip": "4133",
+        "place": "Pratteln",
+        "tel": "+41 (0)61 927 65 44",
+        "fax": null,
+        "email": "info@baselland-tourismus.ch",
+        "url1_link": "https://www.baselland-tourismus.ch",
+        "x_coordinate": 621334.766349466,
+        "y_coordinate": 264738.2034859277,
+        "change_date": null,
+        "id": 420,
+        "r_key": 420,
+        "type": "Sight",
+        "url_sightseeing": "https://www.augusta-raurica.ch",
+        "touristic_region": 5,
+        "canton": 9
+    }
+}

@@ -1,1 +1,65 @@
-{"type":"Feature","id":242,"geometry":{"type":"Point","coordinates":[47.05474265795646,8.305599971543813]},"properties":{"land":null,"category":"all","language":"en","title":"Musegg Wall","abstract":"A trademark of the «City of Lights» is the Musegg Wall that - apart from one tower - has been preserved in its original state. It belongs to the medieval fortifications that were completed in 1408.","description":"Nowadays a walk along these walls is a popular attraction. The Schirmer, Zyt and Männli Towers may be climbed, and from above there is a beautiful panoramic view over the city and countryside.\n\nThe oldest clock in town is mounted on the Zyt Tower and it can be seen from a great distance. Lucerne's respect for its past can be witnessed in this clock's privilege to chime one minute before all the others.\n\nAlso typical of Lucerne is the way the Musegg Wall, the Town Hall and the Water Tower are used and maintained. The majority of these premises are rented for a modest fee to clubs and societies such as the Safran and Wey Guilds. These organizations, in return, have maintained the towers voluntarily and with private means and annually hold open house for the public.","highlights":null,"foto":"https://images0.schweizmobil.ch/image/Museggmauer_EA141103_L7_029.jpg","photo_gallery":["https://images0.schweizmobil.ch/image/Museggmauer_EA141103_L7_029.jpg","https://images0.schweizmobil.ch/image/9152_Museggmauer_2a.jpg","https://images0.schweizmobil.ch/image/9152_Museggmauer_1b.jpg"],"photo_gallery_big":["","",""],"photo_gallery_copyright":["","",""],"photo_gallery_author":["","",""],"name":"Luzern Tourismus","name_2":null,"street":"Bahnhofstrasse 3","zip":"6002","place":"Luzern","tel":"+41 (0)41 227 17 17","fax":null,"email":"luzern@luzern.com","url1_link":"https://www.luzern.com","x_coordinate":665870.8742687093,"y_coordinate":211888.275332847,"change_date":null,"id":242,"r_key":242,"type":"Sight","url_sightseeing":"https://www.luzern.com/en/navpage.cfm?category=CityExperienceLU&subcat=SightseeingLU&id=72069","touristic_region":4}}
+{
+    "type": "Feature",
+    "id": 242,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            47.0547426565022,
+            8.305599946352487
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Musegg Wall",
+        "abstract": "A trademark of the «City of Lights» is the Musegg Wall that - apart from one tower - has been preserved in its original state. It belongs to the medieval fortifications that were completed in 1408.",
+        "description": "Nowadays a walk along these walls is a popular attraction. The Schirmer, Zyt and Männli Towers may be climbed, and from above there is a beautiful panoramic view over the city and countryside.\n\nThe oldest clock in town is mounted on the Zyt Tower and it can be seen from a great distance. Lucerne's respect for its past can be witnessed in this clock's privilege to chime one minute before all the others.\n\nAlso typical of Lucerne is the way the Musegg Wall, the Town Hall and the Water Tower are used and maintained. The majority of these premises are rented for a modest fee to clubs and societies such as the Safran and Wey Guilds. These organizations, in return, have maintained the towers voluntarily and with private means and annually hold open house for the public.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/Museggmauer_EA141103_L7_029.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/Museggmauer_EA141103_L7_029.jpg",
+            "https://images.schweizmobil.ch/image/9152_Museggmauer_2a.jpg",
+            "https://images.schweizmobil.ch/image/9152_Museggmauer_1b.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            "",
+            ""
+        ],
+        "name": "Luzern Tourismus",
+        "name_2": null,
+        "street": "Bahnhofstrasse 3",
+        "zip": "6002",
+        "place": "Luzern",
+        "tel": "+41 (0)41 227 17 17",
+        "fax": null,
+        "email": "luzern@luzern.com",
+        "url1_link": "https://www.luzern.com",
+        "x_coordinate": 665870.8742687093,
+        "y_coordinate": 211888.275332847,
+        "change_date": null,
+        "id": 242,
+        "r_key": 242,
+        "type": "Sight",
+        "url_sightseeing": "https://www.luzern.com/en/navpage.cfm?category=CityExperienceLU&subcat=SightseeingLU&id=72069",
+        "touristic_region": 4,
+        "canton": 15
+    }
+}

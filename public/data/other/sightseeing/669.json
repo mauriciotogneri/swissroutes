@@ -1,1 +1,60 @@
-{"type":"Feature","id":669,"geometry":{"type":"Point","coordinates":[47.2319866824287,7.840033717302153]},"properties":{"land":null,"category":"all","language":"en","title":"Monastery of St. Urban ","abstract":"The monastery dates from the year 1194 and is a monument of national importance with impressive Baroque and Cistercian 18th century architecture and culture. The church's choir stalls are an object of international interest.","description":"The former Cistercian monastery of St. Urban was established in 1194 by monks from the Lucelle Abbey in Alsace with the support of the Oberaargau nobility. Over the course of its existence, the monastery evolved into a religious, intellectual and commercial center in the border region of the cantons of Bern, Solothurn, Aargau and Lucerne.\n\nOver time, the medieval monastery was no longer meeting the needs of monks, despite multiple renovations and extensions; so, during the first half of the 18th century, they commissioned the Vorarlberg architect Franz Beer with the design and construction of a completely new monastery complex. Today, the monastery complex is one of Switzerland's most impressive examples of Baroque and Cistercian architecture and culture.\n\nMonastery life came to an abrupt end in 1848, when the canton of Lucerne ordered the closing of the monastery to pay off the debt from the Sonderbund War. After having being used for various purposes over the years, the majority of the monastery complex is now used for cultural events, exhibitions and tours.","highlights":null,"foto":"https://images0.schweizmobil.ch/image/Chorgestuehl_sturban_a.jpg","photo_gallery":["https://images0.schweizmobil.ch/image/Chorgestuehl_sturban_a.jpg","https://images0.schweizmobil.ch/image/St_Urban_b.jpg"],"photo_gallery_big":["",""],"photo_gallery_copyright":["",""],"photo_gallery_author":["",""],"name":"Kloster St. Urban","name_2":null,"street":"Schafmattstrasse 1","zip":"4915","place":"St. Urban","tel":"+14 (0)58 856 50 01","fax":null,"email":"kloster@st-urban.ch","url1_link":"https://www.st-urban.ch","x_coordinate":630397.9024117145,"y_coordinate":231307.00710080098,"change_date":null,"id":669,"r_key":669,"type":"Sight","url_sightseeing":"https://www.st-urban.ch","touristic_region":4}}
+{
+    "type": "Feature",
+    "id": 669,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            47.23198667642105,
+            7.840033720013461
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Monastery of St. Urban ",
+        "abstract": "The monastery dates from the year 1194 and is a monument of national importance with impressive Baroque and Cistercian 18th century architecture and culture. The church's choir stalls are an object of international interest.",
+        "description": "The former Cistercian monastery of St. Urban was established in 1194 by monks from the Lucelle Abbey in Alsace with the support of the Oberaargau nobility. Over the course of its existence, the monastery evolved into a religious, intellectual and commercial center in the border region of the cantons of Bern, Solothurn, Aargau and Lucerne.\n\nOver time, the medieval monastery was no longer meeting the needs of monks, despite multiple renovations and extensions; so, during the first half of the 18th century, they commissioned the Vorarlberg architect Franz Beer with the design and construction of a completely new monastery complex. Today, the monastery complex is one of Switzerland's most impressive examples of Baroque and Cistercian architecture and culture.\n\nMonastery life came to an abrupt end in 1848, when the canton of Lucerne ordered the closing of the monastery to pay off the debt from the Sonderbund War. After having being used for various purposes over the years, the majority of the monastery complex is now used for cultural events, exhibitions and tours.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/Chorgestuehl_sturban_a.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/Chorgestuehl_sturban_a.jpg",
+            "https://images.schweizmobil.ch/image/St_Urban_b.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "Kloster St. Urban",
+        "name_2": null,
+        "street": "Schafmattstrasse 1",
+        "zip": "4915",
+        "place": "St. Urban",
+        "tel": "+14 (0)58 856 50 01",
+        "fax": null,
+        "email": "kloster@st-urban.ch",
+        "url1_link": "https://www.st-urban.ch",
+        "x_coordinate": 630397.9024117145,
+        "y_coordinate": 231307.00710080098,
+        "change_date": null,
+        "id": 669,
+        "r_key": 669,
+        "type": "Sight",
+        "url_sightseeing": "https://www.st-urban.ch",
+        "touristic_region": 4,
+        "canton": 15
+    }
+}

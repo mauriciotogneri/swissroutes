@@ -1,1 +1,85 @@
-{"type":"Feature","id":127,"geometry":{"type":"Point","coordinates":[47.00716233313675,6.972198462185181]},"properties":{"land":null,"category":"all","language":"en","title":"The Latenium - park and archaeological museum","abstract":"Between sky and mountains, on the lakeshore facing the Alps, the Latenium invites its visitors to study some 500 centuries’ worth of archaeological knowledge. The largest archaeological museum of Switzerland is situated in Hauterive near Neuchâtel. In recognition of its international importance, it was granted the Council of Europe Museum Prize.","description":"The Latenium takes its visitors on a journey through time from the Renaissance to the Neanderthal man. Among the exhibited objects, there is the entire skeleton of a Cro-Magnon man who was killed by a bear some 12,000 years ago; a menhir in human form so far unparalleled; swords found at the famous Celtic site of La Tène; a 20 meter Roman barge, but above and beyond, countless objects bearing witness to the everyday lives of the lake dwellers who disappeared from the region some 3000 years ago.\n\nThe exhibition of the objects and models is complemented by rooms where the visitors can play at being an archaeologist themselves: retrace a Roman mural, identify prehistoric grains and pollen, apply age determination techniques, etc.\n\nIn a dialogue with the objects exhibited in the museum, the archaeological park tells the story of the relationship of our ancestors with their environment since the end of the Ice Age. While strolling through this park, visitors find reconstructions of the ecosystems of the different epochs and full size authentic archaeological artefacts.","highlights":null,"foto":"https://images0.schweizmobil.ch/image/11600_Latenium_2a.jpg","photo_gallery":["https://images0.schweizmobil.ch/image/Das_LateniumDSCN0162_s.jpg","https://images0.schweizmobil.ch/image/Das_LateniumParc-Latenium-29-05-2012_003_mj_s.jpg","https://images0.schweizmobil.ch/image/Das_LateniumPN-Latenium_les-Lacustres_002_mj_s.jpg","https://images0.schweizmobil.ch/image/Das_LateniumPN-MUS-LAT-003_15-11-2016_lumiere-medievale_mj_s.jpg","https://images0.schweizmobil.ch/image/Das_LateniumPN-MUS-LAT-Introduction-001_mj_s.jpg","https://images0.schweizmobil.ch/image/11600_Latenium_2a.jpg","https://images0.schweizmobil.ch/image/11600_Latenium_1b.jpg"],"photo_gallery_big":["https://images0.schweizmobil.ch/image-big/Das_LateniumDSCN0162_g.jpg","https://images0.schweizmobil.ch/image-big/Das_LateniumParc-Latenium-29-05-2012_003_mj_g.jpg","https://images0.schweizmobil.ch/image-big/Das_LateniumPN-Latenium_les-Lacustres_002_mj_g.jpg","https://images0.schweizmobil.ch/image-big/Das_LateniumPN-MUS-LAT-003_15-11-2016_lumiere-medievale_mj_g.jpg","https://images0.schweizmobil.ch/image-big/Das_LateniumPN-MUS-LAT-Introduction-001_mj_g.jpg","",""],"photo_gallery_copyright":["","© OMAN – Office et musée d'archéologie de Neuchâtel","","","","",""],"photo_gallery_author":["","","","","","",""],"name":"Tourisme Neuchâtelois","name_2":null,"street":"Hôtel des Postes","zip":"2000","place":"Neuchâtel","tel":"+41 (0)32 889 68 90","fax":null,"email":"info@ne.ch","url1_link":"https://www.neuchateltourisme.ch","x_coordinate":564529.7497907459,"y_coordinate":206340.12073621782,"change_date":null,"id":127,"r_key":127,"type":"Sight","url_sightseeing":"https://www.latenium.ch","touristic_region":8}}
+{
+    "type": "Feature",
+    "id": 127,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            47.007162334500066,
+            6.9721984592450506
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "The Latenium - park and archaeological museum",
+        "abstract": "Between sky and mountains, on the lakeshore facing the Alps, the Latenium invites its visitors to study some 500 centuries’ worth of archaeological knowledge. The largest archaeological museum of Switzerland is situated in Hauterive near Neuchâtel. In recognition of its international importance, it was granted the Council of Europe Museum Prize.",
+        "description": "The Latenium takes its visitors on a journey through time from the Renaissance to the Neanderthal man. Among the exhibited objects, there is the entire skeleton of a Cro-Magnon man who was killed by a bear some 12,000 years ago; a menhir in human form so far unparalleled; swords found at the famous Celtic site of La Tène; a 20 meter Roman barge, but above and beyond, countless objects bearing witness to the everyday lives of the lake dwellers who disappeared from the region some 3000 years ago.\n\nThe exhibition of the objects and models is complemented by rooms where the visitors can play at being an archaeologist themselves: retrace a Roman mural, identify prehistoric grains and pollen, apply age determination techniques, etc.\n\nIn a dialogue with the objects exhibited in the museum, the archaeological park tells the story of the relationship of our ancestors with their environment since the end of the Ice Age. While strolling through this park, visitors find reconstructions of the ecosystems of the different epochs and full size authentic archaeological artefacts.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/11600_Latenium_2a.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/Das_LateniumDSCN0162_s.jpg",
+            "https://images.schweizmobil.ch/image/Das_LateniumParc-Latenium-29-05-2012_003_mj_s.jpg",
+            "https://images.schweizmobil.ch/image/Das_LateniumPN-Latenium_les-Lacustres_002_mj_s.jpg",
+            "https://images.schweizmobil.ch/image/Das_LateniumPN-MUS-LAT-003_15-11-2016_lumiere-medievale_mj_s.jpg",
+            "https://images.schweizmobil.ch/image/Das_LateniumPN-MUS-LAT-Introduction-001_mj_s.jpg",
+            "https://images.schweizmobil.ch/image/11600_Latenium_2a.jpg",
+            "https://images.schweizmobil.ch/image/11600_Latenium_1b.jpg"
+        ],
+        "photo_gallery_big": [
+            "https://images.schweizmobil.ch/image-big/Das_LateniumDSCN0162_g.jpg",
+            "https://images.schweizmobil.ch/image-big/Das_LateniumParc-Latenium-29-05-2012_003_mj_g.jpg",
+            "https://images.schweizmobil.ch/image-big/Das_LateniumPN-Latenium_les-Lacustres_002_mj_g.jpg",
+            "https://images.schweizmobil.ch/image-big/Das_LateniumPN-MUS-LAT-003_15-11-2016_lumiere-medievale_mj_g.jpg",
+            "https://images.schweizmobil.ch/image-big/Das_LateniumPN-MUS-LAT-Introduction-001_mj_g.jpg",
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            "© OMAN – Office et musée d'archéologie de Neuchâtel",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "name": "Tourisme Neuchâtelois",
+        "name_2": null,
+        "street": "Hôtel des Postes",
+        "zip": "2000",
+        "place": "Neuchâtel",
+        "tel": "+41 (0)32 889 68 90",
+        "fax": null,
+        "email": "info@ne.ch",
+        "url1_link": "https://www.neuchateltourisme.ch",
+        "x_coordinate": 564529.7497907459,
+        "y_coordinate": 206340.12073621782,
+        "change_date": null,
+        "id": 127,
+        "r_key": 127,
+        "type": "Sight",
+        "url_sightseeing": "https://www.latenium.ch",
+        "touristic_region": 8,
+        "canton": 25
+    }
+}

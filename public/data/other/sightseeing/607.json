@@ -1,50 +1,55 @@
 {
-  "type": "Feature",
-  "id": 607,
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      46.49516266452705,
-      8.751660658704402
-    ]
-  },
-  "properties": {
-    "land": null,
-    "category": "all",
-    "language": "en",
-    "title": "Strada alta (Madrano–Osco)",
-    "abstract": "The path from Airolo over the Bassa di Nara into the Bleniotal to Prugiasco is far from the traffic on the valley floor of the Levantine. Easy to cover in stages as every village offers overnight accommodation. The loveliest section is between Madrano and Osco.",
-    "description": "The villages strung like pearls along their sun terrace on the slope of the Levantine Valley were probably settled far earlier than previously assumed. The link between villages has been adapted to today’s traffic needs, but this was not always the case, as proved by the historic paths. Paved sections of path running between drystone walls give the feeling of moving in an ancient cultural landscape.\n\nParts of the old links have actually vanished under today’s roads, but evidence of rural piety such as wayside chapels and shrines still survives. Their great appeal now lies more in the cultural-historic significance, whereas in earlier times the occupants of the valley associated luck and misfortune with acts of God. St Martin’s Chapels, such as the one in Deggio, and the Iron Age grave discovered there are evidence of centuries of history of the people in this region.",
-    "highlights": null,
-    "foto": "https://images0.schweizmobil.ch/image/IVS_02_05_Strada-Alta.jpg",
-    "photo_gallery": [
-      "https://images0.schweizmobil.ch/image/IVS_02_05_Strada-Alta.jpg"
-    ],
-    "photo_gallery_big": [
-      ""
-    ],
-    "photo_gallery_copyright": [
-      ""
-    ],
-    "photo_gallery_author": [
-      ""
-    ],
-    "name": "Bundesinventar der historischen Verkehrswege der Schweiz (IVS)",
-    "name_2": null,
-    "street": "",
-    "zip": "",
-    "place": "",
-    "tel": "",
-    "fax": null,
-    "email": "",
-    "url1_link": "https://www.ivs.admin.ch",
-    "x_coordinate": 700799.7187153706,
-    "y_coordinate": 150160.208473126,
-    "change_date": null,
+    "type": "Feature",
     "id": 607,
-    "r_key": 607,
-    "type": "Sight",
-    "url_sightseeing": "https://s.geo.admin.ch/6fb17ed4cb",
-    "touristic_region": 12
-  }
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.49516266053425,
+            8.751660635766406
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Strada alta (Madrano–Osco)",
+        "abstract": "The path from Airolo over the Bassa di Nara into the Bleniotal to Prugiasco is far from the traffic on the valley floor of the Levantine. Easy to cover in stages as every village offers overnight accommodation. The loveliest section is between Madrano and Osco.",
+        "description": "The villages strung like pearls along their sun terrace on the slope of the Levantine Valley were probably settled far earlier than previously assumed. The link between villages has been adapted to today’s traffic needs, but this was not always the case, as proved by the historic paths. Paved sections of path running between drystone walls give the feeling of moving in an ancient cultural landscape.\n\nParts of the old links have actually vanished under today’s roads, but evidence of rural piety such as wayside chapels and shrines still survives. Their great appeal now lies more in the cultural-historic significance, whereas in earlier times the occupants of the valley associated luck and misfortune with acts of God. St Martin’s Chapels, such as the one in Deggio, and the Iron Age grave discovered there are evidence of centuries of history of the people in this region.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/IVS_02_05_Strada-Alta.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/IVS_02_05_Strada-Alta.jpg"
+        ],
+        "photo_gallery_big": [
+            ""
+        ],
+        "photo_gallery_copyright": [
+            ""
+        ],
+        "photo_gallery_author": [
+            ""
+        ],
+        "photo_gallery_abstract": [
+            ""
+        ],
+        "name": "Bundesinventar der historischen Verkehrswege der Schweiz (IVS)",
+        "name_2": null,
+        "street": " ",
+        "zip": " ",
+        "place": " ",
+        "tel": " ",
+        "fax": null,
+        "email": " ",
+        "url1_link": "https://www.ivs.admin.ch",
+        "x_coordinate": 700799.7187153706,
+        "y_coordinate": 150160.208473126,
+        "change_date": null,
+        "id": 607,
+        "r_key": 607,
+        "type": "Sight",
+        "url_sightseeing": "https://s.geo.admin.ch/6fb17ed4cb",
+        "touristic_region": 12,
+        "canton": 19
+    }
 }

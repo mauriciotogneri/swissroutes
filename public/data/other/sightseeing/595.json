@@ -1,50 +1,55 @@
 {
-  "type": "Feature",
-  "id": 595,
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      46.64100085244134,
-      8.080578002355608
-    ]
-  },
-  "properties": {
-    "land": null,
-    "category": "all",
-    "language": "en",
-    "title": "Grindelwald–Grosse Scheidegg",
-    "abstract": "Long before 19th-century tourists discovered Grosse Scheidegg as a spectacular part of the Oberland tour, the pass from Grindelwald to Meiringen served as a link between the valley communities of Grindelwald and Hasli.",
-    "description": "The pass over the Grosse Scheidegg first gained significance mainly for reasons of military strategy and economy. Grindelwald farmers sold their cattle and cheese in the markets of Thun and Bern but also set their sights on markets in Lombardy. For this they used the path to Meiringen and then travelled on towards the Grimselpass and Griespass.\n\nThe first tourists in this breathtakingly beautiful mountain world arrived centuries later. Diversions to attractions along the way, including the Obere Grindelwaldgletscher (Upper Grindelwald Glacier) and thus glaciology were woven into the first travel guide and found an interested audience. Early route descriptions recommended taking along plenty of food to enjoy on the Scheidegg ridge while marvelling at the mountain panorama, as mountain restaurants were not yet in vogue. With the increase in tourism, this gap was filled with a refuge. The first proper inn opened in 1840 – without a permit. The court in Interlaken imposed a fine on the landlord. Today no fines are imposed on hikers using and enjoying the well-maintained old alp path.",
-    "highlights": null,
-    "foto": "https://images0.schweizmobil.ch/image/IVS_01_02_Schwendibiel.jpg",
-    "photo_gallery": [
-      "https://images0.schweizmobil.ch/image/IVS_01_02_Schwendibiel.jpg"
-    ],
-    "photo_gallery_big": [
-      ""
-    ],
-    "photo_gallery_copyright": [
-      ""
-    ],
-    "photo_gallery_author": [
-      ""
-    ],
-    "name": "Bundesinventar der historischen Verkehrswege der Schweiz (IVS)",
-    "name_2": null,
-    "street": "",
-    "zip": "",
-    "place": "",
-    "tel": "",
-    "fax": null,
-    "email": "",
-    "url1_link": "https://www.ivs.admin.ch",
-    "x_coordinate": 649150.1559874325,
-    "y_coordinate": 165730.37340702134,
-    "change_date": null,
+    "type": "Feature",
     "id": 595,
-    "r_key": 595,
-    "type": "Sight",
-    "url_sightseeing": "https://s.geo.admin.ch/6fb163e493",
-    "touristic_region": 6
-  }
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.64100084994958,
+            8.08057798589957
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Grindelwald–Grosse Scheidegg",
+        "abstract": "Long before 19th-century tourists discovered Grosse Scheidegg as a spectacular part of the Oberland tour, the pass from Grindelwald to Meiringen served as a link between the valley communities of Grindelwald and Hasli.",
+        "description": "The pass over the Grosse Scheidegg first gained significance mainly for reasons of military strategy and economy. Grindelwald farmers sold their cattle and cheese in the markets of Thun and Bern but also set their sights on markets in Lombardy. For this they used the path to Meiringen and then travelled on towards the Grimselpass and Griespass.\n\nThe first tourists in this breathtakingly beautiful mountain world arrived centuries later. Diversions to attractions along the way, including the Obere Grindelwaldgletscher (Upper Grindelwald Glacier) and thus glaciology were woven into the first travel guide and found an interested audience. Early route descriptions recommended taking along plenty of food to enjoy on the Scheidegg ridge while marvelling at the mountain panorama, as mountain restaurants were not yet in vogue. With the increase in tourism, this gap was filled with a refuge. The first proper inn opened in 1840 – without a permit. The court in Interlaken imposed a fine on the landlord. Today no fines are imposed on hikers using and enjoying the well-maintained old alp path.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/IVS_01_02_Schwendibiel.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/IVS_01_02_Schwendibiel.jpg"
+        ],
+        "photo_gallery_big": [
+            ""
+        ],
+        "photo_gallery_copyright": [
+            ""
+        ],
+        "photo_gallery_author": [
+            ""
+        ],
+        "photo_gallery_abstract": [
+            ""
+        ],
+        "name": "Bundesinventar der historischen Verkehrswege der Schweiz (IVS)",
+        "name_2": null,
+        "street": " ",
+        "zip": " ",
+        "place": " ",
+        "tel": " ",
+        "fax": null,
+        "email": " ",
+        "url1_link": "https://www.ivs.admin.ch",
+        "x_coordinate": 649150.1559874325,
+        "y_coordinate": 165730.37340702134,
+        "change_date": null,
+        "id": 595,
+        "r_key": 595,
+        "type": "Sight",
+        "url_sightseeing": "https://s.geo.admin.ch/6fb163e493",
+        "touristic_region": 6,
+        "canton": 12
+    }
 }

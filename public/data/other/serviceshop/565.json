@@ -1,1 +1,34 @@
-{"type":"Feature","id":3284,"geometry":{"type":"Point","coordinates":[47.31292500018508,8.530405972963129]},"properties":{"land":"\"velo\",\"mountainbike\"","category":"all","language":"en","title":"Velo-Ueli.ch","abstract":null,"name":"Velo-Ueli.ch","street":"Kilchbergstrasse 26","zip":"8134","place":"Adliswil","tel":"+41 44 71083 88","email":null,"url1_text":null,"url1_link":"https://www.velo-ueli.ch","organisation":"2rad / 2routes / 2ruote","foto":null,"x_coordinate":682550.2807497967,"y_coordinate":240802.13799939744,"change_date":null,"id":565,"type":"Service"}}
+{
+    "type": "Feature",
+    "id": 3284,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            47.3129250157071,
+            8.530406017270964
+        ]
+    },
+    "properties": {
+        "land": "\"velo\",\"mountainbike\"",
+        "category": "all",
+        "language": "en",
+        "title": "Velo-Ueli.ch",
+        "abstract": null,
+        "name": "Velo-Ueli.ch",
+        "street": "Kilchbergstrasse 26",
+        "zip": "8134",
+        "place": "Adliswil",
+        "tel": "+41 44 71083 88",
+        "email": null,
+        "url1_text": null,
+        "url1_link": "https://www.velo-ueli.ch",
+        "organisation": "2rad / 2routes / 2ruote",
+        "foto": null,
+        "foto_abstract": null,
+        "x_coordinate": 682550.2807497967,
+        "y_coordinate": 240802.13799939744,
+        "change_date": null,
+        "id": 565,
+        "type": "Service"
+    }
+}

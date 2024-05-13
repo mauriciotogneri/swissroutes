@@ -1,50 +1,55 @@
 {
-  "type": "Feature",
-  "id": 62,
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      46.928880467568106,
-      10.486256320697155
-    ]
-  },
-  "properties": {
-    "land": null,
-    "category": "all",
-    "language": "en",
-    "title": "Forlorn fortress in the Inn valley",
-    "abstract": "The forlorn Finstermünz bridge fortress lies on the ancient, disused long-distance trail over the Reschenpass. It once guarded a busy route and provided shelter for travellers. Today it lies in Sleeping-Beauty slumber waiting to be reawakened.",
-    "description": "Deep in the Inntal valley, on the border between Unterengadin and Nordtirol, stands the Finstermünz bridge. The choice of the site was determined by the route of a very important path: here where a rock face blocks the east bank of the River Inn and forces a change to the other bank, the road over the Reschenpass must cross the river.\n\nWhat we see today are the remains of the Tyrolean Habsburg fortress that guarded the river crossing from the late 15th century. The narrow valley floor of Finstermünz is neither a particularly inviting nor an advantageous place to settle. The buildings into which the bridge was integrated thus offered shelter from the weather, from hunger and fatigue, from the unknown dangers of the route. Today, the mighty gate tower and more slender bridge tower set in the middle of the river, still close off the spot.\n\nThe bridge looks as austere as the almost undecorated buildings. The covered wooden bridge follows the local building traditions in Alpine regions. The supporting structure, a timber framework, makes it possible to span the river without supports in the riverbed, whereby the bearing on one end is integrated into the bridge tower.\n\nThe narrow bridge was intended for carts and pack animals, riders and pedestrians but not for wagons. A new engineered road was opened for these in 1854. Since then the path has fallen into disrepair, the buildings are deserted and the bridge is only used by the farmers of Schalkhof and the occasional hiker.",
-    "highlights": null,
-    "foto": "https://images0.schweizmobil.ch/image/IVS_40_Finstermuenz.jpg",
-    "photo_gallery": [
-      "https://images0.schweizmobil.ch/image/IVS_40_Finstermuenz.jpg"
-    ],
-    "photo_gallery_big": [
-      ""
-    ],
-    "photo_gallery_copyright": [
-      ""
-    ],
-    "photo_gallery_author": [
-      ""
-    ],
-    "name": "Bundesinventar der historischen Verkehrswege der Schweiz (IVS)",
-    "name_2": null,
-    "street": "",
-    "zip": "",
-    "place": "",
-    "tel": "",
-    "fax": null,
-    "email": "",
-    "url1_link": "https://www.ivs.admin.ch",
-    "x_coordinate": 832040.2999852464,
-    "y_coordinate": 202039.9244931331,
-    "change_date": null,
+    "type": "Feature",
     "id": 62,
-    "r_key": 62,
-    "type": "Sight",
-    "url_sightseeing": "https://s.geo.admin.ch/6fb161227b",
-    "touristic_region": 1
-  }
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.928880469258644,
+            10.486256282131729
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Forlorn fortress in the Inn valley",
+        "abstract": "The forlorn Finstermünz bridge fortress lies on the ancient, disused long-distance trail over the Reschenpass. It once guarded a busy route and provided shelter for travellers. Today it lies in Sleeping-Beauty slumber waiting to be reawakened.",
+        "description": "Deep in the Inntal valley, on the border between Unterengadin and Nordtirol, stands the Finstermünz bridge. The choice of the site was determined by the route of a very important path: here where a rock face blocks the east bank of the River Inn and forces a change to the other bank, the road over the Reschenpass must cross the river.\n\nWhat we see today are the remains of the Tyrolean Habsburg fortress that guarded the river crossing from the late 15th century. The narrow valley floor of Finstermünz is neither a particularly inviting nor an advantageous place to settle. The buildings into which the bridge was integrated thus offered shelter from the weather, from hunger and fatigue, from the unknown dangers of the route. Today, the mighty gate tower and more slender bridge tower set in the middle of the river, still close off the spot.\n\nThe bridge looks as austere as the almost undecorated buildings. The covered wooden bridge follows the local building traditions in Alpine regions. The supporting structure, a timber framework, makes it possible to span the river without supports in the riverbed, whereby the bearing on one end is integrated into the bridge tower.\n\nThe narrow bridge was intended for carts and pack animals, riders and pedestrians but not for wagons. A new engineered road was opened for these in 1854. Since then the path has fallen into disrepair, the buildings are deserted and the bridge is only used by the farmers of Schalkhof and the occasional hiker.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/IVS_40_Finstermuenz.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/IVS_40_Finstermuenz.jpg"
+        ],
+        "photo_gallery_big": [
+            ""
+        ],
+        "photo_gallery_copyright": [
+            ""
+        ],
+        "photo_gallery_author": [
+            ""
+        ],
+        "photo_gallery_abstract": [
+            ""
+        ],
+        "name": "Bundesinventar der historischen Verkehrswege der Schweiz (IVS)",
+        "name_2": null,
+        "street": " ",
+        "zip": " ",
+        "place": " ",
+        "tel": " ",
+        "fax": null,
+        "email": " ",
+        "url1_link": "https://www.ivs.admin.ch",
+        "x_coordinate": 832040.2999852464,
+        "y_coordinate": 202039.9244931331,
+        "change_date": null,
+        "id": 62,
+        "r_key": 62,
+        "type": "Sight",
+        "url_sightseeing": "https://s.geo.admin.ch/6fb161227b",
+        "touristic_region": 1,
+        "canton": 2
+    }
 }

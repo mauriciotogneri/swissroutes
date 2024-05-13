@@ -1,1 +1,34 @@
-{"type":"Feature","id":2971,"geometry":{"type":"Point","coordinates":[47.47869441715579,8.219092740954473]},"properties":{"land":"\"velo\",\"mountainbike\"","category":"all","language":"en","title":"M. Urech Moto-Center AG","abstract":null,"name":"M. Urech Moto-Center AG","street":"Zürcherstrasse 38","zip":"5210","place":"Windisch","tel":"+41 56 441 93 88","email":null,"url1_text":null,"url1_link":"https://www.maxurech-motocenter.ch","organisation":"2rad / 2routes / 2ruote","foto":null,"x_coordinate":658829.6742281499,"y_coordinate":258951.24203936371,"change_date":null,"id":194,"type":"Service"}}
+{
+    "type": "Feature",
+    "id": 2971,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            47.47869440249031,
+            8.219092762536349
+        ]
+    },
+    "properties": {
+        "land": "\"velo\",\"mountainbike\"",
+        "category": "all",
+        "language": "en",
+        "title": "M. Urech Moto-Center AG",
+        "abstract": null,
+        "name": "M. Urech Moto-Center AG",
+        "street": "Zürcherstrasse 38",
+        "zip": "5210",
+        "place": "Windisch",
+        "tel": "+41 56 441 93 88",
+        "email": null,
+        "url1_text": null,
+        "url1_link": "https://www.maxurech-motocenter.ch",
+        "organisation": "2rad / 2routes / 2ruote",
+        "foto": null,
+        "foto_abstract": null,
+        "x_coordinate": 658829.6742281499,
+        "y_coordinate": 258951.24203936371,
+        "change_date": null,
+        "id": 194,
+        "type": "Service"
+    }
+}
