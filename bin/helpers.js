@@ -57,6 +57,8 @@ async function downloadFile(name, id, filePath, isPoint) {
       properties.url_sightseeing = sanitize(properties.url_sightseeing)
 
       writeFile(filePath, element)
+
+      return id
     }
   } catch (e) {
     console.log(`Error downloading file: ${url}\n${e.toString()}`)
@@ -119,10 +121,11 @@ async function getIds(type) {
   return result
 }
 
-async function downloadRoute(id, group, type, folder) {
-  console.log(`${group}-${type}: ${id}`)
-  const filePath = `output/data/${folder}/${id}.json`
-  await downloadFile(`${group}${type}`, id, filePath, false)
+async function downloadRoute(id, group, type, folder, total) {
+  console.log(`${group}-${type}: ${id} (${parseInt((id / total) * 100)}%)`)
+  const filePath = `public/data/${folder}/${id}.json`
+  
+  return downloadFile(`${group}${type}`, id, filePath, false)
 }
 
 async function downloadPoint(group, folder, type) {
@@ -139,6 +142,7 @@ async function downloadPoint(group, folder, type) {
 }
 
 module.exports = {
+  writeFile,
   downloadRoute,
   downloadPoint,
 }
