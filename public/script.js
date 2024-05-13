@@ -374,16 +374,11 @@ function showPoint(label, baseLink, json) {
   content += `<a href='${baseLink}${json.id}' target='_blank'>${json.properties.title ? json.properties.title : json.properties.name}</a><br/><br/>`
 
   if (json.properties.abstract) {
-    content += `<p>${json.properties.abstract}</p>`
+    content += `<p style="font-weight:bold">${json.properties.abstract}</p>`
   }
 
   if (json.properties.description) {
     content += `<p>${json.properties.description}</p>`
-  }
-
-  if (json.properties.street) {
-    const address = `${json.properties.street}, ${json.properties.zip} ${json.properties.place}`
-    content += `<a href='https://www.google.com/maps/search/${address}' target='_blank'>${address}</a><br/><br/>`
   }
 
   if (json.properties.tel) {
@@ -392,6 +387,11 @@ function showPoint(label, baseLink, json) {
 
   if (json.properties.email) {
     content += `<p>${json.properties.email}</p>`
+  }
+
+  if (json.properties.street) {
+    const address = `${json.properties.street}, ${json.properties.zip} ${json.properties.place}`
+    content += `<a href='https://www.google.com/maps/search/${address}' target='_blank'>${address}</a><br/><br/>`
   }
 
   const urls = new Set()
