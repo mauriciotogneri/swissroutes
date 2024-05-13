@@ -382,16 +382,16 @@ function showPoint(label, baseLink, json) {
   }
 
   if (json.properties.tel) {
-    content += `<p>${json.properties.tel}</p>`
+    content += `<p><span class="material-symbols-outlined">call</span>${json.properties.tel}</p>`
   }
 
   if (json.properties.email) {
-    content += `<p>${json.properties.email}</p>`
+    content += `<p><span class="material-symbols-outlined">mail</span>${json.properties.email}</p>`
   }
 
   if (json.properties.street) {
     const address = `${json.properties.street}, ${json.properties.zip} ${json.properties.place}`
-    content += `<a href='https://www.google.com/maps/search/${address}' target='_blank'>${address}</a><br/><br/>`
+    content += `<span class="material-symbols-outlined">location_on</span><a href='https://www.google.com/maps/search/${address}' target='_blank'>${address}</a><br/><br/>`
   }
 
   const urls = new Set()
@@ -409,7 +409,7 @@ function showPoint(label, baseLink, json) {
   }
 
   urls.forEach((url) => {
-    content += `<a href='${url}' target='_blank'>${url}</a><br/><br/>`
+    content += `<span class="material-symbols-outlined">link</span><a href='${url}' target='_blank'>${url}</a><br/><br/>`
   })
 
   const galleryList = getGallery(json)
@@ -437,15 +437,15 @@ function showMountainHike(json) {
   }
 
   if (json.properties.mountain_hiking_difficulty) {
-    content += `<b>Difficulty:</b> ${json.properties.mountain_hiking_difficulty}<br/>`
+    content += `<b><span class="material-symbols-outlined">landscape</span></b>${json.properties.mountain_hiking_difficulty}<br/><br/>`
   }
 
   if (json.properties.ascent_altitude) {
-    content += `<b>↗</b> ${json.properties.ascent_altitude.toLocaleString()} m<br/>`
+    content += `<b><span class="material-symbols-outlined">north_east</span></b>${json.properties.ascent_altitude.toLocaleString()} m<br/><br/>`
   }
 
   if (json.properties.descent_altitude) {
-    content += `<b>↘</b> ${json.properties.descent_altitude.toLocaleString()} m<br/>`
+    content += `<b><span class="material-symbols-outlined">south_east</span></b>${json.properties.descent_altitude.toLocaleString()} m<br/><br/>`
   }
 
   const galleryList = getGallery(json)
