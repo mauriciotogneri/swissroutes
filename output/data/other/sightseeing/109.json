@@ -1,0 +1,72 @@
+{
+    "type": "Feature",
+    "id": 109,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                47.00394817391308,
+                7.939880433051367
+            ]
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "The Napf",
+        "abstract": "The Napf is a forest-rich region, in which the utilization of wood has long played an important role. The farmers and forestry people developed a sophisticated system of forest management in which only individual trees are felled (selection forest).",
+        "description": "Mount Napf is a popular viewing mountain between Entlebuch and Emmental. Geologically, it consists mainly of Nagefluh conglomerate, sandstone and marl. The Ur-Aare deposited this marl rock in the Alpine foothills in a fan-like form in a sea or lake.\n\nBecause the Napf area was not glaciated in the last Ice Age, it was mainly formed by the erosion force of the water. Long steep and forested rift valleys radiate from the highest point into the valley in a star formation while meadows can be found on the flatter sides.\n\nWood has always been an important resource in the Napf and is increasing in importance again today. The selection forests, which are very common in this region and, above all, in nearby Emmental, are famous.\n\nIn a selection forest, young and old trees stand side by side. The trees are not felled in groups but individually.\n\nAs a result of the removal of large individual trees light penetrates to the forest floor which enables the growth of smaller trees. The forest consists mainly of spruce, silver fir and beech.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/22_Napf-1-636990-2088591.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/22_Napf-1-636990-2088591.jpg",
+            "https://images.schweizmobil.ch/image/22_Napf.jpg",
+            "https://images.schweizmobil.ch/image/POI_Napf_1_s.jpg",
+            "https://images.schweizmobil.ch/image/POI_Napf_4_s.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            "",
+            "https://images.schweizmobil.ch/image-big/POI_Napf_1_g.jpg",
+            "https://images.schweizmobil.ch/image-big/POI_Napf_4_g.jpg"
+        ],
+        "photo_gallery_copyright": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "name": "Bundesamt für Umwelt",
+        "name_2": null,
+        "street": "und Naturdenkmäler von nationaler Bedeutung (BLN)",
+        "zip": "BLN-Objekt-Nr.",
+        "place": "1311",
+        "tel": "-",
+        "fax": null,
+        "email": "bln@bafu.admin.ch",
+        "url1_link": "https://www.bafu.admin.ch/bln",
+        "x_coordinate": 638120.1922550695,
+        "y_coordinate": 205999.8231933003,
+        "change_date": null,
+        "id": 109,
+        "r_key": 109,
+        "type": "Sight",
+        "url_sightseeing": "https://www.bafu.admin.ch/bln",
+        "touristic_region": 6,
+        "canton": 12
+    }
+}

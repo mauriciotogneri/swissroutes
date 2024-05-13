@@ -1,0 +1,62 @@
+{
+    "type": "Feature",
+    "id": 83,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.74239333229355,
+                9.597636752925531
+            ]
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Rothorn Lenzerheide",
+        "abstract": "It's no exaggeration, but from the top of the Parpaner Rothorn one can see 1000 mountain peaks! Turning slowly, more and more comes into view from the unknown to famous names, such as Palü or Piz Bernina.",
+        "description": "You can easily reach this amazing vantage point. From Lenzerheide, hop into the cable car and be transported slowly upwards to the top at 2865 metres. Once there enjoy the unfolding scene of one mountain range followed by the next. Protected and covered by glass you have a great viewing platform and a perfect place to soak up the sun.\n\nFor the more energetic there are well-prepared footpaths leading back down. The «Geowanderweg», provides for natural history lovers a most interesting tour. All the way there are panels set at key points, providing relevant information. But if you prefer the wild side of life, then there is always the Freeride bike run.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/11239_Rothorn_Lenzerheide_1a.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/11239_Rothorn_Lenzerheide_1a.jpg",
+            "https://images.schweizmobil.ch/image/11239_Rothorn_Lenzerheide_2b.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "Ferienregion Lenzerheide",
+        "name_2": null,
+        "street": "Voa Principala 37",
+        "zip": "7078",
+        "place": "Lenzerheide",
+        "tel": "+41 (0)81 385 57 00",
+        "fax": null,
+        "email": "info@lenzerheide.com",
+        "url1_link": "https://www.lenzerheide.com",
+        "x_coordinate": 764974.969627532,
+        "y_coordinate": 179070.49236953465,
+        "change_date": null,
+        "id": 83,
+        "r_key": 83,
+        "type": "Sight",
+        "url_sightseeing": "http://www.lenzerheide.com/sites/ski_lifts_cable_cars/oeffnungszeiten_sommer.html",
+        "touristic_region": 1,
+        "canton": 2
+    }
+}

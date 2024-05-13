@@ -1,0 +1,62 @@
+{
+    "type": "Feature",
+    "id": 495,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                47.14160632638176,
+                7.246471461746612
+            ]
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Biel's Historic Centre",
+        "abstract": "Biel's Old Town is a real gem - and visitors are amazed not only by its fascinating buildings, quaint features and beautiful fountains, but also by the unique and homely atmosphere.",
+        "description": "Most visitors to Biel envisage a trip to an industrial town typical to the 19th century. And many are surprised to discover that between the modern city and the villas on the Jura hillsides, there's still an unspoilt and nostalgic Old Town shaped by the Middle Ages. The external appearance of the Old Town still largely corresponds to that of the 18th and early 19th century; with traces of late medieval fashions visible everywhere. The small Old Town with its Gothic church, venerable guild houses and beautiful fountains is a most interesting and delightful place to enjoy leisurely strolls.\n\nStreet cafes, watch shops and medieval facades shape the Old Town of Biel – and it has successfully maintained its natural charm over centuries. This gem between the new part of town and the Jura villas on the surrounding slopes has remained practically the very same small and perfect kind of world that inspired such great thinkers as Goethe, Pestalozzi and Rousseau.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/8039_Altstadt-Biel_1a.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/8039_Altstadt-Biel_1a.jpg",
+            "https://images.schweizmobil.ch/image/8039_Altstadt-Biel_2b.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "Tourismus Biel Seeland",
+        "name_2": null,
+        "street": "Bahnhofplatz 12",
+        "zip": "2501",
+        "place": "Biel/Bienne",
+        "tel": "+41 (0)32 329 84 84",
+        "fax": null,
+        "email": "info@biel-seeland.ch",
+        "url1_link": "https://www.biel-seeland.ch",
+        "x_coordinate": 585423.6353545681,
+        "y_coordinate": 221199.48958713206,
+        "change_date": null,
+        "id": 495,
+        "r_key": 495,
+        "type": "Sight",
+        "url_sightseeing": "https://www.altstadt-biel.ch",
+        "touristic_region": 8,
+        "canton": 12
+    }
+}

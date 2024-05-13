@@ -1,0 +1,62 @@
+{
+    "type": "Feature",
+    "id": 375,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.155673997371046,
+                8.767177131807426
+            ]
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Municipal Museum of Modern Art - Ascona",
+        "abstract": "The municipal collection takes its origins from as far back as 1922 when many of the artists based in Ascona decided to donate one of their works with the aim of creating the basis for a future municipal museum.",
+        "description": "The museum is located in a beautiful historical building of the 15th century in the centre of Ascona. Numbered among the most renowned works the museum exhibits the paintings «Head of a Girl» by Jawlensky, «Figure» by Duno Amiet and «Casa Rossa» by Paul Klee.\n\nThese works were given to the museum by the Russian artist Marianne Werefkin, together with 5 of her own works. The collection was gradually expanded during the following years. The museum hosts the collection of the foundation Werefkin which counts approximately 70 pictures and 160 sketchbooks and is by far the largest exhibition of art works by this extraordinary artist, being a key figure in the avant-guard linked to the «Blaue Reiter» group and certainly the centre of the museum's collection.\n\nFurther the museum hosts the foundation Richard Seewald, displaying the works of this artist as well as a rare beauty by Utrillo, an artwork by Klee, a large drawing by Franz Mark, and an aquarelle drawing by Kubin.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/12724_Gemeindemuseum_moderne_Kunst_Ascona_1a1.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/12724_Gemeindemuseum_moderne_Kunst_Ascona_1a1.jpg",
+            "https://images.schweizmobil.ch/image/12724_Gemeindemuseum_moderne_Kunst_Ascona_2b.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "Ascona-Locarno Turismo",
+        "name_2": null,
+        "street": "Viale Papio 5",
+        "zip": "6612",
+        "place": "Ascona",
+        "tel": "+41 (0)848 091 091",
+        "fax": null,
+        "email": "info@ascona-locarno.com",
+        "url1_link": "https://www.ascona-locarno.com",
+        "x_coordinate": 702629.3179218809,
+        "y_coordinate": 112446.20543289381,
+        "change_date": null,
+        "id": 375,
+        "r_key": 375,
+        "type": "Sight",
+        "url_sightseeing": "https://www.ascona-locarno.com/en/commons/details/Gemeindemuseum-für-moderne-Kunst-Ascona/2751.html",
+        "touristic_region": 12,
+        "canton": 19
+    }
+}

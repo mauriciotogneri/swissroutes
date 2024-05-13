@@ -1,0 +1,62 @@
+{
+    "type": "Feature",
+    "id": 281,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                47.139491211518546,
+                9.522180071558129
+            ]
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Liechtenstein art museum",
+        "abstract": "In the centre of Vaduz, you can’t help but notice the architectural work of art, which from outside looks like an unmistakable black cube. And 1750 square metres of space for art are waiting inside. A special treat.",
+        "description": "World-class names lead the list of artists in the state collection: Gustave Courbet, Marcel Duchamps, Meret Oppenheim, Kurt Schwitters, Arnold Schönberg, Joseph Beuys, Jean Tinguely – to name but a few. The works are presented in temporary exhibitions in the Liechtenstein art museum in Vaduz, Liechtenstein’s capital. The art museum opened in November 2000. Since the spectacular Andy Warhol exhibition in 2004 at the latest, the museum has been playing in the top league of European art galleries.\n\nThe building is a block-like cubic structure made from seamlessly cast concrete mixed with black basalt rock and was built according to the plans of the well-known Swiss architects, Morger, Degelo and Kerez. The glimmering cube is a work of art in itself and creates highly-modern juxtaposition to the medieval castle that holds throne over Vaduz.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/9213_Kunstmuseum-Liechtenstein_1a.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/9213_Kunstmuseum-Liechtenstein_1a.jpg",
+            "https://images.schweizmobil.ch/image/9213_Kunstmuseum-Liechtenstein_2b.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "Kunstmuseum Liechtenstein",
+        "name_2": null,
+        "street": "Städtle 32",
+        "zip": "9490",
+        "place": "Vaduz",
+        "tel": "+423 235 03 00",
+        "fax": null,
+        "email": "mail@kunstmuseum.li",
+        "url1_link": "https://www.kunstmuseum.li",
+        "x_coordinate": 758037.9057991647,
+        "y_coordinate": 223044.90063149447,
+        "change_date": null,
+        "id": 281,
+        "r_key": 281,
+        "type": "Sight",
+        "url_sightseeing": "https://www.kunstmuseum.li",
+        "touristic_region": 2,
+        "canton": 1
+    }
+}

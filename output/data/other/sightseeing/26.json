@@ -1,0 +1,62 @@
+{
+    "type": "Feature",
+    "id": 26,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.31186317776357,
+                7.938733068636624
+            ]
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Saffron - The Red Gold from the village",
+        "abstract": "Saffron has been grown on the sunny terrace of the mountain village of Mund since the 15th century. For the price of fourteen thousand Swiss Francs per kilogram.",
+        "description": "Today, Mund is the most northern place on earth where Saffron is cultivated. Saffron is truly a precious spice – on 4.2 acres the annual harvest is a mere three kilograms! The price of one kilogram Red Gold from Mund is a stunning fourteen thousand Swiss Francs.\n\nOur tip: Hike the nature trail in Mund and learn about the precious spice. We also recommend a visit to the local Saffron museum. End your visit by tasting some local specialties made with authentic Red Gold from Mund.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/8021_Safran-das-rote-Gold-aus-Mund_1a.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/8021_Safran-das-rote-Gold-aus-Mund_1a.jpg",
+            "https://images.schweizmobil.ch/image/8021_Safran-das-rote-Gold-aus-Mund_2b.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "Blatten - Belalp Tourismus",
+        "name_2": null,
+        "street": "Rischinustrasse 5",
+        "zip": "3914 ",
+        "place": "Blatten",
+        "tel": "+41 (0)27 921 60 40",
+        "fax": null,
+        "email": "tourismus@belalp.ch",
+        "url1_link": "https://www.belalp.ch",
+        "x_coordinate": 638523.332328186,
+        "y_coordinate": 129063.1564458412,
+        "change_date": null,
+        "id": 26,
+        "r_key": 26,
+        "type": "Sight",
+        "url_sightseeing": "https://www.belalp.ch",
+        "touristic_region": 11,
+        "canton": 7
+    }
+}

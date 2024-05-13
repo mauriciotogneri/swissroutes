@@ -1,0 +1,62 @@
+{
+    "type": "Feature",
+    "id": 166,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.10514384967751,
+                7.927838463926752
+            ]
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Adventure forest Saas-Fee",
+        "abstract": "An adventure forest has been opened July 2004 in Saas-Fee. Swing on a liana from tree to tree or walk unsteadily across hanging bridges: a forest full of adventure for the whole family with various routes and degrees of difficulty.",
+        "description": "You move from tree to tree, overcoming various obstacles: Suspension bridges, tyrolienne, lianas, etc. At the heart of the adventure forest are the two spectacular tyroliennes over the yawning Fee Gorge!\n\nIntroduction route: The introduction route contains 9 obstacles and is obligatory for everyone. On this route everyone will learn the rules for its security and the correct use of the equipment. Duration: approx. 15 min. Discovery route: The discovery route consists of 15 obstacles for our little adventurer (from 4 years, no minimum height). The kids can be accompanied by their parents. Duration: approx. 1 hour. The long route: The route contains 3 different levels of difficulty. For adults and children (from 1.45 height and 10 years). Duration: approx. 3-4 hours.\n\nThe longest «tyroliennes» (cable pulleys) in Europe: The two spectacular «tyroliennes» over the gaping Fee Gorge are the centrepiece of the adventure forest. The longer of the two, at a dizzy height, measures an adrenalin-charging 280 metres. The shorter one, which is used on the way back, is also an awe-inspiring 210 metres long.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/11351_Abenteuerwald_Saas_Fee_1a1.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/11351_Abenteuerwald_Saas_Fee_1a1.jpg",
+            "https://images.schweizmobil.ch/image/11351_Abenteuerwald_Saas_Fee_2b1.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "Saastal Tourismus",
+        "name_2": null,
+        "street": "Obere Dorfstrasse 2",
+        "zip": "3906",
+        "place": "Saas-Fee",
+        "tel": "+41 (0)27 958 18 58",
+        "fax": null,
+        "email": "info@saas-fee.ch",
+        "url1_link": "https://www.saas-fee.ch",
+        "x_coordinate": 637827.5937539228,
+        "y_coordinate": 106078.16141612087,
+        "change_date": null,
+        "id": 166,
+        "r_key": 166,
+        "type": "Sight",
+        "url_sightseeing": "https://www.saas-fee.ch/en/family/summer/family-activities-in-summer/rope-park",
+        "touristic_region": 11,
+        "canton": 7
+    }
+}

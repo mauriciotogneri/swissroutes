@@ -1,0 +1,74 @@
+{
+    "type": "Feature",
+    "id": 178,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.49950397522432,
+                8.581357457137047
+            ]
+        ]
+    },
+    "properties": {
+        "id": 178,
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "type": "Mountaineering",
+        "ascent_altitude": 1350,
+        "ascent_time_max": 180,
+        "sac_chm_route": true,
+        "sac_created": "2020-05-04 13:47:33",
+        "descent_altitude": 1780,
+        "descent_time_max": 270,
+        "descent_time_min": null,
+        "sac_orig_id": 915,
+        "sac_modified": "2020-05-04 13:47:58",
+        "sac_status": "published",
+        "poi_title": "Poncione di Vespero",
+        "abstract": "There is only one passage from Airolo to Valle Maggia: Passo dei Sassi, a narrow path on a steep rock face. To the left of the pass Pizzo di Mezzodì (midday) rises. But the mountain to the right eclipses it: Poncione di Vespero, the „evening mountain“. Its clear-cut silhouette is the cornerstone on the southern horizon of Airolo. We visit it and explore the landscape that stretches out behind the summit.",
+        "subtitle": "The evening mountain in Airolo's sky",
+        "title": "Traverse from Pesciüm to Ossasco",
+        "sac_type": "mountain_hiking",
+        "mountain_hiking_difficulty": "T5-",
+        "alpine_tour_difficulty": null,
+        "alpine_climbing_difficulty": null,
+        "grade": null,
+        "height_climbing_wall": null,
+        "via_ferrata_difficulty": null,
+        "ski_tour_difficulty": null,
+        "mountaineering_sacphoto_ids": [
+            538,
+            539
+        ],
+        "sac_poi_id": 2152,
+        "x_coordinate": 687719.1993218835,
+        "y_coordinate": 150438.0096329107,
+        "change_date": "2023-03-30 12:14:04",
+        "sac_photos": [
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 538,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1513853357_19982538Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1513853357_19982538master.jpg",
+                "photo_sac_id": 248289,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1513853357_19982538.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1513853357_19982538M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1513853357_19982538Mc.jpg",
+                "title": "View back from Poncione di Vespero to the ridge one just came up."
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 539,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1513852761_414417580Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1513852761_414417580master.jpg",
+                "photo_sac_id": 248287,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1513852761_414417580.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1513852761_414417580M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1513852761_414417580Mc.jpg",
+                "title": "Poncione del Vespero, seen from the east ridge (close to P. 2635)."
+            }
+        ]
+    }
+}

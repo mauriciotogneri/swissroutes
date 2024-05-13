@@ -1,0 +1,194 @@
+{
+    "type": "Feature",
+    "id": 324,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.52847348031482,
+                7.148352842677791
+            ]
+        ]
+    },
+    "properties": {
+        "id": 324,
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "type": "Mountaineering",
+        "ascent_altitude": 2000,
+        "ascent_time_max": 390,
+        "sac_chm_route": true,
+        "sac_created": "2020-08-12 09:57:14",
+        "descent_altitude": 2000,
+        "descent_time_max": 240,
+        "descent_time_min": null,
+        "sac_orig_id": 1631,
+        "sac_modified": "2020-08-12 09:57:17",
+        "sac_status": "published",
+        "poi_title": "Vanil Noir",
+        "abstract": "Vanil Noir, Vanil de l’Ecri and Pointe de Paray are one of the iconic three peak ensembles of the canton of Fribourg. The other known ensemble consists of Dents de Broc, Dent du Chamois and Dent du Bourgo.",
+        "subtitle": "Double triple",
+        "title": "Vanil Noir – Vanil de l'Ecri – Pointe de Paray",
+        "sac_type": "mountain_hiking",
+        "mountain_hiking_difficulty": "T5",
+        "alpine_tour_difficulty": null,
+        "alpine_climbing_difficulty": null,
+        "grade": null,
+        "height_climbing_wall": null,
+        "via_ferrata_difficulty": null,
+        "ski_tour_difficulty": null,
+        "mountaineering_sacphoto_ids": [
+            1015,
+            1016,
+            1010,
+            1017,
+            1018,
+            1019,
+            1020,
+            1021,
+            1022,
+            1023,
+            1024,
+            1025
+        ],
+        "sac_poi_id": 2132,
+        "x_coordinate": 577728.2765809491,
+        "y_coordinate": 153061.7433122102,
+        "change_date": "2023-03-30 12:14:18",
+        "sac_photos": [
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 1015,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1523189398_1487042756Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1523189398_1487042756master.jpg",
+                "photo_sac_id": 253554,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1523189398_1487042756.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1523189398_1487042756M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1523189398_1487042756Mc.jpg",
+                "title": "Pointe de Paray viewed from Vanil de l'Ecri"
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 1016,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1523190504_943806711Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1523190504_943806711master.jpg",
+                "photo_sac_id": 253557,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1523190504_943806711.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1523190504_943806711M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1523190504_943806711Mc.jpg",
+                "title": "Tête de l'Herbette, on the right-hand side is the Galère ridge of Dent de Folliéran."
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 1010,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1523180875_1588854218Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1523180875_1588854218master.jpg",
+                "photo_sac_id": 253546,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1523180875_1588854218.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1523180875_1588854218M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1523180875_1588854218Mc.jpg",
+                "title": "Cabane de Bounavaux CAS, Le Moléson is in the background."
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 1017,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1523189957_1868210317Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1523189957_1868210317master.jpg",
+                "photo_sac_id": 253555,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1523189957_1868210317.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1523189957_1868210317M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1523189957_1868210317Mc.jpg",
+                "title": "Ascent from P. 2182 to Tête de l'Herbette, Dent de Folliéran is in the background."
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 1018,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1540366690_105254513Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1540366690_105254513master.jpg",
+                "photo_sac_id": 253556,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1540366690_105254513.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1540366690_105254513M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1540366690_105254513Mc.jpg",
+                "title": "On the N ridge of Vanil Noir N, Tête de l'Herbette is in the background."
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 1019,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1523190443_1253533597Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1523190443_1253533597master.jpg",
+                "photo_sac_id": 253558,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1523190443_1253533597.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1523190443_1253533597M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1523190443_1253533597Mc.jpg",
+                "title": "Vanille Noir N ridge"
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 1020,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1523190786_486474705Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1523190786_486474705master.jpg",
+                "photo_sac_id": 253559,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1523190786_486474705.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1523190786_486474705M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1523190786_486474705Mc.jpg",
+                "title": "Descent from Vanil Noir and re-ascent to Vanil de l'Ecri"
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 1021,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1523190791_1853346784Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1523190791_1853346784master.jpg",
+                "photo_sac_id": 253560,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1523190791_1853346784.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1523190791_1853346784M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1523190791_1853346784Mc.jpg",
+                "title": "Col between Vanil de l'Ecri and Pointe de Paray"
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 1022,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1523191378_1798587730Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1523191378_1798587730master.jpg",
+                "photo_sac_id": 253561,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1523191378_1798587730.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1523191378_1798587730M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1523191378_1798587730Mc.jpg",
+                "title": "Pointe de Paray in front of Vanil Noir"
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 1023,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1524115886_2012934666Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1524115886_2012934666master.jpg",
+                "photo_sac_id": 253992,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1524115886_2012934666.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1524115886_2012934666M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1524115886_2012934666Mc.jpg",
+                "title": "On the descent from Pointe de Paray"
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 1024,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1523191026_1929832706Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1523191026_1929832706master.jpg",
+                "photo_sac_id": 253562,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1523191026_1929832706.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1523191026_1929832706M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1523191026_1929832706Mc.jpg",
+                "title": "The Petsernetse cirque, Le Curtillet and Tsermon are in the background."
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 1025,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1523191378_1851018959Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1523191378_1851018959master.jpg",
+                "photo_sac_id": 253563,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1523191378_1851018959.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1523191378_1851018959M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1523191378_1851018959Mc.jpg",
+                "title": "Rochers de St-Jacques"
+            }
+        ]
+    }
+}

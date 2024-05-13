@@ -1,0 +1,62 @@
+{
+    "type": "Feature",
+    "id": 288,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                47.28199169792467,
+                9.407990044481094
+            ]
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Wildkirchli caves/restaurant Aescher",
+        "abstract": "The prehistoric caves of the Ebenalp and the Aescher mountain restaurant, built onto the rock face, are both sure to impress. You can arrive at the starting point comfortably with the aerial cableway. The panorama along the way is a pleasure in itself.",
+        "description": "A journey back in time to the prehistoric caves on the Ebenalp at Wildkirchli is a once in a lifetime experience for young and old. The path leads from the Ebenalp mountain station to the site in just under 20 minutes. Enjoy the fantastic panorama along the way before entering into the cold silence of the Wildkirchli caves. In the hermit’s cabin deep within the rock face at Wildkirchli, there are various fascinating objects from everyday prehistoric life, including tools and left-over bones from the bear meals from times gone by.\n\nTravelling for a few minutes along the rock face brings you to the Aescher mountain restaurant. Here you can enjoy a crispy Rösti and marvel at the restaurant that has been built directly onto the rock face.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/8977_Wildkirchlihoehle_Berggasthaus-Aescher_1a.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/8977_Wildkirchlihoehle_Berggasthaus-Aescher_1a.jpg",
+            "https://images.schweizmobil.ch/image/8977_Wildkirchlihoehle_Berggasthaus-Aescher_2b.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "Appenzellerland Tourismus AI",
+        "name_2": null,
+        "street": "Hauptgasse 38",
+        "zip": "9050",
+        "place": "Appenzell",
+        "tel": "+41 (0)71 788 96 41",
+        "fax": null,
+        "email": "info@appenzell.ch",
+        "url1_link": "https://www.appenzell.ch",
+        "x_coordinate": 748980.7929484111,
+        "y_coordinate": 238658.90157311622,
+        "change_date": null,
+        "id": 288,
+        "r_key": 288,
+        "type": "Sight",
+        "url_sightseeing": "https://www.ebenalp.ch",
+        "touristic_region": 2,
+        "canton": 17
+    }
+}

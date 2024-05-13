@@ -1,0 +1,62 @@
+{
+    "type": "Feature",
+    "id": 3284,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                47.58485191445554,
+                8.29457769169563
+            ]
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Pumptrack Langwies",
+        "abstract": "The asphalt pump track is located adjacent to the school of Langwies. No matter whether you have a mountain bike, a BMX or a skateboard, this is where you can demonstrate your skills and technique. Jumping elements and different combinations of loops offer lots of fun for everyone.",
+        "description": " ",
+        "highlights": "Length: 170 m\nSurface area: 660 m2\nWave and curve height: 30 - 130 cm\nSurface: asphalt",
+        "foto": "https://images.schweizmobil.ch/image-big/Pumptrack_Langwies_Bad_Zurzach_2_g.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/Pumptrack_Langwies_Bad_Zurzach_2_s.jpg",
+            "https://images.schweizmobil.ch/image/Pumptrack_Langwies_Bad_Zurzach_1_s.jpg"
+        ],
+        "photo_gallery_big": [
+            "https://images.schweizmobil.ch/image-big/Pumptrack_Langwies_Bad_Zurzach_2_g.jpg",
+            "https://images.schweizmobil.ch/image-big/Pumptrack_Langwies_Bad_Zurzach_1_g.jpg"
+        ],
+        "photo_gallery_copyright": [
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "Gemeinde Zurzach",
+        "name_2": null,
+        "street": "Hauptstrasse 50",
+        "zip": "5330",
+        "place": "Bad Zurzach",
+        "tel": "+41 56 269 71 15",
+        "fax": null,
+        "email": "sport@zurzach.ch",
+        "url1_link": "https://www.zurzach.ch",
+        "x_coordinate": 664390.9130721707,
+        "y_coordinate": 270813.55215264094,
+        "change_date": null,
+        "id": 3284,
+        "r_key": 3284,
+        "type": "Sight",
+        "url_sightseeing": "https://www.zurzach.ch/pumptrack/55231",
+        "touristic_region": 14,
+        "canton": 13
+    }
+}

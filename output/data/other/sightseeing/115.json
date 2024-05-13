@@ -1,0 +1,62 @@
+{
+    "type": "Feature",
+    "id": 115,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.49169875236027,
+                9.170607576959755
+            ]
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "On the San Bernardino Pass",
+        "abstract": "It is worth stopping on the San Bernardino pass. A glaciated landscape with glaciated knobs, mires and small lakes awaits discovery there. The pass road, which originates from the 19th century, has been painstakingly restored.",
+        "description": "If you rush through the San Bernardino Pass, you miss out on a picturesque pass landscape. If, instead, you leave your car or bicycle on the pass road and continue on foot, you can discover a unique glaciated-knob mire landscape with small and large stretches of mire, small lakes and ponds.\n\nDuring the last Ice Age, the ice flowed south from the Reginald forest into the Mason valley, polishing the rocks and forming the landscape. Both raised and blanket mires can be found south of the pass. Given their location at an altitude of almost 2000 metres ASL, the raised mires are among the highest in Switzerland.\n\nThe San Bernardino Pass is an historical crossing point. Thus, in addition to the pass road, which was painstakingly restored in the 1990s, and the refuge, the well-preserved ruins of a Roman road can also be found there.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/28_SanBernardin0-3-732993-1.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/28_SanBernardin0-3-732993-1.jpg",
+            "https://images.schweizmobil.ch/image/28_San-Bernardino.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "Bundesamt für Umwelt",
+        "name_2": null,
+        "street": "und Naturdenkmäler von nationaler Bedeutung (BLN)",
+        "zip": "BLN-Objekt-Nr.",
+        "place": "1907",
+        "tel": "-",
+        "fax": null,
+        "email": "bln@bafu.admin.ch",
+        "url1_link": "https://www.bafu.admin.ch/bln",
+        "x_coordinate": 732965.1018103594,
+        "y_coordinate": 150399.802279757,
+        "change_date": null,
+        "id": 115,
+        "r_key": 115,
+        "type": "Sight",
+        "url_sightseeing": "https://www.bafu.admin.ch/bln",
+        "touristic_region": 1,
+        "canton": 2
+    }
+}

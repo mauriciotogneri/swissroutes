@@ -1,0 +1,72 @@
+{
+    "type": "Feature",
+    "id": 760,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                47.18567453243445,
+                7.404967032761615
+            ]
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Velodrome Suisse / BMX and pump track",
+        "abstract": "The Velodrome Suisse/BMX and pump track in Grenchen is the training centre of future cycling heroes. Experience a day of physical activity, culinary pleasure and fun for adults and children alike!",
+        "description": "The multi-purpose Velodrome Suisse offers a wide range of activities, from track courses to racing evenings, tours and corporate events.\n\nThe approximately 8,000-square metre BMX and pump track in Grenchen is one of the world’s biggest facilities and open to the public. Here, you can rediscover the joy of cycling, improve your agility and coordination, or simply have fun with others. The Velodrome Suisse also offers courses for children and adolescents on the pump track.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/02_Grenchen_Bahn-tissotVelodrome_2015.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/02_Grenchen_Bahn-tissotVelodrome_2015.jpg",
+            "https://images.schweizmobil.ch/image/03_Grenchen_RestaurantVelodrome_2015.jpg",
+            "https://images.schweizmobil.ch/image/01_Grenchen_AussenansichtVelodrome_2015.jpg",
+            "https://images.schweizmobil.ch/image/04_Grenchen_BMX_2015.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "name": "Velodrome Suisse AG",
+        "name_2": null,
+        "street": "Neumattstrasse 25",
+        "zip": "2540",
+        "place": "Grenchen SO",
+        "tel": "+41 (0)32 654 20 40",
+        "fax": null,
+        "email": "info@tissotvelodrome.ch",
+        "url1_link": "https://www.tissotvelodrome.ch",
+        "x_coordinate": 597448.9308164667,
+        "y_coordinate": 226081.53868772273,
+        "change_date": null,
+        "id": 760,
+        "r_key": 760,
+        "type": "Sight",
+        "url_sightseeing": "https://www.velodromesuisse.ch",
+        "touristic_region": 8,
+        "canton": 16
+    }
+}

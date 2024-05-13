@@ -1,0 +1,62 @@
+{
+    "type": "Feature",
+    "id": 569,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                47.588189889032726,
+                7.589519826264943
+            ]
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Rhine Port / Three Countries' Corner",
+        "abstract": "Experience the big wide world in miniature. Where Germany, France and Switzerland meet and the ships leave for the North Sea, is also the hub and pivotal point of Switzerland's raw material supply.",
+        "description": "As an important transport route for commerce the Rhine has contributed a great deal to the development of the city. Today, it constitutes a large part of the quality of living that Basel offers its inhabitants and visitors.\n\nAnd the hustle and bustle is not just at but also on the Rhine. At the Three Countries’ Corner you can enjoy a fantastic view of the river and observe the hectic comings and goings at Basel’s Rhine Port.\n\nDozens of Rhine-ships battle with the current every day, and are sure to have your full attention when they pass within a hair’s breadth of the bridge columns.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/8179_Rheinhafen_Dreilaendereck_1a.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/8179_Rheinhafen_Dreilaendereck_1a.jpg",
+            "https://images.schweizmobil.ch/image/8179_Rheinhafen_Dreilaendereck_2b.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "Basel Tourismus Tourist Information",
+        "name_2": null,
+        "street": "Steinenberg 14",
+        "zip": "4010",
+        "place": "Basel",
+        "tel": "+41 (0)61 268 68 68",
+        "fax": null,
+        "email": "info@basel.com",
+        "url1_link": "https://www.basel.com",
+        "x_coordinate": 611350.9973568304,
+        "y_coordinate": 270844.9905568672,
+        "change_date": null,
+        "id": 569,
+        "r_key": 569,
+        "type": "Sight",
+        "url_sightseeing": "https://port-of-switzerland.ch/",
+        "touristic_region": 5,
+        "canton": 8
+    }
+}

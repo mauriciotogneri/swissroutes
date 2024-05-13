@@ -1,0 +1,206 @@
+{
+    "type": "Feature",
+    "id": 36,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.67792883504271,
+                8.376627890966212
+            ]
+        ]
+    },
+    "properties": {
+        "id": 36,
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "type": "Mountaineering",
+        "ascent_altitude": 1270,
+        "ascent_time_max": 270,
+        "sac_chm_route": true,
+        "sac_created": "2023-03-06 14:33:33",
+        "descent_altitude": null,
+        "descent_time_max": null,
+        "descent_time_min": null,
+        "sac_orig_id": 277,
+        "sac_modified": "2023-03-06 14:33:34",
+        "sac_status": "published",
+        "poi_title": "Trifthütte SAC",
+        "abstract": "The ascent to the Trifthütte is a challenging hike and can be exposed in the upper part. The path is marked red-white until the Triftbrücke (bridge).\nIf you take the Triftbahn from Schwendeli on the Sustenpass road the ascent will be shortened by 300 meters (or 2 hours).\nVariant: A rewarding detour via Windegghütte (1887 m) and the Ketteliweg takes an additional 1h.\nFrom the Triftbrücke (1761m) the path will follow a blue-white marked T4-hiking route.\nThere are two 10m ladders and three stream crossings to tackle. These offer interesting challenges depending on the water level. In between are several exposed passages, but these are often secured with ropes and chains.",
+        "subtitle": "Red-white to the Triftbrücke - blue-white to the Trifthütte",
+        "title": "From Bergstation Underi Trift (cable car station)",
+        "sac_type": "mountain_hiking",
+        "mountain_hiking_difficulty": "T4",
+        "alpine_tour_difficulty": null,
+        "alpine_climbing_difficulty": null,
+        "grade": null,
+        "height_climbing_wall": null,
+        "via_ferrata_difficulty": null,
+        "ski_tour_difficulty": null,
+        "mountaineering_sacphoto_ids": [
+            2999,
+            2741,
+            2740,
+            133,
+            135,
+            136,
+            137,
+            139,
+            140,
+            141,
+            142,
+            143,
+            144
+        ],
+        "sac_poi_id": 2147000277,
+        "x_coordinate": 671767.9427023942,
+        "y_coordinate": 170063.58013696392,
+        "change_date": "2023-03-30 12:13:52",
+        "sac_photos": [
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 2999,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1593880264_1625706375Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1593880264_1625706375master.jpg",
+                "photo_sac_id": 279679,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1593880264_1625706375.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1593880264_1625706375M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1593880264_1625706375Mc.jpg",
+                "title": "[no data]"
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 2741,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1586946146_907777192Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1586946146_907777192master.jpg",
+                "photo_sac_id": 276294,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1586946146_907777192.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1586946146_907777192M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1586946146_907777192Mc.jpg",
+                "title": "Bosslis-Stein: Turn off to the Windegghütte ca. 1640 m. Which way shall we go?"
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 2740,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1586946144_2059899901Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1586946144_2059899901master.jpg",
+                "photo_sac_id": 276292,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1586946144_2059899901.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1586946144_2059899901M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1586946144_2059899901Mc.jpg",
+                "title": "Triftbahn"
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 133,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1520852072_1881465453Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1520852072_1881465453master.jpg",
+                "photo_sac_id": 251482,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1520852072_1881465453.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1520852072_1881465453M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1520852072_1881465453Mc.jpg",
+                "title": "Cheeky start taking the Triftbahn from Schwendeli to Underen Trift."
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 135,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1521220804_1120611630Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1521220804_1120611630master.jpg",
+                "photo_sac_id": 251823,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1521220804_1120611630.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1521220804_1120611630M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1521220804_1120611630Mc.jpg",
+                "title": "Red-white markers along the path to the Triftbrücke."
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 136,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1522330789_1688827877Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1522330789_1688827877master.jpg",
+                "photo_sac_id": 253091,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1522330789_1688827877.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1522330789_1688827877M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1522330789_1688827877Mc.jpg",
+                "title": "At the famous Trift suspension bridge, after which the blue-white marked hiking trail to the Trifthütte begins."
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 137,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1547629920_91272786Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1547629920_91272786master.jpg",
+                "photo_sac_id": 251824,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1547629920_91272786.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1547629920_91272786M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1547629920_91272786Mc.jpg",
+                "title": "From the Triftbrücke, the Hüttenweg (way) becomes more challenging."
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 139,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1521220877_1682219722Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1521220877_1682219722master.jpg",
+                "photo_sac_id": 251826,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1521220877_1682219722.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1521220877_1682219722M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1521220877_1682219722Mc.jpg",
+                "title": "After the Triftbrücke the way is marked in blue and white."
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 140,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1547629920_2043143414Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1547629920_2043143414master.jpg",
+                "photo_sac_id": 251827,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1547629920_2043143414.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1547629920_2043143414M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1547629920_2043143414Mc.jpg",
+                "title": "There are also two ladders to tackle."
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 141,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1547629920_1451381162Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1547629920_1451381162master.jpg",
+                "photo_sac_id": 251828,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1547629920_1451381162.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1547629920_1451381162M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1547629920_1451381162Mc.jpg",
+                "title": "Exposed bits in the upper part of the trail are secured with chains."
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 142,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1521221031_1934422324Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1521221031_1934422324master.jpg",
+                "photo_sac_id": 251829,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1521221031_1934422324.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1521221031_1934422324M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1521221031_1934422324Mc.jpg",
+                "title": "The hut is near!"
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 143,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1521220215_1986304743Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1521220215_1986304743master.jpg",
+                "photo_sac_id": 251821,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1521220215_1986304743.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1521220215_1986304743M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1521220215_1986304743Mc.jpg",
+                "title": "The destination: the Trifthütte of SAC-Section Bern 2520 m"
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 144,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1521221034_1879986640Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1521221034_1879986640master.jpg",
+                "photo_sac_id": 251830,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1521221034_1879986640.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1521221034_1879986640M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1521221034_1879986640Mc.jpg",
+                "title": "Impressive view of the Triftsee with the Triftbrücke suspension bridge at the far side."
+            }
+        ]
+    }
+}

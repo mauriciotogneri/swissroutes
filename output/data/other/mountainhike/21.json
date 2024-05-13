@@ -1,0 +1,158 @@
+{
+    "type": "Feature",
+    "id": 21,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.50769725860766,
+                7.003024614262166
+            ]
+        ]
+    },
+    "properties": {
+        "id": 21,
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "type": "Mountaineering",
+        "ascent_altitude": 950,
+        "ascent_time_max": 180,
+        "sac_chm_route": true,
+        "sac_created": "2022-08-25 07:15:38",
+        "descent_altitude": 1270,
+        "descent_time_max": 150,
+        "descent_time_min": null,
+        "sac_orig_id": 139,
+        "sac_modified": "2022-08-25 07:15:38",
+        "sac_status": "published",
+        "poi_title": "Dent de Lys",
+        "abstract": "Dent de Lys is the highest summit of the range between Greyerzerland and Freiburger Hochland and the only twothousander besides Moléson. It was formerly named Vanil de Vuidèche or Chaux de Vuidèche. The new name is derived from the little lake at En Lys („li“ means „lake“ in the local dialect), which rose up to the col and finally the summit. From Dent de Lys one enjoys a marvellous view to Lake Geneva.",
+        "subtitle": "Lake view",
+        "title": "Les Paccots – Dent de Lys – Les Sciernes-d'Albeuve",
+        "sac_type": "mountain_hiking",
+        "mountain_hiking_difficulty": "T4",
+        "alpine_tour_difficulty": null,
+        "alpine_climbing_difficulty": null,
+        "grade": null,
+        "height_climbing_wall": null,
+        "via_ferrata_difficulty": null,
+        "ski_tour_difficulty": null,
+        "mountaineering_sacphoto_ids": [
+            79,
+            80,
+            81,
+            82,
+            83,
+            84,
+            85,
+            86,
+            87
+        ],
+        "sac_poi_id": 1086,
+        "x_coordinate": 566565.0638912369,
+        "y_coordinate": 150803.51285340235,
+        "change_date": "2023-03-30 12:13:51",
+        "sac_photos": [
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 79,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1531937348_257116286Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1531937348_257116286master.jpg",
+                "photo_sac_id": 256509,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1531937348_257116286.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1531937348_257116286M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1531937348_257116286Mc.jpg",
+                "title": "From right to left: Col de Lys - Lys Derrey (P. 1863) - Dent de Lys"
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 80,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1531937502_162409268Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1531937502_162409268master.jpg",
+                "photo_sac_id": 256510,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1531937502_162409268.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1531937502_162409268M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1531937502_162409268Mc.jpg",
+                "title": "A young member of the ibex colony on Dent de Lys"
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 81,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1531936107_1051759594Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1531936107_1051759594master.jpg",
+                "photo_sac_id": 256503,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1531936107_1051759594.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1531936107_1051759594M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1531936107_1051759594Mc.jpg",
+                "title": "Pastures at the foot of Le Pralet"
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 82,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1531936118_1575558540Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1531936118_1575558540master.jpg",
+                "photo_sac_id": 256504,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1531936118_1575558540.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1531936118_1575558540M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1531936118_1575558540Mc.jpg",
+                "title": "Ascent from Col de Lys to Lys Derrey"
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 83,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1531936149_1773241287Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1531936149_1773241287master.jpg",
+                "photo_sac_id": 256505,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1531936149_1773241287.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1531936149_1773241287M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1531936149_1773241287Mc.jpg",
+                "title": "Exiting to the ridge from the steep passages equipped with chains"
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 84,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1531936238_770325643Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1531936238_770325643master.jpg",
+                "photo_sac_id": 256506,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1531936238_770325643.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1531936238_770325643M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1531936238_770325643Mc.jpg",
+                "title": "On the summit ridge, view to Vanil des Artses"
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 85,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1531937918_117550867Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1531937918_117550867master.jpg",
+                "photo_sac_id": 256511,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1531937918_117550867.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1531937918_117550867M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1531937918_117550867Mc.jpg",
+                "title": "Dent de Lys: the memorial stone below the summit cross"
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 86,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1531937614_31248535Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1531937614_31248535master.jpg",
+                "photo_sac_id": 256512,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1531937614_31248535.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1531937614_31248535M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1531937614_31248535Mc.jpg",
+                "title": "View from Dent de Lys: Grand Sex - Vanil Blanc - La Vudalla - Le Moléson"
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 87,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1531937637_1796075484Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1531937637_1796075484master.jpg",
+                "photo_sac_id": 256513,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1531937637_1796075484.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1531937637_1796075484M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1531937637_1796075484Mc.jpg",
+                "title": "Wetlands at En Lys"
+            }
+        ]
+    }
+}

@@ -1,0 +1,57 @@
+{
+    "type": "Feature",
+    "id": 597,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.8519617692721,
+                8.62084960383389
+            ]
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Attinghausen, Mettlen–Berg (Surenenpass)",
+        "abstract": "An especially lovely alp trail has been preserved above Attinghausen as part of the Surenenpass. According to Schiller’s «Wilhelm Tell» this leads into «fearsome mountains», amongst other things, « to where only raucous bearded vultures caw».",
+        "description": "The Surenenpass links the Urner Reusstal and Engelberg. Archaeological finds prove that the pass has been used for over two thousand years. The favourable climatic conditions of the period meant that many high-Alpine passes were ice-free and easy to cross, including the almost 2300m altitude Surenen.\n\nToday’s traffic streams flow separately. While motorized traffic roars through the Urner Reusstal, time seems to stand still on the trail to the Surenen. This involves a walled-in trench, which between Mettlen and Berg above Attinghausen, is one of the loveliest newer trail systems in Central Switzerland. At the beginning is a chapel dedicated to St Onuphrius. The saint, who was rarely asked for help, was called on to defend against floods, which in view of the steep slopes and rushing streams might have been a frequent occurrence. The alp trail built almost in the fall line at the beginning of the 20th century is extremely well-maintained and seems a tailor-made hiking trail. It has never been open to wood transport, to protect it. The beauty of the trail opens up to hikers after the next 45 minutes.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/IVS_01_04_Alpgasse.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/IVS_01_04_Alpgasse.jpg"
+        ],
+        "photo_gallery_big": [
+            ""
+        ],
+        "photo_gallery_copyright": [
+            ""
+        ],
+        "photo_gallery_author": [
+            ""
+        ],
+        "photo_gallery_abstract": [
+            ""
+        ],
+        "name": "Bundesinventar der historischen Verkehrswege der Schweiz (IVS)",
+        "name_2": null,
+        "street": " ",
+        "zip": " ",
+        "place": " ",
+        "tel": " ",
+        "fax": null,
+        "email": " ",
+        "url1_link": "https://www.ivs.admin.ch",
+        "x_coordinate": 690160.0573595559,
+        "y_coordinate": 189660.31243631666,
+        "change_date": null,
+        "id": 597,
+        "r_key": 597,
+        "type": "Sight",
+        "url_sightseeing": "https://s.geo.admin.ch/6fb15516cc",
+        "touristic_region": 4,
+        "canton": 4
+    }
+}

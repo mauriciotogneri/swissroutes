@@ -1,0 +1,67 @@
+{
+    "type": "Feature",
+    "id": 143,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                47.42794981144119,
+                9.381609417413284
+            ]
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Art Museum St.Gallen",
+        "abstract": "The Kunstmuseum St. Gallen, with its attractive, temporary exhibitions of contemporary and modern art, enjoys international renown.",
+        "description": "The Art Museum St. Gallen offers an intriguing exhibition programme of international appeal and functions as a treasury of Eastern Switzerland by housing a splendid collection of paintings and sculptures from the Late Middle Ages to the present, which is shown in alternating presentations.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/11334_Natur_und_Kunstmuseum_1a.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/11334_Natur_und_Kunstmuseum_1a.jpg",
+            "https://images.schweizmobil.ch/image/11334_Natur_und_Kunstmuseum_2b.jpg",
+            "https://images.schweizmobil.ch/image/Kunstmuseum_Florian Brunner_s.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            "",
+            "https://images.schweizmobil.ch/image-big/Kunstmuseum_Florian Brunner_g.jpg"
+        ],
+        "photo_gallery_copyright": [
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            "",
+            ""
+        ],
+        "name": "St.Gallen-Bodensee Tourismus",
+        "name_2": null,
+        "street": "Bankgasse 9",
+        "zip": "9001",
+        "place": "St.Gallen",
+        "tel": "+41 (0)71 227 37 37",
+        "fax": null,
+        "email": "info@st.gallen-bodensee.ch",
+        "url1_link": "https://www.st.gallen-bodensee.ch",
+        "x_coordinate": 746583.7126565089,
+        "y_coordinate": 254831.1139317338,
+        "change_date": null,
+        "id": 143,
+        "r_key": 143,
+        "type": "Sight",
+        "url_sightseeing": "https://kunstmuseumsg.ch/en/",
+        "touristic_region": 2,
+        "canton": 23
+    }
+}

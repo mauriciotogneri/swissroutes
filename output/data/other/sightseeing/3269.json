@@ -1,0 +1,57 @@
+{
+    "type": "Feature",
+    "id": 3269,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.08742300404053,
+                7.26503559519245
+            ]
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Flowtrail Tsenelle La Chaux",
+        "abstract": "The easy flow trail of the Verbier bike park is suitable for anybody - children, adults, beginners or avid mountain bikers. The downhill track offers breathtaking views of the Combin massif, Mont Fort and even Mont Blanc in the distance.",
+        "description": " ",
+        "highlights": "Length: 1,7 km\nOpening hours: July - September",
+        "foto": "https://images.schweizmobil.ch/image-big/Flowtrail_Tsenelle_La_Chaux_g.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/Flowtrail_Tsenelle_La_Chaux_s.jpg"
+        ],
+        "photo_gallery_big": [
+            "https://images.schweizmobil.ch/image-big/Flowtrail_Tsenelle_La_Chaux_g.jpg"
+        ],
+        "photo_gallery_copyright": [
+            ""
+        ],
+        "photo_gallery_author": [
+            ""
+        ],
+        "photo_gallery_abstract": [
+            ""
+        ],
+        "name": "Verbier Bikepark",
+        "name_2": null,
+        "street": "CP 300",
+        "zip": "1936",
+        "place": "Verbier",
+        "tel": "+41 27 775 25 11",
+        "fax": null,
+        "email": "info@verbierbikepark.ch",
+        "url1_link": "https://www.verbierbikepark.ch",
+        "x_coordinate": 586572.9265134108,
+        "y_coordinate": 104005.73364947127,
+        "change_date": null,
+        "id": 3269,
+        "r_key": 3269,
+        "type": "Sight",
+        "url_sightseeing": "https://www.valais.ch/en/activities/mountain-bike/flowtrails/flowtrail-tsenelle-la-chaux",
+        "touristic_region": 11,
+        "canton": 7
+    }
+}

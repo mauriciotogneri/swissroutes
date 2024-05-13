@@ -1,0 +1,62 @@
+{
+    "type": "Feature",
+    "id": 154,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.524225985847785,
+                8.600934698045414
+            ]
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Cheese factory Gottardo",
+        "abstract": "At the foot of the San Gottardo massive, the Caseificio Dimostrativo del Gottardo represents a great chance of contact and an excellent meeting point. It's a structure, which dairy production is accompanied by other activities.",
+        "description": "Coming from the north, Airolo is the first village in Ticino. The surrounding countryside is a place for countless excursions. Ticino has a long tradition of cheese-making. The large variety of alpine herbs growing in the alpine pastures gives the cheese a particular aromatic flavor. The Gotthard cheese dairy in Airolo, produces 3 prestigious cheese pastes, but also ice cream, yogurt, butter, etc. from the milk of the cows in the Gotthard region. These products can be directly purchased at the diary’s shop or savored at the restaurant. The dairy offers the opportunity to see how products are made, with a guided tour of the establishment (upon reservation), and with an exhibit on traditional methods of Swiss cheese-making. Visitors also have the exclusive opportunity to make their own cheese using the milk produced by the local cows. Moreover, after 3 months of aging the cheese can be sent home (within Europe) as a nice souvenir from Ticino.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/11385_Schaukaeserei_del_Gottardo_1a.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/11385_Schaukaeserei_del_Gottardo_1a.jpg",
+            "https://images.schweizmobil.ch/image/11385_Schaukaeserei_del_Gottardo_2b.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "Bellinzonese e Alto Ticino Turismo",
+        "name_2": null,
+        "street": "Via della Stazione 22",
+        "zip": "6780",
+        "place": "Airolo",
+        "tel": "+41 (0)91 869 15 33",
+        "fax": null,
+        "email": "leventina@bellinzonese-altoticino.ch",
+        "url1_link": "https://www.bellinzonese-altoticino.ch",
+        "x_coordinate": 689181.3988160478,
+        "y_coordinate": 153208.90351207633,
+        "change_date": null,
+        "id": 154,
+        "r_key": 154,
+        "type": "Sight",
+        "url_sightseeing": "https://www.cdga.ch",
+        "touristic_region": 12,
+        "canton": 19
+    }
+}

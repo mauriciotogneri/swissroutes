@@ -1,0 +1,62 @@
+{
+    "type": "Feature",
+    "id": 86,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.78385454075473,
+                6.666001114827207
+            ]
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Pro Natura Centre Champ-Pittet",
+        "abstract": "Located at the edges of the Grande Cariçaie, the Pro Natura Centre Champ-Pittet offers its visitors various educational trails, hides for observing the wild fauna, gardens with flowers and special types of vegetables which can be tasted in the restaurant of the centre.",
+        "description": "The Pro Natura Centre Champ-Pittet has welcomed over a million visitors and is by far the most visited nature conservation centre in Switzerland. The centre, which is run by the Pro Natura association, is easily accessible by public transport (SBB stop \"Champ-Pittet\", signposted hiking and cycling trails), making it a popular destination for excursions. The centre offersinteractive and art exhibitions, guided tours, nature trails, examples of near-natural facilities, etc.\n\nThe nature reserve centre is open from March to November. However, the outdoor facilities can be visited all year round, as nature in the Grande Cariçaie is an experience at any time of year.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/7908_Champ_pittet_1a.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/7908_Champ_pittet_1a.jpg",
+            "https://images.schweizmobil.ch/image/7908_Champ_pittet_2b.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "Pro Natura Zentrum Champ-Pittet",
+        "name_2": null,
+        "street": "Ch. de la Cariçaie 1",
+        "zip": "1400",
+        "place": "Cheseaux-Noréaz",
+        "tel": "+41 (0)24 423 35 70",
+        "fax": null,
+        "email": "champ-pittet@pronatura.ch",
+        "url1_link": "https://www.pronatura-champ-pittet.ch/de",
+        "x_coordinate": 541000.1258855319,
+        "y_coordinate": 181700.27941033288,
+        "change_date": null,
+        "id": 86,
+        "r_key": 86,
+        "type": "Sight",
+        "url_sightseeing": "https://www.grande-caricaie.ch",
+        "touristic_region": 9,
+        "canton": 27
+    }
+}

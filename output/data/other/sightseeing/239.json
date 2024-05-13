@@ -1,0 +1,62 @@
+{
+    "type": "Feature",
+    "id": 239,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                47.052774217765425,
+                8.335840326315399
+            ]
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Swiss Museum of Transport",
+        "abstract": "In this, the most comprehensive traffic museum in Europe, an experience-oriented show unfolds the story of the development of all forms of traffic and communication.",
+        "description": "Attractions: Hundreds of nostalgic original vehicles, with a show, dealing with the construction of the railway tunnel through the Gotthard; Swissarena, the largest walk-on orthophotograph of Switzerland and the Nautirama Lake Lucerne. Experience in interesting and diverse ways the development of transport and mobility by road, rail and water as well as in the air and outer space.\n\nTechnical achievements enable us to be mobile and shape our lives. It is only the mental agility of tinkerers, inventors and explorers that has made people as mobile as they are today. The fascinating history of transport and its vehicles together with their socio-political effects on our culture are the key themes of the Swiss Museum of Transport. \r\nMore than 3000 objects displayed in an area exceeding 20,000 m² are witnesses to a moving history in the most literal sense and point to future challenges in the field of transport and mobility.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/8191_Verkehrshaus-der-Schweiz_1a.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/8191_Verkehrshaus-der-Schweiz_1a.jpg",
+            "https://images.schweizmobil.ch/image/8191_Verkehrshaus-der-Schweiz_2b.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "Luzern Tourismus",
+        "name_2": null,
+        "street": "Bahnhofstrasse 3",
+        "zip": "6002",
+        "place": "Luzern",
+        "tel": "+41 (0)41 227 17 17",
+        "fax": null,
+        "email": "luzern@luzern.com",
+        "url1_link": "https://www.luzern.com",
+        "x_coordinate": 668170.0772807503,
+        "y_coordinate": 211695.09136085803,
+        "change_date": null,
+        "id": 239,
+        "r_key": 239,
+        "type": "Sight",
+        "url_sightseeing": "https://www.verkehrshaus.ch/index.cfm?dom=4",
+        "touristic_region": 4,
+        "canton": 15
+    }
+}

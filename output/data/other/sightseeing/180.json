@@ -1,0 +1,62 @@
+{
+    "type": "Feature",
+    "id": 180,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.25662696942331,
+                7.425668728481377
+            ]
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "The underground lake of Saint-Léonard",
+        "abstract": "In the heart of the Valais, between Sion and Sierre, discover the underground lake of St-Léonard. With 300m length, 20m wide, 10m depth, this is the biggest natural underground lake in Europe which you can visit by boat.",
+        "description": "During a 30 minutes boat trip on the cristal clear water, you will enjoy the peace of this amazing place while your guide gives you all explanations about the underground lake.\n\nVarious types of stone glitter at a height of ten meters, their shapes reflected on the 6,000 square meter surface of the lake. Visiting the subterranean lake of St. Léonard is a unique adventure. The 300 meter long and about 20 meter wide watery underworld is considered to be a place of special power. It has been accessible to tourists since 1949. Jean-Jacques Pittard is said to have been the first person to scientifically explore the cave.\n\nBack to daylight, the terrace by the entrance of the lake is a great stop to enjoy the view on the Rhone Valley and why not tasting  the wine from the surrounding vineyards.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/9195_Lac_souterrain_St_Leonard_1a.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/9195_Lac_souterrain_St_Leonard_1a.jpg",
+            "https://images.schweizmobil.ch/image/9195_Lac_souterrain_St_Leonard_2b.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "Lac Souterrain de St-Léonard",
+        "name_2": null,
+        "street": "CP 75, Rue du Lac 21",
+        "zip": "1958",
+        "place": "St-Léonard",
+        "tel": "+41 (0)27 203 22 66",
+        "fax": null,
+        "email": "admin@lac-souterrain.com",
+        "url1_link": "https://www.lac-souterrain.com",
+        "x_coordinate": 599000.2998109515,
+        "y_coordinate": 122800.06864216691,
+        "change_date": null,
+        "id": 180,
+        "r_key": 180,
+        "type": "Sight",
+        "url_sightseeing": "https://www.lac-souterrain.com",
+        "touristic_region": 11,
+        "canton": 7
+    }
+}

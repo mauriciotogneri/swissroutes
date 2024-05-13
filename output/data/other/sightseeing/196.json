@@ -1,0 +1,62 @@
+{
+    "type": "Feature",
+    "id": 196,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                47.36975147159606,
+                8.541407170679612
+            ]
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Fraumünster Church",
+        "abstract": "Fraumünster Church is located in the heart of Zürich's Old Town. The beautiful Romanesque-Gothic building and the stained glass windows by Marc Chagall and Augusto Giacometti attract large numbers of visitors every day.",
+        "description": "Founded in 853 by King Louis the German, this church with its convent was inhabited by the female members of the aristocracy of southern Germany. It enjoyed the patronage of kings and the right to mint coins in Zürich until well into the 13th century. Ownership of the church and convent passed to the city of Zürich after the Reformation. Important architectural features include the Romanesque choir and the high vaulted transept.\n\nThe nave was last renovated in 1911, following on from work to heighten the north tower and remove the south tower in the 18th century. In addition to the largest organ in the canton (5,793 pipes), its most stunning jewels are the stained glass windows: those in the north transept are by Alberto Giacometti's cousin, Augusto (1945), the five-part cycle in the choir (1970) and the rosette in the southern transept (1978) are by Marc Chagall. There is a series of frescos by Paul Bodmer in the cloister to mark the founding of the Fraumünster.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/9150_Fraumuenster-Kirche_1a.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/9150_Fraumuenster-Kirche_1a.jpg",
+            "https://images.schweizmobil.ch/image/9150_Fraumuenster-Kirche_2b.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "Zürich Tourismus",
+        "name_2": null,
+        "street": "Im Hauptbahnhof",
+        "zip": "8021",
+        "place": "Zürich",
+        "tel": "+41 (0)44 215 40 00",
+        "fax": null,
+        "email": "information@zuerich.com",
+        "url1_link": "https://www.zuerich.com",
+        "x_coordinate": 683293.9054030254,
+        "y_coordinate": 247131.56934890934,
+        "change_date": null,
+        "id": 196,
+        "r_key": 196,
+        "type": "Sight",
+        "url_sightseeing": "https://www.zuerich.com/en/Visitor/Experience/Attractions/Fraumuenster-details.html#details",
+        "touristic_region": 3,
+        "canton": 3
+    }
+}

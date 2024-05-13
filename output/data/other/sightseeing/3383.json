@@ -1,0 +1,62 @@
+{
+    "type": "Feature",
+    "id": 3383,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.60530400955376,
+                9.425165522427008
+            ]
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Mineral Spa Andeer",
+        "abstract": "Andeer bathing house has a long history. It was already in use as long as 700 years ago - by mule trains on their arduous journey through the Alps. Even today wellness-hungry visitors flock to Andeer in search of relaxation.",
+        "description": "Crystal clear streams bubble merrily on the hillsides in the Viamala adventure area. It is small wonder that Andeer has a dozen springs. A real wonder, though, is the mineral water that springs here from the mountain. Its healing and regenerative powers have been used for 700 years.\n\nThe new and generously sized Mineralbad Aquandeer is accordingly used for rehabilitation after accidents, illnesses and operations and is an effective treatment for rheumatism as well as heart, muscle and circulatory weaknesses. Or to put it simply – the Aquandeer mineral baths enhance physical and emotional well-being.\n\nIn addition to the indoor pool, a sauna and a therapy section, Mineralbad Aquandeer also has an outdoor pool with jet bubblers, neck jets and a whirlpool - and so the incomparably beautiful landscape is experienced in harmony with physical and emotional well-being.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/8913_Mineralbad-Andeer_1a.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/8913_Mineralbad-Andeer_1a.jpg",
+            "https://images.schweizmobil.ch/image/8913_Mineralbad-Andeer_2b.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "Schamser Heilbad Andeer AG",
+        "name_2": null,
+        "street": "-",
+        "zip": "7440",
+        "place": "Andeer",
+        "tel": "+41 (0)81 661 18 78",
+        "fax": null,
+        "email": "info@mineralbad-andeer.ch",
+        "url1_link": "https://www.mineralbad-andeer.ch",
+        "x_coordinate": 752184.9966027512,
+        "y_coordinate": 163487.3385437436,
+        "change_date": null,
+        "id": 3383,
+        "r_key": 3383,
+        "type": "Sight",
+        "url_sightseeing": "https://www.mineralbad-andeer.ch",
+        "touristic_region": 1,
+        "canton": 2
+    }
+}

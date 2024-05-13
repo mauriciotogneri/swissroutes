@@ -1,0 +1,67 @@
+{
+    "type": "Feature",
+    "id": 247,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.979438276139135,
+                8.255621005397904
+            ]
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Mount Pilatus",
+        "abstract": "So close to Lucerne and so easy to reach by public transport, Mount Pilatus is the perfect peak for everyone, large or small. 2 aerial cableways, 2 hotels, 7 restaurants, the world's steepest cogwheel railway and Central Switzerland's biggest suspension rope park guarantee exciting excursions.",
+        "description": "The best way to become acquainted with the dragon mountain is with the steepest railway of the world (ascent 48%), or the spectacular aerial tramway and modern soundless panoramic gondolas. For those people who like boatrides and mountains, the Golden Roundtrip is a wonderful journey. To Alpnachstad by boat or train, then to Pilatus Kulm on the world's steepest railway. Descent by the cable car and gondolas to Kriens, Lucerne.\n\nThe variety of hiking tracks lets every enthusiastic hiker's heart beat faster. In the region of Pilatus, you will find tracks not only for hikers, but for mountaineers and alpinists as well.\n\nThe gastronomy-crew pampers your palate with culinary delights in one of the restaurants on and at Mount Pilatus. From August 2010, as a historic mountain hotel, the Hotel Pilatus-Kulm will position itself in the three-star-superior segment and expand its restaurant, hotel and seminar offers.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/9154_Pilatus_1a.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/9154_Pilatus_1a.jpg",
+            "https://images.schweizmobil.ch/image/9154_Pilatus_2b.jpg",
+            "https://images.schweizmobil.ch/image/Pilatus_pil1756.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            "",
+            ""
+        ],
+        "name": "Luzern Tourismus",
+        "name_2": null,
+        "street": "Bahnhofstrasse 3",
+        "zip": "6002",
+        "place": "Luzern",
+        "tel": "+41 (0)41 227 17 17",
+        "fax": null,
+        "email": "luzern@luzern.com",
+        "url1_link": "https://www.luzern.com",
+        "x_coordinate": 662160.0308250998,
+        "y_coordinate": 203476.72672349974,
+        "change_date": null,
+        "id": 247,
+        "r_key": 247,
+        "type": "Sight",
+        "url_sightseeing": "https://www.pilatus.ch/default-n7-sE.html",
+        "touristic_region": 4,
+        "canton": 18
+    }
+}

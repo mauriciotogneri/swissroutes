@@ -1,0 +1,62 @@
+{
+    "type": "Feature",
+    "id": 393,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.22269584890416,
+                6.032360931349583
+            ]
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Geneva's vineyards",
+        "abstract": "A thousand-year-old tradition. With its 1,400 hectares of vineyards and its 13.5 million litres of wine produced every year, Geneva is the third largest wine-producing canton in Switzerland.",
+        "description": "Nestled between the crests of the Jura and the steep slopes of the Salève, Geneva's vineyards are divided into three distinct areas:\n\n1. The right bank of the lake (790 hectares) which includes the Mandement with Satigny, Switzerland's largest wine-producing municipality, and the vineyards of Céligny and Collex-Bossy.\n\n2. The area between the Arve river and the Rhone river (270 hectares) includes the vineyards of Bernex, Lully, Confignon, Soral and Laconnex.\n\n3.\tThe left bank of the lake (283 hectares) stretches from Cologny to Hermance.\n\nThe presence of vineyards in Geneva goes back to the Roman era. The vintners were prompt to spot the sandy, clayey soil, the microclimate, the gentle and well-exposed slopes. The wines of Geneva have had a number of enthusiasts throughout history: Calvin, Rousseau, Byron, Henry Dunant and many more.\n\nThese high-quality wines are the result of daily efforts and of an unmatched \"savoir-faire\". In 1988, they were awarded the AOC - Appellation d'Origine Contrôlée. Today at the vanguard of Swiss wines, the wines of Geneva offer their richness, their subtle flavours and their harmonious hues.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/9762_Der-Weinanbau-Genfs_1a.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/9762_Der-Weinanbau-Genfs_1a.jpg",
+            "https://images.schweizmobil.ch/image/9762_Der-Weinanbau-Genfs_2b.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "Fondation Genève Tourisme & Congrès",
+        "name_2": null,
+        "street": "Quai du Mont-Blanc 2",
+        "zip": "1201",
+        "place": "Genève",
+        "tel": "+41 (0)22 909 70 00",
+        "fax": null,
+        "email": "info@geneve.com",
+        "url1_link": "https://www.geneve.com",
+        "x_coordinate": 491500.16353225533,
+        "y_coordinate": 120000.3209358525,
+        "change_date": null,
+        "id": 393,
+        "r_key": 393,
+        "type": "Sight",
+        "url_sightseeing": "https://www.geneveterroir.ch/en",
+        "touristic_region": 10,
+        "canton": 22
+    }
+}

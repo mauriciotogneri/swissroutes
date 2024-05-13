@@ -1,0 +1,102 @@
+{
+    "type": "Feature",
+    "id": 720,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                47.42802348717249,
+                8.170303639348266
+            ]
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Mountainbike Park Stone Pit",
+        "abstract": "Experience the ultimate bike fun in the old quarry in Holderbank. Improve your bike technique on 17 different stations.",
+        "description": "From the Bidontransport, to bike limbo through to the banked turn - in the «stone pit»-Park, which was created by the Aargau-based mountain biker Patrick Schärer there's a suitable station for all bike fans to improve their riding technique. You don't need to be a bike pro because the mountain bike park has been designed especially for the grassroots level of the sport and can be tackled by beginners as well as advanced riders of all ages.\n\nThe mountain bike park, which is approximately 3500 square meters in size, is clearly set out, open to the general public and can be used independently at your own risk. Parking is available right next to the Park. The wearing of helmets is mandatory in the «stone pit» mountain bike park!",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/Holderbank_Mountainbike_Park_Stone_Pit_Holzwall.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/Holderbank_Mountainbike_Park_Stone_Pit_Bikerin.jpg",
+            "https://images.schweizmobil.ch/image/Holderbank_Mountainbike_Park_Stone_Pit_Eisenwippe.jpg",
+            "https://images.schweizmobil.ch/image/Holderbank_Mountainbike_Park_Stone_Pit_Holzsteg.jpg",
+            "https://images.schweizmobil.ch/image/Holderbank_Mountainbike_Park_Stone_Pit_Holzwall.jpg",
+            "https://images.schweizmobil.ch/image/Holderbank_Mountainbike_Park_Stone_Pit_Jump_Biker.jpg",
+            "https://images.schweizmobil.ch/image/Holderbank_Mountainbike_Park_Stone_Pit_Kies.jpg",
+            "https://images.schweizmobil.ch/image/Holderbank_Mountainbike_Park_Stone_Pit_Parkansicht.jpg",
+            "https://images.schweizmobil.ch/image/Holderbank_Mountainbike_Park_Stone_Pit_Parkansicht2.jpg",
+            "https://images.schweizmobil.ch/image/Holderbank_Mountainbike_Park_Stone_Pit_Steilsprung.jpg",
+            "https://images.schweizmobil.ch/image/Holderbank_Mountainbike_Park_Stone_Pit_Tisch.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "name": " Mountainbike Park «stone pit»",
+        "name_2": null,
+        "street": "Nüberichstrasse 1",
+        "zip": "5024",
+        "place": "Küttigen",
+        "tel": "+41 (0)79 739 00 11",
+        "fax": null,
+        "email": "info@bike-kurse.ch",
+        "url1_link": "https://www.bikepark-stonepit.ch",
+        "x_coordinate": 655204.6686270641,
+        "y_coordinate": 253282.33122806755,
+        "change_date": null,
+        "id": 720,
+        "r_key": 720,
+        "type": "Sight",
+        "url_sightseeing": "https://www.bikepark-stonepit.ch",
+        "touristic_region": 14,
+        "canton": 13
+    }
+}

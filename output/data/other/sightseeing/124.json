@@ -1,0 +1,62 @@
+{
+    "type": "Feature",
+    "id": 124,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.69819563654253,
+                8.171737303893478
+            ]
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Chaltenbrunnen",
+        "abstract": "The Chaltenbrunnen raised mire is located on a slope terrace above Meiringen. Because it has remained in its original unspoiled state, it is one of the most important mires in the Swiss Alps.",
+        "description": "A unique mire landscape is located on the Wandelalp above Meiringen. The terrace is subdivided by a series of rock outcrops. The Chaltenbrunnen raised mire, which is over 20 hectares in size and was formed on water-impermeable layers of rock, lies on the lowest level of the terrace.\n\nIt was never cut and is therefore in its original state and, for this reason, is one of the most important mires in the Swiss Alps. While an original mountain pine mire forest grows on the edge of the mire, there are no trees in the middle which forms an impressive expanse.\n\nThe mire landscape is used for Alpine grazing. Apart from a few huts on the edge of the mire, however, the area is not spoiled by any other farm buildings.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/37_Chaltenbrunnen-652658-17.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/37_Chaltenbrunnen-652658-17.jpg",
+            "https://images.schweizmobil.ch/image/37_Chaltenbrunnen.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "Bundesamt für Umwelt",
+        "name_2": null,
+        "street": "und Naturdenkmäler von nationaler Bedeutung (BLN)",
+        "zip": "BLN-Objekt-Nr.",
+        "place": "1506",
+        "tel": "-",
+        "fax": null,
+        "email": "bln@bafu.admin.ch",
+        "url1_link": "https://www.bafu.admin.ch/bln",
+        "x_coordinate": 656070.2294432444,
+        "y_coordinate": 172149.94616541883,
+        "change_date": null,
+        "id": 124,
+        "r_key": 124,
+        "type": "Sight",
+        "url_sightseeing": "https://www.bafu.admin.ch/bln",
+        "touristic_region": 6,
+        "canton": 12
+    }
+}

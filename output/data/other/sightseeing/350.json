@@ -1,0 +1,62 @@
+{
+    "type": "Feature",
+    "id": 350,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.611993188285915,
+                9.51177722404396
+            ]
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Ziteil - a place of pilgrimage",
+        "abstract": "The holy pilgrimage site at Ziteil is the highest of its kind in Europe. Pilgrimages to Ziteil (at 2 434 m above sea level) have been recorded as far back as 1580.",
+        "description": "According to legend, a woman dressed in white appeared to an 18 year old girl in Oberhalbstein and said to her: «Go and tell the people of Oberhalbstein that their sinfulness has become intolerable. If they do not reform, God will punish them severely, not only blighting the fruits of the field but allowing the entire people, young and old alike, to die».  When the people started to hold processions, all the withered crops began to grow green again.\n\nSo close to heaven - Ziteil is at 2'433 m above sea level the highest holy site in Europe. The apparition of the Virgin Mary was attested to by historical testimony. Shortly thereafter, a chapel was built. One can understand why this place is so often visited by pilgrims from all over Europe, with the modesty of the surroundings and it being so close to the heavens. There are several ways to reach the site on foot or by bicycle.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/8869_Wallfahrtsort-Ziteil_1a.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/8869_Wallfahrtsort-Ziteil_1a.jpg",
+            "https://images.schweizmobil.ch/image/8869_Wallfahrtsort-Ziteil_2b.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "Tourismus Savognin Bivio Albula AG",
+        "name_2": null,
+        "street": "Stradung 42",
+        "zip": "7460",
+        "place": "Savognin",
+        "tel": "+41 (0)81 659 16 16",
+        "fax": null,
+        "email": "ferien@savognin.ch",
+        "url1_link": "https://www.savognin.ch",
+        "x_coordinate": 758798.0762407605,
+        "y_coordinate": 164402.44385694416,
+        "change_date": null,
+        "id": 350,
+        "r_key": 350,
+        "type": "Sight",
+        "url_sightseeing": "https://www.ziteil.org",
+        "touristic_region": 1,
+        "canton": 2
+    }
+}

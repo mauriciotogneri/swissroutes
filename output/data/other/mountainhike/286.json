@@ -1,0 +1,86 @@
+{
+    "type": "Feature",
+    "id": 286,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                47.1857734090315,
+                9.122813374389825
+            ]
+        ]
+    },
+    "properties": {
+        "id": 286,
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "type": "Mountaineering",
+        "ascent_altitude": 1100,
+        "ascent_time_max": 240,
+        "sac_chm_route": true,
+        "sac_created": "2020-08-12 09:30:47",
+        "descent_altitude": 920,
+        "descent_time_max": 180,
+        "descent_time_min": 120,
+        "sac_orig_id": 1368,
+        "sac_modified": "2020-08-12 09:30:49",
+        "sac_status": "published",
+        "poi_title": "Speer",
+        "abstract": "The bench on the concrete platform on top of Speer is very comfortable. At first the solid handrail of the platform may seem rather overdone, but the view down to Toggenburg from the exposed platform can indeed cause dizziness. If you ascend on the itinerary along the north ridge described here, which is equipped with steel cables, you have time to get used to being exposed. With some luck you may see ibex, stoically watching you ascend. The information boards of the geology trail on the summit tell you that the geology of Speer is something special. The conglomerate rock called Nagelfluh (small stones embedded in sandstone), normally a feature of the Mittelland, reaches up to a record high altitude of almost 2000 m.",
+        "subtitle": "European record in sand and stone",
+        "title": "From Wolzenalp on the north ridge",
+        "sac_type": "mountain_hiking",
+        "mountain_hiking_difficulty": "T5",
+        "alpine_tour_difficulty": null,
+        "alpine_climbing_difficulty": null,
+        "grade": null,
+        "height_climbing_wall": null,
+        "via_ferrata_difficulty": null,
+        "ski_tour_difficulty": null,
+        "mountaineering_sacphoto_ids": [
+            885,
+            886,
+            887
+        ],
+        "sac_poi_id": 1839,
+        "x_coordinate": 727640.4749986447,
+        "y_coordinate": 227461.47335076457,
+        "change_date": "2023-03-30 12:14:14",
+        "sac_photos": [
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 885,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1534161003_1779348565Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1534161003_1779348565master.jpg",
+                "photo_sac_id": 256764,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1534161003_1779348565.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1534161003_1779348565M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1534161003_1779348565Mc.jpg",
+                "title": "Worm’s-eye view of the Speer north ridge"
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 886,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1534161006_985445330Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1534161006_985445330master.jpg",
+                "photo_sac_id": 256766,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1534161006_985445330.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1534161006_985445330M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1534161006_985445330Mc.jpg",
+                "title": "The first steps on the Speer north ridge"
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 887,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1534161005_1152504627Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1534161005_1152504627master.jpg",
+                "photo_sac_id": 256767,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1534161005_1152504627.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1534161005_1152504627M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1534161005_1152504627Mc.jpg",
+                "title": "Alpine hiking on Europe’s highest Nagelfluh summit"
+            }
+        ]
+    }
+}

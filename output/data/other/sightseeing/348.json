@@ -1,0 +1,62 @@
+{
+    "type": "Feature",
+    "id": 348,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.71200379342739,
+                9.770846007182326
+            ]
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "BierVision, Monstein",
+        "abstract": "Last beer stop before heaven - Monstein Brewery opened in 2001 as the highest brewery in Europe and the first show brewery in Graubünden.  Monstein Brewery is located in the former village dairy in the centre of the Walser village of Monstein.",
+        "description": "From crystal clear Davos mountain spring water, Swiss hops and indigenous malt from Gran Alpin amongst other ingredients, a variety of beer specialities is brewed here in innovative tradition.\n\nSince 2004 Monstein distilled beers and whiskey have also been produced here. Other than that, the brewery offers its own specialties such as cheese, meat, bread and chocolate products. It runs beer seminars, brewery seminars and brewery cocktail parties.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/8848_BierVision_Monstein_1a.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/8848_BierVision_Monstein_1a.jpg",
+            "https://images.schweizmobil.ch/image/8848_BierVision_Monstein_2b.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "Destination Davos Klosters",
+        "name_2": null,
+        "street": "Talstrasse 41",
+        "zip": "7270",
+        "place": "Davos Platz",
+        "tel": "+41 (0)81 415 21 21",
+        "fax": null,
+        "email": "info@davos.ch",
+        "url1_link": "https://www.davos.ch",
+        "x_coordinate": 778306.2169588711,
+        "y_coordinate": 176072.47732659988,
+        "change_date": null,
+        "id": 348,
+        "r_key": 348,
+        "type": "Sight",
+        "url_sightseeing": "https://www.biervision-monstein.ch",
+        "touristic_region": 1,
+        "canton": 2
+    }
+}

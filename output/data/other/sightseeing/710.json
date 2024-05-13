@@ -1,0 +1,82 @@
+{
+    "type": "Feature",
+    "id": 710,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                47.35580496562041,
+                8.523778252350036
+            ]
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Bikepark Allmend Zürich",
+        "abstract": "On an extensive 5500 square-meter area, the Bikepark Allmend has different tracks with three levels of difficulty, namely blue, red and black. The facility is open to all the public, hence uniting pros with novices and there's even a special track for small kids.",
+        "description": "It combines the Urban-BMX, Jumptrack and Pumptrack worlds – with even toddlers able to test their skills on an easy track at around two years of age. And a Pumptrack with forty- centimeter-high waves and steeply walled bends stands at the ready for bigger fans with little experience. \n\nIntermediate and advanced enthusiasts may well opt for the Jumptrack with several consecutive jumps, or the Bowls – three deep craters, each of which 2.8 meters deep. Of medium difficulty is the 180 meter-long stretch for Urban-BMX fans: as many as four sportive spirits can test their ability here from the four-meter-high hill start, followed by a number of waves along the round trip. And a starting gate makes for real-contest atmosphere! Diverse areas of the bike park are also combinable depending on your mood of the day and, in any event, variety is a sure thing! \n\nThe over 1000-meter surface area is stable and the entire park drained, meaning you can enjoy riding even by rain. The park is open between the hours 8 a.m. until 9 p. m.\nConcerning the BMX, mountain bikes and children's bikes, saddles should be adjustable (low) and the tyres well pumped up. Toilets and lockers (bring your own padlock) are available on the neighbouring area of the Freestyle Park.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/pumptrack_sihlcity_104.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/pumptrack_sihlcity_104.jpg",
+            "https://images.schweizmobil.ch/image/pumptrack_sihlcity_125_ausschnitt.jpg",
+            "https://images.schweizmobil.ch/image/pumptrack_sihlcity_110.jpg",
+            "https://images.schweizmobil.ch/image/pumptrack_sihlcity_122.jpg",
+            "https://images.schweizmobil.ch/image/pumptrack_sihlcity_119.jpg",
+            "https://images.schweizmobil.ch/image/pumptrack_sihlcity_125.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "name": "Sportamt Stadt Zürich",
+        "name_2": null,
+        "street": "Tödistrasse 48",
+        "zip": "8027",
+        "place": "Zürich",
+        "tel": "+41 (0)44 413 93 93",
+        "fax": null,
+        "email": " ",
+        "url1_link": "https://www.stadt-zuerich.ch",
+        "x_coordinate": 681983.8471276648,
+        "y_coordinate": 245562.16953266566,
+        "change_date": null,
+        "id": 710,
+        "r_key": 710,
+        "type": "Sight",
+        "url_sightseeing": "https://www.stadt-zuerich.ch/ssd/de/index/sport/sportanlagen/freestyle-und-bikeanlagen/bike-park-allmend.html",
+        "touristic_region": 3,
+        "canton": 3
+    }
+}

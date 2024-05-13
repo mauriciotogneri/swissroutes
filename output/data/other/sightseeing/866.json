@@ -1,0 +1,67 @@
+{
+    "type": "Feature",
+    "id": 866,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.01729118387001,
+                7.770173014895993
+            ]
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Sunnegga-Trail",
+        "abstract": "A glance up to the impressive Matterhorn and then a descent over 500 metres difference in altitude down to Zermatt. With its length of six kilometres, the Sunegga trail is one of the longest continuous flow trails in Switzerland. It is easy and smooth to ride, featuring wide curves and a flat surface.",
+        "description": "The starting point of the Sunegga trail is easily reached by funicular from Zermatt to Sunegga. Here, at more than 2,200 m.a.s.l., the Matterhorn seems almost at eye level. One look up at the probably most famous mountain in Europe, and the exciting descent through the forest can begin. \n\nWith its easy level of difficulty, the trail is ideally suited for beginners or also for e-mountain bikes. It is characterised by a flat surface without large stones, roots or tight hairpin bends. Nevertheless, you will never get bored. Wide, nicely built steep-wall curves, loose waves and tables provide lots of fun and a good opportunity to train one’s sense of balance. The trail first winds its way along the ski slope and later dives into the forest, where it becomes exciting once again.\n\nThe trail is suitable both as a tour finale and for multiple descents. The descent takes around 30 minutes, depending on one’s ability, and ends just above Zermatt. You return to the village on the asphalt road.\n\n\nLength: 6.3 km",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/VS_Sunegga_Trail_Zermatt_1_M.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/VS_Sunegga_Trail_Zermatt_1_s.jpg",
+            "https://images.schweizmobil.ch/image/VS_Sunegga_Trail_Zermatt_2_s.jpg",
+            "https://images.schweizmobil.ch/image/VS_Sunegga_Trail_Zermatt_3_s.jpg"
+        ],
+        "photo_gallery_big": [
+            "https://images.schweizmobil.ch/image-big/VS_Sunegga_Trail_Zermatt_1_g.jpg",
+            "https://images.schweizmobil.ch/image-big/VS_Sunegga_Trail_Zermatt_2_g.jpg",
+            "https://images.schweizmobil.ch/image-big/VS_Sunegga_Trail_Zermatt_3_g.jpg"
+        ],
+        "photo_gallery_copyright": [
+            "PASCAL GERTSCHEN",
+            "PASCAL GERTSCHEN",
+            "PASCAL GERTSCHEN"
+        ],
+        "photo_gallery_author": [
+            "PASCAL GERTSCHEN",
+            "PASCAL GERTSCHEN",
+            "PASCAL GERTSCHEN"
+        ],
+        "photo_gallery_abstract": [
+            "",
+            "",
+            ""
+        ],
+        "name": "Zermatt Tourismus",
+        "name_2": null,
+        "street": "Bahnhofplatz 5",
+        "zip": "3920",
+        "place": "Zermatt",
+        "tel": "+41 (0)27 966 81 00",
+        "fax": null,
+        "email": "info@zermatt.ch",
+        "url1_link": "https://www.zermatt.ch ",
+        "x_coordinate": 625677.0460092949,
+        "y_coordinate": 96248.57039131258,
+        "change_date": null,
+        "id": 866,
+        "r_key": 866,
+        "type": "Sight",
+        "url_sightseeing": "https://www.valais.ch/en/activities/mountain-bike/flowtrails",
+        "touristic_region": 11,
+        "canton": 7
+    }
+}

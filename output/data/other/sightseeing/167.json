@@ -1,0 +1,72 @@
+{
+    "type": "Feature",
+    "id": 167,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.104930500390736,
+                7.929323813083808
+            ]
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Toboggan/bobsleigh run Feeblitz",
+        "abstract": "A steep lift takes you up to one of the highest roller-coasters in the Alps - a fun park that blends in beautifully with the countryside and promises fun and excitement for the whole family.",
+        "description": "Take a deep breath and off you go! Just after setting off, you will find yourself literally going in circles. At 9 m high, Switzerland's only 360-degree loop will give you your first kick - to be followed by others like it when the bob hurtles into the notorious «jump bends». The 900-m-long run ends with three crazy jumps.\n\nYou ride with a partner or alone on the steep toboggan lift up to the highest «roller-coaster» in the Alps, and then you ride back down at speeds of up to 40 kph! The experience of a lifetime in the Pearl of the Alps. The toboggan run is open in summer and winter, and offers lots of fun for young and old alike. The Feeblitz is the perfect end of an exciting day.\n\nFOTOPIC: You drive - we take pictures!\nWe take a souvenir photo of you. Children younger than 8 years need to be accompanied by an adult.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image-big/Rodelbahn_Feeblitz-5_g.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/Rodelbahn_Feeblitz-3_s.jpg",
+            "https://images.schweizmobil.ch/image/Rodelbahn_Feeblitz-4_s.jpg",
+            "https://images.schweizmobil.ch/image/Rodelbahn_Feeblitz-5_s.jpg",
+            "https://images.schweizmobil.ch/image/Rodelbahn_Feeblitz-1_s.jpg"
+        ],
+        "photo_gallery_big": [
+            "https://images.schweizmobil.ch/image-big/Rodelbahn_Feeblitz-3_g.jpg",
+            "https://images.schweizmobil.ch/image-big/Rodelbahn_Feeblitz-4_g.jpg",
+            "https://images.schweizmobil.ch/image-big/Rodelbahn_Feeblitz-5_g.jpg",
+            "https://images.schweizmobil.ch/image-big/Rodelbahn_Feeblitz-1_g.jpg"
+        ],
+        "photo_gallery_copyright": [
+            "Saastal Tpurismus AG/Puzzle Media",
+            "Saastal Tpurismus AG/Puzzle Media",
+            "Saastal Tpurismus AG/Puzzle Media",
+            "Saastal Tpurismus AG/Puzzle Media"
+        ],
+        "photo_gallery_author": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "name": "Saastal Tourismus AG",
+        "name_2": null,
+        "street": "Obere Dorfstrasse 2",
+        "zip": "3906",
+        "place": "Saas-Fee",
+        "tel": "+41 (0)27 958 18 58",
+        "fax": null,
+        "email": "info@saas-fee.com",
+        "url1_link": "https://www.saas-fee.ch",
+        "x_coordinate": 637942.179013518,
+        "y_coordinate": 106055.53081853416,
+        "change_date": null,
+        "id": 167,
+        "r_key": 167,
+        "type": "Sight",
+        "url_sightseeing": "https://www.saas-fee.ch/feeblitz",
+        "touristic_region": 11,
+        "canton": 7
+    }
+}

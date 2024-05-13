@@ -1,0 +1,62 @@
+{
+    "type": "Feature",
+    "id": 562,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.325665301437354,
+                7.1245172912056045
+            ]
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Gypsum pyramids",
+        "abstract": "Discover the breathtaking gypsum pyramids near Col de la Croix, which links Villars to Les Diablerets. Wind and water have eroded these sedimentary geological structures over time and shaped them into impressive, pointed pyramids.",
+        "description": "Discover the majestic gypsum pyramids hidden in a preserved environment near Col de la Croix, which is located at an altitude of 1,778 metres and which links Villars-sur-Ollon to Les Diablerets. These pyramids, geological karst formations created by erosion, are the witness of the particularly exceptional history of the entire massif. A hike in this region may also tempt you to access, on well-laid out paths, the traditional Alpine meadows at Col de la Croix, at Taveyanne or at Ensex, three villages still living to the beat of the seasons.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/8355_Gipspyramiden_1a.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/8355_Gipspyramiden_1a.jpg",
+            "https://images.schweizmobil.ch/image/8355_Gipspyramiden_2b.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "Villars Tourisme",
+        "name_2": null,
+        "street": "Avenue Centrale 140",
+        "zip": "1884",
+        "place": "Villars-sur-Ollon",
+        "tel": "+41 (0)24 495 32 32",
+        "fax": null,
+        "email": "information@villars.ch",
+        "url1_link": "https://www.villarsgryon.ch",
+        "x_coordinate": 575809.3314646143,
+        "y_coordinate": 130523.57242705014,
+        "change_date": null,
+        "id": 562,
+        "r_key": 562,
+        "type": "Sight",
+        "url_sightseeing": "https://www.villars-diablerets.ch/fr/P9213/pyramides-de-gypse",
+        "touristic_region": 9,
+        "canton": 27
+    }
+}

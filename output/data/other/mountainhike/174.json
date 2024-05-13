@@ -1,0 +1,74 @@
+{
+    "type": "Feature",
+    "id": 174,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.45157378052092,
+                8.392952899665774
+            ]
+        ]
+    },
+    "properties": {
+        "id": 174,
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "type": "Mountaineering",
+        "ascent_altitude": 750,
+        "ascent_time_max": 120,
+        "sac_chm_route": true,
+        "sac_created": "2020-05-04 13:36:54",
+        "descent_altitude": 750,
+        "descent_time_max": 120,
+        "descent_time_min": null,
+        "sac_orig_id": 911,
+        "sac_modified": "2020-05-04 13:36:56",
+        "sac_status": "published",
+        "poi_title": "Corno Gries / Grieshorn",
+        "abstract": "The trails mostly unmarked and for long stretches lonesome and secluded: the tour from the north to Grieshorn is ideal for lovers of barren landscapes and stone deserts. Also worth remembering is the view of the big Griesgletscher, the beautifully formed summits of the Blinnenhorn range and the many lakes, some of them natural, some artificial. That the schistous and gravelly ground you hike on sometimes runs away under your feet needs to be taken as a challenge.",
+        "subtitle": "A lot more than gravel and grit",
+        "title": "Normal route from Capanna Corno-Gries, descent westward",
+        "sac_type": "mountain_hiking",
+        "mountain_hiking_difficulty": "T4+",
+        "alpine_tour_difficulty": null,
+        "alpine_climbing_difficulty": null,
+        "grade": null,
+        "height_climbing_wall": null,
+        "via_ferrata_difficulty": null,
+        "ski_tour_difficulty": null,
+        "mountaineering_sacphoto_ids": [
+            530,
+            531
+        ],
+        "sac_poi_id": 837,
+        "x_coordinate": 673322.5303051425,
+        "y_coordinate": 144917.0138830123,
+        "change_date": "2023-03-30 12:14:03",
+        "sac_photos": [
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 530,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1513790899_169290318Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1513790899_169290318master.jpg",
+                "photo_sac_id": 248245,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1513790899_169290318.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1513790899_169290318M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1513790899_169290318Mc.jpg",
+                "title": "The scree terrain formerly covered by a glacier between P. 2480 and the saddle"
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 531,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1513790663_1332975035Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1513790663_1332975035master.jpg",
+                "photo_sac_id": 248243,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1513790663_1332975035.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1513790663_1332975035M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1513790663_1332975035Mc.jpg",
+                "title": "Corno Gries or Grieshorn, seen from the west (on the ascent to its little brother, Klein Grieshorn). The main summit is the one in the background. At the lower edge of the photo is the saddle between the two Grieshörner as well as the faint path leading slightly ascending through the south face."
+            }
+        ]
+    }
+}

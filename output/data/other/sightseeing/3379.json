@@ -1,0 +1,62 @@
+{
+    "type": "Feature",
+    "id": 3379,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.37768042178408,
+                7.6256048705926265
+            ]
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "The largest alpine thermal spa in Europ Leukerbad",
+        "abstract": "Not less than 10 pools with warm water of varying temperatures, with water jets and bubbles comprise the largest Alpine thermal water resort in Europe.",
+        "description": "The largest alpine thermal spa in Europe.\nSpoil yourself in the 10 thermal baths (from 28°C to 43°C) and treat yourself to the wide range of spa facilities at the Burgerbad Therme in Leukerbad (1,400 m above sea level).\n\nEnjoy the rejuvenating thermal water, rich in minerals, from our private springs in the midst of an impressive mountain world. Waterfall showers, massage jets, whirlpools and a natural rock grotto offer superb relaxation and an unforgettable natural bathing experience whatever the weather. Look forward to discovering a wide choice of spa treatments and massages in the spa zone.\n\nThe 25 m sports pool, a children’s play pool and Switzerland’s first Xtube tyre slide with banked corners provide ideal surroundings for daredevils and active sports enthusiasts.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/8185_Europas-groesstes-Alpin-Thermalbad_1a.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/8185_Europas-groesstes-Alpin-Thermalbad_2b.jpg",
+            "https://images.schweizmobil.ch/image/8185_Europas-groesstes-Alpin-Thermalbad_1a.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "Leukerbad Therme",
+        "name_2": null,
+        "street": "Rathausstrasse 32",
+        "zip": "3954",
+        "place": "Leukerbad",
+        "tel": "+41 (0)27 472 20 20",
+        "fax": null,
+        "email": "info@leukerbad.ch",
+        "url1_link": "https://www.leukerbad-therme.ch/",
+        "x_coordinate": 614385.0857111953,
+        "y_coordinate": 136274.6166371884,
+        "change_date": null,
+        "id": 3379,
+        "r_key": 3379,
+        "type": "Sight",
+        "url_sightseeing": "https://www.leukerbad-therme.ch",
+        "touristic_region": 11,
+        "canton": 7
+    }
+}

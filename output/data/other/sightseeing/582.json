@@ -1,0 +1,62 @@
+{
+    "type": "Feature",
+    "id": 582,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.6095008845038,
+                9.584113048236093
+            ]
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Riom Castle",
+        "abstract": "In the summer of 2006, the first professional theatre for Romansch cultural history was opened in Riom Castle, a fortress on the Julier Route that will soon be 800 years old.",
+        "description": "The theatre infrastructure was integrated into the listed structure as an independent «building within a building», and has place for 220 spectators. It has become one of the most original theatrical spaces in the Alps.\n\nRiom Castle was built by the Barons of Wangen from Südtirol shortly after 1227. From 1258 onwards it was the seat of the bishop-bailiff. For a long time it was the meeting place of the cantonal government and has only fallen into disuse since the 19th century. The castle, with its square, three-storeyed great hall and a relatively narrow tower with a tent roof, recalls the silhouette of a church castle. It provides a home for the highest colony of jackdaws in the Alps.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/7957_Burg-Riom_1a.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/7957_Burg-Riom_1a.jpg",
+            "https://images.schweizmobil.ch/image/7957_Burg-Riom_2b.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "Tourismus Savognin Bivio Albula AG",
+        "name_2": null,
+        "street": "Stradung 42",
+        "zip": "7460",
+        "place": "Savognin",
+        "tel": "+41 (0)81 659 16 16",
+        "fax": null,
+        "email": "ferien@savognin.ch",
+        "url1_link": "https://savognin.graubuenden.ch",
+        "x_coordinate": 764345.3634340353,
+        "y_coordinate": 164274.73851418498,
+        "change_date": null,
+        "id": 582,
+        "r_key": 582,
+        "type": "Sight",
+        "url_sightseeing": "http://www.origen.ch/Burg-Riom.940.0.html?&L=0",
+        "touristic_region": 1,
+        "canton": 2
+    }
+}

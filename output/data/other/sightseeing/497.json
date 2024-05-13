@@ -1,0 +1,62 @@
+{
+    "type": "Feature",
+    "id": 497,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                47.223163410567935,
+                7.547019831916007
+            ]
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Waldegg Castle",
+        "abstract": "Just in front of the gates to Solothurn, the castle of Waldegg is located in a beautiful spot with baroque garden and marvellous panorama view. As one of the many aristocratic country estates in Solothurn, it's however the most representative and spacious.",
+        "description": "The 78 meter-long facade is an extraordinary and most impressive aspect from a Swiss point of view – and Waldegg castle was built between 1682 and 1686 as a summer residence for Johann Viktor I of Besenval. The castle and premises today represent one of Switzerland's most fascinating estates. The splendour and charisma of the Waldegg castle is matchless throughout the country; with a shrewd mix of French and Italian stylistic elements blended with the strict architecture of a typical Solothurn castle manor.\n\nBetween 1985 and 1991 the castle was renovated and today, first and foremost, portrays the aristocratic lifestyle pertaining to the 18th century. The exhibition focuses on the construction history of the castle, together with the family history of the Besenvals and the French Ambassadors in Solothurn.\n\nSince 1963 the castle is under ownership of the canton of Solothurn and is a popular meeting centre for people from all walks of life, cultures and languages.  Besides concerts, theatre performances and other cultural events, congresses and seminars also take place in this enchanting environment.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/8041_Schloss-Waldegg_1a.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/8041_Schloss-Waldegg_1a.jpg",
+            "https://images.schweizmobil.ch/image/8041_Schloss-Waldegg_2b.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "Schloss Waldegg",
+        "name_2": null,
+        "street": "Waldeggstrasse 1",
+        "zip": "4532",
+        "place": "Feldbrunnen-St. Niklaus",
+        "tel": "+41 (0)32 627 63 63",
+        "fax": null,
+        "email": "info@schloss-waldegg.ch",
+        "url1_link": "https://www.schloss-waldegg.ch",
+        "x_coordinate": 608209.6583715057,
+        "y_coordinate": 230254.55144141588,
+        "change_date": null,
+        "id": 497,
+        "r_key": 497,
+        "type": "Sight",
+        "url_sightseeing": "https://www.schloss-waldegg.ch",
+        "touristic_region": 8,
+        "canton": 16
+    }
+}

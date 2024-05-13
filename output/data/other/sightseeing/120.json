@@ -1,0 +1,62 @@
+{
+    "type": "Feature",
+    "id": 120,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.25191511973102,
+                7.110548850846867
+            ]
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Natural treasures in the Vallon de Nant",
+        "abstract": "The Col de la Croix pass connects Les Diablerets with Box in the Chablais region. There is a road leading from Bex to the untamed Vallon de Nant. The treasures of this secluded valley include a remarkable variety of flora and fauna.",
+        "description": "The Col de la Croix is a pass in the Alpine foothills which connects Les Diablerets with Bex in the Chablais region. Gypsum pyramids have formed close to the level of the pass. A road leads from Bex to the untamed and secluded Vallon de Nant. The valley runs in a north-south direction along the Grand Muveran and is terminated by the Dents de Morcles. These limestone mountains are almost 3,000 metres high. Considering its small size, the valley has an enormous variety of flora. The Alpine garden of Le Pont de Nant provides an impression of this variety. The fauna is also very varied and the bird species are particularly worthy of mention.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/33_VallondeNant4-574738-122.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/33_VallondeNant4-574738-122.jpg",
+            "https://images.schweizmobil.ch/image/33_Vallon-de-Nant.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "Bundesamt für Umwelt",
+        "name_2": null,
+        "street": "und Naturdenkmäler von nationaler Bedeutung (BLN)",
+        "zip": "BLN-Objekt-Nr.",
+        "place": "1503",
+        "tel": "-",
+        "fax": null,
+        "email": "bln@bafu.admin.ch",
+        "url1_link": "https://www.bafu.admin.ch/bln",
+        "x_coordinate": 574699.8370117396,
+        "y_coordinate": 122329.62262034831,
+        "change_date": null,
+        "id": 120,
+        "r_key": 120,
+        "type": "Sight",
+        "url_sightseeing": "https://www.bafu.admin.ch/bln",
+        "touristic_region": 9,
+        "canton": 27
+    }
+}

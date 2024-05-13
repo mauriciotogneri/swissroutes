@@ -1,0 +1,67 @@
+{
+    "type": "Feature",
+    "id": 783,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.778947944165445,
+                8.387316555675373
+            ]
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Trudy Trail",
+        "abstract": "The Trudy Trail is named after Trudy Gabriel, the warden at Bärghuis Jochpass. This challenging route on the upper part of the Jochpass is ideal for experienced downhill riders as it has several difficult sections, steep banked curves, and challenging obstacles.",
+        "description": "There are two ways to get to the start of the trail. The more relaxed variant is to take the Titlis Xpress from Engelberg to the Trübsee mountain station, and to cycle for five minutes along the shore of the Trübsee lake to the valley station of the Jochpass chairlift. You can travel up quickly and conveniently on the lift. If this seems too easy, you can cycle up to Trübsee from Engelberg via Untertrübsee and then on to the valley station of the Jochpass chairlift. The lift will take you up to the start of the trail.\n\nWith its tough sections, steep banked curves, and challenging jumps, the Trudy Trail is ideal for fearless downhill riders. After well over one kilometer, this challenging single trail joins the lower section of the Jochpass Trail, which leads downhill to Lake Trüb. \n\nWhen you reach the bottom, the chairlift will take you back up to the top. Before too long, you’ll probably want a break. Thankfully, the Bärghuis Jochpass team are on hand right at the start of the Trudy Trail to keep hunger and thirst at bay. Rest here awhile and enjoy!",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image-big/Trudy_Trail_200909_Bike_Trudytrail_28_g.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/Trudy_Trail_200909_Bike_Trudytrail_28_s.jpg",
+            "https://images.schweizmobil.ch/image/Trudy_Trail_200909_Bike_Trudytrail_38_s.jpg",
+            "https://images.schweizmobil.ch/image/Trudy_Trail_200909_Bike_Trudytrail_86_s.jpg"
+        ],
+        "photo_gallery_big": [
+            "https://images.schweizmobil.ch/image-big/Trudy_Trail_200909_Bike_Trudytrail_28_g.jpg",
+            "https://images.schweizmobil.ch/image-big/Trudy_Trail_200909_Bike_Trudytrail_38_g.jpg",
+            "https://images.schweizmobil.ch/image-big/Trudy_Trail_200909_Bike_Trudytrail_86_g.jpg"
+        ],
+        "photo_gallery_copyright": [
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            "",
+            ""
+        ],
+        "name": "Engelberg-Titlis Tourismus",
+        "name_2": null,
+        "street": "Klosterstrasse 3",
+        "zip": "6391",
+        "place": "Engelberg",
+        "tel": "+41 (0)41 639 77 77",
+        "fax": null,
+        "email": "welcome@engelberg.ch",
+        "url1_link": "https://www.engelberg.ch",
+        "x_coordinate": 672449.2996379137,
+        "y_coordinate": 181302.69474689564,
+        "change_date": null,
+        "id": 783,
+        "r_key": 783,
+        "type": "Sight",
+        "url_sightseeing": "https://www.engelberg.ch/en/summer/bike/bike-trails/?oid=25033806",
+        "touristic_region": 4,
+        "canton": 10
+    }
+}

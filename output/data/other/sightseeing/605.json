@@ -1,0 +1,57 @@
+{
+    "type": "Feature",
+    "id": 605,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.52782926688573,
+                8.627459746542943
+            ]
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Airolo, Ressiga–Madrano",
+        "abstract": "When a mule track was built through the Stalvedro-Schlucht (gorge) at the beginning of the 17th century, the mule track a little to the north lost its importance as a transit route to the Gotthardpass. Today, the track, which is lined by drystone walling, is a hiking path.",
+        "description": "The section from Madrano to Ressiga is part of a mule track leading beneath Madrano towards the rushing waters of the Garegna. Dominated by the Stalvedro-Schlucht (gorge), a fortress that also served as an inn once stood at Motto Caslascio. It is known that this already lay in ruins in 1282. The fort was rebuilt and was used as a dwelling place. Only a few vestiges of the walls now remain.\n\nBetween Madrano and Ressiga, the slightly uphill path climbs 140 metres. It is paved with irregular stones, around two metres wide and sometimes flanked by drystone walls. Brugnasco and Madrano are also linked by a mule track with a few parts surfaced with asphalt. Finds from a Roman graveyard dating from 200-300 AD indicate that a trade in crystal took place in the region, with the crystal most likely used in the glass factory on Murano.\n\nNear the village of Brugnasco is an overgrown mule track up to one-and-a-half metres wide. On the valley side, the track is supported by an approximately one-metre-high drystone wall, on the mountain side accompanied by short sections of low wall. The in parts steep path leads up towards Pasquei, bordered by natural rock embankments and drystone walls as far as Madrano.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/IVS_02_04_Medrano.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/IVS_02_04_Medrano.jpg"
+        ],
+        "photo_gallery_big": [
+            ""
+        ],
+        "photo_gallery_copyright": [
+            ""
+        ],
+        "photo_gallery_author": [
+            ""
+        ],
+        "photo_gallery_abstract": [
+            ""
+        ],
+        "name": "Bundesinventar der historischen Verkehrswege der Schweiz (IVS)",
+        "name_2": null,
+        "street": " ",
+        "zip": " ",
+        "place": " ",
+        "tel": "  ",
+        "fax": null,
+        "email": " ",
+        "url1_link": "https://www.ivs.admin.ch",
+        "x_coordinate": 691210.0169381779,
+        "y_coordinate": 153639.53859952904,
+        "change_date": null,
+        "id": 605,
+        "r_key": 605,
+        "type": "Sight",
+        "url_sightseeing": "https://s.geo.admin.ch/6fb151b4ab",
+        "touristic_region": 12,
+        "canton": 19
+    }
+}

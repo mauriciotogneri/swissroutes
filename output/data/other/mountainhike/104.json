@@ -1,0 +1,74 @@
+{
+    "type": "Feature",
+    "id": 104,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.52645899635698,
+                7.422554391465372
+            ]
+        ]
+    },
+    "properties": {
+        "id": 104,
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "type": "Mountaineering",
+        "ascent_altitude": 1550,
+        "ascent_time_max": 165,
+        "sac_chm_route": true,
+        "sac_created": "2019-08-27 11:04:51",
+        "descent_altitude": 1510,
+        "descent_time_max": 210,
+        "descent_time_min": null,
+        "sac_orig_id": 613,
+        "sac_modified": "2019-08-27 11:04:54",
+        "sac_status": "published",
+        "poi_title": "Gandhore",
+        "abstract": "Many summits' names nobody knows, never make it into a tour guide and are climbed rather accidentally, although they stand in an attractive landscape, have interesting routes on ridges and on faces and are simply beautiful peaks. Gyrshubel and Gandhore are among those mountains which deserve to be visited more often.",
+        "subtitle": "An unobtrusive, unknown summit, but an absolute must",
+        "title": "Western ridge (from Gyrshubel)",
+        "sac_type": "mountain_hiking",
+        "mountain_hiking_difficulty": "T4",
+        "alpine_tour_difficulty": null,
+        "alpine_climbing_difficulty": null,
+        "grade": null,
+        "height_climbing_wall": null,
+        "via_ferrata_difficulty": null,
+        "ski_tour_difficulty": null,
+        "mountaineering_sacphoto_ids": [
+            361,
+            362
+        ],
+        "sac_poi_id": 742,
+        "x_coordinate": 598766.2246568653,
+        "y_coordinate": 152796.9449481257,
+        "change_date": "2023-03-30 12:13:57",
+        "sac_photos": [
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 361,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1528382079_130950786Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1528382079_130950786master.jpg",
+                "photo_sac_id": 247436,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1528382079_130950786.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1528382079_130950786M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1528382079_130950786Mc.jpg",
+                "title": "View across the ridge from Gyrshubel to Gandhore"
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 362,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1511875516_1877099723Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1511875516_1877099723master.jpg",
+                "photo_sac_id": 247437,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1511875516_1877099723.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1511875516_1877099723M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1511875516_1877099723Mc.jpg",
+                "title": "The exposed last part of the ridge to Gandhore. In the centre you see Giferspitz and on the left Wildhorn."
+            }
+        ]
+    }
+}

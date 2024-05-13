@@ -1,0 +1,62 @@
+{
+    "type": "Feature",
+    "id": 28,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.315009784613665,
+                6.976201066667101
+            ]
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Castle of Aigle",
+        "abstract": "The imposing castle of Aigle rises out of the vineyards in the heart of the Lake Geneva Chablais Region. Built around the end of the 12th century by the Saillon family on behalf of the House of Savoy, the castle protected Aigle, controlled the Rhone valley and the access to Pays-d'Enhaut.",
+        "description": "The Bernese occupiers took it over in 1475 and gave it its current form. When the Lake Geneva Region obtained its independence in 1798, the castle was used as a hospital, prison and court. It has been carefully renovated since the Seventies.\n\nOn the initiative of Confrèrie du Guillon, Aigle Castle, which housed the Confederates' cellars, became the Museum of Vine, Wine and Labels in 1971. It preserves the winegrowing heritage of the Lake Geneva Region and describes the production of wine in the Lake Geneva Region, in Switzerland and in the neighbouring countries. There is also a collection of wine bottle labels from 52 countries from the beginning of the 19th century to 1960.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/7963_Schloss-von-Aigle_1a.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/7963_Schloss-von-Aigle_1a.jpg",
+            "https://images.schweizmobil.ch/image/7963_Schloss-von-Aigle_2b.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "Château d'Aigle",
+        "name_2": null,
+        "street": "Place du Château 1",
+        "zip": "1860",
+        "place": "Aigle",
+        "tel": "+41 (0)24 466 21 30",
+        "fax": null,
+        "email": "info@chateauaigle.ch",
+        "url1_link": "https://www.chateauaigle.ch ",
+        "x_coordinate": 564380.7080414086,
+        "y_coordinate": 129395.27401752381,
+        "change_date": null,
+        "id": 28,
+        "r_key": 28,
+        "type": "Sight",
+        "url_sightseeing": "http://www.chateauaigle.ch/",
+        "touristic_region": 9,
+        "canton": 27
+    }
+}

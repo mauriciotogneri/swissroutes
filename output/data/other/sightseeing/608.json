@@ -1,0 +1,62 @@
+{
+    "type": "Feature",
+    "id": 608,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.42549264548746,
+                6.099587334912456
+            ]
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "La vetta della Dôle",
+        "abstract": "On top you La Dôle, you'll be astounded by the panorama unfolding before your eyes. J.-W. Goethe passed by there on 26 October 1779 on his way to Geneva. He is quoted as saying: «There are no words to describe the grandeur and the beauty of this spectacle.»",
+        "description": "The summit of La Dôle is at 1,677 metres and is a focal point of the Jurassic countryside. It is an outstanding feature throughout the western part of Lake Geneva and visible from Geneva and the coast.\n\nFor fans of fauna, the culminating experience of this hike may be to watch out for groups of chamois that prance around on the slopes of  La Dôle. Technology enthusiasts may be surprised by the dimensions and the materials used for the rounded rooftop of La Dôle, an observatory serving as a meteorological station and as an air traffic control tower for Geneva International Airport.\n\nLa Dôle touches on the French border and offers an unrestricted view of, on the one side, the Alps, Lake Geneva and the fountain in Geneva and, on the other, of the Jura mountains and, further away, Lake des Rousses. You can also catch a glimpse of Mont-Blanc during a well-deserved break.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/8095_Der-Berg_La-Dole_1a.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/8095_Der-Berg_La-Dole_1a.jpg",
+            "https://images.schweizmobil.ch/image/8095_Der-Berg_La-Dole_2b.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "Office du tourisme de St-Cergue",
+        "name_2": null,
+        "street": "Place Sy-Vieuxville 3",
+        "zip": "1264",
+        "place": "St-Cergue",
+        "tel": "+41 (0)22 360 13 14",
+        "fax": null,
+        "email": "info@st-cergue-tourisme.ch",
+        "url1_link": "https://www.st-cergue-tourisme.ch ",
+        "x_coordinate": 497071.262941587,
+        "y_coordinate": 142450.44257505416,
+        "change_date": null,
+        "id": 608,
+        "r_key": 608,
+        "type": "Sight",
+        "url_sightseeing": null,
+        "touristic_region": 9,
+        "canton": 27
+    }
+}

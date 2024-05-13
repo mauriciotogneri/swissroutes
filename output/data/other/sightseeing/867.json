@@ -1,0 +1,77 @@
+{
+    "type": "Feature",
+    "id": 867,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.17628830935369,
+                6.868328533928546
+            ]
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Pumptrack Champéry",
+        "abstract": "The Champéry pump track is full of rollers and turns. They were designed by former professional mountain biker Ben Walker with much finesse and know-how. ",
+        "description": "This pump track is more about ambitious goals than others: just like the Champéry-Morgins bike park, it was designed by the internationally renowned bike professional Ben Walker and his team. Whether simply for fun, or to prepare for the numerous downhill trails, the pump track at the foot of the bike park is available to take a few practice laps. \n\nThe excavated gravel bumps and the banked turns are perfect to hone your technique or to practice your coordination on two wheels.\n\nThe Champéry pump track is located in the centre of the village. It is suitable for both beginners and experts – speed and jump height can be individually controlled. \n\n\nSurface: Dirt \nSurface area: 600 m2",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image-big/VS_Pumptrack_Champery_2_g.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/VS_Pumptrack_Champery_1_s.jpg",
+            "https://images.schweizmobil.ch/image/VS_Pumptrack_Champery_2_s.jpg",
+            "https://images.schweizmobil.ch/image/VS_Pumptrack_Champery_3_s.jpg",
+            "https://images.schweizmobil.ch/image/VS_Pumptrack_Champery_4_s.jpg",
+            "https://images.schweizmobil.ch/image/VS_Pumptrack_Champery_5_s.jpg"
+        ],
+        "photo_gallery_big": [
+            "https://images.schweizmobil.ch/image-big/VS_Pumptrack_Champery_1_g.jpg",
+            "https://images.schweizmobil.ch/image-big/VS_Pumptrack_Champery_2_g.jpg",
+            "https://images.schweizmobil.ch/image-big/VS_Pumptrack_Champery_3_g.jpg",
+            "https://images.schweizmobil.ch/image-big/VS_Pumptrack_Champery_4_g.jpg",
+            "https://images.schweizmobil.ch/image-big/VS_Pumptrack_Champery_5_g.jpg"
+        ],
+        "photo_gallery_copyright": [
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "Niels Ebel",
+            "",
+            "Niels Ebel",
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "name": "Office du Tourisme de Champéry",
+        "name_2": null,
+        "street": "Rue du Village 85",
+        "zip": "1874",
+        "place": "Champéry",
+        "tel": "+41 (0)24 479 05 50",
+        "fax": null,
+        "email": "champery@rddm.ch",
+        "url1_link": "https://www.regiondentsdumidi.ch   ",
+        "x_coordinate": 555959.5343862069,
+        "y_coordinate": 114029.64094697814,
+        "change_date": null,
+        "id": 867,
+        "r_key": 867,
+        "type": "Sight",
+        "url_sightseeing": "https://www.valais.ch/en/activities/mountain-bike/pumptracks",
+        "touristic_region": 11,
+        "canton": 7
+    }
+}

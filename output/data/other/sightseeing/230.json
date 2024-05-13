@@ -1,0 +1,82 @@
+{
+    "type": "Feature",
+    "id": 230,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.993632492699746,
+                8.062391375293855
+            ]
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Adventure Energy in Entlebuch",
+        "abstract": "Get on the way and surprise yourself by the energetic variety of information of the six energy-plattforms. Guided by an expert or on your own, on foot, by bus or by fancy E-bike, there are no limits to enjoy the future of sustainable energy production.",
+        "description": "Entlebuch uses a unique diversity in energy resources - gas, peat, water, wood, sunlight and soil heat. On the energy nature trail these resources can all be experience energy through your own hands. The platforms are connected through local network of hiking trails.\n\nExplore alone or accompanied by an local expert modern forms of energy such as solar and wind and take a look at the deepest hole in Switzerland. Experience energy through your own hands – this becomes possible through the project «Erlebnis Energie» of the village Entlebuch.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/8076_Erlebnis-Energie-Entlebuch_1a.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/8076_Erlebnis-Energie-Entlebuch_1a.jpg",
+            "https://images.schweizmobil.ch/image/8076_Erlebnis-Energie-Entlebuch_2b.jpg",
+            "https://images.schweizmobil.ch/image/Erlebnis_Energie_Entlebuch_8_s.jpg",
+            "https://images.schweizmobil.ch/image/Erlebnis_Energie_Entlebuch_7_s.jpg",
+            "https://images.schweizmobil.ch/image/Erlebnis_Energie_Entlebuch_5_s.jpg",
+            "https://images.schweizmobil.ch/image/Erlebnis_Energie_Entlebuch_6_s.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            "",
+            "https://images.schweizmobil.ch/image-big/Erlebnis_Energie_Entlebuch_8_g.jpg",
+            "https://images.schweizmobil.ch/image-big/Erlebnis_Energie_Entlebuch_7_g.jpg",
+            "https://images.schweizmobil.ch/image-big/Erlebnis_Energie_Entlebuch_5_g.jpg",
+            "https://images.schweizmobil.ch/image-big/Erlebnis_Energie_Entlebuch_6_g.jpg"
+        ],
+        "photo_gallery_copyright": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "name": "Infostelle Erlebnis Energie Entlebuch",
+        "name_2": null,
+        "street": "Dorf",
+        "zip": "6162",
+        "place": "Entlebuch",
+        "tel": "+41 (0)41 480 11 65",
+        "fax": null,
+        "email": "info@tourismus-entlebuch.ch",
+        "url1_link": "https://www.erlebnisenergie.ch ",
+        "x_coordinate": 647446.8339781403,
+        "y_coordinate": 204919.30421135426,
+        "change_date": null,
+        "id": 230,
+        "r_key": 230,
+        "type": "Sight",
+        "url_sightseeing": "https://www.erlebnisenergie.ch",
+        "touristic_region": 4,
+        "canton": 15
+    }
+}

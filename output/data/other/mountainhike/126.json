@@ -1,0 +1,74 @@
+{
+    "type": "Feature",
+    "id": 126,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.63268388337919,
+                8.097181859613507
+            ]
+        ]
+    },
+    "properties": {
+        "id": 126,
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "type": "Mountaineering",
+        "ascent_altitude": 1280,
+        "ascent_time_max": 255,
+        "sac_chm_route": true,
+        "sac_created": "2019-08-15 06:41:03",
+        "descent_altitude": 1280,
+        "descent_time_max": 180,
+        "descent_time_min": null,
+        "sac_orig_id": 687,
+        "sac_modified": "2019-08-15 06:41:15",
+        "sac_status": "published",
+        "poi_title": "Chrinnenhorn",
+        "abstract": "A cabin on a marvellous site, high alpine landscapes and an exciting trail with a few delicate passages characterise this tour to Chrinnenhorn. The summit is a relatively easily reachable vantage point in front of the mighty Wetterhorn with a splendid view to the Schreckhorn chain and Grindelwald deep below. However, some experience in alpine terrain is required. As an alternative or an additional tour for a second day we recommend  a round trip to Oberer Grindelwaldgletscher, as it is worthwile spending the night in Glecksteinhütte after having mastered the long ascent.",
+        "subtitle": "A dream for those who are unafraid of heights",
+        "title": "Via Glecksteinhütte",
+        "sac_type": "mountain_hiking",
+        "mountain_hiking_difficulty": "T4",
+        "alpine_tour_difficulty": null,
+        "alpine_climbing_difficulty": null,
+        "grade": null,
+        "height_climbing_wall": null,
+        "via_ferrata_difficulty": null,
+        "ski_tour_difficulty": null,
+        "mountaineering_sacphoto_ids": [
+            407,
+            408
+        ],
+        "sac_poi_id": 5997,
+        "x_coordinate": 650429.6249020571,
+        "y_coordinate": 164816.03474650977,
+        "change_date": "2023-03-30 12:13:59",
+        "sac_photos": [
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 407,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1512659758_250595438Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1512659758_250595438master.jpg",
+                "photo_sac_id": 247652,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1512659758_250595438.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1512659758_250595438M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1512659758_250595438Mc.jpg",
+                "title": "Just a few steps away from Chrinnenhorn. Behind Eiger and Mönch (to the very left) are visible."
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 408,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1512659903_46063763Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1512659903_46063763master.jpg",
+                "photo_sac_id": 247654,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1512659903_46063763.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1512659903_46063763M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1512659903_46063763Mc.jpg",
+                "title": "Across a plateau with rubble towards Chrinnenhorn (at the back)"
+            }
+        ]
+    }
+}

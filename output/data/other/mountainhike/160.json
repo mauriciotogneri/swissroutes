@@ -1,0 +1,122 @@
+{
+    "type": "Feature",
+    "id": 160,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.05282781751028,
+                9.023017037902616
+            ]
+        ]
+    },
+    "properties": {
+        "id": 160,
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "type": "Mountaineering",
+        "ascent_altitude": 1120,
+        "ascent_time_max": 150,
+        "sac_chm_route": true,
+        "sac_created": "2020-08-19 12:01:14",
+        "descent_altitude": 560,
+        "descent_time_max": 195,
+        "descent_time_min": null,
+        "sac_orig_id": 855,
+        "sac_modified": "2020-08-19 12:07:49",
+        "sac_status": "published",
+        "poi_title": "Sasso Grande (Denti della Vecchia)",
+        "abstract": "On a trip through South Tyrol in 1789 Déodat Guy Sylvain Tancrède Gratet de Dolomieu, a French nobleman and geologist, collected rock samples, which picqued his curiosity, and had them analysed. The result of the analysis was a so far unknown composition of calcium carbonat and magnesium. Thus a new mineral was found, which was called dolomite to honour its discoverer. Therefore, the Dolomites, this unique mountain range in the north-east of Italy, were given their name from a Frenchman. Denti della Vecchia, too («teeth of the old lady») are largely made of dolomite. The magnesium is responsible for the bright colour, and especially in late fall the rocks are so shiny when lit by direct sunshine that as a climber you are virtually blinded by them. For generations these rocks have been climbed on intensively. The cradle of rock climbing in the canton of Ticino, formerly called Canne d’Organo («organ pipes»), was discovered in the thirties; today there are hundreds of routes of all grades of difficulty.",
+        "subtitle": "The Dolomites of Lugano",
+        "title": "From Brè via Denti della Vecchia to Capanna Pairolo",
+        "sac_type": "mountain_hiking",
+        "mountain_hiking_difficulty": "T5",
+        "alpine_tour_difficulty": null,
+        "alpine_climbing_difficulty": null,
+        "grade": null,
+        "height_climbing_wall": null,
+        "via_ferrata_difficulty": null,
+        "ski_tour_difficulty": null,
+        "mountaineering_sacphoto_ids": [
+            3028,
+            2797,
+            2796,
+            2795,
+            496,
+            497
+        ],
+        "sac_poi_id": 1656,
+        "x_coordinate": 722621.3768812511,
+        "y_coordinate": 101382.03006047125,
+        "change_date": "2023-03-30 12:14:02",
+        "sac_photos": [
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 3028,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1588587962_208329605Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1588587962_208329605master.jpg",
+                "photo_sac_id": 248040,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1588587962_208329605.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1588587962_208329605M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1588587962_208329605Mc.jpg",
+                "title": "At the destination: the Capanna Pairolo."
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 2797,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1588588012_1012567000Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1588588012_1012567000master.jpg",
+                "photo_sac_id": 272390,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1588588012_1012567000.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1588588012_1012567000M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1588588012_1012567000Mc.jpg",
+                "title": "Alpe Bolla."
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 2796,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1588588012_1323202571Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1588588012_1323202571master.jpg",
+                "photo_sac_id": 272389,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1588588012_1323202571.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1588588012_1323202571M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1588588012_1323202571Mc.jpg",
+                "title": "Romantic Paths."
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 2795,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1588588012_74739840Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1588588012_74739840master.jpg",
+                "photo_sac_id": 272388,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1588588012_74739840.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1588588012_74739840M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1588588012_74739840Mc.jpg",
+                "title": "Greetings from father Lenin."
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 496,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1597838319_1197473430Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1597838319_1197473430master.jpg",
+                "photo_sac_id": 248039,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1597838319_1197473430.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1597838319_1197473430M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1597838319_1197473430Mc.jpg",
+                "title": "Sasso Grande. The easiest route (presented here) to the limestone pinnacle leads on the steep face overgrown with dwarf pines left of the summit."
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 497,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1588588012_1663288299Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1588588012_1663288299master.jpg",
+                "photo_sac_id": 248021,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1588588012_1663288299.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1588588012_1663288299M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1588588012_1663288299Mc.jpg",
+                "title": "The jagged Denti della Vecchia (view from the north, in the centre of the photo is Sasso Grande)."
+            }
+        ]
+    }
+}

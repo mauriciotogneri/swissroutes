@@ -1,0 +1,57 @@
+{
+    "type": "Feature",
+    "id": 636,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.78429458817274,
+                7.116488951407586
+            ]
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Ste-Apolline bridge (Villars-sur-Glâne)",
+        "abstract": "An ancient crossing over the Glâne stands at Ste.-Apolline. Today’s stone bridge dates from the 16th or 17th century. The adjacent chapel dedicated to St Apollonia was first documented in 1147 and rebuilt in 1566 after a fire.",
+        "description": "The Glâne was probably crossed at the level of Ste-Apolline near Fribourg in prehistoric and very early times. The historic significance of the crossing is underlined by its position at the confluence of the Glâne and Saane, continual use by a hospice into the 18th century and a gallows that according to tithe plans stood at this location.\n\nThe age of the Ste-Apolline bridge, long thought to be Roman, was only recently able to be accurately determined. There is evidence of an earlier bridge before 1243. Historic documents show that a first stone bridge was built around 1508/09, probably as the successor to earlier ones built of wood. The latest bridge dates from the 16th or 17th century. Formerly called the Pont de la Glâne, the Ste-Apolline bridge was replaced by the Pont des Muèses on the road from Fribourg to Bulle in 1746.\n\nThe chapel, first documented in 1147, was rebuilt in 1566 after a fire. Ste.-Apolline, virgin and martyr, offered relief from toothache. She was very popular, as shown by numerous finds of caries-ridden teeth at her chapel.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/IVS_04_06_Ste-Apolline.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/IVS_04_06_Ste-Apolline.jpg"
+        ],
+        "photo_gallery_big": [
+            ""
+        ],
+        "photo_gallery_copyright": [
+            ""
+        ],
+        "photo_gallery_author": [
+            ""
+        ],
+        "photo_gallery_abstract": [
+            ""
+        ],
+        "name": "Bundesinventar der historischen Verkehrswege der Schweiz (IVS)",
+        "name_2": null,
+        "street": " ",
+        "zip": " ",
+        "place": " ",
+        "tel": " ",
+        "fax": null,
+        "email": " ",
+        "url1_link": "https://www.ivs.admin.ch",
+        "x_coordinate": 575400.2567975163,
+        "y_coordinate": 181509.714531395,
+        "change_date": null,
+        "id": 636,
+        "r_key": 636,
+        "type": "Sight",
+        "url_sightseeing": "https://s.geo.admin.ch/6fb1797320",
+        "touristic_region": 13,
+        "canton": 5
+    }
+}

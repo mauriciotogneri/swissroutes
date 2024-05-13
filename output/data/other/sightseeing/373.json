@@ -1,0 +1,62 @@
+{
+    "type": "Feature",
+    "id": 373,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.18777537648857,
+                6.025619150839372
+            ]
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Teppes of Verbois",
+        "abstract": "The site of the Teppes, on the right bank of the Rhoneriver, extends from the dam of Verbois up to the delta of the Allondon river. The part downstream benefits from the status of nature reserve and makes the link between the nature reserve of the Moulin-de-Vert and the valley of the Allondon river.",
+        "description": "The Teppes, the Moulin-de-Vert, the valleys of the Allondon river and of the Nant des Crues constitute a single biological entity of about 8 km2. This set is ideally located along the Rhone, a real vegetal artery and a vital lead for the migratory water birds. This complex of exceptional natural circles on the scale of Geneva and Switzerland is recognized to have national and international importance.\n\nPaths were created and lookout observatories allow to follow the life of the ponds without disturbing their inhabitants.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/10332_Teppes-von-Verbois_1a.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/10332_Teppes-von-Verbois_1a.jpg",
+            "https://images.schweizmobil.ch/image/10332_Teppes-von-Verbois_2b.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "Fondation Genève Tourisme & Congrès",
+        "name_2": null,
+        "street": "Quai du Mont-Blanc 2",
+        "zip": "1201",
+        "place": "Genève",
+        "tel": "+41 (0)22 909 70 00",
+        "fax": null,
+        "email": "info@geneve.com",
+        "url1_link": "https://www.geneve.com",
+        "x_coordinate": 490910.19265668176,
+        "y_coordinate": 116128.41201619485,
+        "change_date": null,
+        "id": 373,
+        "r_key": 373,
+        "type": "Sight",
+        "url_sightseeing": "https://etat.geneve.ch/dt/nature/teppes_verbois_reserve_naturelle-274-2007.html",
+        "touristic_region": 10,
+        "canton": 22
+    }
+}

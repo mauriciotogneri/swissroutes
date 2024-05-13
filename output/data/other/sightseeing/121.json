@@ -1,0 +1,62 @@
+{
+    "type": "Feature",
+    "id": 121,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.24295667895125,
+                7.498303255488851
+            ]
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Val de Réchy",
+        "abstract": "The Val de Réchy, which is located to the south of Sierre, is an untamed natural valley. Its unspoiled state, natural streams, mountain lakes and blanket mires with their interesting flora make Val de Réchy a very worthwhile hiking destination.",
+        "description": "Whereas in the past, water pipes were installed for the irrigation of agricultural plantations, today the water in many places is harnessed for the production of electricity. Valais is the Swiss canton with the highest number of reservoirs. Despite this, some valleys have remained unspoiled and the Val de Réchy south of Sierre is one of these.\n\nThe valley is accessed from its upper section by road and provides optimum conditions for peaceful walking and the observation of wildlife. The landscape has typical Ice Age features: glacial knobs, moraines and so-called \"Karmulden”, i.e. cirque hollows formed by past glaciers.\n\nThe mountain stream \"La Rèche” follows its natural course and there is an extensive blanket mire with a wide variety of plant species in the upper part of the valley.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/34_ValdeRechy-3-604809-1204.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/34_ValdeRechy-3-604809-1204.jpg",
+            "https://images.schweizmobil.ch/image/34_Val-de-Rechy.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "Bundesamt für Umwelt",
+        "name_2": null,
+        "street": "und Naturdenkmäler von nationaler Bedeutung (BLN)",
+        "zip": "BLN-Objekt-Nr.",
+        "place": "1718",
+        "tel": "-",
+        "fax": null,
+        "email": "bln@bafu.admin.ch",
+        "url1_link": "https://www.bafu.admin.ch/bln",
+        "x_coordinate": 604602.7564970922,
+        "y_coordinate": 121282.04050778304,
+        "change_date": null,
+        "id": 121,
+        "r_key": 121,
+        "type": "Sight",
+        "url_sightseeing": "https://www.bafu.admin.ch/bln",
+        "touristic_region": 11,
+        "canton": 7
+    }
+}

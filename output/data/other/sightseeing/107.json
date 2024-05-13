@@ -1,0 +1,62 @@
+{
+    "type": "Feature",
+    "id": 107,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.96166143369484,
+                7.075943530168896
+            ]
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Mount Vully",
+        "abstract": "Mount Vully lies between Lakes Murten, Neuchâtel and Biel. The magnificent view and picturesque scenery with the vineyards make it a very popular destination for excursions. The mountain also provides a retreat for animals in the middle of a landscape used for intensive agriculture.",
+        "description": "At 653 metres, Mount Vully is not particularly high. However, its setting is unique. Located between Lakes Murten, Neuchâtel and Biel, Mount Vully – Mont Vully in French Wistenlacherberg in German – provides a magnificent panoramic view of the surrounding landscape. The mountain had a strategic significance at various points in history. Fragments of Helvetian fortifications from 100 BC have been found there and the Swiss Army created an underground installation in the sandstone with corridors, embrasures and observation posts during the First World War.\n\nToday, Mount Vully is a hot tip for excursions and an important retreat for animals in the middle of an intensively farmed area.\n\nDuring the Ice Age, Mount Vully was completely covered by the Rhone Glacier as demonstrated by an erratic block from the Furka region. Erratic blocks like this one prompted scientists to realise that glaciers must once have penetrated as far as the plain.\n\nThere is a plaque there commemorating scientist Louis Agassiz (1807–1873) who was born at the foot of Mount Vully and to whom we are indebted for important insights into the Ice Age.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/20_Mont-Vully-1-573841-2013.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/20_Mont-Vully-1-573841-2013.jpg",
+            "https://images.schweizmobil.ch/image/20_Mont-Vully.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "Bundesamt für Umwelt",
+        "name_2": null,
+        "street": "und Naturdenkmäler von nationaler Bedeutung (BLN)",
+        "zip": "BLN-Objekt-Nr.",
+        "place": "1209",
+        "tel": "-",
+        "fax": null,
+        "email": "bln@bafu.admin.ch",
+        "url1_link": "https://www.bafu.admin.ch/bln",
+        "x_coordinate": 572395.238007819,
+        "y_coordinate": 201240.06553476697,
+        "change_date": null,
+        "id": 107,
+        "r_key": 107,
+        "type": "Sight",
+        "url_sightseeing": "https://www.bafu.admin.ch/bln",
+        "touristic_region": 13,
+        "canton": 5
+    }
+}

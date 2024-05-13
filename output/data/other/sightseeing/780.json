@@ -1,0 +1,72 @@
+{
+    "type": "Feature",
+    "id": 780,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.678437248095456,
+                8.155288065641805
+            ]
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Rosenlaui Glacier Gorge ",
+        "abstract": "On the way from Meiringen to Grosse Scheidegg you can discover a real natural jewel: From a good secured path you feel the awesome power of the water running through the Rosenlaui Glacier Gorge.\n",
+        "description": "For thousands of years, water has formed a fantastic work of art out of solid rock. Enjoy the walk on a good, gradually ascending path through the beautiful gorge. Pass by waterfalls, natural whirlpools and fantastically shaped rocks. All the way up, you will feel the breath-taking power of the glacial water running through the gorge: A truly natural experience. At the end of the gorge a forest trail leads you back to the entry point\n\nThe Rosenlaui Glacier Gorge is situated 10 kilometres from Meiringen on the way to Grosse Scheidegg and Grindelwald. The round-trip takes about 45 minutes, the length of the gorge is 600 metres and the difference in altitude 115 metres. It is daily opened from end of May to mid-October. The visit of the gorge is suitable for all pedestrians.\n",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/Gletscherschlucht Rosenlaui_1a.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/Gletscherschlucht Rosenlaui_3.jpg",
+            "https://images.schweizmobil.ch/image/Gletscherschlucht Rosenlaui_1b.jpg",
+            "https://images.schweizmobil.ch/image/Gletscherschlucht-Rosenlauit_5.jpg",
+            "https://images.schweizmobil.ch/image/Gletscherschlucht Rosenlaui_1a.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "name": "Gletscherschlucht Rosenlaui",
+        "name_2": null,
+        "street": "Rosenlaui",
+        "zip": "3860 ",
+        "place": "Meiringen",
+        "tel": "+41 33 971 24 88",
+        "fax": null,
+        "email": "info@rosenlauischlucht.ch",
+        "url1_link": "https://www.rosenlauischlucht.ch",
+        "x_coordinate": 654832.9301466537,
+        "y_coordinate": 169941.77207840266,
+        "change_date": null,
+        "id": 780,
+        "r_key": 780,
+        "type": "Sight",
+        "url_sightseeing": "http://www.rosenlauischlucht.ch/",
+        "touristic_region": 6,
+        "canton": 12
+    }
+}

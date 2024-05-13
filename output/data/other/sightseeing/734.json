@@ -1,0 +1,112 @@
+{
+    "type": "Feature",
+    "id": 734,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.808537273737855,
+                8.027271670677031
+            ]
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Mooraculum Sörenberg Entlebuch",
+        "abstract": "The Mooraculum is an integrated park featuring various hands-on stations that focus on the mystical theme of the moor and moor landscapes. The Rossweid area is rich in natural wonders - ready and waiting to be explored and enjoyed with all the senses.",
+        "description": "Easily accessible via the Rossweid cable car or on foot, the Mooraculum provides you with all the information you need on the theme of the moor and moor landscapes. Families and school classes will find everything they could possibly wish for: water park amusements, games of skill, calm spots to relax and picnic areas. In addition to the Rossweid Family Fun Restaurant, the Mooraculum also includes the Sonnentau circuit trail, which runs for 1.5 km through lowland moor meadows and an upland moor wood and is suitable for pushchairs. The walk includes hands-on activities that give youngsters the opportunity to learn how to treat the natural environment with care.\n\nThe Mooraculum is open in the summer months from May to October 2015 during cable car opening hours; admission is free of charge. We recommend you bring waterproof shoes and a change of clothing. Children are also issued with an Explorer Pass that allows them to explore the Mooraculum in greater detail.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/Erlebnispark_Mooraculum_2013_10_18_15.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/Erlebnispark_Mooraculum_2013_10_18_15.jpg",
+            "https://images.schweizmobil.ch/image/Erlebnispark_Mooraculum_2013_10_18_28.jpg",
+            "https://images.schweizmobil.ch/image/Mooraculum_Soerenberg_6_s.jpg",
+            "https://images.schweizmobil.ch/image/Erlebnispark_Mooraculum_Gondelbahn_Rossweid_klein.jpg",
+            "https://images.schweizmobil.ch/image/Mooraculum_Soerenberg_4_s.jpg",
+            "https://images.schweizmobil.ch/image/Mooraculum_Soerenberg_1_s.jpg",
+            "https://images.schweizmobil.ch/image/Mooraculum_Sonnentauweg_3_s.jpg",
+            "https://images.schweizmobil.ch/image/Mooraculum_Soerenberg_2_s.jpg",
+            "https://images.schweizmobil.ch/image/Mooraculum_Soerenberg_3_s.jpg",
+            "https://images.schweizmobil.ch/image/Mooraculum_Sonnentauweg_1_s.jpg",
+            "https://images.schweizmobil.ch/image/Mooraculum_Sonnentauweg_2_s.jpg",
+            "https://images.schweizmobil.ch/image/Mooraculum_Sonnentauweg_4_s.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            "",
+            "https://images.schweizmobil.ch/image-big/Mooraculum_Soerenberg_6_g.jpg",
+            "",
+            "https://images.schweizmobil.ch/image-big/Mooraculum_Soerenberg_4_g.jpg",
+            "https://images.schweizmobil.ch/image-big/Mooraculum_Soerenberg_1_g.jpg",
+            "https://images.schweizmobil.ch/image-big/Mooraculum_Sonnentauweg_3_g.jpg",
+            "https://images.schweizmobil.ch/image-big/Mooraculum_Soerenberg_2_g.jpg",
+            "https://images.schweizmobil.ch/image-big/Mooraculum_Soerenberg_3_g.jpg",
+            "https://images.schweizmobil.ch/image-big/Mooraculum_Sonnentauweg_1_g.jpg",
+            "https://images.schweizmobil.ch/image-big/Mooraculum_Sonnentauweg_2_g.jpg",
+            "https://images.schweizmobil.ch/image-big/Mooraculum_Sonnentauweg_4_g.jpg"
+        ],
+        "photo_gallery_copyright": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "name": "Bergbahnen Sörenberg AG",
+        "name_2": null,
+        "street": "Hinterschöniseistrasse 4",
+        "zip": "6174",
+        "place": "Sörenberg",
+        "tel": "+41 (0)41 488 21 21",
+        "fax": null,
+        "email": "bahnen@soerenberg.ch",
+        "url1_link": "https://www.soerenberg.ch",
+        "x_coordinate": 644929.7243621708,
+        "y_coordinate": 184322.83053933695,
+        "change_date": null,
+        "id": 734,
+        "r_key": 734,
+        "type": "Sight",
+        "url_sightseeing": "http://www.soerenberg.ch/de/bergbahnen/mooraculum-erlebnispark",
+        "touristic_region": 4,
+        "canton": 15
+    }
+}

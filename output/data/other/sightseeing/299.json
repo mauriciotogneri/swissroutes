@@ -1,0 +1,62 @@
+{
+    "type": "Feature",
+    "id": 299,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.93332689441968,
+                9.249981723259681
+            ]
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Tectonic Arena Sardona (UNESCO site)",
+        "abstract": "Experience geology at first hand! There is nowhere else on earth where the creation of mountain ranges can more clearly be seen than in this area. This is why the Tectonic Arena Sardona is a UNESCO world natural heritage site.",
+        "description": "The fascinating mountain landscape around Piz Sardona on the border between the cantons of St. Gallen, Glarus and Grisons provides an opportunity to observe tectonic processes in a way which is easy to understand and unique. Along the \"Glarus thrust” line, which can be seen from far and wide, 250-300 mil.-year-old rocks moved over a distance of around 40km on top of much younger, 35-30 mil.-year-old rocks.\n\nThe 300km² area has been witness to the formation of mountains and is of major educational and academic significance. You can experience the allure of this landscape at first hand on various hiking and cycle paths, on a visit to one of the interesting geological sites or on a guided geological tour. The Sardona world heritage path takes hikers from Filzbach to Flims right through the main area.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/9203_Tektonikarena-Sardona_UNESCO-Welterbe_1a.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/9203_Tektonikarena-Sardona_UNESCO-Welterbe_1a.jpg",
+            "https://images.schweizmobil.ch/image/9203_Tektonikarena-Sardona_UNESCO-Welterbe_2b.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "Heidiland Tourismus AG",
+        "name_2": null,
+        "street": "Am Platz 1",
+        "zip": "7310",
+        "place": "Bad Ragaz",
+        "tel": "+41 (0)81 300 40 20",
+        "fax": null,
+        "email": "spavillage@heidiland.com ",
+        "url1_link": "https://www.spavillage.ch",
+        "x_coordinate": 737924.6675135996,
+        "y_coordinate": 199618.00297387174,
+        "change_date": null,
+        "id": 299,
+        "r_key": 299,
+        "type": "Sight",
+        "url_sightseeing": "https://www.tektonikarenasardona.ch",
+        "touristic_region": 2,
+        "canton": 14
+    }
+}

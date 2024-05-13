@@ -1,0 +1,67 @@
+{
+    "type": "Feature",
+    "id": 885,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.98870428343136,
+                7.492440788739547
+            ]
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Schwarzkopf Freeride",
+        "abstract": "The attractions on this compact track in Bolligen include numerous jumps, berms and drops in rapid succession and with various levels of difficulty. A grilling place is located about halfway through.",
+        "description": "Above all, physical fitness is a must, because you have to ride or push the bike up to the Schwarzkopf where the trail starts. But then the downhill fun begins. The freeride trail is exciting, flowing and some of it is technically challenging. \n\nThe trail includes berms, jumps, drops, and north-shore elements. While most of the jumps have a table, they are not fully rideable. You may have to push the bike for a bit. \n\nThe downhill track is suitable especially for enduro and downhill bikes. It would be best to walk the trail once before you ride it, but there is no transportation available. A grilling place is provided about halfway through.\n\n\nLength: 1 km \nDifficulty: difficult",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image-big/BE_Schwarzkopf_Bolligen_1_g.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/BE_Schwarzkopf_Bolligen_1_s.jpg",
+            "https://images.schweizmobil.ch/image/BE_Schwarzkopf_Bolligen_2_s.jpg",
+            "https://images.schweizmobil.ch/image/BE_Schwarzkopf_Bolligen_3_s.jpg"
+        ],
+        "photo_gallery_big": [
+            "https://images.schweizmobil.ch/image-big/BE_Schwarzkopf_Bolligen_1_g.jpg",
+            "https://images.schweizmobil.ch/image-big/BE_Schwarzkopf_Bolligen_2_g.jpg",
+            "https://images.schweizmobil.ch/image-big/BE_Schwarzkopf_Bolligen_3_g.jpg"
+        ],
+        "photo_gallery_copyright": [
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            "",
+            ""
+        ],
+        "name": "Bern Welcome",
+        "name_2": null,
+        "street": "Amthausgasse 4",
+        "zip": "3001",
+        "place": "Bern",
+        "tel": "+41 (0)31 328 12 12",
+        "fax": null,
+        "email": "info@bern.com",
+        "url1_link": "https://www.bern.com",
+        "x_coordinate": 604093.3347203869,
+        "y_coordinate": 204184.41744946263,
+        "change_date": null,
+        "id": 885,
+        "r_key": 885,
+        "type": "Sight",
+        "url_sightseeing": "https://www.trailnet-bern.ch/schwarzkopf/",
+        "touristic_region": 6,
+        "canton": 12
+    }
+}

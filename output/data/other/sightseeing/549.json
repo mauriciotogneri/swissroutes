@@ -1,0 +1,62 @@
+{
+    "type": "Feature",
+    "id": 549,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.40230099301331,
+                8.874576257273816
+            ]
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Art and history in Giornico",
+        "abstract": "Giornico has inherited a patrimony which needs to be protected and enhanced. An invitation to observe with attention, to discover the language of the stones which speak to those who know how to listen.",
+        "description": "Lying on the alluvial rise which originated, long ago, from the Vignoi and Sant'Anna torrents and closed to the north by the rocky ledges of the Biaschina (evidence of a gigantic landslide), Giornico represents the connection point of the Ticinese lowland with the more typically alpine countryside. In Giornico there is a continuous interlacing of nature with the works of man: the inventory of natural and cultural riches is  so extraordinarily vast that the village can, in itself, be considered a museum. There are many signs left by the creative activity of man which enrich the countryside and give a specific impression of a past history not easily confused with others. Well worth a visit many Romanesque churches and the Museum of Leventina (Casa Stanga).",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/8112_Kunst-und-Geschichte-in-Giornico-1a.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/8112_Kunst-und-Geschichte-in-Giornico-1a.jpg",
+            "https://images.schweizmobil.ch/image/8112_Kunst-und-Geschichte-in-Giornico_2b.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "Bellinzonese e Alto Ticino Turismo",
+        "name_2": null,
+        "street": "Via della Stazione 22",
+        "zip": "6780",
+        "place": "Airolo",
+        "tel": "+41 (0)91 869 15 33",
+        "fax": null,
+        "email": "leventina@bellinzonese-altoticino.ch",
+        "url1_link": "https://www.bellinzonese-altoticino.ch",
+        "x_coordinate": 710423.2806727911,
+        "y_coordinate": 140004.4505893226,
+        "change_date": null,
+        "id": 549,
+        "r_key": 549,
+        "type": "Sight",
+        "url_sightseeing": "https://www.bellinzonese-altoticino.ch/en/commons/details/Museum-of-Leventina/2771.html",
+        "touristic_region": 12,
+        "canton": 19
+    }
+}

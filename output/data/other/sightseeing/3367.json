@@ -1,0 +1,67 @@
+{
+    "type": "Feature",
+    "id": 3367,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.38961030406477,
+                6.861980288402579
+            ]
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Aquaparc Le Bouveret",
+        "abstract": "Aquaparc is an aquatic leisure park in which the entire family will have fun. There is a space for children, a space for relaxation (+16 years) and different waterslides. One of them is called Booster Loop and is a unique attraction in Switzerland.",
+        "description": "Aquaparc offers its visitors 4 worlds to discover: The «slide» space to live lots of sensations. The «Captain Kids» space where adventure awaits you. The «Sunny» space to try silly activities. The «Sharkyland» for families with small children.\n\nAquaparc is also a comfortable place where guests can relax, enjoy the sunny weather and eat something in one of the restaurants.\n\nOne waterslide with loops guarantees an adrenalin surge. Booster Loop is dedicated to thrill seekers. This slide will surprise you with its 21-meter drop, looping and extreme speed.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image-big/POI_Aquaparc_le_Bouveret_2020_g.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/POI_Aquaparc_le_Bouveret_2020_s.jpg",
+            "https://images.schweizmobil.ch/image/POI_Aquaparc_Le_Bouveret_2020_2_s.jpg",
+            "https://images.schweizmobil.ch/image/POI_Aquaparc_Le_Bouveret_2020_1_s.jpg"
+        ],
+        "photo_gallery_big": [
+            "https://images.schweizmobil.ch/image-big/POI_Aquaparc_le_Bouveret_2020_g.jpg",
+            "https://images.schweizmobil.ch/image-big/POI_Aquaparc_Le_Bouveret_2020_2_g.jpg",
+            "https://images.schweizmobil.ch/image-big/POI_Aquaparc_Le_Bouveret_2020_1_g.jpg"
+        ],
+        "photo_gallery_copyright": [
+            "(c)2016",
+            "(c)2016",
+            "(c) www.regiscolombo.com"
+        ],
+        "photo_gallery_author": [
+            "DUVAL Herve",
+            "DUVAL Herve",
+            "REGIS COLOMBO/diapo.ch"
+        ],
+        "photo_gallery_abstract": [
+            "",
+            "",
+            ""
+        ],
+        "name": "Aquaparc",
+        "name_2": null,
+        "street": "Route de la Plage",
+        "zip": "1897",
+        "place": "Le Bouveret",
+        "tel": "+41 (0)24 482 00 00",
+        "fax": null,
+        "email": "contact@aquaparc.ch",
+        "url1_link": "http://www.aquaparc.ch/",
+        "x_coordinate": 555643.8739554186,
+        "y_coordinate": 137746.37539384014,
+        "change_date": null,
+        "id": 3367,
+        "r_key": 3367,
+        "type": "Sight",
+        "url_sightseeing": "http://www.aquaparc.ch",
+        "touristic_region": 11,
+        "canton": 7
+    }
+}

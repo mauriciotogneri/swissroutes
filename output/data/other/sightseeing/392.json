@@ -1,0 +1,62 @@
+{
+    "type": "Feature",
+    "id": 392,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                47.554470010470084,
+                8.224629456882043
+            ]
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Axporama",
+        "abstract": "Pull on the power cable with the children, get started with the tree shaping or play on the electricity mixer? In the Axporama, the Axpo Visitor Centre, there is a whole range of experimental stations on the subject of «living with energy» for explorers of all ages.",
+        "description": "The Axporama in Böttstein has a range of exciting insights in store for you as well as clear answers to tricky questions and scientific experiments for you to try. How do we get electrical energy from solar rays? How much electricity do we need each day? And what goes on behind the socket? Have fun in immersing yourself into the fascinating world of electricity and search for the answers to these questions.\n\nThe focus of the exhibition is on power supply both today and in the future. The advantages and disadvantages of the various forms of energy, such as biogas, photovoltaics or hydroelectric power, are set out in specific themes in an illustrative and exciting way.\n\nDid you know that the cables for Switzerland's electricity network cover a distance of 250 000 kilometres? That's six times the circumference of the earth. In Böttstein you can discover and discuss these and other interesting facts on the subject of electricity.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/12774_Axporama_2a.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/12774_Axporama_2a.jpg",
+            "https://images.schweizmobil.ch/image/12774_Axporama_1b.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "Aargau Tourismus AG",
+        "name_2": null,
+        "street": "Laurstrasse 10",
+        "zip": "5200",
+        "place": "Brugg",
+        "tel": "+41 (0)62 823 00 73",
+        "fax": null,
+        "email": "info@aargautourismus.ch",
+        "url1_link": "https://www.aargautourismus.ch",
+        "x_coordinate": 659162.1252825924,
+        "y_coordinate": 267380.7446928021,
+        "change_date": null,
+        "id": 392,
+        "r_key": 392,
+        "type": "Sight",
+        "url_sightseeing": "https://www.axpo.ch/axporama",
+        "touristic_region": 14,
+        "canton": 13
+    }
+}

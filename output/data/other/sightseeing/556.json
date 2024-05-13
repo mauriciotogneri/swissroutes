@@ -1,0 +1,77 @@
+{
+    "type": "Feature",
+    "id": 556,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                47.02215474185667,
+                8.64827846175369
+            ]
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Museum of the Swiss Charters of Confederation",
+        "abstract": "This museum is a history museum owned by the Canton of Schwyz. The exhibition shown in the museum explores both the history of the Old Swiss Confederacy and the many myths associated with that history. At the heart of the exhibition is the famed Federal Charter of 1291, which was long believed to be the founding document of the Swiss Confederation.",
+        "description": "The Swiss Charter of Confederation of the communities Schwyz, Uri, and Nidwalden dating back to the beginning of August 1291 is a unique document, which has become very important for Switzerland's national history. In the Middle Ages, however, it played a completely different role  from the one it finally attained in the Swiss national state of the 19th and 20th century. The Museum of Swiss Charters shows the life story of the charter. The building that houses the Museum is in effect also part of the exhibition. Built in 1936, it clearly reflects the essence of Spiritual Defence that dominated the mood in Switzerland at the time of the Second World War. The Museum of the Swiss Charters was then still a national place of pilgrimage, where the Federal Charter of 1291 was worshipped as a founding document on the “Altar of the Fatherland”.\n\nThe original documents exhibited in the Museum of the Swiss Charters help to illustrate the varied history of the Old Swiss Confederacy, which was characterised by conflicts and divisions, compromise and cooperation. The Museum also holds a unique collection of flags, which includes the flags of the famous Battles of Morgarten and Sempach and shows the evolution of the Swiss cross. Other themes include the “evil bailiffs”, the battles of liberation, heroes, and the Oath of Rütli. Since the 16th century, these myths have had a major influence on the writing of history, politics and Switzerland’s perception and understanding of itself. A central aspect of the exhibition is again the history of the Federal Charter of 1291.\n\nGuided tours for groups give an informative general overview or take a closer look at specific specialist topics or themes. Drinks and light refreshments are served in the Museum café. The Museum shop stocks carefully selected publications relating to the history of Switzerland.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image-big/POI_Bundesbriefmuseum_01_Bundesbriefmuseum_Fassade_hoch_g.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/POI_Bundesbriefmuseum_06_Bundesbriefmuseum_Museumscaf_s.jpg",
+            "https://images.schweizmobil.ch/image/POI_Bundesbriefmuseum_04_Bundesbriefmuseum_Ausstellung_Galerie_s.jpg",
+            "https://images.schweizmobil.ch/image/POI_Bundesbriefmuseum_03_Bundesbriefmuseum_Ausstellung_Fahnen_s.jpg",
+            "https://images.schweizmobil.ch/image/POI_Bundesbriefmuseum_02_Bundesbriefmuseum_Ausstellung_Bundesbrief_1291_s.jpg",
+            "https://images.schweizmobil.ch/image/POI_Bundesbriefmuseum_01_Bundesbriefmuseum_Fassade_hoch_s.jpg"
+        ],
+        "photo_gallery_big": [
+            "https://images.schweizmobil.ch/image-big/POI_Bundesbriefmuseum_06_Bundesbriefmuseum_Museumscaf_g.jpg",
+            "https://images.schweizmobil.ch/image-big/POI_Bundesbriefmuseum_04_Bundesbriefmuseum_Ausstellung_Galerie_g.jpg",
+            "https://images.schweizmobil.ch/image-big/POI_Bundesbriefmuseum_03_Bundesbriefmuseum_Ausstellung_Fahnen_g.jpg",
+            "https://images.schweizmobil.ch/image-big/POI_Bundesbriefmuseum_02_Bundesbriefmuseum_Ausstellung_Bundesbrief_1291_g.jpg",
+            "https://images.schweizmobil.ch/image-big/POI_Bundesbriefmuseum_01_Bundesbriefmuseum_Fassade_hoch_g.jpg"
+        ],
+        "photo_gallery_copyright": [
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "name": "Bundesbriefmuseum Schwyz",
+        "name_2": null,
+        "street": "Bahnhofstrasse 20",
+        "zip": "6430",
+        "place": "Schwyz",
+        "tel": "+41 (0)41 819 20 64",
+        "fax": null,
+        "email": "bundesbriefmuseum@sz.ch",
+        "url1_link": "https://www.bundesbrief.ch",
+        "x_coordinate": 691960.1439570605,
+        "y_coordinate": 208610.0550165578,
+        "change_date": null,
+        "id": 556,
+        "r_key": 556,
+        "type": "Sight",
+        "url_sightseeing": "https://www.bundesbrief.ch/en.html/4",
+        "touristic_region": 4,
+        "canton": 11
+    }
+}

@@ -1,0 +1,74 @@
+{
+    "type": "Feature",
+    "id": 812,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.69667243040053,
+                10.04723150891157
+            ]
+        ]
+    },
+    "properties": {
+        "id": 812,
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "type": "Mountaineering",
+        "ascent_altitude": 1480,
+        "ascent_time_max": 255,
+        "sac_chm_route": true,
+        "sac_created": "2020-08-24 14:54:17",
+        "descent_altitude": 1480,
+        "descent_time_max": 165,
+        "descent_time_min": null,
+        "sac_orig_id": 847,
+        "sac_modified": "2020-08-24 14:54:17",
+        "sac_status": "published",
+        "poi_title": "Piz d'Urezza",
+        "abstract": "The peak is a splendid vantage point with a wide ranging view to Upper and Lower Engadine, and especially into Val Tantermozza (meaning „mill hopper“), which is within the border of the Swiss National Park. However, there are no trails, nor markings up to the summit, which means that every hiker must use his or her own orientational skills to find their way up and down. Various variants of ascent and descent promise an adventurous hiking day. Urezza means «lofty knoll», «high altitude pasture».",
+        "subtitle": "The unknown local mountain of Zernez",
+        "title": "North-east ridge",
+        "sac_type": "mountain_hiking",
+        "mountain_hiking_difficulty": "T4",
+        "alpine_tour_difficulty": null,
+        "alpine_climbing_difficulty": null,
+        "grade": null,
+        "height_climbing_wall": null,
+        "via_ferrata_difficulty": null,
+        "ski_tour_difficulty": null,
+        "mountaineering_sacphoto_ids": [
+            3257,
+            3258
+        ],
+        "sac_poi_id": 2091,
+        "x_coordinate": 799486.4922458478,
+        "y_coordinate": 175034.6956251872,
+        "change_date": "2023-03-30 12:14:56",
+        "sac_photos": [
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 3257,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1513608872_1171154450Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1513608872_1171154450master.jpg",
+                "photo_sac_id": 248020,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1513608872_1171154450.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1513608872_1171154450M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1513608872_1171154450Mc.jpg",
+                "title": "View up across the pathless ridges and faces to the secondary summit"
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 3258,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1513608681_1127012982Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1513608681_1127012982master.jpg",
+                "photo_sac_id": 248018,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1513608681_1127012982.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1513608681_1127012982M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1513608681_1127012982Mc.jpg",
+                "title": "The lone Piz d’Urezza, view from the secondary summit"
+            }
+        ]
+    }
+}

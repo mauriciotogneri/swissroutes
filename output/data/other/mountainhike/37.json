@@ -1,0 +1,74 @@
+{
+    "type": "Feature",
+    "id": 37,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.631206787759865,
+                8.342738084974041
+            ]
+        ]
+    },
+    "properties": {
+        "id": 37,
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "type": "Mountaineering",
+        "ascent_altitude": 590,
+        "ascent_time_max": 120,
+        "sac_chm_route": true,
+        "sac_created": "2019-07-20 12:20:00",
+        "descent_altitude": null,
+        "descent_time_max": null,
+        "descent_time_min": null,
+        "sac_orig_id": 281,
+        "sac_modified": "2019-08-14 12:12:57",
+        "sac_status": "published",
+        "poi_title": "Gelmerhütte SAC",
+        "abstract": "The scenic ascent leads through an impressive granite landscape with lakes, waterfalls, slabs polished by the glacier and alluvial plains. It is suited for families, if the children have some mountain experience.",
+        "subtitle": "It is a multifaceted cabin access trail combined with a unique funicular.",
+        "title": "From Gelmerbahn’s summit station",
+        "sac_type": "mountain_hiking",
+        "mountain_hiking_difficulty": "T2",
+        "alpine_tour_difficulty": null,
+        "alpine_climbing_difficulty": null,
+        "grade": null,
+        "height_climbing_wall": null,
+        "via_ferrata_difficulty": null,
+        "ski_tour_difficulty": null,
+        "mountaineering_sacphoto_ids": [
+            145,
+            146
+        ],
+        "sac_poi_id": 2147000112,
+        "x_coordinate": 669234.9153889944,
+        "y_coordinate": 164839.79948019361,
+        "change_date": "2023-03-30 12:13:52",
+        "sac_photos": [
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 145,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1597848594_1832324055Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1597848594_1832324055master.jpg",
+                "photo_sac_id": 253448,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1597848594_1832324055.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1597848594_1832324055M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1597848594_1832324055Mc.jpg",
+                "title": "Slightly below Gelmerhütte"
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 146,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1597848594_1330100019Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1597848594_1330100019master.jpg",
+                "photo_sac_id": 247620,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1597848594_1330100019.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1597848594_1330100019M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1597848594_1330100019Mc.jpg",
+                "title": "View from Gelmerhütte to Gelmersee deep down. Gelmerhörner are on the right-hand side."
+            }
+        ]
+    }
+}

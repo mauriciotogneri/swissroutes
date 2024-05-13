@@ -1,0 +1,98 @@
+{
+    "type": "Feature",
+    "id": 761,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.52603574855741,
+                7.944698473490336
+            ]
+        ]
+    },
+    "properties": {
+        "id": 761,
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "type": "Mountaineering",
+        "ascent_altitude": 1800,
+        "ascent_time_max": 330,
+        "sac_chm_route": true,
+        "sac_created": "2019-07-03 15:50:55",
+        "descent_altitude": null,
+        "descent_time_max": null,
+        "descent_time_min": null,
+        "sac_orig_id": 292,
+        "sac_modified": "2019-07-03 15:50:56",
+        "sac_status": "published",
+        "poi_title": "Rottalhütte SAC",
+        "abstract": "A long, scenic approach to the original Rottalhütte SAC. The route leads from the alpine pastures of the Lauterbrunnen valley through a steep mountain forest in the glacial bowl under imposing north walls. In the lower part, several variants are possible, with the main route, described here, providing the fastest and most common approach. The path is marked with white-blue-white paint.\nAfter two thirds of the ascent, the approach to the Silberhornhütte branches off at the \"Chalten Brunnen\"; an even more demanding and exposed tour - not one for the faint hearted.",
+        "subtitle": "Rottalhütte - a strenuous day tour in breathtaking surroundings.",
+        "title": "From Stechelberg",
+        "sac_type": "mountain_hiking",
+        "mountain_hiking_difficulty": "T4",
+        "alpine_tour_difficulty": null,
+        "alpine_climbing_difficulty": null,
+        "grade": null,
+        "height_climbing_wall": null,
+        "via_ferrata_difficulty": null,
+        "ski_tour_difficulty": null,
+        "mountaineering_sacphoto_ids": [
+            3112,
+            3113,
+            3114,
+            3115
+        ],
+        "sac_poi_id": 2147000226,
+        "x_coordinate": 638829.8016300746,
+        "y_coordinate": 152874.9719174218,
+        "change_date": "2023-03-30 12:14:51",
+        "sac_photos": [
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 3112,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1507820275_1782650853Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1507820275_1782650853master.jpg",
+                "photo_sac_id": 246648,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1507820275_1782650853.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1507820275_1782650853M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1507820275_1782650853Mc.jpg",
+                "title": "Ascent to the Rottalhütte"
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 3113,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1524490620_387298269Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1524490620_387298269master.jpg",
+                "photo_sac_id": 252922,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1524490620_387298269.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1524490620_387298269M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1524490620_387298269Mc.jpg",
+                "title": "A short rock wall secured with cables directly below the Rottalhütte"
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 3114,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1519974536_1447972283Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1519974536_1447972283master.jpg",
+                "photo_sac_id": 250651,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1519974536_1447972283.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1519974536_1447972283M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1519974536_1447972283Mc.jpg",
+                "title": "The Destination: The well equipped Rottalhütte of the SAC Section Interlaken 2755 m."
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 3115,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1524490620_1019406315Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1524490620_1019406315master.jpg",
+                "photo_sac_id": 250661,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1524490620_1019406315.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1524490620_1019406315M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1524490620_1019406315Mc.jpg",
+                "title": "Wonderful sunset viewed from the Rottalhütte"
+            }
+        ]
+    }
+}

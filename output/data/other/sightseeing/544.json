@@ -1,0 +1,62 @@
+{
+    "type": "Feature",
+    "id": 544,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                45.890683238494724,
+                8.953044969407701
+            ]
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Museo dei Fossili",
+        "abstract": "The dinosaurs mountain, the most well hidden UNESCO site in the world… Many names indicate the naturalistic wealth of Monte San Giorgio, consisting of the fossils of dinosaurs that lived in Ticino millions of years ago. All the secrets of these unusual inhabitants can be rediscovered.",
+        "description": "Monte San Giorgio is between the two southern arms of Lake Lugano (Porto Ceresio and Riva San Vitale). It is 1,097 metres high and there is a charming view from its peak. \r\nLooking towards north-west the view ranges over Lake Lugano, especially the area of Morcote, with Monte Lema and the Alpine chain in the background. Looking east the steep slopes of Generoso can be seen, while to the south the view extends over the Lombardy Plain.\n\nBut this mountain is mainly known as a cemetery for the Middle Triassic Age. Many fossils of great scientific interest were found here during the twentieth century, above all fish, invertebrates (with some rare insects), and reptiles, mainly marine ones, whose length in some species was six metres. Monte San Giorgio has been included in the UNESCO World Heritage List since 2nd July 2003.\n\nNext to the Town Hall there's a small but extremely interesting Fossil Museum, that refers basically to the nearby Monte San Giorgio. The visitor can really further his interest for the region’s geological history, that is, a really unique «coffer» containing treasures that go back to 230 million years ago, when the present day Mendrisiotto emerged only in part from the sea basin, the Mediterranean of the time. In a dozen showcases, original fossil findings or moulds are exhibited showing the rich and important fauna of the middle Triassic period of Monte San Giorgio. The Museum in Meride thus collects and displays a small part of these findings and thanks to a series of tables and explanations contributes to the dissemination of knowledge in palaeontology of the Mid Triassic period and of its fauna (reptiles, fish, invertebrates, plants).",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/8162_Monte-San-Giorgio_2a.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/8162_Monte-San-Giorgio_2a.jpg",
+            "https://images.schweizmobil.ch/image/8162_Monte-San-Giorgio_1b.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "Mendrisiotto Turismo",
+        "name_2": null,
+        "street": "Via Luigi Lavizzari 2",
+        "zip": "6850",
+        "place": "Mendrisio",
+        "tel": "+41 (0)91 641 30 50",
+        "fax": null,
+        "email": "info@mendrisiottoturismo.ch",
+        "url1_link": "https://www.mendrisiottoturismo.ch",
+        "x_coordinate": 717554.7539432568,
+        "y_coordinate": 83253.7244254602,
+        "change_date": null,
+        "id": 544,
+        "r_key": 544,
+        "type": "Sight",
+        "url_sightseeing": "https://www.montesangiorgio.org/en/Musei/Museo-dei-Fossili-di-Meride.html",
+        "touristic_region": 12,
+        "canton": 19
+    }
+}

@@ -1,0 +1,62 @@
+{
+    "type": "Feature",
+    "id": 272,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                47.67264354586313,
+                9.059211849022953
+            ]
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Napoleon museum, Schloss Arenenberg",
+        "abstract": "The facilities of Schloss Arenenberg invite visitors on walks and excursions into history. Palaces and castles provide striking evidence of the old settlement and its culture. Particularly worth seeing is the Schloss Arenenberg Napoleon museum.",
+        "description": "Its exclusive interior decoration and the splendid parks are a source of fascination for all visitors. This is why the palace is also referred to as the \"finest palace on Lake Constance”. Originally built as a Constance patrician’s residence, the palace caught the attention of world history in the 19th century as the residence of the imperial French family. Hortense, adopted daughter and sister-in-law of Napoleon I, ex-king of Holland, initially lived in Constance with her son Prince Louis Napoleon, later the emperor Napoleon III. From 1820, she governed \"her little kingdom” from Schloss Arenenberg. Hortense organised social life using the well-known salons of her time as an example and attracted the most important characters to Lake Constance. Long lists and documents with famous names such as Dumas, Récamier, Chateaubriand, Delavigne and Arese along with the entire European higher nobility fill the inventory of the well-preserved house archives.\n\nNapoleon III enjoyed a carefree childhood and youth by Lake Constance and learnt to speak fluent German. He loved everything that was beautiful. Alongside his numerous – in some cases amorous – exploits, his military and political writings became well-known. Napoleon III compiled them under the paternal guidance of the Swiss general Henri Guillaume Dufour and Constance’s diocese administrator Ignaz Heinrich von Wessenberg. The Arenenberg was also the place where his plans for the failed putsch attempts in Strassburg 1836 and in Boulogne 1840 came into being. It was not without reason that all of Europe’s and America’s secret services monitored his activities by Lake Constance. The Bonaparte family’s mementoes of French and imperial lifestyle are indescribably varied.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/9265_Napoleonmuseum_Schloss-Arenenberg_1a.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/9265_Napoleonmuseum_Schloss-Arenenberg_1a.jpg",
+            "https://images.schweizmobil.ch/image/9265_Napoleonmuseum_Schloss-Arenenberg_3b.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "Thurgau Tourismus",
+        "name_2": null,
+        "street": "Egelmoosstrasse 1",
+        "zip": "8580",
+        "place": "Amriswil",
+        "tel": "+41 (0)71 414 11 44",
+        "fax": null,
+        "email": "info@thurgau-bodensee.ch",
+        "url1_link": "https://www.thurgau-bodensee.ch",
+        "x_coordinate": 721703.6979735414,
+        "y_coordinate": 281480.7689681649,
+        "change_date": null,
+        "id": 272,
+        "r_key": 272,
+        "type": "Sight",
+        "url_sightseeing": "https://www.napoleonmuseum.ch",
+        "touristic_region": 2,
+        "canton": 6
+    }
+}

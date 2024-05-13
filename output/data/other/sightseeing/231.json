@@ -1,0 +1,67 @@
+{
+    "type": "Feature",
+    "id": 231,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                47.05177214047607,
+                8.314159591916024
+            ]
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Lake Lucerne",
+        "abstract": "See Central Switzerland at its best - from the comfort of a boat: 5 paddle steamers and 15 motor cruise ships will take you to famoushistorical sites like the Rütli Meadow, the Schiller Stone or theTell Chapel.",
+        "description": "Each and every day of the year, passengers can enjoy the sheer beauty of Lake Lucerne's idyllic bays, spectacular inland fjords and charming villages. Venture to the top of one of the surrounding mountains and take in the breathtaking panorama.\n\nOur complete programme of cruises includes interesting round-trips and excellent connections to all lakeside mountain railways and cable cars. Round off your cruise with a meal on board. You will enjoy the regional cuisine and wines served by Tavolago – gastronomy on water and land.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image-big/Swiss_Image_SWS18132-Master_g.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/Swiss_Image_SWS18132-Master_s.jpg",
+            "https://images.schweizmobil.ch/image/9778_Vierwaldstaettersee_1a.jpg",
+            "https://images.schweizmobil.ch/image/9778_Vierwaldstaettersee_2b.jpg"
+        ],
+        "photo_gallery_big": [
+            "https://images.schweizmobil.ch/image-big/Swiss_Image_SWS18132-Master_g.jpg",
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "Switzerland Tourism/Jan Geerk",
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            "",
+            ""
+        ],
+        "name": "Schifffahrtsgesellschaft des Vierwaldstättersees",
+        "name_2": null,
+        "street": "Werftstrasse 5",
+        "zip": "6002",
+        "place": "Luzern",
+        "tel": "+41 (0)41 637 67 67",
+        "fax": null,
+        "email": "info@lakelucerne.ch",
+        "url1_link": "https://www.lakelucerne.ch",
+        "x_coordinate": 666524.8973350355,
+        "y_coordinate": 211565.3315428514,
+        "change_date": null,
+        "id": 231,
+        "r_key": 231,
+        "type": "Sight",
+        "url_sightseeing": "https://www.lakelucerne.ch/en.html",
+        "touristic_region": 4,
+        "canton": 15
+    }
+}

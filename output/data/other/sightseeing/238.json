@@ -1,0 +1,62 @@
+{
+    "type": "Feature",
+    "id": 238,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.820303652844046,
+                8.409720886806241
+            ]
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Cheese Factory",
+        "abstract": "This is the only cheese factory in Switzerland within the walls of a monastery, where you can watch cheesemaking live-being produced by hand right before your eyes. After it's done, visitors can enjoy the delicious, freshly made products in the cheese factory's restaurant.",
+        "description": "Fresh milk contained in four large vats gets processsed into Engelberg's famous Engelberger Klosterglocke — cheese made in the shape of a monastery bell. Thanks to this unique production technique, it's possible to produce this cheese throughout each day. Visitiors get the chance to view the process of making this delicious cheese in each stage of its production — from pouring the milk into the vats, to cutting the solidified mass, to the cheese getting its final form.\n\nWhile observing the cheesemaker at work, visitors can enjoy a wide selection of locally made products in the factory's own restaurant. A variety of desserts, Birchermüesli, and cheese fondue are served here. The factory's shop mainly sells regional cheese specialties, though it also carries some really unique souvenirs.\n\nSpecial arrangements can be made for groups; for example, a wine & cheese reception or a lesson in cheese-making.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/9831_Schaukaeserei-Engelberg_2a.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/9831_Schaukaeserei-Engelberg_2a.jpg",
+            "https://images.schweizmobil.ch/image/9831_Schaukaeserei-Engelberg_1b.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "Engelberg-Titlis Tourismus AG",
+        "name_2": null,
+        "street": "Klosterstrasse 3",
+        "zip": "6390",
+        "place": "Engelberg",
+        "tel": "+41 (0)41 639 77 77",
+        "fax": null,
+        "email": "welcome@engelberg.ch",
+        "url1_link": "https://www.engelberg.ch/",
+        "x_coordinate": 674103.0006290786,
+        "y_coordinate": 185920.00111949153,
+        "change_date": null,
+        "id": 238,
+        "r_key": 238,
+        "type": "Sight",
+        "url_sightseeing": "https://www.schaukaeserei-engelberg.ch/main-en.html",
+        "touristic_region": 4,
+        "canton": null
+    }
+}

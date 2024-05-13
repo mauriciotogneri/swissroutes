@@ -1,0 +1,82 @@
+{
+    "type": "Feature",
+    "id": 10,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                47.12688807567051,
+                8.751504696970317
+            ]
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Abbey of Einsiedeln",
+        "abstract": "Einsiedeln(at 900 meters) is the most important place of pilgrimage in Switzerland. The abbey and its buildings, the diorama, the panorama painting, the Way of St. James, museums, ski-jumping, and pure nature on Lake Sihl are all attractions for those seeking relaxation as well as active recreation.",
+        "description": "Einsiedeln was first settled by Meinrad, a monk from the Island of Reichenau who lived in Einsiedeln until his death in 861. The Benedictine monastery was founded in 934. Construction of today’s baroque abbey began in 1704. The abbey square courtyard features the \"Lady Fountain” and the limestone façade of the church with its distinctive towers. The architect of the abbey church was Brother Kaspar Moosbrugger.\n\nThe \"Lady Chapel” is made of black marble and was the place of prayer for Meinrad, the first hermit to have settled here in the \"Dark Forest”. Today it is a very special place for pilgrimages, pilgrims and tourists.\n\nThe abbey library reflects the abbey’s spiritual and intellectual life. Some 1200 manuscripts, 1100 incunabula (printed prior to 1501) as well as 230,000 printed volumes dating back to the 16-20th centuries bear witness to the abbey’s rich tradition. The Great Hall is an exquisite baroque gem, attracting many visitors throughout the entire year. Today it is also an ideal venue for concerts and a diversity of cultural events.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image-big/7797_Kloster-Einsiedeln_2_g.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/7797_Kloster-Einsiedeln_2_s.jpg",
+            "https://images.schweizmobil.ch/image/Kloster_Einsiedeln_3_s.jpg",
+            "https://images.schweizmobil.ch/image/Kloster_Einsiedeln_2_s.jpg",
+            "https://images.schweizmobil.ch/image/Kloster_Einsiedeln_1_s.jpg",
+            "https://images.schweizmobil.ch/image/Kloster_Einsiedeln_4_s.jpg",
+            "https://images.schweizmobil.ch/image/Kloster_Einsiedeln_5_s.jpg"
+        ],
+        "photo_gallery_big": [
+            "https://images.schweizmobil.ch/image-big/7797_Kloster-Einsiedeln_2_g.jpg",
+            "https://images.schweizmobil.ch/image-big/Kloster_Einsiedeln_3_g.jpg",
+            "https://images.schweizmobil.ch/image-big/Kloster_Einsiedeln_2_g.jpg",
+            "https://images.schweizmobil.ch/image-big/Kloster_Einsiedeln_1_g.jpg",
+            "https://images.schweizmobil.ch/image-big/Kloster_Einsiedeln_4_g.jpg",
+            "https://images.schweizmobil.ch/image-big/Kloster_Einsiedeln_5_g.jpg"
+        ],
+        "photo_gallery_copyright": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "name": "Schwyz Tourismus",
+        "name_2": null,
+        "street": "Zeughaustrasse 10",
+        "zip": "6430",
+        "place": "Schwyz",
+        "tel": "+41 (0)41 855 59 50",
+        "fax": null,
+        "email": "info@schwyz-tourismus.ch",
+        "url1_link": "https://www.schwyz-tourismus.ch",
+        "x_coordinate": 699612.3809353688,
+        "y_coordinate": 220378.87721725221,
+        "change_date": null,
+        "id": 10,
+        "r_key": 10,
+        "type": "Sight",
+        "url_sightseeing": "https://www.kloster-einsiedeln.ch",
+        "touristic_region": 4,
+        "canton": 11
+    }
+}

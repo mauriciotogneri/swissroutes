@@ -1,0 +1,62 @@
+{
+    "type": "Feature",
+    "id": 525,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                45.94988377236423,
+                8.930769607557227
+            ]
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "The San Grato Botanical Park",
+        "abstract": "With its 62.000 square metres, it has the greatest collection of azaleas, rhododendrons and conifers of the whole Insubric Region, in terms of variety and quantity. From the park there is also a stunning view on the immediate surroundings and on the peaks of the Alpine chain.",
+        "description": "Flora, theme walks, excursions, labyrinth, restaurant, playground, panorama and relax. The San Grato Botanical Park lies between Monte San Salvatore and Monte Arbostora, approximately 10 km from Lugano and extends to 690 m S/m, with an exceptional panorama across the immediate surroundings over the peaks of the alpine chain.\n\nThe entire park with its 62'000 square metres, hosts the largest and most varied collection of azaleas, rhododendrons and conifers in the entire region. During the months of April and May the azaleas and rhododendrons form a highly coloured and perfumed carpet. We do not wish to reveal all the secrets of the flora to be found in the park – it will be up to you to learn from the information signs placed along the botanical pathways, leading you to a natural, more complete and quiet environment, which describe and blend the botanical park with the surrounding wooded areas.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/8130_Botanischer-Garten-San-Grato_2a.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/8130_Botanischer-Garten-San-Grato_2a.jpg",
+            "https://images.schweizmobil.ch/image/8130_Botanischer-Garten-San-Grato_1b.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "Ente Turistico del Luganese",
+        "name_2": null,
+        "street": "Palazzo Civico - Piazza della Riforma",
+        "zip": "6900",
+        "place": "Lugano",
+        "tel": "+41 (0)58 220 65 00",
+        "fax": null,
+        "email": "info@luganoregion.com",
+        "url1_link": "https://www.luganoregion.com",
+        "x_coordinate": 715700.3123270306,
+        "y_coordinate": 89800.5501114605,
+        "change_date": null,
+        "id": 525,
+        "r_key": 525,
+        "type": "Sight",
+        "url_sightseeing": "https://www.luganoregion.com/en/detail/id/3291/parco-san-grato",
+        "touristic_region": 12,
+        "canton": 19
+    }
+}

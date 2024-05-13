@@ -1,0 +1,62 @@
+{
+    "type": "Feature",
+    "id": 475,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.80238777586091,
+                7.151462372112385
+            ]
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Urban golf - a first for Switzerland",
+        "abstract": "Urban golf - the fun way to explore the Old Town of Fribourg, one of the finest examples of medieval architecture in Switzerland.",
+        "description": "Whether you choose the 9- or 18-hole course, you can be sure of a great day out, as you putt your way around the picturesque Old Town of Fribourg.\n\nA cross between crazy golf and pitch-and-putt, urban golf can be played by adults and children alike, making it the ideal choice for a family day out. The rules couldn’t be simple easier: try to hit the rubber golf ball in each of the holes with the fewest strokes possible! The course is open all year round. Map, ball, golf club and scorecard provided.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/7973_Stadtgolf_2_a.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/7973_Stadtgolf_2_a.jpg",
+            "https://images.schweizmobil.ch/image/7973_Stadtgolf_1_b.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "Fribourg Tourisme et Région",
+        "name_2": null,
+        "street": "CP 1120",
+        "zip": "1701",
+        "place": "Fribourg",
+        "tel": "+41 (0)26 350 11 11",
+        "fax": null,
+        "email": "info@fribourgtourisme.ch",
+        "url1_link": "https://www.fribourgtourisme.ch",
+        "x_coordinate": 578078.022163891,
+        "y_coordinate": 183510.3230746952,
+        "change_date": null,
+        "id": 475,
+        "r_key": 475,
+        "type": "Sight",
+        "url_sightseeing": "https://www.fribourgtourisme.ch/en/P5267/urban-golf",
+        "touristic_region": 13,
+        "canton": 5
+    }
+}

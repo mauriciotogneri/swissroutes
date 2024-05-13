@@ -1,0 +1,62 @@
+{
+    "type": "Feature",
+    "id": 488,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.513057020039696,
+                6.9474342635731565
+            ]
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Le Lac des Joncs, Les Paccots",
+        "abstract": "The Lac des Joncs, situated above Les Paccots, is a deep mountain lake and is more than 5000 years old.",
+        "description": "The \"Lac des Joncs\", situated above Les Paccots (Châtel-St-Denis), is a deep mountain lake and is more than 5000 years old. This lake is protected and registered in the national inventory of amphibian reproduction sites. It is home to several rare and endangered plant and animal species, like the least yellow water lily, the sundew, the marsh cinquefoil, the common toad, the dragon fly and the red-eyed damselfly, to name but a few.\n\nIn addition to an interpretive trail around the lake, there are two giant outdoor child-friendly games. A fun way to round off your trip.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/8202_Le-Lac-des-Joncs_Les-Paccots_1a.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/8202_Le-Lac-des-Joncs_Les-Paccots_1a.jpg",
+            "https://images.schweizmobil.ch/image/8202_Le-Lac-des-Joncs_Les-Paccots_2b.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "Fribourg Region",
+        "name_2": null,
+        "street": "Route de la Glâne 107",
+        "zip": "1701",
+        "place": "Fribourg",
+        "tel": "+41 (0)26 407 70 20",
+        "fax": null,
+        "email": "information@fribourgregion.ch",
+        "url1_link": "https://www.fribourgregion.ch",
+        "x_coordinate": 562302.8553787749,
+        "y_coordinate": 151424.6136692571,
+        "change_date": null,
+        "id": 488,
+        "r_key": 488,
+        "type": "Sight",
+        "url_sightseeing": "https://www.les-paccots.ch/de/V2200/der-lac-des-joncs",
+        "touristic_region": 13,
+        "canton": 5
+    }
+}

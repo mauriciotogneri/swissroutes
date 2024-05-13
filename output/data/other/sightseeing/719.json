@@ -1,0 +1,82 @@
+{
+    "type": "Feature",
+    "id": 719,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                47.59005065423232,
+                8.168187820260634
+            ]
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Bikepark Leibstadt",
+        "abstract": "The first genuine 360 meter long 4Cross course in Switzerland is a real thrill. The separation into pro and normal section makes the course suitable for beginners and advanced riders. The challenging course offers spectacular, as well as technical obstacles, guaranteeing a pure adrenaline rush.",
+        "description": "The start takes place at a permanent 4 Bensink Safety gate (start gate), 1 of only 2 of these designs in Europe. After the approx. 30 metres long straight at the start, the course leads via a drop into a 90-degree right turn, followed by the first wave section. Then there's a jump over a dirt track, followed by another combination of jumps before going into a large banked curve.\n\nThe course then separates into a pro or normal section. The pro section provides two large doubles (jumps) each 8 meters long. The normal section, also 8 meters long, offers multiple jump and wave combinations. Now joined back together, the course leads into a final 180-degree curve, followed by numerous waves and jumps until you finally reach the finish.\n\nThe bike park is open to the public. The wearing of helmets is mandatory! There are sufficient parking spaces available at the bike park finish line.\n\nCourse information\nLength: 360 m\nHeight difference: 12 m\nNumber of curves: 4\nGate: 4er Bensink Safety Gate\nConstruction: In 2011 by the Veloclub Leibstadt",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/Leibstadt_Bikepark_Huegel.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/Leibstadt_Bikepark_Huegel.jpg",
+            "https://images.schweizmobil.ch/image/Leibstadt_Bikepark_Umbau.jpg",
+            "https://images.schweizmobil.ch/image/Leibstadt_Bikepark_Start.jpg",
+            "https://images.schweizmobil.ch/image/Leibstadt_Bikepark_Startgatter.jpg",
+            "https://images.schweizmobil.ch/image/Leibstadt_Bikepark_Steilkurve.jpg",
+            "https://images.schweizmobil.ch/image/Leibstadt_Bikepark_Vogelperspektive.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "name": "VC Leibstadt",
+        "name_2": null,
+        "street": "Postfach 2",
+        "zip": "5325",
+        "place": "Leibstadt",
+        "tel": "+41 (0)56 245 56 25",
+        "fax": null,
+        "email": "info@vcleibstadt.ch",
+        "url1_link": "https://www.vcleibstadt.ch/bikepark-leibstadt",
+        "x_coordinate": 654877.2997647283,
+        "y_coordinate": 271295.6831412362,
+        "change_date": null,
+        "id": 719,
+        "r_key": 719,
+        "type": "Sight",
+        "url_sightseeing": "https://www.vcleibstadt.ch/wordpress/bikepark",
+        "touristic_region": 14,
+        "canton": 13
+    }
+}

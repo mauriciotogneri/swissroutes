@@ -1,0 +1,82 @@
+{
+    "type": "Feature",
+    "id": 306,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                47.426486570220334,
+                9.376054102287904
+            ]
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Old Town of St.Gallen",
+        "abstract": "Enjoy a stroll through the charming historical alleyways of St.Gallen. Who knows: Maybe you will find the perfect souvenir in one of the various shops.",
+        "description": "Buildings from various epochs characterise the city image of St. Gallen. Take a stroll through the charming historical city centre with its beautiful streets and bustling squares. Pass the time in one of the cute street cafes or gather your strength in the typical \"1. Stock-Beizli” (old town restaurants on the first floor).\n\n111 oriels decorate the house façades in the pedestrian area and tell of the successful textile merchants. Most of the artistically cut oriels are to be found in Spisergasse, Marktgasse, Kugelgasse and Schmiedgasse.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image-big/St_Gallen2_g.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/St_Gallen1_s.jpg",
+            "https://images.schweizmobil.ch/image/St_Gallen2_s.jpg",
+            "https://images.schweizmobil.ch/image/St_Gallen_Kirche_St_Mangen_s.jpg",
+            "https://images.schweizmobil.ch/image/St_Gallen3_s.jpg",
+            "https://images.schweizmobil.ch/image/St_Gallen4_s.jpg",
+            "https://images.schweizmobil.ch/image/St_Gallen5_s.jpg"
+        ],
+        "photo_gallery_big": [
+            "https://images.schweizmobil.ch/image-big/St_Gallen1_g.jpg",
+            "https://images.schweizmobil.ch/image-big/St_Gallen2_g.jpg",
+            "https://images.schweizmobil.ch/image-big/St_Gallen_Kirche_St_Mangen_g.jpg",
+            "https://images.schweizmobil.ch/image-big/St_Gallen3_g.jpg",
+            "https://images.schweizmobil.ch/image-big/St_Gallen4_g.jpg",
+            "https://images.schweizmobil.ch/image-big/St_Gallen5_g.jpg"
+        ],
+        "photo_gallery_copyright": [
+            "Foto: Mattias Nutt Photography",
+            "Switzerland Tourism",
+            "",
+            "© Daniel Ammann, all rights reserved",
+            "Switzerland Tourism",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "name": "St.Gallen-Bodensee Tourismus",
+        "name_2": null,
+        "street": "Bankgasse 9",
+        "zip": "9001",
+        "place": "St.Gallen",
+        "tel": "+41 (0)71 227 37 37",
+        "fax": null,
+        "email": "info@st.gallen-bodensee.ch",
+        "url1_link": "https://www.st.gallen-bodensee.ch",
+        "x_coordinate": 746168.3481249055,
+        "y_coordinate": 254658.46017336412,
+        "change_date": null,
+        "id": 306,
+        "r_key": 306,
+        "type": "Sight",
+        "url_sightseeing": "https://st.gallen-bodensee.ch/de/erlebnisse/fuehrungen/fuehrungen-in-st-gallen.html",
+        "touristic_region": 2,
+        "canton": 23
+    }
+}

@@ -1,0 +1,134 @@
+{
+    "type": "Feature",
+    "id": 464,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                47.050451493948536,
+                9.564060216077023
+            ]
+        ]
+    },
+    "properties": {
+        "id": 464,
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "type": "Mountaineering",
+        "ascent_altitude": 1240,
+        "ascent_time_max": 240,
+        "sac_chm_route": true,
+        "sac_created": "2019-03-19 10:46:47",
+        "descent_altitude": 940,
+        "descent_time_max": 180,
+        "descent_time_min": null,
+        "sac_orig_id": 2381,
+        "sac_modified": "2019-04-17 14:46:18",
+        "sac_status": "published",
+        "poi_title": "Falknis",
+        "abstract": "Enderlinhütte and the fantastic trail up the precipitous Falknis south face are the lifework of Fortunat Enderlin (1824–1918). The so-called Enderlin trail begins at the picturesque village of Maienfeld, ascends in the vineyards and past mighty oak trees and crosses a wild gorge to reach Enderlinhütte through a steep mountain forest. Then it traverses the exposed grassy slope below Falknistürm in a spectacular way and continues to Fläscher Fürggli. From there the summit is still 300 metres of vertical height away – easy, but physically very demanding! Falknis is too long for a one-day hike so it is recommended to spend the night at Enderlinhütte. The descent to Älplibahn is the shortest way back from Falknis, despite several re-ascents.",
+        "subtitle": "Hiking on Enderlin's lifework",
+        "title": "From Enderlinhütte SAC on the Enderlinweg, descent to Älplibahn",
+        "sac_type": "mountain_hiking",
+        "mountain_hiking_difficulty": "T4+",
+        "alpine_tour_difficulty": null,
+        "alpine_climbing_difficulty": null,
+        "grade": null,
+        "height_climbing_wall": null,
+        "via_ferrata_difficulty": null,
+        "ski_tour_difficulty": null,
+        "mountaineering_sacphoto_ids": [
+            1608,
+            1609,
+            1610,
+            1611,
+            1612,
+            1613,
+            1614
+        ],
+        "sac_poi_id": 590,
+        "x_coordinate": 761481.1435466026,
+        "y_coordinate": 213234.80134081567,
+        "change_date": "2023-03-30 12:14:31",
+        "sac_photos": [
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 1608,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1535537550_986547951Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1535537550_986547951master.jpg",
+                "photo_sac_id": 257320,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1535537550_986547951.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1535537550_986547951M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1535537550_986547951Mc.jpg",
+                "title": "Enderlinhütte SAC, end point of the first leg: from here the trail ascends very steeply below Falknistürm."
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 1609,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1535537653_1659088329Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1535537653_1659088329master.jpg",
+                "photo_sac_id": 257330,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1535537653_1659088329.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1535537653_1659088329M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1535537653_1659088329Mc.jpg",
+                "title": "On the steep face: view down to Enderlinhütte SAC located in the last trees"
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 1610,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1535537653_1472161627Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1535537653_1472161627master.jpg",
+                "photo_sac_id": 257331,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1535537653_1472161627.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1535537653_1472161627M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1535537653_1472161627Mc.jpg",
+                "title": "The Enderlin trail below Falknistürm is marked blue-white and equipped with steel-cables."
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 1611,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1562773503_1074569527Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1562773503_1074569527master.jpg",
+                "photo_sac_id": 257332,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1562773503_1074569527.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1562773503_1074569527M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1562773503_1074569527Mc.jpg",
+                "title": "Fläscher Fürggli: the difficulties are overcome. The summit is another hour away."
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 1612,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1535537653_1698760772Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1535537653_1698760772master.jpg",
+                "photo_sac_id": 257333,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1535537653_1698760772.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1535537653_1698760772M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1535537653_1698760772Mc.jpg",
+                "title": "It is hard to believe that there is a T4 route on this face (view down from Glegghorn)."
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 1613,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1535537653_281691150Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1535537653_281691150master.jpg",
+                "photo_sac_id": 257334,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1535537653_281691150.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1535537653_281691150M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1535537653_281691150Mc.jpg",
+                "title": "View from the neigbouring Schwarzhorn to the descent route along the small lakes"
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 1614,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1535538072_1865264725Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1535538072_1865264725master.jpg",
+                "photo_sac_id": 257335,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1535538072_1865264725.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1535538072_1865264725M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1535538072_1865264725Mc.jpg",
+                "title": "End of the tour: Älplibahn summit station"
+            }
+        ]
+    }
+}

@@ -1,0 +1,67 @@
+{
+    "type": "Feature",
+    "id": 3285,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                47.49109981127458,
+                7.622086387416027
+            ]
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Pumptrack Arlesheim",
+        "abstract": "This pump track is located in close proximity to the famous Arlesheim cathedral. Beginners and advanced riders can hone their skills in the 200 m facility with various combinations of rollers and berms. Everybody finds the perfect line here.",
+        "description": " ",
+        "highlights": "Length: 160 m\nSurface area: 1000 m2\nWave and curve height: 50-100 cm\nSurface: asphalt",
+        "foto": "https://images.schweizmobil.ch/image-big/BL_1_Pumptrack_Arlesheim_5_g.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/BL_1_Pumptrack_Arlesheim_11_s.jpg",
+            "https://images.schweizmobil.ch/image/BL_1_Pumptrack_Arlesheim_5_s.jpg",
+            "https://images.schweizmobil.ch/image/BL_1_Pumptrack_Arlesheim_1_s.jpg"
+        ],
+        "photo_gallery_big": [
+            "https://images.schweizmobil.ch/image-big/BL_1_Pumptrack_Arlesheim_11_g.jpg",
+            "https://images.schweizmobil.ch/image-big/BL_1_Pumptrack_Arlesheim_5_g.jpg",
+            "https://images.schweizmobil.ch/image-big/BL_1_Pumptrack_Arlesheim_1_g.jpg"
+        ],
+        "photo_gallery_copyright": [
+            "",
+            "DOMINIK BOSSHARD",
+            "DOMINIK BOSSHARD"
+        ],
+        "photo_gallery_author": [
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            "",
+            ""
+        ],
+        "name": "Verein Kids Bike Park ++, c/o IG Radsportförderung NWCH",
+        "name_2": null,
+        "street": "Ermitagestr. 18",
+        "zip": "4144",
+        "place": "Arlesheim",
+        "tel": "-",
+        "fax": null,
+        "email": "adm@bikefestiavl-basel.ch",
+        "url1_link": "https://www.bikebaselland.ch/bikeparks.html",
+        "x_coordinate": 613825.3641332273,
+        "y_coordinate": 260054.96318102613,
+        "change_date": null,
+        "id": 3285,
+        "r_key": 3285,
+        "type": "Sight",
+        "url_sightseeing": "https://www.sportmap-bl.ch/sport-in-der-natur/bikeparks-pumptracks/pumptrack-arlesheim",
+        "touristic_region": 5,
+        "canton": 9
+    }
+}

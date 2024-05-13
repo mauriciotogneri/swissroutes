@@ -1,0 +1,62 @@
+{
+    "type": "Feature",
+    "id": 553,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.53464585238459,
+                8.347878509757061
+            ]
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Furka Cogwheel Steam Railway",
+        "abstract": "The goal of saving the entire Furka mountain line from decay and bringing life back to it with steam trains is close at hand. Nostalgic experiences - in Goms, of course.",
+        "description": "Marvel at the pioneering engineering feats of our ancestors in the midst of a grandiose mountain landscape.\n\nFirst, the soon-to-be 100-year-old steam engine climbs up the mountain on the meter-gauge cog rail alongside the rushing waters of the Furkareuss.\n\nAt the first stop in Tiefenbach you can dip your hand into the water. With a full steam boiler, the train continues through the Alp meadows teeming with wildflowers. Then there is an extended stop at Bahnhof Furka, the highest station (2,160 m above sea level). After that, the train rolls without the aid of cogs through the 1,874-meter Scheitel tunnel at a gentle descent toward Valais.\n\nYou will experience a special spectacle of nature and engineering while viewing the celebrated Rhone Glacier, which soon reveals itself to passengers between snow-covered peaks.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/8065_Dampfbahn-Furka-Bergstrecke_1a.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/8065_Dampfbahn-Furka-Bergstrecke_1a.jpg",
+            "https://images.schweizmobil.ch/image/8065_Dampfbahn-Furka-Bergstrecke_2b.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "Obergoms Tourismus AG",
+        "name_2": null,
+        "street": "Furkastrasse 53",
+        "zip": "3985",
+        "place": "Münster",
+        "tel": "+41 (0)27 974 68 68",
+        "fax": null,
+        "email": "tourismus@obergoms.ch",
+        "url1_link": "https://www.obergoms.ch",
+        "x_coordinate": 669752.0954382453,
+        "y_coordinate": 154110.88582999218,
+        "change_date": null,
+        "id": 553,
+        "r_key": 553,
+        "type": "Sight",
+        "url_sightseeing": "https://www.dfb.ch",
+        "touristic_region": 11,
+        "canton": 7
+    }
+}

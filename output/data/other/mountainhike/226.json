@@ -1,0 +1,74 @@
+{
+    "type": "Feature",
+    "id": 226,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                47.024996578642636,
+                9.146567000708636
+            ]
+        ]
+    },
+    "properties": {
+        "id": 226,
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "type": "Mountaineering",
+        "ascent_altitude": 1150,
+        "ascent_time_max": 240,
+        "sac_chm_route": true,
+        "sac_created": "2020-09-29 10:14:47",
+        "descent_altitude": 1100,
+        "descent_time_max": 150,
+        "descent_time_min": 120,
+        "sac_orig_id": 1099,
+        "sac_modified": "2020-09-29 10:14:51",
+        "sac_status": "published",
+        "poi_title": "Gufelstock",
+        "abstract": "Those who know the Schilt area from ski or snowshoe tours could be  surprised by the terrain’s colours in summer: from Rotärd (red earth) to Wisschamm (white ridge), Schwarzstöckli (black peak) and Gufelstock the ground is red, green, white and finally black. The itinerary touches six low summits. A network of hiking trails offer a multitude of variants to shorten or extend this tour. Therefore, it is ideal for those who travel by public transport.",
+        "subtitle": "Colourful hustle and bustle above the \"Zigerschlitz\"",
+        "title": "Fronalp - Schwarzstöckli - Gufelstock - Bärenboden",
+        "sac_type": "mountain_hiking",
+        "mountain_hiking_difficulty": "T4",
+        "alpine_tour_difficulty": null,
+        "alpine_climbing_difficulty": null,
+        "grade": null,
+        "height_climbing_wall": null,
+        "via_ferrata_difficulty": null,
+        "ski_tour_difficulty": null,
+        "mountaineering_sacphoto_ids": [
+            678,
+            679
+        ],
+        "sac_poi_id": 866,
+        "x_coordinate": 729829.2525461449,
+        "y_coordinate": 209630.02916287427,
+        "change_date": "2023-03-30 12:14:09",
+        "sac_photos": [
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 678,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1533712543_2058002969Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1533712543_2058002969master.jpg",
+                "photo_sac_id": 256674,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1533712543_2058002969.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1533712543_2058002969M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1533712543_2058002969Mc.jpg",
+                "title": "On Gufelstock: view back to the summits traversed on the way"
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 679,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1533712543_2100318311Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1533712543_2100318311master.jpg",
+                "photo_sac_id": 256675,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1533712543_2100318311.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1533712543_2100318311M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1533712543_2100318311Mc.jpg",
+                "title": "Red earth at Rotärd; behind are Tödi, Clariden and Glärnisch."
+            }
+        ]
+    }
+}

@@ -1,0 +1,57 @@
+{
+    "type": "Feature",
+    "id": 3266,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.59605415849492,
+                9.963522847102913
+            ]
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Skills Park Resgia",
+        "abstract": "The skills park is located next to Restorant sur En near the Resgia centre in Zuoz. This facility is perfect for families. The parents can enjoy the peaceful sunny terrace, while the kids romp around in the skills park and the bouncy castle. ",
+        "description": " ",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image-big/GR_9_Skillspark_Resgia_g.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/GR_9_Skillspark_Resgia_s.jpg"
+        ],
+        "photo_gallery_big": [
+            "https://images.schweizmobil.ch/image-big/GR_9_Skillspark_Resgia_g.jpg"
+        ],
+        "photo_gallery_copyright": [
+            ""
+        ],
+        "photo_gallery_author": [
+            ""
+        ],
+        "photo_gallery_abstract": [
+            ""
+        ],
+        "name": "Engadin St. Moritz Tourismus AG",
+        "name_2": null,
+        "street": "Via Maistra 1",
+        "zip": "7500",
+        "place": "St. Moritz",
+        "tel": "+41 81 830 08 14",
+        "fax": null,
+        "email": "allegra@estm.ch",
+        "url1_link": "https://www.engadin.ch/de/",
+        "x_coordinate": 793447.9735938141,
+        "y_coordinate": 163645.51763229677,
+        "change_date": null,
+        "id": 3266,
+        "r_key": 3266,
+        "type": "Sight",
+        "url_sightseeing": "https://www.engadin.ch",
+        "touristic_region": 1,
+        "canton": 2
+    }
+}

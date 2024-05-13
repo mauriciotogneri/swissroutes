@@ -1,0 +1,72 @@
+{
+    "type": "Feature",
+    "id": 245,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.77115719009228,
+                8.425555727221285
+            ]
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Titlis cable cars",
+        "abstract": "Titlis is the jewel in Central Switzerland's crown and the only publicly accessible glacier in the area. Cast your gaze over the surrounding mountains and valleys, and enjoy the stunning panoramic views.",
+        "description": "The cable car Titlis Rotair rotates 360 degrees during the five-minute trip, offering spectacular panoramic views of rock faces, crevasses and mountain peaks.\n\nAt the frosty heart of the Titlis glacier, a magical world of ice awaits. The cave's 150-metre-long walkway descends 20 metres below the surface of the glacier.\n\nAll kinds of fun snow activities wait up on the glacier in summer. Snowtubing is sure to be an all-round hit. This fun and crazy winter activity will see you racing down the track on a rubber tyre.\n\nThe narrow suspension bridge takes 150 heart-pounding steps on a dizzying height. A breath-taking experience.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/9828_Titlis_Rotair.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/9828_Titlis_Rotair.jpg",
+            "https://images.schweizmobil.ch/image/9828_Titlis_Panorama.jpg",
+            "https://images.schweizmobil.ch/image/9828_Titlis_Gletschergrotte.jpg",
+            "https://images.schweizmobil.ch/image/9828_Titlis_Snowtubing.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "name": "Engelberg-Titlis Tourismus AG",
+        "name_2": null,
+        "street": "Klosterstrasse 3",
+        "zip": "6390",
+        "place": "Engelberg",
+        "tel": "+41 (0)41 639 77 77",
+        "fax": null,
+        "email": "welcome@engelberg.ch",
+        "url1_link": "https://www.engelberg.ch/",
+        "x_coordinate": 675380.0006317245,
+        "y_coordinate": 180472.0011169343,
+        "change_date": null,
+        "id": 245,
+        "r_key": 245,
+        "type": "Sight",
+        "url_sightseeing": "https://www.titlis.ch",
+        "touristic_region": 4,
+        "canton": null
+    }
+}

@@ -1,0 +1,62 @@
+{
+    "type": "Feature",
+    "id": 237,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.821490751656434,
+                8.407645413161303
+            ]
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Folk Museum",
+        "abstract": "In the center of Engelberg, within a building that bears the coats-of-arms of the town's historically prominent families, stands the Folk Museum of Engelberg. Inside, museum visitors can walk through several rooms furnished to show how people in and around Engelberg lived in the 18th century.",
+        "description": "DRUI, FUIF, NUIN: Facts about Engelberg. On exhibit at the Folk Museum are things that underline the historically interesting facts and fiction of the valley, the region and the monastery. For example, there's information about Engelberg's idiosyncratic dialect—distinct in its pronunciation and not an easy one to understand. Or the display of exquisite traditional Engelberg dress—painstakingly hand-made and accentuated with gold filigree jewelry.\n\nPrayer corners and devotional pictures are proof of the strong influence of Catholicism on the local valley culture. Simple kitchen tools, leaf-filled mattresses, and wooden shoes tell the story of work-filled days and modest times. An exciting look into the past life of this local valley awaits the museum visitor.\n\nIn addition to rooms from the past, the Folk Museum of Engelberg also has a modern part in which visiting exhibits are displayed. The museum hosts two to three special exhibits a year, examples of modern art and photography that present a range of themes (e.g. historical, folkloristic and contemporary).",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/9830_Talmuseum-Engelberg_1a.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/9830_Talmuseum-Engelberg_1a.jpg",
+            "https://images.schweizmobil.ch/image/9830_Talmuseum-Engelberg_2b.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "Engelberg-Titlis Tourismus AG",
+        "name_2": null,
+        "street": "Klosterstrasse 3",
+        "zip": "6390",
+        "place": "Engelberg",
+        "tel": "+41 (0)41 639 77 77",
+        "fax": null,
+        "email": "welcome@engelberg.ch",
+        "url1_link": "https://www.engelberg.ch/",
+        "x_coordinate": 673943.0006289086,
+        "y_coordinate": 186050.00111959106,
+        "change_date": null,
+        "id": 237,
+        "r_key": 237,
+        "type": "Sight",
+        "url_sightseeing": "https://www.talmuseum.ch/",
+        "touristic_region": 4,
+        "canton": null
+    }
+}

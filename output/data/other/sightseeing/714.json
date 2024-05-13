@@ -1,0 +1,72 @@
+{
+    "type": "Feature",
+    "id": 714,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.927801252042904,
+                7.445977101071623
+            ]
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "GurtenTrail",
+        "abstract": "GurtenTrail is the name to look for if you're after thrilling descents shaped by steeply-walled bends and exciting jumps suited to all levels of ability. A choice of two things gets you to the start of this run, namely Gurtenbahn rail or your own muscle power.",
+        "description": "The GurtenTrail is shaped by numerous smoothly lined and steeply walled bends and jumps - yet proposes a decent challenge for pretty much all levels of ability. The jumps are arranged in such a way that they can be negotiated slowly, hence their suitability for beginners and pros alike. Gurtenbahn rail takes you to the start of the trail atop Berne's home mountain, but using your own muscle power along one of the many hiking paths is of course another option. \n  \nWith few exceptions, the GurtenTrail is open practically all year round. And as trailnet member you profit from a special discount for the transport of your bike with Gurtenbahn rail.\n\nOn the middle floor of the multi-storey parking by the Gurtenbahn railway you also discover a bike-wash facility.\n\nStretch profile:\nStretch length: 1700 m\nAltitude: 270 m\n",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/GurtenTrail_roteKurve_2010.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/GurtenTrail_roteKurve_2010.jpg",
+            "https://images.schweizmobil.ch/image/GurtenTrail_Viererkombi_2010.jpg",
+            "https://images.schweizmobil.ch/image/GurtenTrail_VierGewinnt_2012.jpg",
+            "https://images.schweizmobil.ch/image/GurtenTrail_RoadGap_2010.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "name": "Verein trailnet.ch",
+        "name_2": null,
+        "street": "-",
+        "zip": "-",
+        "place": "Bern",
+        "tel": " ",
+        "fax": null,
+        "email": "info@trailnet.ch",
+        "url1_link": "https://www.trailnet.ch",
+        "x_coordinate": 600559.5532960998,
+        "y_coordinate": 197412.7741993617,
+        "change_date": null,
+        "id": 714,
+        "r_key": 714,
+        "type": "Sight",
+        "url_sightseeing": "https://www.gurtenpark.ch/en/leisure/sport-activities/downhill-trail/",
+        "touristic_region": 6,
+        "canton": 12
+    }
+}

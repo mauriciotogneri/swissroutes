@@ -1,0 +1,112 @@
+{
+    "type": "Feature",
+    "id": 776,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.93136197491869,
+                9.570080196281918
+            ]
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Pump track Zizers",
+        "abstract": "The pumptrack in Zizers provides an attractive terrain for all bike enthusiasts and is freely accessible. Thanks to a children’s playground and a barbecue area in close proximity, also accompanying persons are invited to linger.",
+        "description": "The new pump track in Zizers, which has been built in 2016, is located at the Bannholzstrasse at the edge of the village at a beautiful location, surrounded by forests and open space. The asphalted looping trail system with no less than 10 steep face walls and 42 rollers is 240 meters long, which makes it one of the longest in the canton of Grisons. \n\nA few benches at the edge of the forest and a magnificent drinking water fountain create an atmosphere for parents and grandparents to spend a great time there with their teenagers and kids. Adjacent to the track there is a playground area called „Föhrenwäldli“, which offers an open fire barbeque, wooden tables and benches, playing equipment for the little ones as well as a restroom. Parking spots are also available. All the facilities can be used free of charge by tourists and locals during the day, as long as the area is not covered in snow. The pump track is owned by the municipality of Zizers. More than half of it has been financed by industrial sponsors as well as other institutions and companies.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/Pumptrack_ZIZERS_223457.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/Pumptrack_ZIZERS_216059.jpg",
+            "https://images.schweizmobil.ch/image/Pumptrack_ZIZERS_216207.jpg",
+            "https://images.schweizmobil.ch/image/Pumptrack_ZIZERS_216965.jpg",
+            "https://images.schweizmobil.ch/image/Pumptrack_ZIZERS_216608.jpg",
+            "https://images.schweizmobil.ch/image/Pumptrack_ZIZERS_216503.jpg",
+            "https://images.schweizmobil.ch/image/Pumptrack_ZIZERS_216888.jpg",
+            "https://images.schweizmobil.ch/image/Pumptrack_ZIZERS_217019.jpg",
+            "https://images.schweizmobil.ch/image/Pumptrack_ZIZERS_223434.jpg",
+            "https://images.schweizmobil.ch/image/Pumptrack_ZIZERS_223457.jpg",
+            "https://images.schweizmobil.ch/image/Pumptrack__ZIZERS_223465.jpg",
+            "https://images.schweizmobil.ch/image/Pumptrack_ZIZERS_223490.jpg",
+            "https://images.schweizmobil.ch/image/Pumptrack_ZIZERS_216784.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "name": "Heidiland Tourismus",
+        "name_2": null,
+        "street": "Valenserstrasse 6",
+        "zip": "7310 ",
+        "place": "Bad Ragaz",
+        "tel": "+41 81 720 08 20",
+        "fax": null,
+        "email": "info@heidiland.com",
+        "url1_link": "https://www.heidiland.com",
+        "x_coordinate": 762298.8479845814,
+        "y_coordinate": 200012.69602259295,
+        "change_date": null,
+        "id": 776,
+        "r_key": 776,
+        "type": "Sight",
+        "url_sightseeing": "https://zizers.ch/pumptrack/",
+        "touristic_region": 1,
+        "canton": 2
+    }
+}

@@ -1,0 +1,82 @@
+{
+    "type": "Feature",
+    "id": 861,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.0837860880998,
+                7.195393765789244
+            ]
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Pumptrack Gouille à Vaudan",
+        "abstract": "A wide variety of lines can be combined on the freestyle BMX terrain in Le Châble. Double, hip, spin and quarter elements provide lots of \"pumping fun\". ",
+        "description": "The La Châble pump track is located on a site called \"Gouille à Vaudan\". The BMX freestyle area offers different modules for every level: double, hip, spin and quarter. \n\nThere are lines especially for beginners and more complex ones for experienced riders. If you want more variation, you can also cross the lines.  \n\nSurface: soil\nArea: 1,800m2",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/VS_Pumptrack_Gouille_a_Vaudan_1_M.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/VS_Pumptrack_Gouille_a_Vaudan_1_s.jpg",
+            "https://images.schweizmobil.ch/image/VS_Pumptrack_Gouille_a_Vaudan_2_s.jpg",
+            "https://images.schweizmobil.ch/image/VS_Pumptrack_Gouille_a_Vaudan_3_s.jpg",
+            "https://images.schweizmobil.ch/image/VS_Pumptrack_Gouille_a_Vaudan_1_s.jpg",
+            "https://images.schweizmobil.ch/image/VS_Pumptrack_Gouille_a_Vaudan_2_s.jpg",
+            "https://images.schweizmobil.ch/image/VS_Pumptrack_Gouille_a_Vaudan_3_s.jpg"
+        ],
+        "photo_gallery_big": [
+            "https://images.schweizmobil.ch/image-big/VS_Pumptrack_Gouille_a_Vaudan_1_g.jpg",
+            "https://images.schweizmobil.ch/image-big/VS_Pumptrack_Gouille_a_Vaudan_2_g.jpg",
+            "https://images.schweizmobil.ch/image-big/VS_Pumptrack_Gouille_a_Vaudan_3_g.jpg",
+            "https://images.schweizmobil.ch/image-big/VS_Pumptrack_Gouille_a_Vaudan_1_g.jpg",
+            "https://images.schweizmobil.ch/image-big/VS_Pumptrack_Gouille_a_Vaudan_2_g.jpg",
+            "https://images.schweizmobil.ch/image-big/VS_Pumptrack_Gouille_a_Vaudan_3_g.jpg"
+        ],
+        "photo_gallery_copyright": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "name": "Promobike Verbier/St-Bernard",
+        "name_2": null,
+        "street": "CP 300",
+        "zip": "1936",
+        "place": "Verbier",
+        "tel": "+41 (0)27 775 25 11",
+        "fax": null,
+        "email": "info@verbierbikepark.ch",
+        "url1_link": "https://www.verbierbikepark.ch  ",
+        "x_coordinate": 581184.2172463419,
+        "y_coordinate": 103615.4755462281,
+        "change_date": null,
+        "id": 861,
+        "r_key": 861,
+        "type": "Sight",
+        "url_sightseeing": "https://www.valais.ch/en/activities/mountain-bike/pumptracks",
+        "touristic_region": 11,
+        "canton": 7
+    }
+}

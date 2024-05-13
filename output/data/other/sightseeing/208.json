@@ -1,0 +1,62 @@
+{
+    "type": "Feature",
+    "id": 208,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                47.24898105186082,
+                8.643716393482302
+            ]
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "The Au peninsula",
+        "abstract": "The building boom in the Zürich area has stayed well clear of the Au peninsula. A castle with a beautiful park by the lake is located on the west side of the peninsula. The wine museum, opened in 1978 at the foot of the Au peninsula, houses a valuable collection of diverse winemaking equipment.",
+        "description": "The building boom in the Zürich area has stayed well clear of the Au peninsula. A castle with a beautiful park by the lake is located on the west side of the peninsula. Beyond it lie vineyards, beech forests, and a natural pond with an intact reed belt. The beauty of the Au peninsula is described in various works of literature, including an ode from 1750 by Friedrich Gottlieb Klopstock.\n\nThe wine museum (Weinbaumuseum) by Lake Zürich, opened in 1978 at the foot of the Au peninsula, houses a valuable collection of diverse winemaking equipment. It provides insight into viticulture from its beginnings to the present day, as well as into the way viticulture has changed during the past 100 years. As well as its stunning natural environment and culture, the Au peninsula also offers a fantastic restaurant. Its uniquely beautiful situation by Lake Zürich with fabulous views, excellent fish cuisine and the inviting summer garden all add to the venue’s attractions. The gourmet menu includes deliciously prepared fish from Lake Zürich, as well as other regional specialties.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/9249_Halbinsel-Au--Schloss-&-Weinbaumuseum_1a.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/9249_Halbinsel-Au--Schloss-&-Weinbaumuseum_1a.jpg",
+            "https://images.schweizmobil.ch/image/9249_Halbinsel-Au--Schloss-&-Weinbaumuseum_2b.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "Rapperswil Zürichsee Tourismus",
+        "name_2": null,
+        "street": "Fischmarktplatz 1",
+        "zip": "8640",
+        "place": "Rapperswil",
+        "tel": "+41 (0)55 225 77 00",
+        "fax": null,
+        "email": "zuerichsee@zuerich.com",
+        "url1_link": "https://www.zuerich.com",
+        "x_coordinate": 691226.2337624114,
+        "y_coordinate": 233819.57470837454,
+        "change_date": null,
+        "id": 208,
+        "r_key": 208,
+        "type": "Sight",
+        "url_sightseeing": "https://www.zuerichsee.ch/en/page.cfm/SightsRZ/MuseumRZ/1064",
+        "touristic_region": 3,
+        "canton": 3
+    }
+}

@@ -1,0 +1,57 @@
+{
+    "type": "Feature",
+    "id": 46,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                47.64751893175381,
+                8.603162058550543
+            ]
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Rheinaubrücke – from Klettgau to Thurgau",
+        "abstract": "The Rheinaubrücke bridge was built on the medieval route between Klettgau and Thurgau. Monastery and town maintained relations for centuries. The austere and enduring structure has been in use for over 200 years.",
+        "description": "The earliest record of a bridge between Rheinau and Altenburg dates back to 1324. The existing wooden bridge was built in 1804-06 by Blasius Baldischwiler from Laufenburg, who has left several substantial structures that are still in use today. It replaced a bridge that went up in flames in 1799 in the chaos of war.\n\nThe covered timbered truss bridge has three sections, two double pillars and stone abutments. Its total length is around 80 metres. Each section spans around 21 metres. It has a width of 4.3 metres and a height of 3.05 metres. The bridge is completely enclosed barring small light slits and has a gabled roof clad with «beaver’s tail» tiles. The structure of the bridge has been reinforced with steel elements.\n\nA sandstone statue of St. John of Nepomuk, patron saint of bridges, stood on the Swiss side until 1872, when it was thrown into the river during a «raucous festival». The torso was retrieved in 1955 during the construction of the power station. A bronze sculpture of St. Nepomuk by Emilio Stanzani has stood in this place since 1961.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/IVS_23_Rheinau.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/IVS_23_Rheinau.jpg"
+        ],
+        "photo_gallery_big": [
+            ""
+        ],
+        "photo_gallery_copyright": [
+            ""
+        ],
+        "photo_gallery_author": [
+            ""
+        ],
+        "photo_gallery_abstract": [
+            ""
+        ],
+        "name": "Bundesinventar der historischen Verkehrswege der Schweiz (IVS)",
+        "name_2": null,
+        "street": " ",
+        "zip": " ",
+        "place": " ",
+        "tel": " ",
+        "fax": null,
+        "email": " ",
+        "url1_link": "https://www.ivs.admin.ch",
+        "x_coordinate": 687499.9443895343,
+        "y_coordinate": 278079.9864927693,
+        "change_date": null,
+        "id": 46,
+        "r_key": 46,
+        "type": "Sight",
+        "url_sightseeing": "https://s.geo.admin.ch/6fb1712f1a",
+        "touristic_region": 3,
+        "canton": 3
+    }
+}

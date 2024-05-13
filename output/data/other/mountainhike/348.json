@@ -1,0 +1,74 @@
+{
+    "type": "Feature",
+    "id": 348,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.26290200904518,
+                9.063316193841777
+            ]
+        ]
+    },
+    "properties": {
+        "id": 348,
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "type": "Mountaineering",
+        "ascent_altitude": 600,
+        "ascent_time_max": 120,
+        "sac_chm_route": true,
+        "sac_created": "2020-06-26 12:36:58",
+        "descent_altitude": 10,
+        "descent_time_max": null,
+        "descent_time_min": null,
+        "sac_orig_id": 1686,
+        "sac_modified": "2020-06-26 12:37:07",
+        "sac_status": "published",
+        "poi_title": "Capanna Brogoldone",
+        "abstract": "From the summit station of the small aerial cableway at Monti di Saurù a good trail leads up through a steep forest following the ridge between Riviera and Valle di Lumino. In the upper part it makes an arc to the left, and when it traverses back to the right we soon reach the timber line and the cabin.",
+        "subtitle": "Through a steep forest into the sunshine in an efficient way",
+        "title": "From Monti di Saurù",
+        "sac_type": "mountain_hiking",
+        "mountain_hiking_difficulty": "T2",
+        "alpine_tour_difficulty": null,
+        "alpine_climbing_difficulty": null,
+        "grade": null,
+        "height_climbing_wall": null,
+        "via_ferrata_difficulty": null,
+        "ski_tour_difficulty": null,
+        "mountaineering_sacphoto_ids": [
+            1150,
+            1151
+        ],
+        "sac_poi_id": 2147000047,
+        "x_coordinate": 725256.2763530563,
+        "y_coordinate": 124794.49813989918,
+        "change_date": "2023-03-30 12:14:21",
+        "sac_photos": [
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 1150,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1522069470_827203267Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1522069470_827203267master.jpg",
+                "photo_sac_id": 252477,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1522069470_827203267.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1522069470_827203267M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1522069470_827203267Mc.jpg",
+                "title": "On the way between the Monti di Saurù and the Capanna Brogoldone."
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 1151,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1537868814_2105308361Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1537868814_2105308361master.jpg",
+                "photo_sac_id": 252476,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1537868814_2105308361.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1537868814_2105308361M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1537868814_2105308361Mc.jpg",
+                "title": "Capanna Brogoldone."
+            }
+        ]
+    }
+}

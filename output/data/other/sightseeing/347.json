@@ -1,0 +1,62 @@
+{
+    "type": "Feature",
+    "id": 347,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.60235393886838,
+                10.425048381624917
+            ]
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Tessanda, St. Maria",
+        "abstract": "The Tessanda is a hand weaving mill in Val Müstair. It has existed since 1928 and is one of the most important training companies in the valley.",
+        "description": "A pastor called Rudolf Filli started the Tessanda in an attempt to stop the exodus of young people from the valley. Keeping to the traditional technique of the hand loom, the Tessanda tries to expand its product range to such items as silk goods.\n\nToday the Tessanda (a hand weaving mill) in Val Müstair has 25 looms and employs 17 women. In this 90 year old traditional business, apprentices from the valley and the whole of Switzerland can be trained in a profession that has become a rarity. In its shop which is located in the heart of Santa Maria, a large selection of hand woven treasures, from fashion accessories to gifts and articles of daily use, can be found.\n\nThe Tessanda is recognised as an on the job training facility by the Canton of Grisons and is financed by a foundation and a Gönnerverein (a peer group of sponsors).",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/8847_Tessanda_Handwebatelier_St_Maria_1a.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/8847_Tessanda_Handwebatelier_St_Maria_1a.jpg",
+            "https://images.schweizmobil.ch/image/8847_Tessanda_Handwebatelier_St_Maria_2b.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "Gäste-Information Val Müstair",
+        "name_2": null,
+        "street": "Chasa Cumünala",
+        "zip": "7532",
+        "place": "Tschierv",
+        "tel": "+41 (0)81 861 88 40",
+        "fax": null,
+        "email": "info@val-muestair.ch",
+        "url1_link": "https://www.val-muestair.ch",
+        "x_coordinate": 828765.295304442,
+        "y_coordinate": 165587.48652053715,
+        "change_date": null,
+        "id": 347,
+        "r_key": 347,
+        "type": "Sight",
+        "url_sightseeing": "https://www.tessanda.ch",
+        "touristic_region": 1,
+        "canton": 2
+    }
+}

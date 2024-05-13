@@ -1,0 +1,62 @@
+{
+    "type": "Feature",
+    "id": 609,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.49547857587684,
+                6.121815172848014
+            ]
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Creux du Croue cirque",
+        "abstract": "Creux de Croue is an isolated little valley, at the bottom of which visitors discover a sheep pen and a peat bog.",
+        "description": "This natural curio deserves a visit because of the majestic spectacle it unveils at the bottom of its depression, and also for the pleasure of the hike. Although Creux de Croue is hidden between Noirmont and Crêt-des-Danses and not easily accessible, it is ideal for nature lovers. Appearing like a cleft at Noirmont, Creux de Croue is a deep depression, which was probably caused by erosion and later by the continuous flow of underground waters. The bottom of the valley features a peat bog and a sheep pen. Although this area is well worth a visit, its protection is of the utmost importance.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/8415_Talkessel-Creux-du-Croue_1a.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/8415_Talkessel-Creux-du-Croue_1a.jpg",
+            "https://images.schweizmobil.ch/image/8415_Talkessel-Creux-du-Croue_2b.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "Office du Tourisme de St-Cergue",
+        "name_2": null,
+        "street": "Place Sy-Vieuxville",
+        "zip": "1264",
+        "place": "St-Cergue",
+        "tel": "+41 (0)22 360 13 14",
+        "fax": null,
+        "email": "info@st-cergue-tourisme.ch",
+        "url1_link": "https://www.st-cergue-tourisme.ch",
+        "x_coordinate": 498910.6254565543,
+        "y_coordinate": 150200.83129088022,
+        "change_date": null,
+        "id": 609,
+        "r_key": 609,
+        "type": "Sight",
+        "url_sightseeing": null,
+        "touristic_region": 9,
+        "canton": 27
+    }
+}

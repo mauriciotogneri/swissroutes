@@ -1,0 +1,67 @@
+{
+    "type": "Feature",
+    "id": 376,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                47.649383333496424,
+                9.186259574805396
+            ]
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Seeburg Park and Seeburg Castle",
+        "abstract": "The gorgeous Seeburg Park, some 2.5 km in length, stretches from Kreuzlingen Harbour, around Seeburg Castle and along the shore of Lake Constance. The park boasts an animal park, a herb and spice garden, a crazy golf course and «Schloss Seeburg» Restaurant, making it the perfect destination.",
+        "description": "Adjacent to Lake Constance almost throughout its entire length of 2.5 kilometres, the town of Kreuzlingen invites you to the largest public recreational, nature and adventure park on Lake Constance. The Seeburg Park is the heart of the lakeshore grounds. Mature trees, seasonally wet habitats, large areas of unspoilt nature, a lakeshore with gorgeous views, a play area for young and old, an animal park with old breeds of animals, an island that is home to Mangalitza pigs, a herb and spice garden, cultivated alternating und rose borders, the lake museum, catering facilities to suit every budget and much more make the Seeburg Park an unparalleled jewel on Lake Constance.\n\nThe park offers a variety of recreational activities. Take a relaxing stroll through the parkland and along the shore of Lake Constance. Visit the animal park in Kreuzlingen, which covers approximately one hectare of the Seeburg Park grounds with its enclosures and stables. Or why not have a game on the crazy golf course?\n\nIn 1870 Seeburg Castle was given its current historicist style appearance; today it houses Schloss Seeburg Restaurant. Here you can enjoy exquisite dishes in the romantic restaurant or on the sunny terrace. Whether you want to cool down after a bike ride or hike, or would like to enjoy a wholesome meal - you will feel at home here.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/12719_Seeburgpark_Schloss_Seeburg_1a.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/12719_Seeburgpark_Schloss_Seeburg_1a.jpg",
+            "https://images.schweizmobil.ch/image/12719_Seeburgpark_Schloss_Seeburg_2b.jpg",
+            "https://images.schweizmobil.ch/image/12719_Seeburgpark_Schloss_Seeburg_3.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            "",
+            ""
+        ],
+        "name": "Thurgau Tourismus",
+        "name_2": null,
+        "street": "Egelmoosstrasse 1",
+        "zip": "8580",
+        "place": "Amriswil",
+        "tel": "+41 (0)71 414 11 44",
+        "fax": null,
+        "email": "info@thurgau-bodensee.ch",
+        "url1_link": "https://www.thurgau-bodensee.ch",
+        "x_coordinate": 731300.1859951164,
+        "y_coordinate": 279099.86816587404,
+        "change_date": null,
+        "id": 376,
+        "r_key": 376,
+        "type": "Sight",
+        "url_sightseeing": "https://www.kreuzlingen.ch/umwelt/museen_parks.php?q=Seeburgpark",
+        "touristic_region": 2,
+        "canton": 6
+    }
+}

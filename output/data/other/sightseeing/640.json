@@ -1,0 +1,57 @@
+{
+    "type": "Feature",
+    "id": 640,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.111784350354874,
+                7.9356844271726965
+            ]
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Wichulti–Saas Fee",
+        "abstract": "The Saas Fee Kapellenweg (Chapel Path) is a part of the «zur Hohen Stiege» place of pilgrimage. Nestling in an impressive landscape, the path is bordered by prayer huts and chapels and belongs to the «Sacri Monti» as it is called in Italian.",
+        "description": "The first «Sacro Monte» was created in 1481 by Franciscan monk Bernardo Caimi in Italian Varallo in the Val Sesia. The«holy mountain» served as a substitute for pilgrimages to the Holy Land, which had been interrupted since 1435 by the fall of Constantinople. From then on, European pilgrims had to be satisfied with staged presentations of Biblical events. As with the place of pilgrimage «zur Hohen Stiege», (to the high steps), which took its name from the stone stairway leading from the Gnadenkapelle (Chapel of Mercy) up the mountain slope to Saas Fee. The 15 wayside chapels were built between 1709 and 1711, each with a depiction of one of the Mysteries of the Rosary.\n\nMuch later in the 1930s, author and playwright Carl Zuckmayer travelled to Saas Fee and maintained his ties to the village. In 1938, as he was climbing up the Kapellenweg with his wife, «We knew we were going home». He dedicated his drama of the same name to the «Kreuzweg» (Way of the Cross), performed for the first time in December 1920. The premiere was held in the State Theatre in Berlin but the piece was taken off after only three performances. Zuckmayer’s personal Way of the Cross reached its tragic zenith with his flight from Germany during the period of National Socialism.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/IVS_06_01_SaasFee.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/IVS_06_01_SaasFee.jpg"
+        ],
+        "photo_gallery_big": [
+            ""
+        ],
+        "photo_gallery_copyright": [
+            ""
+        ],
+        "photo_gallery_author": [
+            ""
+        ],
+        "photo_gallery_abstract": [
+            ""
+        ],
+        "name": "Bundesinventar der historischen Verkehrswege der Schweiz (IVS)",
+        "name_2": null,
+        "street": " ",
+        "zip": " ",
+        "place": " ",
+        "tel": " ",
+        "fax": null,
+        "email": " ",
+        "url1_link": "https://www.ivs.admin.ch",
+        "x_coordinate": 638429.9150500528,
+        "y_coordinate": 106820.10186191995,
+        "change_date": null,
+        "id": 640,
+        "r_key": 640,
+        "type": "Sight",
+        "url_sightseeing": "https://s.geo.admin.ch/6fb1879dad",
+        "touristic_region": 11,
+        "canton": 7
+    }
+}

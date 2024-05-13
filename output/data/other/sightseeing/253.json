@@ -1,0 +1,62 @@
+{
+    "type": "Feature",
+    "id": 253,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                47.24936474798854,
+                9.342278173977025
+            ]
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Säntis",
+        "abstract": "Säntis is the king of the Alpstein. It holds throne at 2,502m above sea level and is the region’s landmark. Visitors to the nature adventure park and the tourist cheese factory on the Schwägalp can experience genuine nature, culture and tradition.",
+        "description": "At the summit, guests can expect large sun terraces, weather-proof viewing halls, wheelchair-accessible paths to the summit, panoramic restaurants with splendid views and all-year-round exhibitions with free entry. A particular treat are the romantic evening journeys with full-moon buffet and music during every full moon.\n\nIn close proximity to the suspension railway valley station, which is open all year round, you can find the Schwägalp mountain hotel, the idyllic Passhöhe restaurant, the Alp tourist cheese factory, the nature adventure park, the geology rock park and an extensive, superbly structured network of hiking trails. Säntis invites visitors to climb up and take a look at the world below.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/9053_Saentis_1a.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/9053_Saentis_1a.jpg",
+            "https://images.schweizmobil.ch/image/9053_Saentis_2b.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "Appenzellerland Tourismus AG",
+        "name_2": null,
+        "street": "St. Gallerstrasse 49",
+        "zip": "9100",
+        "place": "Herisau",
+        "tel": "+41 (0)71 898 33 00",
+        "fax": null,
+        "email": "info@appenzellerland.ch",
+        "url1_link": "https://www.appenzellerland.ch",
+        "x_coordinate": 744098.9213790875,
+        "y_coordinate": 234909.49958514952,
+        "change_date": null,
+        "id": 253,
+        "r_key": 253,
+        "type": "Sight",
+        "url_sightseeing": "https://www.saentisbahn.ch",
+        "touristic_region": 2,
+        "canton": 23
+    }
+}

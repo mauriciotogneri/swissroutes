@@ -1,0 +1,77 @@
+{
+    "type": "Feature",
+    "id": 814,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                47.4307605488772,
+                7.773747802822915
+            ]
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Bike park Hölstein ",
+        "abstract": "The bike park Hölstein offers a dirt pump track, a jumpline, drop jumps and a technique park on around 3000 m2. Both beginners and professionals will get their money's worth thanks to the versatile possibilities. ",
+        "description": "The bike park Hölstein is the \"place to be\", and not only for seasoned freestylers on their dirt and full-suspension mountain bikes. It is suitable for advanced riders and beginners of all ages. Even children who can barely walk can race across the terrain at the entrance to the village of Hölstein on their balance bikes. \n\nThe bike park offers space and opportunity to learn how to ride a bike far away from traffic and noise. In this way, it aims to make a contribution to sustainable transport development and generally to encourage people to exercise. \n\nIn wet and rainy conditions, the dirt pump track remains closed for safety reasons. The technique park and the jumping facility are always open.\n",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/BL_Bikepark_Hoelstein_3.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/BL_Bikepark_Hoelstein_1.jpg",
+            "https://images.schweizmobil.ch/image/BL_Bikepark_Hoelstein_2.jpg",
+            "https://images.schweizmobil.ch/image/BL_Bikepark_Hoelstein_3.jpg",
+            "https://images.schweizmobil.ch/image/BL_Bikepark_Hoelstein_4.jpg",
+            "https://images.schweizmobil.ch/image/BL_Bikepark_Hoelstein_5.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "florian_kaeser                                        ",
+            "florian_kaeser                                        ",
+            "florian_kaeser                                        ",
+            "florian_kaeser                                        ",
+            "florian_kaeser                                        "
+        ],
+        "photo_gallery_author": [
+            "florian_kaeser                      ",
+            "florian_kaeser                      ",
+            "florian_kaeser                      ",
+            "florian_kaeser                      ",
+            "florian_kaeser                      "
+        ],
+        "photo_gallery_abstract": [
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "name": "Verein Bikepark Hölstein",
+        "name_2": null,
+        "street": "Mattenstrasse 15",
+        "zip": "4410",
+        "place": "Liestal",
+        "tel": "-",
+        "fax": null,
+        "email": "bikeparkhoelstein@gmail.com",
+        "url1_link": "https://www.bikeparkhoelstein.ch",
+        "x_coordinate": 625283.7754734033,
+        "y_coordinate": 253383.77796415784,
+        "change_date": null,
+        "id": 814,
+        "r_key": 814,
+        "type": "Sight",
+        "url_sightseeing": "https://www.bikeparkhoelstein.ch",
+        "touristic_region": 5,
+        "canton": 9
+    }
+}

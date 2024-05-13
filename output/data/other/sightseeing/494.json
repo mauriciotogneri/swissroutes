@@ -1,0 +1,62 @@
+{
+    "type": "Feature",
+    "id": 494,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                47.093463435888935,
+                7.154354727521924
+            ]
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Wine tasting centre Viniterra Lake Biel",
+        "abstract": "The Vinothek Vinterra proposes an ideal introduction into the rich assortment of Lake Biel wines.",
+        "description": "In cosy ambiance, here you can taste wines under no obligation. And tasting and talking shop as you ponder on your favourite wine can take place alone, as a twosome, or even in a group.\n\nThe unique 100-year-old Propfhüsli at the heart of the vines in Twann, the centrally located wine growing region of Lake Biel, has been restored and welcomes guests with open doors as a meeting place for wine tasting and purchases.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/8311_Vinothek-Viniterra-Bielersee_1_a.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/8311_Vinothek-Viniterra-Bielersee_1_a.jpg",
+            "https://images.schweizmobil.ch/image/8311_Vinothek-Viniterra-Bielersee_2b.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "Vinothek Viniterra Bielersee",
+        "name_2": null,
+        "street": "Im Moos 4",
+        "zip": "2513",
+        "place": "Twann",
+        "tel": "+41 (0)32 315 77 47",
+        "fax": null,
+        "email": "vinothek@viniterra-bielersee.ch",
+        "url1_link": "https://www.vinothek-viniterra.ch",
+        "x_coordinate": 578416.3594761787,
+        "y_coordinate": 215868.90321927672,
+        "change_date": null,
+        "id": 494,
+        "r_key": 494,
+        "type": "Sight",
+        "url_sightseeing": "https://www.vinothek-viniterra.ch",
+        "touristic_region": 8,
+        "canton": 12
+    }
+}

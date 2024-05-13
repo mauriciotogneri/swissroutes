@@ -1,0 +1,112 @@
+{
+    "type": "Feature",
+    "id": 882,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.96176739871632,
+                7.438702915589823
+            ]
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Pumptrack Viererfeld",
+        "abstract": "A dirt park, a pump track, a bicycle playground with practice area and a short jump trail: the bike playground near the Berner Viererfeld with an area of approximately 3000 m2 has something for everyone. The loop containing tables, rollers and turns is perfect to experiment with jumping.",
+        "description": "A 3000 m2 bike playground is located in the Viererfeld neighbourhood in the north of the city of Bern, where cycling enthusiasts can blow off steam. The large pump track and dirt park consists of various table jumps, rollers and banked turns, which allow different combinations. This is a great opportunity for children and teens to playfully improve their biking skills.\n\nIn addition to the pump track and dirt park, Viererfeld also has a “bicycle playground” for the smallest bike fans and a short jump trail for those with some experience. Jumps can be practiced and perfected in the loop. \n\nFor the time being, the Viererfeld pump track is a multi-year temporary facility, but it is expected to be integrated into the future neighbourhood park.\n\n\nSurface area: 3000 m2 \nSurface: natural ground",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image-big/BE_Pumptrack_Viererfeld_2_g.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/BE_Pumptrack_Viererfeld_10_s.jpg",
+            "https://images.schweizmobil.ch/image/BE_Pumptrack_Viererfeld_11_s.jpg",
+            "https://images.schweizmobil.ch/image/BE_Pumptrack_Viererfeld_12_s.jpg",
+            "https://images.schweizmobil.ch/image/BE_Pumptrack_Viererfeld_1_s.jpg",
+            "https://images.schweizmobil.ch/image/BE_Pumptrack_Viererfeld_2_s.jpg",
+            "https://images.schweizmobil.ch/image/BE_Pumptrack_Viererfeld_3_s.jpg",
+            "https://images.schweizmobil.ch/image/BE_Pumptrack_Viererfeld_4_s.jpg",
+            "https://images.schweizmobil.ch/image/BE_Pumptrack_Viererfeld_5_s.jpg",
+            "https://images.schweizmobil.ch/image/BE_Pumptrack_Viererfeld_6_s.jpg",
+            "https://images.schweizmobil.ch/image/BE_Pumptrack_Viererfeld_7_s.jpg",
+            "https://images.schweizmobil.ch/image/BE_Pumptrack_Viererfeld_8_s.jpg",
+            "https://images.schweizmobil.ch/image/BE_Pumptrack_Viererfeld_9_s.jpg"
+        ],
+        "photo_gallery_big": [
+            "https://images.schweizmobil.ch/image-big/BE_Pumptrack_Viererfeld_10_g.jpg",
+            "https://images.schweizmobil.ch/image-big/BE_Pumptrack_Viererfeld_11_g.jpg",
+            "https://images.schweizmobil.ch/image-big/BE_Pumptrack_Viererfeld_12_g.jpg",
+            "https://images.schweizmobil.ch/image-big/BE_Pumptrack_Viererfeld_1_g.jpg",
+            "https://images.schweizmobil.ch/image-big/BE_Pumptrack_Viererfeld_2_g.jpg",
+            "https://images.schweizmobil.ch/image-big/BE_Pumptrack_Viererfeld_3_g.jpg",
+            "https://images.schweizmobil.ch/image-big/BE_Pumptrack_Viererfeld_4_g.jpg",
+            "https://images.schweizmobil.ch/image-big/BE_Pumptrack_Viererfeld_5_g.jpg",
+            "https://images.schweizmobil.ch/image-big/BE_Pumptrack_Viererfeld_6_g.jpg",
+            "https://images.schweizmobil.ch/image-big/BE_Pumptrack_Viererfeld_7_g.jpg",
+            "https://images.schweizmobil.ch/image-big/BE_Pumptrack_Viererfeld_8_g.jpg",
+            "https://images.schweizmobil.ch/image-big/BE_Pumptrack_Viererfeld_9_g.jpg"
+        ],
+        "photo_gallery_copyright": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "name": "Bern Welcome",
+        "name_2": null,
+        "street": "Amthausgasse 4",
+        "zip": "3001",
+        "place": "Bern",
+        "tel": "+41 (0)31 328 12 12",
+        "fax": null,
+        "email": "info@bern.com",
+        "url1_link": "https://www.bern.com",
+        "x_coordinate": 600005.9195844774,
+        "y_coordinate": 201188.10939824022,
+        "change_date": null,
+        "id": 882,
+        "r_key": 882,
+        "type": "Sight",
+        "url_sightseeing": "https://www.sportamt-bern.ch/sportanlage/pumptrack-viererfeld",
+        "touristic_region": 6,
+        "canton": 12
+    }
+}

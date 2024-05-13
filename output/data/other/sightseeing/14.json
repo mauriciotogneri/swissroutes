@@ -1,0 +1,62 @@
+{
+    "type": "Feature",
+    "id": 14,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.6020756496612,
+                8.612110328097357
+            ]
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Eldorado of cable cars: Gemsstock",
+        "abstract": "Widest panoramic view in central Switzerland. In Andermatt it goes uphill everywhere: Up to the Gotthard pass, the Oberalp pass, the Nätschen and the Gütsch and not to forget to the Gemsstock. The ride on the cablecar up to the Gemsstock high above the Gurschen glacier is particularly impressive.",
+        "description": "The Ursern valley is a superlative paradise for hikers. Everywhere you will come across well-marked hiking trails, several beautiful nature trails and an intact mountain landscape. Mountain bikers, too, will find here what they are looking out for. Big deal, as this place teems with alpine passes on all sides! An interesting excursion is the thematic hiking trail Gurschen-Andermatt, which makes the avalanche forest the subject of discussion. From the Gemsstock, by the way, you have an awesome 360° panoramic view of more than 360 summits.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/8636_Seilbahn-Eldorado-Gemsstock_1a.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/8636_Seilbahn-Eldorado-Gemsstock_1a.jpg",
+            "https://images.schweizmobil.ch/image/8636_Seilbahn-Eldorado-Gemsstock_2b.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "Andermatt-Urserntal Tourismus GmbH",
+        "name_2": null,
+        "street": "Gotthardstrasse 2",
+        "zip": "6490",
+        "place": "Andermatt",
+        "tel": "+41 (0)41 888 71 00",
+        "fax": null,
+        "email": "info@andermatt.ch",
+        "url1_link": "https://www.andermatt.ch",
+        "x_coordinate": 689909.7365672325,
+        "y_coordinate": 161874.94949150097,
+        "change_date": null,
+        "id": 14,
+        "r_key": 14,
+        "type": "Sight",
+        "url_sightseeing": "https://www.gemsstock.ch",
+        "touristic_region": 4,
+        "canton": 4
+    }
+}

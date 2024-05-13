@@ -1,0 +1,74 @@
+{
+    "type": "Feature",
+    "id": 150,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.91853677744082,
+                8.493500311816968
+            ]
+        ]
+    },
+    "properties": {
+        "id": 150,
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "type": "Mountaineering",
+        "ascent_altitude": 910,
+        "ascent_time_max": 135,
+        "sac_chm_route": true,
+        "sac_created": "2020-05-04 10:10:33",
+        "descent_altitude": 700,
+        "descent_time_max": 120,
+        "descent_time_min": null,
+        "sac_orig_id": 810,
+        "sac_modified": "2020-05-04 10:11:09",
+        "sac_status": "published",
+        "poi_title": "Schwalmis",
+        "abstract": "The communes Isenthal (UR), Emmetten and Beckenried (NW) share one of the more rewarding hiking summits around Lake of Lucerne: Schwalmis. To Nidwalden the mountain drops sharply, with rocky slabs and rubble; on the Uri side, however, steep grassy slopes characterise its appearance. The summit is well-known and made accessible by a mountain trail, but again, we try to find alternatives. A hike on steep slopes in early summer with myriads of blooming flowers is highly recommended.",
+        "subtitle": "A mountain with two appearances",
+        "title": "From Gitschenen across Schwalmis to Musenalp",
+        "sac_type": "mountain_hiking",
+        "mountain_hiking_difficulty": "T4",
+        "alpine_tour_difficulty": null,
+        "alpine_climbing_difficulty": null,
+        "grade": null,
+        "height_climbing_wall": null,
+        "via_ferrata_difficulty": null,
+        "ski_tour_difficulty": null,
+        "mountaineering_sacphoto_ids": [
+            476,
+            477
+        ],
+        "sac_poi_id": 1736,
+        "x_coordinate": 680349.7793823768,
+        "y_coordinate": 196922.88217881566,
+        "change_date": "2023-03-30 12:14:01",
+        "sac_photos": [
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 476,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1513345440_707849656Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1513345440_707849656master.jpg",
+                "photo_sac_id": 247946,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1513345440_707849656.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1513345440_707849656M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1513345440_707849656Mc.jpg",
+                "title": "View from Vorder Jochli across the steep pasture of the ascent (left), which leads up to the small spires below P. 2171."
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 477,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1513345547_2041627222Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1513345547_2041627222master.jpg",
+                "photo_sac_id": 247947,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1513345547_2041627222.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1513345547_2041627222M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1513345547_2041627222Mc.jpg",
+                "title": "On the descent from Schwalmis; the view goes back across the green ridge of Aren and the mighty rock slabs of the north face."
+            }
+        ]
+    }
+}

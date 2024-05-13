@@ -1,0 +1,62 @@
+{
+    "type": "Feature",
+    "id": 15,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.66811791449158,
+                8.585735062105323
+            ]
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Waterworld Göschenen",
+        "abstract": "Background information about the subject of water, adjusted to the matching map of trails. «Wasserwelten Göschenen» stands for attractive offers on natural environment education and outdoor adventures around the subject area of water.",
+        "description": "Either for nature lovers, hikers, families or school classes - «Wasserwelten» provides you with unforgettable moments of sensuous experiences on the mountain river as well as games and fun on the waterside. In addition, nice quiet spots along the Göschener Reuss invite young and old to stay and have a picnic.\n\nFrom the fringe of the Damma glacier right at the back of the Göschener valley to the sewage plant below the village, on a network of paths that extends over more than 60 kilometres, 89 stations demonstrate the most varied facets of water: as a designer of the landscape, as a habitat or natural danger, but also as an elixir of life and economic resource. The hikers can plunge into the subject of water at any station they like: at the glacier or the highmoor, at the embankment dam or the power station, at the biotope or a floodplain, at an alluvial plain or in a little canyon, at the source or the water treatment plant.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/8637_Wasserwelten-Goeschenen_1a.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/8637_Wasserwelten-Goeschenen_1a.jpg",
+            "https://images.schweizmobil.ch/image/8637_Wasserwelten-Goeschenen_2b.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "Andermatt-Urserntal Tourismus GmbH",
+        "name_2": null,
+        "street": "Gotthardstrasse 2",
+        "zip": "6490",
+        "place": "Andermatt",
+        "tel": "+41 (0)41 888 71 00",
+        "fax": null,
+        "email": "info@andermatt.ch",
+        "url1_link": "https://www.andermatt.ch ",
+        "x_coordinate": 687781.3841716809,
+        "y_coordinate": 169185.69471424795,
+        "change_date": null,
+        "id": 15,
+        "r_key": 15,
+        "type": "Sight",
+        "url_sightseeing": "https://www.wasserwelten.ch",
+        "touristic_region": 4,
+        "canton": 4
+    }
+}

@@ -1,0 +1,62 @@
+{
+    "type": "Feature",
+    "id": 223,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                47.35079330519935,
+                8.489885344696047
+            ]
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Planetenweg Walking Trail from Uetliberg",
+        "abstract": "Would you like to reach for the stars? On the elevated trail from the Uetliberg mountain station to Felsenegg, you can hike through a model of the solar system. You will encounter Mercury, Venus, Jupiter and other planets and discover exciting facts about the stars.",
+        "description": "Would you like to reach for the stars? You don’t have to go far. On Uetliberg, Zürich’s local mountain, the sun, moon and stars are close enough to touch. Take the S10 tram from Zürich’s Main Station to the Uetliberg station. The Planetenweg walking trail starts there (at the sun) and ends at the Adliswil-Felsenegg LAF cable car mountain station (at Pluto).\n\nEvery meter that you cover on the Planetenweg represents one million kilometers from the sun to Pluto. Along the way, there is interesting information about every planet. You also gain a totally new perspective of the solar system.\r\nA detour to the UTO KULM Hotel is well worth it. Enjoy the panoramic view in front of the hotel with a delicious, freshly baked almond croissant. The restaurant is open daily and the self-service kiosk is open weather permitting. You can take the cable car down to Adliswil and travel with the S4 train back to Zürich’s Main Station.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/9253_Planetenweg-Uetliberg-Felsenegg_1a.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/9253_Planetenweg-Uetliberg-Felsenegg_1a.jpg",
+            "https://images.schweizmobil.ch/image/9253_Planetenweg-Uetliberg-Felsenegg_3b.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "Rapperswil Zürichsee Tourismus",
+        "name_2": null,
+        "street": "Fischmarktplatz 1",
+        "zip": "8640",
+        "place": "Rapperswil",
+        "tel": "+41 (0)55 225 77 00",
+        "fax": null,
+        "email": "zuerichsee@zuerich.com",
+        "url1_link": "https://www.zuerich.com",
+        "x_coordinate": 679430.3298689568,
+        "y_coordinate": 244970.33779628552,
+        "change_date": null,
+        "id": 223,
+        "r_key": 223,
+        "type": "Sight",
+        "url_sightseeing": null,
+        "touristic_region": 3,
+        "canton": 3
+    }
+}

@@ -1,0 +1,62 @@
+{
+    "type": "Feature",
+    "id": 254,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                47.67770902830492,
+                8.616942822979198
+            ]
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "The Rhine Falls",
+        "abstract": "Near Schaffhausen the Rhine River offers visitors the glorious spectacle of the largest waterfall in Europe. At a width of 150 m and a height of 23 m, an average of 700 m3 of water rushes over the cliffs each second.",
+        "description": "Created 15,000 years ago, this imposing spectacle of nature has become a key attraction for countless visitors from around the world.\n\nHighlight: Experience the Rhine Falls by taking an exciting boat ride to the big rock in the middle of the falls and feel the spray of the thundering water on your skin.\n\nEvery 31st july, the fantastic Rhine Falls fireworks show takes place – an experience beyond comparison.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/9225_Rheinfall_1a.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/9225_Rheinfall_1a.jpg",
+            "https://images.schweizmobil.ch/image/9225_Rheinfall_2b.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "Schaffhauserland Tourismus",
+        "name_2": null,
+        "street": "Vordergasse 73",
+        "zip": "8201",
+        "place": "Schaffhausen",
+        "tel": "+41 (0)52 632 40 20",
+        "fax": null,
+        "email": "info@schaffhauserland.ch",
+        "url1_link": "https://www.schaffhauserland.ch",
+        "x_coordinate": 688484.0006112561,
+        "y_coordinate": 281451.00114703947,
+        "change_date": null,
+        "id": 254,
+        "r_key": 254,
+        "type": "Sight",
+        "url_sightseeing": "https://www.rheinfall.ch",
+        "touristic_region": 2,
+        "canton": null
+    }
+}

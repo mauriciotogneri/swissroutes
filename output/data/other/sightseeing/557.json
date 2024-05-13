@@ -1,0 +1,62 @@
+{
+    "type": "Feature",
+    "id": 557,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.96962753060794,
+                8.636989130965908
+            ]
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Aussichtsparadies Stoos-Fronalpstock",
+        "abstract": "The summit of the Fronalpstock lies high above Lake Lucerne and offers a singular view of more than 10 lakes in Switzerland and many peaks of the Alps. The sun terrace of the summit restaurant and hiking trails are open in both summer and winter.",
+        "description": "Anyone seeking lofty heights takes the comfortable chairlift Fronalpstock (depending on the season and weather conditions) from Stoos to the Fronalpstock (at 1922m). The panoramic view of more than ten Swiss lakes and numerous peeks is simply breathtaking. On the summit, which drops vertically down to a fabulous view of Lake Uri and the Rütli meadow, are a restaurant, charming dwarf goats, a big playground and a walking path.\n\nThe cult sites commemorating the origins of the Swiss Confederation are literally at your feet on the Fronalpstock as well. From high above, you can trace the William Tell’s historic journey and view the site of mythological founding of the Swiss Confederation. In addition, the spectacular Stoos ridge trail between Klingenstock and Fronalpstock ends on the Fronalpstock.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/7800_Aussichtsparadies-Stoos-Fronalpstock_1a.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/7800_Aussichtsparadies-Stoos-Fronalpstock_1a.jpg",
+            "https://images.schweizmobil.ch/image/7800_Aussichtsparadies-Stoos-Fronalpstock_2b.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "Schwyz Tourismus",
+        "name_2": null,
+        "street": "Zeughaustrasse 10",
+        "zip": "6430",
+        "place": "Schwyz",
+        "tel": "+41 (0)41 855 59 50",
+        "fax": null,
+        "email": "info@schwyz-tourismus.ch",
+        "url1_link": "https://www.schwyz-tourismus.ch",
+        "x_coordinate": 691191.8469908346,
+        "y_coordinate": 202758.84268349494,
+        "change_date": null,
+        "id": 557,
+        "r_key": 557,
+        "type": "Sight",
+        "url_sightseeing": "https://www.stoos.ch",
+        "touristic_region": 4,
+        "canton": 11
+    }
+}

@@ -1,0 +1,62 @@
+{
+    "type": "Feature",
+    "id": 296,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                47.583845369242496,
+                8.867231242402559
+            ]
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Ittingen Charterhouse",
+        "abstract": "The following can be found at Ittingen Charterhouse: conference centre, hotel, restaurant, farming estate, residential home and workplaces for people with disabilities, Canton of Thurgau art museum, Ittingen Museum, tecum, training and encounter centre of the Evang. Church.",
+        "description": "Ittingen Charterhouse – a place with over 800 years of history. The charterhouse’s former monastery is one of the most important cultural monuments in Thurgau (Lake Constance region). Ittingen Charterhouse is now home to an internationally renowned training and conference centre and outstanding cuisine with varied banquet and celebration rooms for many occasions. There is also a farming estate with its own cheese factory and vineyard, a nursery and workshop for people with mental illnesses and disabilities. The Canton of Thurgau art museum, the Ittingen museum and the tecum (Evangelic encounter and training centre) can also be found in the charterhouse.\n\nThe Ittingen Charterhouse is located in the Warth municipality and was completely renovated in 1983. The cultural centre is a place where people of all cultures, nations and religions can come together. A responsible approach and a marked awareness of culture mean that special value is placed on tending to the soul and the spirit, hospitality, care, training and encounter, contemplation, spirituality and a relationship with nature. The respectful way that life is dealt with is striking. Research and development are not instruments of power here, but represent a genuine interest in our existence. We would advise anyone wanting to find out more about the charterhouse to watch the film \"Die grosse Stille” (the great silence), that allows the viewer to experience the lives of the monks in the \"Grande Chartreuse” by Grenoble in almost 3 hours of uncommentated footage.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/9258_Kartause-Ittingen_1a1.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/9258_Kartause-Ittingen_1a1.jpg",
+            "https://images.schweizmobil.ch/image/9258_Kartause-Ittingen_2b.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "Thurgau Tourismus",
+        "name_2": null,
+        "street": "Egelmoosstrasse 1",
+        "zip": "8580",
+        "place": "Amriswil",
+        "tel": "+41 (0)71 414 11 44",
+        "fax": null,
+        "email": "info@thurgau-bodensee.ch",
+        "url1_link": "https://www.thurgau-bodensee.ch",
+        "x_coordinate": 707467.2125087329,
+        "y_coordinate": 271328.36876622925,
+        "change_date": null,
+        "id": 296,
+        "r_key": 296,
+        "type": "Sight",
+        "url_sightseeing": "https://www.kartause.ch",
+        "touristic_region": 2,
+        "canton": 6
+    }
+}

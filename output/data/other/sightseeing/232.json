@@ -1,0 +1,62 @@
+{
+    "type": "Feature",
+    "id": 232,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.385098855687545,
+                6.857569358708782
+            ]
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Swiss Vapeur Parc",
+        "abstract": "The most beautiful railway park of Europe. Located close to the harbor of Le Bouveret, the Swiss Vapeur Park is like heaven for children and adults. It is fully dedicated to the railway and its noble conquests.",
+        "description": "There are some invisible barriers all so nice to clear. The ones of Swiss Vapeur Park fully open the big gates of fancy, pleasure of a retrieved childhood, and of innocence. Getting a trip on a lovely, small train, discovering a particular Swiss charm, called to mind by accurate replicas better than reality.\n\nComfortably located next to the lake of Geneva, the Swiss Vapeur Park, a unique model of its kind, reveals its charms over more than 17’000 square meters. As soon as you get in, any kind of aggressiveness seems to be completely gone. Obviously it’s quite hard to describe the feelings that a first small train trip can bring to someone, except the pleasure of seeing children enjoying those moments.\n\nAs if by magic, these small trains are going their way through the sumptuous scenery, made with miniaturized replicas of the Swiss patrimony : the castle of Aigle, the church of Saanen, the covered market of Neuchâtel, the old mills of La Tine, as well as many kind of railway buildings, works of art, bridges, viaducts, tunnels, etc… Everything actually reinforces the idea of a voyage to Wonderland.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/9262_Swiss-Vapeur-Parc_1a.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/9262_Swiss-Vapeur-Parc_1a.jpg",
+            "https://images.schweizmobil.ch/image/9262_Swiss-Vapeur-Parc_2b.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "Swiss Vapeur Parc",
+        "name_2": null,
+        "street": "Route de la plage",
+        "zip": "1897",
+        "place": "Le Bouveret",
+        "tel": "-",
+        "fax": null,
+        "email": "info@swissvapeur.ch",
+        "url1_link": "https://www.swissvapeur.ch",
+        "x_coordinate": 555300.1658881869,
+        "y_coordinate": 137247.5488460636,
+        "change_date": null,
+        "id": 232,
+        "r_key": 232,
+        "type": "Sight",
+        "url_sightseeing": "https://www.swissvapeur.ch",
+        "touristic_region": 11,
+        "canton": 7
+    }
+}

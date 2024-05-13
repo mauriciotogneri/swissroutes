@@ -1,0 +1,62 @@
+{
+    "type": "Feature",
+    "id": 217,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                47.18598991313685,
+                8.557557720049417
+            ]
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Höllgrotten Baar",
+        "abstract": "The «Höll» caves near Baar are a very popular excursion destination - especially in bad weather - and certainly worth a visit.",
+        "description": "Amid the wild romanticism of the Lorze ravine, these most beautiful limestone caves are richly adorned with calcareous formations, while miniature lakes, impressive stalagmites and stalactites in a variety of hues give each grotto its special characteristic. The various chambers, after centuries of being formed by calcareous springs, were discovered at the end of the 19th century, when a nearby quarry was mining tuff.\n\nThis underground magic is lit by electricity and the chambers are connected by good pathways. A visit lasts about 3/4 hour and is not accompanied. The caves are easily accessible by bicycle from Baar: on foot they can be reached from Baar railway station in approx. one hour and from the \"Lorzentobelbrücke\" bus stop in approx. 25 minutes. An idyllic restaurant in the woods with a large terrace (please note: closed on Mondays!) and numerous picnic places along the River Lorze are most inviting.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/9164_Hoellgrotten-Baar_1a.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/9164_Hoellgrotten-Baar_1a.jpg",
+            "https://images.schweizmobil.ch/image/9164_Hoellgrotten-Baar_2b.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "Zug Tourismus",
+        "name_2": null,
+        "street": "Bahnhofplatz",
+        "zip": "6300",
+        "place": "Zug",
+        "tel": "+41 (0)41 723 68 00",
+        "fax": null,
+        "email": "info@zug.ch",
+        "url1_link": "https://www.zug-tourismus.ch",
+        "x_coordinate": 684804.9406422628,
+        "y_coordinate": 226720.66055919346,
+        "change_date": null,
+        "id": 217,
+        "r_key": 217,
+        "type": "Sight",
+        "url_sightseeing": "https://www.hoellgrotten.ch",
+        "touristic_region": 3,
+        "canton": 21
+    }
+}

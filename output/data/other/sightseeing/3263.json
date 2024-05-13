@@ -1,0 +1,57 @@
+{
+    "type": "Feature",
+    "id": 3263,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.50825323484639,
+                9.819482934594397
+            ]
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Skills Park Corviglia",
+        "abstract": "Directly at the Corviglia mountain station is a skills park for mountain bikers - ideal to improve your technique. This is where you can practice getting through tight turns and overcoming obstacles. And then, an unforgettable day on the flow trails is practically guaranteed.",
+        "description": " ",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image-big/GR_6_Skillspark_Corviglia_1_g.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/GR_6_Skillspark_Corviglia_1_s.jpg"
+        ],
+        "photo_gallery_big": [
+            "https://images.schweizmobil.ch/image-big/GR_6_Skillspark_Corviglia_1_g.jpg"
+        ],
+        "photo_gallery_copyright": [
+            ""
+        ],
+        "photo_gallery_author": [
+            ""
+        ],
+        "photo_gallery_abstract": [
+            ""
+        ],
+        "name": "Engadin St. Moritz Tourismus AG",
+        "name_2": null,
+        "street": "Via Maistra 1",
+        "zip": "7500",
+        "place": "St. Moritz",
+        "tel": "+41 81 830 08 14",
+        "fax": null,
+        "email": "allegra@estm.ch",
+        "url1_link": "https://www.engadin.ch/de/",
+        "x_coordinate": 782711.9073097254,
+        "y_coordinate": 153544.6103078702,
+        "change_date": null,
+        "id": 3263,
+        "r_key": 3263,
+        "type": "Sight",
+        "url_sightseeing": "https://www.maps.engadin.ch/en/poi/bike-park/skills-park-corviglia-st.-moritz/57236074/",
+        "touristic_region": 1,
+        "canton": 2
+    }
+}

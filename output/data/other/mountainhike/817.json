@@ -1,0 +1,74 @@
+{
+    "type": "Feature",
+    "id": 817,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.989485547076775,
+                10.347612095408902
+            ]
+        ]
+    },
+    "properties": {
+        "id": 817,
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "type": "Mountaineering",
+        "ascent_altitude": 820,
+        "ascent_time_max": 150,
+        "sac_chm_route": true,
+        "sac_created": "2020-08-24 14:57:24",
+        "descent_altitude": 820,
+        "descent_time_max": 135,
+        "descent_time_min": null,
+        "sac_orig_id": 858,
+        "sac_modified": "2020-08-24 14:57:38",
+        "sac_status": "published",
+        "poi_title": "Bürkelkopf",
+        "abstract": "Rock faces, pillars and spires tower above a plateau of lakes and a large cwm: this is Bürkelkopf and Bürkelspitzen. Seeing its massive rock structure, it is hard to believe that this mountain can be traversed on an exciting hiking tour. Nevertheless, there are paths charted on the map. The white-blue-white markings are somewhat misleading, as there are a few precarious passages to overcome.",
+        "subtitle": "Switzerland’s northernmost threethousander",
+        "title": "Traverse west–east",
+        "sac_type": "mountain_hiking",
+        "mountain_hiking_difficulty": "T5-",
+        "alpine_tour_difficulty": null,
+        "alpine_climbing_difficulty": null,
+        "grade": null,
+        "height_climbing_wall": null,
+        "via_ferrata_difficulty": null,
+        "ski_tour_difficulty": null,
+        "mountaineering_sacphoto_ids": [
+            3270,
+            3271
+        ],
+        "sac_poi_id": 263,
+        "x_coordinate": 821239.6759463749,
+        "y_coordinate": 208371.47252653434,
+        "change_date": "2023-03-30 12:14:56",
+        "sac_photos": [
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 3270,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1513616824_820728081Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1513616824_820728081master.jpg",
+                "photo_sac_id": 248043,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1513616824_820728081.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1513616824_820728081M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1513616824_820728081Mc.jpg",
+                "title": "View from «Bei den Seen» to Bürkelkopf"
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 3271,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1513617075_112762683Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1513617075_112762683master.jpg",
+                "photo_sac_id": 248046,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1513617075_112762683.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1513617075_112762683M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1513617075_112762683Mc.jpg",
+                "title": "View from the summit towards the descent to Vesulspitze in Tyrol"
+            }
+        ]
+    }
+}

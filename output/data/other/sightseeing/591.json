@@ -1,0 +1,107 @@
+{
+    "type": "Feature",
+    "id": 591,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.81369661797464,
+                7.995789311474342
+            ]
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Mire landscapes Salwiden",
+        "abstract": "Bogs, fens and mire landscapes belong to the most rare and endangered and at the same time ecologically most valuable areas in Switzerland. In no other Region of Switzerland remained as many and as large mires as in the Entlebuch.",
+        "description": "Because of their enormous decrease (90% have disappeared since 1900), they hold a big amount of endangered plant- and animal species. One quarter of all red list animal species in Switzerland depend on mire habitats.The different types of mire habitats often form very diverse landscapes. Together with other habitats such as forests, pastures, meadows etc.\n\nThe most intact bogs, fens and mire landscapes are listed in national inventories and strictly protected.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/8078_Moorlandschaft-Salwiden_1a.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/8078_Moorlandschaft-Salwiden_1a.jpg",
+            "https://images.schweizmobil.ch/image/Moorlandschaft_Salwiden_8U8A4166_s.jpg",
+            "https://images.schweizmobil.ch/image/Moorlandschaft_Salwiden_Ent_090716_010_s.jpg",
+            "https://images.schweizmobil.ch/image/Moorlandschaft_Salwiden_Ent_090716_034_s.jpg",
+            "https://images.schweizmobil.ch/image/Moorlandschaft_Salwiden_Ent_090716_153_s.jpg",
+            "https://images.schweizmobil.ch/image/Moorlandschaft_Salwiden_LU_Tourismus_Entlebuch_BB_02_s.jpg",
+            "https://images.schweizmobil.ch/image/Moorlandschaft_Salwiden_LU_Tourismus_Entlebuch_BB_09_s.jpg",
+            "https://images.schweizmobil.ch/image/Moorlandschaft_Salwiden_MB_BIOSPHAERE_SoeRENBERG_SOMMER_2012_16_9_2012_0817_s.jpg",
+            "https://images.schweizmobil.ch/image/Moorlandschaft_Salwiden__D8E4571_s.jpg",
+            "https://images.schweizmobil.ch/image/Moorlandschaft_Salwiden__D8E4572_s.jpg",
+            "https://images.schweizmobil.ch/image/Moorlandschaft_Salwiden_stn4742_s.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            "https://images.schweizmobil.ch/image-big/Moorlandschaft_Salwiden_8U8A4166_g.jpg",
+            "https://images.schweizmobil.ch/image-big/Moorlandschaft_Salwiden_Ent_090716_010_g.jpg",
+            "https://images.schweizmobil.ch/image-big/Moorlandschaft_Salwiden_Ent_090716_034_g.jpg",
+            "https://images.schweizmobil.ch/image-big/Moorlandschaft_Salwiden_Ent_090716_153_g.jpg",
+            "https://images.schweizmobil.ch/image-big/Moorlandschaft_Salwiden_LU_Tourismus_Entlebuch_BB_02_g.jpg",
+            "https://images.schweizmobil.ch/image-big/Moorlandschaft_Salwiden_LU_Tourismus_Entlebuch_BB_09_g.jpg",
+            "https://images.schweizmobil.ch/image-big/Moorlandschaft_Salwiden_MB_BIOSPHAERE_SoeRENBERG_SOMMER_2012_16_9_2012_0817_g.jpg",
+            "https://images.schweizmobil.ch/image-big/Moorlandschaft_Salwiden__D8E4571_g.jpg",
+            "https://images.schweizmobil.ch/image-big/Moorlandschaft_Salwiden__D8E4572_g.jpg",
+            "https://images.schweizmobil.ch/image-big/Moorlandschaft_Salwiden_stn4742_g.jpg"
+        ],
+        "photo_gallery_copyright": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "name": "UNESCO Biosphäre Entlebuch",
+        "name_2": null,
+        "street": "Chlosterbüel 28",
+        "zip": "6170",
+        "place": "Schüpfheim",
+        "tel": "+41 (0)41 485 88 50",
+        "fax": null,
+        "email": "tourismus@biosphaere.ch",
+        "url1_link": "https://www.biosphaere.ch",
+        "x_coordinate": 642522.1480740176,
+        "y_coordinate": 184878.91079142923,
+        "change_date": null,
+        "id": 591,
+        "r_key": 591,
+        "type": "Sight",
+        "url_sightseeing": "https://www.biosphaere.ch/de.cfm/natur/moore/",
+        "touristic_region": 4,
+        "canton": 15
+    }
+}

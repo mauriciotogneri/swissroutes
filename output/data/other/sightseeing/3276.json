@@ -1,0 +1,57 @@
+{
+    "type": "Feature",
+    "id": 3276,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.13919006436251,
+                7.964403900195403
+            ]
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Bike Skills Park Kreuzboden",
+        "abstract": "The bike skills park is located directly at the Kreuzboden middle station. It offers three different trails at various levels of difficulty and is ideally suited for families. The views of the Saas Valley mountains from there are spectacular.",
+        "description": " ",
+        "highlights": "Length: 3 tracks of about 380 meters\nSuface: natural",
+        "foto": "https://images.schweizmobil.ch/image-big/Bike_Skills_Park_Kreuzboden_g.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/Bike_Skills_Park_Kreuzboden_s.jpg"
+        ],
+        "photo_gallery_big": [
+            "https://images.schweizmobil.ch/image-big/Bike_Skills_Park_Kreuzboden_g.jpg"
+        ],
+        "photo_gallery_copyright": [
+            "Saastal Tourismus AG/Puzzle Media"
+        ],
+        "photo_gallery_author": [
+            ""
+        ],
+        "photo_gallery_abstract": [
+            ""
+        ],
+        "name": "Saastal Tourismus AG",
+        "name_2": null,
+        "street": "Obere Dorfstrasse 2",
+        "zip": "3906",
+        "place": "Saas-Fee",
+        "tel": "+41 27 958 18 58",
+        "fax": null,
+        "email": "info@saas-fee.ch",
+        "url1_link": "https://saas-fee.ch",
+        "x_coordinate": 640629.2114876015,
+        "y_coordinate": 109881.55160963027,
+        "change_date": null,
+        "id": 3276,
+        "r_key": 3276,
+        "type": "Sight",
+        "url_sightseeing": "https://www.saas-fee.ch/en/familie/summer/family-activities-in-summer/bike-skills-park-kreuzboden",
+        "touristic_region": 11,
+        "canton": 7
+    }
+}

@@ -1,0 +1,72 @@
+{
+    "type": "Feature",
+    "id": 695,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.630971865949334,
+                9.746574622917954
+            ]
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Albula Railway Museum in Bergün",
+        "abstract": "Set off to a railway paradise: the Albula Railway Museum in Bergün is a great day out for families and railway enthusiasts.",
+        "description": "Visitors can see over 700 items from more than a century of history:  Driver's footplate simulator installed on board an original crocodile locomotive, temporary exhibitions, model workshop, railway experience with children's tour and showdepot for both visitors and enthusiasts. The multimedia rooms along with one of the last remaining «crocodile» locomotives, will teach you all there is to know about the past and present of this spectacular stretch of Swiss railway, which is part of a UNESCO World Heritage site.\n\n",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/BahnmuseumAlbula_2012.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/BahnhmuseumAlbula_Daueraustellung_Berninastrecke_2012.jpg",
+            "https://images.schweizmobil.ch/image/BahnmuseumAlbula_2012.jpg",
+            "https://images.schweizmobil.ch/image/BahnmuseumAlbula_Aussenansicht_2012.jpg",
+            "https://images.schweizmobil.ch/image/BahnmuseumAlbula.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "name": "Bergün Bahnmuseum",
+        "name_2": null,
+        "street": "Plazi 2a",
+        "zip": "7482",
+        "place": "Bergün",
+        "tel": "+41 (0)81 420 00 06",
+        "fax": null,
+        "email": "info@bahnmuseum-albula.ch",
+        "url1_link": "https://www.bahnmuseum-albula.ch",
+        "x_coordinate": 776716.9787148463,
+        "y_coordinate": 167013.7065113229,
+        "change_date": null,
+        "id": 695,
+        "r_key": 695,
+        "type": "Sight",
+        "url_sightseeing": "https://www.bahnmuseum-albula.ch",
+        "touristic_region": 1,
+        "canton": 2
+    }
+}

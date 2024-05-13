@@ -1,0 +1,62 @@
+{
+    "type": "Feature",
+    "id": 617,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.22351484774427,
+                7.001279234999622
+            ]
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Fairies'Cave",
+        "abstract": "Perched above St-Maurice, a city in the Valais which is abundant in cultural and historical riches, the Fairy's Cave (Grotte aux Fées) dominates the Rhone Valley.",
+        "description": "Throughout thousands of years, wa-ter has dug into the rock to later give birth to the \"Grotte aux Fées”. Its little underground lake and its waterfall have enchanted visitors since 1863.\n\nThe Cindey Forts and the Scex Forts galleries unveil the hidden military works which were also once classified as \"top secret”.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/8161_Feengrotte_1a.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/8161_Feengrotte_1a.jpg",
+            "https://images.schweizmobil.ch/image/8161_Feengrotte_2b.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "Saint-Maurice Tourisme",
+        "name_2": null,
+        "street": "Av. des Terreaux 1",
+        "zip": "1890",
+        "place": "Saint-Maurice",
+        "tel": "+41 (0)24 485 40 40",
+        "fax": null,
+        "email": "info@saint-maurice.ch",
+        "url1_link": "https://www.saint-maurice.ch",
+        "x_coordinate": 566255.6782544072,
+        "y_coordinate": 119213.80909365781,
+        "change_date": null,
+        "id": 617,
+        "r_key": 617,
+        "type": "Sight",
+        "url_sightseeing": "https://www.grotteauxfees.ch",
+        "touristic_region": 11,
+        "canton": 7
+    }
+}

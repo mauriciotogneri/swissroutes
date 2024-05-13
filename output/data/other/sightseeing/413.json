@@ -1,0 +1,72 @@
+{
+    "type": "Feature",
+    "id": 413,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.980979196068546,
+                8.618050865187477
+            ]
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Swiss Holiday Park",
+        "abstract": "Swiss Holiday Park – where even one day feels like a vacation.",
+        "description": "The Swiss Holiday Park offers perfect leisure activities for everyone: a wellness day with massages, recreational activities such as bowling and squash or a visit to the adventure pool. The adventure pool – both indoor and outdoor – is ideal for an excursion with the entire family. The giant water slide, wild water channel or waterfall all guarantee fun for everyone.\n\nIn the wellness and spa area you can tank up on energy, relax and unwind. The diverse possibilities range from sauna facilities to numerous baths and massages. Particularly enticing are the recently renovated Roman-Irish thermals, which ensure a revitalising bathing ritual.\n\nAction-packed fun in the sport and games area with badminton, squash, a climbing wall, bowling, the Flying Fox Parcours or the outdoor go-kart track. The Swiss Holiday Park is the perfect place to get away from it all and leave the daily routine behind while restoring your energy: always an adventure.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image-big/SHP_Morschach_2_g.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/SHP_Morschach_1_s.jpg",
+            "https://images.schweizmobil.ch/image/SHP_Morschach_2_s.jpg",
+            "https://images.schweizmobil.ch/image/SHP_Morschach_3_s.jpg",
+            "https://images.schweizmobil.ch/image/SHP_Morschach_4_s.jpg"
+        ],
+        "photo_gallery_big": [
+            "https://images.schweizmobil.ch/image-big/SHP_Morschach_1_g.jpg",
+            "https://images.schweizmobil.ch/image-big/SHP_Morschach_2_g.jpg",
+            "https://images.schweizmobil.ch/image-big/SHP_Morschach_3_g.jpg",
+            "https://images.schweizmobil.ch/image-big/SHP_Morschach_4_g.jpg"
+        ],
+        "photo_gallery_copyright": [
+            "",
+            "",
+            "copyright by www.andreherger.ch",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "name": "Swiss Holiday Park AG",
+        "name_2": null,
+        "street": "Dorfstrasse 10",
+        "zip": "6443",
+        "place": "Morschach",
+        "tel": "+41 41 825 50 50",
+        "fax": null,
+        "email": "info@shp.ch",
+        "url1_link": "https://www.swissholidaypark.ch",
+        "x_coordinate": 689731.7202585677,
+        "y_coordinate": 203998.65634267073,
+        "change_date": null,
+        "id": 413,
+        "r_key": 413,
+        "type": "Sight",
+        "url_sightseeing": "https://www.swissholidaypark.ch",
+        "touristic_region": 4,
+        "canton": 11
+    }
+}

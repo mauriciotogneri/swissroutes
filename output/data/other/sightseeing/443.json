@@ -1,0 +1,62 @@
+{
+    "type": "Feature",
+    "id": 443,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.592433613036036,
+                7.65578558627893
+            ]
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Tropenhaus Frutigen",
+        "abstract": "The Tropenhaus (tropic house) Frutigen plays a significant role as sustainable energy source through its geothermal energy project in the Swiss Alps - and the production of tropical fruits and sturgeon meats.",
+        "description": "The idea for the Tropenhaus greenhouse was born in 2002 when it became apparent that water flowing out of the nearby tunnel could not be diverted to the local river as its warmth of around 20 ºC would disrupt the region’s natural biological rhythm. Enterprising engineers therefore initiated a project to divert the heat and power a greenhouse.\n\nThe warm climate, and possibility of permitting fruits to ripen naturally, donates the produce incomparable flavour. Growth and maintenance of the different plants profit from the experience and knowledge of the Wolhusen tropic house, which has been cultivating tropical fruits already since 1999.\n\nThe tropic house is responsible for the annual production of around 2 tons of bananas and mini Bananas, papaya, carambola, acerola cherries, guavas, mangosteen, pineapple, coffee, cocoa, kumquat and many more tropical species. ",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/9807_Tropenhaus_1a.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/9807_Tropenhaus_1a.jpg",
+            "https://images.schweizmobil.ch/image/9807_Tropenhaus_2b.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "Tropenhaus Frutigen",
+        "name_2": null,
+        "street": "Tropenhausweg 1",
+        "zip": "3714",
+        "place": "Frutigen",
+        "tel": "+41 (0)33 672 11 44",
+        "fax": null,
+        "email": "info@tropenhaus.ch",
+        "url1_link": "https://info@tropenhaus-frutigen.ch",
+        "x_coordinate": 616641.2602191181,
+        "y_coordinate": 160153.2531250122,
+        "change_date": null,
+        "id": 443,
+        "r_key": 443,
+        "type": "Sight",
+        "url_sightseeing": "https://www.tropenhaus-frutigen.ch/de/allgemein/home",
+        "touristic_region": 6,
+        "canton": 12
+    }
+}

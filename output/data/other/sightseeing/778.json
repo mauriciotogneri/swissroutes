@@ -1,0 +1,72 @@
+{
+    "type": "Feature",
+    "id": 778,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.376972226232496,
+                7.629527605165466
+            ]
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Pumptrack & Skill-Area Leukerbad",
+        "abstract": "The Pump-Track & Skill-Area Leukerbad is located in the middle\nof the village, at the Promenade. It is perfect to work on the technique, practice oder learn tricks or just to run riot and have fun.",
+        "description": "Leukerbad has created somethin new for all big and small mountainbikers. A new Bikepark was built at the Promenade (close to the Parkhotel Quellenhof). With ist 18 elements and a total area of 1'800m2, the LPump-Track & Skill-Area Leukerbad is an interesting additional attraction to the existing offer. As an introduction into a week of bike holidays, as a place to implement technique tricks of for the little ones: the Pump-Track & the Skill-Area are there for everyone.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image-big/Bikepark_Leukerbad_2_g.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/Bikepark_Leukerbad_4_s.jpg",
+            "https://images.schweizmobil.ch/image/Bikepark_Leukerbad_3_s.jpg",
+            "https://images.schweizmobil.ch/image/Bikepark_Leukerbad_2_s.jpg",
+            "https://images.schweizmobil.ch/image/Bikepark_Leukerbad_1_s.jpg"
+        ],
+        "photo_gallery_big": [
+            "https://images.schweizmobil.ch/image-big/Bikepark_Leukerbad_4_g.jpg",
+            "https://images.schweizmobil.ch/image-big/Bikepark_Leukerbad_3_g.jpg",
+            "https://images.schweizmobil.ch/image-big/Bikepark_Leukerbad_2_g.jpg",
+            "https://images.schweizmobil.ch/image-big/Bikepark_Leukerbad_1_g.jpg"
+        ],
+        "photo_gallery_copyright": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "name": "Leukerbad Tourisms",
+        "name_2": null,
+        "street": "Rathaus",
+        "zip": "3954",
+        "place": "Leukerbad",
+        "tel": "+41 (0)27 472 71 71",
+        "fax": null,
+        "email": "info@leukerbad.ch",
+        "url1_link": "https://www.leukerbad.ch",
+        "x_coordinate": 614687.6463500789,
+        "y_coordinate": 136196.41470915318,
+        "change_date": null,
+        "id": 778,
+        "r_key": 778,
+        "type": "Sight",
+        "url_sightseeing": "https://leukerbad.ch/en/sportarena",
+        "touristic_region": 11,
+        "canton": 7
+    }
+}

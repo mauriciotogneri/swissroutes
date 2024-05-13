@@ -1,0 +1,62 @@
+{
+    "type": "Feature",
+    "id": 142,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                47.428735872436484,
+                9.383016956617475
+            ]
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Cultural Museum St.Gallen",
+        "abstract": "In the Cultural Museum of St.Gallen history and ethnology are united in one house.",
+        "description": "The collection of the Cultural Museum covers objects from the ancient and early historical periods to the 20th century as well as numerous objects from various cultures of the world. Since April 2007, the building has its own children's museum. There are multiple changing exhibitions taking place every year.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/11332_Historisches_und_Voelkerkundemuseum_1a.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/11332_Historisches_und_Voelkerkundemuseum_1a.jpg",
+            "https://images.schweizmobil.ch/image/11332_Historisches_und_Voelkerkundemuseum_3b.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "St.Gallen-Bodensee Tourismus",
+        "name_2": null,
+        "street": "Bankgasse 9",
+        "zip": "9001",
+        "place": "St.Gallen",
+        "tel": "+41 (0)71 227 37 37",
+        "fax": null,
+        "email": "info@st.gallen-bodensee.ch",
+        "url1_link": "https://www.st.gallen-bodensee.ch",
+        "x_coordinate": 746687.8874798361,
+        "y_coordinate": 254921.55807745052,
+        "change_date": null,
+        "id": 142,
+        "r_key": 142,
+        "type": "Sight",
+        "url_sightseeing": "https://www.kulturmuseumsg.ch",
+        "touristic_region": 2,
+        "canton": 23
+    }
+}

@@ -1,0 +1,62 @@
+{
+    "type": "Feature",
+    "id": 587,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.55531979399959,
+                8.5659081121035
+            ]
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Malle-poste historique",
+        "abstract": "From Andermatt on the Gotthard pass road to Airolo on the legendary horse stagecoach. An unforgettable journey back to the past.",
+        "description": "At that time regarded as stressful exertion by traders, scientists, ambassadors and globetrotters, today an unparalleled and exclusive pleasure as well as a lasting experience.\n\nBoard the Gotthard stagecoach, replicated true to original, at the railway station in Andermatt and forget all your worries for a moment. Your physical well-being is catered for. Postillion and conductor (both wearing the original costume) navigate the proud vehicle through the Urseren valley. In the centre of Andermatt, we are going to stop for a welcome drink.  Wherever possible we leave the pass road and follow the old Gotthard route. At the hospice a jovial lunch is awaiting us in the old coaching and afterwards a visit to the national Gotthard museum is on the agenda.\n\nIn the afternoon, we discover the Tremola, the well-known serpentine. Driving past Motto Bartola, the stagecoach brings you down to Airolo, where we are having an afternoon snack - the \"merenda\" (as the people from Ticino call it) - and where the trip draws to a close.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/8633_Historische-Reisepost_1a.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/8633_Historische-Reisepost_1a.jpg",
+            "https://images.schweizmobil.ch/image/8633_Historische-Reisepost_2b.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "Andermatt-Urserntal Tourismus GmbH",
+        "name_2": null,
+        "street": "Gotthardstrasse 2",
+        "zip": "6490",
+        "place": "Andermatt",
+        "tel": "+41 (0)41 888 71 00",
+        "fax": null,
+        "email": "info@andermatt.ch",
+        "url1_link": "https://www.andermatt.ch",
+        "x_coordinate": 686444.9112011258,
+        "y_coordinate": 156625.4803540215,
+        "change_date": null,
+        "id": 587,
+        "r_key": 587,
+        "type": "Sight",
+        "url_sightseeing": "https://www.gotthardpost.ch",
+        "touristic_region": 12,
+        "canton": 19
+    }
+}

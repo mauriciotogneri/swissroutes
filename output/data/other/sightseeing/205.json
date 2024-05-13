@@ -1,0 +1,62 @@
+{
+    "type": "Feature",
+    "id": 205,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                47.49577305405607,
+                8.738125387009134
+            ]
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Centre for photography",
+        "abstract": "The center for photography with the Fotomuseum Winterthur (Winterthur Photo Museum) and the Fotostiftung Schweiz (Swiss Foundation for Photography) is one of the most innovative and attractive locations for photography in Europe.",
+        "description": "The Fotomuseum Winterthur (Winterthur Photo Museum) is a photographic art gallery exhibiting the work of contemporary photographers and artists. The Winterthur Photo Museum is also a classical museum of the photography of the 19th and 20th centuries and a cultural heritage and sociological museum of applied photography – especially for the areas of fashion, architecture, and industrial photography.\n\nThe Fotostiftung Schweiz (Swiss Foundation for Photography) is located in the same industrial area, known as Schleife. It is Switzerland’s oldest institution dedicated to photography alone. A museum bistro, a library, seminar rooms, a lounge, and a shop complete the range of services.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/9163_Zentrum_fuer_Fotografie_1a.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/9163_Zentrum_fuer_Fotografie_1a.jpg",
+            "https://images.schweizmobil.ch/image/9163_Zentrum_fuer_Fotografie_2b.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "Zentrum für Fotografie",
+        "name_2": null,
+        "street": "Grüzenstrasse 44+45",
+        "zip": "8400",
+        "place": "Winterthur",
+        "tel": "+41 (0)52 234 10 60",
+        "fax": null,
+        "email": "fotomuseum@fotomuseum.ch",
+        "url1_link": "https://www.fotomuseum.ch",
+        "x_coordinate": 697918.8281000409,
+        "y_coordinate": 261368.52201796422,
+        "change_date": null,
+        "id": 205,
+        "r_key": 205,
+        "type": "Sight",
+        "url_sightseeing": "https://winterthur.com/de/kunst-kultur/museen/fotozentrum.html",
+        "touristic_region": 3,
+        "canton": 3
+    }
+}

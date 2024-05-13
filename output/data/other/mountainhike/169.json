@@ -1,0 +1,74 @@
+{
+    "type": "Feature",
+    "id": 169,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                47.01023331911418,
+                8.559864855641605
+            ]
+        ]
+    },
+    "properties": {
+        "id": 169,
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "type": "Mountaineering",
+        "ascent_altitude": 610,
+        "ascent_time_max": 120,
+        "sac_chm_route": true,
+        "sac_created": "2020-08-26 16:00:47",
+        "descent_altitude": 1310,
+        "descent_time_max": 135,
+        "descent_time_min": null,
+        "sac_orig_id": 902,
+        "sac_modified": "2020-08-26 16:01:00",
+        "sac_status": "published",
+        "poi_title": "Rigi Hochflue",
+        "abstract": "One mountain, three ridges and three very rewarding access possibilities: on Rigi Hoflue you are spoilt for choice. Every access has its quirks, and they are all marked white-blue-white. The one from the north-west offers a 30 m high ladder. The one from the south-west goes across slabby limestone steps. The eastern ridge, here described as the ascent, offers everything that makes alpine hiking in the foothills so interesting and attractive.",
+        "subtitle": "On the wild side of Rigi",
+        "title": "Rigi Hochflue",
+        "sac_type": "mountain_hiking",
+        "mountain_hiking_difficulty": "T5-",
+        "alpine_tour_difficulty": null,
+        "alpine_climbing_difficulty": null,
+        "grade": null,
+        "height_climbing_wall": null,
+        "via_ferrata_difficulty": null,
+        "ski_tour_difficulty": null,
+        "mountaineering_sacphoto_ids": [
+            514,
+            515
+        ],
+        "sac_poi_id": 1496,
+        "x_coordinate": 685258.432516062,
+        "y_coordinate": 207185.1953965659,
+        "change_date": "2023-03-30 12:14:03",
+        "sac_photos": [
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 514,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1518535657_335509180Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1518535657_335509180master.jpg",
+                "photo_sac_id": 248191,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1518535657_335509180.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1518535657_335509180M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1518535657_335509180Mc.jpg",
+                "title": "At Ochsenalp, high above Lake Lucerne and its sea of fog, in the background is Pilatus."
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 515,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1516374792_1147789008Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1516374792_1147789008master.jpg",
+                "photo_sac_id": 248187,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1516374792_1147789008.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1516374792_1147789008M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1516374792_1147789008Mc.jpg",
+                "title": "View to the gentle side of Rigi: Scheidegg, Dossen and Kulm"
+            }
+        ]
+    }
+}

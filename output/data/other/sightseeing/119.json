@@ -1,0 +1,62 @@
+{
+    "type": "Feature",
+    "id": 119,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.511356771650526,
+                6.366541056770824
+            ]
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "The Aubonne valley arboretum",
+        "abstract": "The Aubonne valley has an enormous arboretum extending over an area of 130 hectares. Three thousand species and varieties of trees and shrubs from all over the world’s temperate zone can be seen here.",
+        "description": "The river Aubonne rises at Bière at the foot of the Jura mountains and enters Lake Geneva around 14 kilometres further south. The source is fed from the precipitation that seeps through the karstic rock of the Jura and later returns to the surface through the spring.\n\nThe Aubonne runs through a valley cut into the rocks, whose slopes are planted with vines in places. The National Arboretum houses 3,000 species and varieties of trees and shrubs from all parts of the world’s temperate zone over an area of 130 hectares. The Toleure and Sandoleyre rivers join the Aubonne in the park. With their bank slopes the three rivers form a wide variety of locations which were taken into consideration during the planting of the trees.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/32_Vallon-de-l'Aubonne-1-511.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/32_Vallon-de-l'Aubonne-1-511.jpg",
+            "https://images.schweizmobil.ch/image/32_Arboretum.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "Association de l'Arboretum national du Vallon de l'Aubonne",
+        "name_2": null,
+        "street": "Chemin de Plan 92",
+        "zip": "1170",
+        "place": "Aubonne",
+        "tel": "+41 (0)21 808 51 83",
+        "fax": null,
+        "email": "contact@arboretum.ch",
+        "url1_link": "https://www.arboretum.ch",
+        "x_coordinate": 517720.2234750314,
+        "y_coordinate": 151679.53404559998,
+        "change_date": null,
+        "id": 119,
+        "r_key": 119,
+        "type": "Sight",
+        "url_sightseeing": "https://www.arboretum.ch",
+        "touristic_region": 9,
+        "canton": 27
+    }
+}

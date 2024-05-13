@@ -1,0 +1,77 @@
+{
+    "type": "Feature",
+    "id": 465,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                47.149969326311606,
+                6.997337833270643
+            ]
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Fromagerie Tête de Moine",
+        "abstract": "Delve into the fascinating 800 year old history of this famous cheese. You can visit the dairies at Bellelay, St-Imier, Saignelégier and Noirmont.",
+        "description": "Tête de Moine AOC cheese is older than the Swiss Confederation (1291). The cheese of the monks of Bellelay is first mentioned a century before the birth of our country. Tête de Moine cheese is not cut, but pared into the shape of delicate rosettes, either with a blade held at right angles to the surface, using the same method as that employed by the monks of the Bellelay abbey, or using a «Girolle», an ingenious device invented by Metafil SA in Lajoux and launched in 1982.\n\nIn the Formagerie in Saint-Imier you will be able to take a look behind the scenes and see for yourself how the cheese is produced and ripened. The family-run company Spielhofer SA offers you the opportunity to experience the production processes of the Tête de Moine AOP in a friendly and welcoming atmosphere. ",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/Sehenswuerdigkeit_TetedeMoine.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/Sehenswuerdigkeit_TetedeMoine.jpg",
+            "https://images.schweizmobil.ch/image/tete_de_moine_cave_2012_a.jpg",
+            "https://images.schweizmobil.ch/image/11301_Kaeserei_Tete_de_Moine_1a.jpg",
+            "https://images.schweizmobil.ch/image/11301_Kaeserei_Tete_de_Moine_2b.jpg",
+            "https://images.schweizmobil.ch/image/tete_de_moine_girolle_2012_b.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "name": "Jura Tourisme",
+        "name_2": null,
+        "street": "Rue de la Gruère 6",
+        "zip": "2350",
+        "place": "Saignelégier",
+        "tel": "+41 (0)32 432 41 60",
+        "fax": null,
+        "email": "info@juratourisme.ch",
+        "url1_link": "https://www.juratourisme.ch",
+        "x_coordinate": 566530.3220600381,
+        "y_coordinate": 222205.47647271218,
+        "change_date": null,
+        "id": 465,
+        "r_key": 465,
+        "type": "Sight",
+        "url_sightseeing": "https://www.tetedemoine.ch",
+        "touristic_region": 8,
+        "canton": 12
+    }
+}

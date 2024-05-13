@@ -1,0 +1,62 @@
+{
+    "type": "Feature",
+    "id": 73,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.184097904921394,
+                6.141320539423893
+            ]
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Old Carouge",
+        "abstract": "Walk in the middle of the Sardinian city. This small, charming little town, separated geographically from Geneva by the Arve River, is a unique example in Europe of post medieval urbanism.",
+        "description": "Most of Carouge was built in the 18th century by architects from Turin commissioned by the king of Sardinia. Its Piemontese style offers today a surprising change of surroundings.\n\nCarouge, is considered as a \"city of national importance”.\n\nCarouge is shielded by Mount Salève and bathed by the river Arve which whose source is at the foot of Mont Blanc. With its shady squares, numerous restaurants and cafés, fashion stores and antique shops, it is an extremely pleasant town! Markets are held on Wednesday and Saturday mornings and small boutiques, craftsmen and artists contribute to the lively atmosphere.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/9755_Altes-Carouge_2a.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/9755_Altes-Carouge_2a.jpg",
+            "https://images.schweizmobil.ch/image/9755_Altes-Carouge_1b.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "Fondation Genève Tourisme & Congrès",
+        "name_2": null,
+        "street": "Quai du Mont-Blanc 2",
+        "zip": "1201",
+        "place": "Genève",
+        "tel": "+41 (0)22 909 70 00",
+        "fax": null,
+        "email": "info@geneve.com",
+        "url1_link": "https://www.geneve.com",
+        "x_coordinate": 499835.08709777356,
+        "y_coordinate": 115565.98325646223,
+        "change_date": null,
+        "id": 73,
+        "r_key": 73,
+        "type": "Sight",
+        "url_sightseeing": "https://www.carouge.ch",
+        "touristic_region": 10,
+        "canton": 22
+    }
+}

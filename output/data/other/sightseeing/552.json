@@ -1,0 +1,62 @@
+{
+    "type": "Feature",
+    "id": 552,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.36559341713173,
+                8.000550011588517
+            ]
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Traverse the white Massa",
+        "abstract": "Over thousands of years the mighty masses of ice of the Aletsch Glacier have made their way through the rock. The melting water polished the white rock even further. Thus the imposing Massa gorge was born.",
+        "description": "Today, only a small brook flows through the gorge, since a hydroelectric dam has been built to hold back the water for another purpose. Around 1980 the gorge was discovered to be an attractive open-air adventure area. Subsequently in 1991, the mountain guide Peter Schwitter finished preparing the hooks for future adventurers. The Masse gorge was now accessible and the region had gained a further tourist attraction.\n\nOur tip: Traverse the Massa gorge with a local mountain guide from the Alpin Centre on the Belalp. With a neoprene suit you can even jump from rocks into the crystal clear water pools below and explore caverns.The Massa gorge demonstrates that water is stronger than any rock, that the adventurous spirit is bigger than fear.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/8164_Massaschlucht_1a.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/8164_Massaschlucht_1a.jpg",
+            "https://images.schweizmobil.ch/image/8164_Massaschlucht_2b.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "Alpin Center Belalp",
+        "name_2": null,
+        "street": "Rischinustrasse 5",
+        "zip": "3914",
+        "place": "Blatten b. Naters",
+        "tel": "+41 (0)77 423 08 08",
+        "fax": null,
+        "email": "info@belalpalpincenter.ch",
+        "url1_link": "https://www.belalpalpincenter.ch",
+        "x_coordinate": 643242.6216341985,
+        "y_coordinate": 135068.10373157146,
+        "change_date": null,
+        "id": 552,
+        "r_key": 552,
+        "type": "Sight",
+        "url_sightseeing": "https://www.belalpalpincenter.ch",
+        "touristic_region": 11,
+        "canton": 7
+    }
+}

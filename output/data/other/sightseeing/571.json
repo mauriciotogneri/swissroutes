@@ -1,0 +1,62 @@
+{
+    "type": "Feature",
+    "id": 571,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                47.559090535064115,
+                7.612223363070202
+            ]
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Tinguely Museum",
+        "abstract": "The museum is dedicated to the life and work of the famous sculptor in iron Jean Tinguely (1925-1991) and is a playful answer to the «static» arts.",
+        "description": "It was opened in October 1996 and is financed by the pharmaceutical company F. Hoffmann-La Roche AG. The permanent exhibition shows works by the artist ranging from the beginnings in the 1950s with motor-driven reliefs, the drawing machines and the scrap metal assemblages of the sixties, to the black-painted machine structures, large sculptures and the pandemonic cycles of his final phase.\n\nSpecial exhibitions, organized on a regular basis and along Tinguely’s ideas, show a wide range of artists and subjects.\n\nThe building was planned and constructed by the Swiss architect Mario Botta, and has varied spatial structures whose dimensions and character enter into a dialogue with the various groups of works.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/8184_Museum-Tinguely_1a.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/8184_Museum-Tinguely_1a.jpg",
+            "https://images.schweizmobil.ch/image/8184_Museum-Tinguely_2b.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "Basel Tourismus Tourist Information",
+        "name_2": null,
+        "street": "Steinenberg 14",
+        "zip": "4010",
+        "place": "Basel",
+        "tel": "+41 (0)61 268 68 68",
+        "fax": null,
+        "email": "info@basel.com",
+        "url1_link": "https://www.basel.com",
+        "x_coordinate": 613065.6689221063,
+        "y_coordinate": 267612.8993262654,
+        "change_date": null,
+        "id": 571,
+        "r_key": 571,
+        "type": "Sight",
+        "url_sightseeing": "https://www.tinguely.ch/de.html",
+        "touristic_region": 5,
+        "canton": 8
+    }
+}

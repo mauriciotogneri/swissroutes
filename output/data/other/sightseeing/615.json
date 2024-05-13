@@ -1,0 +1,62 @@
+{
+    "type": "Feature",
+    "id": 615,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.095115781262514,
+                7.0707734329639935
+            ]
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Fondation Pierre Gianadda",
+        "abstract": "In 1976, the engineer Léonard Gianadda discovered the remains of a Gallo-Roman temple on a plot of land he owned. He decided to set up a foundation that would preserve the memory of his brother, who had died shortly after the discovery.",
+        "description": "Today, the Foundation stages 3 art exhibitions a year, with works of art coming from private collections and the world’s major museums. The gardens are open for a stroll through the Sculpture Park, and to see the Gallo-Roman remains.\n\nThe main archaeological relics discovered during digs in Martigny are exhibited in the Gallo-Roman Museum, and some fourty vintage cars of the brands Rolls-Royce, Bugatti, Mercedes-Benz, Alfa Romeo, Isotta-Fraschini or Hispano-Suiza in the Automobile Museum.  \n\nThe Old Arsenal also presents the two exhibitions \"Leonardo da Vinci. The Inventor\" and \"Léonard Gianadda. Over 80 years of stories to share\".",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/8060_Fondation-Pierre-Gianadda_1a.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/8060_Fondation-Pierre-Gianadda_1a.jpg",
+            "https://images.schweizmobil.ch/image/8060_Fondation-Pierre-Gianadda_2b.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "Office du tourisme de Martigny",
+        "name_2": null,
+        "street": "Avenue de la Gare 6",
+        "zip": "1920",
+        "place": "Martigny",
+        "tel": "+41 (0)27 720 49 49",
+        "fax": null,
+        "email": "info@martigny.com",
+        "url1_link": "https://www.martigny.com",
+        "x_coordinate": 571550.9173542833,
+        "y_coordinate": 104912.66069902643,
+        "change_date": null,
+        "id": 615,
+        "r_key": 615,
+        "type": "Sight",
+        "url_sightseeing": "https://www.gianadda.ch",
+        "touristic_region": 11,
+        "canton": 7
+    }
+}

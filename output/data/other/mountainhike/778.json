@@ -1,0 +1,74 @@
+{
+    "type": "Feature",
+    "id": 778,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.366909950932715,
+                9.487675577198491
+            ]
+        ]
+    },
+    "properties": {
+        "id": 778,
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "type": "Mountaineering",
+        "ascent_altitude": 2030,
+        "ascent_time_max": 330,
+        "sac_chm_route": true,
+        "sac_created": "2020-08-24 14:51:18",
+        "descent_altitude": 2030,
+        "descent_time_max": 210,
+        "descent_time_min": null,
+        "sac_orig_id": 685,
+        "sac_modified": "2020-08-24 14:51:22",
+        "sac_status": "published",
+        "poi_title": "Pizz Gallagiun",
+        "abstract": "Those who love to stay overnight in style and enjoy an extensive breakfast buffet will get their money’s worth in Soglio, a showcase village in Val Bregaglia. However, it is better to indulge in these treats after climbing Pizz Gallagiun, as this tour requires a very early start. Up and down there is a total of 2000 metres to walk. Moreover, the itinerary is exposed to the south so that even in the fall hikers are sure to sweat in torrents. But the splendid view the summit offers is worth the effort.",
+        "subtitle": "Long tour to the westernmost summit in Val Bregaglia",
+        "title": "From Soglio on the east face",
+        "sac_type": "mountain_hiking",
+        "mountain_hiking_difficulty": "T4",
+        "alpine_tour_difficulty": null,
+        "alpine_climbing_difficulty": null,
+        "grade": null,
+        "height_climbing_wall": null,
+        "via_ferrata_difficulty": null,
+        "ski_tour_difficulty": null,
+        "mountaineering_sacphoto_ids": [
+            3183,
+            3184
+        ],
+        "sac_poi_id": 729,
+        "x_coordinate": 757664.8336692058,
+        "y_coordinate": 137118.9059816809,
+        "change_date": "2023-03-30 12:14:52",
+        "sac_photos": [
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 3183,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1512671493_647157136Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1512671493_647157136master.jpg",
+                "photo_sac_id": 247662,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1512671493_647157136.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1512671493_647157136M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1512671493_647157136Mc.jpg",
+                "title": "View from the summit to Italy: Lago dell’Acqua Fraggia, Chiavenna and the summits of Mesolcina."
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 3184,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1581525295_1703944810Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1581525295_1703944810master.jpg",
+                "photo_sac_id": 247660,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1581525295_1703944810.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1581525295_1703944810M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1581525295_1703944810Mc.jpg",
+                "title": "«Works of art on the summit» on Pizz Gallagiun. In the background Piz Platta."
+            }
+        ]
+    }
+}

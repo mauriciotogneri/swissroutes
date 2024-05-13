@@ -1,0 +1,107 @@
+{
+    "type": "Feature",
+    "id": 588,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.880614698591934,
+                8.022851802447944
+            ]
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Kneipp facility in Flühli-Sörenberg",
+        "abstract": "A peaceful and quiet place, fresh spring water, rich perfumes emanating from the herb garden: high above the village of Flühli, the most beautiful Kneipp facility in Switzerland invites you to enjoy all of its benefits.",
+        "description": "The Schwandalp pond can be reached in approx. 30 minutes on foot. Blue signposts saying «Kneipperlebnis.ch» show the way. At the Kneipp facility, you bathe your arms and legs at several different water stations according to the health concept of Dr. Sebastian Kneipp. Information panels provide details about the Kneipp method as well as instructions on how to apply it correctly.\n\nThose who like to rest for a while and listen to the sounds of nature can stretch out on one of the easy chairs. The facility was built with local materials. While walking on the barefoot trail, you feel stones, bark, gravel, fir cones, grass, and other nature objects under your feet. A visit is definitely worth it! Guided tours with Kneipp experts are possible as well. \n",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/8080_Wassererlebnis_Soerenberg_Fluehli_Kneippanlage1.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/8080_Wassererlebnis_Soerenberg_Fluehli_Kneippanlage1.jpg",
+            "https://images.schweizmobil.ch/image/Kneippanlage_Schwandalpweiher_Fluehli_1_s.jpg",
+            "https://images.schweizmobil.ch/image/Kneippanlage_Schwandalpweiher_Fluehli_3_s.jpg",
+            "https://images.schweizmobil.ch/image/8080_Wassererlebnis-Soerenberg-Fluehli_2a.jpg",
+            "https://images.schweizmobil.ch/image/8080_Wassererlebnis_Soerenberg_Fluehli_Kneippanlage2.jpg",
+            "https://images.schweizmobil.ch/image/8080_Wassererlebnis_Soerenberg_Fluehli_Kneippanlage3.jpg",
+            "https://images.schweizmobil.ch/image/8080_Wassererlebnis-Soerenberg-Fluehli_1b.jpg",
+            "https://images.schweizmobil.ch/image/Kneippanlage_Schwandalpweiher_Fluehli_2_s.jpg",
+            "https://images.schweizmobil.ch/image/Kneippanlage_Schwandalpweiher_Fluehli_5_s.jpg",
+            "https://images.schweizmobil.ch/image/Kneippanlage_Schwandalpweiher_Fluehli_6_s.jpg",
+            "https://images.schweizmobil.ch/image/Kneippanlage_Schwandalpweiher_Fluehli_4_s.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            "https://images.schweizmobil.ch/image-big/Kneippanlage_Schwandalpweiher_Fluehli_1_g.jpg",
+            "https://images.schweizmobil.ch/image-big/Kneippanlage_Schwandalpweiher_Fluehli_3_g.jpg",
+            "",
+            "",
+            "",
+            "",
+            "https://images.schweizmobil.ch/image-big/Kneippanlage_Schwandalpweiher_Fluehli_2_g.jpg",
+            "https://images.schweizmobil.ch/image-big/Kneippanlage_Schwandalpweiher_Fluehli_5_g.jpg",
+            "https://images.schweizmobil.ch/image-big/Kneippanlage_Schwandalpweiher_Fluehli_6_g.jpg",
+            "https://images.schweizmobil.ch/image-big/Kneippanlage_Schwandalpweiher_Fluehli_4_g.jpg"
+        ],
+        "photo_gallery_copyright": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "name": "Sörenberg Flühli Tourismus",
+        "name_2": null,
+        "street": "Rothornstr. 21",
+        "zip": "6174",
+        "place": "Sörenberg",
+        "tel": "+41 (0)41 488 11 85",
+        "fax": null,
+        "email": "info@soerenberg.ch",
+        "url1_link": "https://www.soerenberg.ch",
+        "x_coordinate": 644532.7597647709,
+        "y_coordinate": 192332.02955806887,
+        "change_date": null,
+        "id": 588,
+        "r_key": 588,
+        "type": "Sight",
+        "url_sightseeing": "https://www.fluehli-wasser.ch",
+        "touristic_region": 4,
+        "canton": 15
+    }
+}

@@ -1,0 +1,74 @@
+{
+    "type": "Feature",
+    "id": 84,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.06006200808728,
+                7.935084801219771
+            ]
+        ]
+    },
+    "properties": {
+        "id": 84,
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "type": "Mountaineering",
+        "ascent_altitude": 230,
+        "ascent_time_max": 75,
+        "sac_chm_route": true,
+        "sac_created": "2022-08-16 14:01:02",
+        "descent_altitude": 190,
+        "descent_time_max": null,
+        "descent_time_min": null,
+        "sac_orig_id": 559,
+        "sac_modified": "2022-08-16 14:01:04",
+        "sac_status": "published",
+        "poi_title": "Britanniahütte SAC",
+        "abstract": "Normal access to the Britannia hut from the Felskinnbahn. Due to the serious risk of rockfall on the direct route beneath the Hinter Allalin (pisted in the winter months), we recommend the white-blue-white trail down over the glacier lake here. In summer 2022, a new and easy mountain trail was marked from Morenia (Maste 4) to the Egginerjoch. It is about half an hour longer than the Felskinn trail, but avoids the glacier passage on Chessjengletscher.",
+        "subtitle": null,
+        "title": "From Felskinn via the Egginerjoch",
+        "sac_type": "mountain_hiking",
+        "mountain_hiking_difficulty": "T4",
+        "alpine_tour_difficulty": null,
+        "alpine_climbing_difficulty": null,
+        "grade": null,
+        "height_climbing_wall": null,
+        "via_ferrata_difficulty": null,
+        "ski_tour_difficulty": null,
+        "mountaineering_sacphoto_ids": [
+            324,
+            325
+        ],
+        "sac_poi_id": 2147000046,
+        "x_coordinate": 638419.8689160286,
+        "y_coordinate": 101070.39194547532,
+        "change_date": "2023-03-30 12:13:55",
+        "sac_photos": [
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 324,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1522840504_1066176997Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1522840504_1066176997master.jpg",
+                "photo_sac_id": 253343,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1522840504_1066176997.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1522840504_1066176997M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1522840504_1066176997Mc.jpg",
+                "title": "The approach to the Britanniahütte over the dwindling Chessjen Glacier."
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 325,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1528881197_1033027348Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1528881197_1033027348master.jpg",
+                "photo_sac_id": 249736,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1528881197_1033027348.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1528881197_1033027348M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1528881197_1033027348Mc.jpg",
+                "title": "Overview of the hut approaches: the upper groomed slope, partly in the shade, corresponds to the best avoided 'rockfall danger zone' in summer."
+            }
+        ]
+    }
+}

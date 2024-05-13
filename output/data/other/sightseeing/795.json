@@ -1,0 +1,67 @@
+{
+    "type": "Feature",
+    "id": 795,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.97784034930254,
+                8.667653849458315
+            ]
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Funicular Stoos",
+        "abstract": "Since the end of 2017, a unique funicular rail-way has been running directly from Schwyz to the village of Stoos: at the steepest point it has a gradient of 110 percent - a world record! Also special: thanks to the automatic levelling system, the passengers in the round cabins are always horizontal.",
+        "description": "Steep, steeper, Stoos: Since 16th December 2017, the world's steepest funicular has been running from Schwyz directly to the car-free winter and hiking paradise of Stoos. On the steepest section of the route, the funicular overcomes an incline of 110 percent, which corresponds to 47 degrees - this is currently the world record.\n\nOther special features include the futuristic design of the four cylindrical cabins and the innovative technology. Thanks to automatic levelling, passengers in the cabins are always level - very comfortable!  The journey - over a length of 1740 metres with an altitude difference of 744 metres - takes 4-7 minutes. The funicular has capacity for 1500 passengers per hour. 34 persons can be accommodated in one cabin. With four cabins per wagon, this results in a capacity of 136 passengers per trip.\n\nSuch a demanding build-ing takes time: The planning and realization period lasted 14 years. Eleven votes were necessary to get the mammoth project up and running.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image-big/Stoosbahn_Standseilbahn_Schwyz_Stoos_ivan_steiner_1_g.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/Stoosbahn_Stoos_Winter_neue_Standseilbahn_mit_Mythen_Sascha_Kraehenbuehl_2_s.jpg",
+            "https://images.schweizmobil.ch/image/Stoosbahn_Standseilbahn_Schwyz_Stoos_ivan_steiner_6_2lr_s.jpg",
+            "https://images.schweizmobil.ch/image/Stoosbahn_Standseilbahn_Schwyz_Stoos_ivan_steiner_1_s.jpg"
+        ],
+        "photo_gallery_big": [
+            "https://images.schweizmobil.ch/image-big/Stoosbahn_Stoos_Winter_neue_Standseilbahn_mit_Mythen_Sascha_Kraehenbuehl_2_g.jpg",
+            "https://images.schweizmobil.ch/image-big/Stoosbahn_Standseilbahn_Schwyz_Stoos_ivan_steiner_6_2lr_g.jpg",
+            "https://images.schweizmobil.ch/image-big/Stoosbahn_Standseilbahn_Schwyz_Stoos_ivan_steiner_1_g.jpg"
+        ],
+        "photo_gallery_copyright": [
+            "",
+            "                                                      ",
+            "                                                      "
+        ],
+        "photo_gallery_author": [
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            "",
+            ""
+        ],
+        "name": "Stoosbahnen AG",
+        "name_2": null,
+        "street": "Stoosplatz 1",
+        "zip": "6433",
+        "place": "Stoos",
+        "tel": "+41 (0)41 818 08 08",
+        "fax": null,
+        "email": "info@stoos.ch",
+        "url1_link": "https://www.stoos.ch",
+        "x_coordinate": 693510.4878812775,
+        "y_coordinate": 203707.53398904513,
+        "change_date": null,
+        "id": 795,
+        "r_key": 795,
+        "type": "Sight",
+        "url_sightseeing": "https://stoos-muotatal.ch/en/",
+        "touristic_region": 4,
+        "canton": 11
+    }
+}

@@ -1,0 +1,62 @@
+{
+    "type": "Feature",
+    "id": 876,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.02193023400826,
+                7.748985174068632
+            ]
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Pumptrack Zermatt",
+        "abstract": "“Pumping” at the foot of the Matterhorn? Sure, just go to the Zermatt pump track, either to improve your skills, or as a warm-up for the Moos trail or the Sunegga trail. Directly adjacent is an obstacle park for kids.",
+        "description": "The Zermatt pump track is located on the Chrome athletic field and accessible during the summer months. \n\nKids will discover the fun of mountain biking as they complete their first laps and negotiate rollers – or they can enjoy the obstacle park right next to it. \n\nOn the pump track, here at the foot of the Matterhorn, those with more experience will train endurance, strength, balance, and speed, all at the same time. These riding skills can subsequently be used on the trails of Zermatt.  ",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image-big/VS_Pumptrackl_Zermatt_2_g.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/VS_Pumptrackl_Zermatt_1_s.jpg",
+            "https://images.schweizmobil.ch/image/VS_Pumptrackl_Zermatt_2_s.jpg"
+        ],
+        "photo_gallery_big": [
+            "https://images.schweizmobil.ch/image-big/VS_Pumptrackl_Zermatt_1_g.jpg",
+            "https://images.schweizmobil.ch/image-big/VS_Pumptrackl_Zermatt_2_g.jpg"
+        ],
+        "photo_gallery_copyright": [
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "Zermatt Tourismus",
+        "name_2": null,
+        "street": "Bahnhofplatz 5",
+        "zip": "3920",
+        "place": "Zermatt",
+        "tel": "+41 (0)27 966 81 00",
+        "fax": null,
+        "email": "info@zermatt.ch",
+        "url1_link": "https://www.zermatt.ch ",
+        "x_coordinate": 624034.6321411966,
+        "y_coordinate": 96757.68580753094,
+        "change_date": null,
+        "id": 876,
+        "r_key": 876,
+        "type": "Sight",
+        "url_sightseeing": "https://www.valais.ch/fr/activites/vtt/pumptracks",
+        "touristic_region": 11,
+        "canton": 7
+    }
+}

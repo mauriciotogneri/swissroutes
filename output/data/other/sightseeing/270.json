@@ -1,0 +1,62 @@
+{
+    "type": "Feature",
+    "id": 270,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                47.42305705105111,
+                9.37722848991273
+            ]
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Abbey District of St.Gallen",
+        "abstract": "It's not without reason that St.Gallen has often also been labelled the cultural metropolis of Eastern Switzerland. The entire Abbey District with the baroque cathedral and the world-famous Abbey Library was declared a UNESCO World Heritage Site in 1983.",
+        "description": "The cathedral is a work from the late Baroque period, built between 1755 and 1767. Already in the year 612, the Irish monk Gallus founded a settlement here. From this arose a monastery in 719, which in 800 blossomed religiously, economically and culturally. After an eventful history, the Abbey was abolished in 1805. The monumental sacred building with the impressive double tower façade is also wonderfully outfitted on the inside.\n\nThe Baroque hall of the Abbey Library surprises the visitor with its rich rococo outfitting. The stock of books of the library, which is still active today, is around 170'000 books. The impressive collection of early medieval original manuscripts makes this institution world famous. More than 400 volumes are more than 1000 years old.\n\nIn the Baroque cellar vault is the Lapidarium (lat. Lapis – stone). Carolingian-Ottoman, Gothic and early Baroque architectural sculptures are on display. The 1000-year-old history of the monastery is revealed.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/9221_Stiftsbezirk_Kathedrale-UNESCO-Welterbe_1a.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/9221_Stiftsbezirk_Kathedrale-UNESCO-Welterbe_1a.jpg",
+            "https://images.schweizmobil.ch/image/9221_Stiftsbezirk_Kathedrale-UNESCO-Welterbe_2b.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "St.Gallen-Bodensee Tourismus",
+        "name_2": null,
+        "street": "Bankgasse 9",
+        "zip": "9001",
+        "place": "St.Gallen",
+        "tel": "+41 (0)71 227 37 37",
+        "fax": null,
+        "email": "info@st.gallen-bodensee.ch",
+        "url1_link": "https://www.st.gallen-bodensee.ch",
+        "x_coordinate": 746266.023462905,
+        "y_coordinate": 254279.39625627748,
+        "change_date": null,
+        "id": 270,
+        "r_key": 270,
+        "type": "Sight",
+        "url_sightseeing": "https://st.gallen-bodensee.ch/de/erlebnisse/kunst-kultur/unesco-weltkulturerbe.html",
+        "touristic_region": 2,
+        "canton": 23
+    }
+}

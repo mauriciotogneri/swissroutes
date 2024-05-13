@@ -1,0 +1,67 @@
+{
+    "type": "Feature",
+    "id": 784,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.77817161173445,
+                8.385469607698639
+            ]
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Hells Bells Trail",
+        "abstract": "This trail isn’t nearly as perilous as it sounds! The medium-difficulty Hells Bells Trail runs for two kilometres along the cable-car route from the Jochpass to Engstlenalp. The trail offers plenty of natural flow and wonderful views of the surrounding peaks.",
+        "description": "The trail starts at the Jochpass, 2,200 metres above sea level. To get there, take the Titlis Xpress from Engelberg to Trübsee and then travel the short distance alongside the Trübsee lake to the Jochpass chairlift. \n\nOnce you get to the mountain station of the Engstlen chairlift, you take the one-metre-wide flow trail down towards Engstlenalp. Harmoniously nestled in its environment, this route has a clear focus on fun and flow, and is not only for skilled riders. You can return to the top nice and easily on the chairlift.\n\nAll that exercise will probably make you hungry and thirsty, so don’t forget to take a well-earned break on the terrace of Bärghuis Jochpass. And the fun doesn’t end when the day is done. Afterwards, you can race down into the valley along the flow trail from the Jochpass to Trübsee (see route description), and return to Engelberg via Untertrübsee. ",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image-big/Hells_Bells_Trail_170928_Bike_Engstlen_HellsBellsTrail_enander_o_80969_60_g.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/Hells_Bells_Trail_170928_Bike_Engstlen_HellsBellsTrail_enander_o_80969_59_s.jpg",
+            "https://images.schweizmobil.ch/image/Hells_Bells_Trail_170928_Bike_Engstlen_HellsBellsTrail_enander_o_80969_60_s.jpg",
+            "https://images.schweizmobil.ch/image/Hells_Bells_Trail_170928_Bike_Engstlen_HellsBellsTrail_enander_o_80969_61_s.jpg"
+        ],
+        "photo_gallery_big": [
+            "https://images.schweizmobil.ch/image-big/Hells_Bells_Trail_170928_Bike_Engstlen_HellsBellsTrail_enander_o_80969_59_g.jpg",
+            "https://images.schweizmobil.ch/image-big/Hells_Bells_Trail_170928_Bike_Engstlen_HellsBellsTrail_enander_o_80969_60_g.jpg",
+            "https://images.schweizmobil.ch/image-big/Hells_Bells_Trail_170928_Bike_Engstlen_HellsBellsTrail_enander_o_80969_61_g.jpg"
+        ],
+        "photo_gallery_copyright": [
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            "",
+            ""
+        ],
+        "name": "Engelberg-Titlis Tourismus",
+        "name_2": null,
+        "street": "Klosterstrasse 3",
+        "zip": "6391",
+        "place": "Engelberg",
+        "tel": "+41 (0)41 639 77 77",
+        "fax": null,
+        "email": "welcome@engelberg.ch",
+        "url1_link": "https://www.engelberg.ch",
+        "x_coordinate": 672309.0715030482,
+        "y_coordinate": 181214.28400587226,
+        "change_date": null,
+        "id": 784,
+        "r_key": 784,
+        "type": "Sight",
+        "url_sightseeing": "https://www.engelberg.ch/en/summer/bike/bike-trails/?oid=25033847",
+        "touristic_region": 6,
+        "canton": 12
+    }
+}

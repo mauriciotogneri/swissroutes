@@ -1,0 +1,62 @@
+{
+    "type": "Feature",
+    "id": 186,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.08057049192717,
+                7.403088797280855
+            ]
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Grande Dixence dam",
+        "abstract": "Situated at the head of the Val des Dix, Grande Dixence is the highest gravity dam in the world, and something of a record-breaker! The height of its wall, 285 metres, remains unmatched. Its weight, approximately 15 million tonnes, makes it heavier than the Great Pyramid of Cheops.",
+        "description": "Each year it stores over 400 million cubic metres of water, a capacity achieved by the use of no less than 6 million cubic metres of concrete in its construction. With exactly the same quantity of concrete, it would be possible to build a wall 1.5 metres high and 10 centimetres wide, running all the way round the equator! The dam is 200 metres wide at its base. At the top it «slims down» to just 15 metres.\n\nThe Grande Dixence dam is open to the public from mid-June to the end of September. Four guided tours inside the wall are organised every day. You can also visit the exhibition pavilion and go up to the top of the dam wall on foot or by cable car.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/11494_Grande_Dixence_1a.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/11494_Grande_Dixence_1a.jpg",
+            "https://images.schweizmobil.ch/image/11494_Grande_Dixence_2b.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "Grande Dixence SA",
+        "name_2": null,
+        "street": "Rue des Creusets 41",
+        "zip": "1950",
+        "place": "Sion",
+        "tel": "+41 (0)27 328 43 11",
+        "fax": null,
+        "email": "info@grande-dixence.ch",
+        "url1_link": "https://www.grande-dixence.ch",
+        "x_coordinate": 597250.0364588207,
+        "y_coordinate": 103229.87478946481,
+        "change_date": null,
+        "id": 186,
+        "r_key": 186,
+        "type": "Sight",
+        "url_sightseeing": "https://www.grande-dixence.ch",
+        "touristic_region": 11,
+        "canton": 7
+    }
+}

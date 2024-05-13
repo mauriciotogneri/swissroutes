@@ -1,0 +1,62 @@
+{
+    "type": "Feature",
+    "id": 400,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.22619148069196,
+                6.141899307484007
+            ]
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "United Nations Building",
+        "abstract": "International Geneva. Geneva is the headquarters of some 200 international organizations, most of which are located around the place des Nations.",
+        "description": "Facing this square is the imposing United Nations Building, European headquarters of the United Nations. Built in the 1930s, the Building is located in a park offering magnificent panoramic views of the city, the lake and the Alps.\n\nA visit to the Palais allows you to see certain conference rooms, notably the Counsel Room, which is decorated with superb frescoes, and the Assembly Room, which is even more vast than the Paris Opera.\n\nWhen you pass through the gate of the Palais des Nations, you are entering international land. A land without frontiers that welcomes 28,000 delegates from these nations every year, a place where 3,000 civil servants work towards the same goal: achieving peace, security and dignity for all mankind.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/9764_UNO-Gebaeude_1a.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/9764_UNO-Gebaeude_1a.jpg",
+            "https://images.schweizmobil.ch/image/9764_UNO-Gebaeude_2b.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "Fondation Genève Tourisme & Congrès",
+        "name_2": null,
+        "street": "Quai du Mont-Blanc 2",
+        "zip": "1201",
+        "place": "Genève",
+        "tel": "+41 (0)22 909 70 00",
+        "fax": null,
+        "email": "info@geneve.com",
+        "url1_link": "https://www.geneve.com",
+        "x_coordinate": 499957.3063993725,
+        "y_coordinate": 120243.5547760682,
+        "change_date": null,
+        "id": 400,
+        "r_key": 400,
+        "type": "Sight",
+        "url_sightseeing": "https://www.unog.ch/80256EE600581D0E/(httpPages)/5ADC7FB14E2750BD80256EF7005848A2?OpenDocument&cntxt=1A3BF&cookielang=en",
+        "touristic_region": 10,
+        "canton": 22
+    }
+}

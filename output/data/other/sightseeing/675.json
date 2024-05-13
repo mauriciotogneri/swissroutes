@@ -1,0 +1,77 @@
+{
+    "type": "Feature",
+    "id": 675,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.92111468209204,
+                7.848150806948955
+            ]
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Kambly Experience",
+        "abstract": "The «Kambly Experience» in Trubschachen is an exciting venue for the senses, where visitors can discover the secrets behind the art of baking quality biscuits while exploring the roots of the Kambly enterprise and savoring moments of sweet delight.",
+        "description": "A discover tour of light and sound takes visitors through Kambly's more than 100 years of history. In the first bakery of the company's young founder Oscar R. Kambly, visitors learn how he baked Bretzeli biscuits using his grandmother's original recipe, continued developing new ideas and set out to make Kambly famous throughout Switzerland.\n\nEach day, visitors can watch demonstrations by a master confectioner and learn the secrets behind the art of baking quality biscuits. Children and adults can also make reservations to create and bake their very own biscuits.\n\nOver 100 biscuit varieties are available to sample. The Factory Shop offers the right gift to take home to friends or family, and the Kambly Coffee Shop is the perfect place to relax and enjoy a sweet treat. Fine coffees and herbal teas are served with a little, tasty surprise.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/RST525504x_a.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/RST525504x_a.jpg",
+            "https://images.schweizmobil.ch/image/Kambly_aussen_b.jpg",
+            "https://images.schweizmobil.ch/image/RST525200x_bearb_c.jpg",
+            "https://images.schweizmobil.ch/image/RST524877_d.jpg",
+            "https://images.schweizmobil.ch/image/Kambly_f.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "name": "Kambly Erlebnis",
+        "name_2": null,
+        "street": "Mühlestrasse 8",
+        "zip": "3555",
+        "place": "Trubschachen",
+        "tel": "+41 (0)34 495 02 22",
+        "fax": null,
+        "email": "reservation@kambly.ch",
+        "url1_link": "https://www.kambly.ch",
+        "x_coordinate": 631192.1428254611,
+        "y_coordinate": 196750.1099739203,
+        "change_date": null,
+        "id": 675,
+        "r_key": 675,
+        "type": "Sight",
+        "url_sightseeing": "https://kambly.com/de/kambly-erlebnis/erlebniswelt/",
+        "touristic_region": 6,
+        "canton": 12
+    }
+}

@@ -1,0 +1,158 @@
+{
+    "type": "Feature",
+    "id": 327,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.52779189167148,
+                7.2038009207313065
+            ]
+        ]
+    },
+    "properties": {
+        "id": 327,
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "type": "Mountaineering",
+        "ascent_altitude": 1530,
+        "ascent_time_max": 270,
+        "sac_chm_route": true,
+        "sac_created": "2020-08-12 11:50:20",
+        "descent_altitude": 1530,
+        "descent_time_max": 165,
+        "descent_time_min": null,
+        "sac_orig_id": 1646,
+        "sac_modified": "2020-08-12 11:50:22",
+        "sac_status": "published",
+        "poi_title": "Dent de Combette",
+        "abstract": "Dent de Combette and Rochers des Rayes stand at the south-west end of the Gastlosen chain. It is a shame that in the southern part of Gastlosen there is no accommodation available.",
+        "subtitle": "Looking for accomodation",
+        "title": "Corne Aubert – Dent de Combette – Rochers des Rayes",
+        "sac_type": "mountain_hiking",
+        "mountain_hiking_difficulty": "T4+",
+        "alpine_tour_difficulty": null,
+        "alpine_climbing_difficulty": null,
+        "grade": null,
+        "height_climbing_wall": null,
+        "via_ferrata_difficulty": null,
+        "ski_tour_difficulty": null,
+        "mountaineering_sacphoto_ids": [
+            1036,
+            1037,
+            1038,
+            1039,
+            1040,
+            1041,
+            1042,
+            1043,
+            1044
+        ],
+        "sac_poi_id": 8087,
+        "x_coordinate": 581982.4370661556,
+        "y_coordinate": 152971.85275477625,
+        "change_date": "2023-03-30 12:14:18",
+        "sac_photos": [
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 1036,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1537608425_62029767Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1537608425_62029767master.jpg",
+                "photo_sac_id": 257879,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1537608425_62029767.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1537608425_62029767M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1537608425_62029767Mc.jpg",
+                "title": "View from Dent de Combette to Gastlosen"
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 1037,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1537608140_764220229Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1537608140_764220229master.jpg",
+                "photo_sac_id": 257873,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1537608140_764220229.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1537608140_764220229M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1537608140_764220229Mc.jpg",
+                "title": "Rochers des Rayes and Dent de Combette"
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 1038,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1537608044_1828093031Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1537608044_1828093031master.jpg",
+                "photo_sac_id": 257874,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1537608044_1828093031.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1537608044_1828093031M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1537608044_1828093031Mc.jpg",
+                "title": "Dent de Combette"
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 1039,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1537608174_632038058Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1537608174_632038058master.jpg",
+                "photo_sac_id": 257875,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1537608174_632038058.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1537608174_632038058M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1537608174_632038058Mc.jpg",
+                "title": "[no data]"
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 1040,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1537609335_88851657Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1537609335_88851657master.jpg",
+                "photo_sac_id": 257887,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1537609335_88851657.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1537609335_88851657M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1537609335_88851657Mc.jpg",
+                "title": "View from Corne Aubert to Dent de Combette"
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 1041,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1537608359_1387016441Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1537608359_1387016441master.jpg",
+                "photo_sac_id": 257877,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1537608359_1387016441.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1537608359_1387016441M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1537608359_1387016441Mc.jpg",
+                "title": "Above Combette"
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 1042,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1537608395_562611699Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1537608395_562611699master.jpg",
+                "photo_sac_id": 257878,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1537608395_562611699.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1537608395_562611699M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1537608395_562611699Mc.jpg",
+                "title": "Gastlosen with Haute Combe in front"
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 1043,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1537608489_1756756332Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1537608489_1756756332master.jpg",
+                "photo_sac_id": 257882,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1537608489_1756756332.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1537608489_1756756332M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1537608489_1756756332Mc.jpg",
+                "title": "Dent de Combette"
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 1044,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1537608505_1418616616Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1537608505_1418616616master.jpg",
+                "photo_sac_id": 257883,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1537608505_1418616616.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1537608505_1418616616M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1537608505_1418616616Mc.jpg",
+                "title": "Rochers des Rayes"
+            }
+        ]
+    }
+}

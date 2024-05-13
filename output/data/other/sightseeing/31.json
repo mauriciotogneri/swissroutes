@@ -1,0 +1,57 @@
+{
+    "type": "Feature",
+    "id": 31,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.78880287114067,
+                7.946196277623612
+            ]
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "The «HD-Weg» near Habkern",
+        "abstract": "In 1941, Swiss auxiliary troops Hilfsdienst (HD) extended the footpath between Habkern and Kemmeriboden with paving stones along a length of 8 kilometres, linking the armed forces’ HQ in Interlaken with the upper Emmental Valley. Since then, the century-old path has been known as the «HD-Weg».",
+        "description": "According to a memorial stone at Alp Widegg, the pack-animal trail on the southern flank of the Hohgant was built in 1941 by soldiers of the 7th road maintenance detachment from Bern. The strategically important route between Kemmeriboden and the Interlaken area, home of the armed forces’ HQ, was in keeping with the Swiss military’s WWII Alpine defence concept.\n\nFootpaths displaying a high standard of construction and traditional artisanship over several kilometres can be counted on the fingers of one hand in the Bernese Oberland. The «HD-Weg» is one of them. It was named after the troops who built it during WWII and was probably paved along its entire length at one time. The paving consists of hand-sized slabs of quarried Hohgant stone. They are laid at an average width of 1.6 metres. Cross drainage and water channels constructed to a high standard in stone can be found at intervals. There are also several preserved roundwood steps with stone abutments.\n\nThe section between Hinter Hübeli and Alp Schärpfenberg is for the larger part preserved in its typical construction. The surface is laid with Hohgant sandstone paving of 1.5 – 2 metres wide. The foundations are supported by drystone walling at Harzisboden. Two of these walls have integrated water channels.\n\nThis section is endangered by landslides and overuse. Repair and maintenance work is planned for 2010.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/IVS_06_Habkern.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/IVS_06_Habkern.jpg"
+        ],
+        "photo_gallery_big": [
+            ""
+        ],
+        "photo_gallery_copyright": [
+            ""
+        ],
+        "photo_gallery_author": [
+            ""
+        ],
+        "photo_gallery_abstract": [
+            ""
+        ],
+        "name": "Bundesinventar der historischen Verkehrswege der Schweiz (IVS)",
+        "name_2": null,
+        "street": " ",
+        "zip": " ",
+        "place": " ",
+        "tel": " ",
+        "fax": null,
+        "email": " ",
+        "url1_link": "https://www.ivs.admin.ch",
+        "x_coordinate": 638755.3754659612,
+        "y_coordinate": 182085.22763905578,
+        "change_date": null,
+        "id": 31,
+        "r_key": 31,
+        "type": "Sight",
+        "url_sightseeing": "https://s.geo.admin.ch/6fb181f80c",
+        "touristic_region": 6,
+        "canton": 12
+    }
+}

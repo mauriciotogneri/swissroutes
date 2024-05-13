@@ -1,0 +1,86 @@
+{
+    "type": "Feature",
+    "id": 479,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.67205475283287,
+                8.906138909549378
+            ]
+        ]
+    },
+    "properties": {
+        "id": 479,
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "type": "Mountaineering",
+        "ascent_altitude": 1600,
+        "ascent_time_max": 300,
+        "sac_chm_route": true,
+        "sac_created": "2020-08-12 16:02:04",
+        "descent_altitude": 1600,
+        "descent_time_max": 240,
+        "descent_time_min": 180,
+        "sac_orig_id": 2398,
+        "sac_modified": "2020-08-12 16:02:07",
+        "sac_status": "published",
+        "poi_title": "Piz Muraun",
+        "abstract": "The Rhaeto-Romanic word „surselva“, which denotes the broad valley between Disentis and Ilanz, means «above the forests». With its 2897 m Piz Muraun is definitely above the timber line. The view to Surselva and as far as the Tödi range is unobstructed. To reach this magnificent viewpoint, some entertaining scrambling is needed. It is best to undertake the descent via Garvera ridge, as it offers impressive views as well.",
+        "subtitle": "Above the woods",
+        "title": "North-south traverse from Curaglia",
+        "sac_type": "mountain_hiking",
+        "mountain_hiking_difficulty": "T4+",
+        "alpine_tour_difficulty": null,
+        "alpine_climbing_difficulty": null,
+        "grade": null,
+        "height_climbing_wall": null,
+        "via_ferrata_difficulty": null,
+        "ski_tour_difficulty": null,
+        "mountaineering_sacphoto_ids": [
+            1678,
+            1679,
+            1680
+        ],
+        "sac_poi_id": 1239,
+        "x_coordinate": 712289.0809705607,
+        "y_coordinate": 170031.01597835144,
+        "change_date": "2023-03-30 12:14:33",
+        "sac_photos": [
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 1678,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1536315946_1164456161Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1536315946_1164456161master.jpg",
+                "photo_sac_id": 257660,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1536315946_1164456161.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1536315946_1164456161M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1536315946_1164456161Mc.jpg",
+                "title": "On Garvera ridge"
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 1679,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1536319481_316845505Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1536319481_316845505master.jpg",
+                "photo_sac_id": 257662,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1536319481_316845505.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1536319481_316845505M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1536319481_316845505Mc.jpg",
+                "title": "View down to Surselva"
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 1680,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1536315947_1378080457Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1536315947_1378080457master.jpg",
+                "photo_sac_id": 257661,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1536315947_1378080457.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1536315947_1378080457M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1536315947_1378080457Mc.jpg",
+                "title": "Small man, mighty Piz Muraun"
+            }
+        ]
+    }
+}

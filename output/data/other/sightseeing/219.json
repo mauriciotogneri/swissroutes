@@ -1,0 +1,62 @@
+{
+    "type": "Feature",
+    "id": 219,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                47.166053759173025,
+                8.515301737338973
+            ]
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Zytturm",
+        "abstract": "This landmark is 52 metres high and rises above the other towers of the town. The lower part was built simply as a passage-way through the town wall. Hans Felder snr, from Bavaria, a master builder, who also built St. Oswald's Church, added the tower in 1478-1480.",
+        "description": "In 1557 it was extended to its present size by the addition of a watch chamber, turret-shaped bay windows and steep roof. Over the centuries the tower has had many different functions. It was the fortified entrance into the town - locked every night - but also the town's prison and watch tower: a look-out point for fires.\n\nThe tower has had a clock since 1480, but in 1574 a larger one was installed. Of particular interest today is the astronomical clock. The four hands with the sun, moon, arrow and S, indicate the months, the phases of the moon, the days of the week and the leap years. The fastest hand is the day hand, which passes daily over one of the 7 gods who represent the days of the week.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/9246_Zytturm_1a.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/9246_Zytturm_1a.jpg",
+            "https://images.schweizmobil.ch/image/9246_Zytturm_2b.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "Zug Tourismus",
+        "name_2": null,
+        "street": "Bahnhofplatz",
+        "zip": "6300",
+        "place": "Zug",
+        "tel": "+41 (0)41 723 68 00",
+        "fax": null,
+        "email": "info@zug.ch",
+        "url1_link": "https://www.zug-tourismus.ch",
+        "x_coordinate": 681632.6613786253,
+        "y_coordinate": 224459.21206474348,
+        "change_date": null,
+        "id": 219,
+        "r_key": 219,
+        "type": "Sight",
+        "url_sightseeing": "https://www.zug-tourismus.ch/en/navpage.cfm?category=ExcursionsZT&subcat=SightseeingZT&id=114645",
+        "touristic_region": 3,
+        "canton": 21
+    }
+}

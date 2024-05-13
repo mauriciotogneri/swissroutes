@@ -1,0 +1,182 @@
+{
+    "type": "Feature",
+    "id": 71,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.47455825072323,
+                7.599689293717066
+            ]
+        ]
+    },
+    "properties": {
+        "id": 71,
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "type": "Mountaineering",
+        "ascent_altitude": 980,
+        "ascent_time_max": 210,
+        "sac_chm_route": true,
+        "sac_created": "2020-07-14 09:22:11",
+        "descent_altitude": null,
+        "descent_time_max": null,
+        "descent_time_min": null,
+        "sac_orig_id": 457,
+        "sac_modified": "2020-07-14 09:22:20",
+        "sac_status": "published",
+        "poi_title": "Lohnerhütte SAC",
+        "abstract": "This approach to the Lohnerhütte is very demanding, and follows many ladders and fixed ropes through some steep rocky terrain. Sure-footedness and a head for heights are prerequisites.  There are two similarly difficult variants, which form an interesting combination for the ascent and descent: An upper one over the Schryberschreck rock step and a lower one over the so-called Leitereweg.",
+        "subtitle": "Demanding hut approach starting from Adelboden",
+        "title": "From Adelboden",
+        "sac_type": "mountain_hiking",
+        "mountain_hiking_difficulty": "T5-",
+        "alpine_tour_difficulty": null,
+        "alpine_climbing_difficulty": null,
+        "grade": null,
+        "height_climbing_wall": null,
+        "via_ferrata_difficulty": null,
+        "ski_tour_difficulty": null,
+        "mountaineering_sacphoto_ids": [
+            3010,
+            3009,
+            3008,
+            3007,
+            3006,
+            3005,
+            2753,
+            2752,
+            2751,
+            261,
+            264
+        ],
+        "sac_poi_id": 2147000157,
+        "x_coordinate": 612369.6049081186,
+        "y_coordinate": 147039.87691198007,
+        "change_date": "2023-03-30 12:13:54",
+        "sac_photos": [
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 3010,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1594713485_933165311Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1594713485_933165311master.jpg",
+                "photo_sac_id": 279929,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1594713485_933165311.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1594713485_933165311M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1594713485_933165311Mc.jpg",
+                "title": "The last steps to the Lohnerhütte."
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 3009,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1594718532_78107265Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1594718532_78107265master.jpg",
+                "photo_sac_id": 279942,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1594718532_78107265.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1594718532_78107265M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1594718532_78107265Mc.jpg",
+                "title": "Another ditch has to be crossed until the Lohnerhütte."
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 3008,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1594713513_1156175246Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1594713513_1156175246master.jpg",
+                "photo_sac_id": 279941,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1594713513_1156175246.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1594713513_1156175246M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1594713513_1156175246Mc.jpg",
+                "title": "The chain-equipped Zürchertritt, here the variants reunite again."
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 3007,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1594713931_404795242Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1594713931_404795242master.jpg",
+                "photo_sac_id": 279940,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1594713931_404795242.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1594713931_404795242M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1594713931_404795242Mc.jpg",
+                "title": "Zürchertritt seen from the upper variant: With the help of chains you climb the steep step."
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 3006,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1594713513_1360368623Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1594713513_1360368623master.jpg",
+                "photo_sac_id": 279939,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1594713513_1360368623.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1594713513_1360368623M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1594713513_1360368623Mc.jpg",
+                "title": "Branching off: Ladder path to the right, over the Schryberschreck straight ahead."
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 3005,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1594714449_141574646Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1594714449_141574646master.jpg",
+                "photo_sac_id": 279938,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1594714449_141574646.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1594714449_141574646M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1594714449_141574646Mc.jpg",
+                "title": "Near Ahorni: well signposted to the Lohnerhütte about in the picture centre."
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 2753,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1537808920_1891864311Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1537808920_1891864311master.jpg",
+                "photo_sac_id": 257936,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1537808920_1891864311.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1537808920_1891864311M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1537808920_1891864311Mc.jpg",
+                "title": "Standing out on a grassy ridge; the Lohnerhütte SAC."
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 2752,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1537808927_867934645Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1537808927_867934645master.jpg",
+                "photo_sac_id": 257935,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1537808927_867934645.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1537808927_867934645M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1537808927_867934645Mc.jpg",
+                "title": "Tierchumi. A flattish traverse over the hollows and ribs will bring you safely to the hut."
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 2751,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1537808923_1254714845Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1537808923_1254714845master.jpg",
+                "photo_sac_id": 257934,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1537808923_1254714845.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1537808923_1254714845M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1537808923_1254714845Mc.jpg",
+                "title": "Zürchertritt seen from the Leitereweg. Chains help to overcome this steep step."
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 261,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1594714014_643583724Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1594714014_643583724master.jpg",
+                "photo_sac_id": 251874,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1594714014_643583724.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1594714014_643583724M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1594714014_643583724Mc.jpg",
+                "title": "I de Schrickmattä, the route ahead leads along the dark band above the dry channel."
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 264,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1566911329_1104754980Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1566911329_1104754980master.jpg",
+                "photo_sac_id": 251873,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1566911329_1104754980.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1566911329_1104754980M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1566911329_1104754980Mc.jpg",
+                "title": "Alp Unterbunder. The hut stands just above the on a rib above the obvious rock tower."
+            }
+        ]
+    }
+}

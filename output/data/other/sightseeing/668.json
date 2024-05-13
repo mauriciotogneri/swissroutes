@@ -1,0 +1,72 @@
+{
+    "type": "Feature",
+    "id": 668,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                47.21194144259571,
+                7.789154600691508
+            ]
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Kunsthaus Langenthal",
+        "abstract": "Kunsthaus Langenthal is an art museum housed in the historic «Choufhüsi» building on Marktgasse, Langenthal's shopping and pedestrian zone characterized by high sidewalks and cobblestone roads.",
+        "description": "This prominent, light-blue building with its tower featuring four clock faces is a Late Gothic construction with an octagonal layout, which was built from 1790 to 1808 based on plans designed by Joseph Purtschert. Having served as the market venue until 1894, the can-ton's historical building is now home to an art museum.\n\nThe Kunsthaus hosts several art exhibitions each year, which take up new topics and reflect trends in contemporary art. An emphasis is placed on current Swiss art, though international items are also included depending on the particular subject. The exhibitions provide the chance to engage in mixed dialogue. The museum is enhanced by art mediation and interdisciplinary events geared toward a broad public.\n\nKunsthaus Langenthal offers public and literary tours, children's workshops, readings, concerts and other performances, as well as art and podium discussions, etc.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/Kunsthaus_Langenthal_1a.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/Kunsthaus_Langenthal_Innenansicht-Jaeggli.jpg",
+            "https://images.schweizmobil.ch/image/Kunsthaus_Langenthal_2008_b.jpg",
+            "https://images.schweizmobil.ch/image/Kunsthaus_Langenthal_1a.jpg",
+            "https://images.schweizmobil.ch/image/Langenthal_Choufhuesi_d.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "name": "Kunsthaus Langenthal",
+        "name_2": null,
+        "street": "Marktgasse 13",
+        "zip": "4900",
+        "place": "Langenthal",
+        "tel": "+41 (0)62 922 60 55",
+        "fax": null,
+        "email": "info@kunsthauslangenthal.ch",
+        "url1_link": "https://www.kunsthauslangenthal.ch",
+        "x_coordinate": 626554.0998865115,
+        "y_coordinate": 229060.6038686433,
+        "change_date": null,
+        "id": 668,
+        "r_key": 668,
+        "type": "Sight",
+        "url_sightseeing": "https://www.kunsthauslangenthal.ch",
+        "touristic_region": 6,
+        "canton": 12
+    }
+}

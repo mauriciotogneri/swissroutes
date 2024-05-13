@@ -1,0 +1,62 @@
+{
+    "type": "Feature",
+    "id": 313,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.2308259044332,
+                6.917871146450159
+            ]
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "The old mills of the Tine",
+        "abstract": "The mills of the Tine are about 1400 years old and the site has been classified by the Canton of Valais and the Swiss Confederation as a «historical monument». You are now on the old road that used to link Monthey to Champéry.",
+        "description": "The current bridge was built around 1750. This was the industrial zone of the whole valley of Illiez. People in the past benefited from the hydraulic force of water. They had a sawmill - a forge and a mills with housing conditions and several presses.\n\nAs the name suggests, the mills of Troistorrents are located in the \"Tine Schlucht\". This exceptional work dates back to the 15th century and is beautifully illuminated at night. The building foundations form one of the most impressive and fairytale historic cultural assets of the Lower Valais.\n\nA visit to the water mills will tell you a lot about their past and present use, and you will discover water mill, press, smithy, sawmill, but also a small exhibition of the furniture and tools of the time. Visits are possible in the summer season without advance reservation between 14 and 17 o'clock, at all other times guided tours are possible with reservation. \n\nListen to the exciting stories of the miller, it's worth it.\n\n",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/8917_Die-alten-Muehlen-von-la-Tine_1a.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/8917_Die-alten-Muehlen-von-la-Tine_1a.jpg",
+            "https://images.schweizmobil.ch/image/8917_Die-alten-Muehlen-von-la-Tine_2b.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "Vieux Moulins de la Tine",
+        "name_2": null,
+        "street": "Route de Troistorrents",
+        "zip": "1872",
+        "place": "Troistorrents",
+        "tel": "+41 (0)79 226 33 16",
+        "fax": null,
+        "email": "meunier@vimoti.ch",
+        "url1_link": "https://www.vimoti.ch",
+        "x_coordinate": 559825.491387624,
+        "y_coordinate": 120065.81253601643,
+        "change_date": null,
+        "id": 313,
+        "r_key": 313,
+        "type": "Sight",
+        "url_sightseeing": "https://www.vimoti.ch",
+        "touristic_region": 11,
+        "canton": 7
+    }
+}

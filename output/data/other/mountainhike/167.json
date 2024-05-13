@@ -1,0 +1,86 @@
+{
+    "type": "Feature",
+    "id": 167,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.69059042294916,
+                8.487700131089388
+            ]
+        ]
+    },
+    "properties": {
+        "id": 167,
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "type": "Mountaineering",
+        "ascent_altitude": 530,
+        "ascent_time_max": 60,
+        "sac_chm_route": true,
+        "sac_created": "2021-08-18 10:21:29",
+        "descent_altitude": 770,
+        "descent_time_max": 150,
+        "descent_time_min": null,
+        "sac_orig_id": 899,
+        "sac_modified": "2021-08-18 10:21:32",
+        "sac_status": "published",
+        "poi_title": "Voralphütte SAC",
+        "abstract": "At first we walk from Bergseehütte through a charming landscape full of granite debris and gaze up at the well-known, compact climbing mountain Bergseeschijen. The passage into the basin of the Voralpreuss calls on our climbing skills, as we need to scramble up a rocky step equipped with fixed ropes. Afterwards we traverse a wide face, which is occasionally stony, sometimes green, or even, depending on the season, snow-covered, to reach Voralphütte. A feast for the eyes are the high alpine Sustenhorn, the massive Fleckistock – the highest peak on Uri territory – and Salbitschijen, a summit highly sought after by ambitious sport climbers.",
+        "subtitle": "Passing by a well-known climbing mountain to Voralptal",
+        "title": "From Bergseehütte to Voralphütte",
+        "sac_type": "mountain_hiking",
+        "mountain_hiking_difficulty": "T4",
+        "alpine_tour_difficulty": null,
+        "alpine_climbing_difficulty": null,
+        "grade": null,
+        "height_climbing_wall": null,
+        "via_ferrata_difficulty": null,
+        "ski_tour_difficulty": null,
+        "mountaineering_sacphoto_ids": [
+            509,
+            510,
+            511
+        ],
+        "sac_poi_id": 2147000289,
+        "x_coordinate": 680246.0072903142,
+        "y_coordinate": 171578.40092998752,
+        "change_date": "2023-03-30 12:14:02",
+        "sac_photos": [
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 509,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1513768780_173018304Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1513768780_173018304master.jpg",
+                "photo_sac_id": 248169,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1513768780_173018304.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1513768780_173018304M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1513768780_173018304Mc.jpg",
+                "title": "In the saddle at the foot of Horenfelistock, view to Voralptal. To the left of the signpost Sustenhorn is visible."
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 510,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1513768888_117770884Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1513768888_117770884master.jpg",
+                "photo_sac_id": 248170,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1513768888_117770884.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1513768888_117770884M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1513768888_117770884Mc.jpg",
+                "title": "Ascending the last metres to the breach at P. 2600."
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 511,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1513769172_2044772410Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1513769172_2044772410master.jpg",
+                "photo_sac_id": 248171,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1513769172_2044772410.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1513769172_2044772410M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1513769172_2044772410Mc.jpg",
+                "title": "Shortly before the arrival: view to Voralphütte and the hiking trail leading to Göschenertal."
+            }
+        ]
+    }
+}

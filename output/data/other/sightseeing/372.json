@@ -1,0 +1,62 @@
+{
+    "type": "Feature",
+    "id": 372,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.199192214836195,
+                6.145832801759333
+            ]
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Reformation Wall",
+        "abstract": "All the history of the reformation on 100 meters long. This monument, sculpted by Bouchard and Landowski, and inaugurated in 1917, recounts the history of the Calvinist Reformation and its dissemination throughout the world.",
+        "description": "At the center of the wall, from left to right, you can see Guillaume Farel, one of the first reformers in Geneva, then Jean Calvin and Theodore de Bèze, first rector of the Geneva Academy.  On the right is John Knox, founder in Scotland of the Presbyterian Church.\n\nThe six smaller statues to the sides of the central group represent significant political figures favourable to the Reformation of the Church.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/9745_Reformationsdenkmal_2a.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/9745_Reformationsdenkmal_2a.jpg",
+            "https://images.schweizmobil.ch/image/9745_Reformationsdenkmal_1b.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "Fondation Genève Tourisme & Congrès",
+        "name_2": null,
+        "street": "Quai du Mont-Blanc 2",
+        "zip": "1201",
+        "place": "Genève",
+        "tel": "+41 (0)22 909 70 00",
+        "fax": null,
+        "email": "info@geneve.com",
+        "url1_link": "https://www.geneve.com",
+        "x_coordinate": 500211.723991916,
+        "y_coordinate": 117237.47371270602,
+        "change_date": null,
+        "id": 372,
+        "r_key": 372,
+        "type": "Sight",
+        "url_sightseeing": "https://www.geneve.com/en/see-do/attractions/",
+        "touristic_region": 10,
+        "canton": 22
+    }
+}

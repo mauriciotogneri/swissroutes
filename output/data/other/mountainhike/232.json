@@ -1,0 +1,74 @@
+{
+    "type": "Feature",
+    "id": 232,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.92538492171603,
+                8.948184881951576
+            ]
+        ]
+    },
+    "properties": {
+        "id": 232,
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "type": "Mountaineering",
+        "ascent_altitude": 1140,
+        "ascent_time_max": 300,
+        "sac_chm_route": true,
+        "sac_created": "2020-08-12 09:08:16",
+        "descent_altitude": 1140,
+        "descent_time_max": 270,
+        "descent_time_min": 180,
+        "sac_orig_id": 1151,
+        "sac_modified": "2020-08-12 09:08:32",
+        "sac_status": "published",
+        "poi_title": "Ortstock",
+        "abstract": "The Ortstock forms a imposing backdrop to Braunwald, though when viewed from Glattalp it is a rather inconspicuous scree cone. The summit panorama gives exceptional views down to Braunwald and into Linthtal. The western or \"Hinter\" Ortstock (P. 2717) is accessible via easy mountain trails and is often done. From Glattalp or from Braunwald's 'Gumen' cable car station, two equally long and similarly difficult routes lead to the summit. The route described here from Gumen is more varied than the one from Glattalp.",
+        "subtitle": "The Ortstock is quite a landmark, with impressive views over Braunwald and the Linthtal. Near the summit cross is also summit book.",
+        "title": "From Gumen via the Ortstock's Furggele Pass",
+        "sac_type": "mountain_hiking",
+        "mountain_hiking_difficulty": "T3",
+        "alpine_tour_difficulty": null,
+        "alpine_climbing_difficulty": null,
+        "grade": null,
+        "height_climbing_wall": null,
+        "via_ferrata_difficulty": null,
+        "ski_tour_difficulty": null,
+        "mountaineering_sacphoto_ids": [
+            697,
+            698
+        ],
+        "sac_poi_id": 1335,
+        "x_coordinate": 714964.4014957761,
+        "y_coordinate": 198249.08771232408,
+        "change_date": "2023-03-30 12:14:09",
+        "sac_photos": [
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 697,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1537860760_1168528953Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1537860760_1168528953master.jpg",
+                "photo_sac_id": 257945,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1537860760_1168528953.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1537860760_1168528953M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1537860760_1168528953Mc.jpg",
+                "title": "Ortstock via Bützi"
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 698,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1537862347_679275598Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1537862347_679275598master.jpg",
+                "photo_sac_id": 251431,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1537862347_679275598.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1537862347_679275598M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1537862347_679275598Mc.jpg",
+                "title": "Ortstock and Höchturm (right) with the Furggele pass between"
+            }
+        ]
+    }
+}

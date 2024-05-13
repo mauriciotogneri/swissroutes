@@ -1,0 +1,72 @@
+{
+    "type": "Feature",
+    "id": 333,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.599507377596936,
+                9.590557394674649
+            ]
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Lake Lai Barnagn",
+        "abstract": "The bathing lake of «Lai Barnagn» is located in the heart of Savognin. Thanks to its ideal location at the bottom of the valley, the water is always at a pleasant temperature.",
+        "description": "Lai Barnagn is one of the warmest bathing lakes in the Alps. It is located at 1'200m above sea level and is a great place for swimming and paddling. This beautiful lake is complemented by a restaurant, a large playground and much more. The spacious lawn, the 3 sunbathing decks, the raft and the deck chairs on the lake shore are all here to ensure that rest and relaxation are enjoyed in comfort.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image-big/Badesee_Lai_Barnagn_2016_Badesee_Slackline_086_g.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/Badesee_Lai_Barnagn_2016_Badesee_Slackline_086_s.jpg",
+            "https://images.schweizmobil.ch/image/Badesee_Lai_Barnagn_2016_Badesee_Sprung_Junge_0002626_s.jpg",
+            "https://images.schweizmobil.ch/image/8857_Badesee-Lai-Barnagn_1a.jpg",
+            "https://images.schweizmobil.ch/image/8857_Badesee-Lai-Barnagn_2b.jpg"
+        ],
+        "photo_gallery_big": [
+            "https://images.schweizmobil.ch/image-big/Badesee_Lai_Barnagn_2016_Badesee_Slackline_086_g.jpg",
+            "https://images.schweizmobil.ch/image-big/Badesee_Lai_Barnagn_2016_Badesee_Sprung_Junge_0002626_g.jpg",
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "name": "Tourismus Savognin Bivio Albula AG",
+        "name_2": null,
+        "street": "Stradung 42",
+        "zip": "7460",
+        "place": "Savognin",
+        "tel": "+41 (0)81 659 16 16",
+        "fax": null,
+        "email": "ferien@savognin.ch",
+        "url1_link": "https://www.savognin.ch",
+        "x_coordinate": 764869.0391775526,
+        "y_coordinate": 163177.01149884713,
+        "change_date": null,
+        "id": 333,
+        "r_key": 333,
+        "type": "Sight",
+        "url_sightseeing": "https://www.graubuenden.ch/de/regionen-entdecken/savognin-bivio-albula/lai-barnagn",
+        "touristic_region": 1,
+        "canton": 2
+    }
+}

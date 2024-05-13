@@ -1,0 +1,62 @@
+{
+    "type": "Feature",
+    "id": 371,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                47.5282647070431,
+                8.115724051853089
+            ]
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Cheisacherturm",
+        "abstract": "Enjoy a fantastic 360° panoramic view over the Jura, the Alps and the nearby Black Forest from the Cheisacherturm 25 metres high. Treat yourself to this excursion to the Fricktal.",
+        "description": "A viewing tower was built in October 2010 at the highest point of the Cheisacher where a tower once stood nearly 100 years ago. It gives visitors a fabulous view of the region and in good weather you can see as far as the Alps.\n\nBack in 1830 during the national survey, a large signalling rock was placed at the current site of the Cheisacherturm. Over the years the location of the survey point was adjusted and after being deliberately destroyed in 1913 it was replaced by a granite rock with an observation tower. Following the demolition of the observation tower in 1924 the signalling rock was placed back in its original location where the viewing tower now stands.\n\nThe best way to learn about the Cheisacher is on foot, so you can enjoy the wonderful landscape. The approach via the Fricktaler Pass, either from the Ampfernhöhe (between Mönthal and Sulz) or from the Bürensteig (between Gansingen and Remigen) is particularly attractive.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/12777_Cheisacherturm_1a.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/12777_Cheisacherturm_1a.jpg",
+            "https://images.schweizmobil.ch/image/12777_Cheisacherturm_2b1.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "Aargau Tourismus AG",
+        "name_2": null,
+        "street": "Laurstrasse 10",
+        "zip": "5200",
+        "place": "Brugg",
+        "tel": "+41 (0)62 823 00 73",
+        "fax": null,
+        "email": "info@aargautourismus.ch",
+        "url1_link": "https://www.aargautourismus.ch",
+        "x_coordinate": 650990.6743431982,
+        "y_coordinate": 264390.2274876705,
+        "change_date": null,
+        "id": 371,
+        "r_key": 371,
+        "type": "Sight",
+        "url_sightseeing": "https://www.cheisacherturm.ch",
+        "touristic_region": 14,
+        "canton": 13
+    }
+}

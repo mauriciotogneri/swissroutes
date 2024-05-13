@@ -1,0 +1,62 @@
+{
+    "type": "Feature",
+    "id": 43,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.69271358741517,
+                9.920215362959675
+            ]
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Scalettapass – avalanches and disputes",
+        "abstract": "The route from Davos over the Scalettapass to Chapella and S-chanf connects the Landwassertal valley with the Engadine. The story of the pass in the 17th and 18th centuries particularly is closely linked to that of the neighbouring Flüelapass.",
+        "description": "The Scaletta and Flüela pass crossings were keen rivals of long standing. The main bone of contention was responsibility for maintenance and upkeep, particularly keeping the crossings open in winter. There simply weren’t enough resources to clear both routes. In 1680, Davos and Zuoz signed a contract holding Davos responsible for closing the Flüelapass in winter and providing four men well-appointed with oxen, horses and equipment to keep the Scalettapass clear up to the summit in all weathers. In 1681, the Scalettapass was eschewed in favour of the Flüelapass, and Davos signed a maintenance contract with the municipality of Süs for a period of 20 years.\n\nThis meant the Scalettapass remained closed in winter. A refuge was built on both pass crossings in 1727. There was obviously no consensus on the issue, and the decline of pack-animal traffic over both pass crossings was a consequence of the construction between 1842 and 1860 of the road through the Prättigau.\n\nLong sections of the Scalettapass remain preserved to this day. The pack-animal track from Davos to Dürrboden is preserved and bordered in parts by drystone walling. The section between Dürrboden and the summit was rebuilt by the army along the mountain slope and is partially paved.\n\nThe section above Alp Funtauna has achieved infamy through avalanche tragedies. In 1771, 10 men and 12 horses died when an avalanche swept across a bend in the path at Schafboden.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/IVS_19_Scalettapass.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/IVS_19_Scalettapass.jpg",
+            "https://images.schweizmobil.ch/image/BN_Scaletta_Dischma_DSC04456.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "Bundesinventar der historischen Verkehrswege der Schweiz (IVS)",
+        "name_2": null,
+        "street": " ",
+        "zip": " ",
+        "place": " ",
+        "tel": " ",
+        "fax": null,
+        "email": " ",
+        "url1_link": "https://www.ivs.admin.ch",
+        "x_coordinate": 789790.2140758131,
+        "y_coordinate": 174279.5380701895,
+        "change_date": null,
+        "id": 43,
+        "r_key": 43,
+        "type": "Sight",
+        "url_sightseeing": "https://s.geo.admin.ch/6fb174f5f8",
+        "touristic_region": 1,
+        "canton": 2
+    }
+}

@@ -1,0 +1,62 @@
+{
+    "type": "Feature",
+    "id": 284,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                47.37345735749222,
+                9.344750498198191
+            ]
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Appenzell tourist cheese factory",
+        "abstract": "In the heart of the unspoiled hilly landscape of the pre-Alps, the famous Appenzeller® cheese is made in the Appenzeller show-dairy. A visit to this show-dairy promises to be a very special experience: it brings together all the senses, tradition and comfort.",
+        "description": "In many respects, ancient traditions are still part of everyday life for Appenzeller farmers and dairies. The Appenzeller show-dairy in Stein (AR) combines traditional customs with cutting-edge cheese manufacturing to create a successful fusion of time-honoured and contemporary techniques. Visiting the show-dairy is a very special experience. The voyage of discovery takes visitors from the craft of making cheese to the glorious vastness and scenic beauty of Appenzellerland.\n\nFind out why Appenzeller cheese is the most full-flavoured cheese in the demonstration area of the show-dairy. Although the recipe of the herbal brine remains a closely guarded secret, visitors can create their own mixtures of herbs to take home as a souvenir. They can also look into the cheese vats and pay a visit to the impressive cheese cellar. As they walk around, visitors hear sounds that are typical of Appenzellerland. These include dulcimer, accordion and alpine horn music, not to mention yodelling. Look into the distance at the Alpstein mountains with binoculars and experience a virtual 360-degree panorama.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/9042_Appenzeller-Schaukaeserei_1a.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/9042_Appenzeller-Schaukaeserei_1a.jpg",
+            "https://images.schweizmobil.ch/image/9042_Appenzeller-Schaukaeserei_2b.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "Appenzellerland Tourismus AG",
+        "name_2": null,
+        "street": "St. Gallerstrasse 49",
+        "zip": "9100",
+        "place": "Herisau",
+        "tel": "+41 (0)71 898 33 00",
+        "fax": null,
+        "email": "info@appenzellerland.ch",
+        "url1_link": "https://www.appenzellerland.ch",
+        "x_coordinate": 743950.6599167291,
+        "y_coordinate": 248706.31073849395,
+        "change_date": null,
+        "id": 284,
+        "r_key": 284,
+        "type": "Sight",
+        "url_sightseeing": "https://www.schaukaeserei.ch/en",
+        "touristic_region": 2,
+        "canton": 23
+    }
+}

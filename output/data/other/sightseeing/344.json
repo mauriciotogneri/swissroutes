@@ -1,0 +1,62 @@
+{
+    "type": "Feature",
+    "id": 344,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.42700593670221,
+                9.934080042863185
+            ]
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Morteratsch Glacier",
+        "abstract": "Nestled in a majestic mountain world, the Morteratsch Glacier is by surface area the largest glacier in the Bernina range of the Grisons Alps.",
+        "description": "Like huge tongues, the Pers and Morteratsch Glaciers push themselves from the snow covered peaks of Piz Palu and Piz Bernina towards Pontresina. At Isla Persa, between the two ice streams, the glacier arms join up with the glacier tongue, which ends about 2 kilometres further. As little as 120 years ago, the Morteratsch Glacier stretched almost 2 kilometres further into the valley. Today it is still about 6.4 kilometres long.\n\nAn educational trail provides information regarding the glacier's retreat and the mysteries of life in its terminus. From mid-June to late September a guided tour takes place every Monday morning.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/8440_Morteratsch-Gletscher_1a.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/8440_Morteratsch-Gletscher_1a.jpg",
+            "https://images.schweizmobil.ch/image/8440_Morteratsch-Gletscher_2b.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "Pontresina Tourist Information",
+        "name_2": null,
+        "street": "Via Maistra 133",
+        "zip": "7504",
+        "place": "Pontresina",
+        "tel": "+41 (0)81 838 83 00",
+        "fax": null,
+        "email": "pontresina@engadin.ch",
+        "url1_link": "https://www.engadin.ch/pontresina",
+        "x_coordinate": 791790.1406822851,
+        "y_coordinate": 144790.3701198292,
+        "change_date": null,
+        "id": 344,
+        "r_key": 344,
+        "type": "Sight",
+        "url_sightseeing": "https://www.graubunden.com/en/summer-holiday/resorts-highlights/highlights/highlights/morteratsch-glacier.html",
+        "touristic_region": 1,
+        "canton": 2
+    }
+}

@@ -1,0 +1,62 @@
+{
+    "type": "Feature",
+    "id": 252,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                47.00950355405096,
+                8.489659222677762
+            ]
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Vitznau Fortress (Festung Vitznau)",
+        "abstract": "The artillery fortress was constructed in the cliffs of Rigi as part of the Gotthard defence during and for World War II. For many decades it remained a well-kept secret and was always ready for battle.",
+        "description": "The fortress was opened to the public in 1998, enabling you to discover the caverns, ammunition depots, tunnels, casemates and artillery stands on a guided tour. The existence of the Swiss alpine fortress (called \"Réduit\") became known sixty years ago. In bunker after bunker from Lake Geneva to Lake Constance, cannons, tank barriers and entire hospitals were hidden behind ingenious camouflages. Only a select few have ever entered the secret fortress.\n\nBut now the past has been brought to life in Vitznau. You can visit the once top-secret Vitznau Fortress, which is open all year round, as well as the original Fortress Hotel.\n\nGuided tours: Militiamen from the Swiss Army, either retired or still serving actively, will disclose the secrets of the Vitznau Fortress to you. Some 500 meters of tunnels, gigantic ammunition depots, cannons, a power station, an operating room, workshops, a small \"hotel\" and much more await you.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/9323_Festung-Vitznau_1a.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/9323_Festung-Vitznau_1a.jpg",
+            "https://images.schweizmobil.ch/image/9323_Festung-Vitznau_2b.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "Luzern Tourismus",
+        "name_2": null,
+        "street": "Bahnhofstrasse 3",
+        "zip": "6002",
+        "place": "Luzern",
+        "tel": "+41 41 227 17 17",
+        "fax": null,
+        "email": "luzern@luzern.com",
+        "url1_link": "https://www.luzern.com",
+        "x_coordinate": 679921.1157699331,
+        "y_coordinate": 207030.1551595739,
+        "change_date": null,
+        "id": 252,
+        "r_key": 252,
+        "type": "Sight",
+        "url_sightseeing": "https://www.wvrt.ch/en/navpage.cfm?category=ExcursionsWVR&subcat=MuseumWVR&id=49187",
+        "touristic_region": 4,
+        "canton": 15
+    }
+}

@@ -1,0 +1,62 @@
+{
+    "type": "Feature",
+    "id": 133,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                47.13305520201115,
+                7.059387754368252
+            ]
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "The summet of the park Chasseral",
+        "abstract": "Nature lovers and those in search of new experiences head for the Chasseral - at 1607 metres, one of the Swiss Jura's highest peaks. But the Chasseral is also a Regional Park covering 400 square kilometres.",
+        "description": "The Chasseral massif alone is home to more than 500 species of flora, including some 20 orchids. Its forests provide an everchanging spectacle because of their different altitudes and colours that vary with the seasons.\n\nThe Chasseral's typical wooded pastures are unobtrusively maintained by farmers and foresters. Their presence dates back to the late Middle Ages when areas cleared through intensive use of timber were used for agriculture, and mainly for rearing livestock. As a result, sloping areas were left to the forest and wooded pastures developed.\n\nThe region is also extremely rich in fauna, the best known of which are probably the chamois, marmots and capercaillies. The latter used to be well represented on the Chasseral but have now virtually disappeared, and considerable efforts are being made to avoid their becoming extinct. Other rare species – like the woodlark – also find refuge in the Park.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/11484_Gipfel_des_Parks_Chasseral_1a.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/11484_Gipfel_des_Parks_Chasseral_1a.jpg",
+            "https://images.schweizmobil.ch/image/11484_Gipfel_des_Parks_Chasseral_2b.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "Jura Région",
+        "name_2": null,
+        "street": "Place de la Gare 2",
+        "zip": "2610",
+        "place": "Saint-Imier",
+        "tel": "+41 (0)32 492 39 42",
+        "fax": null,
+        "email": "saintimier@jurabernois.ch",
+        "url1_link": "https://www.jurabernois.ch",
+        "x_coordinate": 571227.2587243579,
+        "y_coordinate": 220300.84393166713,
+        "change_date": null,
+        "id": 133,
+        "r_key": 133,
+        "type": "Sight",
+        "url_sightseeing": "https://www.parcchasseral.ch/fr/accueil/",
+        "touristic_region": 8,
+        "canton": 12
+    }
+}

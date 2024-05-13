@@ -1,0 +1,74 @@
+{
+    "type": "Feature",
+    "id": 203,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.482707612175,
+                8.700355803315611
+            ]
+        ]
+    },
+    "properties": {
+        "id": 203,
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "type": "Mountaineering",
+        "ascent_altitude": 994,
+        "ascent_time_max": 150,
+        "sac_chm_route": true,
+        "sac_created": "2019-08-07 01:48:12",
+        "descent_altitude": 1100,
+        "descent_time_max": 180,
+        "descent_time_min": null,
+        "sac_orig_id": 1015,
+        "sac_modified": "2019-08-14 12:20:32",
+        "sac_status": "published",
+        "poi_title": "Poncione di Tremorgio",
+        "abstract": "Actually, Poncione di Tremorgio is not a very eye-catching appearance. However, it offers a view across the circular Lago Tremorgio to Leventina and the 1000 other Ticino summits. This and the descent through the magnificent landscape of Valle dei Cani make it a premium hiking destination.",
+        "subtitle": "The pinnacle above the perfectly circular lake",
+        "title": "Lago Tremorgio - Poncione di Tremorgio - Valle dei Cani - Alpe Pesciüm",
+        "sac_type": "mountain_hiking",
+        "mountain_hiking_difficulty": "T3+",
+        "alpine_tour_difficulty": null,
+        "alpine_climbing_difficulty": null,
+        "grade": null,
+        "height_climbing_wall": null,
+        "via_ferrata_difficulty": null,
+        "ski_tour_difficulty": null,
+        "mountaineering_sacphoto_ids": [
+            591,
+            592
+        ],
+        "sac_poi_id": 2007,
+        "x_coordinate": 696883.3156008697,
+        "y_coordinate": 148711.74925321905,
+        "change_date": "2023-03-30 12:14:06",
+        "sac_photos": [
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 591,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1515492934_168586132Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1515492934_168586132master.jpg",
+                "photo_sac_id": 248628,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1515492934_168586132.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1515492934_168586132M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1515492934_168586132Mc.jpg",
+                "title": "Poncione di Tremorgio viewed from the south, behind are the mountains beyond Leventina"
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 592,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1518537368_49617516Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1518537368_49617516master.jpg",
+                "photo_sac_id": 248629,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1518537368_49617516.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1518537368_49617516M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1518537368_49617516Mc.jpg",
+                "title": "Lago Tremorgio and behind Poncione"
+            }
+        ]
+    }
+}

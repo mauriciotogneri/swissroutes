@@ -1,0 +1,62 @@
+{
+    "type": "Feature",
+    "id": 22,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.95714456795373,
+                8.367010793235936
+            ]
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Medieval town of Stans",
+        "abstract": "The centre of Stans occupies the site of the oldest settlement on the Nidwalden valley floor. Human occupation can be traced back to the second century BC.",
+        "description": "In 1713 a fire destroyed two thirds of what was then a village. The radical planning regulations imposed as a result have given us a spacious town square of national importance, with its Winkelried Fountain, grand baroque houses and Town Hall.\n\nStans is also blessed with numerous places of interest and buildings of historical importance, including the Rosenburg (13/14th C), Winkelriedhaus (15th C), Capuchin monastery (1583) and convent (1618), where Heinrich Pestalozzi had his orphanage following the French invasion of 1798.\n\nNarrow Schmiedgasse, with its Old Town character, was where craftsmen once laboured; now its bars, restaurants and shops make it popular as a place to meet.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/8774_Stanser-Flecken_1a.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/8774_Stanser-Flecken_1a.jpg",
+            "https://images.schweizmobil.ch/image/8774_Stanser-Flecken_2b.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "Nidwalden Tourismus",
+        "name_2": null,
+        "street": "Postfach 1045",
+        "zip": "6371",
+        "place": "Stans",
+        "tel": "+41 (0)41 610 88 33",
+        "fax": null,
+        "email": "info@nidwalden.com",
+        "url1_link": "https://www.nidwalden.com",
+        "x_coordinate": 670664.0217477083,
+        "y_coordinate": 201092.01378502755,
+        "change_date": null,
+        "id": 22,
+        "r_key": 22,
+        "type": "Sight",
+        "url_sightseeing": "https://www.lakeluzern.ch/de/page.cfm/Erlebnisse/Sehenswuerdigkeiten/Historisches/Kulturgueter_historische_Bauten/12774",
+        "touristic_region": 4,
+        "canton": 10
+    }
+}

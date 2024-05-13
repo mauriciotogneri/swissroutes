@@ -1,0 +1,57 @@
+{
+    "type": "Feature",
+    "id": 3275,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.303324934300086,
+                7.481002723086366
+            ]
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Skills Park Family Forest Loop",
+        "abstract": "The Family Forest loop in the Moubra forest features a number of different stations where basic mountain biking skills can be learned with ease.",
+        "description": " ",
+        "highlights": "Surface: natural\nOpening hours: May - October",
+        "foto": "https://images.schweizmobil.ch/image-big/Skills_Park_Family_Forest_Loop_Crans-Montana_g.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/Skills_Park_Family_Forest_Loop_Crans-Montana_s.jpg"
+        ],
+        "photo_gallery_big": [
+            "https://images.schweizmobil.ch/image-big/Skills_Park_Family_Forest_Loop_Crans-Montana_g.jpg"
+        ],
+        "photo_gallery_copyright": [
+            "© by francois panchard / arolle production"
+        ],
+        "photo_gallery_author": [
+            ""
+        ],
+        "photo_gallery_abstract": [
+            ""
+        ],
+        "name": "Crans-Montana Tourisme & Congrès",
+        "name_2": null,
+        "street": "Route des Arolles 4",
+        "zip": "3963",
+        "place": "Crans-Montana",
+        "tel": "+41 27 485 04 90",
+        "fax": null,
+        "email": "information@crans-montana.ch",
+        "url1_link": "https://www.crans-montana.ch",
+        "x_coordinate": 603264.0885620175,
+        "y_coordinate": 127992.23638962567,
+        "change_date": null,
+        "id": 3275,
+        "r_key": 3275,
+        "type": "Sight",
+        "url_sightseeing": "https://www.valais.ch/en/activities/mountain-bike/pumptracks/skills-park-family-forest-loop",
+        "touristic_region": 11,
+        "canton": 7
+    }
+}

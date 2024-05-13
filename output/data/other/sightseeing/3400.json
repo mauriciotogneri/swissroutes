@@ -1,0 +1,67 @@
+{
+    "type": "Feature",
+    "id": 3400,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.296470939858665,
+                7.3980680213834535
+            ]
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Bains d'Anzère",
+        "abstract": "Situated in the heart of the village square, the resort offers relaxation in a grand, modern setting with a spectacular view of the Valais Alps. The Anzère Spa & Wellness Resort is open to all, with something for everyone.",
+        "description": "The resort comprises two separate areas:\nThe Pool Area, open to children and adults, fitted with hydromassage beds for relaxation, a waterfall, a whirlpool and massage jets in water heated to 33°C.\n\nThe Wellness Area, open to adults and over 16’s, offers a deeply relaxing experience with a panoramic jacuzzi heated to 38C°, a hammam, a sanarium and sauna, refreshing theme-based showers, a fitness area and a rest area.\n\nIn the Pool and Wellness Areas, from Monday to Friday, we offer a range of activities and entertainment free of charge in order to make your visit a pleasurable experience.\n\nThe Treatment Area—connected with the Wellness Area—offers a selection of spa treatments including massages and face and body treatments which can be booked in advance by calling or by sending an email.",
+        "highlights": "Kiddie pool\n\nSauna\n\nQuiet area\n\nSun loungers: lawn\n\nShowers, WC facilities, drinking water",
+        "foto": "https://images.schweizmobil.ch/image/Baden_BainsAnzere_4_s.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/Baden_BainsAnzere_4_s.jpg",
+            "https://images.schweizmobil.ch/image/Baden_BainsAnzere_3_s.jpg",
+            "https://images.schweizmobil.ch/image/Baden_BainsAnzere_2_s.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            "",
+            ""
+        ],
+        "name": "Anzère Spa & Wellness",
+        "name_2": null,
+        "street": "Place du Village",
+        "zip": "1972",
+        "place": "Anzère",
+        "tel": "+41 (0)27 398 77 77",
+        "fax": null,
+        "email": "asw@anzere.ch",
+        "url1_link": "https://www.anzere.ch",
+        "x_coordinate": 596874.3903211178,
+        "y_coordinate": 127230.75697795657,
+        "change_date": null,
+        "id": 3400,
+        "r_key": 3400,
+        "type": "Sight",
+        "url_sightseeing": "https://www.anzere.ch/tourismus-ski-spa/wellness-39.html",
+        "touristic_region": 11,
+        "canton": 7
+    }
+}

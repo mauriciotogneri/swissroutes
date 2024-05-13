@@ -1,0 +1,74 @@
+{
+    "type": "Feature",
+    "id": 449,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                47.249421189347686,
+                9.343218343963086
+            ]
+        ]
+    },
+    "properties": {
+        "id": 449,
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "type": "Mountaineering",
+        "ascent_altitude": 1330,
+        "ascent_time_max": 300,
+        "sac_chm_route": true,
+        "sac_created": "2022-08-16 11:30:31",
+        "descent_altitude": 200,
+        "descent_time_max": null,
+        "descent_time_min": null,
+        "sac_orig_id": 2360,
+        "sac_modified": "2022-08-16 11:30:32",
+        "sac_status": "published",
+        "poi_title": "Säntis",
+        "abstract": "With the usual and Chammhalden routes this is the third itinerary on the Säntis north face (second in terms of difficulty). Steep, equipped with steel cables and marked white-blue (alpine hiking route), it leads 600 metres of vertical height to Hintere Öhrligrueb. The detour to Öhrlikopf (on the national map new \"Öhrlikopf\") with some scrambling in shell limestone seems more difficult than it really is. Towards the end of the tour the often crowded mountain hiking route Ebenalp-Schäfler-Säntis can be avoided by undertaking the described, demanding ridge hike.",
+        "subtitle": "Alpine Anatomy Lessons",
+        "title": "From Schwägalp via Nasenlöcher",
+        "sac_type": "mountain_hiking",
+        "mountain_hiking_difficulty": "T4+",
+        "alpine_tour_difficulty": null,
+        "alpine_climbing_difficulty": null,
+        "grade": null,
+        "height_climbing_wall": null,
+        "via_ferrata_difficulty": null,
+        "ski_tour_difficulty": null,
+        "mountaineering_sacphoto_ids": [
+            3801,
+            1555
+        ],
+        "sac_poi_id": 1638,
+        "x_coordinate": 744169.8993900999,
+        "y_coordinate": 234917.89539602405,
+        "change_date": "2023-03-30 12:14:30",
+        "sac_photos": [
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 3801,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1660206042_120038184Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1660206042_120038184master.jpg",
+                "photo_sac_id": 290090,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1660206042_120038184.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1660206042_120038184M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1660206042_120038184Mc.jpg",
+                "title": "The nostrils - the trail to the actual \"holes\" is a dead end"
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 1555,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1533555866_787592781Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1533555866_787592781master.jpg",
+                "photo_sac_id": 256627,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1533555866_787592781.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1533555866_787592781M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1533555866_787592781Mc.jpg",
+                "title": "Öhrli (Öhrlikopf) viewed from Hintere Öhrligrueb at the end of the Nasenlöcher route"
+            }
+        ]
+    }
+}

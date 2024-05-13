@@ -1,0 +1,86 @@
+{
+    "type": "Feature",
+    "id": 177,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.927983191086724,
+                8.64647437104061
+            ]
+        ]
+    },
+    "properties": {
+        "id": 177,
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "type": "Mountaineering",
+        "ascent_altitude": 1400,
+        "ascent_time_max": 180,
+        "sac_chm_route": true,
+        "sac_created": "2019-10-02 10:51:14",
+        "descent_altitude": 665,
+        "descent_time_max": 120,
+        "descent_time_min": null,
+        "sac_orig_id": 914,
+        "sac_modified": "2019-10-02 10:51:14",
+        "sac_status": "published",
+        "poi_title": "Rophaien",
+        "abstract": "«The fact that William Tell was one from Uri, pleases old and young in this country.» Not so long ago, namely in 1970, this was written in the hiking guide for the canton of Uri. Therefore we begin at Tellsplatte, where William Tell supposedly, according to the legend and Friedrich Schiller’s play, escaped from Gessler’s boat. We ascend for a long time and increasingly steeply to the sky above Uri, until we cannot go any higher.\nAt Rophaien we get a sense of the freedom that seemed to have been so important for the folk hero and enjoy the breath-taking view down to the landscape the way it is 700 years later. Then we follow an exposed path across ridges so wild one could think they were battered by the oldest Uri phenomenon itself. No, not Tell but the Föhn (strong wind coming down from the mountains, which is called „the oldest Urner“).",
+        "subtitle": "The cross above Lake Lucerne",
+        "title": "Ober Axen - Rophaien – Lidernenhütte",
+        "sac_type": "mountain_hiking",
+        "mountain_hiking_difficulty": "T4",
+        "alpine_tour_difficulty": null,
+        "alpine_climbing_difficulty": null,
+        "grade": null,
+        "height_climbing_wall": null,
+        "via_ferrata_difficulty": null,
+        "ski_tour_difficulty": null,
+        "mountaineering_sacphoto_ids": [
+            535,
+            536,
+            537
+        ],
+        "sac_poi_id": 1524,
+        "x_coordinate": 691984.4576676855,
+        "y_coordinate": 198140.19274808667,
+        "change_date": "2023-03-30 12:14:03",
+        "sac_photos": [
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 535,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1513849452_491658581Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1513849452_491658581master.jpg",
+                "photo_sac_id": 248284,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1513849452_491658581.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1513849452_491658581M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1513849452_491658581Mc.jpg",
+                "title": "On the ridge towards Äbneter Stöckli"
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 536,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1513849194_15060339Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1513849194_15060339master.jpg",
+                "photo_sac_id": 248281,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1513849194_15060339.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1513849194_15060339M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1513849194_15060339Mc.jpg",
+                "title": "Äbneter Stöckli and Rophaien, viewed from Diepen"
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 537,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1513849466_1966063535Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1513849466_1966063535master.jpg",
+                "photo_sac_id": 248285,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1513849466_1966063535.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1513849466_1966063535M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1513849466_1966063535Mc.jpg",
+                "title": "The descent from Rophaien to Roten Chöpf is exposed, but equipped with steel cables."
+            }
+        ]
+    }
+}

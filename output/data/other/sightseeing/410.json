@@ -1,0 +1,62 @@
+{
+    "type": "Feature",
+    "id": 410,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.568954322421376,
+                7.915608248630359
+            ]
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Trümmelbachfälle",
+        "abstract": "With its 10 glacial waterfalls on the inside of the mountain, nicely illuminated and made accessible through a tunnel-lift, the Trümmelbach falls are the only of their kind Europe wide.",
+        "description": "The Trümmelbach falls drain the enormous glacial walls of the Eiger, Mönch and Jungfrau - and transport as much as 20,000 litres of water per second; together with around 20,200 tons of debris annually. This stems from the approximately 24 m² surrounding areas – around half of which is covered in ice and snow. Spectacular sights await visitors on the inside of the mountain – and truly unique views of glacial waterfalls.\n\nThe Trümmelbach falls are of course of national significance - and naturally listed in the federal inventory as natural monument. In addition, they form a part of the UNESCO world cultural heritage and are also worthy of mention in the 3-star Guide Michelin.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/9784_Truwmmelbachfaelle_3a.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/9784_Truwmmelbachfaelle_3a.jpg",
+            "https://images.schweizmobil.ch/image/9784_Truemmelbachfaelle_1b.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "Lauterbrunnen Tourismus",
+        "name_2": null,
+        "street": "Stutzli 460",
+        "zip": "3822",
+        "place": "Lauterbrunnen",
+        "tel": "+41 (0)33 856 85 68",
+        "fax": null,
+        "email": "info@lauterbrunnen.swiss",
+        "url1_link": "https://www.lauterbrunnen.swiss",
+        "x_coordinate": 636568.0796555335,
+        "y_coordinate": 157631.0296668434,
+        "change_date": null,
+        "id": 410,
+        "r_key": 410,
+        "type": "Sight",
+        "url_sightseeing": "https://www.truemmelbachfaelle.ch/",
+        "touristic_region": 6,
+        "canton": 12
+    }
+}

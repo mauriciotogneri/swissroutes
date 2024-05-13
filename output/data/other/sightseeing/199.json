@@ -1,0 +1,62 @@
+{
+    "type": "Feature",
+    "id": 199,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                47.37307117824977,
+                8.541356649900642
+            ]
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Lindenhof",
+        "abstract": "Lindenhof hill is Zürich's oldest public park facility and can only be reached on foot through the narrow alleyways of the medieval city center. Its central hilly location provides fantastic views of the right bank of the river Limmat and the university campus.",
+        "description": "Chess and petanque are played on a continuous gravelled area in the shade of the lime trees. Once the center of the Roman settlement, Lindenhof hill was the site of a ninth-century Franconian palace, but turned into a fairground when the palace decayed.\n\nUnder the influence of the Baroque, a geometric design incorporating axes of coordinates and diagonals was imposed on the area in 1780. In 1861, in line with contemporary taste, Lindenhof hill became a delightful park facility with meandering paths and secluded corners.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/9157_Lindenhof_1a.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/9157_Lindenhof_1a.jpg",
+            "https://images.schweizmobil.ch/image/9157_Lindenhof_2b.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "Zürich Tourismus",
+        "name_2": null,
+        "street": "Im Hauptbahnhof",
+        "zip": "8021",
+        "place": "Zürich",
+        "tel": "+41 (0)44 215 40 00",
+        "fax": null,
+        "email": "information@zuerich.com",
+        "url1_link": "https://www.zuerich.com",
+        "x_coordinate": 683284.1869110896,
+        "y_coordinate": 247500.5933608842,
+        "change_date": null,
+        "id": 199,
+        "r_key": 199,
+        "type": "Sight",
+        "url_sightseeing": "http://www.zuerich.com/en/Visitor/Experience/Attractions/Lindenhof-details.html#details",
+        "touristic_region": 3,
+        "canton": 3
+    }
+}

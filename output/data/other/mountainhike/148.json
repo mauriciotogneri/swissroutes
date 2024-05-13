@@ -1,0 +1,146 @@
+{
+    "type": "Feature",
+    "id": 148,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.97391766548998,
+                8.241225004362173
+            ]
+        ]
+    },
+    "properties": {
+        "id": 148,
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "type": "Mountaineering",
+        "ascent_altitude": 1250,
+        "ascent_time_max": 240,
+        "sac_chm_route": true,
+        "sac_created": "2022-07-27 08:59:01",
+        "descent_altitude": 200,
+        "descent_time_max": 30,
+        "descent_time_min": null,
+        "sac_orig_id": 807,
+        "sac_modified": "2022-07-27 08:59:02",
+        "sac_status": "published",
+        "poi_title": "Tomlishorn",
+        "abstract": "Pilatus is one of the best known and most interesting mountains of the foothills of the Alps. A railway and an aerial cableway go up to the summit on Lake Lucerne, the former from the north (Kriens) and the latter from the south (Alpnachstad). However, despite the infrastructure for a large number of tourists Pilatus has a whole range of lone, secluded, surprising, multifaceted and sometimes challenging routes in store for you. The route presented here – the «Alte Tomliweg» – is a spectacular, but not too difficult route to the highest point of the massif, called Tomlishorn. From there you hike to the summit station of the railway and the cableway, which allows for an exciting ascent and a knee-friendly descent. Around Tomlishorn very often alpine ibex can be observed at close range.",
+        "subtitle": "Much more than a tourist destination",
+        "title": "Alter Tomliweg",
+        "sac_type": "mountain_hiking",
+        "mountain_hiking_difficulty": "T4",
+        "alpine_tour_difficulty": null,
+        "alpine_climbing_difficulty": null,
+        "grade": null,
+        "height_climbing_wall": null,
+        "via_ferrata_difficulty": null,
+        "ski_tour_difficulty": null,
+        "mountaineering_sacphoto_ids": [
+            3789,
+            3788,
+            3793,
+            3792,
+            3791,
+            3790,
+            471,
+            472
+        ],
+        "sac_poi_id": 1988,
+        "x_coordinate": 661071.4895292923,
+        "y_coordinate": 202851.798619605,
+        "change_date": "2023-03-30 12:14:01",
+        "sac_photos": [
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 3789,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1658912198_1547087315Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1658912198_1547087315master.jpg",
+                "photo_sac_id": 290065,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1658912198_1547087315.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1658912198_1547087315M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1658912198_1547087315Mc.jpg",
+                "title": "In the lower part of the route, on the \"Heitertannliweg\"."
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 3788,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1658912198_1111779650Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1658912198_1111779650master.jpg",
+                "photo_sac_id": 290064,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1658912198_1111779650.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1658912198_1111779650M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1658912198_1111779650Mc.jpg",
+                "title": "In the lower part of the route, on the \"Heitertannliweg\"."
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 3793,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1658397494_1461788689Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1658397494_1461788689master.jpg",
+                "photo_sac_id": 290020,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1658397494_1461788689.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1658397494_1461788689M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1658397494_1461788689Mc.jpg",
+                "title": "View towards Widderfeld."
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 3792,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1658397496_1425506033Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1658397496_1425506033master.jpg",
+                "photo_sac_id": 290019,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1658397496_1425506033.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1658397496_1425506033M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1658397496_1425506033Mc.jpg",
+                "title": "Fixed ropes in the exposed sections of the route."
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 3791,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1658397495_456187378Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1658397495_456187378master.jpg",
+                "photo_sac_id": 290018,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1658397495_456187378.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1658397495_456187378M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1658397495_456187378Mc.jpg",
+                "title": "The spectacular ledges of the alte Tomliweg."
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 3790,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1658397495_453093587Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1658397495_453093587master.jpg",
+                "photo_sac_id": 290017,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1658397495_453093587.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1658397495_453093587M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1658397495_453093587Mc.jpg",
+                "title": "View towards Klimsenhorn and Klimsenchapel."
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 471,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1513341274_1941308109Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1513341274_1941308109master.jpg",
+                "photo_sac_id": 247937,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1513341274_1941308109.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1513341274_1941308109M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1513341274_1941308109Mc.jpg",
+                "title": "In the upper part of the Alter Tomliweg. In early summer the fixed ropes are buried under old snow, which makes the tour more precarious."
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 472,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1601641996_1561270344Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1601641996_1561270344master.jpg",
+                "photo_sac_id": 247936,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1601641996_1561270344.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1601641996_1561270344M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1601641996_1561270344Mc.jpg",
+                "title": "Tomlishorn, the highest peak of the Pilatus range."
+            }
+        ]
+    }
+}

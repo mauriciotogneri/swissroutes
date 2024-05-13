@@ -1,0 +1,62 @@
+{
+    "type": "Feature",
+    "id": 498,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                47.20784564797835,
+                7.536759474335623
+            ]
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Solothurn Clock Tower",
+        "abstract": "Solothurn too has a clock tower - with storied clock and the oldest construction in the whole town. And the spectacle, which takes place every hour on the hour, with symbolic figures simply has to be viewed even on only a brief visit to the town.",
+        "description": "Solothurn's clock tower. The town's oldest construction came into being at the beginning of the 13th century; commencing with the clock floor in 1467 and later in 1545 creation of the astronomical clock movement and famous astronomical clock face. The large astronomical clock announces the hour, day, month and year. Below is a group of figures: knight, death, and in the middle a seated king with fools' cap - and since 1545 the grim reaper turns his time-glass on the hour, nodding with his bald head in the direction of the knight (powerful symbol of life) as sign that «the time is up». The works were constructed by Lorenz Liechti and Joachim Habrecht. Below, the city's two patrons Urs and Viktor from the year 1583.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/8042_Der-Zeitglockenturm-von-Solothurn_2a.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/8042_Der-Zeitglockenturm-von-Solothurn_2a.jpg",
+            "https://images.schweizmobil.ch/image/8042_Der-Zeitglockenturm-von-Solothurn_1b.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "Solothurn Tourismus",
+        "name_2": null,
+        "street": "Hauptgasse 69",
+        "zip": "4500",
+        "place": "Solothurn",
+        "tel": "+41 (0)32 626 46 46",
+        "fax": null,
+        "email": "info@solothurn-city.ch",
+        "url1_link": "https://www.solothurn-city.ch",
+        "x_coordinate": 607434.6759958514,
+        "y_coordinate": 228550.3059250164,
+        "change_date": null,
+        "id": 498,
+        "r_key": 498,
+        "type": "Sight",
+        "url_sightseeing": "http://www.solothurn-city.ch/en/discoveries/town-heritage/clock-tower.5146.html",
+        "touristic_region": 8,
+        "canton": 16
+    }
+}

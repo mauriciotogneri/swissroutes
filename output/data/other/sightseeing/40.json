@@ -1,0 +1,57 @@
+{
+    "type": "Feature",
+    "id": 40,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                47.40629930876646,
+                9.322058135915182
+            ]
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Bridge building in Eastern Switzerland",
+        "abstract": "St. Gallen’s location in deep valleys and gorges is not ideal for an important city. The monumental Chräzerenbrücke built in 1807 is therefore just one of 18 bridges that cross the Sittergraben gully to the west of the city.",
+        "description": "The dominance of the abbey and the wealth of the city of St. Gallen were long dependent on the skill and creativity of its bridge builders. As time passed, they found new ways to overcome natural obstacles, withstand the destructive potential of flooding and meet rising traffic demands.\n\nThe original bridge at the site of the Chräzerenbrücke dates back to the 13th century. It was on the route to Zürich and Winterthur and was the city’s most important river crossing. The covered wooden bridge built in 1774-1778 was replaced in 1807 by the stone bridge that is still in use today. It is 148 metres long and 25 metres high; both arches are made of molasse sandstone and span 26.40 metres each.\n\nThe bridge was long considered to be St. Gallen’s most beautiful. It is one of 18 bridges along the St. Gallen Brückenweg (Bridges Trail). No other place in Switzerland can boast such a cluster of first-class bridges on such quiet hiking trails. Bridges from the 18th century, pedestrian and pack-animal bridges to the modern railway and motorway viaducts lie along quiet paths and hiking trails. They include particularly representative examples of pre-industrial bridge design and the development of road bridges.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/IVS_16_Chraezernbruecke_Ostschweiz.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/IVS_16_Chraezernbruecke_Ostschweiz.jpg"
+        ],
+        "photo_gallery_big": [
+            ""
+        ],
+        "photo_gallery_copyright": [
+            ""
+        ],
+        "photo_gallery_author": [
+            ""
+        ],
+        "photo_gallery_abstract": [
+            ""
+        ],
+        "name": "Bundesinventar der historischen Verkehrswege der Schweiz (IVS)",
+        "name_2": null,
+        "street": " ",
+        "zip": " ",
+        "place": " ",
+        "tel": " ",
+        "fax": null,
+        "email": " ",
+        "url1_link": "https://www.ivs.admin.ch",
+        "x_coordinate": 742149.7938998513,
+        "y_coordinate": 252315.11125259675,
+        "change_date": null,
+        "id": 40,
+        "r_key": 40,
+        "type": "Sight",
+        "url_sightseeing": "https://s.geo.admin.ch/6fb15a9696",
+        "touristic_region": 2,
+        "canton": 23
+    }
+}

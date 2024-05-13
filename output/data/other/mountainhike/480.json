@@ -1,0 +1,86 @@
+{
+    "type": "Feature",
+    "id": 480,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.816531604472324,
+                9.018657223104096
+            ]
+        ]
+    },
+    "properties": {
+        "id": 480,
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "type": "Mountaineering",
+        "ascent_altitude": 1450,
+        "ascent_time_max": 240,
+        "sac_chm_route": true,
+        "sac_created": "2020-08-12 16:02:34",
+        "descent_altitude": 1450,
+        "descent_time_max": 180,
+        "descent_time_min": null,
+        "sac_orig_id": 2399,
+        "sac_modified": "2020-08-12 16:02:36",
+        "sac_status": "published",
+        "poi_title": "Kistenstöckli / Muot da Rubi",
+        "abstract": "Kistenstöckli looks like an extinct volcano rising from the plain around Val Frisal, Bifertenstock and Limmerensee. Its position in the high mountains, the Rhaeto-Romanic name Muot da Rubi and the countless cairns on the flat summit underline the uniqueness of Kistenstöckli. It is surprisingly easy to climb: the exposed passages on the normal route from the west are equipped with solid chains. \nAlthough it is possible to undertake the tour in one day, it is recommended to spend a night in the tiny, renovated Bifertenhütte. The cabin offers an ambiance that has become rare these days when sophisticated high-tech constructions are being built even in high alpine environments. Depending on the temperatures the tour can be undertaken as described or in the opposite sense. The cool passage through the valley of the Flem and the sunbathed ridge of Alp Quader can be combined at the hiker’s discretion.",
+        "subtitle": "A box of cairns",
+        "title": "From Breil/Brigels via Bifertenhütte",
+        "sac_type": "mountain_hiking",
+        "mountain_hiking_difficulty": "T4",
+        "alpine_tour_difficulty": null,
+        "alpine_climbing_difficulty": null,
+        "grade": null,
+        "height_climbing_wall": null,
+        "via_ferrata_difficulty": null,
+        "ski_tour_difficulty": null,
+        "mountaineering_sacphoto_ids": [
+            1681,
+            1682,
+            1683
+        ],
+        "sac_poi_id": 989,
+        "x_coordinate": 720574.2100205846,
+        "y_coordinate": 186256.439970499,
+        "change_date": "2023-03-30 12:14:33",
+        "sac_photos": [
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 1681,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1534328928_1203677295Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1534328928_1203677295master.jpg",
+                "photo_sac_id": 256896,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1534328928_1203677295.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1534328928_1203677295M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1534328928_1203677295Mc.jpg",
+                "title": "On a secondary summit of Kistenstöckli; in the background is Bifertenstock."
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 1682,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1534328928_619218064Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1534328928_619218064master.jpg",
+                "photo_sac_id": 256897,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1534328928_619218064.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1534328928_619218064M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1534328928_619218064Mc.jpg",
+                "title": "Descending on scree, the steepest passages are equipped with chains."
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 1683,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1590765297_1356590044Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1590765297_1356590044master.jpg",
+                "photo_sac_id": 256898,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1590765297_1356590044.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1590765297_1356590044M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1590765297_1356590044Mc.jpg",
+                "title": "Kistenstöckli and to the very right Bifertenhütte in the sunset light"
+            }
+        ]
+    }
+}

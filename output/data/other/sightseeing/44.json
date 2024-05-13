@@ -1,0 +1,72 @@
+{
+    "type": "Feature",
+    "id": 44,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.31665011550988,
+                7.622473915931981
+            ]
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Bridge over the Dalaschlucht",
+        "abstract": "The small commune of Leuk was an important junction for centuries due to its location on the Rhonetal valley and Gemmi route. The bridge over the gorge was of particular significance.",
+        "description": "The Dalaschlucht gorge is 70 metres high where it joins the Rhonetal valley but just a few metres wide, making it an ideal location for a crossing. There is no record of when the first bridge was built here, but there is proof of a 14th century timber structure. In 1386, the «pontem Dale de Leuca» was torched by local villagers to halt the advance of hostile Savoyan troops, after which a replacement structure was immediately put in its place.\n\nIn 1547 traveller Johannes Stumpf described a tower with drawbridge. The bridge has seen two major changes up to the present day. The wooden structure was replaced by a stone arch in 1791, and this was in turn replaced by a concrete slab on steel beams in the 20th century.\n\nThe fortified tower with its two-metre-wide passageway that could be closed with a portcullis has survived and was given protected landmark status in 1929. The attractiveness of the steep gorge with its fortified bridge has been greatly enhanced by the construction of magnificent road and railway bridges in the 20th century, which form a unique bridge landscape.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/Brueckenstandort_Dalaschlucht_DSC00884.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/Brueckenstandort_Dalaschlucht_DSC00884.jpg",
+            "https://images.schweizmobil.ch/image/IVS_20_Dalaschlucht.jpg",
+            "https://images.schweizmobil.ch/image/Brueckenstandort_Dalaschlucht_DSC00879.jpg",
+            "https://images.schweizmobil.ch/image/Brueckenstandort_Dalaschlucht_DSC00878.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "name": "Bundesinventar der historischen Verkehrswege der Schweiz (IVS)",
+        "name_2": null,
+        "street": " ",
+        "zip": " ",
+        "place": " ",
+        "tel": " ",
+        "fax": null,
+        "email": " ",
+        "url1_link": "https://www.ivs.admin.ch",
+        "x_coordinate": 614160.095538042,
+        "y_coordinate": 129489.65946259601,
+        "change_date": null,
+        "id": 44,
+        "r_key": 44,
+        "type": "Sight",
+        "url_sightseeing": "https://s.geo.admin.ch/6fb15b0a01",
+        "touristic_region": 11,
+        "canton": 7
+    }
+}

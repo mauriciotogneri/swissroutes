@@ -1,0 +1,62 @@
+{
+    "type": "Feature",
+    "id": 179,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.303595304068956,
+                7.479640065970774
+            ]
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Abenteuerpark Fun Forest Crans-Montana",
+        "abstract": "Adventure trail in the trees for the whole family. Wonderful spot south of the Moubra lake. 5 trails: Bibi, Junior, Discovery, Fun and Diabolo.",
+        "description": "The aim : Secured to a cable throughout the entire course, your harness is attached with 2 safety straps equipped with carabiners. When you reach a post, attach a carabiner to the following post, then attach the second carabiner or the pulley. In this way, you are always safe and you can make your own way along your discovery route.\n\nDifferent routes are on offer such as: BiBi COURSE(5 to 7 years): For our guests age 5 and upwards with an adult accompanying them on the ground. JUNIOR COURSE (upwards & 130cm): Height of 5m, accompanied by an adult on the ground. \r\nDISCOVERY COURSE (8 years upwards & 140 cm): For attempting heights of 4 to 7 metres. The game will help you overcome any fear of heights you might experience. Parents must complete the course with children under 14. FUN COURSE (10 years upwards & 150 cm): From the start, you'll want to go on ! This course requires good control of situations and a dose of motivation. Fun for all: DIABOLO COURSE (16 years upwards) Height 22m. FREESTYLE: from branch to branch without a platform. JUMP COURSE: jump 5,10,15 or 20m.\n\nFun Forest and Adrenatur Sports Adventure can book your Human Resource development programmes and training programmes of the highest standard. Businesses as well as social organisations can encourage the development of their employees' and participants' skills with different products. The Adventure area is open in all weather, except in storms, strong winds and heavy rain. Instructions are not guaranteed. Subject to change.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/11354_Abenteuerpark_Fun_Forest_Crans_Montana_1a.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/11354_Abenteuerpark_Fun_Forest_Crans_Montana_1a.jpg",
+            "https://images.schweizmobil.ch/image/11354_Abenteuerpark_Fun_Forest_Crans_Montana_2b.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "Adrenatur Sports Aventure",
+        "name_2": null,
+        "street": "Impasse de la Plage 3",
+        "zip": "3963",
+        "place": "Crans-Montana",
+        "tel": "+41 (0)27 480 10 10",
+        "fax": null,
+        "email": "contact@adrenatur.ch",
+        "url1_link": "https://www.adrenatur.ch",
+        "x_coordinate": 603159.2927933756,
+        "y_coordinate": 128022.19652272636,
+        "change_date": null,
+        "id": 179,
+        "r_key": 179,
+        "type": "Sight",
+        "url_sightseeing": "https://www.funforest.ch",
+        "touristic_region": 11,
+        "canton": 7
+    }
+}

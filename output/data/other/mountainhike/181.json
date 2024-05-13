@@ -1,0 +1,74 @@
+{
+    "type": "Feature",
+    "id": 181,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.53587256764948,
+                8.7726078558861
+            ]
+        ]
+    },
+    "properties": {
+        "id": 181,
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "type": "Mountaineering",
+        "ascent_altitude": 670,
+        "ascent_time_max": 150,
+        "sac_chm_route": true,
+        "sac_created": "2020-05-04 13:55:21",
+        "descent_altitude": 740,
+        "descent_time_max": 135,
+        "descent_time_min": null,
+        "sac_orig_id": 919,
+        "sac_modified": "2020-05-04 13:55:51",
+        "sac_status": "published",
+        "poi_title": "Campanitt / Pizzo Columbe",
+        "abstract": "Campanitt (small clock towers) they are called by the inhabitants of Valle di Blenio, Pizzo Columbe (dove horn) in Leventina: the bizarre pinnacles made of blinding white rock. By the way: this is the ideal tour for mixed groups. Close to Piano Grande the group separates: the slow hikers continue their stroll, while the ambitious climbers hike across the mountain. At Lago dei Campanitt they meet again. The scenery: beautiful high plains, lush pastures, countless lakes. The rock: surprisingly stable. The ascent: surprisingly easy – for both groups.",
+        "subtitle": "Surprisingly stable, surprisingly easy",
+        "title": "Ascent on the south face, descent on the west face",
+        "sac_type": "mountain_hiking",
+        "mountain_hiking_difficulty": "T5",
+        "alpine_tour_difficulty": null,
+        "alpine_climbing_difficulty": null,
+        "grade": null,
+        "height_climbing_wall": null,
+        "via_ferrata_difficulty": null,
+        "ski_tour_difficulty": null,
+        "mountaineering_sacphoto_ids": [
+            547,
+            548
+        ],
+        "sac_poi_id": 424,
+        "x_coordinate": 702330.1623859265,
+        "y_coordinate": 154712.21237644253,
+        "change_date": "2023-03-30 12:14:04",
+        "sac_photos": [
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 547,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1513866713_616555422Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1513866713_616555422master.jpg",
+                "photo_sac_id": 248307,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1513866713_616555422.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1513866713_616555422M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1513866713_616555422Mc.jpg",
+                "title": "On the descent on the west face you pass by a characteristic rock tower called «cane» (dog)."
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 548,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1513866286_1339290840Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1513866286_1339290840master.jpg",
+                "photo_sac_id": 248303,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1513866286_1339290840.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1513866286_1339290840M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1513866286_1339290840Mc.jpg",
+                "title": "Campanitt (or Pizzo Columbe) from the south."
+            }
+        ]
+    }
+}

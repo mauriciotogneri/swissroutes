@@ -1,0 +1,62 @@
+{
+    "type": "Feature",
+    "id": 98,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.57148308099676,
+                8.331108770428132
+            ]
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Technology and nature on Lake Grimsel",
+        "abstract": "The Grimsel region in the heart of the Aare Massif is characterized by impressive granite rocks. The contrast between the wild natural landscape and the use of man-made technology to generate hydro-electric power is impressive.",
+        "description": "The scenery in the Grimsel region is characterized by impressive rock forms and divinable glaciers. The Grimsel reservoir lies directly below the level of the pass. Ice-age glaciers have visibly polished and smoothened the granite rocks on the steep slopes.\n\nThe area includes a varied mire landscape. Swiss stone pines, Scots pine, larches and beech trees grow along the shore of the reservoir. The sparse forest, the mires and the other Alpine vegetation are very natural and unspoiled.\n\nHowever, due to its reservoirs and power plants, the Grimsel region also plays a very important role in electricity production.\n\nThe power plant operators are planning to raise the dam. The project is controversial because the raising of the water level by 23 metres would involve the loss of valuable habitats. The glacier foreland of the Lower Aar glacier and numerous Swiss stone pines along the shore of the current reservoir would be affected in particular by this measure.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/13_Imposante-Technik-und-wi.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/13_Imposante-Technik-und-wi.jpg",
+            "https://images.schweizmobil.ch/image/13_Grimsel.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "Bundesamt für Umwelt",
+        "name_2": null,
+        "street": "und Naturdenkmäler von nationaler Bedeutung (BLN)",
+        "zip": "BLN-Objekt-Nr.",
+        "place": "1507",
+        "tel": "-",
+        "fax": null,
+        "email": "bln@bafu.admin.ch",
+        "url1_link": "https://www.bafu.admin.ch/bln",
+        "x_coordinate": 668419.8575142529,
+        "y_coordinate": 158190.09278627572,
+        "change_date": null,
+        "id": 98,
+        "r_key": 98,
+        "type": "Sight",
+        "url_sightseeing": "https://www.grimselwelt.ch",
+        "touristic_region": 6,
+        "canton": 12
+    }
+}

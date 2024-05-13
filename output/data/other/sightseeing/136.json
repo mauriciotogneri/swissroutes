@@ -1,0 +1,82 @@
+{
+    "type": "Feature",
+    "id": 136,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                47.15152800475756,
+                7.000357641614678
+            ]
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Espace Découverte Energie",
+        "abstract": "Visit the Espace Découverte Energie and learn more about renewable energy and the characteristics of the region. You will also find out interesting details about the industries and history of the Bernese Jura. Put your knowledge to the test and explore the region while broadening your horizons.",
+        "description": "16 windmills tower proudly above the hills of the Mont-Crosin. Visit the largest windmill park of Switzerland and get to know interesting facts about the technology of renewable energy. The solar power station Mont-Soleil is dedicated to research and the development of photovoltaics and shows the possibilities of utilizing solar energy. A guided visit of the solar and wind power stations will teach you all about renewable energies.\n\nPastures and forests as far as the eye can see. A ride on a horse-drawn wagon is the perfect way to enjoy the beautiful landscapes of the Bernese Jura accompanied by the gentle rhythm of the hooves. Relax in peaceful nature surroundings and taste some of the regional specialities. If you feel like stretching your legs, you can try out one of our original vehicles: Velectro, Segway or Trott’Energy.\n\nThe Sentier des Monts connects Mont-Soleil and Mont-Crosin and imparts information on renewable energies such as solar and wind power in a playful way, as well as informing about fauna and flora, climate warming, geology and meteorology.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/sentiers_des_monts_mont_soleil_eoliennes_2012.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/sentiers_des_monts_mont_soleil_eoliennes_2012.jpg",
+            "https://images.schweizmobil.ch/image/11480_Eneuerbare_Energien_Mt_Soleil_Crosin_1a.jpg",
+            "https://images.schweizmobil.ch/image/Sehenswuerdigkeit_EspaceDecouverteEnergie.jpg",
+            "https://images.schweizmobil.ch/image/sentiers_des_monts_mont_soleil_centrale_solaire_2012.jpg",
+            "https://images.schweizmobil.ch/image/sentiers_des_monts_mont_soleil_pennaux_didactiques_2012.jpg",
+            "https://images.schweizmobil.ch/image/11480_Eneuerbare_Energien_Mt_Soleil_Crosin_2b.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "name": "Jura bernois Tourisme",
+        "name_2": null,
+        "street": "Place de la Gare 2",
+        "zip": "2610",
+        "place": "Saint-Imier",
+        "tel": "+41 (0)32 943 39 42",
+        "fax": null,
+        "email": "saintimier@jurabernois.ch",
+        "url1_link": "https://www.jurabernois.ch",
+        "x_coordinate": 566760.3388494744,
+        "y_coordinate": 222377.61964998185,
+        "change_date": null,
+        "id": 136,
+        "r_key": 136,
+        "type": "Sight",
+        "url_sightseeing": "https://www.espacedecouverte.ch",
+        "touristic_region": 8,
+        "canton": 12
+    }
+}

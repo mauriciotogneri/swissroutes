@@ -1,0 +1,98 @@
+{
+    "type": "Feature",
+    "id": 765,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.581703960617524,
+                8.098779350776216
+            ]
+        ]
+    },
+    "properties": {
+        "id": 765,
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "type": "Mountaineering",
+        "ascent_altitude": 1380,
+        "ascent_time_max": 300,
+        "sac_chm_route": true,
+        "sac_created": "2020-08-26 16:42:24",
+        "descent_altitude": 220,
+        "descent_time_max": null,
+        "descent_time_min": null,
+        "sac_orig_id": 480,
+        "sac_modified": "2020-08-26 16:42:28",
+        "sac_status": "published",
+        "poi_title": "Schreckhornhütte SAC",
+        "abstract": "The hut path to the Schreckhornhütte has a long history of change which will probably continue without end. Time and again, great sections of the path have been washed away by torrents, or lost in landslides and have had to be altered/ rebuilt. The most striking event so far happened in early summer 2005 when a moraine bank slipped away by the site of the former Gasthaus Stieregg. This popular mountain restaurant had to be abandoned and the path remade over 100 meters higher. Nevertheless, or perhaps because of such events, the journey to the Schreckhornhütte will always be unique. The difficult steeper places are well secured with steel cables. But warning! - caution is necessary in heavy rainfall when the otherwise passable streams can swell and become hazardous.",
+        "subtitle": "Schreckhornhütte - an impressive journey along the Lower Grindelwald Glacier",
+        "title": "From Pfingstegg / Grindelwald",
+        "sac_type": "mountain_hiking",
+        "mountain_hiking_difficulty": "T4",
+        "alpine_tour_difficulty": null,
+        "alpine_climbing_difficulty": null,
+        "grade": null,
+        "height_climbing_wall": null,
+        "via_ferrata_difficulty": null,
+        "ski_tour_difficulty": null,
+        "mountaineering_sacphoto_ids": [
+            3136,
+            3137,
+            3138,
+            3139
+        ],
+        "sac_poi_id": 2147000243,
+        "x_coordinate": 650599.794520835,
+        "y_coordinate": 159150.02002732363,
+        "change_date": "2023-03-30 12:14:51",
+        "sac_photos": [
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 3136,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1524493682_2072023877Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1524493682_2072023877master.jpg",
+                "photo_sac_id": 250681,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1524493682_2072023877.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1524493682_2072023877M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1524493682_2072023877Mc.jpg",
+                "title": "On the Schreckhornhütte path."
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 3137,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1519980166_686591276Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1519980166_686591276master.jpg",
+                "photo_sac_id": 250685,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1519980166_686591276.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1519980166_686591276M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1519980166_686591276Mc.jpg",
+                "title": "The path to the Schreckhornhütte also offers a varied flora!"
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 3138,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1519982297_2057327211Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1519982297_2057327211master.jpg",
+                "photo_sac_id": 250686,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1519982297_2057327211.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1519982297_2057327211M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1519982297_2057327211Mc.jpg",
+                "title": "Approximately 20 minutes below the Schreckhorn hut is the Kastenstein. This served as accommodation until the first hut in the area (Schwarzegghütte 1877) was built."
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 3139,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1519977919_550758503Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1519977919_550758503master.jpg",
+                "photo_sac_id": 250665,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1519977919_550758503.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1519977919_550758503M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1519977919_550758503Mc.jpg",
+                "title": "Destination: the Schreckhornhütte of SAC section Basel at 2529 m"
+            }
+        ]
+    }
+}

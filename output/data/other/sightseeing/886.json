@@ -1,0 +1,72 @@
+{
+    "type": "Feature",
+    "id": 886,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.592527136699715,
+                7.653906898130554
+            ]
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Pumptrack Frutigen",
+        "abstract": "The asphalt pump track in Frutigen is ideal for training. It has rollers and banked turns and the loop allows different combinations.",
+        "description": "In the Frutigen pump track, beginners as well as advanced riders can train and improve endurance, strength and speed at the same time as technique, skills and balance. The layout of the loop is designed to allow endless variations. \n\nThis is an asphalt facility and can therefore be used in any weather. It is suitable for bikes, inline skates, skateboards, and scooters. The track is integrated into the outdoor swimming and camping facility to make the athletic centre a venue for everybody and enhance the quality of life in the village. \n\nSurface: asphalt",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image-big/BE_Pumptrack_Frutigen_1_g.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/BE_Pumptrack_Frutigen_1_s.jpg",
+            "https://images.schweizmobil.ch/image/BE_Pumptrack_Frutigen_2_s.jpg",
+            "https://images.schweizmobil.ch/image/BE_Pumptrack_Frutigen_3_s.jpg",
+            "https://images.schweizmobil.ch/image/BE_Pumptrack_Frutigen_4_s.jpg"
+        ],
+        "photo_gallery_big": [
+            "https://images.schweizmobil.ch/image-big/BE_Pumptrack_Frutigen_1_g.jpg",
+            "https://images.schweizmobil.ch/image-big/BE_Pumptrack_Frutigen_2_g.jpg",
+            "https://images.schweizmobil.ch/image-big/BE_Pumptrack_Frutigen_3_g.jpg",
+            "https://images.schweizmobil.ch/image-big/BE_Pumptrack_Frutigen_4_g.jpg"
+        ],
+        "photo_gallery_copyright": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "name": "TALK (Tourismus Adelboden-Lenk-Kandersteg) AG, Tourist Center Frutigen",
+        "name_2": null,
+        "street": "Untere Bahnhofstrasse 14",
+        "zip": "3714",
+        "place": "Frutigen",
+        "tel": "+41 (0)33 671 14 21",
+        "fax": null,
+        "email": "frutigen@be-welcome.ch",
+        "url1_link": "https://www.frutigen-tourismus.ch",
+        "x_coordinate": 616497.1575135858,
+        "y_coordinate": 160163.97408634442,
+        "change_date": null,
+        "id": 886,
+        "r_key": 886,
+        "type": "Sight",
+        "url_sightseeing": "https://frutigen-tourismus.ch/en/bikeparks/",
+        "touristic_region": 6,
+        "canton": 12
+    }
+}

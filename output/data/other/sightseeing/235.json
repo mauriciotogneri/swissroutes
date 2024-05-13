@@ -1,0 +1,62 @@
+{
+    "type": "Feature",
+    "id": 235,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.23474463837222,
+                7.365252061777132
+            ]
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Valère and Tourbillon",
+        "abstract": "Sion, the capital of Valais, can be recognised by two hills topped with two castles: Tourbillon and Valère. These monuments conceal many treasures and offer an extraordinary view over the town, the Rhône plain and the surrounding mountains.",
+        "description": "Valère : From 1049, the hill of Valère became home to the canons, who built a fortified village here. This village has been very well preserved. The basilica conceals many treasures, including the oldest playable organ in the world, wall paintings, stalls and Roman capitals. Within the walls of the castle there is also the Cantonal History Museum, which was fully renovated in 2009. The site is open all year round.\n\nTourbillon : A bishop had a castle built here in 1300. Despite the fire of 1788 that partly destroyed it, there are still some spectacular ruins to be admired, particularly since the restoration that was undertaken in the 1960s. Inside, in the large inhabitable tower, which was once the donjon, one can make out the bishop's apartment. The wall paintings of the chapel bear witness to the medieval period in the alpine regions. Tourbillon can be reached in 30 minutes on foot from the town centre. The site is open from April to October.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/9159_Valeria-und-Tourbillon_1a.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/9159_Valeria-und-Tourbillon_1a.jpg",
+            "https://images.schweizmobil.ch/image/9159_Valeria-und-Tourbillon_2b.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "Office du Tourisme de Sion",
+        "name_2": null,
+        "street": "Place de la Planta 2",
+        "zip": "1950",
+        "place": "Sion",
+        "tel": "+41 (0)27 327 77 27",
+        "fax": null,
+        "email": "info@siontourisme.ch",
+        "url1_link": "https://www.siontourisme.ch",
+        "x_coordinate": 594339.7403708805,
+        "y_coordinate": 120370.39066983628,
+        "change_date": null,
+        "id": 235,
+        "r_key": 235,
+        "type": "Sight",
+        "url_sightseeing": null,
+        "touristic_region": 11,
+        "canton": 7
+    }
+}

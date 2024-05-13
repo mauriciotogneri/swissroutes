@@ -1,0 +1,62 @@
+{
+    "type": "Feature",
+    "id": 570,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                47.55796338030449,
+                7.581409253352992
+            ]
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Spalentor",
+        "abstract": "The Spalentor is the most imposing of the three surviving city gates that formed part of the fortifications of 1400.",
+        "description": "Apart from the Spalentor, the other surviving city gates are St. Alban-Tor and St. Johanns-Tor, both located in their eponymous districts respectively.\n\nMany important goods for the supply of the city passed through the Spalentor from the Alsace. The side of the gate facing away from the town is decorated with three figures from the beginning of the 15th century - the Madonna and two prophets.\n\nRight next to the Spalentor is the Botanic Garden of the Basel University.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/8181_Spalentor_2a.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/8181_Spalentor_2a.jpg",
+            "https://images.schweizmobil.ch/image/8181_Spalentor_1b.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "Basel Tourismus Tourist Information",
+        "name_2": null,
+        "street": "Steinenberg 14",
+        "zip": "4010",
+        "place": "Basel",
+        "tel": "+41 (0)61 268 68 68",
+        "fax": null,
+        "email": "info@basel.com",
+        "url1_link": "https://www.basel.com",
+        "x_coordinate": 610746.2715932003,
+        "y_coordinate": 267482.60450743017,
+        "change_date": null,
+        "id": 570,
+        "r_key": 570,
+        "type": "Sight",
+        "url_sightseeing": "https://www.basel.com/de/Media/Attraktionen/Sehenswuerdigkeiten/Spalentor",
+        "touristic_region": 5,
+        "canton": 8
+    }
+}

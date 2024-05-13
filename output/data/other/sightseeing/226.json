@@ -1,0 +1,62 @@
+{
+    "type": "Feature",
+    "id": 226,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.86738976011672,
+                8.240029920818863
+            ]
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Burial chapel of Brother Klaus",
+        "abstract": "Nicholas of Flüe (1417-1487), this most famous son of Sachseln, came from a respectable background and lived and worked in Flüeli-Ranft; his burial place is in the parish church of Sachseln.",
+        "description": "The burial chapel located by the old Sachseln church tower was built in stages between 1600 and 1878. It is situated on the original gravesite of Brother Klaus. Visible beneath the stone tomb with its sandstone effigy dating from 1518 is the earliest tomb slab, now very worn, which dates from 1487. It appears to have sunk, but actually the surrounding floor level has been raised.\n\nThe mid-14th century gothic crucifix is valuable. It probably surmounted the quire arch of the old church. The votive images and numerous silver votive offerings are indicative of the piety of those who make a pilgrimage to pray at the grave of Brother Klaus.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/8194_Grabkapelle-Bruder-Klaus_2a.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/8194_Grabkapelle-Bruder-Klaus_2a.jpg",
+            "https://images.schweizmobil.ch/image/8194_Grabkapelle-Bruder-Klaus_1b.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "Obwalden Tourismus",
+        "name_2": null,
+        "street": "Bahnhofplatz 1",
+        "zip": "6060",
+        "place": "Sarnen",
+        "tel": "+41 (0)41 666 50 40",
+        "fax": null,
+        "email": "info@obwalden-tourismus.ch",
+        "url1_link": "https://www.obwalden-tourismus.ch",
+        "x_coordinate": 661101.8501760194,
+        "y_coordinate": 191008.5316840752,
+        "change_date": null,
+        "id": 226,
+        "r_key": 226,
+        "type": "Sight",
+        "url_sightseeing": "https://www.flueliranft.ch",
+        "touristic_region": 4,
+        "canton": 18
+    }
+}

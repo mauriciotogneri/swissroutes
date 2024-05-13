@@ -1,0 +1,170 @@
+{
+    "type": "Feature",
+    "id": 334,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.629960642045575,
+                7.293379521598595
+            ]
+        ]
+    },
+    "properties": {
+        "id": 334,
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "type": "Mountaineering",
+        "ascent_altitude": 960,
+        "ascent_time_max": 180,
+        "sac_chm_route": true,
+        "sac_created": "2020-08-12 11:57:58",
+        "descent_altitude": 920,
+        "descent_time_max": 120,
+        "descent_time_min": null,
+        "sac_orig_id": 1656,
+        "sac_modified": "2020-08-12 11:58:00",
+        "sac_status": "published",
+        "poi_title": "Chällihorn",
+        "abstract": "Euschelspass is a popular and easy col between Jaun and Schwarzsee, which can also be undertaken by cyclists. The tour is attractive, as it offers a lake and the peculiarity that in summer almost every house along the way is a restaurant or \"buvette\", as the locals say. East and west of the col there are impressive rock faces. It is best to climb Chällihorn on the interesting route from Jaun to Schwarzsee via Euschelspass.",
+        "subtitle": "Scrambling fun at Euschelspass",
+        "title": "Jaun – Chällihorn – Schwarzsee",
+        "sac_type": "mountain_hiking",
+        "mountain_hiking_difficulty": "T4+",
+        "alpine_tour_difficulty": null,
+        "alpine_climbing_difficulty": null,
+        "grade": null,
+        "height_climbing_wall": null,
+        "via_ferrata_difficulty": null,
+        "ski_tour_difficulty": null,
+        "mountaineering_sacphoto_ids": [
+            1086,
+            1087,
+            1088,
+            1089,
+            1090,
+            1091,
+            1092,
+            1093,
+            1094,
+            1095
+        ],
+        "sac_poi_id": 4169,
+        "x_coordinate": 588876.72335377,
+        "y_coordinate": 164312.90671797015,
+        "change_date": "2023-03-30 12:14:19",
+        "sac_photos": [
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 1086,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1537469201_608354255Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1537469201_608354255master.jpg",
+                "photo_sac_id": 257838,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1537469201_608354255.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1537469201_608354255M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1537469201_608354255Mc.jpg",
+                "title": "Chällihorn"
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 1087,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1537469204_1737698391Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1537469204_1737698391master.jpg",
+                "photo_sac_id": 257839,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1537469204_1737698391.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1537469204_1737698391M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1537469204_1737698391Mc.jpg",
+                "title": "Chällihorn"
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 1088,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1529237332_1684031526Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1529237332_1684031526master.jpg",
+                "photo_sac_id": 255802,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1529237332_1684031526.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1529237332_1684031526M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1529237332_1684031526Mc.jpg",
+                "title": "Ascent from Jauntal to Chälli"
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 1089,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1529237345_1625726223Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1529237345_1625726223master.jpg",
+                "photo_sac_id": 255803,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1529237345_1625726223.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1529237345_1625726223M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1529237345_1625726223Mc.jpg",
+                "title": "Chälli below Chällihorn"
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 1090,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1529238823_26890021Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1529238823_26890021master.jpg",
+                "photo_sac_id": 255804,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1529238823_26890021.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1529238823_26890021M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1529238823_26890021Mc.jpg",
+                "title": "Ascending the western rim of the Chälli cirque"
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 1091,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1529238417_108467752Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1529238417_108467752master.jpg",
+                "photo_sac_id": 255805,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1529238417_108467752.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1529238417_108467752M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1529238417_108467752Mc.jpg",
+                "title": "Ascending Chällihorn"
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 1092,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1523776704_8703471Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1523776704_8703471master.jpg",
+                "photo_sac_id": 253778,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1523776704_8703471.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1523776704_8703471M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1523776704_8703471Mc.jpg",
+                "title": "The summit cross on Chällihorn"
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 1093,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1523777054_1728761353Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1523777054_1728761353master.jpg",
+                "photo_sac_id": 253779,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1523777054_1728761353.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1523777054_1728761353M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1523777054_1728761353Mc.jpg",
+                "title": "Passage at P. 1900"
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 1094,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1529238417_903254178Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1529238417_903254178master.jpg",
+                "photo_sac_id": 255807,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1529238417_903254178.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1529238417_903254178M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1529238417_903254178Mc.jpg",
+                "title": "Descent to Euschelspass"
+            },
+            {
+                "change_date": "2023-03-30 12:08:27",
+                "id": 1095,
+                "photo_big": "https://static.suissealpine.sac-cas.ch/1572261940_1765192860Ma.jpg",
+                "photo_master": "https://static.suissealpine.sac-cas.ch/1572261940_1765192860master.jpg",
+                "photo_sac_id": 255808,
+                "photo_sac_original": "https://static.suissealpine.sac-cas.ch/1572261940_1765192860.jpg",
+                "photo_small": "https://static.suissealpine.sac-cas.ch/1572261940_1765192860M.jpg",
+                "photo_standard": "https://static.suissealpine.sac-cas.ch/1572261940_1765192860Mc.jpg",
+                "title": "Obere Euschels on Euschelspass"
+            }
+        ]
+    }
+}

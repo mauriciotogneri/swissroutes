@@ -1,0 +1,62 @@
+{
+    "type": "Feature",
+    "id": 360,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.77564438602744,
+                10.15139793776714
+            ]
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Schellen-Ursli's Home",
+        "abstract": "In the Lower Engadin, Schellen-Ursli's home, you'll find traces of this famous children's book character everywhere.",
+        "description": "Schellen-Ursli («Ursli with the bell») was a small peasant boy who lived with his parents in the Engadin village of Guarda. One day just before Chalandamarz, an ancient custom for chasing away winter that takes place in early March, he and all the other boys from the village went to visit Uncle Gian. Here each boy received a bell, each one more beautiful than the next. These bells were meant to banish the evil winter spirits and invite spring back. When it was Ursli's turn, he was given the last bell. This would indeed not have been so bad, had his bell not been so small - the smallest of them all! Everybody laughed at Ursli, who by now was crying bitterly. All by himself and with only one purpose in mind, he stomped through deep snow up to his family's mountain pasture. He was after the large bell that was hanging there, to fetch it for the procession.\n\nSchellen-Ursli's story can be experienced along the newly designed Schellen-Ursli Trail in Guarda in Lower Engadin. Here the children's story is told along 20 interactive stages.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/8445_Heimat-des-Schellen-Urslis_1a.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/8445_Heimat-des-Schellen-Urslis_1a.jpg",
+            "https://images.schweizmobil.ch/image/8445_Heimat-des-Schellen-Urslis_2b.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "Tourismus Engadin Scuol Samnaun Val Müstair AG",
+        "name_2": null,
+        "street": "Stradun 403a",
+        "zip": "7550",
+        "place": "Scuol",
+        "tel": "+41 (0)81 861 88 00",
+        "fax": null,
+        "email": "info@engadin.com",
+        "url1_link": "https://www.engadin.com",
+        "x_coordinate": 807145.2085668184,
+        "y_coordinate": 184078.4838482009,
+        "change_date": null,
+        "id": 360,
+        "r_key": 360,
+        "type": "Sight",
+        "url_sightseeing": "https://www.graubuenden.ch/de/guarda-heimat-des-schellen-ursli",
+        "touristic_region": 1,
+        "canton": 2
+    }
+}

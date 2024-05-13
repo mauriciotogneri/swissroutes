@@ -1,0 +1,62 @@
+{
+    "type": "Feature",
+    "id": 445,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.828912873717904,
+                9.51580712476009
+            ]
+        ]
+    },
+    "properties": {
+        "land": null,
+        "category": "all",
+        "language": "en",
+        "title": "Brambrüesch - Chur's mountain",
+        "abstract": "Directly above Chur and easily reached with the cable car is Brambrüesch where in summer or winter there is a wide range of activities to enjoy.",
+        "description": "This natural terrace stretches the length of the mountain ridge from Chur to the Dreibündenstein – at the heart of cantonal history. Hikers or nature lovers find this a perfect paradise close to the city. For bikers and dirt surfers it also offers an unforgettable experience. The beautiful alp Malix and the bang up-to-date lifts combine both tradition and tourism. Welcome to this natural paradise!\n\nTip for bikers a new attraction – Freeride mountain-biking combines different disciplines, such as cross country, dirt-jumping and downhill. Recently, the Swiss Freeride course was transferred to the «Alpenbikepark», also found on Brambrüesch. The bike trail covers most of the newly-designed course used in the championship.",
+        "highlights": null,
+        "foto": "https://images.schweizmobil.ch/image/11257_Churer_Hausberg_Brambrueesch_1a.jpg",
+        "foto_abstract": null,
+        "photo_gallery": [
+            "https://images.schweizmobil.ch/image/11257_Churer_Hausberg_Brambrueesch_1a.jpg",
+            "https://images.schweizmobil.ch/image/11257_Churer_Hausberg_Brambrueesch_2b.jpg"
+        ],
+        "photo_gallery_big": [
+            "",
+            ""
+        ],
+        "photo_gallery_copyright": [
+            "",
+            ""
+        ],
+        "photo_gallery_author": [
+            "",
+            ""
+        ],
+        "photo_gallery_abstract": [
+            "",
+            ""
+        ],
+        "name": "Chur Tourismus",
+        "name_2": null,
+        "street": "Bahnhofplatz 3 ",
+        "zip": "7001",
+        "place": "Chur",
+        "tel": "+41 (0)81 252 18 18",
+        "fax": null,
+        "email": "info@churtourismus.ch",
+        "url1_link": "https://www.churtourismus.ch",
+        "x_coordinate": 758468.2418847575,
+        "y_coordinate": 188516.51293615438,
+        "change_date": null,
+        "id": 445,
+        "r_key": 445,
+        "type": "Sight",
+        "url_sightseeing": "https://www.brambruesch.ch",
+        "touristic_region": 1,
+        "canton": 2
+    }
+}
