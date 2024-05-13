@@ -295,11 +295,13 @@ function showRoute(type, url, json, focus, lengthMin, lengthMax, heightMin, heig
   content += `<img width='25' src='${json.properties.logo}' style='margin-right:10px'/>`
   content += `<a href='https://www.schweizmobil.ch/en/${type}-in-switzerland/route-${json.properties.r_number}' target='_blank'>${json.properties.title}</a>`
   content += `<span style='position:absolute;left:100%;top:15px;transform:translateX(-120%);'><a href='?url=${encodeURIComponent(url)}&type=${type}' style='margin-right:20px;color:#0d6efd' target='_blank'>SHARE</a><span style="cursor:pointer;font-weight:bold;color:#0d6efd" onclick='download()'>DOWNLOAD</span></span><br/><br/>`
-  content += `<p><b>Length</b>: ${length} km (${parseInt(json.properties.length_asphalt * 100 / length)}% asphalted)<br/>`
-  content += `<b>↗</b> ${json.properties.height_difference.toLocaleString()} m<br/>`
-  content += `<b>↘</b> ${json.properties.height_difference_back.toLocaleString()} m</p>`
+
   content += `<p><b style="font-weight:bold">${json.properties.abstract}</b></p>`
   content += `<p>${json.properties.description}</p>`
+
+  content += `<p><span class="material-symbols-outlined">conversion_path</span>${length} km (${parseInt(json.properties.length_asphalt * 100 / length)}% asphalted)<br/><br/>`
+  content += `<span class="material-symbols-outlined">north_east</span>${json.properties.height_difference.toLocaleString()} m<br/><br/>`
+  content += `<span class="material-symbols-outlined">south_east</span>${json.properties.height_difference_back.toLocaleString()} m</p>`
 
   if (galleryList.length > 0) {
     content += `<center><a class='prev' onclick='plusSlides(-1, ${json.properties.r_number})'>&#10094;</a>`
