@@ -14,7 +14,7 @@ Map: https://www.google.com/maps/d/u/0/viewer?mid=1wdyB_yGO8FqEWUbD-HJTvpQ-KRY
 3. Convert the file from XML to JSON
 
 # TODO
-* Filter mountain hiking by difficulty (https://www.engadin.ch/en/levels-of-difficulty)
+https://www.engadin.ch/en/levels-of-difficulty
 https://www.outdooractive.com/en/knowledgepage/sac-mountain-route-classification/39164854
-* Filter mountain hiking by ascend
+
 * Review sightseen: https://schweizmobil.ch/en/place-of-interest-373-teppes-of-verbois

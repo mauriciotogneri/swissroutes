@@ -231,6 +231,24 @@
                   <label class="form-check-label" for="checkboxMountainHike">Mountain hike</label>
                 </div>
 
+                <div class="input-group mb-3" style="margin-top: 15px">
+                  <span class="input-group-text" id="basic-addon1">Height</span>
+                  <input id="filterMountainHikeHeightMin" type="text" class="form-control" placeholder="Min"
+                    aria-label="Min" aria-describedby="basic-addon1">
+                  <input id="filterMountainHikeHeightMax" type="text" class="form-control" placeholder="Max"
+                    aria-label="Max" aria-describedby="basic-addon1">
+                </div>
+
+                <div class="input-group mb-3">
+                  <span class="input-group-text" id="basic-addon1">Difficulty</span>
+                  <input id="filterMountainHikeDifficultyMin" type="text" class="form-control" placeholder="Min"
+                    aria-label="Min" aria-describedby="basic-addon1">
+                  <input id="filterMountainHikeDifficultyMax" type="text" class="form-control" placeholder="Max"
+                    aria-label="Max" aria-describedby="basic-addon1">
+                </div>
+
+                <button type="button" class="btn btn-primary" style="width: 100%" onclick="refresh()">Filter</button>
+
               </div>
             </div>
           </div>

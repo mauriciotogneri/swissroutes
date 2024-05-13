@@ -144,11 +144,17 @@ function refreshHiking() {
 }
 
 function refreshMountainHike() {
+  const heightMin = readInt('filterMountainHikeHeightMin')
+  const heightMax = readInt('filterMountainHikeHeightMax')
+
+  const difficultyMin = readInt('filterMountainHikeDifficultyMin')
+  const difficultyMax = readInt('filterMountainHikeDifficultyMax')
+
   const mountainHikeChecked = document.getElementById('checkboxMountainHike').checked
 
   if (mountainHikeChecked) {
     for (const id of MOUNTAINHIKE_IDS) {
-      loadMountainHike(`other/mountainhike/${id}.json`)
+      loadMountainHike(`other/mountainhike/${id}.json`, heightMin, heightMax, difficultyMin, difficultyMax)
     }
   }
 }
@@ -243,12 +249,12 @@ function loadPoint(label, baseLink, url) {
   xhttp.send()
 }
 
-function loadMountainHike(url) {
+function loadMountainHike(url, heightMin, heightMax, difficultyMin, difficultyMax) {
   const xhttp = new XMLHttpRequest()
   xhttp.onreadystatechange = function () {
     if (this.readyState === 4 && this.status === 200) {
       const json = JSON.parse(xhttp.responseText)
-      showMountainHike(json)
+      showMountainHike(json, heightMin, heightMax, difficultyMin, difficultyMax)
     }
   }
   xhttp.open('GET', `data/${url}`, true)
@@ -433,7 +439,26 @@ function showPoint(label, baseLink, json) {
   showMarker(json.geometry.coordinates[0], json.geometry.coordinates[1], infowindow, label, json, galleryList)
 }
 
-function showMountainHike(json) {
+function showMountainHike(json, heightMin, heightMax, difficultyMin, difficultyMax) {
+  const height = parseInt(json.properties.ascent_altitude)
+  const difficulty = parseInt(json.properties.mountain_hiking_difficulty.replace('T', '').replace('+', '').replace('-', ''))
+
+  if (heightMin && (height < heightMin)) {
+    return
+  }
+
+  if (heightMax && (height > heightMax)) {
+    return
+  }
+
+  if (difficultyMin && (difficulty < difficultyMin)) {
+    return
+  }
+
+  if (difficultyMax && (difficulty > difficultyMax)) {
+    return
+  }
+
   let content = ''
   content += `<b style="font-weight:bold">${json.properties.title} - ${json.properties.poi_title}</b><br/><br/>`
 
