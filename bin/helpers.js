@@ -94,26 +94,36 @@ async function getIds(type) {
     console.log(`Error getting ids: ${url}\n${e.toString()}`)
   }
 
+  result.sort((a, b) => a - b)
+
   return result
 }
 
 async function downloadRoute(id, group, type, folder) {
   console.log(`${group}-${type}: ${id}`)
-  const filePath = `output/${folder}/${id}.json`
-  await helpers.downloadFile(`${group}${type}`, id, filePath, false)
+  const filePath = `output/data/${folder}/${id}.json`
+  await downloadFile(`${group}${type}`, id, filePath, false)
 }
 
 async function downloadPoint(group, folder, type, allIds) {
-  const ids = await helpers.getIds(type)
+  const ids = await getIds(type)
+  const result = []
+  let counter = 0
 
   for (const id of ids) {
     if (!allIds.includes(id)) {
+      result.push(id)
       allIds.push(id)
-      console.log(`${folder.toUpperCase()}: ${id}`)
-      const filePath = `output/${group}/${folder}/${id}.json`
-      await helpers.downloadFile(type, id, filePath, true)
+      console.log(`${folder.toUpperCase()}: ${id} (${parseInt((counter / ids.length) * 100)}%)`)
+      const filePath = `output/data/${group}/${folder}/${id}.json`
+      await downloadFile(type, id, filePath, true)
     }
+    counter++
   }
+
+  fs.writeFileSync(`output/index/${group}/${folder}.json`, JSON.stringify(result, null, 4), 'utf-8');
+
+  return result
 }
 
 module.exports = {

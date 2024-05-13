@@ -1,0 +1,36 @@
+{
+    "type": "Feature",
+    "id": 2801,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.52756480169358,
+                6.651031733934237
+            ]
+        ]
+    },
+    "properties": {
+        "land": "\"velo\",\"mountainbike\"",
+        "category": "all",
+        "language": "en",
+        "title": "Garage Electrauto-Moto de Chailly",
+        "abstract": null,
+        "name": "Garage Electrauto-Moto de Chailly",
+        "street": "Avenue de la Vallonnette 6",
+        "zip": "1012",
+        "place": "Lausanne",
+        "tel": "+41 21 653 07 13",
+        "email": null,
+        "url1_text": null,
+        "url1_link": "https://www.2roues.ch/rosset",
+        "organisation": "2rad / 2routes / 2ruote",
+        "foto": null,
+        "foto_abstract": null,
+        "x_coordinate": 539571.2477656379,
+        "y_coordinate": 153222.22518029885,
+        "change_date": null,
+        "id": 4,
+        "type": "Service"
+    }
+}

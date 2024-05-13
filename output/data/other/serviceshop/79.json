@@ -1,0 +1,36 @@
+{
+    "type": "Feature",
+    "id": 2869,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                47.01972254300372,
+                7.2351359465815825
+            ]
+        ]
+    },
+    "properties": {
+        "land": "\"velo\",\"mountainbike\"",
+        "category": "all",
+        "language": "en",
+        "title": "Graf Heinz",
+        "abstract": null,
+        "name": "Graf Heinz",
+        "street": "Mitteldorf 20",
+        "zip": "3283",
+        "place": "Kallnach",
+        "tel": "+41 32 392 16 25",
+        "email": null,
+        "url1_text": null,
+        "url1_link": null,
+        "organisation": "2rad / 2routes / 2ruote",
+        "foto": null,
+        "foto_abstract": null,
+        "x_coordinate": 584528.0984991969,
+        "y_coordinate": 207651.8803221668,
+        "change_date": null,
+        "id": 79,
+        "type": "Service"
+    }
+}

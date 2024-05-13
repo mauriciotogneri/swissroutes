@@ -1,0 +1,36 @@
+{
+    "type": "Feature",
+    "id": 2861,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.798344615907624,
+                7.404292075806129
+            ]
+        ]
+    },
+    "properties": {
+        "land": "\"velo\",\"mountainbike\"",
+        "category": "all",
+        "language": "en",
+        "title": "Bartlome AG",
+        "abstract": null,
+        "name": "Bartlome AG",
+        "street": "Graben",
+        "zip": "3154",
+        "place": "Rüschegg Heubach",
+        "tel": "+41 31 738 81 88",
+        "email": null,
+        "url1_text": null,
+        "url1_link": null,
+        "organisation": "2rad / 2routes / 2ruote",
+        "foto": null,
+        "foto_abstract": null,
+        "x_coordinate": 597378.7707167738,
+        "y_coordinate": 183021.3963969024,
+        "change_date": null,
+        "id": 69,
+        "type": "Service"
+    }
+}

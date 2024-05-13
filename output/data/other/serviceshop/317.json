@@ -1,0 +1,36 @@
+{
+    "type": "Feature",
+    "id": 3077,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                47.374925063196,
+                8.484177197777868
+            ]
+        ]
+    },
+    "properties": {
+        "land": "\"velo\",\"mountainbike\"",
+        "category": "all",
+        "language": "en",
+        "title": "Happy Sport",
+        "abstract": null,
+        "name": "Happy Sport",
+        "street": "Albisriederstrasse 381",
+        "zip": "8047",
+        "place": "Zürich",
+        "tel": "+41 44 401 58 88",
+        "email": null,
+        "url1_text": null,
+        "url1_link": "https://www.happysport.net",
+        "organisation": "2rad / 2routes / 2ruote",
+        "foto": null,
+        "foto_abstract": null,
+        "x_coordinate": 678963.1822672163,
+        "y_coordinate": 247647.14975139266,
+        "change_date": null,
+        "id": 317,
+        "type": "Service"
+    }
+}

@@ -1,0 +1,36 @@
+{
+    "type": "Feature",
+    "id": 3123,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                47.53424299624609,
+                8.71566261947274
+            ]
+        ]
+    },
+    "properties": {
+        "land": "\"velo\",\"mountainbike\"",
+        "category": "all",
+        "language": "en",
+        "title": "Fox Zweiradtechnik GmbH",
+        "abstract": null,
+        "name": "Fox Zweiradtechnik GmbH",
+        "street": "Ohringerstrasse 111",
+        "zip": "8472",
+        "place": "Unter-Ohringen Seuzach",
+        "tel": "+41 52 316 10 55",
+        "email": null,
+        "url1_text": null,
+        "url1_link": "https://www.foxzweiradtechnik.ch",
+        "organisation": "2rad / 2routes / 2ruote",
+        "foto": null,
+        "foto_abstract": null,
+        "x_coordinate": 696156.2442504246,
+        "y_coordinate": 265617.52749743476,
+        "change_date": null,
+        "id": 377,
+        "type": "Service"
+    }
+}

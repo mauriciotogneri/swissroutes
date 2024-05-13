@@ -1,0 +1,36 @@
+{
+    "type": "Feature",
+    "id": 3137,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                47.53269466381719,
+                9.188852615210461
+            ]
+        ]
+    },
+    "properties": {
+        "land": "\"velo\",\"mountainbike\"",
+        "category": "all",
+        "language": "en",
+        "title": "Cycle World GmbH",
+        "abstract": null,
+        "name": "Cycle World GmbH",
+        "street": "Kradolferstrasse 47",
+        "zip": "8583",
+        "place": "Sulgen",
+        "tel": "+41 71 642 22 33",
+        "email": null,
+        "url1_text": null,
+        "url1_link": "https://www.cycleworld.ch",
+        "organisation": "2rad / 2routes / 2ruote",
+        "foto": null,
+        "foto_abstract": null,
+        "x_coordinate": 731784.1972282919,
+        "y_coordinate": 266132.62865767913,
+        "change_date": null,
+        "id": 394,
+        "type": "Service"
+    }
+}

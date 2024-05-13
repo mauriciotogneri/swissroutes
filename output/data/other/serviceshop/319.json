@@ -1,0 +1,36 @@
+{
+    "type": "Feature",
+    "id": 3078,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                47.41383158043579,
+                8.478858190485902
+            ]
+        ]
+    },
+    "properties": {
+        "land": "\"velo\",\"mountainbike\"",
+        "category": "all",
+        "language": "en",
+        "title": "Jomes Bike-Shop",
+        "abstract": null,
+        "name": "Jomes Bike-Shop",
+        "street": "Rütihofstrasse 21",
+        "zip": "8049",
+        "place": "Zürich",
+        "tel": "+41 44 341 02 93",
+        "email": null,
+        "url1_text": null,
+        "url1_link": "https://www.jomes-bike.ch",
+        "organisation": "2rad / 2routes / 2ruote",
+        "foto": null,
+        "foto_abstract": null,
+        "x_coordinate": 678504.0813407691,
+        "y_coordinate": 251967.55106877384,
+        "change_date": null,
+        "id": 319,
+        "type": "Service"
+    }
+}

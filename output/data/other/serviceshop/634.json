@@ -1,0 +1,36 @@
+{
+    "type": "Feature",
+    "id": 5245,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.51146858704283,
+                6.636554710352142
+            ]
+        ]
+    },
+    "properties": {
+        "land": "\"velo\",\"mountainbike\"",
+        "category": "all",
+        "language": "en",
+        "title": "Tandem Sports Sàrl",
+        "abstract": null,
+        "name": "Tandem Sports Sàrl",
+        "street": "Av de Monchoisi 49",
+        "zip": "1006",
+        "place": "Lausanne",
+        "tel": "+41 21 601 50 36",
+        "email": null,
+        "url1_text": null,
+        "url1_link": "https://www.tandem.ch",
+        "organisation": "2rad / 2routes / 2ruote",
+        "foto": null,
+        "foto_abstract": null,
+        "x_coordinate": 538442.7534099226,
+        "y_coordinate": 151444.9352359265,
+        "change_date": null,
+        "id": 634,
+        "type": "Service"
+    }
+}

@@ -1,0 +1,36 @@
+{
+    "type": "Feature",
+    "id": 2934,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                47.49071748161446,
+                7.726090127681583
+            ]
+        ]
+    },
+    "properties": {
+        "land": "\"velo\",\"mountainbike\"",
+        "category": "all",
+        "language": "en",
+        "title": "Cycling Emotion AG",
+        "abstract": null,
+        "name": "Cycling Emotion AG",
+        "street": "Rheinstrasse 47",
+        "zip": "4410",
+        "place": "Liestal",
+        "tel": "+41 61 901 45 52",
+        "email": null,
+        "url1_text": null,
+        "url1_link": "https://www.cyclingemotion.ch",
+        "organisation": "2rad / 2routes / 2ruote",
+        "foto": null,
+        "foto_abstract": null,
+        "x_coordinate": 621663.7005209377,
+        "y_coordinate": 260035.04493348897,
+        "change_date": null,
+        "id": 150,
+        "type": "Service"
+    }
+}

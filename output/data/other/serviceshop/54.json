@@ -1,0 +1,36 @@
+{
+    "type": "Feature",
+    "id": 2846,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.93260213048581,
+                7.386623164228011
+            ]
+        ]
+    },
+    "properties": {
+        "land": "\"velo\",\"mountainbike\"",
+        "category": "all",
+        "language": "en",
+        "title": "Kocher BIKE.ch GmbH",
+        "abstract": null,
+        "name": "Kocher BIKE.ch GmbH",
+        "street": "Wangenstrasse 101",
+        "zip": "3018",
+        "place": "Bern",
+        "tel": "+41 31 991 04 18",
+        "email": null,
+        "url1_text": null,
+        "url1_link": "https://www.kocher-bike.ch",
+        "organisation": "2rad / 2routes / 2ruote",
+        "foto": null,
+        "foto_abstract": null,
+        "x_coordinate": 596039.1172043319,
+        "y_coordinate": 197947.7343056666,
+        "change_date": null,
+        "id": 54,
+        "type": "Service"
+    }
+}

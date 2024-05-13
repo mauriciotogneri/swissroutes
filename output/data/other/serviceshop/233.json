@@ -1,0 +1,36 @@
+{
+    "type": "Feature",
+    "id": 3005,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                47.04423224526807,
+                8.364806911988188
+            ]
+        ]
+    },
+    "properties": {
+        "land": "\"velo\",\"mountainbike\"",
+        "category": "all",
+        "language": "en",
+        "title": "Leupi Hans GmbH",
+        "abstract": null,
+        "name": "Leupi Hans GmbH",
+        "street": "Luzernerstrasse 38",
+        "zip": "6045",
+        "place": "Meggen",
+        "tel": "+41 41 377 38 55",
+        "email": null,
+        "url1_text": null,
+        "url1_link": "https://www.leupimoto.ch",
+        "organisation": "2rad / 2routes / 2ruote",
+        "foto": null,
+        "foto_abstract": null,
+        "x_coordinate": 670382.3242477188,
+        "y_coordinate": 210771.3100459869,
+        "change_date": null,
+        "id": 233,
+        "type": "Service"
+    }
+}

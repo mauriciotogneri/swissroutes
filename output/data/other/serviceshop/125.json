@@ -1,0 +1,36 @@
+{
+    "type": "Feature",
+    "id": 2911,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                47.56959234370731,
+                7.588470362635111
+            ]
+        ]
+    },
+    "properties": {
+        "land": "\"velo\",\"mountainbike\"",
+        "category": "all",
+        "language": "en",
+        "title": "Good-Feeling Sports Int. GmbH",
+        "abstract": null,
+        "name": "Good-Feeling Sports Int. GmbH",
+        "street": "Breisacherstrasse 131",
+        "zip": "4057",
+        "place": "Basel",
+        "tel": "+41 61 692 92 79",
+        "email": null,
+        "url1_text": null,
+        "url1_link": "https://www.good-feeling.ch",
+        "organisation": "2rad / 2routes / 2ruote",
+        "foto": null,
+        "foto_abstract": null,
+        "x_coordinate": 611275.9412129815,
+        "y_coordinate": 268776.7168480896,
+        "change_date": null,
+        "id": 125,
+        "type": "Service"
+    }
+}

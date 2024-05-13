@@ -1,0 +1,36 @@
+{
+    "type": "Feature",
+    "id": 2906,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                47.5459716082719,
+                7.583900843112431
+            ]
+        ]
+    },
+    "properties": {
+        "land": "\"velo\",\"mountainbike\"",
+        "category": "all",
+        "language": "en",
+        "title": "2 Rad Basilisk AG",
+        "abstract": null,
+        "name": "2 Rad Basilisk AG",
+        "street": "Margarethenstrasse 59",
+        "zip": "4053",
+        "place": "Basel",
+        "tel": "+41 61 272 22 22",
+        "email": null,
+        "url1_text": null,
+        "url1_link": "https://www.2radbasilisk.ch",
+        "organisation": "2rad / 2routes / 2ruote",
+        "foto": null,
+        "foto_abstract": null,
+        "x_coordinate": 610936.1357885945,
+        "y_coordinate": 266149.79817080527,
+        "change_date": null,
+        "id": 118,
+        "type": "Service"
+    }
+}

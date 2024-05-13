@@ -1,0 +1,36 @@
+{
+    "type": "Feature",
+    "id": 3009,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.90128710505802,
+                8.276299601198055
+            ]
+        ]
+    },
+    "properties": {
+        "land": "\"velo\",\"mountainbike\"",
+        "category": "all",
+        "language": "en",
+        "title": "Britschgi Remo",
+        "abstract": null,
+        "name": "Britschgi Remo",
+        "street": "Brunnmattstrasse 6",
+        "zip": "6064",
+        "place": "Kerns",
+        "tel": "+41 41 660 14 50",
+        "email": null,
+        "url1_text": null,
+        "url1_link": null,
+        "organisation": "2rad / 2routes / 2ruote",
+        "foto": null,
+        "foto_abstract": null,
+        "x_coordinate": 663826.8735776712,
+        "y_coordinate": 194805.8356174805,
+        "change_date": null,
+        "id": 239,
+        "type": "Service"
+    }
+}

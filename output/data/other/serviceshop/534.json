@@ -1,0 +1,36 @@
+{
+    "type": "Feature",
+    "id": 3254,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.13159091177951,
+                7.123654705615396
+            ]
+        ]
+    },
+    "properties": {
+        "land": "\"velo\",\"mountainbike\"",
+        "category": "all",
+        "language": "en",
+        "title": "Garage Challenger",
+        "abstract": null,
+        "name": "Garage Challenger",
+        "street": "Route de la Gare 51",
+        "zip": "1926",
+        "place": "Fully",
+        "tel": "+41 27 746 13 39",
+        "email": null,
+        "url1_text": null,
+        "url1_link": "https://www.garagechallenger.ch",
+        "organisation": "2rad / 2routes / 2ruote",
+        "foto": null,
+        "foto_abstract": null,
+        "x_coordinate": 575656.1639943218,
+        "y_coordinate": 108949.00613697093,
+        "change_date": null,
+        "id": 534,
+        "type": "Service"
+    }
+}

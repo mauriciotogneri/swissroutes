@@ -1,0 +1,36 @@
+{
+    "type": "Feature",
+    "id": 2961,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                47.21371912690182,
+                7.742831842020717
+            ]
+        ]
+    },
+    "properties": {
+        "land": "\"velo\",\"mountainbike\"",
+        "category": "all",
+        "language": "en",
+        "title": "Gaberthül Othmar",
+        "abstract": null,
+        "name": "Gaberthül Othmar",
+        "street": "Bernstrasse 41",
+        "zip": "4922",
+        "place": "Bützberg",
+        "tel": "+41 62 963 21 41",
+        "email": null,
+        "url1_text": null,
+        "url1_link": null,
+        "organisation": "2rad / 2routes / 2ruote",
+        "foto": null,
+        "foto_abstract": null,
+        "x_coordinate": 623044.3437248209,
+        "y_coordinate": 229243.88881814972,
+        "change_date": null,
+        "id": 181,
+        "type": "Service"
+    }
+}

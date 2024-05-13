@@ -1,0 +1,36 @@
+{
+    "type": "Feature",
+    "id": 3071,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                47.37025241122901,
+                8.520775311971509
+            ]
+        ]
+    },
+    "properties": {
+        "land": "\"velo\",\"mountainbike\"",
+        "category": "all",
+        "language": "en",
+        "title": "Velofix AG",
+        "abstract": null,
+        "name": "Velofix AG",
+        "street": "Birmensdorferstrasse 126",
+        "zip": "8003",
+        "place": "Zürich",
+        "tel": "+41 44 463 13 03",
+        "email": null,
+        "url1_text": null,
+        "url1_link": "https://www.velofix.ch",
+        "organisation": "2rad / 2routes / 2ruote",
+        "foto": null,
+        "foto_abstract": null,
+        "x_coordinate": 681734.3027551448,
+        "y_coordinate": 247165.45183692354,
+        "change_date": null,
+        "id": 308,
+        "type": "Service"
+    }
+}

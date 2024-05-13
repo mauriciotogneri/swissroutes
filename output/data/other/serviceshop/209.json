@@ -1,0 +1,36 @@
+{
+    "type": "Feature",
+    "id": 2985,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                47.296842701461124,
+                8.243540147324202
+            ]
+        ]
+    },
+    "properties": {
+        "land": "\"velo\",\"mountainbike\"",
+        "category": "all",
+        "language": "en",
+        "title": "Radsport Stutz AG",
+        "abstract": null,
+        "name": "Radsport Stutz AG",
+        "street": "Sarmenstorferstrasse 12",
+        "zip": "5615",
+        "place": "Fahrwangen",
+        "tel": "+41 56 667 30 70",
+        "email": null,
+        "url1_text": null,
+        "url1_link": "https://www.radsportstutz.ch",
+        "organisation": "2rad / 2routes / 2ruote",
+        "foto": null,
+        "foto_abstract": null,
+        "x_coordinate": 660879.1360032407,
+        "y_coordinate": 238752.3629191386,
+        "change_date": null,
+        "id": 209,
+        "type": "Service"
+    }
+}

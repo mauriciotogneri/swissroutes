@@ -1,0 +1,36 @@
+{
+    "type": "Feature",
+    "id": 3249,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                47.53634025228287,
+                8.735782995360388
+            ]
+        ]
+    },
+    "properties": {
+        "land": "\"velo\",\"mountainbike\"",
+        "category": "all",
+        "language": "en",
+        "title": "Kurbeldreher AG",
+        "abstract": null,
+        "name": "Kurbeldreher AG",
+        "street": "Birchstrasse 2",
+        "zip": "8472",
+        "place": "Seuzach",
+        "tel": "+41 52 335 33 44",
+        "email": null,
+        "url1_text": null,
+        "url1_link": "https://www.kurbeldreher.ch",
+        "organisation": "2rad / 2routes / 2ruote",
+        "foto": null,
+        "foto_abstract": null,
+        "x_coordinate": 697667.950843529,
+        "y_coordinate": 265875.8547097119,
+        "change_date": null,
+        "id": 527,
+        "type": "Service"
+    }
+}

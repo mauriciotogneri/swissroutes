@@ -1,0 +1,36 @@
+{
+    "type": "Feature",
+    "id": 5258,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                47.19734955699242,
+                8.486038629671786
+            ]
+        ]
+    },
+    "properties": {
+        "land": "\"velo\",\"mountainbike\"",
+        "category": "all",
+        "language": "en",
+        "title": "Febru Radsport AG",
+        "abstract": null,
+        "name": "Febru Radsport AG",
+        "street": "Blickensdorferstrasse 3",
+        "zip": "6312",
+        "place": "Steinhausen",
+        "tel": "+41 41 741 67 42",
+        "email": null,
+        "url1_text": null,
+        "url1_link": "https://www.febru.ch",
+        "organisation": "2rad / 2routes / 2ruote",
+        "foto": null,
+        "foto_abstract": null,
+        "x_coordinate": 679367.1360388208,
+        "y_coordinate": 227908.68211699487,
+        "change_date": null,
+        "id": 631,
+        "type": "Service"
+    }
+}

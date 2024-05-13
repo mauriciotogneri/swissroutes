@@ -1,0 +1,36 @@
+{
+    "type": "Feature",
+    "id": 3052,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.856263434271206,
+                9.520037798213659
+            ]
+        ]
+    },
+    "properties": {
+        "land": "\"velo\",\"mountainbike\"",
+        "category": "all",
+        "language": "en",
+        "title": "Pietro's Veloshop AG",
+        "abstract": null,
+        "name": "Pietro's Veloshop AG",
+        "street": "Rheinstrasse 87",
+        "zip": "7004",
+        "place": "Chur",
+        "tel": "+41 81 284 13 95",
+        "email": null,
+        "url1_text": null,
+        "url1_link": "https://www.pietrosveloshop.ch",
+        "organisation": "2rad / 2routes / 2ruote",
+        "foto": null,
+        "foto_abstract": null,
+        "x_coordinate": 758710.2112065973,
+        "y_coordinate": 191564.46148412427,
+        "change_date": null,
+        "id": 287,
+        "type": "Service"
+    }
+}

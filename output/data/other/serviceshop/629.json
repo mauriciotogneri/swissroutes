@@ -1,0 +1,36 @@
+{
+    "type": "Feature",
+    "id": 5256,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.35441741894503,
+                8.04312672715822
+            ]
+        ]
+    },
+    "properties": {
+        "land": "\"velo\",\"mountainbike\"",
+        "category": "all",
+        "language": "en",
+        "title": "Aletsch Bike GmbH",
+        "abstract": null,
+        "name": "Aletsch Bike GmbH",
+        "street": "Furkastrasse 7",
+        "zip": "3983",
+        "place": "Mörel",
+        "tel": "+41 77 495 66 24",
+        "email": null,
+        "url1_text": null,
+        "url1_link": "https://www.aletschbike.ch",
+        "organisation": "2rad / 2routes / 2ruote",
+        "foto": null,
+        "foto_abstract": null,
+        "x_coordinate": 646528.1124242126,
+        "y_coordinate": 133850.75712860186,
+        "change_date": null,
+        "id": 629,
+        "type": "Service"
+    }
+}

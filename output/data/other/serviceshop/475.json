@@ -1,0 +1,36 @@
+{
+    "type": "Feature",
+    "id": 3209,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                47.18361596330455,
+                9.44324738362289
+            ]
+        ]
+    },
+    "properties": {
+        "land": "\"velo\",\"mountainbike\"",
+        "category": "all",
+        "language": "en",
+        "title": "Zweirad-Haus Lindenau",
+        "abstract": null,
+        "name": "Zweirad-Haus Lindenau",
+        "street": "Werdenstrasse 6",
+        "zip": "9472",
+        "place": "Grabs",
+        "tel": "+41 81 771 34 21",
+        "email": null,
+        "url1_text": null,
+        "url1_link": null,
+        "organisation": "2rad / 2routes / 2ruote",
+        "foto": null,
+        "foto_abstract": null,
+        "x_coordinate": 751926.3106843978,
+        "y_coordinate": 227792.3514064565,
+        "change_date": null,
+        "id": 475,
+        "type": "Service"
+    }
+}

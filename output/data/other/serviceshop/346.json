@@ -1,0 +1,36 @@
+{
+    "type": "Feature",
+    "id": 3101,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                47.74748329979706,
+                8.478503392202539
+            ]
+        ]
+    },
+    "properties": {
+        "land": "\"velo\",\"mountainbike\"",
+        "category": "all",
+        "language": "en",
+        "title": "Meyer Zweiradsport GmbH",
+        "abstract": null,
+        "name": "Meyer Zweiradsport GmbH",
+        "street": "Schwarzwaldstrasse 12",
+        "zip": "8226",
+        "place": "Schleitheim",
+        "tel": "+41 52 680 13 91",
+        "email": null,
+        "url1_text": null,
+        "url1_link": "https://www.m-zweiradsport.ch",
+        "organisation": "2rad / 2routes / 2ruote",
+        "foto": null,
+        "foto_abstract": null,
+        "x_coordinate": 677986.073453577,
+        "y_coordinate": 289062.4639089784,
+        "change_date": null,
+        "id": 346,
+        "type": "Service"
+    }
+}

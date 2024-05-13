@@ -1,0 +1,36 @@
+{
+    "type": "Feature",
+    "id": 2881,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.87867848405889,
+                7.614279473543277
+            ]
+        ]
+    },
+    "properties": {
+        "land": "\"velo\",\"mountainbike\"",
+        "category": "all",
+        "language": "en",
+        "title": "U. Tschanz AG",
+        "abstract": null,
+        "name": "U. Tschanz AG",
+        "street": "Bernstrasse 26",
+        "zip": "3510",
+        "place": "Konolfingen",
+        "tel": "+41 31 791 16 92",
+        "email": null,
+        "url1_text": null,
+        "url1_link": "https://www.tschanz-motos.ch",
+        "organisation": "2rad / 2routes / 2ruote",
+        "foto": null,
+        "foto_abstract": null,
+        "x_coordinate": 613389.2653532889,
+        "y_coordinate": 191966.92707363443,
+        "change_date": null,
+        "id": 91,
+        "type": "Service"
+    }
+}

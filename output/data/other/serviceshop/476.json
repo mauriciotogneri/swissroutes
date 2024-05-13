@@ -1,0 +1,36 @@
+{
+    "type": "Feature",
+    "id": 3210,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                47.20511535898132,
+                9.449730952008347
+            ]
+        ]
+    },
+    "properties": {
+        "land": "\"velo\",\"mountainbike\"",
+        "category": "all",
+        "language": "en",
+        "title": "Lindi-Bike",
+        "abstract": null,
+        "name": "Lindi-Bike",
+        "street": "Haagerstrasse 53",
+        "zip": "9473",
+        "place": "Gams",
+        "tel": "+41 81 740 64 74",
+        "email": null,
+        "url1_text": null,
+        "url1_link": "https://www.lindi-bike.com",
+        "organisation": "2rad / 2routes / 2ruote",
+        "foto": null,
+        "foto_abstract": null,
+        "x_coordinate": 752356.0379804773,
+        "y_coordinate": 230194.4328222534,
+        "change_date": null,
+        "id": 476,
+        "type": "Service"
+    }
+}

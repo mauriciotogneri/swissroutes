@@ -1,0 +1,36 @@
+{
+    "type": "Feature",
+    "id": 2850,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.997062283785695,
+                7.460593228797395
+            ]
+        ]
+    },
+    "properties": {
+        "land": "\"velo\",\"mountainbike\"",
+        "category": "all",
+        "language": "en",
+        "title": "Veloladen Leuthold GmbH",
+        "abstract": null,
+        "name": "Veloladen Leuthold GmbH",
+        "street": "Kreuzstrasse 5",
+        "zip": "3052",
+        "place": "Zollikofen",
+        "tel": "+41 31 911 02 10",
+        "email": null,
+        "url1_text": null,
+        "url1_link": "https://www.veloladen-leuthold.ch",
+        "organisation": "2rad / 2routes / 2ruote",
+        "foto": null,
+        "foto_abstract": null,
+        "x_coordinate": 601670.933547847,
+        "y_coordinate": 205112.6708702191,
+        "change_date": null,
+        "id": 58,
+        "type": "Service"
+    }
+}

@@ -1,0 +1,36 @@
+{
+    "type": "Feature",
+    "id": 3244,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.92897329927066,
+                7.564862310716746
+            ]
+        ]
+    },
+    "properties": {
+        "land": "\"velo\",\"mountainbike\"",
+        "category": "all",
+        "language": "en",
+        "title": "Mr. Feelgood Worb",
+        "abstract": null,
+        "name": "Mr. Feelgood Worb",
+        "street": "Schulhausstrasse 1b",
+        "zip": "3076",
+        "place": "Worb",
+        "tel": "+41 31 839 66 33",
+        "email": null,
+        "url1_text": null,
+        "url1_link": "https://www.mr-feeldgood.ch",
+        "organisation": "2rad / 2routes / 2ruote",
+        "foto": null,
+        "foto_abstract": null,
+        "x_coordinate": 609613.8820426788,
+        "y_coordinate": 197550.4472277625,
+        "change_date": null,
+        "id": 518,
+        "type": "Service"
+    }
+}

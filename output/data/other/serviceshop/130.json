@@ -1,0 +1,36 @@
+{
+    "type": "Feature",
+    "id": 2916,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                47.51600701246984,
+                7.557772308549425
+            ]
+        ]
+    },
+    "properties": {
+        "land": "\"velo\",\"mountainbike\"",
+        "category": "all",
+        "language": "en",
+        "title": "Zürcher 2-Rad-Shop",
+        "abstract": null,
+        "name": "Zürcher 2-Rad-Shop",
+        "street": "Allschwilerstrasse 3",
+        "zip": "4104",
+        "place": "Oberwil BL",
+        "tel": "+41 61 401 16 70",
+        "email": null,
+        "url1_text": null,
+        "url1_link": "https://www.zuercher-2-rad-shop.ch",
+        "organisation": "2rad / 2routes / 2ruote",
+        "foto": null,
+        "foto_abstract": null,
+        "x_coordinate": 608974.7860235949,
+        "y_coordinate": 262814.214577885,
+        "change_date": null,
+        "id": 130,
+        "type": "Service"
+    }
+}

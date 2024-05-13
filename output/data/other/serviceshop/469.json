@@ -1,0 +1,36 @@
+{
+    "type": "Feature",
+    "id": 3203,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                47.43118426829918,
+                9.6346907325205
+            ]
+        ]
+    },
+    "properties": {
+        "land": "\"velo\",\"mountainbike\"",
+        "category": "all",
+        "language": "en",
+        "title": "Winiger Velo Moto",
+        "abstract": null,
+        "name": "Winiger Velo Moto",
+        "street": "Hauptstrasse 75b",
+        "zip": "9434",
+        "place": "Au SG",
+        "tel": "+41 71 744 11 55",
+        "email": null,
+        "url1_text": null,
+        "url1_link": null,
+        "organisation": "2rad / 2routes / 2ruote",
+        "foto": null,
+        "foto_abstract": null,
+        "x_coordinate": 765661.0939521748,
+        "y_coordinate": 255694.8929349698,
+        "change_date": null,
+        "id": 469,
+        "type": "Service"
+    }
+}

@@ -1,0 +1,36 @@
+{
+    "type": "Feature",
+    "id": 3001,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                47.07982345543605,
+                8.337056790888774
+            ]
+        ]
+    },
+    "properties": {
+        "land": "\"velo\",\"mountainbike\"",
+        "category": "all",
+        "language": "en",
+        "title": "2-Rad Center Schurtenberger",
+        "abstract": null,
+        "name": "2-Rad Center Schurtenberger",
+        "street": "Luzernerstrasse 2",
+        "zip": "6030",
+        "place": "Ebikon",
+        "tel": "+41 41 440 25 45",
+        "email": null,
+        "url1_text": null,
+        "url1_link": "https://www.2rad-schurtenberger.ch",
+        "organisation": "2rad / 2routes / 2ruote",
+        "foto": null,
+        "foto_abstract": null,
+        "x_coordinate": 668228.3465994971,
+        "y_coordinate": 214703.1903001713,
+        "change_date": null,
+        "id": 229,
+        "type": "Service"
+    }
+}

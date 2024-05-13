@@ -1,0 +1,36 @@
+{
+    "type": "Feature",
+    "id": 3138,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                47.545073970547406,
+                9.212471795889861
+            ]
+        ]
+    },
+    "properties": {
+        "land": "\"velo\",\"mountainbike\"",
+        "category": "all",
+        "language": "en",
+        "title": "Fehr Velos GmbH",
+        "abstract": null,
+        "name": "Fehr Velos GmbH",
+        "street": "Hauptstrasse 1",
+        "zip": "8586",
+        "place": "Riedt b. Erlen",
+        "tel": "+41 71 648 25 28",
+        "email": null,
+        "url1_text": null,
+        "url1_link": null,
+        "organisation": "2rad / 2routes / 2ruote",
+        "foto": null,
+        "foto_abstract": null,
+        "x_coordinate": 733531.996436192,
+        "y_coordinate": 267548.7514247333,
+        "change_date": null,
+        "id": 395,
+        "type": "Service"
+    }
+}

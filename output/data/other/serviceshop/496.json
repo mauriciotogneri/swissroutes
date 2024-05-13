@@ -1,0 +1,36 @@
+{
+    "type": "Feature",
+    "id": 3226,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                47.141587851897675,
+                7.246181505796234
+            ]
+        ]
+    },
+    "properties": {
+        "land": "\"velo\",\"mountainbike\"",
+        "category": "all",
+        "language": "en",
+        "title": "47 Grad Nord GmbH",
+        "abstract": null,
+        "name": "47 Grad Nord GmbH",
+        "street": "Ring 5",
+        "zip": "2502",
+        "place": "Biel",
+        "tel": "+41 32 322 11 20",
+        "email": null,
+        "url1_text": null,
+        "url1_link": "https://www.47grad-nord.ch",
+        "organisation": "2rad / 2routes / 2ruote",
+        "foto": null,
+        "foto_abstract": null,
+        "x_coordinate": 585401.6317492204,
+        "y_coordinate": 221197.32031756226,
+        "change_date": null,
+        "id": 496,
+        "type": "Service"
+    }
+}

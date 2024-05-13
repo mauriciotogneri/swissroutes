@@ -1,0 +1,36 @@
+{
+    "type": "Feature",
+    "id": 3027,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                47.22160467614836,
+                8.25170280170993
+            ]
+        ]
+    },
+    "properties": {
+        "land": "\"velo\",\"mountainbike\"",
+        "category": "all",
+        "language": "en",
+        "title": "A-Team Achermann GmbH",
+        "abstract": null,
+        "name": "A-Team Achermann GmbH",
+        "street": "Richensee 4",
+        "zip": "6285",
+        "place": "Hitzkirch",
+        "tel": "+41 41 917 05 79",
+        "email": null,
+        "url1_text": null,
+        "url1_link": "https://www.a-team-achermann.ch",
+        "organisation": "2rad / 2routes / 2ruote",
+        "foto": null,
+        "foto_abstract": null,
+        "x_coordinate": 661583.6930814816,
+        "y_coordinate": 230394.1191524211,
+        "change_date": null,
+        "id": 258,
+        "type": "Service"
+    }
+}

@@ -1,0 +1,36 @@
+{
+    "type": "Feature",
+    "id": 3250,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                47.57992720617099,
+                9.167023024973428
+            ]
+        ]
+    },
+    "properties": {
+        "land": "\"velo\",\"mountainbike\"",
+        "category": "all",
+        "language": "en",
+        "title": "Köppel 2Radwerkstatt",
+        "abstract": null,
+        "name": "Köppel 2Radwerkstatt",
+        "street": "Hauptstrasse 51",
+        "zip": "8572",
+        "place": "Berg TG",
+        "tel": "+41 71 636 18 68",
+        "email": null,
+        "url1_text": null,
+        "url1_link": "https://www.k2rad.ch",
+        "organisation": "2rad / 2routes / 2ruote",
+        "foto": null,
+        "foto_abstract": null,
+        "x_coordinate": 730025.8312464074,
+        "y_coordinate": 271346.3814094475,
+        "change_date": null,
+        "id": 528,
+        "type": "Service"
+    }
+}

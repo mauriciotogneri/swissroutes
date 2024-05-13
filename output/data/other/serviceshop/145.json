@@ -1,0 +1,36 @@
+{
+    "type": "Feature",
+    "id": 2929,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                47.5553169202919,
+                7.79541780310322
+            ]
+        ]
+    },
+    "properties": {
+        "land": "\"velo\",\"mountainbike\"",
+        "category": "all",
+        "language": "en",
+        "title": "Bike Store Ganter GmbH",
+        "abstract": null,
+        "name": "Bike Store Ganter GmbH",
+        "street": "Kupfergasse 20",
+        "zip": "4310",
+        "place": "Rheinfelden",
+        "tel": "+41 61 831 49 80",
+        "email": null,
+        "url1_text": null,
+        "url1_link": "https://www.bike-store-rheinfelden.ch",
+        "organisation": "2rad / 2routes / 2ruote",
+        "foto": null,
+        "foto_abstract": null,
+        "x_coordinate": 626855.8173184843,
+        "y_coordinate": 267239.0808698168,
+        "change_date": null,
+        "id": 145,
+        "type": "Service"
+    }
+}

@@ -1,0 +1,36 @@
+{
+    "type": "Feature",
+    "id": 3062,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                47.043917598977764,
+                9.444131559638608
+            ]
+        ]
+    },
+    "properties": {
+        "land": "\"velo\",\"mountainbike\"",
+        "category": "all",
+        "language": "en",
+        "title": "Stiftung arwole",
+        "abstract": null,
+        "name": "Stiftung arwole",
+        "street": "Ragazerstrasse 16",
+        "zip": "7320",
+        "place": "Sargans",
+        "tel": "+41 81 710 09 02",
+        "email": null,
+        "url1_text": null,
+        "url1_link": "https://www.arwole.ch",
+        "organisation": "2rad / 2routes / 2ruote",
+        "foto": null,
+        "foto_abstract": null,
+        "x_coordinate": 752390.7566286618,
+        "y_coordinate": 212268.0784483146,
+        "change_date": null,
+        "id": 298,
+        "type": "Service"
+    }
+}

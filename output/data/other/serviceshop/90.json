@@ -1,0 +1,36 @@
+{
+    "type": "Feature",
+    "id": 2880,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                47.10639474045898,
+                7.6681309230496675
+            ]
+        ]
+    },
+    "properties": {
+        "land": "\"velo\",\"mountainbike\"",
+        "category": "all",
+        "language": "en",
+        "title": "INFINITY Bike Shop GmbH",
+        "abstract": null,
+        "name": "INFINITY Bike Shop GmbH",
+        "street": "Riedtwilstrasse 2",
+        "zip": "3472",
+        "place": "Wynigen",
+        "tel": "+41 34 415 15 05",
+        "email": null,
+        "url1_text": null,
+        "url1_link": "https://www.infinity-bikeshop.ch",
+        "organisation": "2rad / 2routes / 2ruote",
+        "foto": null,
+        "foto_abstract": null,
+        "x_coordinate": 617420.3697024543,
+        "y_coordinate": 217292.27428518038,
+        "change_date": null,
+        "id": 90,
+        "type": "Service"
+    }
+}

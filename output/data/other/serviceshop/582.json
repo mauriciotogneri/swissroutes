@@ -1,0 +1,36 @@
+{
+    "type": "Feature",
+    "id": 3301,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                47.21588142235914,
+                7.543005139756484
+            ]
+        ]
+    },
+    "properties": {
+        "land": "\"velo\",\"mountainbike\"",
+        "category": "all",
+        "language": "en",
+        "title": "Velo-Werkstatt Solothurn",
+        "abstract": null,
+        "name": "Velo-Werkstatt Solothurn",
+        "street": "Besenvalstrasse 61",
+        "zip": "4500",
+        "place": "Solothurn",
+        "tel": "+41 32 623 46 76",
+        "email": null,
+        "url1_text": null,
+        "url1_link": "https://www.velo-werkstatt.ch",
+        "organisation": null,
+        "foto": null,
+        "foto_abstract": null,
+        "x_coordinate": 607906.2507624342,
+        "y_coordinate": 229444.77277621356,
+        "change_date": null,
+        "id": 582,
+        "type": "Service"
+    }
+}

@@ -1,0 +1,36 @@
+{
+    "type": "Feature",
+    "id": 3051,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.850713698830546,
+                9.532231079739796
+            ]
+        ]
+    },
+    "properties": {
+        "land": "\"velo\",\"mountainbike\"",
+        "category": "all",
+        "language": "en",
+        "title": "Vasella AG",
+        "abstract": null,
+        "name": "Vasella AG",
+        "street": "Grabenstrasse 15",
+        "zip": "7000",
+        "place": "Chur",
+        "tel": "+41 81 252 18 16",
+        "email": null,
+        "url1_text": null,
+        "url1_link": null,
+        "organisation": "2rad / 2routes / 2ruote",
+        "foto": null,
+        "foto_abstract": null,
+        "x_coordinate": 759656.7225409161,
+        "y_coordinate": 190972.44861072217,
+        "change_date": null,
+        "id": 286,
+        "type": "Service"
+    }
+}

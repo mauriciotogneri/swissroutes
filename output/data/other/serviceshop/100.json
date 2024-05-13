@@ -1,0 +1,36 @@
+{
+    "type": "Feature",
+    "id": 2889,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.74597506347051,
+                7.622000094410676
+            ]
+        ]
+    },
+    "properties": {
+        "land": "\"velo\",\"mountainbike\"",
+        "category": "all",
+        "language": "en",
+        "title": "Sport Amstutz AG",
+        "abstract": null,
+        "name": "Sport Amstutz AG",
+        "street": "Freiestrasse 1",
+        "zip": "3604",
+        "place": "Thun",
+        "tel": "+41 33 336 88 77",
+        "email": null,
+        "url1_text": null,
+        "url1_link": null,
+        "organisation": "2rad / 2routes / 2ruote",
+        "foto": null,
+        "foto_abstract": null,
+        "x_coordinate": 614012.0748313399,
+        "y_coordinate": 177215.14904249928,
+        "change_date": null,
+        "id": 100,
+        "type": "Service"
+    }
+}

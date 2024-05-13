@@ -1,0 +1,36 @@
+{
+    "type": "Feature",
+    "id": 3231,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                47.00382352205896,
+                8.619499646008878
+            ]
+        ]
+    },
+    "properties": {
+        "land": "\"velo\",\"mountainbike\"",
+        "category": "all",
+        "language": "en",
+        "title": "mtb-sports GmbH",
+        "abstract": null,
+        "name": "mtb-sports GmbH",
+        "street": "Schwyzerstrasse 35",
+        "zip": "6440",
+        "place": "Brunnen",
+        "tel": "+41 41 82046 67",
+        "email": null,
+        "url1_text": null,
+        "url1_link": "https://www.mtb-sports.com",
+        "organisation": "2rad / 2routes / 2ruote",
+        "foto": null,
+        "foto_abstract": null,
+        "x_coordinate": 689803.8184996455,
+        "y_coordinate": 206539.1867840977,
+        "change_date": null,
+        "id": 503,
+        "type": "Service"
+    }
+}

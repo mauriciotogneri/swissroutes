@@ -1,0 +1,36 @@
+{
+    "type": "Feature",
+    "id": 2848,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                47.000480231885156,
+                7.415667410790314
+            ]
+        ]
+    },
+    "properties": {
+        "land": "\"velo\",\"mountainbike\"",
+        "category": "all",
+        "language": "en",
+        "title": "Zbinden Velo Moto",
+        "abstract": null,
+        "name": "Zbinden Velo Moto",
+        "street": "Leutschenstrasse 1",
+        "zip": "3038",
+        "place": "Kirchlindach",
+        "tel": "+41 31 829 24 57",
+        "email": null,
+        "url1_text": null,
+        "url1_link": "https://www.zbinden-motos.ch",
+        "organisation": "2rad / 2routes / 2ruote",
+        "foto": null,
+        "foto_abstract": null,
+        "x_coordinate": 598253.6391776566,
+        "y_coordinate": 205492.94129739766,
+        "change_date": null,
+        "id": 56,
+        "type": "Service"
+    }
+}

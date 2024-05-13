@@ -1,0 +1,36 @@
+{
+    "type": "Feature",
+    "id": 2955,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                47.30540352107153,
+                7.890504062933506
+            ]
+        ]
+    },
+    "properties": {
+        "land": "\"velo\",\"mountainbike\"",
+        "category": "all",
+        "language": "en",
+        "title": "Eichenberger Thomas",
+        "abstract": null,
+        "name": "Eichenberger Thomas",
+        "street": "Bernstrasse 115",
+        "zip": "4852",
+        "place": "Rothrist",
+        "tel": "+41 62 794 20 02",
+        "email": null,
+        "url1_text": null,
+        "url1_link": "https://www.zweirad-sport.ch",
+        "organisation": "2rad / 2routes / 2ruote",
+        "foto": null,
+        "foto_abstract": null,
+        "x_coordinate": 634172.1176163773,
+        "y_coordinate": 239490.3553657751,
+        "change_date": null,
+        "id": 174,
+        "type": "Service"
+    }
+}

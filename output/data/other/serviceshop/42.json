@@ -1,0 +1,36 @@
+{
+    "type": "Feature",
+    "id": 2834,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                47.181295619968495,
+                7.368479135631726
+            ]
+        ]
+    },
+    "properties": {
+        "land": "\"velo\",\"mountainbike\"",
+        "category": "all",
+        "language": "en",
+        "title": "2 Rad Sport Bucher",
+        "abstract": null,
+        "name": "2 Rad Sport Bucher",
+        "street": "Bürenstrasse 12",
+        "zip": "2543",
+        "place": "Lengnau BE",
+        "tel": "+41 32 652 48 65",
+        "email": null,
+        "url1_text": null,
+        "url1_link": "https://www.bucher-motos.ch",
+        "organisation": "2rad / 2routes / 2ruote",
+        "foto": null,
+        "foto_abstract": null,
+        "x_coordinate": 594682.7914407937,
+        "y_coordinate": 225596.45192680438,
+        "change_date": null,
+        "id": 42,
+        "type": "Service"
+    }
+}

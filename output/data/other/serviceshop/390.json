@@ -1,0 +1,36 @@
+{
+    "type": "Feature",
+    "id": 3133,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                47.56986470339835,
+                9.105311220634585
+            ]
+        ]
+    },
+    "properties": {
+        "land": "\"velo\",\"mountainbike\"",
+        "category": "all",
+        "language": "en",
+        "title": "Velo Schwarz AG",
+        "abstract": null,
+        "name": "Velo Schwarz AG",
+        "street": "Frauenfelderstrasse 61",
+        "zip": "8570",
+        "place": "Weinfelden",
+        "tel": "+41 71 622 49 69",
+        "email": null,
+        "url1_text": null,
+        "url1_link": "https://www.velo-schwarz.ch",
+        "organisation": "2rad / 2routes / 2ruote",
+        "foto": null,
+        "foto_abstract": null,
+        "x_coordinate": 725407.2151356282,
+        "y_coordinate": 270127.59263746074,
+        "change_date": null,
+        "id": 390,
+        "type": "Service"
+    }
+}

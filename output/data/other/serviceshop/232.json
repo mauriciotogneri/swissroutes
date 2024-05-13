@@ -1,0 +1,36 @@
+{
+    "type": "Feature",
+    "id": 3004,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                47.095004466819404,
+                8.363576751924128
+            ]
+        ]
+    },
+    "properties": {
+        "land": "\"velo\",\"mountainbike\"",
+        "category": "all",
+        "language": "en",
+        "title": "Pon.Bike (Schweiz) GmbH",
+        "abstract": null,
+        "name": "Pon.Bike (Schweiz) GmbH",
+        "street": "Pilatusstrasse 4",
+        "zip": "6036",
+        "place": "Dierikon",
+        "tel": "+41 41 748 55 55",
+        "email": null,
+        "url1_text": null,
+        "url1_link": "https://www.derby-cycle.com",
+        "organisation": "2rad / 2routes / 2ruote",
+        "foto": null,
+        "foto_abstract": null,
+        "x_coordinate": 670222.3420852832,
+        "y_coordinate": 216414.08432530798,
+        "change_date": null,
+        "id": 232,
+        "type": "Service"
+    }
+}

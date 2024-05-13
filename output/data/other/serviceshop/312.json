@@ -1,0 +1,36 @@
+{
+    "type": "Feature",
+    "id": 3072,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                47.37967485977183,
+                8.54686990375407
+            ]
+        ]
+    },
+    "properties": {
+        "land": "\"velo\",\"mountainbike\"",
+        "category": "all",
+        "language": "en",
+        "title": "Piaggio-Center Fontana GmbH",
+        "abstract": null,
+        "name": "Piaggio-Center Fontana GmbH",
+        "street": "Sonneggstrasse 20/26",
+        "zip": "8006",
+        "place": "Zürich",
+        "tel": "+41 44 261 32 58",
+        "email": null,
+        "url1_text": null,
+        "url1_link": "https://www.piaggio-center-fontana.ch",
+        "organisation": "2rad / 2routes / 2ruote",
+        "foto": null,
+        "foto_abstract": null,
+        "x_coordinate": 683690.6947979291,
+        "y_coordinate": 248240.19550736833,
+        "change_date": null,
+        "id": 312,
+        "type": "Service"
+    }
+}

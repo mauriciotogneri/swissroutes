@@ -1,0 +1,36 @@
+{
+    "type": "Feature",
+    "id": 3292,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                47.437444430586666,
+                9.413834091123762
+            ]
+        ]
+    },
+    "properties": {
+        "land": "\"velo\",\"mountainbike\"",
+        "category": "all",
+        "language": "en",
+        "title": "Zubi St. Gallen",
+        "abstract": null,
+        "name": "Zubi St. Gallen",
+        "street": "Favrestrasse 7",
+        "zip": "9016",
+        "place": "St. Gallen",
+        "tel": "+41 71 288 20 26",
+        "email": null,
+        "url1_text": null,
+        "url1_link": "https://www.zubi.swiss",
+        "organisation": "2rad / 2routes / 2ruote",
+        "foto": null,
+        "foto_abstract": null,
+        "x_coordinate": 748987.3581907469,
+        "y_coordinate": 255947.73514459468,
+        "change_date": null,
+        "id": 573,
+        "type": "Service"
+    }
+}

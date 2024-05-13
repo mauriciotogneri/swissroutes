@@ -1,0 +1,36 @@
+{
+    "type": "Feature",
+    "id": 2942,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                47.21481339261965,
+                7.582566010763589
+            ]
+        ]
+    },
+    "properties": {
+        "land": "\"velo\",\"mountainbike\"",
+        "category": "all",
+        "language": "en",
+        "title": "Fahradies",
+        "abstract": null,
+        "name": "Fahradies",
+        "street": "Poststrasse 29",
+        "zip": "4542",
+        "place": "Luterbach",
+        "tel": "+41 32 682 25 42",
+        "email": null,
+        "url1_text": null,
+        "url1_link": "https://www.fahradies.ch",
+        "organisation": "2rad / 2routes / 2ruote",
+        "foto": null,
+        "foto_abstract": null,
+        "x_coordinate": 610903.9106178238,
+        "y_coordinate": 229330.5235576468,
+        "change_date": null,
+        "id": 160,
+        "type": "Service"
+    }
+}

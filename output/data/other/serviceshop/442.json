@@ -1,0 +1,36 @@
+{
+    "type": "Feature",
+    "id": 3178,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                47.40855003972104,
+                8.39245806918435
+            ]
+        ]
+    },
+    "properties": {
+        "land": "\"velo\",\"mountainbike\"",
+        "category": "all",
+        "language": "en",
+        "title": "V-Sport AG",
+        "abstract": null,
+        "name": "V-Sport AG",
+        "street": "Badenerstrasse 62",
+        "zip": "8953",
+        "place": "Dietikon",
+        "tel": "+41 44 740 19 19",
+        "email": null,
+        "url1_text": null,
+        "url1_link": "https://www.v-sport.ch",
+        "organisation": "2rad / 2routes / 2ruote",
+        "foto": null,
+        "foto_abstract": null,
+        "x_coordinate": 671991.9057413948,
+        "y_coordinate": 251297.716296512,
+        "change_date": null,
+        "id": 442,
+        "type": "Service"
+    }
+}

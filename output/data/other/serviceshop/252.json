@@ -1,0 +1,36 @@
+{
+    "type": "Feature",
+    "id": 3021,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                47.17982496999202,
+                8.128612093146312
+            ]
+        ]
+    },
+    "properties": {
+        "land": "\"velo\",\"mountainbike\"",
+        "category": "all",
+        "language": "en",
+        "title": "Radsport Thalmann AG",
+        "abstract": null,
+        "name": "Radsport Thalmann AG",
+        "street": "Zellfeld",
+        "zip": "6214",
+        "place": "Schenkon",
+        "tel": "+41 41 921 76 31",
+        "email": null,
+        "url1_text": null,
+        "url1_link": "https://www.radsport-thalmann.ch",
+        "organisation": "2rad / 2routes / 2ruote",
+        "foto": null,
+        "foto_abstract": null,
+        "x_coordinate": 652301.8126216924,
+        "y_coordinate": 225660.08527644895,
+        "change_date": null,
+        "id": 252,
+        "type": "Service"
+    }
+}

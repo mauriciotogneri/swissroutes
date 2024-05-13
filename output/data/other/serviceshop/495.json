@@ -1,0 +1,36 @@
+{
+    "type": "Feature",
+    "id": 3225,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.1491753401701,
+                7.175623019933732
+            ]
+        ]
+    },
+    "properties": {
+        "land": "\"velo\",\"mountainbike\"",
+        "category": "all",
+        "language": "en",
+        "title": "Bike Evasion Sports SA",
+        "abstract": null,
+        "name": "Bike Evasion Sports SA",
+        "street": "Rue de l'Usine 2",
+        "zip": "1907",
+        "place": "Saxon",
+        "tel": "+41 27 306 79 79",
+        "email": null,
+        "url1_text": null,
+        "url1_link": "https://www.bike-evasion-sports.ch",
+        "organisation": "2rad / 2routes / 2ruote",
+        "foto": null,
+        "foto_abstract": null,
+        "x_coordinate": 579679.3751551836,
+        "y_coordinate": 110889.5517790021,
+        "change_date": null,
+        "id": 495,
+        "type": "Service"
+    }
+}

@@ -1,0 +1,36 @@
+{
+    "type": "Feature",
+    "id": 2939,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                47.20984750375524,
+                7.53066492197901
+            ]
+        ]
+    },
+    "properties": {
+        "land": "\"velo\",\"mountainbike\"",
+        "category": "all",
+        "language": "en",
+        "title": "Tropical Bike & Fun Shop AG",
+        "abstract": null,
+        "name": "Tropical Bike & Fun Shop AG",
+        "street": "Bielstrasse 28",
+        "zip": "4500",
+        "place": "Solothurn",
+        "tel": "+41 32 623 31 41",
+        "email": null,
+        "url1_text": null,
+        "url1_link": "https://www.tropical.ch",
+        "organisation": "2rad / 2routes / 2ruote",
+        "foto": null,
+        "foto_abstract": null,
+        "x_coordinate": 606972.2705431461,
+        "y_coordinate": 228772.10474095948,
+        "change_date": null,
+        "id": 157,
+        "type": "Service"
+    }
+}

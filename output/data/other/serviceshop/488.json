@@ -1,0 +1,36 @@
+{
+    "type": "Feature",
+    "id": 3219,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                47.32379419568013,
+                9.088377233030569
+            ]
+        ]
+    },
+    "properties": {
+        "land": "\"velo\",\"mountainbike\"",
+        "category": "all",
+        "language": "en",
+        "title": "DESTIMOTO",
+        "abstract": null,
+        "name": "DESTIMOTO",
+        "street": "Loretostrasse 18",
+        "zip": "9620",
+        "place": "Lichtensteig",
+        "tel": "+41 71 988 50 66",
+        "email": null,
+        "url1_text": null,
+        "url1_link": null,
+        "organisation": "2rad / 2routes / 2ruote",
+        "foto": null,
+        "foto_abstract": null,
+        "x_coordinate": 724708.8432309123,
+        "y_coordinate": 242747.47101148783,
+        "change_date": null,
+        "id": 488,
+        "type": "Service"
+    }
+}

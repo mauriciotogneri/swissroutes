@@ -1,0 +1,36 @@
+{
+    "type": "Feature",
+    "id": 3068,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                47.373667547387335,
+                8.545778421295745
+            ]
+        ]
+    },
+    "properties": {
+        "land": "\"velo\",\"mountainbike\"",
+        "category": "all",
+        "language": "en",
+        "title": "Velorei",
+        "abstract": null,
+        "name": "Velorei",
+        "street": "Predigergasse 20",
+        "zip": "8001",
+        "place": "Zürich",
+        "tel": "+41 44 252 00 66",
+        "email": null,
+        "url1_text": null,
+        "url1_link": "https://www.velorei.ch",
+        "organisation": "2rad / 2routes / 2ruote",
+        "foto": null,
+        "foto_abstract": null,
+        "x_coordinate": 683617.0447097773,
+        "y_coordinate": 247571.99642244627,
+        "change_date": null,
+        "id": 305,
+        "type": "Service"
+    }
+}

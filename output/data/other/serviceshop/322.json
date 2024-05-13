@@ -1,0 +1,36 @@
+{
+    "type": "Feature",
+    "id": 3081,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                47.40630081670283,
+                8.581024887758398
+            ]
+        ]
+    },
+    "properties": {
+        "land": "\"velo\",\"mountainbike\"",
+        "category": "all",
+        "language": "en",
+        "title": "Minder Zweirad-Shop AG",
+        "abstract": null,
+        "name": "Minder Zweirad-Shop AG",
+        "street": "Winterthurerstrasse 659",
+        "zip": "8051",
+        "place": "Zürich",
+        "tel": "+41 44 322 26 17",
+        "email": null,
+        "url1_text": null,
+        "url1_link": "https://www.zweiradsportminder.ch",
+        "organisation": "2rad / 2routes / 2ruote",
+        "foto": null,
+        "foto_abstract": null,
+        "x_coordinate": 686226.2745355393,
+        "y_coordinate": 251237.6604233038,
+        "change_date": null,
+        "id": 322,
+        "type": "Service"
+    }
+}

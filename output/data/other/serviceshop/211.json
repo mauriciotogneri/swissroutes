@@ -1,0 +1,36 @@
+{
+    "type": "Feature",
+    "id": 2987,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                47.40033214512372,
+                8.17691819438626
+            ]
+        ]
+    },
+    "properties": {
+        "land": "\"velo\",\"mountainbike\"",
+        "category": "all",
+        "language": "en",
+        "title": "Pfister Velos-Motos GmbH",
+        "abstract": null,
+        "name": "Pfister Velos-Motos GmbH",
+        "street": "Hauptstrasse 2",
+        "zip": "5702",
+        "place": "Niederlenz",
+        "tel": "+41 62 891 59 29",
+        "email": null,
+        "url1_text": null,
+        "url1_link": "https://www.pfistermotos.ch",
+        "organisation": "2rad / 2routes / 2ruote",
+        "foto": null,
+        "foto_abstract": null,
+        "x_coordinate": 655732.322132437,
+        "y_coordinate": 250208.4679410528,
+        "change_date": null,
+        "id": 211,
+        "type": "Service"
+    }
+}

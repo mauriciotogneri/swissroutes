@@ -1,0 +1,36 @@
+{
+    "type": "Feature",
+    "id": 3164,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                47.0909149777243,
+                9.068165600296195
+            ]
+        ]
+    },
+    "properties": {
+        "land": "\"velo\",\"mountainbike\"",
+        "category": "all",
+        "language": "en",
+        "title": "Ciclosport Mollis AG",
+        "abstract": null,
+        "name": "Ciclosport Mollis AG",
+        "street": "Erlenstrasse 5",
+        "zip": "8753",
+        "place": "Mollis",
+        "tel": "+41 55 612 40 43",
+        "email": null,
+        "url1_text": null,
+        "url1_link": "https://www.ciclo-sport.net",
+        "organisation": "2rad / 2routes / 2ruote",
+        "foto": null,
+        "foto_abstract": null,
+        "x_coordinate": 723718.3333551867,
+        "y_coordinate": 216830.21117612676,
+        "change_date": null,
+        "id": 425,
+        "type": "Service"
+    }
+}

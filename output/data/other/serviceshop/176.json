@@ -1,0 +1,36 @@
+{
+    "type": "Feature",
+    "id": 2957,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                47.222952335400656,
+                7.7797338264205775
+            ]
+        ]
+    },
+    "properties": {
+        "land": "\"velo\",\"mountainbike\"",
+        "category": "all",
+        "language": "en",
+        "title": "Fankhauser Bruno",
+        "abstract": null,
+        "name": "Fankhauser Bruno",
+        "street": "Aarwangenstrasse 85",
+        "zip": "4900",
+        "place": "Langenthal",
+        "tel": "+41 62 922 96 10",
+        "email": null,
+        "url1_text": null,
+        "url1_link": null,
+        "organisation": "2rad / 2routes / 2ruote",
+        "foto": null,
+        "foto_abstract": null,
+        "x_coordinate": 625835.931517819,
+        "y_coordinate": 230281.51701971842,
+        "change_date": null,
+        "id": 176,
+        "type": "Service"
+    }
+}

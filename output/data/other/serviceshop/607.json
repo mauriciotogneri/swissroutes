@@ -1,0 +1,36 @@
+{
+    "type": "Feature",
+    "id": 3935,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                47.36781696399636,
+                8.820039615591972
+            ]
+        ]
+    },
+    "properties": {
+        "land": "\"velo\",\"mountainbike\"",
+        "category": "all",
+        "language": "en",
+        "title": "Cycle Village AG",
+        "abstract": null,
+        "name": "Cycle Village AG",
+        "street": "Pfäffikerstrasse 37",
+        "zip": "8335",
+        "place": "Hittnau",
+        "tel": "+41 43 558 44 88",
+        "email": null,
+        "url1_text": null,
+        "url1_link": "https://www.cycle-village.ch",
+        "organisation": null,
+        "foto": null,
+        "foto_abstract": null,
+        "x_coordinate": 704340.6297269632,
+        "y_coordinate": 247249.0511823242,
+        "change_date": null,
+        "id": 607,
+        "type": "Service"
+    }
+}

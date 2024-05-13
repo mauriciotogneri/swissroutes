@@ -1,0 +1,36 @@
+{
+    "type": "Feature",
+    "id": 2913,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                47.537082496605905,
+                7.571618329393486
+            ]
+        ]
+    },
+    "properties": {
+        "land": "\"velo\",\"mountainbike\"",
+        "category": "all",
+        "language": "en",
+        "title": "Herzog Sport AG",
+        "abstract": null,
+        "name": "Herzog Sport AG",
+        "street": "Oberwilerstrasse 16-20",
+        "zip": "4102",
+        "place": "Binningen",
+        "tel": "+41 61 421 29 85",
+        "email": null,
+        "url1_text": null,
+        "url1_link": null,
+        "organisation": "2rad / 2routes / 2ruote",
+        "foto": null,
+        "foto_abstract": null,
+        "x_coordinate": 610013.3341733529,
+        "y_coordinate": 265159.7080187749,
+        "change_date": null,
+        "id": 127,
+        "type": "Service"
+    }
+}

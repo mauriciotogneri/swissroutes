@@ -1,0 +1,36 @@
+{
+    "type": "Feature",
+    "id": 2928,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                47.40752615732344,
+                7.543088927869633
+            ]
+        ]
+    },
+    "properties": {
+        "land": "\"velo\",\"mountainbike\"",
+        "category": "all",
+        "language": "en",
+        "title": "Plösser Thomas",
+        "abstract": null,
+        "name": "Plösser Thomas",
+        "street": "Rechenmachergässli 3",
+        "zip": "4226",
+        "place": "Breitenbach",
+        "tel": "+41 61 781 35 80",
+        "email": null,
+        "url1_text": null,
+        "url1_link": null,
+        "organisation": "2rad / 2routes / 2ruote",
+        "foto": null,
+        "foto_abstract": null,
+        "x_coordinate": 607884.9406059111,
+        "y_coordinate": 250751.30144731724,
+        "change_date": null,
+        "id": 143,
+        "type": "Service"
+    }
+}

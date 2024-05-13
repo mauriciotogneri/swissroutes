@@ -1,0 +1,36 @@
+{
+    "type": "Feature",
+    "id": 2959,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                47.23729506454394,
+                7.771835387403519
+            ]
+        ]
+    },
+    "properties": {
+        "land": "\"velo\",\"mountainbike\"",
+        "category": "all",
+        "language": "en",
+        "title": "Lehmann Markus",
+        "abstract": null,
+        "name": "Lehmann Markus",
+        "street": "Langenthalstrasse 39",
+        "zip": "4912",
+        "place": "Aarwangen",
+        "tel": "+41 62 999 22 40",
+        "email": null,
+        "url1_text": null,
+        "url1_link": null,
+        "organisation": "2rad / 2routes / 2ruote",
+        "foto": null,
+        "foto_abstract": null,
+        "x_coordinate": 625230.0739683951,
+        "y_coordinate": 231873.21898559426,
+        "change_date": null,
+        "id": 179,
+        "type": "Service"
+    }
+}

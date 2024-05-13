@@ -1,0 +1,36 @@
+{
+    "type": "Feature",
+    "id": 2841,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                47.34499004507603,
+                7.316972615125086
+            ]
+        ]
+    },
+    "properties": {
+        "land": "\"velo\",\"mountainbike\"",
+        "category": "all",
+        "language": "en",
+        "title": "Joliat cycles-sports",
+        "abstract": null,
+        "name": "Joliat cycles-sports",
+        "street": "Rue Saint-Maurice 17",
+        "zip": "2852",
+        "place": "Courtételle",
+        "tel": "+41 32 422 94 18",
+        "email": null,
+        "url1_text": null,
+        "url1_link": "https://www.joliatcycles.ch",
+        "organisation": "2rad / 2routes / 2ruote",
+        "foto": null,
+        "foto_abstract": null,
+        "x_coordinate": 590806.8228398573,
+        "y_coordinate": 243800.06358146458,
+        "change_date": null,
+        "id": 49,
+        "type": "Service"
+    }
+}

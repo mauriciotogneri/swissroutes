@@ -1,0 +1,36 @@
+{
+    "type": "Feature",
+    "id": 3200,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                47.47564688625502,
+                9.467829017939172
+            ]
+        ]
+    },
+    "properties": {
+        "land": "\"velo\",\"mountainbike\"",
+        "category": "all",
+        "language": "en",
+        "title": "Ries Bikeshop und Handels GmbH",
+        "abstract": null,
+        "name": "Ries Bikeshop und Handels GmbH",
+        "street": "Blumenstrasse 13",
+        "zip": "9403",
+        "place": "Goldach",
+        "tel": "+41 71 841 01 50",
+        "email": null,
+        "url1_text": null,
+        "url1_link": "https://www.bikeshop-ries.ch",
+        "organisation": "2rad / 2routes / 2ruote",
+        "foto": null,
+        "foto_abstract": null,
+        "x_coordinate": 752949.7437406912,
+        "y_coordinate": 260297.54926468065,
+        "change_date": null,
+        "id": 466,
+        "type": "Service"
+    }
+}

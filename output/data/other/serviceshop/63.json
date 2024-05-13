@@ -1,0 +1,36 @@
+{
+    "type": "Feature",
+    "id": 2855,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.92807040208832,
+                7.453330183910501
+            ]
+        ]
+    },
+    "properties": {
+        "land": "\"velo\",\"mountainbike\"",
+        "category": "all",
+        "language": "en",
+        "title": "Michel Zweiräder",
+        "abstract": null,
+        "name": "Michel Zweiräder",
+        "street": "Seftigenstrasse 275",
+        "zip": "3084",
+        "place": "Wabern",
+        "tel": "+41 31 961 06 55",
+        "email": null,
+        "url1_text": null,
+        "url1_link": "https://www.mzw.ch",
+        "organisation": "2rad / 2routes / 2ruote",
+        "foto": null,
+        "foto_abstract": null,
+        "x_coordinate": 601119.3165062388,
+        "y_coordinate": 197442.86209381325,
+        "change_date": null,
+        "id": 63,
+        "type": "Service"
+    }
+}

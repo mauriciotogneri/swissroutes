@@ -1,0 +1,36 @@
+{
+    "type": "Feature",
+    "id": 3028,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                47.17441984306484,
+                8.51624839337613
+            ]
+        ]
+    },
+    "properties": {
+        "land": "\"velo\",\"mountainbike\"",
+        "category": "all",
+        "language": "en",
+        "title": "Cycling Lounge AG",
+        "abstract": null,
+        "name": "Cycling Lounge AG",
+        "street": "Gubelstrasse 19",
+        "zip": "6300",
+        "place": "Zug",
+        "tel": "+41 41 711 45 51",
+        "email": null,
+        "url1_text": null,
+        "url1_link": "https://www.cycling-lounge.ch",
+        "organisation": "2rad / 2routes / 2ruote",
+        "foto": null,
+        "foto_abstract": null,
+        "x_coordinate": 681691.1485969139,
+        "y_coordinate": 225390.64444593107,
+        "change_date": null,
+        "id": 259,
+        "type": "Service"
+    }
+}

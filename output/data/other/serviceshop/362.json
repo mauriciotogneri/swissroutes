@@ -1,0 +1,36 @@
+{
+    "type": "Feature",
+    "id": 3113,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                47.46376270426361,
+                8.987785689316578
+            ]
+        ]
+    },
+    "properties": {
+        "land": "\"velo\",\"mountainbike\"",
+        "category": "all",
+        "language": "en",
+        "title": "Velo Peter GmbH",
+        "abstract": null,
+        "name": "Velo Peter GmbH",
+        "street": "Winterthurer Strasse 45",
+        "zip": "8370",
+        "place": "Sirnach",
+        "tel": "+41 71 966 49 88",
+        "email": null,
+        "url1_text": null,
+        "url1_link": "https://www.velopeter.ch",
+        "organisation": "2rad / 2routes / 2ruote",
+        "foto": null,
+        "foto_abstract": null,
+        "x_coordinate": 716798.0362192247,
+        "y_coordinate": 258151.6598313942,
+        "change_date": null,
+        "id": 362,
+        "type": "Service"
+    }
+}

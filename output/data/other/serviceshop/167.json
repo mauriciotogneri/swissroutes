@@ -1,0 +1,36 @@
+{
+    "type": "Feature",
+    "id": 2949,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                47.31056840208467,
+                7.921123410688119
+            ]
+        ]
+    },
+    "properties": {
+        "land": "\"velo\",\"mountainbike\"",
+        "category": "all",
+        "language": "en",
+        "title": "Hubacher Arthur",
+        "abstract": null,
+        "name": "Hubacher Arthur",
+        "street": "Tychfeldstrasse",
+        "zip": "4665",
+        "place": "Oftringen",
+        "tel": "+41 62 797 46 32",
+        "email": null,
+        "url1_text": null,
+        "url1_link": null,
+        "organisation": "2rad / 2routes / 2ruote",
+        "foto": null,
+        "foto_abstract": null,
+        "x_coordinate": 636484.1392314823,
+        "y_coordinate": 240078.914093844,
+        "change_date": null,
+        "id": 167,
+        "type": "Service"
+    }
+}

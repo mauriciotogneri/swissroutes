@@ -1,0 +1,36 @@
+{
+    "type": "Feature",
+    "id": 2909,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                47.55616604730058,
+                7.572689054799529
+            ]
+        ]
+    },
+    "properties": {
+        "land": "\"velo\",\"mountainbike\"",
+        "category": "all",
+        "language": "en",
+        "title": "Schenker Velos GmbH",
+        "abstract": null,
+        "name": "Schenker Velos GmbH",
+        "street": "Allschwilerstrasse 41",
+        "zip": "4055",
+        "place": "Basel",
+        "tel": "+41 61 301 20 89",
+        "email": null,
+        "url1_text": null,
+        "url1_link": null,
+        "organisation": "2rad / 2routes / 2ruote",
+        "foto": null,
+        "foto_abstract": null,
+        "x_coordinate": 610090.2983395875,
+        "y_coordinate": 267281.31442548806,
+        "change_date": null,
+        "id": 123,
+        "type": "Service"
+    }
+}

@@ -1,0 +1,36 @@
+{
+    "type": "Feature",
+    "id": 2814,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.18861498248913,
+                6.137469312991245
+            ]
+        ]
+    },
+    "properties": {
+        "land": "\"velo\",\"mountainbike\"",
+        "category": "all",
+        "language": "en",
+        "title": "Motosrochat SA",
+        "abstract": null,
+        "name": "Motosrochat SA",
+        "street": "rue du Grand-Bureau 19",
+        "zip": "1227",
+        "place": "Carouge GE",
+        "tel": "+41 22 342 81 90",
+        "email": null,
+        "url1_text": null,
+        "url1_link": "https://www.motosrochat.ch",
+        "organisation": "2rad / 2routes / 2ruote",
+        "foto": null,
+        "foto_abstract": null,
+        "x_coordinate": 499546.18272803153,
+        "y_coordinate": 116072.20044539506,
+        "change_date": null,
+        "id": 19,
+        "type": "Service"
+    }
+}

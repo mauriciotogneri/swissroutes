@@ -1,0 +1,36 @@
+{
+    "type": "Feature",
+    "id": 2857,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.925343658818896,
+                7.416552942961941
+            ]
+        ]
+    },
+    "properties": {
+        "land": "\"velo\",\"mountainbike\"",
+        "category": "all",
+        "language": "en",
+        "title": "Velogfeller AG",
+        "abstract": null,
+        "name": "Velogfeller AG",
+        "street": "Könizstrasse 300",
+        "zip": "3098",
+        "place": "Köniz",
+        "tel": "+41 31 971 16 27",
+        "email": null,
+        "url1_text": null,
+        "url1_link": "https://www.velogfeller.ch",
+        "organisation": "2rad / 2routes / 2ruote",
+        "foto": null,
+        "foto_abstract": null,
+        "x_coordinate": 598318.1142935666,
+        "y_coordinate": 197139.53309709462,
+        "change_date": null,
+        "id": 65,
+        "type": "Service"
+    }
+}

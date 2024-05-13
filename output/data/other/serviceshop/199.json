@@ -1,0 +1,36 @@
+{
+    "type": "Feature",
+    "id": 2975,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                47.48679841505396,
+                8.292987639890898
+            ]
+        ]
+    },
+    "properties": {
+        "land": "\"velo\",\"mountainbike\"",
+        "category": "all",
+        "language": "en",
+        "title": "Radsport Velo-Egge",
+        "abstract": null,
+        "name": "Radsport Velo-Egge",
+        "street": "Landstrasse 136",
+        "zip": "5415",
+        "place": "Nussbaumen AG",
+        "tel": "+41 56 282 35 60",
+        "email": null,
+        "url1_text": null,
+        "url1_link": null,
+        "organisation": "2rad / 2routes / 2ruote",
+        "foto": null,
+        "foto_abstract": null,
+        "x_coordinate": 664389.9775002372,
+        "y_coordinate": 259910.91510108658,
+        "change_date": null,
+        "id": 199,
+        "type": "Service"
+    }
+}

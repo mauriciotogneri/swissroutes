@@ -1,0 +1,36 @@
+{
+    "type": "Feature",
+    "id": 2876,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                47.01814228290796,
+                7.660019936773818
+            ]
+        ]
+    },
+    "properties": {
+        "land": "\"velo\",\"mountainbike\"",
+        "category": "all",
+        "language": "en",
+        "title": "2-Rad Gerber AG",
+        "abstract": null,
+        "name": "2-Rad Gerber AG",
+        "street": "Rüegsaustrasse 25",
+        "zip": "3415",
+        "place": "Hasle-Rüegsau",
+        "tel": "+41 34 461 42 20",
+        "email": null,
+        "url1_text": null,
+        "url1_link": "https://www.2-rad-gerber.ch",
+        "organisation": "2rad / 2routes / 2ruote",
+        "foto": null,
+        "foto_abstract": null,
+        "x_coordinate": 616832.3610196101,
+        "y_coordinate": 207479.52132911366,
+        "change_date": null,
+        "id": 86,
+        "type": "Service"
+    }
+}

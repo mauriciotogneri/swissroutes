@@ -1,0 +1,36 @@
+{
+    "type": "Feature",
+    "id": 3158,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                47.26867264293639,
+                8.679327952436502
+            ]
+        ]
+    },
+    "properties": {
+        "land": "\"velo\",\"mountainbike\"",
+        "category": "all",
+        "language": "en",
+        "title": "Bike Home Service GmbH",
+        "abstract": null,
+        "name": "Bike Home Service GmbH",
+        "street": "Oeltrottenstrasse 62",
+        "zip": "8707",
+        "place": "Uetikon am See",
+        "tel": "+41 43 960 90 00",
+        "email": null,
+        "url1_text": null,
+        "url1_link": "https://www.bikehomeservice.ch",
+        "organisation": "2rad / 2routes / 2ruote",
+        "foto": null,
+        "foto_abstract": null,
+        "x_coordinate": 693887.0979018544,
+        "y_coordinate": 236050.41602028048,
+        "change_date": null,
+        "id": 416,
+        "type": "Service"
+    }
+}

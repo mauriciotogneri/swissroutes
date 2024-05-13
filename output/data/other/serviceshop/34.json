@@ -1,0 +1,36 @@
+{
+    "type": "Feature",
+    "id": 2827,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.320057826465494,
+                6.967809530932557
+            ]
+        ]
+    },
+    "properties": {
+        "land": "\"velo\",\"mountainbike\"",
+        "category": "all",
+        "language": "en",
+        "title": "Cycles et motos",
+        "abstract": null,
+        "name": "Cycles et motos",
+        "street": "Place Alphonse-Mex 9",
+        "zip": "1860",
+        "place": "Aigle",
+        "tel": "+41 24 466 17 42",
+        "email": null,
+        "url1_text": null,
+        "url1_link": "https://www.2roues.ch/burnier",
+        "organisation": "2rad / 2routes / 2ruote",
+        "foto": null,
+        "foto_abstract": null,
+        "x_coordinate": 563737.8336808411,
+        "y_coordinate": 129960.50213171315,
+        "change_date": null,
+        "id": 34,
+        "type": "Service"
+    }
+}

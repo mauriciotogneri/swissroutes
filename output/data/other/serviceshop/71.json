@@ -1,0 +1,36 @@
+{
+    "type": "Feature",
+    "id": 2863,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.846604145910476,
+                7.1916204752035515
+            ]
+        ]
+    },
+    "properties": {
+        "land": "\"velo\",\"mountainbike\"",
+        "category": "all",
+        "language": "en",
+        "title": "Velomichael Zweirad-Shop",
+        "abstract": null,
+        "name": "Velomichael Zweirad-Shop",
+        "street": "Hauptstrasse 8A",
+        "zip": "3186",
+        "place": "Düdingen",
+        "tel": "+41 26 493 16 60",
+        "email": null,
+        "url1_text": null,
+        "url1_link": "https://www.zweiradshop.ch",
+        "organisation": "2rad / 2routes / 2ruote",
+        "foto": null,
+        "foto_abstract": null,
+        "x_coordinate": 581159.2379049414,
+        "y_coordinate": 188415.69157309507,
+        "change_date": null,
+        "id": 71,
+        "type": "Service"
+    }
+}

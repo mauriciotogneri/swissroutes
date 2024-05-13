@@ -1,0 +1,36 @@
+{
+    "type": "Feature",
+    "id": 5246,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                46.618185462443186,
+                7.1659136572972715
+            ]
+        ]
+    },
+    "properties": {
+        "land": "\"velo\",\"mountainbike\"",
+        "category": "all",
+        "language": "en",
+        "title": "Elevate Bike Shop Sàrl",
+        "abstract": null,
+        "name": "Elevate Bike Shop Sàrl",
+        "street": "Rue du Centre 44",
+        "zip": "1637",
+        "place": "Charmey",
+        "tel": "+41 26 927 21 01",
+        "email": null,
+        "url1_text": null,
+        "url1_link": "https://www.elevatebikeshop.ch",
+        "organisation": "2rad / 2routes / 2ruote",
+        "foto": null,
+        "foto_abstract": null,
+        "x_coordinate": 579110.3715483655,
+        "y_coordinate": 163029.51454399287,
+        "change_date": null,
+        "id": 619,
+        "type": "Service"
+    }
+}

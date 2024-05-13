@@ -1,0 +1,36 @@
+{
+    "type": "Feature",
+    "id": 3119,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                47.57634320106716,
+                8.608713550362115
+            ]
+        ]
+    },
+    "properties": {
+        "land": "\"velo\",\"mountainbike\"",
+        "category": "all",
+        "language": "en",
+        "title": "Velo Glauser GmbH",
+        "abstract": null,
+        "name": "Velo Glauser GmbH",
+        "street": "Andelfingerstrasse 7",
+        "zip": "8416",
+        "place": "Flaach",
+        "tel": "+41 52 318 15 36",
+        "email": null,
+        "url1_text": null,
+        "url1_link": "https://www.veloglauser.ch",
+        "organisation": "2rad / 2routes / 2ruote",
+        "foto": null,
+        "foto_abstract": null,
+        "x_coordinate": 688034.1853341631,
+        "y_coordinate": 270172.47655030596,
+        "change_date": null,
+        "id": 371,
+        "type": "Service"
+    }
+}

@@ -1,0 +1,36 @@
+{
+    "type": "Feature",
+    "id": 3139,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+                47.56320535363871,
+                9.377917473771957
+            ]
+        ]
+    },
+    "properties": {
+        "land": "\"velo\",\"mountainbike\"",
+        "category": "all",
+        "language": "en",
+        "title": "Neuhaus Reto",
+        "abstract": null,
+        "name": "Neuhaus Reto",
+        "street": "Alleestrasse 54",
+        "zip": "8590",
+        "place": "Romanshorn",
+        "tel": "+41 71 463 17 44",
+        "email": null,
+        "url1_text": null,
+        "url1_link": null,
+        "organisation": "2rad / 2routes / 2ruote",
+        "foto": null,
+        "foto_abstract": null,
+        "x_coordinate": 745933.6325872998,
+        "y_coordinate": 269858.73561160656,
+        "change_date": null,
+        "id": 396,
+        "type": "Service"
+    }
+}
