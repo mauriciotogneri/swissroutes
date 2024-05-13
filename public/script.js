@@ -437,15 +437,15 @@ function showMountainHike(json) {
   }
 
   if (json.properties.mountain_hiking_difficulty) {
-    content += `<b><span class="material-symbols-outlined">landscape</span></b>${json.properties.mountain_hiking_difficulty}<br/><br/>`
+    content += `<span class="material-symbols-outlined">landscape</span>${json.properties.mountain_hiking_difficulty}<br/><br/>`
   }
 
   if (json.properties.ascent_altitude) {
-    content += `<b><span class="material-symbols-outlined">north_east</span></b>${json.properties.ascent_altitude.toLocaleString()} m<br/><br/>`
+    content += `<span class="material-symbols-outlined">north_east</span>${json.properties.ascent_altitude.toLocaleString()} m<br/><br/>`
   }
 
   if (json.properties.descent_altitude) {
-    content += `<b><span class="material-symbols-outlined">south_east</span></b>${json.properties.descent_altitude.toLocaleString()} m<br/><br/>`
+    content += `<span class="material-symbols-outlined">south_east</span>${json.properties.descent_altitude.toLocaleString()} m<br/><br/>`
   }
 
   const galleryList = getGallery(json)
