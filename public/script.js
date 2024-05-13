@@ -381,8 +381,7 @@ function showRoute(type, url, json, focus, lengthMin, lengthMax, heightMin, heig
 }
 
 function showPoint(label, baseLink, json) {
-  let content = ''
-  content += `<a href='${baseLink}${json.id}' target='_blank'>${json.properties.title ? json.properties.title : json.properties.name}</a><br/><br/>`
+  let content = `<a href='${baseLink}${json.id}' target='_blank'>${json.properties.title ? json.properties.title : json.properties.name}</a><br/><br/>`
 
   if (json.properties.abstract) {
     content += `<p style="font-weight:bold">${json.properties.abstract}</p>`
@@ -459,8 +458,7 @@ function showMountainHike(json, heightMin, heightMax, difficultyMin, difficultyM
     return
   }
 
-  let content = ''
-  content += `<b style="font-weight:bold">${json.properties.title} - ${json.properties.poi_title}</b><br/><br/>`
+  let content = `<a href='https://www.sac-cas.ch/en/huts-and-tours/sac-route-portal/${json.properties.sac_poi_id}/mountain_hiking' target='_blank'>${json.properties.title} - ${json.properties.poi_title}</a><br/><br/>`
 
   if (json.properties.abstract) {
     content += `<p>${json.properties.abstract}</p>`
