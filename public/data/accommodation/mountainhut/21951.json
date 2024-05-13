@@ -1,1 +1,46 @@
-{"type":"Feature","id":31378,"geometry":{"type":"Point","coordinates":[47.04399767728316,9.683716155018969]},"properties":{"id":21951,"land":"\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"","type":"Uebernachte","types":["groupaccom","mountainhut"],"category":"all","language":"en","name":"Schesaplanahütte","stars_hotellerie":null,"stars_parahotellerie":null,"q_label":null,"hotelgroup":"Schweizer Alpen-Club SAC","street":null,"zip":"7212","place":"Seewis Prättigau","tel":"+41 (0)81 325 11 63","beds":65,"campingplaces":null,"pricefrom":54.0,"priceto":58.0,"price_week":null,"email":"info@schesaplana-huette.ch","url1_text":"www.schesaplana-huette.ch","url1_link":"https://www.schesaplana-huette.ch","url2_text":null,"url2_link":null,"foto":"https://images0.schweizmobil.ch/image/Schesaplanahuette_SAC.jpg","x_coordinate":770590.0006957041,"y_coordinate":212770.00109874664,"change_date":null}}
+{
+    "type": "Feature",
+    "id": 37658,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            47.04399793498877,
+            9.683703022942147
+        ]
+    },
+    "properties": {
+        "id": 21951,
+        "land": "\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"",
+        "type": "Uebernachte",
+        "types": [
+            "groupaccom",
+            "mountainhut"
+        ],
+        "category": "all",
+        "language": "en",
+        "name": "Schesaplanahütte",
+        "stars_hotellerie": null,
+        "stars_parahotellerie": null,
+        "q_label": null,
+        "hotelgroup": "Schweizer Alpen-Club SAC",
+        "street": null,
+        "zip": "7212",
+        "place": "Seewis Prättigau",
+        "tel": "+41 (0)81 325 11 63",
+        "beds": 65,
+        "campingplaces": null,
+        "pricefrom": 54,
+        "priceto": 58,
+        "price_week": null,
+        "email": "info@schesaplana-huette.ch",
+        "url1_text": "www.schesaplana-huette.ch",
+        "url1_link": "https://www.schesaplana-huette.ch",
+        "url2_text": null,
+        "url2_link": null,
+        "foto": "https://images.schweizmobil.ch/image/Schesaplanahuette_SAC.jpg",
+        "foto_abstract": null,
+        "x_coordinate": 770589.7826189096,
+        "y_coordinate": 212770.15001984514,
+        "change_date": null
+    }
+}

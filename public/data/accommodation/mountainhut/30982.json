@@ -1,1 +1,45 @@
-{"type":"Feature","id":31277,"geometry":{"type":"Point","coordinates":[45.95789727061142,7.812286086869544]},"properties":{"id":30982,"land":"\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"","type":"Uebernachte","types":["mountainhut"],"category":"all","language":"en","name":"Monte-Rosa-Hütte CAS","stars_hotellerie":null,"stars_parahotellerie":null,"q_label":null,"hotelgroup":"Schweizer Alpen-Club SAC","street":null,"zip":"3920","place":"Zermatt","tel":"+41 (0)27 967 21 15","beds":120,"campingplaces":null,"pricefrom":65.0,"priceto":85.0,"price_week":null,"email":"monterosa.sac@rhone.ch","url1_text":"www.section-monte-rosa.ch","url1_link":"https://www.section-monte-rosa.ch/de/unsere-hutten/monte-rosa-huette","url2_text":"Online booking","url2_link":"http://www.alpenonline.ch/reservation/calendar?header=yes&hut_id=6&lang=de","foto":"https://images0.schweizmobil.ch/image-small/Zermatt_SAC_Monte_Rosa.jpg","x_coordinate":628970.0006162801,"y_coordinate":89660.0010872054,"change_date":null}}
+{
+    "type": "Feature",
+    "id": 37557,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            45.957888310972685,
+            7.812273135569106
+        ]
+    },
+    "properties": {
+        "id": 30982,
+        "land": "\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"",
+        "type": "Uebernachte",
+        "types": [
+            "mountainhut"
+        ],
+        "category": "all",
+        "language": "en",
+        "name": "Monte-Rosa-Hütte CAS",
+        "stars_hotellerie": null,
+        "stars_parahotellerie": null,
+        "q_label": null,
+        "hotelgroup": "Schweizer Alpen-Club SAC",
+        "street": null,
+        "zip": "3920",
+        "place": "Zermatt",
+        "tel": "+41 (0)27 967 21 15",
+        "beds": 120,
+        "campingplaces": null,
+        "pricefrom": 65,
+        "priceto": 85,
+        "price_week": null,
+        "email": "monterosa.sac@rhone.ch",
+        "url1_text": "www.section-monte-rosa.ch",
+        "url1_link": "https://www.section-monte-rosa.ch/de/unsere-hutten/monte-rosa-huette",
+        "url2_text": "Online booking",
+        "url2_link": "http://www.alpenonline.ch/reservation/calendar?header=yes&hut_id=6&lang=de",
+        "foto": "https://images.schweizmobil.ch/image-small/Zermatt_SAC_Monte_Rosa.jpg",
+        "foto_abstract": null,
+        "x_coordinate": 628969.8297491993,
+        "y_coordinate": 89659.91818030766,
+        "change_date": null
+    }
+}

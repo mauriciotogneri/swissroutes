@@ -1,1 +1,45 @@
-{"type":"Feature","id":30625,"geometry":{"type":"Point","coordinates":[46.32745938320656,8.704375335187102]},"properties":{"id":32636,"land":"\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"","type":"Uebernachte","types":["mountainhut"],"category":"all","language":"en","name":"Capanna Osola","stars_hotellerie":null,"stars_parahotellerie":null,"q_label":null,"hotelgroup":null,"street":"Val d'Osola","zip":"6634","place":"Brione Verzasca","tel":"+41 (0)79 335 53 85","beds":18,"campingplaces":null,"pricefrom":10.0,"priceto":10.0,"price_week":null,"email":"capannaosola@hotmail.com","url1_text":"www.capannaosola.ch","url1_link":"https://www.capannaosola.ch/index.php?view=capanna","url2_text":"www.capanneti.ch","url2_link":"https://www.capanneti.ch/it/capanne/osola","foto":"https://images0.schweizmobil.ch/image-big/53_Osola_g.jpg","x_coordinate":697470.0006642883,"y_coordinate":131460.00108938728,"change_date":null}}
+{
+    "type": "Feature",
+    "id": 36943,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.3274503836596,
+            8.70437512060487
+        ]
+    },
+    "properties": {
+        "id": 32636,
+        "land": "\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"",
+        "type": "Uebernachte",
+        "types": [
+            "mountainhut"
+        ],
+        "category": "all",
+        "language": "en",
+        "name": "Capanna Osola",
+        "stars_hotellerie": null,
+        "stars_parahotellerie": null,
+        "q_label": null,
+        "hotelgroup": null,
+        "street": "Val d'Osola",
+        "zip": "6634",
+        "place": "Brione Verzasca",
+        "tel": "+41 (0)79 335 53 85",
+        "beds": 18,
+        "campingplaces": null,
+        "pricefrom": 10,
+        "priceto": 10,
+        "price_week": null,
+        "email": "capannaosola@hotmail.com",
+        "url1_text": "www.capannaosola.ch",
+        "url1_link": "https://www.capannaosola.ch/index.php?view=capanna",
+        "url2_text": "www.capanneti.ch",
+        "url2_link": "https://www.capanneti.ch/it/capanne/osola",
+        "foto": "https://images.schweizmobil.ch/image-big/53_Osola_g.jpg",
+        "foto_abstract": null,
+        "x_coordinate": 697470.3936424234,
+        "y_coordinate": 131459.48328374163,
+        "change_date": null
+    }
+}

@@ -1,1 +1,46 @@
-{"type":"Feature","id":30512,"geometry":{"type":"Point","coordinates":[46.84089735120506,8.410577350522699]},"properties":{"id":21944,"land":"\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"","type":"Uebernachte","types":["groupaccom","mountainhut"],"category":"all","language":"en","name":"Brunnihütte SAC","stars_hotellerie":null,"stars_parahotellerie":null,"q_label":null,"hotelgroup":"Schweizer Alpen-Club SAC","street":null,"zip":"6390","place":"Engelberg","tel":"+41 (0)41 637 37 32","beds":40,"campingplaces":null,"pricefrom":52.0,"priceto":62.0,"price_week":null,"email":"info@brunnihuette.ch","url1_text":"www.brunnihuette.ch","url1_link":"https://www.brunnihuette.ch","url2_text":"Online booking","url2_link":"http://www.alpenonline.ch/reservation/calendar?hut_id=37&lang=de&header=yes","foto":"https://images0.schweizmobil.ch/image-big/SAC_Brunnihuette_2022_g.jpg","x_coordinate":674140.0006284392,"y_coordinate":188210.0011203857,"change_date":null}}
+{
+    "type": "Feature",
+    "id": 36830,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.84088835536521,
+            8.410577222704456
+        ]
+    },
+    "properties": {
+        "id": 21944,
+        "land": "\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"",
+        "type": "Uebernachte",
+        "types": [
+            "groupaccom",
+            "mountainhut"
+        ],
+        "category": "all",
+        "language": "en",
+        "name": "Brunnihütte SAC",
+        "stars_hotellerie": null,
+        "stars_parahotellerie": null,
+        "q_label": null,
+        "hotelgroup": "Schweizer Alpen-Club SAC",
+        "street": null,
+        "zip": "6390",
+        "place": "Engelberg",
+        "tel": "+41 (0)41 637 37 32",
+        "beds": 40,
+        "campingplaces": null,
+        "pricefrom": 52,
+        "priceto": 62,
+        "price_week": null,
+        "email": "info@brunnihuette.ch",
+        "url1_text": "www.brunnihuette.ch",
+        "url1_link": "https://www.brunnihuette.ch",
+        "url2_text": "Online booking",
+        "url2_link": "http://www.alpenonline.ch/reservation/calendar?hut_id=37&lang=de&header=yes",
+        "foto": "https://images.schweizmobil.ch/image-big/SAC_Brunnihuette_2022_g.jpg",
+        "foto_abstract": null,
+        "x_coordinate": 674140.2584470666,
+        "y_coordinate": 188209.66738785108,
+        "change_date": null
+    }
+}

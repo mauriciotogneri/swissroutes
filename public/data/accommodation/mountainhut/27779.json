@@ -1,1 +1,46 @@
-{"type":"Feature","id":30696,"geometry":{"type":"Point","coordinates":[46.67169461141852,8.44007470191152]},"properties":{"id":27779,"land":"\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"","type":"Uebernachte","types":["groupaccom","mountainhut"],"category":"all","language":"en","name":"Chelenalphütte SAC","stars_hotellerie":null,"stars_parahotellerie":null,"q_label":null,"hotelgroup":"Schweizer Alpen-Club SAC","street":null,"zip":"6487","place":"Göschenen","tel":"+41 (0)41 885 19 30","beds":65,"campingplaces":null,"pricefrom":65.0,"priceto":85.0,"price_week":null,"email":"chelenalp@goeschenen.ch","url1_text":"www.chelenalp.ch","url1_link":"https://www.chelenalp.ch","url2_text":"Online booking","url2_link":"http://www.alpenonline.ch/reservation/calendar?hut_id=55&lang=de","foto":"https://images0.schweizmobil.ch/image/Chelenalphuette_SAC.JPG","x_coordinate":676630.0006359706,"y_coordinate":169430.00111203277,"change_date":null}}
+{
+    "type": "Feature",
+    "id": 37010,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.671685734670035,
+            8.440061516500652
+        ]
+    },
+    "properties": {
+        "id": 27779,
+        "land": "\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"",
+        "type": "Uebernachte",
+        "types": [
+            "groupaccom",
+            "mountainhut"
+        ],
+        "category": "all",
+        "language": "en",
+        "name": "Chelenalphütte SAC",
+        "stars_hotellerie": null,
+        "stars_parahotellerie": null,
+        "q_label": null,
+        "hotelgroup": "Schweizer Alpen-Club SAC",
+        "street": null,
+        "zip": "6487",
+        "place": "Göschenen",
+        "tel": "+41 (0)41 885 19 30",
+        "beds": 65,
+        "campingplaces": null,
+        "pricefrom": 65,
+        "priceto": 85,
+        "price_week": null,
+        "email": "chelenalp@goeschenen.ch",
+        "url1_text": "www.chelenalp.ch",
+        "url1_link": "https://www.chelenalp.ch",
+        "url2_text": "Online booking",
+        "url2_link": "http://www.alpenonline.ch/reservation/calendar?hut_id=55&lang=de",
+        "foto": "https://images.schweizmobil.ch/image/Chelenalphuette_SAC.JPG",
+        "foto_abstract": null,
+        "x_coordinate": 676629.6582187593,
+        "y_coordinate": 169429.92326050566,
+        "change_date": null
+    }
+}

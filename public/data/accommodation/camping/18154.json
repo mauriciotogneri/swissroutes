@@ -1,1 +1,45 @@
-{"type":"Feature","id":30549,"geometry":{"type":"Point","coordinates":[46.78664412926634,9.297133662391445]},"properties":{"id":18154,"land":"\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"","type":"Uebernachte","types":["campingsite"],"category":"all","language":"en","name":"Camping Carrera","stars_hotellerie":null,"stars_parahotellerie":null,"q_label":null,"hotelgroup":null,"street":"Carrera 11","zip":"7122","place":"Valendas","tel":"+41 (0)79 442 97 01","beds":null,"campingplaces":35,"pricefrom":14.0,"priceto":17.0,"price_week":null,"email":"info@camping-carrera.ch","url1_text":"www.camping-carrera.ch","url1_link":"https://www.camping-carrera.ch","url2_text":null,"url2_link":null,"foto":"https://images0.schweizmobil.ch/image-big/Valendas_Camping_2021_g.jpg","x_coordinate":741900.0006839435,"y_coordinate":183400.0010977076,"change_date":null}}
+{
+    "type": "Feature",
+    "id": 36868,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.786644340599764,
+            9.29712053125592
+        ]
+    },
+    "properties": {
+        "id": 18154,
+        "land": "\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"",
+        "type": "Uebernachte",
+        "types": [
+            "campingsite"
+        ],
+        "category": "all",
+        "language": "en",
+        "name": "Camping Carrera",
+        "stars_hotellerie": null,
+        "stars_parahotellerie": null,
+        "q_label": null,
+        "hotelgroup": null,
+        "street": "Carrera 11",
+        "zip": "7122",
+        "place": "Valendas",
+        "tel": "+41 (0)79 442 97 01",
+        "beds": null,
+        "campingplaces": 35,
+        "pricefrom": 14,
+        "priceto": 17,
+        "price_week": null,
+        "email": "info@camping-carrera.ch",
+        "url1_text": "www.camping-carrera.ch",
+        "url1_link": "https://www.camping-carrera.ch",
+        "url2_text": null,
+        "url2_link": null,
+        "foto": "https://images.schweizmobil.ch/image-big/Valendas_Camping_2021_g.jpg",
+        "foto_abstract": null,
+        "x_coordinate": 741899.7164093618,
+        "y_coordinate": 183400.2549241119,
+        "change_date": null
+    }
+}

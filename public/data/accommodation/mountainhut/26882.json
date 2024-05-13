@@ -1,1 +1,46 @@
-{"type":"Feature","id":31418,"geometry":{"type":"Point","coordinates":[47.03428812322821,9.250575816546895]},"properties":{"id":26882,"land":"\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"","type":"Uebernachte","types":["groupaccom","mountainhut"],"category":"all","language":"en","name":"Spitzmeilenhütte SAC","stars_hotellerie":null,"stars_parahotellerie":null,"q_label":null,"hotelgroup":"Schweizer Alpen-Club SAC","street":null,"zip":"8890","place":"Flums","tel":"+41 (0)81 733 22 32","beds":50,"campingplaces":null,"pricefrom":17.0,"priceto":75.0,"price_week":null,"email":"info@spitzmeilenhuette.ch","url1_text":"www.spitzmeilenhuette.ch","url1_link":"https://www.spitzmeilenhuette.ch","url2_text":null,"url2_link":null,"foto":"https://images0.schweizmobil.ch/image-big/SAC_Spitzmeilenhuette_2022_g.jpg","x_coordinate":737710.0006718263,"y_coordinate":210840.00110910728,"change_date":null}}
+{
+    "type": "Feature",
+    "id": 37698,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            47.034279134713465,
+            9.25057544644826
+        ]
+    },
+    "properties": {
+        "id": 26882,
+        "land": "\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"",
+        "type": "Uebernachte",
+        "types": [
+            "groupaccom",
+            "mountainhut"
+        ],
+        "category": "all",
+        "language": "en",
+        "name": "Spitzmeilenhütte SAC",
+        "stars_hotellerie": null,
+        "stars_parahotellerie": null,
+        "q_label": null,
+        "hotelgroup": "Schweizer Alpen-Club SAC",
+        "street": null,
+        "zip": "8890",
+        "place": "Flums",
+        "tel": "+41 (0)81 733 22 32",
+        "beds": 50,
+        "campingplaces": null,
+        "pricefrom": 17,
+        "priceto": 75,
+        "price_week": null,
+        "email": "info@spitzmeilenhuette.ch",
+        "url1_text": "www.spitzmeilenhuette.ch",
+        "url1_link": "https://www.spitzmeilenhuette.ch",
+        "url2_text": null,
+        "url2_link": null,
+        "foto": "https://images.schweizmobil.ch/image-big/SAC_Spitzmeilenhuette_2022_g.jpg",
+        "foto_abstract": null,
+        "x_coordinate": 737710.372277227,
+        "y_coordinate": 210839.91244402403,
+        "change_date": null
+    }
+}

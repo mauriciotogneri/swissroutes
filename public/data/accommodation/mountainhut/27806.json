@@ -1,1 +1,46 @@
-{"type":"Feature","id":31296,"geometry":{"type":"Point","coordinates":[46.42419867219399,7.9712624682068345]},"properties":{"id":27806,"land":"\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"","type":"Uebernachte","types":["groupaccom","mountainhut"],"category":"all","language":"en","name":"Oberaletschhütten SAC","stars_hotellerie":null,"stars_parahotellerie":null,"q_label":null,"hotelgroup":"Schweizer Alpen-Club SAC","street":null,"zip":"3904","place":"Naters","tel":"+41 (0)27 927 17 67","beds":58,"campingplaces":null,"pricefrom":65.0,"priceto":85.0,"price_week":null,"email":"info@oberaletsch.ch","url1_text":"www.oberaletsch.ch","url1_link":"https://www.oberaletsch.ch","url2_text":"Online booking","url2_link":"http://www.alpenonline.ch/reservation/calendar?hut_id=47&lang=de&header=yes","foto":"https://images0.schweizmobil.ch/image/Oberaletschhuette_SAC.JPG","x_coordinate":640944.0006133904,"y_coordinate":141567.00110970295,"change_date":null}}
+{
+    "type": "Feature",
+    "id": 37577,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.42418973773779,
+            7.971249386749664
+        ]
+    },
+    "properties": {
+        "id": 27806,
+        "land": "\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"",
+        "type": "Uebernachte",
+        "types": [
+            "groupaccom",
+            "mountainhut"
+        ],
+        "category": "all",
+        "language": "en",
+        "name": "Oberaletschhütten SAC",
+        "stars_hotellerie": null,
+        "stars_parahotellerie": null,
+        "q_label": null,
+        "hotelgroup": "Schweizer Alpen-Club SAC",
+        "street": null,
+        "zip": "3904",
+        "place": "Naters",
+        "tel": "+41 (0)27 927 17 67",
+        "beds": 58,
+        "campingplaces": null,
+        "pricefrom": 65,
+        "priceto": 85,
+        "price_week": null,
+        "email": "info@oberaletsch.ch",
+        "url1_text": "www.oberaletsch.ch",
+        "url1_link": "https://www.oberaletsch.ch",
+        "url2_text": "Online booking",
+        "url2_link": "http://www.alpenonline.ch/reservation/calendar?hut_id=47&lang=de&header=yes",
+        "foto": "https://images.schweizmobil.ch/image/Oberaletschhuette_SAC.JPG",
+        "foto_abstract": null,
+        "x_coordinate": 640943.6842927132,
+        "y_coordinate": 141566.51694213646,
+        "change_date": null
+    }
+}

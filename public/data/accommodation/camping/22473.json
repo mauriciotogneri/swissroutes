@@ -1,1 +1,45 @@
-{"type":"Feature","id":30547,"geometry":{"type":"Point","coordinates":[47.09361125804875,6.835992461698995]},"properties":{"id":22473,"land":"\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"","type":"Uebernachte","types":["campingsite"],"category":"all","language":"en","name":"Camping Bois-du-Couvent","stars_hotellerie":null,"stars_parahotellerie":null,"q_label":null,"hotelgroup":null,"street":"Bois-du-Couvent 108","zip":"2300","place":"La Chaux-de-Fonds","tel":"+41 (0)79 240 50 39","beds":null,"campingplaces":25,"pricefrom":20.0,"priceto":20.0,"price_week":null,"email":"campingboisducouvent@bluewin.ch","url1_text":"www.campingboisducouvent.ch","url1_link":"https://www.campingboisducouvent.ch","url2_text":null,"url2_link":null,"foto":"https://images0.schweizmobil.ch/image/La_Chaux_de_Fonds_Camping_Bois_du_Couvent.JPG","x_coordinate":554245.0005175966,"y_coordinate":216021.0011635031,"change_date":null}}
+{
+    "type": "Feature",
+    "id": 36867,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            47.093611186919254,
+            6.835979276911238
+        ]
+    },
+    "properties": {
+        "id": 22473,
+        "land": "\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"",
+        "type": "Uebernachte",
+        "types": [
+            "campingsite"
+        ],
+        "category": "all",
+        "language": "en",
+        "name": "Camping Bois-du-Couvent",
+        "stars_hotellerie": null,
+        "stars_parahotellerie": null,
+        "q_label": null,
+        "hotelgroup": null,
+        "street": "Bois-du-Couvent 108",
+        "zip": "2300",
+        "place": "La Chaux-de-Fonds",
+        "tel": "+41 (0)79 240 50 39",
+        "beds": null,
+        "campingplaces": 25,
+        "pricefrom": 20,
+        "priceto": 20,
+        "price_week": null,
+        "email": "campingboisducouvent@bluewin.ch",
+        "url1_text": "www.campingboisducouvent.ch",
+        "url1_link": "https://www.campingboisducouvent.ch",
+        "url2_text": null,
+        "url2_link": null,
+        "foto": "https://images.schweizmobil.ch/image/La_Chaux_de_Fonds_Camping_Bois_du_Couvent.JPG",
+        "foto_abstract": null,
+        "x_coordinate": 554244.9333610057,
+        "y_coordinate": 216021.48277827588,
+        "change_date": null
+    }
+}

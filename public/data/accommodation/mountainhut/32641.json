@@ -1,1 +1,45 @@
-{"type":"Feature","id":30633,"geometry":{"type":"Point","coordinates":[46.498473469567685,8.81402883962513]},"properties":{"id":32641,"land":"\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"","type":"Uebernachte","types":["mountainhut"],"category":"all","language":"en","name":"Capanna Prodör","stars_hotellerie":null,"stars_parahotellerie":null,"q_label":null,"hotelgroup":null,"street":"Carì","zip":"6760","place":"Faido","tel":"+41 (0)91 866 18 33","beds":42,"campingplaces":null,"pricefrom":15.0,"priceto":15.0,"price_week":null,"email":"riservazioni-prodor@utoepizzomolare.ch","url1_text":"www.utoepizzomolare.ch","url1_link":"https://www.utoepizzomolare.ch/presentazione-capanna.html","url2_text":"www.capanneti.ch","url2_link":"https://www.capanneti.ch/it/capanne/prodoer","foto":"https://images0.schweizmobil.ch/image/61_Prodör.jpg","x_coordinate":705580.0006653267,"y_coordinate":150610.00109555334,"change_date":null}}
+{
+    "type": "Feature",
+    "id": 36951,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.498473464136254,
+            8.8140288125255
+        ]
+    },
+    "properties": {
+        "id": 32641,
+        "land": "\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"",
+        "type": "Uebernachte",
+        "types": [
+            "mountainhut"
+        ],
+        "category": "all",
+        "language": "en",
+        "name": "Capanna Prodör",
+        "stars_hotellerie": null,
+        "stars_parahotellerie": null,
+        "q_label": null,
+        "hotelgroup": null,
+        "street": "Carì",
+        "zip": "6760",
+        "place": "Faido",
+        "tel": "+41 (0)91 866 18 33",
+        "beds": 42,
+        "campingplaces": null,
+        "pricefrom": 15,
+        "priceto": 15,
+        "price_week": null,
+        "email": "riservazioni-prodor@utoepizzomolare.ch",
+        "url1_text": "www.utoepizzomolare.ch",
+        "url1_link": "https://www.utoepizzomolare.ch/presentazione-capanna.html",
+        "url2_text": "www.capanneti.ch",
+        "url2_link": "https://www.capanneti.ch/it/capanne/prodoer",
+        "foto": "https://images.schweizmobil.ch/image/61_Prodör.jpg",
+        "foto_abstract": null,
+        "x_coordinate": 705580.0879965611,
+        "y_coordinate": 150610.12841501803,
+        "change_date": null
+    }
+}

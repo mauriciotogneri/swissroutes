@@ -1,1 +1,46 @@
-{"type":"Feature","id":31505,"geometry":{"type":"Point","coordinates":[46.50004893888349,9.093934160327814]},"properties":{"id":27765,"land":"\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"","type":"Uebernachte","types":["groupaccom","mountainhut"],"category":"all","language":"en","name":"Zapporthütte SAC","stars_hotellerie":null,"stars_parahotellerie":null,"q_label":null,"hotelgroup":"Schweizer Alpen-Club SAC","street":null,"zip":"7438","place":"Hinterrhein","tel":"+41 (0)81 664 14 96","beds":30,"campingplaces":null,"pricefrom":65.0,"priceto":85.0,"price_week":null,"email":"semsem@ticino.com","url1_text":"www.zapport.ch","url1_link":"https://www.zapport.ch","url2_text":null,"url2_link":null,"foto":"https://images0.schweizmobil.ch/image/Zapporthuette_SAC.jpg","x_coordinate":727060.0006824617,"y_coordinate":151200.00108933248,"change_date":null}}
+{
+    "type": "Feature",
+    "id": 37791,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.50004012581589,
+            9.093920911877795
+        ]
+    },
+    "properties": {
+        "id": 27765,
+        "land": "\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"",
+        "type": "Uebernachte",
+        "types": [
+            "groupaccom",
+            "mountainhut"
+        ],
+        "category": "all",
+        "language": "en",
+        "name": "Zapporthütte SAC",
+        "stars_hotellerie": null,
+        "stars_parahotellerie": null,
+        "q_label": null,
+        "hotelgroup": "Schweizer Alpen-Club SAC",
+        "street": null,
+        "zip": "7438",
+        "place": "Hinterrhein",
+        "tel": "+41 (0)81 664 14 96",
+        "beds": 30,
+        "campingplaces": null,
+        "pricefrom": 65,
+        "priceto": 85,
+        "price_week": null,
+        "email": "semsem@ticino.com",
+        "url1_text": "www.zapport.ch",
+        "url1_link": "https://www.zapport.ch",
+        "url2_text": null,
+        "url2_link": null,
+        "foto": "https://images.schweizmobil.ch/image/Zapporthuette_SAC.jpg",
+        "foto_abstract": null,
+        "x_coordinate": 727059.6393975737,
+        "y_coordinate": 151199.623566804,
+        "change_date": null
+    }
+}

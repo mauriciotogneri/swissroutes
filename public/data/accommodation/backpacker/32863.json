@@ -1,1 +1,46 @@
-{"type":"Feature","id":30762,"geometry":{"type":"Point","coordinates":[47.54965489582505,8.162983921886948]},"properties":{"id":32863,"land":"\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"","type":"Uebernachte","types":["backpacker","groupaccom"],"category":"all","language":"en","name":"Gästehaus Flösser im alten Schulhaus","stars_hotellerie":null,"stars_parahotellerie":null,"q_label":null,"hotelgroup":null,"street":"Schulhausstrasse 93","zip":"5277","place":"Hottwil","tel":"+41 (0)62 875 11 45","beds":45,"campingplaces":null,"pricefrom":55.0,"priceto":65.0,"price_week":null,"email":"info@baeren-hottwil.ch","url1_text":"www.baeren-hottwil.ch","url1_link":"https://www.baeren-hottwil.ch","url2_text":null,"url2_link":null,"foto":"https://images0.schweizmobil.ch/image-big/Hottwil_Gaestehaus_Floesser_g.jpg","x_coordinate":654527.000589126,"y_coordinate":266800.0011535164,"change_date":null}}
+{
+    "type": "Feature",
+    "id": 37074,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            47.54965499421994,
+            8.162970644042625
+        ]
+    },
+    "properties": {
+        "id": 32863,
+        "land": "\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"",
+        "type": "Uebernachte",
+        "types": [
+            "backpacker",
+            "groupaccom"
+        ],
+        "category": "all",
+        "language": "en",
+        "name": "Gästehaus Flösser im alten Schulhaus",
+        "stars_hotellerie": null,
+        "stars_parahotellerie": null,
+        "q_label": null,
+        "hotelgroup": null,
+        "street": "Schulhausstrasse 93",
+        "zip": "5277",
+        "place": "Hottwil",
+        "tel": "+41 (0)62 875 11 45",
+        "beds": 45,
+        "campingplaces": null,
+        "pricefrom": 55,
+        "priceto": 65,
+        "price_week": null,
+        "email": "info@baeren-hottwil.ch",
+        "url1_text": "www.baeren-hottwil.ch",
+        "url1_link": "https://www.baeren-hottwil.ch",
+        "url2_text": null,
+        "url2_link": null,
+        "foto": "https://images.schweizmobil.ch/image-big/Hottwil_Gaestehaus_Floesser_g.jpg",
+        "foto_abstract": null,
+        "x_coordinate": 654526.8682972181,
+        "y_coordinate": 266800.19800644566,
+        "change_date": null
+    }
+}

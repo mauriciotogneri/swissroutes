@@ -1,0 +1,45 @@
+{
+    "type": "Feature",
+    "id": 36983,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.41569408633981,
+            9.637012687589852
+        ]
+    },
+    "properties": {
+        "id": 34056,
+        "land": "\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"",
+        "type": "Uebernachte",
+        "types": [
+            "mountainhut"
+        ],
+        "category": "all",
+        "language": "en",
+        "name": "Cesa da Sett / Septimerhütte",
+        "stars_hotellerie": null,
+        "stars_parahotellerie": null,
+        "q_label": null,
+        "hotelgroup": null,
+        "street": "Via Sett",
+        "zip": "7457",
+        "place": "Bivio",
+        "tel": "+41 (0)81 684 19 23",
+        "beds": 16,
+        "campingplaces": null,
+        "pricefrom": 90,
+        "priceto": 90,
+        "price_week": null,
+        "email": "mail@casa-da-sett.ch",
+        "url1_text": "www.cesa-da-sett.ch",
+        "url1_link": "https://www.cesa-da-sett.ch",
+        "url2_text": null,
+        "url2_link": null,
+        "foto": "https://images.schweizmobil.ch/image-big/Bivio_Cesa_Da_Sett_g.jpg",
+        "foto_abstract": null,
+        "x_coordinate": 769000.205945434,
+        "y_coordinate": 142850.47204804426,
+        "change_date": null
+    }
+}

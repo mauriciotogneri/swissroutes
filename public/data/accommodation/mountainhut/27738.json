@@ -1,1 +1,46 @@
-{"type":"Feature","id":30540,"geometry":{"type":"Point","coordinates":[46.74246783236791,8.814231345443808]},"properties":{"id":27738,"land":"\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"","type":"Uebernachte","types":["groupaccom","mountainhut"],"category":"all","language":"en","name":"Camona da Cavardiras CAS","stars_hotellerie":null,"stars_parahotellerie":null,"q_label":null,"hotelgroup":"Schweizer Alpen-Club SAC","street":null,"zip":"7180","place":"Disentis/Mustér","tel":"+41 (0)81 947 57 47","beds":70,"campingplaces":null,"pricefrom":65.0,"priceto":85.0,"price_week":null,"email":"info@cavardiras.ch","url1_text":"www.cavardiras.ch","url1_link":"https://www.cavardiras.ch","url2_text":null,"url2_link":null,"foto":"https://images0.schweizmobil.ch/image/Camona_da_Cavardiras_CAS.jpg","x_coordinate":705120.0006567831,"y_coordinate":177730.00110698678,"change_date":null}}
+{
+    "type": "Feature",
+    "id": 36860,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.74245899294022,
+            8.814217990504481
+        ]
+    },
+    "properties": {
+        "id": 27738,
+        "land": "\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"",
+        "type": "Uebernachte",
+        "types": [
+            "groupaccom",
+            "mountainhut"
+        ],
+        "category": "all",
+        "language": "en",
+        "name": "Camona da Cavardiras CAS",
+        "stars_hotellerie": null,
+        "stars_parahotellerie": null,
+        "q_label": null,
+        "hotelgroup": "Schweizer Alpen-Club SAC",
+        "street": null,
+        "zip": "7180",
+        "place": "Disentis/Mustér",
+        "tel": "+41 (0)81 947 57 47",
+        "beds": 70,
+        "campingplaces": null,
+        "pricefrom": 65,
+        "priceto": 85,
+        "price_week": null,
+        "email": "info@cavardiras.ch",
+        "url1_text": "www.cavardiras.ch",
+        "url1_link": "https://www.cavardiras.ch",
+        "url2_text": null,
+        "url2_link": null,
+        "foto": "https://images.schweizmobil.ch/image/Camona_da_Cavardiras_CAS.jpg",
+        "foto_abstract": null,
+        "x_coordinate": 705119.9166021821,
+        "y_coordinate": 177729.653080098,
+        "change_date": null
+    }
+}

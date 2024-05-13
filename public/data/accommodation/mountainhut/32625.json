@@ -1,1 +1,45 @@
-{"type":"Feature","id":30613,"geometry":{"type":"Point","coordinates":[46.08684894851663,8.981966990062995]},"properties":{"id":32625,"land":"\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"","type":"Uebernachte","types":["mountainhut"],"category":"all","language":"en","name":"Capanna Ginestra","stars_hotellerie":null,"stars_parahotellerie":null,"q_label":null,"hotelgroup":null,"street":"Capriasca","zip":"6982","place":"Agno","tel":"+41 (0)78 864 39 08","beds":26,"campingplaces":null,"pricefrom":20.0,"priceto":20.0,"price_week":null,"email":"ciuffoverde@gmail.ch","url1_text":"www.amicidellanatura-lugano.ch","url1_link":"https://www.amicidellanatura-lugano.ch/capanna-ginestra/","url2_text":"www.capanneti.ch","url2_link":"https://www.capanneti.ch/it/capanne/ginestra","foto":"https://images0.schweizmobil.ch/image-big/40_Ginestra_g.jpg","x_coordinate":719370.000690084,"y_coordinate":105100.00107064373,"change_date":null}}
+{
+    "type": "Feature",
+    "id": 36931,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.08683992860594,
+            8.981966753534433
+        ]
+    },
+    "properties": {
+        "id": 32625,
+        "land": "\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"",
+        "type": "Uebernachte",
+        "types": [
+            "mountainhut"
+        ],
+        "category": "all",
+        "language": "en",
+        "name": "Capanna Ginestra",
+        "stars_hotellerie": null,
+        "stars_parahotellerie": null,
+        "q_label": null,
+        "hotelgroup": null,
+        "street": "Capriasca",
+        "zip": "6982",
+        "place": "Agno",
+        "tel": "+41 (0)78 864 39 08",
+        "beds": 26,
+        "campingplaces": null,
+        "pricefrom": 20,
+        "priceto": 20,
+        "price_week": null,
+        "email": "ciuffoverde@gmail.ch",
+        "url1_text": "www.amicidellanatura-lugano.ch",
+        "url1_link": "https://www.amicidellanatura-lugano.ch/capanna-ginestra/",
+        "url2_text": "www.capanneti.ch",
+        "url2_link": "https://www.capanneti.ch/it/capanne/ginestra",
+        "foto": "https://images.schweizmobil.ch/image-big/40_Ginestra_g.jpg",
+        "foto_abstract": null,
+        "x_coordinate": 719370.3628864016,
+        "y_coordinate": 105099.84090893914,
+        "change_date": null
+    }
+}

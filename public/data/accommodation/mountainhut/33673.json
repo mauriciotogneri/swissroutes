@@ -1,1 +1,46 @@
-{"type":"Feature","id":31380,"geometry":{"type":"Point","coordinates":[46.57005409731692,7.862764461445388]},"properties":{"id":33673,"land":"\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"","type":"Uebernachte","types":["groupaccom","mountainhut"],"category":"all","language":"en","name":"Schilthornhütte","stars_hotellerie":null,"stars_parahotellerie":null,"q_label":null,"hotelgroup":null,"street":null,"zip":"3825","place":"Mürren","tel":"+41 (0)33 855 50 53","beds":22,"campingplaces":null,"pricefrom":72.0,"priceto":72.0,"price_week":null,"email":"info@schilthornhuette.com","url1_text":"www.schilthornhuette.com","url1_link":"https://www.schilthornhuette.com","url2_text":null,"url2_link":null,"foto":"https://images0.schweizmobil.ch/image-big/Muerren_Schilthornhuette_g.jpg","x_coordinate":632516.0006017293,"y_coordinate":157730.00111924106,"change_date":null}}
+{
+    "type": "Feature",
+    "id": 37660,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.570054106476306,
+            7.8627644754774035
+        ]
+    },
+    "properties": {
+        "id": 33673,
+        "land": "\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"",
+        "type": "Uebernachte",
+        "types": [
+            "groupaccom",
+            "mountainhut"
+        ],
+        "category": "all",
+        "language": "en",
+        "name": "Schilthornhütte",
+        "stars_hotellerie": null,
+        "stars_parahotellerie": null,
+        "q_label": null,
+        "hotelgroup": null,
+        "street": null,
+        "zip": "3825",
+        "place": "Mürren",
+        "tel": "+41 (0)33 855 50 53",
+        "beds": 22,
+        "campingplaces": null,
+        "pricefrom": 72,
+        "priceto": 72,
+        "price_week": null,
+        "email": "info@schilthornhuette.com",
+        "url1_text": "www.schilthornhuette.com",
+        "url1_link": "https://www.schilthornhuette.com",
+        "url2_text": null,
+        "url2_link": null,
+        "foto": "https://images.schweizmobil.ch/image-big/Muerren_Schilthornhuette_g.jpg",
+        "foto_abstract": null,
+        "x_coordinate": 632516.3606517572,
+        "y_coordinate": 157730.07816133744,
+        "change_date": null
+    }
+}

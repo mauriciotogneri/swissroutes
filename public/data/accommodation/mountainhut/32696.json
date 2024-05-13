@@ -1,1 +1,45 @@
-{"type":"Feature","id":30570,"geometry":{"type":"Point","coordinates":[46.49542452772578,9.007675740508732]},"properties":{"id":32696,"land":"\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"","type":"Uebernachte","types":["mountainhut"],"category":"all","language":"en","name":"Capanna Adula","stars_hotellerie":null,"stars_parahotellerie":null,"q_label":null,"hotelgroup":null,"street":"Alta Val Carassino","zip":"6719","place":"Olivone","tel":"+41 (0)91 872 16 75","beds":54,"campingplaces":null,"pricefrom":21.0,"priceto":21.0,"price_week":null,"email":"adula@utoe.ch","url1_text":"www.adula-utoe.ch","url1_link":"https://www.adula-utoe.ch","url2_text":"https://www.capanneti.ch","url2_link":"https://www.capanneti.ch/it/capanne/adula-utoe","foto":"https://images0.schweizmobil.ch/image-big/02_Adula_UTOE_g.jpg","x_coordinate":720450.000677374,"y_coordinate":150550.00109106774,"change_date":null}}
+{
+    "type": "Feature",
+    "id": 36888,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.495424517248836,
+            9.007675772975237
+        ]
+    },
+    "properties": {
+        "id": 32696,
+        "land": "\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"",
+        "type": "Uebernachte",
+        "types": [
+            "mountainhut"
+        ],
+        "category": "all",
+        "language": "en",
+        "name": "Capanna Adula",
+        "stars_hotellerie": null,
+        "stars_parahotellerie": null,
+        "q_label": null,
+        "hotelgroup": null,
+        "street": "Alta Val Carassino",
+        "zip": "6719",
+        "place": "Olivone",
+        "tel": "+41 (0)91 872 16 75",
+        "beds": 54,
+        "campingplaces": null,
+        "pricefrom": 21,
+        "priceto": 21,
+        "price_week": null,
+        "email": "adula@utoe.ch",
+        "url1_text": "www.adula-utoe.ch",
+        "url1_link": "https://www.adula-utoe.ch",
+        "url2_text": "https://www.capanneti.ch",
+        "url2_link": "https://www.capanneti.ch/it/capanne/adula-utoe",
+        "foto": "https://images.schweizmobil.ch/image-big/02_Adula_UTOE_g.jpg",
+        "foto_abstract": null,
+        "x_coordinate": 720450.2958619383,
+        "y_coordinate": 150550.09083909728,
+        "change_date": null
+    }
+}

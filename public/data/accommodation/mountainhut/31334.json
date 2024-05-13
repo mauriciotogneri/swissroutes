@@ -1,1 +1,45 @@
-{"type":"Feature","id":30620,"geometry":{"type":"Point","coordinates":[46.09999436153931,9.013819224897858]},"properties":{"id":31334,"land":"\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"","type":"Uebernachte","types":["mountainhut"],"category":"all","language":"en","name":"Capanna Monte Bar – CAS Ticino","stars_hotellerie":null,"stars_parahotellerie":null,"q_label":null,"hotelgroup":"Schweizer Alpen-Club SAC","street":"Campestro","zip":"6950","place":"Tesserete","tel":"+41 (0)91 966 33 22","beds":48,"campingplaces":null,"pricefrom":28.0,"priceto":37.0,"price_week":null,"email":"info@capannamontebar.ch","url1_text":"www.capannamontebar.ch","url1_link":"https://www.capannamontebar.ch","url2_text":null,"url2_link":null,"foto":"https://images0.schweizmobil.ch/image-small/Tesserete_Capanna_Monte_Bar.jpg","x_coordinate":721804.0006916403,"y_coordinate":106610.00107066637,"change_date":null}}
+{
+    "type": "Feature",
+    "id": 36938,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.0999943869516,
+            9.013819239248564
+        ]
+    },
+    "properties": {
+        "id": 31334,
+        "land": "\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"",
+        "type": "Uebernachte",
+        "types": [
+            "mountainhut"
+        ],
+        "category": "all",
+        "language": "en",
+        "name": "Capanna Monte Bar – CAS Ticino",
+        "stars_hotellerie": null,
+        "stars_parahotellerie": null,
+        "q_label": null,
+        "hotelgroup": "Schweizer Alpen-Club SAC",
+        "street": "Campestro",
+        "zip": "6950",
+        "place": "Tesserete",
+        "tel": "+41 (0)91 966 33 22",
+        "beds": 48,
+        "campingplaces": null,
+        "pricefrom": 28,
+        "priceto": 37,
+        "price_week": null,
+        "email": "info@capannamontebar.ch",
+        "url1_text": "www.capannamontebar.ch",
+        "url1_link": "https://www.capannamontebar.ch",
+        "url2_text": null,
+        "url2_link": null,
+        "foto": "https://images.schweizmobil.ch/image-small/Tesserete_Capanna_Monte_Bar.jpg",
+        "foto_abstract": null,
+        "x_coordinate": 721804.1594135043,
+        "y_coordinate": 106610.3470565391,
+        "change_date": null
+    }
+}

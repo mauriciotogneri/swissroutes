@@ -1,1 +1,45 @@
-{"type":"Feature","id":31338,"geometry":{"type":"Point","coordinates":[46.179275974588634,6.9470485150469266]},"properties":{"id":30967,"land":"\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"","type":"Uebernachte","types":["mountainhut"],"category":"all","language":"en","name":"Refuge de Chalin CAS (unbewartet)","stars_hotellerie":null,"stars_parahotellerie":null,"q_label":null,"hotelgroup":"Schweizer Alpen-Club SAC","street":null,"zip":"1873","place":"Val-d'Illiez","tel":null,"beds":8,"campingplaces":null,"pricefrom":10.0,"priceto":20.0,"price_week":null,"email":null,"url1_text":"www.cas-chaussy.ch","url1_link":"https://www.cas-chaussy.ch","url2_text":null,"url2_link":null,"foto":"https://images0.schweizmobil.ch/image/Val_d_Illiez_SAC_Refuge_de_Chalin.jpg","x_coordinate":562040.000548794,"y_coordinate":114320.00111588443,"change_date":null}}
+{
+    "type": "Feature",
+    "id": 37616,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.17926692725398,
+            6.947035650633399
+        ]
+    },
+    "properties": {
+        "id": 30967,
+        "land": "\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"",
+        "type": "Uebernachte",
+        "types": [
+            "mountainhut"
+        ],
+        "category": "all",
+        "language": "en",
+        "name": "Refuge de Chalin CAS (unbewartet)",
+        "stars_hotellerie": null,
+        "stars_parahotellerie": null,
+        "q_label": null,
+        "hotelgroup": "Schweizer Alpen-Club SAC",
+        "street": null,
+        "zip": "1873",
+        "place": "Val-d'Illiez",
+        "tel": null,
+        "beds": 8,
+        "campingplaces": null,
+        "pricefrom": 10,
+        "priceto": 20,
+        "price_week": null,
+        "email": null,
+        "url1_text": "www.cas-chaussy.ch",
+        "url1_link": "https://www.cas-chaussy.ch",
+        "url2_text": null,
+        "url2_link": null,
+        "foto": "https://images.schweizmobil.ch/image/Val_d_Illiez_SAC_Refuge_de_Chalin.jpg",
+        "foto_abstract": null,
+        "x_coordinate": 562039.8209176232,
+        "y_coordinate": 114319.67110588298,
+        "change_date": null
+    }
+}

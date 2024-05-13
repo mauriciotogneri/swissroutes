@@ -1,0 +1,46 @@
+{
+    "type": "Feature",
+    "id": 37642,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.49395271857267,
+            8.782049573879391
+        ]
+    },
+    "properties": {
+        "id": 34276,
+        "land": "\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"",
+        "type": "Uebernachte",
+        "types": [
+            "hotel",
+            "backpacker"
+        ],
+        "category": "all",
+        "language": "en",
+        "name": "Ristorante Lodge Marti",
+        "stars_hotellerie": null,
+        "stars_parahotellerie": null,
+        "q_label": null,
+        "hotelgroup": null,
+        "street": "Canton da Scima 14",
+        "zip": "6763",
+        "place": "Osco",
+        "tel": "+41 (0)91 866 11 89",
+        "beds": 19,
+        "campingplaces": null,
+        "pricefrom": 60,
+        "priceto": 60,
+        "price_week": null,
+        "email": "ristorante.marti@outlook.com",
+        "url1_text": "www.ristorantemarti.ch",
+        "url1_link": "https://www.ristorantemarti.ch",
+        "url2_text": null,
+        "url2_link": null,
+        "foto": "https://images.schweizmobil.ch/image-big/Osco_Ristorante_Marti_g.jpg",
+        "foto_abstract": null,
+        "x_coordinate": 703134.7984518083,
+        "y_coordinate": 150065.2133998235,
+        "change_date": null
+    }
+}

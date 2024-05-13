@@ -1,1 +1,46 @@
-{"type":"Feature","id":30528,"geometry":{"type":"Point","coordinates":[46.011048435577734,7.4177225813267444]},"properties":{"id":27798,"land":"\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"","type":"Uebernachte","types":["groupaccom","mountainhut"],"category":"all","language":"en","name":"Cabane des Dix CAS","stars_hotellerie":null,"stars_parahotellerie":null,"q_label":null,"hotelgroup":"Schweizer Alpen-Club SAC","street":null,"zip":"1987","place":"Pralong","tel":"+41 (0)27 281 15 23","beds":115,"campingplaces":null,"pricefrom":65.0,"priceto":85.0,"price_week":null,"email":"cabanedesdix@gmail.com","url1_text":"www.cabanedesdix.ch","url1_link":"https://www.cabanedesdix.ch","url2_text":"Online booking","url2_link":"http://www.alpenonline.ch/reservation/calendar?header=yes&hut_id=10&lang=de","foto":"https://images0.schweizmobil.ch/image/Cabane_des_Dix_CAS.jpg","x_coordinate":598380.000586975,"y_coordinate":95500.00109770364,"change_date":null}}
+{
+    "type": "Feature",
+    "id": 36847,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.011048461597085,
+            7.41770967098564
+        ]
+    },
+    "properties": {
+        "id": 27798,
+        "land": "\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"",
+        "type": "Uebernachte",
+        "types": [
+            "groupaccom",
+            "mountainhut"
+        ],
+        "category": "all",
+        "language": "en",
+        "name": "Cabane des Dix CAS",
+        "stars_hotellerie": null,
+        "stars_parahotellerie": null,
+        "q_label": null,
+        "hotelgroup": "Schweizer Alpen-Club SAC",
+        "street": null,
+        "zip": "1987",
+        "place": "Pralong",
+        "tel": "+41 (0)27 281 15 23",
+        "beds": 115,
+        "campingplaces": null,
+        "pricefrom": 65,
+        "priceto": 85,
+        "price_week": null,
+        "email": "cabanedesdix@gmail.com",
+        "url1_text": "www.cabanedesdix.ch",
+        "url1_link": "https://www.cabanedesdix.ch",
+        "url2_text": "Online booking",
+        "url2_link": "http://www.alpenonline.ch/reservation/calendar?header=yes&hut_id=10&lang=de",
+        "foto": "https://images.schweizmobil.ch/image/Cabane_des_Dix_CAS.jpg",
+        "foto_abstract": null,
+        "x_coordinate": 598379.6642807013,
+        "y_coordinate": 95500.01546173105,
+        "change_date": null
+    }
+}

@@ -1,1 +1,45 @@
-{"type":"Feature","id":30638,"geometry":{"type":"Point","coordinates":[46.220908317748645,8.562434336211092]},"properties":{"id":32645,"land":"\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"","type":"Uebernachte","types":["mountainhut"],"category":"all","language":"en","name":"Capanna Salei","stars_hotellerie":null,"stars_parahotellerie":null,"q_label":null,"hotelgroup":null,"street":"Alpe Salei","zip":"6663","place":"Comologno","tel":"+41 (0)91 797 20 32","beds":20,"campingplaces":null,"pricefrom":25.0,"priceto":25.0,"price_week":null,"email":"alpesalei@gmail.com","url1_text":"www.alpesalei.ch","url1_link":"https://www.alpesalei.ch/","url2_text":"www.capanneti.ch","url2_link":"https://www.capanneti.ch/it/capanne/salei-alpe","foto":"https://images0.schweizmobil.ch/image-big/65_Salei_g.jpg","x_coordinate":686710.0006587217,"y_coordinate":119450.00108683227,"change_date":null}}
+{
+    "type": "Feature",
+    "id": 36956,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.2208994523651,
+            8.562421210883286
+        ]
+    },
+    "properties": {
+        "id": 32645,
+        "land": "\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"",
+        "type": "Uebernachte",
+        "types": [
+            "mountainhut"
+        ],
+        "category": "all",
+        "language": "en",
+        "name": "Capanna Salei",
+        "stars_hotellerie": null,
+        "stars_parahotellerie": null,
+        "q_label": null,
+        "hotelgroup": null,
+        "street": "Alpe Salei",
+        "zip": "6663",
+        "place": "Comologno",
+        "tel": "+41 (0)91 797 20 32",
+        "beds": 20,
+        "campingplaces": null,
+        "pricefrom": 25,
+        "priceto": 25,
+        "price_week": null,
+        "email": "alpesalei@gmail.com",
+        "url1_text": "www.alpesalei.ch",
+        "url1_link": "https://www.alpesalei.ch/",
+        "url2_text": "www.capanneti.ch",
+        "url2_link": "https://www.capanneti.ch/it/capanne/salei-alpe",
+        "foto": "https://images.schweizmobil.ch/image-big/65_Salei_g.jpg",
+        "foto_abstract": null,
+        "x_coordinate": 686709.7116400575,
+        "y_coordinate": 119449.59688801276,
+        "change_date": null
+    }
+}

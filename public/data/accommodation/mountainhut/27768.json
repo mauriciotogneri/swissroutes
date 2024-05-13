@@ -1,1 +1,46 @@
-{"type":"Feature","id":30816,"geometry":{"type":"Point","coordinates":[46.91688822803951,8.87502187126784]},"properties":{"id":27768,"land":"\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"","type":"Uebernachte","types":["groupaccom","mountainhut"],"category":"all","language":"en","name":"Glattalphütte SAC","stars_hotellerie":null,"stars_parahotellerie":null,"q_label":null,"hotelgroup":"Schweizer Alpen-Club SAC","street":null,"zip":"6436","place":"Bisisthal","tel":"+41 (0)41 830 19 39","beds":49,"campingplaces":null,"pricefrom":65.0,"priceto":85.0,"price_week":null,"email":"sacglattalp@bluewin.ch","url1_text":"www.glattalphuette.ch","url1_link":"https://www.glattalphuette.ch","url2_text":"Online booking","url2_link":"http://www.alpenonline.ch/reservation/calendar?hut_id=39&lang=de","foto":"https://images0.schweizmobil.ch/image/Glattalphuette_SAC.jpg","x_coordinate":709410.0006542136,"y_coordinate":197200.001113211,"change_date":null}}
+{
+    "type": "Feature",
+    "id": 37123,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.91687939848766,
+            8.875008468250055
+        ]
+    },
+    "properties": {
+        "id": 27768,
+        "land": "\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"",
+        "type": "Uebernachte",
+        "types": [
+            "groupaccom",
+            "mountainhut"
+        ],
+        "category": "all",
+        "language": "en",
+        "name": "Glattalphütte SAC",
+        "stars_hotellerie": null,
+        "stars_parahotellerie": null,
+        "q_label": null,
+        "hotelgroup": "Schweizer Alpen-Club SAC",
+        "street": null,
+        "zip": "6436",
+        "place": "Bisisthal",
+        "tel": "+41 (0)41 830 19 39",
+        "beds": 49,
+        "campingplaces": null,
+        "pricefrom": 65,
+        "priceto": 85,
+        "price_week": null,
+        "email": "sacglattalp@bluewin.ch",
+        "url1_text": "www.glattalphuette.ch",
+        "url1_link": "https://www.glattalphuette.ch",
+        "url2_text": "Online booking",
+        "url2_link": "http://www.alpenonline.ch/reservation/calendar?hut_id=39&lang=de",
+        "foto": "https://images.schweizmobil.ch/image/Glattalphuette_SAC.jpg",
+        "foto_abstract": null,
+        "x_coordinate": 709409.8806824284,
+        "y_coordinate": 197199.68133338468,
+        "change_date": null
+    }
+}

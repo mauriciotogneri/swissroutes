@@ -1,0 +1,46 @@
+{
+    "type": "Feature",
+    "id": 36637,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.971929408811135,
+            8.41938812752008
+        ]
+    },
+    "properties": {
+        "id": 34271,
+        "land": "\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"",
+        "type": "Uebernachte",
+        "types": [
+            "hotel",
+            "backpacker"
+        ],
+        "category": "all",
+        "language": "en",
+        "name": "Alpina Einhorn",
+        "stars_hotellerie": null,
+        "stars_parahotellerie": null,
+        "q_label": null,
+        "hotelgroup": null,
+        "street": "Ennerbergstrasse 9",
+        "zip": "6374",
+        "place": "Buochs",
+        "tel": "+41 (0)79 519 67 44",
+        "beds": 50,
+        "campingplaces": null,
+        "pricefrom": 59,
+        "priceto": 75,
+        "price_week": null,
+        "email": "info@alpina-einhorn.ch",
+        "url1_text": "www.alpina-einhorn.ch",
+        "url1_link": "https://www.alpina-einhorn.ch",
+        "url2_text": null,
+        "url2_link": null,
+        "foto": "https://images.schweizmobil.ch/image-big/Buochs_Alpina_Einhorn_g.jpg",
+        "foto_abstract": null,
+        "x_coordinate": 674630.2073937888,
+        "y_coordinate": 202784.59666792915,
+        "change_date": null
+    }
+}

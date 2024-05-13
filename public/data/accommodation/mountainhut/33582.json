@@ -1,1 +1,46 @@
-{"type":"Feature","id":30311,"geometry":{"type":"Point","coordinates":[46.85228064638946,8.32720138223262]},"properties":{"id":33582,"land":"\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"","type":"Uebernachte","types":["groupaccom","mountainhut"],"category":"all","language":"en","name":"Alpbetrieb Lachen","stars_hotellerie":null,"stars_parahotellerie":null,"q_label":null,"hotelgroup":null,"street":"Melchtalstrasse 30","zip":"6064","place":"Kerns","tel":"+41 (0)79 708 67 82","beds":12,"campingplaces":null,"pricefrom":35.0,"priceto":35.0,"price_week":null,"email":"alp.oberlachen@bluewin.ch","url1_text":"www.erlebnisbauernhofweid.ch","url1_link":"https://www.erlebnisbauernhofweid.ch/angebot/uebernachtung/alp-oberlachen/","url2_text":null,"url2_link":null,"foto":"https://images0.schweizmobil.ch/image-big/Kerns_Obere_Lachen_g.jpg","x_coordinate":667766.0006228253,"y_coordinate":189400.00112271798,"change_date":null}}
+{
+    "type": "Feature",
+    "id": 37751,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.8522807457634,
+            8.327188227651042
+        ]
+    },
+    "properties": {
+        "id": 33582,
+        "land": "\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"",
+        "type": "Uebernachte",
+        "types": [
+            "groupaccom",
+            "mountainhut"
+        ],
+        "category": "all",
+        "language": "en",
+        "name": "Treffpunkt Alp Oberlachen",
+        "stars_hotellerie": null,
+        "stars_parahotellerie": null,
+        "q_label": null,
+        "hotelgroup": null,
+        "street": "Familie Spichtig",
+        "zip": "6067",
+        "place": "Melchtal",
+        "tel": "+41 (0)79 708 67 82",
+        "beds": 12,
+        "campingplaces": null,
+        "pricefrom": 42,
+        "priceto": 42,
+        "price_week": null,
+        "email": "alp.oberlachen@bluewin.ch",
+        "url1_text": "www.erlebnisbauernhofweid.ch",
+        "url1_link": "https://www.erlebnisbauernhofweid.ch/angebot/uebernachtung-alp-oberlachen-melchtal/",
+        "url2_text": null,
+        "url2_link": null,
+        "foto": "https://images.schweizmobil.ch/image-big/Kerns_Obere_Lachen_g.jpg",
+        "foto_abstract": null,
+        "x_coordinate": 667765.9620276096,
+        "y_coordinate": 189400.41305896,
+        "change_date": null
+    }
+}

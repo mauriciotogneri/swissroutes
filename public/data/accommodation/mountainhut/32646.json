@@ -1,1 +1,45 @@
-{"type":"Feature","id":30640,"geometry":{"type":"Point","coordinates":[46.08650073492264,9.08915183847691]},"properties":{"id":32646,"land":"\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"","type":"Uebernachte","types":["mountainhut"],"category":"all","language":"en","name":"Capanna San Lucio","stars_hotellerie":null,"stars_parahotellerie":null,"q_label":null,"hotelgroup":null,"street":"Val Colla","zip":"6900","place":"Lugano","tel":"+41 (0)79 886 73 30","beds":22,"campingplaces":null,"pricefrom":23.0,"priceto":23.0,"price_week":null,"email":"info@capannasanlucio.com","url1_text":"www.capannasanlucio.ch","url1_link":"https://www.capannasanlucio.ch","url2_text":"www.capanneti.ch","url2_link":"https://www.capanneti.ch/it/capanne/san-lucio","foto":"https://images0.schweizmobil.ch/image/66_San_Lucio_s.jpg","x_coordinate":727660.0006968398,"y_coordinate":105230.00106829006,"change_date":null}}
+{
+    "type": "Feature",
+    "id": 36958,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.08649192629835,
+            9.0891385601507
+        ]
+    },
+    "properties": {
+        "id": 32646,
+        "land": "\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"",
+        "type": "Uebernachte",
+        "types": [
+            "mountainhut"
+        ],
+        "category": "all",
+        "language": "en",
+        "name": "Capanna San Lucio",
+        "stars_hotellerie": null,
+        "stars_parahotellerie": null,
+        "q_label": null,
+        "hotelgroup": null,
+        "street": "Val Colla",
+        "zip": "6900",
+        "place": "Lugano",
+        "tel": "+41 (0)79 886 73 30",
+        "beds": 22,
+        "campingplaces": null,
+        "pricefrom": 23,
+        "priceto": 23,
+        "price_week": null,
+        "email": "info@capannasanlucio.com",
+        "url1_text": "www.capannasanlucio.ch",
+        "url1_link": "https://www.capannasanlucio.ch",
+        "url2_text": "www.capanneti.ch",
+        "url2_link": "https://www.capanneti.ch/it/capanne/san-lucio",
+        "foto": "https://images.schweizmobil.ch/image/66_San_Lucio_s.jpg",
+        "foto_abstract": null,
+        "x_coordinate": 727659.9607678287,
+        "y_coordinate": 105229.70212904485,
+        "change_date": null
+    }
+}

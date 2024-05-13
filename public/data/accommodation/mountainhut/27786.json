@@ -1,1 +1,46 @@
-{"type":"Feature","id":31373,"geometry":{"type":"Point","coordinates":[46.676504996942874,8.551916477558093]},"properties":{"id":27786,"land":"\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"","type":"Uebernachte","types":["groupaccom","mountainhut"],"category":"all","language":"en","name":"Salbithütte SAC","stars_hotellerie":null,"stars_parahotellerie":null,"q_label":null,"hotelgroup":"Schweizer Alpen-Club SAC","street":null,"zip":"6487","place":"Göschenen","tel":"+41 (0)41 885 14 31","beds":56,"campingplaces":null,"pricefrom":65.0,"priceto":85.0,"price_week":null,"email":"hansberger@salbit.ch","url1_text":"www.salbit.ch","url1_link":"https://www.salbit.ch","url2_text":null,"url2_link":null,"foto":"https://images0.schweizmobil.ch/image/Salbithuette_SAC.jpg","x_coordinate":685180.0006428506,"y_coordinate":170080.00110981977,"change_date":null}}
+{
+    "type": "Feature",
+    "id": 37654,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.67649600750374,
+            8.551916299158181
+        ]
+    },
+    "properties": {
+        "id": 27786,
+        "land": "\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"",
+        "type": "Uebernachte",
+        "types": [
+            "groupaccom",
+            "mountainhut"
+        ],
+        "category": "all",
+        "language": "en",
+        "name": "Salbithütte SAC",
+        "stars_hotellerie": null,
+        "stars_parahotellerie": null,
+        "q_label": null,
+        "hotelgroup": "Schweizer Alpen-Club SAC",
+        "street": null,
+        "zip": "6487",
+        "place": "Göschenen",
+        "tel": "+41 (0)41 885 14 31",
+        "beds": 56,
+        "campingplaces": null,
+        "pricefrom": 65,
+        "priceto": 85,
+        "price_week": null,
+        "email": "hansberger@salbit.ch",
+        "url1_text": "www.salbit.ch",
+        "url1_link": "https://www.salbit.ch",
+        "url2_text": null,
+        "url2_link": null,
+        "foto": "https://images.schweizmobil.ch/image/Salbithuette_SAC.jpg",
+        "foto_abstract": null,
+        "x_coordinate": 685180.2889549427,
+        "y_coordinate": 170079.90119350262,
+        "change_date": null
+    }
+}

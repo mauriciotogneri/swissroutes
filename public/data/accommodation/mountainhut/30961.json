@@ -1,1 +1,45 @@
-{"type":"Feature","id":30318,"geometry":{"type":"Point","coordinates":[46.03133227000709,7.665167677836929]},"properties":{"id":30961,"land":"\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"","type":"Uebernachte","types":["mountainhut"],"category":"all","language":"en","name":"Arbenbiwak SAC (unbewartet)","stars_hotellerie":null,"stars_parahotellerie":null,"q_label":null,"hotelgroup":"Schweizer Alpen-Club SAC","street":null,"zip":"3920","place":"Zermatt","tel":null,"beds":15,"campingplaces":null,"pricefrom":10.0,"priceto":20.0,"price_week":null,"email":"rinaldo.amacker@gampel.ch","url1_text":"http://sac.zermatt.ch/arbenbiwak","url1_link":"http://sac.zermatt.ch/arbenbiwak","url2_text":null,"url2_link":null,"foto":"https://images0.schweizmobil.ch/image-small/Zermatt_SAC_Arbenbiwak.jpg","x_coordinate":617540.0006039176,"y_coordinate":97780.00109426134,"change_date":null}}
+{
+    "type": "Feature",
+    "id": 36645,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.03133225955094,
+            7.665167672897683
+        ]
+    },
+    "properties": {
+        "id": 30961,
+        "land": "\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"",
+        "type": "Uebernachte",
+        "types": [
+            "mountainhut"
+        ],
+        "category": "all",
+        "language": "en",
+        "name": "Arbenbiwak SAC (unbewartet)",
+        "stars_hotellerie": null,
+        "stars_parahotellerie": null,
+        "q_label": null,
+        "hotelgroup": "Schweizer Alpen-Club SAC",
+        "street": null,
+        "zip": "3920",
+        "place": "Zermatt",
+        "tel": null,
+        "beds": 15,
+        "campingplaces": null,
+        "pricefrom": 10,
+        "priceto": 20,
+        "price_week": null,
+        "email": "rinaldo.amacker@gampel.ch",
+        "url1_text": "http://sac.zermatt.ch/arbenbiwak",
+        "url1_link": "http://sac.zermatt.ch/arbenbiwak",
+        "url2_text": null,
+        "url2_link": null,
+        "foto": "https://images.schweizmobil.ch/image-small/Zermatt_SAC_Arbenbiwak.jpg",
+        "foto_abstract": null,
+        "x_coordinate": 617540.3530460726,
+        "y_coordinate": 97780.50069859372,
+        "change_date": null
+    }
+}

@@ -1,1 +1,45 @@
-{"type":"Feature","id":30610,"geometry":{"type":"Point","coordinates":[46.49904786149841,8.661482687641875]},"properties":{"id":32622,"land":"\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"","type":"Uebernachte","types":["mountainhut"],"category":"all","language":"en","name":"Capanna Garzonera","stars_hotellerie":null,"stars_parahotellerie":null,"q_label":null,"hotelgroup":null,"street":"Ambrì","zip":"6777","place":"Quinto","tel":"+41 (0)91 868 11 77","beds":20,"campingplaces":null,"pricefrom":13.0,"priceto":13.0,"price_week":null,"email":"garzonera@gmail.com","url1_text":"www.satritom.ch","url1_link":"https://www.satritom.ch/garzonera/","url2_text":"www.capanneti.ch","url2_link":"https://www.capanneti.ch/it/capanne/garzonera","foto":"https://images0.schweizmobil.ch/image/37_garzonera.jpg","x_coordinate":693870.0006557627,"y_coordinate":150480.0010989385,"change_date":null}}
+{
+    "type": "Feature",
+    "id": 36928,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.49903901434408,
+            8.661469472286036
+        ]
+    },
+    "properties": {
+        "id": 32622,
+        "land": "\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"",
+        "type": "Uebernachte",
+        "types": [
+            "mountainhut"
+        ],
+        "category": "all",
+        "language": "en",
+        "name": "Capanna Garzonera",
+        "stars_hotellerie": null,
+        "stars_parahotellerie": null,
+        "q_label": null,
+        "hotelgroup": null,
+        "street": "Ambrì",
+        "zip": "6777",
+        "place": "Quinto",
+        "tel": "+41 (0)91 868 11 77",
+        "beds": 20,
+        "campingplaces": null,
+        "pricefrom": 13,
+        "priceto": 13,
+        "price_week": null,
+        "email": "garzonera@gmail.com",
+        "url1_text": "www.satritom.ch",
+        "url1_link": "https://www.satritom.ch/garzonera/",
+        "url2_text": "www.capanneti.ch",
+        "url2_link": "https://www.capanneti.ch/it/capanne/garzonera",
+        "foto": "https://images.schweizmobil.ch/image/37_garzonera.jpg",
+        "foto_abstract": null,
+        "x_coordinate": 693869.8045154543,
+        "y_coordinate": 150479.58878534703,
+        "change_date": null
+    }
+}

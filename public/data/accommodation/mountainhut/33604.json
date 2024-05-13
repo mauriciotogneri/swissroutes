@@ -1,1 +1,45 @@
-{"type":"Feature","id":31358,"geometry":{"type":"Point","coordinates":[46.372734428207764,9.081447277814114]},"properties":{"id":33604,"land":"\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"","type":"Uebernachte","types":["mountainhut"],"category":"all","language":"en","name":"Rifugio Giümela","stars_hotellerie":null,"stars_parahotellerie":null,"q_label":null,"hotelgroup":null,"street":"Val Pontirone","zip":"6710","place":"Biasca","tel":"+41 (0)91 862 11 74","beds":8,"campingplaces":null,"pricefrom":10.0,"priceto":10.0,"price_week":null,"email":"info@patriziabiasca.ch","url1_text":"www.capanneti.ch/it/capanne/giuemela","url1_link":"https://www.capanneti.ch/it/capanne/giuemela","url2_text":null,"url2_link":null,"foto":"https://images0.schweizmobil.ch/image-big/giumella-esterno_g.jpg","x_coordinate":726398.0006862656,"y_coordinate":137030.0010833646,"change_date":null}}
+{
+    "type": "Feature",
+    "id": 37638,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.372734405412054,
+            9.081447314289882
+        ]
+    },
+    "properties": {
+        "id": 33604,
+        "land": "\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"",
+        "type": "Uebernachte",
+        "types": [
+            "mountainhut"
+        ],
+        "category": "all",
+        "language": "en",
+        "name": "Rifugio Giümela",
+        "stars_hotellerie": null,
+        "stars_parahotellerie": null,
+        "q_label": null,
+        "hotelgroup": null,
+        "street": "Val Pontirone",
+        "zip": "6710",
+        "place": "Biasca",
+        "tel": "+41 (0)91 862 11 74",
+        "beds": 8,
+        "campingplaces": null,
+        "pricefrom": 10,
+        "priceto": 10,
+        "price_week": null,
+        "email": "info@patriziabiasca.ch",
+        "url1_text": "www.capanneti.ch/it/capanne/giuemela",
+        "url1_link": "https://www.capanneti.ch/it/capanne/giuemela",
+        "url2_text": null,
+        "url2_link": null,
+        "foto": "https://images.schweizmobil.ch/image-big/giumella-esterno_g.jpg",
+        "foto_abstract": null,
+        "x_coordinate": 726398.1635509795,
+        "y_coordinate": 137030.1746069487,
+        "change_date": null
+    }
+}

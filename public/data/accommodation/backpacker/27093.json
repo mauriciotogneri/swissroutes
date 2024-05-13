@@ -1,1 +1,47 @@
-{"type":"Feature","id":31321,"geometry":{"type":"Point","coordinates":[46.57695923351779,9.927429999657365]},"properties":{"id":27093,"land":"\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"","type":"Uebernachte","types":["hotel","bedbreakfast","backpacker"],"category":"all","language":"en","name":"Pension Chesin Zuppò","stars_hotellerie":null,"stars_parahotellerie":null,"q_label":null,"hotelgroup":null,"street":"Via Truochs 9","zip":"7522","place":"La Punt-Chamues-ch","tel":"+41 (0)81 854 22 64","beds":18,"campingplaces":null,"pricefrom":42.0,"priceto":50.0,"price_week":null,"email":"zuppo@bluewin.ch","url1_text":"www.engadin.stmoritz.ch","url1_link":"https://www.engadin.stmoritz.ch/region/lapunt/buchen/hotels/id.8393/rm4.hotels/","url2_text":null,"url2_link":null,"foto":"https://images0.schweizmobil.ch/image/La_Punt_Chamuesch_Pension_Chesin_Zuppo.JPG","x_coordinate":790750.0007279692,"y_coordinate":161435.0010730692,"change_date":null}}
+{
+    "type": "Feature",
+    "id": 37600,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.57695051653834,
+            9.927416509167513
+        ]
+    },
+    "properties": {
+        "id": 27093,
+        "land": "\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"",
+        "type": "Uebernachte",
+        "types": [
+            "hotel",
+            "bedbreakfast",
+            "backpacker"
+        ],
+        "category": "all",
+        "language": "en",
+        "name": "Pension Chesin Zuppò",
+        "stars_hotellerie": null,
+        "stars_parahotellerie": null,
+        "q_label": null,
+        "hotelgroup": null,
+        "street": "Via Truochs 9",
+        "zip": "7522",
+        "place": "La Punt-Chamues-ch",
+        "tel": "+41 (0)81 854 22 64",
+        "beds": 18,
+        "campingplaces": null,
+        "pricefrom": 42,
+        "priceto": 50,
+        "price_week": null,
+        "email": "zuppo@bluewin.ch",
+        "url1_text": "www.engadin.stmoritz.ch",
+        "url1_link": "https://www.engadin.stmoritz.ch/region/lapunt/buchen/hotels/id.8393/rm4.hotels/",
+        "url2_text": null,
+        "url2_link": null,
+        "foto": "https://images.schweizmobil.ch/image/La_Punt_Chamuesch_Pension_Chesin_Zuppo.JPG",
+        "foto_abstract": null,
+        "x_coordinate": 790749.6636068085,
+        "y_coordinate": 161434.91014593185,
+        "change_date": null
+    }
+}

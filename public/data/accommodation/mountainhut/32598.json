@@ -1,1 +1,45 @@
-{"type":"Feature","id":30572,"geometry":{"type":"Point","coordinates":[46.12238553718036,8.667143557228632]},"properties":{"id":32598,"land":"\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"","type":"Uebernachte","types":["mountainhut"],"category":"all","language":"en","name":"Capanna Al Legn","stars_hotellerie":null,"stars_parahotellerie":null,"q_label":null,"hotelgroup":null,"street":"Monti di Brissago","zip":"6614","place":"Brissago","tel":"+41 (0)79 823 98 07","beds":12,"campingplaces":null,"pricefrom":15.0,"priceto":15.0,"price_week":null,"email":"rifugiolegn@gmail.com","url1_text":"www.legn.ch","url1_link":"http://www.legn.ch/","url2_text":"https://www.capanneti.ch/it/capanne/al-legn","url2_link":"https://www.capanneti.ch/it/capanne/al-legn","foto":"https://images0.schweizmobil.ch/image-big/03_Al_Legn_g.jpg","x_coordinate":694960.0006687449,"y_coordinate":108620.00107931765,"change_date":null}}
+{
+    "type": "Feature",
+    "id": 36890,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.12238567853701,
+            8.667130665795167
+        ]
+    },
+    "properties": {
+        "id": 32598,
+        "land": "\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"",
+        "type": "Uebernachte",
+        "types": [
+            "mountainhut"
+        ],
+        "category": "all",
+        "language": "en",
+        "name": "Capanna Al Legn",
+        "stars_hotellerie": null,
+        "stars_parahotellerie": null,
+        "q_label": null,
+        "hotelgroup": null,
+        "street": "Monti di Brissago",
+        "zip": "6614",
+        "place": "Brissago",
+        "tel": "+41 (0)79 823 98 07",
+        "beds": 12,
+        "campingplaces": null,
+        "pricefrom": 15,
+        "priceto": 15,
+        "price_week": null,
+        "email": "rifugiolegn@gmail.com",
+        "url1_text": "www.legn.ch",
+        "url1_link": "http://www.legn.ch/",
+        "url2_text": "https://www.capanneti.ch/it/capanne/al-legn",
+        "url2_link": "https://www.capanneti.ch/it/capanne/al-legn",
+        "foto": "https://images.schweizmobil.ch/image-big/03_Al_Legn_g.jpg",
+        "foto_abstract": null,
+        "x_coordinate": 694959.8328168972,
+        "y_coordinate": 108620.00914296797,
+        "change_date": null
+    }
+}

@@ -1,1 +1,45 @@
-{"type":"Feature","id":30584,"geometry":{"type":"Point","coordinates":[46.22949778750396,8.925077791619636]},"properties":{"id":32607,"land":"\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"","type":"Uebernachte","types":["mountainhut"],"category":"all","language":"en","name":"Capanna Borgna","stars_hotellerie":null,"stars_parahotellerie":null,"q_label":null,"hotelgroup":null,"street":"Via Terricciuole 20","zip":"6516","place":"Gerra Piano","tel":"+41 (0)79 682 00 12","beds":26,"campingplaces":null,"pricefrom":17.0,"priceto":17.0,"price_week":null,"email":"martinetti.giacomo@gmail.com","url1_text":"www.sev-verzasca.ch","url1_link":"https://www.sev-verzasca.ch/borgna","url2_text":"www.capanneti.ch","url2_link":"https://www.capanneti.ch/it/capanne/borgna","foto":"https://images0.schweizmobil.ch/image/14_Borgna.jpg","x_coordinate":714670.0006815828,"y_coordinate":120870.00107949824,"change_date":null}}
+{
+    "type": "Feature",
+    "id": 36902,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.22948880600815,
+            8.925077533853525
+        ]
+    },
+    "properties": {
+        "id": 32607,
+        "land": "\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"",
+        "type": "Uebernachte",
+        "types": [
+            "mountainhut"
+        ],
+        "category": "all",
+        "language": "en",
+        "name": "Capanna Borgna",
+        "stars_hotellerie": null,
+        "stars_parahotellerie": null,
+        "q_label": null,
+        "hotelgroup": null,
+        "street": "Via Terricciuole 20",
+        "zip": "6516",
+        "place": "Gerra Piano",
+        "tel": "+41 (0)79 682 00 12",
+        "beds": 26,
+        "campingplaces": null,
+        "pricefrom": 17,
+        "priceto": 17,
+        "price_week": null,
+        "email": "martinetti.giacomo@gmail.com",
+        "url1_text": "www.sev-verzasca.ch",
+        "url1_link": "https://www.sev-verzasca.ch/borgna",
+        "url2_text": "www.capanneti.ch",
+        "url2_link": "https://www.capanneti.ch/it/capanne/borgna",
+        "foto": "https://images.schweizmobil.ch/image/14_Borgna.jpg",
+        "foto_abstract": null,
+        "x_coordinate": 714670.2200441905,
+        "y_coordinate": 120869.80315186844,
+        "change_date": null
+    }
+}

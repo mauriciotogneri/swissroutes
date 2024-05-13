@@ -1,1 +1,46 @@
-{"type":"Feature","id":30630,"geometry":{"type":"Point","coordinates":[46.494393716225574,8.471422414076661]},"properties":{"id":27776,"land":"\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"","type":"Uebernachte","types":["groupaccom","mountainhut"],"category":"all","language":"en","name":"Capanna Piansecco CAS","stars_hotellerie":null,"stars_parahotellerie":null,"q_label":null,"hotelgroup":"Schweizer Alpen-Club SAC","street":null,"zip":"6781","place":"All'Acqua","tel":"+41 (0)91 869 12 14","beds":42,"campingplaces":null,"pricefrom":65.0,"priceto":85.0,"price_week":null,"email":null,"url1_text":"www.capannapiansecco.ch","url1_link":"https://www.capannapiansecco.ch","url2_text":null,"url2_link":null,"foto":"https://images0.schweizmobil.ch/image-big/SAC_Piansecco_g.jpg","x_coordinate":679288.0006438566,"y_coordinate":149753.00110281951,"change_date":null}}
+{
+    "type": "Feature",
+    "id": 36948,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.49439382242265,
+            8.47140941074839
+        ]
+    },
+    "properties": {
+        "id": 27776,
+        "land": "\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"",
+        "type": "Uebernachte",
+        "types": [
+            "groupaccom",
+            "mountainhut"
+        ],
+        "category": "all",
+        "language": "en",
+        "name": "Capanna Piansecco CAS",
+        "stars_hotellerie": null,
+        "stars_parahotellerie": null,
+        "q_label": null,
+        "hotelgroup": "Schweizer Alpen-Club SAC",
+        "street": null,
+        "zip": "6781",
+        "place": "All'Acqua",
+        "tel": "+41 (0)91 869 12 14",
+        "beds": 42,
+        "campingplaces": null,
+        "pricefrom": 65,
+        "priceto": 85,
+        "price_week": null,
+        "email": null,
+        "url1_text": "www.capannapiansecco.ch",
+        "url1_link": "https://www.capannapiansecco.ch",
+        "url2_text": null,
+        "url2_link": null,
+        "foto": "https://images.schweizmobil.ch/image-big/SAC_Piansecco_g.jpg",
+        "foto_abstract": null,
+        "x_coordinate": 679287.8103803018,
+        "y_coordinate": 149753.0174337906,
+        "change_date": null
+    }
+}

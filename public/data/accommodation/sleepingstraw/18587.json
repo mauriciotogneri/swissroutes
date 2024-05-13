@@ -1,1 +1,45 @@
-{"type":"Feature","id":31249,"geometry":{"type":"Point","coordinates":[47.13553496871268,6.926355440032527]},"properties":{"id":18587,"land":"\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"","type":"Uebernachte","types":["sleepingstraw"],"category":"all","language":"en","name":"Little Ranch","stars_hotellerie":null,"stars_parahotellerie":null,"q_label":null,"hotelgroup":null,"street":"Droit-de-Renan","zip":"2333","place":"La Ferrière","tel":"+41 (0)32 963 12 08","beds":30,"campingplaces":null,"pricefrom":30.0,"priceto":55.0,"price_week":null,"email":"little-ranch@bluewin.ch","url1_text":"www.littleranch.ch","url1_link":"https://www.littleranch.ch","url2_text":null,"url2_link":null,"foto":"https://images0.schweizmobil.ch/image/La_Ferriere_Little_Ranch.jpg","x_coordinate":561136.0005226232,"y_coordinate":220633.00116357236,"change_date":null}}
+{
+    "type": "Feature",
+    "id": 37533,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            47.135525907508786,
+            6.926342366615564
+        ]
+    },
+    "properties": {
+        "id": 18587,
+        "land": "\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"",
+        "type": "Uebernachte",
+        "types": [
+            "sleepingstraw"
+        ],
+        "category": "all",
+        "language": "en",
+        "name": "Little Ranch",
+        "stars_hotellerie": null,
+        "stars_parahotellerie": null,
+        "q_label": null,
+        "hotelgroup": null,
+        "street": "Droit-de-Renan",
+        "zip": "2333",
+        "place": "La Ferrière",
+        "tel": "+41 (0)32 963 12 08",
+        "beds": 30,
+        "campingplaces": null,
+        "pricefrom": 30,
+        "priceto": 55,
+        "price_week": null,
+        "email": "little-ranch@bluewin.ch",
+        "url1_text": "www.littleranch.ch",
+        "url1_link": "https://www.littleranch.ch",
+        "url2_text": null,
+        "url2_link": null,
+        "foto": "https://images.schweizmobil.ch/image/La_Ferriere_Little_Ranch.jpg",
+        "foto_abstract": null,
+        "x_coordinate": 561135.7496898887,
+        "y_coordinate": 220632.95061121136,
+        "change_date": null
+    }
+}

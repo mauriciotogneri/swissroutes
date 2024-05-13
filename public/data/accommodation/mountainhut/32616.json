@@ -1,1 +1,45 @@
-{"type":"Feature","id":30604,"geometry":{"type":"Point","coordinates":[46.33849505959458,8.851547371061704]},"properties":{"id":32616,"land":"\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"","type":"Uebernachte","types":["mountainhut"],"category":"all","language":"en","name":"Capanna Efra","stars_hotellerie":null,"stars_parahotellerie":null,"q_label":null,"hotelgroup":null,"street":"Via Terricciuole 20","zip":"6516","place":"Gerra Piano","tel":"+41 (0)79 256 56 69","beds":25,"campingplaces":null,"pricefrom":17.0,"priceto":17.0,"price_week":null,"email":"mmatasci@bluewin.ch","url1_text":"www.sev-verzasca.ch","url1_link":"https://www.sev-verzasca.ch/efra/","url2_text":"www.capanneti.ch","url2_link":"https://www.capanneti.ch/it/capanne/efra","foto":"https://images0.schweizmobil.ch/image-big/31_Efra_g.jpg","x_coordinate":708780.0006732058,"y_coordinate":132880.00108675004,"change_date":null}}
+{
+    "type": "Feature",
+    "id": 36922,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.33849506552539,
+            8.851547414946497
+        ]
+    },
+    "properties": {
+        "id": 32616,
+        "land": "\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"",
+        "type": "Uebernachte",
+        "types": [
+            "mountainhut"
+        ],
+        "category": "all",
+        "language": "en",
+        "name": "Capanna Efra",
+        "stars_hotellerie": null,
+        "stars_parahotellerie": null,
+        "q_label": null,
+        "hotelgroup": null,
+        "street": "Via Terricciuole 20",
+        "zip": "6516",
+        "place": "Gerra Piano",
+        "tel": "+41 (0)79 256 56 69",
+        "beds": 25,
+        "campingplaces": null,
+        "pricefrom": 17,
+        "priceto": 17,
+        "price_week": null,
+        "email": "mmatasci@bluewin.ch",
+        "url1_text": "www.sev-verzasca.ch",
+        "url1_link": "https://www.sev-verzasca.ch/efra/",
+        "url2_text": "www.capanneti.ch",
+        "url2_link": "https://www.capanneti.ch/it/capanne/efra",
+        "foto": "https://images.schweizmobil.ch/image-big/31_Efra_g.jpg",
+        "foto_abstract": null,
+        "x_coordinate": 708780.2152789773,
+        "y_coordinate": 132880.0111906131,
+        "change_date": null
+    }
+}

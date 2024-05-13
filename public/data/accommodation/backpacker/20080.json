@@ -1,1 +1,46 @@
-{"type":"Feature","id":30847,"geometry":{"type":"Point","coordinates":[47.020454070441815,8.658513888539467]},"properties":{"id":20080,"land":"\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"","type":"Uebernachte","types":["backpacker","groupaccom"],"category":"all","language":"en","name":"Hirschen Backpackers.Hotel.Pub...","stars_hotellerie":null,"stars_parahotellerie":null,"q_label":null,"hotelgroup":"Swiss Hostels","street":"Hinterdorfstrasse 14","zip":"6430","place":"Schwyz","tel":"+41 (0)41 811 12 76","beds":86,"campingplaces":null,"pricefrom":29.0,"priceto":62.0,"price_week":null,"email":"info@hirschen-schwyz.ch","url1_text":"www.hirschen-schwyz.ch","url1_link":"https://www.hirschen-schwyz.ch","url2_text":"www.swisshostels.com","url2_link":"https://www.swisshostels.com","foto":"https://images0.schweizmobil.ch/image/Schwyz_SBP_Hirschen.JPG","x_coordinate":692741.0006374869,"y_coordinate":208433.0011225032,"change_date":null}}
+{
+    "type": "Feature",
+    "id": 37151,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            47.020454208264944,
+            8.658500767614893
+        ]
+    },
+    "properties": {
+        "id": 20080,
+        "land": "\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"",
+        "type": "Uebernachte",
+        "types": [
+            "backpacker",
+            "groupaccom"
+        ],
+        "category": "all",
+        "language": "en",
+        "name": "Hirschen Backpackers.Hotel.Pub...",
+        "stars_hotellerie": null,
+        "stars_parahotellerie": null,
+        "q_label": null,
+        "hotelgroup": "Swiss Hostels",
+        "street": "Hinterdorfstrasse 14",
+        "zip": "6430",
+        "place": "Schwyz",
+        "tel": "+41 (0)41 811 12 76",
+        "beds": 86,
+        "campingplaces": null,
+        "pricefrom": 29,
+        "priceto": 62,
+        "price_week": null,
+        "email": "info@hirschen-schwyz.ch",
+        "url1_text": "www.hirschen-schwyz.ch",
+        "url1_link": "https://www.hirschen-schwyz.ch",
+        "url2_text": "www.swisshostels.com",
+        "url2_link": "https://www.swisshostels.com",
+        "foto": "https://images.schweizmobil.ch/image/Schwyz_SBP_Hirschen.JPG",
+        "foto_abstract": null,
+        "x_coordinate": 692740.7265000849,
+        "y_coordinate": 208433.12493472532,
+        "change_date": null
+    }
+}

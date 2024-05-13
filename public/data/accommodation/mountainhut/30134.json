@@ -1,1 +1,46 @@
-{"type":"Feature","id":31359,"geometry":{"type":"Point","coordinates":[46.53486331329518,8.679786798327136]},"properties":{"id":30134,"land":"\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"","type":"Uebernachte","types":["groupaccom","mountainhut"],"category":"all","language":"en","name":"Rifugio Lago Ritom – Berghaus","stars_hotellerie":"3","stars_parahotellerie":null,"q_label":null,"hotelgroup":null,"street":null,"zip":"6776","place":"Piora (Ritom)","tel":"+41 (0)91 868 14 24","beds":40,"campingplaces":null,"pricefrom":45.0,"priceto":60.0,"price_week":null,"email":"contact@lagoritom.ch","url1_text":"www.lagoritom.ch","url1_link":"https://www.lagoritom.ch","url2_text":null,"url2_link":null,"foto":"https://images0.schweizmobil.ch/image-big/Piora_Lago_Ritom_g.jpg","x_coordinate":695212.0006556915,"y_coordinate":154483.0011002813,"change_date":null}}
+{
+    "type": "Feature",
+    "id": 37639,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.53486332466005,
+            8.679786829507968
+        ]
+    },
+    "properties": {
+        "id": 30134,
+        "land": "\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"",
+        "type": "Uebernachte",
+        "types": [
+            "groupaccom",
+            "mountainhut"
+        ],
+        "category": "all",
+        "language": "en",
+        "name": "Rifugio Lago Ritom – Berghaus",
+        "stars_hotellerie": "3",
+        "stars_parahotellerie": null,
+        "q_label": null,
+        "hotelgroup": null,
+        "street": null,
+        "zip": "6776",
+        "place": "Piora (Ritom)",
+        "tel": "+41 (0)91 868 14 24",
+        "beds": 40,
+        "campingplaces": null,
+        "pricefrom": 45,
+        "priceto": 60,
+        "price_week": null,
+        "email": "contact@lagoritom.ch",
+        "url1_text": "www.lagoritom.ch",
+        "url1_link": "https://www.lagoritom.ch",
+        "url2_text": null,
+        "url2_link": null,
+        "foto": "https://images.schweizmobil.ch/image-big/Piora_Lago_Ritom_g.jpg",
+        "foto_abstract": null,
+        "x_coordinate": 695212.2469047076,
+        "y_coordinate": 154483.10328330798,
+        "change_date": null
+    }
+}

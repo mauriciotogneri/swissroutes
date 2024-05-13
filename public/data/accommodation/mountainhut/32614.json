@@ -1,1 +1,45 @@
-{"type":"Feature","id":30597,"geometry":{"type":"Point","coordinates":[46.148598843096785,9.012452923696507]},"properties":{"id":32614,"land":"\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"","type":"Uebernachte","types":["mountainhut"],"category":"all","language":"en","name":"Capanna Cremorasco","stars_hotellerie":null,"stars_parahotellerie":null,"q_label":null,"hotelgroup":null,"street":"Monti di Camorino","zip":"6528","place":"Camorino","tel":"+41 (0)91 919 80 69","beds":10,"campingplaces":null,"pricefrom":15.0,"priceto":15.0,"price_week":null,"email":"cremorasco@gmail.ch","url1_text":"https://www.capanneti.ch/it/capanne/cremorasco","url1_link":"https://www.capanneti.ch/it/capanne/cremorasco","url2_text":"www.capanneti.ch","url2_link":"http://www.capanneti.ch/huts/main.jsp?id_language=1&id_hut=80","foto":"https://images0.schweizmobil.ch/image-big/27_Cremorasco_g.jpg","x_coordinate":721590.0006898706,"y_coordinate":112010.00107330714,"change_date":null}}
+{
+    "type": "Feature",
+    "id": 36915,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.14859003798682,
+            9.012439680686134
+        ]
+    },
+    "properties": {
+        "id": 32614,
+        "land": "\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"",
+        "type": "Uebernachte",
+        "types": [
+            "mountainhut"
+        ],
+        "category": "all",
+        "language": "en",
+        "name": "Capanna Cremorasco",
+        "stars_hotellerie": null,
+        "stars_parahotellerie": null,
+        "q_label": null,
+        "hotelgroup": null,
+        "street": "Monti di Camorino",
+        "zip": "6528",
+        "place": "Camorino",
+        "tel": "+41 (0)91 919 80 69",
+        "beds": 10,
+        "campingplaces": null,
+        "pricefrom": 15,
+        "priceto": 15,
+        "price_week": null,
+        "email": "cremorasco@gmail.ch",
+        "url1_text": "https://www.capanneti.ch/it/capanne/cremorasco",
+        "url1_link": "https://www.capanneti.ch/it/capanne/cremorasco",
+        "url2_text": "www.capanneti.ch",
+        "url2_link": "http://www.capanneti.ch/huts/main.jsp?id_language=1&id_hut=80",
+        "foto": "https://images.schweizmobil.ch/image-big/27_Cremorasco_g.jpg",
+        "foto_abstract": null,
+        "x_coordinate": 721589.852130788,
+        "y_coordinate": 112009.79428134426,
+        "change_date": null
+    }
+}

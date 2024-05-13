@@ -1,1 +1,45 @@
-{"type":"Feature","id":31232,"geometry":{"type":"Point","coordinates":[47.41619249737001,7.729597180595846]},"properties":{"id":33506,"land":"\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"","type":"Uebernachte","types":["farmaccom"],"category":"all","language":"en","name":"Landoase","stars_hotellerie":null,"stars_parahotellerie":null,"q_label":null,"hotelgroup":null,"street":"Hof Schlief","zip":"4424","place":"Arboldswil","tel":"+41 (0)79 565 95 06","beds":12,"campingplaces":null,"pricefrom":50.0,"priceto":60.0,"price_week":null,"email":"c.bohler@outlook.ch","url1_text":"www.landoase.ch","url1_link":"https://www.landoase.ch","url2_text":null,"url2_link":null,"foto":"https://images0.schweizmobil.ch/image-big/Arboldswil_Landoase_g.jpg","x_coordinate":621958.0005668575,"y_coordinate":251750.00115838085,"change_date":null}}
+{
+    "type": "Feature",
+    "id": 37515,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            47.41618349814608,
+            7.72959714345503
+        ]
+    },
+    "properties": {
+        "id": 33506,
+        "land": "\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"",
+        "type": "Uebernachte",
+        "types": [
+            "farmaccom"
+        ],
+        "category": "all",
+        "language": "en",
+        "name": "Landoase",
+        "stars_hotellerie": null,
+        "stars_parahotellerie": null,
+        "q_label": null,
+        "hotelgroup": null,
+        "street": "Hof Schlief",
+        "zip": "4424",
+        "place": "Arboldswil",
+        "tel": "+41 (0)79 565 95 06",
+        "beds": 12,
+        "campingplaces": null,
+        "pricefrom": 50,
+        "priceto": 60,
+        "price_week": null,
+        "email": "c.bohler@outlook.ch",
+        "url1_text": "www.landoase.ch",
+        "url1_link": "https://www.landoase.ch",
+        "url2_text": null,
+        "url2_link": null,
+        "foto": "https://images.schweizmobil.ch/image-big/Arboldswil_Landoase_g.jpg",
+        "foto_abstract": null,
+        "x_coordinate": 621958.1131007939,
+        "y_coordinate": 251749.46851525703,
+        "change_date": null
+    }
+}

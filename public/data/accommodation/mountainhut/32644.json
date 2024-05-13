@@ -1,1 +1,45 @@
-{"type":"Feature","id":30636,"geometry":{"type":"Point","coordinates":[46.25125224568894,8.541533138514659]},"properties":{"id":32644,"land":"\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"","type":"Uebernachte","types":["mountainhut"],"category":"all","language":"en","name":"Capanna Ribia","stars_hotellerie":null,"stars_parahotellerie":null,"q_label":null,"hotelgroup":null,"street":"Val Vergeletto","zip":"6664","place":"Vergeletto","tel":"+41 (0)91 797 10 00","beds":12,"campingplaces":null,"pricefrom":10.0,"priceto":10.0,"price_week":null,"email":"rena.ribia@gmail.com","url1_text":"www.capanneti.ch","url1_link":"https://www.capanneti.ch/it/capanne/ribia","url2_text":null,"url2_link":null,"foto":"https://images0.schweizmobil.ch/image/64_Ribia_s.jpg","x_coordinate":685050.000656373,"y_coordinate":122800.00108888619,"change_date":null}}
+{
+    "type": "Feature",
+    "id": 36954,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.251252399013815,
+            8.54152015062332
+        ]
+    },
+    "properties": {
+        "id": 32644,
+        "land": "\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"",
+        "type": "Uebernachte",
+        "types": [
+            "mountainhut"
+        ],
+        "category": "all",
+        "language": "en",
+        "name": "Capanna Ribia",
+        "stars_hotellerie": null,
+        "stars_parahotellerie": null,
+        "q_label": null,
+        "hotelgroup": null,
+        "street": "Val Vergeletto",
+        "zip": "6664",
+        "place": "Vergeletto",
+        "tel": "+41 (0)91 797 10 00",
+        "beds": 12,
+        "campingplaces": null,
+        "pricefrom": 10,
+        "priceto": 10,
+        "price_week": null,
+        "email": "rena.ribia@gmail.com",
+        "url1_text": "www.capanneti.ch",
+        "url1_link": "https://www.capanneti.ch/it/capanne/ribia",
+        "url2_text": null,
+        "url2_link": null,
+        "foto": "https://images.schweizmobil.ch/image/64_Ribia_s.jpg",
+        "foto_abstract": null,
+        "x_coordinate": 685049.7840716651,
+        "y_coordinate": 122800.24924796606,
+        "change_date": null
+    }
+}

@@ -1,1 +1,45 @@
-{"type":"Feature","id":30546,"geometry":{"type":"Point","coordinates":[46.21125162867659,9.037785981182985]},"properties":{"id":20961,"land":"\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"","type":"Uebernachte","types":["campingsite"],"category":"all","language":"en","name":"Camping Bellinzona","stars_hotellerie":null,"stars_parahotellerie":"3","q_label":null,"hotelgroup":null,"street":"Via San Gottardo 131","zip":"6500","place":"Bellinzona","tel":"+41 (0)91 829 11 18","beds":null,"campingplaces":40,"pricefrom":24.0,"priceto":27.0,"price_week":null,"email":"info@campingbellinzona.ch","url1_text":"www.campingbellinzona.ch","url1_link":"https://www.campingbellinzona.ch","url2_text":null,"url2_link":null,"foto":"https://images0.schweizmobil.ch/image/Bellinzona_TCS_Bosco_di_Molinazzo.jpg","x_coordinate":723405.0006892714,"y_coordinate":119013.00107606617,"change_date":null}}
+{
+    "type": "Feature",
+    "id": 36866,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.21124262615641,
+            9.037785690194378
+        ]
+    },
+    "properties": {
+        "id": 20961,
+        "land": "\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"",
+        "type": "Uebernachte",
+        "types": [
+            "campingsite"
+        ],
+        "category": "all",
+        "language": "en",
+        "name": "Camping Bellinzona",
+        "stars_hotellerie": null,
+        "stars_parahotellerie": "3",
+        "q_label": null,
+        "hotelgroup": null,
+        "street": "Via San Gottardo 131",
+        "zip": "6500",
+        "place": "Bellinzona",
+        "tel": "+41 (0)91 829 11 18",
+        "beds": null,
+        "campingplaces": 40,
+        "pricefrom": 24,
+        "priceto": 27,
+        "price_week": null,
+        "email": "info@campingbellinzona.ch",
+        "url1_text": "www.campingbellinzona.ch",
+        "url1_link": "https://www.campingbellinzona.ch",
+        "url2_text": null,
+        "url2_link": null,
+        "foto": "https://images.schweizmobil.ch/image/Bellinzona_TCS_Bosco_di_Molinazzo.jpg",
+        "foto_abstract": null,
+        "x_coordinate": 723405.3480379484,
+        "y_coordinate": 119012.45592503755,
+        "change_date": null
+    }
+}

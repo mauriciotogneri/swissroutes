@@ -1,1 +1,45 @@
-{"type":"Feature","id":31376,"geometry":{"type":"Point","coordinates":[46.09330333853106,7.709515216431787]},"properties":{"id":30990,"land":"\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"","type":"Uebernachte","types":["mountainhut"],"category":"all","language":"en","name":"Schalijochbiwak SAC (unbewartet)","stars_hotellerie":null,"stars_parahotellerie":null,"q_label":null,"hotelgroup":"Schweizer Alpen-Club SAC","street":null,"zip":"3928","place":"Randa","tel":null,"beds":8,"campingplaces":null,"pricefrom":10.0,"priceto":20.0,"price_week":null,"email":null,"url1_text":"www.sac-basel.ch","url1_link":"https://www.sac-basel.ch","url2_text":null,"url2_link":null,"foto":"https://images0.schweizmobil.ch/image-small/Randa_SAC_Schalijoch.jpg","x_coordinate":620950.0006052706,"y_coordinate":104680.0010969609,"change_date":null}}
+{
+    "type": "Feature",
+    "id": 37657,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.09330338079119,
+            7.709502277377677
+        ]
+    },
+    "properties": {
+        "id": 30990,
+        "land": "\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"",
+        "type": "Uebernachte",
+        "types": [
+            "mountainhut"
+        ],
+        "category": "all",
+        "language": "en",
+        "name": "Schalijochbiwak SAC (unbewartet)",
+        "stars_hotellerie": null,
+        "stars_parahotellerie": null,
+        "q_label": null,
+        "hotelgroup": "Schweizer Alpen-Club SAC",
+        "street": null,
+        "zip": "3928",
+        "place": "Randa",
+        "tel": null,
+        "beds": 8,
+        "campingplaces": null,
+        "pricefrom": 10,
+        "priceto": 20,
+        "price_week": null,
+        "email": null,
+        "url1_text": "www.sac-basel.ch",
+        "url1_link": "https://www.sac-basel.ch",
+        "url2_text": null,
+        "url2_link": null,
+        "foto": "https://images.schweizmobil.ch/image-small/Randa_SAC_Schalijoch.jpg",
+        "foto_abstract": null,
+        "x_coordinate": 620949.8648627962,
+        "y_coordinate": 104680.31602706909,
+        "change_date": null
+    }
+}

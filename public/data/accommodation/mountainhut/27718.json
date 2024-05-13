@@ -1,1 +1,46 @@
-{"type":"Feature","id":30826,"geometry":{"type":"Point","coordinates":[46.512719511663626,7.810156778086458]},"properties":{"id":27718,"land":"\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"","type":"Uebernachte","types":["groupaccom","mountainhut"],"category":"all","language":"en","name":"Gspaltenhornhütte SAC","stars_hotellerie":null,"stars_parahotellerie":null,"q_label":null,"hotelgroup":"Schweizer Alpen-Club SAC","street":null,"zip":"3723","place":"Kiental","tel":"+41 (0)33 676 16 29","beds":64,"campingplaces":null,"pricefrom":65.0,"priceto":85.0,"price_week":null,"email":"info@gspaltenhornhuette.ch","url1_text":"www.gspaltenhornhuette.ch","url1_link":"https://www.gspaltenhornhuette.ch","url2_text":"Online booking","url2_link":"http://www.alpenonline.ch/reservation/calendar?hut_id=44&lang=de&header=yes","foto":"https://images0.schweizmobil.ch/image/Gspaltenhornhuette_SAC.jpg","x_coordinate":628513.0005999395,"y_coordinate":151336.00111744326,"change_date":null}}
+{
+    "type": "Feature",
+    "id": 37133,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.512710515100906,
+            7.810156724015566
+        ]
+    },
+    "properties": {
+        "id": 27718,
+        "land": "\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"",
+        "type": "Uebernachte",
+        "types": [
+            "groupaccom",
+            "mountainhut"
+        ],
+        "category": "all",
+        "language": "en",
+        "name": "Gspaltenhornhütte SAC",
+        "stars_hotellerie": null,
+        "stars_parahotellerie": null,
+        "q_label": null,
+        "hotelgroup": "Schweizer Alpen-Club SAC",
+        "street": null,
+        "zip": "3723",
+        "place": "Kiental",
+        "tel": "+41 (0)33 676 16 29",
+        "beds": 64,
+        "campingplaces": null,
+        "pricefrom": 65,
+        "priceto": 85,
+        "price_week": null,
+        "email": "info@gspaltenhornhuette.ch",
+        "url1_text": "www.gspaltenhornhuette.ch",
+        "url1_link": "https://www.gspaltenhornhuette.ch",
+        "url2_text": "Online booking",
+        "url2_link": "http://www.alpenonline.ch/reservation/calendar?hut_id=44&lang=de&header=yes",
+        "foto": "https://images.schweizmobil.ch/image/Gspaltenhornhuette_SAC.jpg",
+        "foto_abstract": null,
+        "x_coordinate": 628513.131666877,
+        "y_coordinate": 151335.49580195628,
+        "change_date": null
+    }
+}

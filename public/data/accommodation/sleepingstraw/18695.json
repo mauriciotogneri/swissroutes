@@ -1,1 +1,45 @@
-{"type":"Feature","id":30414,"geometry":{"type":"Point","coordinates":[46.612050880849,8.01701331600247]},"properties":{"id":18695,"land":"\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"","type":"Uebernachte","types":["sleepingstraw"],"category":"all","language":"en","name":"Bauernhof Hagibodmen","stars_hotellerie":null,"stars_parahotellerie":null,"q_label":null,"hotelgroup":"Agritourism Switzerland","street":"Brandeggstrasse 18-Hagibodmen","zip":"3818","place":"Grindelwald","tel":"+41 (0)33 853 37 39","beds":20,"campingplaces":null,"pricefrom":25.0,"priceto":25.0,"price_week":null,"email":"wyss.hagi@bluewin.ch","url1_text":"www.schlafimstroh-grindelwald.ch","url1_link":"https://www.schlafimstroh-grindelwald.ch","url2_text":"www.myfarm.ch","url2_link":"https://www.myfarm.ch","foto":"https://images0.schweizmobil.ch/image-big/Grindelwald_SiS_Hagibodmen_Wyss_Rubi_2017_g.jpg","x_coordinate":644307.0006106318,"y_coordinate":162474.00111814396,"change_date":null}}
+{
+    "type": "Feature",
+    "id": 36731,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.6120509498172,
+            8.017000250469263
+        ]
+    },
+    "properties": {
+        "id": 18695,
+        "land": "\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"",
+        "type": "Uebernachte",
+        "types": [
+            "sleepingstraw"
+        ],
+        "category": "all",
+        "language": "en",
+        "name": "Bauernhof Hagibodmen",
+        "stars_hotellerie": null,
+        "stars_parahotellerie": null,
+        "q_label": null,
+        "hotelgroup": "Agritourism Switzerland",
+        "street": "Brandeggstrasse 18-Hagibodmen",
+        "zip": "3818",
+        "place": "Grindelwald",
+        "tel": "+41 (0)33 853 37 39",
+        "beds": 20,
+        "campingplaces": null,
+        "pricefrom": 25,
+        "priceto": 25,
+        "price_week": null,
+        "email": "wyss.hagi@bluewin.ch",
+        "url1_text": "www.schlafimstroh-grindelwald.ch",
+        "url1_link": "https://www.schlafimstroh-grindelwald.ch",
+        "url2_text": "www.myfarm.ch",
+        "url2_link": "https://www.myfarm.ch",
+        "foto": "https://images.schweizmobil.ch/image-big/Grindelwald_SiS_Hagibodmen_Wyss_Rubi_2017_g.jpg",
+        "foto_abstract": null,
+        "x_coordinate": 644306.7290653648,
+        "y_coordinate": 162474.37930075638,
+        "change_date": null
+    }
+}

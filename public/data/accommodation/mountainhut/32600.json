@@ -1,1 +1,45 @@
-{"type":"Feature","id":30575,"geometry":{"type":"Point","coordinates":[46.09958734670251,8.78845774614152]},"properties":{"id":32600,"land":"\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"","type":"Uebernachte","types":["mountainhut"],"category":"all","language":"en","name":"Capanna Alpetto di Caviano","stars_hotellerie":null,"stars_parahotellerie":null,"q_label":null,"hotelgroup":null,"street":"Alpetto di Caviano","zip":"6513","place":"Gambarogno","tel":"+41 (0)79 358 28 90","beds":10,"campingplaces":null,"pricefrom":15.0,"priceto":15.0,"price_week":null,"email":"gambarogno@ascona-locarno.com","url1_text":"www.capanneti.ch","url1_link":"https://www.capanneti.ch/it/capanne/alpetto-di-caviano","url2_text":null,"url2_link":null,"foto":"https://images0.schweizmobil.ch/image-big/05_Alpetto_di_Caviano_g.jpg","x_coordinate":704380.0006773237,"y_coordinate":106240.00107550135,"change_date":null}}
+{
+    "type": "Feature",
+    "id": 36893,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.0995783401672,
+            8.788457566679565
+        ]
+    },
+    "properties": {
+        "id": 32600,
+        "land": "\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"",
+        "type": "Uebernachte",
+        "types": [
+            "mountainhut"
+        ],
+        "category": "all",
+        "language": "en",
+        "name": "Capanna Alpetto di Caviano",
+        "stars_hotellerie": null,
+        "stars_parahotellerie": null,
+        "q_label": null,
+        "hotelgroup": null,
+        "street": "Alpetto di Caviano",
+        "zip": "6513",
+        "place": "Gambarogno",
+        "tel": "+41 (0)79 358 28 90",
+        "beds": 10,
+        "campingplaces": null,
+        "pricefrom": 15,
+        "priceto": 15,
+        "price_week": null,
+        "email": "gambarogno@ascona-locarno.com",
+        "url1_text": "www.capanneti.ch",
+        "url1_link": "https://www.capanneti.ch/it/capanne/alpetto-di-caviano",
+        "url2_text": null,
+        "url2_link": null,
+        "foto": "https://images.schweizmobil.ch/image-big/05_Alpetto_di_Caviano_g.jpg",
+        "foto_abstract": null,
+        "x_coordinate": 704380.3128519892,
+        "y_coordinate": 106239.89263530946,
+        "change_date": null
+    }
+}

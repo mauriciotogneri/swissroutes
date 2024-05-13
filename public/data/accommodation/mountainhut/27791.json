@@ -1,1 +1,46 @@
-{"type":"Feature","id":31481,"geometry":{"type":"Point","coordinates":[46.690590423790674,8.487700150481333]},"properties":{"id":27791,"land":"\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"","type":"Uebernachte","types":["groupaccom","mountainhut"],"category":"all","language":"en","name":"Voralphütte SAC","stars_hotellerie":null,"stars_parahotellerie":null,"q_label":null,"hotelgroup":"Schweizer Alpen-Club SAC","street":"Göscheneralp","zip":"6487","place":"Göschenen","tel":"+41 (0)41 887 04 20","beds":40,"campingplaces":null,"pricefrom":65.0,"priceto":85.0,"price_week":null,"email":"info@voralphuette.ch","url1_text":"www.voralphuette.ch","url1_link":"https://www.voralphuette.ch","url2_text":null,"url2_link":null,"foto":"https://images0.schweizmobil.ch/image/Voralphuette_SAC.jpg","x_coordinate":680246.0006383418,"y_coordinate":171578.00111187794,"change_date":null}}
+{
+    "type": "Feature",
+    "id": 37766,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.69059042294916,
+            8.487700131089388
+        ]
+    },
+    "properties": {
+        "id": 27791,
+        "land": "\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"",
+        "type": "Uebernachte",
+        "types": [
+            "groupaccom",
+            "mountainhut"
+        ],
+        "category": "all",
+        "language": "en",
+        "name": "Voralphütte SAC",
+        "stars_hotellerie": null,
+        "stars_parahotellerie": null,
+        "q_label": null,
+        "hotelgroup": "Schweizer Alpen-Club SAC",
+        "street": "Göscheneralp",
+        "zip": "6487",
+        "place": "Göschenen",
+        "tel": "+41 (0)41 887 04 20",
+        "beds": 40,
+        "campingplaces": null,
+        "pricefrom": 65,
+        "priceto": 85,
+        "price_week": null,
+        "email": "info@voralphuette.ch",
+        "url1_text": "www.voralphuette.ch",
+        "url1_link": "https://www.voralphuette.ch",
+        "url2_text": null,
+        "url2_link": null,
+        "foto": "https://images.schweizmobil.ch/image/Voralphuette_SAC.jpg",
+        "foto_abstract": null,
+        "x_coordinate": 680246.0072903142,
+        "y_coordinate": 171578.40092998752,
+        "change_date": null
+    }
+}

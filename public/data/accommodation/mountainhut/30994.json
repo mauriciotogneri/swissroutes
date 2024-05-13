@@ -1,1 +1,45 @@
-{"type":"Feature","id":31428,"geometry":{"type":"Point","coordinates":[46.37738530876825,7.881068285116738]},"properties":{"id":30994,"land":"\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"","type":"Uebernachte","types":["mountainhut"],"category":"all","language":"en","name":"Stockhornbiwak SAC (unbewartet)","stars_hotellerie":null,"stars_parahotellerie":null,"q_label":null,"hotelgroup":"Schweizer Alpen-Club SAC","street":null,"zip":"3938","place":"Ausserberg","tel":null,"beds":12,"campingplaces":null,"pricefrom":10.0,"priceto":20.0,"price_week":null,"email":"schmid.simon84@bluewin.ch","url1_text":"www.sac-bluemlisalp.ch","url1_link":"https://www.sac-bluemlisalp.ch","url2_text":null,"url2_link":null,"foto":"https://images0.schweizmobil.ch/image-small/Baltschieder_SAC_Stockhornbiwak.jpg","x_coordinate":634040.0006087525,"y_coordinate":136320.0011090811,"change_date":null}}
+{
+    "type": "Feature",
+    "id": 37710,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.377376369437506,
+            7.881055211025156
+        ]
+    },
+    "properties": {
+        "id": 30994,
+        "land": "\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"",
+        "type": "Uebernachte",
+        "types": [
+            "mountainhut"
+        ],
+        "category": "all",
+        "language": "en",
+        "name": "Stockhornbiwak SAC (unbewartet)",
+        "stars_hotellerie": null,
+        "stars_parahotellerie": null,
+        "q_label": null,
+        "hotelgroup": "Schweizer Alpen-Club SAC",
+        "street": null,
+        "zip": "3938",
+        "place": "Ausserberg",
+        "tel": null,
+        "beds": 12,
+        "campingplaces": null,
+        "pricefrom": 10,
+        "priceto": 20,
+        "price_week": null,
+        "email": "schmid.simon84@bluewin.ch",
+        "url1_text": "www.sac-bluemlisalp.ch",
+        "url1_link": "https://www.sac-bluemlisalp.ch",
+        "url2_text": null,
+        "url2_link": null,
+        "foto": "https://images.schweizmobil.ch/image-small/Baltschieder_SAC_Stockhornbiwak.jpg",
+        "foto_abstract": null,
+        "x_coordinate": 634039.9424865581,
+        "y_coordinate": 136319.92918761712,
+        "change_date": null
+    }
+}

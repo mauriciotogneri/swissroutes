@@ -1,1 +1,46 @@
-{"type":"Feature","id":30600,"geometry":{"type":"Point","coordinates":[46.33007062872185,9.655306701513895]},"properties":{"id":27734,"land":"\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"","type":"Uebernachte","types":["groupaccom","mountainhut"],"category":"all","language":"en","name":"Capanna da l'Albigna CAS","stars_hotellerie":null,"stars_parahotellerie":null,"q_label":null,"hotelgroup":"Schweizer Alpen-Club SAC","street":null,"zip":"7603","place":"Vicosoprano","tel":"+41 (0)81 822 14 05","beds":94,"campingplaces":null,"pricefrom":65.0,"priceto":85.0,"price_week":null,"email":"albigna@bluewin.ch","url1_text":"www.albigna.com","url1_link":"https://www.albigna.com","url2_text":"Online booking","url2_link":"http://www.alpenonline.ch/reservation/calendar?header=yes&hut_id=3&lang=de","foto":"https://images0.schweizmobil.ch/image/Capanna_da_l_Albigna_CAS.jpg","x_coordinate":770675.0007221653,"y_coordinate":133375.00106799504,"change_date":null}}
+{
+    "type": "Feature",
+    "id": 36918,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.33006188088544,
+            9.655293423820462
+        ]
+    },
+    "properties": {
+        "id": 27734,
+        "land": "\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"",
+        "type": "Uebernachte",
+        "types": [
+            "groupaccom",
+            "mountainhut"
+        ],
+        "category": "all",
+        "language": "en",
+        "name": "Capanna da l'Albigna CAS",
+        "stars_hotellerie": null,
+        "stars_parahotellerie": null,
+        "q_label": null,
+        "hotelgroup": "Schweizer Alpen-Club SAC",
+        "street": null,
+        "zip": "7603",
+        "place": "Vicosoprano",
+        "tel": "+41 (0)81 822 14 05",
+        "beds": 94,
+        "campingplaces": null,
+        "pricefrom": 65,
+        "priceto": 85,
+        "price_week": null,
+        "email": "albigna@bluewin.ch",
+        "url1_text": "www.albigna.com",
+        "url1_link": "https://www.albigna.com",
+        "url2_text": "Online booking",
+        "url2_link": "http://www.alpenonline.ch/reservation/calendar?header=yes&hut_id=3&lang=de",
+        "foto": "https://images.schweizmobil.ch/image/Capanna_da_l_Albigna_CAS.jpg",
+        "foto_abstract": null,
+        "x_coordinate": 770674.8347640763,
+        "y_coordinate": 133374.80894778075,
+        "change_date": null
+    }
+}

@@ -1,1 +1,45 @@
-{"type":"Feature","id":31448,"geometry":{"type":"Point","coordinates":[46.0972193637288,7.07871168317477]},"properties":{"id":20975,"land":"\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"","type":"Uebernachte","types":["campingsite"],"category":"all","language":"en","name":"TCS Camping Martigny","stars_hotellerie":null,"stars_parahotellerie":"3","q_label":null,"hotelgroup":"TCS Camping","street":"Rue du Levant 68","zip":"1920","place":"Martigny","tel":"+41 (0)27 722 45 44","beds":null,"campingplaces":72,"pricefrom":21.0,"priceto":36.0,"price_week":null,"email":"camping.martigny@tcs.ch","url1_text":"www.tcs-camping.ch","url1_link":"https://www.tcs.ch/fr/camping-voyages/camping-insider/campings/tcs-campings/camping-martigny.php","url2_text":null,"url2_link":null,"foto":"https://images0.schweizmobil.ch/image/Martigny_TCS_Les_Neuvilles.JPG","x_coordinate":572165.0005603817,"y_coordinate":105143.00110884984,"change_date":null}}
+{
+    "type": "Feature",
+    "id": 37732,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.097219362072885,
+            7.078711687147254
+        ]
+    },
+    "properties": {
+        "id": 20975,
+        "land": "\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"",
+        "type": "Uebernachte",
+        "types": [
+            "campingsite"
+        ],
+        "category": "all",
+        "language": "en",
+        "name": "TCS Camping Martigny",
+        "stars_hotellerie": null,
+        "stars_parahotellerie": "3",
+        "q_label": null,
+        "hotelgroup": "TCS Camping",
+        "street": "Rue du Levant 68",
+        "zip": "1920",
+        "place": "Martigny",
+        "tel": "+41 (0)27 722 45 44",
+        "beds": null,
+        "campingplaces": 72,
+        "pricefrom": 21,
+        "priceto": 36,
+        "price_week": null,
+        "email": "camping.martigny@tcs.ch",
+        "url1_text": "www.tcs-camping.ch",
+        "url1_link": "https://www.tcs.ch/fr/camping-voyages/camping-insider/campings/tcs-campings/camping-martigny.php",
+        "url2_text": null,
+        "url2_link": null,
+        "foto": "https://images.schweizmobil.ch/image/Martigny_TCS_Les_Neuvilles.JPG",
+        "foto_abstract": null,
+        "x_coordinate": 572165.2888804715,
+        "y_coordinate": 105143.25374330246,
+        "change_date": null
+    }
+}

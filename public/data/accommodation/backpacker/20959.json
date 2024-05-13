@@ -1,1 +1,46 @@
-{"type":"Feature","id":31474,"geometry":{"type":"Point","coordinates":[46.59646735537879,7.908138153780779]},"properties":{"id":20959,"land":"\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"","type":"Uebernachte","types":["backpacker","groupaccom"],"category":"all","language":"en","name":"Valley Hostel","stars_hotellerie":null,"stars_parahotellerie":null,"q_label":null,"hotelgroup":"Swiss Hostels","street":null,"zip":"3822","place":"Lauterbrunnen","tel":"+41 (0)33 855 20 08","beds":78,"campingplaces":null,"pricefrom":28.0,"priceto":43.0,"price_week":null,"email":"info@valleyhostel.ch","url1_text":"www.valleyhostel.ch","url1_link":"https://www.valleyhostel.ch","url2_text":"www.swisshostels.com","url2_link":"https://www.swisshostels.com","foto":"https://images0.schweizmobil.ch/image/Lauterbrunnen_SBP_Valley_Hostel.jpg","x_coordinate":635977.000603937,"y_coordinate":160686.00111962284,"change_date":null}}
+{
+    "type": "Feature",
+    "id": 37760,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.596458376066806,
+            7.90813809532009
+        ]
+    },
+    "properties": {
+        "id": 20959,
+        "land": "\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"",
+        "type": "Uebernachte",
+        "types": [
+            "backpacker",
+            "groupaccom"
+        ],
+        "category": "all",
+        "language": "en",
+        "name": "Valley Hostel",
+        "stars_hotellerie": null,
+        "stars_parahotellerie": null,
+        "q_label": null,
+        "hotelgroup": "Swiss Hostels",
+        "street": null,
+        "zip": "3822",
+        "place": "Lauterbrunnen",
+        "tel": "+41 (0)33 855 20 08",
+        "beds": 78,
+        "campingplaces": null,
+        "pricefrom": 28,
+        "priceto": 43,
+        "price_week": null,
+        "email": "info@valleyhostel.ch",
+        "url1_text": "www.valleyhostel.ch",
+        "url1_link": "https://www.valleyhostel.ch",
+        "url2_text": "www.swisshostels.com",
+        "url2_link": "https://www.swisshostels.com",
+        "foto": "https://images.schweizmobil.ch/image/Lauterbrunnen_SBP_Valley_Hostel.jpg",
+        "foto_abstract": null,
+        "x_coordinate": 635977.1048392048,
+        "y_coordinate": 160685.6976531047,
+        "change_date": null
+    }
+}

@@ -1,1 +1,46 @@
-{"type":"Feature","id":30307,"geometry":{"type":"Point","coordinates":[46.107666023178744,8.007698858967256]},"properties":{"id":27794,"land":"\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"","type":"Uebernachte","types":["groupaccom","mountainhut"],"category":"all","language":"en","name":"Almagellerhütte SAC","stars_hotellerie":null,"stars_parahotellerie":null,"q_label":null,"hotelgroup":"Schweizer Alpen-Club SAC","street":null,"zip":"3906","place":"Saas-Fee","tel":"+41 (0)27 957 11 79","beds":120,"campingplaces":null,"pricefrom":65.0,"priceto":85.0,"price_week":null,"email":"hugo.anth@bluewin.ch","url1_text":"www.almagellerhuette.ch","url1_link":"https://www.almagellerhuette.ch","url2_text":"www.alpsonline.org","url2_link":"https://www.alpsonline.org/reservation/calendar?hut_id=208&lang=de_CH","foto":"https://images0.schweizmobil.ch/image/Almagellerhuette_SAC.JPG","x_coordinate":644000.0006253867,"y_coordinate":106400.00109197755,"change_date":null}}
+{
+    "type": "Feature",
+    "id": 36632,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.107657070286365,
+            8.007685835315806
+        ]
+    },
+    "properties": {
+        "id": 27794,
+        "land": "\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"",
+        "type": "Uebernachte",
+        "types": [
+            "groupaccom",
+            "mountainhut"
+        ],
+        "category": "all",
+        "language": "en",
+        "name": "Almagellerhütte SAC",
+        "stars_hotellerie": null,
+        "stars_parahotellerie": null,
+        "q_label": null,
+        "hotelgroup": "Schweizer Alpen-Club SAC",
+        "street": null,
+        "zip": "3906",
+        "place": "Saas-Fee",
+        "tel": "+41 (0)27 957 11 79",
+        "beds": 120,
+        "campingplaces": null,
+        "pricefrom": 65,
+        "priceto": 85,
+        "price_week": null,
+        "email": "hugo.anth@bluewin.ch",
+        "url1_text": "www.almagellerhuette.ch",
+        "url1_link": "https://www.almagellerhuette.ch",
+        "url2_text": "www.alpsonline.org",
+        "url2_link": "https://www.alpsonline.org/reservation/calendar?hut_id=208&lang=de_CH",
+        "foto": "https://images.schweizmobil.ch/image/Almagellerhuette_SAC.JPG",
+        "foto_abstract": null,
+        "x_coordinate": 643999.8587904852,
+        "y_coordinate": 106399.89466927876,
+        "change_date": null
+    }
+}

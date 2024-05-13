@@ -1,1 +1,46 @@
-{"type":"Feature","id":30582,"geometry":{"type":"Point","coordinates":[46.43954196704115,8.514128953768333]},"properties":{"id":21942,"land":"\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"","type":"Uebernachte","types":["groupaccom","mountainhut"],"category":"all","language":"en","name":"Capanna Basodino (Robiei) CAS","stars_hotellerie":null,"stars_parahotellerie":null,"q_label":null,"hotelgroup":"Schweizer Alpen-Club SAC","street":null,"zip":"6675","place":"Cevio","tel":"+41 (0)91 753 27 97","beds":60,"campingplaces":null,"pricefrom":56.0,"priceto":62.0,"price_week":null,"email":"basodino@capannabasodino.ch","url1_text":"www.cas-locarno.ch","url1_link":"https://www.cas-locarno.ch","url2_text":"Online booking","url2_link":"http://www.alpenonline.ch/reservation/calendar?header=yes&hut_id=8&lang=de","foto":"https://images0.schweizmobil.ch/image/Capanna_Basodino_Robiei_CAS.jpg","x_coordinate":682650.0006484048,"y_coordinate":143700.00109917467,"change_date":null}}
+{
+    "type": "Feature",
+    "id": 36900,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.43954196104963,
+            8.51412897490259
+        ]
+    },
+    "properties": {
+        "id": 21942,
+        "land": "\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"",
+        "type": "Uebernachte",
+        "types": [
+            "groupaccom",
+            "mountainhut"
+        ],
+        "category": "all",
+        "language": "en",
+        "name": "Capanna Basodino (Robiei) CAS",
+        "stars_hotellerie": null,
+        "stars_parahotellerie": null,
+        "q_label": null,
+        "hotelgroup": "Schweizer Alpen-Club SAC",
+        "street": null,
+        "zip": "6675",
+        "place": "Cevio",
+        "tel": "+41 (0)91 753 27 97",
+        "beds": 60,
+        "campingplaces": null,
+        "pricefrom": 56,
+        "priceto": 62,
+        "price_week": null,
+        "email": "basodino@capannabasodino.ch",
+        "url1_text": "www.cas-locarno.ch",
+        "url1_link": "https://www.cas-locarno.ch",
+        "url2_text": "Online booking",
+        "url2_link": "http://www.alpenonline.ch/reservation/calendar?header=yes&hut_id=8&lang=de",
+        "foto": "https://images.schweizmobil.ch/image/Capanna_Basodino_Robiei_CAS.jpg",
+        "foto_abstract": null,
+        "x_coordinate": 682650.0750844372,
+        "y_coordinate": 143700.22584033504,
+        "change_date": null
+    }
+}

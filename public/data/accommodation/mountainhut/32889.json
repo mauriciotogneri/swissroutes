@@ -1,1 +1,45 @@
-{"type":"Feature","id":30592,"geometry":{"type":"Point","coordinates":[45.877122786830896,9.008264809200318]},"properties":{"id":32889,"land":"\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"","type":"Uebernachte","types":["mountainhut"],"category":"all","language":"en","name":"Capanna Caviano (Castel S.Pietro)","stars_hotellerie":null,"stars_parahotellerie":null,"q_label":null,"hotelgroup":null,"street":"Monte Generoso","zip":"6874","place":"Castel S. Pietro","tel":"+41 (0)77 478 45 00","beds":18,"campingplaces":null,"pricefrom":10.0,"priceto":10.0,"price_week":null,"email":"info@caviano.ch","url1_text":null,"url1_link":null,"url2_text":"www.capanneti.ch","url2_link":"https://www.capanneti.ch/it/capanne/caviano-castel-s-pietro","foto":"https://images0.schweizmobil.ch/image-big/22_Caviano_g.jpg","x_coordinate":721870.0006989223,"y_coordinate":81830.0010583784,"change_date":null}}
+{
+    "type": "Feature",
+    "id": 36910,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            45.87711379961008,
+            9.008264504991054
+        ]
+    },
+    "properties": {
+        "id": 32889,
+        "land": "\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"",
+        "type": "Uebernachte",
+        "types": [
+            "mountainhut"
+        ],
+        "category": "all",
+        "language": "en",
+        "name": "Capanna Caviano (Castel S.Pietro)",
+        "stars_hotellerie": null,
+        "stars_parahotellerie": null,
+        "q_label": null,
+        "hotelgroup": null,
+        "street": "Monte Generoso",
+        "zip": "6874",
+        "place": "Castel S. Pietro",
+        "tel": "+41 (0)77 478 45 00",
+        "beds": 18,
+        "campingplaces": null,
+        "pricefrom": 10,
+        "priceto": 10,
+        "price_week": null,
+        "email": "info@caviano.ch",
+        "url1_text": null,
+        "url1_link": null,
+        "url2_text": "www.capanneti.ch",
+        "url2_link": "https://www.capanneti.ch/it/capanne/caviano-castel-s-pietro",
+        "foto": "https://images.schweizmobil.ch/image-big/22_Caviano_g.jpg",
+        "foto_abstract": null,
+        "x_coordinate": 721870.0245481563,
+        "y_coordinate": 81829.71441672722,
+        "change_date": null
+    }
+}

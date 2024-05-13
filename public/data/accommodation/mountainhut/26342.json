@@ -1,1 +1,46 @@
-{"type":"Feature","id":30692,"geometry":{"type":"Point","coordinates":[46.61872107429783,9.691901177990136]},"properties":{"id":26342,"land":"\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"","type":"Uebernachte","types":["groupaccom","mountainhut"],"category":"all","language":"en","name":"Chamonas d'Ela CAS","stars_hotellerie":null,"stars_parahotellerie":null,"q_label":null,"hotelgroup":"Schweizer Alpen-Club SAC","street":null,"zip":"7477","place":"Filisur","tel":"+41 (0)78 878 98 41","beds":34,"campingplaces":null,"pricefrom":17.0,"priceto":25.0,"price_week":null,"email":"ela@sac-davos.ch","url1_text":"www.sac-davos.ch","url1_link":"https://www.sac-davos.ch","url2_text":null,"url2_link":null,"foto":"https://images0.schweizmobil.ch/image-big/SAC_Chamonas_d_Ela_2022_g.jpg","x_coordinate":772570.0007130948,"y_coordinate":165530.00108074752,"change_date":null}}
+{
+    "type": "Feature",
+    "id": 37008,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.61871233643332,
+            9.69188768675653
+        ]
+    },
+    "properties": {
+        "id": 26342,
+        "land": "\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"",
+        "type": "Uebernachte",
+        "types": [
+            "groupaccom",
+            "mountainhut"
+        ],
+        "category": "all",
+        "language": "en",
+        "name": "Chamonas d'Ela CAS",
+        "stars_hotellerie": null,
+        "stars_parahotellerie": null,
+        "q_label": null,
+        "hotelgroup": "Schweizer Alpen-Club SAC",
+        "street": null,
+        "zip": "7477",
+        "place": "Filisur",
+        "tel": "+41 (0)78 878 98 41",
+        "beds": 34,
+        "campingplaces": null,
+        "pricefrom": 17,
+        "priceto": 25,
+        "price_week": null,
+        "email": "ela@sac-davos.ch",
+        "url1_text": "www.sac-davos.ch",
+        "url1_link": "https://www.sac-davos.ch",
+        "url2_text": null,
+        "url2_link": null,
+        "foto": "https://images.schweizmobil.ch/image-big/SAC_Chamonas_d_Ela_2022_g.jpg",
+        "foto_abstract": null,
+        "x_coordinate": 772569.7498956984,
+        "y_coordinate": 165529.62924830455,
+        "change_date": null
+    }
+}

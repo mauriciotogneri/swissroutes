@@ -1,1 +1,45 @@
-{"type":"Feature","id":30707,"geometry":{"type":"Point","coordinates":[46.04186873222287,7.607082179879011]},"properties":{"id":30969,"land":"\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"","type":"Uebernachte","types":["mountainhut"],"category":"all","language":"en","name":"Col de la Dent Blanche CAS Bivouac (unbewartet)","stars_hotellerie":null,"stars_parahotellerie":null,"q_label":null,"hotelgroup":"Schweizer Alpen-Club SAC","street":null,"zip":"1983","place":"Evolène","tel":null,"beds":15,"campingplaces":null,"pricefrom":10.0,"priceto":20.0,"price_week":null,"email":null,"url1_text":"http://cas-jaman.ch/content/bivouac-de-la-dent-blanche","url1_link":"http://cas-jaman.ch/content/bivouac-de-la-dent-blanche","url2_text":null,"url2_link":null,"foto":"https://images0.schweizmobil.ch/image-small/Evolene_SAC_Bivouac_Col_de_la_Dent_Blanche.jpg","x_coordinate":613040.0005995461,"y_coordinate":98940.00109596556,"change_date":null}}
+{
+    "type": "Feature",
+    "id": 37023,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.04185978347814,
+            7.607069239366229
+        ]
+    },
+    "properties": {
+        "id": 30969,
+        "land": "\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"",
+        "type": "Uebernachte",
+        "types": [
+            "mountainhut"
+        ],
+        "category": "all",
+        "language": "en",
+        "name": "Col de la Dent Blanche CAS Bivouac (unbewartet)",
+        "stars_hotellerie": null,
+        "stars_parahotellerie": null,
+        "q_label": null,
+        "hotelgroup": "Schweizer Alpen-Club SAC",
+        "street": null,
+        "zip": "1983",
+        "place": "Evolène",
+        "tel": null,
+        "beds": 15,
+        "campingplaces": null,
+        "pricefrom": 10,
+        "priceto": 20,
+        "price_week": null,
+        "email": null,
+        "url1_text": "http://cas-jaman.ch/content/bivouac-de-la-dent-blanche",
+        "url1_link": "http://cas-jaman.ch/content/bivouac-de-la-dent-blanche",
+        "url2_text": null,
+        "url2_link": null,
+        "foto": "https://images.schweizmobil.ch/image-small/Evolene_SAC_Bivouac_Col_de_la_Dent_Blanche.jpg",
+        "foto_abstract": null,
+        "x_coordinate": 613039.9500146168,
+        "y_coordinate": 98939.80876179964,
+        "change_date": null
+    }
+}

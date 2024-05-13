@@ -1,1 +1,45 @@
-{"type":"Feature","id":30588,"geometry":{"type":"Point","coordinates":[46.54663110164823,8.71954058230994]},"properties":{"id":32610,"land":"\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"","type":"Uebernachte","types":["mountainhut"],"category":"all","language":"en","name":"Capanna Cadagno","stars_hotellerie":null,"stars_parahotellerie":null,"q_label":null,"hotelgroup":null,"street":"Val Piora","zip":"6777","place":"Quinto","tel":"+41 (0)91 868 13 23","beds":80,"campingplaces":null,"pricefrom":13.0,"priceto":13.0,"price_week":null,"email":"info@capannacadagno.ch","url1_text":"www.capannacadagno.ch","url1_link":"https://www.capannacadagno.ch","url2_text":"www.capanneti.ch","url2_link":"https://www.capanneti.ch/it/capanne/cadagno","foto":"https://images0.schweizmobil.ch/image-big/17_Cadagno_g.jpg","x_coordinate":698240.000657775,"y_coordinate":155840.00109997677,"change_date":null}}
+{
+    "type": "Feature",
+    "id": 36906,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.54663125771647,
+            8.719527507370021
+        ]
+    },
+    "properties": {
+        "id": 32610,
+        "land": "\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"",
+        "type": "Uebernachte",
+        "types": [
+            "mountainhut"
+        ],
+        "category": "all",
+        "language": "en",
+        "name": "Capanna Cadagno",
+        "stars_hotellerie": null,
+        "stars_parahotellerie": null,
+        "q_label": null,
+        "hotelgroup": null,
+        "street": "Val Piora",
+        "zip": "6777",
+        "place": "Quinto",
+        "tel": "+41 (0)91 868 13 23",
+        "beds": 80,
+        "campingplaces": null,
+        "pricefrom": 13,
+        "priceto": 13,
+        "price_week": null,
+        "email": "info@capannacadagno.ch",
+        "url1_text": "www.capannacadagno.ch",
+        "url1_link": "https://www.capannacadagno.ch",
+        "url2_text": "www.capanneti.ch",
+        "url2_link": "https://www.capanneti.ch/it/capanne/cadagno",
+        "foto": "https://images.schweizmobil.ch/image-big/17_Cadagno_g.jpg",
+        "foto_abstract": null,
+        "x_coordinate": 698239.9567544875,
+        "y_coordinate": 155840.35490523605,
+        "change_date": null
+    }
+}

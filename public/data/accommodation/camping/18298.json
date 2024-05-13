@@ -1,1 +1,46 @@
-{"type":"Feature","id":30824,"geometry":{"type":"Point","coordinates":[46.78519580848775,8.15163920273494]},"properties":{"id":18298,"land":"\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"","type":"Uebernachte","types":["hotel","campingsite"],"category":"all","language":"en","name":"Grill-Speiserestaurant Camping Obsee","stars_hotellerie":null,"stars_parahotellerie":null,"q_label":null,"hotelgroup":"GastroSuisse","street":"Campingstrasse 1","zip":"6078","place":"Lungern","tel":"+41 (0)41 678 14 63","beds":10,"campingplaces":120,"pricefrom":10.0,"priceto":10.0,"price_week":null,"email":"obsee@bluewin.ch","url1_text":"www.obsee.ch","url1_link":"https://www.obsee.ch","url2_text":null,"url2_link":null,"foto":"https://images0.schweizmobil.ch/image/Lungern_Obseejpg","x_coordinate":654445.0006138731,"y_coordinate":181806.0011234775,"change_date":null}}
+{
+    "type": "Feature",
+    "id": 37131,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.7851868070683,
+            8.151639103276949
+        ]
+    },
+    "properties": {
+        "id": 18298,
+        "land": "\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"",
+        "type": "Uebernachte",
+        "types": [
+            "hotel",
+            "campingsite"
+        ],
+        "category": "all",
+        "language": "en",
+        "name": "Grill-Speiserestaurant Camping Obsee",
+        "stars_hotellerie": null,
+        "stars_parahotellerie": null,
+        "q_label": null,
+        "hotelgroup": "GastroSuisse",
+        "street": "Campingstrasse 1",
+        "zip": "6078",
+        "place": "Lungern",
+        "tel": "+41 (0)41 678 14 63",
+        "beds": 10,
+        "campingplaces": 120,
+        "pricefrom": 10,
+        "priceto": 10,
+        "price_week": null,
+        "email": "obsee@bluewin.ch",
+        "url1_text": "www.obsee.ch",
+        "url1_link": "https://www.obsee.ch",
+        "url2_text": null,
+        "url2_link": null,
+        "foto": "https://images.schweizmobil.ch/image/Lungern_Obseejpg",
+        "foto_abstract": null,
+        "x_coordinate": 654445.1299589806,
+        "y_coordinate": 181805.84050374205,
+        "change_date": null
+    }
+}

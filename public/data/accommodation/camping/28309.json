@@ -1,1 +1,45 @@
-{"type":"Feature","id":30544,"geometry":{"type":"Point","coordinates":[47.519627313440544,8.715550709328774]},"properties":{"id":28309,"land":"\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"","type":"Uebernachte","types":["campingsite"],"category":"all","language":"en","name":"Camping am Schützenweiher","stars_hotellerie":null,"stars_parahotellerie":"3","q_label":null,"hotelgroup":null,"street":"Eichliwaldstr. 4","zip":"8400","place":"Winterthur","tel":"+41 (0)52 212 52 60","beds":null,"campingplaces":20,"pricefrom":12.5,"priceto":17.0,"price_week":null,"email":"info@camping-winterthur.info","url1_text":"www.camping-winterthur.info","url1_link":"https://www.camping-winterthur.info","url2_text":null,"url2_link":null,"foto":"https://images0.schweizmobil.ch/image-big/Winterthur_Camping_g.jpg","x_coordinate":696174.0006227777,"y_coordinate":263992.0011396586,"change_date":null}}
+{
+    "type": "Feature",
+    "id": 36864,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            47.51962744996117,
+            8.715537411726999
+        ]
+    },
+    "properties": {
+        "id": 28309,
+        "land": "\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"",
+        "type": "Uebernachte",
+        "types": [
+            "campingsite"
+        ],
+        "category": "all",
+        "language": "en",
+        "name": "Camping am Schützenweiher",
+        "stars_hotellerie": null,
+        "stars_parahotellerie": "3",
+        "q_label": null,
+        "hotelgroup": null,
+        "street": "Eichliwaldstr. 4",
+        "zip": "8400",
+        "place": "Winterthur",
+        "tel": "+41 (0)52 212 52 60",
+        "beds": null,
+        "campingplaces": 20,
+        "pricefrom": 12.5,
+        "priceto": 17,
+        "price_week": null,
+        "email": "info@camping-winterthur.info",
+        "url1_text": "www.camping-winterthur.info",
+        "url1_link": "https://www.camping-winterthur.info",
+        "url2_text": null,
+        "url2_link": null,
+        "foto": "https://images.schweizmobil.ch/image-big/Winterthur_Camping_g.jpg",
+        "foto_abstract": null,
+        "x_coordinate": 696173.6637318237,
+        "y_coordinate": 263992.03197484976,
+        "change_date": null
+    }
+}

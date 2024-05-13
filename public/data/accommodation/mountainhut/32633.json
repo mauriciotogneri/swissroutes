@@ -1,1 +1,45 @@
-{"type":"Feature","id":30621,"geometry":{"type":"Point","coordinates":[46.198835533934215,8.831859205498066]},"properties":{"id":32633,"land":"\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"","type":"Uebernachte","types":["mountainhut"],"category":"all","language":"en","name":"Capanna Monti di Lego","stars_hotellerie":null,"stars_parahotellerie":null,"q_label":null,"hotelgroup":null,"street":"Val Resa","zip":"6647","place":"Mergoscia","tel":"+41 (0)79 384 76 58","beds":10,"campingplaces":null,"pricefrom":20.0,"priceto":20.0,"price_week":null,"email":"claudia-mario@bluewin.ch","url1_text":"www.capanna-lego.ch","url1_link":"https://www.capanna-lego.ch/","url2_text":"www.capanneti.ch","url2_link":"https://www.capanneti.ch/it/capanne/monti-di-lego","foto":"https://images0.schweizmobil.ch/image-big/50_Monti_di_Lego_g.jpg","x_coordinate":707540.0006767442,"y_coordinate":117330.00107991263,"change_date":null}}
+{
+    "type": "Feature",
+    "id": 36939,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.19883556193902,
+            8.83185925150051
+        ]
+    },
+    "properties": {
+        "id": 32633,
+        "land": "\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"",
+        "type": "Uebernachte",
+        "types": [
+            "mountainhut"
+        ],
+        "category": "all",
+        "language": "en",
+        "name": "Capanna Monti di Lego",
+        "stars_hotellerie": null,
+        "stars_parahotellerie": null,
+        "q_label": null,
+        "hotelgroup": null,
+        "street": "Val Resa",
+        "zip": "6647",
+        "place": "Mergoscia",
+        "tel": "+41 (0)79 384 76 58",
+        "beds": 10,
+        "campingplaces": null,
+        "pricefrom": 20,
+        "priceto": 20,
+        "price_week": null,
+        "email": "claudia-mario@bluewin.ch",
+        "url1_text": "www.capanna-lego.ch",
+        "url1_link": "https://www.capanna-lego.ch/",
+        "url2_text": "www.capanneti.ch",
+        "url2_link": "https://www.capanneti.ch/it/capanne/monti-di-lego",
+        "foto": "https://images.schweizmobil.ch/image-big/50_Monti_di_Lego_g.jpg",
+        "foto_abstract": null,
+        "x_coordinate": 707540.1302339009,
+        "y_coordinate": 117330.02614063163,
+        "change_date": null
+    }
+}

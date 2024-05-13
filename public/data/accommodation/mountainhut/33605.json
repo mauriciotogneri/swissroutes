@@ -1,1 +1,45 @@
-{"type":"Feature","id":31353,"geometry":{"type":"Point","coordinates":[46.29704894307336,9.13918446995584]},"properties":{"id":33605,"land":"\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"","type":"Uebernachte","types":["mountainhut"],"category":"all","language":"en","name":"Rifugi Pian Grand","stars_hotellerie":null,"stars_parahotellerie":null,"q_label":null,"hotelgroup":null,"street":"Mesolcina","zip":"6563","place":"Mesocco","tel":"+41 (0)91 828 14 67","beds":18,"campingplaces":null,"pricefrom":23.0,"priceto":23.0,"price_week":null,"email":"huettenwart@sentiero-calanca.ch","url1_text":"www.sentiero-calanca.ch","url1_link":"https://www.sentiero-calanca.ch","url2_text":null,"url2_link":null,"foto":"https://images0.schweizmobil.ch/image-big/pian-grand_g.jpg","x_coordinate":731022.0006925083,"y_coordinate":128713.00107824798,"change_date":null}}
+{
+    "type": "Feature",
+    "id": 37633,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.297039939030526,
+            9.139184106908093
+        ]
+    },
+    "properties": {
+        "id": 33605,
+        "land": "\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"",
+        "type": "Uebernachte",
+        "types": [
+            "mountainhut"
+        ],
+        "category": "all",
+        "language": "en",
+        "name": "Rifugi Pian Grand",
+        "stars_hotellerie": null,
+        "stars_parahotellerie": null,
+        "q_label": null,
+        "hotelgroup": null,
+        "street": "Mesolcina",
+        "zip": "6563",
+        "place": "Mesocco",
+        "tel": "+41 (0)91 828 14 67",
+        "beds": 18,
+        "campingplaces": null,
+        "pricefrom": 23,
+        "priceto": 23,
+        "price_week": null,
+        "email": "huettenwart@sentiero-calanca.ch",
+        "url1_text": "www.sentiero-calanca.ch",
+        "url1_link": "https://www.sentiero-calanca.ch",
+        "url2_text": null,
+        "url2_link": null,
+        "foto": "https://images.schweizmobil.ch/image-big/pian-grand_g.jpg",
+        "foto_abstract": null,
+        "x_coordinate": 731022.3910329747,
+        "y_coordinate": 128712.7492631978,
+        "change_date": null
+    }
+}

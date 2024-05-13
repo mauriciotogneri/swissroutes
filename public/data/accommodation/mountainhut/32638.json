@@ -1,1 +1,45 @@
-{"type":"Feature","id":30628,"geometry":{"type":"Point","coordinates":[46.3910360352559,8.48690460055483]},"properties":{"id":32638,"land":"\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"","type":"Uebernachte","types":["mountainhut"],"category":"all","language":"en","name":"Capanna Pian di Crest","stars_hotellerie":null,"stars_parahotellerie":null,"q_label":null,"hotelgroup":null,"street":"Val Bavona","zip":"6675","place":"Cevio","tel":"+41 (0)91 755 14 14","beds":36,"campingplaces":null,"pricefrom":20.0,"priceto":20.0,"price_week":null,"email":"savvallemaggia@gmail.com","url1_text":"www.sav-vallemaggia.ch","url1_link":"https://www.sav-vallemaggia.ch/tours/pian-di-crest/","url2_text":"www.capanneti.ch","url2_link":"https://www.capanneti.ch/it/capanne/pian-di-crest","foto":"https://images0.schweizmobil.ch/image-big/56_Pian_Di_Crest_g.jpg","x_coordinate":680630.0006482579,"y_coordinate":138280.00109730358,"change_date":null}}
+{
+    "type": "Feature",
+    "id": 36946,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.39102714868386,
+            8.486891466867089
+        ]
+    },
+    "properties": {
+        "id": 32638,
+        "land": "\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"",
+        "type": "Uebernachte",
+        "types": [
+            "mountainhut"
+        ],
+        "category": "all",
+        "language": "en",
+        "name": "Capanna Pian di Crest",
+        "stars_hotellerie": null,
+        "stars_parahotellerie": null,
+        "q_label": null,
+        "hotelgroup": null,
+        "street": "Val Bavona",
+        "zip": "6675",
+        "place": "Cevio",
+        "tel": "+41 (0)91 755 14 14",
+        "beds": 36,
+        "campingplaces": null,
+        "pricefrom": 20,
+        "priceto": 20,
+        "price_week": null,
+        "email": "savvallemaggia@gmail.com",
+        "url1_text": "www.sav-vallemaggia.ch",
+        "url1_link": "https://www.sav-vallemaggia.ch/tours/pian-di-crest/",
+        "url2_text": "www.capanneti.ch",
+        "url2_link": "https://www.capanneti.ch/it/capanne/pian-di-crest",
+        "foto": "https://images.schweizmobil.ch/image-big/56_Pian_Di_Crest_g.jpg",
+        "foto_abstract": null,
+        "x_coordinate": 680629.643132673,
+        "y_coordinate": 138279.772542907,
+        "change_date": null
+    }
+}

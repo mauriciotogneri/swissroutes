@@ -1,1 +1,46 @@
-{"type":"Feature","id":30712,"geometry":{"type":"Point","coordinates":[46.59332880165075,9.359015601657292]},"properties":{"id":27740,"land":"\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"","type":"Uebernachte","types":["groupaccom","mountainhut"],"category":"all","language":"en","name":"Cufercalhütte SAC","stars_hotellerie":null,"stars_parahotellerie":null,"q_label":null,"hotelgroup":"Schweizer Alpen-Club SAC","street":null,"zip":"7434","place":"Sufers","tel":"079 954 65 71","beds":23,"campingplaces":null,"pricefrom":67.0,"priceto":77.0,"price_week":null,"email":"info@cufercalhuette.ch","url1_text":"www.cufercalhuette.ch","url1_link":"https://www.cufercalhuette.ch","url2_text":null,"url2_link":null,"foto":"https://images0.schweizmobil.ch/image-big/SAC_Cufercalhuette_2022_g.jpg","x_coordinate":747150.0006948516,"y_coordinate":162030.00108757964,"change_date":null}}
+{
+    "type": "Feature",
+    "id": 37026,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.59331979881185,
+            9.359015347503366
+        ]
+    },
+    "properties": {
+        "id": 27740,
+        "land": "\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"",
+        "type": "Uebernachte",
+        "types": [
+            "groupaccom",
+            "mountainhut"
+        ],
+        "category": "all",
+        "language": "en",
+        "name": "Cufercalhütte SAC",
+        "stars_hotellerie": null,
+        "stars_parahotellerie": null,
+        "q_label": null,
+        "hotelgroup": "Schweizer Alpen-Club SAC",
+        "street": null,
+        "zip": "7434",
+        "place": "Sufers",
+        "tel": "079 954 65 71",
+        "beds": 23,
+        "campingplaces": null,
+        "pricefrom": 67,
+        "priceto": 77,
+        "price_week": null,
+        "email": "info@cufercalhuette.ch",
+        "url1_text": "www.cufercalhuette.ch",
+        "url1_link": "https://www.cufercalhuette.ch",
+        "url2_text": null,
+        "url2_link": null,
+        "foto": "https://images.schweizmobil.ch/image-big/SAC_Cufercalhuette_2022_g.jpg",
+        "foto_abstract": null,
+        "x_coordinate": 747150.2456454101,
+        "y_coordinate": 162029.75898325176,
+        "change_date": null
+    }
+}

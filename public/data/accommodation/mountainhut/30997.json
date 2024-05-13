@@ -1,1 +1,45 @@
-{"type":"Feature","id":30529,"geometry":{"type":"Point","coordinates":[45.98981524273343,7.475675329101695]},"properties":{"id":30997,"land":"\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"","type":"Uebernachte","types":["mountainhut"],"category":"all","language":"en","name":"Cabane des Vignettes CAS","stars_hotellerie":null,"stars_parahotellerie":null,"q_label":null,"hotelgroup":"Schweizer Alpen-Club SAC","street":null,"zip":"1983","place":"Evolène","tel":"+41 (0)27 283 13 22","beds":125,"campingplaces":null,"pricefrom":65.0,"priceto":85.0,"price_week":null,"email":"info@cabanedesvignettes.ch","url1_text":"www.cabanedesvignettes.ch","url1_link":"https://www.cabanedesvignettes.ch","url2_text":null,"url2_link":null,"foto":"https://images0.schweizmobil.ch/image-small/Evolene_SAC_Cabane_des_Vignettes.jpg","x_coordinate":602870.000591673,"y_coordinate":93140.00109539136,"change_date":null}}
+{
+    "type": "Feature",
+    "id": 36848,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            45.989815214981355,
+            7.475675329502135
+        ]
+    },
+    "properties": {
+        "id": 30997,
+        "land": "\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"",
+        "type": "Uebernachte",
+        "types": [
+            "mountainhut"
+        ],
+        "category": "all",
+        "language": "en",
+        "name": "Cabane des Vignettes CAS",
+        "stars_hotellerie": null,
+        "stars_parahotellerie": null,
+        "q_label": null,
+        "hotelgroup": "Schweizer Alpen-Club SAC",
+        "street": null,
+        "zip": "1983",
+        "place": "Evolène",
+        "tel": "+41 (0)27 283 13 22",
+        "beds": 125,
+        "campingplaces": null,
+        "pricefrom": 65,
+        "priceto": 85,
+        "price_week": null,
+        "email": "info@cabanedesvignettes.ch",
+        "url1_text": "www.cabanedesvignettes.ch",
+        "url1_link": "https://www.cabanedesvignettes.ch",
+        "url2_text": null,
+        "url2_link": null,
+        "foto": "https://images.schweizmobil.ch/image-small/Evolene_SAC_Cabane_des_Vignettes.jpg",
+        "foto_abstract": null,
+        "x_coordinate": 602870.2695349115,
+        "y_coordinate": 93140.33888523097,
+        "change_date": null
+    }
+}

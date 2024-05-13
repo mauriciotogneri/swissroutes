@@ -1,1 +1,45 @@
-{"type":"Feature","id":30475,"geometry":{"type":"Point","coordinates":[45.92723593419283,7.068935710893991]},"properties":{"id":30970,"land":"\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"","type":"Uebernachte","types":["mountainhut"],"category":"all","language":"en","name":"Bivouac du Dolent-La Maye CAS (unbewartet)","stars_hotellerie":null,"stars_parahotellerie":null,"q_label":null,"hotelgroup":"Schweizer Alpen-Club SAC","street":null,"zip":"1937","place":"Orsières","tel":null,"beds":12,"campingplaces":null,"pricefrom":10.0,"priceto":20.0,"price_week":null,"email":"leo.zanon@bluewin.ch","url1_text":"www.cas-gruyere.ch/cabanes/dolent.htm","url1_link":"https://www.cas-gruyere.ch/cabanes/dolent.htm","url2_text":null,"url2_link":null,"foto":"https://images0.schweizmobil.ch/image-small/Orsieres_SAC_Bivouac_Dolent_La_Maye.jpg","x_coordinate":571320.0005639234,"y_coordinate":86250.00109901783,"change_date":null}}
+{
+    "type": "Feature",
+    "id": 36785,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            45.927226968514724,
+            7.0689357772375505
+        ]
+    },
+    "properties": {
+        "id": 30970,
+        "land": "\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"",
+        "type": "Uebernachte",
+        "types": [
+            "mountainhut"
+        ],
+        "category": "all",
+        "language": "en",
+        "name": "Bivouac du Dolent-La Maye CAS (unbewartet)",
+        "stars_hotellerie": null,
+        "stars_parahotellerie": null,
+        "q_label": null,
+        "hotelgroup": "Schweizer Alpen-Club SAC",
+        "street": null,
+        "zip": "1937",
+        "place": "Orsières",
+        "tel": null,
+        "beds": 12,
+        "campingplaces": null,
+        "pricefrom": 10,
+        "priceto": 20,
+        "price_week": null,
+        "email": "leo.zanon@bluewin.ch",
+        "url1_text": "www.cas-gruyere.ch/cabanes/dolent.htm",
+        "url1_link": "https://www.cas-gruyere.ch/cabanes/dolent.htm",
+        "url2_text": null,
+        "url2_link": null,
+        "foto": "https://images.schweizmobil.ch/image-small/Orsieres_SAC_Bivouac_Dolent_La_Maye.jpg",
+        "foto_abstract": null,
+        "x_coordinate": 571320.3786383597,
+        "y_coordinate": 86249.6485527857,
+        "change_date": null
+    }
+}

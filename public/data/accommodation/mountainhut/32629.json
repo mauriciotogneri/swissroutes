@@ -1,1 +1,45 @@
-{"type":"Feature","id":30617,"geometry":{"type":"Point","coordinates":[46.4669274532595,8.718829094348173]},"properties":{"id":32629,"land":"\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"","type":"Uebernachte","types":["mountainhut"],"category":"all","language":"en","name":"Capanna Leìt","stars_hotellerie":null,"stars_parahotellerie":null,"q_label":null,"hotelgroup":null,"street":null,"zip":"6773","place":"Prato (Leventina)","tel":"+41 (0)91 868 19 20","beds":52,"campingplaces":null,"pricefrom":18.0,"priceto":18.0,"price_week":null,"email":"leit@satmendrisio.ch","url1_text":"www.capanna-leit.ch","url1_link":"https://www.capanna-leit.ch/","url2_text":"www.capanneti.ch","url2_link":"https://www.capanneti.ch/it/capanne/leit","foto":"https://images0.schweizmobil.ch/image-big/45_Leìt_g.jpg","x_coordinate":698330.0006604646,"y_coordinate":146980.00109610127,"change_date":null}}
+{
+    "type": "Feature",
+    "id": 36935,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.46691846274835,
+            8.718828900881242
+        ]
+    },
+    "properties": {
+        "id": 32629,
+        "land": "\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"",
+        "type": "Uebernachte",
+        "types": [
+            "mountainhut"
+        ],
+        "category": "all",
+        "language": "en",
+        "name": "Capanna Leìt",
+        "stars_hotellerie": null,
+        "stars_parahotellerie": null,
+        "q_label": null,
+        "hotelgroup": null,
+        "street": null,
+        "zip": "6773",
+        "place": "Prato (Leventina)",
+        "tel": "+41 (0)91 868 19 20",
+        "beds": 52,
+        "campingplaces": null,
+        "pricefrom": 18,
+        "priceto": 18,
+        "price_week": null,
+        "email": "leit@satmendrisio.ch",
+        "url1_text": "www.capanna-leit.ch",
+        "url1_link": "https://www.capanna-leit.ch/",
+        "url2_text": "www.capanneti.ch",
+        "url2_link": "https://www.capanneti.ch/it/capanne/leit",
+        "foto": "https://images.schweizmobil.ch/image-big/45_Leìt_g.jpg",
+        "foto_abstract": null,
+        "x_coordinate": 698330.0793394535,
+        "y_coordinate": 146979.658409727,
+        "change_date": null
+    }
+}

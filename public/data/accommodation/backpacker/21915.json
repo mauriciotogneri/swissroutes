@@ -1,1 +1,47 @@
-{"type":"Feature","id":31286,"geometry":{"type":"Point","coordinates":[46.628051416294085,8.033324094517205]},"properties":{"id":21915,"land":"\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"","type":"Uebernachte","types":["bedbreakfast","backpacker","groupaccom"],"category":"all","language":"en","name":"Naturfreundehaus Grindelwald","stars_hotellerie":null,"stars_parahotellerie":null,"q_label":null,"hotelgroup":"Amis de la Nature Suisse","street":"Terrassenweg 18","zip":"3818","place":"Grindelwald","tel":"+41 (0)33 853 13 33","beds":65,"campingplaces":null,"pricefrom":40.0,"priceto":46.0,"price_week":null,"email":"grindelwald@nfh.ch","url1_text":"www.nfh.ch/grindelwald","url1_link":"https://www.nfh.ch/grindelwald","url2_text":null,"url2_link":null,"foto":"https://images0.schweizmobil.ch/image/Grindelwald_Naturfreundehaus.jpg","x_coordinate":645543.0006112012,"y_coordinate":164262.0011185859,"change_date":null}}
+{
+    "type": "Feature",
+    "id": 37567,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.62805147351607,
+            8.033311035865966
+        ]
+    },
+    "properties": {
+        "id": 21915,
+        "land": "\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"",
+        "type": "Uebernachte",
+        "types": [
+            "bedbreakfast",
+            "backpacker",
+            "groupaccom"
+        ],
+        "category": "all",
+        "language": "en",
+        "name": "Naturfreundehaus Grindelwald",
+        "stars_hotellerie": null,
+        "stars_parahotellerie": null,
+        "q_label": null,
+        "hotelgroup": "Amis de la Nature Suisse",
+        "street": "Terrassenweg 18",
+        "zip": "3818",
+        "place": "Grindelwald",
+        "tel": "+41 (0)33 853 13 33",
+        "beds": 65,
+        "campingplaces": null,
+        "pricefrom": 40,
+        "priceto": 46,
+        "price_week": null,
+        "email": "grindelwald@nfh.ch",
+        "url1_text": "www.nfh.ch/grindelwald",
+        "url1_link": "https://www.nfh.ch/grindelwald",
+        "url2_text": null,
+        "url2_link": null,
+        "foto": "https://images.schweizmobil.ch/image/Grindelwald_Naturfreundehaus.jpg",
+        "foto_abstract": null,
+        "x_coordinate": 645542.679224049,
+        "y_coordinate": 164262.31852716443,
+        "change_date": null
+    }
+}

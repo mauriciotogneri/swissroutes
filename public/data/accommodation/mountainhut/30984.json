@@ -1,1 +1,45 @@
-{"type":"Feature","id":31295,"geometry":{"type":"Point","coordinates":[46.52601276202765,8.173186488264548]},"properties":{"id":30984,"land":"\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"","type":"Uebernachte","types":["mountainhut"],"category":"all","language":"en","name":"Oberaarjochhütte SAC","stars_hotellerie":null,"stars_parahotellerie":null,"q_label":null,"hotelgroup":"Schweizer Alpen-Club SAC","street":null,"zip":"3984","place":"Fieschertal","tel":"+41 (0)33 973 13 82","beds":45,"campingplaces":null,"pricefrom":65.0,"priceto":85.0,"price_week":null,"email":"konkordia@gmx.ch","url1_text":"www.oberaarjochhuette.ch","url1_link":"https://www.oberaarjochhuette.ch","url2_text":"Online booking","url2_link":"http://www.alpenonline.ch/reservation/calendar?header=yes&hut_id=15&lang=de","foto":"https://images0.schweizmobil.ch/image-small/Fieschertal_SAC_Oberaarjochhuette.jpg","x_coordinate":656360.000623558,"y_coordinate":153010.00111068733,"change_date":null}}
+{
+    "type": "Feature",
+    "id": 37576,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.52601275933851,
+            8.173186502801965
+        ]
+    },
+    "properties": {
+        "id": 30984,
+        "land": "\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"",
+        "type": "Uebernachte",
+        "types": [
+            "mountainhut"
+        ],
+        "category": "all",
+        "language": "en",
+        "name": "Oberaarjochhütte SAC",
+        "stars_hotellerie": null,
+        "stars_parahotellerie": null,
+        "q_label": null,
+        "hotelgroup": "Schweizer Alpen-Club SAC",
+        "street": null,
+        "zip": "3984",
+        "place": "Fieschertal",
+        "tel": "+41 (0)33 973 13 82",
+        "beds": 45,
+        "campingplaces": null,
+        "pricefrom": 65,
+        "priceto": 85,
+        "price_week": null,
+        "email": "konkordia@gmx.ch",
+        "url1_text": "www.oberaarjochhuette.ch",
+        "url1_link": "https://www.oberaarjochhuette.ch",
+        "url2_text": "Online booking",
+        "url2_link": "http://www.alpenonline.ch/reservation/calendar?header=yes&hut_id=15&lang=de",
+        "foto": "https://images.schweizmobil.ch/image-small/Fieschertal_SAC_Oberaarjochhuette.jpg",
+        "foto_abstract": null,
+        "x_coordinate": 656360.2334554429,
+        "y_coordinate": 153010.1306758813,
+        "change_date": null
+    }
+}

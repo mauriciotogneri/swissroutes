@@ -1,1 +1,46 @@
-{"type":"Feature","id":30754,"geometry":{"type":"Point","coordinates":[46.80635768937403,8.120043779517761]},"properties":{"id":31705,"land":"\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"","type":"Uebernachte","types":["groupaccom","mountainhut"],"category":"all","language":"en","name":"Fluonalp Alpkäserei und Beizli","stars_hotellerie":null,"stars_parahotellerie":null,"q_label":null,"hotelgroup":null,"street":null,"zip":"6074","place":"Giswil","tel":"+41 (0)41 675 26 59","beds":50,"campingplaces":null,"pricefrom":34.0,"priceto":47.0,"price_week":null,"email":"fluonalp@giswilerstock.ch","url1_text":"www.fluonalp.ch","url1_link":"https://www.fluonalp.ch","url2_text":null,"url2_link":null,"foto":"https://images0.schweizmobil.ch/image-small/Giswil_Fluonalp.jpg","x_coordinate":652012.000611165,"y_coordinate":184137.00112510743,"change_date":null}}
+{
+    "type": "Feature",
+    "id": 37066,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.80634876778767,
+            8.120030562362881
+        ]
+    },
+    "properties": {
+        "id": 31705,
+        "land": "\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"",
+        "type": "Uebernachte",
+        "types": [
+            "groupaccom",
+            "mountainhut"
+        ],
+        "category": "all",
+        "language": "en",
+        "name": "Fluonalp Alpkäserei und Beizli",
+        "stars_hotellerie": null,
+        "stars_parahotellerie": null,
+        "q_label": null,
+        "hotelgroup": null,
+        "street": null,
+        "zip": "6074",
+        "place": "Giswil",
+        "tel": "+41 (0)41 675 26 59",
+        "beds": 50,
+        "campingplaces": null,
+        "pricefrom": 34,
+        "priceto": 47,
+        "price_week": null,
+        "email": "fluonalp@giswilerstock.ch",
+        "url1_text": "www.fluonalp.ch",
+        "url1_link": "https://www.fluonalp.ch",
+        "url2_text": null,
+        "url2_link": null,
+        "foto": "https://images.schweizmobil.ch/image-small/Giswil_Fluonalp.jpg",
+        "foto_abstract": null,
+        "x_coordinate": 652011.7967316571,
+        "y_coordinate": 184136.64084650206,
+        "change_date": null
+    }
+}

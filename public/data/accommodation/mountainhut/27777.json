@@ -1,1 +1,46 @@
-{"type":"Feature","id":30304,"geometry":{"type":"Point","coordinates":[46.60914706097936,8.462935882047493]},"properties":{"id":27777,"land":"\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"","type":"Uebernachte","types":["groupaccom","mountainhut"],"category":"all","language":"en","name":"Albert-Heim-Hütte SAC","stars_hotellerie":null,"stars_parahotellerie":null,"q_label":null,"hotelgroup":"Schweizer Alpen-Club SAC","street":null,"zip":"6491","place":"Realp","tel":"+41 (0)41 887 17 45","beds":64,"campingplaces":null,"pricefrom":65.0,"priceto":85.0,"price_week":null,"email":"info@albertheimhuette.ch","url1_text":"http://www.albertheimhuette.ch","url1_link":"http://www.albertheimhuette.ch","url2_text":null,"url2_link":null,"foto":"https://images0.schweizmobil.ch/image/Albert_Heim_Huette_SAC.jpg","x_coordinate":678470.0006395057,"y_coordinate":162500.0011085755,"change_date":null}}
+{
+    "type": "Feature",
+    "id": 36629,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.60913807948302,
+            8.462935723210807
+        ]
+    },
+    "properties": {
+        "id": 27777,
+        "land": "\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"",
+        "type": "Uebernachte",
+        "types": [
+            "groupaccom",
+            "mountainhut"
+        ],
+        "category": "all",
+        "language": "en",
+        "name": "Albert-Heim-Hütte SAC",
+        "stars_hotellerie": null,
+        "stars_parahotellerie": null,
+        "q_label": null,
+        "hotelgroup": "Schweizer Alpen-Club SAC",
+        "street": null,
+        "zip": "6491",
+        "place": "Realp",
+        "tel": "+41 (0)41 887 17 45",
+        "beds": 64,
+        "campingplaces": null,
+        "pricefrom": 65,
+        "priceto": 85,
+        "price_week": null,
+        "email": "info@albertheimhuette.ch",
+        "url1_text": "http://www.albertheimhuette.ch",
+        "url1_link": "http://www.albertheimhuette.ch",
+        "url2_text": null,
+        "url2_link": null,
+        "foto": "https://images.schweizmobil.ch/image/Albert_Heim_Huette_SAC.jpg",
+        "foto_abstract": null,
+        "x_coordinate": 678470.3295790827,
+        "y_coordinate": 162499.65174997045,
+        "change_date": null
+    }
+}

@@ -1,1 +1,46 @@
-{"type":"Feature","id":31487,"geometry":{"type":"Point","coordinates":[46.14379574503418,7.977791430217978]},"properties":{"id":27820,"land":"\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"","type":"Uebernachte","types":["groupaccom","mountainhut"],"category":"all","language":"en","name":"Weissmieshütten SAC","stars_hotellerie":null,"stars_parahotellerie":null,"q_label":null,"hotelgroup":"Schweizer Alpen-Club SAC","street":null,"zip":"3910","place":"Saas Grund","tel":"+41 (0)27 957 25 54","beds":135,"campingplaces":null,"pricefrom":65.0,"priceto":85.0,"price_week":null,"email":"huette@weissmieshuette.ch","url1_text":"www.sac-olten.ch","url1_link":"https://www.sac-olten.ch","url2_text":null,"url2_link":null,"foto":"https://images0.schweizmobil.ch/image/Weissmieshuetten_SAC.jpg","x_coordinate":641660.0006222735,"y_coordinate":110400.00109457658,"change_date":null}}
+{
+    "type": "Feature",
+    "id": 37773,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.14378678275595,
+            7.977778404375243
+        ]
+    },
+    "properties": {
+        "id": 27820,
+        "land": "\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"",
+        "type": "Uebernachte",
+        "types": [
+            "groupaccom",
+            "mountainhut"
+        ],
+        "category": "all",
+        "language": "en",
+        "name": "Weissmieshütten SAC",
+        "stars_hotellerie": null,
+        "stars_parahotellerie": null,
+        "q_label": null,
+        "hotelgroup": "Schweizer Alpen-Club SAC",
+        "street": null,
+        "zip": "3910",
+        "place": "Saas Grund",
+        "tel": "+41 (0)27 957 25 54",
+        "beds": 135,
+        "campingplaces": null,
+        "pricefrom": 65,
+        "priceto": 85,
+        "price_week": null,
+        "email": "huette@weissmieshuette.ch",
+        "url1_text": "www.sac-olten.ch",
+        "url1_link": "https://www.sac-olten.ch",
+        "url2_text": null,
+        "url2_link": null,
+        "foto": "https://images.schweizmobil.ch/image/Weissmieshuetten_SAC.jpg",
+        "foto_abstract": null,
+        "x_coordinate": 641659.6452390063,
+        "y_coordinate": 110399.91354096352,
+        "change_date": null
+    }
+}

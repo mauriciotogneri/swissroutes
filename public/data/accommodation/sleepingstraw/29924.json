@@ -1,1 +1,45 @@
-{"type":"Feature","id":30852,"geometry":{"type":"Point","coordinates":[46.29993028213522,7.847990831996313]},"properties":{"id":29924,"land":"\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"","type":"Uebernachte","types":["sleepingstraw"],"category":"all","language":"en","name":"Hof Gentinetta","stars_hotellerie":null,"stars_parahotellerie":null,"q_label":null,"hotelgroup":"Agritourism Switzerland","street":"Grosseye","zip":"3930","place":"Visp","tel":"+41 (0)27 946 52 36","beds":30,"campingplaces":null,"pricefrom":25.0,"priceto":25.0,"price_week":null,"email":"marco-gentinetta@gmx.ch","url1_text":"www.zucht-und-reitstall-marcogentinetta.ch","url1_link":"https://www.zucht-und-reitstall-marcogentinetta.ch","url2_text":"www.myfarm.ch","url2_link":"https://www.myfarm.ch","foto":"https://images0.schweizmobil.ch/image/Visp_Agrotourismus_Gentinetta.jpg","x_coordinate":631540.000608815,"y_coordinate":127696.00110564631,"change_date":null}}
+{
+    "type": "Feature",
+    "id": 37156,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.2999303554528,
+            7.84797786721035
+        ]
+    },
+    "properties": {
+        "id": 29924,
+        "land": "\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"",
+        "type": "Uebernachte",
+        "types": [
+            "sleepingstraw"
+        ],
+        "category": "all",
+        "language": "en",
+        "name": "Hof Gentinetta",
+        "stars_hotellerie": null,
+        "stars_parahotellerie": null,
+        "q_label": null,
+        "hotelgroup": "Agritourism Switzerland",
+        "street": "Grosseye",
+        "zip": "3930",
+        "place": "Visp",
+        "tel": "+41 (0)27 946 52 36",
+        "beds": 30,
+        "campingplaces": null,
+        "pricefrom": 25,
+        "priceto": 25,
+        "price_week": null,
+        "email": "marco-gentinetta@gmx.ch",
+        "url1_text": "www.zucht-und-reitstall-marcogentinetta.ch",
+        "url1_link": "https://www.zucht-und-reitstall-marcogentinetta.ch",
+        "url2_text": "www.myfarm.ch",
+        "url2_link": "https://www.myfarm.ch",
+        "foto": "https://images.schweizmobil.ch/image/Visp_Agrotourismus_Gentinetta.jpg",
+        "foto_abstract": null,
+        "x_coordinate": 631539.6762393188,
+        "y_coordinate": 127696.50985382391,
+        "change_date": null
+    }
+}

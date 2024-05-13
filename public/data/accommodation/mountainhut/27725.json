@@ -1,1 +1,46 @@
-{"type":"Feature","id":31496,"geometry":{"type":"Point","coordinates":[46.69494831489024,8.347897813161854]},"properties":{"id":27725,"land":"\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"","type":"Uebernachte","types":["groupaccom","mountainhut"],"category":"all","language":"en","name":"Windegghütten SAC","stars_hotellerie":null,"stars_parahotellerie":null,"q_label":null,"hotelgroup":"Schweizer Alpen-Club SAC","street":null,"zip":"3863","place":"Gadmen","tel":"+41 (0)33 975 11 10","beds":47,"campingplaces":null,"pricefrom":65.0,"priceto":85.0,"price_week":null,"email":"monika.luethi@gmx.ch","url1_text":"www.windegghuette.ch","url1_link":"https://www.windegghuette.ch","url2_text":null,"url2_link":null,"foto":"https://images0.schweizmobil.ch/image/Windegghuetten_SAC.jpg","x_coordinate":669547.0006293519,"y_coordinate":171929.00111511088,"change_date":null}}
+{
+    "type": "Feature",
+    "id": 37781,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.69493931352118,
+            8.34789769363582
+        ]
+    },
+    "properties": {
+        "id": 27725,
+        "land": "\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"",
+        "type": "Uebernachte",
+        "types": [
+            "groupaccom",
+            "mountainhut"
+        ],
+        "category": "all",
+        "language": "en",
+        "name": "Windegghütten SAC",
+        "stars_hotellerie": null,
+        "stars_parahotellerie": null,
+        "q_label": null,
+        "hotelgroup": "Schweizer Alpen-Club SAC",
+        "street": null,
+        "zip": "3863",
+        "place": "Gadmen",
+        "tel": "+41 (0)33 975 11 10",
+        "beds": 47,
+        "campingplaces": null,
+        "pricefrom": 65,
+        "priceto": 85,
+        "price_week": null,
+        "email": "monika.luethi@gmx.ch",
+        "url1_text": "www.windegghuette.ch",
+        "url1_link": "https://www.windegghuette.ch",
+        "url2_text": null,
+        "url2_link": null,
+        "foto": "https://images.schweizmobil.ch/image/Windegghuetten_SAC.jpg",
+        "foto_abstract": null,
+        "x_coordinate": 669547.1980234096,
+        "y_coordinate": 171928.52124278757,
+        "change_date": null
+    }
+}

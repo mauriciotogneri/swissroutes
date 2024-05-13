@@ -1,1 +1,46 @@
-{"type":"Feature","id":30550,"geometry":{"type":"Point","coordinates":[46.891600837902615,6.902762423708419]},"properties":{"id":28341,"land":"\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"","type":"Uebernachte","types":["vacationapptmt","campingsite"],"category":"all","language":"en","name":"Camping de Chevroux","stars_hotellerie":"2","stars_parahotellerie":null,"q_label":null,"hotelgroup":null,"street":"Chemin de la Bessime","zip":"1545","place":"Chevroux","tel":"+41 (0)26 667 14 45","beds":16,"campingplaces":50,"pricefrom":10.0,"priceto":17.0,"price_week":null,"email":"campingdechevroux@bluewin.ch","url1_text":"www.campingdechevroux.com","url1_link":"https://www.campingdechevroux.com","url2_text":null,"url2_link":null,"foto":"https://images0.schweizmobil.ch/image/Chevroux_Camping_Chevroux.jpg","x_coordinate":559161.0005274923,"y_coordinate":193527.00115327534,"change_date":null}}
+{
+    "type": "Feature",
+    "id": 36869,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.89160083944833,
+            6.902762443853032
+        ]
+    },
+    "properties": {
+        "id": 28341,
+        "land": "\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"",
+        "type": "Uebernachte",
+        "types": [
+            "vacationapptmt",
+            "campingsite"
+        ],
+        "category": "all",
+        "language": "en",
+        "name": "Camping de Chevroux",
+        "stars_hotellerie": "2",
+        "stars_parahotellerie": null,
+        "q_label": null,
+        "hotelgroup": null,
+        "street": "Chemin de la Bessime",
+        "zip": "1545",
+        "place": "Chevroux",
+        "tel": "+41 (0)26 667 14 45",
+        "beds": 16,
+        "campingplaces": 50,
+        "pricefrom": 10,
+        "priceto": 17,
+        "price_week": null,
+        "email": "campingdechevroux@bluewin.ch",
+        "url1_text": "www.campingdechevroux.com",
+        "url1_link": "https://www.campingdechevroux.com",
+        "url2_text": null,
+        "url2_link": null,
+        "foto": "https://images.schweizmobil.ch/image/Chevroux_Camping_Chevroux.jpg",
+        "foto_abstract": null,
+        "x_coordinate": 559161.2302200763,
+        "y_coordinate": 193527.34817326313,
+        "change_date": null
+    }
+}

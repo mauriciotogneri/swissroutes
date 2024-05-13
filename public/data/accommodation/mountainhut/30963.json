@@ -1,1 +1,45 @@
-{"type":"Feature","id":30517,"geometry":{"type":"Point","coordinates":[46.00606774650022,7.527710006755792]},"properties":{"id":30963,"land":"\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"","type":"Uebernachte","types":["mountainhut"],"category":"all","language":"en","name":"Cabane de Bertol CAS","stars_hotellerie":null,"stars_parahotellerie":null,"q_label":null,"hotelgroup":"Schweizer Alpen-Club SAC","street":null,"zip":"1983","place":"Evolène","tel":"+41 (0)27 283 19 29","beds":80,"campingplaces":null,"pricefrom":65.0,"priceto":85.0,"price_week":null,"email":"cabane.bertol@gmail.com","url1_text":"www.bertol.ch","url1_link":"https://www.bertol.ch","url2_text":null,"url2_link":null,"foto":"https://images0.schweizmobil.ch/image-small/Evolene_SAC_Bertol.jpg","x_coordinate":606900.0005949276,"y_coordinate":94950.00109537979,"change_date":null}}
+{
+    "type": "Feature",
+    "id": 36836,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.006067734830545,
+            7.527697098661485
+        ]
+    },
+    "properties": {
+        "id": 30963,
+        "land": "\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"",
+        "type": "Uebernachte",
+        "types": [
+            "mountainhut"
+        ],
+        "category": "all",
+        "language": "en",
+        "name": "Cabane de Bertol CAS",
+        "stars_hotellerie": null,
+        "stars_parahotellerie": null,
+        "q_label": null,
+        "hotelgroup": "Schweizer Alpen-Club SAC",
+        "street": null,
+        "zip": "1983",
+        "place": "Evolène",
+        "tel": "+41 (0)27 283 19 29",
+        "beds": 80,
+        "campingplaces": null,
+        "pricefrom": 65,
+        "priceto": 85,
+        "price_week": null,
+        "email": "cabane.bertol@gmail.com",
+        "url1_text": "www.bertol.ch",
+        "url1_link": "https://www.bertol.ch",
+        "url2_text": null,
+        "url2_link": null,
+        "foto": "https://images.schweizmobil.ch/image-small/Evolene_SAC_Bertol.jpg",
+        "foto_abstract": null,
+        "x_coordinate": 606899.9898111786,
+        "y_coordinate": 94950.00566803387,
+        "change_date": null
+    }
+}

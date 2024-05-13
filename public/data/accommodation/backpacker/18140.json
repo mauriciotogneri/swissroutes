@@ -1,1 +1,47 @@
-{"type":"Feature","id":30449,"geometry":{"type":"Point","coordinates":[47.26075540001253,9.453412443990636]},"properties":{"id":18140,"land":"\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"","type":"Uebernachte","types":["hotel","backpacker","groupaccom"],"category":"all","language":"en","name":"Berggasthaus Staubern","stars_hotellerie":null,"stars_parahotellerie":null,"q_label":null,"hotelgroup":null,"street":null,"zip":"9467","place":"Frümsen","tel":"+41 (0)81 757 24 24","beds":64,"campingplaces":null,"pricefrom":30.0,"priceto":128.0,"price_week":null,"email":"staubern@bluewin.ch","url1_text":"www.staubern.ch","url1_link":"https://www.staubern.ch","url2_text":null,"url2_link":null,"foto":"https://images0.schweizmobil.ch/image/Fruemsen_Strauben.jpg","x_coordinate":752476.0006743505,"y_coordinate":236385.0011126182,"change_date":null}}
+{
+    "type": "Feature",
+    "id": 36760,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            47.260755632654735,
+            9.453399264969475
+        ]
+    },
+    "properties": {
+        "id": 18140,
+        "land": "\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"",
+        "type": "Uebernachte",
+        "types": [
+            "hotel",
+            "backpacker",
+            "groupaccom"
+        ],
+        "category": "all",
+        "language": "en",
+        "name": "Berggasthaus Staubern",
+        "stars_hotellerie": null,
+        "stars_parahotellerie": null,
+        "q_label": null,
+        "hotelgroup": null,
+        "street": null,
+        "zip": "9467",
+        "place": "Frümsen",
+        "tel": "+41 (0)81 757 24 24",
+        "beds": 64,
+        "campingplaces": null,
+        "pricefrom": 30,
+        "priceto": 128,
+        "price_week": null,
+        "email": "staubern@bluewin.ch",
+        "url1_text": "www.staubern.ch",
+        "url1_link": "https://www.staubern.ch",
+        "url2_text": null,
+        "url2_link": null,
+        "foto": "https://images.schweizmobil.ch/image/Fruemsen_Strauben.jpg",
+        "foto_abstract": null,
+        "x_coordinate": 752475.9060879754,
+        "y_coordinate": 236385.47475869182,
+        "change_date": null
+    }
+}

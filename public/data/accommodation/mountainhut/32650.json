@@ -1,1 +1,45 @@
-{"type":"Feature","id":30645,"geometry":{"type":"Point","coordinates":[46.31523283433634,8.679161321201908]},"properties":{"id":32650,"land":"\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"","type":"Uebernachte","types":["mountainhut"],"category":"all","language":"en","name":"Capanna Spluga","stars_hotellerie":null,"stars_parahotellerie":null,"q_label":null,"hotelgroup":null,"street":"Spluga","zip":"6678","place":"Giumaglio","tel":"+41 (0)79 293 84 19","beds":24,"campingplaces":null,"pricefrom":25.0,"priceto":25.0,"price_week":null,"email":"info@alpespluga.ch","url1_text":"www.alpespluga.ch","url1_link":"https://www.alpespluga.ch/?page_id=23&lang=it","url2_text":"www.capanneti.ch","url2_link":"https://www.capanneti.ch/it/capanne/spluga-alpe","foto":"https://images0.schweizmobil.ch/image/68_Spluga_s.jpg","x_coordinate":695550.0006630949,"y_coordinate":130070.001089296,"change_date":null}}
+{
+    "type": "Feature",
+    "id": 36963,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.31523299544363,
+            8.679148332193634
+        ]
+    },
+    "properties": {
+        "id": 32650,
+        "land": "\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"",
+        "type": "Uebernachte",
+        "types": [
+            "mountainhut"
+        ],
+        "category": "all",
+        "language": "en",
+        "name": "Capanna Spluga",
+        "stars_hotellerie": null,
+        "stars_parahotellerie": null,
+        "q_label": null,
+        "hotelgroup": null,
+        "street": "Spluga",
+        "zip": "6678",
+        "place": "Giumaglio",
+        "tel": "+41 (0)79 293 84 19",
+        "beds": 24,
+        "campingplaces": null,
+        "pricefrom": 25,
+        "priceto": 25,
+        "price_week": null,
+        "email": "info@alpespluga.ch",
+        "url1_text": "www.alpespluga.ch",
+        "url1_link": "https://www.alpespluga.ch/?page_id=23&lang=it",
+        "url2_text": "www.capanneti.ch",
+        "url2_link": "https://www.capanneti.ch/it/capanne/spluga-alpe",
+        "foto": "https://images.schweizmobil.ch/image/68_Spluga_s.jpg",
+        "foto_abstract": null,
+        "x_coordinate": 695549.9235182807,
+        "y_coordinate": 130070.19777369167,
+        "change_date": null
+    }
+}

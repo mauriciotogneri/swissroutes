@@ -1,1 +1,46 @@
-{"type":"Feature","id":30530,"geometry":{"type":"Point","coordinates":[46.34233914582122,7.500074922958577]},"properties":{"id":27818,"land":"\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"","type":"Uebernachte","types":["groupaccom","mountainhut"],"category":"all","language":"en","name":"Cabane des Violettes CAS","stars_hotellerie":null,"stars_parahotellerie":null,"q_label":null,"hotelgroup":"Schweizer Alpen-Club SAC","street":null,"zip":"3975","place":"Randogne","tel":"+41 (0)27 481 39 19","beds":24,"campingplaces":null,"pricefrom":65.0,"priceto":85.0,"price_week":null,"email":"info@cabanedesviolettes.ch","url1_text":"www.cabanedesviolettes.ch","url1_link":"https://www.cabanedesviolettes.ch","url2_text":null,"url2_link":null,"foto":"https://images0.schweizmobil.ch/image/Cabane_des_Violettes_CAS.jpg","x_coordinate":604730.0005837163,"y_coordinate":132330.00111467077,"change_date":null}}
+{
+    "type": "Feature",
+    "id": 36849,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.34233018045533,
+            7.500061921796277
+        ]
+    },
+    "properties": {
+        "id": 27818,
+        "land": "\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"",
+        "type": "Uebernachte",
+        "types": [
+            "groupaccom",
+            "mountainhut"
+        ],
+        "category": "all",
+        "language": "en",
+        "name": "Cabane des Violettes CAS",
+        "stars_hotellerie": null,
+        "stars_parahotellerie": null,
+        "q_label": null,
+        "hotelgroup": "Schweizer Alpen-Club SAC",
+        "street": null,
+        "zip": "3975",
+        "place": "Randogne",
+        "tel": "+41 (0)27 481 39 19",
+        "beds": 24,
+        "campingplaces": null,
+        "pricefrom": 65,
+        "priceto": 85,
+        "price_week": null,
+        "email": "info@cabanedesviolettes.ch",
+        "url1_text": "www.cabanedesviolettes.ch",
+        "url1_link": "https://www.cabanedesviolettes.ch",
+        "url2_text": null,
+        "url2_link": null,
+        "foto": "https://images.schweizmobil.ch/image/Cabane_des_Violettes_CAS.jpg",
+        "foto_abstract": null,
+        "x_coordinate": 604729.9788426918,
+        "y_coordinate": 132329.74408749508,
+        "change_date": null
+    }
+}

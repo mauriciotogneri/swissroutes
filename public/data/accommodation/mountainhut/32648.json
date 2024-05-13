@@ -1,1 +1,45 @@
-{"type":"Feature","id":30643,"geometry":{"type":"Point","coordinates":[46.55572971513201,9.006033338653136]},"properties":{"id":32648,"land":"\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"","type":"Uebernachte","types":["mountainhut"],"category":"all","language":"en","name":"Capanna Scaradra","stars_hotellerie":null,"stars_parahotellerie":null,"q_label":null,"hotelgroup":null,"street":"Val Scaradra","zip":"6718","place":"Blenio","tel":"+41 (0)79 550 11 61","beds":12,"campingplaces":null,"pricefrom":25.0,"priceto":25.0,"price_week":null,"email":"rifugioscaradra@gmail.com","url1_text":"www.capanneti.ch","url1_link":"https://www.capanneti.ch/it/capanne/scaradra-di-sopra","url2_text":null,"url2_link":null,"foto":"https://images0.schweizmobil.ch/image/Juraverein_Platzhalter.jpg","x_coordinate":720190.0006751193,"y_coordinate":157250.00109399468,"change_date":null}}
+{
+    "type": "Feature",
+    "id": 36961,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.555720909940575,
+            9.006020014509078
+        ]
+    },
+    "properties": {
+        "id": 32648,
+        "land": "\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"",
+        "type": "Uebernachte",
+        "types": [
+            "mountainhut"
+        ],
+        "category": "all",
+        "language": "en",
+        "name": "Capanna Scaradra",
+        "stars_hotellerie": null,
+        "stars_parahotellerie": null,
+        "q_label": null,
+        "hotelgroup": null,
+        "street": "Val Scaradra",
+        "zip": "6718",
+        "place": "Blenio",
+        "tel": "+41 (0)79 550 11 61",
+        "beds": 12,
+        "campingplaces": null,
+        "pricefrom": 25,
+        "priceto": 25,
+        "price_week": null,
+        "email": "rifugioscaradra@gmail.com",
+        "url1_text": "www.capanneti.ch",
+        "url1_link": "https://www.capanneti.ch/it/capanne/scaradra-di-sopra",
+        "url2_text": null,
+        "url2_link": null,
+        "foto": "https://images.schweizmobil.ch/image/Juraverein_Platzhalter.jpg",
+        "foto_abstract": null,
+        "x_coordinate": 720189.7322820582,
+        "y_coordinate": 157249.49165879263,
+        "change_date": null
+    }
+}

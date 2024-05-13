@@ -1,1 +1,46 @@
-{"type":"Feature","id":30806,"geometry":{"type":"Point","coordinates":[46.63121566709912,8.342751253956546]},"properties":{"id":27715,"land":"\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"","type":"Uebernachte","types":["groupaccom","mountainhut"],"category":"all","language":"en","name":"Gelmerhütte SAC","stars_hotellerie":null,"stars_parahotellerie":null,"q_label":null,"hotelgroup":"Schweizer Alpen-Club SAC","street":null,"zip":"3864","place":"Handegg","tel":"+41 (0)33 973 11 80","beds":55,"campingplaces":null,"pricefrom":65.0,"priceto":85.0,"price_week":null,"email":"peter.schlaeppi@gelmerhuette.ch","url1_text":"www.gelmerhuette.ch","url1_link":"https://www.gelmerhuette.ch","url2_text":null,"url2_link":null,"foto":"https://images0.schweizmobil.ch/image/Gelmerhuette_SAC.jpg","x_coordinate":669235.0006311208,"y_coordinate":164840.00111222116,"change_date":null}}
+{
+    "type": "Feature",
+    "id": 37115,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.631206787759865,
+            8.342738084974041
+        ]
+    },
+    "properties": {
+        "id": 27715,
+        "land": "\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"",
+        "type": "Uebernachte",
+        "types": [
+            "groupaccom",
+            "mountainhut"
+        ],
+        "category": "all",
+        "language": "en",
+        "name": "Gelmerhütte SAC",
+        "stars_hotellerie": null,
+        "stars_parahotellerie": null,
+        "q_label": null,
+        "hotelgroup": "Schweizer Alpen-Club SAC",
+        "street": null,
+        "zip": "3864",
+        "place": "Handegg",
+        "tel": "+41 (0)33 973 11 80",
+        "beds": 55,
+        "campingplaces": null,
+        "pricefrom": 65,
+        "priceto": 85,
+        "price_week": null,
+        "email": "peter.schlaeppi@gelmerhuette.ch",
+        "url1_text": "www.gelmerhuette.ch",
+        "url1_link": "https://www.gelmerhuette.ch",
+        "url2_text": null,
+        "url2_link": null,
+        "foto": "https://images.schweizmobil.ch/image/Gelmerhuette_SAC.jpg",
+        "foto_abstract": null,
+        "x_coordinate": 669234.9153889944,
+        "y_coordinate": 164839.79948019361,
+        "change_date": null
+    }
+}

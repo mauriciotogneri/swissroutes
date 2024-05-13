@@ -1,1 +1,46 @@
-{"type":"Feature","id":31402,"geometry":{"type":"Point","coordinates":[46.74658712505931,8.521023761154792]},"properties":{"id":27787,"land":"\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"","type":"Uebernachte","types":["groupaccom","mountainhut"],"category":"all","language":"en","name":"Sewenhütte SAC","stars_hotellerie":null,"stars_parahotellerie":null,"q_label":null,"hotelgroup":"Schweizer Alpen-Club SAC","street":null,"zip":"6485","place":"Meien","tel":"+41 (0)41 885 18 72","beds":60,"campingplaces":null,"pricefrom":65.0,"priceto":85.0,"price_week":null,"email":"info@sewenhuette.ch","url1_text":"www.sewenhuette.ch","url1_link":"https://www.sewenhuette.ch","url2_text":null,"url2_link":null,"foto":"https://images0.schweizmobil.ch/image/Sewenhuette_SAC.JPG","x_coordinate":682709.0006385369,"y_coordinate":177837.00111372367,"change_date":null}}
+{
+    "type": "Feature",
+    "id": 37681,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.74657825407184,
+            8.521010501962856
+        ]
+    },
+    "properties": {
+        "id": 27787,
+        "land": "\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"",
+        "type": "Uebernachte",
+        "types": [
+            "groupaccom",
+            "mountainhut"
+        ],
+        "category": "all",
+        "language": "en",
+        "name": "Sewenhütte SAC",
+        "stars_hotellerie": null,
+        "stars_parahotellerie": null,
+        "q_label": null,
+        "hotelgroup": "Schweizer Alpen-Club SAC",
+        "street": null,
+        "zip": "6485",
+        "place": "Meien",
+        "tel": "+41 (0)41 885 18 72",
+        "beds": 60,
+        "campingplaces": null,
+        "pricefrom": 65,
+        "priceto": 85,
+        "price_week": null,
+        "email": "info@sewenhuette.ch",
+        "url1_text": "www.sewenhuette.ch",
+        "url1_link": "https://www.sewenhuette.ch",
+        "url2_text": null,
+        "url2_link": null,
+        "foto": "https://images.schweizmobil.ch/image/Sewenhuette_SAC.JPG",
+        "foto_abstract": null,
+        "x_coordinate": 682708.7459465888,
+        "y_coordinate": 177836.66769051578,
+        "change_date": null
+    }
+}

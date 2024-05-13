@@ -1,0 +1,45 @@
+{
+    "type": "Feature",
+    "id": 37708,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.945383056622966,
+            6.6877558874080325
+        ]
+    },
+    "properties": {
+        "id": 33990,
+        "land": "\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"",
+        "type": "Uebernachte",
+        "types": [
+            "farmaccom"
+        ],
+        "category": "all",
+        "language": "en",
+        "name": "Stähli Ferme de Buffles",
+        "stars_hotellerie": null,
+        "stars_parahotellerie": null,
+        "q_label": null,
+        "hotelgroup": null,
+        "street": "Les Quarres 3",
+        "zip": "2105",
+        "place": "Travers",
+        "tel": "+41 (0)79 138 27 29",
+        "beds": 11,
+        "campingplaces": null,
+        "pricefrom": 50,
+        "priceto": 100,
+        "price_week": null,
+        "email": "info@staehliproduitsfermiers.ch",
+        "url1_text": "www.staehliproduitsfermiers.ch",
+        "url1_link": "https://www.staehliproduitsfermiers.ch",
+        "url2_text": null,
+        "url2_link": null,
+        "foto": "https://images.schweizmobil.ch/image-big/Travers_Buffles_g.jpg",
+        "foto_abstract": null,
+        "x_coordinate": 542833.1374878556,
+        "y_coordinate": 199640.4637472973,
+        "change_date": null
+    }
+}

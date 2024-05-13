@@ -1,1 +1,45 @@
-{"type":"Feature","id":30576,"geometry":{"type":"Point","coordinates":[46.29980464962617,8.952702109963472]},"properties":{"id":32601,"land":"\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"","type":"Uebernachte","types":["mountainhut"],"category":"all","language":"en","name":"Capanna Alva","stars_hotellerie":null,"stars_parahotellerie":null,"q_label":null,"hotelgroup":null,"street":"Valle di Lodrino","zip":"6527","place":"Lodrino","tel":"+41 (0)91 863 28 71","beds":20,"campingplaces":null,"pricefrom":8.0,"priceto":8.0,"price_week":null,"email":"patriziato.lodrino@bluewin.ch","url1_text":"www.patrizialodrino.ch","url1_link":"http://www.patriziatolodrino.ch/index.php?node=294&lng=1&id_item=4&rif=7362550a17","url2_text":"www.capanneti.ch","url2_link":"https://www.capanneti.ch/it/capanne/alva","foto":"https://images0.schweizmobil.ch/image/06_Alva.jpg","x_coordinate":716650.0006808741,"y_coordinate":128725.00108254046,"change_date":null}}
+{
+    "type": "Feature",
+    "id": 36894,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.299804852476676,
+            8.95268913173676
+        ]
+    },
+    "properties": {
+        "id": 32601,
+        "land": "\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"",
+        "type": "Uebernachte",
+        "types": [
+            "mountainhut"
+        ],
+        "category": "all",
+        "language": "en",
+        "name": "Capanna Alva",
+        "stars_hotellerie": null,
+        "stars_parahotellerie": null,
+        "q_label": null,
+        "hotelgroup": null,
+        "street": "Valle di Lodrino",
+        "zip": "6527",
+        "place": "Lodrino",
+        "tel": "+41 (0)91 863 28 71",
+        "beds": 20,
+        "campingplaces": null,
+        "pricefrom": 8,
+        "priceto": 8,
+        "price_week": null,
+        "email": "patriziato.lodrino@bluewin.ch",
+        "url1_text": "www.patrizialodrino.ch",
+        "url1_link": "http://www.patriziatolodrino.ch/index.php?node=294&lng=1&id_item=4&rif=7362550a17",
+        "url2_text": "www.capanneti.ch",
+        "url2_link": "https://www.capanneti.ch/it/capanne/alva",
+        "foto": "https://images.schweizmobil.ch/image/06_Alva.jpg",
+        "foto_abstract": null,
+        "x_coordinate": 716649.8467387487,
+        "y_coordinate": 128725.11217452948,
+        "change_date": null
+    }
+}

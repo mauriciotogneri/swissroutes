@@ -1,1 +1,46 @@
-{"type":"Feature","id":30356,"geometry":{"type":"Point","coordinates":[46.376773825025346,6.225018492751868]},"properties":{"id":20779,"land":"\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"","type":"Uebernachte","types":["bedbreakfast","farmaccom"],"category":"all","language":"en","name":"B&B Domaine de Bois-Bougy","stars_hotellerie":null,"stars_parahotellerie":"3","q_label":null,"hotelgroup":"BnB Switzerland","street":"Chemin de Bois-Bougy 4","zip":"1260","place":"Nyon","tel":"+41 (0)22 361 34 52","beds":10,"campingplaces":null,"pricefrom":60.0,"priceto":80.0,"price_week":null,"email":"barbarabernegger@romandie.com","url1_text":"www.bnb.ch/897","url1_link":"https://www.bnb.ch/897","url2_text":null,"url2_link":null,"foto":"https://images0.schweizmobil.ch/image/Nyon_BnB_Bois_Bougy.jpg","x_coordinate":506628.00049121724,"y_coordinate":136878.001139267,"change_date":null}}
+{
+    "type": "Feature",
+    "id": 36683,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.376773796734625,
+            6.225018522553062
+        ]
+    },
+    "properties": {
+        "id": 20779,
+        "land": "\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"",
+        "type": "Uebernachte",
+        "types": [
+            "bedbreakfast",
+            "farmaccom"
+        ],
+        "category": "all",
+        "language": "en",
+        "name": "B&B Domaine de Bois-Bougy",
+        "stars_hotellerie": null,
+        "stars_parahotellerie": "3",
+        "q_label": null,
+        "hotelgroup": "BnB Switzerland",
+        "street": "Chemin de Bois-Bougy 4",
+        "zip": "1260",
+        "place": "Nyon",
+        "tel": "+41 (0)22 361 34 52",
+        "beds": 10,
+        "campingplaces": null,
+        "pricefrom": 60,
+        "priceto": 80,
+        "price_week": null,
+        "email": "barbarabernegger@romandie.com",
+        "url1_text": "www.bnb.ch/897",
+        "url1_link": "https://www.bnb.ch/897",
+        "url2_text": null,
+        "url2_link": null,
+        "foto": "https://images.schweizmobil.ch/image/Nyon_BnB_Bois_Bougy.jpg",
+        "foto_abstract": null,
+        "x_coordinate": 506628.03578829084,
+        "y_coordinate": 136878.06073806057,
+        "change_date": null
+    }
+}

@@ -1,1 +1,45 @@
-{"type":"Feature","id":30573,"geometry":{"type":"Point","coordinates":[46.22251385655708,8.956386312100701]},"properties":{"id":32599,"land":"\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"","type":"Uebernachte","types":["mountainhut"],"category":"all","language":"en","name":"Capanna Albagno","stars_hotellerie":null,"stars_parahotellerie":null,"q_label":null,"hotelgroup":null,"street":"Alpe Albagno","zip":"6513","place":"Monte Carasso","tel":"+41 (0)79 274 22 50","beds":28,"campingplaces":null,"pricefrom":20.0,"priceto":20.0,"price_week":null,"email":"albagno@utoe.ch","url1_text":"www.utoe.ch","url1_link":"https://www.utoe.ch/?id=472","url2_text":"www.capanneti.ch","url2_link":"https://www.capanneti.ch/it/capanne/albagno","foto":"https://images0.schweizmobil.ch/image-big/04_Albagno_g.jpg","x_coordinate":717100.00068379,"y_coordinate":120140.00107844823,"change_date":null}}
+{
+    "type": "Feature",
+    "id": 36891,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.22251387283441,
+            8.956386307609499
+        ]
+    },
+    "properties": {
+        "id": 32599,
+        "land": "\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"",
+        "type": "Uebernachte",
+        "types": [
+            "mountainhut"
+        ],
+        "category": "all",
+        "language": "en",
+        "name": "Capanna Albagno",
+        "stars_hotellerie": null,
+        "stars_parahotellerie": null,
+        "q_label": null,
+        "hotelgroup": null,
+        "street": "Alpe Albagno",
+        "zip": "6513",
+        "place": "Monte Carasso",
+        "tel": "+41 (0)79 274 22 50",
+        "beds": 28,
+        "campingplaces": null,
+        "pricefrom": 20,
+        "priceto": 20,
+        "price_week": null,
+        "email": "albagno@utoe.ch",
+        "url1_text": "www.utoe.ch",
+        "url1_link": "https://www.utoe.ch/?id=472",
+        "url2_text": "www.capanneti.ch",
+        "url2_link": "https://www.capanneti.ch/it/capanne/albagno",
+        "foto": "https://images.schweizmobil.ch/image-big/04_Albagno_g.jpg",
+        "foto_abstract": null,
+        "x_coordinate": 717100.3217302177,
+        "y_coordinate": 120140.26308641577,
+        "change_date": null
+    }
+}

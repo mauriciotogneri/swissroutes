@@ -1,1 +1,45 @@
-{"type":"Feature","id":30559,"geometry":{"type":"Point","coordinates":[46.88392799963364,8.243307041245128]},"properties":{"id":31586,"land":"\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"","type":"Uebernachte","types":["campingsite"],"category":"all","language":"en","name":"Camping Seefeld Park Sarnen","stars_hotellerie":null,"stars_parahotellerie":"5","q_label":null,"hotelgroup":null,"street":"Seestrasse 20","zip":"6060","place":"Sarnen","tel":"+41 (0)41 666 57 88","beds":36,"campingplaces":null,"pricefrom":18.5,"priceto":25.5,"price_week":null,"email":"welcome@seefeldpark.ch","url1_text":"www.seefeldpark.ch","url1_link":"https://www.seefeldpark.ch","url2_text":null,"url2_link":null,"foto":"https://images0.schweizmobil.ch/image-small/Sarnen_Seefeld_Park.jpg","x_coordinate":661332.0006164865,"y_coordinate":192849.00112593258,"change_date":null}}
+{
+    "type": "Feature",
+    "id": 36878,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.883919006487424,
+            8.243306925680654
+        ]
+    },
+    "properties": {
+        "id": 31586,
+        "land": "\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"",
+        "type": "Uebernachte",
+        "types": [
+            "campingsite"
+        ],
+        "category": "all",
+        "language": "en",
+        "name": "Camping Seefeld Park Sarnen",
+        "stars_hotellerie": null,
+        "stars_parahotellerie": "5",
+        "q_label": null,
+        "hotelgroup": null,
+        "street": "Seestrasse 20",
+        "zip": "6060",
+        "place": "Sarnen",
+        "tel": "+41 (0)41 666 57 88",
+        "beds": 36,
+        "campingplaces": null,
+        "pricefrom": 18.5,
+        "priceto": 25.5,
+        "price_week": null,
+        "email": "welcome@seefeldpark.ch",
+        "url1_text": "www.seefeldpark.ch",
+        "url1_link": "https://www.seefeldpark.ch",
+        "url2_text": null,
+        "url2_link": null,
+        "foto": "https://images.schweizmobil.ch/image-small/Sarnen_Seefeld_Park.jpg",
+        "foto_abstract": null,
+        "x_coordinate": 661332.319622666,
+        "y_coordinate": 192848.6152456418,
+        "change_date": null
+    }
+}

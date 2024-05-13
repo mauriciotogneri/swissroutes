@@ -1,1 +1,45 @@
-{"type":"Feature","id":30739,"geometry":{"type":"Point","coordinates":[46.868957324123066,9.964702148805888]},"properties":{"id":30973,"land":"\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"","type":"Uebernachte","types":["mountainhut"],"category":"all","language":"en","name":"Fergenhütte SAC (unbewartet)","stars_hotellerie":null,"stars_parahotellerie":null,"q_label":null,"hotelgroup":"Schweizer Alpen-Club SAC","street":null,"zip":"7250","place":"Klosters","tel":"+41 (0)79 848 08 25","beds":21,"campingplaces":null,"pricefrom":50.0,"priceto":70.0,"price_week":null,"email":"bergbeat@bluewin.ch","url1_text":"www.sac-praettigau.ch","url1_link":"https://www.sac-praettigau.ch","url2_text":null,"url2_link":null,"foto":"https://images0.schweizmobil.ch/image-small/Klosters_SAC_Fergenhuette.jpg","x_coordinate":792560.0007181228,"y_coordinate":193970.00108465232,"change_date":null}}
+{
+    "type": "Feature",
+    "id": 37052,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.8689573230985,
+            9.96470211978546
+        ]
+    },
+    "properties": {
+        "id": 30973,
+        "land": "\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"",
+        "type": "Uebernachte",
+        "types": [
+            "mountainhut"
+        ],
+        "category": "all",
+        "language": "en",
+        "name": "Fergenhütte SAC (unbewartet)",
+        "stars_hotellerie": null,
+        "stars_parahotellerie": null,
+        "q_label": null,
+        "hotelgroup": "Schweizer Alpen-Club SAC",
+        "street": null,
+        "zip": "7250",
+        "place": "Klosters",
+        "tel": "+41 (0)79 848 08 25",
+        "beds": 21,
+        "campingplaces": null,
+        "pricefrom": 50,
+        "priceto": 70,
+        "price_week": null,
+        "email": "bergbeat@bluewin.ch",
+        "url1_text": "www.sac-praettigau.ch",
+        "url1_link": "https://www.sac-praettigau.ch",
+        "url2_text": null,
+        "url2_link": null,
+        "foto": "https://images.schweizmobil.ch/image-small/Klosters_SAC_Fergenhuette.jpg",
+        "foto_abstract": null,
+        "x_coordinate": 792560.0471179861,
+        "y_coordinate": 193970.17123537418,
+        "change_date": null
+    }
+}

@@ -1,1 +1,46 @@
-{"type":"Feature","id":31140,"geometry":{"type":"Point","coordinates":[46.80179064985265,8.818890561279614]},"properties":{"id":27781,"land":"\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"","type":"Uebernachte","types":["groupaccom","mountainhut"],"category":"all","language":"en","name":"Hüfihütte SAC","stars_hotellerie":null,"stars_parahotellerie":null,"q_label":null,"hotelgroup":"Schweizer Alpen-Club SAC","street":null,"zip":"6475","place":"Bristen","tel":"+41 (0)41 885 14 75","beds":30,"campingplaces":null,"pricefrom":65.0,"priceto":85.0,"price_week":null,"email":"huefihuette@bluewin.ch","url1_text":"www.huefihuette.ch","url1_link":"https://www.huefihuette.ch","url2_text":null,"url2_link":null,"foto":"https://images0.schweizmobil.ch/image/Huefihuette_SAC.jpg","x_coordinate":705360.0006549612,"y_coordinate":184330.0011095254,"change_date":null}}
+{
+    "type": "Feature",
+    "id": 37426,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.80179080506363,
+            8.818877446169829
+        ]
+    },
+    "properties": {
+        "id": 27781,
+        "land": "\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"",
+        "type": "Uebernachte",
+        "types": [
+            "groupaccom",
+            "mountainhut"
+        ],
+        "category": "all",
+        "language": "en",
+        "name": "Hüfihütte SAC",
+        "stars_hotellerie": null,
+        "stars_parahotellerie": null,
+        "q_label": null,
+        "hotelgroup": "Schweizer Alpen-Club SAC",
+        "street": null,
+        "zip": "6475",
+        "place": "Bristen",
+        "tel": "+41 (0)41 885 14 75",
+        "beds": 30,
+        "campingplaces": null,
+        "pricefrom": 65,
+        "priceto": 85,
+        "price_week": null,
+        "email": "huefihuette@bluewin.ch",
+        "url1_text": "www.huefihuette.ch",
+        "url1_link": "https://www.huefihuette.ch",
+        "url2_text": null,
+        "url2_link": null,
+        "foto": "https://images.schweizmobil.ch/image/Huefihuette_SAC.jpg",
+        "foto_abstract": null,
+        "x_coordinate": 705359.9641677579,
+        "y_coordinate": 184330.46874043168,
+        "change_date": null
+    }
+}

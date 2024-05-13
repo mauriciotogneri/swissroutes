@@ -1,1 +1,45 @@
-{"type":"Feature","id":31501,"geometry":{"type":"Point","coordinates":[46.94556244802553,8.579717114749734]},"properties":{"id":25956,"land":"\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"","type":"Uebernachte","types":["sleepingstraw"],"category":"all","language":"en","name":"Wissig-Hof","stars_hotellerie":null,"stars_parahotellerie":null,"q_label":null,"hotelgroup":"Agritourism Switzerland","street":"Wissigstrasse 14","zip":"6377","place":"Seelisberg","tel":"+41 (0)79 777 03 76","beds":30,"campingplaces":null,"pricefrom":28.0,"priceto":28.0,"price_week":null,"email":"rafael.ziegler@bluewin.ch","url1_text":"www.stroh-traum.ch","url1_link":"https://www.stroh-traum.ch","url2_text":"www.myfarm.ch","url2_link":"https://www.myfarm.ch","foto":"https://images0.schweizmobil.ch/image/Seelisberg_Ziegler.jpg","x_coordinate":686872.000635323,"y_coordinate":200018.0011211631,"change_date":null}}
+{
+    "type": "Feature",
+    "id": 37786,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.94556244756494,
+            8.579717160428094
+        ]
+    },
+    "properties": {
+        "id": 25956,
+        "land": "\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"",
+        "type": "Uebernachte",
+        "types": [
+            "sleepingstraw"
+        ],
+        "category": "all",
+        "language": "en",
+        "name": "Wissig-Hof",
+        "stars_hotellerie": null,
+        "stars_parahotellerie": null,
+        "q_label": null,
+        "hotelgroup": "Agritourism Switzerland",
+        "street": "Wissigstrasse 14",
+        "zip": "6377",
+        "place": "Seelisberg",
+        "tel": "+41 (0)79 777 03 76",
+        "beds": 30,
+        "campingplaces": null,
+        "pricefrom": 28,
+        "priceto": 28,
+        "price_week": null,
+        "email": "rafael.ziegler@bluewin.ch",
+        "url1_text": "www.stroh-traum.ch",
+        "url1_link": "https://www.stroh-traum.ch",
+        "url2_text": "www.myfarm.ch",
+        "url2_link": "https://www.myfarm.ch",
+        "foto": "https://images.schweizmobil.ch/image/Seelisberg_Ziegler.jpg",
+        "foto_abstract": null,
+        "x_coordinate": 686872.2534017988,
+        "y_coordinate": 200018.26656646223,
+        "change_date": null
+    }
+}

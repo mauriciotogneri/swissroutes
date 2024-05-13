@@ -1,1 +1,46 @@
-{"type":"Feature","id":30674,"geometry":{"type":"Point","coordinates":[46.71010798443936,9.960529976876703]},"properties":{"id":27746,"land":"\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"","type":"Uebernachte","types":["groupaccom","mountainhut"],"category":"all","language":"en","name":"Chamanna da Grialetsch CAS","stars_hotellerie":null,"stars_parahotellerie":null,"q_label":null,"hotelgroup":"Schweizer Alpen-Club SAC","street":null,"zip":"7542","place":"Susch","tel":"+41 (0)81 416 34 36","beds":61,"campingplaces":null,"pricefrom":65.0,"priceto":85.0,"price_week":null,"email":"reissc@bluewin.ch","url1_text":"www.grialetsch.ch","url1_link":"https://www.grialetsch.ch","url2_text":null,"url2_link":null,"foto":"https://images0.schweizmobil.ch/image/Chamanna_da_Grialetsch_CAS.jpg","x_coordinate":792810.000724406,"y_coordinate":176310.00107810902,"change_date":null}}
+{
+    "type": "Feature",
+    "id": 36991,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.71010827486088,
+            9.96051691949042
+        ]
+    },
+    "properties": {
+        "id": 27746,
+        "land": "\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"",
+        "type": "Uebernachte",
+        "types": [
+            "groupaccom",
+            "mountainhut"
+        ],
+        "category": "all",
+        "language": "en",
+        "name": "Chamanna da Grialetsch CAS",
+        "stars_hotellerie": null,
+        "stars_parahotellerie": null,
+        "q_label": null,
+        "hotelgroup": "Schweizer Alpen-Club SAC",
+        "street": null,
+        "zip": "7542",
+        "place": "Susch",
+        "tel": "+41 (0)81 416 34 36",
+        "beds": 61,
+        "campingplaces": null,
+        "pricefrom": 65,
+        "priceto": 85,
+        "price_week": null,
+        "email": "reissc@bluewin.ch",
+        "url1_text": "www.grialetsch.ch",
+        "url1_link": "https://www.grialetsch.ch",
+        "url2_text": null,
+        "url2_link": null,
+        "foto": "https://images.schweizmobil.ch/image/Chamanna_da_Grialetsch_CAS.jpg",
+        "foto_abstract": null,
+        "x_coordinate": 792809.9039828647,
+        "y_coordinate": 176310.0475466569,
+        "change_date": null
+    }
+}

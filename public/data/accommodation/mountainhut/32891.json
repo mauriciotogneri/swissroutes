@@ -1,1 +1,45 @@
-{"type":"Feature","id":30596,"geometry":{"type":"Point","coordinates":[46.350602341453396,8.825551717672559]},"properties":{"id":32891,"land":"\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"","type":"Uebernachte","types":["mountainhut"],"category":"all","language":"en","name":"Capanna Costa","stars_hotellerie":null,"stars_parahotellerie":null,"q_label":null,"hotelgroup":null,"street":"Monti di Frasco","zip":"6636","place":"Frasco","tel":"+41 (0)79 423 66 40","beds":7,"campingplaces":null,"pricefrom":10.0,"priceto":10.0,"price_week":null,"email":"patriziatofrasco@bluewin.ch","url1_text":"http://www.sev-verzasca.ch","url1_link":"http://www.sev-verzasca.ch/costa","url2_text":"www.capanneti.ch","url2_link":"https://www.capanneti.ch/it/capanne/costa-alpe-di","foto":"https://images0.schweizmobil.ch/image-big/28_Costa_g.jpg","x_coordinate":706755.000671157,"y_coordinate":134190.00108793747,"change_date":null}}
+{
+    "type": "Feature",
+    "id": 36914,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.35060252241566,
+            8.825538686123787
+        ]
+    },
+    "properties": {
+        "id": 32891,
+        "land": "\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"",
+        "type": "Uebernachte",
+        "types": [
+            "mountainhut"
+        ],
+        "category": "all",
+        "language": "en",
+        "name": "Capanna Costa",
+        "stars_hotellerie": null,
+        "stars_parahotellerie": null,
+        "q_label": null,
+        "hotelgroup": null,
+        "street": "Monti di Frasco",
+        "zip": "6636",
+        "place": "Frasco",
+        "tel": "+41 (0)79 423 66 40",
+        "beds": 7,
+        "campingplaces": null,
+        "pricefrom": 10,
+        "priceto": 10,
+        "price_week": null,
+        "email": "patriziatofrasco@bluewin.ch",
+        "url1_text": "http://www.sev-verzasca.ch",
+        "url1_link": "http://www.sev-verzasca.ch/costa",
+        "url2_text": "www.capanneti.ch",
+        "url2_link": "https://www.capanneti.ch/it/capanne/costa-alpe-di",
+        "foto": "https://images.schweizmobil.ch/image-big/28_Costa_g.jpg",
+        "foto_abstract": null,
+        "x_coordinate": 706754.8819767084,
+        "y_coordinate": 134190.29001255543,
+        "change_date": null
+    }
+}

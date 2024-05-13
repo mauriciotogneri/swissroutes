@@ -1,1 +1,47 @@
-{"type":"Feature","id":30565,"geometry":{"type":"Point","coordinates":[47.663438493746305,8.840961019033388]},"properties":{"id":18207,"land":"\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"","type":"Uebernachte","types":["hotel","groupaccom","campingsite"],"category":"all","language":"en","name":"Campingplatz Wagenhausen","stars_hotellerie":"4","stars_parahotellerie":null,"q_label":"Q","hotelgroup":"GastroSuisse","street":"Hauptstrasse 82","zip":"8259","place":"Wagenhausen","tel":"+41 (0)52 741 42 71","beds":21,"campingplaces":25,"pricefrom":13.0,"priceto":25.0,"price_week":null,"email":"info@campingwagenhausen.ch","url1_text":"www.campingwagenhausen.ch","url1_link":"https://www.campingwagenhausen.ch","url2_text":null,"url2_link":null,"foto":"https://images0.schweizmobil.ch/image-small/Wagenhausen_Camping.jpg","x_coordinate":705333.000624526,"y_coordinate":280141.00114117266,"change_date":null}}
+{
+    "type": "Feature",
+    "id": 36884,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            47.66343848977075,
+            8.84096101331578
+        ]
+    },
+    "properties": {
+        "id": 18207,
+        "land": "\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"",
+        "type": "Uebernachte",
+        "types": [
+            "hotel",
+            "groupaccom",
+            "campingsite"
+        ],
+        "category": "all",
+        "language": "en",
+        "name": "Campingplatz Wagenhausen",
+        "stars_hotellerie": "4",
+        "stars_parahotellerie": null,
+        "q_label": "Q",
+        "hotelgroup": "GastroSuisse",
+        "street": "Hauptstrasse 82",
+        "zip": "8259",
+        "place": "Wagenhausen",
+        "tel": "+41 (0)52 741 42 71",
+        "beds": 21,
+        "campingplaces": 25,
+        "pricefrom": 13,
+        "priceto": 25,
+        "price_week": null,
+        "email": "info@campingwagenhausen.ch",
+        "url1_text": "www.campingwagenhausen.ch",
+        "url1_link": "https://www.campingwagenhausen.ch",
+        "url2_text": null,
+        "url2_link": null,
+        "foto": "https://images.schweizmobil.ch/image-small/Wagenhausen_Camping.jpg",
+        "foto_abstract": null,
+        "x_coordinate": 705333.0984487968,
+        "y_coordinate": 280141.0451348084,
+        "change_date": null
+    }
+}

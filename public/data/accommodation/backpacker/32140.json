@@ -1,1 +1,45 @@
-{"type":"Feature","id":30808,"geometry":{"type":"Point","coordinates":[46.21489410221781,6.149205643024853]},"properties":{"id":32140,"land":"\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"","type":"Uebernachte","types":["backpacker"],"category":"all","language":"en","name":"Geneva Hostel","stars_hotellerie":null,"stars_parahotellerie":null,"q_label":null,"hotelgroup":"Swiss Hostels","street":"Rue Rothschild 30","zip":"1202","place":"Genève","tel":"+41 (0)22 732 62 60","beds":336,"campingplaces":null,"pricefrom":36.0,"priceto":110.0,"price_week":null,"email":"info@genevahostel.ch","url1_text":"www.genevahostel.ch","url1_link":"https://www.genevahostel.ch","url2_text":null,"url2_link":null,"foto":"https://images0.schweizmobil.ch/image/Genf_GenevaHostel.jpg","x_coordinate":500500.00048898044,"y_coordinate":118978.00113145453,"change_date":null}}
+{
+    "type": "Feature",
+    "id": 37117,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            46.214893970714996,
+            6.149192692106045
+        ]
+    },
+    "properties": {
+        "id": 32140,
+        "land": "\"wander\",\"velo\",\"mountainbike\",\"skating\",\"kanu\",\"winterhiking\",\"snowshoe\",\"crosscountry\",\"sledging\"",
+        "type": "Uebernachte",
+        "types": [
+            "backpacker"
+        ],
+        "category": "all",
+        "language": "en",
+        "name": "Geneva Hostel",
+        "stars_hotellerie": null,
+        "stars_parahotellerie": null,
+        "q_label": null,
+        "hotelgroup": "Swiss Hostels",
+        "street": "Rue Rothschild 30",
+        "zip": "1202",
+        "place": "Genève",
+        "tel": "+41 (0)22 732 62 60",
+        "beds": 336,
+        "campingplaces": null,
+        "pricefrom": 36,
+        "priceto": 110,
+        "price_week": null,
+        "email": "info@genevahostel.ch",
+        "url1_text": "www.genevahostel.ch",
+        "url1_link": "https://www.genevahostel.ch",
+        "url2_text": null,
+        "url2_link": null,
+        "foto": "https://images.schweizmobil.ch/image/Genf_GenevaHostel.jpg",
+        "foto_abstract": null,
+        "x_coordinate": 500499.77795751335,
+        "y_coordinate": 118978.26055447235,
+        "change_date": null
+    }
+}
