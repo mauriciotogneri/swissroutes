@@ -532,12 +532,12 @@ function showChargingStations(json) {
 }
 
 function getGallery(json) {
-  if (json.properties.photo_gallery?.length > 0) {
-    return json.properties.photo_gallery
-  } else if (json.properties.photo_gallery_big?.length > 0) {
+  if (json.properties.photo_gallery_big?.length > 0) {
     return json.properties.photo_gallery_big
   } else if (json.properties.photo_gallery_master?.length > 0) {
     return json.properties.photo_gallery_master
+  } else if (json.properties.photo_gallery?.length > 0) {
+    return json.properties.photo_gallery
   } else if (json.properties.photo_gallery_small?.length > 0) {
     return json.properties.photo_gallery_small
   } else if (json.properties.sac_photos?.length > 0) {
