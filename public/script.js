@@ -467,7 +467,23 @@ function showMountainHike(json, heightMin, heightMax, difficultyMin, difficultyM
   }
 
   if (json.properties.mountain_hiking_difficulty) {
-    content += `<span class="material-symbols-outlined">landscape</span>${json.properties.mountain_hiking_difficulty}<br/><br/>`
+    let label = ''
+
+    if (difficulty === 1) {
+      label = 'Hiking'
+    } else if (difficulty === 2) {
+      label = 'Mountain Hiking'
+    } else if (difficulty === 3) {
+      label = 'Difficult Mountain Hiking'
+    } else if (difficulty === 4) {
+      label = 'Alpine Hiking'
+    } else if (difficulty === 5) {
+      label = 'Difficult Alpine Hiking'
+    } else if (difficulty === 6) {
+      label = 'Very Difficult Alpine Hiking'
+    }
+
+    content += `<span class="material-symbols-outlined">landscape</span>${json.properties.mountain_hiking_difficulty} (<a href='https://www.sac-cas.ch/fileadmin/Ausbildung_und_Wissen/Sicher_unterwegs/Sicher_unterwegs_Wandern/2020_Berg_Alpinwanderskala_EN.pdf' target='_blank'>${label}</a>)<br/><br/>`
   }
 
   if (json.properties.ascent_altitude) {
