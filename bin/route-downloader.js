@@ -1,8 +1,8 @@
 const helpers = require('./helpers.js')
 
 async function run() {
-  //await downloadGroup('Mtbland', 'mountainbiking')
-  //await downloadGroup('Veloland', 'cycling')
+  await downloadGroup('Mtbland', 'mountainbiking')
+  await downloadGroup('Veloland', 'cycling')
   await downloadGroup('Wanderland', 'hiking')
 }
 
