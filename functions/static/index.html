@@ -215,6 +215,26 @@
           </div>
 
           <div class="accordion-item">
+            <h2 class="accordion-header" id="headingMountainHike">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseMountainHike" aria-expanded="false" aria-controls="collapseMountainHike">
+                <b>Mountain Hike</b>
+              </button>
+            </h2>
+            <div id="collapseMountainHike" class="accordion-collapse collapse" aria-labelledby="headingMountainHike"
+              data-bs-parent="#parentAccordion">
+              <div class="accordion-body">
+
+                <div class="form-check">
+                  <input type="checkbox" class="form-check-input" id="checkboxMountainHike" onchange="refresh()">
+                  <label class="form-check-label" for="checkboxMountainHike">Mountain hike</label>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
             <h2 class="accordion-header" id="headingAccommodation">
               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                 data-bs-target="#collapseAccommodation" aria-expanded="false" aria-controls="collapseAccommodation">
@@ -272,10 +292,6 @@
                 <div class="form-check">
                   <input type="checkbox" class="form-check-input" id="checkboxOtherSightseeing" onchange="refresh()">
                   <label class="form-check-label" for="checkboxOtherSightseeing">Sightseeing</label>
-                </div>
-                <div class="form-check">
-                  <input type="checkbox" class="form-check-input" id="checkboxOtherMountainHike" onchange="refresh()">
-                  <label class="form-check-label" for="checkboxOtherMountainHike">Mountain hike</label>
                 </div>
                 <div class="form-check">
                   <input type="checkbox" class="form-check-input" id="checkboxOtherChargingStations"

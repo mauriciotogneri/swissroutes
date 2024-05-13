@@ -35,6 +35,7 @@ function refresh() {
   refreshMountainBiking()
   refreshCycling()
   refreshHiking()
+  refreshMountainHike()
 
   refreshAccommodation()
   refreshOther()
@@ -142,6 +143,16 @@ function refreshHiking() {
   }
 }
 
+function refreshMountainHike() {
+  const mountainHikeChecked = document.getElementById('checkboxMountainHike').checked
+
+  if (mountainHikeChecked) {
+    for (const id of OTHER_MOUNTAINHIKE_IDS) {
+      loadMountainHike(`other/mountainhike/${id}.json`)
+    }
+  }
+}
+
 function refreshAccommodation() {
   const campingChecked = document.getElementById('checkboxAccommodationCamping').checked
 
@@ -198,14 +209,6 @@ function refreshOther() {
   if (sightseeingChecked) {
     for (const id of OTHER_SIGHTSEEING_IDS) {
       loadPoint('Sightseeing', 'https://schweizmobil.ch/en/place-of-interest-', `other/sightseeing/${id}.json`)
-    }
-  }
-
-  const mountainHikeChecked = document.getElementById('checkboxOtherMountainHike').checked
-
-  if (mountainHikeChecked) {
-    for (const id of OTHER_MOUNTAINHIKE_IDS) {
-      loadMountainHike(`other/mountainhike/${id}.json`)
     }
   }
 
