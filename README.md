@@ -9,9 +9,9 @@
 * Map: https://www.google.com/maps/d/u/0/viewer?mid=1wdyB_yGO8FqEWUbD-HJTvpQ-KRY
 
 ## Generation
-1. Download the map as KML
-2. Only take the 'Ladestation' section
-3. Convert the file from XML to JSON
+1. Download the map as `KML`
+2. Only take the `Ladestation` section
+3. Convert the file from `XML` to `JSON`
 
 # TODO
 * Review sightseen: https://schweizmobil.ch/en/place-of-interest-373-teppes-of-verbois
