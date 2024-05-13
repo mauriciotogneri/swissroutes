@@ -532,21 +532,35 @@ function showChargingStations(json) {
 }
 
 function getGallery(json) {
-  if (json.properties.photo_gallery_big?.length > 0) {
-    return json.properties.photo_gallery_big
-  } else if (json.properties.photo_gallery_master?.length > 0) {
-    return json.properties.photo_gallery_master
-  } else if (json.properties.photo_gallery?.length > 0) {
-    return json.properties.photo_gallery
-  } else if (json.properties.photo_gallery_small?.length > 0) {
-    return json.properties.photo_gallery_small
+  if (filterEmptyImages(json.properties.photo_gallery_big).length > 0) {
+    return filterEmptyImages(json.properties.photo_gallery_big)
+  } else if (filterEmptyImages(json.properties.photo_gallery_master).length > 0) {
+    return filterEmptyImages(json.properties.photo_gallery_master)
+  } else if (filterEmptyImages(json.properties.photo_gallery).length > 0) {
+    return filterEmptyImages(json.properties.photo_gallery)
+  } else if (filterEmptyImages(json.properties.photo_gallery_small).length > 0) {
+    return filterEmptyImages(json.properties.photo_gallery_small)
   } else if (json.properties.sac_photos?.length > 0) {
-    return json.properties.sac_photos.map((e) => e.photo_big)
+    return json.properties.sac_photos.map((e) => e.photo_big ?? e.photo_master ?? photo_sac_original ?? photo_standard)
   } else if (json.properties.foto) {
     return [json.properties.foto]
   } else {
     return []
   }
+}
+
+function filterEmptyImages(list) {
+  const result = []
+
+  if (list) {
+    for (const element of list) {
+      if (element && (element.trim().length > 0)) {
+        result.push(element.trim())
+      }
+    }
+  }
+
+  return result
 }
 
 function plusSlides(offset, id) {
