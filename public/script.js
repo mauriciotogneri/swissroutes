@@ -16,7 +16,8 @@ function mapLoaded() {
     center: {
       lat: 46.75,
       lng: 8.10,
-    }
+    },
+    mapId: "DEMO_MAP_ID",
   }
 
   map = new google.maps.Map(document.getElementById('map'), mapOptions)
@@ -573,17 +574,17 @@ function plusSlides(offset, id) {
 }
 
 function showMarker(lat, lon, infowindow, text, json, gallery) {
-  const marker = new google.maps.Marker({
+  const content = document.createElement('div')
+  content.className = 'marker-tag'
+  content.textContent = text
+
+  const marker = new google.maps.marker.AdvancedMarkerElement({
+    map: map,
     position: {
       lat: lat,
       lng: lon,
     },
-    label: {
-      text: text,
-      fontSize: '12px',
-      fontWeight: 'bold'
-    },
-    map
+    content: content,
   })
 
   marker.addListener('click', () => {

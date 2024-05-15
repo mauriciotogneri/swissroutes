@@ -18,5 +18,4 @@
 
 * Show summary of all what's selected
 * Disable filter button if no cheek box selected
-* Use new marker and dialog API: https://developers.google.com/maps/documentation/javascript/advanced-markers/migration
 * Fix share download alignment
