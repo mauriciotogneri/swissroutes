@@ -123,34 +123,39 @@ function refreshCycling() {
 }
 
 function refreshHiking() {
-  const lengthMin = readInt('filterHikingLengthMin')
-  const lengthMax = readInt('filterHikingLengthMax')
-
-  const heightMin = readInt('filterHikingHeightMin')
-  const heightMax = readInt('filterHikingHeightMax')
-
+  const filter = document.getElementById('filterHiking')
   const nationalChecked = document.getElementById('checkboxHikingNational').checked
-
-  if (nationalChecked) {
-    for (const id of HIKING_NATIONAL_IDS) {
-      loadRoute('hiking', `hiking/national/${id}.json`, false, lengthMin, lengthMax, heightMin, heightMax)
-    }
-  }
-
   const regionalChecked = document.getElementById('checkboxHikingRegional').checked
-
-  if (regionalChecked) {
-    for (const id of HIKING_REGIONAL_IDS) {
-      loadRoute('hiking', `hiking/regional/${id}.json`, false, lengthMin, lengthMax, heightMin, heightMax)
-    }
-  }
-
   const localChecked = document.getElementById('checkboxHikingLocal').checked
 
-  if (localChecked) {
-    for (const id of HIKING_LOCAL_IDS) {
-      loadRoute('hiking', `hiking/local/${id}.json`, false, lengthMin, lengthMax, heightMin, heightMax)
+  if (nationalChecked || regionalChecked || localChecked) {
+    filter.style.display = 'block'
+
+    const lengthMin = readInt('filterHikingLengthMin')
+    const lengthMax = readInt('filterHikingLengthMax')
+
+    const heightMin = readInt('filterHikingHeightMin')
+    const heightMax = readInt('filterHikingHeightMax')
+
+    if (nationalChecked) {
+      for (const id of HIKING_NATIONAL_IDS) {
+        loadRoute('hiking', `hiking/national/${id}.json`, false, lengthMin, lengthMax, heightMin, heightMax)
+      }
     }
+
+    if (regionalChecked) {
+      for (const id of HIKING_REGIONAL_IDS) {
+        loadRoute('hiking', `hiking/regional/${id}.json`, false, lengthMin, lengthMax, heightMin, heightMax)
+      }
+    }
+
+    if (localChecked) {
+      for (const id of HIKING_LOCAL_IDS) {
+        loadRoute('hiking', `hiking/local/${id}.json`, false, lengthMin, lengthMax, heightMin, heightMax)
+      }
+    }
+  } else {
+    filter.style.display = 'none'
   }
 }
 
