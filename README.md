@@ -14,6 +14,6 @@
 3. Convert the file from `XML` to `JSON`
 
 ## TODO
-* Show summary of all what's selected
+* Show summary of all what's selected -> show actual number of shown markers
 * Allow to share point
 * Review sightseen: https://schweizmobil.ch/en/place-of-interest-373-teppes-of-verbois
