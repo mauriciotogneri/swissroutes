@@ -62,6 +62,12 @@ a {
   vertical-align: text-bottom;
 }
 
+.label-icon {
+  color: #555555;
+  font-size: 20px;
+  margin-left: 5px;
+}
+
 .marker-tag {
   min-width: 30px;
   text-align: center;
