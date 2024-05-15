@@ -18,7 +18,10 @@
 
 * Show summary of all what's selected
 * Disable filter button if no cheek box selected
-* Use new marker and dialog API
+* Use new marker and dialog API: https://developers.google.com/maps/documentation/javascript/advanced-markers/migration
 * Units m,km,1-5
 * Flip difficulty and height
 * If only one image, don't show arrows
+* Fix share download alignment
+* Boat route
+* Use drop-down for difficulty
