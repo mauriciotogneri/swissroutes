@@ -555,18 +555,28 @@ function getGallery(json) {
   const sacPhotos = json.properties.sac_photos?.map((e) => e.photo_big ?? e.photo_master ?? e.photo_sac_original ?? e.photo_standard ?? e.photo_small) ?? []
   const foto = json.properties.foto ? [json.properties.foto] : []
 
-  if (photoGalleryBig.length > 0) {
-    return photoGalleryBig
-  } else if (photoGalleryMaster.length > 0) {
-    return photoGalleryMaster
-  } else if (photoGallery.length > 0) {
-    return photoGallery
-  } else if (photoGallerySmall.length > 0) {
-    return photoGallerySmall
-  } else if (sacPhotos.length > 0) {
-    return sacPhotos
-  } else if (foto.length > 0) {
-    return foto
+  const candidates = [
+    photoGalleryBig,
+    photoGalleryMaster,
+    photoGallery,
+    photoGallerySmall,
+    sacPhotos,
+    foto,
+  ]
+
+  const lengths = [
+    photoGalleryBig.length,
+    photoGalleryMaster.length,
+    photoGallery.length,
+    photoGallerySmall.length,
+    sacPhotos.length,
+    foto.length,
+  ]
+
+  const maxLength = Math.max(...lengths)
+
+  if (maxLength > 0) {
+    return candidates.filter((e) => e.length === maxLength)[0]
   } else {
     return []
   }
