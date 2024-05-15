@@ -160,18 +160,25 @@ function refreshHiking() {
 }
 
 function refreshMountainHike() {
-  const heightMin = readInt('filterMountainHikeHeightMin')
-  const heightMax = readInt('filterMountainHikeHeightMax')
-
-  const difficultyMin = readInt('filterMountainHikeDifficultyMin')
-  const difficultyMax = readInt('filterMountainHikeDifficultyMax')
-
+  const filter = document.getElementById('filterMountainHike')
   const mountainHikeChecked = document.getElementById('checkboxMountainHike').checked
 
   if (mountainHikeChecked) {
-    for (const id of MOUNTAINHIKE_IDS) {
-      loadMountainHike(`other/mountainhike/${id}.json`, heightMin, heightMax, difficultyMin, difficultyMax)
+    filter.style.display = 'block'
+
+    const heightMin = readInt('filterMountainHikeHeightMin')
+    const heightMax = readInt('filterMountainHikeHeightMax')
+
+    const difficultyMin = readInt('filterMountainHikeDifficultyMin')
+    const difficultyMax = readInt('filterMountainHikeDifficultyMax')
+
+    if (mountainHikeChecked) {
+      for (const id of MOUNTAINHIKE_IDS) {
+        loadMountainHike(`other/mountainhike/${id}.json`, heightMin, heightMax, difficultyMin, difficultyMax)
+      }
     }
+  } else {
+    filter.style.display = 'none'
   }
 }
 

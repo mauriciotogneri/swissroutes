@@ -17,4 +17,3 @@
 * Review sightseen: https://schweizmobil.ch/en/place-of-interest-373-teppes-of-verbois
 
 * Show summary of all what's selected
-* Disable filter button if no cheek box selected

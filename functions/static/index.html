@@ -234,36 +234,38 @@
                   <label class="form-check-label" for="checkboxMountainHike">Mountain hike</label>
                 </div>
 
-                <div class="input-group mb-3" style="margin-top: 15px">
-                  <span class="input-group-text">Difficulty</span>
-                  <select class="form-select" id="filterMountainHikeDifficultyMin">
-                    <option value="">Min</option>
-                    <option value="1">T1</option>
-                    <option value="2">T2</option>
-                    <option value="3">T3</option>
-                    <option value="4">T4</option>
-                    <option value="5">T5</option>
-                  </select>
-                  <select class="form-select" id="filterMountainHikeDifficultyMax">
-                    <option value="">Max</option>
-                    <option value="1">T1</option>
-                    <option value="2">T2</option>
-                    <option value="3">T3</option>
-                    <option value="4">T4</option>
-                    <option value="5">T5</option>
-                  </select>
-                </div>
+                <div id="filterMountainHike" style="display:none">
+                  <div class="input-group mb-3" style="margin-top: 15px">
+                    <span class="input-group-text">Difficulty</span>
+                    <select class="form-select" id="filterMountainHikeDifficultyMin">
+                      <option value="">Min</option>
+                      <option value="1">T1</option>
+                      <option value="2">T2</option>
+                      <option value="3">T3</option>
+                      <option value="4">T4</option>
+                      <option value="5">T5</option>
+                    </select>
+                    <select class="form-select" id="filterMountainHikeDifficultyMax">
+                      <option value="">Max</option>
+                      <option value="1">T1</option>
+                      <option value="2">T2</option>
+                      <option value="3">T3</option>
+                      <option value="4">T4</option>
+                      <option value="5">T5</option>
+                    </select>
+                  </div>
 
-                <div class="input-group mb-3" style="margin-top: 15px">
-                  <span class="input-group-text">Height</span>
-                  <input id="filterMountainHikeHeightMin" type="text" class="form-control" placeholder="Min"
-                    aria-label="Min" aria-describedby="basic-addon1">
-                  <input id="filterMountainHikeHeightMax" type="text" class="form-control" placeholder="Max"
-                    aria-label="Max" aria-describedby="basic-addon1">
-                  <span class="input-group-text">m</span>
-                </div>
+                  <div class="input-group mb-3" style="margin-top: 15px">
+                    <span class="input-group-text">Height</span>
+                    <input id="filterMountainHikeHeightMin" type="text" class="form-control" placeholder="Min"
+                      aria-label="Min" aria-describedby="basic-addon1">
+                    <input id="filterMountainHikeHeightMax" type="text" class="form-control" placeholder="Max"
+                      aria-label="Max" aria-describedby="basic-addon1">
+                    <span class="input-group-text">m</span>
+                  </div>
 
-                <button type="button" class="btn btn-primary" style="width: 100%" onclick="refresh()">Filter</button>
+                  <button type="button" class="btn btn-primary" style="width: 100%" onclick="refresh()">Filter</button>
+                </div>
 
               </div>
             </div>
