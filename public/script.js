@@ -327,15 +327,15 @@ function showRoute(type, url, json, focus, lengthMin, lengthMax, heightMin, heig
   content += '<div class="grid-container">'
   content += `<div><img width='25' src='${json.properties.logo}' style='margin-right:10px'/><a href='https://www.schweizmobil.ch/en/${type}-in-switzerland/route-${json.properties.r_number}' target='_blank'>${json.properties.title}</a></div>`
   content += `<div style="text-align:right"><a href='?url=${encodeURIComponent(url)}&type=${type}' target='_blank'><span style="color:#555555;font-size:20px" class="material-symbols-outlined">share</span></a></div>`
-  content += `<div style="text-align:right"><span style="cursor:pointer;color:#555555;font-size:20px" onclick='download()' class="material-symbols-outlined">download</span></div>`
+  content += `<div style="text-align:right"><span style="cursor:pointer;color:#555555;font-size:20px;margin-right:10px" onclick='download()' class="material-symbols-outlined">download</span></div>`
   content += '</div><br/>'
 
   content += `<p><b style="font-weight:bold">${json.properties.abstract}</b></p>`
   content += `<p>${json.properties.description}</p>`
 
-  content += `<p><span class="material-symbols-outlined">conversion_path</span>${length} km (${parseInt(json.properties.length_asphalt * 100 / length)}% asphalted)<br/><br/>`
-  content += `<span class="material-symbols-outlined">north_east</span>${json.properties.height_difference.toLocaleString()} m<br/><br/>`
-  content += `<span class="material-symbols-outlined">south_east</span>${json.properties.height_difference_back.toLocaleString()} m</p>`
+  content += `<p><span class="material-symbols-outlined property-icon">conversion_path</span>${length} km (${parseInt(json.properties.length_asphalt * 100 / length)}% asphalted)<br/><br/>`
+  content += `<span class="material-symbols-outlined property-icon">north_east</span>${json.properties.height_difference.toLocaleString()} m<br/><br/>`
+  content += `<span class="material-symbols-outlined property-icon">south_east</span>${json.properties.height_difference_back.toLocaleString()} m</p>`
 
   if (galleryList.length > 0) {
     content += gallerySection(galleryList, json)
@@ -410,16 +410,16 @@ function showPoint(icon, baseLink, json) {
   }
 
   if (json.properties.tel) {
-    content += `<p><span class="material-symbols-outlined">call</span>${json.properties.tel}</p>`
+    content += `<p><span class="material-symbols-outlined property-icon">call</span>${json.properties.tel}</p>`
   }
 
   if (json.properties.email) {
-    content += `<p><span class="material-symbols-outlined">mail</span>${json.properties.email}</p>`
+    content += `<p><span class="material-symbols-outlined property-icon">mail</span>${json.properties.email}</p>`
   }
 
   if (json.properties.street) {
     const address = `${json.properties.street}, ${json.properties.zip} ${json.properties.place}`
-    content += `<span class="material-symbols-outlined">location_on</span><a href='https://www.google.com/maps/search/${address}' target='_blank'>${address}</a><br/><br/>`
+    content += `<span class="material-symbols-outlined property-icon">location_on</span><a href='https://www.google.com/maps/search/${address}' target='_blank'>${address}</a><br/><br/>`
   }
 
   const urls = new Set()
@@ -437,7 +437,7 @@ function showPoint(icon, baseLink, json) {
   }
 
   urls.forEach((url) => {
-    content += `<span class="material-symbols-outlined">link</span><a href='${url}' target='_blank'>${url}</a><br/><br/>`
+    content += `<span class="material-symbols-outlined property-icon">link</span><a href='${url}' target='_blank'>${url}</a><br/><br/>`
   })
 
   const galleryList = getGallery(json)
@@ -496,15 +496,15 @@ function showMountainHike(json, heightMin, heightMax, difficultyMin, difficultyM
       label = 'Very Difficult Alpine Hiking'
     }
 
-    content += `<span class="material-symbols-outlined">landscape</span>${json.properties.mountain_hiking_difficulty} (<a href='https://www.sac-cas.ch/fileadmin/Ausbildung_und_Wissen/Sicher_unterwegs/Sicher_unterwegs_Wandern/2020_Berg_Alpinwanderskala_EN.pdf' target='_blank'>${label}</a>)<br/><br/>`
+    content += `<span class="material-symbols-outlined property-icon">landscape</span>${json.properties.mountain_hiking_difficulty} (<a href='https://www.sac-cas.ch/fileadmin/Ausbildung_und_Wissen/Sicher_unterwegs/Sicher_unterwegs_Wandern/2020_Berg_Alpinwanderskala_EN.pdf' target='_blank'>${label}</a>)<br/><br/>`
   }
 
   if (json.properties.ascent_altitude) {
-    content += `<span class="material-symbols-outlined">north_east</span>${json.properties.ascent_altitude.toLocaleString()} m<br/><br/>`
+    content += `<span class="material-symbols-outlined property-icon">north_east</span>${json.properties.ascent_altitude.toLocaleString()} m<br/><br/>`
   }
 
   if (json.properties.descent_altitude) {
-    content += `<span class="material-symbols-outlined">south_east</span>${json.properties.descent_altitude.toLocaleString()} m<br/><br/>`
+    content += `<span class="material-symbols-outlined property-icon">south_east</span>${json.properties.descent_altitude.toLocaleString()} m<br/><br/>`
   }
 
   const galleryList = getGallery(json)

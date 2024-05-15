@@ -36,7 +36,7 @@ a {
 
 .grid-container {
   display: grid;
-  grid-template-columns: auto 30px 40px;
+  grid-template-columns: auto 30px 50px;
 }
 
 .prev,
@@ -55,7 +55,7 @@ a {
   background-color: rgba(0, 0, 0, 0.3);
 }
 
-.material-symbols-outlined {
+.property-icon {
   font-size: 16px;
   margin-right: 8px;
   display: inline-flex;
@@ -66,6 +66,7 @@ a {
   color: #555555;
   font-size: 20px;
   margin-left: 5px;
+  vertical-align: text-bottom;
 }
 
 .marker-tag {
