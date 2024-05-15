@@ -34,6 +34,11 @@ a {
   font-weight: bold;
 }
 
+.grid-container {
+  display: grid;
+  grid-template-columns: auto 70px 100px;
+}
+
 .prev,
 .next {
   cursor: pointer;

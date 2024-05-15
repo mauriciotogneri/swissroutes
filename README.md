@@ -18,4 +18,3 @@
 
 * Show summary of all what's selected
 * Disable filter button if no cheek box selected
-* Fix share download alignment
