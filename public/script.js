@@ -49,66 +49,76 @@ function refresh() {
 }
 
 function refreshMountainBiking() {
-  const lengthMin = readInt('filterMountainBikingLengthMin')
-  const lengthMax = readInt('filterMountainBikingLengthMax')
-
-  const heightMin = readInt('filterMountainBikingHeightMin')
-  const heightMax = readInt('filterMountainBikingHeightMax')
-
+  const filter = document.getElementById('filterMountainBiking')
   const nationalChecked = document.getElementById('checkboxMountainBikingNational').checked
-
-  if (nationalChecked) {
-    for (const id of MOUNTAINBIKING_NATIONAL_IDS) {
-      loadRoute('mountainbiking', `mountainbiking/national/${id}.json`, false, lengthMin, lengthMax, heightMin, heightMax)
-    }
-  }
-
   const regionalChecked = document.getElementById('checkboxMountainBikingRegional').checked
-
-  if (regionalChecked) {
-    for (const id of MOUNTAINBIKING_REGIONAL_IDS) {
-      loadRoute('mountainbiking', `mountainbiking/regional/${id}.json`, false, lengthMin, lengthMax, heightMin, heightMax)
-    }
-  }
-
   const localChecked = document.getElementById('checkboxMountainBikingLocal').checked
 
-  if (localChecked) {
-    for (const id of MOUNTAINBIKING_LOCAL_IDS) {
-      loadRoute('mountainbiking', `mountainbiking/local/${id}.json`, false, lengthMin, lengthMax, heightMin, heightMax)
+  if (nationalChecked || regionalChecked || localChecked) {
+    filter.style.display = 'block'
+
+    const lengthMin = readInt('filterMountainBikingLengthMin')
+    const lengthMax = readInt('filterMountainBikingLengthMax')
+
+    const heightMin = readInt('filterMountainBikingHeightMin')
+    const heightMax = readInt('filterMountainBikingHeightMax')
+
+    if (nationalChecked) {
+      for (const id of MOUNTAINBIKING_NATIONAL_IDS) {
+        loadRoute('mountainbiking', `mountainbiking/national/${id}.json`, false, lengthMin, lengthMax, heightMin, heightMax)
+      }
     }
+
+    if (regionalChecked) {
+      for (const id of MOUNTAINBIKING_REGIONAL_IDS) {
+        loadRoute('mountainbiking', `mountainbiking/regional/${id}.json`, false, lengthMin, lengthMax, heightMin, heightMax)
+      }
+    }
+
+    if (localChecked) {
+      for (const id of MOUNTAINBIKING_LOCAL_IDS) {
+        loadRoute('mountainbiking', `mountainbiking/local/${id}.json`, false, lengthMin, lengthMax, heightMin, heightMax)
+      }
+    }
+  } else {
+    filter.style.display = 'none'
   }
 }
 
 function refreshCycling() {
-  const lengthMin = readInt('filterCyclingLengthMin')
-  const lengthMax = readInt('filterCyclingLengthMax')
-
-  const heightMin = readInt('filterCyclingHeightMin')
-  const heightMax = readInt('filterCyclingHeightMax')
-
+  const filter = document.getElementById('filterCycling')
   const nationalChecked = document.getElementById('checkboxCyclingNational').checked
-
-  if (nationalChecked) {
-    for (const id of CYCLING_NATIONAL_IDS) {
-      loadRoute('cycling', `cycling/national/${id}.json`, false, lengthMin, lengthMax, heightMin, heightMax)
-    }
-  }
-
   const regionalChecked = document.getElementById('checkboxCyclingRegional').checked
-
-  if (regionalChecked) {
-    for (const id of CYCLING_REGIONAL_IDS) {
-      loadRoute('cycling', `cycling/regional/${id}.json`, false, lengthMin, lengthMax, heightMin, heightMax)
-    }
-  }
-
   const localChecked = document.getElementById('checkboxCyclingLocal').checked
 
-  if (localChecked) {
-    for (const id of CYCLING_LOCAL_IDS) {
-      loadRoute('cycling', `cycling/local/${id}.json`, false, lengthMin, lengthMax, heightMin, heightMax)
+  if (nationalChecked || regionalChecked || localChecked) {
+    filter.style.display = 'block'
+
+    const lengthMin = readInt('filterCyclingLengthMin')
+    const lengthMax = readInt('filterCyclingLengthMax')
+
+    const heightMin = readInt('filterCyclingHeightMin')
+    const heightMax = readInt('filterCyclingHeightMax')
+
+    if (nationalChecked) {
+      for (const id of CYCLING_NATIONAL_IDS) {
+        loadRoute('cycling', `cycling/national/${id}.json`, false, lengthMin, lengthMax, heightMin, heightMax)
+      }
     }
+
+    if (regionalChecked) {
+      for (const id of CYCLING_REGIONAL_IDS) {
+        loadRoute('cycling', `cycling/regional/${id}.json`, false, lengthMin, lengthMax, heightMin, heightMax)
+      }
+    }
+
+    if (localChecked) {
+      for (const id of CYCLING_LOCAL_IDS) {
+        loadRoute('cycling', `cycling/local/${id}.json`, false, lengthMin, lengthMax, heightMin, heightMax)
+      }
+    }
+  } else {
+    filter.style.display = 'none'
   }
 }
 
@@ -302,10 +312,6 @@ function showRoute(type, url, json, focus, lengthMin, lengthMax, heightMin, heig
   const galleryList = getGallery(json)
 
   let content = ''
-  //content += `<img width='25' src='${json.properties.logo}' style='margin-right:10px'/>`
-  //content += `<a href='https://www.schweizmobil.ch/en/${type}-in-switzerland/route-${json.properties.r_number}' target='_blank'>${json.properties.title}</a>`
-  //content += `<span style='position:absolute;left:100%;top:15px;transform:translateX(-120%);'><a href='?url=${encodeURIComponent(url)}&type=${type}' style='margin-right:20px;color:#0d6efd' target='_blank'>SHARE</a><span style="cursor:pointer;font-weight:bold;color:#0d6efd" onclick='download()'>DOWNLOAD</span></span><br/><br/>`
-
   content += '<div class="grid-container">'
   content += `<div><img width='25' src='${json.properties.logo}' style='margin-right:10px'/><a href='https://www.schweizmobil.ch/en/${type}-in-switzerland/route-${json.properties.r_number}' target='_blank'>${json.properties.title}</a></div>`
   content += `<div style="text-align:right"><a href='?url=${encodeURIComponent(url)}&type=${type}' style='color:#0d6efd' target='_blank'>SHARE</a></div>`
