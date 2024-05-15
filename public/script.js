@@ -548,16 +548,22 @@ function showChargingStations(json) {
 }
 
 function getGallery(json) {
-  if (filterEmptyImages(json.properties.photo_gallery_big).length > 0) {
-    return filterEmptyImages(json.properties.photo_gallery_big)
-  } else if (filterEmptyImages(json.properties.photo_gallery_master).length > 0) {
-    return filterEmptyImages(json.properties.photo_gallery_master)
-  } else if (filterEmptyImages(json.properties.photo_gallery).length > 0) {
-    return filterEmptyImages(json.properties.photo_gallery)
-  } else if (filterEmptyImages(json.properties.photo_gallery_small).length > 0) {
-    return filterEmptyImages(json.properties.photo_gallery_small)
-  } else if (json.properties.sac_photos?.length > 0) {
-    return json.properties.sac_photos.map((e) => e.photo_big ?? e.photo_master ?? photo_sac_original ?? photo_standard)
+  const photoGalleryBig = filterEmptyImages(json.properties.photo_gallery_big)
+  const photoGalleryMaster = filterEmptyImages(json.properties.photo_gallery_master)
+  const photoGallery = filterEmptyImages(json.properties.photo_gallery)
+  const photoGallerySmall = filterEmptyImages(json.properties.photo_gallery_small)
+  const sacPhotos = json.properties.sac_photos?.map((e) => e.photo_big ?? e.photo_master ?? photo_sac_original ?? photo_standard) ?? []
+
+  if (photoGalleryBig.length > 0) {
+    return photoGalleryBig
+  } else if (photoGalleryMaster.length > 0) {
+    return photoGalleryMaster
+  } else if (photoGallery.length > 0) {
+    return photoGallery
+  } else if (photoGallerySmall.length > 0) {
+    return photoGallerySmall
+  } else if (sacPhotos.length > 0) {
+    return sacPhotos
   } else if (json.properties.foto) {
     return [json.properties.foto]
   } else {
