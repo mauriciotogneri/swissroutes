@@ -552,7 +552,7 @@ function getGallery(json) {
   const photoGalleryMaster = filterEmptyImages(json.properties.photo_gallery_master)
   const photoGallery = filterEmptyImages(json.properties.photo_gallery)
   const photoGallerySmall = filterEmptyImages(json.properties.photo_gallery_small)
-  const sacPhotos = json.properties.sac_photos?.map((e) => e.photo_big ?? e.photo_master ?? photo_sac_original ?? photo_standard) ?? []
+  const sacPhotos = json.properties.sac_photos?.map((e) => e.photo_big ?? e.photo_master ?? e.photo_sac_original ?? e.photo_standard ?? e.photo_small) ?? []
   const foto = json.properties.foto ? [json.properties.foto] : []
 
   if (photoGalleryBig.length > 0) {
