@@ -187,7 +187,7 @@ function refreshAccommodation() {
 
   if (campingChecked) {
     for (const id of ACCOMMODATION_CAMPING_IDS) {
-      loadPoint('Camping', 'https://schweizmobil.ch/en/accommodation-', `accommodation/camping/${id}.json`)
+      loadPoint('camping', 'https://schweizmobil.ch/en/accommodation-', `accommodation/camping/${id}.json`)
     }
   }
 
@@ -195,7 +195,7 @@ function refreshAccommodation() {
 
   if (backpackerChecked) {
     for (const id of ACCOMMODATION_BACKPACKER_IDS) {
-      loadPoint('Backpacking', 'https://schweizmobil.ch/en/accommodation-', `accommodation/backpacker/${id}.json`)
+      loadPoint('backpack', 'https://schweizmobil.ch/en/accommodation-', `accommodation/backpacker/${id}.json`)
     }
   }
 
@@ -203,7 +203,7 @@ function refreshAccommodation() {
 
   if (sleepingStrawChecked) {
     for (const id of ACCOMMODATION_SLEEPINGSTRAW_IDS) {
-      loadPoint('SleepingStraw', 'https://schweizmobil.ch/en/accommodation-', `accommodation/sleepingstraw/${id}.json`)
+      loadPoint('bed', 'https://schweizmobil.ch/en/accommodation-', `accommodation/sleepingstraw/${id}.json`)
     }
   }
 
@@ -211,7 +211,7 @@ function refreshAccommodation() {
 
   if (farmChecked) {
     for (const id of ACCOMMODATION_FARM_IDS) {
-      loadPoint('Farm', 'https://schweizmobil.ch/en/accommodation-', `accommodation/farm/${id}.json`)
+      loadPoint('agriculture', 'https://schweizmobil.ch/en/accommodation-', `accommodation/farm/${id}.json`)
     }
   }
 
@@ -219,7 +219,7 @@ function refreshAccommodation() {
 
   if (mountainHutChecked) {
     for (const id of ACCOMMODATION_MOUNTAINHUT_IDS) {
-      loadPoint('Mountain Hut', 'https://schweizmobil.ch/en/accommodation-', `accommodation/mountainhut/${id}.json`)
+      loadPoint('night_shelter', 'https://schweizmobil.ch/en/accommodation-', `accommodation/mountainhut/${id}.json`)
     }
   }
 }
@@ -229,7 +229,7 @@ function refreshOther() {
 
   if (serviceShopChecked) {
     for (const id of OTHER_SERVICESHOP_IDS) {
-      loadPoint('Service Shop', 'https://schweizmobil.ch/en/veloservice-', `other/serviceshop/${id}.json`)
+      loadPoint('build', 'https://schweizmobil.ch/en/veloservice-', `other/serviceshop/${id}.json`)
     }
   }
 
@@ -237,7 +237,7 @@ function refreshOther() {
 
   if (sightseeingChecked) {
     for (const id of OTHER_SIGHTSEEING_IDS) {
-      loadPoint('Sightseeing', 'https://schweizmobil.ch/en/place-of-interest-', `other/sightseeing/${id}.json`)
+      loadPoint('visibility', 'https://schweizmobil.ch/en/place-of-interest-', `other/sightseeing/${id}.json`)
     }
   }
 
@@ -260,12 +260,12 @@ function loadRoute(type, url, focus, lengthMin, lengthMax, heightMin, heightMax)
   xhttp.send()
 }
 
-function loadPoint(label, baseLink, url) {
+function loadPoint(icon, baseLink, url) {
   const xhttp = new XMLHttpRequest()
   xhttp.onreadystatechange = function () {
     if (this.readyState === 4 && this.status === 200) {
       const json = JSON.parse(xhttp.responseText)
-      showPoint(label, baseLink, json)
+      showPoint(icon, baseLink, json)
     }
   }
   xhttp.open('GET', `data/${url}`, true)
@@ -348,11 +348,7 @@ function showRoute(type, url, json, focus, lengthMin, lengthMax, heightMin, heig
   const firstStage = stages[0]
   const start = point(firstStage[0][0], firstStage[0][1])
 
-  const lastStage = stages[stages.length - 1]
-  const end = point(lastStage[lastStage.length - 1][0], lastStage[lastStage.length - 1][1])
-
-  const markerText = json.properties.r_number
-  const markerStart = showMarker(start.lat, start.lng, infowindow, markerText, json, galleryList)
+  const markerStart = showMarker(start.lat, start.lng, infowindow, json.properties.r_number, undefined, json, galleryList)
   const color = nameToRGB(json.properties.title)
 
   let north = -90
@@ -402,7 +398,7 @@ function showRoute(type, url, json, focus, lengthMin, lengthMax, heightMin, heig
   }
 }
 
-function showPoint(label, baseLink, json) {
+function showPoint(icon, baseLink, json) {
   let content = `<a href='${baseLink}${json.id}' target='_blank'>${json.properties.title ? json.properties.title : json.properties.name}</a><br/><br/>`
 
   if (json.properties.abstract) {
@@ -454,7 +450,7 @@ function showPoint(label, baseLink, json) {
     content: content
   })
 
-  showMarker(json.geometry.coordinates[0], json.geometry.coordinates[1], infowindow, label, json, galleryList)
+  showMarker(json.geometry.coordinates[0], json.geometry.coordinates[1], infowindow, undefined, icon, json, galleryList)
 }
 
 function showMountainHike(json, heightMin, heightMax, difficultyMin, difficultyMax) {
@@ -521,7 +517,7 @@ function showMountainHike(json, heightMin, heightMax, difficultyMin, difficultyM
     content: content
   })
 
-  showMarker(json.geometry.coordinates[0], json.geometry.coordinates[1], infowindow, 'Mountain Hike', json, galleryList)
+  showMarker(json.geometry.coordinates[0], json.geometry.coordinates[1], infowindow, undefined, 'landscape', json, galleryList)
 }
 
 function showChargingStations(json) {
@@ -543,7 +539,7 @@ function showChargingStations(json) {
       content: content
     })
 
-    showMarker(latitude, longitude, infowindow, '+/-', json)
+    showMarker(latitude, longitude, infowindow, undefined, 'bolt', json)
   }
 }
 
@@ -614,18 +610,14 @@ function plusSlides(offset, id) {
   index.innerHTML = `${currentGalleryIndex + 1}/${currentGallery.length}`
 }
 
-function showMarker(lat, lon, infowindow, text, json, gallery) {
-  const content = document.createElement('div')
-  content.className = 'marker-tag'
-  content.textContent = text
-
+function showMarker(lat, lon, infowindow, text, icon, json, gallery) {
   const marker = new google.maps.marker.AdvancedMarkerElement({
     map: map,
     position: {
       lat: lat,
       lng: lon,
     },
-    content: content,
+    content: text ? getMarkerText(text) : getMarkerIcon(icon),
   })
 
   marker.addListener('click', () => {
@@ -644,6 +636,25 @@ function showMarker(lat, lon, infowindow, text, json, gallery) {
   markersAdded.push(marker)
 
   return marker
+}
+
+function getMarkerText(text) {
+  const content = document.createElement('div')
+  content.className = 'marker-tag'
+  content.style.fontWeight = 'bold'
+  content.textContent = text
+
+  return content
+}
+
+function getMarkerIcon(icon) {
+  const content = document.createElement('span')
+  content.className = 'material-symbols-outlined marker-tag'
+  content.style.paddingLeft = '7px'
+  content.style.fontSize = '18px'
+  content.textContent = icon
+
+  return content
 }
 
 function showPath(coordinates, markerStart, infowindow, color, gallery, json) {
