@@ -14,6 +14,6 @@
 3. Convert the file from `XML` to `JSON`
 
 ## TODO
-* Review sightseen: https://schweizmobil.ch/en/place-of-interest-373-teppes-of-verbois
-
 * Show summary of all what's selected
+* Allow to share point
+* Review sightseen: https://schweizmobil.ch/en/place-of-interest-373-teppes-of-verbois
