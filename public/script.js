@@ -328,7 +328,7 @@ function showRoute(type, url, json, focus, lengthMin, lengthMax, heightMin, heig
   content += `<div><img width='25' src='${json.properties.logo}' style='margin-right:10px'/><a href='https://www.schweizmobil.ch/en/${type}-in-switzerland/route-${json.properties.r_number}' target='_blank'>${json.properties.title}</a></div>`
   content += `<div style="text-align:right"><a href='?url=${encodeURIComponent(url)}&type=${type}' style='color:#0d6efd' target='_blank'>SHARE</a></div>`
   content += `<div style="text-align:right;margin-right:10px"><span style="cursor:pointer;font-weight:bold;color:#0d6efd" onclick='download()'>DOWNLOAD</span></div>`
-  content += '</div>'
+  content += '</div><br/>'
 
   content += `<p><b style="font-weight:bold">${json.properties.abstract}</b></p>`
   content += `<p>${json.properties.description}</p>`
