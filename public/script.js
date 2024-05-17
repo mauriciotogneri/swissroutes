@@ -581,22 +581,25 @@ function showMountainHike(json, heightMin, heightMax, difficultyMin, difficultyM
   const color = nameToRGB(json.properties.title)
 
   for (const segment of json.segments) {
-    const coordinates = []
+    const pathCoordinates = []
+    const segmentCoordinates = segment.geom?.coordinates
 
-    for (let i = 0; i < segment.length; i++) {
-      const newPoint = point(segment[i][0], segment[i][1])
-      coordinates.push(newPoint)
+    if (segmentCoordinates) {
+      for (let i = 0; i < segmentCoordinates.length; i++) {
+        const newPoint = point(segmentCoordinates[i][0], segmentCoordinates[i][1])
+        pathCoordinates.push(newPoint)
+      }
+
+      const path = new google.maps.Polyline({
+        path: pathCoordinates,
+        geodesic: true,
+        strokeColor: color,
+        strokeOpacity: 1,
+        strokeWeight: 3
+      })
+      path.setMap(map)
+      pathsAdded.push(path)
     }
-
-    const path = new google.maps.Polyline({
-      path: coordinates,
-      geodesic: true,
-      strokeColor: color,
-      strokeOpacity: 1,
-      strokeWeight: 3
-    })
-    path.setMap(map)
-    pathsAdded.push(path)
   }
 }
 
