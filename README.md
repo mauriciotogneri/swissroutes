@@ -13,12 +13,13 @@
 2. Only take the `Ladestation` section
 3. Convert the file from `XML` to `JSON`
 
-## TODO
-* Show summary of all what's selected -> show actual number of shown markers
-* Allow to share point
+## Review
 * Review sightseen: https://schweizmobil.ch/en/place-of-interest-373-teppes-of-verbois
-
-## Other
-* Public charging stations: https://www.e-mobile.ch/fr/trouver-une-borne-de-recharge-publique
-* https://lemnet.org/download_files/LEMNET_CH.gpx
 * My Switzerland: https://www.myswitzerland.com/en-ch
+
+## TODO
+* Allow to share points
+
+## Other charging stations
+* Public charging stations: https://www.e-mobile.ch/fr/trouver-une-borne-de-recharge-publique
+* GPX: https://lemnet.org/download_files/LEMNET_CH.gpx
