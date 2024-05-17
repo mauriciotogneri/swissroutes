@@ -217,6 +217,8 @@ function refreshAccommodation() {
   const campingChecked = document.getElementById('checkboxAccommodationCamping').checked
 
   if (campingChecked) {
+    summary.innerHTML += `<b>Camping</b><br/>`
+
     for (const id of ACCOMMODATION_CAMPING_IDS) {
       loadPoint('camping', 'https://schweizmobil.ch/en/accommodation-', `accommodation/camping/${id}.json`)
     }
@@ -225,6 +227,8 @@ function refreshAccommodation() {
   const backpackerChecked = document.getElementById('checkboxAccommodationBackpacker').checked
 
   if (backpackerChecked) {
+    summary.innerHTML += `<b>Backpacking</b><br/>`
+
     for (const id of ACCOMMODATION_BACKPACKER_IDS) {
       loadPoint('backpack', 'https://schweizmobil.ch/en/accommodation-', `accommodation/backpacker/${id}.json`)
     }
@@ -233,6 +237,8 @@ function refreshAccommodation() {
   const sleepingStrawChecked = document.getElementById('checkboxAccommodationSleepingStraw').checked
 
   if (sleepingStrawChecked) {
+    summary.innerHTML += `<b>Sleeping straw</b><br/>`
+
     for (const id of ACCOMMODATION_SLEEPINGSTRAW_IDS) {
       loadPoint('bed', 'https://schweizmobil.ch/en/accommodation-', `accommodation/sleepingstraw/${id}.json`)
     }
@@ -241,6 +247,8 @@ function refreshAccommodation() {
   const farmChecked = document.getElementById('checkboxAccommodationFarm').checked
 
   if (farmChecked) {
+    summary.innerHTML += `<b>Farm</b><br/>`
+
     for (const id of ACCOMMODATION_FARM_IDS) {
       loadPoint('agriculture', 'https://schweizmobil.ch/en/accommodation-', `accommodation/farm/${id}.json`)
     }
@@ -249,6 +257,8 @@ function refreshAccommodation() {
   const mountainHutChecked = document.getElementById('checkboxAccommodationMountainHut').checked
 
   if (mountainHutChecked) {
+    summary.innerHTML += `<b>Mountain hut</b><br/>`
+
     for (const id of ACCOMMODATION_MOUNTAINHUT_IDS) {
       loadPoint('night_shelter', 'https://schweizmobil.ch/en/accommodation-', `accommodation/mountainhut/${id}.json`)
     }
@@ -259,6 +269,8 @@ function refreshOther() {
   const serviceShopChecked = document.getElementById('checkboxOtherServiceShop').checked
 
   if (serviceShopChecked) {
+    summary.innerHTML += `<b>Service shop</b><br/>`
+
     for (const id of OTHER_SERVICESHOP_IDS) {
       loadPoint('build', 'https://schweizmobil.ch/en/veloservice-', `other/serviceshop/${id}.json`)
     }
@@ -267,6 +279,8 @@ function refreshOther() {
   const sightseeingChecked = document.getElementById('checkboxOtherSightseeing').checked
 
   if (sightseeingChecked) {
+    summary.innerHTML += `<b>Sightseeing</b><br/>`
+
     for (const id of OTHER_SIGHTSEEING_IDS) {
       loadPoint('visibility', 'https://schweizmobil.ch/en/place-of-interest-', `other/sightseeing/${id}.json`)
     }
@@ -275,6 +289,8 @@ function refreshOther() {
   const checkboxOtherChargingStations = document.getElementById('checkboxOtherChargingStations').checked
 
   if (checkboxOtherChargingStations) {
+    summary.innerHTML += `<b>Charging stations</b><br/>`
+
     loadChargingStations(`other/chargingstations/chargingstations.json`)
   }
 }
