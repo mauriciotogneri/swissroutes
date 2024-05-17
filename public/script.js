@@ -177,11 +177,31 @@ function refreshMountainHike() {
   if (mountainHikeChecked) {
     filter.style.display = 'block'
 
+    const difficultyMin = readInt('filterMountainHikeDifficultyMin')
+    const difficultyMax = readInt('filterMountainHikeDifficultyMax')
+
     const heightMin = readInt('filterMountainHikeHeightMin')
     const heightMax = readInt('filterMountainHikeHeightMax')
 
-    const difficultyMin = readInt('filterMountainHikeDifficultyMin')
-    const difficultyMax = readInt('filterMountainHikeDifficultyMax')
+    summary.innerHTML += `<b>Mountain hike</b><ul>`
+
+    if (difficultyMin) {
+      summary.innerHTML += `<li>Min difficulty: T${difficultyMin}</li>`
+    }
+
+    if (difficultyMax) {
+      summary.innerHTML += `<li>Max difficulty: T${difficultyMax}</li>`
+    }
+
+    if (heightMin) {
+      summary.innerHTML += `<li>Min height: ${heightMin.toLocaleString()} m</li>`
+    }
+
+    if (heightMax) {
+      summary.innerHTML += `<li>Max height: ${heightMax.toLocaleString()} m</li>`
+    }
+
+    summary.innerHTML += '</ul>'
 
     if (mountainHikeChecked) {
       for (const id of MOUNTAINHIKE_IDS) {
