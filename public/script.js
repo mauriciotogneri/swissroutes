@@ -229,7 +229,7 @@ function refreshAccommodation() {
   const campingChecked = document.getElementById('checkboxAccommodationCamping').checked
 
   if (campingChecked) {
-    summary.innerHTML += `<div style="padding-top:15px"><b>Camping</b><br/>`
+    summary.innerHTML += `<div style="padding-top:15px"><b>Camping:</b> ${ACCOMMODATION_CAMPING_IDS.length} locations<br/>`
 
     for (const id of ACCOMMODATION_CAMPING_IDS) {
       loadPoint('camping', 'https://schweizmobil.ch/en/accommodation-', `accommodation/camping/${id}.json`)
@@ -239,7 +239,7 @@ function refreshAccommodation() {
   const backpackerChecked = document.getElementById('checkboxAccommodationBackpacker').checked
 
   if (backpackerChecked) {
-    summary.innerHTML += `<div style="padding-top:15px"><b>Backpacking</b><br/>`
+    summary.innerHTML += `<div style="padding-top:15px"><b>Backpacking:</b> ${ACCOMMODATION_BACKPACKER_IDS.length} locations<br/>`
 
     for (const id of ACCOMMODATION_BACKPACKER_IDS) {
       loadPoint('backpack', 'https://schweizmobil.ch/en/accommodation-', `accommodation/backpacker/${id}.json`)
@@ -249,7 +249,7 @@ function refreshAccommodation() {
   const sleepingStrawChecked = document.getElementById('checkboxAccommodationSleepingStraw').checked
 
   if (sleepingStrawChecked) {
-    summary.innerHTML += `<div style="padding-top:15px"><b>Sleeping straw</b><br/>`
+    summary.innerHTML += `<div style="padding-top:15px"><b>Sleeping straw:</b> ${ACCOMMODATION_SLEEPINGSTRAW_IDS.length} locations<br/>`
 
     for (const id of ACCOMMODATION_SLEEPINGSTRAW_IDS) {
       loadPoint('bed', 'https://schweizmobil.ch/en/accommodation-', `accommodation/sleepingstraw/${id}.json`)
@@ -259,7 +259,7 @@ function refreshAccommodation() {
   const farmChecked = document.getElementById('checkboxAccommodationFarm').checked
 
   if (farmChecked) {
-    summary.innerHTML += `<div style="padding-top:15px"><b>Farm</b><br/>`
+    summary.innerHTML += `<div style="padding-top:15px"><b>Farm:</b> ${ACCOMMODATION_FARM_IDS.length} locations<br/>`
 
     for (const id of ACCOMMODATION_FARM_IDS) {
       loadPoint('agriculture', 'https://schweizmobil.ch/en/accommodation-', `accommodation/farm/${id}.json`)
@@ -269,7 +269,7 @@ function refreshAccommodation() {
   const mountainHutChecked = document.getElementById('checkboxAccommodationMountainHut').checked
 
   if (mountainHutChecked) {
-    summary.innerHTML += `<div style="padding-top:15px"><b>Mountain hut</b><br/>`
+    summary.innerHTML += `<div style="padding-top:15px"><b>Mountain hut:</b> ${ACCOMMODATION_MOUNTAINHUT_IDS.length} locations<br/>`
 
     for (const id of ACCOMMODATION_MOUNTAINHUT_IDS) {
       loadPoint('night_shelter', 'https://schweizmobil.ch/en/accommodation-', `accommodation/mountainhut/${id}.json`)
