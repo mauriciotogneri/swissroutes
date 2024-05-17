@@ -141,8 +141,28 @@ async function downloadPoint(group, folder, type) {
   writeFile(`functions/static/index/${group}/${folder}.json`, ids);
 }
 
+async function downloadMountainHike(group, folder, type) {
+  const ids = await getIds(type)
+
+  for (let i = 0; i < ids.length; i++) {
+    const id = ids[i]
+    console.log(`${folder.toUpperCase()}: ${id} (${parseInt((i / ids.length) * 100)}%)`)
+    const filePath = `public/data/${group}/${folder}/${id}.json`
+    await downloadFile(type, id, filePath, true)
+    const file = fs.readFileSync(filePath, 'utf-8')
+    const originalJson = JSON.parse(file)
+
+    const newJson = await getFile(`https://www.sac-cas.ch/en/?type=1567765346410&tx_usersaccas2020_sac2020[routeId]=1658=${json.properties.sac_orig_id}`)
+    originalJson.segments = newJson.segments
+    writeFile(filePath, newJson)
+  }
+
+  writeFile(`functions/static/index/${group}/${folder}.json`, ids);
+}
+
 module.exports = {
   writeFile,
   downloadRoute,
   downloadPoint,
+  downloadMountainHike,
 }
