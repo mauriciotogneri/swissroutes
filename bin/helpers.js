@@ -152,7 +152,7 @@ async function downloadMountainHike(group, folder, type) {
     const file = fs.readFileSync(filePath, 'utf-8')
     const originalJson = JSON.parse(file)
 
-    const newJson = await getFile(`https://www.sac-cas.ch/en/?type=1567765346410&tx_usersaccas2020_sac2020[routeId]=1658=${json.properties.sac_orig_id}`)
+    const newJson = await getFile(`https://www.sac-cas.ch/en/?type=1567765346410&tx_usersaccas2020_sac2020[routeId]=1658=${originalJson.properties.sac_orig_id}`)
     originalJson.segments = newJson.segments
     writeFile(filePath, newJson)
   }
