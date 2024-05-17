@@ -7,10 +7,13 @@ let pathsAdded = []
 let currentGallery = []
 let currentGalleryIndex = 0
 let currentJson = undefined
+let summary = undefined
 
 const COLORS = ['#e81123', '#c6ba15', '#ff8c00', '#ec008c', '#68217a', '#00188f', '#00bcf2', '#00b294', '#009e49', '#bad80a']
 
 function mapLoaded() {
+  summary = document.getElementById('summary')
+
   const mapOptions = {
     zoom: 9,
     center: {
@@ -25,6 +28,8 @@ function mapLoaded() {
 }
 
 function refresh() {
+  summary.innerHTML = ''
+
   for (let marker of markersAdded) {
     marker.setMap(null)
   }
@@ -57,6 +62,8 @@ function refreshMountainBiking() {
   if (nationalChecked || regionalChecked || localChecked) {
     filter.style.display = 'block'
 
+    summary.innerHTML += '<b>Mountain biking</b><ul>'
+
     const lengthMin = readInt('filterMountainBikingLengthMin')
     const lengthMax = readInt('filterMountainBikingLengthMax')
 
@@ -67,19 +74,43 @@ function refreshMountainBiking() {
       for (const id of MOUNTAINBIKING_NATIONAL_IDS) {
         loadRoute('mountainbiking', `mountainbiking/national/${id}.json`, false, lengthMin, lengthMax, heightMin, heightMax)
       }
+
+      summary.innerHTML += '<li>National</li>'
     }
 
     if (regionalChecked) {
       for (const id of MOUNTAINBIKING_REGIONAL_IDS) {
         loadRoute('mountainbiking', `mountainbiking/regional/${id}.json`, false, lengthMin, lengthMax, heightMin, heightMax)
       }
+
+      summary.innerHTML += '<li>Regional</li>'
     }
 
     if (localChecked) {
       for (const id of MOUNTAINBIKING_LOCAL_IDS) {
         loadRoute('mountainbiking', `mountainbiking/local/${id}.json`, false, lengthMin, lengthMax, heightMin, heightMax)
       }
+
+      summary.innerHTML += '<li>Local</li>'
     }
+
+    if (lengthMin) {
+      summary.innerHTML += `<li>Min length: ${lengthMin} m</li>`
+    }
+
+    if (lengthMax) {
+      summary.innerHTML += `<li>Max length: ${lengthMax} m</li>`
+    }
+
+    if (heightMin) {
+      summary.innerHTML += `<li>Min height: ${heightMin} m</li>`
+    }
+
+    if (heightMax) {
+      summary.innerHTML += `<li>Max height: ${heightMax} m</li>`
+    }
+
+    summary.innerHTML += '</ul>'
   } else {
     filter.style.display = 'none'
   }
