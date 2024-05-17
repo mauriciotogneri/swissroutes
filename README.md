@@ -20,4 +20,5 @@
 
 ## Other
 * Public charging stations: https://www.e-mobile.ch/fr/trouver-une-borne-de-recharge-publique
+* https://lemnet.org/download_files/LEMNET_CH.gpx
 * My Switzerland: https://www.myswitzerland.com/en-ch
