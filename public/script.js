@@ -577,6 +577,27 @@ function showMountainHike(json, heightMin, heightMax, difficultyMin, difficultyM
   })
 
   showMarker(json.geometry.coordinates[0], json.geometry.coordinates[1], infowindow, undefined, 'landscape', json, galleryList)
+
+  const color = nameToRGB(json.properties.title)
+
+  for (const segment of json.segments) {
+    const coordinates = []
+
+    for (let i = 0; i < segment.length; i++) {
+      const newPoint = point(segment[i][0], segment[i][1])
+      coordinates.push(newPoint)
+    }
+
+    const path = new google.maps.Polyline({
+      path: coordinates,
+      geodesic: true,
+      strokeColor: color,
+      strokeOpacity: 1,
+      strokeWeight: 3
+    })
+    path.setMap(map)
+    pathsAdded.push(path)
+  }
 }
 
 function showChargingStations(json) {
