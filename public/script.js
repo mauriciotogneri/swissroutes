@@ -827,33 +827,48 @@ function gallerySection(galleryList, json) {
 
 function showSummary(type, nationalChecked, regionalChecked, localChecked, lengthMin, lengthMax, heightMin, heightMax) {
   summary.innerHTML += `<b>${type}</b><ul>`
+  const types = []
 
   if (nationalChecked) {
-    summary.innerHTML += '<li>National</li>'
+    types.push('National')
   }
 
   if (regionalChecked) {
-    summary.innerHTML += '<li>Regional</li>'
+    types.push('Regional')
   }
 
   if (localChecked) {
-    summary.innerHTML += '<li>Local</li>'
+    types.push('Local')
   }
 
-  if (lengthMin) {
-    summary.innerHTML += `<li>Min length: ${lengthMin.toLocaleString()} km</li>`
+  summary.innerHTML += `<li>Type: ${types.join(' / ').trim()}</li>`
+
+  if (lengthMin || lengthMax) {
+    const lengths = []
+
+    if (lengthMin) {
+      lengths.push(`Min: ${lengthMin.toLocaleString()} km`)
+    }
+
+    if (lengthMax) {
+      lengths.push(`Max: ${lengthMax.toLocaleString()} km`)
+    }
+
+    summary.innerHTML += `<li>Length: ${lengths.join(' / ').trim()}</li>`
   }
 
-  if (lengthMax) {
-    summary.innerHTML += `<li>Max length: ${lengthMax.toLocaleString()} km</li>`
-  }
+  if (heightMin || heightMax) {
+    const lengths = []
 
-  if (heightMin) {
-    summary.innerHTML += `<li>Min height: ${heightMin.toLocaleString()} m</li>`
-  }
+    if (heightMin) {
+      lengths.push(`Min: ${heightMin.toLocaleString()} m`)
+    }
 
-  if (heightMax) {
-    summary.innerHTML += `<li>Max height: ${heightMax.toLocaleString()} m</li>`
+    if (heightMax) {
+      lengths.push(`Max: ${heightMax.toLocaleString()} m`)
+    }
+
+    summary.innerHTML += `<li>Height: ${lengths.join(' / ').trim()}</li>`
   }
 
   summary.innerHTML += '</ul>'
