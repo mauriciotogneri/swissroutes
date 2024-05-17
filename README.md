@@ -17,3 +17,7 @@
 * Show summary of all what's selected -> show actual number of shown markers
 * Allow to share point
 * Review sightseen: https://schweizmobil.ch/en/place-of-interest-373-teppes-of-verbois
+
+## Other
+* Public charging stations: https://www.e-mobile.ch/fr/trouver-une-borne-de-recharge-publique
+* My Switzerland: https://www.myswitzerland.com/en-ch
