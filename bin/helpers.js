@@ -1,5 +1,36 @@
 const fs = require('fs')
 
+async function getSegments(id) {
+  const url = `https://www.sac-cas.ch/en/?type=1567765346410&tx_usersaccas2020_sac2020[routeId]=${id}&output_lang=en`
+
+  try {
+    const json = await getFile(url)
+    const result = []
+
+    for (const segment of json.segments) {
+      if (segment.geom) {
+        const coordinates = segment.geom.coordinates
+        let newCoordinates = []
+
+        for (const coordinate of coordinates) {
+          const y = parseInt(coordinate[0])
+          const x = parseInt(coordinate[1])
+          const newPoint = lv95ToLatLng(y, x)
+
+          newCoordinates.push(newPoint)
+        }
+
+        segment.geom.coordinates = newCoordinates
+        result.push(segment)
+      }
+    }
+
+    return result
+  } catch (e) {
+    console.log(`Error downloading file: ${url}\n${e.toString()}`)
+  }
+}
+
 async function downloadFile(name, id, filePath, isPoint) {
   const url = `https://map.schweizmobil.ch/api/4/query/featuresmultilayers?attributes=yes&translated=true&language=en&${name}=${id}`
 
@@ -100,6 +131,27 @@ function getPoint(y, x) {
   return [lat, lng]
 }
 
+function lv95ToLatLng(east, north) {
+  const y_aux = (east - 2600000) / 1000000
+  const x_aux = (north - 1200000) / 1000000
+
+  const lat = (16.9023892
+    + 3.238272 * x_aux
+    - 0.270978 * Math.pow(y_aux, 2)
+    - 0.002528 * Math.pow(x_aux, 2)
+    - 0.0447 * Math.pow(y_aux, 2) * x_aux
+    - 0.0140 * Math.pow(x_aux, 3)) * 100 / 36
+
+  const lng = (2.6779094
+    + 4.728982 * y_aux
+    + 0.791484 * y_aux * x_aux
+    + 0.1306 * y_aux * Math.pow(x_aux, 2)
+    - 0.0436 * Math.pow(y_aux, 3)) * 100 / 36
+
+  return [lat, lng]
+}
+
+
 async function getIds(type) {
   const url = `https://data.schweizmobil.ch/poi-clusters-prod/21781/clustered_${type}.geojson`
   const result = []
@@ -149,12 +201,11 @@ async function downloadMountainHike(group, folder, type) {
     console.log(`${folder.toUpperCase()}: ${id} (${parseInt((i / ids.length) * 100)}%)`)
     const filePath = `public/data/${group}/${folder}/${id}.json`
     await downloadFile(type, id, filePath, true)
+
     const file = fs.readFileSync(filePath, 'utf-8')
     const originalJson = JSON.parse(file)
-
-    const newJson = await getFile(`https://www.sac-cas.ch/en/?type=1567765346410&tx_usersaccas2020_sac2020[routeId]=${originalJson.properties.sac_orig_id}`)
-    originalJson.segments = newJson.segments
-    writeFile(filePath, newJson)
+    originalJson.segments = await getSegments(originalJson.properties.sac_orig_id)
+    writeFile(filePath, originalJson)
   }
 
   writeFile(`functions/static/index/${group}/${folder}.json`, ids);
