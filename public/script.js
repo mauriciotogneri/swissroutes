@@ -576,8 +576,7 @@ function showMountainHike(json, heightMin, heightMax, difficultyMin, difficultyM
     content: content
   })
 
-  showMarker(json.geometry.coordinates[0], json.geometry.coordinates[1], infowindow, undefined, 'landscape', json, galleryList)
-
+  const marker = showMarker(json.geometry.coordinates[0], json.geometry.coordinates[1], infowindow, undefined, 'landscape', json, galleryList)
   const color = nameToRGB(json.properties.title)
 
   for (const segment of json.segments) {
@@ -597,6 +596,20 @@ function showMountainHike(json, heightMin, heightMax, difficultyMin, difficultyM
         strokeOpacity: 1,
         strokeWeight: 3
       })
+
+      path.addListener('click', () => {
+        if (openedInfoWindow) {
+          openedInfoWindow.close()
+        }
+
+        infowindow.open(map, marker)
+        openedInfoWindow = infowindow
+
+        currentGallery = galleryList
+        currentGalleryIndex = 0
+        currentJson = json
+      })
+
       path.setMap(map)
       pathsAdded.push(path)
     }
