@@ -826,7 +826,7 @@ function gallerySection(galleryList, json) {
 }
 
 function showSummary(type, nationalChecked, regionalChecked, localChecked, lengthMin, lengthMax, heightMin, heightMax) {
-  summary.innerHTML += `<b>${type}</b><ul>`
+  summary.innerHTML += `<div style="padding-top:15px"></div><b>${type}</b><ul>`
   const types = []
 
   if (nationalChecked) {
