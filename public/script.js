@@ -62,55 +62,31 @@ function refreshMountainBiking() {
   if (nationalChecked || regionalChecked || localChecked) {
     filter.style.display = 'block'
 
-    summary.innerHTML += '<b>Mountain biking</b><ul>'
-
     const lengthMin = readInt('filterMountainBikingLengthMin')
     const lengthMax = readInt('filterMountainBikingLengthMax')
 
     const heightMin = readInt('filterMountainBikingHeightMin')
     const heightMax = readInt('filterMountainBikingHeightMax')
 
+    showSummary('Mountain biking', nationalChecked, regionalChecked, localChecked, lengthMin, lengthMax, heightMin, heightMax)
+
     if (nationalChecked) {
       for (const id of MOUNTAINBIKING_NATIONAL_IDS) {
         loadRoute('mountainbiking', `mountainbiking/national/${id}.json`, false, lengthMin, lengthMax, heightMin, heightMax)
       }
-
-      summary.innerHTML += '<li>National</li>'
     }
 
     if (regionalChecked) {
       for (const id of MOUNTAINBIKING_REGIONAL_IDS) {
         loadRoute('mountainbiking', `mountainbiking/regional/${id}.json`, false, lengthMin, lengthMax, heightMin, heightMax)
       }
-
-      summary.innerHTML += '<li>Regional</li>'
     }
 
     if (localChecked) {
       for (const id of MOUNTAINBIKING_LOCAL_IDS) {
         loadRoute('mountainbiking', `mountainbiking/local/${id}.json`, false, lengthMin, lengthMax, heightMin, heightMax)
       }
-
-      summary.innerHTML += '<li>Local</li>'
     }
-
-    if (lengthMin) {
-      summary.innerHTML += `<li>Min length: ${lengthMin} m</li>`
-    }
-
-    if (lengthMax) {
-      summary.innerHTML += `<li>Max length: ${lengthMax} m</li>`
-    }
-
-    if (heightMin) {
-      summary.innerHTML += `<li>Min height: ${heightMin} m</li>`
-    }
-
-    if (heightMax) {
-      summary.innerHTML += `<li>Max height: ${heightMax} m</li>`
-    }
-
-    summary.innerHTML += '</ul>'
   } else {
     filter.style.display = 'none'
   }
@@ -130,6 +106,8 @@ function refreshCycling() {
 
     const heightMin = readInt('filterCyclingHeightMin')
     const heightMax = readInt('filterCyclingHeightMax')
+
+    showSummary('Cycling', nationalChecked, regionalChecked, localChecked, lengthMin, lengthMax, heightMin, heightMax)
 
     if (nationalChecked) {
       for (const id of CYCLING_NATIONAL_IDS) {
@@ -167,6 +145,8 @@ function refreshHiking() {
 
     const heightMin = readInt('filterHikingHeightMin')
     const heightMax = readInt('filterHikingHeightMax')
+
+    showSummary('Hiking', nationalChecked, regionalChecked, localChecked, lengthMin, lengthMax, heightMin, heightMax)
 
     if (nationalChecked) {
       for (const id of HIKING_NATIONAL_IDS) {
@@ -807,4 +787,38 @@ function gallerySection(galleryList, json) {
   content += `<br/><br/><span><b id='index-${json.properties.r_number}'>1/${galleryList.length}</b></span><br/></center>`
 
   return content
+}
+
+function showSummary(type, nationalChecked, regionalChecked, localChecked, lengthMin, lengthMax, heightMin, heightMax) {
+  summary.innerHTML += `<b>${type}</b><ul>`
+
+  if (nationalChecked) {
+    summary.innerHTML += '<li>National</li>'
+  }
+
+  if (regionalChecked) {
+    summary.innerHTML += '<li>Regional</li>'
+  }
+
+  if (localChecked) {
+    summary.innerHTML += '<li>Local</li>'
+  }
+
+  if (lengthMin) {
+    summary.innerHTML += `<li>Min length: ${lengthMin.toLocaleString()} km</li>`
+  }
+
+  if (lengthMax) {
+    summary.innerHTML += `<li>Max length: ${lengthMax.toLocaleString()} km</li>`
+  }
+
+  if (heightMin) {
+    summary.innerHTML += `<li>Min height: ${heightMin.toLocaleString()} m</li>`
+  }
+
+  if (heightMax) {
+    summary.innerHTML += `<li>Max height: ${heightMax.toLocaleString()} m</li>`
+  }
+
+  summary.innerHTML += '</ul>'
 }
