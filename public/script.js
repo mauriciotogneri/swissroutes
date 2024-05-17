@@ -183,22 +183,34 @@ function refreshMountainHike() {
     const heightMin = readInt('filterMountainHikeHeightMin')
     const heightMax = readInt('filterMountainHikeHeightMax')
 
-    summary.innerHTML += `<b>Mountain hike</b><ul>`
+    summary.innerHTML += `<div style="padding-top:15px"><b>Mountain hike</b><ul>`
 
-    if (difficultyMin) {
-      summary.innerHTML += `<li>Min difficulty: T${difficultyMin}</li>`
+    if (difficultyMin || difficultyMax) {
+      const lengths = []
+
+      if (difficultyMin) {
+        lengths.push(`Min: T${difficultyMin}`)
+      }
+
+      if (difficultyMax) {
+        lengths.push(`Max: T${difficultyMax}`)
+      }
+
+      summary.innerHTML += `<li>Difficulty: ${lengths.join(' / ').trim()}</li>`
     }
 
-    if (difficultyMax) {
-      summary.innerHTML += `<li>Max difficulty: T${difficultyMax}</li>`
-    }
+    if (heightMin || heightMax) {
+      const lengths = []
 
-    if (heightMin) {
-      summary.innerHTML += `<li>Min height: ${heightMin.toLocaleString()} m</li>`
-    }
+      if (heightMin) {
+        lengths.push(`Min: ${heightMin.toLocaleString()} m`)
+      }
 
-    if (heightMax) {
-      summary.innerHTML += `<li>Max height: ${heightMax.toLocaleString()} m</li>`
+      if (heightMax) {
+        lengths.push(`Max: ${heightMax.toLocaleString()} m`)
+      }
+
+      summary.innerHTML += `<li>Height: ${lengths.join(' / ').trim()}</li>`
     }
 
     summary.innerHTML += '</ul>'
