@@ -47,14 +47,13 @@ function refresh() {
   refreshOther()
 
   if (PARAM_URL && PARAM_TYPE) {
-    if ((PARAM_TYPE === 'mountainbiking') || (PARAM_TYPE === 'cycling') || (PARAM_TYPE === 'hiking')) {
+    if (['mountainbiking', 'cycling', 'hiking'].includes(PARAM_TYPE)) {
       loadRoute(PARAM_TYPE, PARAM_URL, true)
+    } else if (['camping', 'backpack', 'bed', 'agriculture', 'night_shelter', 'build', 'visibility'].includes(PARAM_TYPE)) {
+      loadPoint(PARAM_TYPE, PARAM_URL)
     }
 
-
-
     //loadMountainHike(`other/mountainhike/${id}.json`)
-    //loadPoint('camping', `accommodation/camping/${id}.json`)
     //loadChargingStations(`other/chargingstations/chargingstations.json`)
     PARAM_TYPE = undefined
     PARAM_URL = undefined
@@ -280,7 +279,7 @@ function refreshAccommodation() {
     summary.innerHTML += `<div style="padding-top:15px"><b>Mountain hut:</b> ${ACCOMMODATION_MOUNTAINHUT_IDS.length} locations<br/>`
 
     for (const id of ACCOMMODATION_MOUNTAINHUT_IDS) {
-      loadPoint('night_shelter', 'https://schweizmobil.ch/en/accommodation-', `accommodation/mountainhut/${id}.json`)
+      loadPoint('night_shelter', `accommodation/mountainhut/${id}.json`)
     }
   }
 }
@@ -332,7 +331,7 @@ function loadPoint(icon, url) {
   xhttp.onreadystatechange = function () {
     if (this.readyState === 4 && this.status === 200) {
       const json = JSON.parse(xhttp.responseText)
-      showPoint(icon, json)
+      showPoint(url, icon, json)
     }
   }
   xhttp.open('GET', `data/${url}`, true)
@@ -390,8 +389,7 @@ function showRoute(type, url, json, focus, lengthMin, lengthMax, heightMin, heig
 
   const galleryList = getGallery(json)
 
-  let content = ''
-  content += '<div class="grid-container">'
+  let content = '<div class="grid-container">'
   content += `<div><img width='25' src='${json.properties.logo}' style='margin-right:10px'/><a href='https://www.schweizmobil.ch/en/${type}-in-switzerland/route-${json.properties.r_number}' target='_blank'>${json.properties.title}</a></div>`
   content += `<div style="text-align:right"><a href='?url=${encodeURIComponent(url)}&type=${type}' target='_blank'><span style="color:#555555;font-size:20px" class="material-symbols-outlined">share</span></a></div>`
   content += `<div style="text-align:right"><span style="cursor:pointer;color:#555555;font-size:20px;margin-right:10px" onclick='download()' class="material-symbols-outlined">download</span></div>`
@@ -465,8 +463,12 @@ function showRoute(type, url, json, focus, lengthMin, lengthMax, heightMin, heig
   }
 }
 
-function showPoint(icon, json) {
-  let content = `<a href='https://schweizmobil.ch/en/accommodation-${json.id}' target='_blank'>${json.properties.title ? json.properties.title : json.properties.name}</a><br/><br/>`
+function showPoint(url, icon, json) {
+  let content = '<div class="grid-container">'
+  content += `<a href="https://schweizmobil.ch/en/accommodation-${json.id}" target="_blank">${json.properties.title ? json.properties.title : json.properties.name}</a>`
+  content += '<div></div>'
+  content += `<div style="text-align:right"><a href='?url=${encodeURIComponent(url)}&type=${icon}' target='_blank'><span style="color:#555555;font-size:20px" class="material-symbols-outlined">share</span></a></div>`
+  content += '</div><br/>'
 
   if (json.properties.abstract) {
     content += `<p style="font-weight:bold">${json.properties.abstract}</p>`
