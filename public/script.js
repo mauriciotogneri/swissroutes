@@ -290,7 +290,7 @@ function refreshOther() {
     summary.innerHTML += `<div style="padding-top:15px"><b>Service shop</b><br/>`
 
     for (const id of OTHER_SERVICESHOP_IDS) {
-      loadPoint('build', 'https://schweizmobil.ch/en/veloservice-', `other/serviceshop/${id}.json`)
+      loadPoint('build', `other/serviceshop/${id}.json`)
     }
   }
 
@@ -300,7 +300,7 @@ function refreshOther() {
     summary.innerHTML += `<div style="padding-top:15px"><b>Sightseeing</b><br/>`
 
     for (const id of OTHER_SIGHTSEEING_IDS) {
-      loadPoint('visibility', 'https://schweizmobil.ch/en/place-of-interest-', `other/sightseeing/${id}.json`)
+      loadPoint('visibility', `other/sightseeing/${id}.json`)
     }
   }
 
@@ -463,8 +463,18 @@ function showRoute(type, url, json, focus, lengthMin, lengthMax, heightMin, heig
 }
 
 function showPoint(url, icon, json) {
+  let baseLink = ''
+
+  if (icon === 'build') {
+    baseLink = 'https://schweizmobil.ch/en/cycle-service-'
+  } else if (icon === 'visibility') {
+    baseLink = 'https://schweizmobil.ch/en/place-of-interest-'
+  } else {
+    baseLink = 'https://schweizmobil.ch/en/accommodation-'
+  }
+
   let content = '<div class="grid-container">'
-  content += `<a href="https://schweizmobil.ch/en/accommodation-${json.id}" target="_blank">${json.properties.title ? json.properties.title : json.properties.name}</a>`
+  content += `<a href="${baseLink}${json.id}" target="_blank">${json.properties.title ? json.properties.title : json.properties.name}</a>`
   content += '<div></div>'
   content += `<div style="text-align:right"><a href='?url=${encodeURIComponent(url)}&type=${icon}' target='_blank'><span style="color:#555555;font-size:20px" class="material-symbols-outlined">share</span></a></div>`
   content += '</div><br/>'
