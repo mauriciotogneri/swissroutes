@@ -48,6 +48,9 @@ function refresh() {
 
   if (PARAM_URL && PARAM_TYPE) {
     loadRoute(PARAM_TYPE, PARAM_URL, true)
+    //loadMountainHike(`other/mountainhike/${id}.json`)
+    //loadPoint('camping', `accommodation/camping/${id}.json`)
+    //loadChargingStations(`other/chargingstations/chargingstations.json`)
     PARAM_TYPE = undefined
     PARAM_URL = undefined
   }
@@ -232,7 +235,7 @@ function refreshAccommodation() {
     summary.innerHTML += `<div style="padding-top:15px"><b>Camping:</b> ${ACCOMMODATION_CAMPING_IDS.length} locations<br/>`
 
     for (const id of ACCOMMODATION_CAMPING_IDS) {
-      loadPoint('camping', 'https://schweizmobil.ch/en/accommodation-', `accommodation/camping/${id}.json`)
+      loadPoint('camping', `accommodation/camping/${id}.json`)
     }
   }
 
@@ -242,7 +245,7 @@ function refreshAccommodation() {
     summary.innerHTML += `<div style="padding-top:15px"><b>Backpacking:</b> ${ACCOMMODATION_BACKPACKER_IDS.length} locations<br/>`
 
     for (const id of ACCOMMODATION_BACKPACKER_IDS) {
-      loadPoint('backpack', 'https://schweizmobil.ch/en/accommodation-', `accommodation/backpacker/${id}.json`)
+      loadPoint('backpack', `accommodation/backpacker/${id}.json`)
     }
   }
 
@@ -252,7 +255,7 @@ function refreshAccommodation() {
     summary.innerHTML += `<div style="padding-top:15px"><b>Sleeping straw:</b> ${ACCOMMODATION_SLEEPINGSTRAW_IDS.length} locations<br/>`
 
     for (const id of ACCOMMODATION_SLEEPINGSTRAW_IDS) {
-      loadPoint('bed', 'https://schweizmobil.ch/en/accommodation-', `accommodation/sleepingstraw/${id}.json`)
+      loadPoint('bed', `accommodation/sleepingstraw/${id}.json`)
     }
   }
 
@@ -262,7 +265,7 @@ function refreshAccommodation() {
     summary.innerHTML += `<div style="padding-top:15px"><b>Farm:</b> ${ACCOMMODATION_FARM_IDS.length} locations<br/>`
 
     for (const id of ACCOMMODATION_FARM_IDS) {
-      loadPoint('agriculture', 'https://schweizmobil.ch/en/accommodation-', `accommodation/farm/${id}.json`)
+      loadPoint('agriculture', `accommodation/farm/${id}.json`)
     }
   }
 
@@ -319,12 +322,12 @@ function loadRoute(type, url, focus, lengthMin, lengthMax, heightMin, heightMax)
   xhttp.send()
 }
 
-function loadPoint(icon, baseLink, url) {
+function loadPoint(icon, url) {
   const xhttp = new XMLHttpRequest()
   xhttp.onreadystatechange = function () {
     if (this.readyState === 4 && this.status === 200) {
       const json = JSON.parse(xhttp.responseText)
-      showPoint(icon, baseLink, json)
+      showPoint(icon, json)
     }
   }
   xhttp.open('GET', `data/${url}`, true)
@@ -457,8 +460,8 @@ function showRoute(type, url, json, focus, lengthMin, lengthMax, heightMin, heig
   }
 }
 
-function showPoint(icon, baseLink, json) {
-  let content = `<a href='${baseLink}${json.id}' target='_blank'>${json.properties.title ? json.properties.title : json.properties.name}</a><br/><br/>`
+function showPoint(icon, json) {
+  let content = `<a href='https://schweizmobil.ch/en/accommodation-${json.id}' target='_blank'>${json.properties.title ? json.properties.title : json.properties.name}</a><br/><br/>`
 
   if (json.properties.abstract) {
     content += `<p style="font-weight:bold">${json.properties.abstract}</p>`
