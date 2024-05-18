@@ -47,7 +47,12 @@ function refresh() {
   refreshOther()
 
   if (PARAM_URL && PARAM_TYPE) {
-    loadRoute(PARAM_TYPE, PARAM_URL, true)
+    if ((PARAM_TYPE === 'mountainbiking') || (PARAM_TYPE === 'cycling') || (PARAM_TYPE === 'hiking')) {
+      loadRoute(PARAM_TYPE, PARAM_URL, true)
+    }
+
+
+
     //loadMountainHike(`other/mountainhike/${id}.json`)
     //loadPoint('camping', `accommodation/camping/${id}.json`)
     //loadChargingStations(`other/chargingstations/chargingstations.json`)
