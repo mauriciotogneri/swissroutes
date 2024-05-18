@@ -50,9 +50,9 @@ function refresh() {
     if (['mountainbiking', 'cycling', 'hiking'].includes(PARAM_TYPE)) {
       loadRoute(PARAM_TYPE, PARAM_URL, true)
     } else if (['camping', 'backpack', 'bed', 'agriculture', 'night_shelter', 'build', 'visibility'].includes(PARAM_TYPE)) {
-      loadPoint(PARAM_TYPE, PARAM_URL)
+      loadPoint(PARAM_TYPE, PARAM_URL, true)
     } else if (['mountainhike'].includes(PARAM_TYPE)) {
-      loadMountainHike(PARAM_URL)
+      loadMountainHike(PARAM_URL, true)
     }
     PARAM_TYPE = undefined
     PARAM_URL = undefined
@@ -223,7 +223,7 @@ function refreshMountainHike() {
 
     if (mountainHikeChecked) {
       for (const id of MOUNTAINHIKE_IDS) {
-        loadMountainHike(`other/mountainhike/${id}.json`, heightMin, heightMax, difficultyMin, difficultyMax)
+        loadMountainHike(`other/mountainhike/${id}.json`, false, heightMin, heightMax, difficultyMin, difficultyMax)
       }
     }
   } else {
@@ -238,7 +238,7 @@ function refreshAccommodation() {
     summary.innerHTML += `<div style="padding-top:15px"><b>Camping:</b> ${ACCOMMODATION_CAMPING_IDS.length} locations<br/>`
 
     for (const id of ACCOMMODATION_CAMPING_IDS) {
-      loadPoint('camping', `accommodation/camping/${id}.json`)
+      loadPoint('camping', `accommodation/camping/${id}.json`, false)
     }
   }
 
@@ -248,7 +248,7 @@ function refreshAccommodation() {
     summary.innerHTML += `<div style="padding-top:15px"><b>Backpacking:</b> ${ACCOMMODATION_BACKPACKER_IDS.length} locations<br/>`
 
     for (const id of ACCOMMODATION_BACKPACKER_IDS) {
-      loadPoint('backpack', `accommodation/backpacker/${id}.json`)
+      loadPoint('backpack', `accommodation/backpacker/${id}.json`, false)
     }
   }
 
@@ -258,7 +258,7 @@ function refreshAccommodation() {
     summary.innerHTML += `<div style="padding-top:15px"><b>Sleeping straw:</b> ${ACCOMMODATION_SLEEPINGSTRAW_IDS.length} locations<br/>`
 
     for (const id of ACCOMMODATION_SLEEPINGSTRAW_IDS) {
-      loadPoint('bed', `accommodation/sleepingstraw/${id}.json`)
+      loadPoint('bed', `accommodation/sleepingstraw/${id}.json`, false)
     }
   }
 
@@ -268,7 +268,7 @@ function refreshAccommodation() {
     summary.innerHTML += `<div style="padding-top:15px"><b>Farm:</b> ${ACCOMMODATION_FARM_IDS.length} locations<br/>`
 
     for (const id of ACCOMMODATION_FARM_IDS) {
-      loadPoint('agriculture', `accommodation/farm/${id}.json`)
+      loadPoint('agriculture', `accommodation/farm/${id}.json`, false)
     }
   }
 
@@ -278,7 +278,7 @@ function refreshAccommodation() {
     summary.innerHTML += `<div style="padding-top:15px"><b>Mountain hut:</b> ${ACCOMMODATION_MOUNTAINHUT_IDS.length} locations<br/>`
 
     for (const id of ACCOMMODATION_MOUNTAINHUT_IDS) {
-      loadPoint('night_shelter', `accommodation/mountainhut/${id}.json`)
+      loadPoint('night_shelter', `accommodation/mountainhut/${id}.json`, false)
     }
   }
 }
@@ -290,7 +290,7 @@ function refreshOther() {
     summary.innerHTML += `<div style="padding-top:15px"><b>Service shop</b><br/>`
 
     for (const id of OTHER_SERVICESHOP_IDS) {
-      loadPoint('build', `other/serviceshop/${id}.json`)
+      loadPoint('build', `other/serviceshop/${id}.json`, false)
     }
   }
 
@@ -300,7 +300,7 @@ function refreshOther() {
     summary.innerHTML += `<div style="padding-top:15px"><b>Sightseeing</b><br/>`
 
     for (const id of OTHER_SIGHTSEEING_IDS) {
-      loadPoint('visibility', `other/sightseeing/${id}.json`)
+      loadPoint('visibility', `other/sightseeing/${id}.json`, false)
     }
   }
 
@@ -325,24 +325,24 @@ function loadRoute(type, url, focus, lengthMin, lengthMax, heightMin, heightMax)
   xhttp.send()
 }
 
-function loadPoint(icon, url) {
+function loadPoint(icon, url, focus) {
   const xhttp = new XMLHttpRequest()
   xhttp.onreadystatechange = function () {
     if (this.readyState === 4 && this.status === 200) {
       const json = JSON.parse(xhttp.responseText)
-      showPoint(url, icon, json)
+      showPoint(url, icon, json, focus)
     }
   }
   xhttp.open('GET', `data/${url}`, true)
   xhttp.send()
 }
 
-function loadMountainHike(url, heightMin, heightMax, difficultyMin, difficultyMax) {
+function loadMountainHike(url, focus, heightMin, heightMax, difficultyMin, difficultyMax) {
   const xhttp = new XMLHttpRequest()
   xhttp.onreadystatechange = function () {
     if (this.readyState === 4 && this.status === 200) {
       const json = JSON.parse(xhttp.responseText)
-      showMountainHike(url, json, heightMin, heightMax, difficultyMin, difficultyMax)
+      showMountainHike(url, json, focus, heightMin, heightMax, difficultyMin, difficultyMax)
     }
   }
   xhttp.open('GET', `data/${url}`, true)
@@ -462,7 +462,7 @@ function showRoute(type, url, json, focus, lengthMin, lengthMax, heightMin, heig
   }
 }
 
-function showPoint(url, icon, json) {
+function showPoint(url, icon, json, focus) {
   let baseLink = ''
 
   if (icon === 'build') {
@@ -529,9 +529,21 @@ function showPoint(url, icon, json) {
   })
 
   showMarker(json.geometry.coordinates[0], json.geometry.coordinates[1], infowindow, undefined, icon, json, galleryList)
+
+  if (focus) {
+    const gap = 0.1
+    const bounds = {
+      north: json.geometry.coordinates[0] + gap,
+      south: json.geometry.coordinates[0] - gap,
+      east: json.geometry.coordinates[1] + gap,
+      west: json.geometry.coordinates[1] - gap,
+    }
+
+    map.fitBounds(bounds)
+  }
 }
 
-function showMountainHike(url, json, heightMin, heightMax, difficultyMin, difficultyMax) {
+function showMountainHike(url, json, focus, heightMin, heightMax, difficultyMin, difficultyMax) {
   const height = parseInt(json.properties.ascent_altitude)
   const difficulty = parseInt(json.properties.mountain_hiking_difficulty.replace('T', '').replace('+', '').replace('-', ''))
 
@@ -636,6 +648,18 @@ function showMountainHike(url, json, heightMin, heightMax, difficultyMin, diffic
       path.setMap(map)
       pathsAdded.push(path)
     }
+  }
+
+  if (focus) {
+    const gap = 0.03
+    const bounds = {
+      north: json.geometry.coordinates[0] + gap,
+      south: json.geometry.coordinates[0] - gap,
+      east: json.geometry.coordinates[1] + gap,
+      west: json.geometry.coordinates[1] - gap,
+    }
+
+    map.fitBounds(bounds)
   }
 }
 
