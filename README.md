@@ -17,9 +17,6 @@
 * Review sightseen: https://schweizmobil.ch/en/place-of-interest-373-teppes-of-verbois
 * My Switzerland: https://www.myswitzerland.com/en-ch
 
-## TODO
-* Allow to share points
-
 ## Other charging stations
 * Public charging stations: https://www.e-mobile.ch/fr/trouver-une-borne-de-recharge-publique
 * GPX: https://lemnet.org/download_files/LEMNET_CH.gpx

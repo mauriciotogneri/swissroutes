@@ -51,10 +51,9 @@ function refresh() {
       loadRoute(PARAM_TYPE, PARAM_URL, true)
     } else if (['camping', 'backpack', 'bed', 'agriculture', 'night_shelter', 'build', 'visibility'].includes(PARAM_TYPE)) {
       loadPoint(PARAM_TYPE, PARAM_URL)
+    } else if (['mountainhike'].includes(PARAM_TYPE)) {
+      loadMountainHike(PARAM_URL)
     }
-
-    //loadMountainHike(`other/mountainhike/${id}.json`)
-    //loadChargingStations(`other/chargingstations/chargingstations.json`)
     PARAM_TYPE = undefined
     PARAM_URL = undefined
   }
@@ -343,7 +342,7 @@ function loadMountainHike(url, heightMin, heightMax, difficultyMin, difficultyMa
   xhttp.onreadystatechange = function () {
     if (this.readyState === 4 && this.status === 200) {
       const json = JSON.parse(xhttp.responseText)
-      showMountainHike(json, heightMin, heightMax, difficultyMin, difficultyMax)
+      showMountainHike(url, json, heightMin, heightMax, difficultyMin, difficultyMax)
     }
   }
   xhttp.open('GET', `data/${url}`, true)
@@ -522,7 +521,7 @@ function showPoint(url, icon, json) {
   showMarker(json.geometry.coordinates[0], json.geometry.coordinates[1], infowindow, undefined, icon, json, galleryList)
 }
 
-function showMountainHike(json, heightMin, heightMax, difficultyMin, difficultyMax) {
+function showMountainHike(url, json, heightMin, heightMax, difficultyMin, difficultyMax) {
   const height = parseInt(json.properties.ascent_altitude)
   const difficulty = parseInt(json.properties.mountain_hiking_difficulty.replace('T', '').replace('+', '').replace('-', ''))
 
@@ -542,7 +541,11 @@ function showMountainHike(json, heightMin, heightMax, difficultyMin, difficultyM
     return
   }
 
-  let content = `<a href='https://www.sac-cas.ch/en/huts-and-tours/sac-route-portal/${json.properties.sac_poi_id}/mountain_hiking' target='_blank'>${json.properties.title} - ${json.properties.poi_title}</a><br/><br/>`
+  let content = '<div class="grid-container">'
+  content += `<a href='https://www.sac-cas.ch/en/huts-and-tours/sac-route-portal/${json.properties.sac_poi_id}/mountain_hiking' target='_blank'>${json.properties.title} - ${json.properties.poi_title}</a>`
+  content += '<div></div>'
+  content += `<div style="text-align:right"><a href='?url=${encodeURIComponent(url)}&type=mountainhike' target='_blank'><span style="color:#555555;font-size:20px" class="material-symbols-outlined">share</span></a></div>`
+  content += '</div><br/>'
 
   if (json.properties.abstract) {
     content += `<p>${json.properties.abstract}</p>`
