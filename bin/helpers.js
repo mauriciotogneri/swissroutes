@@ -151,7 +151,6 @@ function lv95ToLatLng(east, north) {
   return [lat, lng]
 }
 
-
 async function getIds(type) {
   const url = `https://data.schweizmobil.ch/poi-clusters-prod/21781/clustered_${type}.geojson`
   const result = []
