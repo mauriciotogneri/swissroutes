@@ -1,0 +1,119 @@
+{
+    "category_groups": [
+        {
+            "title": "Destinations",
+            "categories": [
+                {
+                    "title": "Cities",
+                    "icon": "map-city",
+                    "id": "6792de39-8cc2-46fc-ae44-9124fcb4d67c"
+                },
+                {
+                    "title": "Summer Destinations",
+                    "icon": "map-summer-destination",
+                    "id": "d97a580f-dd68-44a7-a85a-25ee308ddb34"
+                },
+                {
+                    "title": "Winter Destinations",
+                    "icon": "map-winter-destination",
+                    "id": "d7370d42-9c26-4465-90fb-602d73d8afcb"
+                },
+                {
+                    "title": "Swiss Parks",
+                    "icon": "map-swiss-park",
+                    "id": "25b24492-4bb7-4d3d-977f-27d0a5a66951"
+                },
+                {
+                    "title": "Webcams",
+                    "icon": "media-webcam",
+                    "id": "e7bd1c2b-91dd-4d6a-b937-be4909cd36cc"
+                }
+            ]
+        },
+        {
+            "title": "Accommodation",
+            "categories": [
+                {
+                    "title": "Hotels",
+                    "icon": "map-hotel",
+                    "id": "5130b1a6-32ba-404e-bdaf-64fb20bc60c0"
+                },
+                {
+                    "title": "Hostels",
+                    "icon": "map-hostel",
+                    "id": "0d764ef3-3629-4ad6-a01a-daa46f4c477d"
+                },
+                {
+                    "title": "BnB",
+                    "icon": "map-bnb",
+                    "id": "4ff37ce8-bc56-46b1-b91a-19fc98ac531a"
+                },
+                {
+                    "title": "Campings",
+                    "icon": "map-camping",
+                    "id": "863e5bc3-a04e-4f3d-b20e-bcb2f1e931f0"
+                },
+                {
+                    "title": "Group houses",
+                    "icon": "map-group-house",
+                    "id": "9a60fc13-c7c1-455c-b3e6-8dc6674c5338"
+                },
+                {
+                    "title": "Restaurants",
+                    "icon": "search-restaurant",
+                    "id": "5812b740-953c-4e08-9336-e6350b2a7829"
+                }
+            ]
+        },
+        {
+            "title": "Experiences",
+            "categories": [
+                {
+                    "title": "Family tips",
+                    "icon": "family",
+                    "id": "7e53498c-2701-4934-86f7-12f192cc670d"
+                },
+                {
+                    "title": "Group excursions",
+                    "icon": "map-group-excursion",
+                    "id": "783f974d-3119-42fd-a8bd-cf539ebeaef6"
+                },
+                {
+                    "title": "Hiking",
+                    "icon": "map-hiking",
+                    "id": "51c9d671-7051-4c97-ae88-4ef3391af9bd"
+                },
+                {
+                    "title": "Museums",
+                    "icon": "map-museum",
+                    "id": "dd94bb08-23de-4db7-be15-5417cd21eddd"
+                },
+                {
+                    "title": "Sports and adventures",
+                    "icon": "map-sport-adventure",
+                    "id": "5e93f5a6-9934-4956-b835-d1a85fce4062"
+                },
+                {
+                    "title": "Zoos and animalparks",
+                    "icon": "map-zoo-animal-park",
+                    "id": "5a84ed3e-a5b0-4e7f-90ee-ffb97c9d6940"
+                }
+            ]
+        },
+        {
+            "title": "Transport and stay",
+            "categories": [
+                {
+                    "title": "Mountainrailways",
+                    "icon": "map-mountainrailway",
+                    "id": "5b8a403a-aca6-4aca-9399-a02605852778"
+                },
+                {
+                    "title": "Ships",
+                    "icon": "map-ship",
+                    "id": "9c7f9bf2-d09d-4b17-b89a-1406e8c50953"
+                }
+            ]
+        }
+    ]
+}
