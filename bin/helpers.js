@@ -1,5 +1,44 @@
 const fs = require('fs')
 
+function hashCode(text) {
+  let result = 0
+
+  for (let i = 0; i < text.length; i++) {
+    result = (result << 5) - result + text.charCodeAt(i++) | 0
+  }
+
+  result = Math.abs(result % 10000)
+
+  while (result < 1000) {
+    result = Math.abs((result * 2) % 10000)
+  }
+
+  return result
+}
+
+async function getPois() {
+  const url = 'https://www.myswitzerland.com/api/maps/GetPointsOfInterests/?mapid=4bf4b9f9-affe-4599-bbc9-d7d2facf6711&language=en-CH&siteName=myswitzerland'
+
+  try {
+    return getFile(url)
+  } catch (e) {
+    console.log(`Error downloading file: ${url}\n${e.toString()}`)
+  }
+}
+
+async function getPoisByCategory(category) {
+  const pois = await getPois()
+  const result = []
+
+  for (const poi of pois) {
+    if (poi.categories.includes(category)) {
+      result.push(poi)
+    }
+  }
+
+  return result
+}
+
 async function getSegments(id) {
   const url = `https://www.sac-cas.ch/en/?type=1567765346410&tx_usersaccas2020_sac2020[routeId]=${id}&output_lang=en`
 
@@ -189,7 +228,7 @@ async function downloadPoint(group, folder, type) {
     await downloadFile(type, id, filePath, true)
   }
 
-  writeFile(`functions/static/index/${group}/${folder}.json`, ids);
+  writeFile(`functions/static/index/${group}/${folder}.json`, ids)
 }
 
 async function downloadMountainHike(group, folder, type) {
@@ -207,7 +246,37 @@ async function downloadMountainHike(group, folder, type) {
     writeFile(filePath, originalJson)
   }
 
-  writeFile(`functions/static/index/${group}/${folder}.json`, ids);
+  writeFile(`functions/static/index/${group}/${folder}.json`, ids)
+}
+
+async function downloadPois(group, folder, category) {
+  const pois = await getPoisByCategory(category)
+  const ids = []
+
+  for (const poi of pois) {
+    const id = hashCode(poi.id)
+    ids.push(id)
+
+    const json = {
+      id: id,
+      title: poi.title,
+      properties: {
+        r_number: id,
+        foto: poi.imageUrl,
+      },
+      geometry: {
+        coordinates: [
+          poi.lat,
+          poi.long
+        ]
+      }
+    }
+
+    const filePath = `public/data/${group}/${folder}/${id}.json`
+    writeFile(filePath, json)
+  }
+
+  writeFile(`functions/static/index/${group}/${folder}.json`, ids)
 }
 
 module.exports = {
@@ -215,4 +284,5 @@ module.exports = {
   downloadRoute,
   downloadPoint,
   downloadMountainHike,
+  downloadPois,
 }
