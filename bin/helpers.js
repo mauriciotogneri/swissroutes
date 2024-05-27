@@ -282,10 +282,10 @@ async function downloadPois(group, folder, category, append) {
   if (append) {
     const file = fs.readFileSync(idsFilePath, 'utf-8')
     const originalIds = JSON.parse(file)
-    writeFile(idsFilePath, originalIds.concat(ids))
-  } else {
-    writeFile(idsFilePath, ids)
+    ids.push(...originalIds)
   }
+
+  writeFile(idsFilePath, ids)
 }
 
 module.exports = {
