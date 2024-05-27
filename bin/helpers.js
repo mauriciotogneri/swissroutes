@@ -259,8 +259,8 @@ async function downloadPois(group, folder, category) {
 
     const json = {
       id: id,
-      title: poi.title,
       properties: {
+        title: poi.title,
         r_number: id,
         foto: poi.imageUrl,
       },

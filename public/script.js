@@ -49,7 +49,7 @@ function refresh() {
   if (PARAM_URL && PARAM_TYPE) {
     if (['mountainbiking', 'cycling', 'hiking'].includes(PARAM_TYPE)) {
       loadRoute(PARAM_TYPE, PARAM_URL, true)
-    } else if (['camping', 'backpack', 'bed', 'agriculture', 'night_shelter', 'build', 'visibility'].includes(PARAM_TYPE)) {
+    } else if (['camping', 'backpack', 'bed', 'agriculture', 'night_shelter', 'gite', 'build', 'visibility'].includes(PARAM_TYPE)) {
       loadPoint(PARAM_TYPE, PARAM_URL, true)
     } else if (['mountainhike'].includes(PARAM_TYPE)) {
       loadMountainHike(PARAM_URL, true)
@@ -281,6 +281,16 @@ function refreshAccommodation() {
       loadPoint('night_shelter', `accommodation/mountainhut/${id}.json`, false)
     }
   }
+
+  const hostelChecked = document.getElementById('checkboxAccommodationHostel').checked
+
+  if (hostelChecked) {
+    summary.innerHTML += `<div style="padding-top:15px"><b>Hostels:</b> ${ACCOMMODATION_HOSTEL_IDS.length} locations<br/>`
+
+    for (const id of ACCOMMODATION_HOSTEL_IDS) {
+      loadPoint('gite', `accommodation/hostels/${id}.json`, false)
+    }
+  }
 }
 
 function refreshOther() {
@@ -463,18 +473,27 @@ function showRoute(type, url, json, focus, lengthMin, lengthMax, heightMin, heig
 }
 
 function showPoint(url, icon, json, focus) {
+  const name = json.properties.title ? json.properties.title : json.properties.name
+
   let baseLink = ''
 
   if (icon === 'build') {
     baseLink = 'https://schweizmobil.ch/en/cycle-service-'
   } else if (icon === 'visibility') {
     baseLink = 'https://schweizmobil.ch/en/place-of-interest-'
-  } else {
+  } else if (icon !== 'gite') {
     baseLink = 'https://schweizmobil.ch/en/accommodation-'
   }
 
   let content = '<div class="grid-container">'
-  content += `<a href="${baseLink}${json.id}" target="_blank">${json.properties.title ? json.properties.title : json.properties.name}</a>`
+
+  if (baseLink) {
+    content += `<a href="${baseLink}${json.id}" target="_blank">${name}</a>`
+  } else {
+    //content += `<span style="font-weight:bold">${name}</span>`
+    content += `<a href="https://www.google.com/maps/search/${name}" target="_blank">${name}</a>`
+  }
+
   content += '<div></div>'
   content += `<div style="text-align:right"><a href='?url=${encodeURIComponent(url)}&type=${icon}' target='_blank'><span style="color:#555555;font-size:20px" class="material-symbols-outlined">share</span></a></div>`
   content += '</div><br/>'
