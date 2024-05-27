@@ -49,7 +49,7 @@ function refresh() {
   if (PARAM_URL && PARAM_TYPE) {
     if (['mountainbiking', 'cycling', 'hiking'].includes(PARAM_TYPE)) {
       loadRoute(PARAM_TYPE, PARAM_URL, true)
-    } else if (['camping', 'backpack', 'bed', 'agriculture', 'night_shelter', 'gite', 'build', 'visibility'].includes(PARAM_TYPE)) {
+    } else if (['camping', 'backpack', 'bed', 'agriculture', 'night_shelter', 'gite', 'hotel', 'build', 'visibility'].includes(PARAM_TYPE)) {
       loadPoint(PARAM_TYPE, PARAM_URL, true)
     } else if (['mountainhike'].includes(PARAM_TYPE)) {
       loadMountainHike(PARAM_URL, true)
@@ -505,6 +505,11 @@ function showPoint(url, icon, json, focus) {
 
   content += '<div></div>'
   content += `<div style="text-align:right"><a href='?url=${encodeURIComponent(url)}&type=${icon}' target='_blank'><span style="color:#555555;font-size:20px" class="material-symbols-outlined">share</span></a></div>`
+
+  if (!baseLink) {
+    content += `<a href="https://www.google.com/maps/place/${json.geometry.coordinates[0]},${json.geometry.coordinates[1]}" target="_blank">Address</a>`
+  }
+
   content += '</div><br/>'
 
   if (json.properties.abstract) {
