@@ -494,6 +494,7 @@ function showRoute(type, url, json, focus, lengthMin, lengthMax, heightMin, heig
 
 function showPoint(url, icon, json, focus) {
   const name = json.properties.title ? json.properties.title : json.properties.name
+  const isBasic = json.properties.city !== undefined
 
   let baseLink = ''
 
@@ -501,7 +502,7 @@ function showPoint(url, icon, json, focus) {
     baseLink = 'https://schweizmobil.ch/en/cycle-service-'
   } else if (icon === 'visibility') {
     baseLink = 'https://schweizmobil.ch/en/place-of-interest-'
-  } else if ((icon !== 'gite') && (icon !== 'hotel') && (icon !== 'house')) {
+  } else if (!isBasic) {
     baseLink = 'https://schweizmobil.ch/en/accommodation-'
   }
 
@@ -516,7 +517,7 @@ function showPoint(url, icon, json, focus) {
   content += '<div></div>'
   content += `<div style="text-align:right"><a href='?url=${encodeURIComponent(url)}&type=${icon}' target='_blank'><span style="color:#555555;font-size:20px" class="material-symbols-outlined">share</span></a></div>`
 
-  if (!baseLink) {
+  if (isBasic) {
     content += `<a href="https://www.google.com/maps/place/${json.geometry.coordinates[0]},${json.geometry.coordinates[1]}" target="_blank">Address</a>`
   }
 
