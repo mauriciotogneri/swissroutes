@@ -249,7 +249,7 @@ async function downloadMountainHike(group, folder, type) {
   writeFile(`functions/static/index/${group}/${folder}.json`, ids)
 }
 
-async function downloadPois(group, folder, category) {
+async function downloadPois(group, folder, category, append) {
   const pois = await getPoisByCategory(category)
   const ids = []
 
@@ -277,7 +277,15 @@ async function downloadPois(group, folder, category) {
     writeFile(filePath, json)
   }
 
-  writeFile(`functions/static/index/${group}/${folder}.json`, ids)
+  const idsFilePath = `functions/static/index/${group}/${folder}.json`
+
+  if (append) {
+    const file = fs.readFileSync(idsFilePath, 'utf-8')
+    const originalIds = JSON.parse(file)
+    writeFile(idsFilePath, originalIds.concat(ids))
+  } else {
+    writeFile(idsFilePath, ids)
+  }
 }
 
 module.exports = {
