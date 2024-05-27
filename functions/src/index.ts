@@ -40,6 +40,7 @@ export const website = onRequest((request, response) => {
   template = fillIds(template, 'ACCOMMODATION_SLEEPINGSTRAW_IDS', 'accommodation/sleepingstraw');
   template = fillIds(template, 'ACCOMMODATION_HOSTEL_IDS', 'accommodation/hostels');
   template = fillIds(template, 'ACCOMMODATION_BNB_IDS', 'accommodation/bnb');
+  template = fillIds(template, 'ACCOMMODATION_GROUPHOUSE_IDS', 'accommodation/grouphouse');
 
   // other
   template = fillIds(template, 'OTHER_SERVICESHOP_IDS', 'other/serviceshop');

@@ -49,7 +49,7 @@ function refresh() {
   if (PARAM_URL && PARAM_TYPE) {
     if (['mountainbiking', 'cycling', 'hiking'].includes(PARAM_TYPE)) {
       loadRoute(PARAM_TYPE, PARAM_URL, true)
-    } else if (['camping', 'backpack', 'bed', 'agriculture', 'night_shelter', 'gite', 'hotel', 'build', 'visibility'].includes(PARAM_TYPE)) {
+    } else if (['camping', 'backpack', 'bed', 'agriculture', 'night_shelter', 'gite', 'house', 'hotel', 'build', 'visibility'].includes(PARAM_TYPE)) {
       loadPoint(PARAM_TYPE, PARAM_URL, true)
     } else if (['mountainhike'].includes(PARAM_TYPE)) {
       loadMountainHike(PARAM_URL, true)
@@ -301,6 +301,16 @@ function refreshAccommodation() {
       loadPoint('hotel', `accommodation/bnb/${id}.json`, false)
     }
   }
+
+  const groupHouseChecked = document.getElementById('checkboxAccommodationGroupHouse').checked
+
+  if (groupHouseChecked) {
+    summary.innerHTML += `<div style="padding-top:15px"><b>Group house:</b> ${ACCOMMODATION_GROUPHOUSE_IDS.length} locations<br/>`
+
+    for (const id of ACCOMMODATION_GROUPHOUSE_IDS) {
+      loadPoint('house', `accommodation/grouphouse/${id}.json`, false)
+    }
+  }
 }
 
 function refreshOther() {
@@ -491,7 +501,7 @@ function showPoint(url, icon, json, focus) {
     baseLink = 'https://schweizmobil.ch/en/cycle-service-'
   } else if (icon === 'visibility') {
     baseLink = 'https://schweizmobil.ch/en/place-of-interest-'
-  } else if ((icon !== 'gite') && (icon !== 'hotel')) {
+  } else if ((icon !== 'gite') && (icon !== 'hotel') && (icon !== 'house')) {
     baseLink = 'https://schweizmobil.ch/en/accommodation-'
   }
 
