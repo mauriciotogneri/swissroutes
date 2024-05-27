@@ -291,6 +291,16 @@ function refreshAccommodation() {
       loadPoint('gite', `accommodation/hostels/${id}.json`, false)
     }
   }
+
+  const bnbChecked = document.getElementById('checkboxAccommodationBnb').checked
+
+  if (bnbChecked) {
+    summary.innerHTML += `<div style="padding-top:15px"><b>Bnb:</b> ${ACCOMMODATION_BNB_IDS.length} locations<br/>`
+
+    for (const id of ACCOMMODATION_BNB_IDS) {
+      loadPoint('hotel', `accommodation/bnb/${id}.json`, false)
+    }
+  }
 }
 
 function refreshOther() {
@@ -481,7 +491,7 @@ function showPoint(url, icon, json, focus) {
     baseLink = 'https://schweizmobil.ch/en/cycle-service-'
   } else if (icon === 'visibility') {
     baseLink = 'https://schweizmobil.ch/en/place-of-interest-'
-  } else if (icon !== 'gite') {
+  } else if ((icon !== 'gite') && (icon !== 'hotel')) {
     baseLink = 'https://schweizmobil.ch/en/accommodation-'
   }
 
@@ -490,8 +500,7 @@ function showPoint(url, icon, json, focus) {
   if (baseLink) {
     content += `<a href="${baseLink}${json.id}" target="_blank">${name}</a>`
   } else {
-    //content += `<span style="font-weight:bold">${name}</span>`
-    content += `<a href="https://www.google.com/maps/search/${name}" target="_blank">${name}</a>`
+    content += `<a href="https://www.google.com/maps/search/${name} ${json.properties.city}" target="_blank">${name}</a>`
   }
 
   content += '<div></div>'

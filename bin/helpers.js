@@ -263,6 +263,7 @@ async function downloadPois(group, folder, category) {
         title: poi.title,
         r_number: id,
         foto: poi.imageUrl,
+        city: poi.placeTitle
       },
       geometry: {
         coordinates: [
