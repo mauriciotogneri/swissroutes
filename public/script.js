@@ -9,7 +9,7 @@ let currentGalleryIndex = 0
 let currentJson = undefined
 let summary = undefined
 
-const COLORS = ['#e81123', '#c6ba15', '#ff8c00', '#ec008c', '#68217a', '#00188f', '#00bcf2', '#00b294', '#009e49', '#bad80a']
+const COLORS = ['#e81123', '#ff8c00', '#ec008c', '#68217a', '#00188f', '#00bcf2', '#00b294', '#009e49']
 
 function mapLoaded() {
   summary = document.getElementById('summary')
@@ -887,7 +887,7 @@ function nameToRGB(name) {
     hash = Math.abs(name.charCodeAt(i) + ((hash << 5) - hash))
   }
 
-  return COLORS[hash % 10]
+  return COLORS[hash % COLORS.length]
 }
 
 function download() {
