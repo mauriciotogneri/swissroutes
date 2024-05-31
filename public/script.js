@@ -24,6 +24,12 @@ function mapLoaded() {
   }
 
   map = new google.maps.Map(document.getElementById('map'), mapOptions)
+
+  if (FAVORITES_ENABLED) {
+    const favoritesSection = document.getElementById('favoritesSection')
+    favoritesSection.style.display = 'block'
+  }
+
   refresh()
 }
 

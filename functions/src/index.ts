@@ -49,6 +49,10 @@ export const website = onRequest((request, response) => {
   // favorites
   template = fillIds(template, 'FAVORITES_HIKING_IDS', 'favorites/hiking');
 
+  if (request.query.favorites) {
+    template = template.replace('const FAVORITES_ENABLED = false', 'const FAVORITES_ENABLED = true');
+  }
+
   response.status(200).send(template);
 });
 
