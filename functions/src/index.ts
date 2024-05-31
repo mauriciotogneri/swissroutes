@@ -46,6 +46,9 @@ export const website = onRequest((request, response) => {
   template = fillIds(template, 'OTHER_SERVICESHOP_IDS', 'other/serviceshop');
   template = fillIds(template, 'OTHER_SIGHTSEEING_IDS', 'other/sightseeing');
 
+  // favorites
+  template = fillIds(template, 'FAVORITES_HIKING_IDS', 'favorites/hiking');
+
   response.status(200).send(template);
 });
 

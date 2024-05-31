@@ -341,6 +341,14 @@ function refreshOther() {
 
     loadChargingStations(`other/chargingstations/chargingstations.json`)
   }
+
+  const checkboxFavoritesHiking = document.getElementById('checkboxFavoritesHiking').checked
+
+  if (checkboxFavoritesHiking) {
+    for (const id of FAVORITES_HIKING_IDS) {
+      loadRoute('hiking', `hiking/local/${id}.json`, false)
+    }
+  }
 }
 
 function loadRoute(type, url, focus, lengthMin, lengthMax, heightMin, heightMax) {
