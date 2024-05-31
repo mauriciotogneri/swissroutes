@@ -48,6 +48,7 @@ export const website = onRequest((request, response) => {
 
   // favorites
   template = fillIds(template, 'FAVORITES_HIKING_IDS', 'favorites/hiking');
+  template = fillIds(template, 'FAVORITES_VISIT_IDS', 'favorites/visit');
 
   if (request.query.favorites) {
     template = template.replace('const FAVORITES_ENABLED = false', 'const FAVORITES_ENABLED = true');

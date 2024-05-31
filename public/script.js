@@ -52,6 +52,8 @@ function refresh() {
   refreshAccommodation()
   refreshOther()
 
+  refreshFavorites()
+
   if (PARAM_URL && PARAM_TYPE) {
     if (['mountainbiking', 'cycling', 'hiking'].includes(PARAM_TYPE)) {
       loadRoute(PARAM_TYPE, PARAM_URL, true)
@@ -347,12 +349,22 @@ function refreshOther() {
 
     loadChargingStations(`other/chargingstations/chargingstations.json`)
   }
+}
 
+function refreshFavorites() {
   const checkboxFavoritesHiking = document.getElementById('checkboxFavoritesHiking').checked
 
   if (checkboxFavoritesHiking) {
     for (const id of FAVORITES_HIKING_IDS) {
       loadRoute('hiking', `hiking/local/${id}.json`, false)
+    }
+  }
+
+  const checkboxFavoritesVisit = document.getElementById('checkboxFavoritesVisit').checked
+
+  if (checkboxFavoritesVisit) {
+    for (const id of FAVORITES_VISIT_IDS) {
+      loadPoint('visibility', `other/sightseeing/${id}.json`, false)
     }
   }
 }
