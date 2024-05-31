@@ -1,0 +1,15 @@
+{
+  "id": 10003,
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      46.3325,
+      7.08333
+    ]
+  },
+  "properties": {
+    "title": "Lac des Chavonnes",
+    "foto": "https://lh5.googleusercontent.com/p/AF1QipNX-g3fI3YubGYro4cZEx1LeVhx_KhoDmfpuy43=w408-h306-k-no",
+    "url1_link": "https://maps.app.goo.gl/SF4bUK36GcfiJaT58"
+  }
+}
