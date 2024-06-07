@@ -39,6 +39,29 @@ async function getPoisByCategory(category) {
   return result
 }
 
+async function getHuts() {
+  const url = 'https://www.suissealpine.sac-cas.ch/api/1/poi/search?lang=en&output_lang=en&order_by=display_name&type=hut&hut_type=all&limit=1000'
+
+  try {
+    return getFile(url)
+  } catch (e) {
+    console.log(`Error downloading file: ${url}\n${e.toString()}`)
+  }
+}
+
+async function getPoisByCategory(category) {
+  const pois = await getPois()
+  const result = []
+
+  for (const poi of pois) {
+    if (poi.categories.includes(category)) {
+      result.push(poi)
+    }
+  }
+
+  return result
+}
+
 async function getSegments(id) {
   const url = `https://www.sac-cas.ch/en/?type=1567765346410&tx_usersaccas2020_sac2020[routeId]=${id}&output_lang=en`
 
@@ -288,10 +311,61 @@ async function downloadPois(group, folder, category, append) {
   writeFile(idsFilePath, ids)
 }
 
+async function downloadHuts(group, folder, category) {
+  const huts = await getHuts()
+
+  for (const hut of huts.results) {
+    const photos = []
+
+    for (const photo of hut.photos) {
+      const url = photo.photo.url
+
+      if (url) {
+        photos.push(url)
+      }
+    }
+
+    const json = {
+      id: hut.id,
+      properties: {
+        title: hut.display_name,
+        abstract: hut.opentext.en ?? hut.opentext.fr ?? hut.opentext.it ?? hut.opentext.de,
+        description: hut.description,
+        r_number: hut.id,
+        city: hut.regions_denormalization,
+        place: hut.regions_denormalization,
+        tel: hut.tel,
+        email: hut.email,
+        url1_link: hut.url,
+        photo_gallery_big: photos
+      },
+      geometry: {
+        coordinates: lv95ToLatLng(hut.geom.coordinates[0], hut.geom.coordinates[1])
+      }
+    }
+
+    console.log(json)
+
+    //const filePath = `public/data/${group}/${folder}/${id}.json`
+    //writeFile(filePath, json)
+  }
+
+  /*const idsFilePath = `functions/static/index/${group}/${folder}.json`
+
+  if (append) {
+    const file = fs.readFileSync(idsFilePath, 'utf-8')
+    const originalIds = JSON.parse(file)
+    ids.push(...originalIds)
+  }
+
+  writeFile(idsFilePath, ids)*/
+}
+
 module.exports = {
   writeFile,
   downloadRoute,
   downloadPoint,
   downloadMountainHike,
   downloadPois,
+  downloadHuts,
 }
