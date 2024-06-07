@@ -313,8 +313,10 @@ async function downloadPois(group, folder, category, append) {
 
 async function downloadHuts(group, folder) {
   const huts = await getHuts()
+  const ids = []
 
   for (const hut of huts.results) {
+    ids.push(hut.id)
     const photos = []
 
     for (const photo of hut.photos) {
@@ -348,12 +350,12 @@ async function downloadHuts(group, folder) {
     writeFile(filePath, json)
   }
 
-  /*const idsFilePath = `functions/static/index/${group}/${folder}.json`
+  const idsFilePath = `functions/static/index/${group}/${folder}.json`
   const file = fs.readFileSync(idsFilePath, 'utf-8')
   const originalIds = JSON.parse(file)
   ids.push(...originalIds)
 
-  writeFile(idsFilePath, ids)*/
+  writeFile(idsFilePath, ids)
 }
 
 module.exports = {
