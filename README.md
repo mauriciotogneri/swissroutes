@@ -1,5 +1,7 @@
 # Swiss Routes
 
+[Website](https://swiss-routes.web.app)
+
 ## TODO
 https://opencampingmap.org
 
