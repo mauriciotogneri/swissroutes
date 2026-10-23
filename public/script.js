@@ -63,6 +63,12 @@ const DIFFICULTY_LABELS = ['Hiking', 'Mountain Hiking', 'Difficult Mountain Hiki
 // Every toggle in the panel is a layer: the data files it shows, how to build their map items, and which filter applies
 const LAYERS = buildLayers()
 
+// Chrome drops requests when thousands start at once, so downloads are queued
+const MAX_DOWNLOADS = 100
+
+// While files arrive, the map redraws at most this often and regroups markers only once everything has loaded
+const LOADING_RENDER_DELAY = 300
+
 let map = undefined
 let clusterer = undefined
 let selected = undefined
@@ -71,11 +77,14 @@ let galleryIndex = 0
 let progressTotal = 0
 let progressDone = 0
 let renderPending = false
+let loadingRenderTimeout = undefined
 let filterTimeout = undefined
+let downloadsActive = 0
 
 const activeLayers = new Set()
 const files = new Map()
 const requests = new Map()
+const downloadQueue = []
 
 function mapLoaded() {
   map = new google.maps.Map(document.getElementById('map'), {
@@ -382,14 +391,7 @@ function loadFile(url, build) {
     progressTotal++
     updateProgress()
 
-    const request = fetch(`data/${url}`)
-      .then((response) => {
-        if (!response.ok) {
-          throw new Error(`HTTP ${response.status}`)
-        }
-
-        return response.json()
-      })
+    const request = fetchJson(`data/${url}`)
       .then((json) => {
         const items = build(url, json)
         files.set(url, items)
@@ -405,13 +407,41 @@ function loadFile(url, build) {
       .finally(() => {
         progressDone++
         updateProgress()
-        scheduleRender()
+        scheduleLoadingRender()
       })
 
     requests.set(url, request)
   }
 
   return requests.get(url)
+}
+
+function fetchJson(url) {
+  return new Promise((resolve, reject) => {
+    downloadQueue.push({ url, resolve, reject })
+    nextDownload()
+  })
+}
+
+function nextDownload() {
+  while ((downloadsActive < MAX_DOWNLOADS) && (downloadQueue.length > 0)) {
+    const download = downloadQueue.shift()
+    downloadsActive++
+
+    fetch(download.url)
+      .then((response) => {
+        if (!response.ok) {
+          throw new Error(`HTTP ${response.status}`)
+        }
+
+        return response.json()
+      })
+      .then(download.resolve, download.reject)
+      .finally(() => {
+        downloadsActive--
+        nextDownload()
+      })
+  }
 }
 
 function updateProgress() {
@@ -617,7 +647,21 @@ function scheduleRender() {
   }
 }
 
-function render() {
+function scheduleLoadingRender() {
+  // The progress counters reset once every requested file has finished
+  if (progressTotal === 0) {
+    clearTimeout(loadingRenderTimeout)
+    loadingRenderTimeout = undefined
+    scheduleRender()
+  } else if (!loadingRenderTimeout) {
+    loadingRenderTimeout = setTimeout(() => {
+      loadingRenderTimeout = undefined
+      render(false)
+    }, LOADING_RENDER_DELAY)
+  }
+}
+
+function render(regroup = true) {
   const filters = readFilters()
   const visible = new Set()
   const counts = {}
@@ -654,6 +698,10 @@ function render() {
   for (const items of files.values()) {
     for (const item of items) {
       if (item.marker) {
+        if (!regroup) {
+          continue
+        }
+
         const state = (item === selected) ? 'pinned' : visible.has(item) ? 'clustered' : 'hidden'
 
         if (item.state !== state) {
