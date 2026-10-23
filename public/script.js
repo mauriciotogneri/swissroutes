@@ -19,26 +19,26 @@ const ACTIVITIES = [
     id: 'hiking',
     name: 'Hiking',
     noun: 'hiking route',
-    color: '#0e6b35',
+    color: '#0b5cad',
     ids: { national: HIKING_NATIONAL_IDS, regional: HIKING_REGIONAL_IDS, local: HIKING_LOCAL_IDS },
   },
   {
     id: 'cycling',
     name: 'Cycling',
     noun: 'cycling route',
-    color: '#0b5cad',
+    color: '#d9620b',
     ids: { national: CYCLING_NATIONAL_IDS, regional: CYCLING_REGIONAL_IDS, local: CYCLING_LOCAL_IDS },
   },
   {
     id: 'mountainbiking',
     name: 'Mountain biking',
     noun: 'mountain bike route',
-    color: '#d9620b',
+    color: '#0e6b35',
     ids: { national: MOUNTAINBIKING_NATIONAL_IDS, regional: MOUNTAINBIKING_REGIONAL_IDS, local: MOUNTAINBIKING_LOCAL_IDS },
   },
 ]
 
-const MOUNTAIN_HIKE = { color: '#d52b1e', weight: 3, zIndex: 40 }
+const MOUNTAIN_HIKE = { color: '#6a3fa0', weight: 3, zIndex: 40 }
 
 const GROUP_COLORS = {
   stay: '#d52b1e',
@@ -177,7 +177,7 @@ function placeLayer(place, ids, row) {
 function buildPanel() {
   const [hiking, cycling, mountainBiking] = ACTIVITIES
 
-  let content = group('Routes', activityRow(hiking) + mountainHikeRow() + activityRow(cycling) + activityRow(mountainBiking))
+  let content = group('Routes', activityRow(mountainBiking) + activityRow(hiking) + activityRow(cycling) + mountainHikeRow())
   content += group('Stay', PLACES.filter((place) => place.group === 'stay').map(placeRow).join(''))
   content += group('Explore', PLACES.filter((place) => place.group === 'explore').map(placeRow).join(''))
 
@@ -223,7 +223,7 @@ function activityRow(activity) {
 
 function mountainHikeRow() {
   let content = `<div class="row" style="--color:${MOUNTAIN_HIKE.color}">`
-  content += toggleRow('mountainhike', 'Mountain hikes', '<span class="swatch swatch-dashed"></span>')
+  content += toggleRow('mountainhike', 'Mountain hikes', '<span class="swatch swatch-line"></span>')
   content += '<div class="filters" data-filters="mountainhike" hidden>'
   content += '<div class="range"><span>Difficulty</span>'
   content += difficultySelect('filter-mountainhike-difficultyMin', 'Min')
@@ -515,10 +515,10 @@ function buildMountainHike(url, json) {
     paths: paths,
     bounds: getBounds([position, ...paths.flat()]),
     gallery: getGallery(json),
+    casings: [],
   }
 
   item.lines = paths.map((path) => createLine(item, path))
-  item.casings = paths.map((path) => createLine(item, path))
   item.badge = createMarker(position, plate(properties.mountain_hiking_difficulty, MOUNTAIN_HIKE.color), item)
 
   return [item]
@@ -760,7 +760,7 @@ function styleRoute(item) {
   const weight = item.weight + (emphasized ? 2 : 0)
   const opacity = faded ? 0.35 : 0.95
   const zIndex = emphasized ? 1000 : item.zIndex
-  const cased = item.shown && ((item.kind === 'mountainhike') || (item === selected))
+  const cased = item.shown && emphasized
   const key = `${weight}|${opacity}|${zIndex}|${cased}`
 
   if (item.styleKey === key) {
@@ -791,24 +791,6 @@ function styleRoute(item) {
 }
 
 function lineStyle(item, weight, opacity, zIndex) {
-  if (item.kind === 'mountainhike') {
-    return {
-      strokeOpacity: 0,
-      zIndex: zIndex,
-      icons: [{
-        icon: {
-          path: 'M 0,-1 0,1',
-          strokeColor: item.color,
-          strokeOpacity: opacity,
-          strokeWeight: weight,
-          scale: weight,
-        },
-        offset: '0',
-        repeat: `${weight * 4}px`,
-      }],
-    }
-  }
-
   return {
     strokeColor: item.color,
     strokeOpacity: opacity,
