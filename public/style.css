@@ -63,67 +63,47 @@ a:hover {
   user-select: none;
 }
 
+/* The map sits between the docked panels, so Google's logo and credits stay visible */
 #map {
-  width: 100%;
   height: 100%;
+  margin-left: calc(var(--layers-width) + 1px);
+}
+
+body.has-details #map {
+  margin-right: calc(var(--details-width) + 1px);
 }
 
 /* Panels */
 
 .panel {
   position: fixed;
-  top: var(--gap);
-  bottom: var(--bottom);
+  top: 0;
+  bottom: 0;
   z-index: 2;
   display: flex;
   flex-direction: column;
   overflow: hidden;
   background: var(--paper);
-  border-radius: 10px;
-  box-shadow: var(--shadow);
 }
 
 .layers {
-  left: var(--gap);
+  left: 0;
   width: var(--layers-width);
-}
-
-.brand {
-  position: relative;
-  display: grid;
-  grid-template-columns: auto 1fr;
-  column-gap: 12px;
-  align-items: center;
-  padding: 18px 20px 16px;
-  border-bottom: 1px solid var(--rule);
+  border-right: 1px solid var(--rule);
 }
 
 .cross {
   display: block;
   width: 30px;
   height: 30px;
-  grid-row: span 2;
-}
-
-.brand h1 {
-  margin: 0;
-  font-size: 22px;
-  font-weight: 800;
-  font-stretch: 75%;
-  line-height: 1.05;
-}
-
-.brand p {
-  margin: 0;
-  color: var(--ink-soft);
-  font-size: 13px;
 }
 
 .progress {
   position: absolute;
+  top: 0;
   left: 0;
   right: 0;
-  bottom: -1px;
+  z-index: 1;
   height: 2px;
 }
 
@@ -350,14 +330,18 @@ a:hover {
 /* Details */
 
 .details {
-  right: var(--gap);
+  right: 0;
   width: var(--details-width);
-  transform: translateX(calc(100% + 2 * var(--gap)));
-  transition: transform 0.28s cubic-bezier(0.2, 0.8, 0.2, 1);
+  border-left: 1px solid var(--rule);
+  transform: translateX(100%);
 }
 
 .details.open {
   transform: none;
+}
+
+.details a {
+  text-decoration: none;
 }
 
 .details-scroll {
@@ -544,10 +528,12 @@ a:hover {
   margin: 0 0 12px;
   font-size: 15px;
   font-weight: 560;
+  text-align: justify;
 }
 
 .details-description {
   overflow-wrap: anywhere;
+  text-align: justify;
 }
 
 .details-description p {
@@ -582,17 +568,16 @@ a:hover {
 
 .map-controls {
   position: fixed;
-  right: calc(2 * var(--gap));
+  right: var(--gap);
   bottom: calc(var(--bottom) + var(--gap));
   z-index: 1;
   display: flex;
   align-items: flex-end;
   gap: 8px;
-  transition: right 0.28s cubic-bezier(0.2, 0.8, 0.2, 1);
 }
 
 body.has-details .map-controls {
-  right: calc(var(--details-width) + 3 * var(--gap));
+  right: calc(var(--details-width) + 1px + var(--gap));
 }
 
 .map-type,
@@ -698,7 +683,7 @@ body.has-details .map-controls {
 }
 
 .marker.selected {
-  box-shadow: 0 0 0 3px var(--red), 0 1px 3px rgb(34 48 60 / 0.45);
+  box-shadow: 0 0 0 3px var(--ink-soft), 0 1px 3px rgb(34 48 60 / 0.45);
   transform: translateY(50%) scale(1.2);
 }
 
@@ -795,8 +780,6 @@ body.has-details .map-controls {
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .details,
-  .map-controls,
   .marker {
     transition: none;
   }

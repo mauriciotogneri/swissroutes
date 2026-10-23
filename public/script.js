@@ -40,7 +40,7 @@ const ACTIVITIES = [
 const MOUNTAIN_HIKE = { color: '#d52b1e', weight: 3, zIndex: 40 }
 
 const GROUP_COLORS = {
-  stay: '#6a3fa0',
+  stay: '#d52b1e',
   explore: '#22303c',
 }
 
@@ -94,7 +94,7 @@ function mapLoaded() {
     },
     zoom: 8,
     mapId: 'DEMO_MAP_ID',
-    mapTypeId: 'terrain',
+    mapTypeId: 'roadmap',
     disableDefaultUI: true,
     clickableIcons: false,
   })
@@ -1220,15 +1220,12 @@ function bindControls() {
 }
 
 function mapPadding() {
-  const layers = document.getElementById('layersPanel')
-  const details = document.getElementById('details')
-  const right = document.body.classList.contains('has-details') ? details.offsetWidth + 36 : 24
-
+  // The panels sit beside the map, so only the zoom and map type controls need room
   return {
     top: 24,
     bottom: 48,
-    left: layers.offsetWidth + 36,
-    right: right,
+    left: 24,
+    right: 24,
   }
 }
 
