@@ -35,3 +35,21 @@ https://opencampingmap.org
 ## Wildlife map
 
 - Map: https://map.geo.admin.ch/index.html?lang=en&layers=ch.astra.wanderland-sperrungen_umleitungen,ch.bafu.schutzgebiete-paerke_nationaler_bedeutung,ch.bafu.wrz-jagdbanngebiete_select,ch.bafu.bundesinventare-vogelreservate,ch.bafu.wrz-wildruhezonen_portal
+
+## TODO
+
+generate new UI
+
+dark mode?
+
+analytics?
+
+Add Swiss favicon
+
+what is the folder "ids" for?
+
+apocalypse review
+
+resolve all README
+
+run vitrine pro website check
