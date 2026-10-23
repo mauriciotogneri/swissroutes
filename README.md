@@ -42,8 +42,6 @@ dark mode?
 
 analytics?
 
-Add Swiss favicon
-
 what is the folder "ids" for?
 
 apocalypse review
