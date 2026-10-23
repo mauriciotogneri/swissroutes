@@ -251,7 +251,7 @@ async function downloadPoint(group, folder, type) {
     await downloadFile(type, id, filePath, true)
   }
 
-  writeFile(`functions/static/index/${group}/${folder}.json`, ids)
+  writeFile(`ids/${group}/${folder}.json`, ids)
 }
 
 async function downloadMountainHike(group, folder, type) {
@@ -269,7 +269,7 @@ async function downloadMountainHike(group, folder, type) {
     writeFile(filePath, originalJson)
   }
 
-  writeFile(`functions/static/index/${group}/${folder}.json`, ids)
+  writeFile(`ids/${group}/${folder}.json`, ids)
 }
 
 async function downloadPois(group, folder, category, append) {
@@ -300,7 +300,7 @@ async function downloadPois(group, folder, category, append) {
     writeFile(filePath, json)
   }
 
-  const idsFilePath = `functions/static/index/${group}/${folder}.json`
+  const idsFilePath = `ids/${group}/${folder}.json`
 
   if (append) {
     const file = fs.readFileSync(idsFilePath, 'utf-8')
@@ -350,7 +350,7 @@ async function downloadHuts(group, folder) {
     writeFile(filePath, json)
   }
 
-  const idsFilePath = `functions/static/index/${group}/${folder}.json`
+  const idsFilePath = `ids/${group}/${folder}.json`
   const file = fs.readFileSync(idsFilePath, 'utf-8')
   const originalIds = JSON.parse(file)
   ids.push(...originalIds)

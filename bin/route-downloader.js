@@ -23,7 +23,7 @@ async function downloadArea(group, name, folder, area, total) {
     }
   }
 
-  helpers.writeFile(`functions/static/index/${folder}/${area}.json`, ids)
+  helpers.writeFile(`ids/${folder}/${area}.json`, ids)
 }
 
 run().catch(console.error)

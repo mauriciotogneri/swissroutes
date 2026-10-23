@@ -2,4 +2,7 @@
 
 set -e
 
-firebase deploy --only functions,hosting
+cd "$(dirname "$0")/.."
+
+node bin/ids-generator.js
+firebase deploy --only hosting

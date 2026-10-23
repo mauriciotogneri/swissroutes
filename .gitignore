@@ -67,3 +67,4 @@ node_modules/
 
 # Custom
 !scripts/
+public/ids.js
