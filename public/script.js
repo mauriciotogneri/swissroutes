@@ -1,10 +1,11 @@
 'use strict'
 
-const SWITZERLAND = {
-  north: 47.81,
-  south: 45.82,
-  east: 10.49,
-  west: 5.96,
+// The map opens fitted to this area: zoom 9 around Lucerne on a 1920 × 1080 screen, one step further out on smaller windows
+const INITIAL_VIEW = {
+  north: 47.59,
+  south: 45.9,
+  east: 10.2,
+  west: 6.08,
 }
 
 const LEVELS = [
@@ -99,7 +100,7 @@ function mapLoaded() {
     clickableIcons: false,
   })
 
-  map.fitBounds(SWITZERLAND, mapPadding())
+  map.fitBounds(INITIAL_VIEW, 0)
   map.addListener('click', closeDetails)
 
   clusterer = new markerClusterer.MarkerClusterer({

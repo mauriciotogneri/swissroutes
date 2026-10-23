@@ -38,8 +38,6 @@ https://opencampingmap.org
 
 ## TODO
 
-generate new UI
-
 dark mode?
 
 analytics?
