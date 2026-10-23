@@ -1,759 +1,1083 @@
 'use strict'
 
-let map = undefined
-let openedInfoWindow = undefined
-let markersAdded = []
-let pathsAdded = []
-let currentGallery = []
-let currentGalleryIndex = 0
-let currentJson = undefined
-let summary = undefined
+const SWITZERLAND = {
+  north: 47.81,
+  south: 45.82,
+  east: 10.49,
+  west: 5.96,
+}
 
-const COLORS = ['#e81123', '#ff8c00', '#ec008c', '#68217a', '#00188f', '#00bcf2', '#00b294', '#009e49']
+const LEVELS = [
+  { id: 'national', name: 'National', weight: 5, zIndex: 30 },
+  { id: 'regional', name: 'Regional', weight: 4, zIndex: 20 },
+  { id: 'local', name: 'Local', weight: 3, zIndex: 10 },
+]
+
+const ACTIVITIES = [
+  {
+    id: 'hiking',
+    name: 'Hiking',
+    noun: 'hiking route',
+    color: '#0e6b35',
+    ids: { national: HIKING_NATIONAL_IDS, regional: HIKING_REGIONAL_IDS, local: HIKING_LOCAL_IDS },
+  },
+  {
+    id: 'cycling',
+    name: 'Cycling',
+    noun: 'cycling route',
+    color: '#0b5cad',
+    ids: { national: CYCLING_NATIONAL_IDS, regional: CYCLING_REGIONAL_IDS, local: CYCLING_LOCAL_IDS },
+  },
+  {
+    id: 'mountainbiking',
+    name: 'Mountain biking',
+    noun: 'mountain bike route',
+    color: '#d9620b',
+    ids: { national: MOUNTAINBIKING_NATIONAL_IDS, regional: MOUNTAINBIKING_REGIONAL_IDS, local: MOUNTAINBIKING_LOCAL_IDS },
+  },
+]
+
+const MOUNTAIN_HIKE = { color: '#d52b1e', weight: 3, zIndex: 40 }
+
+const GROUP_COLORS = {
+  stay: '#6a3fa0',
+  explore: '#22303c',
+}
+
+const PLACES = [
+  { id: 'camping', group: 'stay', name: 'Camping', label: 'Campsite', icon: 'camping', folder: 'accommodation/camping', ids: ACCOMMODATION_CAMPING_IDS },
+  { id: 'backpacker', group: 'stay', name: 'Backpackers', label: 'Backpacker hostel', icon: 'backpack', folder: 'accommodation/backpacker', ids: ACCOMMODATION_BACKPACKER_IDS },
+  { id: 'hostel', group: 'stay', name: 'Hostels', label: 'Hostel', icon: 'gite', folder: 'accommodation/hostels', ids: ACCOMMODATION_HOSTEL_IDS },
+  { id: 'bnb', group: 'stay', name: 'B&Bs', label: 'B&B', icon: 'hotel', folder: 'accommodation/bnb', ids: ACCOMMODATION_BNB_IDS },
+  { id: 'grouphouse', group: 'stay', name: 'Group houses', label: 'Group house', icon: 'house', folder: 'accommodation/grouphouse', ids: ACCOMMODATION_GROUPHOUSE_IDS },
+  { id: 'farm', group: 'stay', name: 'Farm stays', label: 'Farm stay', icon: 'agriculture', folder: 'accommodation/farm', ids: ACCOMMODATION_FARM_IDS },
+  { id: 'sleepingstraw', group: 'stay', name: 'Sleeping in straw', label: 'Sleeping in straw', icon: 'bed', folder: 'accommodation/sleepingstraw', ids: ACCOMMODATION_SLEEPINGSTRAW_IDS },
+  { id: 'mountainhut', group: 'stay', name: 'Mountain huts', label: 'Mountain hut', icon: 'night_shelter', folder: 'accommodation/mountainhut', ids: ACCOMMODATION_MOUNTAINHUT_IDS },
+  { id: 'sightseeing', group: 'explore', name: 'Sightseeing', label: 'Sightseeing', icon: 'visibility', folder: 'other/sightseeing', ids: OTHER_SIGHTSEEING_IDS },
+  { id: 'serviceshop', group: 'explore', name: 'Bike service', label: 'Bike service', icon: 'build', folder: 'other/serviceshop', ids: OTHER_SERVICESHOP_IDS },
+  { id: 'chargingstation', group: 'explore', name: 'E-bike charging', label: 'E-bike charging station', icon: 'bolt', file: 'other/chargingstations/chargingstations.json' },
+]
+
+const DIFFICULTY_LABELS = ['Hiking', 'Mountain Hiking', 'Difficult Mountain Hiking', 'Alpine Hiking', 'Difficult Alpine Hiking', 'Very Difficult Alpine Hiking']
+
+// Every toggle in the panel is a layer: the data files it shows, how to build their map items, and which filter applies
+const LAYERS = buildLayers()
+
+let map = undefined
+let clusterer = undefined
+let selected = undefined
+let sharedItem = undefined
+let galleryIndex = 0
+let progressTotal = 0
+let progressDone = 0
+let renderPending = false
+let filterTimeout = undefined
+
+const activeLayers = new Set()
+const files = new Map()
+const requests = new Map()
 
 function mapLoaded() {
-  summary = document.getElementById('summary')
-
-  const mapOptions = {
-    zoom: 9,
+  map = new google.maps.Map(document.getElementById('map'), {
     center: {
       lat: 46.75,
       lng: 8.10,
     },
-    mapId: "DEMO_MAP_ID",
-  }
-
-  map = new google.maps.Map(document.getElementById('map'), mapOptions)
-
-  if (FAVORITES_ENABLED) {
-    const favoritesSection = document.getElementById('favoritesSection')
-    favoritesSection.style.display = 'block'
-  }
-
-  refresh()
-}
-
-function refresh() {
-  summary.innerHTML = ''
-
-  for (let marker of markersAdded) {
-    marker.setMap(null)
-  }
-
-  for (let path of pathsAdded) {
-    path.setMap(null)
-  }
-
-  refreshMountainBiking()
-  refreshCycling()
-  refreshHiking()
-  refreshMountainHike()
-
-  refreshAccommodation()
-  refreshOther()
-
-  refreshFavorites()
-
-  if (PARAM_URL && PARAM_TYPE) {
-    if (['mountainbiking', 'cycling', 'hiking'].includes(PARAM_TYPE)) {
-      loadRoute(PARAM_TYPE, PARAM_URL, true)
-    } else if (['camping', 'backpack', 'bed', 'agriculture', 'night_shelter', 'gite', 'house', 'hotel', 'build', 'visibility'].includes(PARAM_TYPE)) {
-      loadPoint(PARAM_TYPE, PARAM_URL, true)
-    } else if (['mountainhike'].includes(PARAM_TYPE)) {
-      loadMountainHike(PARAM_URL, true)
-    }
-    PARAM_TYPE = undefined
-    PARAM_URL = undefined
-  }
-}
-
-function refreshMountainBiking() {
-  const filter = document.getElementById('filterMountainBiking')
-  const nationalChecked = document.getElementById('checkboxMountainBikingNational').checked
-  const regionalChecked = document.getElementById('checkboxMountainBikingRegional').checked
-  const localChecked = document.getElementById('checkboxMountainBikingLocal').checked
-
-  if (nationalChecked || regionalChecked || localChecked) {
-    filter.style.display = 'block'
-
-    const lengthMin = readInt('filterMountainBikingLengthMin')
-    const lengthMax = readInt('filterMountainBikingLengthMax')
-
-    const heightMin = readInt('filterMountainBikingHeightMin')
-    const heightMax = readInt('filterMountainBikingHeightMax')
-
-    showSummary('Mountain biking', nationalChecked, regionalChecked, localChecked, lengthMin, lengthMax, heightMin, heightMax)
-
-    if (nationalChecked) {
-      for (const id of MOUNTAINBIKING_NATIONAL_IDS) {
-        loadRoute('mountainbiking', `mountainbiking/national/${id}.json`, false, lengthMin, lengthMax, heightMin, heightMax)
-      }
-    }
-
-    if (regionalChecked) {
-      for (const id of MOUNTAINBIKING_REGIONAL_IDS) {
-        loadRoute('mountainbiking', `mountainbiking/regional/${id}.json`, false, lengthMin, lengthMax, heightMin, heightMax)
-      }
-    }
-
-    if (localChecked) {
-      for (const id of MOUNTAINBIKING_LOCAL_IDS) {
-        loadRoute('mountainbiking', `mountainbiking/local/${id}.json`, false, lengthMin, lengthMax, heightMin, heightMax)
-      }
-    }
-  } else {
-    filter.style.display = 'none'
-  }
-}
-
-function refreshCycling() {
-  const filter = document.getElementById('filterCycling')
-  const nationalChecked = document.getElementById('checkboxCyclingNational').checked
-  const regionalChecked = document.getElementById('checkboxCyclingRegional').checked
-  const localChecked = document.getElementById('checkboxCyclingLocal').checked
-
-  if (nationalChecked || regionalChecked || localChecked) {
-    filter.style.display = 'block'
-
-    const lengthMin = readInt('filterCyclingLengthMin')
-    const lengthMax = readInt('filterCyclingLengthMax')
-
-    const heightMin = readInt('filterCyclingHeightMin')
-    const heightMax = readInt('filterCyclingHeightMax')
-
-    showSummary('Cycling', nationalChecked, regionalChecked, localChecked, lengthMin, lengthMax, heightMin, heightMax)
-
-    if (nationalChecked) {
-      for (const id of CYCLING_NATIONAL_IDS) {
-        loadRoute('cycling', `cycling/national/${id}.json`, false, lengthMin, lengthMax, heightMin, heightMax)
-      }
-    }
-
-    if (regionalChecked) {
-      for (const id of CYCLING_REGIONAL_IDS) {
-        loadRoute('cycling', `cycling/regional/${id}.json`, false, lengthMin, lengthMax, heightMin, heightMax)
-      }
-    }
-
-    if (localChecked) {
-      for (const id of CYCLING_LOCAL_IDS) {
-        loadRoute('cycling', `cycling/local/${id}.json`, false, lengthMin, lengthMax, heightMin, heightMax)
-      }
-    }
-  } else {
-    filter.style.display = 'none'
-  }
-}
-
-function refreshHiking() {
-  const filter = document.getElementById('filterHiking')
-  const nationalChecked = document.getElementById('checkboxHikingNational').checked
-  const regionalChecked = document.getElementById('checkboxHikingRegional').checked
-  const localChecked = document.getElementById('checkboxHikingLocal').checked
-
-  if (nationalChecked || regionalChecked || localChecked) {
-    filter.style.display = 'block'
-
-    const lengthMin = readInt('filterHikingLengthMin')
-    const lengthMax = readInt('filterHikingLengthMax')
-
-    const heightMin = readInt('filterHikingHeightMin')
-    const heightMax = readInt('filterHikingHeightMax')
-
-    showSummary('Hiking', nationalChecked, regionalChecked, localChecked, lengthMin, lengthMax, heightMin, heightMax)
-
-    if (nationalChecked) {
-      for (const id of HIKING_NATIONAL_IDS) {
-        loadRoute('hiking', `hiking/national/${id}.json`, false, lengthMin, lengthMax, heightMin, heightMax)
-      }
-    }
-
-    if (regionalChecked) {
-      for (const id of HIKING_REGIONAL_IDS) {
-        loadRoute('hiking', `hiking/regional/${id}.json`, false, lengthMin, lengthMax, heightMin, heightMax)
-      }
-    }
-
-    if (localChecked) {
-      for (const id of HIKING_LOCAL_IDS) {
-        loadRoute('hiking', `hiking/local/${id}.json`, false, lengthMin, lengthMax, heightMin, heightMax)
-      }
-    }
-  } else {
-    filter.style.display = 'none'
-  }
-}
-
-function refreshMountainHike() {
-  const filter = document.getElementById('filterMountainHike')
-  const mountainHikeChecked = document.getElementById('checkboxMountainHike').checked
-
-  if (mountainHikeChecked) {
-    filter.style.display = 'block'
-
-    const difficultyMin = readInt('filterMountainHikeDifficultyMin')
-    const difficultyMax = readInt('filterMountainHikeDifficultyMax')
-
-    const heightMin = readInt('filterMountainHikeHeightMin')
-    const heightMax = readInt('filterMountainHikeHeightMax')
-
-    summary.innerHTML += `<div style="padding-top:15px"><b>Mountain hike</b><ul>`
-
-    if (difficultyMin || difficultyMax) {
-      const lengths = []
-
-      if (difficultyMin) {
-        lengths.push(`Min: T${difficultyMin}`)
-      }
-
-      if (difficultyMax) {
-        lengths.push(`Max: T${difficultyMax}`)
-      }
-
-      summary.innerHTML += `<li>Difficulty: ${lengths.join(' / ').trim()}</li>`
-    }
-
-    if (heightMin || heightMax) {
-      const lengths = []
-
-      if (heightMin) {
-        lengths.push(`Min: ${heightMin.toLocaleString()} m`)
-      }
-
-      if (heightMax) {
-        lengths.push(`Max: ${heightMax.toLocaleString()} m`)
-      }
-
-      summary.innerHTML += `<li>Height: ${lengths.join(' / ').trim()}</li>`
-    }
-
-    summary.innerHTML += '</ul>'
-
-    if (mountainHikeChecked) {
-      for (const id of MOUNTAINHIKE_IDS) {
-        loadMountainHike(`other/mountainhike/${id}.json`, false, heightMin, heightMax, difficultyMin, difficultyMax)
-      }
-    }
-  } else {
-    filter.style.display = 'none'
-  }
-}
-
-function refreshAccommodation() {
-  const campingChecked = document.getElementById('checkboxAccommodationCamping').checked
-
-  if (campingChecked) {
-    summary.innerHTML += `<div style="padding-top:15px"><b>Camping:</b> ${ACCOMMODATION_CAMPING_IDS.length} locations<br/>`
-
-    for (const id of ACCOMMODATION_CAMPING_IDS) {
-      loadPoint('camping', `accommodation/camping/${id}.json`, false)
-    }
-  }
-
-  const backpackerChecked = document.getElementById('checkboxAccommodationBackpacker').checked
-
-  if (backpackerChecked) {
-    summary.innerHTML += `<div style="padding-top:15px"><b>Backpacking:</b> ${ACCOMMODATION_BACKPACKER_IDS.length} locations<br/>`
-
-    for (const id of ACCOMMODATION_BACKPACKER_IDS) {
-      loadPoint('backpack', `accommodation/backpacker/${id}.json`, false)
-    }
-  }
-
-  const sleepingStrawChecked = document.getElementById('checkboxAccommodationSleepingStraw').checked
-
-  if (sleepingStrawChecked) {
-    summary.innerHTML += `<div style="padding-top:15px"><b>Sleeping straw:</b> ${ACCOMMODATION_SLEEPINGSTRAW_IDS.length} locations<br/>`
-
-    for (const id of ACCOMMODATION_SLEEPINGSTRAW_IDS) {
-      loadPoint('bed', `accommodation/sleepingstraw/${id}.json`, false)
-    }
-  }
-
-  const farmChecked = document.getElementById('checkboxAccommodationFarm').checked
-
-  if (farmChecked) {
-    summary.innerHTML += `<div style="padding-top:15px"><b>Farm:</b> ${ACCOMMODATION_FARM_IDS.length} locations<br/>`
-
-    for (const id of ACCOMMODATION_FARM_IDS) {
-      loadPoint('agriculture', `accommodation/farm/${id}.json`, false)
-    }
-  }
-
-  const mountainHutChecked = document.getElementById('checkboxAccommodationMountainHut').checked
-
-  if (mountainHutChecked) {
-    summary.innerHTML += `<div style="padding-top:15px"><b>Mountain hut:</b> ${ACCOMMODATION_MOUNTAINHUT_IDS.length} locations<br/>`
-
-    for (const id of ACCOMMODATION_MOUNTAINHUT_IDS) {
-      loadPoint('night_shelter', `accommodation/mountainhut/${id}.json`, false)
-    }
-  }
-
-  const hostelChecked = document.getElementById('checkboxAccommodationHostel').checked
-
-  if (hostelChecked) {
-    summary.innerHTML += `<div style="padding-top:15px"><b>Hostels:</b> ${ACCOMMODATION_HOSTEL_IDS.length} locations<br/>`
-
-    for (const id of ACCOMMODATION_HOSTEL_IDS) {
-      loadPoint('gite', `accommodation/hostels/${id}.json`, false)
-    }
-  }
-
-  const bnbChecked = document.getElementById('checkboxAccommodationBnb').checked
-
-  if (bnbChecked) {
-    summary.innerHTML += `<div style="padding-top:15px"><b>Bnb:</b> ${ACCOMMODATION_BNB_IDS.length} locations<br/>`
-
-    for (const id of ACCOMMODATION_BNB_IDS) {
-      loadPoint('hotel', `accommodation/bnb/${id}.json`, false)
-    }
-  }
-
-  const groupHouseChecked = document.getElementById('checkboxAccommodationGroupHouse').checked
-
-  if (groupHouseChecked) {
-    summary.innerHTML += `<div style="padding-top:15px"><b>Group house:</b> ${ACCOMMODATION_GROUPHOUSE_IDS.length} locations<br/>`
-
-    for (const id of ACCOMMODATION_GROUPHOUSE_IDS) {
-      loadPoint('house', `accommodation/grouphouse/${id}.json`, false)
-    }
-  }
-}
-
-function refreshOther() {
-  const serviceShopChecked = document.getElementById('checkboxOtherServiceShop').checked
-
-  if (serviceShopChecked) {
-    summary.innerHTML += `<div style="padding-top:15px"><b>Service shop</b><br/>`
-
-    for (const id of OTHER_SERVICESHOP_IDS) {
-      loadPoint('build', `other/serviceshop/${id}.json`, false)
-    }
-  }
-
-  const sightseeingChecked = document.getElementById('checkboxOtherSightseeing').checked
-
-  if (sightseeingChecked) {
-    summary.innerHTML += `<div style="padding-top:15px"><b>Sightseeing</b><br/>`
-
-    for (const id of OTHER_SIGHTSEEING_IDS) {
-      loadPoint('visibility', `other/sightseeing/${id}.json`, false)
-    }
-  }
-
-  const checkboxOtherChargingStations = document.getElementById('checkboxOtherChargingStations').checked
-
-  if (checkboxOtherChargingStations) {
-    summary.innerHTML += `<div style="padding-top:15px"><b>Charging stations</b><br/>`
-
-    loadChargingStations(`other/chargingstations/chargingstations.json`)
-  }
-}
-
-function refreshFavorites() {
-  const checkboxFavoritesHiking = document.getElementById('checkboxFavoritesHiking').checked
-
-  if (checkboxFavoritesHiking) {
-    for (const id of FAVORITES_HIKING_IDS) {
-      loadRoute('hiking', `hiking/local/${id}.json`, false)
-    }
-  }
-
-  const checkboxFavoritesVisit = document.getElementById('checkboxFavoritesVisit').checked
-
-  if (checkboxFavoritesVisit) {
-    for (const id of FAVORITES_VISIT_IDS) {
-      loadPoint('visibility', `other/sightseeing/${id}.json`, false)
-    }
-  }
-}
-
-function loadRoute(type, url, focus, lengthMin, lengthMax, heightMin, heightMax) {
-  const xhttp = new XMLHttpRequest()
-  xhttp.onreadystatechange = function () {
-    if (this.readyState === 4 && this.status === 200) {
-      const json = JSON.parse(xhttp.responseText)
-      showRoute(type, url, json, focus, lengthMin, lengthMax, heightMin, heightMax)
-    }
-  }
-  xhttp.open('GET', `data/${url}`, true)
-  xhttp.send()
-}
-
-function loadPoint(icon, url, focus) {
-  const xhttp = new XMLHttpRequest()
-  xhttp.onreadystatechange = function () {
-    if (this.readyState === 4 && this.status === 200) {
-      const json = JSON.parse(xhttp.responseText)
-      showPoint(url, icon, json, focus)
-    }
-  }
-  xhttp.open('GET', `data/${url}`, true)
-  xhttp.send()
-}
-
-function loadMountainHike(url, focus, heightMin, heightMax, difficultyMin, difficultyMax) {
-  const xhttp = new XMLHttpRequest()
-  xhttp.onreadystatechange = function () {
-    if (this.readyState === 4 && this.status === 200) {
-      const json = JSON.parse(xhttp.responseText)
-      showMountainHike(url, json, focus, heightMin, heightMax, difficultyMin, difficultyMax)
-    }
-  }
-  xhttp.open('GET', `data/${url}`, true)
-  xhttp.send()
-}
-
-function loadChargingStations(url) {
-  const xhttp = new XMLHttpRequest()
-  xhttp.onreadystatechange = function () {
-    if (this.readyState === 4 && this.status === 200) {
-      const json = JSON.parse(xhttp.responseText)
-
-      for (const entry of json) {
-        showChargingStations(entry)
-      }
-    }
-  }
-  xhttp.open('GET', `data/${url}`, true)
-  xhttp.send()
-}
-
-function showRoute(type, url, json, focus, lengthMin, lengthMax, heightMin, heightMax) {
-  const length = parseInt(json.properties.length)
-  const height = parseInt(json.properties.height_difference)
-
-  if (lengthMin && (length < lengthMin)) {
-    return
-  }
-
-  if (lengthMax && (length > lengthMax)) {
-    return
-  }
-
-  if (heightMin && (height < heightMin)) {
-    return
-  }
-
-  if (heightMax && (height > heightMax)) {
-    return
-  }
-
-  const stages = json.geometry.coordinates
-
-  const galleryList = getGallery(json)
-
-  let content = '<div class="grid-container">'
-  content += `<div><img width='25' src='${json.properties.logo}' style='margin-right:10px'/><a href='https://www.schweizmobil.ch/en/${type}-in-switzerland/route-${json.properties.r_number}' target='_blank'>${json.properties.title}</a></div>`
-  content += `<div style="text-align:right"><a href='?url=${encodeURIComponent(url)}&type=${type}' target='_blank'><span style="color:#555555;font-size:20px" class="material-symbols-outlined">share</span></a></div>`
-  content += `<div style="text-align:right"><span style="cursor:pointer;color:#555555;font-size:20px;margin-right:10px" onclick='download()' class="material-symbols-outlined">download</span></div>`
-  content += '</div><br/>'
-
-  content += `<p><b style="font-weight:bold">${json.properties.abstract}</b></p>`
-  content += `<p>${json.properties.description}</p>`
-
-  content += `<p><span class="material-symbols-outlined property-icon">conversion_path</span>${length} km (${parseInt(json.properties.length_asphalt * 100 / length)}% asphalted)<br/><br/>`
-  content += `<span class="material-symbols-outlined property-icon">north_east</span>${json.properties.height_difference.toLocaleString()} m<br/><br/>`
-  content += `<span class="material-symbols-outlined property-icon">south_east</span>${json.properties.height_difference_back.toLocaleString()} m</p>`
-
-  if (galleryList.length > 0) {
-    content += gallerySection(galleryList, json)
-  }
-
-  const infowindow = new google.maps.InfoWindow({
-    content: content
+    zoom: 8,
+    mapId: 'DEMO_MAP_ID',
+    mapTypeId: 'terrain',
+    disableDefaultUI: true,
+    clickableIcons: false,
   })
 
-  const firstStage = stages[0]
-  const start = point(firstStage[0][0], firstStage[0][1])
+  map.fitBounds(SWITZERLAND, mapPadding())
+  map.addListener('click', closeDetails)
 
-  const markerStart = showMarker(start.lat, start.lng, infowindow, json.properties.r_number, undefined, json, galleryList)
-  const color = nameToRGB(json.properties.title)
+  clusterer = new markerClusterer.MarkerClusterer({
+    map: map,
+    renderer: { render: renderCluster },
+  })
 
-  let north = -90
-  let south = 90
-  let east = -180
-  let west = 180
+  buildPanel()
+  bindControls()
 
-  for (let i = 0; i < stages.length; i++) {
-    const stage = stages[i]
-    const path = []
-
-    for (let j = 0; j < stage.length; j++) {
-      const newPoint = point(stage[j][0], stage[j][1])
-      path.push(newPoint)
-    }
-
-    showPath(path, markerStart, infowindow, color, galleryList, json)
-
-    for (let coordinate of path) {
-      if (coordinate.lat > north) {
-        north = coordinate.lat
-      }
-
-      if (coordinate.lat < south) {
-        south = coordinate.lat
-      }
-
-      if (coordinate.lng > east) {
-        east = coordinate.lng
-      }
-
-      if (coordinate.lng < west) {
-        west = coordinate.lng
-      }
-    }
-  }
-
-  if (focus) {
-    const bounds = {
-      north: north,
-      south: south,
-      east: east,
-      west: west,
-    }
-
-    map.fitBounds(bounds)
+  if (PARAM_URL && PARAM_TYPE) {
+    openSharedItem(PARAM_TYPE, PARAM_URL)
   }
 }
 
-function showPoint(url, icon, json, focus) {
-  const name = json.properties.title ? json.properties.title : json.properties.name
-  const isBasic = json.properties.city !== undefined
+function buildLayers() {
+  const layers = {}
+
+  for (const activity of ACTIVITIES) {
+    for (const level of LEVELS) {
+      layers[`${activity.id}.${level.id}`] = routeLayer(activity, level, activity.ids[level.id], activity.id, activity.id)
+    }
+  }
+
+  layers.mountainhike = {
+    row: 'mountainhike',
+    filter: 'mountainhike',
+    urls: MOUNTAINHIKE_IDS.map((id) => `other/mountainhike/${id}.json`),
+    build: buildMountainHike,
+  }
+
+  for (const place of PLACES) {
+    layers[place.id] = placeLayer(place, place.ids, place.id)
+  }
+
+  const hiking = ACTIVITIES.find((activity) => activity.id === 'hiking')
+  const local = LEVELS.find((level) => level.id === 'local')
+  const sightseeing = PLACES.find((place) => place.id === 'sightseeing')
+
+  layers['favorites.hiking'] = routeLayer(hiking, local, FAVORITES_HIKING_IDS, 'favorites.hiking')
+  layers['favorites.visit'] = placeLayer(sightseeing, FAVORITES_VISIT_IDS, 'favorites.visit')
+
+  return layers
+}
+
+function routeLayer(activity, level, ids, row, filter) {
+  return {
+    row: row,
+    filter: filter,
+    urls: ids.map((id) => `${activity.id}/${level.id}/${id}.json`),
+    build: (url, json) => buildRoute(url, json, activity, level),
+  }
+}
+
+function placeLayer(place, ids, row) {
+  if (place.file) {
+    return {
+      row: row,
+      single: true,
+      urls: [place.file],
+      build: (url, json) => buildChargingStations(url, json, place),
+    }
+  }
+
+  return {
+    row: row,
+    urls: ids.map((id) => `${place.folder}/${id}.json`),
+    build: (url, json) => buildPlace(url, json, place),
+  }
+}
+
+// Panel
+
+function buildPanel() {
+  const [hiking, cycling, mountainBiking] = ACTIVITIES
+
+  let content = group('Routes', activityRow(hiking) + mountainHikeRow() + activityRow(cycling) + activityRow(mountainBiking))
+  content += group('Stay', PLACES.filter((place) => place.group === 'stay').map(placeRow).join(''))
+  content += group('Explore', PLACES.filter((place) => place.group === 'explore').map(placeRow).join(''))
+
+  if (FAVORITES_ENABLED) {
+    const favorites = toggleRow('favorites.hiking', 'Hikes', '<span class="swatch swatch-line"></span>', hiking.color)
+      + toggleRow('favorites.visit', 'Places', iconSwatch('visibility'), GROUP_COLORS.explore)
+    content += group('Favorites', favorites)
+  }
+
+  const layers = document.getElementById('layers')
+  layers.innerHTML = content
+
+  for (const button of layers.querySelectorAll('[data-layer]')) {
+    button.addEventListener('click', () => toggleLayer(button))
+  }
+
+  for (const input of layers.querySelectorAll('input, select')) {
+    input.addEventListener('input', onFilterChange)
+  }
+
+  updateCounts({})
+}
+
+function group(name, rows) {
+  return `<section class="group"><h2>${name}</h2>${rows}</section>`
+}
+
+function activityRow(activity) {
+  const chips = LEVELS.map((level) =>
+    `<button type="button" class="chip" data-layer="${activity.id}.${level.id}" aria-pressed="false">${level.name}<span class="chip-count">${activity.ids[level.id].length}</span></button>`
+  ).join('')
+
+  let content = `<div class="row" style="--color:${activity.color}">`
+  content += `<div class="row-head"><span class="swatch swatch-line"></span><span class="row-name">${activity.name}</span><span class="row-count" data-count="${activity.id}"></span></div>`
+  content += `<div class="chips" role="group" aria-label="${activity.name} routes">${chips}</div>`
+  content += `<div class="filters" data-filters="${activity.id}" hidden>`
+  content += rangeFilter(`filter-${activity.id}-length`, 'Length', 'km')
+  content += rangeFilter(`filter-${activity.id}-climb`, 'Ascent', 'm')
+  content += '</div></div>'
+
+  return content
+}
+
+function mountainHikeRow() {
+  let content = `<div class="row" style="--color:${MOUNTAIN_HIKE.color}">`
+  content += toggleRow('mountainhike', 'Mountain hikes', '<span class="swatch swatch-dashed"></span>')
+  content += '<div class="filters" data-filters="mountainhike" hidden>'
+  content += '<div class="range"><span>Difficulty</span>'
+  content += difficultySelect('filter-mountainhike-difficultyMin', 'Min')
+  content += '<span class="range-dash">–</span>'
+  content += difficultySelect('filter-mountainhike-difficultyMax', 'Max')
+  content += '</div>'
+  content += rangeFilter('filter-mountainhike-climb', 'Ascent', 'm')
+  content += '</div></div>'
+
+  return content
+}
+
+function placeRow(place) {
+  return toggleRow(place.id, place.name, iconSwatch(place.icon), GROUP_COLORS[place.group])
+}
+
+function toggleRow(layer, name, swatch, color) {
+  const style = color ? ` style="--color:${color}"` : ''
+
+  return `<button type="button" class="toggle" data-layer="${layer}" aria-pressed="false"${style}>${swatch}<span class="row-name">${name}</span><span class="row-count" data-count="${layer}"></span></button>`
+}
+
+function iconSwatch(icon) {
+  return `<span class="swatch swatch-icon material-symbols-outlined">${icon}</span>`
+}
+
+function rangeFilter(id, label, unit) {
+  let content = `<div class="range"><span>${label}</span>`
+  content += `<input type="number" min="0" id="${id}Min" placeholder="Min" aria-label="${label} minimum in ${unit}">`
+  content += '<span class="range-dash">–</span>'
+  content += `<input type="number" min="0" id="${id}Max" placeholder="Max" aria-label="${label} maximum in ${unit}">`
+  content += `<span>${unit}</span></div>`
+
+  return content
+}
+
+function difficultySelect(id, placeholder) {
+  let content = `<select id="${id}" aria-label="Difficulty ${placeholder.toLowerCase()}"><option value="">${placeholder}</option>`
+
+  for (let grade = 1; grade <= 5; grade++) {
+    content += `<option value="${grade}">T${grade}</option>`
+  }
+
+  return content + '</select>'
+}
+
+function toggleLayer(button) {
+  const id = button.dataset.layer
+  const active = !activeLayers.has(id)
+
+  button.setAttribute('aria-pressed', active)
+
+  if (active) {
+    activeLayers.add(id)
+
+    const layer = LAYERS[id]
+
+    for (const url of layer.urls) {
+      loadFile(url, layer.build)
+    }
+  } else {
+    activeLayers.delete(id)
+  }
+
+  sharedItem = undefined
+
+  for (const filters of document.querySelectorAll('[data-filters]')) {
+    filters.hidden = ![...activeLayers].some((layer) => LAYERS[layer].filter === filters.dataset.filters)
+  }
+
+  scheduleRender()
+}
+
+function onFilterChange() {
+  sharedItem = undefined
+  clearTimeout(filterTimeout)
+  filterTimeout = setTimeout(scheduleRender, 250)
+}
+
+function readFilters() {
+  const filters = {}
+
+  for (const activity of ACTIVITIES) {
+    filters[activity.id] = {
+      lengthMin: readInt(`filter-${activity.id}-lengthMin`),
+      lengthMax: readInt(`filter-${activity.id}-lengthMax`),
+      climbMin: readInt(`filter-${activity.id}-climbMin`),
+      climbMax: readInt(`filter-${activity.id}-climbMax`),
+    }
+  }
+
+  filters.mountainhike = {
+    difficultyMin: readInt('filter-mountainhike-difficultyMin'),
+    difficultyMax: readInt('filter-mountainhike-difficultyMax'),
+    climbMin: readInt('filter-mountainhike-climbMin'),
+    climbMax: readInt('filter-mountainhike-climbMax'),
+  }
+
+  return filters
+}
+
+function matchesFilter(filter, item) {
+  if (!filter) {
+    return true
+  }
+
+  return inRange(item.length, filter.lengthMin, filter.lengthMax)
+    && inRange(item.climb, filter.climbMin, filter.climbMax)
+    && inRange(item.difficulty, filter.difficultyMin, filter.difficultyMax)
+}
+
+function inRange(value, min, max) {
+  if (min && (value < min)) {
+    return false
+  }
+
+  if (max && (value > max)) {
+    return false
+  }
+
+  return true
+}
+
+function updateCounts(counts) {
+  for (const element of document.querySelectorAll('[data-count]')) {
+    const count = counts[element.dataset.count]
+
+    if (count) {
+      const shown = count.shown.toLocaleString()
+      element.textContent = (count.shown < count.total) ? `${shown} of ${count.total.toLocaleString()}` : shown
+      element.classList.add('active')
+    } else {
+      const total = rowTotal(element.dataset.count)
+      element.textContent = (total === undefined) ? '' : total.toLocaleString()
+      element.classList.remove('active')
+    }
+  }
+}
+
+function rowTotal(row) {
+  let total = 0
+
+  for (const layer of Object.values(LAYERS)) {
+    if (layer.row === row) {
+      if (layer.single) {
+        const items = files.get(layer.urls[0])
+
+        if (!items) {
+          return undefined
+        }
+
+        total += items.length
+      } else {
+        total += layer.urls.length
+      }
+    }
+  }
+
+  return total
+}
+
+// Loading
+
+function loadFile(url, build) {
+  if (!requests.has(url)) {
+    progressTotal++
+    updateProgress()
+
+    const request = fetch(`data/${url}`)
+      .then((response) => {
+        if (!response.ok) {
+          throw new Error(`HTTP ${response.status}`)
+        }
+
+        return response.json()
+      })
+      .then((json) => {
+        const items = build(url, json)
+        files.set(url, items)
+
+        return items
+      })
+      .catch((error) => {
+        console.error(`Could not load ${url}`, error)
+        requests.delete(url)
+
+        return []
+      })
+      .finally(() => {
+        progressDone++
+        updateProgress()
+        scheduleRender()
+      })
+
+    requests.set(url, request)
+  }
+
+  return requests.get(url)
+}
+
+function updateProgress() {
+  const progress = document.getElementById('progress')
+  const bar = document.getElementById('progressBar')
+
+  if (progressDone < progressTotal) {
+    const percent = Math.round(progressDone * 100 / progressTotal)
+    bar.style.width = `${percent}%`
+    progress.setAttribute('aria-valuenow', percent)
+    progress.classList.add('loading')
+  } else {
+    bar.style.width = '100%'
+    progress.setAttribute('aria-valuenow', 100)
+    progress.classList.remove('loading')
+    progressTotal = 0
+    progressDone = 0
+  }
+}
+
+// Map items
+
+function buildRoute(url, json, activity, level) {
+  const properties = json.properties
+  const paths = json.geometry.coordinates.map((stage) => stage.map((coordinate) => point(coordinate[0], coordinate[1])))
+
+  const item = {
+    url: url,
+    json: json,
+    kind: 'route',
+    type: activity.id,
+    activity: activity,
+    level: level,
+    label: `${properties.r_number} ${properties.title}`,
+    color: activity.color,
+    weight: level.weight,
+    zIndex: level.zIndex,
+    length: parseInt(properties.length),
+    climb: parseInt(properties.height_difference),
+    paths: paths,
+    bounds: getBounds(paths.flat()),
+    gallery: getGallery(json),
+    casings: [],
+  }
+
+  item.lines = paths.map((path) => createLine(item, path))
+  item.badge = createMarker(paths[0][0], plate(properties.r_number, activity.color), item)
+
+  return [item]
+}
+
+function buildMountainHike(url, json) {
+  const properties = json.properties
+  const position = point(json.geometry.coordinates[0], json.geometry.coordinates[1])
+  const paths = json.segments
+    .filter((segment) => segment.geom?.coordinates)
+    .map((segment) => segment.geom.coordinates.map((coordinate) => point(coordinate[0], coordinate[1])))
+
+  const item = {
+    url: url,
+    json: json,
+    kind: 'mountainhike',
+    type: 'mountainhike',
+    label: `${properties.poi_title}: ${properties.title}`,
+    color: MOUNTAIN_HIKE.color,
+    weight: MOUNTAIN_HIKE.weight,
+    zIndex: MOUNTAIN_HIKE.zIndex,
+    climb: parseInt(properties.ascent_altitude),
+    difficulty: parseInt(properties.mountain_hiking_difficulty.replace('T', '').replace('+', '').replace('-', '')),
+    paths: paths,
+    bounds: getBounds([position, ...paths.flat()]),
+    gallery: getGallery(json),
+  }
+
+  item.lines = paths.map((path) => createLine(item, path))
+  item.casings = paths.map((path) => createLine(item, path))
+  item.badge = createMarker(position, plate(properties.mountain_hiking_difficulty, MOUNTAIN_HIKE.color), item)
+
+  return [item]
+}
+
+function buildPlace(url, json, place) {
+  const position = point(json.geometry.coordinates[0], json.geometry.coordinates[1])
+
+  const item = {
+    url: url,
+    json: json,
+    kind: 'place',
+    type: place.icon,
+    place: place,
+    label: json.properties.title ? json.properties.title : json.properties.name,
+    position: position,
+    bounds: around(position, 0.1),
+    gallery: getGallery(json),
+  }
+
+  item.marker = createMarker(position, markerIcon(place), item)
+
+  return [item]
+}
+
+function buildChargingStations(url, json, place) {
+  const items = []
+
+  json.forEach((entry, index) => {
+    const coordinates = entry.Point.coordinates.split(',')
+    const latitude = parseFloat(coordinates[1])
+    const longitude = parseFloat(coordinates[0])
+
+    if ((latitude >= 46.128503) && (latitude <= 47.858446) && (longitude >= 5.923137) && (longitude <= 10.583217)) {
+      const position = point(latitude, longitude)
+
+      const item = {
+        url: `${url}#${index}`,
+        json: entry,
+        kind: 'charging',
+        place: place,
+        label: typeof entry.name === 'string' ? entry.name : entry.name['__cdata'],
+        position: position,
+        bounds: around(position, 0.1),
+        gallery: [],
+      }
+
+      item.marker = createMarker(position, markerIcon(place), item)
+      items.push(item)
+    }
+  })
+
+  return items
+}
+
+function createLine(item, path) {
+  const line = new google.maps.Polyline({ path: path })
+
+  line.addListener('click', () => selectItem(item))
+  line.addListener('mouseover', (event) => showTooltip(item, event))
+  line.addListener('mousemove', moveTooltip)
+  line.addListener('mouseout', hideTooltip)
+
+  return line
+}
+
+function createMarker(position, content, item) {
+  const marker = new google.maps.marker.AdvancedMarkerElement({
+    position: position,
+    content: content,
+    title: item.label,
+    gmpClickable: true,
+  })
+
+  marker.addEventListener('gmp-click', () => selectItem(item))
+
+  return marker
+}
+
+function plate(text, color) {
+  const content = document.createElement('div')
+  content.className = 'plate map-plate'
+  content.style.setProperty('--color', color)
+  content.textContent = text
+
+  return content
+}
+
+function markerIcon(place) {
+  const content = document.createElement('span')
+  content.className = 'marker material-symbols-outlined'
+  content.style.setProperty('--color', GROUP_COLORS[place.group])
+  content.textContent = place.icon
+
+  return content
+}
+
+function renderCluster(cluster) {
+  const content = document.createElement('div')
+  content.className = 'cluster'
+  content.textContent = cluster.count
+
+  if (cluster.count >= 100) {
+    content.classList.add('cluster-large')
+  } else if (cluster.count >= 10) {
+    content.classList.add('cluster-medium')
+  }
+
+  return new google.maps.marker.AdvancedMarkerElement({
+    position: cluster.position,
+    content: content,
+    title: `${cluster.count} places, click to zoom in`,
+    zIndex: 1000 + cluster.count,
+  })
+}
+
+// Rendering
+
+function scheduleRender() {
+  if (!renderPending) {
+    renderPending = true
+
+    requestAnimationFrame(() => {
+      renderPending = false
+      render()
+    })
+  }
+}
+
+function render() {
+  const filters = readFilters()
+  const visible = new Set()
+  const counts = {}
+
+  for (const id of activeLayers) {
+    const layer = LAYERS[id]
+    const count = counts[layer.row] ?? { shown: 0, total: 0 }
+    counts[layer.row] = count
+
+    for (const url of layer.urls) {
+      for (const item of files.get(url) ?? []) {
+        count.total++
+
+        if (matchesFilter(filters[layer.filter], item)) {
+          count.shown++
+          visible.add(item)
+        }
+      }
+    }
+  }
+
+  if (selected) {
+    visible.add(selected)
+  }
+
+  if (sharedItem) {
+    visible.add(sharedItem)
+  }
+
+  const toCluster = []
+  const fromCluster = []
+  const pins = []
+
+  for (const items of files.values()) {
+    for (const item of items) {
+      if (item.marker) {
+        const state = (item === selected) ? 'pinned' : visible.has(item) ? 'clustered' : 'hidden'
+
+        if (item.state !== state) {
+          if (item.state === 'clustered') {
+            fromCluster.push(item.marker)
+          }
+
+          if (state === 'clustered') {
+            toCluster.push(item.marker)
+          }
+
+          pins.push(item)
+          item.state = state
+        }
+
+        item.marker.content.classList.toggle('selected', item === selected)
+      } else {
+        const shown = visible.has(item)
+
+        if (item.shown !== shown) {
+          item.shown = shown
+          item.badge.map = shown ? map : null
+
+          for (const line of item.lines) {
+            line.setMap(shown ? map : null)
+          }
+        }
+
+        styleRoute(item)
+      }
+    }
+  }
+
+  if ((fromCluster.length > 0) || (toCluster.length > 0)) {
+    clusterer.removeMarkers(fromCluster, true)
+    clusterer.addMarkers(toCluster, true)
+    clusterer.render()
+  }
+
+  for (const item of pins) {
+    if (item.state === 'pinned') {
+      item.marker.map = map
+      item.marker.zIndex = 2000
+    } else if (item.state === 'hidden') {
+      item.marker.map = null
+    }
+  }
+
+  updateCounts(counts)
+}
+
+function styleRoute(item) {
+  const emphasized = item === selected
+  const faded = !!selected?.lines && !emphasized
+  const weight = item.weight + (emphasized ? 2 : 0)
+  const opacity = faded ? 0.35 : 0.95
+  const zIndex = emphasized ? 1000 : item.zIndex
+  const cased = item.shown && ((item.kind === 'mountainhike') || (item === selected))
+  const key = `${weight}|${opacity}|${zIndex}|${cased}`
+
+  if (item.styleKey === key) {
+    return
+  }
+
+  item.styleKey = key
+  item.badge.content.classList.toggle('faded', faded)
+  item.badge.zIndex = emphasized ? 1000 : null
+
+  for (const line of item.lines) {
+    line.setOptions(lineStyle(item, weight, opacity, zIndex))
+  }
+
+  if (cased && (item.casings.length === 0)) {
+    item.casings = item.paths.map((path) => createLine(item, path))
+  }
+
+  for (const casing of item.casings) {
+    casing.setOptions({
+      strokeColor: '#ffffff',
+      strokeOpacity: opacity,
+      strokeWeight: weight + 4,
+      zIndex: zIndex - 1,
+    })
+    casing.setMap(cased ? map : null)
+  }
+}
+
+function lineStyle(item, weight, opacity, zIndex) {
+  if (item.kind === 'mountainhike') {
+    return {
+      strokeOpacity: 0,
+      zIndex: zIndex,
+      icons: [{
+        icon: {
+          path: 'M 0,-1 0,1',
+          strokeColor: item.color,
+          strokeOpacity: opacity,
+          strokeWeight: weight,
+          scale: weight,
+        },
+        offset: '0',
+        repeat: `${weight * 4}px`,
+      }],
+    }
+  }
+
+  return {
+    strokeColor: item.color,
+    strokeOpacity: opacity,
+    strokeWeight: weight,
+    zIndex: zIndex,
+  }
+}
+
+function showTooltip(item, event) {
+  const tooltip = document.getElementById('tooltip')
+  tooltip.textContent = item.label
+  tooltip.hidden = false
+  moveTooltip(event)
+}
+
+function hideTooltip() {
+  document.getElementById('tooltip').hidden = true
+}
+
+function moveTooltip(event) {
+  const tooltip = document.getElementById('tooltip')
+  tooltip.style.left = `${event.domEvent.clientX + 14}px`
+  tooltip.style.top = `${event.domEvent.clientY + 14}px`
+}
+
+// Details
+
+function selectItem(item) {
+  selected = item
+  galleryIndex = 0
+
+  const details = document.getElementById('details')
+  details.innerHTML = detailsContent(item)
+  details.classList.add('open')
+  details.inert = false
+  document.body.classList.add('has-details')
+
+  render()
+}
+
+function closeDetails() {
+  if (!selected) {
+    return
+  }
+
+  selected = undefined
+
+  const details = document.getElementById('details')
+  details.classList.remove('open')
+  details.inert = true
+  document.body.classList.remove('has-details')
+
+  render()
+}
+
+function openSharedItem(type, url) {
+  const build = sharedItemBuilder(type, url)
+
+  if (build) {
+    loadFile(url, build).then((items) => {
+      if (items.length > 0) {
+        sharedItem = items[0]
+        selectItem(items[0])
+        map.fitBounds(items[0].bounds, mapPadding())
+      }
+    })
+  }
+}
+
+function sharedItemBuilder(type, url) {
+  const activity = ACTIVITIES.find((activity) => activity.id === type)
+
+  if (activity) {
+    const level = LEVELS.find((level) => level.id === url.split('/')[1]) ?? LEVELS[LEVELS.length - 1]
+
+    return (url, json) => buildRoute(url, json, activity, level)
+  }
+
+  if (type === 'mountainhike') {
+    return buildMountainHike
+  }
+
+  const place = PLACES.find((place) => (place.icon === type) && !place.file)
+
+  if (place) {
+    return (url, json) => buildPlace(url, json, place)
+  }
+
+  return undefined
+}
+
+function detailsContent(item) {
+  let content = '<button type="button" class="details-close" data-action="close" aria-label="Close details"><span class="material-symbols-outlined">close</span></button>'
+  content += `<div class="details-scroll">${gallerySection(item)}<div class="details-body">`
+
+  if (item.kind === 'route') {
+    content += routeDetails(item)
+  } else if (item.kind === 'mountainhike') {
+    content += mountainHikeDetails(item)
+  } else if (item.kind === 'place') {
+    content += placeDetails(item)
+  } else {
+    content += chargingStationDetails(item)
+  }
+
+  return content + '</div></div>'
+}
+
+function routeDetails(item) {
+  const properties = item.json.properties
+  const badge = properties.logo
+    ? `<img class="details-logo" src="${properties.logo}" alt="Route ${properties.r_number}">`
+    : `<span class="plate" style="--color:${item.color}">${properties.r_number}</span>`
+
+  let content = `<div class="details-kind">${badge}${item.level.name} ${item.activity.noun}</div>`
+  content += `<h2 class="details-title">${properties.title}</h2>`
+
+  content += actions([
+    shareAction(),
+    '<button type="button" class="action" data-action="download"><span class="material-symbols-outlined">download</span>Download GPX</button>',
+    externalAction(`https://www.schweizmobil.ch/en/${item.type}-in-switzerland/route-${properties.r_number}`, 'SchweizMobil'),
+  ])
+
+  let stats = stat('Distance', item.length, 'km')
+  stats += stat('Ascent', properties.height_difference.toLocaleString(), 'm')
+  stats += stat('Descent', properties.height_difference_back.toLocaleString(), 'm')
+
+  if (typeof properties.length_asphalt === 'number') {
+    stats += stat('Asphalt', parseInt(properties.length_asphalt * 100 / item.length), '%')
+  }
+
+  content += `<dl class="stats">${stats}</dl>`
+
+  if (properties.abstract) {
+    content += `<p class="details-lead">${properties.abstract}</p>`
+  }
+
+  if (properties.description) {
+    content += `<div class="details-description">${properties.description}</div>`
+  }
+
+  return content
+}
+
+function mountainHikeDetails(item) {
+  const properties = item.json.properties
+
+  let content = `<div class="details-kind"><span class="plate" style="--color:${item.color}">${properties.mountain_hiking_difficulty}</span>Mountain hike</div>`
+  content += `<h2 class="details-title">${properties.poi_title}</h2>`
+  content += `<p class="details-subtitle">${properties.title}</p>`
+
+  content += actions([
+    shareAction(),
+    externalAction(`https://www.sac-cas.ch/en/huts-and-tours/sac-route-portal/${properties.sac_poi_id}/mountain_hiking`, 'SAC route portal'),
+  ])
+
+  let stats = stat('Difficulty', properties.mountain_hiking_difficulty, '')
+
+  if (properties.ascent_altitude) {
+    stats += stat('Ascent', properties.ascent_altitude.toLocaleString(), 'm')
+  }
+
+  if (properties.descent_altitude) {
+    stats += stat('Descent', properties.descent_altitude.toLocaleString(), 'm')
+  }
+
+  content += `<dl class="stats">${stats}</dl>`
+
+  const label = DIFFICULTY_LABELS[item.difficulty - 1]
+
+  if (label) {
+    content += `<p class="details-note">${label} on the <a href="https://www.sac-cas.ch/fileadmin/Ausbildung_und_Wissen/Sicher_unterwegs/Sicher_unterwegs_Wandern/2020_Berg_Alpinwanderskala_EN.pdf" target="_blank">SAC hiking scale</a></p>`
+  }
+
+  if (properties.abstract) {
+    content += `<p class="details-lead">${properties.abstract}</p>`
+  }
+
+  return content
+}
+
+function placeDetails(item) {
+  const properties = item.json.properties
+  const isBasic = properties.city !== undefined
 
   let baseLink = ''
 
-  if (icon === 'build') {
+  if (item.type === 'build') {
     baseLink = 'https://schweizmobil.ch/en/cycle-service-'
-  } else if (icon === 'visibility') {
+  } else if (item.type === 'visibility') {
     baseLink = 'https://schweizmobil.ch/en/place-of-interest-'
   } else if (!isBasic) {
     baseLink = 'https://schweizmobil.ch/en/accommodation-'
   }
 
-  let content = '<div class="grid-container">'
+  let content = `<div class="details-kind" style="--color:${GROUP_COLORS[item.place.group]}">${iconSwatch(item.place.icon)}${item.place.label}</div>`
+  content += `<h2 class="details-title">${item.label}</h2>`
 
-  if (baseLink) {
-    content += `<a href="${baseLink}${json.id}" target="_blank">${name}</a>`
-  } else {
-    content += `<a href="https://www.google.com/maps/search/${name} ${json.properties.city}" target="_blank">${name}</a>`
+  const external = baseLink
+    ? externalAction(`${baseLink}${item.json.id}`, 'SchweizMobil')
+    : externalAction(`https://www.google.com/maps/search/${encodeURIComponent(`${item.label} ${properties.city}`)}`, 'Google Maps')
+
+  content += actions([shareAction(), external])
+
+  if (properties.abstract) {
+    content += `<p class="details-lead">${properties.abstract}</p>`
   }
 
-  content += '<div></div>'
-  content += `<div style="text-align:right"><a href='?url=${encodeURIComponent(url)}&type=${icon}' target='_blank'><span style="color:#555555;font-size:20px" class="material-symbols-outlined">share</span></a></div>`
+  if (properties.description) {
+    content += `<div class="details-description">${properties.description}</div>`
+  }
+
+  const contact = []
 
   if (isBasic) {
-    content += `<a href="https://www.google.com/maps/place/${json.geometry.coordinates[0]},${json.geometry.coordinates[1]}" target="_blank">Address</a>`
+    contact.push(contactLine('location_on', `<a href="https://www.google.com/maps/place/${item.position.lat},${item.position.lng}" target="_blank">Show on Google Maps</a>`))
   }
 
-  content += '</div><br/>'
-
-  if (json.properties.abstract) {
-    content += `<p style="font-weight:bold">${json.properties.abstract}</p>`
+  if (properties.tel) {
+    contact.push(contactLine('call', `<a href="tel:${String(properties.tel).replace(/\s/g, '')}">${properties.tel}</a>`))
   }
 
-  if (json.properties.description) {
-    content += `<p>${json.properties.description}</p>`
+  if (properties.email) {
+    contact.push(contactLine('mail', `<a href="mailto:${properties.email}">${properties.email}</a>`))
   }
 
-  if (json.properties.tel) {
-    content += `<p><span class="material-symbols-outlined property-icon">call</span>${json.properties.tel}</p>`
+  if (properties.street) {
+    const address = `${properties.street}, ${properties.zip} ${properties.place}`
+    contact.push(contactLine('location_on', `<a href="https://www.google.com/maps/search/${encodeURIComponent(address)}" target="_blank">${address}</a>`))
   }
 
-  if (json.properties.email) {
-    content += `<p><span class="material-symbols-outlined property-icon">mail</span>${json.properties.email}</p>`
+  const urls = new Set([properties.url1_link, properties.url2_link, properties.url_sightseeing].filter(Boolean))
+
+  for (const url of urls) {
+    contact.push(contactLine('link', `<a href="${url}" target="_blank">${url}</a>`))
   }
 
-  if (json.properties.street) {
-    const address = `${json.properties.street}, ${json.properties.zip} ${json.properties.place}`
-    content += `<span class="material-symbols-outlined property-icon">location_on</span><a href='https://www.google.com/maps/search/${address}' target='_blank'>${address}</a><br/><br/>`
+  if (contact.length > 0) {
+    content += `<ul class="contact">${contact.join('')}</ul>`
   }
 
-  const urls = new Set()
-
-  if (json.properties.url1_link) {
-    urls.add(json.properties.url1_link)
-  }
-
-  if (json.properties.url2_link) {
-    urls.add(json.properties.url2_link)
-  }
-
-  if (json.properties.url_sightseeing) {
-    urls.add(json.properties.url_sightseeing)
-  }
-
-  urls.forEach((url) => {
-    content += `<span class="material-symbols-outlined property-icon">link</span><a href='${url}' target='_blank'>${url}</a><br/><br/>`
-  })
-
-  const galleryList = getGallery(json)
-
-  if (galleryList.length > 0) {
-    content += gallerySection(galleryList, json)
-  }
-
-  const infowindow = new google.maps.InfoWindow({
-    content: content
-  })
-
-  showMarker(json.geometry.coordinates[0], json.geometry.coordinates[1], infowindow, undefined, icon, json, galleryList)
-
-  if (focus) {
-    const gap = 0.1
-    const bounds = {
-      north: json.geometry.coordinates[0] + gap,
-      south: json.geometry.coordinates[0] - gap,
-      east: json.geometry.coordinates[1] + gap,
-      west: json.geometry.coordinates[1] - gap,
-    }
-
-    map.fitBounds(bounds)
-  }
+  return content
 }
 
-function showMountainHike(url, json, focus, heightMin, heightMax, difficultyMin, difficultyMax) {
-  const height = parseInt(json.properties.ascent_altitude)
-  const difficulty = parseInt(json.properties.mountain_hiking_difficulty.replace('T', '').replace('+', '').replace('-', ''))
+function chargingStationDetails(item) {
+  let content = `<div class="details-kind" style="--color:${GROUP_COLORS[item.place.group]}">${iconSwatch(item.place.icon)}${item.place.label}</div>`
+  content += `<h2 class="details-title">${item.label}</h2>`
+  content += actions([externalAction(`https://www.google.com/maps/place/${item.position.lat},${item.position.lng}`, 'Google Maps')])
 
-  if (heightMin && (height < heightMin)) {
-    return
+  if (item.json.description) {
+    content += `<div class="details-description">${item.json.description.__cdata}</div>`
   }
 
-  if (heightMax && (height > heightMax)) {
-    return
-  }
-
-  if (difficultyMin && (difficulty < difficultyMin)) {
-    return
-  }
-
-  if (difficultyMax && (difficulty > difficultyMax)) {
-    return
-  }
-
-  let content = '<div class="grid-container">'
-  content += `<a href='https://www.sac-cas.ch/en/huts-and-tours/sac-route-portal/${json.properties.sac_poi_id}/mountain_hiking' target='_blank'>${json.properties.title} - ${json.properties.poi_title}</a>`
-  content += '<div></div>'
-  content += `<div style="text-align:right"><a href='?url=${encodeURIComponent(url)}&type=mountainhike' target='_blank'><span style="color:#555555;font-size:20px" class="material-symbols-outlined">share</span></a></div>`
-  content += '</div><br/>'
-
-  if (json.properties.abstract) {
-    content += `<p>${json.properties.abstract}</p>`
-  }
-
-  if (json.properties.mountain_hiking_difficulty) {
-    let label = ''
-
-    if (difficulty === 1) {
-      label = 'Hiking'
-    } else if (difficulty === 2) {
-      label = 'Mountain Hiking'
-    } else if (difficulty === 3) {
-      label = 'Difficult Mountain Hiking'
-    } else if (difficulty === 4) {
-      label = 'Alpine Hiking'
-    } else if (difficulty === 5) {
-      label = 'Difficult Alpine Hiking'
-    } else if (difficulty === 6) {
-      label = 'Very Difficult Alpine Hiking'
-    }
-
-    content += `<span class="material-symbols-outlined property-icon">landscape</span>${json.properties.mountain_hiking_difficulty} (<a href='https://www.sac-cas.ch/fileadmin/Ausbildung_und_Wissen/Sicher_unterwegs/Sicher_unterwegs_Wandern/2020_Berg_Alpinwanderskala_EN.pdf' target='_blank'>${label}</a>)<br/><br/>`
-  }
-
-  if (json.properties.ascent_altitude) {
-    content += `<span class="material-symbols-outlined property-icon">north_east</span>${json.properties.ascent_altitude.toLocaleString()} m<br/><br/>`
-  }
-
-  if (json.properties.descent_altitude) {
-    content += `<span class="material-symbols-outlined property-icon">south_east</span>${json.properties.descent_altitude.toLocaleString()} m<br/><br/>`
-  }
-
-  const galleryList = getGallery(json)
-
-  if (galleryList.length > 0) {
-    content += `<br/>${gallerySection(galleryList, json)}`
-  }
-
-  const infowindow = new google.maps.InfoWindow({
-    content: content
-  })
-
-  const marker = showMarker(json.geometry.coordinates[0], json.geometry.coordinates[1], infowindow, undefined, 'landscape', json, galleryList)
-  const color = nameToRGB(json.properties.title)
-
-  for (const segment of json.segments) {
-    const pathCoordinates = []
-    const segmentCoordinates = segment.geom?.coordinates
-
-    if (segmentCoordinates) {
-      for (let i = 0; i < segmentCoordinates.length; i++) {
-        const newPoint = point(segmentCoordinates[i][0], segmentCoordinates[i][1])
-        pathCoordinates.push(newPoint)
-      }
-
-      const path = new google.maps.Polyline({
-        path: pathCoordinates,
-        geodesic: true,
-        strokeColor: color,
-        strokeOpacity: 1,
-        strokeWeight: 3
-      })
-
-      path.addListener('click', () => {
-        if (openedInfoWindow) {
-          openedInfoWindow.close()
-        }
-
-        infowindow.open(map, marker)
-        openedInfoWindow = infowindow
-
-        currentGallery = galleryList
-        currentGalleryIndex = 0
-        currentJson = json
-      })
-
-      path.setMap(map)
-      pathsAdded.push(path)
-    }
-  }
-
-  if (focus) {
-    const gap = 0.03
-    const bounds = {
-      north: json.geometry.coordinates[0] + gap,
-      south: json.geometry.coordinates[0] - gap,
-      east: json.geometry.coordinates[1] + gap,
-      west: json.geometry.coordinates[1] - gap,
-    }
-
-    map.fitBounds(bounds)
-  }
+  return content
 }
 
-function showChargingStations(json) {
-  const coordinates = json.Point.coordinates.split(',')
-  const latitude = parseFloat(coordinates[1])
-  const longitude = parseFloat(coordinates[0])
+function actions(buttons) {
+  return `<div class="actions">${buttons.join('')}</div>`
+}
 
-  if ((latitude >= 46.128503) && (latitude <= 47.858446) && (longitude >= 5.923137) && (longitude <= 10.583217)) {
-    const name = typeof json.name === 'string' ? json.name : json.name['__cdata']
-    let content = `<b style="font-weight:bold">${name}</b><br/><br/>`
+function shareAction() {
+  return '<button type="button" class="action" data-action="share"><span class="material-symbols-outlined">link</span><span class="action-label">Copy link</span></button>'
+}
 
-    if (json.description) {
-      content += `<p>${json.description.__cdata}</p>`
-    }
+function externalAction(url, label) {
+  return `<a class="action" href="${url}" target="_blank"><span class="material-symbols-outlined">open_in_new</span>${label}</a>`
+}
 
-    content += `<a href='https://www.google.com/maps/place/${latitude},${longitude}' target='_blank'>Address</a><br/><br/>`
+function stat(label, value, unit) {
+  return `<div><dt>${label}</dt><dd>${value}<span class="stat-unit">${unit}</span></dd></div>`
+}
 
-    const infowindow = new google.maps.InfoWindow({
-      content: content
-    })
+function contactLine(icon, content) {
+  return `<li><span class="material-symbols-outlined">${icon}</span><span>${content}</span></li>`
+}
 
-    showMarker(latitude, longitude, infowindow, undefined, 'bolt', json)
+function gallerySection(item) {
+  const gallery = item.gallery
+
+  if (gallery.length === 0) {
+    return ''
   }
+
+  let content = `<div class="details-media"><img id="galleryImage" src="${gallery[0]}" alt="${item.label.replace(/"/g, '&quot;')}">`
+
+  if (gallery.length > 1) {
+    content += '<button type="button" class="media-button previous" data-action="previous" aria-label="Previous photo"><span class="material-symbols-outlined">chevron_left</span></button>'
+    content += '<button type="button" class="media-button next" data-action="next" aria-label="Next photo"><span class="material-symbols-outlined">chevron_right</span></button>'
+    content += `<span class="media-counter" id="galleryIndex">1 / ${gallery.length}</span>`
+  }
+
+  return content + '</div>'
+}
+
+function plusSlides(offset) {
+  const gallery = selected.gallery
+  galleryIndex = (galleryIndex + offset + gallery.length) % gallery.length
+
+  document.getElementById('galleryImage').src = gallery[galleryIndex]
+  document.getElementById('galleryIndex').textContent = `${galleryIndex + 1} / ${gallery.length}`
+}
+
+function copyLink(button) {
+  const link = `${location.origin}${location.pathname}?url=${encodeURIComponent(selected.url)}&type=${selected.type}`
+  const label = button.querySelector('.action-label')
+  const icon = button.querySelector('.material-symbols-outlined')
+
+  navigator.clipboard.writeText(link).then(() => {
+    label.textContent = 'Link copied'
+    icon.textContent = 'check'
+
+    setTimeout(() => {
+      label.textContent = 'Copy link'
+      icon.textContent = 'link'
+    }, 2000)
+  }, () => {
+    window.open(link, '_blank')
+  })
 }
 
 function getGallery(json) {
@@ -805,99 +1129,62 @@ function filterEmptyImages(list) {
   return result
 }
 
-function plusSlides(offset, id) {
-  currentGalleryIndex += offset
+// Controls
 
-  if (currentGalleryIndex < 0) {
-    currentGalleryIndex = currentGallery.length - 1
+function bindControls() {
+  document.getElementById('zoomIn').addEventListener('click', () => map.setZoom(map.getZoom() + 1))
+  document.getElementById('zoomOut').addEventListener('click', () => map.setZoom(map.getZoom() - 1))
+
+  const mapTypes = document.querySelectorAll('[data-map-type]')
+
+  for (const button of mapTypes) {
+    button.addEventListener('click', () => {
+      map.setMapTypeId(button.dataset.mapType)
+
+      for (const other of mapTypes) {
+        other.setAttribute('aria-pressed', other === button)
+      }
+    })
   }
 
-  if (currentGalleryIndex >= currentGallery.length) {
-    currentGalleryIndex = 0
+  document.getElementById('details').addEventListener('click', (event) => {
+    const button = event.target.closest('[data-action]')
+    const action = button?.dataset.action
+
+    if (action === 'close') {
+      closeDetails()
+    } else if (action === 'share') {
+      copyLink(button)
+    } else if (action === 'download') {
+      download()
+    } else if (action === 'previous') {
+      plusSlides(-1)
+    } else if (action === 'next') {
+      plusSlides(1)
+    }
+  })
+
+  document.addEventListener('keydown', (event) => {
+    if (event.key === 'Escape') {
+      closeDetails()
+    }
+  })
+}
+
+function mapPadding() {
+  const layers = document.getElementById('layersPanel')
+  const details = document.getElementById('details')
+  const right = document.body.classList.contains('has-details') ? details.offsetWidth + 36 : 24
+
+  return {
+    top: 24,
+    bottom: 48,
+    left: layers.offsetWidth + 36,
+    right: right,
   }
-
-  const img = document.getElementById(`gallery-${id}`)
-  img.src = currentGallery[currentGalleryIndex]
-
-  const index = document.getElementById(`index-${id}`)
-  index.innerHTML = `${currentGalleryIndex + 1}/${currentGallery.length}`
 }
 
-function showMarker(lat, lon, infowindow, text, icon, json, gallery) {
-  const marker = new google.maps.marker.AdvancedMarkerElement({
-    map: map,
-    position: {
-      lat: lat,
-      lng: lon,
-    },
-    content: text ? getMarkerText(text) : getMarkerIcon(icon),
-  })
-
-  marker.addListener('click', () => {
-    if (openedInfoWindow) {
-      openedInfoWindow.close()
-    }
-
-    infowindow.open(map, marker)
-    openedInfoWindow = infowindow
-
-    currentGallery = gallery
-    currentGalleryIndex = 0
-    currentJson = json
-  })
-
-  markersAdded.push(marker)
-
-  return marker
-}
-
-function getMarkerText(text) {
-  const content = document.createElement('div')
-  content.className = 'marker-tag'
-  content.style.fontWeight = 'bold'
-  content.textContent = text
-
-  return content
-}
-
-function getMarkerIcon(icon) {
-  const content = document.createElement('span')
-  content.className = 'material-symbols-outlined marker-tag'
-  content.style.paddingLeft = '7px'
-  content.style.fontSize = '18px'
-  content.textContent = icon
-
-  return content
-}
-
-function showPath(coordinates, markerStart, infowindow, color, gallery, json) {
-  const path = new google.maps.Polyline({
-    path: coordinates,
-    geodesic: true,
-    strokeColor: color,
-    strokeOpacity: 1,
-    strokeWeight: 3
-  })
-
-  path.addListener('click', () => {
-    if (openedInfoWindow) {
-      openedInfoWindow.close()
-    }
-
-    infowindow.open(map, markerStart)
-    openedInfoWindow = infowindow
-
-    currentGallery = gallery
-    currentGalleryIndex = 0
-    currentJson = json
-  })
-
-  path.setMap(map)
-
-  pathsAdded.push(path)
-
-  return path
-}
+// Helpers
 
 function point(lat, lng) {
   return {
@@ -906,19 +1193,36 @@ function point(lat, lng) {
   }
 }
 
-function nameToRGB(name) {
-  let hash = 0
-
-  for (let i = 0; i < name.length; i++) {
-    hash = Math.abs(name.charCodeAt(i) + ((hash << 5) - hash))
+function getBounds(points) {
+  const bounds = {
+    north: -90,
+    south: 90,
+    east: -180,
+    west: 180,
   }
 
-  return COLORS[hash % COLORS.length]
+  for (const coordinate of points) {
+    bounds.north = Math.max(bounds.north, coordinate.lat)
+    bounds.south = Math.min(bounds.south, coordinate.lat)
+    bounds.east = Math.max(bounds.east, coordinate.lng)
+    bounds.west = Math.min(bounds.west, coordinate.lng)
+  }
+
+  return bounds
+}
+
+function around(position, gap) {
+  return {
+    north: position.lat + gap,
+    south: position.lat - gap,
+    east: position.lng + gap,
+    west: position.lng - gap,
+  }
 }
 
 function download() {
-  const data = gpxData(currentJson)
-  const filename = `${currentJson.properties.r_number} - ${currentJson.properties.title}.gpx`
+  const data = gpxData(selected.json)
+  const filename = `${selected.json.properties.r_number} - ${selected.json.properties.title}.gpx`
   const file = new Blob([data], { type: 'application/xml' })
 
   if (window.navigator.msSaveOrOpenBlob) {
@@ -971,71 +1275,4 @@ function readInt(field) {
   const value = document.getElementById(field).value
 
   return value ? parseInt(value) : undefined
-}
-
-function gallerySection(galleryList, json) {
-  let content = '<center>'
-
-  if (galleryList.length > 1) {
-    content += `<a class='prev' onclick='plusSlides(-1, ${json.properties.r_number})'>&#10094;</a>`
-  }
-
-  content += `<img id='gallery-${json.properties.r_number}' height='300' src='${galleryList[0]}'/>`
-
-  if (galleryList.length > 1) {
-    content += `<a class='next' onclick='plusSlides(1, ${json.properties.r_number})'>&#10095;</a>`
-  }
-
-  content += `<br/><br/><span><b id='index-${json.properties.r_number}'>1/${galleryList.length}</b></span><br/></center>`
-
-  return content
-}
-
-function showSummary(type, nationalChecked, regionalChecked, localChecked, lengthMin, lengthMax, heightMin, heightMax) {
-  summary.innerHTML += `<div style="padding-top:15px"></div><b>${type}</b><ul>`
-  const types = []
-
-  if (nationalChecked) {
-    types.push('National')
-  }
-
-  if (regionalChecked) {
-    types.push('Regional')
-  }
-
-  if (localChecked) {
-    types.push('Local')
-  }
-
-  summary.innerHTML += `<li>Type: ${types.join(' / ').trim()}</li>`
-
-  if (lengthMin || lengthMax) {
-    const lengths = []
-
-    if (lengthMin) {
-      lengths.push(`Min: ${lengthMin.toLocaleString()} km`)
-    }
-
-    if (lengthMax) {
-      lengths.push(`Max: ${lengthMax.toLocaleString()} km`)
-    }
-
-    summary.innerHTML += `<li>Length: ${lengths.join(' / ').trim()}</li>`
-  }
-
-  if (heightMin || heightMax) {
-    const lengths = []
-
-    if (heightMin) {
-      lengths.push(`Min: ${heightMin.toLocaleString()} m`)
-    }
-
-    if (heightMax) {
-      lengths.push(`Max: ${heightMax.toLocaleString()} m`)
-    }
-
-    summary.innerHTML += `<li>Height: ${lengths.join(' / ').trim()}</li>`
-  }
-
-  summary.innerHTML += '</ul>'
 }

@@ -42,7 +42,7 @@ function run() {
   let content = ''
 
   for (const [name, path] of Object.entries(IDS)) {
-    const ids = JSON.parse(fs.readFileSync(`ids/${path}.json`, 'utf-8'))
+    const ids = [...new Set(JSON.parse(fs.readFileSync(`ids/${path}.json`, 'utf-8')))]
     content += `const ${name} = ${JSON.stringify(ids)}\n`
   }
 
