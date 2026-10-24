@@ -42,8 +42,8 @@ const OSM_TYPES = [
   'ruins',
   'ebikecharging', 'bikerepair', 'airpump', 'bikerental',
   'picnicsite', 'picnictable', 'firepit', 'toilets',
-  'waterfall', 'mountainpass', 'cave', 'swimmingarea', 'bathingplace', 'hotspring',
-  'dumpstation', 'waterpoint', 'shower',
+  'waterfall', 'mountainpass', 'cave', 'swimmingarea', 'bathingplace',
+  'waterpoint', 'shower',
 ]
 
 // The charging stations files cover other countries too: the site shows only the stations inside this box

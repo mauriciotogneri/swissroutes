@@ -1,27 +1,3 @@
-## Low
-
-### [b/resource-and-configuration-parity/osm-layers/downloaded-types-without-ui-layer] Two OpenStreetMap types are downloaded, counted and deployed but have no layer on the site
-
-**Location:** `public/script.js:175-301` (the 25 OSM places). Related: `bin/osm-downloader.js:42,46`, `bin/ids-generator.js:45-46`, `AGENTS.md`, `.claude/skills/update-data/SKILL.md` (step 3b and step 7 check 5).
-
-**Severity:** Low
-
-**Confidence:** High
-
-**Likelihood:** High. It occurs on every run of the OpenStreetMap download and every time the runbook's manual check is followed.
-
-**Defect:** Commit `b8f86d9` removed the `hotspring` row and the whole "Camper services" section (`dumpstation`, `waterpoint`, `shower`) from the panel. It then re-added `waterpoint` and `shower` under other sections. `hotspring` (5 entries) and `dumpstation` (139 entries) have no layer at all. The downloader still queries them on every run, with a 5-second pause each. The ids generator still requires and counts them. Their files are committed and deployed but never fetched. `AGENTS.md` and `SKILL.md` still describe 27 types and a "Camper services" section, so the step 7 check "sections from Water to Camper services" cannot be followed as written.
-
-**Trigger:** Run `bin/osm-downloader.js`, or follow step 7 of the runbook.
-
-**Evidence / verification:**
-
-- `script.js` defines 25 OSM ids, and layers are built only from those lists (`script.js:378-387`).
-- `hotspring.json` and `dumpstation.json` exist in `public/data/osm/`.
-- Whether the removal was intended is unknown.
-
-**Suggested fix:** Decide whether the two types should be shown. If so, restore their rows. If not, remove them from the downloader and from `OSM_TYPES` in the ids generator, delete the two data files, and update `AGENTS.md` and the runbook.
-
 ### [b/contract-mismatches/place-details/handmade-sightseeing-schweizmobil-link] Hand-made sightseeing favorites link to a SchweizMobil page that should not exist
 
 **Location:** `public/script.js:1389-1405`. Related: `ids/favorites/visit.json`, `public/data/other/sightseeing/10001.json` and the other 78 hand-made files.

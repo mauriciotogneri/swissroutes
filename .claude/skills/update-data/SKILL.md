@@ -166,7 +166,7 @@ SchweizMobil can renumber all of its accommodation ids (see Ids in `AGENTS.md`).
 
 ## Step 3b: OpenStreetMap places
 
-Downloads 27 types of OpenStreetMap points (drinking water, huts and shelters, bike support, rest stops, nature, ruins, camper services, lodging) from the Overpass API, one query per type, with a 5-second pause between queries. It reads the files steps 2 and 3 wrote, to drop points within 100 m of a place of the same kind, so run it after both. It writes `public/data/osm/<type>.json` and no `ids/` list, so step 6 never touches those files.
+Downloads 25 types of OpenStreetMap points (drinking water, huts and shelters, bike support, rest stops, nature, ruins, water points and showers, lodging) from the Overpass API, one query per type, with a 5-second pause between queries. It reads the files steps 2 and 3 wrote, to drop points within 100 m of a place of the same kind, so run it after both. It writes `public/data/osm/<type>.json` and no `ids/` list, so step 6 never touches those files.
 
 ```sh
 node bin/osm-downloader.js 2>&1 | tee logs/osm.log
@@ -357,7 +357,7 @@ Then check:
 2. Click a few routes and places in each layer. The details panel shows a title, photo and description.
 3. Open http://localhost:5000/?favorites=1 and turn on both favorites layers (Hikes and Places).
 4. Turn on the charging stations layer.
-5. Turn on a few of the OpenStreetMap layers (the seven places to sleep under Stay, Ruins under Explore, and the sections from Water to Camper services) and click a marker in each. The details panel shows the name or type, and the OpenStreetMap credit.
+5. Turn on a few of the OpenStreetMap layers (the seven places to sleep under Stay, Ruins under Explore, and the sections from Water to Nature) and click a marker in each. The details panel shows the name or type, and the OpenStreetMap credit.
 6. Open the browser console. There must be no `Could not load` errors, other than any you accepted in step 4.
 
 Stop the server with Ctrl+C. When the server was started in the background, find the processes with `ss -ltnp | grep ':5000 '` and `pgrep -af 'serve.sh|firebase'`, kill the `serve.sh` and `firebase serve` PIDs, and confirm that nothing listens on port 5000.

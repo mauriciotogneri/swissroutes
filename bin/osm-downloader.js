@@ -39,11 +39,9 @@ const LAYERS = [
   { id: 'cave', query: 'nwr[natural=cave_entrance]' },
   { id: 'swimmingarea', query: 'nwr[leisure=swimming_area]' },
   { id: 'bathingplace', query: 'nwr[leisure=bathing_place]' },
-  { id: 'hotspring', query: 'nwr[natural=hot_spring]' },
 
   { id: 'ruins', query: 'nwr[historic=ruins]' },
 
-  { id: 'dumpstation', query: 'nwr[amenity=sanitary_dump_station]' },
   { id: 'waterpoint', query: 'nwr[amenity=water_point]' },
   { id: 'shower', query: 'nwr[amenity=shower]' },
 
