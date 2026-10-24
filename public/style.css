@@ -63,6 +63,21 @@ a:hover {
   user-select: none;
 }
 
+main {
+  height: 100%;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
 /* The map sits between the docked panels, so Google's logo and credits stay visible */
 #map {
   height: 100%;
@@ -763,44 +778,57 @@ body.has-details .map-controls {
   pointer-events: none;
 }
 
-/* Small screens */
+/* Full-screen notices: the wider-screen message and the no-JavaScript message */
 
 .small-screen {
   display: none;
 }
 
+.notice,
+.small-screen {
+  position: fixed;
+  inset: 0;
+  z-index: 10;
+  place-items: center;
+  padding: 24px;
+  background: var(--paper);
+}
+
+.notice {
+  display: grid;
+}
+
+.notice > div,
+.small-screen > div {
+  max-width: 30em;
+}
+
+.notice .notice-title,
+.small-screen h2 {
+  margin: 18px 0 8px;
+  color: var(--ink);
+  font-size: 26px;
+  font-weight: 750;
+  font-stretch: 80%;
+  line-height: 1.15;
+}
+
+.notice p,
+.small-screen p {
+  margin: 0;
+  color: var(--ink-soft);
+  font-size: 15px;
+}
+
+.notice .cross,
+.small-screen .cross {
+  width: 40px;
+  height: 40px;
+}
+
 @media (max-width: 1023.98px) {
   .small-screen {
-    position: fixed;
-    inset: 0;
-    z-index: 10;
     display: grid;
-    place-items: center;
-    padding: 24px;
-    background: var(--paper);
-  }
-
-  .small-screen > div {
-    max-width: 30em;
-  }
-
-  .small-screen h1 {
-    margin: 18px 0 8px;
-    font-size: 26px;
-    font-weight: 750;
-    font-stretch: 80%;
-    line-height: 1.15;
-  }
-
-  .small-screen p {
-    margin: 0;
-    color: var(--ink-soft);
-    font-size: 15px;
-  }
-
-  .small-screen .cross {
-    width: 40px;
-    height: 40px;
   }
 
   .layers,

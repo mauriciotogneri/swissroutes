@@ -4,6 +4,4 @@
 
 ## TODO
 
-run vitrine pro website check
-
 apocalypse review

@@ -1,14 +1,96 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Page Not Found</title>
+  <title>Page not found | Swiss Routes</title>
+  <meta name="robots" content="noindex">
+  <meta name="theme-color" content="#d52b1e">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,100..900&display=swap" rel="stylesheet">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+
+  <style>
+    :root {
+      --paper: #ffffff;
+      --ink: #22303c;
+      --ink-soft: #5b6875;
+      --rule: #dde2e6;
+      --red: #d52b1e;
+    }
+
+    html,
+    body {
+      height: 100%;
+      margin: 0;
+    }
+
+    body {
+      display: grid;
+      place-items: center;
+      padding: 24px;
+      box-sizing: border-box;
+      background: var(--paper);
+      color: var(--ink);
+      font-family: 'Archivo', system-ui, sans-serif;
+      line-height: 1.45;
+    }
+
+    main {
+      max-width: 30em;
+    }
+
+    .cross {
+      display: block;
+      width: 40px;
+      height: 40px;
+    }
+
+    h1 {
+      margin: 18px 0 8px;
+      font-size: 26px;
+      font-weight: 750;
+      font-stretch: 80%;
+      line-height: 1.15;
+    }
+
+    p {
+      margin: 0 0 20px;
+      color: var(--ink-soft);
+      font-size: 15px;
+    }
+
+    a {
+      color: var(--ink);
+      font-weight: 600;
+      text-decoration-color: var(--red);
+      text-underline-offset: 3px;
+    }
+
+    a:hover {
+      color: var(--red);
+    }
+
+    a:focus-visible {
+      outline: 2px solid var(--red);
+      outline-offset: 2px;
+    }
+  </style>
 </head>
 
 <body>
-  404
+  <main>
+    <svg class="cross" viewBox="0 0 32 32" aria-hidden="true">
+      <rect width="32" height="32" fill="#d52b1e" />
+      <path d="M13 6h6v7h7v6h-7v7h-6v-7H6v-6h7z" fill="#ffffff" />
+    </svg>
+    <h1>This page doesn't exist</h1>
+    <p>The address may be mistyped, or the link may be out of date.</p>
+    <a href="/">Back to the map</a>
+  </main>
 </body>
 
 </html>

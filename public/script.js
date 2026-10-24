@@ -303,6 +303,7 @@ let clusterer = undefined;
 let selected = undefined;
 let sharedItem = undefined;
 let galleryIndex = 0;
+let focusReturn = undefined;
 let progressTotal = 0;
 let progressDone = 0;
 let renderPending = false;
@@ -738,12 +739,23 @@ function updateProgress() {
     bar.style.width = `${percent}%`;
     progress.setAttribute("aria-valuenow", percent);
     progress.classList.add("loading");
+    setStatus("Loading map data");
   } else {
     bar.style.width = "100%";
     progress.setAttribute("aria-valuenow", 100);
     progress.classList.remove("loading");
     progressTotal = 0;
     progressDone = 0;
+    setStatus("Map data loaded");
+  }
+}
+
+// A live region for screen readers: the progress bar alone is not announced as it moves
+function setStatus(text) {
+  const status = document.getElementById("status");
+
+  if (status.textContent !== text) {
+    status.textContent = text;
   }
 }
 
@@ -1118,6 +1130,11 @@ function moveTooltip(event) {
 // Details
 
 function selectItem(item, source = "map") {
+  // Remember where the keyboard was, so closing the panel can put it back
+  if (!selected) {
+    focusReturn = document.activeElement;
+  }
+
   selected = item;
   galleryIndex = 0;
 
@@ -1132,6 +1149,7 @@ function selectItem(item, source = "map") {
   details.classList.add("open");
   details.inert = false;
   document.body.classList.add("has-details");
+  details.querySelector(".details-close").focus();
 
   render();
 }
@@ -1144,9 +1162,17 @@ function closeDetails() {
   selected = undefined;
 
   const details = document.getElementById("details");
+  const hadFocus = details.contains(document.activeElement);
   details.classList.remove("open");
   details.inert = true;
   document.body.classList.remove("has-details");
+
+  // Only a keyboard user inside the panel needs focus handed back; a click on the map has already moved it
+  if (hadFocus && focusReturn?.isConnected) {
+    focusReturn.focus();
+  }
+
+  focusReturn = undefined;
 
   render();
 }
@@ -1205,12 +1231,13 @@ function detailsContent(item) {
 
 function routeDetails(item) {
   const properties = item.json.properties;
-  const badge = properties.logo
-    ? `<img class="details-logo" src="${properties.logo}" alt="Route ${properties.r_number}">`
+  const logo = safeUrl(properties.logo);
+  const badge = logo
+    ? `<img class="details-logo" src="${escapeHtml(logo)}" alt="Route ${properties.r_number}">`
     : `<span class="plate" style="--color:${item.color}">${properties.r_number}</span>`;
 
   let content = `<div class="details-kind">${badge}${item.level.name} ${item.activity.noun}</div>`;
-  content += `<h2 class="details-title">${properties.title}</h2>`;
+  content += `<h2 class="details-title">${escapeHtml(properties.title)}</h2>`;
 
   content += actions([
     shareAction(),
@@ -1265,7 +1292,7 @@ function placeDetails(item) {
   }
 
   let content = `<div class="details-kind" style="--color:${GROUP_COLORS[item.place.group]}">${iconSwatch(item.place.icon)}${item.place.label}</div>`;
-  content += `<h2 class="details-title">${item.label}</h2>`;
+  content += `<h2 class="details-title">${escapeHtml(item.label)}</h2>`;
 
   const external = baseLink
     ? externalAction(`${baseLink}${item.json.id}`, "SchweizMobil")
@@ -1290,7 +1317,7 @@ function placeDetails(item) {
     contact.push(
       contactLine(
         "location_on",
-        `<a href="https://www.google.com/maps/place/${item.position.lat},${item.position.lng}" target="_blank">Show on Google Maps</a>`,
+        `<a href="https://www.google.com/maps/place/${item.position.lat},${item.position.lng}" target="_blank" rel="noopener noreferrer">Show on Google Maps</a>`,
       ),
     );
   }
@@ -1299,7 +1326,7 @@ function placeDetails(item) {
     contact.push(
       contactLine(
         "call",
-        `<a href="tel:${String(properties.tel).replace(/\s/g, "")}">${properties.tel}</a>`,
+        `<a href="tel:${escapeHtml(String(properties.tel).replace(/\s/g, ""))}">${escapeHtml(properties.tel)}</a>`,
       ),
     );
   }
@@ -1308,7 +1335,7 @@ function placeDetails(item) {
     contact.push(
       contactLine(
         "mail",
-        `<a href="mailto:${properties.email}">${properties.email}</a>`,
+        `<a href="mailto:${escapeHtml(properties.email)}">${escapeHtml(properties.email)}</a>`,
       ),
     );
   }
@@ -1318,7 +1345,7 @@ function placeDetails(item) {
     contact.push(
       contactLine(
         "location_on",
-        `<a href="https://www.google.com/maps/search/${encodeURIComponent(address)}" target="_blank">${address}</a>`,
+        `<a href="https://www.google.com/maps/search/${encodeURIComponent(address)}" target="_blank" rel="noopener noreferrer">${escapeHtml(address)}</a>`,
       ),
     );
   }
@@ -1328,12 +1355,15 @@ function placeDetails(item) {
       properties.url1_link,
       properties.url2_link,
       properties.url_sightseeing,
-    ].filter(Boolean),
+    ].filter(safeUrl),
   );
 
   for (const url of urls) {
     contact.push(
-      contactLine("link", `<a href="${url}" target="_blank">${url}</a>`),
+      contactLine(
+        "link",
+        `<a href="${escapeHtml(url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(url)}</a>`,
+      ),
     );
   }
 
@@ -1414,11 +1444,11 @@ function osmDetails(item) {
     );
   }
 
-  if (tags.website) {
+  if (safeUrl(tags.website)) {
     contact.push(
       contactLine(
         "link",
-        `<a href="${escapeHtml(tags.website)}" target="_blank">${escapeHtml(tags.website)}</a>`,
+        `<a href="${escapeHtml(tags.website)}" target="_blank" rel="noopener noreferrer">${escapeHtml(tags.website)}</a>`,
       ),
     );
   }
@@ -1454,6 +1484,11 @@ function escapeHtml(value) {
   );
 }
 
+// Links built from downloaded data must be web addresses: a "javascript:" value would run when clicked
+function safeUrl(value) {
+  return typeof value === "string" && /^https?:\/\//i.test(value.trim());
+}
+
 function actions(buttons) {
   return `<div class="actions">${buttons.join("")}</div>`;
 }
@@ -1463,7 +1498,7 @@ function shareAction() {
 }
 
 function externalAction(url, label) {
-  return `<a class="action" href="${url}" target="_blank"><span class="material-symbols-outlined">open_in_new</span>${label}</a>`;
+  return `<a class="action" href="${url}" target="_blank" rel="noopener noreferrer"><span class="material-symbols-outlined">open_in_new</span>${label}</a>`;
 }
 
 function stat(label, value, unit) {
@@ -1481,7 +1516,7 @@ function gallerySection(item) {
     return "";
   }
 
-  let content = `<div class="details-media"><img id="galleryImage" src="${gallery[0]}" alt="${item.label.replace(/"/g, "&quot;")}">`;
+  let content = `<div class="details-media"><img id="galleryImage" src="${escapeHtml(gallery[0])}" alt="${escapeHtml(item.label)}">`;
 
   if (gallery.length > 1) {
     content +=
@@ -1504,7 +1539,7 @@ function plusSlides(offset) {
 }
 
 function copyLink(button) {
-  const link = `${location.origin}${location.pathname}?url=${encodeURIComponent(selected.url)}&type=${selected.type}`;
+  const link = `${location.origin}${location.pathname}?url=${encodeURIComponent(selected.url)}&type=${encodeURIComponent(selected.type)}`;
   const label = button.querySelector(".action-label");
   const icon = button.querySelector(".material-symbols-outlined");
   // The selection can change before the clipboard write finishes
@@ -1623,6 +1658,7 @@ function bindControls() {
 
   document.addEventListener("keydown", (event) => {
     if (event.key === "Escape") {
+      hideTooltip();
       closeDetails();
     }
   });
