@@ -248,11 +248,17 @@ If you edited a favorites list, run check 2 again.
 
 The e-bike charging stations come from the Bike Energy map on Google My Maps, which has no download script. Skip this step if the stations don't need refreshing.
 
-If the user chooses to do it, ask them for the KML file or the finished JSON. If you convert the KML, use a throwaway script outside the repository, not a dependency.
+If the user chooses to do it, download the KML yourself first. The map is public, so no sign-in is needed (it worked in October 2026, 1.9 MB). Ask the user for the KML file or the finished JSON only if the download fails. If you convert the KML, use a throwaway script outside the repository, not a dependency. Put the download in its own new folder in the scratchpad and the script in another folder, and pass paths as arguments.
 
-1. Open the [Bike Energy map](https://www.google.com/maps/d/u/0/viewer?mid=1wdyB_yGO8FqEWUbD-HJTvpQ-KRY) and download it as KML.
+1. Download the [Bike Energy map](https://www.google.com/maps/d/u/0/viewer?mid=1wdyB_yGO8FqEWUbD-HJTvpQ-KRY) as KML:
+
+   ```sh
+   curl -sSL -m 60 -o <scratchpad>/kml/bikeenergy.kml 'https://www.google.com/maps/d/kml?mid=1wdyB_yGO8FqEWUbD-HJTvpQ-KRY&forcekml=1'
+   ```
+
+   It must answer `200` with `text/xml`. The file has five folders: `Ladestation`, `Ladestation in Planung`, `Ladekabel Verleih/Verkauf`, `Vertriebspartner` and `Ladestation E-Car`.
 2. Keep only the `Ladestation` folder.
-3. Convert the KML (XML) to JSON. Save just that folder's list of placemarks as `logs/chargingstations.json` (gitignored), then move it to `public/data/other/chargingstations/chargingstations.json` only once the check below passes.
+3. Convert the KML (XML) to JSON. Save just that folder's placemarks as `logs/chargingstations.json` (gitignored), then move it to `public/data/other/chargingstations/chargingstations.json` only once the check below passes. A small regex-based script is enough: split the file into `<Folder>` blocks, take the one named `Ladestation`, and for each `<Placemark>` write `name`, `description` (as `{ "__cdata": ... }`) and `Point.coordinates` (trimmed), as a JSON array with 2-space indentation. The site reads only those three fields (`buildChargingStations` and `chargingStationDetails` in `script.js`), so `styleUrl` and `ExtendedData` can be dropped, which also makes the file smaller. October 2026: 1,411 stations, of which 92 had new coordinates and 20 old ones were gone.
 
 The site expects a JSON array where every entry looks like this:
 
@@ -279,7 +285,7 @@ console.log(list.length + ' stations (' + before + ' before), ' + bad.length + '
 " logs/chargingstations.json
 ```
 
-It must show `0 malformed` and a count within 10% of the previous one (1,339 in October 2026). If it doesn't, don't move the file into place. If the real file was already overwritten, run `git restore public/data/other/chargingstations/chargingstations.json`, then stop and tell the user. Step 6 never touches this file.
+It must show `0 malformed` and a count within 10% of the previous one (1,339 before and 1,411 after the October 2026 refresh). If it doesn't, don't move the file into place. If the real file was already overwritten, run `git restore public/data/other/chargingstations/chargingstations.json`, then stop and tell the user. Step 6 never touches this file.
 
 ## Step 6: Delete files of places that disappeared
 
