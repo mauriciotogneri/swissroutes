@@ -54,7 +54,7 @@ const PLACES = [
   { id: 'mountainhut', group: 'stay', name: 'Mountain huts', label: 'Mountain hut', icon: 'night_shelter', folder: 'accommodation/mountainhut', ids: ACCOMMODATION_MOUNTAINHUT_IDS },
   { id: 'sightseeing', group: 'explore', name: 'Sightseeing', label: 'Sightseeing', icon: 'visibility', folder: 'other/sightseeing', ids: OTHER_SIGHTSEEING_IDS },
   { id: 'serviceshop', group: 'explore', name: 'Bike service', label: 'Bike service', icon: 'build', folder: 'other/serviceshop', ids: OTHER_SERVICESHOP_IDS },
-  { id: 'chargingstation', group: 'explore', name: 'E-bike charging', label: 'E-bike charging station', icon: 'bolt', file: 'other/chargingstations/chargingstations.json' },
+  { id: 'chargingstation', group: 'explore', name: 'E-bike charging', label: 'E-bike charging station', icon: 'bolt', files: ['other/chargingstations/chargingstations.json', 'other/chargingstations/ebike-sockets.json'] },
 ]
 
 // Every toggle in the panel is a layer: the data files it shows, how to build their map items, and which filter applies
@@ -145,11 +145,11 @@ function routeLayer(activity, level, ids, row, filter) {
 }
 
 function placeLayer(place, ids, row) {
-  if (place.file) {
+  if (place.files) {
     return {
       row: row,
       single: true,
-      urls: [place.file],
+      urls: place.files,
       build: (url, json) => buildChargingStations(url, json, place),
     }
   }
@@ -326,13 +326,15 @@ function rowTotal(row) {
   for (const layer of Object.values(LAYERS)) {
     if (layer.row === row) {
       if (layer.single) {
-        const items = files.get(layer.urls[0])
+        for (const url of layer.urls) {
+          const items = files.get(url)
 
-        if (!items) {
-          return undefined
+          if (!items) {
+            return undefined
+          }
+
+          total += items.length
         }
-
-        total += items.length
       } else {
         total += layer.urls.length
       }
@@ -798,7 +800,7 @@ function sharedItemBuilder(type, url) {
     return (url, json) => buildRoute(url, json, activity, level)
   }
 
-  const place = PLACES.find((place) => (place.icon === type) && !place.file)
+  const place = PLACES.find((place) => (place.icon === type) && !place.files)
 
   if (place) {
     return (url, json) => buildPlace(url, json, place)

@@ -1,0 +1,920 @@
+[
+  {
+    "name": "CH-1205 Genève (Nr. 52)",
+    "description": {
+      "__cdata": "- Parking Uni-Mail, Fondation des Parkings, Boulevard Carl-Vogt 100<br>- 2x Steckdose CH Typ 23 (13A) / Freier Zugang / Stromkosten: kostenlos / Standort: located on level -2<br>Eintrag/Korrektur: 10-Jul-2015<br>Source: <a href=\"https://lemnet.org\" target=\"_blank\">lemnet.org</a>"
+    },
+    "Point": {
+      "coordinates": "6.140000,46.194775,0"
+    }
+  },
+  {
+    "name": "CH-1214 Vernier (Nr. 53)",
+    "description": {
+      "__cdata": "- Autos et Energies, Pierre Scholl, rte Peney 133, www.a-e.ch<br>- 1x Steckdose CEE blau 230V/16A (16A), 2x Steckdose CH Typ 13 (10A) / Stromkosten: gratuit / Standort: 6 km de Genève / Parken: gratuit<br>- Hinweis: fabricant de voitures électriques.<br>Eintrag/Korrektur: 02-Mär-2011<br>Aktiv gemeldet am: 27-Aug-2010<br>Source: <a href=\"https://lemnet.org\" target=\"_blank\">lemnet.org</a>"
+    },
+    "Point": {
+      "coordinates": "6.069812,46.208275,0"
+    }
+  },
+  {
+    "name": "CH-1215 Genève (Nr. 5182)",
+    "description": {
+      "__cdata": "- Aéroport de Genève, Parking P51<br>- 3x Steckdose CEE blau 230V/16A (16A), 3x Steckdose CH Typ 13 (10A) / Stromkosten: gratuit / Standort: P51, 3ième étage, 3 place réservée<br>Eintrag/Korrektur: 20-Mär-2012<br>Source: <a href=\"https://lemnet.org\" target=\"_blank\">lemnet.org</a>"
+    },
+    "Point": {
+      "coordinates": "6.102374,46.227316,0"
+    }
+  },
+  {
+    "name": "CH-1218 Le Grand-Saconnex (Nr. 1458)",
+    "description": {
+      "__cdata": "- Palexpo, Route François-Peyrot<br>- 5x Steckdose CH Typ 13 (10A), FI / Freier Zugang / Stromkosten: gratuit / Standort: à coté parking P11; le parking 2 roues se trouve en face de l'entrée principale de Genève Palexpo (halles 1-4) / Parken: gratuit<br>- Essen: dans Genève Palexpo<br>- Schlafen: hôtels dans les environs<br>- Interessant: électricité produite par la centrale photovoltaïque de la halle 6<br>- Hinweis: Avis du : Boitier SIG cassé.<br>Eintrag/Korrektur: 23-Sep-2017<br>Source: <a href=\"https://lemnet.org\" target=\"_blank\">lemnet.org</a>"
+    },
+    "Point": {
+      "coordinates": "6.118870,46.232786,0"
+    }
+  },
+  {
+    "name": "CH-1294 Genthod (Nr. 950)",
+    "description": {
+      "__cdata": "- Gérard &amp; Evelyne Kloos, ch. de la Pralay 22<br>- 1x Steckdose CH Typ 13 (10A) / s'annoncer par téléphone (pas de prise à l'extérieur) / Stromkosten: gratuit / Standort: à la périphérie de Genève, bord du lac Léman.<br>Eintrag/Korrektur: 02-Mär-2011<br>Source: <a href=\"https://lemnet.org\" target=\"_blank\">lemnet.org</a>"
+    },
+    "Point": {
+      "coordinates": "6.156060,46.267980,0"
+    }
+  },
+  {
+    "name": "CH-1453 Mauborget (Nr. 764)",
+    "description": {
+      "__cdata": "- Restaurant de la Combaz<br>- 1x Steckdose CH Typ 13 (10A) / Stromkosten: gratuit / Parken: gratuit<br>Eintrag/Korrektur: 17-Mär-2000<br>Source: <a href=\"https://lemnet.org\" target=\"_blank\">lemnet.org</a>"
+    },
+    "Point": {
+      "coordinates": "6.615100,46.855730,0"
+    }
+  },
+  {
+    "name": "CH-1453 Bullet (Nr. 763)",
+    "description": {
+      "__cdata": "- Camping VD 28 Les Cluds<br>- 1x Steckdose CH Typ 13 (10A) / Stromkosten: gratuit / Parken: gratuit<br>Eintrag/Korrektur: 17-Mär-2000<br>Source: <a href=\"https://lemnet.org\" target=\"_blank\">lemnet.org</a>"
+    },
+    "Point": {
+      "coordinates": "6.554780,46.831240,0"
+    }
+  },
+  {
+    "name": "CH-2105 Travers (Nr. 768)",
+    "description": {
+      "__cdata": "- Mines d'asphalte, rue des Mines, www.gout-region.ch<br>- 1x Steckdose CH Typ 13 (10A) / offen: . / Stromkosten: gratuit / Standort: entre Couvet et Travers / Parken: gratuit<br>Eintrag/Korrektur: 17-Apr-2002<br>Source: <a href=\"https://lemnet.org\" target=\"_blank\">lemnet.org</a>"
+    },
+    "Point": {
+      "coordinates": "6.671240,46.936130,0"
+    }
+  },
+  {
+    "name": "CH-2503 Biel/Bienne BE (Nr. 61)",
+    "description": {
+      "__cdata": "- Merz+Amez-Droz AG, Agence GM/Opel, Salzhausstr. 33, www.merz-amez-droz.ch<br>- 1x Steckdose CH Typ 13 (10A) / Stromkosten: gratis<br>Eintrag/Korrektur: 10-Mär-2002<br>Source: <a href=\"https://lemnet.org\" target=\"_blank\">lemnet.org</a>"
+    },
+    "Point": {
+      "coordinates": "7.244670,47.130280,0"
+    }
+  },
+  {
+    "name": "CH-2557 Studen BE (Nr. 67)",
+    "description": {
+      "__cdata": "- Gasthof zur Linde, Hauptstr. 73<br>- 1x Steckdose CH Typ 13 (10A) / offen: Mo-Sa / Stromkosten: gratis<br>- Essen: im Hause<br>- Schlafen: im Hause<br>Eintrag/Korrektur: 08-Jan-2015<br>Source: <a href=\"https://lemnet.org\" target=\"_blank\">lemnet.org</a>"
+    },
+    "Point": {
+      "coordinates": "7.301280,47.113380,0"
+    }
+  },
+  {
+    "name": "CH-3027 Bern-Brünnen (Nr. 5523)",
+    "description": {
+      "__cdata": "- Westside Einkaufszentrum, Gilberte-de-Courgenay-Platz 4, <a href=\"https://www.westside.ch\" target=\"_blank\">https://www.westside.ch</a><br>- 2x Steckdose Typ2 (32A, 3-ph), 2x Steckdose CH Typ 13 (10A) / Freier Zugang / offen: Mo-Do 9-20 Uhr, Fr 9-22 Uhr, Sa 8-17 Uhr / Standort: siehe Beschilderung; die beiden Ladestationen auf dem Aussenparking und im Parkhaus (Parking U1, Sektor D) sind für Autos zugänglich, zwei Steckdosen nur für Zweiräder.<br>- Essen: Restaurants im Einkaufszentrum<br>- Interessant: Einkaufszentrum Westside mit Hallenbad + Wellness; Bahnhof Bern-Brünnen-Westside (50 m); m-way Shop (Fachgeschäft für E-Bikes, E-Scooter, E-Motos, E-Cars, Zubehör und Service) mit E-Bike Ladestation.<br>- Hinweis: : Die beiden Ladestationen im Aussenbereich funktionieren nicht. Die Ladestationen in der Einstellhalle hingegen schon.<br>Eintrag/Korrektur: 02-Mär-2021<br>Aktiv gemeldet am: 26-Sep-2020<br>Source: <a href=\"https://lemnet.org\" target=\"_blank\">lemnet.org</a>"
+    },
+    "Point": {
+      "coordinates": "7.372658,46.946135,0"
+    }
+  },
+  {
+    "name": "CH-3052 Zollikofen (Nr. 2114)",
+    "description": {
+      "__cdata": "- Inforama Rütti, Bildungs-, Beratungs- und Tagungszentrum, Rütti 5, Rütti 5, www.vol.be.ch/site/inforama-ruetti-zollikofen.htm<br>- 2x Steckdose CH Typ 13 (10A), Nass-Steckdosen / Zeitbeschränkung: 24 h / Stromkosten: kostenlos / Standort: Zollikofen beim Migros-Kreisel (Raiffeisenbank) Richtung \"INFORAMA Rütti\"; am Ende der Strasse rechts in die Allee einbiegen; Inforama Rütti liegt am Ende dieser Allee; Parkplatz/Tankstelle ist hinten bei den Veloständern / Parken: kostenlos<br>- Essen: im Restaurant gibt es die Möglichkeit sich zu verpflegen (kein Abendessen, Sa/So geschlossen, spezielle Öffnungszeiten während Schulferien)<br>- Schlafen: auf Anfrage besteht die Möglichkeit zur Übernachtung<br>- Interessant: Kursräume können gemietet werden<br>- Hinweis: Tankstelle nur für E-Scooter und E-Velo<br>Eintrag/Korrektur: 02-Feb-2010<br>Source: <a href=\"https://lemnet.org\" target=\"_blank\">lemnet.org</a>"
+    },
+    "Point": {
+      "coordinates": "7.462364,46.988602,0"
+    }
+  },
+  {
+    "name": "CH-3084 Wabern (Gemeinde Köniz) (Nr. 5175)",
+    "description": {
+      "__cdata": "- Coop Wabern, Seftigenstr. 240, www.coop.ch<br>- 2x Steckdose CH Typ 13 (10A), Sicherung nicht von aussen zugänglich / Stromkosten: kostenlos / Standort: silberne Steckdosen an Betonsäule in der Nähe des Lifts / Parken: kostenlos<br>- Essen: im Coop Einkaufscenter<br>- Hinweis: Nur für E-Scooters und E-Bikes.<br>Eintrag/Korrektur: 13-Mär-2012<br>Source: <a href=\"https://lemnet.org\" target=\"_blank\">lemnet.org</a>"
+    },
+    "Point": {
+      "coordinates": "7.450764,46.928927,0"
+    }
+  },
+  {
+    "name": "CH-3084 Wabern (Nr. 19057)",
+    "description": {
+      "__cdata": "- Gurtenbahn Bern AG, Dorfstrasse 37, <a href=\"http://www.gurtenbahn.ch\" target=\"_blank\">http://www.gurtenbahn.ch</a><br>- 4x Steckdose CH Typ 13 (10A) / Zugang: Siehe Hinweis / Stromkosten: kostenlos / Standort: Parkhaus Gurtenbahn / Parken: kostenlos<br>- Essen: Gurtenpark, <a href=\"http://www.gurtenpark.ch\" target=\"_blank\">http://www.gurtenpark.ch</a><br>- Interessant: Erholungsgebiet Gurten<br>- Hinweis: 4 Ladeplätze mit Anschlüsse für alle gängigen E-Bike- und E-Scooter-Marken; gratis Strom und Parkieren<br>Eintrag/Korrektur: 03-Nov-2015<br>Source: <a href=\"https://lemnet.org\" target=\"_blank\">lemnet.org</a>"
+    },
+    "Point": {
+      "coordinates": "7.448215,46.927876,0"
+    }
+  },
+  {
+    "name": "CH-3097 Liebefeld / Köniz (Nr. 5177)",
+    "description": {
+      "__cdata": "- Luippold Optik, Könizstr. 256<br>- 2x Steckdose CH Typ 13 (10A), Sicherung nicht von aussen zugänglich / Stromkosten: kostenlos / Standort: direkt beim Kreisel; Steckdosen neben dem Geschäftseingang. / Parken: kostenlos<br>- Hinweis: Nur für E-Scooters und E-Bikes.<br>Eintrag/Korrektur: 13-Mär-2012<br>Source: <a href=\"https://lemnet.org\" target=\"_blank\">lemnet.org</a>"
+    },
+    "Point": {
+      "coordinates": "7.416225,46.929250,0"
+    }
+  },
+  {
+    "name": "CH-3097 Liebefeld / Köniz (Nr. 5176)",
+    "description": {
+      "__cdata": "- Coop Steinhölzlimärit, Kirchstr. 4, www.coop.ch<br>- 2x Steckdose CH Typ 13 (10A), Sicherung nicht von aussen zugänglich / Stromkosten: kostenlos / Standort: silberne Steckdosen bei den Veloabstellplätzen vor dem Coop / Parken: kostenlos<br>- Essen: Coop, Bäckerei<br>- Hinweis: Nur für E-Scooters und E-Bikes.<br>Eintrag/Korrektur: 13-Mär-2012<br>Source: <a href=\"https://lemnet.org\" target=\"_blank\">lemnet.org</a>"
+    },
+    "Point": {
+      "coordinates": "7.428061,46.930385,0"
+    }
+  },
+  {
+    "name": "CH-3098 Köniz (Nr. 2220)",
+    "description": {
+      "__cdata": "- Gemeindehaus Bläuacker, Landorfstr. 1, www.koeniz.ch<br>- 4x Steckdose CH Typ 13 (10A), FI, Nass-Steckdosen IP54 / Stromkosten: gratis / Standort: im Zentrum von Köniz, gleich nach der Migros (rechte Strassenseite von der Stadt Bern her); die Steckdosen befinden sich rechts vom Haupteingang beim Veloständer (Kennzeichnung mit gelben Klebern)<br>- Essen: vis-à-vis Restaurant und Hotel Sternen, Schwarzenburgstrasse 279 (www.sternen-koeniz.ch, ), Restaurant täglich geöffnet von 11-23 h (Sa nur 17-23 h), Hotel durchgehend offen<br>- Hinweis: Tankstelle nur für E-Scooter und E-Bikes<br>Eintrag/Korrektur: 10-Feb-2010<br>Source: <a href=\"https://lemnet.org\" target=\"_blank\">lemnet.org</a>"
+    },
+    "Point": {
+      "coordinates": "7.413792,46.922750,0"
+    }
+  },
+  {
+    "name": "CH-3098 Köniz (Nr. 2221)",
+    "description": {
+      "__cdata": "- Mediothek Stapfen, Stapfenstr. 13, <a href=\"http://www.koenizermediotheken.ch\" target=\"_blank\">http://www.koenizermediotheken.ch</a><br>- 2x Steckdose CH Typ 13 (10A), FI, Nass-Steckdosen IP54 / Stromkosten: gratis / Standort: beim Migros-Kreisel links abbiegen (von Stadt her), nach ca. 50 Metern links einbiegen; die Steckdosen befinden sich links vom Eingang beim Veloständer (Kennzeichnung mit gelben Klebern)<br>- Essen: Restaurant und Hotel Sternen, Schwarzenburgstrasse 279 (www.sternen-koeniz.ch, ), Restaurant täglich geöffnet von 11-23 h (Sa nur 17-23 h), Hotel durchgehend offen<br>- Hinweis: Tankstelle nur für E-Scooter und E-Bikes<br>Eintrag/Korrektur: 23-Sep-2017<br>Source: <a href=\"https://lemnet.org\" target=\"_blank\">lemnet.org</a>"
+    },
+    "Point": {
+      "coordinates": "7.415777,46.922641,0"
+    }
+  },
+  {
+    "name": "CH-3110 Münsingen (Nr. 88)",
+    "description": {
+      "__cdata": "- Restaurant Ochsen, Bernstr. 2<br>- 1x Steckdose CH Typ 13 (10A) / offen: Do geschlossen / im Restaurant fragen / Stromkosten: gratis / Standort: bis zur Steckdose 15 m Kabel notwendig / Parken: gratis<br>Eintrag/Korrektur: 08-Jan-2015<br>Source: <a href=\"https://lemnet.org\" target=\"_blank\">lemnet.org</a>"
+    },
+    "Point": {
+      "coordinates": "7.562700,46.875590,0"
+    }
+  },
+  {
+    "name": "CH-3204 Rosshäusern (Nr. 9640)",
+    "description": {
+      "__cdata": "- Matthias Aebi, Dorfweg 9<br>- 2x Steckdose CH Typ 13 (13A) / Freier Zugang / Zeitbeschränkung: 24 h / Stromkosten: kostenlos / Standort: Am Haus Nr. 9 rechts im Fahrradunterstand links an der Wand und rechts von der Haustüre / Parken: kostenlos<br>- Essen: keine<br>- Schlafen: keine<br>Eintrag/Korrektur: 27-Feb-2015<br>Source: <a href=\"https://lemnet.org\" target=\"_blank\">lemnet.org</a>"
+    },
+    "Point": {
+      "coordinates": "7.245569,46.927114,0"
+    }
+  },
+  {
+    "name": "CH-3512 Walkringen (Nr. 761)",
+    "description": {
+      "__cdata": "- Hotel Rüttihubelbad, Tagungs- und Kongresszentrum, Rüttihubelbad, www.ruettihubelbad.ch<br>- 1x Steckdose CH Typ 13 (10A) / Stromkosten: gratis für Besucher und Gäste / Standort: vor dem Restaurant; Steckdosen-Skulptur auf der Gartenmauer / Parken: gratis<br>- Essen: im Hause<br>- Schlafen: im Hause<br>- Interessant: Ausstellung \"Sensorium\" sehr empfehlenswert (Di-Fr  Uhr, Sa/So  Uhr, www.sensorium.ch)<br>Eintrag/Korrektur: 24-Apr-2016<br>Source: <a href=\"https://lemnet.org\" target=\"_blank\">lemnet.org</a>"
+    },
+    "Point": {
+      "coordinates": "7.597821,46.939671,0"
+    }
+  },
+  {
+    "name": "CH-3604 Thun (Nr. 8338)",
+    "description": {
+      "__cdata": "- Panorama-Center , Weststrasse 14 , <a href=\"http://www.panoramacenter.ch/\" target=\"_blank\">http://www.panoramacenter.ch/</a><br>- 2x Steckdose Typ2 (16A, 3-ph) / Freier Zugang / offen: Mo - Do 09:00 - 20:00Uhr, Fr 09:00 - 21:00Uhr, Sa: 08:00 - 17:00Uhr / Stromkosten: Parkgebühren / Standort: in der Einstellhalle / Parken: Ja<br>- Essen: Ja, während den Öffnungszeiten<br>- Schlafen: Nein<br>- Hinweis: außerdem: 1 m-way-Doppel-Bikeport für E-Bikes oder E-Scooter<br>Eintrag/Korrektur: 04-Okt-2019<br>Aktiv gemeldet am: 03-Okt-2019<br>Source: <a href=\"https://lemnet.org\" target=\"_blank\">lemnet.org</a>"
+    },
+    "Point": {
+      "coordinates": "7.603354,46.745169,0"
+    }
+  },
+  {
+    "name": "CH-3627 Heimberg (Nr. 8770)",
+    "description": {
+      "__cdata": "- Sportzentrum CIS, Schützenstrasse 72, <a href=\"http://www.sportzentrum-cis-heimberg.ch\" target=\"_blank\">http://www.sportzentrum-cis-heimberg.ch</a><br>- 2x Steckdose Typ2 (32A, 3-ph) / Zugang: eCarUp App / Standort: Sportzentrum CIS, Parkplatz hinter Schranke / Parken: Kostenlos<br>- Hinweis: Ladepunkte für  E-Auto, E-Scooter, E-Bike<br>Eintrag/Korrektur: 23-Jun-2024<br>Aktiv gemeldet am: 29-Nov-2016<br>Source: <a href=\"https://lemnet.org\" target=\"_blank\">lemnet.org</a>"
+    },
+    "Point": {
+      "coordinates": "7.594900,46.792891,0"
+    }
+  },
+  {
+    "name": "CH-3653 Oberhofen am Thunersee (Nr. 102)",
+    "description": {
+      "__cdata": "- Museum für Uhren und mechanische Musikinstrumente, Staatstr. 18<br>- 1x Steckdose CH Typ 13 (10A) / Stromkosten: gratis für Besucher / Standort: im Hof; 10 m Kabel notwendig / Parken: gratis<br>- Interessant: Sammlung im Obersteg<br>Eintrag/Korrektur: 17-Mär-2000<br>Source: <a href=\"https://lemnet.org\" target=\"_blank\">lemnet.org</a>"
+    },
+    "Point": {
+      "coordinates": "7.671890,46.728540,0"
+    }
+  },
+  {
+    "name": "CH-3671 Brenzikofen (Nr. 105)",
+    "description": {
+      "__cdata": "- Gasthof zum Bahnhof, Hans Tschanz, Stationsstr. 18<br>- 1x Steckdose CH Typ 13 (10A) / im Restaurant fragen / Stromkosten: gratis / Parken: gratis<br>Eintrag/Korrektur: 17-Mär-2000<br>Source: <a href=\"https://lemnet.org\" target=\"_blank\">lemnet.org</a>"
+    },
+    "Point": {
+      "coordinates": "7.610720,46.817270,0"
+    }
+  },
+  {
+    "name": "CH-3703 Aeschi bei Spiez (Nr. 107)",
+    "description": {
+      "__cdata": "- Restaurant Pochtenfall, Fritz Hari, Suldtal<br>- 1x Steckdose CH Typ 13 (10A) / offen: Mai-Okt. / im Restaurant fragen / Stromkosten: gratis / Standort: beim Parkplatz; 10 m Kabel notwendig / Parken: gratis<br>Eintrag/Korrektur: 08-Jan-2015<br>Source: <a href=\"https://lemnet.org\" target=\"_blank\">lemnet.org</a>"
+    },
+    "Point": {
+      "coordinates": "7.763630,46.622330,0"
+    }
+  },
+  {
+    "name": "CH-3714 Frutigen (Nr. 117)",
+    "description": {
+      "__cdata": "- Schenk Optik, Peter Schenk, Kanderstegstr. 8<br>- 1x Steckdose CH Typ 13 (10A) / Im Laden fragen / Stromkosten: gratis / Standort: hinter dem Haus; 10 m Kabel notwendig / Parken: gratis<br>Eintrag/Korrektur: 17-Mär-2000<br>Source: <a href=\"https://lemnet.org\" target=\"_blank\">lemnet.org</a>"
+    },
+    "Point": {
+      "coordinates": "7.646280,46.587730,0"
+    }
+  },
+  {
+    "name": "CH-3714 Frutigen (Nr. 114)",
+    "description": {
+      "__cdata": "- Oester Messtechnik, Achern<br>- 1x Steckdose CH Typ 13 (10A) / im Geschäft fragen / Stromkosten: gratis / Standort: Strasse nach Kandersteg; Steckdose hinter dem Schopf / Parken: gratis<br>- Interessant: Messtechnik für Deponie und Biogas<br>Eintrag/Korrektur: 17-Mär-2000<br>Source: <a href=\"https://lemnet.org\" target=\"_blank\">lemnet.org</a>"
+    },
+    "Point": {
+      "coordinates": "7.656690,46.566540,0"
+    }
+  },
+  {
+    "name": "CH-3716 Kandergrund (Nr. 118)",
+    "description": {
+      "__cdata": "- Tierpark Riegelsee, www.tierpark-riegelsee.ch<br>- 1x Steckdose CH Typ 13 (10A) / offen: April-Oktober / beim Personal fragen / Stromkosten: gratis / Standort: Hauptstrasse Frutigen-Kandersteg vor Blausee-Mitholz; 20 m Kabel notwendig / Parken: gratis<br>- Essen: Feuerstelle, Snack-Bar und Kiosk<br>- Schlafen: Ferienlager Riegelsee (für Gruppen) auf Anfrage<br>- Interessant: Spaziergang im Natur- und Alpenwildpark<br>Eintrag/Korrektur: 17-Mär-2000<br>Source: <a href=\"https://lemnet.org\" target=\"_blank\">lemnet.org</a>"
+    },
+    "Point": {
+      "coordinates": "7.661760,46.545510,0"
+    }
+  },
+  {
+    "name": "CH-3723 Kiental (Nr. 123)",
+    "description": {
+      "__cdata": "- Sportbahnen Kiental-Ramslauenen<br>- 1x Steckdose CH Typ 13 (10A) / Stromkosten: gratis für Bahnbenützer / Standort: bei der Kasse / Parken: gratis<br>- Essen: Restaurant Ramslauenen (1411 m)<br>- Schlafen: im Restaurant fragen<br>Eintrag/Korrektur: 17-Mär-2000<br>Source: <a href=\"https://lemnet.org\" target=\"_blank\">lemnet.org</a>"
+    },
+    "Point": {
+      "coordinates": "7.723390,46.587900,0"
+    }
+  },
+  {
+    "name": "CH-3758 Latterbach (Nr. 570)",
+    "description": {
+      "__cdata": "- Hans Baumann, Hof 624<br>- 1x Steckdose CEE blau 230V/16A (16A), 1x Steckdose CH Typ 13 (10A), FI / Stromkosten: gratis / Standort: 5. Haus unterhalb Balmer Bergsport an der Hauptstrasse; Steckdose unten an der Hausecke auf Kopfhöhe / Parken: gratis<br>- Essen: Restaurant Adler (talaufwärts 500 m Richtung Zweisimmen)<br>- Interessant: wandern auf den Waldwegen bei gutem Wetter; Simmentaler Hausweg mit alten Häusern<br>Eintrag/Korrektur: 25-Sep-2020<br>Aktiv gemeldet am: 22-Sep-2020<br>Source: <a href=\"https://lemnet.org\" target=\"_blank\">lemnet.org</a>"
+    },
+    "Point": {
+      "coordinates": "7.582760,46.665700,0"
+    }
+  },
+  {
+    "name": "CH-3770 Zweisimmen (Nr. 126)",
+    "description": {
+      "__cdata": "- Luftseilbahn Zweisimmen-Rinderberg<br>- 1x Steckdose CH Typ 13 (10A) / offen: ca. Juni bis Okt. / Stromkosten: gratis / Standort: Parkplatz direkt bei der Talstation; 10 m Kabel notwendig / Parken: gratis<br>- Essen: Berghaus Rinderberg (2005 m)<br>Eintrag/Korrektur: 17-Mär-2002<br>Source: <a href=\"https://lemnet.org\" target=\"_blank\">lemnet.org</a>"
+    },
+    "Point": {
+      "coordinates": "7.372620,46.552860,0"
+    }
+  },
+  {
+    "name": "CH-3775 Lenk im Simmental (Nr. 1363)",
+    "description": {
+      "__cdata": "- Kino<br>- 1x Steckdose CH Typ 13 (10A) / Stromkosten: gratis / Standort: an rechter Hauswand des Kinos neben der Glastüre<br>Eintrag/Korrektur: 17-Apr-2002<br>Source: <a href=\"https://lemnet.org\" target=\"_blank\">lemnet.org</a>"
+    },
+    "Point": {
+      "coordinates": "7.442950,46.457700,0"
+    }
+  },
+  {
+    "name": "CH-3784 Feutersoey bei Gstaad (Nr. 127)",
+    "description": {
+      "__cdata": "- Elektrizitätswerk Gsteig, Ledi<br>- 1x Steckdose CH Typ 13 (10A) / Stromkosten: gratis / Standort: zur Steckdose 10 m Kabel notwendig / Parken: gratis<br>Eintrag/Korrektur: 17-Mär-2000<br>Source: <a href=\"https://lemnet.org\" target=\"_blank\">lemnet.org</a>"
+    },
+    "Point": {
+      "coordinates": "7.267507,46.418656,0"
+    }
+  },
+  {
+    "name": "CH-3785 Gsteig bei Gstaad (Nr. 128)",
+    "description": {
+      "__cdata": "- Luftseilbahn Gsteig-Sanetschpass<br>- 1x Steckdose CH Typ 13 (10A) / offen: ca. Juni bis Okt. / Stromkosten: gratis / Standort: zur Steckdose 10 m Kabel notwendig / Parken: gratis<br>- Essen: Berghaus Sanetsch<br>- Schlafen: im Berghaus fragen<br>- Interessant: Klettergarten, Höhlen<br>Eintrag/Korrektur: 17-Mär-2000<br>Source: <a href=\"https://lemnet.org\" target=\"_blank\">lemnet.org</a>"
+    },
+    "Point": {
+      "coordinates": "7.280583,46.376174,0"
+    }
+  },
+  {
+    "name": "CH-3800 Interlaken (Nr. 755)",
+    "description": {
+      "__cdata": "- Tell-Freilichtspiele, www.tellspiele.ch<br>- 2x Steckdose CH Typ 13 (10A) / offen: nur während der Spielsaison (Verkehrsbüro anfragen) / Stromkosten: gratis / Parken: gratis<br>- Hinweis: Anfrage beim Sekretariat der Tell-Freilichtspiele (Frau Trachsel)<br>Eintrag/Korrektur: 17-Apr-2002<br>Source: <a href=\"https://lemnet.org\" target=\"_blank\">lemnet.org</a>"
+    },
+    "Point": {
+      "coordinates": "7.861630,46.679521,0"
+    }
+  },
+  {
+    "name": "CH-3862 Innertkirchen (Nr. 134)",
+    "description": {
+      "__cdata": "- Hotel-Restaurant Urweider, Dorfstrasse 11, www.urweider.ch<br>- 1x Steckdose CH Typ 13 (10A) / beim Personal fragen / Stromkosten: gratis / Standort: beim Gartenrestaurant / Parken: gratis<br>Eintrag/Korrektur: 05-Okt-2015<br>Aktiv gemeldet am: 29-Aug-2015<br>Source: <a href=\"https://lemnet.org\" target=\"_blank\">lemnet.org</a>"
+    },
+    "Point": {
+      "coordinates": "8.226534,46.705421,0"
+    }
+  },
+  {
+    "name": "CH-3920 Zermatt (Nr. 831)",
+    "description": {
+      "__cdata": "- Romantik Hotel \"Julen\", Daniela + Paul Julen, Steinmatte<br>- 1x Steckdose CH Typ 13 (10A) / Stromkosten: gratis / Standort: beim Empfang melden<br>- Essen: im Restaurant<br>- Hinweis: Fahrbewilligung der Gemeinde Zermatt notwendig<br>Eintrag/Korrektur: 24-Sep-2001<br>Source: <a href=\"https://lemnet.org\" target=\"_blank\">lemnet.org</a>"
+    },
+    "Point": {
+      "coordinates": "7.748290,46.018000,0"
+    }
+  },
+  {
+    "name": "CH-4133 Pratteln (Nr. 150)",
+    "description": {
+      "__cdata": "- Christian Bernoulli, Mayenfelserstr. 48<br>- 1x Steckdose CH Typ 13 (10A) / Stromkosten: gratis / Standort: Konsole gegenüber der Haustüre<br>- Interessant: Dorfkern, Schloss, Dorfmuseum<br>Eintrag/Korrektur: 17-Mär-2000<br>Source: <a href=\"https://lemnet.org\" target=\"_blank\">lemnet.org</a>"
+    },
+    "Point": {
+      "coordinates": "7.688130,47.515850,0"
+    }
+  },
+  {
+    "name": "CH-4414 Füllinsdorf (Nr. 158)",
+    "description": {
+      "__cdata": "- Wolfgang Zumsteg, Mühlemattstr. 56<br>- 1x Steckdose CH Typ 15 (10A, 3-ph), 1x Steckdose CH Typ 13 (10A) / Stromkosten: gratis / Standort: Konsole beim Parkplatz<br>- Interessant: Solaranlage 2 kW<br>Eintrag/Korrektur: 17-Mär-2000<br>Source: <a href=\"https://lemnet.org\" target=\"_blank\">lemnet.org</a>"
+    },
+    "Point": {
+      "coordinates": "7.726620,47.506240,0"
+    }
+  },
+  {
+    "name": "CH-4421 St. Pantaleon (Nr. 161)",
+    "description": {
+      "__cdata": "- Stefan Best, Gartenstr. 1<br>- 1x Steckdose CH Typ 13 (10A), FI / Stromkosten: gratis / Standort: Steckdose bei Abstellplatz / Parken: gratis<br>- Interessant: Solarhaus in Holz-/Lehmbauweise<br>Eintrag/Korrektur: 03-Mär-2002<br>Aktiv gemeldet am: 22-Dez-2010<br>Source: <a href=\"https://lemnet.org\" target=\"_blank\">lemnet.org</a>"
+    },
+    "Point": {
+      "coordinates": "7.690700,47.461570,0"
+    }
+  },
+  {
+    "name": "CH-4425 Titterten (Nr. 508)",
+    "description": {
+      "__cdata": "- PASOL AG, Paul Schweizer, Untere Neumatt 14<br>- 1x Steckdose CEE rot 400V/16A (16A, 3-ph), 1x Steckdose CH Typ 15 (10A, 3-ph), 1x Steckdose CH Typ 13 (10A), FI / Stromkosten: gratis / Standort: von Mitte Dorf nach Westen durch die Bielgasse, dann erste Querstrasse rechts; Steckdosen an der Hauswand / Parken: gratis<br>- Essen: im Restaurant Sodhus (500 m)<br>- Interessant: Solaranlage (3 kW); Kapelle mit Kanzel aus dem 16. Jh.<br>Eintrag/Korrektur: 17-Mär-2000<br>Source: <a href=\"https://lemnet.org\" target=\"_blank\">lemnet.org</a>"
+    },
+    "Point": {
+      "coordinates": "7.715400,47.403590,0"
+    }
+  },
+  {
+    "name": "CH-4457 Diegten (Nr. 7842)",
+    "description": {
+      "__cdata": "- Jürg  Schnidrig, Rotacher 25 <br>- 1x Steckdose CEE blau 230V/16A (16A), 1x Steckdose CH Typ 13 (8A), Sicherungen nicht zugänglich / Freier Zugang / Stromkosten: kostenlos / Standort: Private Ladestation, Steckdosen sind an der Hauswand, 1 Parkplatz<br>- Hinweis: Dies ist ein privater Ladeplatz für Notfälle falls es mal nicht mehr zu einer offiziellen Ladestation reicht.<br>Eintrag/Korrektur: 26-Mär-2015<br>Aktiv gemeldet am: 24-Mär-2015<br>Source: <a href=\"https://lemnet.org\" target=\"_blank\">lemnet.org</a>"
+    },
+    "Point": {
+      "coordinates": "7.813291,47.411351,0"
+    }
+  },
+  {
+    "name": "CH-4563 Gerlafingen (Nr. 21569)",
+    "description": {
+      "__cdata": "- Familie Cramer, Friedhofstrasse 47<br>- 1x Steckdose CH Typ 13 (10A) / Freier Zugang / offen: 07:00 - 22:00 (bitte Ruhe in den Randstunden) / Stromkosten:  CHF 1.- pro Stunde laden &gt; passender Betrag in in Briefkasten Cramer legen / Standort: Bei erstem Eingang Kabel an Hauswand; bitte Fahrzeug so hinstellen, dass Durchfahrt und Zugang zum Fahrradunterstand gewährt sind; wenn der Parkplatz an der Hauswand frei ist, dann bitte diesen benützen. / Parken: kostenlos<br>- Essen: Diverse gute Restaurants in Gehdistanz<br>- Interessant: Gute Einkaufsmöglichkeiten nebenan: Migros, Coop, Denner, Spar (bis 22.00 abends! Getränkemarkt Rio, Post; grosses Freibad 10 Minuten zu Fuss; Fluss Emme (ca. 20min &gt; grosses Naherholungsgebiet!<br>Eintrag/Korrektur: 03-Jun-2016<br>Source: <a href=\"https://lemnet.org\" target=\"_blank\">lemnet.org</a>"
+    },
+    "Point": {
+      "coordinates": "7.574202,47.172946,0"
+    }
+  },
+  {
+    "name": "CH-4566 Kriegstetten (Nr. 827)",
+    "description": {
+      "__cdata": "- Romantik Hotel \"Sternen\", Jörg + Margrit Bohren-Vögtli, Hauptstr. 61, www.sternen.ch<br>- 1x Steckdose CH Typ 23 (16A) / Zugang: Siehe Hinweis / Rezeption / Stromkosten: gratis / Standort: beim Empfang melden<br>- Essen: im Restaurant<br>- Schlafen: Im Hotel<br>- Interessant: Hotel mit Park, alter Dorfkern, Kirche, Turm im Halten (Museum)<br>Eintrag/Korrektur: 24-Feb-2014<br>Aktiv gemeldet am: 21-Jul-2013<br>Source: <a href=\"https://lemnet.org\" target=\"_blank\">lemnet.org</a>"
+    },
+    "Point": {
+      "coordinates": "7.598130,47.174840,0"
+    }
+  },
+  {
+    "name": "CH-4632 Trimbach (Nr. 172)",
+    "description": {
+      "__cdata": "- Restaurant zur Eisenbahn, Fam. Flückiger, Hauensteinstr. 7<br>- 2x Steckdose CH Typ 13 (10A) / offen: Einschränkung am Donnerstag (Töff-Treff) / im Restaurant fragen / Stromkosten: gratis / Standort: oberhalb Trimbach an der Passstrasse zum Hauenstein; grosser Parkplatz; Steckdosen links neben dem Eingang; Verlängerungskabel empfehlenswert<br>- Essen: gutbürgerliche Küche<br>Eintrag/Korrektur: 23-Apr-2003<br>Source: <a href=\"https://lemnet.org\" target=\"_blank\">lemnet.org</a>"
+    },
+    "Point": {
+      "coordinates": "7.882810,47.367320,0"
+    }
+  },
+  {
+    "name": "CH-4710 Balsthal (Nr. 68136)",
+    "description": {
+      "__cdata": "- Oensingen Balsthal Bahn , Bahnhofplatz 1<br>- 4x Steckdose CH Typ 13 (10A) / Stromkosten: 2 CHF pro Ladung / Standort: Die Ladestation befindet sich bei der Fahrradabstellanlage direkt beim Bahnhof, nördlich der Bushaltestelle.<br>- Essen: Restaurant Bahnhof Balsthal <a href=\"https://hotel-bahnhof-balsthal.ch/\" target=\"_blank\">https://hotel-bahnhof-balsthal.ch/</a> , das Hotel Balsthal -https://www.hotelbalsthal.ch/\", die Eintracht Balsthal <a href=\"https://www.restaurant-eintracht-balsthal.ch/\" target=\"_blank\">https://www.restaurant-eintracht-balsthal.ch/</a><br>- Schlafen: Restaurant Bahnhof Balsthal <a href=\"https://hotel-bahnhof-balsthal.ch/\" target=\"_blank\">https://hotel-bahnhof-balsthal.ch/</a> , das Hotel Balsthal -https://www.hotelbalsthal.ch/\"<br>- Interessant: http://www.naturparkthal.ch/ <a href=\"http://www.naturparkthal.ch/\" target=\"_blank\">http://www.naturparkthal.ch/</a><br>- Hinweis:  Bei der Station handelt es sich um Ladeschliessfächer mit eingebauten Steckdosen. Der Kunde schliesst seinen Akku zusammen mit dem eigenen Ladegerät zum Laden im Schliessfach ein.<br>Eintrag/Korrektur: 05-Aug-2020<br>Source: <a href=\"https://lemnet.org\" target=\"_blank\">lemnet.org</a>"
+    },
+    "Point": {
+      "coordinates": "7.694583,47.313259,0"
+    }
+  },
+  {
+    "name": "CH-4950 Huttwil (Nr. 3431)",
+    "description": {
+      "__cdata": "- Biketec AG, Schwende 1, <a href=\"https://www.flyer-bikes.com/ch-de/startseite/\" target=\"_blank\">https://www.flyer-bikes.com/ch-de/startseite/</a><br>- 4x Steckdose CH Typ 13 (10A) / Freier Zugang / offen: Geschäftszeiten 8-12 und 13:30-17h (Sommer 2017) / Sich beim Empfang melden / Standort: Strasse Richtung Luzern; dunkles Gebäude mit \"Flyer\"-Logo.<br>- Interessant: Flyer-Ausstellung und Ausflüge mit E-Bike; Wohnmobil-Stellplatz.<br>- Hinweis: Es können max. 2 Fahrzeuge gleichzeitig geladen werden.<br>Eintrag/Korrektur: 27-Feb-2020<br>Source: <a href=\"https://lemnet.org\" target=\"_blank\">lemnet.org</a>"
+    },
+    "Point": {
+      "coordinates": "7.867219,47.116020,0"
+    }
+  },
+  {
+    "name": "CH-5504 Othmarsingen (Nr. 185)",
+    "description": {
+      "__cdata": "- Dubs Elektro, Daniel und Silvia Dubs, Bahnhofstr. 5, <a href=\"http://www.dubsag.ch\" target=\"_blank\">http://www.dubsag.ch</a><br>- 1x Steckdose CEE rot 400V/16A (16A, 3-ph), 1x Steckdose CEE blau 230V/16A (16A), 1x Steckdose CH Typ 25 (16A, 3-ph), FI / Stromkosten: gratis / Standort: Sockel neben der Strassenlampe<br>Eintrag/Korrektur: 04-Sep-2017<br>Source: <a href=\"https://lemnet.org\" target=\"_blank\">lemnet.org</a>"
+    },
+    "Point": {
+      "coordinates": "8.218000,47.404380,0"
+    }
+  },
+  {
+    "name": "CH-5630 Muri (Nr. 7332)",
+    "description": {
+      "__cdata": "- Fischer Söhne AG, 105 Luzernerstrasse , www.fischersoehne.ch<br>- 1x Steckdose CEE rot 400V/16A (16A, 3-ph), 1x Steckdose CH Typ 25 (16A, 3-ph) / Freier Zugang / Stromkosten: kostenlos / Standort: Steckdose links beim Besucherparkplatz<br>Eintrag/Korrektur: 27-Feb-2016<br>Aktiv gemeldet am: 31-Aug-2014<br>Source: <a href=\"https://lemnet.org\" target=\"_blank\">lemnet.org</a>"
+    },
+    "Point": {
+      "coordinates": "8.350178,47.265139,0"
+    }
+  },
+  {
+    "name": "CH-5706 Boniswil (Nr. 188)",
+    "description": {
+      "__cdata": "- Eichenberger Solartechnik AG / Sunel AG, Thomas Eichenberger, Seetalstr. 56, www.sunel.ch<br>- 1x Steckdose CH Typ 13 (10A) / Zeitbeschränkung: 4 h / Stromkosten: gratis / Standort: beim unteren Ende des Hallwilersees; Steckdose links vom Briefkasten<br>- Essen: Restaurant Seeblick (gegenüber)<br>- Interessant: Kleintierzoo, See, Solarladen<br>- Hinweis: Vertretung E-Mobile: City-EL u.a.<br>Eintrag/Korrektur: 10-Mär-2002<br>Aktiv gemeldet am: 27-Aug-2010<br>Source: <a href=\"https://lemnet.org\" target=\"_blank\">lemnet.org</a>"
+    },
+    "Point": {
+      "coordinates": "8.190356,47.309996,0"
+    }
+  },
+  {
+    "name": "CH-5742 Kölliken (Nr. 191)",
+    "description": {
+      "__cdata": "- Sunel AG, Safenwilerstr. 23, www.sunel.ch<br>- 1x Steckdose CH Typ 13 (10A) / Stromkosten: gratis / Standort: an der Gemeindegrenze Richtung Bern; Steckdose rechts von der Schaufensterfront / Parken: gratis<br>- Essen: Restaurant 500 m Richtung Dorf<br>- Interessant: Strohdachhäuser mit Museum (1 km Richtung Zürich)<br>- Hinweis: Vertretung E-Mobile (Showroom): City-EL, Volta, Microcar, Solo; Tel. <br>Eintrag/Korrektur: 10-Mär-2002<br>Aktiv gemeldet am: 24-Feb-2011<br>Source: <a href=\"https://lemnet.org\" target=\"_blank\">lemnet.org</a>"
+    },
+    "Point": {
+      "coordinates": "8.014030,47.324260,0"
+    }
+  },
+  {
+    "name": "CH-6003 Luzern (Nr. 39315)",
+    "description": {
+      "__cdata": "- Zwitscher-Bar, Franziskanerplatz, www.zwitscherbar.ch<br>- 3x Steckdose CH Typ 13 (10A, 1-ph) / Freier Zugang / offen: Mo.  - Fr.  / Stromkosten: Gratis<br>- Essen: Kaffee-Bar<br>Eintrag/Korrektur: 18-Okt-2018<br>Aktiv gemeldet am: 17-Okt-2018<br>Source: <a href=\"https://lemnet.org\" target=\"_blank\">lemnet.org</a>"
+    },
+    "Point": {
+      "coordinates": "8.302906,47.050053,0"
+    }
+  },
+  {
+    "name": "CH-6020 Emmen (Nr. 61868)",
+    "description": {
+      "__cdata": "- Veloplus, Oberhofstrasse 16, https://www.veloplus.ch/veloplus/laeden/laden_emmenbruecke.asp<br>- 3x Steckdose CH Typ 13 (10A, 1-ph) / Freier Zugang / Standort: Aussen am Haupteingang des Fahrradgeschäft Veloplus / Parken: Veloparkplätze vorhanden<br>- Hinweis: Für eBike FahrerInnen<br>Eintrag/Korrektur: 26-Apr-2020<br>Aktiv gemeldet am: 18-Apr-2020<br>Source: <a href=\"https://lemnet.org\" target=\"_blank\">lemnet.org</a>"
+    },
+    "Point": {
+      "coordinates": "8.284984,47.073828,0"
+    }
+  },
+  {
+    "name": "CH-6022 Grosswangen (Nr. 21562)",
+    "description": {
+      "__cdata": "- Rita &amp; Richard Brusa, Innerdorf 6<br>- 1x Steckdose CEE rot 400V/32A (32A, 3-ph), 1x Steckdose CEE blau 230V/16A (16A), 1x Steckdose CH Typ 23 (16A), Sicherung aussen zugänglich / Freier Zugang / Stromkosten: kostenlos / Parken: kostenlos<br>- Essen: Gasthaus Ochsen, Grosswangen - Fussdistanz 5 Min.<br>- Schlafen: Eigene Ferienwohnung / Zimmer im Haus: <a href=\"http://www.innerdorf.ch\" target=\"_blank\">http://www.innerdorf.ch</a><br>Eintrag/Korrektur: 11-Mär-2016<br>Source: <a href=\"https://lemnet.org\" target=\"_blank\">lemnet.org</a>"
+    },
+    "Point": {
+      "coordinates": "8.049894,47.140234,0"
+    }
+  },
+  {
+    "name": "CH-6222 Gunzwil (Nr. 3439)",
+    "description": {
+      "__cdata": "- Restaurant Chommle, Chommle 1, www.chommle.ch<br>- 3x Steckdose CH Typ 13 (10A), Sicherung nicht von aussen zugänglich / Stromkosten: kostenlos / Standort: beim Eingang des Restaurants. / Parken: kostenlos<br>- Essen: im Restaurant (siehe auch www.facebook.com/Chommle).<br>- Interessant: KKLB Landessender Beromünster (ehemaliger Mittelwellen-Sendeturm, 1.5 km östlich), Stiftskirche Beromünster (3 km nordöstlich).<br>- Hinweis: Gratis WLAN.<br>Eintrag/Korrektur: 08-Mär-2016<br>Aktiv gemeldet am: 26-Okt-2014<br>Source: <a href=\"https://lemnet.org\" target=\"_blank\">lemnet.org</a>"
+    },
+    "Point": {
+      "coordinates": "8.158207,47.192279,0"
+    }
+  },
+  {
+    "name": "CH-6433 Stoos SZ (Nr. 161959)",
+    "description": {
+      "__cdata": "- 2x EnergyBus (2kW) / Standort: Beim Hotel «Stoos Lodge»<br>- Essen: Hotel «Stoos Lodge»: <a href=\"https://stoos-lodge.ch/\" target=\"_blank\">https://stoos-lodge.ch/</a><br>- Schlafen: Hotel «Stoos Lodge»: <a href=\"https://stoos-lodge.ch/\" target=\"_blank\">https://stoos-lodge.ch/</a><br>Eintrag/Korrektur: 10-Jun-2025<br>Aktiv gemeldet am: 31-Mai-2025<br>Source: <a href=\"https://lemnet.org\" target=\"_blank\">lemnet.org</a>"
+    },
+    "Point": {
+      "coordinates": "8.666910,46.977550,0"
+    }
+  },
+  {
+    "name": "CH-6460 Altdorf (Nr. 54305)",
+    "description": {
+      "__cdata": "- EWA-energieUri, Klausenstrasse 4, <a href=\"http://www.energieuri.ch/\" target=\"_blank\">http://www.energieuri.ch/</a><br>- 1x Steckdose CEE blau 230V/16A (16A), 2x Steckdose CH Typ 13 (10A), 1x Steckdose CH Typ 23 (16A, 1-ph) / Freier Zugang / Stromkosten: Kostenlos / Parken: An Werktags muss eine Parkgebühr bezahlt werden, nachts und an Wochenenden ist das Parken kostenlos.<br>Eintrag/Korrektur: 04-Mär-2021<br>Source: <a href=\"https://lemnet.org\" target=\"_blank\">lemnet.org</a>"
+    },
+    "Point": {
+      "coordinates": "8.652136,46.874627,0"
+    }
+  },
+  {
+    "name": "CH-6780 Passo San Gottardo (Nr. 166279)",
+    "description": {
+      "__cdata": "- 4x EnergyBus (2kW) / Freier Zugang / Standort: Museo San Gottardo<br>- Schlafen:  <a href=\"https://www.passosangottardo.ch/\" target=\"_blank\">https://www.passosangottardo.ch/</a><br>Eintrag/Korrektur: 17-Jul-2025<br>Source: <a href=\"https://lemnet.org\" target=\"_blank\">lemnet.org</a>"
+    },
+    "Point": {
+      "coordinates": "8.566933,46.555308,0"
+    }
+  },
+  {
+    "name": "CH-7050 Arosa (Nr. 24713)",
+    "description": {
+      "__cdata": "- Hotel Arlenwald, Prätschlistrasse , <a href=\"http://www.arlenwaldhotel.ch/\" target=\"_blank\">http://www.arlenwaldhotel.ch/</a><br>- 2x Steckdose Typ2 (16A, 3-ph) / Freier Zugang / Stromkosten: Für Hotelgäste kostenlos / Parken: Kostenlos<br>- Essen: Hotel Arlenwald<br>- Hinweis: Für Hotel- oder Restaurantgäste ist das Laden kostenlos; 2 Stationen - eine für E-Bikes und die andere für E-Autos<br>Eintrag/Korrektur: 28-Dez-2016<br>Source: <a href=\"https://lemnet.org\" target=\"_blank\">lemnet.org</a>"
+    },
+    "Point": {
+      "coordinates": "9.674942,46.790100,0"
+    }
+  },
+  {
+    "name": "CH-7050 Arosa (Nr. 5537)",
+    "description": {
+      "__cdata": "- Blatter's Bellavista Hotel, Untere Waldpromenade, www.blatterbellavista.ch<br>- 1x Steckdose CH Typ 13 (10A), Sicherung nicht von aussen zugänglich / offen: 8-18 Uhr (Achtung: Saisonzeiten beachten, siehe Website) / bitte kurz vorher avisieren / Zeitbeschränkung: 6 Stunden / Stromkosten: kostenlos / Standort: sich beim Empfang melden / Parken: kostenlos<br>- Essen: verschiedene Restaurants<br>- Schlafen: im Hause<br>- Interessant: Photovoltaik-Anlage auf dem Dach; Bergkirchli (gebaut 1492), Langwieser Eisenbahn Viadukt<br>Eintrag/Korrektur: 04-Jul-2012<br>Source: <a href=\"https://lemnet.org\" target=\"_blank\">lemnet.org</a>"
+    },
+    "Point": {
+      "coordinates": "9.672818,46.777757,0"
+    }
+  },
+  {
+    "name": "CH-7050 Arosa (Nr. 31959)",
+    "description": {
+      "__cdata": "- Valsana Hotel &amp; Appartements, Oberseepromenade 2, <a href=\"http://www.valsana.ch\" target=\"_blank\">http://www.valsana.ch</a><br>- 4x Steckdose Typ2 (32A, 3-ph)<br>- Essen: Restaurant Twist für Après-Ski-Cocktails oder genussvollen Essen<br>- Schlafen: Hotel Valsana<br>- Hinweis: 2 x Tesla Destination-Charger (11-22kW) und für andere E-Fzg. 2 x AC-Ladestationen (11-22 kW), zusätzlich - E-Bike Schliessfächer mit Steckdosen<br>Eintrag/Korrektur: 16-Apr-2019<br>Source: <a href=\"https://lemnet.org\" target=\"_blank\">lemnet.org</a>"
+    },
+    "Point": {
+      "coordinates": "9.684314,46.783658,0"
+    }
+  },
+  {
+    "name": "CH-7107 Safien Platz (Nr. 1127)",
+    "description": {
+      "__cdata": "- Hunger-Toggweiler, Innerzalön 241<br>- 1x Steckdose CH Typ 13 (10A), FI / Stromkosten: gratis / Standort: von Safien Platz nach Zalön und Innerzalön; erster Bauernbetrieb / Parken: gratis<br>- Essen: Restaurant-Gasthaus Rathaus, Safien Platz<br>- Schlafen: Gasthaus Rathaus<br>Eintrag/Korrektur: 06-Mär-2002<br>Source: <a href=\"https://lemnet.org\" target=\"_blank\">lemnet.org</a>"
+    },
+    "Point": {
+      "coordinates": "9.314100,46.680980,0"
+    }
+  },
+  {
+    "name": "CH-7184 Curaglia (Nr. 106903)",
+    "description": {
+      "__cdata": "- Via Lucmagn 22<br>- 4x EnergyBus (2kW) / Standort: Parking Hotel Vallatsch<br>- Schlafen: Hotel Vallatsch <a href=\"https://www.vallatscha.com/\" target=\"_blank\">https://www.vallatscha.com/</a><br>Eintrag/Korrektur: 03-Aug-2023<br>Source: <a href=\"https://lemnet.org\" target=\"_blank\">lemnet.org</a>"
+    },
+    "Point": {
+      "coordinates": "8.857700,46.673440,0"
+    }
+  },
+  {
+    "name": "CH-7208 Malans (Nr. 2107)",
+    "description": {
+      "__cdata": "- Pierre-Yves Kalbfuss, Schermengasse 22<br>- 1x Steckdose CH Typ 13 (10A) / Zeitbeschränkung: nur zum laden / Stromkosten: kostenlos / Standort: Steckdose aussen am Haus bei der Kellertür / Parken: kostenlos<br>Eintrag/Korrektur: 29-Jan-2010<br>Source: <a href=\"https://lemnet.org\" target=\"_blank\">lemnet.org</a>"
+    },
+    "Point": {
+      "coordinates": "9.578801,46.982808,0"
+    }
+  },
+  {
+    "name": "CH-7240 Küblis (Nr. 5624)",
+    "description": {
+      "__cdata": "- Häxahuus, Luzi Kaminbau, Dalvazza 5, <a href=\"https://www.haexahuus.ch\" target=\"_blank\">https://www.haexahuus.ch</a><br>- 1x Steckdose CEE rot 400V/16A (16A, 3-ph), 1x Steckdose CH Typ 15 (10A, 3-ph), 1x Steckdose CH Typ 13 (10A) / Freier Zugang / offen: 24 h für Haushaltssteckdose T13; übrige Steckdosen während Bürozeit / Stromkosten: kostenlos / Standort: die 230V-Steckdose befindet sich am rechten Hauseck unter dem Schaufenster / Parken: kostenlos<br>- Essen:  <a href=\"https://www.kueblis.ch\" target=\"_blank\">https://www.kueblis.ch</a><br>- Schlafen:  <a href=\"https://www.kueblis.ch\" target=\"_blank\">https://www.kueblis.ch</a><br>- Interessant: siehe Prättigau Tourismus (<a href=\"https://www.praettigau.info\" target=\"_blank\">https://www.praettigau.info</a>) oder Davos Klosters (<a href=\"https://www.davos.ch\" target=\"_blank\">https://www.davos.ch</a>)<br>- Hinweis: Das Häxahuus hat die grösste Ofenauswahl in der Südostschweiz.<br>Eintrag/Korrektur: 09-Apr-2020<br>Source: <a href=\"https://lemnet.org\" target=\"_blank\">lemnet.org</a>"
+    },
+    "Point": {
+      "coordinates": "9.766197,46.913689,0"
+    }
+  },
+  {
+    "name": "CH-7550 Scuol (Nr. 129296)",
+    "description": {
+      "__cdata": "- Gasthaus Mayor, S'charl 563, <a href=\"https://gasthaus-mayor.ch/\" target=\"_blank\">https://gasthaus-mayor.ch/</a><br>- 4x EnergyBus (2kW), 4x Steckdose CH Typ 13 (10A) / Freier Zugang<br>- Essen:  <a href=\"https://gasthaus-mayor.ch/\" target=\"_blank\">https://gasthaus-mayor.ch/</a><br>- Schlafen:  <a href=\"https://gasthaus-mayor.ch/\" target=\"_blank\">https://gasthaus-mayor.ch/</a><br>Eintrag/Korrektur: 19-Jul-2024<br>Aktiv gemeldet am: 17-Jul-2024<br>Source: <a href=\"https://lemnet.org\" target=\"_blank\">lemnet.org</a>"
+    },
+    "Point": {
+      "coordinates": "10.333940,46.715569,0"
+    }
+  },
+  {
+    "name": "CH-8057 Zürich (Nr. 233)",
+    "description": {
+      "__cdata": "- Fahrradbau Stolz, Robert Stolz, Hofwiesenstr. 200, www.fahrradbaustolz.ch<br>- 1x Steckdose CH Typ 13 (10A) / offen: Geschäftszeiten, Di-Fr 9-18.30, Sa 9-15 Uhr / Stromkosten: gratis / Standort: an der Kreuzung Hofwiesenstrasse / Wehntalerstrasse; Steckdose beim Ladeneingang oder hinter dem Laden<br>- Essen: über die Strasse<br>- Interessant: Spaziergang auf den Käferberg<br>- Hinweis: Geschäft mit reichhaltigem Fahrrad-Zubehör-Angebot, exquisite Tourenräder<br>Eintrag/Korrektur: 03-Mär-2002<br>Source: <a href=\"https://lemnet.org\" target=\"_blank\">lemnet.org</a>"
+    },
+    "Point": {
+      "coordinates": "8.535700,47.402620,0"
+    }
+  },
+  {
+    "name": "CH-8102 Oberengstringen (Nr. 234)",
+    "description": {
+      "__cdata": "- Turn- und Sportanlage Brunewiis, Kirchweg 111<br>- 1x Steckdose CH Typ 13 (10A) / Zeitbeschränkung: 3 h / Stromkosten: gratis / Standort: Steckdose links von der Haustüre; 5 m Kabel notwendig<br>Eintrag/Korrektur: 27-Jul-2012<br>Aktiv gemeldet am: 16-Jul-2012<br>Source: <a href=\"https://lemnet.org\" target=\"_blank\">lemnet.org</a>"
+    },
+    "Point": {
+      "coordinates": "8.466880,47.406400,0"
+    }
+  },
+  {
+    "name": "CH-8126 Zumikon (Nr. 238)",
+    "description": {
+      "__cdata": "- Rudolf Stöckli, Küsnachterstr. 37 (Sonnenhofstr.)<br>- 1x Steckdose CH Typ 13 (10A) / Stromkosten: gratis / Standort: bei Haustreppe, 2 m nach Briefkasten<br>Eintrag/Korrektur: 05-Mär-2002<br>Source: <a href=\"https://lemnet.org\" target=\"_blank\">lemnet.org</a>"
+    },
+    "Point": {
+      "coordinates": "8.612120,47.330940,0"
+    }
+  },
+  {
+    "name": "CH-8142 Uitikon Waldegg (Nr. 243)",
+    "description": {
+      "__cdata": "- Landgasthof Leuen, Birmensdorferstr. 56, www.leuen.ch<br>- 3x Steckdose CH Typ 13 (10A) / Freier Zugang / Stromkosten: gratis / Standort: Hinter dem Gasthof ist ein Parkplatz. Drei Parkfelder haben jeweils eine Steckdose.<br>- Essen: Landgasthof Leuen<br>- Schlafen: Landgasthof Leuen<br>- Interessant: Wanderungen auf den Uetliberg.<br>Eintrag/Korrektur: 13-Dez-2013<br>Aktiv gemeldet am: 07-Mai-2013<br>Source: <a href=\"https://lemnet.org\" target=\"_blank\">lemnet.org</a>"
+    },
+    "Point": {
+      "coordinates": "8.459842,47.364000,0"
+    }
+  },
+  {
+    "name": "CH-8157 Dielsdorf (Nr. 245)",
+    "description": {
+      "__cdata": "- Jürg Nadig, Rebbergstr. 7<br>- 1x Steckdose CH Typ 13 (10A) / Stromkosten: gratis / Standort: starke Steigung (15 m) vor dem Haus; nur für kleine E-Mobile / Parken: gratis<br>- Interessant: Solarhaus<br>- Hinweis: Arzt<br>Eintrag/Korrektur: 05-Mär-2002<br>Source: <a href=\"https://lemnet.org\" target=\"_blank\">lemnet.org</a>"
+    },
+    "Point": {
+      "coordinates": "8.448380,47.483060,0"
+    }
+  },
+  {
+    "name": "CH-8180 Bülach (Nr. 2602)",
+    "description": {
+      "__cdata": "- go Solar GmbH, Lindenhofstr. 6, www.solarenergy-shop.ch<br>- 3x Steckdose CH Typ 13 (10A) / offen: Bürozeiten Mo-Fr 09:00-11:30, 13:30-16:30 Uhr / Stromkosten: kostenlos / Standort: im Büro nachfragen<br>- Schlafen: diverse Restaurants und Hotels in Bülach<br>- Interessant: go Solar GmbH zeigt Ihnen gerne die neuesten Photovoltaik und Lithium Batterie Technologien<br>Eintrag/Korrektur: 23-Sep-2017<br>Aktiv gemeldet am: 30-Jan-2013<br>Source: <a href=\"https://lemnet.org\" target=\"_blank\">lemnet.org</a>"
+    },
+    "Point": {
+      "coordinates": "8.539059,47.520360,0"
+    }
+  },
+  {
+    "name": "CH-8184 Bachenbülach (Nr. 8252)",
+    "description": {
+      "__cdata": "- GPM Präzisionsmechanik, Bitziberg 5<br>- 1x Steckdose CEE rot 400V/16A (16A, 3-ph), 1x Steckdose CH Typ 15 (10A, 3-ph), Sicherung von aussen nicht zugänglich, max. 20 A Gesamtstrom / Freier Zugang / Zeitbeschränkung: 3h / Stromkosten: kostenlos / Standort: Auf der Bitzibergstrasse erste Abfahrt links (Haus Nr.3) auf den grossen Parkplatz - Reservierter Platz \"RESERVED - electric charging station\". Die Typ15 ist hinten am Sockel.<br>- Essen: 500m Richtung Winkel, 2 Hotel&amp;Restaurant<br>- Interessant: 200m quer über die Feldstrasse zum \"Römerkastel\" in Winkel mit div. Grillplätzen, 500m zum Flugzeuglande-Aussichtspunkt<br>Eintrag/Korrektur: 29-Mär-2019<br>Aktiv gemeldet am: 29-Mär-2019<br>Source: <a href=\"https://lemnet.org\" target=\"_blank\">lemnet.org</a>"
+    },
+    "Point": {
+      "coordinates": "8.545027,47.498596,0"
+    }
+  },
+  {
+    "name": "CH-8192 Glattfelden (Nr. 23064)",
+    "description": {
+      "__cdata": "- von Ah Thomas, Ryffelweg 18<br>- 1x Steckdose CH Typ 13 (10A, 1-ph) / Freier Zugang / offen: verfühbar wenn wir zu Hause sind / Stromkosten: Gratis<br>- Hinweis: Anfahrt möglich<br>Eintrag/Korrektur: 09-Aug-2016<br>Aktiv gemeldet am: 09-Aug-2016<br>Source: <a href=\"https://lemnet.org\" target=\"_blank\">lemnet.org</a>"
+    },
+    "Point": {
+      "coordinates": "8.497190,47.557522,0"
+    }
+  },
+  {
+    "name": "CH-8201 Schaffhausen (Nr. 24441)",
+    "description": {
+      "__cdata": "- MOVE Mobility AG, Mühlenstrasse 19<br>- 7x Steckdose Typ2 (16A, 3-ph) / Zugang: ShellRecharge, MOVE / Standort: Besucherparkplatz des SH Power Kraftwerks, direkt an der Strasse gelegen (stadteinwärts).<br>- Essen: Pizza Hamburger Munot, Mühlenstrasse 50<br>- Interessant: Rheinfall, Staudamm und Rheinkraftwerk, nahe gelegene mittelalterliche Altstadt von Schaffhausen<br>- Hinweis: Auf der unteren Ebene gibt es ganz rechts einen Verteiler mit 6 T25 Dosen für E-Bikes. Die beiden Wallboxen links davon sind nur für Kraftwerkspersonal!<br>Eintrag/Korrektur: 02-Feb-2024<br>Aktiv gemeldet am: 14-Mai-2017<br>Source: <a href=\"https://lemnet.org\" target=\"_blank\">lemnet.org</a>"
+    },
+    "Point": {
+      "coordinates": "8.629518,47.693195,0"
+    }
+  },
+  {
+    "name": "CH-8303 Bassersdorf (Nr. 252)",
+    "description": {
+      "__cdata": "- Manu Strässle, Möslistr. 10<br>- 1x Steckdose CH Typ 13 (10A), FI / Stromkosten: gratis / Standort: oberhalb des Schulhauses Mösli, kleiner Parkplatz vor dem Haus, Steckdose beim Hauseingang / Parken: gratis<br>- Essen: falls jemand zu Hause ist, gibt es sicher einen Tee oder Kaffee, sonst findet man Restaurants im Dorfkern (800 m)<br>Eintrag/Korrektur: 30-Apr-2021<br>Aktiv gemeldet am: 05-Sep-2014<br>Source: <a href=\"https://lemnet.org\" target=\"_blank\">lemnet.org</a>"
+    },
+    "Point": {
+      "coordinates": "8.630090,47.446730,0"
+    }
+  },
+  {
+    "name": "CH-8340 Hinwil (Nr. 1123)",
+    "description": {
+      "__cdata": "- HASO's Velo &amp; Rehatech, Hans Sonderegger, Fabrikstr. 2<br>- 1x Steckdose CH Typ 13 (10A) / Standort: bei der Fabrikhalle (gegenüber dem Bahnhof auf der anderen Seite der Geleise)<br>- Interessant: Fachgeschäft für Liegeräder, Tandems, Dreirad-Fahrzeuge, E-Bikes, Rollstühle; Twike Service; Ortsmuseum (300 m); Wanderung auf den Bachtel (Aussichtspunkt); Jumbo-Markt (500 m)<br>Eintrag/Korrektur: 29-Mär-2001<br>Source: <a href=\"https://lemnet.org\" target=\"_blank\">lemnet.org</a>"
+    },
+    "Point": {
+      "coordinates": "8.838720,47.299650,0"
+    }
+  },
+  {
+    "name": "CH-8400 Winterthur (Nr. 7136)",
+    "description": {
+      "__cdata": "- Unternehmung Parkhäuser und Parkplätze der Stadtpolizei , Zeughausstrasse 68 , http://www.stapo.winterthur.ch/<br>- 4x Steckdose CEE rot 400V/16A (16A, 3-ph), 4x Steckdose CH Typ 25 (16A, 3-ph) / Freier Zugang / Stromkosten: kostenlos / Standort: Parkhaus Teuchelweiher, 4 reservierte Parkplätze für Elektromobile im 1. UG, unmittelbar vor der Ausfahrt / Parken: 07:00h bis 22:00h: ca. CHF 2, 00/h, 22:00h bis 07:00h CHF 0.50/h<br>- Hinweis: Die Parkplätze sind schräg zur Fahrtrichtung und für’s Vorwärtsparkieren ausgelegt. Rückwärts einparken ist mit grösseren Fahrzeugen etwas umständlich. Da die Ladeplätze nahe bei der Ausfahrt platziert sind, gibt es dort (im Gegensatz zum übrigen Bereich des Parkhauses) Mobilfunkempfang, was sehr praktisch ist für die Fernabfragen per Handy App.<br>Eintrag/Korrektur: 10-Sep-2015<br>Aktiv gemeldet am: 14-Feb-2015<br>Source: <a href=\"https://lemnet.org\" target=\"_blank\">lemnet.org</a>"
+    },
+    "Point": {
+      "coordinates": "8.732178,47.496249,0"
+    }
+  },
+  {
+    "name": "CH-8400 Winterthur (Nr. 856)",
+    "description": {
+      "__cdata": "- Druckerei Isler, Pflanzschulstr. 18<br>- 1x Steckdose CH Typ 13 (10A) / Freier Zugang / Wenn möglich Anwesenheitsdauer im Geschäft  melden (Parkplatz) / Stromkosten: kostenlos / Standort: Steckdose hinter dem Haus, 1 m über Boden; ca. 3 m Verlängerungskabel nötig<br>- Essen: Restaurant in weniger als 50 Meter Entfernung<br>- Interessant: Fotomuseum Winterthur, Grüzenstrasse 44 (zur nächsten Kreuzung; ca. 150 m entfernt; offen Di-Fr 12-18 Uhr, Sa u. So 11-17 Uhr, Tel. ); Hallenbad Geiselweid<br>- Hinweis: Klein-Druckerei für Bleisatz und Offset<br>Eintrag/Korrektur: 22-Feb-2016<br>Aktiv gemeldet am: 02-Sep-2015<br>Source: <a href=\"https://lemnet.org\" target=\"_blank\">lemnet.org</a>"
+    },
+    "Point": {
+      "coordinates": "8.740460,47.496530,0"
+    }
+  },
+  {
+    "name": "CH-8404 Winterthur (Nr. 261)",
+    "description": {
+      "__cdata": "- Micasa Grüzepark, Industriestr. 43<br>- 6x Steckdose CH Typ 13 (10A), 2x Steckdose CH Typ 23 (16A) / Freier Zugang / Stromkosten: gratis / Standort: Richtung Turbenthal und St. Gallen, neben Tankstelle; Steckdosen auf dem Kundenparkplatz bei den markierten E-Mobil-Parkplätzen / Parken: gratis<br>- Essen: Migros Take-Away<br>- Interessant: 15 kWp-Solaranlage; Bushaltestelle Ohrbühl (30 m)<br>- Hinweis: wenn kein Strom, beim Kundendienst melden<br>Eintrag/Korrektur: 21-Nov-2017<br>Aktiv gemeldet am: 21-Okt-2017<br>Source: <a href=\"https://lemnet.org\" target=\"_blank\">lemnet.org</a>"
+    },
+    "Point": {
+      "coordinates": "8.762004,47.498543,0"
+    }
+  },
+  {
+    "name": "CH-8450 Andelfingen (Nr. 1807)",
+    "description": {
+      "__cdata": "- Matthias Griesser, Altweg 13<br>- 1x Steckdose CEE blau 230V/16A (16A), 1x Steckdose CH Typ 25 (16A, 3-ph), FI / Stromkosten: kostenlos, wenn Grusskärtchen in Briefkasten / Standort: von Winterthur her im Oberdorf (vor dem Dorfkern) links in die Reitplatzstr., dann rechts in die Oberkahnenstr. und links in den Altweg<br>- Essen: Rest. Löwen, Schmiedstube oder Rest. Spätzlipfanne (die letzten beiden am Marktplatz, bei der grossen Kirche, zu Fuss ca. 10 Min.); unterwegs auch Bio-Laden Lindenmühle mit kleiner Beiz!<br>- Interessant: hinter dem Marktplatz historisches Schloss mit wunderschöner Parkanlage (Eintritt gratis)<br>- Hinweis: Solarstrom vom Hausdach: hinter dem Haus gibts eine PV-Anlage mit 4.3 kWp<br>Eintrag/Korrektur: 18-Aug-2016<br>Aktiv gemeldet am: 05-Jun-2015<br>Source: <a href=\"https://lemnet.org\" target=\"_blank\">lemnet.org</a>"
+    },
+    "Point": {
+      "coordinates": "8.673145,47.592416,0"
+    }
+  },
+  {
+    "name": "CH-8460 Marthalen (Nr. 268)",
+    "description": {
+      "__cdata": "- Griesser Elektro AG, Bärchistr. 4, <a href=\"http://www.moeckli-elektrofahrzeuge.ch\" target=\"_blank\">http://www.moeckli-elektrofahrzeuge.ch</a><br>- 3x Steckdose CH Typ 23 (16A), FI / Stromkosten: gratis / Standort: Gewerbe Seeben, 300 m nördlich des Bahnhofes Richtung Autobahn A4; Steckdosen gegenüber dem Haupteingang auf dem Parkplatz / Parken: gratis<br>- Essen: 2 Restaurants beim Bahnhof<br>- Interessant: typisches Dorf im Weinland mit Fachwerkhäusern, Leichtwindanlage 6, 4 kW auf dem Landiturm, Biogasanlage Sonnenhof 100 kW<br>- Hinweis: Die Genossenschaft Genosol verkauft Naturstrom zum Aufpreis 14 Rp./kWh, welcher aus dem öffentl. Netz an jedem Ort der Schweiz bezogen werden kann. Gratis-Aufkleber \"Naturstrom aus Wind, Sonne und Biogas\" für die Heckscheibe bei www.genosol.ch erhältlich.<br>Eintrag/Korrektur: 11-Jul-2016<br>Aktiv gemeldet am: 08-Jul-2016<br>Source: <a href=\"https://lemnet.org\" target=\"_blank\">lemnet.org</a>"
+    },
+    "Point": {
+      "coordinates": "8.660020,47.635020,0"
+    }
+  },
+  {
+    "name": "CH-8472 Seuzach (Nr. 269)",
+    "description": {
+      "__cdata": "- Andreas Dreisiebner, Bahnwärterhaus, <a href=\"http://www.a777.ch\" target=\"_blank\">http://www.a777.ch</a><br>- 1x Steckdose CEE blau 230V/16A (16A), 1x Steckdose CH Typ 13 (10A), FI / Stromkosten: gratis / Standort: an Bahnlinie, Auf der Höhe der Bushaltestelle Hanfland zur Bahnlinie abbiegen Steckdose für T 13 beim Velounterstand, für CEE 230V/16A(1x16A) direkt an der Hauswand beim Parkplatz unterhalb des Elektrokastens.<br>- Interessant: Der Entenweiher in der Nähe lädt ein zum Verweilen.<br>- Hinweis: Falls nicht selbst unterwegs benötigt, hängt an der blauen CEE ein  CHARGE AMPS Adapterkabel auf Typ1<br>Eintrag/Korrektur: 05-Apr-2016<br>Aktiv gemeldet am: 29-Mär-2016<br>Source: <a href=\"https://lemnet.org\" target=\"_blank\">lemnet.org</a>"
+    },
+    "Point": {
+      "coordinates": "8.741118,47.544094,0"
+    }
+  },
+  {
+    "name": "CH-8494 Bauma (Nr. 271)",
+    "description": {
+      "__cdata": "- Daniel Zürcher, Dorfstr. 42<br>- 1x Steckdose CH Typ 13 (10A) / Stromkosten: gratis / Standort: hinter Apotheke Trümpy; Steckdose beim gedeckten Parkplatz 4 und 5 (während den Geschäftszeiten belegt; Strombezug trotzdem möglich: bitte in meiner Zahnarztpraxis nebenan melden oder vorher Tel. ) / Parken: gratis<br>- Schlafen: Einfache Übernachtungsgelegenheit für E-Mobilisten bei uns zu Hause im nahegelegenen Weiler (gratis, Minergie-Haus)<br>- Interessant: 2-3 stündige wildromantische Guyer-Zeller Wanderwege; Lehrpfad zu industrieller Wasserkraftnutzung im Tösstal<br>Eintrag/Korrektur: 05-Jun-2001<br>Source: <a href=\"https://lemnet.org\" target=\"_blank\">lemnet.org</a>"
+    },
+    "Point": {
+      "coordinates": "8.879330,47.367330,0"
+    }
+  },
+  {
+    "name": "CH-8575 Bürglen (Nr. 101669)",
+    "description": {
+      "__cdata": "- Ben&amp;Jane Ice, Bädlistr. 4e, <a href=\"https://benandjaneice.jimdosite.com/\" target=\"_blank\">https://benandjaneice.jimdosite.com/</a><br>- 3x Steckdose CH Typ 13 (10A) / Freier Zugang / Stromkosten: kostenlos / Parken: kostenlos<br>- Hinweis: Direkt am Glace-Hüsli Ben&amp;Jane Ice in Bürglen/TG. Nur Für E-Bike. Keine Elektro-Autos.<br>Eintrag/Korrektur: 19-Mai-2023<br>Aktiv gemeldet am: 19-Mai-2023<br>Source: <a href=\"https://lemnet.org\" target=\"_blank\">lemnet.org</a>"
+    },
+    "Point": {
+      "coordinates": "9.159516,47.544778,0"
+    }
+  },
+  {
+    "name": "CH-8634 Hombrechtikon (Nr. 68491)",
+    "description": {
+      "__cdata": "- Peter  Märki , Zelglistrasse 49<br>- 1x Steckdose CH Typ 13 (10A), 10A alle zusammen, Sicherung im Haus, nicht zugänglich / Freier Zugang / Standort: Zufahrt über Zelglistrasse, bei Rutschbahn. Ebikes dürfen während der Ladedauer auf dem Gartensitzplatz stehen.<br>- Essen:  <a href=\"http://www.luetzelsee.ch/badanstalt\" target=\"_blank\">http://www.luetzelsee.ch/badanstalt</a><br>- Interessant: Ein Spaziergang um den Lützelsee dauert ca. 45 Minuten. <a href=\"http://www.luetzelsee.ch\" target=\"_blank\">http://www.luetzelsee.ch</a><br>- Hinweis: EKZ Naturstrom star und ab eigener Solaranlage Nur EBikes (nichts Grösseres!), da Wohnsiedlung, Privatgarten, Zufahrt mit maximal Schritt-Tempo, Fahrverbot.<br>Eintrag/Korrektur: 19-Aug-2020<br>Source: <a href=\"https://lemnet.org\" target=\"_blank\">lemnet.org</a>"
+    },
+    "Point": {
+      "coordinates": "8.771449,47.255296,0"
+    }
+  },
+  {
+    "name": "CH-8640 Rapperswil (Nr. 9204)",
+    "description": {
+      "__cdata": "- EWJR, Zürcherstrasse 4, <a href=\"http://www.ewjr.ch\" target=\"_blank\">http://www.ewjr.ch</a><br>- 1x Steckdose CEE rot 400V/16A (16A, 3-ph), 1x Steckdose CEE blau 230V/16A (16A), 1x Steckdose CH Typ 13 (10A), Jede Steckdose ist mit einem separaten FI/LS ausgerüstet und in der Ladestation integriert. / Freier Zugang / Stromkosten: kostenlos / Standort: Parkhaus Sonnenhof, im Parkhaus sind Wegweiser montiert, welche zur Ladestation führen. Die gesamte Station ist mit 25A abgesichert. / Parken: CHF 1.00 / 1 Stunde<br>- Essen: Einkaufszentrum<br>Eintrag/Korrektur: 13-Jan-2017<br>Aktiv gemeldet am: 09-Jan-2017<br>Source: <a href=\"https://lemnet.org\" target=\"_blank\">lemnet.org</a>"
+    },
+    "Point": {
+      "coordinates": "8.820840,47.229180,0"
+    }
+  },
+  {
+    "name": "CH-8700 Küsnacht ZH (Nr. 286)",
+    "description": {
+      "__cdata": "- LEC Leutenegger Energy Control, Stephan Leutenegger, Werkstr. 3, www.lec.ch<br>- 1x Steckdose CH Typ 13 (10A) / Stromkosten: gratis / Standort: 200 m oberhalb des Bahnhofs in der Nähe des Dorfplatzes; Steckdose rechts hinten am Haus bei der Kellertür; 10 m Verlängerungskabel vorhanden / Parken: gratis<br>- Essen: mehrere Restaurants<br>- Schlafen: Hotel Ochsen (50 m, beim Dorfplatz)<br>- Interessant: Dorfmuseum, \"Höch Huus\" (Ausstellungen, Bibliothek, Lesesaal), Fitness-Center, Einkaufsmöglichkeiten<br>- Hinweis: Spezialist für Solarenergie, Energiesparkonzepte, Mess- und Regeltechnik<br>Eintrag/Korrektur: 06-Sep-2015<br>Source: <a href=\"https://lemnet.org\" target=\"_blank\">lemnet.org</a>"
+    },
+    "Point": {
+      "coordinates": "8.583220,47.318080,0"
+    }
+  },
+  {
+    "name": "CH-8716 Schmerikon (Nr. 5188)",
+    "description": {
+      "__cdata": "- Hafenanlage Ortsgemeinde, Aabachstr., www.ortsgemeinde-schmerikon.ch<br>- 2x Steckdose CEE rot 400V/32A (32A, 3-ph), 2x Steckdose CH Typ 23 (10A, 1-ph), Sicherung für den Benutzer zugänglich / Stromkosten: kostenlos / Parken: 1 Fr. pro Std., maximal 5 Fr.<br>- Essen: Strandhotel Schmerikon<br>- Schlafen: Strandhotel<br>- Interessant: attraktive Seeanlage<br>- Hinweis: Anschluss 1 funktioniert, bei A2 löst permanent die Sicherung oder den FI aus und ist nicht nutzbar. Alternative zudem vier CEE16-Dosen am gleichen Standort, 10 m entfernt. Verbrenner können bezeichnete EV-Parkplätze belegen!<br>Eintrag/Korrektur: 23-Sep-2017<br>Source: <a href=\"https://lemnet.org\" target=\"_blank\">lemnet.org</a>"
+    },
+    "Point": {
+      "coordinates": "8.947581,47.224038,0"
+    }
+  },
+  {
+    "name": "CH-8872 Weesen (Nr. 159860)",
+    "description": {
+      "__cdata": "- Lago Mio, Betliserstrasse 35, <a href=\"https://lago-mio.ch/\" target=\"_blank\">https://lago-mio.ch/</a><br>- 4x EnergyBus (2kW) / Freier Zugang / Standort: Rückseite Beiz «Lago Mio»<br>- Essen: Beiz «Lago Mio»: <a href=\"https://lago-mio.ch/\" target=\"_blank\">https://lago-mio.ch/</a><br>- Hinweis: Beachten: Walensee-Schiffe transportieren ab Quinten keine Velos!<br>Eintrag/Korrektur: 03-Mai-2025<br>Source: <a href=\"https://lemnet.org\" target=\"_blank\">lemnet.org</a>"
+    },
+    "Point": {
+      "coordinates": "9.120047,47.139510,0"
+    }
+  },
+  {
+    "name": "CH-8902 Urdorf (Nr. 304)",
+    "description": {
+      "__cdata": "- Bahnhof SBB, Stationsstr. 43, www.sbb.ch<br>- 2x Steckdose CH Typ 13 (10A), FI / Stromkosten: gratis / Standort: bei der bestehenden Parkuhr / Parken: gebührenpflichtig<br>Eintrag/Korrektur: 27-Nov-2013<br>Source: <a href=\"https://lemnet.org\" target=\"_blank\">lemnet.org</a>"
+    },
+    "Point": {
+      "coordinates": "8.435770,47.391120,0"
+    }
+  },
+  {
+    "name": "CH-8911 Rifferswil (Nr. 305)",
+    "description": {
+      "__cdata": "- Hans Bircher, Schonau<br>- 1x Steckdose CH Typ 13 (10A) / Stromkosten: gratis<br>- Interessant: Ausflug ins Seleger Moor (Rhododendren; offen Mai-Juni)<br>Eintrag/Korrektur: 18-Apr-2002<br>Source: <a href=\"https://lemnet.org\" target=\"_blank\">lemnet.org</a>"
+    },
+    "Point": {
+      "coordinates": "8.509995,47.252844,0"
+    }
+  },
+  {
+    "name": "CH-8952 Schlieren (Nr. 6686)",
+    "description": {
+      "__cdata": "- Lilie Shoppingpoint, Uitikonerstrasse 9, <a href=\"http://www.lilie-schlieren.ch\" target=\"_blank\">http://www.lilie-schlieren.ch</a><br>- 2x Steckdose CEE rot 400V/16A (16A, 3-ph), 2x Steckdose CEE blau 230V/16A (16A), 2x Steckdose CH Typ 13 (10A) / Freier Zugang / offen: Mo- Fr  Uhr, Sa  Uhr / Stromkosten: kostenlos / Standort: Tiefgarage, 2. UG, Einfahrt in das Parkhaus gemäss Koordinaten, dann in das unterste Parkdeck fahren. Parkplätze sind ganz am Ende und angeschrieben. / Parken: kostenfrei für die ersten 30 Minuten. Danach CHF 1.50/h.<br>- Interessant: Stadt Zürich - erreichbar per Zug vom Bahnhof Schlieren (400m) innert 8 Minuten.<br>Eintrag/Korrektur: 23-Aug-2016<br>Aktiv gemeldet am: 22-Aug-2016<br>Source: <a href=\"https://lemnet.org\" target=\"_blank\">lemnet.org</a>"
+    },
+    "Point": {
+      "coordinates": "8.448115,47.396903,0"
+    }
+  },
+  {
+    "name": "CH-8957 Spreitenbach (Nr. 4565)",
+    "description": {
+      "__cdata": "- Stromtankstelle, Shoppi Tivoli Spreitenbach, Landstrasse, www.shoppitivoli.ch<br>- 6x Steckdose CEE blau 230V/16A (16A), 6x Steckdose CH Typ 13 (10A) / Freier Zugang / offen: 6-22 Uhr (wie Parkhaus-Öffnungszeiten) / Stromkosten: kostenlos / Standort: Tivoli Parkhaus, Ebene P1, beim Eingang zu den Ladengeschäften (siehe Wegweiser). Zufahrt in P1 nur aus der Landstraße möglich! / Parken: Parkgebühr (siehe Tarif auf www.shoppitivoli.ch); 5 Elektrofahrzeug-Parkplätze, davon 3 nur für kurze Fahrzeuge<br>- Essen: Restaurant im Shoppi Tivoli<br>- Schlafen: Hotel Arte Spreitenbach<br>- Interessant: Shoppi Tivoli Einkaufscenter<br>Eintrag/Korrektur: 16-Sep-2020<br>Source: <a href=\"https://lemnet.org\" target=\"_blank\">lemnet.org</a>"
+    },
+    "Point": {
+      "coordinates": "8.368610,47.423231,0"
+    }
+  },
+  {
+    "name": "CH-9000 St. Gallen (Nr. 3381)",
+    "description": {
+      "__cdata": "- COOP City St.Gallen, Bohl 6<br>- 1x Steckdose CH Typ 25 (10A, 3-ph), 2x Steckdose CH Typ 13 (10A) / Freier Zugang / Stromkosten: kostenlos / Standort: an der Ostseite vom Coop City. / Parken: kostenlos<br>- Hinweis: Standort nur für 2-Rad-Fahrzeuge.<br>Eintrag/Korrektur: 28-Apr-2017<br>Source: <a href=\"https://lemnet.org\" target=\"_blank\">lemnet.org</a>"
+    },
+    "Point": {
+      "coordinates": "9.377089,47.426389,0"
+    }
+  },
+  {
+    "name": "CH-9000 St. Gallen (Nr. 4666)",
+    "description": {
+      "__cdata": "- Gebäude Union / Migros, Oberer Graben 3, www.sgsw.ch<br>- 1x Steckdose CH Typ 25 (16A, 3-ph), 2x Steckdose CH Typ 23 (16A), Sicherung (vermutlich 3x16A) zugänglich / Freier Zugang / Stromkosten: kostenlos / Standort: Steckdosenverteiler nähe Parkplatz, hinter Migros / Parken: kostenlos<br>- Essen: verschiedene Restaurants und Imbisse<br>- Schlafen: verschiedene Hotels<br>- Hinweis: Standort nur für 2-Rad-Fahrzeuge. Platzverhältnisse lassen auch kleine 3-Radfahrzeuge zu.<br>Eintrag/Korrektur: 23-Sep-2017<br>Aktiv gemeldet am: 30-Apr-2013<br>Source: <a href=\"https://lemnet.org\" target=\"_blank\">lemnet.org</a>"
+    },
+    "Point": {
+      "coordinates": "9.374726,47.425697,0"
+    }
+  },
+  {
+    "name": "CH-9014 St. Gallen (Nr. 3173)",
+    "description": {
+      "__cdata": "- EMPA Eidg. Materialprüfungs- und Forschungsanstalt, Lerchenfeldstr. 5, www.empa.ch<br>- 8x Steckdose CH Typ 23 (16A) / Freier Zugang / Stromkosten: kostenlos (Solarstrom) / Standort: Am Ende des Fahrradständers: auf Lenkerhöhe. / Parken: kostenlos<br>- Hinweis: Standort nur für 2-Rad-Fahrzeuge. Platzverhältnisse lassen auch kleine Dreiradfahrzeuge zu.<br>Eintrag/Korrektur: 30-Apr-2013<br>Aktiv gemeldet am: 28-Apr-2013<br>Source: <a href=\"https://lemnet.org\" target=\"_blank\">lemnet.org</a>"
+    },
+    "Point": {
+      "coordinates": "9.340758,47.412703,0"
+    }
+  },
+  {
+    "name": "CH-9050 Appenzell (Nr. 821)",
+    "description": {
+      "__cdata": "- Romantik Hotel \"Säntis\", Fam. Heeb, Landsgemeindeplatz, www.saentis-appenzell.ch<br>- 1x Steckdose CH Typ 13 (10A) / Stromkosten: gratis / Standort: beim Empfang melden; Steckdose bei den Besucherparkplätzen im Hof an der Hauswand<br>- Essen: im Restaurant \"Säntis\"<br>- Interessant: Dorf Appenzell; Museum Appenzell (Hauptgasse 4, 250m in östlicher Richtung)<br>Eintrag/Korrektur: 07-Jul-2015<br>Aktiv gemeldet am: 01-Jul-2015<br>Source: <a href=\"https://lemnet.org\" target=\"_blank\">lemnet.org</a>"
+    },
+    "Point": {
+      "coordinates": "9.407698,47.331988,0"
+    }
+  },
+  {
+    "name": "CH-9215 Schönenberg TG (Nr. 313)",
+    "description": {
+      "__cdata": "- Paul Stahlberg, Weitenaustr. 11<br>- 1x Steckdose CH Typ 13 (10A) / Stromkosten: gratis / Standort: Auf der Nordseite, neben der Türe unter dem Vordach / Parken: gratis<br>- Interessant: Seminare Bewegung, Entspannung, Ernährung, Persönlichkeit, Rudern für Gruppen auf dem Bodensee<br>Eintrag/Korrektur: 06-Mär-2002<br>Source: <a href=\"https://lemnet.org\" target=\"_blank\">lemnet.org</a>"
+    },
+    "Point": {
+      "coordinates": "9.196590,47.523170,0"
+    }
+  },
+  {
+    "name": "CH-9442 Berneck (Nr. 5735)",
+    "description": {
+      "__cdata": "- Hch. Eggenberger AG, Kirchgass 26, www.volvo-eggenberger.ch<br>- 1x Steckdose CEE blau 230V/16A (16A), 1x Steckdose CH Typ 23 (16A), Sicherung nicht von aussen zugänglich / Zeitbeschränkung: 8 h / Stromkosten: gratis / Standort: bei der Tankstelle aussen am Hauptgebäude / Parken: gratis<br>- Essen: div. Restaurants<br>Eintrag/Korrektur: 23-Aug-2012<br>Source: <a href=\"https://lemnet.org\" target=\"_blank\">lemnet.org</a>"
+    },
+    "Point": {
+      "coordinates": "9.614925,47.423703,0"
+    }
+  },
+  {
+    "name": "CH-9512 Rossrüti (Nr. 556)",
+    "description": {
+      "__cdata": "- Roland und Maria König, Oberdorfstr. 20A<br>- 1x Steckdose CH Typ 15 (10A, 3-ph) / Stromkosten: gratis / Standort: an der Aussenmauer beim Kellerabgang / Parken: gratis<br>- Essen: Kaffee auf Anfrage<br>Eintrag/Korrektur: 14-Sep-2010<br>Source: <a href=\"https://lemnet.org\" target=\"_blank\">lemnet.org</a>"
+    },
+    "Point": {
+      "coordinates": "9.058549,47.474806,0"
+    }
+  }
+]

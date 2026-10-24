@@ -288,6 +288,8 @@ console.log(list.length + ' stations (' + before + ' before), ' + bad.length + '
 
 It must show `0 malformed` and a count within 10% of the previous one (1,339 before and 1,411 after the October 2026 refresh). If it doesn't, don't move the file into place. If the real file was already overwritten, run `git restore public/data/other/chargingstations/chargingstations.json`, then stop and tell the user. Step 6 never touches this file.
 
+`public/data/other/chargingstations/ebike-sockets.json` sits in the same folder but is hand-made (free e-bike sockets taken from the LEMNET GPX). Leave it alone: this step replaces only `chargingstations.json`, and step 6 never touches the folder. The site loads both files as one layer.
+
 ## Step 6: Delete files of places that disappeared
 
 **Only run this step when steps 1–3 all finished cleanly and step 4 is clean.**
