@@ -201,6 +201,13 @@ const OSM_SECTIONS = [
         "water_drop",
       ),
       osmPlace("explore", "spring", "Springs", "Spring", "water"),
+      osmPlace(
+        "explore",
+        "waterpoint",
+        "Water points",
+        "Water point",
+        "faucet",
+      ),
     ],
   },
   {
@@ -249,6 +256,7 @@ const OSM_SECTIONS = [
         "local_fire_department",
       ),
       osmPlace("explore", "toilets", "Toilets", "Toilet", "wc"),
+      osmPlace("explore", "shower", "Showers", "Shower", "shower"),
     ],
   },
   {
@@ -277,27 +285,6 @@ const OSM_SECTIONS = [
         "Bathing place",
         "beach_access",
       ),
-      osmPlace("explore", "hotspring", "Hot springs", "Hot spring", "hot_tub"),
-    ],
-  },
-  {
-    name: "Camper services",
-    places: [
-      osmPlace(
-        "explore",
-        "dumpstation",
-        "Dump stations",
-        "Dump station",
-        "delete",
-      ),
-      osmPlace(
-        "explore",
-        "waterpoint",
-        "Water points",
-        "Water point",
-        "faucet",
-      ),
-      osmPlace("explore", "shower", "Showers", "Shower", "shower"),
     ],
   },
 ];
