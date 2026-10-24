@@ -46,6 +46,7 @@ The downloaders convert SchweizMobil's Swiss grid coordinates (LV03) to latitude
 | `route-downloader.js`         | SchweizMobil routes for hiking, cycling and mountain biking at all 3 levels. There is no id list for routes, so it tries every number from 1 to 9 (national), 1 to 99 (regional) and 1 to 999 (local). That is about 3,300 requests made one after another | `hiking/`, `cycling/`, `mountainbiking/` |
 | `other-downloader.js`         | SchweizMobil bike service shops and sightseeing                                                                                                                                                                                                            | `other/serviceshop`, `other/sightseeing` |
 | `accommodation-downloader.js` | SchweizMobil campsites, backpackers, sleeping in straw, farm stays and mountain huts; My Switzerland hostels, B&Bs, group houses and campsites                                                                                                             | `accommodation/*`                        |
+| `cleanup.js`                  | Nothing. It deletes every file in `public/data/` that no `ids/` list refers to, favorites included. It leaves charging stations alone, and any folder with an empty list                                                                                   | —                                        |
 | `ids-generator.js`            | Nothing. It reads every `ids/` file, removes duplicates and writes `public/ids.js`. It fails if any of the 21 lists is missing                                                                                                                             | —                                        |
 
 The three downloaders are independent of each other. Inside `accommodation-downloader.js` the order matters: the campsite list combines two sources. The SchweizMobil step writes the list first, and the My Switzerland step right after it adds its own ids.
@@ -58,6 +59,7 @@ Requires Node 18 or newer (the scripts use the built-in `fetch`). Run everything
 node bin/route-downloader.js            # slow: ~3,300 requests
 node bin/other-downloader.js
 node bin/accommodation-downloader.js
+node bin/cleanup.js                     # deletes files of places that disappeared or got new ids
 ```
 
 - Charging stations: follow the steps in [README.md](README.md#generation) and replace `public/data/other/chargingstations/chargingstations.json`. That layer has no `ids/` file.
@@ -76,7 +78,3 @@ node bin/accommodation-downloader.js
 - If a request still fails, the script stops before it writes that layer's `ids/` file, so an id list is never replaced by an empty or partial one. An empty id list from SchweizMobil stops it too.
 - A route number that doesn't exist is not a failure: SchweizMobil answers it with an empty result.
 - The scripts exit with code 0 even when they stop on an error, so read the output. Rerunning the script is safe.
-
-## Known gaps
-
-- The downloaders never delete files. Places that disappear or get new ids leave old files in `public/data/`, which are deployed but never loaded. To clean up, delete the files whose id is not in the matching `ids/` list.
