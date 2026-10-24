@@ -4,16 +4,10 @@ function hashCode(text) {
   let result = 0
 
   for (let i = 0; i < text.length; i++) {
-    result = (result << 5) - result + text.charCodeAt(i++) | 0
+    result = (result << 5) - result + text.charCodeAt(i) | 0
   }
 
-  result = Math.abs(result % 10000)
-
-  while (result < 1000) {
-    result = Math.abs((result * 2) % 10000)
-  }
-
-  return result
+  return 100000000 + Math.abs(result % 900000000)
 }
 
 async function getPois() {
@@ -102,7 +96,8 @@ async function downloadFile(name, id, filePath, isPoint) {
     const features = json.features
 
     if (features.length > 1) {
-      throw new Error(`MORE THAN ONE FEATURE: ${url}`)
+      console.log(`MORE THAN ONE FEATURE: ${url}`)
+      return
     }
 
     if (features.length === 1) {
@@ -155,6 +150,7 @@ async function downloadFile(name, id, filePath, isPoint) {
     }
   } catch (e) {
     console.log(`Error downloading file: ${url}\n${e.toString()}`)
+    throw e
   }
 }
 
@@ -162,10 +158,25 @@ function sanitize(value) {
   return value ? value.trim() : value
 }
 
-async function getFile(url) {
-  const response = await fetch(url)
+async function getFile(url, attempts = 3) {
+  try {
+    const response = await fetch(url)
 
-  return response.json()
+    if (!response.ok) {
+      throw new Error(`HTTP ${response.status}`)
+    }
+
+    return await response.json()
+  } catch (e) {
+    if (attempts <= 1) {
+      throw e
+    }
+
+    console.log(`Retrying: ${url}\n${e.toString()}`)
+    await new Promise((resolve) => setTimeout(resolve, 2000))
+
+    return getFile(url, attempts - 1)
+  }
 }
 
 function writeFile(filePath, json) {
@@ -227,6 +238,11 @@ async function getIds(type) {
     }
   } catch (e) {
     console.log(`Error getting ids: ${url}\n${e.toString()}`)
+    throw e
+  }
+
+  if (result.length === 0) {
+    throw new Error(`NO IDS FOUND: ${url}`)
   }
 
   result.sort((a, b) => a - b)
@@ -274,10 +290,17 @@ async function downloadMountainHike(group, folder, type) {
 
 async function downloadPois(group, folder, category, append) {
   const pois = await getPoisByCategory(category)
+  const idsFilePath = `ids/${group}/${folder}.json`
+  const originalIds = append ? JSON.parse(fs.readFileSync(idsFilePath, 'utf-8')) : []
   const ids = []
 
   for (const poi of pois) {
     const id = hashCode(poi.id)
+
+    if (ids.includes(id) || originalIds.includes(id)) {
+      throw new Error(`DUPLICATED ID ${id}: ${poi.id}`)
+    }
+
     ids.push(id)
 
     const json = {
@@ -300,14 +323,7 @@ async function downloadPois(group, folder, category, append) {
     writeFile(filePath, json)
   }
 
-  const idsFilePath = `ids/${group}/${folder}.json`
-
-  if (append) {
-    const file = fs.readFileSync(idsFilePath, 'utf-8')
-    const originalIds = JSON.parse(file)
-    ids.push(...originalIds)
-  }
-
+  ids.push(...originalIds)
   writeFile(idsFilePath, ids)
 }
 
