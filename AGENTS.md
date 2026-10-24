@@ -8,7 +8,7 @@ Swiss Routes is a static map site. Firebase Hosting serves only `public/`. All m
 | :----------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | SchweizMobil (Switzerland Mobility)  | Hiking, cycling and mountain-bike routes (national, regional, local), sightseeing, bike service shops, campsites, backpackers, farm stays, sleeping in straw, mountain huts | `data.schweizmobil.ch/poi-clusters-prod/21781/clustered_<Type>.geojson` lists the ids of a point layer. `map.schweizmobil.ch/api/4/query/featuresmultilayers?...&<Layer>=<id>` returns one feature in full |
 | My Switzerland (Switzerland Tourism) | Hostels, B&Bs, group houses, campsites                                                                                                                                      | `myswitzerland.com/api/maps/GetPointsOfInterests/...` returns every POI, filtered locally by category id                                                                                                   |
-| Bike Energy (Google My Maps)         | E-bike charging stations                                                                                                                                                    | Manual export, see [README.md](README.md#generation)                                                                                                                                                       |
+| Bike Energy (Google My Maps)         | E-bike charging stations                                                                                                                                                    | KML export, see step 5 of `.claude/skills/update-data/SKILL.md`                                                                                                                                            |
 | Hand-made                            | Favorites lists, and sightseeing entries with ids 10001 and up                                                                                                              | Edited by hand, no script                                                                                                                                                                                  |
 
 ## Folders
@@ -64,7 +64,7 @@ node bin/accommodation-downloader.js
 node bin/cleanup.js                     # deletes files of places that disappeared or got new ids
 ```
 
-- Charging stations: follow the steps in [README.md](README.md#generation) and replace `public/data/other/chargingstations/chargingstations.json`. That layer has no `ids/` file.
+- Charging stations: follow step 5 of `.claude/skills/update-data/SKILL.md` and replace `public/data/other/chargingstations/chargingstations.json`. That layer has no `ids/` file.
 - Favorites: edit `ids/favorites/hiking.json` (hiking/local route ids) or `ids/favorites/visit.json` (sightseeing ids). The Favorites section only appears with `?favorites=1` in the URL.
 
 ## Ids
