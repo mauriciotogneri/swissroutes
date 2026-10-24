@@ -340,6 +340,71 @@ Stop the server with Ctrl+C. When the server was started in the background, find
 - The sidebar counts must equal the new lists: for example 486 bike shops and 764 sightseeing places in October 2026. E-bike charging shows fewer than the file holds (336 of 1,411), because only stations inside the box around Switzerland are shown.
 - Click one marker each of charging stations and bike service. A first click on a cluster only zooms in, so click again on a single marker. Opening a panel in the screenshot is enough; no console error is the pass condition.
 
+### Summary table (end of step 7)
+
+When the checks are done and the server is stopped, finish the report for this step with a table of what the whole update changed: for each layer, how many data files were created, updated and deleted compared with the baseline commit, and the delta (created minus deleted). Charging stations are counted as entries inside their one file. Run this from the repository root (it works whether or not the changes are committed):
+
+```sh
+BASE=$(cat logs/baseline.txt) node - <<'EOF'
+const { execSync } = require('child_process')
+const fs = require('fs')
+
+const base = process.env.BASE
+const git = (command, input) => execSync(command, { input, maxBuffer: 1 << 28 }).toString()
+const stations = 'public/data/other/chargingstations/chargingstations.json'
+
+// Blob id of every data file at the baseline commit
+const before = {}
+for (const line of git(`git ls-tree -r ${base} public/data`).trim().split('\n')) {
+  const [info, file] = line.split('\t')
+  before[file] = info.split(' ')[2]
+}
+
+// Blob id of every data file on disk now
+const files = []
+const walk = (dir) => fs.readdirSync(dir, { withFileTypes: true }).forEach((e) => (e.isDirectory() ? walk(`${dir}/${e.name}`) : files.push(`${dir}/${e.name}`)))
+walk('public/data')
+const ids = git('git hash-object --stdin-paths', files.join('\n')).trim().split('\n')
+const now = Object.fromEntries(files.map((file, i) => [file, ids[i]]))
+
+const rows = {}
+const row = (file) => (rows[file.split('/').slice(2, 4).join('/')] ??= { created: 0, updated: 0, deleted: 0 })
+files.filter((file) => file !== stations).forEach(row)
+for (const file of files) {
+  if (file === stations) continue
+  if (!(file in before)) row(file).created++
+  else if (before[file] !== now[file]) row(file).updated++
+}
+for (const file of Object.keys(before)) if (file !== stations && !(file in now)) row(file).deleted++
+
+// Charging stations are entries inside one file, matched by coordinates
+const key = (e) => e.Point.coordinates.trim()
+const text = (v) => (typeof v === 'string' ? v : v && v.__cdata)
+const oldMap = new Map(JSON.parse(git(`git show ${base}:${stations}`)).map((e) => [key(e), e]))
+const newMap = new Map(JSON.parse(fs.readFileSync(stations, 'utf-8')).map((e) => [key(e), e]))
+const s = { created: 0, updated: 0, deleted: 0 }
+for (const [k, e] of newMap) {
+  const old = oldMap.get(k)
+  if (!old) s.created++
+  else if (text(old.name) !== text(e.name) || text(old.description) !== text(e.description)) s.updated++
+}
+for (const k of oldMap.keys()) if (!newMap.has(k)) s.deleted++
+
+const sign = (n) => (n > 0 ? '+' + n : n < 0 ? '−' + -n : '0')
+const line = (name, r) => `| ${name} | ${r.created.toLocaleString('en')} | ${r.updated.toLocaleString('en')} | ${r.deleted.toLocaleString('en')} | ${sign(r.created - r.deleted)} |`
+const total = { created: 0, updated: 0, deleted: 0 }
+console.log('| Category | Created | Updated | Deleted | Delta |\n| :-- | --: | --: | --: | --: |')
+for (const k of Object.keys(rows).sort()) {
+  console.log(line(k, rows[k]))
+  for (const f of Object.keys(total)) total[f] += rows[k][f]
+}
+console.log(line('other/chargingstations (entries)', s))
+console.log(line('**Total (excluding stations)**', total))
+EOF
+```
+
+Paste the table into the report. "Updated" means the file differs in any way, not that the place itself changed: in October 2026 every route file counted as updated because of coordinates and photo links, and 1,187 of the 1,190 station updates were only a new image link. Say so in one line under the table. The October 2026 result was 535 created, 1,501 updated and 582 deleted (−47), with the bike shops going from 523 to 486 files after a renumbering and all accommodation layers unchanged.
+
 ## Step 8: Review and commit
 
 ```sh
@@ -351,7 +416,7 @@ git status --short public/data | grep -c '^??' || true   # new data files
 
 `public/ids.js` is gitignored and never committed.
 
-The downloaded id lists and data files are stored as single-line JSON, so `git diff` shows each changed file as one long changed line. Check 1 in step 4 is the readable summary of the id lists. To compare a single data file, use `git show $(cat logs/baseline.txt):<path>` against the file on disk. If the user already committed part of the update during the run, the counts above cover only what is still uncommitted: say so, and ask the commit question only for the rest.
+The downloaded id lists and data files are stored as single-line JSON, so `git diff` shows each changed file as one long changed line. Check 1 in step 4 is the readable summary of the id lists. To compare a single data file, use `git show $(cat logs/baseline.txt):<path>` against the file on disk. If the user already committed part of the update during the run, the counts above cover only what is still uncommitted: say so, and ask the commit question only for the rest. If they committed all of it (in October 2026 they made six commits during the run, and `origin/main` already matched `HEAD`), every count is 0: show `git log --oneline $(cat logs/baseline.txt)..HEAD` and `git status --short`, say there is nothing to commit, and go to step 9 without a commit question.
 
 Show the counts, then end with a ⚠️ item asking "Commit `ids/` and `public/data/` now?" A yes to "continue with step 8" is not permission to commit. Only after a yes to that question, commit `ids/` and `public/data/` together, so each id list and its files always match:
 
