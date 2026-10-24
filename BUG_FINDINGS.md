@@ -1,25 +1,3 @@
-### [b/contract-mismatches/place-details/handmade-sightseeing-schweizmobil-link] Hand-made sightseeing favorites link to a SchweizMobil page that should not exist
-
-**Location:** `public/script.js:1389-1405`. Related: `ids/favorites/visit.json`, `public/data/other/sightseeing/10001.json` and the other 78 hand-made files.
-
-**Severity:** Low
-
-**Confidence:** Medium
-
-**Likelihood:** Medium. It affects only the hidden Favorites feature (`?favorites=1`), but every one of the 79 hand-made entries has the wrong link.
-
-**Defect:** Hand-made sightseeing entries (ids 10001 and up) have no `city`. Their type is `visibility`, so `placeDetails` builds `https://schweizmobil.ch/en/place-of-interest-<id>` with the made-up id. The real SchweizMobil sightseeing ids stop at 4582. The "SchweizMobil" button therefore opens a non-existent or unrelated page instead of the Google Maps search used for other places without a SchweizMobil page.
-
-**Trigger:** Open the site with `?favorites=1`, turn on Favorites → Places, and click any entry with id 10001 or higher.
-
-**Evidence / verification:**
-
-- Traced `isBasic` and the `baseLink` choice by reading the code. The refutation agent found no branch that skips the link for these entries.
-- Data checks: 79 hand-made files, all in `ids/favorites/visit.json` and none in `ids/other/sightseeing.json`. The maximum SchweizMobil id is 4582.
-- Assumption: SchweizMobil has no page at those ids. Not checked, because that needs the network.
-
-**Suggested fix:** Show the SchweizMobil link only for ids inside the SchweizMobil range. For hand-made entries use their own `url1_link` or the Google Maps search.
-
 ### [b/contract-mismatches/place-details/null-city-treated-as-present] A `null` city is treated as present and ends up in the Google Maps search
 
 **Location:** `public/script.js:1385` (`isBasic`) and `:1400-1405`.

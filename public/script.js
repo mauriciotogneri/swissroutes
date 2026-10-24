@@ -306,6 +306,9 @@ const LAYERS = buildLayers();
 // Chrome drops requests when thousands start at once, so downloads are queued
 const MAX_DOWNLOADS = 100;
 
+// Hand-made sightseeing entries start at this id; SchweizMobil has no page for them
+const HANDMADE_SIGHTSEEING_ID = 10001;
+
 // While files arrive, the map redraws at most this often and regroups markers only once everything has loaded
 const LOADING_RENDER_DELAY = 300;
 
@@ -1383,13 +1386,17 @@ function routeDetails(item) {
 function placeDetails(item) {
   const properties = item.json.properties;
   const isBasic = properties.city !== undefined;
+  const isHandMade =
+    item.type === "visibility" && item.json.id >= HANDMADE_SIGHTSEEING_ID;
 
   let baseLink = "";
 
   if (item.type === "build") {
     baseLink = "https://schweizmobil.ch/en/cycle-service-";
   } else if (item.type === "visibility") {
-    baseLink = "https://schweizmobil.ch/en/place-of-interest-";
+    if (!isHandMade) {
+      baseLink = "https://schweizmobil.ch/en/place-of-interest-";
+    }
   } else if (!isBasic) {
     baseLink = "https://schweizmobil.ch/en/accommodation-";
   }
@@ -1397,12 +1404,18 @@ function placeDetails(item) {
   let content = `<div class="details-kind" style="--color:${GROUP_COLORS[item.place.group]}">${iconSwatch(item.place.icon)}${item.place.label}</div>`;
   content += `<h2 class="details-title">${escapeHtml(item.label)}</h2>`;
 
-  const external = baseLink
-    ? externalAction(`${baseLink}${item.json.id}`, "SchweizMobil")
-    : externalAction(
-        `https://www.google.com/maps/search/${encodeURIComponent(`${item.label} ${properties.city}`)}`,
-        "Google Maps",
-      );
+  let external;
+
+  if (baseLink) {
+    external = externalAction(`${baseLink}${item.json.id}`, "SchweizMobil");
+  } else if (isHandMade && safeUrl(properties.url1_link)) {
+    external = externalAction(escapeHtml(properties.url1_link), "Google Maps");
+  } else {
+    external = externalAction(
+      `https://www.google.com/maps/search/${encodeURIComponent(`${item.label} ${properties.city}`)}`,
+      "Google Maps",
+    );
+  }
 
   content += actions([shareAction(), external]);
 
