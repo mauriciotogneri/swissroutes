@@ -1412,7 +1412,7 @@ function placeDetails(item) {
     external = externalAction(escapeHtml(properties.url1_link), "Google Maps");
   } else {
     external = externalAction(
-      `https://www.google.com/maps/search/${encodeURIComponent(`${item.label} ${properties.city}`)}`,
+      `https://www.google.com/maps/search/${encodeURIComponent([item.label, properties.city].filter(Boolean).join(" "))}`,
       "Google Maps",
     );
   }
