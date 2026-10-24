@@ -246,7 +246,7 @@ If you edited a favorites list, run check 2 again.
 
 ## Step 5: Charging stations (optional, by hand)
 
-The e-bike charging stations come from the Bike Energy map on Google My Maps, which has no download script. Skip this step if the stations don't need refreshing.
+The e-bike charging stations come from the Bike Energy map on Google My Maps ([website](https://bike-energy.com/en/where-can-I-load-my-e-bike)), which has no download script. Skip this step if the stations don't need refreshing.
 
 If the user chooses to do it, download the KML yourself first. The map is public, so no sign-in is needed (it worked in October 2026, 1.9 MB). Ask the user for the KML file or the finished JSON only if the download fails. If you convert the KML, use a throwaway script outside the repository, not a dependency. Put the download in its own new folder in the scratchpad and the script in another folder, and pass paths as arguments.
 

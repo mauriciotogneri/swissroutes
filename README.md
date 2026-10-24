@@ -11,13 +11,6 @@ https://opencampingmap.org
 - Website: https://schweizmobil.ch/en
 - Map: https://map.schweizmobil.ch
 
-## Bike Energy
-
-- Website: https://bike-energy.com/en/where-can-I-load-my-e-bike
-- Map: https://www.google.com/maps/d/u/0/viewer?mid=1wdyB_yGO8FqEWUbD-HJTvpQ-KRY
-
-To refresh the stations, follow step 5 of the `/update-data` skill (`.claude/skills/update-data/SKILL.md`).
-
 ## Review
 
 - Review sightseen: https://schweizmobil.ch/en/place-of-interest-373-teppes-of-verbois
