@@ -54,10 +54,18 @@ const PLACES = [
   { id: 'mountainhut', group: 'stay', name: 'Mountain huts', label: 'Mountain hut', icon: 'night_shelter', folder: 'accommodation/mountainhut', ids: ACCOMMODATION_MOUNTAINHUT_IDS },
   { id: 'sightseeing', group: 'explore', name: 'Sightseeing', label: 'Sightseeing', icon: 'visibility', folder: 'other/sightseeing', ids: OTHER_SIGHTSEEING_IDS },
   { id: 'serviceshop', group: 'explore', name: 'Bike service', label: 'Bike service', icon: 'build', folder: 'other/serviceshop', ids: OTHER_SERVICESHOP_IDS },
-  { id: 'chargingstation', group: 'explore', name: 'E-bike charging', label: 'E-bike charging station', icon: 'bolt', files: ['other/chargingstations/chargingstations.json', 'other/chargingstations/ebike-sockets.json'] },
+  { id: 'chargingstation', group: 'explore', section: 'Bike support', name: 'E-bike charging', label: 'E-bike charging station', icon: 'bolt', files: ['other/chargingstations/chargingstations.json', 'other/chargingstations/ebike-sockets.json'] },
 ]
 
-// OpenStreetMap places, downloaded by bin/osm-downloader.js. Every type has its own toggle, grouped in sections
+// OpenStreetMap places, downloaded by bin/osm-downloader.js. Every type has its own toggle
+// These three are listed under Stay, with the other places to sleep
+const OSM_STAY = [
+  osmPlace('stay', 'alpinehut', 'Alpine huts', 'Alpine hut', 'cabin'),
+  osmPlace('stay', 'wildernesshut', 'Wilderness huts', 'Wilderness hut', 'cottage'),
+  osmPlace('stay', 'basichut', 'Basic huts', 'Basic hut', 'fireplace'),
+]
+
+// The others have a section each. A place from PLACES with the same section name is listed there too
 const OSM_SECTIONS = [
   {
     name: 'Water',
@@ -67,20 +75,12 @@ const OSM_SECTIONS = [
     ],
   },
   {
-    name: 'Huts and shelters',
-    places: [
-      osmPlace('stay', 'alpinehut', 'Alpine huts', 'Alpine hut', 'cabin'),
-      osmPlace('stay', 'wildernesshut', 'Wilderness huts', 'Wilderness hut', 'cottage'),
-      osmPlace('stay', 'basichut', 'Basic huts', 'Basic hut', 'fireplace'),
-    ],
-  },
-  {
     name: 'Bike support',
     places: [
+      osmPlace('explore', 'ebikecharging', 'E-bike charging points', 'E-bike charging point', 'battery_charging_full'),
       osmPlace('explore', 'bikerepair', 'Repair stations', 'Bike repair station', 'handyman'),
       osmPlace('explore', 'airpump', 'Air pumps', 'Air pump', 'air'),
       osmPlace('explore', 'bikerental', 'Bike rental', 'Bike rental', 'pedal_bike'),
-      osmPlace('explore', 'ebikecharging', 'E-bike charging points', 'E-bike charging point', 'battery_charging_full'),
     ],
   },
   {
@@ -196,10 +196,10 @@ function buildLayers() {
     layers[place.id] = placeLayer(place, place.ids, place.id)
   }
 
-  for (const section of OSM_SECTIONS) {
-    for (const place of section.places) {
-      layers[place.id] = placeLayer(place, undefined, place.id)
-    }
+  const osmPlaces = [...OSM_STAY, ...OSM_SECTIONS.flatMap((section) => section.places)]
+
+  for (const place of osmPlaces) {
+    layers[place.id] = placeLayer(place, undefined, place.id)
   }
 
   const hiking = ACTIVITIES.find((activity) => activity.id === 'hiking')
@@ -259,11 +259,12 @@ function buildPanel() {
   const [hiking, cycling, mountainBiking] = ACTIVITIES
 
   let content = group('Routes', activityRow(mountainBiking) + activityRow(hiking) + activityRow(cycling))
-  content += group('Stay', PLACES.filter((place) => place.group === 'stay').map(placeRow).join(''))
-  content += group('Explore', PLACES.filter((place) => place.group === 'explore').map(placeRow).join(''))
+  content += group('Stay', [...PLACES.filter((place) => place.group === 'stay'), ...OSM_STAY].map(placeRow).join(''))
+  content += group('Explore', PLACES.filter((place) => (place.group === 'explore') && !place.section).map(placeRow).join(''))
 
   for (const section of OSM_SECTIONS) {
-    content += group(section.name, section.places.map(placeRow).join(''))
+    const places = [...PLACES.filter((place) => place.section === section.name), ...section.places]
+    content += group(section.name, places.map(placeRow).join(''))
   }
 
   if (FAVORITES_ENABLED) {
@@ -272,7 +273,11 @@ function buildPanel() {
     content += group('Favorites', favorites)
   }
 
-  content += `<p class="attribution">${OSM_SECTIONS[0].name} to ${OSM_SECTIONS[OSM_SECTIONS.length - 1].name}: data © <a href="https://www.openstreetmap.org/copyright" target="_blank">OpenStreetMap contributors</a></p>`
+  // A place from PLACES listed in one of those sections is not OpenStreetMap data
+  const notOsm = PLACES.filter((place) => place.section).map((place) => place.name)
+  const except = (notOsm.length > 0) ? ` (except ${notOsm.join(', ')})` : ''
+
+  content += `<p class="attribution">${OSM_STAY.map((place) => place.name).join(', ')} and the ${OSM_SECTIONS[0].name} to ${OSM_SECTIONS[OSM_SECTIONS.length - 1].name} sections${except}: data © <a href="https://www.openstreetmap.org/copyright" target="_blank">OpenStreetMap contributors</a></p>`
 
   const layers = document.getElementById('layers')
   layers.innerHTML = content
