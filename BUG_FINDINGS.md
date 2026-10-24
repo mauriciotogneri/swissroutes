@@ -1,28 +1,3 @@
-### [a/error-handling/accommodation-downloader/empty-pois-written-as-success] My Switzerland download writes an empty or partial id list and exits 0
-
-**Location:** `bin/helpers.js:214-251` (`downloadPois`). Related: `bin/accommodation-downloader.js:4-15`, `bin/cleanup.js:19-42`, `bin/osm-downloader.js:63-65`.
-
-**Severity:** Medium
-
-**Confidence:** Medium
-
-**Likelihood:** Low. It needs My Switzerland to rename a category id or answer with a list that lacks one. The category ids come from a May 2024 snapshot, and the code has not needed to change them since.
-
-**Defect:** `downloadPois` has no check for zero matching places. When the My Switzerland list holds nothing for a category, the function still writes `ids/accommodation/<layer>.json`, as `[]`, or for campsites (`append = true`) as the SchweizMobil ids alone. No error is thrown and the script exits 0. `AGENTS.md` says an id list is "never replaced by an empty or partial one", and the sibling `osm-downloader.js` throws `NO ENTRIES FOUND` for the same situation. Campsites make it worse: the SchweizMobil step has already overwritten `ids/accommodation/camping.json` with SchweizMobil ids only before the My Switzerland step runs. A failure of that second step, or an empty answer, leaves a partial list on disk. `cleanup.js` skips a folder only when a list is empty, so a partial campsite list passes. `cleanup.js` then deletes every My Switzerland campsite file.
-
-**Trigger:** Run `node bin/accommodation-downloader.js` while My Switzerland returns a well-formed POI list without the campsite category (for example after a category id change). Then run `node bin/cleanup.js`.
-
-**Evidence / verification:**
-
-- Reproduced the empty case in a disposable copy with `fetch` stubbed to return `[]`. `downloadPois('accommodation','hostels',…)` rewrote `ids/accommodation/hostels.json` (671 characters before) as `[]` and exited 0.
-- Traced the campsite path by reading the code. The SchweizMobil step writes SchweizMobil-only ids, and an empty My Switzerland answer leaves them as the final list.
-- The deletion step follows from reading `cleanup.js`. I did not run it, since it deletes files.
-- The refutation agent searched for a guard in `helpers.js`, `accommodation-downloader.js`, `cleanup.js` and `scripts/*.sh` and found none.
-- The only mitigation is the runbook (`SKILL.md`, step 3 and step 4 check 1), which depends on a person noticing a `-> 0` or a drop of about 70%.
-- Assumption: the live My Switzerland API can return a well-formed list without a category. Not checked, because that needs the network.
-
-**Suggested fix:** In `downloadPois`, throw before writing when no place matches the category, as `osm-downloader.js` does. For campsites, write the merged list only after the My Switzerland step succeeds, or keep the SchweizMobil step's list in memory until then. Make `cleanup.js` refuse to delete when a list is far shorter than the files already on disk.
-
 ## Low
 
 ### [b/resource-and-configuration-parity/osm-layers/downloaded-types-without-ui-layer] Two OpenStreetMap types are downloaded, counted and deployed but have no layer on the site

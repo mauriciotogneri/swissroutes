@@ -213,6 +213,11 @@ async function downloadPoint(group, folder, type) {
 
 async function downloadPois(group, folder, category, append) {
   const pois = await getPoisByCategory(category)
+
+  if (pois.length === 0) {
+    throw new Error(`NO PLACES FOUND: ${category}`)
+  }
+
   const idsFilePath = `ids/${group}/${folder}.json`
   const originalIds = append ? JSON.parse(fs.readFileSync(idsFilePath, 'utf-8')) : []
   const ids = []
