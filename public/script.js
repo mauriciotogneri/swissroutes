@@ -188,6 +188,15 @@ function buildPanel() {
   }
 
   updateCounts({})
+
+  // A single-file layer only knows its count once loaded, so load it up front
+  for (const layer of Object.values(LAYERS)) {
+    if (layer.single) {
+      for (const url of layer.urls) {
+        loadFile(url, layer.build)
+      }
+    }
+  }
 }
 
 function group(name, rows) {
