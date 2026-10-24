@@ -162,6 +162,29 @@ grep -nE '^Error (downloading file|getting ids):|^ +at |NO IDS FOUND|MORE THAN O
 
 SchweizMobil can renumber all of its accommodation ids (see Ids in `AGENTS.md`). When that happens, share links to those places stop working. That's expected.
 
+## Step 3b: OpenStreetMap places
+
+Downloads 27 types of OpenStreetMap points (drinking water, huts and shelters, bike support, rest stops, nature, ruins, camper services, lodging) from the Overpass API, one query per type, with a 5-second pause between queries. It reads the files steps 2 and 3 wrote, to drop points within 100 m of a place of the same kind, so run it after both. It writes `public/data/osm/<type>.json` and no `ids/` list, so step 6 never touches those files.
+
+```sh
+node bin/osm-downloader.js 2>&1 | tee logs/osm.log
+```
+
+**While it runs**, it prints `<TYPE> (<percent>%)` and then `<type>: <count>` for each type.
+
+**When it worked**, the last line is `campsite: <count>` and the search below prints `no matches`:
+
+```sh
+grep -nE '^Error|^ +at |NO ENTRIES FOUND|OVERPASS REMARK' logs/osm.log || { [ $? -eq 1 ] && echo "no matches"; }
+```
+
+**When it didn't:**
+
+- `OVERPASS REMARK: <type>: runtime error ...` means Overpass ran out of time or memory and returned a partial result. The script stopped before writing that type. Wait a few minutes and rerun.
+- `NO ENTRIES FOUND: <type>` means the query matched nothing, or every match was a duplicate. Check the tag filter in `bin/osm-downloader.js` against the OSM wiki before rerunning.
+- `HTTP 429` or `HTTP 504` after `Retrying:` lines means Overpass is busy. Wait a few minutes and rerun. Types downloaded before the failure are already written, and rerunning is safe.
+- A count far below the previous run (compare with `git diff --stat`) usually means a partial download. Rerun.
+
 ## Step 4: Check the downloads
 
 Run these three checks after steps 1–3 have all finished cleanly.
@@ -332,7 +355,8 @@ Then check:
 2. Click a few routes and places in each layer. The details panel shows a title, photo and description.
 3. Open http://localhost:5000/?favorites=1 and turn on both favorites layers (Hikes and Places).
 4. Turn on the charging stations layer.
-5. Open the browser console. There must be no `Could not load` errors, other than any you accepted in step 4.
+5. Turn on a few of the OpenStreetMap layers (the sections from Water to Lodging) and click a marker in each. The details panel shows the name or type, and the OpenStreetMap credit.
+6. Open the browser console. There must be no `Could not load` errors, other than any you accepted in step 4.
 
 Stop the server with Ctrl+C. When the server was started in the background, find the processes with `ss -ltnp | grep ':5000 '` and `pgrep -af 'serve.sh|firebase'`, kill the `serve.sh` and `firebase serve` PIDs, and confirm that nothing listens on port 5000.
 
@@ -371,7 +395,7 @@ const ids = git('git hash-object --stdin-paths', files.join('\n')).trim().split(
 const now = Object.fromEntries(files.map((file, i) => [file, ids[i]]))
 
 const rows = {}
-const row = (file) => (rows[file.split('/').slice(2, 4).join('/')] ??= { created: 0, updated: 0, deleted: 0 })
+const row = (file) => (rows[file.split('/').slice(2, -1).join('/')] ??= { created: 0, updated: 0, deleted: 0 })
 files.filter((file) => file !== stations).forEach(row)
 for (const file of files) {
   if (file === stations) continue
@@ -414,7 +438,7 @@ Paste the table into the report. "Updated" means the file differs in any way, no
 git status --short | wc -l             # how many files changed
 git status --short ids                 # which id lists changed
 git status --short public/data | grep -c '^ D' || true   # deleted data files
-git status --short public/data | grep -c '^??' || true   # new data files
+git status --short -uall public/data | grep -c '^??' || true   # new data files
 ```
 
 `public/ids.js` is gitignored and never committed.

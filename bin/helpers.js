@@ -251,6 +251,7 @@ async function downloadPois(group, folder, category, append) {
 }
 
 module.exports = {
+  getFile,
   writeFile,
   downloadRoute,
   downloadPoint,

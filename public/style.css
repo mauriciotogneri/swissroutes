@@ -143,6 +143,15 @@ body.has-details #map {
   text-transform: uppercase;
 }
 
+.attribution {
+  margin: 0;
+  padding: 14px 20px 0;
+  border-top: 1px solid var(--rule);
+  color: var(--ink-soft);
+  font-size: 12px;
+  line-height: 1.45;
+}
+
 /* Layer rows */
 
 .row {
@@ -546,6 +555,17 @@ body.has-details #map {
 
 .contact .material-symbols-outlined {
   color: var(--ink-soft);
+}
+
+.details-source {
+  margin: 16px 0 0;
+  color: var(--ink-soft);
+  font-size: 12px;
+}
+
+.details-source a,
+.attribution a {
+  color: inherit;
 }
 
 /* Map controls */

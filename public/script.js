@@ -57,6 +57,77 @@ const PLACES = [
   { id: 'chargingstation', group: 'explore', name: 'E-bike charging', label: 'E-bike charging station', icon: 'bolt', files: ['other/chargingstations/chargingstations.json', 'other/chargingstations/ebike-sockets.json'] },
 ]
 
+// OpenStreetMap places, downloaded by bin/osm-downloader.js. Every type has its own toggle, grouped in sections
+const OSM_SECTIONS = [
+  {
+    name: 'Water',
+    places: [
+      osmPlace('explore', 'drinkingwater', 'Drinking water', 'Drinking water', 'water_drop'),
+      osmPlace('explore', 'spring', 'Springs', 'Spring', 'water'),
+    ],
+  },
+  {
+    name: 'Huts and shelters',
+    places: [
+      osmPlace('stay', 'alpinehut', 'Alpine huts', 'Alpine hut', 'cabin'),
+      osmPlace('stay', 'wildernesshut', 'Wilderness huts', 'Wilderness hut', 'cottage'),
+      osmPlace('stay', 'basichut', 'Basic huts', 'Basic hut', 'fireplace'),
+    ],
+  },
+  {
+    name: 'Bike support',
+    places: [
+      osmPlace('explore', 'bikerepair', 'Repair stations', 'Bike repair station', 'handyman'),
+      osmPlace('explore', 'airpump', 'Air pumps', 'Air pump', 'air'),
+      osmPlace('explore', 'bikerental', 'Bike rental', 'Bike rental', 'pedal_bike'),
+      osmPlace('explore', 'ebikecharging', 'E-bike charging points', 'E-bike charging point', 'battery_charging_full'),
+    ],
+  },
+  {
+    name: 'Rest stops',
+    places: [
+      osmPlace('explore', 'picnicsite', 'Picnic sites', 'Picnic site', 'park'),
+      osmPlace('explore', 'picnictable', 'Picnic tables', 'Picnic table', 'table_restaurant'),
+      osmPlace('explore', 'firepit', 'Fire pits', 'Fire pit', 'local_fire_department'),
+      osmPlace('explore', 'toilets', 'Toilets', 'Toilet', 'wc'),
+    ],
+  },
+  {
+    name: 'Nature',
+    places: [
+      osmPlace('explore', 'waterfall', 'Waterfalls', 'Waterfall', 'waves'),
+      osmPlace('explore', 'mountainpass', 'Mountain passes', 'Mountain pass', 'altitude'),
+      osmPlace('explore', 'cave', 'Caves', 'Cave', 'explore'),
+      osmPlace('explore', 'swimmingarea', 'Swimming areas', 'Swimming area', 'pool'),
+      osmPlace('explore', 'bathingplace', 'Bathing places', 'Bathing place', 'beach_access'),
+      osmPlace('explore', 'hotspring', 'Hot springs', 'Hot spring', 'hot_tub'),
+    ],
+  },
+  {
+    name: 'Landmarks',
+    places: [
+      osmPlace('explore', 'ruins', 'Ruins', 'Ruins', 'fort'),
+    ],
+  },
+  {
+    name: 'Camper services',
+    places: [
+      osmPlace('explore', 'dumpstation', 'Dump stations', 'Dump station', 'delete'),
+      osmPlace('explore', 'waterpoint', 'Water points', 'Water point', 'faucet'),
+      osmPlace('explore', 'shower', 'Showers', 'Shower', 'shower'),
+    ],
+  },
+  {
+    name: 'Lodging',
+    places: [
+      osmPlace('stay', 'hotel', 'Hotels', 'Hotel', 'apartment'),
+      osmPlace('stay', 'guesthouse', 'Guest houses', 'Guest house', 'bedroom_parent'),
+      osmPlace('stay', 'chalet', 'Chalets', 'Chalet', 'chalet'),
+      osmPlace('stay', 'campsite', 'Campsites', 'Campsite', 'camping'),
+    ],
+  },
+]
+
 // Every toggle in the panel is a layer: the data files it shows, how to build their map items, and which filter applies
 const LAYERS = buildLayers()
 
@@ -125,6 +196,12 @@ function buildLayers() {
     layers[place.id] = placeLayer(place, place.ids, place.id)
   }
 
+  for (const section of OSM_SECTIONS) {
+    for (const place of section.places) {
+      layers[place.id] = placeLayer(place, undefined, place.id)
+    }
+  }
+
   const hiking = ACTIVITIES.find((activity) => activity.id === 'hiking')
   const local = LEVELS.find((level) => level.id === 'local')
   const sightseeing = PLACES.find((place) => place.id === 'sightseeing')
@@ -144,7 +221,22 @@ function routeLayer(activity, level, ids, row, filter) {
   }
 }
 
+function osmPlace(group, id, name, label, icon) {
+  return { id: id, group: group, name: name, label: label, icon: icon, osm: true, files: [`osm/${id}.json`] }
+}
+
 function placeLayer(place, ids, row) {
+  if (place.osm) {
+    // OSM layers hold thousands of places, so each one loads when its toggle is turned on
+    return {
+      row: row,
+      single: true,
+      deferred: true,
+      urls: place.files,
+      build: (url, json) => buildOsmPlaces(url, json, place),
+    }
+  }
+
   if (place.files) {
     return {
       row: row,
@@ -170,11 +262,17 @@ function buildPanel() {
   content += group('Stay', PLACES.filter((place) => place.group === 'stay').map(placeRow).join(''))
   content += group('Explore', PLACES.filter((place) => place.group === 'explore').map(placeRow).join(''))
 
+  for (const section of OSM_SECTIONS) {
+    content += group(section.name, section.places.map(placeRow).join(''))
+  }
+
   if (FAVORITES_ENABLED) {
     const favorites = toggleRow('favorites.hiking', 'Hikes', '<span class="swatch swatch-line"></span>', hiking.color)
       + toggleRow('favorites.visit', 'Places', iconSwatch('visibility'), GROUP_COLORS.explore)
     content += group('Favorites', favorites)
   }
+
+  content += `<p class="attribution">${OSM_SECTIONS[0].name} to ${OSM_SECTIONS[OSM_SECTIONS.length - 1].name}: data © <a href="https://www.openstreetmap.org/copyright" target="_blank">OpenStreetMap contributors</a></p>`
 
   const layers = document.getElementById('layers')
   layers.innerHTML = content
@@ -191,7 +289,7 @@ function buildPanel() {
 
   // A single-file layer only knows its count once loaded, so load it up front
   for (const layer of Object.values(LAYERS)) {
-    if (layer.single) {
+    if (layer.single && !layer.deferred) {
       for (const url of layer.urls) {
         loadFile(url, layer.build)
       }
@@ -512,6 +610,27 @@ function buildChargingStations(url, json, place) {
   return items
 }
 
+function buildOsmPlaces(url, json, place) {
+  return json.map((entry, index) => {
+    const position = point(entry.coordinates[0], entry.coordinates[1])
+
+    const item = {
+      url: `${url}#${index}`,
+      json: entry,
+      kind: 'osm',
+      place: place,
+      label: entry.name ?? place.label,
+      position: position,
+      bounds: around(position, 0.1),
+      gallery: [],
+    }
+
+    item.marker = createMarker(position, markerIcon(place), item)
+
+    return item
+  })
+}
+
 function createLine(item, path) {
   const line = new google.maps.Polyline({ path: path })
 
@@ -826,6 +945,8 @@ function detailsContent(item) {
     content += routeDetails(item)
   } else if (item.kind === 'place') {
     content += placeDetails(item)
+  } else if (item.kind === 'osm') {
+    content += osmDetails(item)
   } else {
     content += chargingStationDetails(item)
   }
@@ -942,6 +1063,77 @@ function chargingStationDetails(item) {
   }
 
   return content
+}
+
+// OpenStreetMap is edited by anyone, so its text is escaped before it goes into the panel
+function osmDetails(item) {
+  const tags = item.json.tags
+
+  let content = `<div class="details-kind" style="--color:${GROUP_COLORS[item.place.group]}">${iconSwatch(item.place.icon)}${item.place.label}</div>`
+  content += `<h2 class="details-title">${escapeHtml(item.label)}</h2>`
+
+  content += actions([
+    externalAction(`https://www.openstreetmap.org/${item.json.id}`, 'OpenStreetMap'),
+    externalAction(`https://www.google.com/maps/place/${item.position.lat},${item.position.lng}`, 'Google Maps'),
+  ])
+
+  if (tags.description) {
+    content += `<div class="details-description">${escapeHtml(tags.description)}</div>`
+  }
+
+  let stats = ''
+  const elevation = parseFloat(tags.ele)
+  const capacity = parseInt(tags.capacity)
+
+  if (Number.isFinite(elevation)) {
+    stats += stat('Elevation', Math.round(elevation).toLocaleString(), 'm')
+  }
+
+  if (Number.isFinite(capacity)) {
+    stats += stat('Capacity', capacity.toLocaleString(), '')
+  }
+
+  if (stats) {
+    content += `<dl class="stats">${stats}</dl>`
+  }
+
+  const contact = []
+
+  if (tags.opening_hours) {
+    contact.push(contactLine('schedule', escapeHtml(tags.opening_hours)))
+  }
+
+  if (tags.phone) {
+    contact.push(contactLine('call', `<a href="tel:${escapeHtml(tags.phone.replace(/[^\d+]/g, ''))}">${escapeHtml(tags.phone)}</a>`))
+  }
+
+  if (tags.website) {
+    contact.push(contactLine('link', `<a href="${escapeHtml(tags.website)}" target="_blank">${escapeHtml(tags.website)}</a>`))
+  }
+
+  if (tags.operator) {
+    contact.push(contactLine('info', `Operated by ${escapeHtml(tags.operator)}`))
+  }
+
+  if (tags.fee) {
+    contact.push(contactLine('info', `Fee: ${escapeHtml(tags.fee)}`))
+  }
+
+  if (tags.access) {
+    contact.push(contactLine('info', `Access: ${escapeHtml(tags.access)}`))
+  }
+
+  if (contact.length > 0) {
+    content += `<ul class="contact">${contact.join('')}</ul>`
+  }
+
+  content += '<p class="details-source">Data © <a href="https://www.openstreetmap.org/copyright" target="_blank">OpenStreetMap contributors</a></p>'
+
+  return content
+}
+
+function escapeHtml(value) {
+  return String(value).replace(/[&<>"']/g, (character) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[character])
 }
 
 function actions(buttons) {

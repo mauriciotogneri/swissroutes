@@ -9,6 +9,7 @@ Swiss Routes is a static map site. Firebase Hosting serves only `public/`. All m
 | SchweizMobil (Switzerland Mobility)  | Hiking, cycling and mountain-bike routes (national, regional, local), sightseeing, bike service shops, campsites, backpackers, farm stays, sleeping in straw, mountain huts | `data.schweizmobil.ch/poi-clusters-prod/21781/clustered_<Type>.geojson` lists the ids of a point layer. `map.schweizmobil.ch/api/4/query/featuresmultilayers?...&<Layer>=<id>` returns one feature in full |
 | My Switzerland (Switzerland Tourism) | Hostels, B&Bs, group houses, campsites                                                                                                                                      | `myswitzerland.com/api/maps/GetPointsOfInterests/...` returns every POI, filtered locally by category id                                                                                                   |
 | Bike Energy (Google My Maps)         | E-bike charging stations                                                                                                                                                    | KML export, see step 5 of `.claude/skills/update-data/SKILL.md`                                                                                                                                            |
+| OpenStreetMap                        | Drinking water, huts and shelters, bike support, rest stops, nature spots, ruins, camper services, hotels, guest houses, chalets, campsites (27 point types, see `bin/osm-downloader.js`) | `overpass.osm.ch/api/interpreter` (the Swiss OSM community server) returns every match for a tag filter in Switzerland. Data is © OpenStreetMap contributors (ODbL), credited in the site |
 | Hand-made                            | Favorites lists, and sightseeing entries with ids 10001 and up                                                                                                              | Edited by hand, no script                                                                                                                                                                                  |
 
 The My Switzerland website, for looking places up by hand: https://www.myswitzerland.com/en-ch
@@ -19,7 +20,7 @@ The My Switzerland website, for looking places up by hand: https://www.myswitzer
 | :---------------- | :-------------------------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------- | :-------------- |
 | `bin/`            | Download scripts and `ids-generator.js`. `helpers.js` holds the shared fetch, save and coordinate code                      | —                                                               | No              |
 | `ids/`            | One JSON array of ids per layer, e.g. `ids/hiking/local.json`. Decides which data files the site shows                      | The downloaders, except `ids/favorites/`, which is kept by hand | No              |
-| `public/data/`    | One JSON file per route or place: `public/data/<group>/<layer>/<id>.json`                                                   | The downloaders (charging stations by hand)                     | Yes             |
+| `public/data/`    | One JSON file per route or place: `public/data/<group>/<layer>/<id>.json`. OpenStreetMap layers are one file per type: `public/data/osm/<type>.json`                                                 | The downloaders (charging stations by hand)                     | Yes             |
 | `public/ids.js`   | Generated `const <NAME>_IDS = [...]` constants, one per `ids/` file                                                         | `bin/ids-generator.js`                                          | Yes, gitignored |
 | `scripts/`        | `serve.sh` and `deploy.sh`, which both run `ids-generator.js` first                                                         | —                                                               | No              |
 | `reference/`      | Files no code reads. `my-switzerland-categories.json` is a May-2024 snapshot of the My Switzerland categories and their ids | By hand                                                         | No              |
@@ -48,10 +49,11 @@ The downloaders convert SchweizMobil's Swiss grid coordinates (LV03) to latitude
 | `route-downloader.js`         | SchweizMobil routes for hiking, cycling and mountain biking at all 3 levels. There is no id list for routes, so it tries every number from 1 to 9 (national), 1 to 99 (regional) and 1 to 999 (local). That is about 3,300 requests made one after another | `hiking/`, `cycling/`, `mountainbiking/` |
 | `other-downloader.js`         | SchweizMobil bike service shops and sightseeing                                                                                                                                                                                                            | `other/serviceshop`, `other/sightseeing` |
 | `accommodation-downloader.js` | SchweizMobil campsites, backpackers, sleeping in straw, farm stays and mountain huts; My Switzerland hostels, B&Bs, group houses and campsites                                                                                                             | `accommodation/*`                        |
+| `osm-downloader.js`           | OpenStreetMap places, one query per type (27 types). Writes `public/data/osm/<type>.json`, with no `ids/` list. Drops points within 100 m of a place of the same kind that SchweizMobil or My Switzerland already supply, so run it after the other downloaders | — |
 | `cleanup.js`                  | Nothing. It deletes every file in `public/data/` that no `ids/` list refers to, favorites included. It leaves charging stations alone, and any folder with an empty list                                                                                   | —                                        |
 | `ids-generator.js`            | Nothing. It reads every `ids/` file, removes duplicates and writes `public/ids.js`. It fails if any of the 21 lists is missing                                                                                                                             | —                                        |
 
-The three downloaders are independent of each other. Inside `accommodation-downloader.js` the order matters: the campsite list combines two sources. The SchweizMobil step writes the list first, and the My Switzerland step right after it adds its own ids.
+The three SchweizMobil and My Switzerland downloaders are independent of each other. `osm-downloader.js` reads the files they wrote (to drop duplicates), so it runs after them. Inside `accommodation-downloader.js` the order matters: the campsite list combines two sources. The SchweizMobil step writes the list first, and the My Switzerland step right after it adds its own ids.
 
 ## Downloading new data
 
@@ -63,6 +65,7 @@ Requires Node 18 or newer (the scripts use the built-in `fetch`). Run everything
 node bin/route-downloader.js            # slow: ~3,300 requests
 node bin/other-downloader.js
 node bin/accommodation-downloader.js
+node bin/osm-downloader.js              # after the three above; 27 queries, about 3 minutes
 node bin/cleanup.js                     # deletes files of places that disappeared or got new ids
 ```
 
