@@ -310,7 +310,9 @@ const MAX_DOWNLOADS = 100;
 const LOADING_RENDER_DELAY = 300;
 
 let map = undefined;
-let clusterer = undefined;
+let pointIndex = undefined;
+let pointIndexVersion = 0;
+let pointItems = [];
 let selected = undefined;
 let sharedItem = undefined;
 let galleryIndex = 0;
@@ -326,6 +328,8 @@ const activeLayers = new Set();
 const files = new Map();
 const requests = new Map();
 const downloadQueue = [];
+// What is on the map right now: a place item or a bubble key, mapped to its marker
+const drawn = new Map();
 
 function mapLoaded() {
   map = new google.maps.Map(document.getElementById("map"), {
@@ -342,11 +346,7 @@ function mapLoaded() {
 
   map.fitBounds(INITIAL_VIEW, 0);
   map.addListener("click", closeDetails);
-
-  clusterer = new markerClusterer.MarkerClusterer({
-    map: map,
-    renderer: { render: renderCluster },
-  });
+  map.addListener("idle", drawPins);
 
   buildPanel();
   bindControls();
@@ -844,8 +844,6 @@ function buildPlace(url, json, place) {
     gallery: getGallery(json),
   };
 
-  item.marker = createMarker(position, markerIcon(place), item);
-
   return [item];
 }
 
@@ -877,7 +875,6 @@ function buildChargingStations(url, json, place) {
         gallery: [],
       };
 
-      item.marker = createMarker(position, markerIcon(place), item);
       items.push(item);
     }
   });
@@ -899,8 +896,6 @@ function buildOsmPlaces(url, json, place) {
       bounds: around(position, 0.1),
       gallery: [],
     };
-
-    item.marker = createMarker(position, markerIcon(place), item);
 
     return item;
   });
@@ -948,23 +943,31 @@ function markerIcon(place) {
   return content;
 }
 
-function renderCluster(cluster) {
+function renderCluster(id, count, position, index) {
   const content = document.createElement("div");
   content.className = "cluster";
-  content.textContent = cluster.count;
+  content.textContent = count;
 
-  if (cluster.count >= 100) {
+  if (count >= 100) {
     content.classList.add("cluster-large");
-  } else if (cluster.count >= 10) {
+  } else if (count >= 10) {
     content.classList.add("cluster-medium");
   }
 
-  return new google.maps.marker.AdvancedMarkerElement({
-    position: cluster.position,
+  const marker = new google.maps.marker.AdvancedMarkerElement({
+    position: position,
     content: content,
-    title: `${cluster.count} places, click to zoom in`,
-    zIndex: 1000 + cluster.count,
+    title: `${count} places, click to zoom in`,
+    zIndex: 1000 + count,
+    gmpClickable: true,
   });
+
+  marker.addEventListener("gmp-click", () => {
+    map.panTo(position);
+    map.setZoom(index.getClusterExpansionZoom(id));
+  });
+
+  return marker;
 }
 
 // Rendering
@@ -1028,38 +1031,15 @@ function render(regroup = true) {
     visible.add(sharedItem);
   }
 
-  const toCluster = [];
-  const fromCluster = [];
-  const pins = [];
+  const points = [];
 
   for (const items of files.values()) {
     for (const item of items) {
-      if (item.marker) {
-        if (!regroup) {
-          continue;
+      if (item.place) {
+        // Pins are made on demand by drawPins, so a place only needs to be handed to the index
+        if (regroup && item !== selected && visible.has(item)) {
+          points.push(item);
         }
-
-        const state =
-          item === selected
-            ? "pinned"
-            : visible.has(item)
-              ? "clustered"
-              : "hidden";
-
-        if (item.state !== state) {
-          if (item.state === "clustered") {
-            fromCluster.push(item.marker);
-          }
-
-          if (state === "clustered") {
-            toCluster.push(item.marker);
-          }
-
-          pins.push(item);
-          item.state = state;
-        }
-
-        item.marker.content.classList.toggle("selected", item === selected);
       } else {
         const shown = visible.has(item);
 
@@ -1077,22 +1057,115 @@ function render(regroup = true) {
     }
   }
 
-  if (fromCluster.length > 0 || toCluster.length > 0) {
-    clusterer.removeMarkers(fromCluster, true);
-    clusterer.addMarkers(toCluster, true);
-    clusterer.render();
-  }
-
-  for (const item of pins) {
-    if (item.state === "pinned") {
-      item.marker.map = map;
-      item.marker.zIndex = 2000;
-    } else if (item.state === "hidden") {
-      item.marker.map = null;
-    }
+  if (regroup) {
+    setPoints(points);
+    drawPins();
   }
 
   updateCounts(counts);
+}
+
+// Places are grouped into bubbles by the index, and a pin is made only for what is in view
+function setPoints(items) {
+  const changed =
+    !pointIndex ||
+    items.length !== pointItems.length ||
+    items.some((item, i) => item !== pointItems[i]);
+
+  if (changed) {
+    pointItems = items;
+    pointIndexVersion++;
+    pointIndex = new Supercluster({ radius: 60, maxZoom: 16 }).load(
+      items.map((item, i) => ({
+        type: "Feature",
+        id: i,
+        properties: {},
+        geometry: {
+          type: "Point",
+          coordinates: [item.position.lng, item.position.lat],
+        },
+      })),
+    );
+  }
+}
+
+function drawPins() {
+  const bounds = map?.getBounds();
+
+  if (!bounds || !pointIndex) {
+    return;
+  }
+
+  const index = pointIndex;
+  const view = bounds.toJSON();
+
+  // A margin around the screen, so pins at the edge are there before they are panned in
+  const marginLat = (view.north - view.south) * 0.25;
+  const marginLng = (view.east - view.west) * 0.25;
+  const box = [
+    Math.max(view.west - marginLng, -180),
+    Math.max(view.south - marginLat, -85),
+    Math.min(view.east + marginLng, 180),
+    Math.min(view.north + marginLat, 85),
+  ];
+
+  const wanted = new Map();
+
+  for (const feature of index.getClusters(box, Math.round(map.getZoom()))) {
+    const [lng, lat] = feature.geometry.coordinates;
+    const properties = feature.properties;
+
+    if (properties.cluster) {
+      const key = `${pointIndexVersion}:${properties.cluster_id}`;
+
+      wanted.set(
+        key,
+        drawn.get(key) ??
+          renderCluster(
+            properties.cluster_id,
+            properties.point_count,
+            point(lat, lng),
+            index,
+          ),
+      );
+    } else {
+      // The id of a point is its position in the list given to the index
+      const item = pointItems[feature.id];
+
+      wanted.set(item, drawn.get(item) ?? pinFor(item));
+    }
+  }
+
+  if (selected?.place) {
+    wanted.set(selected, drawn.get(selected) ?? pinFor(selected));
+  }
+
+  for (const [key, marker] of drawn) {
+    if (!wanted.has(key)) {
+      marker.map = null;
+    }
+  }
+
+  drawn.clear();
+
+  for (const [key, marker] of wanted) {
+    if (typeof key !== "string") {
+      marker.content.classList.toggle("selected", key === selected);
+      marker.zIndex = key === selected ? 2000 : null;
+    }
+
+    if (marker.map !== map) {
+      marker.map = map;
+    }
+
+    drawn.set(key, marker);
+  }
+}
+
+function pinFor(item) {
+  item.marker ??= createMarker(item.position, markerIcon(item.place), item);
+
+  return item.marker;
 }
 
 function styleRoute(item) {
