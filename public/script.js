@@ -55,6 +55,17 @@ const GROUP_COLORS = {
   explore: "#22303c",
 };
 
+// Icons of the panel sections. Routes has none
+const SECTION_ICONS = {
+  Stay: "bed",
+  Explore: "explore",
+  Water: "water_drop",
+  "Bike support": "pedal_bike",
+  "Rest stops": "table_restaurant",
+  Nature: "park",
+  Favorites: "favorite",
+};
+
 const PLACES = [
   {
     id: "camping",
@@ -513,13 +524,16 @@ function byCount(items) {
 
 // Routes stay open. Every other group starts collapsed
 function group(name, rows, collapsible = true) {
+  const icon = SECTION_ICONS[name]
+    ? `<span class="material-symbols-outlined" aria-hidden="true">${SECTION_ICONS[name]}</span>`
+    : "";
   const badge = '<span class="badge" hidden></span>';
 
   if (!collapsible) {
-    return `<section class="group"><h2>${name}${badge}</h2>${rows}</section>`;
+    return `<section class="group"><h2>${icon}${name}${badge}</h2>${rows}</section>`;
   }
 
-  return `<details class="group"><summary><h2>${name}${badge}</h2><span class="material-symbols-outlined">chevron_right</span></summary>${rows}</details>`;
+  return `<details class="group"><summary><h2>${icon}${name}${badge}</h2><span class="material-symbols-outlined">chevron_right</span></summary>${rows}</details>`;
 }
 
 function activityRow(activity) {
