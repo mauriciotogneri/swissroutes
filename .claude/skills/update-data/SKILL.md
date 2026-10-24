@@ -68,6 +68,8 @@ The steps run in order 0–9. Steps 1–3 take most of the time (the route downl
    mkdir -p logs
    ```
 
+   With a clean tree, any logs already in `logs/` (and the downloaded `.gpkg` files) are left over from an earlier update and not a run in progress: October 2026 started with 12 such files. Each step's `tee` overwrites its own log, so leave them, but `ls logs` after a step if a log is missing.
+
 5. Save the starting commit. Steps 4, 6 and 8 and Undo compare against it.
 
    ```sh
@@ -121,7 +123,7 @@ grep -nE '^Error (downloading file|getting ids):|^ +at |NO IDS FOUND|MORE THAN O
 
 - `Error getting ids:` means the id list couldn't be downloaded. `Error downloading file:` means a single place couldn't. In both cases the script stopped before writing that layer's id list. Rerun the same command. If no `Retrying:` lines come before the error, read step 1 first: the response format has probably changed.
 - `NO IDS FOUND: <url>` means SchweizMobil returned an empty list. The address has probably changed. Open the URL in a browser before you rerun. If the address changed, update it in `bin/helpers.js`.
-- `MORE THAN ONE FEATURE: <url>` means that place was skipped, but its id is still on the new list. If the place is new, it has no file, and check 2 in step 4 will report it (a new shop 1404 did in October 2026). If it existed before, it keeps its old file. Ask the user then: accept it (the site skips that place and logs one `Could not load` message), or remove its id from the list. The next download adds the id back.
+- `MORE THAN ONE FEATURE: <url>` means that place was skipped, but its id is still on the new list. If the place is new, it has no file, and check 2 in step 4 will report it (a new shop 1404 did in October 2026, and it did again in a later update, because the id was not on the baseline list: the download adds it back every time). If it existed before, it keeps its old file. Ask the user then: accept it (the site skips that place and logs one `Could not load` message), or remove its id from the list. The next download adds the id back.
 
 The hand-made sightseeing entries (ids 10001 and up) are safe. They are listed only in `ids/favorites/visit.json`, which no script writes, and step 6 keeps every file that a favorites list refers to.
 
@@ -282,7 +284,7 @@ If the user chooses to do it, download the KML yourself first. The map is public
    It must answer `200` with `text/xml`. The file has five folders: `Ladestation`, `Ladestation in Planung`, `Ladekabel Verleih/Verkauf`, `Vertriebspartner` and `Ladestation E-Car`.
 
 2. Keep only the `Ladestation` folder.
-3. Convert the KML (XML) to JSON. Save just that folder's placemarks as `logs/chargingstations.json` (gitignored), then move it to `public/data/other/chargingstations/chargingstations.json` only once the check below passes. A small regex-based script is enough: split the file into `<Folder>` blocks, take the one named `Ladestation`, and for each `<Placemark>` write `name`, `description` (as `{ "__cdata": ... }`) and `Point.coordinates` (trimmed), as a JSON array with 2-space indentation. The site reads only those three fields (`buildChargingStations` and `chargingStationDetails` in `script.js`), so `styleUrl` and `ExtendedData` can be dropped, which also makes the file smaller. October 2026: 1,411 stations, of which 92 had new coordinates and 20 old ones were gone.
+3. Convert the KML (XML) to JSON. Save just that folder's placemarks as `logs/chargingstations.json` (gitignored), then move it to `public/data/other/chargingstations/chargingstations.json` only once the check below passes. A small regex-based script is enough: split the file into `<Folder>` blocks, take the one named `Ladestation`, and for each `<Placemark>` write `name`, `description` (as `{ "__cdata": ... }`) and `Point.coordinates` (trimmed), as a JSON array with 2-space indentation. The site reads only those three fields (`buildChargingStations` and `chargingStationDetails` in `script.js`), so `styleUrl` and `ExtendedData` can be dropped, which also makes the file smaller. October 2026: 1,411 stations, of which 92 had new coordinates and 20 old ones were gone. `JSON.stringify(list, null, 2)` matches the committed file's layout (no trailing newline), so `git diff --stat` shows only real changes. To list the folders in the KML use `grep -n -A1 '<Folder' <file>` (the name is on the next line, so a one-line pattern finds nothing), and to classify the updates, strip the `<img ...>` tag from the descriptions before comparing: in a later update that month 1,253 of 1,254 updates were image links only.
 
 The site expects a JSON array where every entry looks like this:
 
@@ -430,7 +432,7 @@ console.log(line('**Total (excluding stations)**', total))
 EOF
 ```
 
-Paste the table into the report. "Updated" means the file differs in any way, not that the place itself changed: in October 2026 every route file counted as updated because of coordinates and photo links, and 1,187 of the 1,190 station updates were only a new image link. Say so in one line under the table. The October 2026 result was 535 created, 1,501 updated and 582 deleted (−47), with the bike shops going from 523 to 486 files after a renumbering and all accommodation layers unchanged.
+Paste the table into the report. "Updated" means the file differs in any way, not that the place itself changed: in October 2026 every route file counted as updated because of coordinates and photo links, and 1,187 of the 1,190 station updates were only a new image link. Say so in one line under the table. A repeat update shortly after an earlier one changes almost nothing: in a later October 2026 run every route and place file was byte-identical (0 created, 0 updated, 0 deleted), only one OpenStreetMap file and 1,254 station entries (image links) differed, and cleanup deleted nothing. The first October 2026 result was 535 created, 1,501 updated and 582 deleted (−47), with the bike shops going from 523 to 486 files after a renumbering and all accommodation layers unchanged.
 
 ## Step 8: Review and commit
 
