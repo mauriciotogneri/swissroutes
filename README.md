@@ -38,14 +38,10 @@ https://opencampingmap.org
 
 ## TODO
 
-dark mode?
-
-analytics?
-
 what is the folder "ids" for?
-
-apocalypse review
 
 resolve all README
 
 run vitrine pro website check
+
+apocalypse review

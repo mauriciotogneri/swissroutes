@@ -44,6 +44,23 @@
       PARAM_TYPE = PARAMS.get('type')
     }
   </script>
+
+  <!-- Firebase Analytics -->
+  <script type="module">
+    import { initializeApp } from 'https://www.gstatic.com/firebasejs/13.1.0/firebase-app.js'
+    import { getAnalytics, logEvent } from 'https://www.gstatic.com/firebasejs/13.1.0/firebase-analytics.js'
+
+    const app = initializeApp({
+      apiKey: 'AIzaSyCArtdn-Jxg-L3DAgFJ61XG2nA2hTtW4Uo',
+      projectId: 'swiss-routes',
+      appId: '1:282422307608:web:dc0a715a966b552d054c6d'
+    })
+
+    const analytics = getAnalytics(app)
+
+    // script.js sends its events through this
+    window.trackEvent = (name, params) => logEvent(analytics, name, params)
+  </script>
 </head>
 
 <body>

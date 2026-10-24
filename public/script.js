@@ -278,6 +278,7 @@ function toggleLayer(button) {
 
   if (active) {
     activeLayers.add(id)
+    track('layer_toggle', { layer: id })
 
     const layer = LAYERS[id]
 
@@ -818,9 +819,11 @@ function moveTooltip(event) {
 
 // Details
 
-function selectItem(item) {
+function selectItem(item, source = 'map') {
   selected = item
   galleryIndex = 0
+
+  track('select_content', { content_type: contentType(item), content_id: item.label, source: source })
 
   const details = document.getElementById('details')
   details.innerHTML = detailsContent(item)
@@ -853,7 +856,7 @@ function openSharedItem(type, url) {
     loadFile(url, build).then((items) => {
       if (items.length > 0) {
         sharedItem = items[0]
-        selectItem(items[0])
+        selectItem(items[0], 'shared_link')
         map.fitBounds(items[0].bounds, mapPadding())
       }
     })
@@ -1097,8 +1100,12 @@ function copyLink(button) {
   const link = `${location.origin}${location.pathname}?url=${encodeURIComponent(selected.url)}&type=${selected.type}`
   const label = button.querySelector('.action-label')
   const icon = button.querySelector('.material-symbols-outlined')
+  // The selection can change before the clipboard write finishes
+  const item = selected
 
   navigator.clipboard.writeText(link).then(() => {
+    track('share', { method: 'copy_link', content_type: contentType(item), item_id: item.label })
+
     label.textContent = 'Link copied'
     icon.textContent = 'check'
 
@@ -1212,6 +1219,18 @@ function mapPadding() {
   }
 }
 
+// Analytics
+
+// Set by the Firebase snippet in index.html, and missing when analytics is blocked
+function track(name, params) {
+  window.trackEvent?.(name, params)
+}
+
+// Places report their category (camping, hostel…), routes their activity
+function contentType(item) {
+  return item.place?.id ?? item.type
+}
+
 // Helpers
 
 function point(lat, lng) {
@@ -1249,6 +1268,8 @@ function around(position, gap) {
 }
 
 function download() {
+  track('gpx_download', { item_id: selected.label })
+
   const data = gpxData(selected.json)
   const filename = `${selected.json.properties.r_number} - ${selected.json.properties.title}.gpx`
   const file = new Blob([data], { type: 'application/xml' })
