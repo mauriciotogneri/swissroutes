@@ -835,8 +835,7 @@ body.has-details .map-controls {
   line-height: 1.15;
 }
 
-.notice p,
-.small-screen p {
+.notice p {
   margin: 0;
   color: var(--ink-soft);
   font-size: 15px;
