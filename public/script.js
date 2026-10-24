@@ -19,7 +19,7 @@ const ACTIVITIES = [
     id: "hiking",
     name: "Hiking",
     noun: "hiking route",
-    color: "#0b5cad",
+    color: "#d52b1e",
     ids: {
       national: HIKING_NATIONAL_IDS,
       regional: HIKING_REGIONAL_IDS,
@@ -30,7 +30,7 @@ const ACTIVITIES = [
     id: "cycling",
     name: "Cycling",
     noun: "cycling route",
-    color: "#d9620b",
+    color: "#0b5cad",
     ids: {
       national: CYCLING_NATIONAL_IDS,
       regional: CYCLING_REGIONAL_IDS,
@@ -51,7 +51,7 @@ const ACTIVITIES = [
 ];
 
 const GROUP_COLORS = {
-  stay: "#d52b1e",
+  stay: "#22303c",
   explore: "#22303c",
 };
 
@@ -513,11 +513,13 @@ function byCount(items) {
 
 // Routes stay open. Every other group starts collapsed
 function group(name, rows, collapsible = true) {
+  const badge = '<span class="badge" hidden></span>';
+
   if (!collapsible) {
-    return `<section class="group"><h2>${name}</h2>${rows}</section>`;
+    return `<section class="group"><h2>${name}${badge}</h2>${rows}</section>`;
   }
 
-  return `<details class="group"><summary><h2>${name}</h2><span class="material-symbols-outlined">chevron_right</span></summary>${rows}</details>`;
+  return `<details class="group"><summary><h2>${name}${badge}</h2><span class="material-symbols-outlined">chevron_right</span></summary>${rows}</details>`;
 }
 
 function activityRow(activity) {
@@ -586,6 +588,7 @@ function toggleLayer(button) {
   }
 
   sharedItem = undefined;
+  updateBadges();
 
   for (const filters of document.querySelectorAll("[data-filters]")) {
     filters.hidden = ![...activeLayers].some(
@@ -594,6 +597,19 @@ function toggleLayer(button) {
   }
 
   scheduleRender();
+}
+
+// Each section title shows how many of its rows are on. A route row counts once, however many levels are on
+function updateBadges() {
+  for (const section of document.querySelectorAll(".group")) {
+    const selected = section.querySelectorAll(
+      '.toggle[aria-pressed="true"], .row:has(.chip[aria-pressed="true"])',
+    ).length;
+    const badge = section.querySelector(".badge");
+
+    badge.textContent = selected;
+    badge.hidden = !selected;
+  }
 }
 
 function onFilterChange() {
