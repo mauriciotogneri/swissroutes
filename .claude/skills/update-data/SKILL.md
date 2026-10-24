@@ -16,8 +16,8 @@ Run the steps below strictly one at a time:
 4. If the step failed or the result is unclear, stop and follow that step's "When it didn't" guidance. Say what you propose and wait. Never skip ahead.
 5. Steps 1, 2 and 3 are run one after another, never in parallel, even though they are independent.
 6. Steps 1–3 take minutes: run them in the background and wait for the completion notice. Don't poll the log.
-7. Step 5 is by hand: ask whether to do it or skip it. Step 7 serves the site: run the server in the background and ask the user to do the browser checks (or to say if you should). Stop the server afterwards.
-8. Commit in step 8 and deploy in step 9 only when the user explicitly says so at that step. Never create a branch.
+7. Step 5 is by hand: ask whether to do it or skip it, and if the user does it, ask them for the KML file or the finished JSON. Step 7 serves the site: run the server in the background and ask the user to do the browser checks (or to say if you should). Stop the server afterwards.
+8. Commit in step 8 and deploy in step 9 only when the user explicitly says so at that step. A yes to "continue with step 8" or "continue with step 9" is not that say-so: each step asks its own commit or deploy question. Never create a branch.
 
 The rest of this file is the runbook.
 
@@ -27,24 +27,9 @@ The whole update takes about an hour, most of it the route download. It changes 
 
 See `AGENTS.md` in the repository root for how the data sources, folders and scripts fit together.
 
-## Overview
+## Order
 
-| Step | What                                            | Command                                | Time          |
-| :--- | :---------------------------------------------- | :------------------------------------- | :------------ |
-| 0    | Check the tools and start from a clean checkout | `node --version`, `git status --short` | 1 minute      |
-| 1    | Routes                                          | `node bin/route-downloader.js`         | 30–40 minutes |
-| 2    | Bike service shops and sightseeing              | `node bin/other-downloader.js`         | ~10 minutes   |
-| 3    | Accommodation                                   | `node bin/accommodation-downloader.js` | ~5 minutes    |
-| 4    | Check the downloads                             | The three checks in step 4             | 1 minute      |
-| 5    | Charging stations (optional, by hand)           | —                                      | 15 minutes    |
-| 6    | Delete files of places that disappeared         | `node bin/cleanup.js`                  | seconds       |
-| 7    | Generate `public/ids.js` and test locally       | `./scripts/serve.sh`                   | 10 minutes    |
-| 8    | Review and commit                               | `git status`                           | 5 minutes     |
-| 9    | Deploy                                          | `./scripts/deploy.sh`                  | 2 minutes     |
-
-The times are estimates. Requests take about 0.5 seconds each, measured once in October 2026.
-
-Steps 1, 2 and 3 don't depend on each other, but this skill runs them one after another. Everything from step 4 on needs all three to have finished.
+The steps run in order 0–9. Steps 1–3 take most of the time (the route download alone is 30–40 minutes). Everything from step 4 on needs all three to have finished.
 
 ## Rules that apply to every step
 
@@ -55,7 +40,7 @@ Steps 1, 2 and 3 don't depend on each other, but this skill runs them one after 
 
 ## Step 0: Before you start
 
-1. Check Node. It must be version 18 or newer, because the scripts use the built-in `fetch`.
+1. Check Node. It must be version 18 or newer, because the scripts use the built-in `fetch`. If it is older, stop and ask the user to upgrade.
 
    ```sh
    node --version
@@ -73,7 +58,7 @@ Steps 1, 2 and 3 don't depend on each other, but this skill runs them one after 
    git status --short
    ```
 
-   Commit or stash anything it lists first. A clean start keeps the diff in step 8 limited to the update, and makes [Undo](#undo) safe.
+   If it prints anything, stop. Tell the user which files are listed and wait; do not commit, stash, restore or delete anything unless the user says to. If the user chooses stash, use `git stash -u`, because a plain stash leaves untracked files that [Undo](#undo) would delete. If `logs/` also holds logs, this may be a run in progress: ask which step was reached. Continue only when the command prints nothing (run it again to confirm). A clean start keeps the diff in step 8 limited to the update, and makes Undo safe.
 
 4. Create a folder for the logs. `logs/` is gitignored.
 
@@ -91,10 +76,10 @@ node bin/route-downloader.js 2>&1 | tee logs/routes.log
 
 **While it runs**, it prints one line per number it tries, for example `Wanderland-RoutenLokal: 109 (10%)`. The groups run in this order: `Mtbland` (mountain bike), `Veloland` (cycling), `Wanderland` (hiking). Within each group the order is `RoutenNational`, `RoutenRegional`, `RoutenLokal`.
 
-**When it worked**, the last progress line is `Wanderland-RoutenLokal: 999 (99%)` and the search below finds nothing:
+**When it worked**, the last progress line is `Wanderland-RoutenLokal: 999 (99%)` and the search below prints `no matches`:
 
 ```sh
-grep -nE '^Error (downloading file|getting ids):|^ +at |NO IDS FOUND|MORE THAN ONE FEATURE|DUPLICATED ID' logs/routes.log
+grep -nE '^Error (downloading file|getting ids):|^ +at |NO IDS FOUND|MORE THAN ONE FEATURE|DUPLICATED ID' logs/routes.log || { [ $? -eq 1 ] && echo "no matches"; }
 ```
 
 A `Retrying:` line, followed by a line such as `Error: HTTP 503` or `TypeError: fetch failed`, is fine on its own. It means a request failed and is being tried again. The search above ignores these lines.
@@ -104,7 +89,7 @@ A `Retrying:` line, followed by a line such as `Error: HTTP 503` or `TypeError: 
 - A stack trace (lines starting with `    at`) means the script stopped. The route lists finished before that point have been updated. The list being downloaded at that point has not, though some of its files were already overwritten.
   - Usually `Retrying:` lines come first, then `Error downloading file: <url>`. That means a request failed 3 times. Wait a few minutes and run the same command again. The script can't resume, so it starts over from route 1.
   - If `Error downloading file:` has no `Retrying:` lines before it, and the line after it is a `TypeError`, SchweizMobil has changed the format of its response. Rerunning won't help. The script needs updating.
-- `MORE THAN ONE FEATURE: <url>` means SchweizMobil returned several routes for one number. The script skips that number, so it's missing from the new list, and step 6 will delete its old file. Open the URL in a browser to see what came back. If only a few numbers are affected, accept it and carry on.
+- `MORE THAN ONE FEATURE: <url>` means SchweizMobil returned several routes for one number. The script skips that number, so it's missing from the new list, and step 6 will delete its old file. Open the URL in a browser to see what came back. Report the affected numbers to the user and let them decide.
 
 Route numbers that don't exist are not errors. SchweizMobil answers them with an empty result, and the script just moves on.
 
@@ -118,16 +103,16 @@ node bin/other-downloader.js 2>&1 | tee logs/other.log
 
 **While it runs**, it prints `SERVICESHOP: <id> (<percent>%)` and then `SIGHTSEEING: <id> (<percent>%)`.
 
-**When it worked**, the last progress line is a `SIGHTSEEING:` line at 99% and the search below finds nothing:
+**When it worked**, the last progress line is a `SIGHTSEEING:` line at 99% and the search below prints `no matches`:
 
 ```sh
-grep -nE '^Error (downloading file|getting ids):|^ +at |NO IDS FOUND|MORE THAN ONE FEATURE|DUPLICATED ID' logs/other.log
+grep -nE '^Error (downloading file|getting ids):|^ +at |NO IDS FOUND|MORE THAN ONE FEATURE|DUPLICATED ID' logs/other.log || { [ $? -eq 1 ] && echo "no matches"; }
 ```
 
 **When it didn't:**
 
 - `Error getting ids:` means the id list couldn't be downloaded. `Error downloading file:` means a single place couldn't. In both cases the script stopped before writing that layer's id list. Rerun the same command. If no `Retrying:` lines come before the error, read step 1 first: the response format has probably changed.
-- `NO IDS FOUND: <url>` means SchweizMobil returned an empty list. The address has probably changed. Open the URL in a browser before you rerun.
+- `NO IDS FOUND: <url>` means SchweizMobil returned an empty list. The address has probably changed. Open the URL in a browser before you rerun. If the address changed, update it in `bin/helpers.js`.
 - `MORE THAN ONE FEATURE: <url>` means that place was skipped, but its id is still on the new list. If the place is new, check 2 in step 4 will report its missing file. If it existed before, it keeps its old file.
 
 The hand-made sightseeing entries (ids 10001 and up) are safe. They are listed only in `ids/favorites/visit.json`, which no script writes, and step 6 keeps every file that a favorites list refers to.
@@ -152,20 +137,22 @@ Downloads, in this order:
 node bin/accommodation-downloader.js 2>&1 | tee logs/accommodation.log
 ```
 
-**When it worked**, the last progress line is a `MOUNTAINHUT:` line at 99%. The script then spends a few more seconds on the three My Switzerland layers without printing anything. When the prompt returns, the search below must find nothing:
+**When it worked**, the last progress line is a `MOUNTAINHUT:` line at 99%. The script then spends a few more seconds on the three My Switzerland layers without printing anything. When the prompt returns, the search below must print `no matches`:
 
 ```sh
-grep -nE '^Error (downloading file|getting ids):|^ +at |NO IDS FOUND|MORE THAN ONE FEATURE|DUPLICATED ID' logs/accommodation.log
+grep -nE '^Error (downloading file|getting ids):|^ +at |NO IDS FOUND|MORE THAN ONE FEATURE|DUPLICATED ID' logs/accommodation.log || { [ $? -eq 1 ] && echo "no matches"; }
 ```
 
 **When it didn't:**
 
 - **Any error at all: rerun the whole script until it finishes cleanly, and don't move on to step 6 before that.** The campsite list combines two sources. The SchweizMobil step writes it, then the My Switzerland step adds its own ids. If the second step fails, the list holds only the SchweizMobil campsites. Running step 6 then would delete every My Switzerland campsite file.
 - `DUPLICATED ID <number>: <id>` means two My Switzerland places got the same 9-digit number. Rerunning doesn't help, because the numbers are computed from the places' own ids. The id scheme in `bin/helpers.js` has to change.
-- If a My Switzerland layer suddenly has no places, My Switzerland has probably changed its category ids. That doesn't stop the script, and rerunning won't help. In check 1 of step 4, hostels, B&Bs or group houses show `-> 0`. Campsites keep their SchweizMobil part, so they show a drop of about 70% instead (from 263 to about 70 in October 2026). **Don't run step 6 until this is fixed.** For campsites, it would delete every My Switzerland file. Find the new category id and update it in `bin/accommodation-downloader.js`. `reference/my-switzerland-categories.json` holds the May-2024 names and ids for comparison.
+- If a My Switzerland layer suddenly has no places, My Switzerland has probably changed its category ids. That doesn't stop the script, and rerunning won't help. In check 1 of step 4, hostels, B&Bs or group houses show `-> 0`. Campsites keep their SchweizMobil part, so they show a drop of about 70% instead. **Don't run step 6 until this is fixed.** For campsites, it would delete every My Switzerland file. Find the new category id and update it in `bin/accommodation-downloader.js`. `reference/my-switzerland-categories.json` holds the May-2024 names and ids for comparison.
+- A stack trace with `HTTP <status>` or `fetch failed` and no `Error downloading file:` line before it means a My Switzerland request failed 3 times. Wait, then rerun the whole script.
+- Any other `TypeError` with a stack trace into `bin/helpers.js` means a source has changed the format of its response. Rerunning won't help. The script needs updating; open the last URL in the log to see the new format.
 - The other messages mean the same as in step 2.
 
-SchweizMobil can renumber all of its accommodation ids, as it did by October 2026. When that happens, share links to those places stop working. That's expected.
+SchweizMobil can renumber all of its accommodation ids (see Ids in `AGENTS.md`). When that happens, share links to those places stop working. That's expected.
 
 ## Step 4: Check the downloads
 
@@ -218,7 +205,7 @@ It must print `No problems`. Otherwise:
 | `<list>: no data file for <id>`                                        | The id is on a list but has no file. The site will skip that place and log `Could not load` in the browser console.                                  | Look for `MORE THAN ONE FEATURE` with that id in the logs. If there is no such line, SchweizMobil returned nothing for that id. If one or two places are affected, accept it. If many are, rerun that downloader.    |
 | `favorites/hiking: <id> is no longer a ... route`                      | SchweizMobil dropped that route number. Step 6 keeps its old file because a favorites list still refers to it, so the site shows the outdated route. | Find the route's new number on [map.schweizmobil.ch](https://map.schweizmobil.ch) and put it in `ids/favorites/hiking.json`, or delete the entry.                                                                    |
 | `favorites/visit: <id> is no longer a ... place`                       | Same as above, for a favorite sightseeing place.                                                                                                     | Update or delete the entry in `ids/favorites/visit.json`.                                                                                                                                                            |
-| `other/sightseeing: SchweizMobil id <id> overlaps the hand-made range` | SchweizMobil now uses ids of 10001 and up, so the download may have overwritten a hand-made entry with the same id.                                  | **Stop.** Run `git restore public/data/other/sightseeing/<id>.json` for each id listed. Then renumber the hand-made entries to a range SchweizMobil doesn't use, in both their files and `ids/favorites/visit.json`. |
+| `other/sightseeing: SchweizMobil id <id> overlaps the hand-made range` | SchweizMobil now uses ids of 10001 and up, so the download may have overwritten a hand-made entry with the same id.                                  | **Stop.** For each id listed, check whether it is in `ids/favorites/visit.json`. If not, nothing hand-made was overwritten: tell the user and carry on. If it is, restore the hand-made file under a new id with `git show HEAD:public/data/other/sightseeing/<id>.json`, and update the file name, its inner `id` and the `visit.json` entry. Pick a new id above every id on `ids/other/sightseeing.json`. Rerun `node bin/other-downloader.js` so the SchweizMobil place gets its file back, then move the `10001` threshold in check 2 to the new range. |
 
 ### Check 3: Favorites that now point somewhere else
 
@@ -249,9 +236,11 @@ If you edited a favorites list, run check 2 again.
 
 The e-bike charging stations come from the Bike Energy map on Google My Maps, which has no download script. Skip this step if the stations don't need refreshing.
 
+If the user chooses to do it, ask them for the KML file or the finished JSON. If you convert the KML, use a throwaway script outside the repository, not a dependency.
+
 1. Open the [Bike Energy map](https://www.google.com/maps/d/u/0/viewer?mid=1wdyB_yGO8FqEWUbD-HJTvpQ-KRY) and download it as KML.
 2. Keep only the `Ladestation` folder.
-3. Convert the KML (XML) to JSON. Save just that folder's list of placemarks as `public/data/other/chargingstations/chargingstations.json`.
+3. Convert the KML (XML) to JSON. Save just that folder's list of placemarks as `logs/chargingstations.json` (gitignored), then move it to `public/data/other/chargingstations/chargingstations.json` only once the check below passes.
 
 The site expects a JSON array where every entry looks like this:
 
@@ -265,21 +254,26 @@ The site expects a JSON array where every entry looks like this:
 
 `name` can be a plain string or `{ "__cdata": "..." }`. `coordinates` is a single string in the order longitude, latitude, altitude. `description` is optional. Other fields, such as `styleUrl` or `ExtendedData`, are ignored. The map also covers other countries, but the site only shows the stations inside a box around Switzerland, so the file can hold all of them.
 
-Check the new file before moving on:
+Check the new file before moving it into place:
 
 ```sh
 node -e "
-const list = require('./public/data/other/chargingstations/chargingstations.json')
-const bad = list.filter((e) => !e.name || !e.Point || typeof e.Point.coordinates !== 'string' || (e.description && !e.description.__cdata))
-console.log(list.length + ' stations, ' + bad.length + ' malformed')
-"
+const fs = require('fs'), { execSync } = require('child_process')
+const list = JSON.parse(fs.readFileSync(process.argv[1], 'utf-8'))
+const before = JSON.parse(execSync('git show HEAD:public/data/other/chargingstations/chargingstations.json', { maxBuffer: 1 << 28 })).length
+const text = (v) => typeof v === 'string' ? v : v && v.__cdata
+const bad = list.filter((e) => typeof text(e.name) !== 'string' || !e.Point || !/^-?\d+(\.\d+)?,-?\d+(\.\d+)?/.test(e.Point.coordinates) || (e.description && typeof e.description.__cdata !== 'string'))
+console.log(list.length + ' stations (' + before + ' before), ' + bad.length + ' malformed')
+" logs/chargingstations.json
 ```
 
-It should show a count similar to before (1,339 in October 2026) and `0 malformed`. Step 6 never touches this file.
+It must show `0 malformed` and a count within 10% of the previous one (1,339 in October 2026). If it doesn't, don't move the file into place. If the real file was already overwritten, run `git restore public/data/other/chargingstations/chargingstations.json`, then stop and tell the user. Step 6 never touches this file.
 
 ## Step 6: Delete files of places that disappeared
 
 **Only run this step when steps 1–3 all finished cleanly and step 4 is clean.**
+
+Before running it, list for each `ids/` list the ids that are in the last commit (`git show HEAD:<list>`, as in check 1) but not in the new list, and say whether each had a data file. Put them in the ⚠️ item ("cleanup will delete about N files, including these ids: …") and wait for a yes.
 
 ```sh
 node bin/cleanup.js
@@ -295,7 +289,9 @@ accommodation/camping: deleted 12
 
 A few deletions per folder are normal. Many deletions where step 4 showed little change mean SchweizMobil renumbered that layer, which is also fine. If a folder shows `skipped, an id list for it is empty`, that list is empty and step 4 should already have flagged it.
 
-The deletions are only on disk. [Undo](#undo) brings the files back until you commit.
+If the script stops with `ENOENT`, an `ids/` list exists for a folder that `public/data/` doesn't have. Rerun the downloader for that layer. Files may already have been deleted, so run [Undo](#undo) if the user wants to start over.
+
+The deletions are only on disk. Undo brings the files back until you commit.
 
 ## Step 7: Generate `public/ids.js` and test locally
 
@@ -303,7 +299,7 @@ The deletions are only on disk. [Undo](#undo) brings the files back until you co
 ./scripts/serve.sh
 ```
 
-This runs `bin/ids-generator.js`, which writes `public/ids.js` from the `ids/` lists, then serves the site. If the generator fails with `ENOENT ... ids/<name>.json`, one of the 21 lists is missing. Restore it with `git restore ids/<name>.json`.
+This runs `bin/ids-generator.js`, which writes `public/ids.js` from the `ids/` lists, then serves the site. If the generator fails with `ENOENT ... ids/<name>.json`, one of the lists is missing. Restore it with `git restore ids/<name>.json`.
 
 Open the site at **http://localhost:5000**. The Google Maps key only works on that exact address, so another port or host shows a broken map.
 
@@ -322,17 +318,25 @@ Stop the server with Ctrl+C.
 ```sh
 git status --short | wc -l             # how many files changed
 git status --short ids                 # which id lists changed
-git status --short public/data | grep -c '^ D'   # deleted data files
-git status --short public/data | grep -c '^??'   # new data files
+git status --short public/data | grep -c '^ D' || true   # deleted data files
+git status --short public/data | grep -c '^??' || true   # new data files
 ```
 
 `public/ids.js` is gitignored and never committed.
 
 The downloaded id lists and data files are stored as single-line JSON, so `git diff` shows each changed file as one long changed line. Check 1 in step 4 is the readable summary of the id lists. To compare a single data file, use `git show HEAD:<path>` against the file on disk.
 
-Commit `ids/` and `public/data/` together, so each id list and its files always match.
+Show the counts, then end with a ⚠️ item asking "Commit `ids/` and `public/data/` now?" A yes to "continue with step 8" is not permission to commit. Only after a yes to that question, commit `ids/` and `public/data/` together, so each id list and its files always match:
+
+```sh
+git add ids public/data && git commit -m "<short message>"
+```
+
+Then `git status --short` must print nothing.
 
 ## Step 9: Deploy
+
+Before deploying, `git status --short` must print nothing. If the user declined the commit, say the deploy would publish uncommitted data and ask again. The deploy question names the target: Firebase project `swiss-routes` (production).
 
 ```sh
 ./scripts/deploy.sh
@@ -350,20 +354,3 @@ git clean -fd public/data
 ```
 
 `git clean` deletes every untracked file under `public/data/`. That's safe only because step 0 started from a clean tree. Run `git clean -nd public/data` first to see what it would delete.
-
-## Error messages
-
-| Message                                                                                          | Meaning                                                                                                                          | What to do                                                                                                   |
-| :----------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------------------- |
-| `Retrying: <url>`                                                                                | A request failed and will be tried again, up to 3 times with a 2-second pause. The next line gives the reason.                   | Nothing, unless `Error downloading file:`, `Error getting ids:` or a stack trace follows.                    |
-| `Error downloading file: <url>` and a stack trace                                                | A SchweizMobil request failed 3 times, or its response couldn't be read. The script stopped before writing that layer's id list. | Wait, then rerun the same downloader. If no `Retrying:` lines come before it, see the `TypeError` row below. |
-| `Error getting ids: <url>`                                                                       | A SchweizMobil id list couldn't be downloaded.                                                                                   | Same as above.                                                                                               |
-| `NO IDS FOUND: <url>`                                                                            | SchweizMobil returned an empty id list. The script stopped.                                                                      | Open the URL in a browser. If the address has changed, update it in `bin/helpers.js`.                        |
-| `MORE THAN ONE FEATURE: <url>`                                                                   | SchweizMobil returned several results for one id, so it was skipped.                                                             | See steps 1 and 2.                                                                                           |
-| `DUPLICATED ID <number>: <id>`                                                                   | Two My Switzerland places got the same number.                                                                                   | Needs a code change in `bin/helpers.js`. See step 3.                                                         |
-| A stack trace with `HTTP <status>` or `fetch failed`, no `Error downloading file` line before it | A My Switzerland request failed 3 times.                                                                                         | Wait, then rerun `node bin/accommodation-downloader.js`.                                                     |
-| Any other `TypeError` with a stack trace into `bin/helpers.js`                                   | A source has changed the format of its response.                                                                                 | The script needs updating. Open the last URL in the log to see the new format.                               |
-| `fetch is not defined`                                                                           | Node is older than 18.                                                                                                           | Upgrade Node.                                                                                                |
-| `ENOENT` from `bin/cleanup.js`                                                                   | An `ids/` list exists for a folder that `public/data/` doesn't have.                                                             | Rerun the downloader for that layer.                                                                         |
-
-In October 2026 the SchweizMobil feature address `map.schweizmobil.ch/api/4/...` redirects to `schweizmobil.ch/api/4/...`. Node follows redirects, so the scripts still work. If that redirect ever goes away, change the address in `bin/helpers.js`.

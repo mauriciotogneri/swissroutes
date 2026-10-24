@@ -53,6 +53,8 @@ The three downloaders are independent of each other. Inside `accommodation-downl
 
 ## Downloading new data
 
+To refresh everything, suggest the user run the `/update-data` skill (user-invoked only). It runs the steps one at a time and holds the guard against running `cleanup.js` after a failed download.
+
 Requires Node 18 or newer (the scripts use the built-in `fetch`). Run everything from the repository root, because all paths are relative.
 
 ```sh
