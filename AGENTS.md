@@ -11,6 +11,8 @@ Swiss Routes is a static map site. Firebase Hosting serves only `public/`. All m
 | Bike Energy (Google My Maps)         | E-bike charging stations                                                                                                                                                    | KML export, see step 5 of `.claude/skills/update-data/SKILL.md`                                                                                                                                            |
 | Hand-made                            | Favorites lists, and sightseeing entries with ids 10001 and up                                                                                                              | Edited by hand, no script                                                                                                                                                                                  |
 
+The My Switzerland website, for looking places up by hand: https://www.myswitzerland.com/en-ch
+
 ## Folders
 
 | Folder            | Contents                                                                                                                    | Written by                                                      | Deployed        |
