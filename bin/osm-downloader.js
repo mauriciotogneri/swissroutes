@@ -32,7 +32,7 @@ const LAYERS = [
   { id: 'picnicsite', query: 'nwr[tourism=picnic_site]' },
   { id: 'picnictable', query: 'nwr[leisure=picnic_table]' },
   { id: 'firepit', query: 'nwr[leisure=firepit]' },
-  { id: 'toilets', query: 'nwr[amenity=toilets]' },
+  { id: 'toilets', query: 'nwr[amenity=toilets][fee!=yes][access!~"^(customers|private|no)$"]' },
 
   { id: 'waterfall', query: 'nwr[waterway=waterfall]' },
   { id: 'mountainpass', query: 'nwr[mountain_pass=yes]' },
@@ -50,7 +50,7 @@ const LAYERS = [
   { id: 'hotel', query: 'nwr[tourism=hotel]' },
   { id: 'guesthouse', query: 'nwr[tourism=guest_house]', near: ['accommodation/bnb'] },
   { id: 'chalet', query: 'nwr[tourism=chalet]' },
-  { id: 'campsite', query: 'nwr[tourism=camp_site]', near: ['accommodation/camping'] },
+  { id: 'campsite', query: 'nwr[tourism=camp_site][tents!=no]', near: ['accommodation/camping'] },
 ]
 
 async function run() {
