@@ -447,20 +447,20 @@ function buildPanel() {
 
   let content = group(
     "Routes",
-    activityRow(mountainBiking) + activityRow(hiking) + activityRow(cycling),
+    byCount([mountainBiking, hiking, cycling]).map(activityRow).join(""),
   );
   content += group(
     "Stay",
-    [...PLACES.filter((place) => place.group === "stay"), ...OSM_STAY]
+    byCount([...PLACES.filter((place) => place.group === "stay"), ...OSM_STAY])
       .map(placeRow)
       .join(""),
   );
   content += group(
     "Explore",
-    [
+    byCount([
       ...PLACES.filter((place) => place.group === "explore" && !place.section),
       ...OSM_EXPLORE,
-    ]
+    ])
       .map(placeRow)
       .join(""),
   );
@@ -470,7 +470,7 @@ function buildPanel() {
       ...PLACES.filter((place) => place.section === section.name),
       ...section.places,
     ];
-    content += group(section.name, places.map(placeRow).join(""));
+    content += group(section.name, byCount(places).map(placeRow).join(""));
   }
 
   if (FAVORITES_ENABLED) {
@@ -502,6 +502,11 @@ function buildPanel() {
   }
 
   updateCounts({});
+}
+
+// Rows with more places come first
+function byCount(items) {
+  return [...items].sort((a, b) => rowTotal(b.id) - rowTotal(a.id));
 }
 
 function group(name, rows) {
