@@ -1,4 +1,4 @@
-'use strict'
+"use strict";
 
 // The map opens fitted to this area: zoom 9 around Lucerne on a 1920 × 1080 screen, one step further out on smaller windows
 const INITIAL_VIEW = {
@@ -6,204 +6,403 @@ const INITIAL_VIEW = {
   south: 45.9,
   east: 10.2,
   west: 6.08,
-}
+};
 
 const LEVELS = [
-  { id: 'national', name: 'National', weight: 5, zIndex: 30 },
-  { id: 'regional', name: 'Regional', weight: 4, zIndex: 20 },
-  { id: 'local', name: 'Local', weight: 3, zIndex: 10 },
-]
+  { id: "national", name: "National", weight: 5, zIndex: 30 },
+  { id: "regional", name: "Regional", weight: 4, zIndex: 20 },
+  { id: "local", name: "Local", weight: 3, zIndex: 10 },
+];
 
 const ACTIVITIES = [
   {
-    id: 'hiking',
-    name: 'Hiking',
-    noun: 'hiking route',
-    color: '#0b5cad',
-    ids: { national: HIKING_NATIONAL_IDS, regional: HIKING_REGIONAL_IDS, local: HIKING_LOCAL_IDS },
+    id: "hiking",
+    name: "Hiking",
+    noun: "hiking route",
+    color: "#0b5cad",
+    ids: {
+      national: HIKING_NATIONAL_IDS,
+      regional: HIKING_REGIONAL_IDS,
+      local: HIKING_LOCAL_IDS,
+    },
   },
   {
-    id: 'cycling',
-    name: 'Cycling',
-    noun: 'cycling route',
-    color: '#d9620b',
-    ids: { national: CYCLING_NATIONAL_IDS, regional: CYCLING_REGIONAL_IDS, local: CYCLING_LOCAL_IDS },
+    id: "cycling",
+    name: "Cycling",
+    noun: "cycling route",
+    color: "#d9620b",
+    ids: {
+      national: CYCLING_NATIONAL_IDS,
+      regional: CYCLING_REGIONAL_IDS,
+      local: CYCLING_LOCAL_IDS,
+    },
   },
   {
-    id: 'mountainbiking',
-    name: 'Mountain biking',
-    noun: 'mountain bike route',
-    color: '#0e6b35',
-    ids: { national: MOUNTAINBIKING_NATIONAL_IDS, regional: MOUNTAINBIKING_REGIONAL_IDS, local: MOUNTAINBIKING_LOCAL_IDS },
+    id: "mountainbiking",
+    name: "Mountain biking",
+    noun: "mountain bike route",
+    color: "#0e6b35",
+    ids: {
+      national: MOUNTAINBIKING_NATIONAL_IDS,
+      regional: MOUNTAINBIKING_REGIONAL_IDS,
+      local: MOUNTAINBIKING_LOCAL_IDS,
+    },
   },
-]
+];
 
 const GROUP_COLORS = {
-  stay: '#d52b1e',
-  explore: '#22303c',
-}
+  stay: "#d52b1e",
+  explore: "#22303c",
+};
 
 const PLACES = [
-  { id: 'camping', group: 'stay', name: 'Camping', label: 'Campsite', icon: 'camping', folder: 'accommodation/camping', ids: ACCOMMODATION_CAMPING_IDS },
-  { id: 'backpacker', group: 'stay', name: 'Backpackers', label: 'Backpacker hostel', icon: 'backpack', folder: 'accommodation/backpacker', ids: ACCOMMODATION_BACKPACKER_IDS },
-  { id: 'hostel', group: 'stay', name: 'Hostels', label: 'Hostel', icon: 'gite', folder: 'accommodation/hostels', ids: ACCOMMODATION_HOSTEL_IDS },
-  { id: 'bnb', group: 'stay', name: 'B&Bs', label: 'B&B', icon: 'hotel', folder: 'accommodation/bnb', ids: ACCOMMODATION_BNB_IDS },
-  { id: 'grouphouse', group: 'stay', name: 'Group houses', label: 'Group house', icon: 'house', folder: 'accommodation/grouphouse', ids: ACCOMMODATION_GROUPHOUSE_IDS },
-  { id: 'farm', group: 'stay', name: 'Farm stays', label: 'Farm stay', icon: 'agriculture', folder: 'accommodation/farm', ids: ACCOMMODATION_FARM_IDS },
-  { id: 'sleepingstraw', group: 'stay', name: 'Sleeping in straw', label: 'Sleeping in straw', icon: 'bed', folder: 'accommodation/sleepingstraw', ids: ACCOMMODATION_SLEEPINGSTRAW_IDS },
-  { id: 'mountainhut', group: 'stay', name: 'Mountain huts', label: 'Mountain hut', icon: 'night_shelter', folder: 'accommodation/mountainhut', ids: ACCOMMODATION_MOUNTAINHUT_IDS },
-  { id: 'sightseeing', group: 'explore', name: 'Sightseeing', label: 'Sightseeing', icon: 'visibility', folder: 'other/sightseeing', ids: OTHER_SIGHTSEEING_IDS },
-  { id: 'serviceshop', group: 'explore', section: 'Bike support', name: 'Bike service', label: 'Bike service', icon: 'build', folder: 'other/serviceshop', ids: OTHER_SERVICESHOP_IDS },
-  { id: 'chargingstation', group: 'explore', section: 'Bike support', name: 'E-bike charging', label: 'E-bike charging station', icon: 'bolt', files: ['other/chargingstations/chargingstations.json', 'other/chargingstations/ebike-sockets.json'] },
-]
+  {
+    id: "camping",
+    group: "stay",
+    name: "Camping",
+    label: "Campsite",
+    icon: "camping",
+    folder: "accommodation/camping",
+    ids: ACCOMMODATION_CAMPING_IDS,
+  },
+  {
+    id: "backpacker",
+    group: "stay",
+    name: "Backpackers",
+    label: "Backpacker hostel",
+    icon: "backpack",
+    folder: "accommodation/backpacker",
+    ids: ACCOMMODATION_BACKPACKER_IDS,
+  },
+  {
+    id: "hostel",
+    group: "stay",
+    name: "Hostels",
+    label: "Hostel",
+    icon: "gite",
+    folder: "accommodation/hostels",
+    ids: ACCOMMODATION_HOSTEL_IDS,
+  },
+  {
+    id: "bnb",
+    group: "stay",
+    name: "B&Bs",
+    label: "B&B",
+    icon: "hotel",
+    folder: "accommodation/bnb",
+    ids: ACCOMMODATION_BNB_IDS,
+  },
+  {
+    id: "grouphouse",
+    group: "stay",
+    name: "Group houses",
+    label: "Group house",
+    icon: "house",
+    folder: "accommodation/grouphouse",
+    ids: ACCOMMODATION_GROUPHOUSE_IDS,
+  },
+  {
+    id: "farm",
+    group: "stay",
+    name: "Farm stays",
+    label: "Farm stay",
+    icon: "agriculture",
+    folder: "accommodation/farm",
+    ids: ACCOMMODATION_FARM_IDS,
+  },
+  {
+    id: "sleepingstraw",
+    group: "stay",
+    name: "Sleeping in straw",
+    label: "Sleeping in straw",
+    icon: "bed",
+    folder: "accommodation/sleepingstraw",
+    ids: ACCOMMODATION_SLEEPINGSTRAW_IDS,
+  },
+  {
+    id: "mountainhut",
+    group: "stay",
+    name: "Mountain huts",
+    label: "Mountain hut",
+    icon: "night_shelter",
+    folder: "accommodation/mountainhut",
+    ids: ACCOMMODATION_MOUNTAINHUT_IDS,
+  },
+  {
+    id: "sightseeing",
+    group: "explore",
+    name: "Sightseeing",
+    label: "Sightseeing",
+    icon: "visibility",
+    folder: "other/sightseeing",
+    ids: OTHER_SIGHTSEEING_IDS,
+  },
+  {
+    id: "serviceshop",
+    group: "explore",
+    section: "Bike support",
+    name: "Bike service",
+    label: "Bike service",
+    icon: "build",
+    folder: "other/serviceshop",
+    ids: OTHER_SERVICESHOP_IDS,
+  },
+  {
+    id: "chargingstation",
+    group: "explore",
+    section: "Bike support",
+    name: "E-bike charging",
+    label: "E-bike charging station",
+    icon: "bolt",
+    files: [
+      "other/chargingstations/chargingstations.json",
+      "other/chargingstations/ebike-sockets.json",
+    ],
+  },
+];
 
 // OpenStreetMap places, downloaded by bin/osm-downloader.js. Every type has its own toggle
 // These are listed under Stay, with the other places to sleep
 const OSM_STAY = [
-  osmPlace('stay', 'alpinehut', 'Alpine huts', 'Alpine hut', 'cabin'),
-  osmPlace('stay', 'wildernesshut', 'Wilderness huts', 'Wilderness hut', 'cottage'),
-  osmPlace('stay', 'basichut', 'Basic huts', 'Basic hut', 'fireplace'),
-  osmPlace('stay', 'hotel', 'Hotels', 'Hotel', 'apartment'),
-  osmPlace('stay', 'guesthouse', 'Guest houses', 'Guest house', 'bedroom_parent'),
-  osmPlace('stay', 'chalet', 'Chalets', 'Chalet', 'chalet'),
-  osmPlace('stay', 'campsite', 'Campsites', 'Campsite', 'camping'),
-]
+  osmPlace("stay", "alpinehut", "Alpine huts", "Alpine hut", "cabin"),
+  osmPlace(
+    "stay",
+    "wildernesshut",
+    "Wilderness huts",
+    "Wilderness hut",
+    "cottage",
+  ),
+  osmPlace("stay", "basichut", "Basic huts", "Basic hut", "fireplace"),
+  osmPlace("stay", "hotel", "Hotels", "Hotel", "apartment"),
+  osmPlace(
+    "stay",
+    "guesthouse",
+    "Guest houses",
+    "Guest house",
+    "bedroom_parent",
+  ),
+  osmPlace("stay", "chalet", "Chalets", "Chalet", "chalet"),
+  osmPlace("stay", "campsite", "Campsites", "Campsite", "camping"),
+];
 
 // These are listed under Explore, with sightseeing
-const OSM_EXPLORE = [
-  osmPlace('explore', 'ruins', 'Ruins', 'Ruins', 'fort'),
-]
+const OSM_EXPLORE = [osmPlace("explore", "ruins", "Ruins", "Ruins", "fort")];
 
 // The others have a section each. A place from PLACES with the same section name is listed there too
 const OSM_SECTIONS = [
   {
-    name: 'Water',
+    name: "Water",
     places: [
-      osmPlace('explore', 'drinkingwater', 'Drinking water', 'Drinking water', 'water_drop'),
-      osmPlace('explore', 'spring', 'Springs', 'Spring', 'water'),
+      osmPlace(
+        "explore",
+        "drinkingwater",
+        "Drinking water",
+        "Drinking water",
+        "water_drop",
+      ),
+      osmPlace("explore", "spring", "Springs", "Spring", "water"),
     ],
   },
   {
-    name: 'Bike support',
+    name: "Bike support",
     places: [
-      osmPlace('explore', 'ebikecharging', 'E-bike charging points', 'E-bike charging point', 'battery_charging_full'),
-      osmPlace('explore', 'bikerepair', 'Repair stations', 'Bike repair station', 'handyman'),
-      osmPlace('explore', 'airpump', 'Air pumps', 'Air pump', 'air'),
-      osmPlace('explore', 'bikerental', 'Bike rental', 'Bike rental', 'pedal_bike'),
+      osmPlace(
+        "explore",
+        "ebikecharging",
+        "E-bike charging points",
+        "E-bike charging point",
+        "battery_charging_full",
+      ),
+      osmPlace(
+        "explore",
+        "bikerepair",
+        "Repair stations",
+        "Bike repair station",
+        "handyman",
+      ),
+      osmPlace("explore", "airpump", "Air pumps", "Air pump", "air"),
+      osmPlace(
+        "explore",
+        "bikerental",
+        "Bike rental",
+        "Bike rental",
+        "pedal_bike",
+      ),
     ],
   },
   {
-    name: 'Rest stops',
+    name: "Rest stops",
     places: [
-      osmPlace('explore', 'picnicsite', 'Picnic sites', 'Picnic site', 'park'),
-      osmPlace('explore', 'picnictable', 'Picnic tables', 'Picnic table', 'table_restaurant'),
-      osmPlace('explore', 'firepit', 'Fire pits', 'Fire pit', 'local_fire_department'),
-      osmPlace('explore', 'toilets', 'Toilets', 'Toilet', 'wc'),
+      osmPlace("explore", "picnicsite", "Picnic sites", "Picnic site", "park"),
+      osmPlace(
+        "explore",
+        "picnictable",
+        "Picnic tables",
+        "Picnic table",
+        "table_restaurant",
+      ),
+      osmPlace(
+        "explore",
+        "firepit",
+        "Fire pits",
+        "Fire pit",
+        "local_fire_department",
+      ),
+      osmPlace("explore", "toilets", "Toilets", "Toilet", "wc"),
     ],
   },
   {
-    name: 'Nature',
+    name: "Nature",
     places: [
-      osmPlace('explore', 'waterfall', 'Waterfalls', 'Waterfall', 'waves'),
-      osmPlace('explore', 'mountainpass', 'Mountain passes', 'Mountain pass', 'altitude'),
-      osmPlace('explore', 'cave', 'Caves', 'Cave', 'explore'),
-      osmPlace('explore', 'swimmingarea', 'Swimming areas', 'Swimming area', 'pool'),
-      osmPlace('explore', 'bathingplace', 'Bathing places', 'Bathing place', 'beach_access'),
-      osmPlace('explore', 'hotspring', 'Hot springs', 'Hot spring', 'hot_tub'),
+      osmPlace("explore", "waterfall", "Waterfalls", "Waterfall", "waves"),
+      osmPlace(
+        "explore",
+        "mountainpass",
+        "Mountain passes",
+        "Mountain pass",
+        "altitude",
+      ),
+      osmPlace("explore", "cave", "Caves", "Cave", "explore"),
+      osmPlace(
+        "explore",
+        "swimmingarea",
+        "Swimming areas",
+        "Swimming area",
+        "pool",
+      ),
+      osmPlace(
+        "explore",
+        "bathingplace",
+        "Bathing places",
+        "Bathing place",
+        "beach_access",
+      ),
+      osmPlace("explore", "hotspring", "Hot springs", "Hot spring", "hot_tub"),
     ],
   },
   {
-    name: 'Camper services',
+    name: "Camper services",
     places: [
-      osmPlace('explore', 'dumpstation', 'Dump stations', 'Dump station', 'delete'),
-      osmPlace('explore', 'waterpoint', 'Water points', 'Water point', 'faucet'),
-      osmPlace('explore', 'shower', 'Showers', 'Shower', 'shower'),
+      osmPlace(
+        "explore",
+        "dumpstation",
+        "Dump stations",
+        "Dump station",
+        "delete",
+      ),
+      osmPlace(
+        "explore",
+        "waterpoint",
+        "Water points",
+        "Water point",
+        "faucet",
+      ),
+      osmPlace("explore", "shower", "Showers", "Shower", "shower"),
     ],
   },
-]
+];
 
 // Every toggle in the panel is a layer: the data files it shows, how to build their map items, and which filter applies
-const LAYERS = buildLayers()
+const LAYERS = buildLayers();
 
 // Chrome drops requests when thousands start at once, so downloads are queued
-const MAX_DOWNLOADS = 100
+const MAX_DOWNLOADS = 100;
 
 // While files arrive, the map redraws at most this often and regroups markers only once everything has loaded
-const LOADING_RENDER_DELAY = 300
+const LOADING_RENDER_DELAY = 300;
 
-let map = undefined
-let clusterer = undefined
-let selected = undefined
-let sharedItem = undefined
-let galleryIndex = 0
-let progressTotal = 0
-let progressDone = 0
-let renderPending = false
-let loadingRenderTimeout = undefined
-let filterTimeout = undefined
-let downloadsActive = 0
+let map = undefined;
+let clusterer = undefined;
+let selected = undefined;
+let sharedItem = undefined;
+let galleryIndex = 0;
+let progressTotal = 0;
+let progressDone = 0;
+let renderPending = false;
+let loadingRenderTimeout = undefined;
+let filterTimeout = undefined;
+let downloadsActive = 0;
 
-const activeLayers = new Set()
-const files = new Map()
-const requests = new Map()
-const downloadQueue = []
+const activeLayers = new Set();
+const files = new Map();
+const requests = new Map();
+const downloadQueue = [];
 
 function mapLoaded() {
-  map = new google.maps.Map(document.getElementById('map'), {
+  map = new google.maps.Map(document.getElementById("map"), {
     center: {
       lat: 46.75,
-      lng: 8.10,
+      lng: 8.1,
     },
     zoom: 8,
-    mapId: 'DEMO_MAP_ID',
-    mapTypeId: 'roadmap',
+    mapId: "DEMO_MAP_ID",
+    mapTypeId: "roadmap",
     disableDefaultUI: true,
     clickableIcons: false,
-  })
+  });
 
-  map.fitBounds(INITIAL_VIEW, 0)
-  map.addListener('click', closeDetails)
+  map.fitBounds(INITIAL_VIEW, 0);
+  map.addListener("click", closeDetails);
 
   clusterer = new markerClusterer.MarkerClusterer({
     map: map,
     renderer: { render: renderCluster },
-  })
+  });
 
-  buildPanel()
-  bindControls()
+  buildPanel();
+  bindControls();
 
   if (PARAM_URL && PARAM_TYPE) {
-    openSharedItem(PARAM_TYPE, PARAM_URL)
+    openSharedItem(PARAM_TYPE, PARAM_URL);
   }
 }
 
 function buildLayers() {
-  const layers = {}
+  const layers = {};
 
   for (const activity of ACTIVITIES) {
     for (const level of LEVELS) {
-      layers[`${activity.id}.${level.id}`] = routeLayer(activity, level, activity.ids[level.id], activity.id, activity.id)
+      layers[`${activity.id}.${level.id}`] = routeLayer(
+        activity,
+        level,
+        activity.ids[level.id],
+        activity.id,
+        activity.id,
+      );
     }
   }
 
   for (const place of PLACES) {
-    layers[place.id] = placeLayer(place, place.ids, place.id)
+    layers[place.id] = placeLayer(place, place.ids, place.id);
   }
 
-  const osmPlaces = [...OSM_STAY, ...OSM_EXPLORE, ...OSM_SECTIONS.flatMap((section) => section.places)]
+  const osmPlaces = [
+    ...OSM_STAY,
+    ...OSM_EXPLORE,
+    ...OSM_SECTIONS.flatMap((section) => section.places),
+  ];
 
   for (const place of osmPlaces) {
-    layers[place.id] = placeLayer(place, undefined, place.id)
+    layers[place.id] = placeLayer(place, undefined, place.id);
   }
 
-  const hiking = ACTIVITIES.find((activity) => activity.id === 'hiking')
-  const local = LEVELS.find((level) => level.id === 'local')
-  const sightseeing = PLACES.find((place) => place.id === 'sightseeing')
+  const hiking = ACTIVITIES.find((activity) => activity.id === "hiking");
+  const local = LEVELS.find((level) => level.id === "local");
+  const sightseeing = PLACES.find((place) => place.id === "sightseeing");
 
-  layers['favorites.hiking'] = routeLayer(hiking, local, FAVORITES_HIKING_IDS, 'favorites.hiking')
-  layers['favorites.visit'] = placeLayer(sightseeing, FAVORITES_VISIT_IDS, 'favorites.visit')
+  layers["favorites.hiking"] = routeLayer(
+    hiking,
+    local,
+    FAVORITES_HIKING_IDS,
+    "favorites.hiking",
+  );
+  layers["favorites.visit"] = placeLayer(
+    sightseeing,
+    FAVORITES_VISIT_IDS,
+    "favorites.visit",
+  );
 
-  return layers
+  return layers;
 }
 
 function routeLayer(activity, level, ids, row, filter) {
@@ -212,11 +411,19 @@ function routeLayer(activity, level, ids, row, filter) {
     filter: filter,
     urls: ids.map((id) => `${activity.id}/${level.id}/${id}.json`),
     build: (url, json) => buildRoute(url, json, activity, level),
-  }
+  };
 }
 
 function osmPlace(group, id, name, label, icon) {
-  return { id: id, group: group, name: name, label: label, icon: icon, osm: true, files: [`osm/${id}.json`] }
+  return {
+    id: id,
+    group: group,
+    name: name,
+    label: label,
+    icon: icon,
+    osm: true,
+    files: [`osm/${id}.json`],
+  };
 }
 
 function placeLayer(place, ids, row) {
@@ -227,7 +434,7 @@ function placeLayer(place, ids, row) {
       count: PLACE_COUNTS[place.id],
       urls: place.files,
       build: (url, json) => buildOsmPlaces(url, json, place),
-    }
+    };
   }
 
   if (place.files) {
@@ -236,140 +443,168 @@ function placeLayer(place, ids, row) {
       count: PLACE_COUNTS[place.id],
       urls: place.files,
       build: (url, json) => buildChargingStations(url, json, place),
-    }
+    };
   }
 
   return {
     row: row,
     urls: ids.map((id) => `${place.folder}/${id}.json`),
     build: (url, json) => buildPlace(url, json, place),
-  }
+  };
 }
 
 // Panel
 
 function buildPanel() {
-  const [hiking, cycling, mountainBiking] = ACTIVITIES
+  const [hiking, cycling, mountainBiking] = ACTIVITIES;
 
-  let content = group('Routes', activityRow(mountainBiking) + activityRow(hiking) + activityRow(cycling))
-  content += group('Stay', [...PLACES.filter((place) => place.group === 'stay'), ...OSM_STAY].map(placeRow).join(''))
-  content += group('Explore', [...PLACES.filter((place) => (place.group === 'explore') && !place.section), ...OSM_EXPLORE].map(placeRow).join(''))
+  let content = group(
+    "Routes",
+    activityRow(mountainBiking) + activityRow(hiking) + activityRow(cycling),
+  );
+  content += group(
+    "Stay",
+    [...PLACES.filter((place) => place.group === "stay"), ...OSM_STAY]
+      .map(placeRow)
+      .join(""),
+  );
+  content += group(
+    "Explore",
+    [
+      ...PLACES.filter((place) => place.group === "explore" && !place.section),
+      ...OSM_EXPLORE,
+    ]
+      .map(placeRow)
+      .join(""),
+  );
 
   for (const section of OSM_SECTIONS) {
-    const places = [...PLACES.filter((place) => place.section === section.name), ...section.places]
-    content += group(section.name, places.map(placeRow).join(''))
+    const places = [
+      ...PLACES.filter((place) => place.section === section.name),
+      ...section.places,
+    ];
+    content += group(section.name, places.map(placeRow).join(""));
   }
 
   if (FAVORITES_ENABLED) {
-    const favorites = toggleRow('favorites.hiking', 'Hikes', '<span class="swatch swatch-line"></span>', hiking.color)
-      + toggleRow('favorites.visit', 'Places', iconSwatch('visibility'), GROUP_COLORS.explore)
-    content += group('Favorites', favorites)
+    const favorites =
+      toggleRow(
+        "favorites.hiking",
+        "Hikes",
+        '<span class="swatch swatch-line"></span>',
+        hiking.color,
+      ) +
+      toggleRow(
+        "favorites.visit",
+        "Places",
+        iconSwatch("visibility"),
+        GROUP_COLORS.explore,
+      );
+    content += group("Favorites", favorites);
   }
 
-  // A place from PLACES listed in one of those sections is not OpenStreetMap data
-  const notOsm = PLACES.filter((place) => place.section).map((place) => place.name)
-  const except = (notOsm.length > 0) ? ` (except ${notOsm.join(', ')})` : ''
+  const layers = document.getElementById("layers");
+  layers.innerHTML = content;
 
-  const list = (names) => new Intl.ListFormat('en').format(names)
-  const sections = list(OSM_SECTIONS.map((section) => section.name))
-  const others = list([...OSM_STAY, ...OSM_EXPLORE].map((place) => place.name))
-
-  content += `<p class="attribution">Data © <a href="https://www.openstreetmap.org/copyright" target="_blank">OpenStreetMap contributors</a> for the ${sections} sections${except}, and for ${others}</p>`
-
-  const layers = document.getElementById('layers')
-  layers.innerHTML = content
-
-  for (const button of layers.querySelectorAll('[data-layer]')) {
-    button.addEventListener('click', () => toggleLayer(button))
+  for (const button of layers.querySelectorAll("[data-layer]")) {
+    button.addEventListener("click", () => toggleLayer(button));
   }
 
-  for (const input of layers.querySelectorAll('input, select')) {
-    input.addEventListener('input', onFilterChange)
+  for (const input of layers.querySelectorAll("input, select")) {
+    input.addEventListener("input", onFilterChange);
   }
 
-  updateCounts({})
+  updateCounts({});
 }
 
 function group(name, rows) {
-  return `<section class="group"><h2>${name}</h2>${rows}</section>`
+  return `<section class="group"><h2>${name}</h2>${rows}</section>`;
 }
 
 function activityRow(activity) {
-  const chips = LEVELS.map((level) =>
-    `<button type="button" class="chip" data-layer="${activity.id}.${level.id}" aria-pressed="false">${level.name}<span class="chip-count">${activity.ids[level.id].length}</span></button>`
-  ).join('')
+  const chips = LEVELS.map(
+    (level) =>
+      `<button type="button" class="chip" data-layer="${activity.id}.${level.id}" aria-pressed="false">${level.name}<span class="chip-count">${activity.ids[level.id].length}</span></button>`,
+  ).join("");
 
-  let content = `<div class="row" style="--color:${activity.color}">`
-  content += `<div class="row-head"><span class="swatch swatch-line"></span><span class="row-name">${activity.name}</span><span class="row-count" data-count="${activity.id}"></span></div>`
-  content += `<div class="chips" role="group" aria-label="${activity.name} routes">${chips}</div>`
-  content += `<div class="filters" data-filters="${activity.id}" hidden>`
-  content += rangeFilter(`filter-${activity.id}-length`, 'Length', 'km')
-  content += rangeFilter(`filter-${activity.id}-climb`, 'Ascent', 'm')
-  content += '</div></div>'
+  let content = `<div class="row" style="--color:${activity.color}">`;
+  content += `<div class="row-head"><span class="swatch swatch-line"></span><span class="row-name">${activity.name}</span><span class="row-count" data-count="${activity.id}"></span></div>`;
+  content += `<div class="chips" role="group" aria-label="${activity.name} routes">${chips}</div>`;
+  content += `<div class="filters" data-filters="${activity.id}" hidden>`;
+  content += rangeFilter(`filter-${activity.id}-length`, "Length", "km");
+  content += rangeFilter(`filter-${activity.id}-climb`, "Ascent", "m");
+  content += "</div></div>";
 
-  return content
+  return content;
 }
 
 function placeRow(place) {
-  return toggleRow(place.id, place.name, iconSwatch(place.icon), GROUP_COLORS[place.group])
+  return toggleRow(
+    place.id,
+    place.name,
+    iconSwatch(place.icon),
+    GROUP_COLORS[place.group],
+  );
 }
 
 function toggleRow(layer, name, swatch, color) {
-  const style = color ? ` style="--color:${color}"` : ''
+  const style = color ? ` style="--color:${color}"` : "";
 
-  return `<button type="button" class="toggle" data-layer="${layer}" aria-pressed="false"${style}>${swatch}<span class="row-name">${name}</span><span class="row-count" data-count="${layer}"></span></button>`
+  return `<button type="button" class="toggle" data-layer="${layer}" aria-pressed="false"${style}>${swatch}<span class="row-name">${name}</span><span class="row-count" data-count="${layer}"></span></button>`;
 }
 
 function iconSwatch(icon) {
-  return `<span class="swatch swatch-icon material-symbols-outlined">${icon}</span>`
+  return `<span class="swatch swatch-icon material-symbols-outlined">${icon}</span>`;
 }
 
 function rangeFilter(id, label, unit) {
-  let content = `<div class="range"><span>${label}</span>`
-  content += `<input type="number" min="0" id="${id}Min" placeholder="Min" aria-label="${label} minimum in ${unit}">`
-  content += '<span class="range-dash">–</span>'
-  content += `<input type="number" min="0" id="${id}Max" placeholder="Max" aria-label="${label} maximum in ${unit}">`
-  content += `<span>${unit}</span></div>`
+  let content = `<div class="range"><span>${label}</span>`;
+  content += `<input type="number" min="0" id="${id}Min" placeholder="Min" aria-label="${label} minimum in ${unit}">`;
+  content += '<span class="range-dash">–</span>';
+  content += `<input type="number" min="0" id="${id}Max" placeholder="Max" aria-label="${label} maximum in ${unit}">`;
+  content += `<span>${unit}</span></div>`;
 
-  return content
+  return content;
 }
 
 function toggleLayer(button) {
-  const id = button.dataset.layer
-  const active = !activeLayers.has(id)
+  const id = button.dataset.layer;
+  const active = !activeLayers.has(id);
 
-  button.setAttribute('aria-pressed', active)
+  button.setAttribute("aria-pressed", active);
 
   if (active) {
-    activeLayers.add(id)
-    track('layer_toggle', { layer: id })
+    activeLayers.add(id);
+    track("layer_toggle", { layer: id });
 
-    const layer = LAYERS[id]
+    const layer = LAYERS[id];
 
     for (const url of layer.urls) {
-      loadFile(url, layer.build)
+      loadFile(url, layer.build);
     }
   } else {
-    activeLayers.delete(id)
+    activeLayers.delete(id);
   }
 
-  sharedItem = undefined
+  sharedItem = undefined;
 
-  for (const filters of document.querySelectorAll('[data-filters]')) {
-    filters.hidden = ![...activeLayers].some((layer) => LAYERS[layer].filter === filters.dataset.filters)
+  for (const filters of document.querySelectorAll("[data-filters]")) {
+    filters.hidden = ![...activeLayers].some(
+      (layer) => LAYERS[layer].filter === filters.dataset.filters,
+    );
   }
 
-  scheduleRender()
+  scheduleRender();
 }
 
 function onFilterChange() {
-  sharedItem = undefined
-  clearTimeout(filterTimeout)
-  filterTimeout = setTimeout(scheduleRender, 250)
+  sharedItem = undefined;
+  clearTimeout(filterTimeout);
+  filterTimeout = setTimeout(scheduleRender, 250);
 }
 
 function readFilters() {
-  const filters = {}
+  const filters = {};
 
   for (const activity of ACTIVITIES) {
     filters[activity.id] = {
@@ -377,148 +612,155 @@ function readFilters() {
       lengthMax: readInt(`filter-${activity.id}-lengthMax`),
       climbMin: readInt(`filter-${activity.id}-climbMin`),
       climbMax: readInt(`filter-${activity.id}-climbMax`),
-    }
+    };
   }
 
-  return filters
+  return filters;
 }
 
 function matchesFilter(filter, item) {
   if (!filter) {
-    return true
+    return true;
   }
 
-  return inRange(item.length, filter.lengthMin, filter.lengthMax)
-    && inRange(item.climb, filter.climbMin, filter.climbMax)
+  return (
+    inRange(item.length, filter.lengthMin, filter.lengthMax) &&
+    inRange(item.climb, filter.climbMin, filter.climbMax)
+  );
 }
 
 function inRange(value, min, max) {
-  if (min && (value < min)) {
-    return false
+  if (min && value < min) {
+    return false;
   }
 
-  if (max && (value > max)) {
-    return false
+  if (max && value > max) {
+    return false;
   }
 
-  return true
+  return true;
 }
 
 function updateCounts(counts) {
-  for (const element of document.querySelectorAll('[data-count]')) {
-    const count = counts[element.dataset.count]
+  for (const element of document.querySelectorAll("[data-count]")) {
+    const count = counts[element.dataset.count];
 
     if (count) {
-      const shown = count.shown.toLocaleString()
-      element.textContent = (count.shown < count.total) ? `${shown} of ${count.total.toLocaleString()}` : shown
-      element.classList.add('active')
+      const shown = count.shown.toLocaleString();
+      element.textContent =
+        count.shown < count.total
+          ? `${shown} of ${count.total.toLocaleString()}`
+          : shown;
+      element.classList.add("active");
     } else {
-      element.textContent = rowTotal(element.dataset.count).toLocaleString()
-      element.classList.remove('active')
+      element.textContent = rowTotal(element.dataset.count).toLocaleString();
+      element.classList.remove("active");
     }
   }
 }
 
 function rowTotal(row) {
-  let total = 0
+  let total = 0;
 
   for (const layer of Object.values(LAYERS)) {
     if (layer.row === row) {
-      total += layer.count ?? layer.urls.length
+      total += layer.count ?? layer.urls.length;
     }
   }
 
-  return total
+  return total;
 }
 
 // Loading
 
 function loadFile(url, build) {
   if (!requests.has(url)) {
-    progressTotal++
-    updateProgress()
+    progressTotal++;
+    updateProgress();
 
     const request = fetchJson(`data/${url}`)
       .then((json) => {
-        const items = build(url, json)
-        files.set(url, items)
+        const items = build(url, json);
+        files.set(url, items);
 
-        return items
+        return items;
       })
       .catch((error) => {
-        console.error(`Could not load ${url}`, error)
-        requests.delete(url)
+        console.error(`Could not load ${url}`, error);
+        requests.delete(url);
 
-        return []
+        return [];
       })
       .finally(() => {
-        progressDone++
-        updateProgress()
-        scheduleLoadingRender()
-      })
+        progressDone++;
+        updateProgress();
+        scheduleLoadingRender();
+      });
 
-    requests.set(url, request)
+    requests.set(url, request);
   }
 
-  return requests.get(url)
+  return requests.get(url);
 }
 
 function fetchJson(url) {
   return new Promise((resolve, reject) => {
-    downloadQueue.push({ url, resolve, reject })
-    nextDownload()
-  })
+    downloadQueue.push({ url, resolve, reject });
+    nextDownload();
+  });
 }
 
 function nextDownload() {
-  while ((downloadsActive < MAX_DOWNLOADS) && (downloadQueue.length > 0)) {
-    const download = downloadQueue.shift()
-    downloadsActive++
+  while (downloadsActive < MAX_DOWNLOADS && downloadQueue.length > 0) {
+    const download = downloadQueue.shift();
+    downloadsActive++;
 
     fetch(download.url)
       .then((response) => {
         if (!response.ok) {
-          throw new Error(`HTTP ${response.status}`)
+          throw new Error(`HTTP ${response.status}`);
         }
 
-        return response.json()
+        return response.json();
       })
       .then(download.resolve, download.reject)
       .finally(() => {
-        downloadsActive--
-        nextDownload()
-      })
+        downloadsActive--;
+        nextDownload();
+      });
   }
 }
 
 function updateProgress() {
-  const progress = document.getElementById('progress')
-  const bar = document.getElementById('progressBar')
+  const progress = document.getElementById("progress");
+  const bar = document.getElementById("progressBar");
 
   if (progressDone < progressTotal) {
-    const percent = Math.round(progressDone * 100 / progressTotal)
-    bar.style.width = `${percent}%`
-    progress.setAttribute('aria-valuenow', percent)
-    progress.classList.add('loading')
+    const percent = Math.round((progressDone * 100) / progressTotal);
+    bar.style.width = `${percent}%`;
+    progress.setAttribute("aria-valuenow", percent);
+    progress.classList.add("loading");
   } else {
-    bar.style.width = '100%'
-    progress.setAttribute('aria-valuenow', 100)
-    progress.classList.remove('loading')
-    progressTotal = 0
-    progressDone = 0
+    bar.style.width = "100%";
+    progress.setAttribute("aria-valuenow", 100);
+    progress.classList.remove("loading");
+    progressTotal = 0;
+    progressDone = 0;
   }
 }
 
 // Map items
 
 function buildRoute(url, json, activity, level) {
-  const properties = json.properties
-  const paths = json.geometry.coordinates.map((stage) => stage.map((coordinate) => point(coordinate[0], coordinate[1])))
+  const properties = json.properties;
+  const paths = json.geometry.coordinates.map((stage) =>
+    stage.map((coordinate) => point(coordinate[0], coordinate[1])),
+  );
 
   const item = {
     url: url,
     json: json,
-    kind: 'route',
+    kind: "route",
     type: activity.id,
     activity: activity,
     level: level,
@@ -532,94 +774,107 @@ function buildRoute(url, json, activity, level) {
     bounds: getBounds(paths.flat()),
     gallery: getGallery(json),
     casings: [],
-  }
+  };
 
-  item.lines = paths.map((path) => createLine(item, path))
-  item.badge = createMarker(paths[0][0], plate(properties.r_number, activity.color), item)
+  item.lines = paths.map((path) => createLine(item, path));
+  item.badge = createMarker(
+    paths[0][0],
+    plate(properties.r_number, activity.color),
+    item,
+  );
 
-  return [item]
+  return [item];
 }
 
 function buildPlace(url, json, place) {
-  const position = point(json.geometry.coordinates[0], json.geometry.coordinates[1])
+  const position = point(
+    json.geometry.coordinates[0],
+    json.geometry.coordinates[1],
+  );
 
   const item = {
     url: url,
     json: json,
-    kind: 'place',
+    kind: "place",
     type: place.icon,
     place: place,
     label: json.properties.title ? json.properties.title : json.properties.name,
     position: position,
     bounds: around(position, 0.1),
     gallery: getGallery(json),
-  }
+  };
 
-  item.marker = createMarker(position, markerIcon(place), item)
+  item.marker = createMarker(position, markerIcon(place), item);
 
-  return [item]
+  return [item];
 }
 
 function buildChargingStations(url, json, place) {
-  const items = []
+  const items = [];
 
   json.forEach((entry, index) => {
-    const coordinates = entry.Point.coordinates.split(',')
-    const latitude = parseFloat(coordinates[1])
-    const longitude = parseFloat(coordinates[0])
+    const coordinates = entry.Point.coordinates.split(",");
+    const latitude = parseFloat(coordinates[1]);
+    const longitude = parseFloat(coordinates[0]);
 
-    if ((latitude >= CHARGING_BOUNDS.south) && (latitude <= CHARGING_BOUNDS.north) && (longitude >= CHARGING_BOUNDS.west) && (longitude <= CHARGING_BOUNDS.east)) {
-      const position = point(latitude, longitude)
+    if (
+      latitude >= CHARGING_BOUNDS.south &&
+      latitude <= CHARGING_BOUNDS.north &&
+      longitude >= CHARGING_BOUNDS.west &&
+      longitude <= CHARGING_BOUNDS.east
+    ) {
+      const position = point(latitude, longitude);
 
       const item = {
         url: `${url}#${index}`,
         json: entry,
-        kind: 'charging',
+        kind: "charging",
         place: place,
-        label: typeof entry.name === 'string' ? entry.name : entry.name['__cdata'],
+        label:
+          typeof entry.name === "string" ? entry.name : entry.name["__cdata"],
         position: position,
         bounds: around(position, 0.1),
         gallery: [],
-      }
+      };
 
-      item.marker = createMarker(position, markerIcon(place), item)
-      items.push(item)
+      item.marker = createMarker(position, markerIcon(place), item);
+      items.push(item);
     }
-  })
+  });
 
-  return items
+  return items;
 }
 
 function buildOsmPlaces(url, json, place) {
   return json.map((entry, index) => {
-    const position = point(entry.coordinates[0], entry.coordinates[1])
+    const position = point(entry.coordinates[0], entry.coordinates[1]);
 
     const item = {
       url: `${url}#${index}`,
       json: entry,
-      kind: 'osm',
+      kind: "osm",
       place: place,
       label: entry.name ?? place.label,
       position: position,
       bounds: around(position, 0.1),
       gallery: [],
-    }
+    };
 
-    item.marker = createMarker(position, markerIcon(place), item)
+    item.marker = createMarker(position, markerIcon(place), item);
 
-    return item
-  })
+    return item;
+  });
 }
 
 function createLine(item, path) {
-  const line = new google.maps.Polyline({ path: path })
+  const line = new google.maps.Polyline({ path: path });
 
-  line.addListener('click', () => selectItem(item))
-  line.addListener('mouseover', (event) => showTooltip(item, event))
-  line.addListener('mousemove', moveTooltip)
-  line.addListener('mouseout', hideTooltip)
+  line.addListener("click", () => selectItem(item));
+  line.addListener("mouseover", (event) => showTooltip(item, event));
+  line.addListener("mousemove", moveTooltip);
+  line.addListener("mouseout", hideTooltip);
 
-  return line
+  return line;
 }
 
 function createMarker(position, content, item) {
@@ -628,40 +883,40 @@ function createMarker(position, content, item) {
     content: content,
     title: item.label,
     gmpClickable: true,
-  })
+  });
 
-  marker.addEventListener('gmp-click', () => selectItem(item))
+  marker.addEventListener("gmp-click", () => selectItem(item));
 
-  return marker
+  return marker;
 }
 
 function plate(text, color) {
-  const content = document.createElement('div')
-  content.className = 'plate map-plate'
-  content.style.setProperty('--color', color)
-  content.textContent = text
+  const content = document.createElement("div");
+  content.className = "plate map-plate";
+  content.style.setProperty("--color", color);
+  content.textContent = text;
 
-  return content
+  return content;
 }
 
 function markerIcon(place) {
-  const content = document.createElement('span')
-  content.className = 'marker material-symbols-outlined'
-  content.style.setProperty('--color', GROUP_COLORS[place.group])
-  content.textContent = place.icon
+  const content = document.createElement("span");
+  content.className = "marker material-symbols-outlined";
+  content.style.setProperty("--color", GROUP_COLORS[place.group]);
+  content.textContent = place.icon;
 
-  return content
+  return content;
 }
 
 function renderCluster(cluster) {
-  const content = document.createElement('div')
-  content.className = 'cluster'
-  content.textContent = cluster.count
+  const content = document.createElement("div");
+  content.className = "cluster";
+  content.textContent = cluster.count;
 
   if (cluster.count >= 100) {
-    content.classList.add('cluster-large')
+    content.classList.add("cluster-large");
   } else if (cluster.count >= 10) {
-    content.classList.add('cluster-medium')
+    content.classList.add("cluster-medium");
   }
 
   return new google.maps.marker.AdvancedMarkerElement({
@@ -669,165 +924,170 @@ function renderCluster(cluster) {
     content: content,
     title: `${cluster.count} places, click to zoom in`,
     zIndex: 1000 + cluster.count,
-  })
+  });
 }
 
 // Rendering
 
 function scheduleRender() {
   if (!renderPending) {
-    renderPending = true
+    renderPending = true;
 
     requestAnimationFrame(() => {
-      renderPending = false
-      render()
-    })
+      renderPending = false;
+      render();
+    });
   }
 }
 
 function scheduleLoadingRender() {
   // The progress counters reset once every requested file has finished
   if (progressTotal === 0) {
-    clearTimeout(loadingRenderTimeout)
-    loadingRenderTimeout = undefined
-    scheduleRender()
+    clearTimeout(loadingRenderTimeout);
+    loadingRenderTimeout = undefined;
+    scheduleRender();
   } else if (!loadingRenderTimeout) {
     loadingRenderTimeout = setTimeout(() => {
-      loadingRenderTimeout = undefined
-      render(false)
-    }, LOADING_RENDER_DELAY)
+      loadingRenderTimeout = undefined;
+      render(false);
+    }, LOADING_RENDER_DELAY);
   }
 }
 
 function render(regroup = true) {
-  const filters = readFilters()
-  const visible = new Set()
-  const counts = {}
+  const filters = readFilters();
+  const visible = new Set();
+  const counts = {};
 
   for (const id of activeLayers) {
-    const layer = LAYERS[id]
-    const count = counts[layer.row] ?? { shown: 0, total: 0 }
+    const layer = LAYERS[id];
+    const count = counts[layer.row] ?? { shown: 0, total: 0 };
 
     // Until the layer's files have arrived, the row keeps showing its total instead of a count that starts at 0
     if (layer.urls.every((url) => files.has(url))) {
-      counts[layer.row] = count
+      counts[layer.row] = count;
     }
 
     for (const url of layer.urls) {
       for (const item of files.get(url) ?? []) {
-        count.total++
+        count.total++;
 
         if (matchesFilter(filters[layer.filter], item)) {
-          count.shown++
-          visible.add(item)
+          count.shown++;
+          visible.add(item);
         }
       }
     }
   }
 
   if (selected) {
-    visible.add(selected)
+    visible.add(selected);
   }
 
   if (sharedItem) {
-    visible.add(sharedItem)
+    visible.add(sharedItem);
   }
 
-  const toCluster = []
-  const fromCluster = []
-  const pins = []
+  const toCluster = [];
+  const fromCluster = [];
+  const pins = [];
 
   for (const items of files.values()) {
     for (const item of items) {
       if (item.marker) {
         if (!regroup) {
-          continue
+          continue;
         }
 
-        const state = (item === selected) ? 'pinned' : visible.has(item) ? 'clustered' : 'hidden'
+        const state =
+          item === selected
+            ? "pinned"
+            : visible.has(item)
+              ? "clustered"
+              : "hidden";
 
         if (item.state !== state) {
-          if (item.state === 'clustered') {
-            fromCluster.push(item.marker)
+          if (item.state === "clustered") {
+            fromCluster.push(item.marker);
           }
 
-          if (state === 'clustered') {
-            toCluster.push(item.marker)
+          if (state === "clustered") {
+            toCluster.push(item.marker);
           }
 
-          pins.push(item)
-          item.state = state
+          pins.push(item);
+          item.state = state;
         }
 
-        item.marker.content.classList.toggle('selected', item === selected)
+        item.marker.content.classList.toggle("selected", item === selected);
       } else {
-        const shown = visible.has(item)
+        const shown = visible.has(item);
 
         if (item.shown !== shown) {
-          item.shown = shown
-          item.badge.map = shown ? map : null
+          item.shown = shown;
+          item.badge.map = shown ? map : null;
 
           for (const line of item.lines) {
-            line.setMap(shown ? map : null)
+            line.setMap(shown ? map : null);
           }
         }
 
-        styleRoute(item)
+        styleRoute(item);
       }
     }
   }
 
-  if ((fromCluster.length > 0) || (toCluster.length > 0)) {
-    clusterer.removeMarkers(fromCluster, true)
-    clusterer.addMarkers(toCluster, true)
-    clusterer.render()
+  if (fromCluster.length > 0 || toCluster.length > 0) {
+    clusterer.removeMarkers(fromCluster, true);
+    clusterer.addMarkers(toCluster, true);
+    clusterer.render();
   }
 
   for (const item of pins) {
-    if (item.state === 'pinned') {
-      item.marker.map = map
-      item.marker.zIndex = 2000
-    } else if (item.state === 'hidden') {
-      item.marker.map = null
+    if (item.state === "pinned") {
+      item.marker.map = map;
+      item.marker.zIndex = 2000;
+    } else if (item.state === "hidden") {
+      item.marker.map = null;
     }
   }
 
-  updateCounts(counts)
+  updateCounts(counts);
 }
 
 function styleRoute(item) {
-  const emphasized = item === selected
-  const faded = !!selected?.lines && !emphasized
-  const weight = item.weight + (emphasized ? 2 : 0)
-  const opacity = faded ? 0.35 : 0.95
-  const zIndex = emphasized ? 1000 : item.zIndex
-  const cased = item.shown && emphasized
-  const key = `${weight}|${opacity}|${zIndex}|${cased}`
+  const emphasized = item === selected;
+  const faded = !!selected?.lines && !emphasized;
+  const weight = item.weight + (emphasized ? 2 : 0);
+  const opacity = faded ? 0.35 : 0.95;
+  const zIndex = emphasized ? 1000 : item.zIndex;
+  const cased = item.shown && emphasized;
+  const key = `${weight}|${opacity}|${zIndex}|${cased}`;
 
   if (item.styleKey === key) {
-    return
+    return;
   }
 
-  item.styleKey = key
-  item.badge.content.classList.toggle('faded', faded)
-  item.badge.zIndex = emphasized ? 1000 : null
+  item.styleKey = key;
+  item.badge.content.classList.toggle("faded", faded);
+  item.badge.zIndex = emphasized ? 1000 : null;
 
   for (const line of item.lines) {
-    line.setOptions(lineStyle(item, weight, opacity, zIndex))
+    line.setOptions(lineStyle(item, weight, opacity, zIndex));
   }
 
-  if (cased && (item.casings.length === 0)) {
-    item.casings = item.paths.map((path) => createLine(item, path))
+  if (cased && item.casings.length === 0) {
+    item.casings = item.paths.map((path) => createLine(item, path));
   }
 
   for (const casing of item.casings) {
     casing.setOptions({
-      strokeColor: '#ffffff',
+      strokeColor: "#ffffff",
       strokeOpacity: opacity,
       strokeWeight: weight + 4,
       zIndex: zIndex - 1,
-    })
-    casing.setMap(cased ? map : null)
+    });
+    casing.setMap(cased ? map : null);
   }
 }
 
@@ -837,363 +1097,453 @@ function lineStyle(item, weight, opacity, zIndex) {
     strokeOpacity: opacity,
     strokeWeight: weight,
     zIndex: zIndex,
-  }
+  };
 }
 
 function showTooltip(item, event) {
-  const tooltip = document.getElementById('tooltip')
-  tooltip.textContent = item.label
-  tooltip.hidden = false
-  moveTooltip(event)
+  const tooltip = document.getElementById("tooltip");
+  tooltip.textContent = item.label;
+  tooltip.hidden = false;
+  moveTooltip(event);
 }
 
 function hideTooltip() {
-  document.getElementById('tooltip').hidden = true
+  document.getElementById("tooltip").hidden = true;
 }
 
 function moveTooltip(event) {
-  const tooltip = document.getElementById('tooltip')
-  tooltip.style.left = `${event.domEvent.clientX + 14}px`
-  tooltip.style.top = `${event.domEvent.clientY + 14}px`
+  const tooltip = document.getElementById("tooltip");
+  tooltip.style.left = `${event.domEvent.clientX + 14}px`;
+  tooltip.style.top = `${event.domEvent.clientY + 14}px`;
 }
 
 // Details
 
-function selectItem(item, source = 'map') {
-  selected = item
-  galleryIndex = 0
+function selectItem(item, source = "map") {
+  selected = item;
+  galleryIndex = 0;
 
-  track('select_content', { content_type: contentType(item), content_id: item.label, source: source })
+  track("select_content", {
+    content_type: contentType(item),
+    content_id: item.label,
+    source: source,
+  });
 
-  const details = document.getElementById('details')
-  details.innerHTML = detailsContent(item)
-  details.classList.add('open')
-  details.inert = false
-  document.body.classList.add('has-details')
+  const details = document.getElementById("details");
+  details.innerHTML = detailsContent(item);
+  details.classList.add("open");
+  details.inert = false;
+  document.body.classList.add("has-details");
 
-  render()
+  render();
 }
 
 function closeDetails() {
   if (!selected) {
-    return
+    return;
   }
 
-  selected = undefined
+  selected = undefined;
 
-  const details = document.getElementById('details')
-  details.classList.remove('open')
-  details.inert = true
-  document.body.classList.remove('has-details')
+  const details = document.getElementById("details");
+  details.classList.remove("open");
+  details.inert = true;
+  document.body.classList.remove("has-details");
 
-  render()
+  render();
 }
 
 function openSharedItem(type, url) {
-  const build = sharedItemBuilder(type, url)
+  const build = sharedItemBuilder(type, url);
 
   if (build) {
     loadFile(url, build).then((items) => {
       if (items.length > 0) {
-        sharedItem = items[0]
-        selectItem(items[0], 'shared_link')
-        map.fitBounds(items[0].bounds, mapPadding())
+        sharedItem = items[0];
+        selectItem(items[0], "shared_link");
+        map.fitBounds(items[0].bounds, mapPadding());
       }
-    })
+    });
   }
 }
 
 function sharedItemBuilder(type, url) {
-  const activity = ACTIVITIES.find((activity) => activity.id === type)
+  const activity = ACTIVITIES.find((activity) => activity.id === type);
 
   if (activity) {
-    const level = LEVELS.find((level) => level.id === url.split('/')[1]) ?? LEVELS[LEVELS.length - 1]
+    const level =
+      LEVELS.find((level) => level.id === url.split("/")[1]) ??
+      LEVELS[LEVELS.length - 1];
 
-    return (url, json) => buildRoute(url, json, activity, level)
+    return (url, json) => buildRoute(url, json, activity, level);
   }
 
-  const place = PLACES.find((place) => (place.icon === type) && !place.files)
+  const place = PLACES.find((place) => place.icon === type && !place.files);
 
   if (place) {
-    return (url, json) => buildPlace(url, json, place)
+    return (url, json) => buildPlace(url, json, place);
   }
 
-  return undefined
+  return undefined;
 }
 
 function detailsContent(item) {
-  let content = '<button type="button" class="details-close" data-action="close" aria-label="Close details"><span class="material-symbols-outlined">close</span></button>'
-  content += `<div class="details-scroll">${gallerySection(item)}<div class="details-body">`
+  let content =
+    '<button type="button" class="details-close" data-action="close" aria-label="Close details"><span class="material-symbols-outlined">close</span></button>';
+  content += `<div class="details-scroll">${gallerySection(item)}<div class="details-body">`;
 
-  if (item.kind === 'route') {
-    content += routeDetails(item)
-  } else if (item.kind === 'place') {
-    content += placeDetails(item)
-  } else if (item.kind === 'osm') {
-    content += osmDetails(item)
+  if (item.kind === "route") {
+    content += routeDetails(item);
+  } else if (item.kind === "place") {
+    content += placeDetails(item);
+  } else if (item.kind === "osm") {
+    content += osmDetails(item);
   } else {
-    content += chargingStationDetails(item)
+    content += chargingStationDetails(item);
   }
 
-  return content + '</div></div>'
+  return content + "</div></div>";
 }
 
 function routeDetails(item) {
-  const properties = item.json.properties
+  const properties = item.json.properties;
   const badge = properties.logo
     ? `<img class="details-logo" src="${properties.logo}" alt="Route ${properties.r_number}">`
-    : `<span class="plate" style="--color:${item.color}">${properties.r_number}</span>`
+    : `<span class="plate" style="--color:${item.color}">${properties.r_number}</span>`;
 
-  let content = `<div class="details-kind">${badge}${item.level.name} ${item.activity.noun}</div>`
-  content += `<h2 class="details-title">${properties.title}</h2>`
+  let content = `<div class="details-kind">${badge}${item.level.name} ${item.activity.noun}</div>`;
+  content += `<h2 class="details-title">${properties.title}</h2>`;
 
   content += actions([
     shareAction(),
     '<button type="button" class="action" data-action="download"><span class="material-symbols-outlined">download</span>Download GPX</button>',
-    externalAction(`https://www.schweizmobil.ch/en/${item.type}-in-switzerland/route-${properties.r_number}`, 'SchweizMobil'),
-  ])
+    externalAction(
+      `https://www.schweizmobil.ch/en/${item.type}-in-switzerland/route-${properties.r_number}`,
+      "SchweizMobil",
+    ),
+  ]);
 
-  let stats = stat('Distance', item.length, 'km')
-  stats += stat('Ascent', properties.height_difference.toLocaleString(), 'm')
-  stats += stat('Descent', properties.height_difference_back.toLocaleString(), 'm')
+  let stats = stat("Distance", item.length, "km");
+  stats += stat("Ascent", properties.height_difference.toLocaleString(), "m");
+  stats += stat(
+    "Descent",
+    properties.height_difference_back.toLocaleString(),
+    "m",
+  );
 
-  if (typeof properties.length_asphalt === 'number') {
-    stats += stat('Asphalt', parseInt(properties.length_asphalt * 100 / item.length), '%')
+  if (typeof properties.length_asphalt === "number") {
+    stats += stat(
+      "Asphalt",
+      parseInt((properties.length_asphalt * 100) / item.length),
+      "%",
+    );
   }
 
-  content += `<dl class="stats">${stats}</dl>`
+  content += `<dl class="stats">${stats}</dl>`;
 
   if (properties.abstract) {
-    content += `<p class="details-lead">${properties.abstract}</p>`
+    content += `<p class="details-lead">${properties.abstract}</p>`;
   }
 
   if (properties.description) {
-    content += `<div class="details-description">${properties.description}</div>`
+    content += `<div class="details-description">${properties.description}</div>`;
   }
 
-  return content
+  return content;
 }
 
 function placeDetails(item) {
-  const properties = item.json.properties
-  const isBasic = properties.city !== undefined
+  const properties = item.json.properties;
+  const isBasic = properties.city !== undefined;
 
-  let baseLink = ''
+  let baseLink = "";
 
-  if (item.type === 'build') {
-    baseLink = 'https://schweizmobil.ch/en/cycle-service-'
-  } else if (item.type === 'visibility') {
-    baseLink = 'https://schweizmobil.ch/en/place-of-interest-'
+  if (item.type === "build") {
+    baseLink = "https://schweizmobil.ch/en/cycle-service-";
+  } else if (item.type === "visibility") {
+    baseLink = "https://schweizmobil.ch/en/place-of-interest-";
   } else if (!isBasic) {
-    baseLink = 'https://schweizmobil.ch/en/accommodation-'
+    baseLink = "https://schweizmobil.ch/en/accommodation-";
   }
 
-  let content = `<div class="details-kind" style="--color:${GROUP_COLORS[item.place.group]}">${iconSwatch(item.place.icon)}${item.place.label}</div>`
-  content += `<h2 class="details-title">${item.label}</h2>`
+  let content = `<div class="details-kind" style="--color:${GROUP_COLORS[item.place.group]}">${iconSwatch(item.place.icon)}${item.place.label}</div>`;
+  content += `<h2 class="details-title">${item.label}</h2>`;
 
   const external = baseLink
-    ? externalAction(`${baseLink}${item.json.id}`, 'SchweizMobil')
-    : externalAction(`https://www.google.com/maps/search/${encodeURIComponent(`${item.label} ${properties.city}`)}`, 'Google Maps')
+    ? externalAction(`${baseLink}${item.json.id}`, "SchweizMobil")
+    : externalAction(
+        `https://www.google.com/maps/search/${encodeURIComponent(`${item.label} ${properties.city}`)}`,
+        "Google Maps",
+      );
 
-  content += actions([shareAction(), external])
+  content += actions([shareAction(), external]);
 
   if (properties.abstract) {
-    content += `<p class="details-lead">${properties.abstract}</p>`
+    content += `<p class="details-lead">${properties.abstract}</p>`;
   }
 
   if (properties.description) {
-    content += `<div class="details-description">${properties.description}</div>`
+    content += `<div class="details-description">${properties.description}</div>`;
   }
 
-  const contact = []
+  const contact = [];
 
   if (isBasic) {
-    contact.push(contactLine('location_on', `<a href="https://www.google.com/maps/place/${item.position.lat},${item.position.lng}" target="_blank">Show on Google Maps</a>`))
+    contact.push(
+      contactLine(
+        "location_on",
+        `<a href="https://www.google.com/maps/place/${item.position.lat},${item.position.lng}" target="_blank">Show on Google Maps</a>`,
+      ),
+    );
   }
 
   if (properties.tel) {
-    contact.push(contactLine('call', `<a href="tel:${String(properties.tel).replace(/\s/g, '')}">${properties.tel}</a>`))
+    contact.push(
+      contactLine(
+        "call",
+        `<a href="tel:${String(properties.tel).replace(/\s/g, "")}">${properties.tel}</a>`,
+      ),
+    );
   }
 
   if (properties.email) {
-    contact.push(contactLine('mail', `<a href="mailto:${properties.email}">${properties.email}</a>`))
+    contact.push(
+      contactLine(
+        "mail",
+        `<a href="mailto:${properties.email}">${properties.email}</a>`,
+      ),
+    );
   }
 
   if (properties.street) {
-    const address = `${properties.street}, ${properties.zip} ${properties.place}`
-    contact.push(contactLine('location_on', `<a href="https://www.google.com/maps/search/${encodeURIComponent(address)}" target="_blank">${address}</a>`))
+    const address = `${properties.street}, ${properties.zip} ${properties.place}`;
+    contact.push(
+      contactLine(
+        "location_on",
+        `<a href="https://www.google.com/maps/search/${encodeURIComponent(address)}" target="_blank">${address}</a>`,
+      ),
+    );
   }
 
-  const urls = new Set([properties.url1_link, properties.url2_link, properties.url_sightseeing].filter(Boolean))
+  const urls = new Set(
+    [
+      properties.url1_link,
+      properties.url2_link,
+      properties.url_sightseeing,
+    ].filter(Boolean),
+  );
 
   for (const url of urls) {
-    contact.push(contactLine('link', `<a href="${url}" target="_blank">${url}</a>`))
+    contact.push(
+      contactLine("link", `<a href="${url}" target="_blank">${url}</a>`),
+    );
   }
 
   if (contact.length > 0) {
-    content += `<ul class="contact">${contact.join('')}</ul>`
+    content += `<ul class="contact">${contact.join("")}</ul>`;
   }
 
-  return content
+  return content;
 }
 
 function chargingStationDetails(item) {
-  let content = `<div class="details-kind" style="--color:${GROUP_COLORS[item.place.group]}">${iconSwatch(item.place.icon)}${item.place.label}</div>`
-  content += `<h2 class="details-title">${item.label}</h2>`
-  content += actions([externalAction(`https://www.google.com/maps/place/${item.position.lat},${item.position.lng}`, 'Google Maps')])
+  let content = `<div class="details-kind" style="--color:${GROUP_COLORS[item.place.group]}">${iconSwatch(item.place.icon)}${item.place.label}</div>`;
+  content += `<h2 class="details-title">${item.label}</h2>`;
+  content += actions([
+    externalAction(
+      `https://www.google.com/maps/place/${item.position.lat},${item.position.lng}`,
+      "Google Maps",
+    ),
+  ]);
 
   if (item.json.description) {
-    content += `<div class="details-description">${item.json.description.__cdata}</div>`
+    content += `<div class="details-description">${item.json.description.__cdata}</div>`;
   }
 
-  return content
+  return content;
 }
 
 // OpenStreetMap is edited by anyone, so its text is escaped before it goes into the panel
 function osmDetails(item) {
-  const tags = item.json.tags
+  const tags = item.json.tags;
 
-  let content = `<div class="details-kind" style="--color:${GROUP_COLORS[item.place.group]}">${iconSwatch(item.place.icon)}${item.place.label}</div>`
-  content += `<h2 class="details-title">${escapeHtml(item.label)}</h2>`
+  let content = `<div class="details-kind" style="--color:${GROUP_COLORS[item.place.group]}">${iconSwatch(item.place.icon)}${item.place.label}</div>`;
+  content += `<h2 class="details-title">${escapeHtml(item.label)}</h2>`;
 
   content += actions([
-    externalAction(`https://www.openstreetmap.org/${item.json.id}`, 'OpenStreetMap'),
-    externalAction(`https://www.google.com/maps/place/${item.position.lat},${item.position.lng}`, 'Google Maps'),
-  ])
+    externalAction(
+      `https://www.openstreetmap.org/${item.json.id}`,
+      "OpenStreetMap",
+    ),
+    externalAction(
+      `https://www.google.com/maps/place/${item.position.lat},${item.position.lng}`,
+      "Google Maps",
+    ),
+  ]);
 
   if (tags.description) {
-    content += `<div class="details-description">${escapeHtml(tags.description)}</div>`
+    content += `<div class="details-description">${escapeHtml(tags.description)}</div>`;
   }
 
-  let stats = ''
-  const elevation = parseFloat(tags.ele)
-  const capacity = parseInt(tags.capacity)
+  let stats = "";
+  const elevation = parseFloat(tags.ele);
+  const capacity = parseInt(tags.capacity);
 
   if (Number.isFinite(elevation)) {
-    stats += stat('Elevation', Math.round(elevation).toLocaleString(), 'm')
+    stats += stat("Elevation", Math.round(elevation).toLocaleString(), "m");
   }
 
   if (Number.isFinite(capacity)) {
-    stats += stat('Capacity', capacity.toLocaleString(), '')
+    stats += stat("Capacity", capacity.toLocaleString(), "");
   }
 
   if (stats) {
-    content += `<dl class="stats">${stats}</dl>`
+    content += `<dl class="stats">${stats}</dl>`;
   }
 
-  const contact = []
+  const contact = [];
 
   if (tags.opening_hours) {
-    contact.push(contactLine('schedule', escapeHtml(tags.opening_hours)))
+    contact.push(contactLine("schedule", escapeHtml(tags.opening_hours)));
   }
 
   if (tags.phone) {
-    contact.push(contactLine('call', `<a href="tel:${escapeHtml(tags.phone.replace(/[^\d+]/g, ''))}">${escapeHtml(tags.phone)}</a>`))
+    contact.push(
+      contactLine(
+        "call",
+        `<a href="tel:${escapeHtml(tags.phone.replace(/[^\d+]/g, ""))}">${escapeHtml(tags.phone)}</a>`,
+      ),
+    );
   }
 
   if (tags.website) {
-    contact.push(contactLine('link', `<a href="${escapeHtml(tags.website)}" target="_blank">${escapeHtml(tags.website)}</a>`))
+    contact.push(
+      contactLine(
+        "link",
+        `<a href="${escapeHtml(tags.website)}" target="_blank">${escapeHtml(tags.website)}</a>`,
+      ),
+    );
   }
 
   if (tags.operator) {
-    contact.push(contactLine('info', `Operated by ${escapeHtml(tags.operator)}`))
+    contact.push(
+      contactLine("info", `Operated by ${escapeHtml(tags.operator)}`),
+    );
   }
 
   if (tags.fee) {
-    contact.push(contactLine('info', `Fee: ${escapeHtml(tags.fee)}`))
+    contact.push(contactLine("info", `Fee: ${escapeHtml(tags.fee)}`));
   }
 
   if (tags.access) {
-    contact.push(contactLine('info', `Access: ${escapeHtml(tags.access)}`))
+    contact.push(contactLine("info", `Access: ${escapeHtml(tags.access)}`));
   }
 
   if (contact.length > 0) {
-    content += `<ul class="contact">${contact.join('')}</ul>`
+    content += `<ul class="contact">${contact.join("")}</ul>`;
   }
 
-  content += '<p class="details-source">Data © <a href="https://www.openstreetmap.org/copyright" target="_blank">OpenStreetMap contributors</a></p>'
-
-  return content
+  return content;
 }
 
 function escapeHtml(value) {
-  return String(value).replace(/[&<>"']/g, (character) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[character])
+  return String(value).replace(
+    /[&<>"']/g,
+    (character) =>
+      ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[
+        character
+      ],
+  );
 }
 
 function actions(buttons) {
-  return `<div class="actions">${buttons.join('')}</div>`
+  return `<div class="actions">${buttons.join("")}</div>`;
 }
 
 function shareAction() {
-  return '<button type="button" class="action" data-action="share"><span class="material-symbols-outlined">link</span><span class="action-label">Copy link</span></button>'
+  return '<button type="button" class="action" data-action="share"><span class="material-symbols-outlined">link</span><span class="action-label">Copy link</span></button>';
 }
 
 function externalAction(url, label) {
-  return `<a class="action" href="${url}" target="_blank"><span class="material-symbols-outlined">open_in_new</span>${label}</a>`
+  return `<a class="action" href="${url}" target="_blank"><span class="material-symbols-outlined">open_in_new</span>${label}</a>`;
 }
 
 function stat(label, value, unit) {
-  return `<div><dt>${label}</dt><dd>${value}<span class="stat-unit">${unit}</span></dd></div>`
+  return `<div><dt>${label}</dt><dd>${value}<span class="stat-unit">${unit}</span></dd></div>`;
 }
 
 function contactLine(icon, content) {
-  return `<li><span class="material-symbols-outlined">${icon}</span><span>${content}</span></li>`
+  return `<li><span class="material-symbols-outlined">${icon}</span><span>${content}</span></li>`;
 }
 
 function gallerySection(item) {
-  const gallery = item.gallery
+  const gallery = item.gallery;
 
   if (gallery.length === 0) {
-    return ''
+    return "";
   }
 
-  let content = `<div class="details-media"><img id="galleryImage" src="${gallery[0]}" alt="${item.label.replace(/"/g, '&quot;')}">`
+  let content = `<div class="details-media"><img id="galleryImage" src="${gallery[0]}" alt="${item.label.replace(/"/g, "&quot;")}">`;
 
   if (gallery.length > 1) {
-    content += '<button type="button" class="media-button previous" data-action="previous" aria-label="Previous photo"><span class="material-symbols-outlined">chevron_left</span></button>'
-    content += '<button type="button" class="media-button next" data-action="next" aria-label="Next photo"><span class="material-symbols-outlined">chevron_right</span></button>'
-    content += `<span class="media-counter" id="galleryIndex">1 / ${gallery.length}</span>`
+    content +=
+      '<button type="button" class="media-button previous" data-action="previous" aria-label="Previous photo"><span class="material-symbols-outlined">chevron_left</span></button>';
+    content +=
+      '<button type="button" class="media-button next" data-action="next" aria-label="Next photo"><span class="material-symbols-outlined">chevron_right</span></button>';
+    content += `<span class="media-counter" id="galleryIndex">1 / ${gallery.length}</span>`;
   }
 
-  return content + '</div>'
+  return content + "</div>";
 }
 
 function plusSlides(offset) {
-  const gallery = selected.gallery
-  galleryIndex = (galleryIndex + offset + gallery.length) % gallery.length
+  const gallery = selected.gallery;
+  galleryIndex = (galleryIndex + offset + gallery.length) % gallery.length;
 
-  document.getElementById('galleryImage').src = gallery[galleryIndex]
-  document.getElementById('galleryIndex').textContent = `${galleryIndex + 1} / ${gallery.length}`
+  document.getElementById("galleryImage").src = gallery[galleryIndex];
+  document.getElementById("galleryIndex").textContent =
+    `${galleryIndex + 1} / ${gallery.length}`;
 }
 
 function copyLink(button) {
-  const link = `${location.origin}${location.pathname}?url=${encodeURIComponent(selected.url)}&type=${selected.type}`
-  const label = button.querySelector('.action-label')
-  const icon = button.querySelector('.material-symbols-outlined')
+  const link = `${location.origin}${location.pathname}?url=${encodeURIComponent(selected.url)}&type=${selected.type}`;
+  const label = button.querySelector(".action-label");
+  const icon = button.querySelector(".material-symbols-outlined");
   // The selection can change before the clipboard write finishes
-  const item = selected
+  const item = selected;
 
-  navigator.clipboard.writeText(link).then(() => {
-    track('share', { method: 'copy_link', content_type: contentType(item), item_id: item.label })
+  navigator.clipboard.writeText(link).then(
+    () => {
+      track("share", {
+        method: "copy_link",
+        content_type: contentType(item),
+        item_id: item.label,
+      });
 
-    label.textContent = 'Link copied'
-    icon.textContent = 'check'
+      label.textContent = "Link copied";
+      icon.textContent = "check";
 
-    setTimeout(() => {
-      label.textContent = 'Copy link'
-      icon.textContent = 'link'
-    }, 2000)
-  }, () => {
-    window.open(link, '_blank')
-  })
+      setTimeout(() => {
+        label.textContent = "Copy link";
+        icon.textContent = "link";
+      }, 2000);
+    },
+    () => {
+      window.open(link, "_blank");
+    },
+  );
 }
 
 function getGallery(json) {
-  const photoGalleryBig = filterEmptyImages(json.properties.photo_gallery_big)
-  const photoGalleryMaster = filterEmptyImages(json.properties.photo_gallery_master)
-  const photoGallery = filterEmptyImages(json.properties.photo_gallery)
-  const photoGallerySmall = filterEmptyImages(json.properties.photo_gallery_small)
-  const foto = json.properties.foto ? [json.properties.foto] : []
+  const photoGalleryBig = filterEmptyImages(json.properties.photo_gallery_big);
+  const photoGalleryMaster = filterEmptyImages(
+    json.properties.photo_gallery_master,
+  );
+  const photoGallery = filterEmptyImages(json.properties.photo_gallery);
+  const photoGallerySmall = filterEmptyImages(
+    json.properties.photo_gallery_small,
+  );
+  const foto = json.properties.foto ? [json.properties.foto] : [];
 
   const candidates = [
     photoGalleryBig,
@@ -1201,7 +1551,7 @@ function getGallery(json) {
     photoGallery,
     photoGallerySmall,
     foto,
-  ]
+  ];
 
   const lengths = [
     photoGalleryBig.length,
@@ -1209,71 +1559,75 @@ function getGallery(json) {
     photoGallery.length,
     photoGallerySmall.length,
     foto.length,
-  ]
+  ];
 
-  const maxLength = Math.max(...lengths)
+  const maxLength = Math.max(...lengths);
 
   if (maxLength > 0) {
-    return candidates.filter((e) => e.length === maxLength)[0]
+    return candidates.filter((e) => e.length === maxLength)[0];
   } else {
-    return []
+    return [];
   }
 }
 
 function filterEmptyImages(list) {
-  const result = []
+  const result = [];
 
   if (list) {
     for (const element of list) {
-      if (element && (element.trim().length > 0)) {
-        result.push(element.trim())
+      if (element && element.trim().length > 0) {
+        result.push(element.trim());
       }
     }
   }
 
-  return result
+  return result;
 }
 
 // Controls
 
 function bindControls() {
-  document.getElementById('zoomIn').addEventListener('click', () => map.setZoom(map.getZoom() + 1))
-  document.getElementById('zoomOut').addEventListener('click', () => map.setZoom(map.getZoom() - 1))
+  document
+    .getElementById("zoomIn")
+    .addEventListener("click", () => map.setZoom(map.getZoom() + 1));
+  document
+    .getElementById("zoomOut")
+    .addEventListener("click", () => map.setZoom(map.getZoom() - 1));
 
-  const mapTypes = document.querySelectorAll('[data-map-type]')
+  const mapTypes = document.querySelectorAll("[data-map-type]");
 
   for (const button of mapTypes) {
-    button.addEventListener('click', () => {
-      map.setMapTypeId(button.dataset.mapType)
+    button.addEventListener("click", () => {
+      map.setMapTypeId(button.dataset.mapType);
 
       for (const other of mapTypes) {
-        other.setAttribute('aria-pressed', other === button)
+        other.setAttribute("aria-pressed", other === button);
       }
-    })
+    });
   }
 
-  document.getElementById('details').addEventListener('click', (event) => {
-    const button = event.target.closest('[data-action]')
-    const action = button?.dataset.action
+  document.getElementById("details").addEventListener("click", (event) => {
+    const button = event.target.closest("[data-action]");
+    const action = button?.dataset.action;
 
-    if (action === 'close') {
-      closeDetails()
-    } else if (action === 'share') {
-      copyLink(button)
-    } else if (action === 'download') {
-      download()
-    } else if (action === 'previous') {
-      plusSlides(-1)
-    } else if (action === 'next') {
-      plusSlides(1)
+    if (action === "close") {
+      closeDetails();
+    } else if (action === "share") {
+      copyLink(button);
+    } else if (action === "download") {
+      download();
+    } else if (action === "previous") {
+      plusSlides(-1);
+    } else if (action === "next") {
+      plusSlides(1);
     }
-  })
+  });
 
-  document.addEventListener('keydown', (event) => {
-    if (event.key === 'Escape') {
-      closeDetails()
+  document.addEventListener("keydown", (event) => {
+    if (event.key === "Escape") {
+      closeDetails();
     }
-  })
+  });
 }
 
 function mapPadding() {
@@ -1283,19 +1637,19 @@ function mapPadding() {
     bottom: 48,
     left: 24,
     right: 24,
-  }
+  };
 }
 
 // Analytics
 
 // Set by the Firebase snippet in index.html, and missing when analytics is blocked
 function track(name, params) {
-  window.trackEvent?.(name, params)
+  window.trackEvent?.(name, params);
 }
 
 // Places report their category (camping, hostel…), routes their activity
 function contentType(item) {
-  return item.place?.id ?? item.type
+  return item.place?.id ?? item.type;
 }
 
 // Helpers
@@ -1304,7 +1658,7 @@ function point(lat, lng) {
   return {
     lat: lat,
     lng: lng,
-  }
+  };
 }
 
 function getBounds(points) {
@@ -1313,16 +1667,16 @@ function getBounds(points) {
     south: 90,
     east: -180,
     west: 180,
-  }
+  };
 
   for (const coordinate of points) {
-    bounds.north = Math.max(bounds.north, coordinate.lat)
-    bounds.south = Math.min(bounds.south, coordinate.lat)
-    bounds.east = Math.max(bounds.east, coordinate.lng)
-    bounds.west = Math.min(bounds.west, coordinate.lng)
+    bounds.north = Math.max(bounds.north, coordinate.lat);
+    bounds.south = Math.min(bounds.south, coordinate.lat);
+    bounds.east = Math.max(bounds.east, coordinate.lng);
+    bounds.west = Math.min(bounds.west, coordinate.lng);
   }
 
-  return bounds
+  return bounds;
 }
 
 function around(position, gap) {
@@ -1331,64 +1685,65 @@ function around(position, gap) {
     south: position.lat - gap,
     east: position.lng + gap,
     west: position.lng - gap,
-  }
+  };
 }
 
 function download() {
-  track('gpx_download', { item_id: selected.label })
+  track("gpx_download", { item_id: selected.label });
 
-  const data = gpxData(selected.json)
-  const filename = `${selected.json.properties.r_number} - ${selected.json.properties.title}.gpx`
-  const file = new Blob([data], { type: 'application/xml' })
+  const data = gpxData(selected.json);
+  const filename = `${selected.json.properties.r_number} - ${selected.json.properties.title}.gpx`;
+  const file = new Blob([data], { type: "application/xml" });
 
   if (window.navigator.msSaveOrOpenBlob) {
-    window.navigator.msSaveOrOpenBlob(file, filename)
+    window.navigator.msSaveOrOpenBlob(file, filename);
   } else {
-    const a = document.createElement('a'),
-      url = URL.createObjectURL(file)
-    a.href = url
-    a.download = filename
-    document.body.appendChild(a)
-    a.click()
+    const a = document.createElement("a"),
+      url = URL.createObjectURL(file);
+    a.href = url;
+    a.download = filename;
+    document.body.appendChild(a);
+    a.click();
 
     setTimeout(function () {
-      document.body.removeChild(a)
-      window.URL.revokeObjectURL(url)
-    }, 0)
+      document.body.removeChild(a);
+      window.URL.revokeObjectURL(url);
+    }, 0);
   }
 }
 
 function gpxData(json) {
-  const name = `${json.properties.r_number} - ${json.properties.title}`
-  let xml = "<?xml version='1.0' encoding='UTF-8'?>\n"
-  xml += "<gpx version='1.1' xmlns='http://www.topografix.com/GPX/1/1' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd'>\n"
-  xml += "\t<metadata>\n"
-  xml += `\t\t<name>${name}</name>\n`
-  xml += "\t</metadata>\n"
-  xml += "\t<trk>\n"
-  xml += `\t\t<name>${name}</name>\n`
+  const name = `${json.properties.r_number} - ${json.properties.title}`;
+  let xml = "<?xml version='1.0' encoding='UTF-8'?>\n";
+  xml +=
+    "<gpx version='1.1' xmlns='http://www.topografix.com/GPX/1/1' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd'>\n";
+  xml += "\t<metadata>\n";
+  xml += `\t\t<name>${name}</name>\n`;
+  xml += "\t</metadata>\n";
+  xml += "\t<trk>\n";
+  xml += `\t\t<name>${name}</name>\n`;
 
   for (const stage of json.geometry.coordinates) {
-    xml += "\t\t<trkseg>\n"
+    xml += "\t\t<trkseg>\n";
 
     for (const point of stage) {
-      const lat = point[0]
-      const lon = point[1]
+      const lat = point[0];
+      const lon = point[1];
 
-      xml += `\t\t\t<trkpt lat='${lat}' lon='${lon}'></trkpt>\n`
+      xml += `\t\t\t<trkpt lat='${lat}' lon='${lon}'></trkpt>\n`;
     }
 
-    xml += "\t\t</trkseg>\n"
+    xml += "\t\t</trkseg>\n";
   }
 
-  xml += "\t</trk>\n"
-  xml += "</gpx>"
+  xml += "\t</trk>\n";
+  xml += "</gpx>";
 
-  return xml
+  return xml;
 }
 
 function readInt(field) {
-  const value = document.getElementById(field).value
+  const value = document.getElementById(field).value;
 
-  return value ? parseInt(value) : undefined
+  return value ? parseInt(value) : undefined;
 }
