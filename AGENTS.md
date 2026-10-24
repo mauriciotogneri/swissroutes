@@ -20,7 +20,7 @@ Swiss Routes is a static map site. Firebase Hosting serves only `public/`. All m
 | `public/data/`    | One JSON file per route or place: `public/data/<group>/<layer>/<id>.json`                                                   | The downloaders (charging stations by hand)                     | Yes             |
 | `public/ids.js`   | Generated `const <NAME>_IDS = [...]` constants, one per `ids/` file                                                         | `bin/ids-generator.js`                                          | Yes, gitignored |
 | `scripts/`        | `serve.sh` and `deploy.sh`, which both run `ids-generator.js` first                                                         | —                                                               | No              |
-| `my-switzerland/` | A May-2024 snapshot of the My Switzerland POI list and categories. No code reads it; it's handy for looking up category ids | By hand                                                         | No              |
+| `reference/`      | Files no code reads. `my-switzerland-categories.json` is a May-2024 snapshot of the My Switzerland categories and their ids | By hand                                                         | No              |
 
 ## Data flow
 
