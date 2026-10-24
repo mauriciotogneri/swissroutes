@@ -12,7 +12,7 @@ Run the steps below strictly one at a time:
 
 1. Run only the current step, exactly as written. Start with step 0.
 2. Report the result in the shape defined under Responses in the user's instructions: say what happened, and whether the step's "when it worked" criteria were met, with the evidence (command output, grep result).
-3. If the step worked, end the message with a ⚠️ item asking whether to continue with the next step, and name that step. Do not start it until the user says yes.
+3. If the step worked, ask whether to continue with the next step by calling `AskUserQuestion`, naming that step in the question. Do not ask it as a ⚠️ item or in plain text. Offer "Continue with step N" (recommended) and "Stop here", and explain both in one plain sentence each in the message before the call. Do not start the next step until the user picks the continue option.
 4. If the step failed or the result is unclear, stop and follow that step's "When it didn't" guidance. Say what you propose and wait. Never skip ahead.
 5. Steps 1, 2 and 3 are run one after another, never in parallel, even though they are independent.
 6. Steps 1–3 take minutes: run them in the background and wait for the completion notice. Don't poll the log.
