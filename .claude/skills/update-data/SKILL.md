@@ -345,7 +345,7 @@ The deletions are only on disk. Undo brings the files back until you commit.
 ./scripts/serve.sh
 ```
 
-This runs `bin/ids-generator.js`, which writes `public/ids.js` from the `ids/` lists, then serves the site. If the generator fails with `ENOENT ... ids/<name>.json`, one of the lists is missing. Restore it with `git restore ids/<name>.json`.
+This runs `bin/ids-generator.js`, which writes `public/ids.js` from the `ids/` lists, then serves the site. If the generator fails with `ENOENT ... ids/<name>.json`, one of the lists is missing. Restore it with `git restore ids/<name>.json`. If it fails with `ENOENT ... public/data/osm/<type>.json`, the OpenStreetMap download (step 3b) has not run or lost a file: rerun it. The generator also writes the row counts of the OpenStreetMap and charging-station rows into `ids.js`.
 
 Open the site at **http://localhost:5000**. The Google Maps key only works on that exact address, so another port or host shows a broken map.
 
@@ -364,7 +364,7 @@ Stop the server with Ctrl+C. When the server was started in the background, find
 
 - Open a new tab on `http://localhost:5000`, start console tracking with `read_console_messages` (pattern `Could not load|rror|fail`) before turning anything on, and close the tab at the end.
 - The sidebar buttons have no accessible names. `read_page` with `filter: interactive` lists them in order: refs for the 3 routes groups × National/Regional/Local first, then the 8 accommodation layers (campsites, backpackers, hostels, B&Bs, group houses, farm stays, sleeping in straw, mountain huts), then the 7 OpenStreetMap places to sleep (3 kinds of huts, hotels, guest houses, chalets, campsites), then sightseeing and the OpenStreetMap ruins. Bike service and E-bike charging are the first rows of the Bike support section, further down, followed by the OpenStreetMap sections. Click them by ref, with a wait of a few seconds after the big route groups. On `?favorites=1`, `find` the Hikes and Places buttons.
-- The sidebar counts must equal the new lists: for example 486 bike shops and 764 sightseeing places in October 2026. E-bike charging shows fewer than the file holds (336 of 1,411), because only stations inside the box around Switzerland are shown.
+- The sidebar counts must equal the new lists: for example 486 bike shops and 764 sightseeing places in October 2026. E-bike charging shows fewer than the files hold (437 of 1,513 in October 2026), because only stations inside the box around Switzerland are counted and shown. Every row, OpenStreetMap ones included, shows its number as soon as the page loads, and the number must not change when you turn the row on.
 - Click one marker each of charging stations and bike service. A first click on a cluster only zooms in, so click again on a single marker. Opening a panel in the screenshot is enough; no console error is the pass condition.
 
 ### Summary table (end of step 7)

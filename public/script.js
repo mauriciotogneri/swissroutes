@@ -221,11 +221,10 @@ function osmPlace(group, id, name, label, icon) {
 
 function placeLayer(place, ids, row) {
   if (place.osm) {
-    // OSM layers hold thousands of places, so each one loads when its toggle is turned on
+    // The counts come from ids.js, so a layer loads only when its toggle is turned on
     return {
       row: row,
-      single: true,
-      deferred: true,
+      count: PLACE_COUNTS[place.id],
       urls: place.files,
       build: (url, json) => buildOsmPlaces(url, json, place),
     }
@@ -234,7 +233,7 @@ function placeLayer(place, ids, row) {
   if (place.files) {
     return {
       row: row,
-      single: true,
+      count: PLACE_COUNTS[place.id],
       urls: place.files,
       build: (url, json) => buildChargingStations(url, json, place),
     }
@@ -289,15 +288,6 @@ function buildPanel() {
   }
 
   updateCounts({})
-
-  // A single-file layer only knows its count once loaded, so load it up front
-  for (const layer of Object.values(LAYERS)) {
-    if (layer.single && !layer.deferred) {
-      for (const url of layer.urls) {
-        loadFile(url, layer.build)
-      }
-    }
-  }
 }
 
 function group(name, rows) {
@@ -423,8 +413,7 @@ function updateCounts(counts) {
       element.textContent = (count.shown < count.total) ? `${shown} of ${count.total.toLocaleString()}` : shown
       element.classList.add('active')
     } else {
-      const total = rowTotal(element.dataset.count)
-      element.textContent = (total === undefined) ? '' : total.toLocaleString()
+      element.textContent = rowTotal(element.dataset.count).toLocaleString()
       element.classList.remove('active')
     }
   }
@@ -435,19 +424,7 @@ function rowTotal(row) {
 
   for (const layer of Object.values(LAYERS)) {
     if (layer.row === row) {
-      if (layer.single) {
-        for (const url of layer.urls) {
-          const items = files.get(url)
-
-          if (!items) {
-            return undefined
-          }
-
-          total += items.length
-        }
-      } else {
-        total += layer.urls.length
-      }
+      total += layer.count ?? layer.urls.length
     }
   }
 
@@ -591,7 +568,7 @@ function buildChargingStations(url, json, place) {
     const latitude = parseFloat(coordinates[1])
     const longitude = parseFloat(coordinates[0])
 
-    if ((latitude >= 46.128503) && (latitude <= 47.858446) && (longitude >= 5.923137) && (longitude <= 10.583217)) {
+    if ((latitude >= CHARGING_BOUNDS.south) && (latitude <= CHARGING_BOUNDS.north) && (longitude >= CHARGING_BOUNDS.west) && (longitude <= CHARGING_BOUNDS.east)) {
       const position = point(latitude, longitude)
 
       const item = {
@@ -730,7 +707,11 @@ function render(regroup = true) {
   for (const id of activeLayers) {
     const layer = LAYERS[id]
     const count = counts[layer.row] ?? { shown: 0, total: 0 }
-    counts[layer.row] = count
+
+    // Until the layer's files have arrived, the row keeps showing its total instead of a count that starts at 0
+    if (layer.urls.every((url) => files.has(url))) {
+      counts[layer.row] = count
+    }
 
     for (const url of layer.urls) {
       for (const item of files.get(url) ?? []) {
