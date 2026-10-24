@@ -67,4 +67,5 @@ node_modules/
 
 # Custom
 !scripts/
+!.claude/
 public/ids.js

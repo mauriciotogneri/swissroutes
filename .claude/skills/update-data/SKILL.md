@@ -1,10 +1,31 @@
+---
+name: update-data
+description: Refresh all Swiss Routes map data (routes, accommodation, bike service shops, sightseeing, charging stations), review, commit and deploy, running one step at a time and waiting for the user's go-ahead between steps. Use when the user asks to update the data or runs /update-data.
+disable-model-invocation: true
+---
+
 # Updating the map data
+
+## How to run this skill
+
+Run the steps below strictly one at a time:
+
+1. Run only the current step, exactly as written. Start with step 0.
+2. Report the result in the shape defined under Responses in the user's instructions: say what happened, and whether the step's "when it worked" criteria were met, with the evidence (command output, grep result).
+3. If the step worked, end the message with a ⚠️ item asking whether to continue with the next step, and name that step. Do not start it until the user says yes.
+4. If the step failed or the result is unclear, stop and follow that step's "When it didn't" guidance. Say what you propose and wait. Never skip ahead.
+5. Steps 1, 2 and 3 are run one after another, never in parallel, even though they are independent.
+6. Steps 1–3 take minutes: run them in the background and wait for the completion notice. Don't poll the log.
+7. Step 5 is by hand: ask whether to do it or skip it. Step 7 serves the site: run the server in the background and ask the user to do the browser checks (or to say if you should). Stop the server afterwards.
+8. Commit in step 8 and deploy in step 9 only when the user explicitly says so at that step. Never create a branch.
+
+The rest of this file is the runbook.
 
 This is the step-by-step plan for refreshing every layer the site shows: routes, accommodation, bike service shops, sightseeing and charging stations. Follow the steps in order. Each step says what to run, how to tell that it worked, and what to do when it didn't.
 
 The whole update takes about an hour, most of it the route download. It changes files in `ids/` and `public/data/` only. Nothing reaches the live site until step 9.
 
-See [AGENTS.md](AGENTS.md) for how the data sources, folders and scripts fit together.
+See `AGENTS.md` in the repository root for how the data sources, folders and scripts fit together.
 
 ## Overview
 
@@ -23,7 +44,7 @@ See [AGENTS.md](AGENTS.md) for how the data sources, folders and scripts fit tog
 
 The times are estimates. Requests take about 0.5 seconds each, measured once in October 2026.
 
-Steps 1, 2 and 3 don't depend on each other. To save time you can run them at the same time in three terminals. Everything from step 4 on needs all three to have finished.
+Steps 1, 2 and 3 don't depend on each other, but this skill runs them one after another. Everything from step 4 on needs all three to have finished.
 
 ## Rules that apply to every step
 
