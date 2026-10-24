@@ -293,6 +293,8 @@ It must show `0 malformed` and a count within 10% of the previous one (1,339 bef
 
 Before running it, list for each `ids/` list the ids that are in the baseline commit (`git show $(cat logs/baseline.txt):<list>`, as in check 1) but not in the new list, and say whether each had a data file. Put them in the ⚠️ item ("cleanup will delete about N files, including these ids: …") and wait for a yes.
 
+`bin/cleanup.js` has no dry run. To get the exact numbers for the ⚠️ item, mirror it read-only: for each folder, list the files in `public/data/<folder>` that no `ids/` list refers to (a favorites list refers to the folder in `DATA_FOLDERS` at the top of `cleanup.js`, not its own). In October 2026 the simulation matched the real run exactly: 582 files (523 bike shops after a renumbering, 52 sightseeing, 5 mountain bike, 2 hiking). Say in the item if a layer was renumbered, because that deletes every old file of the layer.
+
 ```sh
 node bin/cleanup.js
 ```
