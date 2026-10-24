@@ -448,6 +448,7 @@ function buildPanel() {
   let content = group(
     "Routes",
     byCount([mountainBiking, hiking, cycling]).map(activityRow).join(""),
+    false,
   );
   content += group(
     "Stay",
@@ -509,8 +510,13 @@ function byCount(items) {
   return [...items].sort((a, b) => rowTotal(b.id) - rowTotal(a.id));
 }
 
-function group(name, rows) {
-  return `<section class="group"><h2>${name}</h2>${rows}</section>`;
+// Routes stay open. Every other group starts collapsed
+function group(name, rows, collapsible = true) {
+  if (!collapsible) {
+    return `<section class="group"><h2>${name}</h2>${rows}</section>`;
+  }
+
+  return `<details class="group"><summary><h2>${name}</h2><span class="material-symbols-outlined">chevron_right</span></summary>${rows}</details>`;
 }
 
 function activityRow(activity) {

@@ -134,6 +134,33 @@ body.has-details #map {
   border-top: 1px solid var(--rule);
 }
 
+.group summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 4px;
+  cursor: pointer;
+  list-style: none;
+}
+
+.group summary::-webkit-details-marker {
+  display: none;
+}
+
+.group summary h2 {
+  margin: 0;
+}
+
+.group summary .material-symbols-outlined {
+  margin-right: -4px;
+  color: var(--ink-soft);
+  transition: transform 0.15s;
+}
+
+.group[open] summary .material-symbols-outlined {
+  transform: rotate(90deg);
+}
+
 .group h2 {
   margin: 0 0 4px;
   color: var(--ink-soft);
@@ -784,6 +811,7 @@ body.has-details .map-controls {
 }
 
 @media (prefers-reduced-motion: reduce) {
+  .group summary .material-symbols-outlined,
   .marker {
     transition: none;
   }
