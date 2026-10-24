@@ -38,8 +38,6 @@ https://opencampingmap.org
 
 ## TODO
 
-what is the folder "ids" for?
-
 resolve all README
 
 run vitrine pro website check
