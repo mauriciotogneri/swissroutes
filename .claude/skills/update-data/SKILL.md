@@ -12,7 +12,7 @@ Run the steps below strictly one at a time:
 
 1. Run only the current step, exactly as written. Start with step 0.
 2. Report the result in the shape defined under Responses in the user's instructions: say what happened, and whether the step's "when it worked" criteria were met, with the evidence (command output, grep result).
-3. If the step worked, ask whether to continue with the next step by calling `AskUserQuestion`, naming that step in the question. Do not ask it as a ⚠️ item or in plain text. Offer "Continue with step N" (recommended) and "Stop here", and explain both in one plain sentence each in the message before the call. Do not start the next step until the user picks the continue option.
+3. If the step worked, first look back over the run so far and update this file with anything that would have helped: a failure and how it was solved, a message or case the runbook didn't cover, a command whose output misled you, a check that missed something. Make the smallest edit that captures it, add a line to the report saying what changed, and skip this when nothing new came up. Then ask whether to continue with the next step by calling `AskUserQuestion`, naming that step in the question. Do not ask it as a ⚠️ item or in plain text. Offer "Continue with step N" (recommended) and "Stop here", and explain both in one plain sentence each in the message before the call. Do not start the next step until the user picks the continue option.
 4. If the step failed or the result is unclear, stop and follow that step's "When it didn't" guidance. Say what you propose and wait. Never skip ahead.
 5. Steps 1, 2 and 3 are run one after another, never in parallel, even though they are independent.
 6. Steps 1–3 take minutes: run them in the background and wait for the completion notice. Don't poll the log.
@@ -36,7 +36,9 @@ The steps run in order 0–9. Steps 1–3 take most of the time (the route downl
 - **Run every command from the repository root.** The scripts use relative paths.
 - **Read the output.** The downloaders exit with code 0 even when they stop on an error, so a returned prompt doesn't mean success. Each step below says what to search the log for.
 - **Never run `bin/cleanup.js` after a download that stopped on an error.** Rerun the failed downloader until it finishes cleanly first. Step 3 explains the worst case.
-- **Don't commit until step 8.** Until then, [Undo](#undo) brings everything back.
+- **Compare against the baseline, not `HEAD`.** Step 0 saves the starting commit in `logs/baseline.txt`, and the commands below read it as `BASE`. The user may commit while the run is going: in October 2026 they committed the routes and shops, then the sightseeing, between steps 2 and 3. After that `HEAD` already held the new data, and every comparison against it showed nothing. Before step 4, run `git log --oneline $(cat logs/baseline.txt)..HEAD`. If it lists commits, tell the user and keep using `BASE`.
+- **A connection timeout is a network problem, not a script problem.** A stack trace with `ETIMEDOUT` after `Retrying:` lines (it can strike on the first request or after 1,500 requests) usually passes by itself. Before rerunning, check that the source answers: `curl -sS -m 15 -o /dev/null -w '%{http_code}\n' <url from the log>` must print 200. In October 2026 step 2 failed twice this way and finished on the third run. Each rerun starts from the first request. After two failures, stop and ask the user before a third.
+- **Don't commit until step 8.** Until then, [Undo](#undo) brings everything back, unless the user committed during the run.
 
 ## Step 0: Before you start
 
@@ -64,6 +66,12 @@ The steps run in order 0–9. Steps 1–3 take most of the time (the route downl
 
    ```sh
    mkdir -p logs
+   ```
+
+5. Save the starting commit. Steps 4, 6 and 8 and Undo compare against it.
+
+   ```sh
+   git rev-parse HEAD > logs/baseline.txt
    ```
 
 ## Step 1: Routes
@@ -103,7 +111,7 @@ node bin/other-downloader.js 2>&1 | tee logs/other.log
 
 **While it runs**, it prints `SERVICESHOP: <id> (<percent>%)` and then `SIGHTSEEING: <id> (<percent>%)`.
 
-**When it worked**, the last progress line is a `SIGHTSEEING:` line at 99% and the search below prints `no matches`:
+**When it worked**, the last progress line is a `SIGHTSEEING:` line at 99% and the search below prints `no matches`, or only `MORE THAN ONE FEATURE` lines, which are handled below and are not failures:
 
 ```sh
 grep -nE '^Error (downloading file|getting ids):|^ +at |NO IDS FOUND|MORE THAN ONE FEATURE|DUPLICATED ID' logs/other.log || { [ $? -eq 1 ] && echo "no matches"; }
@@ -113,7 +121,7 @@ grep -nE '^Error (downloading file|getting ids):|^ +at |NO IDS FOUND|MORE THAN O
 
 - `Error getting ids:` means the id list couldn't be downloaded. `Error downloading file:` means a single place couldn't. In both cases the script stopped before writing that layer's id list. Rerun the same command. If no `Retrying:` lines come before the error, read step 1 first: the response format has probably changed.
 - `NO IDS FOUND: <url>` means SchweizMobil returned an empty list. The address has probably changed. Open the URL in a browser before you rerun. If the address changed, update it in `bin/helpers.js`.
-- `MORE THAN ONE FEATURE: <url>` means that place was skipped, but its id is still on the new list. If the place is new, check 2 in step 4 will report its missing file. If it existed before, it keeps its old file.
+- `MORE THAN ONE FEATURE: <url>` means that place was skipped, but its id is still on the new list. If the place is new, it has no file, and check 2 in step 4 will report it (a new shop 1404 did in October 2026). If it existed before, it keeps its old file. Ask the user then: accept it (the site skips that place and logs one `Could not load` message), or remove its id from the list. The next download adds the id back.
 
 The hand-made sightseeing entries (ids 10001 and up) are safe. They are listed only in `ids/favorites/visit.json`, which no script writes, and step 6 keeps every file that a favorites list refers to.
 
@@ -137,7 +145,7 @@ Downloads, in this order:
 node bin/accommodation-downloader.js 2>&1 | tee logs/accommodation.log
 ```
 
-**When it worked**, the last progress line is a `MOUNTAINHUT:` line at 99%. The script then spends a few more seconds on the three My Switzerland layers without printing anything. When the prompt returns, the search below must print `no matches`:
+**When it worked**, the last progress line is a `MOUNTAINHUT:` line at 99%. The script then spends a few more seconds on the three My Switzerland layers without printing anything. When the prompt returns, the search below must print `no matches` (`MORE THAN ONE FEATURE` lines are handled as in step 2):
 
 ```sh
 grep -nE '^Error (downloading file|getting ids):|^ +at |NO IDS FOUND|MORE THAN ONE FEATURE|DUPLICATED ID' logs/accommodation.log || { [ $? -eq 1 ] && echo "no matches"; }
@@ -160,20 +168,22 @@ Run these three checks after steps 1–3 have all finished cleanly.
 
 ### Check 1: How much each list changed
 
-Compares how many ids each list had in the last commit with how many it has now:
+Compares the ids each list had at the baseline commit with the ids it has now, as counts and as ids added (`+`) and removed (`-`). Equal counts alone don't prove the ids are the same:
 
 ```sh
-node -e "
+BASE=$(cat logs/baseline.txt) node -e "
 const fs = require('fs'), { execSync } = require('child_process')
 for (const g of fs.readdirSync('ids')) for (const f of fs.readdirSync('ids/' + g)) {
   const p = 'ids/' + g + '/' + f
-  const before = JSON.parse(execSync('git show HEAD:' + p)).length
-  const after = JSON.parse(fs.readFileSync(p, 'utf-8')).length
-  console.log(p.padEnd(38), String(before).padStart(5), '->', String(after).padStart(5), after < before * 0.9 ? '  <-- dropped more than 10%' : '')
+  const before = new Set(JSON.parse(execSync('git show ' + process.env.BASE + ':' + p)))
+  const after = new Set(JSON.parse(fs.readFileSync(p, 'utf-8')))
+  const added = [...after].filter((id) => !before.has(id)).length
+  const removed = [...before].filter((id) => !after.has(id)).length
+  console.log(p.padEnd(38), String(before.size).padStart(5), '->', String(after.size).padStart(5), ('+' + added + ' -' + removed).padStart(10), after.size < before.size * 0.9 ? '  <-- dropped more than 10%' : '')
 }"
 ```
 
-Small changes in both directions are normal. Look into any list marked `dropped more than 10%`, and any list that went to 0. The cause is usually a failed or partial download, so rerun that downloader. The two `favorites` lists never change in this step.
+Small changes in both directions are normal, and a whole layer can be unchanged (`+0 -0`: all eight accommodation lists in October 2026). A list where `+` and `-` are close to its whole size means SchweizMobil renumbered it (all bike shops in October 2026: ids 2–634 became 1000–1490, with similar counts). That is expected, but tell the user: old share links to those places break, and step 6 will delete the old files. Look into any list marked `dropped more than 10%`, and any list that went to 0. The cause is usually a failed or partial download, so rerun that downloader. The two `favorites` lists never change in this step.
 
 ### Check 2: Missing files and broken favorites
 
@@ -202,24 +212,26 @@ It must print `No problems`. Otherwise:
 
 | Message                                                                | Meaning                                                                                                                                              | What to do                                                                                                                                                                                                           |
 | :--------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `<list>: no data file for <id>`                                        | The id is on a list but has no file. The site will skip that place and log `Could not load` in the browser console.                                  | Look for `MORE THAN ONE FEATURE` with that id in the logs. If there is no such line, SchweizMobil returned nothing for that id. If one or two places are affected, accept it. If many are, rerun that downloader.    |
+| `<list>: no data file for <id>`                                        | The id is on a list but has no file. The site will skip that place and log `Could not load` in the browser console.                                  | Look for `MORE THAN ONE FEATURE` with that id in the logs. If there is no such line, SchweizMobil returned nothing for that id. If one or two places are affected, accept it, or remove the id from the list if the user prefers no console message. If many are, rerun that downloader.    |
 | `favorites/hiking: <id> is no longer a ... route`                      | SchweizMobil dropped that route number. Step 6 keeps its old file because a favorites list still refers to it, so the site shows the outdated route. | Find the route's new number on [map.schweizmobil.ch](https://map.schweizmobil.ch) and put it in `ids/favorites/hiking.json`, or delete the entry.                                                                    |
 | `favorites/visit: <id> is no longer a ... place`                       | Same as above, for a favorite sightseeing place.                                                                                                     | Update or delete the entry in `ids/favorites/visit.json`.                                                                                                                                                            |
-| `other/sightseeing: SchweizMobil id <id> overlaps the hand-made range` | SchweizMobil now uses ids of 10001 and up, so the download may have overwritten a hand-made entry with the same id.                                  | **Stop.** For each id listed, check whether it is in `ids/favorites/visit.json`. If not, nothing hand-made was overwritten: tell the user and carry on. If it is, restore the hand-made file under a new id with `git show HEAD:public/data/other/sightseeing/<id>.json`, and update the file name, its inner `id` and the `visit.json` entry. Pick a new id above every id on `ids/other/sightseeing.json`. Rerun `node bin/other-downloader.js` so the SchweizMobil place gets its file back, then move the `10001` threshold in check 2 to the new range. |
+| `other/sightseeing: SchweizMobil id <id> overlaps the hand-made range` | SchweizMobil now uses ids of 10001 and up, so the download may have overwritten a hand-made entry with the same id.                                  | **Stop.** For each id listed, check whether it is in `ids/favorites/visit.json`. If not, nothing hand-made was overwritten: tell the user and carry on. If it is, restore the hand-made file under a new id with `git show $(cat logs/baseline.txt):public/data/other/sightseeing/<id>.json`, and update the file name, its inner `id` and the `visit.json` entry. Pick a new id above every id on `ids/other/sightseeing.json`. Rerun `node bin/other-downloader.js` so the SchweizMobil place gets its file back, then move the `10001` threshold in check 2 to the new range. |
+
+To help the user find a favorite's new number, read the route's or place's name from its old file (`properties.title`, still on disk until step 6). If the user chooses to delete entries, edit the text and don't reformat: the favorites lists hold one id per line (`  659,`) with no newline at the end, and the downloaded lists are one line. Remove only `<id>,`, then confirm with `git diff --stat` that just those lines changed and run check 2 again. Step 6 will then delete the removed favorites' old files; name them in its confirmation.
 
 ### Check 3: Favorites that now point somewhere else
 
 SchweizMobil sometimes gives an existing number to a different route or place. The favorite then quietly shows the new one. This check lists every favorite whose title changed:
 
 ```sh
-node -e "
+BASE=$(cat logs/baseline.txt) node -e "
 const fs = require('fs'), { execSync } = require('child_process')
 const title = (json) => JSON.parse(json).properties.title
 const lists = { 'favorites/hiking': 'hiking/local', 'favorites/visit': 'other/sightseeing' }
 for (const [list, folder] of Object.entries(lists)) for (const id of JSON.parse(fs.readFileSync('ids/' + list + '.json', 'utf-8'))) {
   const file = 'public/data/' + folder + '/' + id + '.json'
   let before
-  try { before = title(execSync('git show HEAD:' + file, { stdio: ['ignore', 'pipe', 'ignore'] })) } catch (e) { continue }
+  try { before = title(execSync('git show ' + process.env.BASE + ':' + file, { stdio: ['ignore', 'pipe', 'ignore'] })) } catch (e) { continue }
   if (!fs.existsSync(file)) continue
   const after = title(fs.readFileSync(file, 'utf-8'))
   if (before !== after) console.log(list + ' ' + id + ': \"' + before + '\" is now \"' + after + '\"')
@@ -257,10 +269,10 @@ The site expects a JSON array where every entry looks like this:
 Check the new file before moving it into place:
 
 ```sh
-node -e "
+BASE=$(cat logs/baseline.txt) node -e "
 const fs = require('fs'), { execSync } = require('child_process')
 const list = JSON.parse(fs.readFileSync(process.argv[1], 'utf-8'))
-const before = JSON.parse(execSync('git show HEAD:public/data/other/chargingstations/chargingstations.json', { maxBuffer: 1 << 28 })).length
+const before = JSON.parse(execSync('git show ' + process.env.BASE + ':public/data/other/chargingstations/chargingstations.json', { maxBuffer: 1 << 28 })).length
 const text = (v) => typeof v === 'string' ? v : v && v.__cdata
 const bad = list.filter((e) => typeof text(e.name) !== 'string' || !e.Point || !/^-?\d+(\.\d+)?,-?\d+(\.\d+)?/.test(e.Point.coordinates) || (e.description && typeof e.description.__cdata !== 'string'))
 console.log(list.length + ' stations (' + before + ' before), ' + bad.length + ' malformed')
@@ -273,7 +285,7 @@ It must show `0 malformed` and a count within 10% of the previous one (1,339 in 
 
 **Only run this step when steps 1–3 all finished cleanly and step 4 is clean.**
 
-Before running it, list for each `ids/` list the ids that are in the last commit (`git show HEAD:<list>`, as in check 1) but not in the new list, and say whether each had a data file. Put them in the ⚠️ item ("cleanup will delete about N files, including these ids: …") and wait for a yes.
+Before running it, list for each `ids/` list the ids that are in the baseline commit (`git show $(cat logs/baseline.txt):<list>`, as in check 1) but not in the new list, and say whether each had a data file. Put them in the ⚠️ item ("cleanup will delete about N files, including these ids: …") and wait for a yes.
 
 ```sh
 node bin/cleanup.js
@@ -324,7 +336,7 @@ git status --short public/data | grep -c '^??' || true   # new data files
 
 `public/ids.js` is gitignored and never committed.
 
-The downloaded id lists and data files are stored as single-line JSON, so `git diff` shows each changed file as one long changed line. Check 1 in step 4 is the readable summary of the id lists. To compare a single data file, use `git show HEAD:<path>` against the file on disk.
+The downloaded id lists and data files are stored as single-line JSON, so `git diff` shows each changed file as one long changed line. Check 1 in step 4 is the readable summary of the id lists. To compare a single data file, use `git show $(cat logs/baseline.txt):<path>` against the file on disk. If the user already committed part of the update during the run, the counts above cover only what is still uncommitted: say so, and ask the commit question only for the rest.
 
 Show the counts, then end with a ⚠️ item asking "Commit `ids/` and `public/data/` now?" A yes to "continue with step 8" is not permission to commit. Only after a yes to that question, commit `ids/` and `public/data/` together, so each id list and its files always match:
 
@@ -346,11 +358,13 @@ This regenerates `public/ids.js` and deploys `public/` to Firebase Hosting. Then
 
 ## Undo
 
-Before you commit, this puts `ids/` and `public/data/` back exactly as they were in the last commit, even if you already ran `git add`. It deletes the newly downloaded files and restores changed and deleted ones:
+Before you commit, this puts `ids/` and `public/data/` back exactly as they were in the baseline commit, even if you already ran `git add`. It deletes the newly downloaded files and restores changed and deleted ones:
 
 ```sh
-git restore --source=HEAD --staged --worktree ids public/data
+git restore --source=$(cat logs/baseline.txt) --staged --worktree ids public/data
 git clean -fd public/data
 ```
+
+If the user committed during the run, this leaves the working tree differing from `HEAD` and does not remove their commits. Tell the user, and don't reset or revert anything unless they say to.
 
 `git clean` deletes every untracked file under `public/data/`. That's safe only because step 0 started from a clean tree. Run `git clean -nd public/data` first to see what it would delete.
