@@ -6,11 +6,6 @@
 
 https://opencampingmap.org
 
-## Switzerland Mobility
-
-- Website: https://schweizmobil.ch/en
-- Map: https://map.schweizmobil.ch
-
 ## Review
 
 - Review sightseen: https://schweizmobil.ch/en/place-of-interest-373-teppes-of-verbois
