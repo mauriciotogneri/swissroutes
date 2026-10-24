@@ -16,7 +16,7 @@ Run the steps below strictly one at a time:
 4. If the step failed or the result is unclear, stop and follow that step's "When it didn't" guidance. Say what you propose and wait. Never skip ahead.
 5. Steps 1, 2 and 3 are run one after another, never in parallel, even though they are independent.
 6. Steps 1–3 take minutes: run them in the background and wait for the completion notice. Don't poll the log.
-7. Step 5 is by hand: ask whether to do it or skip it, and if the user does it, ask them for the KML file or the finished JSON. Step 7 serves the site: run the server in the background and ask the user to do the browser checks (or to say if you should). Stop the server afterwards.
+7. Step 5 is by hand: ask whether to do it or skip it, and if the user does it, ask them for the KML file or the finished JSON. Step 7 serves the site: run the server in the background and ask the user to do the browser checks (or to say if you should). Stop the server afterwards (see step 7).
 8. Commit in step 8 and deploy in step 9 only when the user explicitly says so at that step. A yes to "continue with step 8" or "continue with step 9" is not that say-so: each step asks its own commit or deploy question. Never create a branch.
 
 The rest of this file is the runbook.
@@ -331,7 +331,14 @@ Then check:
 4. Turn on the charging stations layer.
 5. Open the browser console. There must be no `Could not load` errors, other than any you accepted in step 4.
 
-Stop the server with Ctrl+C.
+Stop the server with Ctrl+C. When the server was started in the background, find the processes with `ss -ltnp | grep ':5000 '` and `pgrep -af 'serve.sh|firebase'`, kill the `serve.sh` and `firebase serve` PIDs, and confirm that nothing listens on port 5000.
+
+**Doing the checks yourself** (the user can ask for it; it took about 5 minutes in October 2026, with Claude in Chrome):
+
+- Open a new tab on `http://localhost:5000`, start console tracking with `read_console_messages` (pattern `Could not load|rror|fail`) before turning anything on, and close the tab at the end.
+- The sidebar buttons have no accessible names. `read_page` with `filter: interactive` lists them in order: refs for the 3 routes groups × National/Regional/Local first, then the 8 accommodation layers (campsites, backpackers, hostels, B&Bs, group houses, farm stays, sleeping in straw, mountain huts), then sightseeing, bike service and e-bike charging. Click them by ref, with a wait of a few seconds after the big route groups. On `?favorites=1`, `find` the Hikes and Places buttons.
+- The sidebar counts must equal the new lists: for example 486 bike shops and 764 sightseeing places in October 2026. E-bike charging shows fewer than the file holds (336 of 1,411), because only stations inside the box around Switzerland are shown.
+- Click one marker each of charging stations and bike service. A first click on a cluster only zooms in, so click again on a single marker. Opening a panel in the screenshot is enough; no console error is the pass condition.
 
 ## Step 8: Review and commit
 
