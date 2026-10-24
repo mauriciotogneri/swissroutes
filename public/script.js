@@ -53,16 +53,25 @@ const PLACES = [
   { id: 'sleepingstraw', group: 'stay', name: 'Sleeping in straw', label: 'Sleeping in straw', icon: 'bed', folder: 'accommodation/sleepingstraw', ids: ACCOMMODATION_SLEEPINGSTRAW_IDS },
   { id: 'mountainhut', group: 'stay', name: 'Mountain huts', label: 'Mountain hut', icon: 'night_shelter', folder: 'accommodation/mountainhut', ids: ACCOMMODATION_MOUNTAINHUT_IDS },
   { id: 'sightseeing', group: 'explore', name: 'Sightseeing', label: 'Sightseeing', icon: 'visibility', folder: 'other/sightseeing', ids: OTHER_SIGHTSEEING_IDS },
-  { id: 'serviceshop', group: 'explore', name: 'Bike service', label: 'Bike service', icon: 'build', folder: 'other/serviceshop', ids: OTHER_SERVICESHOP_IDS },
+  { id: 'serviceshop', group: 'explore', section: 'Bike support', name: 'Bike service', label: 'Bike service', icon: 'build', folder: 'other/serviceshop', ids: OTHER_SERVICESHOP_IDS },
   { id: 'chargingstation', group: 'explore', section: 'Bike support', name: 'E-bike charging', label: 'E-bike charging station', icon: 'bolt', files: ['other/chargingstations/chargingstations.json', 'other/chargingstations/ebike-sockets.json'] },
 ]
 
 // OpenStreetMap places, downloaded by bin/osm-downloader.js. Every type has its own toggle
-// These three are listed under Stay, with the other places to sleep
+// These are listed under Stay, with the other places to sleep
 const OSM_STAY = [
   osmPlace('stay', 'alpinehut', 'Alpine huts', 'Alpine hut', 'cabin'),
   osmPlace('stay', 'wildernesshut', 'Wilderness huts', 'Wilderness hut', 'cottage'),
   osmPlace('stay', 'basichut', 'Basic huts', 'Basic hut', 'fireplace'),
+  osmPlace('stay', 'hotel', 'Hotels', 'Hotel', 'apartment'),
+  osmPlace('stay', 'guesthouse', 'Guest houses', 'Guest house', 'bedroom_parent'),
+  osmPlace('stay', 'chalet', 'Chalets', 'Chalet', 'chalet'),
+  osmPlace('stay', 'campsite', 'Campsites', 'Campsite', 'camping'),
+]
+
+// These are listed under Explore, with sightseeing
+const OSM_EXPLORE = [
+  osmPlace('explore', 'ruins', 'Ruins', 'Ruins', 'fort'),
 ]
 
 // The others have a section each. A place from PLACES with the same section name is listed there too
@@ -104,26 +113,11 @@ const OSM_SECTIONS = [
     ],
   },
   {
-    name: 'Landmarks',
-    places: [
-      osmPlace('explore', 'ruins', 'Ruins', 'Ruins', 'fort'),
-    ],
-  },
-  {
     name: 'Camper services',
     places: [
       osmPlace('explore', 'dumpstation', 'Dump stations', 'Dump station', 'delete'),
       osmPlace('explore', 'waterpoint', 'Water points', 'Water point', 'faucet'),
       osmPlace('explore', 'shower', 'Showers', 'Shower', 'shower'),
-    ],
-  },
-  {
-    name: 'Lodging',
-    places: [
-      osmPlace('stay', 'hotel', 'Hotels', 'Hotel', 'apartment'),
-      osmPlace('stay', 'guesthouse', 'Guest houses', 'Guest house', 'bedroom_parent'),
-      osmPlace('stay', 'chalet', 'Chalets', 'Chalet', 'chalet'),
-      osmPlace('stay', 'campsite', 'Campsites', 'Campsite', 'camping'),
     ],
   },
 ]
@@ -196,7 +190,7 @@ function buildLayers() {
     layers[place.id] = placeLayer(place, place.ids, place.id)
   }
 
-  const osmPlaces = [...OSM_STAY, ...OSM_SECTIONS.flatMap((section) => section.places)]
+  const osmPlaces = [...OSM_STAY, ...OSM_EXPLORE, ...OSM_SECTIONS.flatMap((section) => section.places)]
 
   for (const place of osmPlaces) {
     layers[place.id] = placeLayer(place, undefined, place.id)
@@ -260,7 +254,7 @@ function buildPanel() {
 
   let content = group('Routes', activityRow(mountainBiking) + activityRow(hiking) + activityRow(cycling))
   content += group('Stay', [...PLACES.filter((place) => place.group === 'stay'), ...OSM_STAY].map(placeRow).join(''))
-  content += group('Explore', PLACES.filter((place) => (place.group === 'explore') && !place.section).map(placeRow).join(''))
+  content += group('Explore', [...PLACES.filter((place) => (place.group === 'explore') && !place.section), ...OSM_EXPLORE].map(placeRow).join(''))
 
   for (const section of OSM_SECTIONS) {
     const places = [...PLACES.filter((place) => place.section === section.name), ...section.places]
@@ -277,7 +271,11 @@ function buildPanel() {
   const notOsm = PLACES.filter((place) => place.section).map((place) => place.name)
   const except = (notOsm.length > 0) ? ` (except ${notOsm.join(', ')})` : ''
 
-  content += `<p class="attribution">${OSM_STAY.map((place) => place.name).join(', ')} and the ${OSM_SECTIONS[0].name} to ${OSM_SECTIONS[OSM_SECTIONS.length - 1].name} sections${except}: data © <a href="https://www.openstreetmap.org/copyright" target="_blank">OpenStreetMap contributors</a></p>`
+  const list = (names) => new Intl.ListFormat('en').format(names)
+  const sections = list(OSM_SECTIONS.map((section) => section.name))
+  const others = list([...OSM_STAY, ...OSM_EXPLORE].map((place) => place.name))
+
+  content += `<p class="attribution">Data © <a href="https://www.openstreetmap.org/copyright" target="_blank">OpenStreetMap contributors</a> for the ${sections} sections${except}, and for ${others}</p>`
 
   const layers = document.getElementById('layers')
   layers.innerHTML = content

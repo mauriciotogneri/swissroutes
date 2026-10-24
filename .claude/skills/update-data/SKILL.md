@@ -355,7 +355,7 @@ Then check:
 2. Click a few routes and places in each layer. The details panel shows a title, photo and description.
 3. Open http://localhost:5000/?favorites=1 and turn on both favorites layers (Hikes and Places).
 4. Turn on the charging stations layer.
-5. Turn on a few of the OpenStreetMap layers (the three huts under Stay, and the sections from Water to Lodging) and click a marker in each. The details panel shows the name or type, and the OpenStreetMap credit.
+5. Turn on a few of the OpenStreetMap layers (the seven places to sleep under Stay, Ruins under Explore, and the sections from Water to Camper services) and click a marker in each. The details panel shows the name or type, and the OpenStreetMap credit.
 6. Open the browser console. There must be no `Could not load` errors, other than any you accepted in step 4.
 
 Stop the server with Ctrl+C. When the server was started in the background, find the processes with `ss -ltnp | grep ':5000 '` and `pgrep -af 'serve.sh|firebase'`, kill the `serve.sh` and `firebase serve` PIDs, and confirm that nothing listens on port 5000.
@@ -363,7 +363,7 @@ Stop the server with Ctrl+C. When the server was started in the background, find
 **Doing the checks yourself** (the user can ask for it; it took about 5 minutes in October 2026, with Claude in Chrome):
 
 - Open a new tab on `http://localhost:5000`, start console tracking with `read_console_messages` (pattern `Could not load|rror|fail`) before turning anything on, and close the tab at the end.
-- The sidebar buttons have no accessible names. `read_page` with `filter: interactive` lists them in order: refs for the 3 routes groups × National/Regional/Local first, then the 8 accommodation layers (campsites, backpackers, hostels, B&Bs, group houses, farm stays, sleeping in straw, mountain huts), then the 3 OpenStreetMap huts (alpine, wilderness, basic), then sightseeing and bike service. E-bike charging is the first row of the Bike support section, further down, followed by the OpenStreetMap sections. Click them by ref, with a wait of a few seconds after the big route groups. On `?favorites=1`, `find` the Hikes and Places buttons.
+- The sidebar buttons have no accessible names. `read_page` with `filter: interactive` lists them in order: refs for the 3 routes groups × National/Regional/Local first, then the 8 accommodation layers (campsites, backpackers, hostels, B&Bs, group houses, farm stays, sleeping in straw, mountain huts), then the 7 OpenStreetMap places to sleep (3 kinds of huts, hotels, guest houses, chalets, campsites), then sightseeing and the OpenStreetMap ruins. Bike service and E-bike charging are the first rows of the Bike support section, further down, followed by the OpenStreetMap sections. Click them by ref, with a wait of a few seconds after the big route groups. On `?favorites=1`, `find` the Hikes and Places buttons.
 - The sidebar counts must equal the new lists: for example 486 bike shops and 764 sightseeing places in October 2026. E-bike charging shows fewer than the file holds (336 of 1,411), because only stations inside the box around Switzerland are shown.
 - Click one marker each of charging stations and bike service. A first click on a cluster only zooms in, so click again on a single marker. Opening a panel in the screenshot is enough; no console error is the pass condition.
 
