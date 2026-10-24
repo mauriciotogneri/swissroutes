@@ -38,8 +38,6 @@ const ACTIVITIES = [
   },
 ]
 
-const MOUNTAIN_HIKE = { color: '#6a3fa0', weight: 3, zIndex: 40 }
-
 const GROUP_COLORS = {
   stay: '#d52b1e',
   explore: '#22303c',
@@ -58,8 +56,6 @@ const PLACES = [
   { id: 'serviceshop', group: 'explore', name: 'Bike service', label: 'Bike service', icon: 'build', folder: 'other/serviceshop', ids: OTHER_SERVICESHOP_IDS },
   { id: 'chargingstation', group: 'explore', name: 'E-bike charging', label: 'E-bike charging station', icon: 'bolt', file: 'other/chargingstations/chargingstations.json' },
 ]
-
-const DIFFICULTY_LABELS = ['Hiking', 'Mountain Hiking', 'Difficult Mountain Hiking', 'Alpine Hiking', 'Difficult Alpine Hiking', 'Very Difficult Alpine Hiking']
 
 // Every toggle in the panel is a layer: the data files it shows, how to build their map items, and which filter applies
 const LAYERS = buildLayers()
@@ -125,13 +121,6 @@ function buildLayers() {
     }
   }
 
-  layers.mountainhike = {
-    row: 'mountainhike',
-    filter: 'mountainhike',
-    urls: MOUNTAINHIKE_IDS.map((id) => `other/mountainhike/${id}.json`),
-    build: buildMountainHike,
-  }
-
   for (const place of PLACES) {
     layers[place.id] = placeLayer(place, place.ids, place.id)
   }
@@ -177,7 +166,7 @@ function placeLayer(place, ids, row) {
 function buildPanel() {
   const [hiking, cycling, mountainBiking] = ACTIVITIES
 
-  let content = group('Routes', activityRow(mountainBiking) + activityRow(hiking) + activityRow(cycling) + mountainHikeRow())
+  let content = group('Routes', activityRow(mountainBiking) + activityRow(hiking) + activityRow(cycling))
   content += group('Stay', PLACES.filter((place) => place.group === 'stay').map(placeRow).join(''))
   content += group('Explore', PLACES.filter((place) => place.group === 'explore').map(placeRow).join(''))
 
@@ -221,21 +210,6 @@ function activityRow(activity) {
   return content
 }
 
-function mountainHikeRow() {
-  let content = `<div class="row" style="--color:${MOUNTAIN_HIKE.color}">`
-  content += toggleRow('mountainhike', 'Mountain hikes', '<span class="swatch swatch-line"></span>')
-  content += '<div class="filters" data-filters="mountainhike" hidden>'
-  content += '<div class="range"><span>Difficulty</span>'
-  content += difficultySelect('filter-mountainhike-difficultyMin', 'Min')
-  content += '<span class="range-dash">–</span>'
-  content += difficultySelect('filter-mountainhike-difficultyMax', 'Max')
-  content += '</div>'
-  content += rangeFilter('filter-mountainhike-climb', 'Ascent', 'm')
-  content += '</div></div>'
-
-  return content
-}
-
 function placeRow(place) {
   return toggleRow(place.id, place.name, iconSwatch(place.icon), GROUP_COLORS[place.group])
 }
@@ -258,16 +232,6 @@ function rangeFilter(id, label, unit) {
   content += `<span>${unit}</span></div>`
 
   return content
-}
-
-function difficultySelect(id, placeholder) {
-  let content = `<select id="${id}" aria-label="Difficulty ${placeholder.toLowerCase()}"><option value="">${placeholder}</option>`
-
-  for (let grade = 1; grade <= 5; grade++) {
-    content += `<option value="${grade}">T${grade}</option>`
-  }
-
-  return content + '</select>'
 }
 
 function toggleLayer(button) {
@@ -316,13 +280,6 @@ function readFilters() {
     }
   }
 
-  filters.mountainhike = {
-    difficultyMin: readInt('filter-mountainhike-difficultyMin'),
-    difficultyMax: readInt('filter-mountainhike-difficultyMax'),
-    climbMin: readInt('filter-mountainhike-climbMin'),
-    climbMax: readInt('filter-mountainhike-climbMax'),
-  }
-
   return filters
 }
 
@@ -333,7 +290,6 @@ function matchesFilter(filter, item) {
 
   return inRange(item.length, filter.lengthMin, filter.lengthMax)
     && inRange(item.climb, filter.climbMin, filter.climbMax)
-    && inRange(item.difficulty, filter.difficultyMin, filter.difficultyMax)
 }
 
 function inRange(value, min, max) {
@@ -491,36 +447,6 @@ function buildRoute(url, json, activity, level) {
 
   item.lines = paths.map((path) => createLine(item, path))
   item.badge = createMarker(paths[0][0], plate(properties.r_number, activity.color), item)
-
-  return [item]
-}
-
-function buildMountainHike(url, json) {
-  const properties = json.properties
-  const position = point(json.geometry.coordinates[0], json.geometry.coordinates[1])
-  const paths = json.segments
-    .filter((segment) => segment.geom?.coordinates)
-    .map((segment) => segment.geom.coordinates.map((coordinate) => point(coordinate[0], coordinate[1])))
-
-  const item = {
-    url: url,
-    json: json,
-    kind: 'mountainhike',
-    type: 'mountainhike',
-    label: `${properties.poi_title}: ${properties.title}`,
-    color: MOUNTAIN_HIKE.color,
-    weight: MOUNTAIN_HIKE.weight,
-    zIndex: MOUNTAIN_HIKE.zIndex,
-    climb: parseInt(properties.ascent_altitude),
-    difficulty: parseInt(properties.mountain_hiking_difficulty.replace('T', '').replace('+', '').replace('-', '')),
-    paths: paths,
-    bounds: getBounds([position, ...paths.flat()]),
-    gallery: getGallery(json),
-    casings: [],
-  }
-
-  item.lines = paths.map((path) => createLine(item, path))
-  item.badge = createMarker(position, plate(properties.mountain_hiking_difficulty, MOUNTAIN_HIKE.color), item)
 
   return [item]
 }
@@ -872,10 +798,6 @@ function sharedItemBuilder(type, url) {
     return (url, json) => buildRoute(url, json, activity, level)
   }
 
-  if (type === 'mountainhike') {
-    return buildMountainHike
-  }
-
   const place = PLACES.find((place) => (place.icon === type) && !place.file)
 
   if (place) {
@@ -891,8 +813,6 @@ function detailsContent(item) {
 
   if (item.kind === 'route') {
     content += routeDetails(item)
-  } else if (item.kind === 'mountainhike') {
-    content += mountainHikeDetails(item)
   } else if (item.kind === 'place') {
     content += placeDetails(item)
   } else {
@@ -933,43 +853,6 @@ function routeDetails(item) {
 
   if (properties.description) {
     content += `<div class="details-description">${properties.description}</div>`
-  }
-
-  return content
-}
-
-function mountainHikeDetails(item) {
-  const properties = item.json.properties
-
-  let content = `<div class="details-kind"><span class="plate" style="--color:${item.color}">${properties.mountain_hiking_difficulty}</span>Mountain hike</div>`
-  content += `<h2 class="details-title">${properties.poi_title}</h2>`
-  content += `<p class="details-subtitle">${properties.title}</p>`
-
-  content += actions([
-    shareAction(),
-    externalAction(`https://www.sac-cas.ch/en/huts-and-tours/sac-route-portal/${properties.sac_poi_id}/mountain_hiking`, 'SAC route portal'),
-  ])
-
-  let stats = stat('Difficulty', properties.mountain_hiking_difficulty, '')
-
-  if (properties.ascent_altitude) {
-    stats += stat('Ascent', properties.ascent_altitude.toLocaleString(), 'm')
-  }
-
-  if (properties.descent_altitude) {
-    stats += stat('Descent', properties.descent_altitude.toLocaleString(), 'm')
-  }
-
-  content += `<dl class="stats">${stats}</dl>`
-
-  const label = DIFFICULTY_LABELS[item.difficulty - 1]
-
-  if (label) {
-    content += `<p class="details-note">${label} on the <a href="https://www.sac-cas.ch/fileadmin/Ausbildung_und_Wissen/Sicher_unterwegs/Sicher_unterwegs_Wandern/2020_Berg_Alpinwanderskala_EN.pdf" target="_blank">SAC hiking scale</a></p>`
-  }
-
-  if (properties.abstract) {
-    content += `<p class="details-lead">${properties.abstract}</p>`
   }
 
   return content
@@ -1123,7 +1006,6 @@ function getGallery(json) {
   const photoGalleryMaster = filterEmptyImages(json.properties.photo_gallery_master)
   const photoGallery = filterEmptyImages(json.properties.photo_gallery)
   const photoGallerySmall = filterEmptyImages(json.properties.photo_gallery_small)
-  const sacPhotos = json.properties.sac_photos?.map((e) => e.photo_big ?? e.photo_master ?? e.photo_sac_original ?? e.photo_standard ?? e.photo_small) ?? []
   const foto = json.properties.foto ? [json.properties.foto] : []
 
   const candidates = [
@@ -1131,7 +1013,6 @@ function getGallery(json) {
     photoGalleryMaster,
     photoGallery,
     photoGallerySmall,
-    sacPhotos,
     foto,
   ]
 
@@ -1140,7 +1021,6 @@ function getGallery(json) {
     photoGalleryMaster.length,
     photoGallery.length,
     photoGallerySmall.length,
-    sacPhotos.length,
     foto.length,
   ]
 

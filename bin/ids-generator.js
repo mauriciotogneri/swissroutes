@@ -16,9 +16,6 @@ const IDS = {
   HIKING_REGIONAL_IDS: 'hiking/regional',
   HIKING_LOCAL_IDS: 'hiking/local',
 
-  // other
-  MOUNTAINHIKE_IDS: 'other/mountainhike',
-
   // accommodation
   ACCOMMODATION_BACKPACKER_IDS: 'accommodation/backpacker',
   ACCOMMODATION_CAMPING_IDS: 'accommodation/camping',

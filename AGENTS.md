@@ -4,13 +4,12 @@ Swiss Routes is a static map site. Firebase Hosting serves only `public/`. All m
 
 ## Sources
 
-| Source                               | What we take                                                                                                                                                                                | Endpoints                                                                                                                                                                                                  |
-| :----------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| SchweizMobil (Switzerland Mobility)  | Hiking, cycling and mountain-bike routes (national, regional, local), mountain hikes, sightseeing, bike service shops, campsites, backpackers, farm stays, sleeping in straw, mountain huts | `data.schweizmobil.ch/poi-clusters-prod/21781/clustered_<Type>.geojson` lists the ids of a point layer. `map.schweizmobil.ch/api/4/query/featuresmultilayers?...&<Layer>=<id>` returns one feature in full |
-| SAC (Swiss Alpine Club)              | Mountain huts, plus the route segments of each mountain hike                                                                                                                                | `suissealpine.sac-cas.ch/api/1/poi/search?type=hut&limit=1000...` for huts, `sac-cas.ch/en/?type=1567765346410&...[routeId]=<id>` for segments                                                             |
-| My Switzerland (Switzerland Tourism) | Hostels, B&Bs, group houses, campsites                                                                                                                                                      | `myswitzerland.com/api/maps/GetPointsOfInterests/...` returns every POI, filtered locally by category id                                                                                                   |
-| Bike Energy (Google My Maps)         | E-bike charging stations                                                                                                                                                                    | Manual export, see [README.md](README.md#generation)                                                                                                                                                       |
-| Hand-made                            | Favorites lists, and sightseeing entries with ids 10001 and up                                                                                                                              | Edited by hand, no script                                                                                                                                                                                  |
+| Source                               | What we take                                                                                                                                                                | Endpoints                                                                                                                                                                                                  |
+| :----------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| SchweizMobil (Switzerland Mobility)  | Hiking, cycling and mountain-bike routes (national, regional, local), sightseeing, bike service shops, campsites, backpackers, farm stays, sleeping in straw, mountain huts | `data.schweizmobil.ch/poi-clusters-prod/21781/clustered_<Type>.geojson` lists the ids of a point layer. `map.schweizmobil.ch/api/4/query/featuresmultilayers?...&<Layer>=<id>` returns one feature in full |
+| My Switzerland (Switzerland Tourism) | Hostels, B&Bs, group houses, campsites                                                                                                                                      | `myswitzerland.com/api/maps/GetPointsOfInterests/...` returns every POI, filtered locally by category id                                                                                                   |
+| Bike Energy (Google My Maps)         | E-bike charging stations                                                                                                                                                    | Manual export, see [README.md](README.md#generation)                                                                                                                                                       |
+| Hand-made                            | Favorites lists, and sightseeing entries with ids 10001 and up                                                                                                              | Edited by hand, no script                                                                                                                                                                                  |
 
 ## Folders
 
@@ -26,7 +25,7 @@ Swiss Routes is a static map site. Firebase Hosting serves only `public/`. All m
 ## Data flow
 
 ```
-SchweizMobil / SAC / My Switzerland
+SchweizMobil / My Switzerland
         │  node bin/*-downloader.js
         ▼
 public/data/<group>/<layer>/<id>.json   +   ids/<group>/<layer>.json
@@ -38,7 +37,7 @@ public/data/<group>/<layer>/<id>.json   +   ids/<group>/<layer>.json
 script.js fetches data/<group>/<layer>/<id>.json for every id of a layer the user turns on
 ```
 
-The downloaders convert Swiss grid coordinates to latitude/longitude before saving: LV03 for SchweizMobil, LV95 for SAC. Coordinates are stored as `[lat, lng]`, the reverse of the GeoJSON standard, and `script.js` expects that order.
+The downloaders convert SchweizMobil's Swiss grid coordinates (LV03) to latitude/longitude before saving. Coordinates are stored as `[lat, lng]`, the reverse of the GeoJSON standard, and `script.js` expects that order.
 
 ## Scripts
 
@@ -46,11 +45,10 @@ The downloaders convert Swiss grid coordinates to latitude/longitude before savi
 | :---------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :--------------------------------------- |
 | `route-downloader.js`         | SchweizMobil routes for hiking, cycling and mountain biking at all 3 levels. There is no id list for routes, so it tries every number from 1 to 9 (national), 1 to 99 (regional) and 1 to 999 (local). That is about 3,300 requests made one after another | `hiking/`, `cycling/`, `mountainbiking/` |
 | `other-downloader.js`         | SchweizMobil bike service shops and sightseeing                                                                                                                                                                                                            | `other/serviceshop`, `other/sightseeing` |
-| `mountain-hike-downloader.js` | SchweizMobil mountain hikes, then each hike's segments from SAC                                                                                                                                                                                            | `other/mountainhike`                     |
-| `accommodation-downloader.js` | SchweizMobil campsites, backpackers, sleeping in straw, farm stays and mountain huts; SAC huts; My Switzerland hostels, B&Bs, group houses and campsites                                                                                                   | `accommodation/*`                        |
-| `ids-generator.js`            | Nothing. It reads every `ids/` file, removes duplicates and writes `public/ids.js`. It fails if any of the 22 lists is missing                                                                                                                             | —                                        |
+| `accommodation-downloader.js` | SchweizMobil campsites, backpackers, sleeping in straw, farm stays and mountain huts; My Switzerland hostels, B&Bs, group houses and campsites                                                                                                             | `accommodation/*`                        |
+| `ids-generator.js`            | Nothing. It reads every `ids/` file, removes duplicates and writes `public/ids.js`. It fails if any of the 21 lists is missing                                                                                                                             | —                                        |
 
-The four downloaders are independent of each other. Inside `accommodation-downloader.js` the order matters: campsites and mountain huts each combine two sources in one list. The SchweizMobil step writes the list first, and the next step (My Switzerland campsites, SAC huts) adds its own ids to it.
+The three downloaders are independent of each other. Inside `accommodation-downloader.js` the order matters: the campsite list combines two sources. The SchweizMobil step writes the list first, and the My Switzerland step right after it adds its own ids.
 
 ## Downloading new data
 
@@ -59,7 +57,6 @@ Requires Node 18 or newer (the scripts use the built-in `fetch`). Run everything
 ```sh
 node bin/route-downloader.js            # slow: ~3,300 requests
 node bin/other-downloader.js
-node bin/mountain-hike-downloader.js
 node bin/accommodation-downloader.js
 ```
 
@@ -70,7 +67,6 @@ node bin/accommodation-downloader.js
 
 - **Routes:** SchweizMobil route numbers.
 - **SchweizMobil places:** ids from the cluster lists. SchweizMobil can change the ids it lists; by October 2026 every accommodation id had changed.
-- **SAC huts:** SAC's own ids, around 2.14 billion. They stay stable between downloads.
 - **My Switzerland places:** a 9-digit number (100000000–999999999) hashed from the place's own id. The script stops if two places in one layer would get the same number.
 - Share links contain the data file path, so an id that changes breaks old links to that place.
 
@@ -80,7 +76,6 @@ node bin/accommodation-downloader.js
 - If a request still fails, the script stops before it writes that layer's `ids/` file, so an id list is never replaced by an empty or partial one. An empty id list from SchweizMobil stops it too.
 - A route number that doesn't exist is not a failure: SchweizMobil answers it with an empty result.
 - The scripts exit with code 0 even when they stop on an error, so read the output. Rerunning the script is safe.
-- A failed segment download is the exception: the mountain hike is saved without segments and no error stops the run.
 
 ## Known gaps
 
