@@ -1,4 +1,5 @@
 const fs = require('fs')
+const path = require('path')
 
 function hashCode(text) {
   let result = 0
@@ -140,6 +141,7 @@ async function getFile(url, attempts = 3) {
 
 function writeFile(filePath, json) {
   const content = JSON.stringify(json)
+  fs.mkdirSync(path.dirname(filePath), { recursive: true })
   fs.writeFileSync(filePath, content, 'utf-8')
 }
 

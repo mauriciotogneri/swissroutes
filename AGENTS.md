@@ -80,4 +80,3 @@ node bin/accommodation-downloader.js
 ## Known gaps
 
 - The downloaders never delete files. Places that disappear or get new ids leave old files in `public/data/`, which are deployed but never loaded. To clean up, delete the files whose id is not in the matching `ids/` list.
-- `writeFile` doesn't create folders. Create the folder before adding a new layer.
