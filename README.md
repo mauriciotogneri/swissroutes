@@ -6,3 +6,4 @@
 
 - Upload GPX
 - Check missing images
+- Ask for other ideas
