@@ -22,7 +22,7 @@
    - "Fee:", "Access:" and "Operated by" are in German. The values ("no", "customers"), the opening hours and the operator name stay as in OpenStreetMap (D13).
 
    Charging-station descriptions stay as Bike Energy wrote them. The sampled entry is in German.
-3. **Switching.** Clicking FR changes everything above at once, with no reload and nothing downloaded again. These are kept:
+3. **Switching.** Open ☰ and click FR: everything above changes at once, with no reload and nothing downloaded again. The menu stays open with focus on FR, so a wrong pick is one click to undo. These are kept:
    - rows on, and typed filter values;
    - open sections and the panel's scroll position;
    - the open item, its photo and its scroll position;
@@ -71,7 +71,7 @@
 | L. Written in four languages directly in HTML (noscript 2, 404 body 3) | 5 |
 | L6. Stays English: 404 `<title>` | 1 |
 | M. Stays English: meta description, og:title, og:description, og:image:alt | 4 |
-| The five planned features add (see Interactions) | 29 |
+| The six planned features add (see Interactions) | 34 |
 
 The 146 keys replace the English now spread over `public/index.html` and `public/script.js`. The three route nouns (`script.js:21, 32, 43`) disappear, because they are replaced by 9 whole phrases (D8).
 
@@ -101,6 +101,8 @@ The 146 keys replace the English now spread over `public/index.html` and `public
   - A `language` globe icon, then four buttons **DE FR IT EN** with `aria-pressed`, styled exactly like the Map / Terrain / Satellite group.
   - Two clicks away (☰, then the language), and it never moves the sections.
   - The menu (`#menu`) is outside `#layers`, so the picker is not rebuilt on a switch and keyboard focus stays on it. The menu stays open after a switch.
+  - The menu order is Language, Theme (`PLAN-5-theme.md`), Upload GPX, Remove track, Saved (`PLAN-2-saved-list.md`). Whichever is built first leaves the others out.
+  - Opening the menu puts focus on its first button. Today that is Upload GPX, found as the first visible `.menu-item`; the language buttons are not `.menu-item`s, so `openMenu` looks for the first visible button instead (step 17). With this plan, focus lands on DE.
   - The order DE FR IT EN is the Swiss convention: national languages, then English. Assumption: SchweizMobil and My Switzerland use it too (not checked).
   - Each button shows its code and has the native name as its accessible name, with its own `lang` (`aria-label="Deutsch" lang="de-CH"`). A screen reader says "Deutsch" with a German voice. Each name starts with its code, so the visible label is part of the name (WCAG "label in name").
 - (b) A footer pinned at the bottom of the layers panel (the earlier recommendation). Always visible, but it takes a row of panel height, and the header menu is where the site's settings now live.
@@ -283,7 +285,7 @@ The 146 keys replace the English now spread over `public/index.html` and `public
    - The English stays in the HTML as the no-script fallback.
 5. **Picker**, at the top of `#menu`, before `#uploadButton`:
    ```html
-   <div class="language" role="group" aria-label="Language" data-i18n-label="language.label">
+   <div class="menu-choice" role="group" aria-label="Language" data-i18n-label="language.label">
      <span class="material-symbols-outlined" aria-hidden="true">language</span>
      <button type="button" data-language="de" lang="de-CH" aria-label="Deutsch" aria-pressed="false">DE</button>
      <button type="button" data-language="fr" lang="fr-CH" aria-label="Français" aria-pressed="false">FR</button>
@@ -351,7 +353,9 @@ Follow the file's style: double quotes, semicolons, braces on every `if`, traili
       - `:1586` `t("osm.operator", { operator: escapeHtml(tags.operator) })`; `:1591` `t("osm.fee", { fee: escapeHtml(tags.fee) })`; `:1595` `osm.access` likewise.
     - `shareAction` (`:1625`) and `copyLink` (`:1722`, `:1726`): `action.copyLink` and `action.linkCopied`.
     - `gallerySection` (`:1651`, `:1653`): `gallery.previous` and `gallery.next`.
-17. **`bindControls` (`:1788`).** After the map-type loop (`:1806`), bind each `[data-language]` click to `setLanguage(button.dataset.language)`. Like the map-type buttons, it is bound once the map has loaded.
+17. **`bindControls` and the menu.**
+    - In `bindControls`, after the map-type loop, bind each `[data-language]` click to `setLanguage(button.dataset.language)`. Like the map-type buttons and the menu, it is bound once the map has loaded.
+    - In `openMenu`, focus `menu.querySelector("button:not([hidden])")` instead of `menu.querySelector(".menu-item:not([hidden])")`, so focus lands on the first row whatever it is. The theme plan needs the same change; whichever lands first makes it.
 18. **Upload.**
     - The menu entries' text is tagged in step 4 (`action.uploadGpx`, `action.removeTrack`).
     - `parseGpx` returns the keys `"upload.notGpx"` (`:1930`) and `"upload.noTrack"` (`:1970`); its comment becomes "the key of the message". `loadUpload` (`:1901`) calls `showUploadError(t(parsed))`.
@@ -381,7 +385,7 @@ Follow the file's style: double quotes, semicolons, braces on every `if`, traili
       6. `track("language_change", { previous_language: previous })`.
     - **`rebuildPanel()`:**
       1. Before `buildPanel()`, record the `[id, value]` of every `#layers input`, the `dataset.section` of each `details[open]`, and `#layers.scrollTop`.
-      2. After it, restore the input values; setting `.value` fires no event, so `sharedItem` is kept. Set `open` on the recorded sections, and `aria-pressed` on every `[data-layer]` from `activeLayers`.
+      2. After it, restore the input values; setting `.value` fires no event, so `sharedItem` is kept. Set `open` on the recorded sections, and `aria-pressed` on every `[data-layer]` on the page from `activeLayers`. Page-wide, not only inside `#layers`: the saved-list plan puts its two rows in the menu, and `buildPanel` rebuilds them too.
       3. Restore the scroll; `layersChanged()`.
       4. A visible upload error is cleared; it was already announced.
     - **`refreshDetails()`:** keep `.details-scroll`'s `scrollTop`, set `details.innerHTML = detailsContent(selected)`, call `showPhoto()` if `galleryIndex > 0`, then restore the scroll. Focus stays on the picker.
@@ -395,7 +399,7 @@ Follow the file's style: double quotes, semicolons, braces on every `if`, traili
     - Add `trackLabel(item)`: return `"upload"` for uploads. For `kind === "osm" && !item.json.name`, return `STRINGS[\`place.${item.place.id}.label\`].en`. Otherwise return `item.label`.
 
 ### public/style.css
-21. **Picker.** After `.menu-item .material-symbols-outlined`: `.language { display: flex; align-items: center; gap: 2px; padding: 8px 20px; }` and `.language > .material-symbols-outlined { margin-right: 12px; color: var(--ink-soft); font-size: 20px; }`, so the globe lines up with the entries' icons. Add `.language button` to the three `.map-type button` rules.
+21. **Picker.** After `.menu-item .material-symbols-outlined`, under the comment "A menu row of pressed buttons: the language here, the theme in PLAN-5": `.menu-choice { display: flex; align-items: center; gap: 2px; padding: 8px 20px; }` and `.menu-choice > .material-symbols-outlined { margin-right: 12px; color: var(--ink-soft); font-size: 20px; }`, so the globe lines up with the entries' icons. Add `.menu-choice button` to the three `.map-type button` rules. The theme plan reuses this class; whichever lands first adds it.
 22. **Only if Verification step 10 flags them:** the three fixes in D16, in that order.
 
 ### AGENTS.md
@@ -410,7 +414,7 @@ Follow the file's style: double quotes, semicolons, braces on every `if`, traili
 
 ## Interactions with the other planned features
 
-New strings from the other plans: 29 in all (listed in Appendix O). Each one is added as a `strings.js` entry with all four languages and shown with `t()`. Their numbers go through `formatNumber`. Any text kept outside the panel and details HTML (marker titles, labels changed in place) must be refreshed in `setLanguage`.
+New strings from the other plans: 34 in all (listed in Appendix O). Each one is added as a `strings.js` entry with all four languages and shown with `t()`. Their numbers go through `formatNumber`. Any text kept outside the panel and details HTML (marker titles, labels changed in place) must be refreshed in `setLanguage`.
 
 - **`PLAN-3-url-state.md`** (no strings).
   - `lang` is not added to `ADDRESS_KEYS`. Its writer keeps foreign keys first, so `?lang=fr&hiking=local` survives. The picker deletes `lang` itself; if both features are built, share the `,` and `/` clean-up as one `replaceQuery(params)` helper.
@@ -440,11 +444,18 @@ New strings from the other plans: 29 in all (listed in Appendix O). Each one is 
   - `SECTION_ICONS` gets `saved: "star"`, with `group("saved", …)`.
   - `toggleSaved` sets the label with `t()`.
   - `buildPanel` already calls its `updateSavedLayers()`, so a rebuild restores the counts and the hint.
+  - Its two rows live in the header menu (`#menuSaved`), which `buildPanel` fills too. `rebuildPanel()` therefore restores `aria-pressed` page-wide (step 19), and the ☰ badge follows through `updateBadges`.
   - `save_item` and `unsave_item` send `item_id: trackLabel(item)`, because unnamed OpenStreetMap points can be saved.
   - `index.html:43` gets `star`, `photo_camera` and `language`; keep the list alphabetical.
 - **`PLAN-0-photo-spots.md`** (2 strings).
   - `photo.title` "Photo {index} of {total}", also used for its status message, and `photo.titleShown` "Photo {index} of {total}, on show".
   - Its `spot.key` cache must include `language`. `refreshDetails()` ends with `drawPhotoSpots()` once that plan lands, so pin titles change on a switch.
+- **Header menu (built, no plan file).** Its texts are covered by A13, K1 and K6, tagged in step 4. `closeMenu` clears the upload error, so the error never shows in an old language after the menu reopens.
+- **`PLAN-5-theme.md`** (5 strings).
+  - `theme.label` "Theme" (the row's group aria-label), `theme.auto` "Auto", `theme.light` "Light", `theme.dark` "Dark" for its three buttons, and `theme.mapLater` "The map switches the next time you open Swiss Routes." for its hint.
+  - Its row sits right below the Language row and uses the same `.menu-choice` class (step 21); whichever plan lands first adds the CSS.
+  - Its stored key `swissroutes.theme` sits next to `swissroutes.language`, and both are read in the same inline head script; keep the two reads in separate try/catch blocks so one blocked read doesn't skip the other.
+  - Both plans change `openMenu`'s focus target (step 17); whichever lands first makes the change.
 
 ## Edge cases and risks
 
@@ -471,8 +482,8 @@ Run `scripts/serve.sh`, open http://localhost:5000 in a window at least 1024 px 
    - Chrome languages `es, fr` give French.
    - `document.documentElement.lang` is `de-CH`, `fr-CH`, `it-CH` or `en`.
 2. **Precedence.**
-   - Pick IT, then open `/?lang=fr`: the page is French and storage still says `it`.
-   - Click DE: `lang` leaves the address and storage says `de`. Reload: German.
+   - Open ☰ and pick IT, then open `/?lang=fr`: the page is French and storage still says `it`.
+   - Open ☰ and click DE: `lang` leaves the address and storage says `de`. Reload: German.
    - `/?lang=xx` and `/?lang=constructor` fall back to the stored language.
 3. **Blocked storage.** Chrome › Site settings › "Not allowed to save data" for `localhost:5000`: the page loads in the browser's language with no console errors, and switching works. After a reload, the browser's language is back.
 4. **A switch keeps everything.**
@@ -480,7 +491,7 @@ Run `scripts/serve.sh`, open http://localhost:5000 in a window at least 1024 px 
    2. Turn on Hiking National and Regional, Camping and Drinking water. Type Hiking length max `15`.
    3. Open the Stay section and scroll the panel.
    4. Open `?url=hiking/national/1.json&type=hiking` (Via Alpina) from the map, go to photo 3, and scroll the details. Choose Satellite and pan.
-   5. Click FR.
+   5. Open ☰ and click FR. The menu stays open in French, with focus on FR. Close it with ✕.
 
    Check:
    - Chips and toggles are still pressed, the badges are right, the filter box still shows 15, the hiking count is in "N of M" form, and Stay is open.
@@ -555,12 +566,12 @@ Run `scripts/serve.sh`, open http://localhost:5000 in a window at least 1024 px 
    - English must match `(n).toLocaleString()` exactly as before.
 10. **Layout overflow.** Run this in each language with all filter boxes visible, a bike route open (4 tiles), and an OpenStreetMap point with Elevation and Capacity. It must return `[]`:
     ```js
-    [...document.querySelectorAll(".chip, .range > span, .row-name, .group h2, .stats dt, .action, .map-type button, .language button, .menu-item")].filter((e) => e.scrollWidth > e.clientWidth + 1).map((e) => e.textContent)
+    [...document.querySelectorAll(".chip, .range > span, .row-name, .group h2, .stats dt, .action, .map-type button, .menu-choice button, .menu-item")].filter((e) => e.scrollWidth > e.clientWidth + 1).map((e) => e.textContent)
     ```
     Also run it at 1024 × 768 with details open; the map-type group must not overlap the layers panel. Apply the D16 fixes for anything flagged.
 11. **Map labels.**
     - `/?lang=fr`: Google's labels and footer are French ("Genève"; assumption about Google's names).
-    - Click DE: the labels stay French.
+    - Open ☰ and click DE: the labels stay French.
     - Reload (the address no longer has `lang`): the labels are German ("Genf").
 12. **Analytics.** In Network, filter `collect`:
     - `en=language_change` with `ep.previous_language` and `ep.ui_language`;
@@ -573,11 +584,11 @@ Run `scripts/serve.sh`, open http://localhost:5000 in a window at least 1024 px 
 14. **Accessibility markup.**
     - On a route in German, `.details-description` and `.details-lead` have `lang="en"`.
     - The picker buttons have native-name aria-labels with their `lang`.
-    - Tab to the picker, press Enter: focus stays on it after the switch.
+    - Tab to ☰ and press Enter: focus lands on DE. Tab to FR and press Enter: the page switches and focus stays on FR. Escape closes the menu and puts focus back on ☰, whose label is now the French `menu.label`.
 15. **Fonts.** In Elements › Computed › Rendered Fonts, an element containing é, ü or à shows Archivo.
 16. **Copy link** from the German interface: the clipboard has `?url=…&type=…` and no `lang`.
 17. **Two features together:**
-    - With url-state built: `/?lang=fr&hiking=local`, then change a row: the address keeps `lang=fr` first. Click DE: only `lang` is removed.
+    - With url-state built: `/?lang=fr&hiking=local`, then change a row: the address keeps `lang=fr` first. Open ☰ and click DE: only `lang` is removed.
     - English with all languages offered: run steps 4–6 in `en`. The helper returns `[]` trivially; compare screenshots with the current site.
 
 ## Out of scope
@@ -751,9 +762,10 @@ Paths are `public/script.js` unless marked otherwise. "Key" is the proposed `str
 - Console texts (:731, :763).
 - Analytics ids (:606, :1257–1262, :1716–1720, :1910, :2191).
 
-**O. Strings added by the planned features (29):**
+**O. Strings added by the planned features (34):**
 - route-facts (17): `grade.easy`, `grade.medium`, `grade.difficult`, `trail.easy`, `trail.medium`, `filter.grade`, `filter.fitness`, `filter.hiking.grade`, `filter.hiking.fitness`, `filter.cycling.fitness`, `filter.mountainbiking.grade`, `filter.mountainbiking.fitness`, `stat.hikingTime`, `fact.otherDirection`, `route.loop`, `route.ends`, `route.via`.
 - elevation-profile (2): `profile.title`, `profile.label`.
 - saved-list (8): `section.saved`, `saved.routes`, `saved.places`, `saved.empty`, `action.save`, `action.saved`, `status.saved`, `status.unsaved`.
 - photo-spots (2): `photo.title`, `photo.titleShown`.
+- theme (5): `theme.label`, `theme.auto`, `theme.light`, `theme.dark`, `theme.mapLater`.
 - url-state: none.
