@@ -338,6 +338,9 @@ const PHOTO_ZINDEX = 100000;
 // The address is rewritten this long after the last change
 const ADDRESS_DELAY = 300;
 
+// How long the map takes, in milliseconds, to glide to a route picked on it
+const GLIDE_DURATION = 800;
+
 // Route filters kept in the address as <activity>.<key>=<min>-<max>, by the name of their inputs (see rangeFilter)
 const ADDRESS_RANGES = { length: "length", ascent: "climb" };
 
@@ -370,6 +373,7 @@ let loadingRenderTimeout = undefined;
 let filterTimeout = undefined;
 let downloadsActive = 0;
 let addressTimeout = undefined;
+let glideFrame = undefined;
 // While the map shows the view it opened with, the position stays out of the address. Empty when the address gave a position (then it is always kept); undefined until the map first settles
 let openingPosition = ADDRESS_POSITION ? "" : undefined;
 
@@ -402,6 +406,14 @@ function mapLoaded() {
     closeDetails();
   });
   map.addListener("idle", drawPins);
+
+  // The user's own move takes over from a glide (see glideTo)
+  map.addListener("dragstart", stopGlide);
+  map.getDiv().addEventListener("wheel", stopGlide, { passive: true });
+  map.getDiv().addEventListener("keydown", stopGlide);
+  document
+    .querySelector(".map-controls")
+    .addEventListener("pointerdown", stopGlide);
 
   // The first idle only records the opening view, so a plain visit keeps a bare address
   google.maps.event.addListenerOnce(map, "idle", () => {
@@ -1085,6 +1097,7 @@ function renderCluster(id, count, position, index) {
   });
 
   marker.addEventListener("gmp-click", () => {
+    stopGlide();
     map.panTo(position);
     map.setZoom(index.getClusterExpansionZoom(id));
   });
@@ -1362,6 +1375,8 @@ function moveTooltip(event) {
 // Details
 
 function selectItem(item, source = "map") {
+  const reselected = item === selected;
+
   // Remember where the keyboard was, so closing the panel can put it back
   if (!selected) {
     focusReturn = document.activeElement;
@@ -1393,6 +1408,11 @@ function selectItem(item, source = "map") {
   details.inert = false;
   document.body.classList.add("has-details");
   details.querySelector(".details-close").focus();
+
+  // A route picked on the map is brought fully into view, once the open panel has narrowed the map. Picking it again leaves the view alone
+  if (item.kind === "route" && source === "map" && !reselected) {
+    glideTo(item.bounds);
+  }
 
   render();
   drawPhotoSpots();
@@ -1873,6 +1893,7 @@ function plusSlides(offset) {
   const position = gallery[galleryIndex]?.position;
 
   if (position && !map.getBounds()?.contains(position)) {
+    stopGlide();
     map.panTo(position);
   }
 }
@@ -2468,6 +2489,86 @@ function mapPadding() {
     left: 24,
     right: 24,
   };
+}
+
+// Moves the map step by step to the view fitBounds would jump to: the bounds inside the padding, at a whole zoom
+function glideTo(bounds) {
+  stopGlide();
+
+  if (matchMedia("(prefers-reduced-motion: reduce)").matches) {
+    map.fitBounds(bounds, mapPadding());
+    return;
+  }
+
+  // Positions in world coordinates, the map's pixels at zoom 0
+  const projection = map.getProjection();
+  const padding = mapPadding();
+  const northWest = projection.fromLatLngToPoint(
+    point(bounds.north, bounds.west),
+  );
+  const southEast = projection.fromLatLngToPoint(
+    point(bounds.south, bounds.east),
+  );
+  const width = map.getDiv().clientWidth - padding.left - padding.right;
+  const height = map.getDiv().clientHeight - padding.top - padding.bottom;
+
+  const zoom = Math.floor(
+    Math.log2(
+      Math.min(
+        width / (southEast.x - northWest.x),
+        height / (southEast.y - northWest.y),
+      ),
+    ),
+  );
+
+  // The padding is uneven, so the map's center sits off the middle of the bounds
+  const scale = 2 ** zoom;
+  const target = {
+    x: (northWest.x + southEast.x + (padding.right - padding.left) / scale) / 2,
+    y: (northWest.y + southEast.y + (padding.bottom - padding.top) / scale) / 2,
+  };
+
+  const start = projection.fromLatLngToPoint(map.getCenter());
+  const startZoom = map.getZoom();
+  const change = zoom - startZoom;
+  const began = performance.now();
+
+  // A raster map only takes whole zooms unless told otherwise. The glide still ends on one
+  map.setOptions({ isFractionalZoomEnabled: true });
+
+  const step = (now) => {
+    const time = Math.min((now - began) / GLIDE_DURATION, 1);
+    const eased = time < 0.5 ? 4 * time ** 3 : 1 - (2 - 2 * time) ** 3 / 2;
+    // The pan keeps pace with the zoom, so the view zooms about one fixed spot instead of swinging the route out and back
+    const share =
+      change === 0 ? eased : (1 - 2 ** (-change * eased)) / (1 - 2 ** -change);
+
+    map.moveCamera({
+      center: projection.fromPointToLatLng(
+        new google.maps.Point(
+          start.x + (target.x - start.x) * share,
+          start.y + (target.y - start.y) * share,
+        ),
+      ),
+      zoom: startZoom + change * eased,
+    });
+
+    if (time < 1) {
+      glideFrame = requestAnimationFrame(step);
+    } else {
+      stopGlide();
+    }
+  };
+
+  glideFrame = requestAnimationFrame(step);
+}
+
+function stopGlide() {
+  if (glideFrame) {
+    cancelAnimationFrame(glideFrame);
+    glideFrame = undefined;
+    map.setOptions({ isFractionalZoomEnabled: false });
+  }
 }
 
 // Menu
