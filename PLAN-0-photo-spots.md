@@ -239,20 +239,20 @@ The whole change is about 70 lines in `script.js`, 6 in `style.css` and 1 word i
 
 ## Interactions with the other planned features
 
-- **Route facts and photo credits (`PLAN-route-facts.md`).**
+- **Route facts and photo credits (`PLAN-2-route-facts.md`).**
   - The credits have the same alignment problem: the credit of photo i must follow gallery photo i, including after drops.
   - That plan turns gallery entries into `{ src, credit }` records, paired by index inside `galleryPhotos` before blanks are dropped (its Decision 5a). **If it lands first, build on it instead of steps 2–3's separate list:** add `position` to each record in `galleryPhotos` (same regex and `SPOT_MARGIN` check, with the bounds passed in), keep the marker on the record (`photo.marker`), drop `galleryIndexes` and `item.spots`, and skip step 8's extra splice, because `dropPhoto` already removes the whole record. `drawPhotoSpots` then loops over `selected.gallery`.
   - If this feature lands first, steps 2–8 stand as written, and the route-facts work folds `item.spots` into its records.
   - Both features add a line to `showPhoto()`.
-- **Elevation profile (`PLAN-elevation-profile.md`).**
+- **Elevation profile (`PLAN-4-elevation-profile.md`).**
   - Its hover marker uses z-index 200000, above `PHOTO_ZINDEX + 1`, and keeps the default `REQUIRED` behavior.
   - Both features add map objects tied to the selection, and both clear them at the same two places: `selectItem` and `closeDetails`.
   - This feature doesn't touch `gpxData`.
-- **View kept in the address (`PLAN-url-state.md`).**
+- **View kept in the address (`PLAN-3-url-state.md`).**
   - Don't put the gallery index in the address.
   - Panning to a photo changes the map position, so the address updates fire, as they should.
   - If a selection is ever restored without going through `selectItem`/`openSharedItem`, it must call `drawPhotoSpots()`.
-- **Saved list (`PLAN-saved-list.md`).** Saved routes open through `selectItem`, so pins come for free. Its star icon and this camera icon both edit `index.html:43`; keep the list alphabetical.
+- **Saved list (`PLAN-1-saved-list.md`).** Saved routes open through `selectItem`, so pins come for free. Its star icon and this camera icon both edit `index.html:43`; keep the list alphabetical.
 - **Shared edit points**: `selectItem`/`closeDetails` (elevation, address, saved list), `showPhoto`/`dropPhoto` (route facts), the icon list, and the marker rules in `style.css`.
 
 ## Edge cases and risks

@@ -39,7 +39,7 @@ The state goes in the query string (D1). Keys are row and level ids taken from t
 | `hiking`, `cycling`, `mountainbiking` | Levels on, out of `national,regional,local`, written in `LEVELS` order | `hiking=national,local` | At least one level of the activity is on |
 | `<activity>.length` | km as `min-max`; either side may be empty | `hiking.length=5-20`, `-15`, `10-` | The activity has a level on and a bound above 0 |
 | `<activity>.ascent` | m, same format (inputs `filter-<activity>-climbMin/Max`) | `cycling.ascent=-800` | Same |
-| `<activity>.<filter>` | Reserved for the route-facts filters (`PLAN-route-facts.md`) | `hiking.difficulty=easy,medium`, `hiking.fitness=easy` | Decided by that plan |
+| `<activity>.<filter>` | Reserved for the route-facts filters (`PLAN-2-route-facts.md`) | `hiking.difficulty=easy,medium`, `hiking.fitness=easy` | Decided by that plan |
 | `places` | Place row ids: `LAYERS` keys without a dot (`PLACES` ids, OpenStreetMap types), in definition order, not panel order | `places=camping,chargingstation,drinkingwater` | At least one place row is on |
 | `favorites` | Section flag: `1`, or the Favorites rows that are on (`hiking`, `visit`) | `favorites=1`, `favorites=hiking,visit` | `FAVORITES_ENABLED` is true |
 | `map` | `lat,lng,zoom`: 5 decimals (about 1 m), zoom with up to 2 decimals | `map=46.68631,7.86325,12` | The view differs from the opening view, or the address came with a position (D4) |
@@ -220,7 +220,7 @@ Unchanged: `copyLink` (1707), the download queue (755–774), the progress bar (
 
 ## Interactions with the other planned features
 
-- **Route facts and filters (`PLAN-route-facts.md`)**
+- **Route facts and filters (`PLAN-2-route-facts.md`)**
   - Use the reserved `<activity>.difficulty` and `<activity>.fitness` keys, with comma-separated values from the data. The values found are `category_grade` / `category_condition` = `easy`, `medium`, `difficult`. `category_grade` is null on all 128 cycling routes, so cycling probably gets no difficulty key.
   - The `<activity>.` prefix already makes these keys owned, and invalid values are skipped.
   - Its controls are chip buttons (`data-grade-filter="<activity>-grade"` or `"<activity>-fitness"`, `data-grade="<id>"`, `aria-pressed`), not inputs. Their clicks call `onFilterChange`, so `scheduleAddress` fires with no extra hook.
@@ -228,15 +228,15 @@ Unchanged: `copyLink` (1707), the download queue (755–774), the progress bar (
   - `restoreView` sets `aria-pressed="true"` on each matching chip before `layersChanged()`. Setting the attribute fires no event, so the shared item is kept. Values with no chip (any cycling `difficulty`) are skipped.
   - It relies on that plan's `updateBadges` fix, or restored chips would light the Routes badge.
   - Whichever feature ships second adds these loops.
-- **Elevation profile (`PLAN-elevation-profile.md`)**
+- **Elevation profile (`PLAN-4-elevation-profile.md`)**
   - Adds no address state.
   - On reload, the restored item's details render as they do on a click, so the profile shows.
   - If it loads extra files through `loadFile` / `fetchJson`, they wait behind the restored rows in the queue (first in, first out), so the profile appears late on a heavy reload.
-- **Saved list (`PLAN-saved-list.md`)**
+- **Saved list (`PLAN-1-saved-list.md`)**
   - The saved list lives in the browser, not in the address: a recipient doesn't have the sender's list.
   - Its rows have dotted ids (`saved.routes`, `saved.places`), so `places`, which only takes ids without a dot, never picks them up.
   - It must not use the `favorites` or `places` keys, and must not reuse the hand-made Favorites section, which stays behind `?favorites=1`.
-- **Photo spots (`PLAN-photo-spots.md`)**
+- **Photo spots (`PLAN-0-photo-spots.md`)**
   - On reload the item reopens, so its photo spots show.
   - When a spot is clicked, `selected` should stay the route and the gallery should open at that photo. If spots become selectable items of a new kind, `addressItem()` drops `url` and `type` while one is open.
   - The photo index is not kept.

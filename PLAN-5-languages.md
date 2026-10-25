@@ -83,7 +83,7 @@ The 145 keys replace the English now spread over `public/index.html` and `public
 - (c) A path (`/fr/`). This needs `firebase.json` rewrites. Every relative path would resolve under `/fr/`: `ids.js`, `script.js`, `style.css` and `favicon.svg` in index.html, and `data/…` in `fetchJson` (`script.js:723`). That means a `<base href="/">` or absolute paths. `copyLink` builds from `location.pathname` (`:1708`), so shared links would carry the sender's language. Link previews would need hand-kept copies of index.html. Rejected.
 - Also rejected: Firebase Hosting's i18n rewrites, which pick a `localized-files/<lang>_ALL/` copy from Accept-Language (from Firebase's docs, not checked). They need hand-maintained copies of index.html and 404.html, and the server can't see the stored choice.
 
-**D2. `lang` in the address, and `PLAN-url-state.md`**
+**D2. `lang` in the address, and `PLAN-3-url-state.md`**
 - **(a) Read only (recommended).**
   - The app never writes `lang`. Using the picker deletes it with `replaceState`, so the stored choice decides from then on.
   - url-state doesn't own `lang`. Its writer keeps keys it doesn't own and writes them first, so `?lang=fr&hiking=local` survives every rewrite.
@@ -411,7 +411,7 @@ Follow the file's style: double quotes, semicolons, braces on every `if`, traili
 
 New strings from the other plans: 29 in all (listed in Appendix O). Each one is added as a `strings.js` entry with all four languages and shown with `t()`. Their numbers go through `formatNumber`. Any text kept outside the panel and details HTML (marker titles, labels changed in place) must be refreshed in `setLanguage`.
 
-- **`PLAN-url-state.md`** (no strings).
+- **`PLAN-3-url-state.md`** (no strings).
   - `lang` is not added to `ADDRESS_KEYS`. Its writer keeps foreign keys first, so `?lang=fr&hiking=local` survives. The picker deletes `lang` itself; if both features are built, share the `,` and `/` clean-up as one `replaceQuery(params)` helper.
   - Both features need the `toggleLayer` split into `layersChanged()`.
   - This plan moves the inline block that url-state edits at `index.html:54`; apply that edit in the moved block.
@@ -420,7 +420,7 @@ New strings from the other plans: 29 in all (listed in Appendix O). Each one is 
   - A language switch changes no view state and must not call `scheduleAddress()`.
   - Its Copy link (item only, D6) carries no `lang`, which matches D2.
   - Its AGENTS.md note should mention that `lang` is read but not written.
-- **`PLAN-route-facts.md`** (17 strings).
+- **`PLAN-2-route-facts.md`** (17 strings).
   - `GRADES` becomes the keys `grade.easy`, `grade.medium` and `grade.difficult`.
   - The hiking `trails` become `trail.easy` ("hiking trail") and `trail.medium` ("mountain hiking trail"). The "{grade} · {trail}" join stays in code.
   - `filter.grade` ("Difficulty") and `filter.fitness` ("Fitness") are used for both the filter rows and the facts.
@@ -429,19 +429,19 @@ New strings from the other plans: 29 in all (listed in Appendix O). Each one is 
   - `h` and `min` are not translated.
   - `rebuildPanel()` must also record and re-press `[data-grade-filter][aria-pressed="true"]` chips, by `data-grade-filter` and `data-grade`.
   - Its 58 px "Difficulty" label column is the most likely trigger for the D16 `.filters` fix.
-- **`PLAN-elevation-profile.md`** (2 strings).
+- **`PLAN-4-elevation-profile.md`** (2 strings).
   - `profile.title` "Elevation". This is a separate key from the OpenStreetMap `stat.elevation`, because a chart heading and a point's height may differ in German.
   - `profile.label` "Elevation profile, {low} to {high} m over {length} km" for the aria-label.
   - Every `toLocaleString()` in it (range, readout, axis labels, the 1-decimal length) becomes `formatNumber`.
   - `refreshDetails()` must call `hideProfilePoint()` before replacing the details, as its `selectItem` step does.
-- **`PLAN-saved-list.md`** (8 strings).
+- **`PLAN-1-saved-list.md`** (8 strings).
   - `section.saved`, `saved.routes`, `saved.places`, `saved.empty` (the hint), `action.save`, `action.saved`, `status.saved` and `status.unsaved`. Kept separate because "Saved" is a section, a button state and an announcement.
   - `SECTION_ICONS` gets `saved: "star"`, with `group("saved", …)`.
   - `toggleSaved` sets the label with `t()`.
   - `buildPanel` already calls its `updateSavedLayers()`, so a rebuild restores the counts and the hint.
   - `save_item` and `unsave_item` send `item_id: trackLabel(item)`, because unnamed OpenStreetMap points can be saved.
   - `index.html:43` gets `star`, `photo_camera` and `language`; keep the list alphabetical.
-- **`PLAN-photo-spots.md`** (2 strings).
+- **`PLAN-0-photo-spots.md`** (2 strings).
   - `photo.title` "Photo {index} of {total}", also used for its status message, and `photo.titleShown` "Photo {index} of {total}, on show".
   - Its `spot.key` cache must include `language`. `refreshDetails()` ends with `drawPhotoSpots()` once that plan lands, so pin titles change on a switch.
 
