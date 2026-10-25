@@ -9,6 +9,7 @@
    - Hiking National + Regional on → `?hiking=national,regional`
    - Camping and Drinking water on → `&places=camping,drinkingwater`
    - Hiking length max 15 → `&hiking.length=-15`. A filter is kept only while one of its activity's levels is on, the same rule that shows the filter box (script.js:620–624). Turning every hiking level off drops it.
+   - Hiking Difficulty Easy and Medium → `&hiking.difficulty=easy,medium`; Fitness Easy → `&hiking.fitness=easy`. Same rule.
    - The map stops after a pan or zoom → `&map=46.68631,7.86325,12`
    - Terrain or Satellite → `&maptype=terrain` or `&maptype=hybrid`. Going back to Map removes it.
    - Opening a route or a SchweizMobil / My Switzerland place → `url=…&type=…`. Closing it removes them, unless it is a shared item that is still on the map (D5).
@@ -39,7 +40,8 @@ The state goes in the query string (D1). Keys are row and level ids taken from t
 | `hiking`, `cycling`, `mountainbiking` | Levels on, out of `national,regional,local`, written in `LEVELS` order | `hiking=national,local` | At least one level of the activity is on |
 | `<activity>.length` | km as `min-max`; either side may be empty | `hiking.length=5-20`, `-15`, `10-` | The activity has a level on and a bound above 0 |
 | `<activity>.ascent` | m, same format (inputs `filter-<activity>-climbMin/Max`) | `cycling.ascent=-800` | Same |
-| `<activity>.<filter>` | Reserved for the route-facts filters (`PLAN-0-route-facts.md`) | `hiking.difficulty=easy,medium`, `hiking.fitness=easy` | Decided by that plan |
+| `<activity>.difficulty` | Pressed Difficulty chips (`data-grade-filter="<activity>-grade"`), as their `data-grade` ids, in chip order | `hiking.difficulty=easy,medium` | The activity has a level on and a chip pressed. Cycling has no Difficulty chips, so never for cycling |
+| `<activity>.fitness` | Pressed Fitness chips (`data-grade-filter="<activity>-fitness"`), same format | `hiking.fitness=easy` | Same |
 | `places` | Place row ids: `LAYERS` keys without a dot (`PLACES` ids, OpenStreetMap types), in definition order, not panel order | `places=camping,chargingstation,drinkingwater` | At least one place row is on |
 | `favorites` | Section flag: `1`, or the Favorites rows that are on (`hiking`, `visit`) | `favorites=1`, `favorites=hiking,visit` | `FAVORITES_ENABLED` is true |
 | `map` | `lat,lng,zoom`: 5 decimals (about 1 m), zoom with up to 2 decimals | `map=46.68631,7.86325,12` | The view differs from the opening view, or the address came with a position (D4) |
@@ -49,7 +51,7 @@ Rules:
 - **Owned keys** are `url`, `type`, `places`, `favorites`, `map`, `maptype`, each activity id, and any key starting with `<activity>.`. Every write deletes and rewrites the owned keys and leaves all other keys untouched.
 - **Fixed write order:** keys the site doesn't own first, then `url`, `type`, each activity (its levels, then its filters), `places`, `favorites`, `map`, `maptype`. The same view always gives the same address. `places` uses definition order, so a data refresh that reorders the panel by count doesn't change addresses.
 - **Commas and slashes are written raw.** `URLSearchParams.toString()` would turn them into `%2C` and `%2F`; the writer turns those back. Reading uses `URLSearchParams`, so both forms read the same, including today's `%2F` links. This is lossless: a literal `%2C` inside a value is written as `%252C`, which the replacement doesn't touch.
-- **Reading:** when a key appears twice, the first value wins. Each list item is checked on its own.
+- **Reading:** when a key appears twice, the first value wins. Each list item is checked on its own. A filter is restored only when one of its activity's levels is in the address too; otherwise it would wait in the hidden box and apply once a level is turned on.
 
 Examples (the ids are real):
 - `https://swiss-routes.web.app/?hiking=national,regional&hiking.length=-15&places=camping,drinkingwater&map=46.68631,7.86325,12&maptype=terrain`
@@ -59,6 +61,8 @@ Examples (the ids are real):
 **Length.** Typical addresses are 100–200 characters. With every row and every filter on, an address is about 850 characters; adding the two route-facts filters on all three activities brings it to about 1,050 (computed from the current row ids). Browsers and Firebase Hosting accept much longer addresses. The only nearby limit is GA4's `page_location`, which is believed to be cut at 1,000 characters (assumption, not checked), and only extreme views reach it. No shortening is needed.
 
 ## Decisions
+
+All recommended options were approved on 2026-10-25, D7 included.
 
 **D1. Where the state lives**
 - **Query string (recommended).** Same place as today's `url`, `type` and `favorites`, one parser (`PARAMS`), and old links need no translation.
@@ -84,7 +88,7 @@ Examples (the ids are real):
 - **Item only, unchanged (recommended).** The link stays short, the recipient sees one item zoomed in, the sender's rows aren't downloaded by surprise, and the favorites flag doesn't leak. The whole view is in the address bar.
 - The whole view (`location.href`). One button for everything, but links get long and the recipient downloads every row the sender had on.
 
-**D7. `?favorites=0` (your call)**
+**D7. `?favorites=0`**
 - Keep "any non-empty value turns it on". Nothing changes; the writer then turns `0` into `favorites=1`.
 - **Treat `0` as off (recommended).** A one-line change at index.html:54; the writer then removes the key. No other link changes meaning.
 
@@ -111,6 +115,9 @@ Follow the file's style: double quotes, braces on every `if`, Prettier-style tra
 
    // Route filters kept in the address as <activity>.<key>=<min>-<max>, by the name of their inputs (see rangeFilter)
    const ADDRESS_RANGES = { length: "length", ascent: "climb" };
+
+   // Chip filters kept in the address as <activity>.<key>=<grade>,<grade>, by the name of their chip row (see gradeFilter)
+   const ADDRESS_GRADES = { difficulty: "grade", fitness: "fitness" };
 
    // Besides one key per activity and <activity>.<filter>, the address owns these. Other keys, like campaign tags, are left alone
    const ADDRESS_KEYS = ["url", "type", "places", "favorites", "map", "maptype"];
@@ -181,7 +188,10 @@ Follow the file's style: double quotes, braces on every `if`, Prettier-style tra
         }
       }
       ```
-      Then, for each activity and each `ADDRESS_RANGES` entry: if `PARAMS.get(`${activity.id}.${key}`)` matches `/^(\d*)-(\d*)$/`, set the `…Min` and `…Max` input values. Setting `.value` fires no `input` event, so the shared item is kept.
+      Then, for each activity with a level now on (`activeLevels`, a new helper returning the activity's `LEVELS` that are in `activeLayers`):
+      - For each `ADDRESS_RANGES` entry: if `PARAMS.get(`${activity.id}.${key}`)` matches `/^(\d*)-(\d*)$/`, set the `…Min` and `…Max` input values.
+      - For each `ADDRESS_GRADES` entry: set `aria-pressed="true"` on each chip of `[data-grade-filter="<activity>-<name>"]` whose `data-grade` is in `addressList(`${activity.id}.${key}`)`. Values with no chip (any cycling `difficulty`) are skipped.
+      - Setting `.value` or `aria-pressed` fires no event, so the shared item is kept.
       Then: if `PARAMS.get("maptype")` equals some button's `dataset.mapType`, call `setMapType` with it. Compare against the button values; never put the raw value into a selector.
       Finally `layersChanged()`.
     - `writeAddress()`:
@@ -195,7 +205,7 @@ Follow the file's style: double quotes, braces on every `if`, Prettier-style tra
       ```
       Then `set` the keys in the order from the format section:
       - `url` and `type` from `addressItem()`.
-      - For each activity with at least one level in `activeLayers`: its levels, and each range where `min > 0 || max > 0`, written as `` `${min > 0 ? min : ""}-${max > 0 ? max : ""}` `` from `readInt`. Zero and negative bounds filter nothing (`inRange`, 674).
+      - For each activity with at least one level in `activeLayers`: its levels, each range where `min > 0 || max > 0`, written as `` `${min > 0 ? min : ""}-${max > 0 ? max : ""}` `` from `readInt` (zero and negative bounds filter nothing, `inRange`), then each `ADDRESS_GRADES` entry with a pressed chip, from `pressedGrades`.
       - `places`: `Object.keys(LAYERS)` that are active and have no dot.
       - If `FAVORITES_ENABLED`: `favorites` = the active `favorites.*` ids without the prefix, or `"1"`.
       - If `openingPosition !== undefined` and `mapPosition() !== openingPosition`: `map`.
@@ -220,14 +230,11 @@ Unchanged: `copyLink` (1707), the download queue (755–774), the progress bar (
 
 ## Interactions with the other planned features
 
-- **Route facts and filters (`PLAN-0-route-facts.md`)**
-  - Use the reserved `<activity>.difficulty` and `<activity>.fitness` keys, with comma-separated values from the data. The values found are `category_grade` / `category_condition` = `easy`, `medium`, `difficult`. `category_grade` is null on all 128 cycling routes, so cycling probably gets no difficulty key.
+- **Route facts and filters (shipped)**
+  - This plan ships second, so it adds the `<activity>.difficulty` and `<activity>.fitness` keys (steps 2 and 10).
   - The `<activity>.` prefix already makes these keys owned, and invalid values are skipped.
-  - Its controls are chip buttons (`data-grade-filter="<activity>-grade"` or `"<activity>-fitness"`, `data-grade="<id>"`, `aria-pressed`), not inputs. Their clicks call `onFilterChange`, so `scheduleAddress` fires with no extra hook.
-  - `writeAddress` adds one loop next to the `ADDRESS_RANGES` one: `<activity>.difficulty` from the pressed `-grade` chips and `<activity>.fitness` from the `-fitness` chips, as their `data-grade` ids.
-  - `restoreView` sets `aria-pressed="true"` on each matching chip before `layersChanged()`. Setting the attribute fires no event, so the shared item is kept. Values with no chip (any cycling `difficulty`) are skipped.
-  - It relies on that plan's `updateBadges` fix, or restored chips would light the Routes badge.
-  - Whichever feature ships second adds these loops.
+  - The chip clicks call `onFilterChange`, so `scheduleAddress` fires with no extra hook.
+  - `updateBadges` only counts chips with `data-layer`, so restored filter chips don't light the Routes badge.
 - **Elevation profile (`PLAN-1-elevation-profile.md`)**
   - Adds no address state.
   - On reload, the restored item's details render as they do on a click, so the profile shows.
@@ -260,7 +267,7 @@ Run `scripts/serve.sh` and open http://localhost:5000 in a desktop window at lea
 
 1. Open `/` and wait: the address stays `/`. Zoom in once: `?map=…` appears about 0.3 s after the map stops.
 2. Turn on Hiking National and Regional → `?hiking=national,regional`. Turn on Camping and Drinking water → `&places=camping,drinkingwater`, in that order whichever is clicked first.
-3. Enter Hiking length max 15 → `hiking.length=-15`. Turn off both hiking levels → the filter key disappears.
+3. Enter Hiking length max 15 → `hiking.length=-15`. Press Difficulty Medium and Easy → `hiking.difficulty=easy,medium`. Turn off both hiking levels → both filter keys disappear.
 4. Terrain → `maptype=terrain`. Satellite → `hybrid`. Map → the key is removed.
 5. Open a route → `url=hiking/national/1.json&type=hiking` (or the route's own file). Close it → `url` and `type` are removed.
 6. Reload with all of the above:
@@ -277,10 +284,11 @@ Run `scripts/serve.sh` and open http://localhost:5000 in a desktop window at lea
 11. `/?hiking=foo,local&places=nope,camping,hiking.national&hiking.length=abc&map=999,1,2&maptype=space&utm_source=test`:
     - Only Hiking Local and Camping come on; the map uses the default fit and roadmap.
     - After the next change the address is `?utm_source=test&hiking=local&places=camping…`.
+    - `/?cycling.length=-15&cycling.difficulty=easy&hiking=local&hiking.fitness=easy`: the cycling length box stays empty (no cycling level), and only the hiking Fitness Easy chip is pressed.
 12. Favorites:
     - `/?favorites=1`: the section shows. Turn on Hikes → `favorites=hiking`. Reload → it is still on.
     - `/?hiking=local` without the flag: no Favorites section, and `favorites=` is never written.
-    - `/?favorites=0`: off if D7 is taken, on otherwise.
+    - `/?favorites=0`: the section is off, and the next write removes the key.
 13. With rows on and a route open, Copy link: the clipboard holds only `?url=…&type=…`.
 14. Make several changes, then press Back: the browser leaves the site with no steps inside it. Open an OpenStreetMap drinking-water pin and upload a GPX: neither puts `url` in the address.
 15. Pan the map five times and watch the Network `collect` requests. If any `en=page_view` follows the first one, apply the GA4 setting from the risks section.

@@ -80,6 +80,7 @@ node bin/cleanup.js                     # deletes files of places that disappear
 - **SchweizMobil places:** ids from the cluster lists. SchweizMobil can change the ids it lists; by October 2026 every accommodation id had changed.
 - **My Switzerland places:** a 9-digit number (100000000–999999999) hashed from the place's own id. The script stops if two places in one layer would get the same number.
 - Share links contain the data file path, so an id that changes breaks old links to that place.
+- Addresses also hold activity, level and row ids (`hiking=national`, `places=camping,drinkingwater`), the route filters (`hiking.length=5-20`, `hiking.difficulty=easy`) and the map type, so renaming an activity, a level, a `PLACES` id or an OpenStreetMap type breaks that part of old addresses.
 
 ## When a download fails
 

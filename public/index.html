@@ -51,7 +51,7 @@
   <script type="text/javascript">
     const PARAMS = new URLSearchParams(window.location.search)
 
-    const FAVORITES_ENABLED = !!PARAMS.get('favorites')
+    const FAVORITES_ENABLED = !!PARAMS.get('favorites') && PARAMS.get('favorites') !== '0'
 
     let PARAM_URL = undefined
     let PARAM_TYPE = undefined

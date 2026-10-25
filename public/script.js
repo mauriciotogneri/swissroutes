@@ -336,6 +336,24 @@ const SPOT_MARGIN = 0.01;
 // Photo pins sit above every bubble, whose z-index is 1000 plus its count, so under 60,000 with every layer on
 const PHOTO_ZINDEX = 100000;
 
+// The address is rewritten this long after the last change
+const ADDRESS_DELAY = 300;
+
+// Route filters kept in the address as <activity>.<key>=<min>-<max>, by the name of their inputs (see rangeFilter)
+const ADDRESS_RANGES = { length: "length", ascent: "climb" };
+
+// Chip filters kept in the address as <activity>.<key>=<grade>,<grade>, by the name of their chip row (see gradeFilter)
+const ADDRESS_GRADES = { difficulty: "grade", fitness: "fitness" };
+
+// Besides one key per activity and <activity>.<filter>, the address owns these. Other keys, like campaign tags, are left alone
+const ADDRESS_KEYS = ["url", "type", "places", "favorites", "map", "maptype"];
+
+// Below this width (style.css) the panels are hidden behind a notice, so the address's rows are not restored
+const SMALL_SCREEN = matchMedia("(max-width: 1023.98px)").matches;
+
+// The map position the address opened with, or undefined
+const ADDRESS_POSITION = readPosition();
+
 let map = undefined;
 let pointIndex = undefined;
 let pointIndexVersion = 0;
@@ -352,6 +370,9 @@ let renderPending = false;
 let loadingRenderTimeout = undefined;
 let filterTimeout = undefined;
 let downloadsActive = 0;
+let addressTimeout = undefined;
+// While the map shows the view it opened with, the position stays out of the address. Empty when the address gave a position (then it is always kept); undefined until the map first settles
+let openingPosition = ADDRESS_POSITION ? "" : undefined;
 
 const activeLayers = new Set();
 const files = new Map();
@@ -362,26 +383,40 @@ const drawn = new Map();
 
 function mapLoaded() {
   map = new google.maps.Map(document.getElementById("map"), {
-    center: {
+    center: ADDRESS_POSITION?.center ?? {
       lat: 46.75,
       lng: 8.1,
     },
-    zoom: 8,
+    zoom: ADDRESS_POSITION?.zoom ?? 8,
     mapId: "DEMO_MAP_ID",
     mapTypeId: "roadmap",
     disableDefaultUI: true,
     clickableIcons: false,
   });
 
-  map.fitBounds(INITIAL_VIEW, 0);
+  if (!ADDRESS_POSITION) {
+    map.fitBounds(INITIAL_VIEW, 0);
+  }
+
   map.addListener("click", closeDetails);
   map.addListener("idle", drawPins);
+
+  // The first idle only records the opening view, so a plain visit keeps a bare address
+  google.maps.event.addListenerOnce(map, "idle", () => {
+    openingPosition ??= mapPosition();
+    map.addListener("idle", scheduleAddress);
+  });
 
   buildPanel();
   bindControls();
 
+  // The shared item's file is queued before the restored rows, so its details open first
   if (PARAM_URL && PARAM_TYPE) {
     openSharedItem(PARAM_TYPE, PARAM_URL);
+  }
+
+  if (!SMALL_SCREEN) {
+    restoreView();
   }
 }
 
@@ -645,11 +680,25 @@ function toggleLayer(button) {
   const id = button.dataset.layer;
   const active = !activeLayers.has(id);
 
+  setLayer(button, active);
+
+  if (active) {
+    track("layer_toggle", { layer: id });
+  }
+
+  sharedItem = undefined;
+  layersChanged();
+  scheduleAddress();
+}
+
+// Rows restored from the address go only through here, so they are not reported as clicks and don't clear the shared item
+function setLayer(button, active) {
+  const id = button.dataset.layer;
+
   button.setAttribute("aria-pressed", active);
 
   if (active) {
     activeLayers.add(id);
-    track("layer_toggle", { layer: id });
 
     const layer = LAYERS[id];
 
@@ -659,8 +708,9 @@ function toggleLayer(button) {
   } else {
     activeLayers.delete(id);
   }
+}
 
-  sharedItem = undefined;
+function layersChanged() {
   updateBadges();
 
   for (const filters of document.querySelectorAll("[data-filters]")) {
@@ -689,6 +739,7 @@ function onFilterChange() {
   sharedItem = undefined;
   clearTimeout(filterTimeout);
   filterTimeout = setTimeout(scheduleRender, 250);
+  scheduleAddress();
 }
 
 function readFilters() {
@@ -1345,6 +1396,7 @@ function selectItem(item, source = "map") {
 
   render();
   drawPhotoSpots();
+  scheduleAddress();
 }
 
 function closeDetails() {
@@ -1370,6 +1422,7 @@ function closeDetails() {
   focusReturn = undefined;
 
   render();
+  scheduleAddress();
 }
 
 function openSharedItem(type, url) {
@@ -1379,8 +1432,12 @@ function openSharedItem(type, url) {
     loadFile(url, build).then((items) => {
       if (items.length > 0) {
         sharedItem = items[0];
-        selectItem(items[0], "shared_link");
-        map.fitBounds(items[0].bounds, mapPadding());
+        selectItem(items[0], linkSource());
+
+        // A position in the address wins over the item's own
+        if (!ADDRESS_POSITION) {
+          map.fitBounds(items[0].bounds, mapPadding());
+        }
       }
     });
   }
@@ -2277,15 +2334,10 @@ function bindControls() {
     .getElementById("zoomOut")
     .addEventListener("click", () => map.setZoom(map.getZoom() - 1));
 
-  const mapTypes = document.querySelectorAll("[data-map-type]");
-
-  for (const button of mapTypes) {
+  for (const button of document.querySelectorAll("[data-map-type]")) {
     button.addEventListener("click", () => {
-      map.setMapTypeId(button.dataset.mapType);
-
-      for (const other of mapTypes) {
-        other.setAttribute("aria-pressed", other === button);
-      }
+      setMapType(button.dataset.mapType);
+      scheduleAddress();
     });
   }
 
@@ -2382,6 +2434,14 @@ function bindControls() {
       closeDetails();
     }
   });
+}
+
+function setMapType(type) {
+  map.setMapTypeId(type);
+
+  for (const button of document.querySelectorAll("[data-map-type]")) {
+    button.setAttribute("aria-pressed", button.dataset.mapType === type);
+  }
 }
 
 function mapPadding() {
@@ -2657,11 +2717,236 @@ function uploadDetails(item) {
   return content + `<dl class="stats">${stats}</dl>` + profileSection(item);
 }
 
+// Address
+
+function readPosition() {
+  const match = PARAMS.get("map")?.match(
+    /^(-?\d+(?:\.\d+)?),(-?\d+(?:\.\d+)?),(\d+(?:\.\d+)?)$/,
+  );
+
+  if (!match) {
+    return undefined;
+  }
+
+  const [lat, lng, zoom] = match.slice(1).map(Number);
+
+  if (Math.abs(lat) > 85 || Math.abs(lng) > 180 || zoom > 22) {
+    return undefined;
+  }
+
+  return {
+    center: point(lat, lng),
+    zoom: zoom,
+  };
+}
+
+// 5 decimals are about 1 m. The zoom can be fractional when the map is drawn as vector
+function mapPosition() {
+  const center = map.getCenter();
+
+  return [
+    Number(center.lat().toFixed(5)),
+    Number(center.lng().toFixed(5)),
+    Number(map.getZoom().toFixed(2)),
+  ].join(",");
+}
+
+function addressList(key) {
+  return (PARAMS.get(key) ?? "").split(",").filter(Boolean);
+}
+
+function activeLevels(activity) {
+  return LEVELS.filter((level) =>
+    activeLayers.has(`${activity.id}.${level.id}`),
+  );
+}
+
+// Only routes and SchweizMobil / My Switzerland places have a Copy link, and only they can be rebuilt from one (see sharedItemBuilder)
+function addressItem() {
+  return selected?.kind === "route" || selected?.kind === "place"
+    ? selected
+    : sharedItem;
+}
+
+function scheduleAddress() {
+  if (SMALL_SCREEN) {
+    return;
+  }
+
+  clearTimeout(addressTimeout);
+  addressTimeout = setTimeout(writeAddress, ADDRESS_DELAY);
+}
+
+function restoreView() {
+  const buttons = new Map(
+    [...document.querySelectorAll("[data-layer]")].map((button) => [
+      button.dataset.layer,
+      button,
+    ]),
+  );
+  const rows = [
+    ...ACTIVITIES.flatMap((activity) =>
+      addressList(activity.id).map((level) => `${activity.id}.${level}`),
+    ),
+    ...addressList("places").filter((id) => !id.includes(".")),
+    ...addressList("favorites").map((id) => `favorites.${id}`),
+  ];
+
+  // A row the panel lacks (a favorite without ?favorites=1, a row removed since) is skipped
+  for (const id of rows) {
+    const button = buttons.get(id);
+
+    if (button && !activeLayers.has(id)) {
+      setLayer(button, true);
+    }
+  }
+
+  // Setting a value or a pressed state fires no event, so the shared item stays on the map.
+  // A filter whose activity has no level on would wait in its hidden box and apply later, so it is skipped
+  for (const activity of ACTIVITIES) {
+    if (activeLevels(activity).length === 0) {
+      continue;
+    }
+
+    for (const [key, input] of Object.entries(ADDRESS_RANGES)) {
+      const match = PARAMS.get(`${activity.id}.${key}`)?.match(/^(\d*)-(\d*)$/);
+
+      if (match) {
+        document.getElementById(`filter-${activity.id}-${input}Min`).value =
+          match[1];
+        document.getElementById(`filter-${activity.id}-${input}Max`).value =
+          match[2];
+      }
+    }
+
+    for (const [key, filter] of Object.entries(ADDRESS_GRADES)) {
+      const grades = addressList(`${activity.id}.${key}`);
+
+      for (const chip of document.querySelectorAll(
+        `[data-grade-filter="${activity.id}-${filter}"]`,
+      )) {
+        if (grades.includes(chip.dataset.grade)) {
+          chip.setAttribute("aria-pressed", "true");
+        }
+      }
+    }
+  }
+
+  // Compared with the buttons' values, so the address's value never goes into a selector
+  const mapType = PARAMS.get("maptype");
+
+  for (const button of document.querySelectorAll("[data-map-type]")) {
+    if (button.dataset.mapType === mapType) {
+      setMapType(mapType);
+    }
+  }
+
+  layersChanged();
+}
+
+// The owned keys are rewritten in a fixed order, so the same view always gives the same address
+function writeAddress() {
+  const params = new URLSearchParams(location.search);
+
+  for (const key of [...params.keys()]) {
+    if (
+      ADDRESS_KEYS.includes(key) ||
+      ACTIVITIES.some(
+        (activity) => key === activity.id || key.startsWith(`${activity.id}.`),
+      )
+    ) {
+      params.delete(key);
+    }
+  }
+
+  const item = addressItem();
+
+  if (item) {
+    params.set("url", item.url);
+    params.set("type", item.type);
+  }
+
+  for (const activity of ACTIVITIES) {
+    const levels = activeLevels(activity);
+
+    if (levels.length === 0) {
+      continue;
+    }
+
+    params.set(activity.id, levels.map((level) => level.id).join(","));
+
+    for (const [key, input] of Object.entries(ADDRESS_RANGES)) {
+      const min = readInt(`filter-${activity.id}-${input}Min`);
+      const max = readInt(`filter-${activity.id}-${input}Max`);
+
+      // Zero and negative bounds filter nothing (see inRange)
+      if (min > 0 || max > 0) {
+        params.set(
+          `${activity.id}.${key}`,
+          `${min > 0 ? min : ""}-${max > 0 ? max : ""}`,
+        );
+      }
+    }
+
+    for (const [key, filter] of Object.entries(ADDRESS_GRADES)) {
+      const grades = pressedGrades(`${activity.id}-${filter}`);
+
+      if (grades.length > 0) {
+        params.set(`${activity.id}.${key}`, grades.join(","));
+      }
+    }
+  }
+
+  // In definition order, not panel order, so a data refresh that reorders the panel doesn't change addresses
+  const places = Object.keys(LAYERS).filter(
+    (id) => !id.includes(".") && activeLayers.has(id),
+  );
+
+  if (places.length > 0) {
+    params.set("places", places.join(","));
+  }
+
+  if (FAVORITES_ENABLED) {
+    const favorites = Object.keys(LAYERS)
+      .filter((id) => id.startsWith("favorites.") && activeLayers.has(id))
+      .map((id) => id.split(".")[1]);
+
+    params.set("favorites", favorites.length > 0 ? favorites.join(",") : "1");
+  }
+
+  const position = mapPosition();
+
+  if (openingPosition !== undefined && position !== openingPosition) {
+    params.set("map", position);
+  }
+
+  if (map.getMapTypeId() !== "roadmap") {
+    params.set("maptype", map.getMapTypeId());
+  }
+
+  // Commas and slashes mean nothing in a query, so they stay readable
+  const search = params.toString().replace(/%2C/g, ",").replace(/%2F/g, "/");
+  const address = search ? `${location.pathname}?${search}` : location.pathname;
+
+  if (address !== location.pathname + location.search) {
+    history.replaceState(history.state, "", address + location.hash);
+  }
+}
+
 // Analytics
 
 // Set by the Firebase snippet in index.html, and missing when analytics is blocked
 function track(name, params) {
   window.trackEvent?.(name, params);
+}
+
+// The address keeps the open item, so a reload or a step back to the site reopens it without anyone sharing a link
+function linkSource() {
+  const type = performance.getEntriesByType("navigation")[0]?.type;
+
+  return type === "reload" || type === "back_forward"
+    ? "reload"
+    : "shared_link";
 }
 
 // Places report their category (camping, hostel…), routes their activity
