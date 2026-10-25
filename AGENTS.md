@@ -41,7 +41,7 @@ public/data/<group>/<layer>/<id>.json   +   ids/<group>/<layer>.json
 script.js fetches data/<group>/<layer>/<id>.json for every id of a layer the user turns on
 ```
 
-The downloaders convert SchweizMobil's Swiss grid coordinates (LV03) to latitude/longitude before saving. Coordinates are stored as `[lat, lng]`, the reverse of the GeoJSON standard, and `script.js` expects that order.
+The downloaders convert SchweizMobil's Swiss grid coordinates (LV03) to latitude/longitude before saving. Coordinates are stored as `[lat, lng]`, the reverse of the GeoJSON standard, and `script.js` expects that order. The exception is `photo_gallery_coords` in route files, which keeps SchweizMobil's `"[(lng, lat)]"` strings; `script.js` reads them as they are.
 
 ## Scripts
 

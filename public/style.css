@@ -782,6 +782,13 @@ body.has-details .map-controls {
   transform: translateY(50%) scale(1.2);
 }
 
+/* The selected route's photo spots: smaller than place pins, in the route's color */
+.photo-pin {
+  width: 20px;
+  height: 20px;
+  font-size: 12px;
+}
+
 .cluster {
   display: grid;
   place-items: center;

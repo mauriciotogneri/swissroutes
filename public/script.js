@@ -319,6 +319,12 @@ const HANDMADE_SIGHTSEEING_ID = 10001;
 // While files arrive, the map redraws at most this often and regroups markers only once everything has loaded
 const LOADING_RENDER_DELAY = 300;
 
+// A photo spot this far (about 1 km) outside the box around its route is a data error. 20 such points exist, some 100 km away
+const SPOT_MARGIN = 0.01;
+
+// Photo pins sit above every bubble, whose z-index is 1000 plus its count, so under 60,000 with every layer on
+const PHOTO_ZINDEX = 100000;
+
 let map = undefined;
 let pointIndex = undefined;
 let pointIndexVersion = 0;
@@ -835,6 +841,7 @@ function buildRoute(url, json, activity, level) {
     plate(properties.r_number, activity.color),
     item,
   );
+  item.spots = photoSpots(item);
 
   return [item];
 }
@@ -1251,6 +1258,7 @@ function selectItem(item, source = "map") {
     focusReturn = document.activeElement;
   }
 
+  hidePhotoSpots(selected);
   selected = item;
   galleryIndex = 0;
 
@@ -1269,6 +1277,7 @@ function selectItem(item, source = "map") {
   details.querySelector(".details-close").focus();
 
   render();
+  drawPhotoSpots();
 }
 
 function closeDetails() {
@@ -1276,6 +1285,7 @@ function closeDetails() {
     return;
   }
 
+  hidePhotoSpots(selected);
   selected = undefined;
 
   const details = document.getElementById("details");
@@ -1666,6 +1676,13 @@ function plusSlides(offset) {
   galleryIndex = (galleryIndex + offset + gallery.length) % gallery.length;
 
   showPhoto();
+
+  // The map follows the gallery when the photo was taken outside the visible area
+  const position = selected.spots?.[galleryIndex]?.position;
+
+  if (position && !map.getBounds()?.contains(position)) {
+    map.panTo(position);
+  }
 }
 
 function showPhoto() {
@@ -1687,6 +1704,8 @@ function showPhoto() {
     document.getElementById("galleryIndex").textContent =
       `${galleryIndex + 1} / ${gallery.length}`;
   }
+
+  drawPhotoSpots();
 }
 
 // A photo that fails to load is dropped, so the panel never shows an empty block
@@ -1699,6 +1718,14 @@ function dropPhoto(image) {
   }
 
   gallery.splice(galleryIndex, 1);
+
+  // The photo's spot goes with it, so the spots stay aligned with the gallery
+  const [spot] = selected.spots?.splice(galleryIndex, 1) ?? [];
+
+  if (spot?.marker) {
+    spot.marker.map = null;
+  }
+
   galleryIndex = galleryIndex % Math.max(gallery.length, 1);
 
   showPhoto();
@@ -1781,6 +1808,128 @@ function filterEmptyImages(list) {
   }
 
   return result;
+}
+
+// Photo spots
+
+// A route's photo lists run side by side: entry i of photo_gallery_coords (or _copyright…) belongs to photo i.
+// The gallery is photo_gallery_big or photo_gallery without its empty entries, so this finds each gallery photo's i
+function galleryIndexes(properties, gallery) {
+  for (const list of [properties.photo_gallery_big, properties.photo_gallery]) {
+    const indexes = [];
+
+    list?.forEach((url, i) => {
+      if (url && url.trim().length > 0) {
+        indexes.push(i);
+      }
+    });
+
+    if (
+      indexes.length === gallery.length &&
+      indexes.every((i, j) => list[i].trim() === gallery[j])
+    ) {
+      return indexes;
+    }
+  }
+
+  return [];
+}
+
+// A spot is written "[(lng, lat)]", longitude first, the reverse of the rest of the data
+function photoSpots(item) {
+  const properties = item.json.properties;
+  const bounds = item.bounds;
+
+  return galleryIndexes(properties, item.gallery).map((i) => {
+    const match = /\(([-\d.]+),\s*([-\d.]+)\)/.exec(
+      properties.photo_gallery_coords?.[i] ?? "",
+    );
+    const position = match
+      ? point(parseFloat(match[2]), parseFloat(match[1]))
+      : undefined;
+    // NaN fails these comparisons too
+    const near =
+      position &&
+      position.lat <= bounds.north + SPOT_MARGIN &&
+      position.lat >= bounds.south - SPOT_MARGIN &&
+      position.lng <= bounds.east + SPOT_MARGIN &&
+      position.lng >= bounds.west - SPOT_MARGIN;
+
+    return { position: near ? position : undefined };
+  });
+}
+
+function photoPin(spot, color) {
+  const content = document.createElement("span");
+  content.className = "marker photo-pin material-symbols-outlined";
+  content.style.setProperty("--color", color);
+  content.textContent = "photo_camera";
+
+  const marker = new google.maps.marker.AdvancedMarkerElement({
+    position: spot.position,
+    content: content,
+    gmpClickable: true,
+  });
+
+  // Not made with createMarker, whose click selects the item instead
+  marker.addEventListener("gmp-click", () => showSpotPhoto(spot));
+
+  return marker;
+}
+
+// Only the pins whose number or state changed are restyled, so a step through the gallery touches two of them
+function drawPhotoSpots() {
+  const spots = selected?.spots ?? [];
+
+  spots.forEach((spot, i) => {
+    if (!spot.position) {
+      return;
+    }
+
+    spot.marker ??= photoPin(spot, selected.color);
+
+    const marker = spot.marker;
+    const count = selected.gallery.length;
+    const shown = i === galleryIndex;
+    const key = `${i}|${count}|${shown}`;
+
+    if (spot.key !== key) {
+      spot.key = key;
+      marker.title = `Photo ${i + 1} of ${count}${shown ? ", on show" : ""}`;
+      // Where pins overlap, the earlier photo wins, and the pin of the photo on show is always drawn
+      marker.zIndex = shown ? PHOTO_ZINDEX + 1 : PHOTO_ZINDEX - i;
+      marker.collisionBehavior = shown
+        ? google.maps.CollisionBehavior.REQUIRED_AND_HIDES_OPTIONAL
+        : google.maps.CollisionBehavior.OPTIONAL_AND_HIDES_LOWER_PRIORITY;
+      marker.content.classList.toggle("selected", shown);
+    }
+
+    if (marker.map !== map) {
+      marker.map = map;
+    }
+  });
+}
+
+function hidePhotoSpots(item) {
+  for (const spot of item?.spots ?? []) {
+    if (spot.marker) {
+      spot.marker.map = null;
+    }
+  }
+}
+
+function showSpotPhoto(spot) {
+  const index = selected?.spots?.indexOf(spot) ?? -1;
+
+  if (index < 0) {
+    return;
+  }
+
+  galleryIndex = index;
+  showPhoto();
+  // The photo is at the top of the panel, which the user may have scrolled down
+  document.querySelector(".details-scroll").scrollTop = 0;
+  setStatus(`Photo ${index + 1} of ${selected.gallery.length}`);
 }
 
 // Controls
