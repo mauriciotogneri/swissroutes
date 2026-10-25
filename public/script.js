@@ -81,7 +81,6 @@ const SECTION_ICONS = {
   "Rest stops": "table_restaurant",
   Nature: "park",
   Favorites: "favorite",
-  "Your track": "upload",
 };
 
 const PLACES = [
@@ -398,7 +397,10 @@ function mapLoaded() {
     map.fitBounds(INITIAL_VIEW, 0);
   }
 
-  map.addListener("click", closeDetails);
+  map.addListener("click", () => {
+    closeMenu();
+    closeDetails();
+  });
   map.addListener("idle", drawPins);
 
   // The first idle only records the opening view, so a plain visit keeps a bare address
@@ -567,8 +569,6 @@ function buildPanel() {
     content += group("Favorites", favorites);
   }
 
-  content += group("Your track", uploadRows(), false);
-
   const layers = document.getElementById("layers");
   layers.innerHTML = content;
 
@@ -598,7 +598,7 @@ function byCount(items) {
   return [...items].sort((a, b) => rowTotal(b.id) - rowTotal(a.id));
 }
 
-// Your track and Routes stay open. Every other group starts collapsed
+// Routes stays open. Every other group starts collapsed
 function group(name, rows, collapsible = true) {
   const icon = SECTION_ICONS[name]
     ? `<span class="material-symbols-outlined" aria-hidden="true">${SECTION_ICONS[name]}</span>`
@@ -2341,14 +2341,24 @@ function bindControls() {
     });
   }
 
+  document.getElementById("menuToggle").addEventListener("click", () => {
+    if (menuOpen()) {
+      closeMenu();
+    } else {
+      openMenu();
+    }
+  });
+
   const input = document.getElementById("gpxInput");
 
   document
     .getElementById("uploadButton")
     .addEventListener("click", () => input.click());
-  document
-    .getElementById("uploadRemove")
-    .addEventListener("click", removeUpload);
+  // The menu closes first, while the keyboard is still on the button that is about to hide
+  document.getElementById("uploadRemove").addEventListener("click", () => {
+    closeMenu();
+    removeUpload();
+  });
   input.addEventListener("change", () => {
     const file = input.files[0];
     // Cleared so that choosing the same file again still fires a change
@@ -2431,7 +2441,13 @@ function bindControls() {
   document.addEventListener("keydown", (event) => {
     if (event.key === "Escape") {
       hideTooltip();
-      closeDetails();
+
+      // One panel at a time: the menu first, then the details
+      if (menuOpen()) {
+        closeMenu();
+      } else {
+        closeDetails();
+      }
     }
   });
 }
@@ -2454,20 +2470,51 @@ function mapPadding() {
   };
 }
 
-// Uploaded GPX
+// Menu
 
-function uploadRows() {
-  let content = '<div class="upload">';
-  content +=
-    '<button type="button" class="action" id="uploadButton"><span class="material-symbols-outlined">upload</span>Upload GPX</button>';
-  content +=
-    '<button type="button" class="action" id="uploadRemove" hidden><span class="material-symbols-outlined">delete</span>Remove</button>';
-  content += "</div>";
-  content +=
-    '<p class="upload-error" id="uploadError" role="alert" hidden></p>';
-
-  return content;
+function menuOpen() {
+  return document.getElementById("menu").classList.contains("open");
 }
+
+// The menu covers the layer rows, so they are taken out of the keyboard order while it is open
+function openMenu() {
+  const menu = document.getElementById("menu");
+  menu.classList.add("open");
+  menu.inert = false;
+  document.getElementById("layers").inert = true;
+
+  const toggle = document.getElementById("menuToggle");
+  toggle.setAttribute("aria-expanded", true);
+  toggle.firstElementChild.textContent = "close";
+
+  menu.querySelector(".menu-item:not([hidden])").focus();
+}
+
+function closeMenu() {
+  if (!menuOpen()) {
+    return;
+  }
+
+  const menu = document.getElementById("menu");
+  const hadFocus = menu.contains(document.activeElement);
+  menu.classList.remove("open");
+  menu.inert = true;
+  document.getElementById("layers").inert = false;
+
+  const toggle = document.getElementById("menuToggle");
+  toggle.setAttribute("aria-expanded", false);
+  toggle.firstElementChild.textContent = "menu";
+
+  // The error was announced when it appeared, and is out of date once the menu opens again
+  showUploadError(undefined);
+
+  // Focus inside the hidden menu would be lost, so it goes back to the menu button. A click on the map has already moved it
+  if (hadFocus) {
+    toggle.focus();
+  }
+}
+
+// Uploaded GPX
 
 async function loadUpload(file) {
   const parsed = parseGpx(await file.text().catch(() => ""), file.name);
@@ -2484,6 +2531,8 @@ async function loadUpload(file) {
   document.getElementById("uploadRemove").hidden = false;
   track("gpx_upload");
 
+  // Closed first, so the keyboard is on the menu button when the track's details open. Closing them returns it there, unless other details were already open (selectItem keeps their return point)
+  closeMenu();
   selectItem(uploaded, "upload");
   map.fitBounds(uploaded.bounds, mapPadding());
 }

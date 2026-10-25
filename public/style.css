@@ -10,6 +10,7 @@
   --bottom: 24px;
   --layers-width: 312px;
   --details-width: 384px;
+  --head-height: 52px;
   --shadow: 0 1px 2px rgb(34 48 60 / 0.12), 0 10px 30px rgb(34 48 60 / 0.18);
   --font: 'Archivo', system-ui, sans-serif;
 }
@@ -135,6 +136,95 @@ body.has-details #map {
   transition: none;
 }
 
+/* Panel header and menu */
+
+.panel-head {
+  display: flex;
+  flex: none;
+  align-items: center;
+  gap: 8px;
+  height: var(--head-height);
+  padding: 0 20px 0 12px;
+  border-bottom: 1px solid var(--rule);
+}
+
+.menu-toggle {
+  display: grid;
+  place-items: center;
+  width: 36px;
+  height: 36px;
+  padding: 0;
+  border: 0;
+  border-radius: 6px;
+  background: none;
+}
+
+.menu-toggle:hover {
+  background: var(--mist);
+}
+
+.menu-toggle .material-symbols-outlined {
+  font-size: 22px;
+}
+
+.brand {
+  font-size: 18px;
+  font-weight: 700;
+  font-stretch: 87.5%;
+  letter-spacing: -0.01em;
+}
+
+/* The menu covers the layer rows below the header, at the panel's full width. Closed, it waits beyond the panel's edge, and inert keeps it out of reach */
+.menu {
+  position: absolute;
+  top: calc(var(--head-height) + 1px);
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 8px 0;
+  background: var(--paper);
+  transform: translateX(-100%);
+  transition: transform 0.15s;
+}
+
+.menu.open {
+  transform: none;
+}
+
+.menu-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+  padding: 10px 20px;
+  border: 0;
+  background: none;
+  font-weight: 560;
+  text-align: left;
+}
+
+.menu-item[hidden] {
+  display: none;
+}
+
+.menu-item:hover {
+  background: var(--mist);
+}
+
+/* The entries span the panel, whose edges would cut an outline drawn outside them */
+.menu-item:focus-visible {
+  outline-offset: -2px;
+}
+
+.menu-item .material-symbols-outlined {
+  color: var(--ink-soft);
+  font-size: 20px;
+}
+
+.menu .upload-error {
+  padding: 4px 20px 0;
+}
+
 .layers-body {
   flex: 1;
   overflow-y: auto;
@@ -221,12 +311,6 @@ body.has-details #map {
 }
 
 /* Uploaded GPX track */
-
-.upload {
-  display: flex;
-  gap: 8px;
-  margin: 6px 0 8px;
-}
 
 .upload-error {
   margin: 0 0 8px;
@@ -1024,7 +1108,8 @@ body.has-details .map-controls {
 
 @media (prefers-reduced-motion: reduce) {
   .group summary > .material-symbols-outlined,
-  .marker {
+  .marker,
+  .menu {
     transition: none;
   }
 }

@@ -10,7 +10,7 @@
    - Uploaded GPX tracks get no Save action.
 2. **Saving.** Clicking Save fills the star in red and changes the label to **Saved**. Screen readers hear "Saved" through the existing `#status` live region. The matching Saved row count goes up by 1 straight away. Clicking again changes it back to **Save** / outlined, the count goes down, and the screen reader hears "Removed from saved".
 3. **The Saved section.**
-   - Star icon, not collapsible (like Your track), placed directly above Your track. It sits after Favorites when `?favorites=1` is set.
+   - Star icon, not collapsible (like Routes), placed last in the panel. It sits after Favorites when `?favorites=1` is set. Uploading a GPX lives in the header menu, not in the panel, and the menu gets no Saved entry.
    - Two rows: **Routes** (ink line swatch) and **Places** (`location_on` icon swatch). Each shows its count.
    - While nothing is saved, both rows show `0` and a hint line appears below them: "Save a route or place from its details to keep it here."
 4. **Turning a row on.**
@@ -51,7 +51,7 @@ Two more facts:
    - b. One "Saved" row. One row fewer, but routes and places always come together.
    - c. A list of the saved items by name, each opening its details. Needs labels stored (decision 5b), grows long in a 312 px panel, and is clearly more code.
 2. **Where the section sits and what it shows when empty**
-   - a. Always shown, not collapsible, directly above Your track, with the hint while empty. The feature is discoverable and the count change is visible right after a save. Costs about 110 px of panel height. **(recommended)**
+   - a. Always shown, not collapsible, last in the panel, with the hint while empty. The feature is discoverable and the count change is visible right after a save. Costs about 110 px of panel height. **(recommended)**
    - b. Collapsible like Stay/Explore, starting closed. Consistent with them, but it hides the count change after a save.
    - c. Hidden until the first save. Less clutter, but nothing in the panel hints at the feature, and the section appears mid-session.
 3. **What is drawn**
@@ -85,7 +85,7 @@ Two more facts:
 1. `:43`: add `star` to `icon_names`, between `shower` and `table_restaurant`. The font only has the listed glyphs, and Google Fonts requires the list in alphabetical order (from Google's documentation, not checked here). `location_on` is already listed.
 
 ### `public/script.js`
-2. `SECTION_ICONS` `:65-74`: add `Saved: "star",` before `"Your track"`.
+2. `SECTION_ICONS`: add `Saved: "star",` after `Favorites`.
 3. After `LOADING_RENDER_DELAY` `:320`:
    ```js
    // The visitor's saved routes and places are kept in the browser under this name. The version allows a later change of format
@@ -117,7 +117,7 @@ Two more facts:
    - Comment on both: the index shifts when the file is refreshed.
    - This is safe: `item.url` is otherwise read only by `copyLink` (`:1708`), which these kinds don't offer. `files` and `drawn` don't key on it.
 7. `buildPanel`:
-   - Before `content += group("Your track", …)` `:517`, add `content += group("Saved", savedRows(), false);`.
+   - After the Favorites block, the last section, add `content += group("Saved", savedRows(), false);`.
    - Before `updateCounts({})` `:530`, call `updateSavedLayers();`. The rows already exist at that point, and `rowTotal` (`:704`) already uses `layer.count`; `0 ?? …` stays 0.
 8. `render` `:1028`, first line inside the item loop, before `count.total++`:
    ```js
@@ -214,7 +214,7 @@ No changes in `bin/` or `ids/`.
 
 Run `scripts/serve.sh` and open http://localhost:5000 with DevTools open.
 
-1. The panel shows a "Saved" section with a star icon above Your track, rows Routes `0` and Places `0`, and the hint. The star glyph renders (not the word "star").
+1. The panel shows a "Saved" section with a star icon as its last section, rows Routes `0` and Places `0`, and the hint. The star glyph renders (not the word "star").
 2. Hiking > Local on, open a route. Actions are Copy link, Save, Download GPX, SchweizMobil. Click Save: the star fills red, the label reads "Saved", Saved Routes shows `1`, and the hint hides. Application > Local Storage shows `swissroutes.saved = {"version":1,"items":["hiking/local/<n>.json"]}`.
 3. Hiking Local off, Saved Routes on: only that route is drawn (red, local width, plate). The count is bold `1`, the Saved badge is `1`, and no filter box appears.
 4. Hiking Local on with Length min `500`: the hiking row shows `0 of 274` and the saved route still shows.

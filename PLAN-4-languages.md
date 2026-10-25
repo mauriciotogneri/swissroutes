@@ -10,7 +10,7 @@
    - the tab title;
    - screen-reader texts.
 
-   Numbers use the Swiss format of that language. Google's own map labels and map footer load in the same language. A globe and four buttons, **DE FR IT EN**, sit at the bottom of the layers panel, with the current language pressed. On a slow connection, the three map-type buttons may show in English for a moment before the script runs (D6).
+   Numbers use the Swiss format of that language. Google's own map labels and map footer load in the same language. A Language row with a globe and four buttons, **DE FR IT EN**, sits at the top of the header menu (☰ at the top left of the layers panel), with the current language pressed. On a slow connection, the three map-type buttons may show in English for a moment before the script runs (D6).
 2. **The mixed result.** Example in German, route `hiking/local/101`:
    - In German: the kind line, Copy link, Download GPX, and the Distance, Ascent and Descent labels.
    - As in the data: the title "Sentier du Rhône" and the English abstract ("The hike from Geneva to La Plaine…"). SchweizMobil is downloaded with `language=en` (`bin/helpers.js:51`) and My Switzerland with `language=en-CH` (`:15`).
@@ -56,8 +56,8 @@
 
 | Area | Keys |
 |---|---:|
-| A. Page and static elements (index.html, translated by script, plus the picker label) | 12 |
-| B. Panel sections | 9 |
+| A. Page and static elements (index.html, translated by script, plus the picker label) | 13 |
+| B. Panel sections | 8 |
 | C. Route rows: levels, activities, chip groups, filters, "N of M" | 15 |
 | D. Place rows and place kinds (36 types × name + label) | 72 |
 | E. Favorites rows | 2 |
@@ -66,14 +66,14 @@
 | H. Details: shared controls | 5 |
 | I. Route details | 15 |
 | J. Place and OpenStreetMap details | 6 |
-| K. GPX upload | 5 |
-| **Keys in `strings.js`** | **145** |
+| K. GPX upload | 6 |
+| **Keys in `strings.js`** | **146** |
 | L. Written in four languages directly in HTML (noscript 2, 404 body 3) | 5 |
 | L6. Stays English: 404 `<title>` | 1 |
 | M. Stays English: meta description, og:title, og:description, og:image:alt | 4 |
 | The five planned features add (see Interactions) | 29 |
 
-The 145 keys replace the English now spread over `public/index.html` and `public/script.js`. The three route nouns (`script.js:21, 32, 43`) disappear, because they are replaced by 9 whole phrases (D8).
+The 146 keys replace the English now spread over `public/index.html` and `public/script.js`. The three route nouns (`script.js:21, 32, 43`) disappear, because they are replaced by 9 whole phrases (D8).
 
 ## Decisions
 
@@ -97,13 +97,13 @@ The 145 keys replace the English now spread over `public/index.html` and `public
 - (c) Not remembered: see D1(b).
 
 **D4. The picker: where and how it looks**
-- **(a) A footer pinned at the bottom of the layers panel, outside the scrolling rows (recommended).**
-  - A `language` globe icon, then four buttons **DE FR IT EN** with `aria-pressed`, styled exactly like the Map / Terrain / Satellite group (`style.css:686–708`).
-  - Always visible, and it never moves the sections.
-  - It is outside `#layers`, so it is not rebuilt on a switch and keyboard focus stays on it.
+- **(a) A row at the top of the header menu, above Upload GPX (decided with the menu).**
+  - A `language` globe icon, then four buttons **DE FR IT EN** with `aria-pressed`, styled exactly like the Map / Terrain / Satellite group.
+  - Two clicks away (☰, then the language), and it never moves the sections.
+  - The menu (`#menu`) is outside `#layers`, so the picker is not rebuilt on a switch and keyboard focus stays on it. The menu stays open after a switch.
   - The order DE FR IT EN is the Swiss convention: national languages, then English. Assumption: SchweizMobil and My Switzerland use it too (not checked).
   - Each button shows its code and has the native name as its accessible name, with its own `lang` (`aria-label="Deutsch" lang="de-CH"`). A screen reader says "Deutsch" with a German voice. Each name starts with its code, so the visible label is part of the name (WCAG "label in name").
-- (b) A header row at the top of the panel. A more usual place for a language picker, but it pushes Routes down by about 40 px.
+- (b) A footer pinned at the bottom of the layers panel (the earlier recommendation). Always visible, but it takes a row of panel height, and the header menu is where the site's settings now live.
 - (c) Next to the map-type buttons. At 1024 px with details open, the map area is about 326 px wide (1024 − 313 − 385). Those controls already take about 230 px, and a fourth group needs about 140 px more, so they would overlap the layers panel.
 - (d) A `<select>` with native names. Compact, but it hides the options, and the native arrow looks different from the panel.
 
@@ -224,7 +224,7 @@ The 145 keys replace the English now spread over `public/index.html` and `public
 **D15. Fonts: no change.** The Archivo CSS (index.html:41), fetched read-only, serves a `latin` subset of U+0000–00FF, U+0152–0153 and U+2000–206F. That covers é è à ü ö ä ç ì ò ù â ê î ô û ë ï « » œ ’ „ “ – … and U+202F. It also serves a `latin-ext` subset. Assumption: the font has every character in those ranges; check in Verification. Material Symbols only needs `language` added to `icon_names`.
 
 **D16. Layout (312 px panel, 384 px details)**
-- **(recommended) `.upload` gets `flex-wrap: wrap` now.** `style.css:225–229` has no wrap. "Upload GPX" plus "Remove" must fit 272 px, about 255 px with a classic scrollbar, and longer translations could overflow.
+- The menu entries (Upload GPX, Remove track) are full-width rows of about 250 px of text room, so longer translations fit or wrap.
 - **Only if the overflow helper in Verification flags them**, ranked by risk:
   1. **Filter label column, fixed at 58 px** (`style.css:380`). It fits about 8–9 characters at 12.5 px. Fix: `.filters` becomes the grid with `grid-template-columns: max-content 1fr 10px 1fr 22px`, and `.range { display: contents; }`. The color and font-size move from `.range` to `.filters`. Rows still line up.
   2. **Level chips** (`style.css:329–343`). About 69 px of text room each. English "Regional" plus a 2-digit count fits with only a few px to spare (estimate). Fix: `.chip { font-stretch: 75%; }`; the width axis 62–125 is already loaded.
@@ -277,9 +277,11 @@ The 145 keys replace the English now spread over `public/index.html` and `public
 3. **Add `<script src="strings.js" defer></script>`** between `ids.js` and `script.js` (lines 27–28).
 4. **Tag the static text.**
    - `data-i18n`: the h1 (`:99`, key `page.title`), the Map / Terrain / Satellite buttons (`:117–119`) and the small-screen h2 (`:137`).
-   - `data-i18n-label`: `#layersPanel` (`:105`), `#progress` (`:106`), `#details` (`:113`), `.map-type` (`:116`), `#zoomIn` and `#zoomOut` (`:122–123`).
+   - `data-i18n-label`: `#layersPanel` (`:105`), `#progress` (`:106`), `#menuToggle` (key `menu.label`), `#details` (`:113`), `.map-type` (`:116`), `#zoomIn` and `#zoomOut` (`:122–123`).
+   - The menu entries `#uploadButton` and `#uploadRemove` hold an icon before their text, so their text is wrapped in a `<span data-i18n="…">` (`action.uploadGpx`, `action.removeTrack`); setting the button's `textContent` would delete the icon.
+   - "Swiss Routes" in the header is the name and stays.
    - The English stays in the HTML as the no-script fallback.
-5. **Picker**, after `#layers` (`:110`), inside `#layersPanel`:
+5. **Picker**, at the top of `#menu`, before `#uploadButton`:
    ```html
    <div class="language" role="group" aria-label="Language" data-i18n-label="language.label">
      <span class="material-symbols-outlined" aria-hidden="true">language</span>
@@ -302,7 +304,7 @@ Follow the file's style: double quotes, semicolons, braces on every `if`, traili
 9. **Constants: drop the English and add section ids.**
    - `LEVELS` (`:11–15`): drop `name`.
    - `ACTIVITIES` (`:17–51`): drop `name` and `noun`.
-   - `SECTION_ICONS` (`:65–74`): key by section id: `stay`, `explore`, `water`, `bike`, `rest`, `nature`, `favorites`, `upload`.
+   - `SECTION_ICONS` (`:65–74`): key by section id: `stay`, `explore`, `water`, `bike`, `rest`, `nature`, `favorites`.
    - `PLACES` (`:76–180`): drop `name` and `label`. `serviceshop` and `chargingstation` get `section: "bike"`.
    - `osmPlace` (`:427–437`) becomes `(group, id, icon)`, and the calls at `:185–305` lose their two English arguments.
    - `OSM_SECTIONS` (`:210–308`): `name: "Water"` becomes `id: "water"`; likewise `bike`, `rest` and `nature`. Update the comment at `:209` to "same section id".
@@ -317,8 +319,8 @@ Follow the file's style: double quotes, semicolons, braces on every `if`, traili
 11. **`buildPanel` (`:468–531`).**
     - Calls become `group("routes", …, false)`, `group("stay", …)`, `group("explore", …)`.
     - `:494` becomes `place.section === section.id`, and `:497` becomes `group(section.id, …)`.
-    - `:504` `t("favorites.hikes")`, `:510` `t("favorites.places")`, `:514` `group("favorites", …)`, `:517` `group("upload", uploadRows(), false)`.
-    - Move the `uploadButton` and `uploadRemove` bindings from `bindControls` (`:1810–1815`) here, after the input loop (`:528`): `document.getElementById("gpxInput").click()` and `removeUpload`. Comment: "The panel is rebuilt when the language changes, so its buttons are bound here."
+    - `:504` `t("favorites.hikes")`, `:510` `t("favorites.places")`, `:514` `group("favorites", …)`.
+    - The upload entries live in the header menu, outside `#layers`, so a rebuild doesn't touch them and their bindings stay in `bindControls`.
     - `byCount` sorts by counts, not names, so the order is the same in every language.
 12. **`group(id, rows, collapsible)` (`:539–550`).** `const name = t(\`section.${id}\`)` and `SECTION_ICONS[id]`. Add `data-section="${id}"` to the `<section>` and the `<details>`.
 13. **Rows.**
@@ -351,7 +353,7 @@ Follow the file's style: double quotes, semicolons, braces on every `if`, traili
     - `gallerySection` (`:1651`, `:1653`): `gallery.previous` and `gallery.next`.
 17. **`bindControls` (`:1788`).** After the map-type loop (`:1806`), bind each `[data-language]` click to `setLanguage(button.dataset.language)`. Like the map-type buttons, it is bound once the map has loaded.
 18. **Upload.**
-    - `uploadRows` (`:1887`, `:1889`): `action.uploadGpx` and `action.remove`.
+    - The menu entries' text is tagged in step 4 (`action.uploadGpx`, `action.removeTrack`).
     - `parseGpx` returns the keys `"upload.notGpx"` (`:1930`) and `"upload.noTrack"` (`:1970`); its comment becomes "the key of the message". `loadUpload` (`:1901`) calls `showUploadError(t(parsed))`.
     - `buildUpload` (`:2037`): `marker.title = t(name === "start" ? "upload.start" : "upload.end", { name: item.label })`.
     - `uploadDetails`: `:2119` `t("upload.kind")`, `:2122` `t("action.remove")`, the stat labels at `:2126–2136`, and `formatNumber` at `:2127`, `:2135` and `:2136`.
@@ -380,7 +382,7 @@ Follow the file's style: double quotes, semicolons, braces on every `if`, traili
     - **`rebuildPanel()`:**
       1. Before `buildPanel()`, record the `[id, value]` of every `#layers input`, the `dataset.section` of each `details[open]`, and `#layers.scrollTop`.
       2. After it, restore the input values; setting `.value` fires no event, so `sharedItem` is kept. Set `open` on the recorded sections, and `aria-pressed` on every `[data-layer]` from `activeLayers`.
-      3. `uploadRemove.hidden = !uploaded`; restore the scroll; `layersChanged()`.
+      3. Restore the scroll; `layersChanged()`.
       4. A visible upload error is cleared; it was already announced.
     - **`refreshDetails()`:** keep `.details-scroll`'s `scrollTop`, set `details.innerHTML = detailsContent(selected)`, call `showPhoto()` if `galleryIndex > 0`, then restore the scroll. Focus stays on the picker.
     - **`refreshMapText()`:**
@@ -393,13 +395,12 @@ Follow the file's style: double quotes, semicolons, braces on every `if`, traili
     - Add `trackLabel(item)`: return `"upload"` for uploads. For `kind === "osm" && !item.json.name`, return `STRINGS[\`place.${item.place.id}.label\`].en`. Otherwise return `item.label`.
 
 ### public/style.css
-21. **Picker.** After `.layers-body` (`:138–142`): `.language { display: flex; flex: none; align-items: center; gap: 2px; padding: 8px 20px; border-top: 1px solid var(--rule); }` and `.language > .material-symbols-outlined { margin-right: 8px; color: var(--ink-soft); }`. Add `.language button` to the three `.map-type button` rules (`:691`, `:701`, `:705`).
-22. **`.upload` (`:225–229`):** add `flex-wrap: wrap;` (D16).
-23. **Only if Verification step 10 flags them:** the three fixes in D16, in that order.
+21. **Picker.** After `.menu-item .material-symbols-outlined`: `.language { display: flex; align-items: center; gap: 2px; padding: 8px 20px; }` and `.language > .material-symbols-outlined { margin-right: 12px; color: var(--ink-soft); font-size: 20px; }`, so the globe lines up with the entries' icons. Add `.language button` to the three `.map-type button` rules.
+22. **Only if Verification step 10 flags them:** the three fixes in D16, in that order.
 
 ### AGENTS.md
-24. **Folders table:** add a row for `public/strings.js`: "The interface text in English, German, French and Italian, one entry per key", written by hand, deployed.
-25. **New short "Languages" section:**
+23. **Folders table:** add a row for `public/strings.js`: "The interface text in English, German, French and Italian, one entry per key", written by hand, deployed.
+24. **New short "Languages" section:**
     - Every text the site writes goes through `t()` with an entry for all four languages in `strings.js`.
     - Downloaded data is not translated.
     - The language comes from `?lang=` (read only), then localStorage `swissroutes.language`, then the browser.
@@ -484,7 +485,7 @@ Run `scripts/serve.sh`, open http://localhost:5000 in a window at least 1024 px 
    Check:
    - Chips and toggles are still pressed, the badges are right, the filter box still shows 15, the hiking count is in "N of M" form, and Stay is open.
    - Both scroll positions, photo "3 / N", Satellite and the map position are unchanged.
-   - Remove is visible and the track is drawn.
+   - The menu shows Remove track and the track is drawn.
    - Network shows no new `data/` requests.
 5. **Map text.**
    - Hover a bubble: its title is in the new language.
@@ -554,7 +555,7 @@ Run `scripts/serve.sh`, open http://localhost:5000 in a window at least 1024 px 
    - English must match `(n).toLocaleString()` exactly as before.
 10. **Layout overflow.** Run this in each language with all filter boxes visible, a bike route open (4 tiles), and an OpenStreetMap point with Elevation and Capacity. It must return `[]`:
     ```js
-    [...document.querySelectorAll(".chip, .range > span, .row-name, .group h2, .stats dt, .action, .map-type button, .language button, .upload")].filter((e) => e.scrollWidth > e.clientWidth + 1).map((e) => e.textContent)
+    [...document.querySelectorAll(".chip, .range > span, .row-name, .group h2, .stats dt, .action, .map-type button, .language button, .menu-item")].filter((e) => e.scrollWidth > e.clientWidth + 1).map((e) => e.textContent)
     ```
     Also run it at 1024 × 768 with details open; the map-type group must not overlap the layers panel. Apply the D16 fixes for anything flagged.
 11. **Map labels.**
@@ -592,7 +593,7 @@ Run `scripts/serve.sh`, open http://localhost:5000 in a window at least 1024 px 
 
 Paths are `public/script.js` unless marked otherwise. "Key" is the proposed `strings.js` key.
 
-**A. Page and static elements (12)**
+**A. Page and static elements (13)**
 
 | # | Key | English source | Where | Notes |
 |---|---|---|---|---|
@@ -608,8 +609,9 @@ Paths are `public/script.js` unless marked otherwise. "Key" is the proposed `str
 | A10 | zoom.out | Zoom out | index.html:123 | aria-label |
 | A11 | smallScreen | Swiss Routes is currently only available for the desktop version | index.html:137 | small-screen h2 |
 | A12 | language.label | Language | new (picker) | group aria-label |
+| A13 | menu.label | Menu | index.html (`#menuToggle`) | aria-label of the ☰ button; it says whether the menu is open through `aria-expanded`, so the label never changes |
 
-**B. Panel sections (9).** Titles are shown in uppercase by CSS (`style.css:188`); write them in normal case.
+**B. Panel sections (8).** Titles are shown in uppercase by CSS (`style.css:188`); write them in normal case.
 
 | # | Key | English | Where | Notes |
 |---|---|---|---|---|
@@ -621,7 +623,6 @@ Paths are `public/script.js` unless marked otherwise. "Key" is the proposed `str
 | B6 | section.rest | Rest stops | :259 (:70) | |
 | B7 | section.nature | Nature | :281 (:71) | |
 | B8 | section.favorites | Favorites | :514 (:72) | Only with `?favorites=1` |
-| B9 | section.upload | Your track | :517 (:73) | |
 
 **C. Route rows (15)**
 
@@ -686,7 +687,7 @@ Paths are `public/script.js` unless marked otherwise. "Key" is the proposed `str
 | swimmingarea | Swimming areas | Swimming area | :295 / :296 | 116 / 172 |
 | bathingplace | Bathing places | Bathing place | :302 / :303 | 20 / 34 |
 
-**E–K. Other keys (37)**
+**E–K. Other keys (38)**
 
 | # | Key | English | Where | Notes |
 |---|---|---|---|---|
@@ -722,8 +723,9 @@ Paths are `public/script.js` unless marked otherwise. "Key" is the proposed `str
 | J4 | osm.operator | Operated by {operator} | :1586 | 3,954 points; the value is data |
 | J5 | osm.fee | Fee: {fee} | :1591 | 6,619 points; value raw (D13) |
 | J6 | osm.access | Access: {access} | :1595 | 5,865 points; value raw |
-| K1 | action.uploadGpx | Upload GPX | :1887 | |
-| K2 | action.remove | Remove | :1889, :2122 | |
+| K1 | action.uploadGpx | Upload GPX | index.html (`#menu`) | Menu entry |
+| K2 | action.remove | Remove | :2122 | The track's details |
+| K6 | action.removeTrack | Remove track | index.html (`#menu`) | Menu entry, shown while a track is loaded |
 | K3 | upload.notGpx | This is not a GPX file. Choose a .gpx file from a GPS app or route planner. | :1930 | `role="alert"` |
 | K4 | upload.noTrack | This GPX file has no track or route with at least two points. | :1970 | `role="alert"` |
 | K5 | upload.kind | Your GPX track | :2119 | Kind line |
