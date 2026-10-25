@@ -14,6 +14,9 @@ const LEVELS = [
   { id: "local", name: "Local", weight: 3, zIndex: 10 },
 ];
 
+// SchweizMobil rates every route easy, medium or difficult for fitness (category_condition), and hiking and mountain bike routes for difficulty too (category_grade)
+const GRADES = { easy: "Easy", medium: "Medium", difficult: "Difficult" };
+
 const ACTIVITIES = [
   {
     id: "hiking",
@@ -25,7 +28,11 @@ const ACTIVITIES = [
       regional: HIKING_REGIONAL_IDS,
       local: HIKING_LOCAL_IDS,
     },
+    // The grade follows the trail type. No hiking route is difficult today, but the chip is shown so both Difficulty rows offer all three grades
+    grades: ["easy", "medium", "difficult"],
+    trails: { easy: "hiking trail", medium: "mountain hiking trail" },
   },
+  // Cycling routes have no difficulty grade, only fitness
   {
     id: "cycling",
     name: "Cycling",
@@ -47,6 +54,7 @@ const ACTIVITIES = [
       regional: MOUNTAINBIKING_REGIONAL_IDS,
       local: MOUNTAINBIKING_LOCAL_IDS,
     },
+    grades: ["easy", "medium", "difficult"],
   },
 ];
 
@@ -533,6 +541,16 @@ function buildPanel() {
     input.addEventListener("input", onFilterChange);
   }
 
+  for (const chip of layers.querySelectorAll("[data-grade-filter]")) {
+    chip.addEventListener("click", () => {
+      chip.setAttribute(
+        "aria-pressed",
+        chip.getAttribute("aria-pressed") !== "true",
+      );
+      onFilterChange();
+    });
+  }
+
   updateCounts({});
 }
 
@@ -567,6 +585,12 @@ function activityRow(activity) {
   content += `<div class="filters" data-filters="${activity.id}" hidden>`;
   content += rangeFilter(`filter-${activity.id}-length`, "Length", "km");
   content += rangeFilter(`filter-${activity.id}-climb`, "Ascent", "m");
+
+  if (activity.grades) {
+    content += gradeFilter(activity, "grade", "Difficulty", activity.grades);
+  }
+
+  content += gradeFilter(activity, "fitness", "Fitness", Object.keys(GRADES));
   content += "</div></div>";
 
   return content;
@@ -601,6 +625,18 @@ function rangeFilter(id, label, unit) {
   return content;
 }
 
+// No data-layer attribute, so these chips filter routes instead of turning a layer on
+function gradeFilter(activity, name, label, grades) {
+  const chips = grades
+    .map(
+      (grade) =>
+        `<button type="button" class="chip" data-grade-filter="${activity.id}-${name}" data-grade="${grade}" aria-pressed="false">${GRADES[grade]}</button>`,
+    )
+    .join("");
+
+  return `<div class="range"><span>${label}</span><div class="range-chips" role="group" aria-label="${activity.name} ${label.toLowerCase()}">${chips}</div></div>`;
+}
+
 function toggleLayer(button) {
   const id = button.dataset.layer;
   const active = !activeLayers.has(id);
@@ -632,11 +668,11 @@ function toggleLayer(button) {
   scheduleRender();
 }
 
-// Each section title shows how many of its rows are on. A route row counts once, however many levels are on
+// Each section title shows how many of its rows are on. A route row counts once, however many levels are on, and its filter chips don't count
 function updateBadges() {
   for (const section of document.querySelectorAll(".group")) {
     const selected = section.querySelectorAll(
-      '.toggle[aria-pressed="true"], .row:has(.chip[aria-pressed="true"])',
+      '.toggle[aria-pressed="true"], .row:has(.chip[data-layer][aria-pressed="true"])',
     ).length;
     const badge = section.querySelector(".badge");
 
@@ -660,6 +696,8 @@ function readFilters() {
       lengthMax: readInt(`filter-${activity.id}-lengthMax`),
       climbMin: readInt(`filter-${activity.id}-climbMin`),
       climbMax: readInt(`filter-${activity.id}-climbMax`),
+      grade: pressedGrades(`${activity.id}-grade`),
+      fitness: pressedGrades(`${activity.id}-fitness`),
     };
   }
 
@@ -673,7 +711,9 @@ function matchesFilter(filter, item) {
 
   return (
     inRange(item.length, filter.lengthMin, filter.lengthMax) &&
-    inRange(item.climb, filter.climbMin, filter.climbMax)
+    inRange(item.climb, filter.climbMin, filter.climbMax) &&
+    inGrades(item.grade, filter.grade) &&
+    inGrades(item.fitness, filter.fitness)
   );
 }
 
@@ -687,6 +727,11 @@ function inRange(value, min, max) {
   }
 
   return true;
+}
+
+// No pressed chip means any grade
+function inGrades(value, grades) {
+  return grades.length === 0 || grades.includes(value);
 }
 
 function updateCounts(counts) {
@@ -815,6 +860,7 @@ function buildRoute(url, json, activity, level) {
   const paths = json.geometry.coordinates.map((stage) =>
     stage.map((coordinate) => point(coordinate[0], coordinate[1])),
   );
+  const bounds = getBounds(paths.flat());
 
   const item = {
     url: url,
@@ -829,9 +875,11 @@ function buildRoute(url, json, activity, level) {
     zIndex: level.zIndex,
     length: parseInt(properties.length),
     climb: parseInt(properties.height_difference),
+    grade: properties.category_grade,
+    fitness: properties.category_condition,
     paths: paths,
-    bounds: getBounds(paths.flat()),
-    gallery: getGallery(json),
+    bounds: bounds,
+    gallery: getGallery(json, bounds),
     casings: [],
   };
 
@@ -841,7 +889,6 @@ function buildRoute(url, json, activity, level) {
     plate(properties.r_number, activity.color),
     item,
   );
-  item.spots = photoSpots(item);
 
   return [item];
 }
@@ -1374,6 +1421,10 @@ function routeDetails(item) {
   let content = `<div class="details-kind">${badge}${item.level.name} ${item.activity.noun}</div>`;
   content += `<h2 class="details-title">${escapeHtml(properties.title)}</h2>`;
 
+  if (properties.start && properties.end) {
+    content += `<p class="details-subtitle">${escapeHtml(routeEnds(properties))}</p>`;
+  }
+
   content += actions([
     shareAction(),
     '<button type="button" class="action" data-action="download"><span class="material-symbols-outlined">download</span>Download GPX</button>',
@@ -1391,6 +1442,10 @@ function routeDetails(item) {
     "m",
   );
 
+  if (typeof properties.hiking_time === "number") {
+    stats += stat("Hiking time", duration(properties.hiking_time), "");
+  }
+
   if (typeof properties.length_asphalt === "number") {
     stats += stat(
       "Asphalt",
@@ -1400,6 +1455,32 @@ function routeDetails(item) {
   }
 
   content += `<dl class="stats">${stats}</dl>`;
+
+  let facts = "";
+
+  if (GRADES[item.grade]) {
+    const trail = item.activity.trails?.[item.grade];
+    facts += fact(
+      "Difficulty",
+      trail ? `${GRADES[item.grade]} · ${trail}` : GRADES[item.grade],
+    );
+  }
+
+  if (GRADES[item.fitness]) {
+    facts += fact("Fitness", GRADES[item.fitness]);
+  }
+
+  // Compared as text, so float noise in the hours doesn't count as a difference
+  if (
+    typeof properties.hiking_time_back === "number" &&
+    duration(properties.hiking_time_back) !== duration(properties.hiking_time)
+  ) {
+    facts += fact("Other direction", duration(properties.hiking_time_back));
+  }
+
+  if (facts) {
+    content += `<dl class="facts">${facts}</dl>`;
+  }
 
   if (properties.abstract) {
     content += `<p class="details-lead">${properties.abstract}</p>`;
@@ -1650,6 +1731,35 @@ function stat(label, value, unit) {
   return `<div><dt>${label}</dt><dd>${value}<span class="stat-unit">${unit}</span></dd></div>`;
 }
 
+// Most routes are loops: "Loop from Thun" rather than "Thun to Thun"
+function routeEnds(properties) {
+  const start = properties.start.trim();
+  const end = properties.end.trim();
+  const ends = start === end ? `Loop from ${start}` : `${start} to ${end}`;
+
+  return properties.via ? `${ends} via ${properties.via.trim()}` : ends;
+}
+
+// Hiking times are stored in hours, in steps of 5 minutes: 5.4166665 is 5 h 25 min
+function duration(hours) {
+  const minutes = Math.round(hours * 60);
+  const parts = [];
+
+  if (minutes >= 60) {
+    parts.push(`${Math.floor(minutes / 60)}<span class="stat-unit">h</span>`);
+  }
+
+  if (minutes % 60 > 0) {
+    parts.push(`${minutes % 60}<span class="stat-unit">min</span>`);
+  }
+
+  return parts.join(" ");
+}
+
+function fact(label, value) {
+  return `<dt>${label}</dt><dd>${value}</dd>`;
+}
+
 function contactLine(icon, content) {
   return `<li><span class="material-symbols-outlined">${icon}</span><span>${content}</span></li>`;
 }
@@ -1661,7 +1771,7 @@ function gallerySection(item) {
     return "";
   }
 
-  let content = `<div class="details-media"><img id="galleryImage" src="${escapeHtml(gallery[0])}" alt="${escapeHtml(item.label)}">`;
+  let content = `<div class="details-media"><img id="galleryImage" src="${escapeHtml(gallery[0].src)}" alt="${escapeHtml(item.label)}">`;
 
   if (gallery.length > 1) {
     content +=
@@ -1685,7 +1795,7 @@ function plusSlides(offset) {
   showPhoto();
 
   // The map follows the gallery when the photo was taken outside the visible area
-  const position = selected.spots?.[galleryIndex]?.position;
+  const position = gallery[galleryIndex]?.position;
 
   if (position && !map.getBounds()?.contains(position)) {
     map.panTo(position);
@@ -1704,10 +1814,10 @@ function showPhoto() {
   if (gallery.length === 0) {
     media.remove();
   } else if (gallery.length === 1) {
-    document.getElementById("galleryImage").src = gallery[0];
+    document.getElementById("galleryImage").src = gallery[0].src;
     media.querySelectorAll(".media-button, .media-counter").forEach((element) => element.remove());
   } else {
-    document.getElementById("galleryImage").src = gallery[galleryIndex];
+    document.getElementById("galleryImage").src = gallery[galleryIndex].src;
     document.getElementById("galleryIndex").textContent =
       `${galleryIndex + 1} / ${gallery.length}`;
   }
@@ -1720,17 +1830,15 @@ function dropPhoto(image) {
   const gallery = selected.gallery;
 
   // A late error of a photo the user already moved past must not drop the one now shown
-  if (image.getAttribute("src") !== gallery[galleryIndex]) {
+  if (image.getAttribute("src") !== gallery[galleryIndex]?.src) {
     return;
   }
 
-  gallery.splice(galleryIndex, 1);
+  // The photo's pin goes with it
+  const [photo] = gallery.splice(galleryIndex, 1);
 
-  // The photo's spot goes with it, so the spots stay aligned with the gallery
-  const [spot] = selected.spots?.splice(galleryIndex, 1) ?? [];
-
-  if (spot?.marker) {
-    spot.marker.map = null;
+  if (photo.marker) {
+    photo.marker.map = null;
   }
 
   galleryIndex = galleryIndex % Math.max(gallery.length, 1);
@@ -1767,141 +1875,122 @@ function copyLink(button) {
   );
 }
 
-function getGallery(json) {
-  const photoGalleryBig = filterEmptyImages(json.properties.photo_gallery_big);
-  const photoGalleryMaster = filterEmptyImages(
-    json.properties.photo_gallery_master,
-  );
-  const photoGallery = filterEmptyImages(json.properties.photo_gallery);
-  const photoGallerySmall = filterEmptyImages(
-    json.properties.photo_gallery_small,
-  );
-  const foto = json.properties.foto ? [json.properties.foto] : [];
-
+// Only a route passes its box, so only route photos get a position and a pin
+function getGallery(json, bounds) {
+  const properties = json.properties;
   const candidates = [
-    photoGalleryBig,
-    photoGalleryMaster,
-    photoGallery,
-    photoGallerySmall,
-    foto,
+    galleryPhotos(properties, properties.photo_gallery_big, bounds),
+    galleryPhotos(properties, properties.photo_gallery_master, bounds),
+    galleryPhotos(properties, properties.photo_gallery, bounds),
+    galleryPhotos(properties, properties.photo_gallery_small, bounds),
+    properties.foto ? [{ src: properties.foto }] : [],
   ];
+  const maxLength = Math.max(...candidates.map((photos) => photos.length));
 
-  const lengths = [
-    photoGalleryBig.length,
-    photoGalleryMaster.length,
-    photoGallery.length,
-    photoGallerySmall.length,
-    foto.length,
-  ];
-
-  const maxLength = Math.max(...lengths);
-
-  if (maxLength > 0) {
-    return candidates.filter((e) => e.length === maxLength)[0];
-  } else {
-    return [];
-  }
+  // The first longest list wins, or an empty one when there are no photos
+  return candidates.find((photos) => photos.length === maxLength);
 }
 
-function filterEmptyImages(list) {
-  const result = [];
+// Each photo with its credit and position. Those lists run alongside the photo lists, so they are matched by position before empty photos are dropped
+function galleryPhotos(properties, list, bounds) {
+  const photos = [];
 
   if (list) {
-    for (const element of list) {
-      if (element && element.trim().length > 0) {
-        result.push(element.trim());
+    const credited = list.length === properties.photo_gallery_author?.length;
+
+    list.forEach((src, index) => {
+      if (src && src.trim().length > 0) {
+        photos.push({
+          src: src.trim(),
+          credit: credited ? photoCredit(properties, index) : undefined,
+          position: bounds
+            ? photoPosition(properties, index, bounds)
+            : undefined,
+        });
       }
+    });
+  }
+
+  return photos;
+}
+
+// The author field is the tidier copy of the copyright field. Only the first line is kept: one photographer added a postal address
+function photoCredit(properties, index) {
+  for (const credits of [
+    properties.photo_gallery_author,
+    properties.photo_gallery_copyright,
+  ]) {
+    const credit = String(credits?.[index] ?? "")
+      .split("\n")[0]
+      .replace(/^\s*(\(c\)|©)/i, "")
+      .replace(/[\s;,]+$/, "")
+      .trim();
+
+    if (credit) {
+      return credit;
     }
   }
 
-  return result;
+  return undefined;
 }
 
 // Photo spots
 
-// A route's photo lists run side by side: entry i of photo_gallery_coords (or _copyright…) belongs to photo i.
-// The gallery is photo_gallery_big or photo_gallery without its empty entries, so this finds each gallery photo's i
-function galleryIndexes(properties, gallery) {
-  for (const list of [properties.photo_gallery_big, properties.photo_gallery]) {
-    const indexes = [];
-
-    list?.forEach((url, i) => {
-      if (url && url.trim().length > 0) {
-        indexes.push(i);
-      }
-    });
-
-    if (
-      indexes.length === gallery.length &&
-      indexes.every((i, j) => list[i].trim() === gallery[j])
-    ) {
-      return indexes;
-    }
-  }
-
-  return [];
-}
-
 // A spot is written "[(lng, lat)]", longitude first, the reverse of the rest of the data
-function photoSpots(item) {
-  const properties = item.json.properties;
-  const bounds = item.bounds;
+function photoPosition(properties, index, bounds) {
+  const match = /\(([-\d.]+),\s*([-\d.]+)\)/.exec(
+    properties.photo_gallery_coords?.[index] ?? "",
+  );
+  const position = match
+    ? point(parseFloat(match[2]), parseFloat(match[1]))
+    : undefined;
+  // NaN fails these comparisons too
+  const near =
+    position &&
+    position.lat <= bounds.north + SPOT_MARGIN &&
+    position.lat >= bounds.south - SPOT_MARGIN &&
+    position.lng <= bounds.east + SPOT_MARGIN &&
+    position.lng >= bounds.west - SPOT_MARGIN;
 
-  return galleryIndexes(properties, item.gallery).map((i) => {
-    const match = /\(([-\d.]+),\s*([-\d.]+)\)/.exec(
-      properties.photo_gallery_coords?.[i] ?? "",
-    );
-    const position = match
-      ? point(parseFloat(match[2]), parseFloat(match[1]))
-      : undefined;
-    // NaN fails these comparisons too
-    const near =
-      position &&
-      position.lat <= bounds.north + SPOT_MARGIN &&
-      position.lat >= bounds.south - SPOT_MARGIN &&
-      position.lng <= bounds.east + SPOT_MARGIN &&
-      position.lng >= bounds.west - SPOT_MARGIN;
-
-    return { position: near ? position : undefined };
-  });
+  return near ? position : undefined;
 }
 
-function photoPin(spot, color) {
+function photoPin(photo, color) {
   const content = document.createElement("span");
   content.className = "marker photo-pin material-symbols-outlined";
   content.style.setProperty("--color", color);
   content.textContent = "photo_camera";
 
   const marker = new google.maps.marker.AdvancedMarkerElement({
-    position: spot.position,
+    position: photo.position,
     content: content,
     gmpClickable: true,
   });
 
   // Not made with createMarker, whose click selects the item instead
-  marker.addEventListener("gmp-click", () => showSpotPhoto(spot));
+  marker.addEventListener("gmp-click", () => showSpotPhoto(photo));
 
   return marker;
 }
 
 // Only the pins whose number or state changed are restyled, so a step through the gallery touches two of them
 function drawPhotoSpots() {
-  const spots = selected?.spots ?? [];
+  const gallery = selected?.gallery ?? [];
 
-  spots.forEach((spot, i) => {
-    if (!spot.position) {
+  gallery.forEach((photo, i) => {
+    if (!photo.position) {
       return;
     }
 
-    spot.marker ??= photoPin(spot, selected.color);
+    photo.marker ??= photoPin(photo, selected.color);
 
-    const marker = spot.marker;
-    const count = selected.gallery.length;
+    const marker = photo.marker;
+    const count = gallery.length;
     const shown = i === galleryIndex;
     const key = `${i}|${count}|${shown}`;
 
-    if (spot.key !== key) {
-      spot.key = key;
+    if (photo.key !== key) {
+      photo.key = key;
       // A label for screen readers only: Google turns a title into a browser tooltip as well
       marker.setAttribute(
         "aria-label",
@@ -1922,15 +2011,15 @@ function drawPhotoSpots() {
 }
 
 function hidePhotoSpots(item) {
-  for (const spot of item?.spots ?? []) {
-    if (spot.marker) {
-      spot.marker.map = null;
+  for (const photo of item?.gallery ?? []) {
+    if (photo.marker) {
+      photo.marker.map = null;
     }
   }
 }
 
-function showSpotPhoto(spot) {
-  const index = selected?.spots?.indexOf(spot) ?? -1;
+function showSpotPhoto(photo) {
+  const index = selected?.gallery.indexOf(photo) ?? -1;
 
   if (index < 0) {
     return;
@@ -2407,4 +2496,13 @@ function readInt(field) {
   const value = document.getElementById(field).value;
 
   return value ? parseInt(value) : undefined;
+}
+
+// The grades of the pressed chips of one filter row. Cycling has no Difficulty chips, so its list is always empty
+function pressedGrades(filter) {
+  return [
+    ...document.querySelectorAll(
+      `[data-grade-filter="${filter}"][aria-pressed="true"]`,
+    ),
+  ].map((chip) => chip.dataset.grade);
 }

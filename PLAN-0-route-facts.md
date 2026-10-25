@@ -9,7 +9,7 @@
    - Hiking: `Difficulty [Easy] [Medium] [ ]` and `Fitness [Easy] [Medium] [Difficult]`
    - Mountain biking: `Difficulty [Easy] [Medium] [Difficult]` and `Fitness [Easy] [Medium] [Difficult]`
    - Cycling: `Fitness` only. Cycling routes have no difficulty in the data, so there is no Difficulty row.
-2. The chips look like the level chips, only smaller. Each chip sits in a 3-column grid, so the hiking Difficulty row lines up with the Fitness row below it.
+2. The chips look like the level chips, at the same size, without a count. Each chip sits in a 3-column grid, so the hiking Difficulty row lines up with the Fitness row below it.
 3. With no chip pressed, the row doesn't filter. Pressing chips keeps routes that match any pressed chip. Pressing every chip in a row is the same as pressing none. Rows combine with each other and with Length and Ascent: a route must pass all of them.
 4. The map redraws 250 ms after the last click, like today. Several quick clicks give one redraw. The row count shows "N of M" over the loaded files (for example, all hiking levels on with Difficulty Easy pressed shows **142 of 351**). When nothing is filtered out it shows the plain total.
 5. Favorites "Hikes" ignore every filter, as today. A selected route stays on the map even when filtered out, as today.
@@ -67,26 +67,28 @@ Read-only checks over all 786 route files. Layer counts: hiking 7/70/274, cyclin
 
 ## Decisions
 
+All six are decided: option (a) in each.
+
 1. **Filter control for Difficulty and Fitness**
-   - **(a) One toggle chip per grade (recommended).** One click, and the options are visible. It reuses the `.chip` look. It fits: chips get about 178 px of the 240 px filter column after the 58 px label (an estimate), which is room for three "Difficult" chips. The costs are its own click binding, a narrower `updateBadges` selector, and the address feature has to save pressed chips, not just input values.
+   - **(a) One toggle chip per grade (chosen).** One click, and the options are visible. It reuses the `.chip` look. It fits: chips get about 178 px of the 240 px filter column after the 58 px label (an estimate), which is room for three "Difficult" chips. The costs are its own click binding, a narrower `updateBadges` selector, and the address feature has to save pressed chips, not just input values.
    - **(b) Min–Max `<select>` pair in a `.range` row.** This copies the "Mountain hikes" difficulty filter that `b263e9e` removed (`difficultySelect`). It reuses `readInt`, `inRange` and the existing `input, select` listener (`public/script.js:526`) unchanged, and the address feature saves it like the number inputs. But each select is about 67 px wide, and the native arrow leaves roughly 35–40 px for text, so "Medium" likely gets cut off (an estimate, not measured). It also takes two clicks per bound and hides the options.
    - **(c) One select (Any, Easy, Medium, Difficult).** It matches one grade only and can't express "easy or medium".
 2. **Words**
-   - **(a) Easy / Medium / Difficult on both scales (recommended).** These are the data's own ids, and one list serves both rows. Hiking difficulty also shows the trail type, derived from the grade (easy is "hiking trail", medium is "mountain hiking trail"). This keeps details and filter consistent and gives English on all 351 routes.
+   - **(a) Easy / Medium / Difficult on both scales (chosen).** These are the data's own ids, and one list serves both rows. Hiking difficulty also shows the trail type, derived from the grade (easy is "hiking trail", medium is "mountain hiking trail"). This keeps details and filter consistent and gives English on all 351 routes.
    - **(b) Fitness as Low / Medium / High.** "Fitness: High" reads better, but it is a second vocabulary for the same values.
    - **(c) Show `category_grade_text` as is.** That brings in the Italian, null and contradicting values listed in Data.
 3. **Where facts go in the details**
-   - **(a) Subtitle for start, end and via; Hiking time as a stat tile; Difficulty, Fitness and Other direction in a small facts list (recommended).**
+   - **(a) Subtitle for start, end and via; Hiking time as a stat tile; Difficulty, Fitness and Other direction in a small facts list (chosen).**
    - **(b) All as stat tiles.** The grid holds 4 tiles in the 340 px body, so 5–6 tiles wrap into uneven rows, and "Medium · mountain hiking trail" doesn't fit in a tile.
    - **(c) Everything in the facts list.** One new element only, but the time is a headline number and start and end belong with the title.
 4. **Where the credit shows**
-   - **(a) A label laid over the photo at the bottom right (recommended).** Nothing moves when flipping between photos with and without a credit.
+   - **(a) A label laid over the photo at the bottom right (chosen).** Nothing moves when flipping between photos with and without a credit.
    - **(b) A caption line under the photo.** It is never cut off, but it adds about 20 px and makes the panel jump on photos without a credit, or leaves an empty line on the 76 routes with none.
 5. **Gallery data**
-   - **(a) Gallery entries become `{ src, credit }` (recommended).** `dropPhoto`'s `splice` keeps each credit with its photo, and the photo-spots feature adds `position` the same way.
+   - **(a) Gallery entries become `{ src, credit }` (chosen).** `dropPhoto`'s `splice` keeps each credit with its photo, and the photo-spots feature adds `position` the same way.
    - **(b) A separate `item.credits` array.** Fewer lines change, but two arrays must be spliced together, and photo spots would add a third.
 6. **Cantons**
-   - **(a) Leave them out (recommended).** The numbers are SchweizMobil's own and appear nowhere in the repo; the map below is worked out from the data, and start and end already place the route.
+   - **(a) Leave them out (chosen).** The numbers are SchweizMobil's own and appear nowhere in the repo; the map below is worked out from the data, and start and end already place the route.
    - **(b) Add a `CANTONS` map and a "Cantons" facts row** (for example "Valais, Bern"). The map, inferred from single-canton routes' place names (25 codes) and Basel, Aargau and Zug routes (8, 13, 21):
      2 Graubünden, 3 Zurich, 4 Uri, 5 Fribourg, 6 Thurgau, 7 Valais, 8 Basel-Stadt, 9 Basel-Landschaft, 10 Nidwalden, 11 Schwyz, 12 Bern, 13 Aargau, 14 Glarus, 15 Lucerne, 16 Solothurn, 17 Appenzell Innerrhoden, 18 Obwalden, 19 Ticino, 20 Schaffhausen, 21 Zug, 22 Geneva, 23 St. Gallen, 24 Jura, 25 Neuchâtel, 26 Appenzell Ausserrhoden, 27 Vaud, 28 Liechtenstein.
      All 27 codes occur in the data. This is an assumption: a SchweizMobil renumbering would silently mislabel cantons.
@@ -161,7 +163,7 @@ The code follows the file's existing style: double quotes, semicolons, string-bu
    }
    ```
 9. **Gallery entries and credits**
-   - `getGallery` (`:1736–1770`): same rule, first longest list wins and `foto` comes last. It now builds its lists with `galleryPhotos(properties, list)`, and `foto` becomes `[{ src: properties.foto }]`. Return `candidates.find((photos) => photos.length === maxLength)`, which gives `[]` when everything is empty.
+   - `getGallery` (`:1736–1770`): same rule, first longest list wins and `foto` comes last. It now builds its lists with `galleryPhotos(properties, list)` (the photo-spot work under Interactions adds a `bounds` parameter), and `foto` becomes `[{ src: properties.foto }]`. Return `candidates.find((photos) => photos.length === maxLength)`, which gives `[]` when everything is empty.
    - Replace `filterEmptyImages` (`:1772–1784`). Pairing happens before blanks are dropped, and only when the lengths agree:
      ```js
      // Each photo with its credit. The credit lists run alongside the photo lists, so a credit is matched by position before empty photos are dropped
@@ -233,8 +235,8 @@ The code follows the file's existing style: double quotes, semicolons, string-bu
 - **View in the address (`PLAN-3-url-state.md`)**: the new filters are buttons with `aria-pressed`, not inputs. That plan reserves the keys `<activity>.difficulty` (for the `-grade` chips) and `<activity>.fitness`, saved as SchweizMobil ids (`easy`, `medium`, `difficult`), which make stable tokens. On restore it sets `aria-pressed` before the first render and calls `scheduleRender` itself, because setting the attribute fires no event. It should ignore a cycling `difficulty` value, since there are no chips for it. It depends on the `updateBadges` fix (step 4), or restored chips would light the badge. The chip clicks go through `onFilterChange`, so the address updates with no extra hook.
 - **Saved list (`PLAN-2-saved-list.md`)** adds its Save button to the same `actions([...])` call in `routeDetails`. Its saved layers have no `filter`, like `favorites.hiking` (`:403`), so these filters skip saved routes.
 - **Photo spots are already built, with their own list, so step 9 folds that list into the gallery entries.** Today `buildRoute` sets `item.spots`, one `{ position, marker, key }` per gallery photo, made by `photoSpots`. `galleryIndexes` lines it up with the gallery by finding each photo's raw index again, and `dropPhoto` splices `selected.spots` alongside `gallery`. In step 9:
-  - `galleryPhotos` also sets `position` on each entry from `photo_gallery_coords[index]`, with the same index pairing, using the regex in `photoSpots`. The strings look like `"[(6.11894, 46.19983)]"`, longitude first, the reverse of the project's `[lat, lng]`. mountainbiking/local/302 has `[]` for its 1 photo.
-  - `getGallery` doesn't know the route's box, so `buildRoute` then clears any `position` more than `SPOT_MARGIN` outside `item.bounds`, the check `photoSpots` makes today.
+  - Only routes get photo positions. `getGallery(json, bounds)` takes the route's box and hands it to `galleryPhotos`. `buildRoute` computes the box before it builds the item and passes it; `buildPlace` passes none. So places never get photo pins, even if a data refresh adds coordinates to them (none of the 843 sightseeing files has any today).
+  - When it has a box, `galleryPhotos` sets `position` on each entry from `photo_gallery_coords[index]`, with the same index pairing, using the regex in `photoSpots`, and only when the point is within `SPOT_MARGIN` of the box, the check `photoSpots` makes today. The strings look like `"[(6.11894, 46.19983)]"`, longitude first, the reverse of the project's `[lat, lng]`. mountainbiking/local/302 has `[]` for its 1 photo.
   - Each pin lives on its entry (`photo.marker`, `photo.key`). `drawPhotoSpots`, `hidePhotoSpots`, `showSpotPhoto` and `plusSlides` use `selected.gallery` instead of `selected.spots`.
   - Delete `item.spots`, `photoSpots` and `galleryIndexes`. In `dropPhoto`, remove the extra `selected.spots` splice, but keep taking the dropped photo's pin off the map.
   - A photo pin click sets `galleryIndex` and calls `showPhoto()`, so the credit follows.
@@ -293,7 +295,7 @@ Run `scripts/serve.sh` and open http://localhost:5000. Open single routes with `
 
 ## Out of scope
 
-- Cantons (unless Decision 6 changes to b).
+- Cantons (Decision 6).
 - Mountain hut `beds`, `pricefrom` and `priceto` (on 242 of 243 hut files).
 - `length_unsurfaced` and `length_singletrail` (434 and 307 routes).
 - Analytics events for filters.

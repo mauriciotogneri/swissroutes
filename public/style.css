@@ -419,6 +419,15 @@ body.has-details #map {
   text-align: center;
 }
 
+/* Difficulty and fitness chips fill the rest of a filter row, three to a row so the rows line up */
+.range-chips {
+  display: grid;
+  grid-column: 2 / -1;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 4px;
+  color: var(--ink);
+}
+
 /* Details */
 
 .details {
@@ -540,6 +549,12 @@ body.has-details #map {
   text-wrap: balance;
 }
 
+.details-subtitle {
+  margin: 4px 0 0;
+  color: var(--ink-soft);
+  font-size: 15px;
+}
+
 .actions {
   display: flex;
   flex-wrap: wrap;
@@ -606,6 +621,24 @@ body.has-details #map {
   font-size: 13px;
   font-weight: 500;
   font-stretch: 100%;
+}
+
+.facts {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  align-items: baseline;
+  gap: 6px 16px;
+  margin: 0 0 18px;
+}
+
+.facts dt {
+  color: var(--ink-soft);
+  font-size: 12.5px;
+}
+
+.facts dd {
+  margin: 0;
+  font-weight: 560;
 }
 
 .details-lead {
