@@ -185,10 +185,10 @@ No change: no library, no new icon.
 
 ## Interactions with the other planned features
 
-- **Route facts (`PLAN-2-route-facts.md`)** edits the same `routeDetails` stats block (`:1369-1385`). Agreed order: title, start/end/via subtitle, actions, stats (Hiking time included), facts list (Difficulty, Fitness, Other direction), then the Elevation block, then the abstract and description. If that feature has landed, step 6 goes after the facts list instead of right after the stats. The route-facts filters (`activityRow`, `readFilters`, `matchesFilter`) don't touch this feature. Ascent stays the official `height_difference` for both the stat and the filters.
+- **Route facts (`PLAN-0-route-facts.md`)** edits the same `routeDetails` stats block (`:1369-1385`). Agreed order: title, start/end/via subtitle, actions, stats (Hiking time included), facts list (Difficulty, Fitness, Other direction), then the Elevation block, then the abstract and description. If that feature has landed, step 6 goes after the facts list instead of right after the stats. The route-facts filters (`activityRow`, `readFilters`, `matchesFilter`) don't touch this feature. Ascent stays the official `height_difference` for both the stat and the filters.
 - **Photo spots (`PLAN-0-photo-spots.md`)** also adds map markers tied to the selected route, so both must be cleared in `selectItem` and `closeDetails`. The profile dot (z-index 200000) sits above the photo pins (100000–100001). `photo_gallery_coords` is already in the saved files (lng/lat strings, e.g. `"[(7.20358, 46.35563…)]"`), and that plan reads them as they are, so it needs no re-download. If it ever edits `helpers.downloadFile` too, coordinate with step 1 and do a single route download.
 - **View in the address (`PLAN-3-url-state.md`)**: the profile never moves the map and isn't stored in the address. A selected item restored from the address goes through `selectItem`, so its chart appears on its own.
-- **Saved list (`PLAN-1-saved-list.md`)**: selecting a saved route goes through `selectItem`, so the chart appears. Its Save action edits the same `actions([...])` call (`:1360-1367`), a separate line. No other overlap.
+- **Saved list (`PLAN-2-saved-list.md`)**: selecting a saved route goes through `selectItem`, so the chart appears. Its Save action edits the same `actions([...])` call (`:1360-1367`), a separate line. No other overlap.
 
 ## Edge cases and risks
 

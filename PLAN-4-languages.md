@@ -420,7 +420,7 @@ New strings from the other plans: 29 in all (listed in Appendix O). Each one is 
   - A language switch changes no view state and must not call `scheduleAddress()`.
   - Its Copy link (item only, D6) carries no `lang`, which matches D2.
   - Its AGENTS.md note should mention that `lang` is read but not written.
-- **`PLAN-2-route-facts.md`** (17 strings).
+- **`PLAN-0-route-facts.md`** (17 strings).
   - `GRADES` becomes the keys `grade.easy`, `grade.medium` and `grade.difficult`.
   - The hiking `trails` become `trail.easy` ("hiking trail") and `trail.medium` ("mountain hiking trail"). The "{grade} · {trail}" join stays in code.
   - `filter.grade` ("Difficulty") and `filter.fitness` ("Fitness") are used for both the filter rows and the facts.
@@ -429,12 +429,12 @@ New strings from the other plans: 29 in all (listed in Appendix O). Each one is 
   - `h` and `min` are not translated.
   - `rebuildPanel()` must also record and re-press `[data-grade-filter][aria-pressed="true"]` chips, by `data-grade-filter` and `data-grade`.
   - Its 58 px "Difficulty" label column is the most likely trigger for the D16 `.filters` fix.
-- **`PLAN-4-elevation-profile.md`** (2 strings).
+- **`PLAN-1-elevation-profile.md`** (2 strings).
   - `profile.title` "Elevation". This is a separate key from the OpenStreetMap `stat.elevation`, because a chart heading and a point's height may differ in German.
   - `profile.label` "Elevation profile, {low} to {high} m over {length} km" for the aria-label.
   - Every `toLocaleString()` in it (range, readout, axis labels, the 1-decimal length) becomes `formatNumber`.
   - `refreshDetails()` must call `hideProfilePoint()` before replacing the details, as its `selectItem` step does.
-- **`PLAN-1-saved-list.md`** (8 strings).
+- **`PLAN-2-saved-list.md`** (8 strings).
   - `section.saved`, `saved.routes`, `saved.places`, `saved.empty` (the hint), `action.save`, `action.saved`, `status.saved` and `status.unsaved`. Kept separate because "Saved" is a section, a button state and an announcement.
   - `SECTION_ICONS` gets `saved: "star"`, with `group("saved", …)`.
   - `toggleSaved` sets the label with `t()`.

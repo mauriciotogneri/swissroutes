@@ -189,8 +189,8 @@ No changes in `bin/` or `ids/`.
 
 ## Interactions with the other planned features
 
-- **Route facts and filters (`PLAN-2-route-facts.md`):** saved layers have no `filter`, so the new difficulty and fitness filters skip saved routes too (as with Favorites), and `toggleLayer`'s filter-box logic (`:620-624`) leaves them closed. Both plans edit `routeDetails`; this one only touches the `actions([...])` list (`:1360`).
-- **Elevation profile (`PLAN-4-elevation-profile.md`):** no shared state. This plan leaves `uploadDetails` and `gpxData` alone. If the profile ever re-renders the details, `saveAction` reads the current state.
+- **Route facts and filters (`PLAN-0-route-facts.md`):** saved layers have no `filter`, so the new difficulty and fitness filters skip saved routes too (as with Favorites), and `toggleLayer`'s filter-box logic (`:620-624`) leaves them closed. Both plans edit `routeDetails`; this one only touches the `actions([...])` list (`:1360`).
+- **Elevation profile (`PLAN-1-elevation-profile.md`):** no shared state. This plan leaves `uploadDetails` and `gpxData` alone. If the profile ever re-renders the details, `saveAction` reads the current state.
 - **View in the address (`PLAN-3-url-state.md`):**
   - `saved.routes` / `saved.places` are ordinary keys in `LAYERS` and `activeLayers`. That plan should decide whether to put them in the address. Recommended: leave them out, because a shared link would show the recipient's own (different) list.
   - If they are included, the restore must run after `buildPanel` (which calls `updateSavedLayers`), or the saved layers' `urls` are still empty when toggled.
