@@ -1246,6 +1246,13 @@ function hideTooltip() {
 
 function moveTooltip(event) {
   const tooltip = document.getElementById("tooltip");
+
+  // A route goes on reporting the pointer after it moves onto one of the route's photo pins, which show no tooltip
+  if (event.domEvent.target.closest(".photo-pin")) {
+    tooltip.hidden = true;
+    return;
+  }
+
   tooltip.style.left = `${event.domEvent.clientX + 14}px`;
   tooltip.style.top = `${event.domEvent.clientY + 14}px`;
 }
@@ -1895,7 +1902,11 @@ function drawPhotoSpots() {
 
     if (spot.key !== key) {
       spot.key = key;
-      marker.title = `Photo ${i + 1} of ${count}${shown ? ", on show" : ""}`;
+      // A label for screen readers only: Google turns a title into a browser tooltip as well
+      marker.setAttribute(
+        "aria-label",
+        `Photo ${i + 1} of ${count}${shown ? ", on show" : ""}`,
+      );
       // Where pins overlap, the earlier photo wins, and the pin of the photo on show is always drawn
       marker.zIndex = shown ? PHOTO_ZINDEX + 1 : PHOTO_ZINDEX - i;
       marker.collisionBehavior = shown
