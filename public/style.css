@@ -508,9 +508,10 @@ body.has-details #map {
   font-variant-numeric: tabular-nums;
 }
 
+/* --scrollbar is the width of the panel's scrollbar, set by script.js when the panel opens */
 .details-close {
   top: 10px;
-  right: 10px;
+  right: calc(10px + var(--scrollbar, 0px));
   z-index: 1;
 }
 

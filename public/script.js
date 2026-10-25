@@ -1325,6 +1325,14 @@ function selectItem(item, source = "map") {
 
   const details = document.getElementById("details");
   details.innerHTML = detailsContent(item);
+
+  // The close button is placed against the panel, so it is moved clear of the scrollbar, in line with the photo arrows
+  const scroll = details.querySelector(".details-scroll");
+  details.style.setProperty(
+    "--scrollbar",
+    `${scroll.offsetWidth - scroll.clientWidth}px`,
+  );
+
   details.classList.add("open");
   details.inert = false;
   document.body.classList.add("has-details");
