@@ -50,6 +50,12 @@ const ACTIVITIES = [
   },
 ];
 
+// The color of an uploaded GPX track, apart from the three route colors
+const UPLOAD_COLOR = "#7a2e8e";
+
+// Climbs and drops smaller than this are GPS noise, so ascent and descent ignore them
+const ELEVATION_NOISE = 5;
+
 const GROUP_COLORS = {
   stay: "#22303c",
   explore: "#22303c",
@@ -64,6 +70,7 @@ const SECTION_ICONS = {
   "Rest stops": "table_restaurant",
   Nature: "park",
   Favorites: "favorite",
+  "Your track": "upload",
 };
 
 const PLACES = [
@@ -317,6 +324,7 @@ let pointIndex = undefined;
 let pointIndexVersion = 0;
 let pointItems = [];
 let selected = undefined;
+let uploaded = undefined;
 let sharedItem = undefined;
 let galleryIndex = 0;
 let focusReturn = undefined;
@@ -506,6 +514,8 @@ function buildPanel() {
     content += group("Favorites", favorites);
   }
 
+  content += group("Your track", uploadRows(), false);
+
   const layers = document.getElementById("layers");
   layers.innerHTML = content;
 
@@ -525,7 +535,7 @@ function byCount(items) {
   return [...items].sort((a, b) => rowTotal(b.id) - rowTotal(a.id));
 }
 
-// Routes stay open. Every other group starts collapsed
+// Your track and Routes stay open. Every other group starts collapsed
 function group(name, rows, collapsible = true) {
   const icon = SECTION_ICONS[name]
     ? `<span class="material-symbols-outlined" aria-hidden="true">${SECTION_ICONS[name]}</span>`
@@ -1246,7 +1256,8 @@ function selectItem(item, source = "map") {
 
   track("select_content", {
     content_type: contentType(item),
-    content_id: item.label,
+    // The name of an uploaded file is the user's own, so it is not sent
+    content_id: item.kind === "upload" ? "upload" : item.label,
     source: source,
   });
 
@@ -1328,6 +1339,8 @@ function detailsContent(item) {
     content += placeDetails(item);
   } else if (item.kind === "osm") {
     content += osmDetails(item);
+  } else if (item.kind === "upload") {
+    content += uploadDetails(item);
   } else {
     content += chargingStationDetails(item);
   }
@@ -1755,6 +1768,24 @@ function bindControls() {
     });
   }
 
+  const input = document.getElementById("gpxInput");
+
+  document
+    .getElementById("uploadButton")
+    .addEventListener("click", () => input.click());
+  document
+    .getElementById("uploadRemove")
+    .addEventListener("click", removeUpload);
+  input.addEventListener("change", () => {
+    const file = input.files[0];
+    // Cleared so that choosing the same file again still fires a change
+    input.value = "";
+
+    if (file) {
+      loadUpload(file);
+    }
+  });
+
   document.getElementById("details").addEventListener("click", (event) => {
     const button = event.target.closest("[data-action]");
     const action = button?.dataset.action;
@@ -1765,6 +1796,8 @@ function bindControls() {
       copyLink(button);
     } else if (action === "download") {
       download();
+    } else if (action === "remove-upload") {
+      removeUpload();
     } else if (action === "previous") {
       plusSlides(-1);
     } else if (action === "next") {
@@ -1788,6 +1821,266 @@ function mapPadding() {
     left: 24,
     right: 24,
   };
+}
+
+// Uploaded GPX
+
+function uploadRows() {
+  let content = '<div class="upload">';
+  content +=
+    '<button type="button" class="action" id="uploadButton"><span class="material-symbols-outlined">upload</span>Upload GPX</button>';
+  content +=
+    '<button type="button" class="action" id="uploadRemove" hidden><span class="material-symbols-outlined">delete</span>Remove</button>';
+  content += "</div>";
+  content +=
+    '<p class="upload-error" id="uploadError" role="alert" hidden></p>';
+
+  return content;
+}
+
+async function loadUpload(file) {
+  const parsed = parseGpx(await file.text().catch(() => ""), file.name);
+
+  if (typeof parsed === "string") {
+    showUploadError(parsed);
+    return;
+  }
+
+  showUploadError(undefined);
+  removeUpload();
+
+  uploaded = buildUpload(parsed);
+  document.getElementById("uploadRemove").hidden = false;
+  track("gpx_upload");
+
+  selectItem(uploaded, "upload");
+  map.fitBounds(uploaded.bounds, mapPadding());
+}
+
+function showUploadError(message) {
+  const error = document.getElementById("uploadError");
+  error.textContent = message ?? "";
+  error.hidden = !message;
+}
+
+// Returns the track, or the message to show when the file has none
+function parseGpx(text, filename) {
+  const xml = new DOMParser().parseFromString(text, "application/xml");
+
+  if (
+    xml.querySelector("parsererror") ||
+    xml.documentElement.localName !== "gpx"
+  ) {
+    return "This is not a GPX file. Choose a .gpx file from a GPS app or route planner.";
+  }
+
+  const track = xml.getElementsByTagName("trk")[0];
+  const route = xml.getElementsByTagName("rte")[0];
+  const segments = track
+    ? [...track.getElementsByTagName("trkseg")].map((segment) => [
+        ...segment.getElementsByTagName("trkpt"),
+      ])
+    : route
+      ? [[...route.getElementsByTagName("rtept")]]
+      : [];
+
+  const paths = [];
+  const elevations = [];
+
+  for (const segment of segments) {
+    const path = [];
+    const heights = [];
+
+    for (const element of segment) {
+      const lat = parseFloat(element.getAttribute("lat"));
+      const lng = parseFloat(element.getAttribute("lon"));
+      const height = parseFloat(
+        element.getElementsByTagName("ele")[0]?.textContent,
+      );
+
+      if (Number.isFinite(lat) && Number.isFinite(lng)) {
+        path.push(point(lat, lng));
+        heights.push(height);
+      }
+    }
+
+    if (path.length >= 2) {
+      paths.push(path);
+      elevations.push(heights);
+    }
+  }
+
+  if (paths.length === 0) {
+    return "This GPX file has no track or route with at least two points.";
+  }
+
+  const owner = track ?? route;
+  const name = [...owner.children]
+    .find((child) => child.localName === "name")
+    ?.textContent.trim();
+
+  return {
+    name: name || filename.replace(/\.gpx$/i, ""),
+    paths: paths,
+    elevations: elevations,
+  };
+}
+
+function buildUpload(parsed) {
+  const { ascent, descent } = climbs(parsed.elevations);
+
+  const item = {
+    kind: "upload",
+    type: "upload",
+    label: parsed.name,
+    color: UPLOAD_COLOR,
+    length: parsed.paths.reduce((sum, path) => sum + pathLength(path), 0),
+    ascent: ascent,
+    descent: descent,
+    paths: parsed.paths,
+    bounds: getBounds(parsed.paths.flat()),
+    gallery: [],
+    casings: [],
+    markers: [],
+  };
+
+  item.lines = item.paths.map((path) => {
+    const line = createLine(item, path);
+    line.setOptions(lineStyle(item, 4, 0.95, 900));
+    line.setMap(map);
+
+    return line;
+  });
+
+  // The white outline keeps the track readable on top of the routes
+  for (const path of item.paths) {
+    item.casings.push(
+      new google.maps.Polyline({
+        path: path,
+        strokeColor: "#ffffff",
+        strokeOpacity: 0.95,
+        strokeWeight: 8,
+        zIndex: 899,
+        clickable: false,
+        map: map,
+      }),
+    );
+  }
+
+  const lastPath = item.paths[item.paths.length - 1];
+  const ends = [
+    ["start", item.paths[0][0]],
+    ["end", lastPath[lastPath.length - 1]],
+  ];
+
+  for (const [name, position] of ends) {
+    const content = document.createElement("div");
+    content.className = `track-end track-end-${name}`;
+
+    const marker = createMarker(position, content, item);
+    marker.title = `${name === "start" ? "Start" : "End"} of ${item.label}`;
+    marker.zIndex = 900;
+    marker.map = map;
+    item.markers.push(marker);
+  }
+
+  return item;
+}
+
+function removeUpload() {
+  if (!uploaded) {
+    return;
+  }
+
+  for (const line of [...uploaded.lines, ...uploaded.casings]) {
+    line.setMap(null);
+  }
+
+  for (const marker of uploaded.markers) {
+    marker.map = null;
+  }
+
+  if (selected === uploaded) {
+    closeDetails();
+  }
+
+  uploaded = undefined;
+  document.getElementById("uploadRemove").hidden = true;
+}
+
+// Kilometers
+function pathLength(path) {
+  const radians = Math.PI / 180;
+  let length = 0;
+
+  for (let i = 1; i < path.length; i++) {
+    const a = path[i - 1];
+    const b = path[i];
+    const dLat = (b.lat - a.lat) * radians;
+    const dLng = (b.lng - a.lng) * radians;
+    const h =
+      Math.sin(dLat / 2) ** 2 +
+      Math.cos(a.lat * radians) *
+        Math.cos(b.lat * radians) *
+        Math.sin(dLng / 2) ** 2;
+
+    length += 2 * 6371 * Math.asin(Math.sqrt(h));
+  }
+
+  return length;
+}
+
+// Ascent and descent in meters, or undefined when the file has no elevation
+function climbs(elevations) {
+  let ascent = 0;
+  let descent = 0;
+  let known = 0;
+
+  for (const heights of elevations) {
+    const valid = heights.filter(Number.isFinite);
+    known += valid.length;
+
+    // The reference moves only once the height has changed by more than the noise
+    let reference = valid[0];
+
+    for (const height of valid) {
+      if (height - reference >= ELEVATION_NOISE) {
+        ascent += height - reference;
+        reference = height;
+      } else if (reference - height >= ELEVATION_NOISE) {
+        descent += reference - height;
+        reference = height;
+      }
+    }
+  }
+
+  return known >= 2
+    ? { ascent: Math.round(ascent), descent: Math.round(descent) }
+    : { ascent: undefined, descent: undefined };
+}
+
+function uploadDetails(item) {
+  let content = `<div class="details-kind"><span class="swatch swatch-line" style="--color:${item.color}"></span>Your GPX track</div>`;
+  content += `<h2 class="details-title">${escapeHtml(item.label)}</h2>`;
+  content += actions([
+    '<button type="button" class="action" data-action="remove-upload"><span class="material-symbols-outlined">delete</span>Remove</button>',
+  ]);
+
+  let stats = stat(
+    "Distance",
+    item.length.toLocaleString(undefined, {
+      minimumFractionDigits: 1,
+      maximumFractionDigits: 1,
+    }),
+    "km",
+  );
+
+  if (item.ascent !== undefined) {
+    stats += stat("Ascent", item.ascent.toLocaleString(), "m");
+    stats += stat("Descent", item.descent.toLocaleString(), "m");
+  }
+
+  return content + `<dl class="stats">${stats}</dl>`;
 }
 
 // Analytics
