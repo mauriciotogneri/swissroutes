@@ -64,6 +64,9 @@ const UPLOAD_COLOR = "#7a2e8e";
 // Climbs and drops smaller than this are GPS noise, so ascent and descent ignore them
 const ELEVATION_NOISE = 5;
 
+// The elevation chart is drawn one column per pixel of the panel's text width (384 − 1 border − 2 × 22)
+const PROFILE = { width: 339, height: 128, top: 8, bottom: 110 };
+
 const GROUP_COLORS = {
   stay: "#22303c",
   explore: "#22303c",
@@ -339,6 +342,7 @@ let pointIndexVersion = 0;
 let pointItems = [];
 let selected = undefined;
 let uploaded = undefined;
+let profileMarker = undefined;
 let sharedItem = undefined;
 let galleryIndex = 0;
 let focusReturn = undefined;
@@ -1313,6 +1317,7 @@ function selectItem(item, source = "map") {
   }
 
   hidePhotoSpots(selected);
+  hideProfilePoint();
   selected = item;
   galleryIndex = 0;
 
@@ -1348,6 +1353,7 @@ function closeDetails() {
   }
 
   hidePhotoSpots(selected);
+  hideProfilePoint();
   selected = undefined;
 
   const details = document.getElementById("details");
@@ -1489,6 +1495,10 @@ function routeDetails(item) {
   if (facts) {
     content += `<dl class="facts">${facts}</dl>`;
   }
+
+  // Worked out on selection, not in buildRoute, which runs for thousands of routes
+  item.profile ??= routeProfile(item);
+  content += profileSection(item);
 
   if (properties.abstract) {
     content += `<p class="details-lead">${properties.abstract}</p>`;
@@ -2040,6 +2050,223 @@ function showSpotPhoto(photo) {
   setStatus(`Photo ${index + 1} of ${selected.gallery.length}`);
 }
 
+// Elevation profile
+
+// Only the first line: it is the whole route from start to end, and the other lines are short variants along it
+function routeProfile(item) {
+  return buildProfile(
+    [item.paths[0]],
+    [item.json.geometry.coordinates[0].map((coordinate) => coordinate[2])],
+  );
+}
+
+// The chart of some paths and their heights, or undefined when fewer than two points have a height.
+// Distance adds up inside each path only, so the gaps between the segments of a GPX file don't count
+function buildProfile(paths, elevations) {
+  const known = [];
+  let length = 0;
+
+  for (let i = 0; i < paths.length; i++) {
+    const path = paths[i];
+
+    for (let j = 0; j < path.length; j++) {
+      if (j > 0) {
+        length += kilometersBetween(path[j - 1], path[j]);
+      }
+
+      const height = elevations[i][j];
+
+      if (Number.isFinite(height)) {
+        known.push({ distance: length, height: height, position: path[j] });
+      }
+    }
+  }
+
+  if (known.length < 2 || length === 0) {
+    return undefined;
+  }
+
+  // The lowest and highest point of each column of the chart, so both peaks and valleys are kept
+  const columns = [];
+
+  for (const entry of known) {
+    const column = Math.min(
+      PROFILE.width - 1,
+      Math.floor((entry.distance / length) * PROFILE.width),
+    );
+    const extremes = columns[column];
+
+    if (!extremes) {
+      columns[column] = { low: entry, high: entry };
+    } else if (entry.height < extremes.low.height) {
+      extremes.low = entry;
+    } else if (entry.height > extremes.high.height) {
+      extremes.high = entry;
+    }
+  }
+
+  const points = [];
+
+  for (const { low, high } of columns.filter(Boolean)) {
+    const [first, second] =
+      low.distance <= high.distance ? [low, high] : [high, low];
+    points.push(first);
+
+    if (second !== first) {
+      points.push(second);
+    }
+  }
+
+  const heights = points.map((entry) => entry.height);
+  const min = Math.min(...heights);
+  const max = Math.max(...heights);
+  const low = Math.floor(min / 100) * 100;
+  const high = Math.ceil(max / 100) * 100;
+
+  return {
+    length: length,
+    min: min,
+    max: max,
+    low: low,
+    // At least 100 m, so a flat lakeside route draws as a flat line instead of magnified noise
+    high: high > low ? high : low + 100,
+    points: points,
+  };
+}
+
+function profileX(profile, distance) {
+  return (distance / profile.length) * PROFILE.width;
+}
+
+function profileY(profile, height) {
+  return (
+    PROFILE.bottom -
+    ((height - profile.low) / (profile.high - profile.low)) *
+      (PROFILE.bottom - PROFILE.top)
+  );
+}
+
+function profileKilometers(value) {
+  return value.toLocaleString(undefined, {
+    minimumFractionDigits: 1,
+    maximumFractionDigits: 1,
+  });
+}
+
+function profileSection(item) {
+  const profile = item.profile;
+
+  if (!profile) {
+    return "";
+  }
+
+  const min = Math.round(profile.min).toLocaleString();
+  const max = Math.round(profile.max).toLocaleString();
+  const length = profileKilometers(profile.length);
+  const points = profile.points;
+  const line = points
+    .map(
+      (entry, i) =>
+        `${i === 0 ? "M" : "L"}${profileX(profile, entry.distance).toFixed(1)},${profileY(profile, entry.height).toFixed(1)}`,
+    )
+    .join("");
+  const start = profileX(profile, points[0].distance).toFixed(1);
+  const end = profileX(profile, points[points.length - 1].distance).toFixed(1);
+  const area = `${line}L${end},${PROFILE.bottom}L${start},${PROFILE.bottom}Z`;
+
+  let content = `<div class="profile" style="--color:${item.color}">`;
+  content += `<div class="profile-head"><span>Elevation</span><span class="profile-readout" id="profileReadout" data-default="${min}–${max} m">${min}–${max} m</span></div>`;
+  content += `<svg class="profile-chart" viewBox="0 0 ${PROFILE.width} ${PROFILE.height}" role="img" aria-label="Elevation profile, ${min} to ${max} m over ${length} km">`;
+  content += `<line class="profile-grid" x1="0" y1="${PROFILE.top}" x2="${PROFILE.width}" y2="${PROFILE.top}"/>`;
+  content += `<line class="profile-grid" x1="0" y1="${PROFILE.bottom}" x2="${PROFILE.width}" y2="${PROFILE.bottom}"/>`;
+  content += `<path class="profile-area" d="${area}"/>`;
+  content += `<path class="profile-line" d="${line}"/>`;
+  // Inside the chart, so neither height is cut off at its edge
+  content += `<text class="profile-label" x="0" y="${PROFILE.top + 12}">${profile.high.toLocaleString()} m</text>`;
+  content += `<text class="profile-label" x="0" y="${PROFILE.bottom - 4}">${profile.low.toLocaleString()} m</text>`;
+  content += `<text class="profile-label" x="0" y="${PROFILE.height - 2}">0</text>`;
+  content += `<text class="profile-label" x="${PROFILE.width}" y="${PROFILE.height - 2}" text-anchor="end">${length} km</text>`;
+  content += `<line class="profile-cursor" id="profileCursor" y1="${PROFILE.top}" y2="${PROFILE.bottom}" visibility="hidden"/>`;
+  content +=
+    '<circle class="profile-dot" id="profileDot" r="4" visibility="hidden"/>';
+
+  return content + "</svg></div>";
+}
+
+function showProfilePoint(chart, event) {
+  const profile = selected?.profile;
+
+  if (!profile) {
+    return;
+  }
+
+  const box = chart.getBoundingClientRect();
+  const fraction = Math.min(
+    1,
+    Math.max(0, (event.clientX - box.left) / box.width),
+  );
+  const distance = fraction * profile.length;
+  let nearest = profile.points[0];
+
+  for (const entry of profile.points) {
+    if (
+      Math.abs(entry.distance - distance) <
+      Math.abs(nearest.distance - distance)
+    ) {
+      nearest = entry;
+    }
+  }
+
+  const x = profileX(profile, nearest.distance);
+  const cursor = document.getElementById("profileCursor");
+  cursor.setAttribute("x1", x);
+  cursor.setAttribute("x2", x);
+  cursor.setAttribute("visibility", "visible");
+
+  const dot = document.getElementById("profileDot");
+  dot.setAttribute("cx", x);
+  dot.setAttribute("cy", profileY(profile, nearest.height));
+  dot.setAttribute("visibility", "visible");
+
+  document.getElementById("profileReadout").textContent =
+    `${profileKilometers(nearest.distance)} km · ${Math.round(nearest.height).toLocaleString()} m`;
+
+  // Above the selected pin (2000), the bubbles (1000 plus their count) and the photo pins
+  if (!profileMarker) {
+    const content = document.createElement("div");
+    content.className = "profile-marker";
+
+    profileMarker = new google.maps.marker.AdvancedMarkerElement({
+      content: content,
+      zIndex: PHOTO_ZINDEX * 2,
+    });
+  }
+
+  profileMarker.content.style.setProperty("--color", selected.color);
+  profileMarker.position = nearest.position;
+
+  if (profileMarker.map !== map) {
+    profileMarker.map = map;
+  }
+}
+
+// Runs on every pointer move over the panel outside the chart, so it does nothing once the point is hidden
+function hideProfilePoint() {
+  if (profileMarker?.map) {
+    profileMarker.map = null;
+  }
+
+  const cursor = document.getElementById("profileCursor");
+
+  if (cursor?.getAttribute("visibility") === "visible") {
+    cursor.setAttribute("visibility", "hidden");
+    document.getElementById("profileDot").setAttribute("visibility", "hidden");
+
+    const readout = document.getElementById("profileReadout");
+    readout.textContent = readout.dataset.default;
+  }
+}
+
 // Controls
 
 function bindControls() {
@@ -2117,6 +2344,37 @@ function bindControls() {
       plusSlides(1);
     }
   });
+
+  // The elevation chart is rebuilt with the panel, so its pointer events are caught on the panel.
+  // A touch press that doesn't move fires no pointermove, so pointerdown shows the point too
+  for (const type of ["pointerdown", "pointermove"]) {
+    document.getElementById("details").addEventListener(type, (event) => {
+      const chart = event.target.closest(".profile-chart");
+
+      if (chart) {
+        showProfilePoint(chart, event);
+      } else {
+        hideProfilePoint();
+      }
+    });
+  }
+
+  // A lifted finger is gone, while a mouse stays where it is
+  document.getElementById("details").addEventListener("pointerup", (event) => {
+    if (event.pointerType === "touch") {
+      hideProfilePoint();
+    }
+  });
+
+  // pointerleave doesn't bubble, so it fires only when the pointer leaves the whole panel. Leaving the chart inside the panel is caught by pointermove
+  for (const type of ["pointerleave", "pointercancel"]) {
+    document.getElementById("details").addEventListener(type, hideProfilePoint);
+  }
+
+  // A wheel scroll moves the chart away from a mouse that stays still, which fires no pointermove. Scroll doesn't bubble, so it is caught on the way down
+  document
+    .getElementById("details")
+    .addEventListener("scroll", hideProfilePoint, true);
 
   document.addEventListener("keydown", (event) => {
     if (event.key === "Escape") {
@@ -2250,6 +2508,7 @@ function buildUpload(parsed) {
     length: parsed.paths.reduce((sum, path) => sum + pathLength(path), 0),
     ascent: ascent,
     descent: descent,
+    profile: buildProfile(parsed.paths, parsed.elevations),
     paths: parsed.paths,
     bounds: getBounds(parsed.paths.flat()),
     gallery: [],
@@ -2323,24 +2582,26 @@ function removeUpload() {
 
 // Kilometers
 function pathLength(path) {
-  const radians = Math.PI / 180;
   let length = 0;
 
   for (let i = 1; i < path.length; i++) {
-    const a = path[i - 1];
-    const b = path[i];
-    const dLat = (b.lat - a.lat) * radians;
-    const dLng = (b.lng - a.lng) * radians;
-    const h =
-      Math.sin(dLat / 2) ** 2 +
-      Math.cos(a.lat * radians) *
-        Math.cos(b.lat * radians) *
-        Math.sin(dLng / 2) ** 2;
-
-    length += 2 * 6371 * Math.asin(Math.sqrt(h));
+    length += kilometersBetween(path[i - 1], path[i]);
   }
 
   return length;
+}
+
+function kilometersBetween(a, b) {
+  const radians = Math.PI / 180;
+  const dLat = (b.lat - a.lat) * radians;
+  const dLng = (b.lng - a.lng) * radians;
+  const h =
+    Math.sin(dLat / 2) ** 2 +
+    Math.cos(a.lat * radians) *
+      Math.cos(b.lat * radians) *
+      Math.sin(dLng / 2) ** 2;
+
+  return 2 * 6371 * Math.asin(Math.sqrt(h));
 }
 
 // Ascent and descent in meters, or undefined when the file has no elevation
@@ -2393,7 +2654,7 @@ function uploadDetails(item) {
     stats += stat("Descent", item.descent.toLocaleString(), "m");
   }
 
-  return content + `<dl class="stats">${stats}</dl>`;
+  return content + `<dl class="stats">${stats}</dl>` + profileSection(item);
 }
 
 // Analytics
@@ -2487,8 +2748,9 @@ function gpxData(json) {
     for (const point of stage) {
       const lat = point[0];
       const lon = point[1];
+      const ele = Number.isFinite(point[2]) ? `<ele>${point[2]}</ele>` : "";
 
-      xml += `\t\t\t<trkpt lat='${lat}' lon='${lon}'></trkpt>\n`;
+      xml += `\t\t\t<trkpt lat='${lat}' lon='${lon}'>${ele}</trkpt>\n`;
     }
 
     xml += "\t\t</trkseg>\n";

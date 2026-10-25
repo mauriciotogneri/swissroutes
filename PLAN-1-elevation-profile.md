@@ -4,13 +4,13 @@
 
 ## What the user sees
 
-1. **Selecting a route** (map line, number plate, shared link, Favorites → Hikes). The panel stays the same down to the stats (Distance, Ascent, Descent, Asphalt), which keep their current values. Below the stats is a new **Elevation** block:
+1. **Selecting a route** (map line, number plate, shared link, Favorites → Hikes). The panel stays the same down to the stats (Distance, Ascent, Descent, Hiking time, Asphalt), which keep their current values, and the Difficulty / Fitness / Other direction list under them. Below that list, and above the abstract, is a new **Elevation** block:
    - A header row: "Elevation" on the left (same look as the stat labels) and the height range on the right, e.g. `1,543–2,030 m`.
    - A chart the full text width of the panel: a filled area in the route colour, outlined in the same colour.
-   - Two dashed rule lines labelled with rounded heights (`1,500 m` at the bottom, `2,100 m` at the top).
+   - Two dashed rule lines labelled with rounded heights (`1,500 m` at the bottom, `2,100 m` at the top). The labels sit at the left inside the chart, the top one just under the top line and the bottom one just above the bottom line, so neither is cut off at the edge.
    - `0` under the left end and the line length under the right end (`9.2 km`).
 2. **Hovering the chart**. A thin vertical cursor and a dot follow the pointer along the curve. The header changes to `4.3 km · 1,872 m`. A dot in the route colour with a white ring (styled like the uploaded track's start/end dots) appears on the map at that point and follows the pointer. Leaving the chart puts the range text back and removes the map dot. The map never pans.
-3. **Touch** (the site only runs at 1024 px and wider, so touch laptops and tablets). Pressing and dragging sideways scrubs the chart. Dragging up or down still scrolls the panel. Lifting the finger removes the dot.
+3. **Touch** (the site only runs at 1024 px and wider, so touch laptops and tablets). Pressing the chart shows the dot at that spot right away, without moving. Dragging sideways then scrubs the chart. Dragging up or down still scrolls the panel. Lifting the finger removes the dot.
 4. **Routes with several lines**. There is one chart for the main line, from start to end across all stages. The extra short lines are variants or other-direction pieces (see Data). They stay on the map and in the GPX file but are not in the chart.
 5. **Gondola, train or boat sections** show as a straight, often steep, segment. The chart is measured along the line, so its length can be longer than the Distance stat (Vorab Trail: 27.2 km against 21 km).
 6. **Uploaded GPX**. The same block appears below the track's stats when the file has at least 2 `<ele>` values. Segments are joined in file order, and the gaps between them are not counted, so the chart's length equals the track's Distance stat. Points without `<ele>` are skipped and the line joins the neighbouring points that have one. With no heights there is no block, just as Ascent and Descent are missing today.
@@ -69,7 +69,7 @@
 
 | # | Choice | Options | Pick |
 | :-- | :-- | :-- | :-- |
-| 1 | Where heights live | **(a) Third value per coordinate.** Index matches the map path, follows the GeoJSON altitude slot, no reader breaks: `buildRoute` reads `[0]` and `[1]` at `script.js:810`. (b) A separate `geometry.heights` array: same size, and the two arrays must be kept in step. (c) Separate `<id>.profile.json` files fetched on selection: layer loads stay the same size, but `cleanup.js:35` would delete them (they are not `<id>.json`), `route-checker.js:103-106` would read them as routes, and it adds one fetch per selection. | (a) recommended |
+| 1 | Where heights live | **(a) Third value per coordinate.** Index matches the map path, follows the GeoJSON altitude slot, no reader breaks: `buildRoute` reads `[0]` and `[1]` at `script.js:861`. (b) A separate `geometry.heights` array: same size, and the two arrays must be kept in step. (c) Separate `<id>.profile.json` files fetched on selection: layer loads stay the same size, but `cleanup.js:35` would delete them (they are not `<id>.json`), `route-checker.js:103-106` would read them as routes, and it adds one fetch per selection. | (a) recommended |
 | 2 | Precision | **(a) Whole metres:** +4.3 MB gzipped. (b) Decimetres as sent: +7.8 MB gzipped, no visible gain. | (a) recommended |
 | 3 | How existing files get heights | **(a) Rerun `route-downloader.js` through the update-data skill:** one code path, fresh data, no new script. (b) A one-off backfill from the GeoPackages in `logs/`: fast and offline, but a second code path for data AGENTS.md says is never saved, 26 routes end up partial, and the script is thrown away afterwards. | (a) recommended |
 | 4 | Which lines the route chart covers | **(a) Line 0 only:** the whole route in order (evidence above). (b) All lines joined: adds unrelated pieces at the end. (c) One chart per line: 15 charts for the Rhone Route. | (a) recommended |
@@ -102,61 +102,63 @@
 
 ### `public/script.js` (double quotes, semicolons, HTML as template strings)
 
-2. **Constants**, after `ELEVATION_NOISE` (`:56-57`):
+2. **Constants**, after `ELEVATION_NOISE` (`:64-65`):
 
    ```js
-   // The elevation chart is drawn one column per pixel of the panel's text width (384 − 2 × 22)
-   const PROFILE = { width: 340, height: 128, top: 8, bottom: 110 };
+   // The elevation chart is drawn one column per pixel of the panel's text width (384 − 1 border − 2 × 22)
+   const PROFILE = { width: 339, height: 128, top: 8, bottom: 110 };
    ```
 
-3. **State**, after `let uploaded` (`:327`): `let profileMarker = undefined;`
-4. **`pathLength` (`:2068-2087`)**. Move the haversine into `kilometersBetween(a, b)` and have `pathLength` add those up. `buildProfile` reuses it.
-5. **New section `// Elevation profile`**, inserted before `// Controls` (`:1786`):
+3. **State**, after `let uploaded` (`:341`): `let profileMarker = undefined;`
+4. **`pathLength` (`:2324-2344`)**. Move the haversine into `kilometersBetween(a, b)` and have `pathLength` add those up. `buildProfile` reuses it.
+5. **New section `// Elevation profile`**, inserted after the `// Photo spots` section and before `// Controls` (`:2043`):
    - **`routeProfile(item)`** returns `buildProfile([item.paths[0]], [item.json.geometry.coordinates[0].map((coordinate) => coordinate[2])])`. Only line 0 (Decision 4).
-   - **`buildProfile(paths, elevations)`** takes arrays of `{lat,lng}` paths and matching height arrays, the shape `parseGpx` already returns at `:1978-1982`.
+   - **`buildProfile(paths, elevations)`** takes arrays of `{lat,lng}` paths and matching height arrays, the shape `parseGpx` already returns at `:2235-2239`.
      - Walk every point, adding up distance with `kilometersBetween` inside each path only, so gaps between segments are not counted. Keep `{ distance, height, position }` for points where `Number.isFinite(height)`.
      - Return `undefined` when fewer than 2 points have a height or the length is 0.
-     - Downsample: `column = Math.min(PROFILE.width - 1, Math.floor((distance / length) * PROFILE.width))`. Keep the lowest and highest point of each column, in distance order. That is at most 680 points and keeps both peaks and valleys.
+     - Downsample: `column = Math.min(PROFILE.width - 1, Math.floor((distance / length) * PROFILE.width))`. Keep the lowest and highest point of each column, in distance order. That is at most 678 points and keeps both peaks and valleys.
      - Compute `min` and `max` over all points. Set `low = Math.floor(min / 100) * 100` and `high = Math.ceil(max / 100) * 100`; if they are equal, add 100 to `high`.
      - Return `{ length, min, max, low, high, points }`. Only the reduced points are kept, so caching it on the item is cheap.
    - **`profileY(profile, height)`** maps a height to the plot area between `PROFILE.top` and `PROFILE.bottom`.
    - **`profileSection(item)`** returns `""` when there is no `item.profile`. Otherwise it returns `<div class="profile" style="--color:${item.color}">` containing:
      - A `.profile-head`: `<span>Elevation</span>` and `<span class="profile-readout" id="profileReadout" data-default="1,543–2,030 m">` (built with `toLocaleString()`).
-     - `<svg class="profile-chart" viewBox="0 0 340 128" role="img" aria-label="Elevation profile, 1,543 to 2,030 m over 9.2 km">`, holding:
+     - `<svg class="profile-chart" viewBox="0 0 339 128" role="img" aria-label="Elevation profile, 1,543 to 2,030 m over 9.2 km">`, holding:
        - two `.profile-grid` lines at `top` and `bottom`;
        - a `.profile-area` path (the line closed down to `bottom`) and a `.profile-line` path;
-       - `.profile-label` texts for the rounded `low` and `high` heights (`1,500 m`, `2,100 m`) and for `0` and the length (1 decimal, `toLocaleString(undefined, { minimumFractionDigits: 1, maximumFractionDigits: 1 })` as in `uploadDetails` `:2127-2130`);
+       - `.profile-label` texts, all inside the viewBox so none is cut off. The rounded `high` height (`2,100 m`) sits at x = 0 just under the top rule, and the rounded `low` height (`1,500 m`) at x = 0 just above the bottom rule; the halo keeps both readable where the curve passes under them. `0` (at x = 0) and the length (at x = `width`, `text-anchor="end"`) sit in the strip below `bottom`. The length has 1 decimal, `toLocaleString(undefined, { minimumFractionDigits: 1, maximumFractionDigits: 1 })` as in `uploadDetails` `:2384-2387`;
        - a hidden `#profileCursor` line and a hidden `#profileDot` circle.
      - Ids follow the gallery pattern (`galleryImage`, `galleryIndex`).
    - **`showProfilePoint(chart, event)`**:
      - Take `fraction` from `event.clientX` and `chart.getBoundingClientRect()`, clamped to 0–1. Find the reduced point nearest to `fraction * profile.length` with a simple loop.
      - Move the cursor and dot in viewBox units and set the readout to `${km} km · ${height} m`.
-     - Create `profileMarker` on first use: `new google.maps.marker.AdvancedMarkerElement({ content, zIndex: 200000 })` with a `div.profile-marker` as content. The z-index keeps it above the selected pin (2000), the bubbles (1000 plus their count) and the photo-spot pins (100000–100001, see `PLAN-0-photo-spots.md`). Then set `content.style --color` to `selected.color`, `position` to the point, and `map` to `map`.
+     - Create `profileMarker` on first use: `new google.maps.marker.AdvancedMarkerElement({ content, zIndex: 200000 })` with a `div.profile-marker` as content. The z-index keeps it above the selected pin (2000, `:1221`), the bubbles (1000 plus their count, `:1028`) and the photo pins (`PHOTO_ZINDEX`, 100000–100001, `:333-334`). Then set `content.style --color` to `selected.color`, `position` to the point, and `map` to `map`.
    - **`hideProfilePoint()`** sets `profileMarker.map = null` if it exists. If `#profileCursor` exists, it hides the cursor and dot and resets the readout from `dataset.default`.
-6. **`routeDetails`, after the stats `dl` (`:1385`)**: `item.profile ??= routeProfile(item);` then `content += profileSection(item);`. It is computed when the route is selected, never in `buildRoute`, which runs for thousands of routes.
-7. **`buildUpload` item (`:1988-2001`)**: add `profile: buildProfile(parsed.paths, parsed.elevations),` after `descent`.
-8. **`uploadDetails` (`:2139`)**: `return content + `<dl class="stats">${stats}</dl>` + profileSection(item);`
-9. **`selectItem`**: call `hideProfilePoint()` before `details.innerHTML = ...` (`:1265`). **`closeDetails`**: call it right after the `if (!selected)` guard (`:1275-1277`). This also covers Escape (`:1864-1869`) and `removeUpload` (`:2059-2061`).
-10. **`bindControls`**, next to the other `#details` listeners (`:1827-1862`):
-    - `pointermove` with `const chart = event.target.closest(".profile-chart")`: if there is a chart call `showProfilePoint(chart, event)`, otherwise `hideProfilePoint()`.
-    - `pointerleave` and `pointercancel` call `hideProfilePoint`.
+6. **`routeDetails`, after the facts `dl` (`:1489-1491`) and before the abstract (`:1493`)**: `item.profile ??= routeProfile(item);` then `content += profileSection(item);`. It is computed when the route is selected, never in `buildRoute`, which runs for thousands of routes.
+7. **`buildUpload` item (`:2245-2258`)**: add `profile: buildProfile(parsed.paths, parsed.elevations),` after `descent`.
+8. **`uploadDetails` (`:2396`)**: `return content + `<dl class="stats">${stats}</dl>` + profileSection(item);`
+9. **`selectItem`**: call `hideProfilePoint()` next to `hidePhotoSpots(selected)` (`:1315`), which runs before `details.innerHTML = ...` (`:1327`). **`closeDetails`**: call it next to `hidePhotoSpots(selected)`, right after the `if (!selected)` guard (`:1346-1350`). This also covers Escape (`:2121-2126`) and `removeUpload` (`:2316-2318`).
+10. **`bindControls`**, next to the other `#details` listeners (`:2083-2119`):
+    - `pointerdown` and `pointermove` share one handler, with `const chart = event.target.closest(".profile-chart")`: if there is a chart call `showProfilePoint(chart, event)`, otherwise `hideProfilePoint()`. `pointerdown` is what shows the dot on a touch press that doesn't move.
+    - `pointerup` with `event.pointerType === "touch"` calls `hideProfilePoint`, so lifting the finger always removes the dot.
+    - `pointerleave` and `pointercancel` call `hideProfilePoint`. `pointerleave` doesn't bubble, so on `#details` it fires only when the pointer leaves the whole panel; moving off the chart inside the panel is caught by the `pointermove` branch.
+    - `scroll`, caught on `#details` in the capture phase (it doesn't bubble), calls `hideProfilePoint`. A wheel scroll moves the chart away from a mouse that stays still without any `pointermove`, which otherwise left the cursor, readout and map dot showing over the text.
     - These are delegated because the panel's HTML is rebuilt on every selection.
-11. **`gpxData` (`:2230-2234`)**: `const ele = Number.isFinite(point[2]) ? `<ele>${point[2]}</ele>` : "";` then write `<trkpt lat='${lat}' lon='${lon}'>${ele}</trkpt>`. `<ele>` is the only child, so the GPX 1.1 child order holds.
+11. **`gpxData` (`:2484-2495`)**: `const ele = Number.isFinite(point[2]) ? `<ele>${point[2]}</ele>` : "";` then write `<trkpt lat='${lat}' lon='${lon}'>${ele}</trkpt>`. `<ele>` is the only child, so the GPX 1.1 child order holds.
 
 ### `public/style.css`
 
-12. **After `.stat-unit` (`:603-609`)**:
+12. **After `.facts dd` (`:640-643`)**, so the rules follow the panel order (stats, facts, elevation):
     - `.profile { margin: 0 0 18px; }`
-    - `.profile-head`: flex, space-between, `font-size: 12px`, `color: var(--ink-soft)`, like `.stats dt` at `:589-592`.
+    - `.profile-head`: flex, space-between, `font-size: 12px`, `color: var(--ink-soft)`, like `.stats dt` at `:605-608`.
     - `.profile-readout`: `color: var(--ink)`, `font-weight: 560`, `font-variant-numeric: tabular-nums`.
     - `.profile-chart`: `display: block`, `width: 100%`, `height: auto`, `margin-top: 6px`, `touch-action: pan-y`.
     - `.profile-grid`: `stroke: var(--rule)`, `stroke-dasharray: 3 3`.
     - `.profile-area`: `fill: var(--color)`, `fill-opacity: 0.14`.
     - `.profile-line`: `fill: none`, `stroke: var(--color)`, `stroke-width: 1.5`, `stroke-linejoin: round`.
-    - `.profile-label`: `font-size: 11px`, `fill: var(--ink-soft)`, tabular-nums, with a halo of `paint-order: stroke; stroke: var(--paper); stroke-width: 3px`.
+    - `.profile-label`: `font-size: 11px`, `fill: var(--ink-soft)`, tabular-nums, with a halo of `paint-order: stroke; stroke: var(--paper); stroke-width: 6px; stroke-linejoin: round`. A 3 or 4 px halo left the curve showing between the digits of `1,500 m` on route 109, which starts near its lowest point.
     - `.profile-cursor`: `stroke: var(--ink-soft)`.
     - `.profile-dot`: `fill: var(--color)`, `stroke: var(--paper)`, `stroke-width: 2`.
-13. **After `.track-end-end` (`:831-833`)**: `.profile-marker` copies `.track-end` (`:817-825`, a 16px circle with a 3px white border, the same shadow and `translateY(50%)`) with `background: var(--color)` and `pointer-events: none`.
+13. **After `.track-end-end` (`:872-874`)**: `.profile-marker` copies `.track-end` (`:858-866`, a 16px circle with a 3px white border, the same shadow and `translateY(50%)`) with `background: var(--color)` and `pointer-events: none`.
 
 ### `public/index.html`
 
@@ -180,15 +182,15 @@ No change: no library, no new icon.
 
 1. `helpers.js`.
 2. The front end, which works with old files (no chart).
-3. Run `/update-data`, at least step 1 and the step 4 checks.
-4. Verify, commit the code with the refreshed data, deploy.
+3. You run `/update-data` (it is user-invoked only; step 1 alone takes 30–40 minutes), at least step 1 and the step 4 checks.
+4. Verify. Commit the code with the refreshed data and deploy only after you say so.
 
 ## Interactions with the other planned features
 
-- **Route facts (`PLAN-0-route-facts.md`)** edits the same `routeDetails` stats block (`:1369-1385`). Agreed order: title, start/end/via subtitle, actions, stats (Hiking time included), facts list (Difficulty, Fitness, Other direction), then the Elevation block, then the abstract and description. If that feature has landed, step 6 goes after the facts list instead of right after the stats. The route-facts filters (`activityRow`, `readFilters`, `matchesFilter`) don't touch this feature. Ascent stays the official `height_difference` for both the stat and the filters.
-- **Photo spots (`PLAN-0-photo-spots.md`)** also adds map markers tied to the selected route, so both must be cleared in `selectItem` and `closeDetails`. The profile dot (z-index 200000) sits above the photo pins (100000–100001). `photo_gallery_coords` is already in the saved files (lng/lat strings, e.g. `"[(7.20358, 46.35563…)]"`), and that plan reads them as they are, so it needs no re-download. If it ever edits `helpers.downloadFile` too, coordinate with step 1 and do a single route download.
+- **Route facts** has landed: the stats include Hiking time, and the facts list (Difficulty, Fitness, Other direction) follows them (`:1445-1491`). Panel order: title, start/end/via subtitle, actions, stats, facts list, then the Elevation block (step 6), then the abstract and description. The route-facts filters (`activityRow`, `readFilters`, `matchesFilter`) don't touch this feature. Ascent stays the official `height_difference` for both the stat and the filters.
+- **Photo spots** has landed: `selectItem` and `closeDetails` already clear the photo pins with `hidePhotoSpots`, and the profile dot is cleared right next to that call (step 9). The profile dot (z-index 200000) sits above the photo pins (`PHOTO_ZINDEX`, 100000–100001). Photo spots read `photo_gallery_coords` as saved and don't touch `helpers.downloadFile`, so the route download for this feature is the only one needed.
 - **View in the address (`PLAN-3-url-state.md`)**: the profile never moves the map and isn't stored in the address. A selected item restored from the address goes through `selectItem`, so its chart appears on its own.
-- **Saved list (`PLAN-2-saved-list.md`)**: selecting a saved route goes through `selectItem`, so the chart appears. Its Save action edits the same `actions([...])` call (`:1360-1367`), a separate line. No other overlap.
+- **Saved list (`PLAN-2-saved-list.md`)**: selecting a saved route goes through `selectItem`, so the chart appears. Its Save action edits the same `actions([...])` call (`:1436-1443`), a separate line. No other overlap.
 
 ## Edge cases and risks
 
@@ -199,7 +201,7 @@ No change: no library, no new icon.
 - **Uploads**: a GPS spike stretches the height scale (no smoothing; `ELEVATION_NOISE` applies only to ascent). Re-uploading a downloaded route GPX that has variant segments adds them after the main line.
 - **The map dot can be off-screen** when the route is bigger than the view; the map doesn't pan (left out on purpose).
 - **Panel width**: a visible scrollbar makes the panel narrower, and the SVG scales down evenly through its viewBox.
-- **Speed**: `buildProfile` is one pass over up to 105,999 points. Under 20 ms is an **assumption** to confirm with `hiking/national/6`.
+- **Speed**: `buildProfile` is one pass over up to 105,999 points. Measured 22–43 ms on `hiking/national/6` (5 runs, synthetic heights), once per route on its first selection.
 - **Size**: +8% to every route layer download (Decision 1).
 
 ## Verification
@@ -219,7 +221,7 @@ No change: no library, no new icon.
 8. **Hiking national 2, Trans Swiss Trail**: a 6.9 km straight segment around km 92.
 9. **Download GPX of 109**: every `<trkpt>` has `<ele>`. Upload that file: the same chart in the upload colour, and the Distance stat equals the chart's end label. Upload a GPX without `<ele>`: no block and no console error.
 10. **The map dot goes away** on Escape, the close button, selecting another route, and Remove on an uploaded track.
-11. **Touch**: Chrome DevTools device mode with touch, width ≥ 1024. A sideways drag scrubs, a vertical drag scrolls the panel.
+11. **Touch**: Chrome DevTools device mode with touch, width ≥ 1024. A press without moving shows the dot, a sideways drag scrubs, a vertical drag scrolls the panel, and lifting the finger removes the dot.
 12. **Old data**: before the route download, routes show no chart and no errors. The console has no errors throughout.
 
 ## Out of scope

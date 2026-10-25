@@ -70,6 +70,8 @@ async function downloadFile(name, id, filePath, isPoint) {
         const x = parseInt(coordinates[1])
         newCoordinates = getPoint(y, x)
       } else {
+        let missingHeights = 0
+
         for (let i = 0; i < coordinates.length; i++) {
           const stage = coordinates[i]
           const newStage = []
@@ -78,12 +80,24 @@ async function downloadFile(name, id, filePath, isPoint) {
             const point = stage[j]
             const y = parseInt(point[0])
             const x = parseInt(point[1])
+            const height = parseFloat(point[2])
             const newPoint = getPoint(y, x)
+
+            // SchweizMobil sends the height in meters as a third value. Whole meters are enough for the elevation chart
+            if (Number.isFinite(height)) {
+              newPoint.push(Math.round(height))
+            } else {
+              missingHeights++
+            }
 
             newStage.push(newPoint)
           }
 
           newCoordinates.push(newStage)
+        }
+
+        if (missingHeights > 0) {
+          console.log(`MISSING HEIGHTS: ${url} (${missingHeights} points)`)
         }
       }
 

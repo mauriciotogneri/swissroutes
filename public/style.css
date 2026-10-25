@@ -642,6 +642,70 @@ body.has-details #map {
   font-weight: 560;
 }
 
+.profile {
+  margin: 0 0 18px;
+}
+
+.profile-head {
+  display: flex;
+  justify-content: space-between;
+  color: var(--ink-soft);
+  font-size: 12px;
+}
+
+.profile-readout {
+  color: var(--ink);
+  font-weight: 560;
+  font-variant-numeric: tabular-nums;
+}
+
+/* Sideways drags scrub the chart, while up and down still scroll the panel */
+.profile-chart {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-top: 6px;
+  touch-action: pan-y;
+}
+
+.profile-grid {
+  stroke: var(--rule);
+  stroke-dasharray: 3 3;
+}
+
+.profile-area {
+  fill: var(--color);
+  fill-opacity: 0.14;
+}
+
+.profile-line {
+  fill: none;
+  stroke: var(--color);
+  stroke-width: 1.5;
+  stroke-linejoin: round;
+}
+
+/* The halo keeps the labels readable where the curve runs under them. Thinner ones leave the curve showing between the digits */
+.profile-label {
+  fill: var(--ink-soft);
+  font-size: 11px;
+  font-variant-numeric: tabular-nums;
+  paint-order: stroke;
+  stroke: var(--paper);
+  stroke-width: 6px;
+  stroke-linejoin: round;
+}
+
+.profile-cursor {
+  stroke: var(--ink-soft);
+}
+
+.profile-dot {
+  fill: var(--color);
+  stroke: var(--paper);
+  stroke-width: 2;
+}
+
 .details-lead {
   margin: 0 0 12px;
   font-size: 15px;
@@ -871,6 +935,19 @@ body.has-details .map-controls {
 
 .track-end-end {
   background: var(--ink);
+}
+
+/* The point under the pointer on the elevation chart, styled like the ends of an uploaded track */
+.profile-marker {
+  width: 16px;
+  height: 16px;
+  box-sizing: border-box;
+  border: 3px solid var(--paper);
+  border-radius: 50%;
+  background: var(--color);
+  box-shadow: 0 1px 3px rgb(34 48 60 / 0.45);
+  pointer-events: none;
+  transform: translateY(50%);
 }
 
 .tooltip {
