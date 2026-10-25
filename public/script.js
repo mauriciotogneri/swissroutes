@@ -1352,7 +1352,7 @@ function routeDetails(item) {
   const properties = item.json.properties;
   const badge = safeUrl(properties.logo)
     ? `<img class="details-logo" src="${escapeHtml(properties.logo)}" alt="Route ${properties.r_number}">`
-    : `<span class="plate" style="--color:${item.color}">${properties.r_number}</span>`;
+    : plateBadge(item);
 
   let content = `<div class="details-kind">${badge}${item.level.name} ${item.activity.noun}</div>`;
   content += `<h2 class="details-title">${escapeHtml(properties.title)}</h2>`;
@@ -1657,13 +1657,51 @@ function gallerySection(item) {
   return content + "</div>";
 }
 
+function plateBadge(item) {
+  return `<span class="plate" style="--color:${item.color}">${item.json.properties.r_number}</span>`;
+}
+
 function plusSlides(offset) {
   const gallery = selected.gallery;
   galleryIndex = (galleryIndex + offset + gallery.length) % gallery.length;
 
-  document.getElementById("galleryImage").src = gallery[galleryIndex];
-  document.getElementById("galleryIndex").textContent =
-    `${galleryIndex + 1} / ${gallery.length}`;
+  showPhoto();
+}
+
+function showPhoto() {
+  const gallery = selected.gallery;
+  const media = document.querySelector(".details-media");
+
+  // The arrows about to be removed may hold the keyboard focus
+  if (gallery.length < 2 && media.contains(document.activeElement)) {
+    document.querySelector(".details-close").focus();
+  }
+
+  if (gallery.length === 0) {
+    media.remove();
+  } else if (gallery.length === 1) {
+    document.getElementById("galleryImage").src = gallery[0];
+    media.querySelectorAll(".media-button, .media-counter").forEach((element) => element.remove());
+  } else {
+    document.getElementById("galleryImage").src = gallery[galleryIndex];
+    document.getElementById("galleryIndex").textContent =
+      `${galleryIndex + 1} / ${gallery.length}`;
+  }
+}
+
+// A photo that fails to load is dropped, so the panel never shows an empty block
+function dropPhoto(image) {
+  const gallery = selected.gallery;
+
+  // A late error of a photo the user already moved past must not drop the one now shown
+  if (image.getAttribute("src") !== gallery[galleryIndex]) {
+    return;
+  }
+
+  gallery.splice(galleryIndex, 1);
+  galleryIndex = galleryIndex % Math.max(gallery.length, 1);
+
+  showPhoto();
 }
 
 function copyLink(button) {
@@ -1784,6 +1822,25 @@ function bindControls() {
       loadUpload(file);
     }
   });
+
+  // The error event of an image doesn't bubble, so it is caught on the way down
+  document.getElementById("details").addEventListener(
+    "error",
+    (event) => {
+      const image = event.target;
+
+      if (!selected || image.tagName !== "IMG") {
+        return;
+      }
+
+      if (image.id === "galleryImage") {
+        dropPhoto(image);
+      } else if (image.classList.contains("details-logo")) {
+        image.outerHTML = plateBadge(selected);
+      }
+    },
+    true,
+  );
 
   document.getElementById("details").addEventListener("click", (event) => {
     const button = event.target.closest("[data-action]");
