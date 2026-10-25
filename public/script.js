@@ -1350,9 +1350,8 @@ function detailsContent(item) {
 
 function routeDetails(item) {
   const properties = item.json.properties;
-  const logo = safeUrl(properties.logo);
-  const badge = logo
-    ? `<img class="details-logo" src="${escapeHtml(logo)}" alt="Route ${properties.r_number}">`
+  const badge = safeUrl(properties.logo)
+    ? `<img class="details-logo" src="${escapeHtml(properties.logo)}" alt="Route ${properties.r_number}">`
     : `<span class="plate" style="--color:${item.color}">${properties.r_number}</span>`;
 
   let content = `<div class="details-kind">${badge}${item.level.name} ${item.activity.noun}</div>`;

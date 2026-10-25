@@ -4,5 +4,4 @@
 
 ## TODO
 
-- Check missing images
 - Ask for other ideas
