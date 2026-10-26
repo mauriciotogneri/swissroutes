@@ -63,11 +63,12 @@
 
     html,
     body {
-      height: 100%;
       margin: 0;
     }
 
+    /* At least the window's height, and taller when the six languages need it, so the top is never cut off */
     body {
+      min-height: 100vh;
       display: grid;
       place-items: center;
       padding: 24px;
@@ -80,6 +81,13 @@
 
     main {
       max-width: 30em;
+    }
+
+    /* One block per language */
+    main > div + div {
+      margin-top: 24px;
+      padding-top: 6px;
+      border-top: 1px solid var(--rule);
     }
 
     .cross {
@@ -126,9 +134,36 @@
       <rect width="32" height="32" fill="#d52b1e" />
       <path d="M13 6h6v7h7v6h-7v7h-6v-7H6v-6h7z" fill="#ffffff" />
     </svg>
-    <h1>This page doesn't exist</h1>
-    <p>The address may be mistyped, or the link may be out of date.</p>
-    <a href="/">Back to the map</a>
+    <div lang="en">
+      <h1>This page doesn't exist</h1>
+      <p>The address may be mistyped, or the link may be out of date.</p>
+      <a href="/">Back to the map</a>
+    </div>
+    <div lang="es-ES">
+      <h1>Esta página no existe</h1>
+      <p>Puede que la dirección esté mal escrita o que el enlace esté desactualizado.</p>
+      <a href="/">Volver al mapa</a>
+    </div>
+    <div lang="fr-CH">
+      <h1>Cette page n’existe pas</h1>
+      <p>L’adresse est peut-être mal saisie, ou le lien n’est plus à jour.</p>
+      <a href="/">Retour à la carte</a>
+    </div>
+    <div lang="de-CH">
+      <h1>Diese Seite gibt es nicht</h1>
+      <p>Die Adresse ist vielleicht falsch geschrieben, oder der Link ist veraltet.</p>
+      <a href="/">Zurück zur Karte</a>
+    </div>
+    <div lang="it-CH">
+      <h1>Questa pagina non esiste</h1>
+      <p>L’indirizzo potrebbe essere sbagliato, o il link non è più aggiornato.</p>
+      <a href="/">Torna alla mappa</a>
+    </div>
+    <div lang="pt-PT">
+      <h1>Esta página não existe</h1>
+      <p>O endereço pode estar mal escrito, ou a ligação pode estar desatualizada.</p>
+      <a href="/">Voltar ao mapa</a>
+    </div>
   </main>
 </body>
 

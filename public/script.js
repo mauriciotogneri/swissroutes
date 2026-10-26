@@ -9,19 +9,17 @@ const INITIAL_VIEW = {
 };
 
 const LEVELS = [
-  { id: "national", name: "National", weight: 5, zIndex: 30 },
-  { id: "regional", name: "Regional", weight: 4, zIndex: 20 },
-  { id: "local", name: "Local", weight: 3, zIndex: 10 },
+  { id: "national", weight: 5, zIndex: 30 },
+  { id: "regional", weight: 4, zIndex: 20 },
+  { id: "local", weight: 3, zIndex: 10 },
 ];
 
 // SchweizMobil rates every route easy, medium or difficult for fitness (category_condition), and hiking and mountain bike routes for difficulty too (category_grade)
-const GRADES = { easy: "Easy", medium: "Medium", difficult: "Difficult" };
+const GRADES = ["easy", "medium", "difficult"];
 
 const ACTIVITIES = [
   {
     id: "hiking",
-    name: "Hiking",
-    noun: "hiking route",
     colors: { light: "#d52b1e", dark: "#ff6b5f" },
     ids: {
       national: HIKING_NATIONAL_IDS,
@@ -30,13 +28,12 @@ const ACTIVITIES = [
     },
     // The grade follows the trail type. No hiking route is difficult today, but the chip is shown so both Difficulty rows offer all three grades
     grades: ["easy", "medium", "difficult"],
-    trails: { easy: "hiking trail", medium: "mountain hiking trail" },
+    // The grades whose trail type is named (trail.<grade> in strings.js)
+    trails: ["easy", "medium"],
   },
   // Cycling routes have no difficulty grade, only fitness
   {
     id: "cycling",
-    name: "Cycling",
-    noun: "cycling route",
     colors: { light: "#0b5cad", dark: "#5ea6f2" },
     ids: {
       national: CYCLING_NATIONAL_IDS,
@@ -46,8 +43,6 @@ const ACTIVITIES = [
   },
   {
     id: "mountainbiking",
-    name: "Mountain biking",
-    noun: "mountain bike route",
     colors: { light: "#0e6b35", dark: "#4cbf7a" },
     ids: {
       national: MOUNTAINBIKING_NATIONAL_IDS,
@@ -91,24 +86,22 @@ const GROUP_COLORS = {
   explore: "var(--ink)",
 };
 
-// Icons of the panel sections. Routes has none
+// Icons of the panel sections, by section id. Routes has none
 const SECTION_ICONS = {
-  Stay: "bed",
-  Explore: "explore",
-  Water: "water_drop",
-  "Bike support": "pedal_bike",
-  "Rest stops": "table_restaurant",
-  Nature: "park",
-  Favorites: "favorite",
-  Saved: "star",
+  stay: "bed",
+  explore: "explore",
+  water: "water_drop",
+  bike: "pedal_bike",
+  rest: "table_restaurant",
+  nature: "park",
+  favorites: "favorite",
+  saved: "star",
 };
 
 const PLACES = [
   {
     id: "camping",
     group: "stay",
-    name: "Camping",
-    label: "Campsite",
     icon: "camping",
     folder: "accommodation/camping",
     ids: ACCOMMODATION_CAMPING_IDS,
@@ -116,8 +109,6 @@ const PLACES = [
   {
     id: "backpacker",
     group: "stay",
-    name: "Backpackers",
-    label: "Backpacker hostel",
     icon: "backpack",
     folder: "accommodation/backpacker",
     ids: ACCOMMODATION_BACKPACKER_IDS,
@@ -125,8 +116,6 @@ const PLACES = [
   {
     id: "hostel",
     group: "stay",
-    name: "Hostels",
-    label: "Hostel",
     icon: "gite",
     folder: "accommodation/hostels",
     ids: ACCOMMODATION_HOSTEL_IDS,
@@ -134,8 +123,6 @@ const PLACES = [
   {
     id: "bnb",
     group: "stay",
-    name: "B&Bs",
-    label: "B&B",
     icon: "hotel",
     folder: "accommodation/bnb",
     ids: ACCOMMODATION_BNB_IDS,
@@ -143,8 +130,6 @@ const PLACES = [
   {
     id: "grouphouse",
     group: "stay",
-    name: "Group houses",
-    label: "Group house",
     icon: "house",
     folder: "accommodation/grouphouse",
     ids: ACCOMMODATION_GROUPHOUSE_IDS,
@@ -152,8 +137,6 @@ const PLACES = [
   {
     id: "farm",
     group: "stay",
-    name: "Farm stays",
-    label: "Farm stay",
     icon: "agriculture",
     folder: "accommodation/farm",
     ids: ACCOMMODATION_FARM_IDS,
@@ -161,8 +144,6 @@ const PLACES = [
   {
     id: "sleepingstraw",
     group: "stay",
-    name: "Sleeping in straw",
-    label: "Sleeping in straw",
     icon: "bed",
     folder: "accommodation/sleepingstraw",
     ids: ACCOMMODATION_SLEEPINGSTRAW_IDS,
@@ -170,8 +151,6 @@ const PLACES = [
   {
     id: "mountainhut",
     group: "stay",
-    name: "Mountain huts",
-    label: "Mountain hut",
     icon: "night_shelter",
     folder: "accommodation/mountainhut",
     ids: ACCOMMODATION_MOUNTAINHUT_IDS,
@@ -179,8 +158,6 @@ const PLACES = [
   {
     id: "sightseeing",
     group: "explore",
-    name: "Sightseeing",
-    label: "Sightseeing",
     icon: "visibility",
     folder: "other/sightseeing",
     ids: OTHER_SIGHTSEEING_IDS,
@@ -188,9 +165,7 @@ const PLACES = [
   {
     id: "serviceshop",
     group: "explore",
-    section: "Bike support",
-    name: "Bike service",
-    label: "Bike service",
+    section: "bike",
     icon: "build",
     folder: "other/serviceshop",
     ids: OTHER_SERVICESHOP_IDS,
@@ -198,9 +173,7 @@ const PLACES = [
   {
     id: "chargingstation",
     group: "explore",
-    section: "Bike support",
-    name: "E-bike charging",
-    label: "E-bike charging station",
+    section: "bike",
     icon: "bolt",
     files: [
       "other/chargingstations/chargingstations.json",
@@ -212,127 +185,55 @@ const PLACES = [
 // OpenStreetMap places, downloaded by bin/osm-downloader.js. Every type has its own toggle
 // These are listed under Stay, with the other places to sleep
 const OSM_STAY = [
-  osmPlace("stay", "alpinehut", "Alpine huts", "Alpine hut", "cabin"),
-  osmPlace(
-    "stay",
-    "wildernesshut",
-    "Wilderness huts",
-    "Wilderness hut",
-    "cottage",
-  ),
-  osmPlace("stay", "basichut", "Basic huts", "Basic hut", "fireplace"),
-  osmPlace("stay", "hotel", "Hotels", "Hotel", "apartment"),
-  osmPlace(
-    "stay",
-    "guesthouse",
-    "Guest houses",
-    "Guest house",
-    "bedroom_parent",
-  ),
-  osmPlace("stay", "chalet", "Chalets", "Chalet", "chalet"),
-  osmPlace("stay", "campsite", "Campsites", "Campsite", "camping"),
+  osmPlace("stay", "alpinehut", "cabin"),
+  osmPlace("stay", "wildernesshut", "cottage"),
+  osmPlace("stay", "basichut", "fireplace"),
+  osmPlace("stay", "hotel", "apartment"),
+  osmPlace("stay", "guesthouse", "bedroom_parent"),
+  osmPlace("stay", "chalet", "chalet"),
+  osmPlace("stay", "campsite", "camping"),
 ];
 
 // These are listed under Explore, with sightseeing
-const OSM_EXPLORE = [osmPlace("explore", "ruins", "Ruins", "Ruins", "fort")];
+const OSM_EXPLORE = [osmPlace("explore", "ruins", "fort")];
 
-// The others have a section each. A place from PLACES with the same section name is listed there too
+// The others have a section each. A place from PLACES with the same section id is listed there too
 const OSM_SECTIONS = [
   {
-    name: "Water",
+    id: "water",
     places: [
-      osmPlace(
-        "explore",
-        "drinkingwater",
-        "Drinking water",
-        "Drinking water",
-        "water_drop",
-      ),
-      osmPlace("explore", "spring", "Springs", "Spring", "water"),
-      osmPlace(
-        "explore",
-        "waterpoint",
-        "Water points",
-        "Water point",
-        "faucet",
-      ),
+      osmPlace("explore", "drinkingwater", "water_drop"),
+      osmPlace("explore", "spring", "water"),
+      osmPlace("explore", "waterpoint", "faucet"),
     ],
   },
   {
-    name: "Bike support",
+    id: "bike",
     places: [
-      osmPlace(
-        "explore",
-        "ebikecharging",
-        "E-bike charging points",
-        "E-bike charging point",
-        "battery_charging_full",
-      ),
-      osmPlace(
-        "explore",
-        "bikerepair",
-        "Repair stations",
-        "Bike repair station",
-        "handyman",
-      ),
-      osmPlace("explore", "airpump", "Air pumps", "Air pump", "air"),
-      osmPlace(
-        "explore",
-        "bikerental",
-        "Bike rental",
-        "Bike rental",
-        "pedal_bike",
-      ),
+      osmPlace("explore", "ebikecharging", "battery_charging_full"),
+      osmPlace("explore", "bikerepair", "handyman"),
+      osmPlace("explore", "airpump", "air"),
+      osmPlace("explore", "bikerental", "pedal_bike"),
     ],
   },
   {
-    name: "Rest stops",
+    id: "rest",
     places: [
-      osmPlace("explore", "picnicsite", "Picnic sites", "Picnic site", "park"),
-      osmPlace(
-        "explore",
-        "picnictable",
-        "Picnic tables",
-        "Picnic table",
-        "table_restaurant",
-      ),
-      osmPlace(
-        "explore",
-        "firepit",
-        "Fire pits",
-        "Fire pit",
-        "local_fire_department",
-      ),
-      osmPlace("explore", "toilets", "Toilets", "Toilet", "wc"),
-      osmPlace("explore", "shower", "Showers", "Shower", "shower"),
+      osmPlace("explore", "picnicsite", "park"),
+      osmPlace("explore", "picnictable", "table_restaurant"),
+      osmPlace("explore", "firepit", "local_fire_department"),
+      osmPlace("explore", "toilets", "wc"),
+      osmPlace("explore", "shower", "shower"),
     ],
   },
   {
-    name: "Nature",
+    id: "nature",
     places: [
-      osmPlace("explore", "waterfall", "Waterfalls", "Waterfall", "waves"),
-      osmPlace(
-        "explore",
-        "mountainpass",
-        "Mountain passes",
-        "Mountain pass",
-        "altitude",
-      ),
-      osmPlace("explore", "cave", "Caves", "Cave", "explore"),
-      osmPlace(
-        "explore",
-        "swimmingarea",
-        "Swimming areas",
-        "Swimming area",
-        "pool",
-      ),
-      osmPlace(
-        "explore",
-        "bathingplace",
-        "Bathing places",
-        "Bathing place",
-        "beach_access",
-      ),
+      osmPlace("explore", "waterfall", "waves"),
+      osmPlace("explore", "mountainpass", "altitude"),
+      osmPlace("explore", "cave", "explore"),
+      osmPlace("explore", "swimmingarea", "pool"),
+      osmPlace("explore", "bathingplace", "beach_access"),
     ],
   },
 ];
@@ -409,6 +310,8 @@ let loadingRenderTimeout = undefined;
 let filterTimeout = undefined;
 let downloadsActive = 0;
 let addressTimeout = undefined;
+// The interface language, a key of LANGUAGE_TAGS (index.html)
+let language = PAGE_LANGUAGE;
 let glideFrame = undefined;
 // While the map shows the view it opened with, the position stays out of the address. Empty when the address gave a position (then it is always kept); undefined until the map first settles
 let openingPosition = ADDRESS_POSITION ? "" : undefined;
@@ -423,6 +326,10 @@ const requests = new Map();
 const downloadQueue = [];
 // What is on the map right now: a place item or a bubble key, mapped to its marker
 const drawn = new Map();
+
+// The page's own text is translated before the map arrives
+translatePage();
+mapsReady.then(mapLoaded);
 
 function mapLoaded() {
   document.getElementById("map").style.colorScheme = MAP_SCHEME;
@@ -537,12 +444,10 @@ function routeLayer(activity, level, ids, row, filter) {
   };
 }
 
-function osmPlace(group, id, name, label, icon) {
+function osmPlace(group, id, icon) {
   return {
     id: id,
     group: group,
-    name: name,
-    label: label,
     icon: icon,
     osm: true,
     files: [`osm/${id}.json`],
@@ -593,18 +498,18 @@ function buildPanel() {
   const [hiking, cycling, mountainBiking] = ACTIVITIES;
 
   let content = group(
-    "Routes",
+    "routes",
     byCount([mountainBiking, hiking, cycling]).map(activityRow).join(""),
     false,
   );
   content += group(
-    "Stay",
+    "stay",
     byCount([...PLACES.filter((place) => place.group === "stay"), ...OSM_STAY])
       .map(placeRow)
       .join(""),
   );
   content += group(
-    "Explore",
+    "explore",
     byCount([
       ...PLACES.filter((place) => place.group === "explore" && !place.section),
       ...OSM_EXPLORE,
@@ -615,33 +520,33 @@ function buildPanel() {
 
   for (const section of OSM_SECTIONS) {
     const places = [
-      ...PLACES.filter((place) => place.section === section.name),
+      ...PLACES.filter((place) => place.section === section.id),
       ...section.places,
     ];
-    content += group(section.name, byCount(places).map(placeRow).join(""));
+    content += group(section.id, byCount(places).map(placeRow).join(""));
   }
 
   if (FAVORITES_ENABLED) {
     const favorites =
       toggleRow(
         "favorites.hiking",
-        "Hikes",
+        t("favorites.hikes"),
         '<span class="swatch swatch-line"></span>',
         cssColor(hiking.colors),
       ) +
       toggleRow(
         "favorites.visit",
-        "Places",
+        t("favorites.places"),
         iconSwatch("visibility"),
         GROUP_COLORS.explore,
       );
-    content += group("Favorites", favorites);
+    content += group("favorites", favorites);
   }
 
   const layers = document.getElementById("layers");
   layers.innerHTML = content;
   document.getElementById("menuSaved").innerHTML = group(
-    "Saved",
+    "saved",
     savedRows(),
     false,
   );
@@ -681,37 +586,42 @@ function byCount(items) {
 }
 
 // Routes stays open. Every other group starts collapsed
-function group(name, rows, collapsible = true) {
-  const icon = SECTION_ICONS[name]
-    ? `<span class="material-symbols-outlined" aria-hidden="true">${SECTION_ICONS[name]}</span>`
+function group(id, rows, collapsible = true) {
+  const name = t(`section.${id}`);
+  const icon = SECTION_ICONS[id]
+    ? `<span class="material-symbols-outlined" aria-hidden="true">${SECTION_ICONS[id]}</span>`
     : "";
   const badge = '<span class="badge" hidden></span>';
 
   if (!collapsible) {
-    return `<section class="group"><h2>${icon}${name}${badge}</h2>${rows}</section>`;
+    return `<section class="group" data-section="${id}"><h2>${icon}${name}${badge}</h2>${rows}</section>`;
   }
 
-  return `<details class="group"><summary><h2>${icon}${name}${badge}</h2><span class="material-symbols-outlined">chevron_right</span></summary>${rows}</details>`;
+  return `<details class="group" data-section="${id}"><summary><h2>${icon}${name}${badge}</h2><span class="material-symbols-outlined">chevron_right</span></summary>${rows}</details>`;
 }
 
 function activityRow(activity) {
   const chips = LEVELS.map(
     (level) =>
-      `<button type="button" class="chip" data-layer="${activity.id}.${level.id}" aria-pressed="false">${level.name}<span class="chip-count">${activity.ids[level.id].length}</span></button>`,
+      `<button type="button" class="chip" data-layer="${activity.id}.${level.id}" aria-pressed="false">${t(`level.${level.id}`)}<span class="chip-count">${activity.ids[level.id].length}</span></button>`,
   ).join("");
 
   let content = `<div class="row" style="--color:${cssColor(activity.colors)}">`;
-  content += `<div class="row-head"><span class="swatch swatch-line"></span><span class="row-name">${activity.name}</span><span class="row-count" data-count="${activity.id}"></span></div>`;
-  content += `<div class="chips" role="group" aria-label="${activity.name} routes">${chips}</div>`;
+  content += `<div class="row-head"><span class="swatch swatch-line"></span><span class="row-name">${t(`activity.${activity.id}`)}</span><span class="row-count" data-count="${activity.id}"></span></div>`;
+  content += `<div class="chips" role="group" aria-label="${t(`activity.${activity.id}.chips`)}">${chips}</div>`;
   content += `<div class="filters" data-filters="${activity.id}" hidden>`;
-  content += rangeFilter(`filter-${activity.id}-length`, "Length", "km");
-  content += rangeFilter(`filter-${activity.id}-climb`, "Ascent", "m");
+  content += rangeFilter(
+    `filter-${activity.id}-length`,
+    t("filter.length"),
+    "km",
+  );
+  content += rangeFilter(`filter-${activity.id}-climb`, t("stat.ascent"), "m");
 
   if (activity.grades) {
-    content += gradeFilter(activity, "grade", "Difficulty", activity.grades);
+    content += gradeFilter(activity, "grade", activity.grades);
   }
 
-  content += gradeFilter(activity, "fitness", "Fitness", Object.keys(GRADES));
+  content += gradeFilter(activity, "fitness", GRADES);
   content += "</div></div>";
 
   return content;
@@ -720,7 +630,7 @@ function activityRow(activity) {
 function placeRow(place) {
   return toggleRow(
     place.id,
-    place.name,
+    t(`place.${place.id}.name`),
     iconSwatch(place.icon),
     GROUP_COLORS[place.group],
   );
@@ -738,24 +648,24 @@ function iconSwatch(icon) {
 
 function rangeFilter(id, label, unit) {
   let content = `<div class="range"><span>${label}</span>`;
-  content += `<input type="number" min="0" id="${id}Min" placeholder="Min" aria-label="${label} minimum in ${unit}">`;
+  content += `<input type="number" min="0" id="${id}Min" placeholder="${t("filter.min")}" aria-label="${t("filter.minLabel", { label, unit })}">`;
   content += '<span class="range-dash">–</span>';
-  content += `<input type="number" min="0" id="${id}Max" placeholder="Max" aria-label="${label} maximum in ${unit}">`;
+  content += `<input type="number" min="0" id="${id}Max" placeholder="${t("filter.max")}" aria-label="${t("filter.maxLabel", { label, unit })}">`;
   content += `<span>${unit}</span></div>`;
 
   return content;
 }
 
-// No data-layer attribute, so these chips filter routes instead of turning a layer on
-function gradeFilter(activity, name, label, grades) {
+// No data-layer attribute, so these chips filter routes instead of turning a layer on. name is grade or fitness
+function gradeFilter(activity, name, grades) {
   const chips = grades
     .map(
       (grade) =>
-        `<button type="button" class="chip" data-grade-filter="${activity.id}-${name}" data-grade="${grade}" aria-pressed="false">${GRADES[grade]}</button>`,
+        `<button type="button" class="chip" data-grade-filter="${activity.id}-${name}" data-grade="${grade}" aria-pressed="false">${t(`grade.${grade}`)}</button>`,
     )
     .join("");
 
-  return `<div class="range"><span>${label}</span><div class="range-chips" role="group" aria-label="${activity.name} ${label.toLowerCase()}">${chips}</div></div>`;
+  return `<div class="range"><span>${t(`filter.${name}`)}</span><div class="range-chips" role="group" aria-label="${t(`filter.${activity.id}.${name}`)}">${chips}</div></div>`;
 }
 
 function toggleLayer(button) {
@@ -891,14 +801,14 @@ function updateCounts(counts) {
     const count = counts[element.dataset.count];
 
     if (count) {
-      const shown = count.shown.toLocaleString();
+      const shown = formatNumber(count.shown);
       element.textContent =
         count.shown < count.total
-          ? `${shown} of ${count.total.toLocaleString()}`
+          ? t("count.of", { shown, total: formatNumber(count.total) })
           : shown;
       element.classList.add("active");
     } else {
-      element.textContent = rowTotal(element.dataset.count).toLocaleString();
+      element.textContent = formatNumber(rowTotal(element.dataset.count));
       element.classList.remove("active");
     }
   }
@@ -985,14 +895,14 @@ function updateProgress() {
     bar.style.width = `${percent}%`;
     progress.setAttribute("aria-valuenow", percent);
     progress.classList.add("loading");
-    setStatus("Loading map data");
+    setStatus(t("status.loading"));
   } else {
     bar.style.width = "100%";
     progress.setAttribute("aria-valuenow", 100);
     progress.classList.remove("loading");
     progressTotal = 0;
     progressDone = 0;
-    setStatus("Map data loaded");
+    setStatus(t("status.loaded"));
   }
 }
 
@@ -1115,7 +1025,7 @@ function buildOsmPlaces(url, json, place) {
       json: entry,
       kind: "osm",
       place: place,
-      label: entry.name ?? place.label,
+      label: entry.name ?? t(`place.${place.id}.label`),
       position: position,
       bounds: around(position, 0.1),
       gallery: [],
@@ -1181,7 +1091,7 @@ function renderCluster(id, count, position, index) {
   const marker = new google.maps.marker.AdvancedMarkerElement({
     position: position,
     content: content,
-    title: `${count} places, click to zoom in`,
+    title: t("cluster.title", { count: formatNumber(count) }),
     zIndex: 1000 + count,
     gmpClickable: true,
   });
@@ -1484,8 +1394,7 @@ function selectItem(item, source = "map") {
 
   track("select_content", {
     content_type: contentType(item),
-    // The name of an uploaded file is the user's own, so it is not sent
-    content_id: item.kind === "upload" ? "upload" : item.label,
+    content_id: trackLabel(item),
     source: source,
   });
 
@@ -1579,8 +1488,7 @@ function sharedItemBuilder(type, url) {
 }
 
 function detailsContent(item) {
-  let content =
-    '<button type="button" class="details-close" data-action="close" aria-label="Close details"><span class="material-symbols-outlined">close</span></button>';
+  let content = `<button type="button" class="details-close" data-action="close" aria-label="${t("details.close")}"><span class="material-symbols-outlined">close</span></button>`;
   content += `<div class="details-scroll">${gallerySection(item)}<div class="details-body">`;
 
   if (item.kind === "route") {
@@ -1601,10 +1509,10 @@ function detailsContent(item) {
 function routeDetails(item) {
   const properties = item.json.properties;
   const badge = safeUrl(properties.logo)
-    ? `<img class="details-logo" src="${escapeHtml(properties.logo)}" alt="Route ${properties.r_number}">`
+    ? `<img class="details-logo" src="${escapeHtml(properties.logo)}" alt="${t("route.logo", { number: properties.r_number })}">`
     : plateBadge(item);
 
-  let content = `<div class="details-kind">${badge}${item.level.name} ${item.activity.noun}</div>`;
+  let content = `<div class="details-kind">${badge}${t(`kind.${item.activity.id}.${item.level.id}`)}</div>`;
   content += `<h2 class="details-title">${escapeHtml(properties.title)}</h2>`;
 
   if (properties.start && properties.end) {
@@ -1614,28 +1522,32 @@ function routeDetails(item) {
   content += actions([
     shareAction(),
     saveAction(item),
-    '<button type="button" class="action" data-action="download"><span class="material-symbols-outlined">download</span>Download GPX</button>',
+    `<button type="button" class="action" data-action="download"><span class="material-symbols-outlined">download</span>${t("action.downloadGpx")}</button>`,
     externalAction(
       `https://www.schweizmobil.ch/en/${item.type}-in-switzerland/route-${properties.r_number}`,
       "SchweizMobil",
     ),
   ]);
 
-  let stats = stat("Distance", item.length, "km");
-  stats += stat("Ascent", properties.height_difference.toLocaleString(), "m");
+  let stats = stat(t("stat.distance"), item.length, "km");
   stats += stat(
-    "Descent",
-    properties.height_difference_back.toLocaleString(),
+    t("stat.ascent"),
+    formatNumber(properties.height_difference),
+    "m",
+  );
+  stats += stat(
+    t("stat.descent"),
+    formatNumber(properties.height_difference_back),
     "m",
   );
 
   if (typeof properties.hiking_time === "number") {
-    stats += stat("Hiking time", duration(properties.hiking_time), "");
+    stats += stat(t("stat.hikingTime"), duration(properties.hiking_time), "");
   }
 
   if (typeof properties.length_asphalt === "number") {
     stats += stat(
-      "Asphalt",
+      t("stat.asphalt"),
       parseInt((properties.length_asphalt * 100) / item.length),
       "%",
     );
@@ -1645,16 +1557,18 @@ function routeDetails(item) {
 
   let facts = "";
 
-  if (GRADES[item.grade]) {
-    const trail = item.activity.trails?.[item.grade];
+  if (GRADES.includes(item.grade)) {
+    const grade = t(`grade.${item.grade}`);
     facts += fact(
-      "Difficulty",
-      trail ? `${GRADES[item.grade]} · ${trail}` : GRADES[item.grade],
+      t("filter.grade"),
+      item.activity.trails?.includes(item.grade)
+        ? `${grade} · ${t(`trail.${item.grade}`)}`
+        : grade,
     );
   }
 
-  if (GRADES[item.fitness]) {
-    facts += fact("Fitness", GRADES[item.fitness]);
+  if (GRADES.includes(item.fitness)) {
+    facts += fact(t("filter.fitness"), t(`grade.${item.fitness}`));
   }
 
   // Compared as text, so float noise in the hours doesn't count as a difference
@@ -1662,7 +1576,10 @@ function routeDetails(item) {
     typeof properties.hiking_time_back === "number" &&
     duration(properties.hiking_time_back) !== duration(properties.hiking_time)
   ) {
-    facts += fact("Other direction", duration(properties.hiking_time_back));
+    facts += fact(
+      t("fact.otherDirection"),
+      duration(properties.hiking_time_back),
+    );
   }
 
   if (facts) {
@@ -1674,11 +1591,11 @@ function routeDetails(item) {
   content += profileSection(item);
 
   if (properties.abstract) {
-    content += `<p class="details-lead">${properties.abstract}</p>`;
+    content += `<p class="details-lead" lang="en">${properties.abstract}</p>`;
   }
 
   if (properties.description) {
-    content += `<div class="details-description">${properties.description}</div>`;
+    content += `<div class="details-description" lang="en">${properties.description}</div>`;
   }
 
   return content;
@@ -1702,7 +1619,7 @@ function placeDetails(item) {
     baseLink = "https://schweizmobil.ch/en/accommodation-";
   }
 
-  let content = `<div class="details-kind" style="--color:${GROUP_COLORS[item.place.group]}">${iconSwatch(item.place.icon)}${item.place.label}</div>`;
+  let content = `<div class="details-kind" style="--color:${GROUP_COLORS[item.place.group]}">${iconSwatch(item.place.icon)}${t(`place.${item.place.id}.label`)}</div>`;
   content += `<h2 class="details-title">${escapeHtml(item.label)}</h2>`;
 
   let external;
@@ -1721,11 +1638,11 @@ function placeDetails(item) {
   content += actions([shareAction(), saveAction(item), external]);
 
   if (properties.abstract) {
-    content += `<p class="details-lead">${properties.abstract}</p>`;
+    content += `<p class="details-lead" lang="en">${properties.abstract}</p>`;
   }
 
   if (properties.description) {
-    content += `<div class="details-description">${properties.description}</div>`;
+    content += `<div class="details-description" lang="en">${properties.description}</div>`;
   }
 
   const contact = [];
@@ -1734,7 +1651,7 @@ function placeDetails(item) {
     contact.push(
       contactLine(
         "location_on",
-        `<a href="https://www.google.com/maps/place/${item.position.lat},${item.position.lng}" target="_blank" rel="noopener noreferrer">Show on Google Maps</a>`,
+        `<a href="https://www.google.com/maps/place/${item.position.lat},${item.position.lng}" target="_blank" rel="noopener noreferrer">${t("place.showOnGoogleMaps")}</a>`,
       ),
     );
   }
@@ -1792,7 +1709,7 @@ function placeDetails(item) {
 }
 
 function chargingStationDetails(item) {
-  let content = `<div class="details-kind" style="--color:${GROUP_COLORS[item.place.group]}">${iconSwatch(item.place.icon)}${item.place.label}</div>`;
+  let content = `<div class="details-kind" style="--color:${GROUP_COLORS[item.place.group]}">${iconSwatch(item.place.icon)}${t(`place.${item.place.id}.label`)}</div>`;
   content += `<h2 class="details-title">${item.label}</h2>`;
   content += actions([
     saveAction(item),
@@ -1813,7 +1730,7 @@ function chargingStationDetails(item) {
 function osmDetails(item) {
   const tags = item.json.tags;
 
-  let content = `<div class="details-kind" style="--color:${GROUP_COLORS[item.place.group]}">${iconSwatch(item.place.icon)}${item.place.label}</div>`;
+  let content = `<div class="details-kind" style="--color:${GROUP_COLORS[item.place.group]}">${iconSwatch(item.place.icon)}${t(`place.${item.place.id}.label`)}</div>`;
   content += `<h2 class="details-title">${escapeHtml(item.label)}</h2>`;
 
   content += actions([
@@ -1837,11 +1754,15 @@ function osmDetails(item) {
   const capacity = parseInt(tags.capacity);
 
   if (Number.isFinite(elevation)) {
-    stats += stat("Elevation", Math.round(elevation).toLocaleString(), "m");
+    stats += stat(
+      t("stat.elevation"),
+      formatNumber(Math.round(elevation)),
+      "m",
+    );
   }
 
   if (Number.isFinite(capacity)) {
-    stats += stat("Capacity", capacity.toLocaleString(), "");
+    stats += stat(t("stat.capacity"), formatNumber(capacity), "");
   }
 
   if (stats) {
@@ -1874,16 +1795,23 @@ function osmDetails(item) {
 
   if (tags.operator) {
     contact.push(
-      contactLine("info", `Operated by ${escapeHtml(tags.operator)}`),
+      contactLine(
+        "info",
+        t("osm.operator", { operator: escapeHtml(tags.operator) }),
+      ),
     );
   }
 
   if (tags.fee) {
-    contact.push(contactLine("info", `Fee: ${escapeHtml(tags.fee)}`));
+    contact.push(
+      contactLine("info", t("osm.fee", { fee: osmValue(tags.fee) })),
+    );
   }
 
   if (tags.access) {
-    contact.push(contactLine("info", `Access: ${escapeHtml(tags.access)}`));
+    contact.push(
+      contactLine("info", t("osm.access", { access: osmValue(tags.access) })),
+    );
   }
 
   if (contact.length > 0) {
@@ -1891,6 +1819,13 @@ function osmDetails(item) {
   }
 
   return content;
+}
+
+// Yes and no, nearly every fee and most access values, are translated. Any other value is shown as OpenStreetMap has it
+function osmValue(value) {
+  return value === "yes" || value === "no"
+    ? t(`osm.${value}`)
+    : escapeHtml(value);
 }
 
 function escapeHtml(value) {
@@ -1913,14 +1848,14 @@ function actions(buttons) {
 }
 
 function shareAction() {
-  return '<button type="button" class="action" data-action="share"><span class="material-symbols-outlined">link</span><span class="action-label">Copy link</span></button>';
+  return `<button type="button" class="action" data-action="share"><span class="material-symbols-outlined">link</span><span class="action-label">${t("action.copyLink")}</span></button>`;
 }
 
 // The visible label changes, so there is no aria-pressed: a toggle's name must not change while it is used
 function saveAction(item) {
   const isSaved = saved.has(item.url);
 
-  return `<button type="button" class="action${isSaved ? " saved" : ""}" data-action="save"><span class="material-symbols-outlined">star</span><span class="action-label">${isSaved ? "Saved" : "Save"}</span></button>`;
+  return `<button type="button" class="action${isSaved ? " saved" : ""}" data-action="save"><span class="material-symbols-outlined">star</span><span class="action-label">${t(isSaved ? "action.saved" : "action.save")}</span></button>`;
 }
 
 function externalAction(url, label) {
@@ -1935,9 +1870,14 @@ function stat(label, value, unit) {
 function routeEnds(properties) {
   const start = properties.start.trim();
   const end = properties.end.trim();
-  const ends = start === end ? `Loop from ${start}` : `${start} to ${end}`;
+  const ends =
+    start === end
+      ? t("route.loop", { start })
+      : t("route.ends", { start, end });
 
-  return properties.via ? `${ends} via ${properties.via.trim()}` : ends;
+  return properties.via
+    ? t("route.via", { route: ends, via: properties.via.trim() })
+    : ends;
 }
 
 // Hiking times are stored in hours, in steps of 5 minutes: 5.4166665 is 5 h 25 min
@@ -1974,10 +1914,8 @@ function gallerySection(item) {
   let content = `<div class="details-media"><img id="galleryImage" src="${escapeHtml(gallery[0].src)}" alt="${escapeHtml(item.label)}">`;
 
   if (gallery.length > 1) {
-    content +=
-      '<button type="button" class="media-button previous" data-action="previous" aria-label="Previous photo"><span class="material-symbols-outlined">chevron_left</span></button>';
-    content +=
-      '<button type="button" class="media-button next" data-action="next" aria-label="Next photo"><span class="material-symbols-outlined">chevron_right</span></button>';
+    content += `<button type="button" class="media-button previous" data-action="previous" aria-label="${t("gallery.previous")}"><span class="material-symbols-outlined">chevron_left</span></button>`;
+    content += `<button type="button" class="media-button next" data-action="next" aria-label="${t("gallery.next")}"><span class="material-symbols-outlined">chevron_right</span></button>`;
     content += `<span class="media-counter" id="galleryIndex">1 / ${gallery.length}</span>`;
   }
 
@@ -2059,14 +1997,14 @@ function copyLink(button) {
       track("share", {
         method: "copy_link",
         content_type: contentType(item),
-        item_id: item.label,
+        item_id: trackLabel(item),
       });
 
-      label.textContent = "Link copied";
+      label.textContent = t("action.linkCopied");
       icon.textContent = "check";
 
       setTimeout(() => {
-        label.textContent = "Copy link";
+        label.textContent = t("action.copyLink");
         icon.textContent = "link";
       }, 2000);
     },
@@ -2188,14 +2126,17 @@ function drawPhotoSpots() {
     const marker = photo.marker;
     const count = gallery.length;
     const shown = i === galleryIndex;
-    const key = `${i}|${count}|${shown}`;
+    const key = `${i}|${count}|${shown}|${language}`;
 
     if (photo.key !== key) {
       photo.key = key;
       // A label for screen readers only: Google turns a title into a browser tooltip as well
       marker.setAttribute(
         "aria-label",
-        `Photo ${i + 1} of ${count}${shown ? ", on show" : ""}`,
+        t(shown ? "photo.titleShown" : "photo.title", {
+          index: i + 1,
+          total: count,
+        }),
       );
       // Where pins overlap, the earlier photo wins, and the pin of the photo on show is always drawn
       marker.zIndex = shown ? PHOTO_ZINDEX + 1 : PHOTO_ZINDEX - i;
@@ -2230,7 +2171,9 @@ function showSpotPhoto(photo) {
   showPhoto();
   // The photo is at the top of the panel, which the user may have scrolled down
   document.querySelector(".details-scroll").scrollTop = 0;
-  setStatus(`Photo ${index + 1} of ${selected.gallery.length}`);
+  setStatus(
+    t("photo.title", { index: index + 1, total: selected.gallery.length }),
+  );
 }
 
 // Elevation profile
@@ -2330,7 +2273,7 @@ function profileY(profile, height) {
 }
 
 function profileKilometers(value) {
-  return value.toLocaleString(undefined, {
+  return formatNumber(value, {
     minimumFractionDigits: 1,
     maximumFractionDigits: 1,
   });
@@ -2343,8 +2286,8 @@ function profileSection(item) {
     return "";
   }
 
-  const min = Math.round(profile.min).toLocaleString();
-  const max = Math.round(profile.max).toLocaleString();
+  const min = formatNumber(Math.round(profile.min));
+  const max = formatNumber(Math.round(profile.max));
   const length = profileKilometers(profile.length);
   const points = profile.points;
   const line = points
@@ -2358,15 +2301,15 @@ function profileSection(item) {
   const area = `${line}L${end},${PROFILE.bottom}L${start},${PROFILE.bottom}Z`;
 
   let content = `<div class="profile" style="--color:${item.color}">`;
-  content += `<div class="profile-head"><span>Elevation</span><span class="profile-readout" id="profileReadout" data-default="${min}–${max} m">${min}–${max} m</span></div>`;
-  content += `<svg class="profile-chart" viewBox="0 0 ${PROFILE.width} ${PROFILE.height}" role="img" aria-label="Elevation profile, ${min} to ${max} m over ${length} km">`;
+  content += `<div class="profile-head"><span>${t("profile.title")}</span><span class="profile-readout" id="profileReadout" data-default="${min}–${max} m">${min}–${max} m</span></div>`;
+  content += `<svg class="profile-chart" viewBox="0 0 ${PROFILE.width} ${PROFILE.height}" role="img" aria-label="${t("profile.label", { low: min, high: max, length })}">`;
   content += `<line class="profile-grid" x1="0" y1="${PROFILE.top}" x2="${PROFILE.width}" y2="${PROFILE.top}"/>`;
   content += `<line class="profile-grid" x1="0" y1="${PROFILE.bottom}" x2="${PROFILE.width}" y2="${PROFILE.bottom}"/>`;
   content += `<path class="profile-area" d="${area}"/>`;
   content += `<path class="profile-line" d="${line}"/>`;
   // Inside the chart, so neither height is cut off at its edge
-  content += `<text class="profile-label" x="0" y="${PROFILE.top + 12}">${profile.high.toLocaleString()} m</text>`;
-  content += `<text class="profile-label" x="0" y="${PROFILE.bottom - 4}">${profile.low.toLocaleString()} m</text>`;
+  content += `<text class="profile-label" x="0" y="${PROFILE.top + 12}">${formatNumber(profile.high)} m</text>`;
+  content += `<text class="profile-label" x="0" y="${PROFILE.bottom - 4}">${formatNumber(profile.low)} m</text>`;
   content += `<text class="profile-label" x="0" y="${PROFILE.height - 2}">0</text>`;
   content += `<text class="profile-label" x="${PROFILE.width}" y="${PROFILE.height - 2}" text-anchor="end">${length} km</text>`;
   content += `<line class="profile-cursor" id="profileCursor" y1="${PROFILE.top}" y2="${PROFILE.bottom}" visibility="hidden"/>`;
@@ -2412,7 +2355,7 @@ function showProfilePoint(chart, event) {
   dot.setAttribute("visibility", "visible");
 
   document.getElementById("profileReadout").textContent =
-    `${profileKilometers(nearest.distance)} km · ${Math.round(nearest.height).toLocaleString()} m`;
+    `${profileKilometers(nearest.distance)} km · ${formatNumber(Math.round(nearest.height))} m`;
 
   // Above the selected pin (2000), the bubbles (1000 plus their count) and the photo pins
   if (!profileMarker) {
@@ -2465,6 +2408,12 @@ function bindControls() {
       setMapType(button.dataset.mapType);
       scheduleAddress();
     });
+  }
+
+  for (const button of document.querySelectorAll("[data-language]")) {
+    button.addEventListener("click", () =>
+      setLanguage(button.dataset.language),
+    );
   }
 
   // Hidden with the attribute, not only by CSS, so opening the menu doesn't focus its invisible first button
@@ -2735,9 +2684,9 @@ function confirmClearAll() {
   const rows = pressedRows(document.getElementById("layers"));
 
   confirmAction(
-    "Clear the map?",
-    `Turns off ${rows} ${rows === 1 ? "row" : "rows"} and empties the route filters.`,
-    "Clear all",
+    t("clear.title"),
+    tCount("clear.text", rows),
+    t("clear.button"),
     clearAll,
   );
 }
@@ -2780,17 +2729,23 @@ function savedRows() {
   return (
     savedRow(
       "saved.routes",
-      "Routes",
+      t("saved.routes"),
+      t("saved.removeRoutes"),
       '<span class="swatch swatch-line"></span>',
     ) +
-    savedRow("saved.places", "Places", iconSwatch("location_on")) +
-    '<p class="saved-empty" id="savedEmpty">Save a route or place from its details to keep it here.</p>'
+    savedRow(
+      "saved.places",
+      t("saved.places"),
+      t("saved.removePlaces"),
+      iconSwatch("location_on"),
+    ) +
+    `<p class="saved-empty" id="savedEmpty">${t("saved.empty")}</p>`
   );
 }
 
 // A button can't hold another, so the delete button sits beside the row's toggle. It is enabled by updateSavedLayers
-function savedRow(layer, name, swatch) {
-  return `<div class="saved-row">${toggleRow(layer, name, swatch, GROUP_COLORS.explore)}<button type="button" class="saved-delete" data-saved-delete="${layer}" aria-label="Remove all saved ${name.toLowerCase()}" disabled><span class="material-symbols-outlined">delete</span></button></div>`;
+function savedRow(layer, name, removeLabel, swatch) {
+  return `<div class="saved-row">${toggleRow(layer, name, swatch, GROUP_COLORS.explore)}<button type="button" class="saved-delete" data-saved-delete="${layer}" aria-label="${removeLabel}" disabled><span class="material-symbols-outlined">delete</span></button></div>`;
 }
 
 // Route files sit in a folder named after their activity
@@ -2887,11 +2842,11 @@ function toggleSaved(button) {
   writeSaved();
   track(save ? "save_item" : "unsave_item", {
     content_type: contentType(item),
-    item_id: item.label,
+    item_id: trackLabel(item),
   });
 
   showSaved(button, save);
-  setStatus(save ? "Saved" : "Removed from saved");
+  setStatus(t(save ? "status.saved" : "status.unsaved"));
 
   updateSavedLayers();
   loadSavedFiles();
@@ -2912,19 +2867,21 @@ function loadSavedFiles() {
 // Changed in place, so the gallery keeps its photo
 function showSaved(button, isSaved) {
   button.classList.toggle("saved", isSaved);
-  button.querySelector(".action-label").textContent = isSaved
-    ? "Saved"
-    : "Save";
+  button.querySelector(".action-label").textContent = t(
+    isSaved ? "action.saved" : "action.save",
+  );
 }
 
 function confirmRemoveSaved(row) {
-  const count = LAYERS[row].count;
-  const kind = row === "saved.routes" ? "route" : "place";
+  const title =
+    row === "saved.routes"
+      ? "saved.removeRoutesTitle"
+      : "saved.removePlacesTitle";
 
   confirmAction(
-    `Remove ${count} saved ${kind}${count === 1 ? "" : "s"}?`,
-    "This can't be undone.",
-    "Remove",
+    tCount(title, LAYERS[row].count),
+    t("saved.removeText"),
+    t("action.remove"),
     () => removeSaved(row),
   );
 }
@@ -3076,7 +3033,7 @@ async function loadUpload(file) {
   const parsed = parseGpx(await file.text().catch(() => ""), file.name);
 
   if (typeof parsed === "string") {
-    showUploadError(parsed);
+    showUploadError(t(parsed));
     return;
   }
 
@@ -3099,7 +3056,7 @@ function showUploadError(message) {
   error.hidden = !message;
 }
 
-// Returns the track, or the message to show when the file has none
+// Returns the track, or the key of the message to show when the file has none
 function parseGpx(text, filename) {
   const xml = new DOMParser().parseFromString(text, "application/xml");
 
@@ -3107,7 +3064,7 @@ function parseGpx(text, filename) {
     xml.querySelector("parsererror") ||
     xml.documentElement.localName !== "gpx"
   ) {
-    return "This is not a GPX file. Choose a .gpx file from a GPS app or route planner.";
+    return "upload.notGpx";
   }
 
   const track = xml.getElementsByTagName("trk")[0];
@@ -3147,7 +3104,7 @@ function parseGpx(text, filename) {
   }
 
   if (paths.length === 0) {
-    return "This GPX file has no track or route with at least two points.";
+    return "upload.noTrack";
   }
 
   const owner = track ?? route;
@@ -3216,7 +3173,7 @@ function buildUpload(parsed) {
     content.className = `track-end track-end-${name}`;
 
     const marker = createMarker(position, content, item);
-    marker.title = `${name === "start" ? "Start" : "End"} of ${item.label}`;
+    marker.title = t(`upload.${name}`, { name: item.label });
     marker.zIndex = 900;
     marker.map = map;
     item.markers.push(marker);
@@ -3300,15 +3257,15 @@ function climbs(elevations) {
 }
 
 function uploadDetails(item) {
-  let content = `<div class="details-kind"><span class="swatch swatch-line" style="--color:${item.color}"></span>Your GPX track</div>`;
+  let content = `<div class="details-kind"><span class="swatch swatch-line" style="--color:${item.color}"></span>${t("upload.kind")}</div>`;
   content += `<h2 class="details-title">${escapeHtml(item.label)}</h2>`;
   content += actions([
-    '<button type="button" class="action" data-action="remove-upload"><span class="material-symbols-outlined">delete</span>Remove</button>',
+    `<button type="button" class="action" data-action="remove-upload"><span class="material-symbols-outlined">delete</span>${t("action.remove")}</button>`,
   ]);
 
   let stats = stat(
-    "Distance",
-    item.length.toLocaleString(undefined, {
+    t("stat.distance"),
+    formatNumber(item.length, {
       minimumFractionDigits: 1,
       maximumFractionDigits: 1,
     }),
@@ -3316,8 +3273,8 @@ function uploadDetails(item) {
   );
 
   if (item.ascent !== undefined) {
-    stats += stat("Ascent", item.ascent.toLocaleString(), "m");
-    stats += stat("Descent", item.descent.toLocaleString(), "m");
+    stats += stat(t("stat.ascent"), formatNumber(item.ascent), "m");
+    stats += stat(t("stat.descent"), formatNumber(item.descent), "m");
   }
 
   return content + `<dl class="stats">${stats}</dl>` + profileSection(item);
@@ -3530,7 +3487,11 @@ function writeAddress() {
     params.set("maptype", map.getMapTypeId());
   }
 
-  // Commas and slashes mean nothing in a query, so they stay readable
+  replaceQuery(params);
+}
+
+// Commas and slashes mean nothing in a query, so they stay readable
+function replaceQuery(params) {
   const search = params.toString().replace(/%2C/g, ",").replace(/%2F/g, "/");
   const address = search ? `${location.pathname}?${search}` : location.pathname;
 
@@ -3539,11 +3500,189 @@ function writeAddress() {
   }
 }
 
+// Languages
+
+// The text of key in the interface language, with each {name} filled from params. A missing translation shows the English
+function t(key, params = {}) {
+  const text = STRINGS[key]?.[language] ?? STRINGS[key]?.en ?? key;
+
+  return text.replace(/\{(\w+)\}/g, (match, name) => params[name] ?? match);
+}
+
+// The text of key for a number of things: key.one or key.other, as the language's plural rules pick, with {count} filled in
+function tCount(key, count) {
+  const form = new Intl.PluralRules(LANGUAGE_TAGS[language]).select(count);
+  const variant = STRINGS[`${key}.${form}`] ? form : "other";
+
+  return t(`${key}.${variant}`, { count: formatNumber(count) });
+}
+
+// Numbers in the interface language's format: Swiss for German, French and Italian, Spain's and Portugal's for Spanish and Portuguese. English keeps the browser's own format, as before
+function formatNumber(value, options) {
+  return value.toLocaleString(
+    language === "en" ? undefined : LANGUAGE_TAGS[language],
+    options,
+  );
+}
+
+// The text written in index.html, which carries its keys in data-i18n (text) and data-i18n-label (aria-label)
+function translatePage() {
+  document.documentElement.lang = LANGUAGE_TAGS[language];
+  document.title = t("page.title");
+
+  for (const element of document.querySelectorAll("[data-i18n]")) {
+    element.textContent = t(element.dataset.i18n);
+  }
+
+  for (const element of document.querySelectorAll("[data-i18n-label]")) {
+    element.setAttribute("aria-label", t(element.dataset.i18nLabel));
+  }
+
+  for (const button of document.querySelectorAll("[data-language]")) {
+    button.setAttribute("aria-pressed", button.dataset.language === language);
+  }
+}
+
+// Everything changes in place, so rows, filters, the open item, the map and an uploaded track all stay. Google's own map labels change at the next visit
+function setLanguage(code) {
+  if (code === language || !Object.hasOwn(LANGUAGE_TAGS, code)) {
+    return;
+  }
+
+  const previous = language;
+  language = code;
+
+  try {
+    localStorage.setItem(LANGUAGE_KEY, code);
+  } catch (error) {
+    // Blocked storage: the choice lasts until the page closes
+  }
+
+  // A lang in the address would win over the new choice at the next load
+  const params = new URLSearchParams(location.search);
+
+  if (params.has("lang")) {
+    params.delete("lang");
+    replaceQuery(params);
+  }
+
+  translatePage();
+  rebuildPanel();
+  refreshMapText();
+
+  if (selected) {
+    refreshDetails();
+  }
+
+  track("language_change", { previous_language: previous });
+}
+
+// The panel is built again with what the visitor set in it: the filters, the open sections and the scroll
+function rebuildPanel() {
+  const layers = document.getElementById("layers");
+  const values = [...layers.querySelectorAll("input")].map((input) => [
+    input.id,
+    input.value,
+  ]);
+  const grades = [
+    ...layers.querySelectorAll('[data-grade-filter][aria-pressed="true"]'),
+  ].map((chip) => [chip.dataset.gradeFilter, chip.dataset.grade]);
+  const open = [...document.querySelectorAll("details.group[open]")].map(
+    (details) => details.dataset.section,
+  );
+  const scroll = layers.scrollTop;
+
+  buildPanel();
+
+  // Setting a value or a pressed state fires no event, so the shared item stays on the map
+  for (const [id, value] of values) {
+    document.getElementById(id).value = value;
+  }
+
+  for (const [filter, grade] of grades) {
+    layers
+      .querySelector(`[data-grade-filter="${filter}"][data-grade="${grade}"]`)
+      .setAttribute("aria-pressed", "true");
+  }
+
+  for (const section of open) {
+    document.querySelector(`details[data-section="${section}"]`).open = true;
+  }
+
+  // Page-wide, as the Saved rows in the menu are built again too
+  for (const button of document.querySelectorAll("[data-layer]")) {
+    button.setAttribute("aria-pressed", activeLayers.has(button.dataset.layer));
+  }
+
+  // The error was announced when it appeared, and isn't repeated in the new language
+  showUploadError(undefined);
+  layersChanged();
+
+  // Once the filter boxes are shown again, or the panel would be too short to scroll that far
+  layers.scrollTop = scroll;
+}
+
+// The details are written again at the same photo and scroll. Focus stays on the language button
+function refreshDetails() {
+  const details = document.getElementById("details");
+  const scroll = details.querySelector(".details-scroll").scrollTop;
+
+  hideProfilePoint();
+  details.innerHTML = detailsContent(selected);
+
+  if (galleryIndex > 0) {
+    showPhoto();
+  }
+
+  details.querySelector(".details-scroll").scrollTop = scroll;
+  drawPhotoSpots();
+}
+
+// Map items keep the text they were made with, so the titles that are interface text are set again
+function refreshMapText() {
+  for (const items of files.values()) {
+    for (const item of items) {
+      if (item.kind === "osm" && !item.json.name) {
+        item.label = t(`place.${item.place.id}.label`);
+
+        if (item.marker) {
+          item.marker.title = item.label;
+        }
+      }
+    }
+  }
+
+  // The first marker is the start
+  uploaded?.markers.forEach((marker, i) => {
+    marker.title = t(i === 0 ? "upload.start" : "upload.end", {
+      name: uploaded.label,
+    });
+  });
+
+  // New keys make drawPins create every bubble again, with the new title
+  pointIndexVersion++;
+  drawPins();
+}
+
 // Analytics
 
 // Set by the Firebase snippet in index.html, and missing when analytics is blocked
 function track(name, params) {
-  window.trackEvent?.(name, params);
+  window.trackEvent?.(name, { ...params, ui_language: language });
+}
+
+// The item's name for reports. An unnamed OpenStreetMap place is named by its kind, sent in English so reports don't split by language
+function trackLabel(item) {
+  // The name of an uploaded file is the user's own, so it is not sent
+  if (item.kind === "upload") {
+    return "upload";
+  }
+
+  if (item.kind === "osm" && !item.json.name) {
+    return STRINGS[`place.${item.place.id}.label`].en;
+  }
+
+  return item.label;
 }
 
 // The address keeps the open item, so a reload or a step back to the site reopens it without anyone sharing a link
@@ -3597,7 +3736,7 @@ function around(position, gap) {
 }
 
 function download() {
-  track("gpx_download", { item_id: selected.label });
+  track("gpx_download", { item_id: trackLabel(selected) });
 
   const data = gpxData(selected.json);
   const filename = `${selected.json.properties.r_number} - ${selected.json.properties.title}.gpx`;

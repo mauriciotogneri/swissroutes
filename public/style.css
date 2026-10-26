@@ -611,11 +611,16 @@ body.has-details #map {
 
 /* Filters */
 
+/* One grid for all of an activity's filter rows, so the label column fits its longest label in any language and the rows still line up */
 .filters {
   display: grid;
-  gap: 6px;
+  grid-template-columns: max-content 1fr 10px 1fr 22px;
+  align-items: center;
+  gap: 6px 4px;
   margin-top: 10px;
   padding-left: 32px;
+  color: var(--ink-soft);
+  font-size: 12.5px;
 }
 
 .filters[hidden] {
@@ -623,12 +628,7 @@ body.has-details #map {
 }
 
 .range {
-  display: grid;
-  grid-template-columns: 58px 1fr 10px 1fr 22px;
-  align-items: center;
-  gap: 4px;
-  color: var(--ink-soft);
-  font-size: 12.5px;
+  display: contents;
 }
 
 .range input {
@@ -1259,8 +1259,14 @@ body.has-details .map-controls {
   background: var(--paper);
 }
 
+/* The six languages can be taller than a phone screen. Auto margins center the text but, unlike centering, never push its top out of reach */
 .notice {
   display: grid;
+  overflow-y: auto;
+}
+
+.notice > div {
+  margin: auto;
 }
 
 .notice > div,
@@ -1282,6 +1288,12 @@ body.has-details .map-controls {
   margin: 0;
   color: var(--ink-soft);
   font-size: 15px;
+}
+
+/* One block per language */
+.notice [lang] + [lang] {
+  margin-top: 24px;
+  border-top: 1px solid var(--rule);
 }
 
 .notice .cross,

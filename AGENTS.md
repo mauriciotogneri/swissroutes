@@ -17,14 +17,15 @@ The My Switzerland website, for looking places up by hand: https://www.myswitzer
 
 ## Folders
 
-| Folder          | Contents                                                                                                                                                                                                        | Written by                                                      | Deployed        |
-| :-------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------- | :-------------- |
-| `bin/`          | Download scripts and `ids-generator.js`. `helpers.js` holds the shared fetch, save and coordinate code                                                                                                          | —                                                               | No              |
-| `ids/`          | One JSON array of ids per layer, e.g. `ids/hiking/local.json`. Decides which data files the site shows                                                                                                          | The downloaders, except `ids/favorites/`, which is kept by hand | No              |
-| `public/data/`  | One JSON file per route or place: `public/data/<group>/<layer>/<id>.json`. OpenStreetMap layers are one file per type: `public/data/osm/<type>.json`                                                            | The downloaders (charging stations by hand)                     | Yes             |
-| `public/ids.js` | Generated `const <NAME>_IDS = [...]` constants, one per `ids/` file, plus `PLACE_COUNTS` (the counts of the OpenStreetMap and charging-station rows), `CHARGING_BOUNDS` and `ROUTE_COLORS` (each route's color) | `bin/ids-generator.js`                                          | Yes, gitignored |
-| `scripts/`      | `serve.sh` and `deploy.sh`, which both run `ids-generator.js` first                                                                                                                                             | —                                                               | No              |
-| `reference/`    | Files no code reads. `my-switzerland-categories.json` is a May-2024 snapshot of the My Switzerland categories and their ids                                                                                     | By hand                                                         | No              |
+| Folder              | Contents                                                                                                                                                                                                        | Written by                                                      | Deployed        |
+| :------------------ | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------- | :-------------- |
+| `bin/`              | Download scripts and `ids-generator.js`. `helpers.js` holds the shared fetch, save and coordinate code                                                                                                          | —                                                               | No              |
+| `ids/`              | One JSON array of ids per layer, e.g. `ids/hiking/local.json`. Decides which data files the site shows                                                                                                          | The downloaders, except `ids/favorites/`, which is kept by hand | No              |
+| `public/data/`      | One JSON file per route or place: `public/data/<group>/<layer>/<id>.json`. OpenStreetMap layers are one file per type: `public/data/osm/<type>.json`                                                            | The downloaders (charging stations by hand)                     | Yes             |
+| `public/ids.js`     | Generated `const <NAME>_IDS = [...]` constants, one per `ids/` file, plus `PLACE_COUNTS` (the counts of the OpenStreetMap and charging-station rows), `CHARGING_BOUNDS` and `ROUTE_COLORS` (each route's color) | `bin/ids-generator.js`                                          | Yes, gitignored |
+| `public/strings.js` | The interface text in English, Spanish, French, German, Italian and Portuguese, one entry per key                                                                                                               | By hand                                                         | Yes             |
+| `scripts/`          | `serve.sh` and `deploy.sh`, which both run `ids-generator.js` first                                                                                                                                             | —                                                               | No              |
+| `reference/`        | Files no code reads. `my-switzerland-categories.json` is a May-2024 snapshot of the My Switzerland categories and their ids                                                                                     | By hand                                                         | No              |
 
 ## Data flow
 
@@ -50,6 +51,14 @@ The downloaders convert SchweizMobil's Swiss grid coordinates (LV03) to latitude
 - Every route on the map has its own color from `ROUTE_PALETTE`: `ids-generator.js` picks it so routes of one activity that pass within about 500 m of each other differ, and writes it to `ROUTE_COLORS`. The activity colors only mark the menu rows. A data refresh can change which color a route gets.
 - The Google map can't change its color scheme after it is created, so the map and everything drawn on it keep the scheme the page opened with (`MAP_SCHEME`); a switch in the menu changes the panels at once and the map at the next visit.
 - The visitor's choice is in localStorage `swissroutes.theme` (`light` or `dark`; no key is Auto, which follows the system).
+
+## Languages
+
+- The interface is in English, Spanish (Spain), French, German, Italian and Portuguese (Portugal), in that order in the menu. Every text the site writes goes through `t()` in `script.js`, with an entry for all six languages in `public/strings.js`. Text in `index.html` carries its key in `data-i18n` (text) or `data-i18n-label` (aria-label). The no-JavaScript notice and `404.html` show all six languages at once.
+- Downloaded data is not translated: route and place titles, descriptions and OpenStreetMap values stay as downloaded (SchweizMobil and My Switzerland in English). Only OpenStreetMap's `yes` and `no` are translated.
+- The language comes from `?lang=` in the address (read, never written; the picker removes it), then localStorage `swissroutes.language`, then the browser's languages, else English. Numbers use the language's format (`formatNumber`): Swiss for German, French and Italian, Spain's and Portugal's for Spanish and Portuguese.
+- A switch changes everything in place, except Google's own map labels, which follow the language at the next visit.
+- A new OpenStreetMap type also needs `place.<type>.name` (its row) and `place.<type>.label` (one place) in `strings.js`, along with `bin/osm-downloader.js`, `bin/ids-generator.js` and `osmPlace`.
 
 ## Scripts
 
@@ -89,7 +98,7 @@ node bin/cleanup.js                     # deletes files of places that disappear
 - **My Switzerland places:** a 9-digit number (100000000–999999999) hashed from the place's own id. The script stops if two places in one layer would get the same number.
 - **Saved lists:** visitors' browsers keep each saved item's data file path, plus `#<OSM id>` for OpenStreetMap places and `#<coordinates>` for charging stations (localStorage `swissroutes.saved`). A changed id or path drops the item from their list, the same way it breaks share links.
 - Share links contain the data file path, so an id that changes breaks old links to that place.
-- Addresses also hold activity, level and row ids (`hiking=national`, `places=camping,drinkingwater`), the route filters (`hiking.length=5-20`, `hiking.difficulty=easy`) and the map type, so renaming an activity, a level, a `PLACES` id or an OpenStreetMap type breaks that part of old addresses.
+- Addresses also hold activity, level and row ids (`hiking=national`, `places=camping,drinkingwater`), the route filters (`hiking.length=5-20`, `hiking.difficulty=easy`) and the map type, so renaming an activity, a level, a `PLACES` id or an OpenStreetMap type breaks that part of old addresses. A `lang` in an address is read but never written.
 
 ## When a download fails
 
