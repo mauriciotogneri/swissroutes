@@ -18,7 +18,7 @@
    - Roadmap and terrain use Google's dark map. Hybrid is light only, per Google, so satellite looks the same in both themes.
    - Route lines, plates and pins use lighter colors that stand out on dark ground. A selected route's casing is dark instead of white. Place pins turn light with a dark rim.
 7. **Other pages.** The no-JavaScript notice follows the system. The "desktop only" notice and the 404 page follow the stored choice, then the system.
-8. **Old browsers.** Browsers older than spring 2024 (no CSS `light-dark()`) get today's light look, and the Theme row is hidden.
+8. **Old browsers.** Browsers older than spring 2024 (no CSS `light-dark()`) get today's light look, colors set from `script.js` included, and the Theme row is hidden.
 
 ## Decisions
 
@@ -49,7 +49,7 @@ Google's `colorScheme` option can only be set when the map is created; setting i
   - Each token is written once: `--paper: light-dark(#ffffff, #1a2128)`.
   - `:root` gets `color-scheme: light dark` (Auto), or `light` or `dark` from `data-theme`. `color-scheme` also darkens the scrollbars and the number inputs, which today use the browser's light defaults.
   - `#map` gets its own fixed `color-scheme` from the scheme the map opened with. Custom properties are filled in where they are used, so the pins and plates inside `#map` take the map's side of each token while the panels take the page's. This is what makes D4(a) work with one set of tokens. Assumption: browsers resolve `light-dark()` inside a `var()` by the color scheme of the element using it. It is checked first (Verification step 1).
-  - Browsers without `light-dark()` (before Chrome 123, Firefox 120, Safari 17.5) would lose every token color. An `@supports not (color: light-dark(#fff, #000))` block gives them the light values and hides the Theme row.
+  - Browsers without `light-dark()` (before Chrome 123, Firefox 120, Safari 17.5) would lose every token color, and every `--color` that `script.js` sets. An `@supports not (color: light-dark(#fff, #000))` block gives them the light values of the tokens; `cssColor` gives them the plain light color; `script.js` hides the Theme row with `hidden`, so the menu's "first visible button" focus skips it.
 - (b) Two copies of the dark tokens, one under `@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) }` and one under `:root[data-theme="dark"]`, plus a third for `#map` under D4(a). Works in older browsers, but every dark color is written three times.
 
 **D6. Route, upload and pin colors on the dark map**
@@ -149,31 +149,39 @@ Follow the file's style: double quotes, semicolons, braces on every `if`, traili
    - `GROUP_COLORS` (lines 70–73): both become `"var(--ink)"`. Comment: "a token, so pins and kind icons follow the theme of where they are drawn".
    - New helper:
      ```js
-     // A color pair as one CSS value, which takes the side of the color scheme where it is used: the page's in the panels, the map's on it
+     // A color pair as one CSS value, which takes the side of the color scheme where it is used: the page's in the panels, the map's on it.
+     // Browsers without light-dark() would drop the whole value, so they get the light color
      function cssColor(colors) {
+       if (!LIGHT_DARK) {
+         return colors.light;
+       }
+
        return `light-dark(${colors.light}, ${colors.dark})`;
      }
      ```
-6. **The map's scheme**, after `SMALL_SCREEN` (line 351):
+6. **The map's scheme**, after `SMALL_SCREEN` (line 359):
    ```js
+   // Browsers before spring 2024 can't switch colors by scheme, so they keep the light look and get no Theme row
+   const LIGHT_DARK = CSS.supports("color", "light-dark(#fff, #000)");
+
    // Google sets the map's colors only when it is created, so the map and everything drawn on it keep the theme the page opened with
    const MAP_SCHEME =
-     CSS.supports("color", "light-dark(#fff, #000)") &&
+     LIGHT_DARK &&
      (PAGE_THEME === "dark" ||
        (PAGE_THEME === "auto" && matchMedia("(prefers-color-scheme: dark)").matches))
        ? "dark"
        : "light";
    ```
-7. **`mapLoaded`** (lines 384–394):
+7. **`mapLoaded`** (lines 396–407):
    - Add `colorScheme: MAP_SCHEME === "dark" ? "DARK" : "LIGHT",` to the map options. Google accepts the plain strings.
    - Before `new google.maps.Map`: `document.getElementById("map").style.colorScheme = MAP_SCHEME;`.
 8. **Where colors are used.**
-   - `buildRoute` (line 928): `color: cssColor(activity.colors)` and a new `lineColor: activity.colors[MAP_SCHEME]`. `plate(…)` (line 944) gets `cssColor(activity.colors)`.
-   - `lineStyle` (line 1331): `strokeColor: item.lineColor`.
-   - `styleRoute` casing (line 1320) and the upload casing (line 2641): `strokeColor: CASING_COLORS[MAP_SCHEME]`.
-   - The upload item (line 2616): `color: cssColor(UPLOAD_COLORS)` and `lineColor: UPLOAD_COLORS[MAP_SCHEME]`.
-   - `activityRow` (line 621) and the Favorites hiking row (line 561): `cssColor(activity.colors)`.
-   - Unchanged, because they already pass `item.color` or `GROUP_COLORS` on as a `--color` value, which now holds `light-dark(…)` or `var(--ink)`: `toggleRow`, `markerIcon` (line 1062), the details kind lines (1589, 1679, 1699), `plateBadge` (1863), `photoPin` (2060), the profile (2234), the profile marker (2302) and `uploadDetails` (2746).
+   - `buildRoute` (line 991): `color: cssColor(activity.colors)` and a new `lineColor: activity.colors[MAP_SCHEME]`. `plate(…)` (line 1007) gets `cssColor(activity.colors)`.
+   - `lineStyle` (line 1402): `strokeColor: item.lineColor`.
+   - `styleRoute` casing (line 1391) and the upload casing (line 3086): `strokeColor: CASING_COLORS[MAP_SCHEME]`.
+   - The upload item (line 3061): `color: cssColor(UPLOAD_COLORS)` and `lineColor: UPLOAD_COLORS[MAP_SCHEME]`.
+   - `activityRow` (line 669) and the Favorites hiking row (line 596): `cssColor(activity.colors)`.
+   - Unchanged, because they already pass `item.color` or `GROUP_COLORS` on as a `--color` value, which now holds `light-dark(…)` or `var(--ink)`: `toggleRow`, `markerIcon` (line 1127), the details kind lines (1668, 1758, 1779), `plateBadge` (1951), `photoPin` (2149), the profile (2323), the profile marker (2391) and `uploadDetails` (3191).
 9. **Nothing else reads `.color` as a hex value** (`grep -n "\.color\b" public/script.js` lists only the uses above). Check again before building, in case another plan adds one.
 10. **Theme switching**, a new `// Theme` section before `// Menu`:
     ```js
@@ -193,8 +201,8 @@ Follow the file's style: double quotes, semicolons, braces on every `if`, traili
     4. Set `aria-pressed` on every `[data-theme-choice]`.
     5. `document.getElementById("themeHint").hidden = pageScheme(theme) === MAP_SCHEME;`
     6. `track("theme_change", { theme: theme });`
-11. **`bindControls`**, after the map-type loop: bind each `[data-theme-choice]` click to `setTheme(button.dataset.themeChoice)`, and set each button's starting `aria-pressed` from `PAGE_THEME`.
-12. **`openMenu`**: focus `menu.querySelector("button:not([hidden])")` instead of the first `.menu-item`, so focus lands on the first row whatever it is (Auto until languages are built, DE after). The languages plan needs the same change; whichever lands first makes it.
+11. **`bindControls`**, after the map-type loop: if `!LIGHT_DARK`, set `document.getElementById("themeRow").hidden = true` and bind nothing. A CSS-only hide would leave the row without `[hidden]`, and `openMenu` (step 12) would try to focus the invisible Auto. Otherwise bind each `[data-theme-choice]` click to `setTheme(button.dataset.themeChoice)`, and set each button's starting `aria-pressed` from `PAGE_THEME`.
+12. **`openMenu`**: focus `menu.querySelector("button:not([hidden]):not([hidden] *)")` instead of the first `.menu-item`, so focus lands on the first row whatever it is (Auto until languages are built, DE after). The second `:not()` skips the buttons of a hidden row, which carry no `hidden` of their own. The languages plan needs the same change; whichever lands first makes it.
 
 ### public/style.css
 13. **Tokens** (lines 1–16):
@@ -215,7 +223,7 @@ Follow the file's style: double quotes, semicolons, braces on every `if`, traili
         color-scheme: dark;
       }
 
-      /* Browsers without light-dark() keep today's look and get no Theme row */
+      /* Browsers without light-dark() keep today's look. script.js hides their Theme row and gives them plain light colors */
       @supports not (color: light-dark(#fff, #000)) {
         :root {
           color-scheme: light;
@@ -223,21 +231,21 @@ Follow the file's style: double quotes, semicolons, braces on every `if`, traili
           /* …every token's light value… */
         }
 
-        #themeRow {
-          display: none;
+        .track-end-start {
+          background: #7a2e8e;
         }
       }
       ```
 14. **Hardcoded values** (line numbers as of this plan):
-    - `.chip[aria-pressed="true"] .chip-count` (446): `color-mix(in srgb, var(--paper) 78%, transparent)`.
-    - `.range input::placeholder` (489): `var(--placeholder)`.
-    - `.media-button, .details-close` (561–562): background `color-mix(in srgb, var(--paper) 92%, transparent)`, shadow color `color-mix(in srgb, var(--shade) 30%, transparent)`.
-    - `.media-counter` (589): `color-mix(in srgb, var(--ink) 78%, transparent)`. With its `--paper` text, the pair turns over together.
-    - The five `rgb(34 48 60 / 0.45)` shadows (932, 950, 983, 1012, 1032) and the selected marker's (963): `color-mix(in srgb, var(--shade) 45%, transparent)`.
-    - `.track-end-start` (1017): `light-dark(#7a2e8e, #c77ddb)`, with "keep in sync with UPLOAD_COLORS in script.js".
+    - `.chip[aria-pressed="true"] .chip-count` (567): `color-mix(in srgb, var(--paper) 78%, transparent)`.
+    - `.range input::placeholder` (610): `var(--placeholder)`.
+    - `.media-button, .details-close` (682–683): background `color-mix(in srgb, var(--paper) 92%, transparent)`, shadow color `color-mix(in srgb, var(--shade) 30%, transparent)`.
+    - `.media-counter` (710): `color-mix(in srgb, var(--ink) 78%, transparent)`. With its `--paper` text, the pair turns over together.
+    - The five `rgb(34 48 60 / 0.45)` shadows (1070, 1088, 1121, 1150, 1170) and the selected marker's (1101): `color-mix(in srgb, var(--shade) 45%, transparent)`.
+    - `.track-end-start` (1155): `light-dark(#7a2e8e, #c77ddb)`, with "keep in sync with UPLOAD_COLORS in script.js".
 15. **Menu row and hint**, after `.menu-item .material-symbols-outlined`:
-    - `.menu-choice`: as in the languages plan's step 21, if it isn't there yet. Add `.menu-choice button` to the three `.map-type button` rules.
-    - `.menu-hint { margin: 0; padding: 0 20px 8px 52px; color: var(--ink-soft); font-size: 12.5px; }`, so the text starts under the buttons, not the icon. `.menu-hint[hidden] { display: none; }`.
+    - `.menu-choice`: as in the languages plan's step 21, if it isn't there yet. Add `.menu-choice button` to the three `.map-type button` rules. Add `.menu-choice[hidden] { display: none; }`, since its `display: flex` would otherwise override `hidden` (step 11).
+    - `.menu-hint { margin: 0; padding: 0 20px 8px 52px; color: var(--ink-soft); font-size: 12.5px; }`, so the text starts under the buttons, not the icon. It sets no `display`, so `hidden` needs no extra rule.
 
 ### AGENTS.md
 16. A short "Colors" note: every color in `style.css` is a `light-dark()` token; colors set from `script.js` come as light/dark pairs; the map and what is drawn on it use the scheme the page opened with (`MAP_SCHEME`); the visitor's choice is in localStorage `swissroutes.theme`.
@@ -280,7 +288,7 @@ Run `scripts/serve.sh` and open http://localhost:5000 in a window at least 1024 
 6. **Remembered.** Pick Dark and reload: dark from the first paint, with no white flash (DevTools › Performance, screenshots on). `swissroutes.theme` is `dark`. Pick Auto: the key is gone.
 7. **Auto follows the system live.** On Auto, flip the emulation: the panels follow; the map doesn't; no hint.
 8. **Blocked storage.** Chrome › Site settings › "Not allowed to save data" for `localhost:5000`: the page loads on Auto with no console errors; switching works; a reload goes back to Auto.
-9. **Old browsers.** In the console, check that the `@supports` block lists every token. If an old browser is at hand, the page is light and has no Theme row.
+9. **Old browsers.** In the console, check that the `@supports` block lists every token. If an old browser is at hand: the page is light, route swatches, plates, photo pins and the elevation chart keep their colors, the Theme row is gone, and opening ☰ puts focus on Upload GPX.
 10. **Other pages.** With Dark picked: `/does-not-exist` is dark. A window under 1024 px: the notice is dark. JavaScript off (DevTools › Settings › Debugger) with the emulation on dark: the notice is dark.
 11. **Keyboard.** Tab to ☰, press Enter: focus is on the first row's first button. The Tab order continues Auto, Light, Dark, then Upload GPX.
 12. **Analytics.** Network, filter `collect`: `en=theme_change` with `ep.theme`.

@@ -13,13 +13,52 @@
   <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,100..900&display=swap" rel="stylesheet">
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 
+  <script>
+    const THEME_KEY = 'swissroutes.theme'
+
+    let storedTheme = undefined
+
+    try {
+      storedTheme = localStorage.getItem(THEME_KEY)
+    } catch (error) {
+      // Blocked storage: Auto
+    }
+
+    const PAGE_THEME = ['light', 'dark'].includes(storedTheme) ? storedTheme : 'auto'
+
+    if (PAGE_THEME !== 'auto') {
+      document.documentElement.dataset.theme = PAGE_THEME
+    }
+  </script>
+
   <style>
     :root {
-      --paper: #ffffff;
-      --ink: #22303c;
-      --ink-soft: #5b6875;
-      --rule: #dde2e6;
-      --red: #d52b1e;
+      color-scheme: light dark;
+      --paper: light-dark(#ffffff, #1a2128);
+      --ink: light-dark(#22303c, #e4e9ed);
+      --ink-soft: light-dark(#5b6875, #9ba7b2);
+      --rule: light-dark(#dde2e6, #313b44);
+      --red: light-dark(#d52b1e, #ff6b5f);
+    }
+
+    :root[data-theme="light"] {
+      color-scheme: light;
+    }
+
+    :root[data-theme="dark"] {
+      color-scheme: dark;
+    }
+
+    /* Browsers without light-dark() keep the light look */
+    @supports not (color: light-dark(#fff, #000)) {
+      :root {
+        color-scheme: light;
+        --paper: #ffffff;
+        --ink: #22303c;
+        --ink-soft: #5b6875;
+        --rule: #dde2e6;
+        --red: #d52b1e;
+      }
     }
 
     html,

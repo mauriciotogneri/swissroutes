@@ -355,7 +355,7 @@ Follow the file's style: double quotes, semicolons, braces on every `if`, traili
     - `gallerySection` (`:1651`, `:1653`): `gallery.previous` and `gallery.next`.
 17. **`bindControls` and the menu.**
     - In `bindControls`, after the map-type loop, bind each `[data-language]` click to `setLanguage(button.dataset.language)`. Like the map-type buttons and the menu, it is bound once the map has loaded.
-    - In `openMenu`, focus `menu.querySelector("button:not([hidden])")` instead of `menu.querySelector(".menu-item:not([hidden])")`, so focus lands on the first row whatever it is. The theme plan needs the same change; whichever lands first makes it.
+    - In `openMenu`, focus `menu.querySelector("button:not([hidden]):not([hidden] *)")` instead of `menu.querySelector(".menu-item:not([hidden])")`, so focus lands on the first row whatever it is. The theme plan needs the same change; whichever lands first makes it.
 18. **Upload.**
     - The menu entries' text is tagged in step 4 (`action.uploadGpx`, `action.removeTrack`).
     - `parseGpx` returns the keys `"upload.notGpx"` (`:1930`) and `"upload.noTrack"` (`:1970`); its comment becomes "the key of the message". `loadUpload` (`:1901`) calls `showUploadError(t(parsed))`.

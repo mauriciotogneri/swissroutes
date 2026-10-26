@@ -22,7 +22,7 @@ const ACTIVITIES = [
     id: "hiking",
     name: "Hiking",
     noun: "hiking route",
-    color: "#d52b1e",
+    colors: { light: "#d52b1e", dark: "#ff6b5f" },
     ids: {
       national: HIKING_NATIONAL_IDS,
       regional: HIKING_REGIONAL_IDS,
@@ -37,7 +37,7 @@ const ACTIVITIES = [
     id: "cycling",
     name: "Cycling",
     noun: "cycling route",
-    color: "#0b5cad",
+    colors: { light: "#0b5cad", dark: "#5ea6f2" },
     ids: {
       national: CYCLING_NATIONAL_IDS,
       regional: CYCLING_REGIONAL_IDS,
@@ -48,7 +48,7 @@ const ACTIVITIES = [
     id: "mountainbiking",
     name: "Mountain biking",
     noun: "mountain bike route",
-    color: "#0e6b35",
+    colors: { light: "#0e6b35", dark: "#4cbf7a" },
     ids: {
       national: MOUNTAINBIKING_NATIONAL_IDS,
       regional: MOUNTAINBIKING_REGIONAL_IDS,
@@ -58,8 +58,11 @@ const ACTIVITIES = [
   },
 ];
 
-// The color of an uploaded GPX track, apart from the three route colors
-const UPLOAD_COLOR = "#7a2e8e";
+// The color of an uploaded GPX track, apart from the three route colors. Keep in sync with .track-end-start in style.css
+const UPLOAD_COLORS = { light: "#7a2e8e", dark: "#c77ddb" };
+
+// The outline of the selected route and the uploaded track: the map's --paper, which Google's lines can't read from CSS
+const CASING_COLORS = { light: "#ffffff", dark: "#1a2128" };
 
 // Climbs and drops smaller than this are GPS noise, so ascent and descent ignore them
 const ELEVATION_NOISE = 5;
@@ -67,9 +70,10 @@ const ELEVATION_NOISE = 5;
 // The elevation chart is drawn one column per pixel of the panel's text width (384 − 1 border − 2 × 22)
 const PROFILE = { width: 339, height: 128, top: 8, bottom: 110 };
 
+// A token, so pins and kind icons follow the theme of where they are drawn
 const GROUP_COLORS = {
-  stay: "#22303c",
-  explore: "#22303c",
+  stay: "var(--ink)",
+  explore: "var(--ink)",
 };
 
 // Icons of the panel sections. Routes has none
@@ -358,6 +362,18 @@ const ADDRESS_KEYS = ["url", "type", "places", "favorites", "map", "maptype"];
 // Below this width (style.css) the panels are hidden behind a notice, so the address's rows are not restored
 const SMALL_SCREEN = matchMedia("(max-width: 1023.98px)").matches;
 
+// Browsers before spring 2024 can't switch colors by scheme, so they keep the light look and get no Theme row
+const LIGHT_DARK = CSS.supports("color", "light-dark(#fff, #000)");
+
+// Google sets the map's colors only when it is created, so the map and everything drawn on it keep the theme the page opened with
+const MAP_SCHEME =
+  LIGHT_DARK &&
+  (PAGE_THEME === "dark" ||
+    (PAGE_THEME === "auto" &&
+      matchMedia("(prefers-color-scheme: dark)").matches))
+    ? "dark"
+    : "light";
+
 // The map position the address opened with, or undefined
 const ADDRESS_POSITION = readPosition();
 
@@ -394,6 +410,8 @@ const downloadQueue = [];
 const drawn = new Map();
 
 function mapLoaded() {
+  document.getElementById("map").style.colorScheme = MAP_SCHEME;
+
   map = new google.maps.Map(document.getElementById("map"), {
     center: ADDRESS_POSITION?.center ?? {
       lat: 46.75,
@@ -402,6 +420,7 @@ function mapLoaded() {
     zoom: ADDRESS_POSITION?.zoom ?? 8,
     mapId: "DEMO_MAP_ID",
     mapTypeId: "roadmap",
+    colorScheme: MAP_SCHEME === "dark" ? "DARK" : "LIGHT",
     disableDefaultUI: true,
     clickableIcons: false,
   });
@@ -593,7 +612,7 @@ function buildPanel() {
         "favorites.hiking",
         "Hikes",
         '<span class="swatch swatch-line"></span>',
-        hiking.color,
+        cssColor(hiking.colors),
       ) +
       toggleRow(
         "favorites.visit",
@@ -666,7 +685,7 @@ function activityRow(activity) {
       `<button type="button" class="chip" data-layer="${activity.id}.${level.id}" aria-pressed="false">${level.name}<span class="chip-count">${activity.ids[level.id].length}</span></button>`,
   ).join("");
 
-  let content = `<div class="row" style="--color:${activity.color}">`;
+  let content = `<div class="row" style="--color:${cssColor(activity.colors)}">`;
   content += `<div class="row-head"><span class="swatch swatch-line"></span><span class="row-name">${activity.name}</span><span class="row-count" data-count="${activity.id}"></span></div>`;
   content += `<div class="chips" role="group" aria-label="${activity.name} routes">${chips}</div>`;
   content += `<div class="filters" data-filters="${activity.id}" hidden>`;
@@ -988,7 +1007,8 @@ function buildRoute(url, json, activity, level) {
     activity: activity,
     level: level,
     label: `${properties.r_number} ${properties.title}`,
-    color: activity.color,
+    color: cssColor(activity.colors),
+    lineColor: activity.colors[MAP_SCHEME],
     weight: level.weight,
     zIndex: level.zIndex,
     length: parseInt(properties.length),
@@ -1004,7 +1024,7 @@ function buildRoute(url, json, activity, level) {
   item.lines = paths.map((path) => createLine(item, path));
   item.badge = createMarker(
     paths[0][0],
-    plate(properties.r_number, activity.color),
+    plate(properties.r_number, cssColor(activity.colors)),
     item,
   );
 
@@ -1388,7 +1408,7 @@ function styleRoute(item) {
 
   for (const casing of item.casings) {
     casing.setOptions({
-      strokeColor: "#ffffff",
+      strokeColor: CASING_COLORS[MAP_SCHEME],
       strokeOpacity: opacity,
       strokeWeight: weight + 4,
       zIndex: zIndex - 1,
@@ -1399,7 +1419,7 @@ function styleRoute(item) {
 
 function lineStyle(item, weight, opacity, zIndex) {
   return {
-    strokeColor: item.color,
+    strokeColor: item.lineColor,
     strokeOpacity: opacity,
     strokeWeight: weight,
     zIndex: zIndex,
@@ -2430,6 +2450,21 @@ function bindControls() {
     });
   }
 
+  // Hidden with the attribute, not only by CSS, so opening the menu doesn't focus its invisible first button
+  if (LIGHT_DARK) {
+    for (const button of document.querySelectorAll("[data-theme-choice]")) {
+      button.setAttribute(
+        "aria-pressed",
+        button.dataset.themeChoice === PAGE_THEME,
+      );
+      button.addEventListener("click", () =>
+        setTheme(button.dataset.themeChoice),
+      );
+    }
+  } else {
+    document.getElementById("themeRow").hidden = true;
+  }
+
   document.getElementById("menuToggle").addEventListener("click", () => {
     if (menuOpen()) {
       closeMenu();
@@ -2915,6 +2950,64 @@ function removeSaved(row) {
   button.focus();
 }
 
+// Theme
+
+// A color pair as one CSS value, which takes the side of the color scheme where it is used: the page's in the panels, the map's on it.
+// Browsers without light-dark() would drop the whole value, so they get the light color
+function cssColor(colors) {
+  if (!LIGHT_DARK) {
+    return colors.light;
+  }
+
+  return `light-dark(${colors.light}, ${colors.dark})`;
+}
+
+// The scheme the panels show now: the visitor's pick, or the system's under Auto
+function pageScheme(theme) {
+  if (theme !== "auto") {
+    return theme;
+  }
+
+  return matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+}
+
+// The panels switch at once through color-scheme in style.css. The map keeps its scheme until the next visit, which the hint says
+function setTheme(theme) {
+  const buttons = document.querySelectorAll("[data-theme-choice]");
+  const current = [...buttons].find(
+    (button) => button.getAttribute("aria-pressed") === "true",
+  );
+
+  if (theme === current.dataset.themeChoice) {
+    return;
+  }
+
+  if (theme === "auto") {
+    delete document.documentElement.dataset.theme;
+  } else {
+    document.documentElement.dataset.theme = theme;
+  }
+
+  try {
+    if (theme === "auto") {
+      localStorage.removeItem(THEME_KEY);
+    } else {
+      localStorage.setItem(THEME_KEY, theme);
+    }
+  } catch (error) {
+    // Blocked storage: the choice lasts until the page closes
+  }
+
+  for (const button of buttons) {
+    button.setAttribute("aria-pressed", button.dataset.themeChoice === theme);
+  }
+
+  document.getElementById("themeHint").hidden =
+    pageScheme(theme) === MAP_SCHEME;
+
+  track("theme_change", { theme: theme });
+}
+
 // Menu
 
 function menuOpen() {
@@ -2932,7 +3025,8 @@ function openMenu() {
   toggle.setAttribute("aria-expanded", true);
   toggle.firstElementChild.textContent = "close";
 
-  menu.querySelector(".menu-item:not([hidden])").focus();
+  // The buttons of a hidden row carry no hidden of their own
+  menu.querySelector("button:not([hidden]):not([hidden] *)").focus();
 }
 
 function closeMenu() {
@@ -3058,7 +3152,8 @@ function buildUpload(parsed) {
     kind: "upload",
     type: "upload",
     label: parsed.name,
-    color: UPLOAD_COLOR,
+    color: cssColor(UPLOAD_COLORS),
+    lineColor: UPLOAD_COLORS[MAP_SCHEME],
     length: parsed.paths.reduce((sum, path) => sum + pathLength(path), 0),
     ascent: ascent,
     descent: descent,
@@ -3078,12 +3173,12 @@ function buildUpload(parsed) {
     return line;
   });
 
-  // The white outline keeps the track readable on top of the routes
+  // The outline keeps the track readable on top of the routes
   for (const path of item.paths) {
     item.casings.push(
       new google.maps.Polyline({
         path: path,
-        strokeColor: "#ffffff",
+        strokeColor: CASING_COLORS[MAP_SCHEME],
         strokeOpacity: 0.95,
         strokeWeight: 8,
         zIndex: 899,

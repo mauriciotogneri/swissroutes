@@ -43,6 +43,13 @@ script.js fetches data/<group>/<layer>/<id>.json for every id of a layer the use
 
 The downloaders convert SchweizMobil's Swiss grid coordinates (LV03) to latitude/longitude before saving. Coordinates are stored as `[lat, lng]`, the reverse of the GeoJSON standard, and `script.js` expects that order. Route points add a third value, the height in whole metres from SchweizMobil's own response: `[lat, lng, height]`. The exception is `photo_gallery_coords` in route files, which keeps SchweizMobil's `"[(lng, lat)]"` strings; `script.js` reads them as they are.
 
+## Colors
+
+- Every color in `style.css` is a `light-dark()` token on `:root`, so it follows the theme. A hex value written straight into a style breaks the dark theme.
+- Colors set from `script.js` are light/dark pairs (`ACTIVITIES`, `UPLOAD_COLORS`, `CASING_COLORS`), turned into one CSS value by `cssColor`.
+- The Google map can't change its color scheme after it is created, so the map and everything drawn on it keep the scheme the page opened with (`MAP_SCHEME`); a switch in the menu changes the panels at once and the map at the next visit.
+- The visitor's choice is in localStorage `swissroutes.theme` (`light` or `dark`; no key is Auto, which follows the system).
+
 ## Scripts
 
 | Script                        | Downloads                                                                                                                                                                                                                                                                                                                                                                                                    | Writes to `ids/`                         |

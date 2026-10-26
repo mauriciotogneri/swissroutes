@@ -40,7 +40,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,100..900&display=swap" rel="stylesheet">
   <link
-    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0..1,0&icon_names=add,agriculture,air,altitude,apartment,backpack,battery_charging_full,beach_access,bed,bedroom_parent,bolt,build,cabin,call,camping,chalet,check,chevron_left,chevron_right,close,cottage,delete,download,explore,faucet,favorite,fireplace,fort,gite,handyman,hot_tub,hotel,house,info,landscape,link,local_fire_department,location_on,mail,menu,night_shelter,open_in_new,park,pedal_bike,photo_camera,pool,remove,schedule,shower,star,table_restaurant,upload,visibility,water,water_drop,waves,wc&display=block"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0..1,0&icon_names=add,agriculture,air,altitude,apartment,backpack,battery_charging_full,beach_access,bed,bedroom_parent,bolt,build,cabin,call,camping,chalet,check,chevron_left,chevron_right,close,contrast,cottage,delete,download,explore,faucet,favorite,fireplace,fort,gite,handyman,hot_tub,hotel,house,info,landscape,link,local_fire_department,location_on,mail,menu,night_shelter,open_in_new,park,pedal_bike,photo_camera,pool,remove,schedule,shower,star,table_restaurant,upload,visibility,water,water_drop,waves,wc&display=block"
     rel="stylesheet" />
 
   <!-- Favicon -->
@@ -59,6 +59,23 @@
     if (PARAMS.get('url') && PARAMS.get('type')) {
       PARAM_URL = PARAMS.get('url')
       PARAM_TYPE = PARAMS.get('type')
+    }
+
+    // The visitor's theme, 'light' or 'dark'. Nothing stored means Auto: the system decides through color-scheme in style.css
+    const THEME_KEY = 'swissroutes.theme'
+
+    let storedTheme = undefined
+
+    try {
+      storedTheme = localStorage.getItem(THEME_KEY)
+    } catch (error) {
+      // Blocked storage: Auto
+    }
+
+    const PAGE_THEME = ['light', 'dark'].includes(storedTheme) ? storedTheme : 'auto'
+
+    if (PAGE_THEME !== 'auto') {
+      document.documentElement.dataset.theme = PAGE_THEME
     }
   </script>
 
@@ -115,6 +132,13 @@
     </div>
     <div class="layers-body" id="layers"></div>
     <div class="menu" id="menu" inert>
+      <div class="menu-choice" id="themeRow" role="group" aria-label="Theme">
+        <span class="material-symbols-outlined" aria-hidden="true">contrast</span>
+        <button type="button" data-theme-choice="auto" aria-pressed="true">Auto</button>
+        <button type="button" data-theme-choice="light" aria-pressed="false">Light</button>
+        <button type="button" data-theme-choice="dark" aria-pressed="false">Dark</button>
+      </div>
+      <p class="menu-hint" id="themeHint" hidden>The map switches the next time you open Swiss Routes.</p>
       <button type="button" class="menu-item" id="uploadButton"><span class="material-symbols-outlined">upload</span>Upload GPX</button>
       <button type="button" class="menu-item" id="uploadRemove" hidden><span class="material-symbols-outlined">delete</span>Remove track</button>
       <p class="upload-error" id="uploadError" role="alert" hidden></p>
