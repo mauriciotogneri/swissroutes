@@ -12,7 +12,7 @@ Run the steps below strictly one at a time:
 
 1. Run only the current step, exactly as written. Start with step 0.
 2. Report the result in the shape defined under Responses in the user's instructions: say what happened, and whether the step's "when it worked" criteria were met, with the evidence (command output, grep result).
-3. If the step worked, first look back over the run so far and update this file with anything that would have helped: a failure and how it was solved, a message or case the runbook didn't cover, a command whose output misled you, a check that missed something. Make the smallest edit that captures it, add a line to the report saying what changed, and skip this when nothing new came up. Then ask whether to continue with the next step by calling `AskUserQuestion`, naming that step in the question. Do not ask it as a ⚠️ item or in plain text. Offer "Continue with step N" (recommended) and "Stop here", and explain both in one plain sentence each in the message before the call. Do not start the next step until the user picks the continue option.
+3. If the step worked, first look back over the run so far and update this file with anything that would have helped: a failure and how it was solved, a message or case the runbook didn't cover, a command whose output misled you, a check that missed something. Make the smallest edit that captures it, add a line to the report saying what changed, and skip this when nothing new came up. Then ask whether to continue with the next step by calling `AskUserQuestion`, naming that step and how long it usually takes (from the table under Order) in the question, for example "Continue with step 2, bike service shops and sightseeing (about 10 minutes)?". Do not ask it as a ⚠️ item or in plain text. Offer "Continue with step N" (recommended) and "Stop here", and explain both in one plain sentence each in the message before the call. Do not start the next step until the user picks the continue option.
 4. If the step failed or the result is unclear, stop and follow that step's "When it didn't" guidance. Say what you propose and wait. Never skip ahead.
 5. Steps 1, 2 and 3 are run one after another, never in parallel, even though they are independent.
 6. Steps 1–3 take minutes: run them in the background and wait for the completion notice. Don't poll the log.
@@ -29,7 +29,23 @@ See `AGENTS.md` in the repository root for how the data sources, folders and scr
 
 ## Order
 
-The steps run in order 0–9. Steps 1–3 take most of the time (the route download took 20 minutes in October 2026, translations included; earlier runs without them took 30–40). Everything from step 4 on needs all three to have finished.
+The steps run in order 0–9. Everything from step 4 on needs steps 1–3 to have finished.
+
+How long each step takes, from the October 2026 run (translations included). Retries or a busy source can make a step longer:
+
+| Step                               | Time                                               |
+| :--------------------------------- | :------------------------------------------------- |
+| 0: checks and baseline             | a few seconds                                      |
+| 1: routes                          | about 20 minutes (30–40 in earlier runs)           |
+| 2: bike service shops, sightseeing | about 10 minutes                                   |
+| 3: accommodation                   | about 1 minute                                     |
+| 3b: OpenStreetMap                  | about 5 minutes                                    |
+| 4: download checks                 | a few seconds                                      |
+| 5: charging stations               | about 1 minute when Claude downloads the map       |
+| 6: cleanup                         | a few seconds                                      |
+| 7: local test                      | about 5 minutes, whether the user or Claude checks |
+| 8: review and commit               | a minute                                           |
+| 9: deploy                          | a minute or two                                    |
 
 ## Rules that apply to every step
 
@@ -108,7 +124,7 @@ Route numbers that don't exist are not errors. SchweizMobil answers them with an
 
 ## Step 2: Bike service shops and sightseeing
 
-Downloads the SchweizMobil id lists for bike service shops (`Cycleservice`) and sightseeing (`Sightseeing`), then each place on those lists. Each sightseeing place takes 3 more requests, for its German, French and Italian texts. It took 9 minutes in October 2026.
+Downloads the SchweizMobil id lists for bike service shops (`Cycleservice`) and sightseeing (`Sightseeing`), then each place on those lists. Each sightseeing place takes 3 more requests, for its German, French and Italian texts.
 
 ```sh
 node bin/other-downloader.js 2>&1 | tee logs/other.log
@@ -152,8 +168,6 @@ Downloads, in this order:
 node bin/accommodation-downloader.js 2>&1 | tee logs/accommodation.log
 ```
 
-It took about a minute in October 2026.
-
 **When it worked**, the last progress line is a `MOUNTAINHUT:` line at 99%. The script then spends a few more seconds on the three My Switzerland layers without printing anything. When the prompt returns, the search below must print `no matches` (`MORE THAN ONE FEATURE` lines are handled as in step 2):
 
 ```sh
@@ -180,8 +194,6 @@ Downloads 25 types of OpenStreetMap points (drinking water, huts and shelters, b
 ```sh
 node bin/osm-downloader.js 2>&1 | tee logs/osm.log
 ```
-
-It took 4–5 minutes in October 2026.
 
 **While it runs**, it prints `<TYPE> (<percent>%)` and then `<type>: <count>` for each type.
 
