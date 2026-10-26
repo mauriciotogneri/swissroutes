@@ -23,13 +23,13 @@ The rest of this file is the runbook.
 
 This is the step-by-step plan for refreshing every layer the site shows: routes, accommodation, bike service shops, sightseeing and charging stations. Follow the steps in order. Each step says what to run, how to tell that it worked, and what to do when it didn't.
 
-The whole update took about an hour before the downloads also fetched German, French and Italian texts, and now takes longer, most of it the route download. It changes files in `ids/` and `public/data/` only. Nothing reaches the live site until step 9.
+The whole update takes under an hour, most of it the route download. It changes files in `ids/` and `public/data/` only. Nothing reaches the live site until step 9.
 
 See `AGENTS.md` in the repository root for how the data sources, folders and scripts fit together.
 
 ## Order
 
-The steps run in order 0–9. Steps 1–3 take most of the time (the route download alone was 30–40 minutes before it also fetched the German, French and Italian texts; expect roughly twice that, an estimate not yet timed). Everything from step 4 on needs all three to have finished.
+The steps run in order 0–9. Steps 1–3 take most of the time (the route download took 20 minutes in October 2026, translations included; earlier runs without them took 30–40). Everything from step 4 on needs all three to have finished.
 
 ## Rules that apply to every step
 
@@ -60,7 +60,7 @@ The steps run in order 0–9. Steps 1–3 take most of the time (the route downl
    git status --short
    ```
 
-   If it prints anything, stop. Tell the user which files are listed and wait; do not commit, stash, restore or delete anything unless the user says to. If the user chooses stash, use `git stash -u`, because a plain stash leaves untracked files that the Undo section would delete. If `logs/` also holds logs, this may be a run in progress: ask which step was reached. Continue only when the command prints nothing (run it again to confirm). A clean start keeps the diff in step 8 limited to the update, and makes Undo safe.
+   If it prints anything, stop. Tell the user which files are listed and wait; do not commit, stash, restore or delete anything unless the user says to. If the user chooses stash, use `git stash -u`, because a plain stash leaves untracked files that the Undo section would delete. If the changes are downloader code the run needs (in October 2026, the German, French and Italian texts), stashing would download with the old code: recommend committing them first. If `logs/` also holds logs, this may be a run in progress: ask which step was reached. Continue only when the command prints nothing (run it again to confirm). A clean start keeps the diff in step 8 limited to the update, and makes Undo safe.
 
 4. Create a folder for the logs. `logs/` is gitignored.
 
@@ -108,7 +108,7 @@ Route numbers that don't exist are not errors. SchweizMobil answers them with an
 
 ## Step 2: Bike service shops and sightseeing
 
-Downloads the SchweizMobil id lists for bike service shops (`Cycleservice`) and sightseeing (`Sightseeing`), then each place on those lists. Each sightseeing place takes 3 more requests, for its German, French and Italian texts.
+Downloads the SchweizMobil id lists for bike service shops (`Cycleservice`) and sightseeing (`Sightseeing`), then each place on those lists. Each sightseeing place takes 3 more requests, for its German, French and Italian texts. It took 9 minutes in October 2026.
 
 ```sh
 node bin/other-downloader.js 2>&1 | tee logs/other.log
@@ -127,6 +127,7 @@ grep -nE '^Error (downloading file|getting ids):|^ +at |NO IDS FOUND|MORE THAN O
 - `Error getting ids:` means the id list couldn't be downloaded. `Error downloading file:` means a single place couldn't. In both cases the script stopped before writing that layer's id list. Rerun the same command. If no `Retrying:` lines come before the error, read step 1 first: the response format has probably changed.
 - `NO IDS FOUND: <url>` means SchweizMobil returned an empty list. The address has probably changed. Open the URL in a browser before you rerun. If the address changed, update it in `bin/helpers.js`.
 - `NO TRANSLATION: <url>`: as in step 1, the place is saved and shows its English text in that language.
+- `MORE THAN ONE FEATURE: <url>` for shop **1404** (`Cycleservice=1404`): remove `,1404` from `ids/other/serviceshop.json` without asking, and say so in the report. The user decided this for good in October 2026; it comes back on every download.
 - `MORE THAN ONE FEATURE: <url>` means that place was skipped, but its id is still on the new list. If the place is new, it has no file, and check 2 in step 4 will report it (a new shop 1404 did in October 2026, and it did again in two later updates, because the id was not on the baseline list: the download adds it back every time. Each time the user removed it, which leaves `ids/other/serviceshop.json` identical to the baseline, so recommend that). If it existed before, it keeps its old file. Ask the user then: accept it (the site skips that place and logs one `Could not load` message), or remove its id from the list. The next download adds the id back.
 
 The hand-made sightseeing entries (ids 10001 and up) are safe. They are listed only in `ids/favorites/visit.json`, which no script writes, and step 6 keeps every file that a favorites list refers to.
@@ -150,6 +151,8 @@ Downloads, in this order:
 ```sh
 node bin/accommodation-downloader.js 2>&1 | tee logs/accommodation.log
 ```
+
+It took about a minute in October 2026.
 
 **When it worked**, the last progress line is a `MOUNTAINHUT:` line at 99%. The script then spends a few more seconds on the three My Switzerland layers without printing anything. When the prompt returns, the search below must print `no matches` (`MORE THAN ONE FEATURE` lines are handled as in step 2):
 
@@ -177,6 +180,8 @@ Downloads 25 types of OpenStreetMap points (drinking water, huts and shelters, b
 ```sh
 node bin/osm-downloader.js 2>&1 | tee logs/osm.log
 ```
+
+It took 4–5 minutes in October 2026.
 
 **While it runs**, it prints `<TYPE> (<percent>%)` and then `<type>: <count>` for each type.
 
@@ -366,6 +371,7 @@ Then check:
 5. Turn on a few of the OpenStreetMap layers (the seven places to sleep under Stay, Ruins under Explore, and the sections from Water to Nature) and click a marker in each. The details panel shows the name or type, and the OpenStreetMap credit.
 6. Open the browser console. There must be no `Could not load` errors, other than any you accepted in step 4.
 7. Click a route: the Elevation chart appears below the stats, and hovering it moves a dot along the route on the map. Download its GPX: the points have `<ele>`.
+8. Open ☰ and pick FR, then click a route and a sightseeing place: the summary and description are in French, and the route's SchweizMobil button opens SchweizMobil's French page. Route 50 (cycling, regional) shows the title "Route du Pied du Jura". Pick EN again afterwards.
 
 Stop the server with Ctrl+C. When the server was started in the background, find the processes with `ss -ltnp | grep ':5000 '` and `pgrep -af 'serve.sh|firebase'`, kill the `serve.sh` and `firebase serve` PIDs, and confirm that nothing listens on port 5000.
 
@@ -441,7 +447,7 @@ console.log(line('**Total (excluding stations)**', total))
 EOF
 ```
 
-Paste the table into the report. "Updated" means the file differs in any way, not that the place itself changed: in October 2026 every route file counted as updated because of coordinates and photo links, and 1,187 of the 1,190 station updates were only a new image link. Say so in one line under the table. A repeat update shortly after an earlier one changes almost nothing: in a later October 2026 run every route and place file was byte-identical (0 created, 0 updated, 0 deleted), only one OpenStreetMap file and 1,254 station entries (image links) differed, and cleanup deleted nothing. The first October 2026 result was 535 created, 1,501 updated and 582 deleted (−47), with the bike shops going from 523 to 486 files after a renumbering and all accommodation layers unchanged. The first update after the elevation chart was added rewrites all 786 route files, because every point gains its height, and the route data grows by about 16 MB.
+Paste the table into the report. "Updated" means the file differs in any way, not that the place itself changed: in October 2026 every route file counted as updated because of coordinates and photo links, and 1,187 of the 1,190 station updates were only a new image link. Say so in one line under the table. A repeat update shortly after an earlier one changes almost nothing: in a later October 2026 run every route and place file was byte-identical (0 created, 0 updated, 0 deleted), only one OpenStreetMap file and 1,254 station entries (image links) differed, and cleanup deleted nothing. The first October 2026 result was 535 created, 1,501 updated and 582 deleted (−47), with the bike shops going from 523 to 486 files after a renumbering and all accommodation layers unchanged. The first update after the elevation chart was added rewrites all 786 route files, because every point gains its height, and the route data grows by about 16 MB. The first update with the German, French and Italian texts (October 2026) updated all 786 route and 764 sightseeing files, plus 6 OpenStreetMap files, and created or deleted none; the sightseeing files grew from 1.8 to 4.5 MB.
 
 ## Step 8: Review and commit
 
