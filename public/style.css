@@ -251,6 +251,101 @@ body.has-details #map {
   display: none;
 }
 
+/* The delete button sits beside its row's toggle, after the count */
+.saved-row {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.saved-delete {
+  display: grid;
+  place-items: center;
+  width: 26px;
+  height: 26px;
+  margin-right: -5px;
+  padding: 0;
+  border: 0;
+  border-radius: 6px;
+  background: none;
+  color: var(--ink-soft);
+}
+
+.saved-delete:hover:enabled {
+  background: var(--mist);
+  color: var(--ink);
+}
+
+.saved-delete:disabled {
+  opacity: 0.35;
+  cursor: default;
+}
+
+.saved-delete .material-symbols-outlined {
+  font-size: 18px;
+}
+
+/* Clear all */
+
+.clear-all {
+  margin-left: auto;
+  margin-right: -8px;
+  padding: 6px 8px;
+  border: 0;
+  border-radius: 6px;
+  background: none;
+  color: var(--ink-soft);
+  font-size: 13px;
+  font-weight: 560;
+}
+
+.clear-all:hover {
+  background: var(--mist);
+  color: var(--ink);
+}
+
+.clear-all[hidden] {
+  display: none;
+}
+
+/* Confirm dialog */
+
+.confirm {
+  width: 320px;
+  max-width: calc(100% - 32px);
+  padding: 0;
+  border: 0;
+  border-radius: 8px;
+  background: var(--paper);
+  box-shadow: var(--shadow);
+  color: var(--ink);
+}
+
+.confirm::backdrop {
+  background: rgb(34 48 60 / 0.35);
+}
+
+.confirm form {
+  padding: 20px 22px 18px;
+}
+
+.confirm-title {
+  margin: 0 0 6px;
+  font-size: 16px;
+  font-weight: 650;
+}
+
+.confirm-text {
+  margin: 0 0 18px;
+  color: var(--ink-soft);
+}
+
+.confirm-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+}
+
 .layers-body {
   flex: 1;
   overflow-y: auto;
@@ -705,6 +800,18 @@ body.has-details #map {
 .action.saved .material-symbols-outlined {
   color: var(--red);
   font-variation-settings: 'FILL' 1;
+}
+
+.action-primary {
+  border-color: var(--ink);
+  background: var(--ink);
+  color: var(--paper);
+}
+
+.action-primary:hover {
+  border-color: var(--ink);
+  background: var(--ink-soft);
+  color: var(--paper);
 }
 
 .stats {

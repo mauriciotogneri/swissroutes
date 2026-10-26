@@ -111,6 +111,7 @@
       <button type="button" class="menu-toggle" id="menuToggle" aria-label="Menu" aria-expanded="false"
         aria-controls="menu"><span class="material-symbols-outlined">menu</span><span class="badge menu-badge" id="menuBadge" hidden></span></button>
       <span class="brand">Swiss Routes</span>
+      <button type="button" class="clear-all" id="clearAll" hidden>Clear all</button>
     </div>
     <div class="layers-body" id="layers"></div>
     <div class="menu" id="menu" inert>
@@ -138,6 +139,17 @@
   <input type="file" id="gpxInput" accept=".gpx,application/gpx+xml" hidden>
 
   <div class="tooltip" id="tooltip" hidden></div>
+
+  <dialog class="confirm" id="confirm" aria-labelledby="confirmTitle" aria-describedby="confirmText">
+    <form method="dialog">
+      <h2 class="confirm-title" id="confirmTitle"></h2>
+      <p class="confirm-text" id="confirmText"></p>
+      <div class="confirm-actions">
+        <button type="submit" class="action" value="cancel" autofocus>Cancel</button>
+        <button type="submit" class="action action-primary" value="confirm" id="confirmAction"></button>
+      </div>
+    </form>
+  </dialog>
 
   <div class="small-screen">
     <div>

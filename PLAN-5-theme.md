@@ -253,6 +253,7 @@ Follow the file's style: double quotes, semicolons, braces on every `if`, traili
   - Both read storage in the inline head script; that plan moves the block above the stylesheets, which is still before the body.
   - Its D10 creates the Maps script from the head script; `colorScheme` is a map option, not a script parameter, so the two don't overlap.
 - **Saved list (`PLAN-2-saved-list.md`):** its filled star uses `--red` and its ☰ badge uses `.badge`, so both follow the theme. Its group in the menu sits below this row.
+- **Clear all and the confirm dialog (built, no plan file):** they use `--paper`, `--ink`, `--ink-soft`, `--mist` and `--shadow`, so they follow the theme. One literal remains: the dialog's `.confirm::backdrop` `rgb(34 48 60 / 0.35)` becomes `color-mix(in srgb, var(--shade) 35%, transparent)`. The primary button (`.action-primary`, ink on paper reversed) needs checking in dark: its hover uses `--ink-soft` as the background.
 - **All features:** a new color must be a `light-dark()` token in CSS, or a light/dark pair in JS passed through `cssColor`. A hex value written straight into a style breaks the dark theme.
 
 ## Edge cases and risks

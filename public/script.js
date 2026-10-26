@@ -617,6 +617,12 @@ function buildPanel() {
     button.addEventListener("click", () => toggleLayer(button));
   }
 
+  for (const button of document.querySelectorAll("[data-saved-delete]")) {
+    button.addEventListener("click", () =>
+      confirmRemoveSaved(button.dataset.savedDelete),
+    );
+  }
+
   for (const input of layers.querySelectorAll("input, select")) {
     input.addEventListener("input", onFilterChange);
   }
@@ -764,12 +770,10 @@ function layersChanged() {
   scheduleRender();
 }
 
-// Each section title shows how many of its rows are on. A route row counts once, however many levels are on, and its filter chips don't count
+// Each section title shows how many of its rows are on
 function updateBadges() {
   for (const section of document.querySelectorAll(".group")) {
-    const selected = section.querySelectorAll(
-      '.toggle[aria-pressed="true"], .row:has(.chip[data-layer][aria-pressed="true"])',
-    ).length;
+    const selected = pressedRows(section);
     const badge = section.querySelector(".badge");
 
     badge.textContent = selected;
@@ -781,6 +785,17 @@ function updateBadges() {
   const menuBadge = document.getElementById("menuBadge");
   menuBadge.textContent = savedBadge.textContent;
   menuBadge.hidden = savedBadge.hidden;
+
+  // Clear all acts on the panel's rows only, so the Saved rows don't show it
+  document.getElementById("clearAll").hidden =
+    pressedRows(document.getElementById("layers")) === 0;
+}
+
+// A route row counts once, however many levels are on, and its filter chips don't count
+function pressedRows(element) {
+  return element.querySelectorAll(
+    '.toggle[aria-pressed="true"], .row:has(.chip[data-layer][aria-pressed="true"])',
+  ).length;
 }
 
 function onFilterChange() {
@@ -2423,6 +2438,18 @@ function bindControls() {
     }
   });
 
+  document
+    .getElementById("clearAll")
+    .addEventListener("click", confirmClearAll);
+
+  // The form fills the box, so only a click on the backdrop reaches the dialog itself
+  const dialog = document.getElementById("confirm");
+  dialog.addEventListener("click", (event) => {
+    if (event.target === dialog) {
+      dialog.close();
+    }
+  });
+
   const input = document.getElementById("gpxInput");
 
   document
@@ -2515,7 +2542,8 @@ function bindControls() {
     .addEventListener("scroll", hideProfilePoint, true);
 
   document.addEventListener("keydown", (event) => {
-    if (event.key === "Escape") {
+    // The open dialog takes Escape for itself, so the menu or details behind it stay open
+    if (event.key === "Escape" && !document.getElementById("confirm").open) {
       hideTooltip();
 
       // One panel at a time: the menu first, then the details
@@ -2626,24 +2654,96 @@ function stopGlide() {
   }
 }
 
+// Confirm
+
+// Asks before clearing what the visitor set up. Cancel, Escape and a click beside the box all cancel
+function confirmAction(title, text, label, onConfirm) {
+  const dialog = document.getElementById("confirm");
+  document.getElementById("confirmTitle").textContent = title;
+  document.getElementById("confirmText").textContent = text;
+  document.getElementById("confirmAction").textContent = label;
+  dialog.returnValue = "";
+
+  dialog.addEventListener(
+    "close",
+    () => {
+      if (dialog.returnValue === "confirm") {
+        onConfirm();
+      }
+    },
+    { once: true },
+  );
+
+  dialog.showModal();
+}
+
+// Clear all
+
+function confirmClearAll() {
+  const rows = pressedRows(document.getElementById("layers"));
+
+  confirmAction(
+    "Clear the map?",
+    `Turns off ${rows} ${rows === 1 ? "row" : "rows"} and empties the route filters.`,
+    "Clear all",
+    clearAll,
+  );
+}
+
+// The Saved rows, the open details, an uploaded track and the map type stay as they are
+function clearAll() {
+  const layers = document.getElementById("layers");
+
+  for (const button of layers.querySelectorAll(
+    '[data-layer][aria-pressed="true"]',
+  )) {
+    setLayer(button, false);
+  }
+
+  for (const input of layers.querySelectorAll("input")) {
+    input.value = "";
+  }
+
+  for (const chip of layers.querySelectorAll(
+    '[data-grade-filter][aria-pressed="true"]',
+  )) {
+    chip.setAttribute("aria-pressed", "false");
+  }
+
+  track("layers_clear");
+  sharedItem = undefined;
+  layersChanged();
+  scheduleAddress();
+
+  // The button hides once nothing is on, so focus moves on instead of being lost with it. The open menu makes the rows unreachable
+  const target = menuOpen()
+    ? document.getElementById("menuToggle")
+    : layers.querySelector("[data-layer]");
+  target.focus();
+}
+
 // Saved
 
 function savedRows() {
   return (
-    toggleRow(
+    savedRow(
       "saved.routes",
       "Routes",
       '<span class="swatch swatch-line"></span>',
-      GROUP_COLORS.explore,
     ) +
-    toggleRow(
-      "saved.places",
-      "Places",
-      iconSwatch("location_on"),
-      GROUP_COLORS.explore,
-    ) +
+    savedRow("saved.places", "Places", iconSwatch("location_on")) +
     '<p class="saved-empty" id="savedEmpty">Save a route or place from its details to keep it here.</p>'
   );
+}
+
+// A button can't hold another, so the delete button sits beside the row's toggle. It is enabled by updateSavedLayers
+function savedRow(layer, name, swatch) {
+  return `<div class="saved-row">${toggleRow(layer, name, swatch, GROUP_COLORS.explore)}<button type="button" class="saved-delete" data-saved-delete="${layer}" aria-label="Remove all saved ${name.toLowerCase()}" disabled><span class="material-symbols-outlined">delete</span></button></div>`;
+}
+
+// Route files sit in a folder named after their activity
+function isRouteUrl(url) {
+  return ACTIVITIES.some((activity) => url.startsWith(`${activity.id}/`));
 }
 
 // The stored list, or undefined when the browser blocks storage. A list of another format is read as empty
@@ -2698,17 +2798,18 @@ function updateSavedLayers() {
       continue;
     }
 
-    const layer = ACTIVITIES.some((activity) =>
-      url.startsWith(`${activity.id}/`),
-    )
-      ? routes
-      : places;
+    const layer = isRouteUrl(url) ? routes : places;
 
     if (!layer.urls.includes(url)) {
       layer.urls.push(url);
     }
 
     layer.count++;
+  }
+
+  for (const layer of [routes, places]) {
+    document.querySelector(`[data-saved-delete="${layer.row}"]`).disabled =
+      layer.count === 0;
   }
 
   document.getElementById("savedEmpty").hidden =
@@ -2737,14 +2838,16 @@ function toggleSaved(button) {
     item_id: item.label,
   });
 
-  // Changed in place, so the gallery keeps its photo
-  button.classList.toggle("saved", save);
-  button.querySelector(".action-label").textContent = save ? "Saved" : "Save";
+  showSaved(button, save);
   setStatus(save ? "Saved" : "Removed from saved");
 
   updateSavedLayers();
+  loadSavedFiles();
+  scheduleRender();
+}
 
-  // Loaded files are cached, but an item saved in another tab may need its file
+// Loaded files are cached, but an item saved in another tab may need its file
+function loadSavedFiles() {
   for (const id of ["saved.routes", "saved.places"]) {
     if (activeLayers.has(id)) {
       for (const url of LAYERS[id].urls) {
@@ -2752,8 +2855,64 @@ function toggleSaved(button) {
       }
     }
   }
+}
 
-  scheduleRender();
+// Changed in place, so the gallery keeps its photo
+function showSaved(button, isSaved) {
+  button.classList.toggle("saved", isSaved);
+  button.querySelector(".action-label").textContent = isSaved
+    ? "Saved"
+    : "Save";
+}
+
+function confirmRemoveSaved(row) {
+  const count = LAYERS[row].count;
+  const kind = row === "saved.routes" ? "route" : "place";
+
+  confirmAction(
+    `Remove ${count} saved ${kind}${count === 1 ? "" : "s"}?`,
+    "This can't be undone.",
+    "Remove",
+    () => removeSaved(row),
+  );
+}
+
+// Every stored item of the row's kind goes, also those no longer in the data
+function removeSaved(row) {
+  const routes = row === "saved.routes";
+
+  if (savedWritable) {
+    saved = readSaved() ?? saved;
+  }
+
+  for (const key of saved) {
+    if (isRouteUrl(key) === routes) {
+      saved.delete(key);
+    }
+  }
+
+  writeSaved();
+  track("saved_clear", { content_type: routes ? "routes" : "places" });
+
+  const button = document.querySelector(`[data-layer="${row}"]`);
+
+  if (activeLayers.has(row)) {
+    setLayer(button, false);
+  }
+
+  updateSavedLayers();
+  loadSavedFiles();
+
+  const save = document.querySelector('#details [data-action="save"]');
+
+  if (selected && save && !saved.has(selected.url)) {
+    showSaved(save, false);
+  }
+
+  layersChanged();
+
+  // The delete button is now disabled, so focus moves to its row instead of being lost
+  button.focus();
 }
 
 // Menu

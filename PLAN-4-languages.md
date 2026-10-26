@@ -71,7 +71,7 @@
 | L. Written in four languages directly in HTML (noscript 2, 404 body 3) | 5 |
 | L6. Stays English: 404 `<title>` | 1 |
 | M. Stays English: meta description, og:title, og:description, og:image:alt | 4 |
-| The six planned features add (see Interactions) | 34 |
+| The six planned features add (see Interactions) | 44 |
 
 The 146 keys replace the English now spread over `public/index.html` and `public/script.js`. The three route nouns (`script.js:21, 32, 43`) disappear, because they are replaced by 9 whole phrases (D8).
 
@@ -414,7 +414,7 @@ Follow the file's style: double quotes, semicolons, braces on every `if`, traili
 
 ## Interactions with the other planned features
 
-New strings from the other plans: 34 in all (listed in Appendix O). Each one is added as a `strings.js` entry with all four languages and shown with `t()`. Their numbers go through `formatNumber`. Any text kept outside the panel and details HTML (marker titles, labels changed in place) must be refreshed in `setLanguage`.
+New strings from the other plans: 44 in all (listed in Appendix O). Each one is added as a `strings.js` entry with all four languages and shown with `t()`. Their numbers go through `formatNumber`. Any text kept outside the panel and details HTML (marker titles, labels changed in place) must be refreshed in `setLanguage`.
 
 - **`PLAN-3-url-state.md`** (no strings).
   - `lang` is not added to `ADDRESS_KEYS`. Its writer keeps foreign keys first, so `?lang=fr&hiking=local` survives. The picker deletes `lang` itself; if both features are built, share the `,` and `/` clean-up as one `replaceQuery(params)` helper.
@@ -439,7 +439,7 @@ New strings from the other plans: 34 in all (listed in Appendix O). Each one is 
   - `profile.label` "Elevation profile, {low} to {high} m over {length} km" for the aria-label.
   - Every `toLocaleString()` in it (range, readout, axis labels, the 1-decimal length) becomes `formatNumber`.
   - `refreshDetails()` must call `hideProfilePoint()` before replacing the details, as its `selectItem` step does.
-- **`PLAN-2-saved-list.md`** (8 strings).
+- **`PLAN-2-saved-list.md`** (18 strings, with Clear all and the Saved delete buttons, built without a plan file).
   - `section.saved`, `saved.routes`, `saved.places`, `saved.empty` (the hint), `action.save`, `action.saved`, `status.saved` and `status.unsaved`. Kept separate because "Saved" is a section, a button state and an announcement.
   - `SECTION_ICONS` gets `saved: "star"`, with `group("saved", …)`.
   - `toggleSaved` sets the label with `t()`.
@@ -447,6 +447,8 @@ New strings from the other plans: 34 in all (listed in Appendix O). Each one is 
   - Its two rows live in the header menu (`#menuSaved`), which `buildPanel` fills too. `rebuildPanel()` therefore restores `aria-pressed` page-wide (step 19), and the ☰ badge follows through `updateBadges`.
   - `save_item` and `unsave_item` send `item_id: trackLabel(item)`, because unnamed OpenStreetMap points can be saved.
   - `index.html:43` gets `star`, `photo_camera` and `language`; keep the list alphabetical.
+  - Clear all and the Saved delete buttons add 10: `clear.button` "Clear all" (also the dialog's confirm label), `clear.title` "Clear the map?", `clear.text` "Turns off {count} rows and empties the route filters." (one/other), `confirm.cancel` "Cancel", `saved.removeRoutesTitle` and `saved.removePlacesTitle` "Remove {count} saved routes/places?" (one/other), `saved.removeText` "This can't be undone.", `action.remove` "Remove", and the delete buttons' aria-labels `saved.removeRoutes` / `saved.removePlaces`.
+  - The confirm dialog's texts are set each time it opens (`confirmAction`), so a language switch needs no refresh there. The Clear all button and the dialog's Cancel are static HTML and get `data-i18n`.
 - **`PLAN-0-photo-spots.md`** (2 strings).
   - `photo.title` "Photo {index} of {total}", also used for its status message, and `photo.titleShown` "Photo {index} of {total}, on show".
   - Its `spot.key` cache must include `language`. `refreshDetails()` ends with `drawPhotoSpots()` once that plan lands, so pin titles change on a switch.
@@ -762,10 +764,10 @@ Paths are `public/script.js` unless marked otherwise. "Key" is the proposed `str
 - Console texts (:731, :763).
 - Analytics ids (:606, :1257–1262, :1716–1720, :1910, :2191).
 
-**O. Strings added by the planned features (34):**
+**O. Strings added by the planned features (44):**
 - route-facts (17): `grade.easy`, `grade.medium`, `grade.difficult`, `trail.easy`, `trail.medium`, `filter.grade`, `filter.fitness`, `filter.hiking.grade`, `filter.hiking.fitness`, `filter.cycling.fitness`, `filter.mountainbiking.grade`, `filter.mountainbiking.fitness`, `stat.hikingTime`, `fact.otherDirection`, `route.loop`, `route.ends`, `route.via`.
 - elevation-profile (2): `profile.title`, `profile.label`.
-- saved-list (8): `section.saved`, `saved.routes`, `saved.places`, `saved.empty`, `action.save`, `action.saved`, `status.saved`, `status.unsaved`.
+- saved-list (18): `section.saved`, `saved.routes`, `saved.places`, `saved.empty`, `action.save`, `action.saved`, `status.saved`, `status.unsaved`, `clear.button`, `clear.title`, `clear.text`, `confirm.cancel`, `saved.removeRoutesTitle`, `saved.removePlacesTitle`, `saved.removeText`, `action.remove`, `saved.removeRoutes`, `saved.removePlaces`.
 - photo-spots (2): `photo.title`, `photo.titleShown`.
 - theme (5): `theme.label`, `theme.auto`, `theme.light`, `theme.dark`, `theme.mapLater`.
 - url-state: none.
