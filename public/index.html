@@ -40,7 +40,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,100..900&display=swap" rel="stylesheet">
   <link
-    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0..1,0&icon_names=add,agriculture,air,altitude,apartment,backpack,battery_charging_full,beach_access,bed,bedroom_parent,bolt,build,cabin,call,camping,chalet,check,chevron_left,chevron_right,close,cottage,delete,download,explore,faucet,favorite,fireplace,fort,gite,handyman,hot_tub,hotel,house,info,landscape,link,local_fire_department,location_on,mail,menu,night_shelter,open_in_new,park,pedal_bike,photo_camera,pool,remove,schedule,shower,table_restaurant,upload,visibility,water,water_drop,waves,wc&display=block"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0..1,0&icon_names=add,agriculture,air,altitude,apartment,backpack,battery_charging_full,beach_access,bed,bedroom_parent,bolt,build,cabin,call,camping,chalet,check,chevron_left,chevron_right,close,cottage,delete,download,explore,faucet,favorite,fireplace,fort,gite,handyman,hot_tub,hotel,house,info,landscape,link,local_fire_department,location_on,mail,menu,night_shelter,open_in_new,park,pedal_bike,photo_camera,pool,remove,schedule,shower,star,table_restaurant,upload,visibility,water,water_drop,waves,wc&display=block"
     rel="stylesheet" />
 
   <!-- Favicon -->
@@ -109,7 +109,7 @@
     </div>
     <div class="panel-head">
       <button type="button" class="menu-toggle" id="menuToggle" aria-label="Menu" aria-expanded="false"
-        aria-controls="menu"><span class="material-symbols-outlined">menu</span></button>
+        aria-controls="menu"><span class="material-symbols-outlined">menu</span><span class="badge menu-badge" id="menuBadge" hidden></span></button>
       <span class="brand">Swiss Routes</span>
     </div>
     <div class="layers-body" id="layers"></div>
@@ -117,6 +117,7 @@
       <button type="button" class="menu-item" id="uploadButton"><span class="material-symbols-outlined">upload</span>Upload GPX</button>
       <button type="button" class="menu-item" id="uploadRemove" hidden><span class="material-symbols-outlined">delete</span>Remove track</button>
       <p class="upload-error" id="uploadError" role="alert" hidden></p>
+      <div id="menuSaved"></div>
     </div>
   </aside>
 

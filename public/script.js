@@ -81,6 +81,7 @@ const SECTION_ICONS = {
   "Rest stops": "table_restaurant",
   Nature: "park",
   Favorites: "favorite",
+  Saved: "star",
 };
 
 const PLACES = [
@@ -329,6 +330,10 @@ const HANDMADE_SIGHTSEEING_ID = 10001;
 // While files arrive, the map redraws at most this often and regroups markers only once everything has loaded
 const LOADING_RENDER_DELAY = 300;
 
+// The visitor's saved routes and places are kept in the browser under this name. The version allows a later change of format
+const SAVED_STORAGE_KEY = "swissroutes.saved";
+const SAVED_VERSION = 1;
+
 // A photo spot this far (about 1 km) outside the box around its route is a data error. 20 such points exist, some 100 km away
 const SPOT_MARGIN = 0.01;
 
@@ -376,6 +381,10 @@ let addressTimeout = undefined;
 let glideFrame = undefined;
 // While the map shows the view it opened with, the position stays out of the address. Empty when the address gave a position (then it is always kept); undefined until the map first settles
 let openingPosition = ADDRESS_POSITION ? "" : undefined;
+// Keys of the saved items: the data file path, plus #<id> for a place inside an OpenStreetMap or charging-station file
+let saved = readSaved() ?? new Set();
+// Once a write fails, the stored list is out of date, so it is no longer read back
+let savedWritable = true;
 
 const activeLayers = new Set();
 const files = new Map();
@@ -479,6 +488,9 @@ function buildLayers() {
     "favorites.visit",
   );
 
+  layers["saved.routes"] = savedLayer("saved.routes");
+  layers["saved.places"] = savedLayer("saved.places");
+
   return layers;
 }
 
@@ -527,6 +539,17 @@ function placeLayer(place, ids, row) {
     row: row,
     urls: ids.map((id) => `${place.folder}/${id}.json`),
     build: (url, json) => buildPlace(url, json, place),
+  };
+}
+
+// A saved row lists files of every kind: each file is built by the layer that owns it, and only its saved items are shown
+function savedLayer(row) {
+  return {
+    row: row,
+    urls: [],
+    count: 0,
+    keep: (item) => saved.has(item.url),
+    build: (url, json) => fileLayer(url).build(url, json),
   };
 }
 
@@ -583,8 +606,14 @@ function buildPanel() {
 
   const layers = document.getElementById("layers");
   layers.innerHTML = content;
+  document.getElementById("menuSaved").innerHTML = group(
+    "Saved",
+    savedRows(),
+    false,
+  );
 
-  for (const button of layers.querySelectorAll("[data-layer]")) {
+  // The Saved rows live in the header menu, outside #layers
+  for (const button of document.querySelectorAll("[data-layer]")) {
     button.addEventListener("click", () => toggleLayer(button));
   }
 
@@ -602,6 +631,7 @@ function buildPanel() {
     });
   }
 
+  updateSavedLayers();
   updateCounts({});
 }
 
@@ -745,6 +775,12 @@ function updateBadges() {
     badge.textContent = selected;
     badge.hidden = !selected;
   }
+
+  // The Saved rows are hidden with the menu, so the menu button repeats their badge
+  const savedBadge = document.querySelector("#menuSaved .badge");
+  const menuBadge = document.getElementById("menuBadge");
+  menuBadge.textContent = savedBadge.textContent;
+  menuBadge.hidden = savedBadge.hidden;
 }
 
 function onFilterChange() {
@@ -984,7 +1020,7 @@ function buildPlace(url, json, place) {
 function buildChargingStations(url, json, place) {
   const items = [];
 
-  json.forEach((entry, index) => {
+  json.forEach((entry) => {
     const coordinates = entry.Point.coordinates.split(",");
     const latitude = parseFloat(coordinates[1]);
     const longitude = parseFloat(coordinates[0]);
@@ -997,8 +1033,9 @@ function buildChargingStations(url, json, place) {
     ) {
       const position = point(latitude, longitude);
 
+      // Keyed by position, not by index, which shifts when the file is refreshed
       const item = {
-        url: `${url}#${index}`,
+        url: `${url}#${entry.Point.coordinates}`,
         json: entry,
         kind: "charging",
         place: place,
@@ -1017,11 +1054,12 @@ function buildChargingStations(url, json, place) {
 }
 
 function buildOsmPlaces(url, json, place) {
-  return json.map((entry, index) => {
+  return json.map((entry) => {
     const position = point(entry.coordinates[0], entry.coordinates[1]);
 
+    // Keyed by OpenStreetMap id, not by index, which shifts when the file is refreshed
     const item = {
-      url: `${url}#${index}`,
+      url: `${url}#${entry.id}`,
       json: entry,
       kind: "osm",
       place: place,
@@ -1148,6 +1186,11 @@ function render(regroup = true) {
 
     for (const url of layer.urls) {
       for (const item of files.get(url) ?? []) {
+        // A saved row shows only the saved items of a file, such as one fountain of the drinking water file
+        if (layer.keep && !layer.keep(item)) {
+          continue;
+        }
+
         count.total++;
 
         if (matchesFilter(filters[layer.filter], item)) {
@@ -1518,6 +1561,7 @@ function routeDetails(item) {
 
   content += actions([
     shareAction(),
+    saveAction(item),
     '<button type="button" class="action" data-action="download"><span class="material-symbols-outlined">download</span>Download GPX</button>',
     externalAction(
       `https://www.schweizmobil.ch/en/${item.type}-in-switzerland/route-${properties.r_number}`,
@@ -1622,7 +1666,7 @@ function placeDetails(item) {
     );
   }
 
-  content += actions([shareAction(), external]);
+  content += actions([shareAction(), saveAction(item), external]);
 
   if (properties.abstract) {
     content += `<p class="details-lead">${properties.abstract}</p>`;
@@ -1699,6 +1743,7 @@ function chargingStationDetails(item) {
   let content = `<div class="details-kind" style="--color:${GROUP_COLORS[item.place.group]}">${iconSwatch(item.place.icon)}${item.place.label}</div>`;
   content += `<h2 class="details-title">${item.label}</h2>`;
   content += actions([
+    saveAction(item),
     externalAction(
       `https://www.google.com/maps/place/${item.position.lat},${item.position.lng}`,
       "Google Maps",
@@ -1720,6 +1765,7 @@ function osmDetails(item) {
   content += `<h2 class="details-title">${escapeHtml(item.label)}</h2>`;
 
   content += actions([
+    saveAction(item),
     externalAction(
       `https://www.openstreetmap.org/${item.json.id}`,
       "OpenStreetMap",
@@ -1816,6 +1862,13 @@ function actions(buttons) {
 
 function shareAction() {
   return '<button type="button" class="action" data-action="share"><span class="material-symbols-outlined">link</span><span class="action-label">Copy link</span></button>';
+}
+
+// The visible label changes, so there is no aria-pressed: a toggle's name must not change while it is used
+function saveAction(item) {
+  const isSaved = saved.has(item.url);
+
+  return `<button type="button" class="action${isSaved ? " saved" : ""}" data-action="save"><span class="material-symbols-outlined">star</span><span class="action-label">${isSaved ? "Saved" : "Save"}</span></button>`;
 }
 
 function externalAction(url, label) {
@@ -2417,6 +2470,8 @@ function bindControls() {
       closeDetails();
     } else if (action === "share") {
       copyLink(button);
+    } else if (action === "save") {
+      toggleSaved(button);
     } else if (action === "download") {
       download();
     } else if (action === "remove-upload") {
@@ -2569,6 +2624,136 @@ function stopGlide() {
     glideFrame = undefined;
     map.setOptions({ isFractionalZoomEnabled: false });
   }
+}
+
+// Saved
+
+function savedRows() {
+  return (
+    toggleRow(
+      "saved.routes",
+      "Routes",
+      '<span class="swatch swatch-line"></span>',
+      GROUP_COLORS.explore,
+    ) +
+    toggleRow(
+      "saved.places",
+      "Places",
+      iconSwatch("location_on"),
+      GROUP_COLORS.explore,
+    ) +
+    '<p class="saved-empty" id="savedEmpty">Save a route or place from its details to keep it here.</p>'
+  );
+}
+
+// The stored list, or undefined when the browser blocks storage. A list of another format is read as empty
+function readSaved() {
+  try {
+    const stored = JSON.parse(localStorage.getItem(SAVED_STORAGE_KEY));
+
+    if (stored?.version === SAVED_VERSION && Array.isArray(stored.items)) {
+      return new Set(stored.items.filter((key) => typeof key === "string"));
+    }
+
+    return new Set();
+  } catch {
+    return undefined;
+  }
+}
+
+function writeSaved() {
+  try {
+    localStorage.setItem(
+      SAVED_STORAGE_KEY,
+      JSON.stringify({ version: SAVED_VERSION, items: [...saved] }),
+    );
+  } catch (error) {
+    // Blocked or full storage: the list lasts until the page closes
+    savedWritable = false;
+    console.error("Could not keep the saved list", error);
+  }
+}
+
+// The layer that lists a data file, or undefined when no layer does any more
+function fileLayer(url) {
+  return Object.values(LAYERS).find(
+    (layer) => !layer.keep && layer.urls.includes(url),
+  );
+}
+
+// A saved item whose file no layer lists any more is skipped, and stays in storage in case it comes back
+function updateSavedLayers() {
+  const routes = LAYERS["saved.routes"];
+  const places = LAYERS["saved.places"];
+
+  for (const layer of [routes, places]) {
+    layer.urls = [];
+    layer.count = 0;
+  }
+
+  for (const key of saved) {
+    const url = key.split("#")[0];
+
+    if (!fileLayer(url)) {
+      continue;
+    }
+
+    const layer = ACTIVITIES.some((activity) =>
+      url.startsWith(`${activity.id}/`),
+    )
+      ? routes
+      : places;
+
+    if (!layer.urls.includes(url)) {
+      layer.urls.push(url);
+    }
+
+    layer.count++;
+  }
+
+  document.getElementById("savedEmpty").hidden =
+    routes.count + places.count > 0;
+}
+
+function toggleSaved(button) {
+  const item = selected;
+  // The button decides, not the stored list, so a tab whose list is out of date still does what was clicked
+  const save = !button.classList.contains("saved");
+
+  // Read again first, so the saves of other tabs are kept
+  if (savedWritable) {
+    saved = readSaved() ?? saved;
+  }
+
+  if (save) {
+    saved.add(item.url);
+  } else {
+    saved.delete(item.url);
+  }
+
+  writeSaved();
+  track(save ? "save_item" : "unsave_item", {
+    content_type: contentType(item),
+    item_id: item.label,
+  });
+
+  // Changed in place, so the gallery keeps its photo
+  button.classList.toggle("saved", save);
+  button.querySelector(".action-label").textContent = save ? "Saved" : "Save";
+  setStatus(save ? "Saved" : "Removed from saved");
+
+  updateSavedLayers();
+
+  // Loaded files are cached, but an item saved in another tab may need its file
+  for (const id of ["saved.routes", "saved.places"]) {
+    if (activeLayers.has(id)) {
+      for (const url of LAYERS[id].urls) {
+        loadFile(url, LAYERS[id].build);
+      }
+    }
+  }
+
+  scheduleRender();
 }
 
 // Menu
