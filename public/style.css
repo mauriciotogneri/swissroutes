@@ -856,6 +856,18 @@ body.has-details #map {
   color: var(--paper);
 }
 
+/* The confirm buttons all clear or delete something */
+.action-danger,
+.action-danger:hover {
+  border-color: var(--red);
+  background: var(--red);
+  color: var(--paper);
+}
+
+.action-danger:hover {
+  filter: brightness(0.9);
+}
+
 .stats {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(72px, 1fr));
