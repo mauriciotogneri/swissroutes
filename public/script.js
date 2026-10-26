@@ -58,7 +58,22 @@ const ACTIVITIES = [
   },
 ];
 
-// The color of an uploaded GPX track, apart from the three route colors. Keep in sync with .track-end-start in style.css
+// The colors of the routes on the map. bin/ids-generator.js gives every route one of them in ROUTE_COLORS, so routes that pass close to each other differ.
+// The activity colors above are left to the menu. Each pair keeps the number plate's text readable, and none is close to UPLOAD_COLORS
+const ROUTE_PALETTE = [
+  { light: "#c62828", dark: "#ff6b5f" },
+  { light: "#b45309", dark: "#ffa04d" },
+  { light: "#7a6a00", dark: "#e0c341" },
+  { light: "#2e7d32", dark: "#6fcf6f" },
+  { light: "#00796b", dark: "#3fd0bd" },
+  { light: "#0369a1", dark: "#5cc4f5" },
+  { light: "#1d4ed8", dark: "#5b8cff" },
+  { light: "#5b3fc4", dark: "#a99cff" },
+  { light: "#be185d", dark: "#ff7ab8" },
+  { light: "#795548", dark: "#c9a27e" },
+];
+
+// The color of an uploaded GPX track, apart from the route colors. Keep in sync with .track-end-start in style.css
 const UPLOAD_COLORS = { light: "#7a2e8e", dark: "#c77ddb" };
 
 // The outline of the selected route and the uploaded track: the map's --paper, which Google's lines can't read from CSS
@@ -998,6 +1013,8 @@ function buildRoute(url, json, activity, level) {
     stage.map((coordinate) => point(coordinate[0], coordinate[1])),
   );
   const bounds = getBounds(paths.flat());
+  // A route missing from an outdated ids.js keeps its activity's color
+  const colors = ROUTE_PALETTE[ROUTE_COLORS[url]] ?? activity.colors;
 
   const item = {
     url: url,
@@ -1007,8 +1024,8 @@ function buildRoute(url, json, activity, level) {
     activity: activity,
     level: level,
     label: `${properties.r_number} ${properties.title}`,
-    color: cssColor(activity.colors),
-    lineColor: activity.colors[MAP_SCHEME],
+    color: cssColor(colors),
+    lineColor: colors[MAP_SCHEME],
     weight: level.weight,
     zIndex: level.zIndex,
     length: parseInt(properties.length),
@@ -1024,7 +1041,7 @@ function buildRoute(url, json, activity, level) {
   item.lines = paths.map((path) => createLine(item, path));
   item.badge = createMarker(
     paths[0][0],
-    plate(properties.r_number, cssColor(activity.colors)),
+    plate(properties.r_number, item.color),
     item,
   );
 
