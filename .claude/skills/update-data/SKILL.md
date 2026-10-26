@@ -23,13 +23,13 @@ The rest of this file is the runbook.
 
 This is the step-by-step plan for refreshing every layer the site shows: routes, accommodation, bike service shops, sightseeing and charging stations. Follow the steps in order. Each step says what to run, how to tell that it worked, and what to do when it didn't.
 
-The whole update takes about an hour, most of it the route download. It changes files in `ids/` and `public/data/` only. Nothing reaches the live site until step 9.
+The whole update took about an hour before the downloads also fetched German, French and Italian texts, and now takes longer, most of it the route download. It changes files in `ids/` and `public/data/` only. Nothing reaches the live site until step 9.
 
 See `AGENTS.md` in the repository root for how the data sources, folders and scripts fit together.
 
 ## Order
 
-The steps run in order 0–9. Steps 1–3 take most of the time (the route download alone is 30–40 minutes). Everything from step 4 on needs all three to have finished.
+The steps run in order 0–9. Steps 1–3 take most of the time (the route download alone was 30–40 minutes before it also fetched the German, French and Italian texts; expect roughly twice that, an estimate not yet timed). Everything from step 4 on needs all three to have finished.
 
 ## Rules that apply to every step
 
@@ -78,7 +78,7 @@ The steps run in order 0–9. Steps 1–3 take most of the time (the route downl
 
 ## Step 1: Routes
 
-Downloads the SchweizMobil hiking, cycling and mountain-bike routes at all three levels: national, regional and local. SchweizMobil has no list of route numbers, so the script tries every number one after another: 1–9 for national, 1–99 for regional and 1–999 for local. That's about 3,300 requests.
+Downloads the SchweizMobil hiking, cycling and mountain-bike routes at all three levels: national, regional and local. SchweizMobil has no list of route numbers, so the script tries every number one after another: 1–9 for national, 1–99 for regional and 1–999 for local. That's about 3,300 requests. For each route that exists it then asks for the German, French and Italian versions, about 2,400 more requests, and keeps the texts that differ from the English in `properties.translations`.
 
 ```sh
 node bin/route-downloader.js 2>&1 | tee logs/routes.log
@@ -89,7 +89,7 @@ node bin/route-downloader.js 2>&1 | tee logs/routes.log
 **When it worked**, the last progress line is `Wanderland-RoutenLokal: 999 (99%)` and the search below prints `no matches`:
 
 ```sh
-grep -nE '^Error (downloading file|getting ids):|^ +at |NO IDS FOUND|MORE THAN ONE FEATURE|DUPLICATED ID|MISSING HEIGHTS' logs/routes.log || { [ $? -eq 1 ] && echo "no matches"; }
+grep -nE '^Error (downloading file|getting ids):|^ +at |NO IDS FOUND|MORE THAN ONE FEATURE|DUPLICATED ID|MISSING HEIGHTS|NO TRANSLATION' logs/routes.log || { [ $? -eq 1 ] && echo "no matches"; }
 ```
 
 A `Retrying:` line, followed by a line such as `Error: HTTP 503` or `TypeError: fetch failed`, is fine on its own. It means a request failed and is being tried again. The search above ignores these lines.
@@ -102,11 +102,13 @@ A `Retrying:` line, followed by a line such as `Error: HTTP 503` or `TypeError: 
 - `MORE THAN ONE FEATURE: <url>` means SchweizMobil returned several routes for one number. The script skips that number, so it's missing from the new list, and step 6 will delete its old file. Open the URL in a browser to see what came back. Report the affected numbers to the user and let them decide.
 - `MISSING HEIGHTS: <url> (<n> points)` means some points of that route came without a height. The route is still saved and shows on the map, only without an elevation chart. One or a few such lines: report them to the user, then continue. On every route: SchweizMobil has changed the format of its response and the script needs updating. Don't commit the data.
 
+- `NO TRANSLATION: <url>` means SchweizMobil returned nothing for that route in one language, though it has the English. The route is saved and shows its English text in that language. A few such lines: report them to the user, then continue. On every route: the address or format has changed and the script needs updating.
+
 Route numbers that don't exist are not errors. SchweizMobil answers them with an empty result, and the script just moves on.
 
 ## Step 2: Bike service shops and sightseeing
 
-Downloads the SchweizMobil id lists for bike service shops (`Cycleservice`) and sightseeing (`Sightseeing`), then each place on those lists.
+Downloads the SchweizMobil id lists for bike service shops (`Cycleservice`) and sightseeing (`Sightseeing`), then each place on those lists. Each sightseeing place takes 3 more requests, for its German, French and Italian texts.
 
 ```sh
 node bin/other-downloader.js 2>&1 | tee logs/other.log
@@ -114,16 +116,17 @@ node bin/other-downloader.js 2>&1 | tee logs/other.log
 
 **While it runs**, it prints `SERVICESHOP: <id> (<percent>%)` and then `SIGHTSEEING: <id> (<percent>%)`.
 
-**When it worked**, the last progress line is a `SIGHTSEEING:` line at 99% and the search below prints `no matches`, or only `MORE THAN ONE FEATURE` lines, which are handled below and are not failures:
+**When it worked**, the last progress line is a `SIGHTSEEING:` line at 99% and the search below prints `no matches`, or only `MORE THAN ONE FEATURE` and `NO TRANSLATION` lines, which are handled below and are not failures:
 
 ```sh
-grep -nE '^Error (downloading file|getting ids):|^ +at |NO IDS FOUND|MORE THAN ONE FEATURE|DUPLICATED ID' logs/other.log || { [ $? -eq 1 ] && echo "no matches"; }
+grep -nE '^Error (downloading file|getting ids):|^ +at |NO IDS FOUND|MORE THAN ONE FEATURE|DUPLICATED ID|NO TRANSLATION' logs/other.log || { [ $? -eq 1 ] && echo "no matches"; }
 ```
 
 **When it didn't:**
 
 - `Error getting ids:` means the id list couldn't be downloaded. `Error downloading file:` means a single place couldn't. In both cases the script stopped before writing that layer's id list. Rerun the same command. If no `Retrying:` lines come before the error, read step 1 first: the response format has probably changed.
 - `NO IDS FOUND: <url>` means SchweizMobil returned an empty list. The address has probably changed. Open the URL in a browser before you rerun. If the address changed, update it in `bin/helpers.js`.
+- `NO TRANSLATION: <url>`: as in step 1, the place is saved and shows its English text in that language.
 - `MORE THAN ONE FEATURE: <url>` means that place was skipped, but its id is still on the new list. If the place is new, it has no file, and check 2 in step 4 will report it (a new shop 1404 did in October 2026, and it did again in two later updates, because the id was not on the baseline list: the download adds it back every time. Each time the user removed it, which leaves `ids/other/serviceshop.json` identical to the baseline, so recommend that). If it existed before, it keeps its old file. Ask the user then: accept it (the site skips that place and logs one `Could not load` message), or remove its id from the list. The next download adds the id back.
 
 The hand-made sightseeing entries (ids 10001 and up) are safe. They are listed only in `ids/favorites/visit.json`, which no script writes, and step 6 keeps every file that a favorites list refers to.

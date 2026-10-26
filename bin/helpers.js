@@ -1,6 +1,12 @@
 const fs = require('fs')
 const path = require('path')
 
+// The languages besides English that SchweizMobil writes its texts in. It has no Spanish or Portuguese
+const TRANSLATED_LANGUAGES = ['de', 'fr', 'it']
+
+// The translated fields of routes and sightseeing that the site shows. Other translated fields, such as category_grade_text, stay English
+const TRANSLATED_FIELDS = ['title', 'abstract', 'description', 'url_sightseeing']
+
 function hashCode(text) {
   let result = 0
 
@@ -47,8 +53,13 @@ async function getPoisByCategory(category) {
   return result
 }
 
-async function downloadFile(name, id, filePath, isPoint) {
-  const url = `https://map.schweizmobil.ch/api/4/query/featuresmultilayers?attributes=yes&translated=true&language=en&${name}=${id}`
+function featureUrl(name, id, language) {
+  return `https://map.schweizmobil.ch/api/4/query/featuresmultilayers?attributes=yes&translated=true&language=${language}&${name}=${id}`
+}
+
+// translated: also download the German, French and Italian texts, kept in properties.translations
+async function downloadFile(name, id, filePath, isPoint, translated) {
+  const url = featureUrl(name, id, 'en')
 
   try {
     const json = await getFile(url)
@@ -118,6 +129,14 @@ async function downloadFile(name, id, filePath, isPoint) {
       properties.url2_link = sanitize(properties.url2_link)
       properties.url_sightseeing = sanitize(properties.url_sightseeing)
 
+      if (translated) {
+        const translations = await getTranslations(name, id, properties)
+
+        if (Object.keys(translations).length > 0) {
+          properties.translations = translations
+        }
+      }
+
       writeFile(filePath, element)
 
       return id
@@ -126,6 +145,39 @@ async function downloadFile(name, id, filePath, isPoint) {
     console.log(`Error downloading file: ${url}\n${e.toString()}`)
     throw e
   }
+}
+
+// Each language's texts, keeping only those that differ from the English, so a missing field means the English one applies.
+// Every request throws when it fails, so the caller stops before it writes the id list
+async function getTranslations(name, id, properties) {
+  const translations = {}
+
+  for (const language of TRANSLATED_LANGUAGES) {
+    const url = featureUrl(name, id, language)
+    const json = await getFile(url)
+    const translated = json.features[0]?.properties
+
+    if (!translated) {
+      console.log(`NO TRANSLATION: ${url}`)
+      continue
+    }
+
+    const fields = {}
+
+    for (const field of TRANSLATED_FIELDS) {
+      const value = sanitize(translated[field])
+
+      if (value && value !== properties[field]) {
+        fields[field] = value
+      }
+    }
+
+    if (Object.keys(fields).length > 0) {
+      translations[language] = fields
+    }
+  }
+
+  return translations
 }
 
 function sanitize(value) {
@@ -209,17 +261,17 @@ async function downloadRoute(id, group, type, folder, total) {
   console.log(`${group}-${type}: ${id} (${parseInt((id / total) * 100)}%)`)
   const filePath = `public/data/${folder}/${id}.json`
 
-  return downloadFile(`${group}${type}`, id, filePath, false)
+  return downloadFile(`${group}${type}`, id, filePath, false, true)
 }
 
-async function downloadPoint(group, folder, type) {
+async function downloadPoint(group, folder, type, translated = false) {
   const ids = await getIds(type)
 
   for (let i = 0; i < ids.length; i++) {
     const id = ids[i]
     console.log(`${folder.toUpperCase()}: ${id} (${parseInt((i / ids.length) * 100)}%)`)
     const filePath = `public/data/${group}/${folder}/${id}.json`
-    await downloadFile(type, id, filePath, true)
+    await downloadFile(type, id, filePath, true, translated)
   }
 
   writeFile(`ids/${group}/${folder}.json`, ids)

@@ -933,7 +933,7 @@ function buildRoute(url, json, activity, level) {
     type: activity.id,
     activity: activity,
     level: level,
-    label: `${properties.r_number} ${properties.title}`,
+    label: routeLabel(properties),
     color: cssColor(colors),
     lineColor: colors[MAP_SCHEME],
     weight: level.weight,
@@ -970,7 +970,7 @@ function buildPlace(url, json, place) {
     kind: "place",
     type: place.icon,
     place: place,
-    label: json.properties.title ? json.properties.title : json.properties.name,
+    label: placeLabel(json.properties),
     position: position,
     bounds: around(position, 0.1),
     gallery: getGallery(json),
@@ -1033,6 +1033,18 @@ function buildOsmPlaces(url, json, place) {
 
     return item;
   });
+}
+
+// A route's number and title, in the interface language unless code names another
+function routeLabel(properties, code) {
+  return `${properties.r_number} ${localText(properties, "title", code)}`;
+}
+
+// My Switzerland places keep their name in name, not title
+function placeLabel(properties, code) {
+  return properties.title
+    ? localText(properties, "title", code)
+    : properties.name;
 }
 
 function createLine(item, path) {
@@ -1513,7 +1525,7 @@ function routeDetails(item) {
     : plateBadge(item);
 
   let content = `<div class="details-kind">${badge}${t(`kind.${item.activity.id}.${item.level.id}`)}</div>`;
-  content += `<h2 class="details-title">${escapeHtml(properties.title)}</h2>`;
+  content += `<h2 class="details-title">${escapeHtml(localText(properties, "title"))}</h2>`;
 
   if (properties.start && properties.end) {
     content += `<p class="details-subtitle">${escapeHtml(routeEnds(properties))}</p>`;
@@ -1523,10 +1535,7 @@ function routeDetails(item) {
     shareAction(),
     saveAction(item),
     `<button type="button" class="action" data-action="download"><span class="material-symbols-outlined">download</span>${t("action.downloadGpx")}</button>`,
-    externalAction(
-      `https://www.schweizmobil.ch/en/${item.type}-in-switzerland/route-${properties.r_number}`,
-      "SchweizMobil",
-    ),
+    externalAction(routePage(item), "SchweizMobil"),
   ]);
 
   let stats = stat(t("stat.distance"), item.length, "km");
@@ -1591,14 +1600,24 @@ function routeDetails(item) {
   content += profileSection(item);
 
   if (properties.abstract) {
-    content += `<p class="details-lead" lang="en">${properties.abstract}</p>`;
+    content += `<p class="details-lead" lang="${textLanguage(properties, "abstract")}">${localText(properties, "abstract")}</p>`;
   }
 
   if (properties.description) {
-    content += `<div class="details-description" lang="en">${properties.description}</div>`;
+    content += `<div class="details-description" lang="${textLanguage(properties, "description")}">${localText(properties, "description")}</div>`;
   }
 
   return content;
+}
+
+// SchweizMobil's page of the route in the interface language. It has none in Spanish or Portuguese, and older files have no links
+function routePage(item) {
+  const properties = item.json.properties;
+  const page = [properties[`url_${language}`], properties.url_en].find(safeUrl);
+
+  return page
+    ? escapeHtml(page)
+    : `https://www.schweizmobil.ch/en/${item.type}-in-switzerland/route-${properties.r_number}`;
 }
 
 function placeDetails(item) {
@@ -1638,11 +1657,11 @@ function placeDetails(item) {
   content += actions([shareAction(), saveAction(item), external]);
 
   if (properties.abstract) {
-    content += `<p class="details-lead" lang="en">${properties.abstract}</p>`;
+    content += `<p class="details-lead" lang="${textLanguage(properties, "abstract")}">${localText(properties, "abstract")}</p>`;
   }
 
   if (properties.description) {
-    content += `<div class="details-description" lang="en">${properties.description}</div>`;
+    content += `<div class="details-description" lang="${textLanguage(properties, "description")}">${localText(properties, "description")}</div>`;
   }
 
   const contact = [];
@@ -1688,7 +1707,7 @@ function placeDetails(item) {
     [
       properties.url1_link,
       properties.url2_link,
-      properties.url_sightseeing,
+      localText(properties, "url_sightseeing"),
     ].filter(safeUrl),
   );
 
@@ -3517,6 +3536,18 @@ function tCount(key, count) {
   return t(`${key}.${variant}`, { count: formatNumber(count) });
 }
 
+// SchweizMobil's text of a route or sightseeing place in the interface language, or in code's. Without a translation (Spanish, Portuguese, hand-made entries) it is the English
+function localText(properties, field, code = language) {
+  return properties.translations?.[code]?.[field] ?? properties[field];
+}
+
+// The tag of the language localText gives field in, for a lang attribute
+function textLanguage(properties, field) {
+  return properties.translations?.[language]?.[field]
+    ? LANGUAGE_TAGS[language]
+    : "en";
+}
+
 // Numbers in the interface language's format: Swiss for German, French and Italian, Spain's and Portugal's for Spanish and Portuguese. English keeps the browser's own format, as before
 function formatNumber(value, options) {
   return value.toLocaleString(
@@ -3642,12 +3673,19 @@ function refreshDetails() {
 function refreshMapText() {
   for (const items of files.values()) {
     for (const item of items) {
-      if (item.kind === "osm" && !item.json.name) {
+      if (item.kind === "route") {
+        item.label = routeLabel(item.json.properties);
+        item.badge.title = item.label;
+      } else if (item.kind === "place") {
+        item.label = placeLabel(item.json.properties);
+      } else if (item.kind === "osm" && !item.json.name) {
         item.label = t(`place.${item.place.id}.label`);
+      } else {
+        continue;
+      }
 
-        if (item.marker) {
-          item.marker.title = item.label;
-        }
+      if (item.marker) {
+        item.marker.title = item.label;
       }
     }
   }
@@ -3671,11 +3709,19 @@ function track(name, params) {
   window.trackEvent?.(name, { ...params, ui_language: language });
 }
 
-// The item's name for reports. An unnamed OpenStreetMap place is named by its kind, sent in English so reports don't split by language
+// The item's name for reports, in English so reports don't split by language. An unnamed OpenStreetMap place is named by its kind
 function trackLabel(item) {
   // The name of an uploaded file is the user's own, so it is not sent
   if (item.kind === "upload") {
     return "upload";
+  }
+
+  if (item.kind === "route") {
+    return routeLabel(item.json.properties, "en");
+  }
+
+  if (item.kind === "place") {
+    return placeLabel(item.json.properties, "en");
   }
 
   if (item.kind === "osm" && !item.json.name) {
@@ -3739,7 +3785,7 @@ function download() {
   track("gpx_download", { item_id: trackLabel(selected) });
 
   const data = gpxData(selected.json);
-  const filename = `${selected.json.properties.r_number} - ${selected.json.properties.title}.gpx`;
+  const filename = `${selected.json.properties.r_number} - ${localText(selected.json.properties, "title")}.gpx`;
   const file = new Blob([data], { type: "application/xml" });
 
   if (window.navigator.msSaveOrOpenBlob) {
@@ -3761,7 +3807,7 @@ function download() {
 
 function gpxData(json) {
   const name = escapeHtml(
-    `${json.properties.r_number} - ${json.properties.title}`,
+    `${json.properties.r_number} - ${localText(json.properties, "title")}`,
   );
   let xml = "<?xml version='1.0' encoding='UTF-8'?>\n";
   xml +=
