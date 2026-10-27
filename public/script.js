@@ -319,7 +319,6 @@ let progressDone = 0;
 let renderPending = false;
 let loadingRenderTimeout = undefined;
 let filterTimeout = undefined;
-let downloadsActive = 0;
 let addressTimeout = undefined;
 // The interface language, a key of LANGUAGE_TAGS (index.html)
 let language = PAGE_LANGUAGE;
@@ -335,6 +334,8 @@ const activeLayers = new Set();
 const files = new Map();
 const requests = new Map();
 const downloadQueue = [];
+// The downloads under way, so those no row needs any more can be stopped
+const downloading = new Set();
 // What is on the map right now: a place item or a bubble key, mapped to its marker
 const drawn = new Map();
 
@@ -710,6 +711,7 @@ function setLayer(button, active) {
     }
   } else {
     activeLayers.delete(id);
+    stopUnneededDownloads();
   }
 }
 
@@ -852,7 +854,11 @@ function loadFile(url, build) {
         return items;
       })
       .catch((error) => {
-        console.error(`Could not load ${url}`, error);
+        // A download stopped because no row needs it any more (see stopUnneededDownloads) is not an error
+        if (error?.name !== "AbortError") {
+          console.error(`Could not load ${url}`, error);
+        }
+
         requests.delete(url);
 
         return [];
@@ -871,17 +877,22 @@ function loadFile(url, build) {
 
 function fetchJson(url) {
   return new Promise((resolve, reject) => {
-    downloadQueue.push({ url, resolve, reject });
+    downloadQueue.push({
+      url,
+      resolve,
+      reject,
+      controller: new AbortController(),
+    });
     nextDownload();
   });
 }
 
 function nextDownload() {
-  while (downloadsActive < MAX_DOWNLOADS && downloadQueue.length > 0) {
+  while (downloading.size < MAX_DOWNLOADS && downloadQueue.length > 0) {
     const download = downloadQueue.shift();
-    downloadsActive++;
+    downloading.add(download);
 
-    fetch(download.url)
+    fetch(download.url, { signal: download.controller.signal })
       .then((response) => {
         if (!response.ok) {
           throw new Error(`HTTP ${response.status}`);
@@ -891,9 +902,43 @@ function nextDownload() {
       })
       .then(download.resolve, download.reject)
       .finally(() => {
-        downloadsActive--;
+        downloading.delete(download);
         nextDownload();
       });
+  }
+}
+
+// Downloads for rows turned off would hold up the pins of the rows still on, so those no row on needs are stopped.
+// A row turned back on downloads them again
+function stopUnneededDownloads() {
+  const needed = new Set();
+
+  // A shared link's file opens its details whatever rows are on
+  if (PARAM_URL) {
+    needed.add(`data/${PARAM_URL}`);
+  }
+
+  for (const id of activeLayers) {
+    for (const url of LAYERS[id].urls) {
+      needed.add(`data/${url}`);
+    }
+  }
+
+  for (const download of downloading) {
+    if (!needed.has(download.url)) {
+      download.controller.abort();
+      // Rejected at once: the Fetch standard reports an abort during the body a task later, when a click could already get this request back
+      download.reject(download.controller.signal.reason);
+    }
+  }
+
+  for (const download of downloadQueue.splice(0)) {
+    if (needed.has(download.url)) {
+      downloadQueue.push(download);
+    } else {
+      download.controller.abort();
+      download.reject(download.controller.signal.reason);
+    }
   }
 }
 

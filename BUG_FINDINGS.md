@@ -1,20 +1,3 @@
-### [a/performance-and-scaling/layer-loading/abandoned-downloads-delay-new-pins] Downloads for rows already turned off are never cancelled, so a newly turned-on row's pins wait behind them
-
-- **Location:** `public/script.js:872`. Related: `public/script.js:835-863`, `public/script.js:1137-1149`, `public/script.js:254-255`
-- **Severity:** Low
-- **Confidence:** Medium
-- **Likelihood:** Low. It needs a large route row abandoned mid-download, a slow connection, and then a place row.
-- **Defect:**
-  - Markers regroup only once every queued download has finished, which the code intends.
-  - But the queue is first-in, first-out, and it keeps downloads for rows the visitor has already turned off.
-  - So Camping, turned on right after abandoning Hiking local, waits behind up to 274 files (about 29 MB) before its pins appear, unless the visitor toggles a row, changes a filter or selects something.
-- **Trigger:** on a slow connection, turn on Hiking local, turn it off at once, then turn on Camping.
-- **Evidence / verification:**
-  - `scheduleLoadingRender` calls `render(false)` while the progress total is above 0, and `render(false)` skips `setPoints` and `drawPins`.
-  - `nextDownload` has no cancellation.
-  - Refutation attempt: keeping the files may be deliberate, so they are ready if the row is turned back on. Even so, they hold up the rows that are on.
-- **Suggested fix:** take queued downloads of rows that are off out of the queue, or regroup once the active place rows have loaded.
-
 ### [b/validation-and-coercion/route-filters/negative-max-hides-all-routes] A negative Max hides every route, but the address leaves it out
 
 - **Location:** `public/script.js:790`. Related: `public/script.js:786-797`, `public/script.js:3466-3474`, `public/script.js:3845-3849`, `public/script.js:655-657`
