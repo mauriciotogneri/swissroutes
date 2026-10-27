@@ -3585,7 +3585,7 @@ function writeAddress() {
       const min = readInt(`filter-${activity.id}-${input}Min`);
       const max = readInt(`filter-${activity.id}-${input}Max`);
 
-      // Zero and negative bounds filter nothing (see inRange)
+      // Zero and negative bounds filter nothing (see readInt)
       if (min > 0 || max > 0) {
         params.set(
           `${activity.id}.${key}`,
@@ -3962,10 +3962,11 @@ function gpxData(json) {
   return xml;
 }
 
+// A number box keeps whatever number is typed, "-5" and "1e3" included. Only a whole number above 0 counts, so the filter and the address read the same bound
 function readInt(field) {
-  const value = document.getElementById(field).value;
+  const value = Math.trunc(Number(document.getElementById(field).value));
 
-  return value ? parseInt(value) : undefined;
+  return value > 0 && Number.isSafeInteger(value) ? value : undefined;
 }
 
 // The grades of the pressed chips of one filter row. Cycling has no Difficulty chips, so its list is always empty

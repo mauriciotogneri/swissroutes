@@ -1,17 +1,3 @@
-### [b/validation-and-coercion/route-filters/negative-max-hides-all-routes] A negative Max hides every route, but the address leaves it out
-
-- **Location:** `public/script.js:790`. Related: `public/script.js:786-797`, `public/script.js:3466-3474`, `public/script.js:3845-3849`, `public/script.js:655-657`
-- **Severity:** Low
-- **Confidence:** High
-- **Likelihood:** Low. Someone has to type a negative bound.
-- **Defect:**
-  - The range check treats a negative Max as a real bound, so "-5" hides every route of that activity ("0 of N").
-  - The address writer leaves negative and zero bounds out ("Zero and negative bounds filter nothing"), and the restore only accepts digits. A reload or a copied link therefore shows every route.
-  - The same applies to "1e3", which `parseInt` reads as 1.
-- **Trigger:** type "-5" into a Length or Ascent Max box. `min="0"` only marks the box invalid, and its value stays "-5".
-- **Evidence / verification:** `if (max && value > max) return false` holds for every route when Max is -5, while the address code tests `max > 0`. The plan for the address feature assumed both behave the same.
-- **Suggested fix:** in `inRange`, treat bounds that are not finite or are ≤ 0 as no bound, matching the address rule, and parse with `Number`.
-
 ### [b/validation-and-coercion/gpx-upload/file-encoding-ignored] Uploaded GPX files in another encoding lose their accented characters
 
 - **Location:** `public/script.js:3056`
