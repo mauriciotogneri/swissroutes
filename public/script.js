@@ -3314,17 +3314,38 @@ function climbs(elevations) {
     const valid = heights.filter(Number.isFinite);
     known += valid.length;
 
-    // The reference moves only once the height has changed by more than the noise
-    let reference = valid[0];
+    // A climb runs from low to high, a drop from high to low. Each counts in full once the height turns back by the noise,
+    // or at the end. Until the height first spans the noise, low and high are the lowest and highest heights so far
+    let low = valid[0];
+    let high = valid[0];
+    let rising;
 
     for (const height of valid) {
-      if (height - reference >= ELEVATION_NOISE) {
-        ascent += height - reference;
-        reference = height;
-      } else if (reference - height >= ELEVATION_NOISE) {
-        descent += reference - height;
-        reference = height;
+      if (rising !== false) {
+        high = Math.max(high, height);
       }
+
+      if (rising !== true) {
+        low = Math.min(low, height);
+      }
+
+      if (rising === undefined && high - low >= ELEVATION_NOISE) {
+        rising = height === high;
+      } else if (rising === true && high - height >= ELEVATION_NOISE) {
+        ascent += high - low;
+        low = height;
+        rising = false;
+      } else if (rising === false && height - low >= ELEVATION_NOISE) {
+        descent += high - low;
+        high = height;
+        rising = true;
+      }
+    }
+
+    if (rising === true) {
+      ascent += high - low;
+    } else if (rising === false) {
+      descent += high - low;
     }
   }
 

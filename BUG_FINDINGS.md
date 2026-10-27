@@ -1,19 +1,3 @@
-### [a/logic-errors/gpx-upload/ascent-loses-turning-point-residue] The ascent and descent of an uploaded track are under-counted at every peak and valley
-
-- **Location:** `public/script.js:3254`. Related: `public/script.js:3263-3274`, `public/script.js:79-80`
-- **Severity:** Low
-- **Confidence:** Medium
-- **Likelihood:** Medium. Every uploaded track with densely sampled heights is affected, which covers real GPS and barometer recordings. Route ascent comes from SchweizMobil and is not affected.
-- **Defect:**
-  - The reference height moves only after the height has changed by at least 5 m, so up to 4.99 m is lost at every turning point of a densely sampled track.
-  - Example: a climb from 100 m to 108 m and back, sampled every 1 m, counts as 5 m up and 5 m down. The comment says only changes smaller than 5 m are ignored.
-- **Trigger:** upload any GPX recorded with heights. Re-uploading the site's own exported GPX shows less ascent than the route card.
-- **Evidence / verification:**
-  - Ran the unchanged function in Node: 100, 101, …, 108, …, 101, 100 gives `{ascent: 5, descent: 5}`, where a standard hysteresis gives 8 and 8.
-  - As test data, the first lines of 218 committed routes came out about 10% lower on average than a standard 5 m hysteresis, and about 50% lower on gentle routes (cycling regional 35: 45 m against 74 m).
-  - Remaining assumption: some under-count may be a deliberate trade-off. This one is larger than the comment describes.
-- **Suggested fix:** track the running extreme in the current direction. Once the height reverses by at least 5 m, count from the last committed height to that extreme. Add the final leg at the end.
-
 ### [a/performance-and-scaling/layer-loading/abandoned-downloads-delay-new-pins] Downloads for rows already turned off are never cancelled, so a newly turned-on row's pins wait behind them
 
 - **Location:** `public/script.js:872`. Related: `public/script.js:835-863`, `public/script.js:1137-1149`, `public/script.js:254-255`
