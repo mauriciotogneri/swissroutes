@@ -47,8 +47,8 @@ The downloaders convert SchweizMobil's Swiss grid coordinates (LV03) to latitude
 ## Colors
 
 - Every color in `style.css` is a `light-dark()` token on `:root`, so it follows the theme. A hex value written straight into a style breaks the dark theme.
-- Colors set from `script.js` are light/dark pairs (`ACTIVITIES`, `ROUTE_PALETTE`, `UPLOAD_COLORS`, `CASING_COLORS`), turned into one CSS value by `cssColor`.
-- Every route on the map has its own color from `ROUTE_PALETTE`: `ids-generator.js` picks it so routes of one activity that pass within about 500 m of each other differ, and writes it to `ROUTE_COLORS`. The activity colors only mark the menu rows. A data refresh can change which color a route gets.
+- Colors set from `script.js` are light/dark pairs (`ROUTE_PALETTE`, `UPLOAD_COLORS`, `CASING_COLORS`), turned into one CSS value by `cssColor`.
+- Every route on the map has its own color from `ROUTE_PALETTE`: `ids-generator.js` picks it so routes of one activity that pass within about 500 m of each other differ, and writes it to `ROUTE_COLORS`. The menu marks each activity with an icon, not a color. A data refresh can change which color a route gets.
 - The Google map can't change its color scheme after it is created, so the map and everything drawn on it keep the scheme the page opened with (`MAP_SCHEME`); a switch in the menu changes the panels at once and the map at the next visit.
 - The visitor's choice is in localStorage `swissroutes.theme` (`light` or `dark`; no key is Auto, which follows the system).
 

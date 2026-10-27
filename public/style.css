@@ -560,7 +560,9 @@ body.has-details #map {
   font-size: 14px;
 }
 
-.toggle[aria-pressed="true"] .swatch-icon {
+/* An activity's icon fills while any of its levels is on */
+.toggle[aria-pressed="true"] .swatch-icon,
+.row:has(> .chips [aria-pressed="true"]) .swatch-icon {
   background: var(--color);
   color: var(--paper);
   font-variation-settings: 'FILL' 1;

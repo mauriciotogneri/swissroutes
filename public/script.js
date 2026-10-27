@@ -20,7 +20,7 @@ const GRADES = ["easy", "medium", "difficult"];
 const ACTIVITIES = [
   {
     id: "hiking",
-    colors: { light: "#d52b1e", dark: "#ff6b5f" },
+    icon: "hiking",
     ids: {
       national: HIKING_NATIONAL_IDS,
       regional: HIKING_REGIONAL_IDS,
@@ -34,7 +34,8 @@ const ACTIVITIES = [
   // Cycling routes have no difficulty grade, only fitness
   {
     id: "cycling",
-    colors: { light: "#0b5cad", dark: "#5ea6f2" },
+    // pedal_bike is the bike rental icon
+    icon: "directions_bike",
     ids: {
       national: CYCLING_NATIONAL_IDS,
       regional: CYCLING_REGIONAL_IDS,
@@ -43,7 +44,8 @@ const ACTIVITIES = [
   },
   {
     id: "mountainbiking",
-    colors: { light: "#0e6b35", dark: "#4cbf7a" },
+    // The icon font has no mountain bike
+    icon: "terrain",
     ids: {
       national: MOUNTAINBIKING_NATIONAL_IDS,
       regional: MOUNTAINBIKING_REGIONAL_IDS,
@@ -54,7 +56,7 @@ const ACTIVITIES = [
 ];
 
 // The colors of the routes on the map. bin/ids-generator.js gives every route one of them in ROUTE_COLORS, so routes that pass close to each other differ.
-// The activity colors above are left to the menu. Each pair keeps the number plate's text readable, and none is close to UPLOAD_COLORS
+// Each pair keeps the number plate's text readable, and none is close to UPLOAD_COLORS
 const ROUTE_PALETTE = [
   { light: "#c62828", dark: "#ff6b5f" },
   { light: "#b45309", dark: "#ffa04d" },
@@ -531,8 +533,8 @@ function buildPanel() {
       toggleRow(
         "favorites.hiking",
         t("favorites.hikes"),
-        '<span class="swatch swatch-line"></span>',
-        cssColor(hiking.colors),
+        iconSwatch(hiking.icon),
+        "var(--ink)",
       ) +
       toggleRow(
         "favorites.visit",
@@ -606,8 +608,8 @@ function activityRow(activity) {
       `<button type="button" class="chip" data-layer="${activity.id}.${level.id}" aria-pressed="false">${t(`level.${level.id}`)}<span class="chip-count">${activity.ids[level.id].length}</span></button>`,
   ).join("");
 
-  let content = `<div class="row" style="--color:${cssColor(activity.colors)}">`;
-  content += `<div class="row-head"><span class="swatch swatch-line"></span><span class="row-name">${t(`activity.${activity.id}`)}</span><span class="row-count" data-count="${activity.id}"></span></div>`;
+  let content = '<div class="row" style="--color:var(--ink)">';
+  content += `<div class="row-head">${iconSwatch(activity.icon)}<span class="row-name">${t(`activity.${activity.id}`)}</span><span class="row-count" data-count="${activity.id}"></span></div>`;
   content += `<div class="chips" role="group" aria-label="${t(`activity.${activity.id}.chips`)}">${chips}</div>`;
   content += `<div class="filters" data-filters="${activity.id}" hidden>`;
   content += rangeFilter(
@@ -923,8 +925,8 @@ function buildRoute(url, json, activity, level) {
     stage.map((coordinate) => point(coordinate[0], coordinate[1])),
   );
   const bounds = getBounds(paths.flat());
-  // A route missing from an outdated ids.js keeps its activity's color
-  const colors = ROUTE_PALETTE[ROUTE_COLORS[url]] ?? activity.colors;
+  // A route missing from an outdated ids.js takes the first color
+  const colors = ROUTE_PALETTE[ROUTE_COLORS[url]] ?? ROUTE_PALETTE[0];
 
   const item = {
     url: url,
