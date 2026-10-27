@@ -251,6 +251,13 @@ const MAX_DOWNLOADS = 100;
 // Hand-made sightseeing entries start at this id; SchweizMobil has no page for them
 const HANDMADE_SIGHTSEEING_ID = 10001;
 
+// The tags downloaded HTML may keep (see safeHtml), each with the one attribute it keeps: a web address, or none
+const SAFE_TAGS = new Map([
+  ["a", "href"],
+  ["br", null],
+  ["img", "src"],
+]);
+
 // While files arrive, the map redraws at most this often and regroups markers only once everything has loaded
 const LOADING_RENDER_DELAY = 300;
 
@@ -1604,11 +1611,11 @@ function routeDetails(item) {
   content += profileSection(item);
 
   if (properties.abstract) {
-    content += `<p class="details-lead" lang="${textLanguage(properties, "abstract")}">${localText(properties, "abstract")}</p>`;
+    content += `<p class="details-lead" lang="${textLanguage(properties, "abstract")}">${safeHtml(localText(properties, "abstract"))}</p>`;
   }
 
   if (properties.description) {
-    content += `<div class="details-description" lang="${textLanguage(properties, "description")}">${localText(properties, "description")}</div>`;
+    content += `<div class="details-description" lang="${textLanguage(properties, "description")}">${safeHtml(localText(properties, "description"))}</div>`;
   }
 
   return content;
@@ -1661,11 +1668,11 @@ function placeDetails(item) {
   content += actions([shareAction(), saveAction(item), external]);
 
   if (properties.abstract) {
-    content += `<p class="details-lead" lang="${textLanguage(properties, "abstract")}">${localText(properties, "abstract")}</p>`;
+    content += `<p class="details-lead" lang="${textLanguage(properties, "abstract")}">${safeHtml(localText(properties, "abstract"))}</p>`;
   }
 
   if (properties.description) {
-    content += `<div class="details-description" lang="${textLanguage(properties, "description")}">${localText(properties, "description")}</div>`;
+    content += `<div class="details-description" lang="${textLanguage(properties, "description")}">${safeHtml(localText(properties, "description"))}</div>`;
   }
 
   const contact = [];
@@ -1733,7 +1740,7 @@ function placeDetails(item) {
 
 function chargingStationDetails(item) {
   let content = `<div class="details-kind" style="--color:${GROUP_COLORS[item.place.group]}">${iconSwatch(item.place.icon)}${t(`place.${item.place.id}.label`)}</div>`;
-  content += `<h2 class="details-title">${item.label}</h2>`;
+  content += `<h2 class="details-title">${escapeHtml(item.label)}</h2>`;
   content += actions([
     saveAction(item),
     externalAction(
@@ -1743,7 +1750,7 @@ function chargingStationDetails(item) {
   ]);
 
   if (item.json.description) {
-    content += `<div class="details-description">${item.json.description.__cdata}</div>`;
+    content += `<div class="details-description">${safeHtml(item.json.description.__cdata)}</div>`;
   }
 
   return content;
@@ -1864,6 +1871,53 @@ function escapeHtml(value) {
 // Links built from downloaded data must be web addresses: a "javascript:" value would run when clicked
 function safeUrl(value) {
   return typeof value === "string" && /^https?:\/\//i.test(value.trim());
+}
+
+// The Bike Energy descriptions are HTML, and a few SchweizMobil texts hold a <br>. Only SAFE_TAGS are kept, so markup arriving in a data refresh can't run script. A template parses it without loading images or running handlers
+function safeHtml(value) {
+  const template = document.createElement("template");
+  template.innerHTML = value;
+  keepSafeTags(template.content);
+
+  return template.innerHTML;
+}
+
+function keepSafeTags(parent) {
+  for (const node of [...parent.childNodes]) {
+    if (node.nodeType === Node.TEXT_NODE) {
+      continue;
+    }
+
+    if (node.nodeType !== Node.ELEMENT_NODE) {
+      node.remove();
+      continue;
+    }
+
+    keepSafeTags(node);
+
+    const attribute = SAFE_TAGS.get(node.localName);
+    const isSafe =
+      node.namespaceURI === "http://www.w3.org/1999/xhtml" &&
+      SAFE_TAGS.has(node.localName) &&
+      (attribute === null || safeUrl(node.getAttribute(attribute)));
+
+    // Any other tag, or one with an unsafe address, is dropped, and what it holds stays
+    if (!isSafe) {
+      node.replaceWith(...node.childNodes);
+      continue;
+    }
+
+    for (const name of node.getAttributeNames()) {
+      if (name !== attribute) {
+        node.removeAttribute(name);
+      }
+    }
+
+    if (node.localName === "a") {
+      node.setAttribute("target", "_blank");
+      node.setAttribute("rel", "noopener noreferrer");
+    }
+  }
 }
 
 function actions(buttons) {

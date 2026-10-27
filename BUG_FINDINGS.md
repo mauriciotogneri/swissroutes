@@ -1,29 +1,3 @@
-### [b/security-defects/details-panel/third-party-html-unescaped] Downloaded third-party text goes into the page as raw HTML
-
-- **Location:** `public/script.js:1746`. Related: `public/script.js:1736`, `public/script.js:1607`, `public/script.js:1611`, `public/script.js:1664`, `public/script.js:1668`, `bin/helpers.js:183-185`
-- **Severity:** Medium
-- **Confidence:** Medium
-- **Likelihood:** Low. The committed data holds no script today, so it takes harmful markup arriving in a future data refresh.
-- **Defect:**
-  - These go into the details panel through `innerHTML` with no escaping or sanitizing:
-    - the charging-station description: HTML from the Bike Energy Google My Map, with `<img>`, `<br>` and `<a>` tags today;
-    - the charging-station name: the only title that is not escaped;
-    - SchweizMobil route and place abstracts and descriptions, which are plain text.
-  - Every other downloaded field is escaped, and OpenStreetMap text explicitly so.
-  - Neither the downloader's `sanitize`, which only trims, nor the charging-station import check in the update-data skill looks at markup.
-  - A refreshed file containing `<img src=x onerror=…>` would run script on the site's origin.
-- **Trigger:** a data refresh that brings in markup with an event handler or a `javascript:` link, from a compromised or careless edit of the Bike Energy map or a SchweizMobil text. Then open that place.
-- **Evidence / verification:**
-  - Traced each value from the data file to the `innerHTML` assignment in `selectItem`.
-  - A scan of the current data found no `on…=` attributes, `<script>`, `<iframe>` or `javascript:` in these fields. The SchweizMobil fields contain no tags or entities at all, only a raw `&`, so escaping them would lose nothing.
-  - Refutation attempt: the comment on OpenStreetMap text suggests the author trusts these sources. The site has no login, so the damage is limited to what script can do on the page.
-  - Remaining assumption: the third-party sources stay benign.
-- **Suggested fix:**
-  - Escape the charging-station name and the SchweizMobil texts.
-  - For the charging-station description, keep only a known set of tags (`br`, `img`, and `a` with its address checked by `safeUrl`), or escape it.
-
-## Low
-
 ### [b/contract-mismatches/details-panel/description-paragraph-breaks-collapsed] Paragraph breaks in route and place descriptions are lost
 
 - **Location:** `public/style.css:1001`. Related: `public/script.js:1607`, `public/script.js:1611`, `public/script.js:1664`, `public/script.js:1668`, `public/style.css:994-1008`
