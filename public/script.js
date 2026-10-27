@@ -82,10 +82,14 @@ const ELEVATION_NOISE = 5;
 // The elevation chart is drawn one column per pixel of the panel's text width (384 − 1 border − 2 × 22)
 const PROFILE = { width: 339, height: 128, top: 8, bottom: 110 };
 
-// A token, so pins and kind icons follow the theme of where they are drawn
+// A place's color, by the panel section it is listed in. A token, so pins and kind icons follow the theme of where they are drawn
 const GROUP_COLORS = {
-  stay: "var(--ink)",
-  explore: "var(--ink)",
+  stay: "var(--stay)",
+  explore: "var(--explore)",
+  water: "var(--water)",
+  bike: "var(--bike)",
+  rest: "var(--rest)",
+  nature: "var(--nature)",
 };
 
 // Icons of the panel sections, by section id. Routes has none
@@ -166,16 +170,14 @@ const PLACES = [
   },
   {
     id: "serviceshop",
-    group: "explore",
-    section: "bike",
+    group: "bike",
     icon: "build",
     folder: "other/serviceshop",
     ids: OTHER_SERVICESHOP_IDS,
   },
   {
     id: "chargingstation",
-    group: "explore",
-    section: "bike",
+    group: "bike",
     icon: "bolt",
     files: [
       "other/chargingstations/chargingstations.json",
@@ -199,43 +201,43 @@ const OSM_STAY = [
 // These are listed under Explore, with sightseeing
 const OSM_EXPLORE = [osmPlace("explore", "ruins", "fort")];
 
-// The others have a section each. A place from PLACES with the same section id is listed there too
+// The others have a section each. A place from PLACES whose group is the section id is listed there too
 const OSM_SECTIONS = [
   {
     id: "water",
     places: [
-      osmPlace("explore", "drinkingwater", "water_drop"),
-      osmPlace("explore", "spring", "water"),
-      osmPlace("explore", "waterpoint", "faucet"),
+      osmPlace("water", "drinkingwater", "water_drop"),
+      osmPlace("water", "spring", "water"),
+      osmPlace("water", "waterpoint", "faucet"),
     ],
   },
   {
     id: "bike",
     places: [
-      osmPlace("explore", "ebikecharging", "battery_charging_full"),
-      osmPlace("explore", "bikerepair", "handyman"),
-      osmPlace("explore", "airpump", "air"),
-      osmPlace("explore", "bikerental", "pedal_bike"),
+      osmPlace("bike", "ebikecharging", "battery_charging_full"),
+      osmPlace("bike", "bikerepair", "handyman"),
+      osmPlace("bike", "airpump", "air"),
+      osmPlace("bike", "bikerental", "pedal_bike"),
     ],
   },
   {
     id: "rest",
     places: [
-      osmPlace("explore", "picnicsite", "park"),
-      osmPlace("explore", "picnictable", "table_restaurant"),
-      osmPlace("explore", "firepit", "local_fire_department"),
-      osmPlace("explore", "toilets", "wc"),
-      osmPlace("explore", "shower", "shower"),
+      osmPlace("rest", "picnicsite", "park"),
+      osmPlace("rest", "picnictable", "table_restaurant"),
+      osmPlace("rest", "firepit", "local_fire_department"),
+      osmPlace("rest", "toilets", "wc"),
+      osmPlace("rest", "shower", "shower"),
     ],
   },
   {
     id: "nature",
     places: [
-      osmPlace("explore", "waterfall", "waves"),
-      osmPlace("explore", "mountainpass", "altitude"),
-      osmPlace("explore", "cave", "explore"),
-      osmPlace("explore", "swimmingarea", "pool"),
-      osmPlace("explore", "bathingplace", "beach_access"),
+      osmPlace("nature", "waterfall", "waves"),
+      osmPlace("nature", "mountainpass", "altitude"),
+      osmPlace("nature", "cave", "explore"),
+      osmPlace("nature", "swimmingarea", "pool"),
+      osmPlace("nature", "bathingplace", "beach_access"),
     ],
   },
 ];
@@ -513,7 +515,7 @@ function buildPanel() {
   content += group(
     "explore",
     byCount([
-      ...PLACES.filter((place) => place.group === "explore" && !place.section),
+      ...PLACES.filter((place) => place.group === "explore"),
       ...OSM_EXPLORE,
     ])
       .map(placeRow)
@@ -522,7 +524,7 @@ function buildPanel() {
 
   for (const section of OSM_SECTIONS) {
     const places = [
-      ...PLACES.filter((place) => place.section === section.id),
+      ...PLACES.filter((place) => place.group === section.id),
       ...section.places,
     ];
     content += group(section.id, byCount(places).map(placeRow).join(""));
@@ -2766,7 +2768,7 @@ function savedRows() {
 
 // A button can't hold another, so the delete button sits beside the row's toggle. It is enabled by updateSavedLayers
 function savedRow(layer, name, removeLabel, swatch) {
-  return `<div class="saved-row">${toggleRow(layer, name, swatch, GROUP_COLORS.explore)}<button type="button" class="saved-delete" data-saved-delete="${layer}" aria-label="${removeLabel}" disabled><span class="material-symbols-outlined">delete</span></button></div>`;
+  return `<div class="saved-row">${toggleRow(layer, name, swatch, "var(--ink)")}<button type="button" class="saved-delete" data-saved-delete="${layer}" aria-label="${removeLabel}" disabled><span class="material-symbols-outlined">delete</span></button></div>`;
 }
 
 // Route files sit in a folder named after their activity

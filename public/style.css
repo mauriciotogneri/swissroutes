@@ -8,6 +8,13 @@
   /* The base of every shadow */
   --shade: light-dark(rgb(34 48 60), rgb(0 0 0));
   --placeholder: light-dark(#9aa4ad, #6b7782);
+  /* Place pins and their menu icons, one per panel section (GROUP_COLORS in script.js). Each keeps the --paper icon readable */
+  --stay: light-dark(#c62828, #ff6b5f);
+  --explore: var(--ink);
+  --water: light-dark(#0369a1, #5cc4f5);
+  --bike: light-dark(#b45309, #ffa04d);
+  --rest: light-dark(#5b3fc4, #a99cff);
+  --nature: light-dark(#2e7d32, #6fcf6f);
 
   --gap: 12px;
   --bottom: 24px;
@@ -1337,6 +1344,11 @@ body.has-details .map-controls {
     --red: #d52b1e;
     --shade: rgb(34 48 60);
     --placeholder: #9aa4ad;
+    --stay: #c62828;
+    --water: #0369a1;
+    --bike: #b45309;
+    --rest: #5b3fc4;
+    --nature: #2e7d32;
     --shadow: 0 1px 2px rgb(34 48 60 / 0.12), 0 10px 30px rgb(34 48 60 / 0.18);
   }
 
