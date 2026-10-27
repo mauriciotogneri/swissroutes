@@ -1,28 +1,3 @@
-### [b/contract-mismatches/details-panel/description-paragraph-breaks-collapsed] Paragraph breaks in route and place descriptions are lost
-
-- **Location:** `public/style.css:1001`. Related: `public/script.js:1607`, `public/script.js:1611`, `public/script.js:1664`, `public/script.js:1668`, `public/style.css:994-1008`
-- **Severity:** Low
-- **Confidence:** High
-- **Likelihood:** High. It affects nearly every route and most sightseeing descriptions.
-- **Defect:**
-  - The descriptions are plain text with paragraphs separated by `\n\n`. They go into the page as HTML, and no `white-space` rule applies, so each one shows as a single justified block.
-  - The `.details-description p` rule expects `<p>` tags that no data file has.
-- **Trigger:** open any route, e.g. hiking local 101.
-- **Evidence / verification:**
-  - Descriptions with line breaks:
-
-    |   # | Layer           | With line breaks | Total |
-    | --: | :-------------- | ---------------: | ----: |
-    |   1 | Hiking          |              349 |   351 |
-    |   2 | Cycling         |              128 |   128 |
-    |   3 | Mountain biking |              301 |   307 |
-    |   4 | Sightseeing     |              645 |   843 |
-
-  - None contain `<p>`, `<br>` or `<div>`.
-  - `style.css` has no `white-space` or `pre-line` rule over the panel. The only `white-space` rule is the `nowrap` in the visually-hidden helper.
-
-- **Suggested fix:** add `white-space: pre-line` to `.details-description` and `.details-lead`, or turn the paragraphs into escaped `<p>` blocks.
-
 ### [a/logic-errors/gpx-upload/ascent-loses-turning-point-residue] The ascent and descent of an uploaded track are under-counted at every peak and valley
 
 - **Location:** `public/script.js:3254`. Related: `public/script.js:3263-3274`, `public/script.js:79-80`
