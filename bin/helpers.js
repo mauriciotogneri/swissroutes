@@ -264,7 +264,8 @@ async function downloadRoute(id, group, type, folder, total) {
   return downloadFile(`${group}${type}`, id, filePath, false, true)
 }
 
-async function downloadPoint(group, folder, type, translated = false) {
+// Downloads the data files of a SchweizMobil point layer and returns their ids, without writing the id list
+async function downloadPointFiles(group, folder, type, translated = false) {
   const ids = await getIds(type)
 
   for (let i = 0; i < ids.length; i++) {
@@ -274,10 +275,17 @@ async function downloadPoint(group, folder, type, translated = false) {
     await downloadFile(type, id, filePath, true, translated)
   }
 
+  return ids
+}
+
+async function downloadPoint(group, folder, type, translated = false) {
+  const ids = await downloadPointFiles(group, folder, type, translated)
+
   writeFile(`ids/${group}/${folder}.json`, ids)
 }
 
-async function downloadPois(group, folder, category, append) {
+// otherIds: the ids another source downloaded for the same layer. The list is written with both only once this step succeeds
+async function downloadPois(group, folder, category, otherIds = []) {
   const pois = await getPoisByCategory(category)
 
   if (pois.length === 0) {
@@ -285,13 +293,12 @@ async function downloadPois(group, folder, category, append) {
   }
 
   const idsFilePath = `ids/${group}/${folder}.json`
-  const originalIds = append ? JSON.parse(fs.readFileSync(idsFilePath, 'utf-8')) : []
   const ids = []
 
   for (const poi of pois) {
     const id = hashCode(poi.id)
 
-    if (ids.includes(id) || originalIds.includes(id)) {
+    if (ids.includes(id) || otherIds.includes(id)) {
       throw new Error(`DUPLICATED ID ${id}: ${poi.id}`)
     }
 
@@ -317,7 +324,7 @@ async function downloadPois(group, folder, category, append) {
     writeFile(filePath, json)
   }
 
-  ids.push(...originalIds)
+  ids.push(...otherIds)
   writeFile(idsFilePath, ids)
 }
 
@@ -325,6 +332,7 @@ module.exports = {
   getFile,
   writeFile,
   downloadRoute,
+  downloadPointFiles,
   downloadPoint,
   downloadPois,
 }
