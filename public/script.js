@@ -3152,7 +3152,7 @@ function closeMenu() {
 // Uploaded GPX
 
 async function loadUpload(file) {
-  const parsed = parseGpx(await file.text().catch(() => ""), file.name);
+  const parsed = parseGpx(await readXml(file).catch(() => ""), file.name);
 
   if (typeof parsed === "string") {
     showUploadError(t(parsed));
@@ -3176,6 +3176,49 @@ function showUploadError(message) {
   const error = document.getElementById("uploadError");
   error.textContent = message ?? "";
   error.hidden = !message;
+}
+
+// file.text() always reads UTF-8, and a parsed string ignores the encoding the file declares, so the bytes are decoded here
+async function readXml(file) {
+  const bytes = new Uint8Array(await file.arrayBuffer());
+
+  try {
+    return new TextDecoder(xmlEncoding(bytes)).decode(bytes);
+  } catch {
+    // An encoding the browser doesn't know
+    return new TextDecoder().decode(bytes);
+  }
+}
+
+// The byte-order mark decides, then the encoding in the <?xml ?> declaration, else UTF-8
+function xmlEncoding(bytes) {
+  if (bytes[0] === 0xef && bytes[1] === 0xbb && bytes[2] === 0xbf) {
+    return "utf-8";
+  }
+
+  if (bytes[0] === 0xff && bytes[1] === 0xfe) {
+    return "utf-16le";
+  }
+
+  if (bytes[0] === 0xfe && bytes[1] === 0xff) {
+    return "utf-16be";
+  }
+
+  // The declaration is ASCII and opens the file
+  const declaration = new TextDecoder("ascii")
+    .decode(bytes.subarray(0, 200))
+    .match(/^<\?xml\s[^>]*\bencoding\s*=\s*["']([\w.-]+)["']/);
+  const encoding = declaration?.[1] ?? "utf-8";
+
+  // Bytes that spell the declaration in ASCII aren't UTF-16, whatever it says: .NET writes "utf-16" into UTF-8 files
+  try {
+    return new TextDecoder(encoding).encoding.startsWith("utf-16")
+      ? "utf-8"
+      : encoding;
+  } catch {
+    // Unknown to the browser: readXml falls back to UTF-8
+    return encoding;
+  }
 }
 
 // Returns the track, or the key of the message to show when the file has none

@@ -1,17 +1,3 @@
-### [b/validation-and-coercion/gpx-upload/file-encoding-ignored] Uploaded GPX files in another encoding lose their accented characters
-
-- **Location:** `public/script.js:3056`
-- **Severity:** Low
-- **Confidence:** Medium
-- **Likelihood:** Low. Most exporters write UTF-8.
-- **Defect:**
-  - `file.text()` always decodes as UTF-8, and parsing an already-decoded string ignores the declared encoding.
-  - A Latin-1 file's track name "Zürich" shows as "Z�rich"; the track itself loads fine.
-  - A UTF-16 file is rejected as not a GPX file.
-- **Trigger:** upload a GPX with `encoding="ISO-8859-1"` and an accented name.
-- **Evidence / verification:** the file is read with `file.text()` and parsed with `parseFromString`.
-- **Suggested fix:** read the bytes, pick a `TextDecoder` from the declared encoding or the byte-order mark, then parse.
-
 ### [b/validation-and-coercion/gpx-upload/prefixed-namespace-not-matched] GPX files that use a namespace prefix are rejected
 
 - **Location:** `public/script.js:3093`. Related: `public/script.js:3087-3089`, `public/script.js:3094-3097`, `public/script.js:3114`
