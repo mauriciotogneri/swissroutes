@@ -241,7 +241,14 @@ async function getIds(type) {
 
     for (let i = 0; i < features.length; i++) {
       const feature = features[i]
-      result.push(parseInt(feature['id']))
+      const id = parseInt(feature['id'])
+
+      // An id that isn't a number would be saved as null. A list of nulls isn't empty, so cleanup would delete every file of the layer
+      if (!Number.isInteger(id) || id <= 0) {
+        throw new Error(`INVALID ID ${feature['id']}: ${url}`)
+      }
+
+      result.push(id)
     }
   } catch (e) {
     console.log(`Error getting ids: ${url}\n${e.toString()}`)
