@@ -1735,7 +1735,7 @@ function placeDetails(item) {
     contact.push(
       contactLine(
         "call",
-        `<a href="tel:${escapeHtml(String(properties.tel).replace(/\s/g, ""))}">${escapeHtml(properties.tel)}</a>`,
+        `<a href="tel:${escapeHtml(String(properties.tel).replace(/\(0\)/g, "").replace(/\s/g, ""))}">${escapeHtml(properties.tel)}</a>`,
       ),
     );
   }
