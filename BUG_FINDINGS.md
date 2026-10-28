@@ -1,17 +1,3 @@
-### [b/contract-mismatches/update-data-procedure/empty-my-switzerland-layer-misdescribed] The update-data skill says an empty My Switzerland layer doesn't stop the script, but it does
-
-- **Location:** `.claude/skills/update-data/SKILL.md:183`. Related: `bin/helpers.js:283-285`
-- **Severity:** Low
-- **Confidence:** High
-- **Likelihood:** Low. It needs My Switzerland to change its category ids.
-- **Defect:**
-  - The skill says an empty My Switzerland layer "doesn't stop the script", and that check 1 then shows hostels, B&Bs or group houses at "-> 0".
-  - The code throws `NO PLACES FOUND`, which stops the script before that list is written. The later layers aren't downloaded either, so the expected "-> 0" never appears.
-  - The only rule that matches the resulting stack trace, "rerun until it finishes cleanly", can never succeed.
-- **Trigger:** a My Switzerland category id change.
-- **Evidence / verification:** `downloadPois` throws on an empty result before writing anything. The throw predates the last edits to that part of the skill.
-- **Suggested fix:** describe the `NO PLACES FOUND` stack trace, and point to the category-id fix instead of a rerun.
-
 ### [b/contract-mismatches/place-details/tel-link-keeps-trunk-zero] Phone links of SchweizMobil places keep the "(0)"
 
 - **Location:** `public/script.js:1686`

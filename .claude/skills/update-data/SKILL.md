@@ -171,7 +171,7 @@ node bin/accommodation-downloader.js 2>&1 | tee logs/accommodation.log
 **When it worked**, the last progress line is a `MOUNTAINHUT:` line at 99%. The script then spends a few more seconds on the three My Switzerland layers without printing anything. When the prompt returns, the search below must print `no matches` (`MORE THAN ONE FEATURE` lines are handled as in step 2):
 
 ```sh
-grep -nE '^Error (downloading file|getting ids):|^ +at |NO IDS FOUND|MORE THAN ONE FEATURE|DUPLICATED ID' logs/accommodation.log || { [ $? -eq 1 ] && echo "no matches"; }
+grep -nE '^Error (downloading file|getting ids):|^ +at |NO IDS FOUND|NO PLACES FOUND|MORE THAN ONE FEATURE|DUPLICATED ID' logs/accommodation.log || { [ $? -eq 1 ] && echo "no matches"; }
 ```
 
 Hundreds of My Switzerland files can show as modified while their lists barely change. That is normal: their photo links end in a version number (`?_obv=202643`) that My Switzerland bumps. In the October 2026 update that added the elevation chart, 649 campsite, group-house, hostel and B&B files changed only in `foto`.
@@ -180,7 +180,7 @@ Hundreds of My Switzerland files can show as modified while their lists barely c
 
 - **Any error at all: rerun the whole script until it finishes cleanly, and don't move on to step 6 before that.** A failed layer keeps its old list, so running step 6 then would delete the files of every place that layer gained in this run. The campsite list combines two sources and is written only once both have downloaded, so a failure in either one keeps the old campsite list.
 - `DUPLICATED ID <number>: <id>` means two My Switzerland places got the same 9-digit number. Rerunning doesn't help, because the numbers are computed from the places' own ids. The id scheme in `bin/helpers.js` has to change.
-- If a My Switzerland layer suddenly has no places, My Switzerland has probably changed its category ids. That doesn't stop the script, and rerunning won't help. In check 1 of step 4, hostels, B&Bs or group houses show `-> 0`. Campsites keep their old list instead. **Don't run step 6 until this is fixed.** Find the new category id and update it in `bin/accommodation-downloader.js`. `reference/my-switzerland-categories.json` holds the May-2024 names and ids for comparison.
+- `NO PLACES FOUND: <category id>` means a My Switzerland layer came back empty, probably because My Switzerland changed its category ids. Rerunning won't help. The script stopped before writing that layer's list, so it keeps its old list (campsites keep the old combined list), and the layers after it weren't downloaded. **Don't run step 6 until this is fixed.** Find the new category id and update it in `bin/accommodation-downloader.js`, then rerun the whole script. `reference/my-switzerland-categories.json` holds the May-2024 names and ids for comparison.
 - A stack trace with `HTTP <status>` or `fetch failed` and no `Error downloading file:` line before it means a My Switzerland request failed 3 times. Wait, then rerun the whole script.
 - Any other `TypeError` with a stack trace into `bin/helpers.js` means a source has changed the format of its response. Rerunning won't help. The script needs updating; open the last URL in the log to see the new format.
 - The other messages mean the same as in step 2.
