@@ -1,17 +1,3 @@
-### [a/logic-errors/gpx-upload/first-empty-track-rejects-file] A GPX file whose first track is empty is rejected, even when later tracks have points
-
-- **Location:** `public/script.js:3093`. Related: `public/script.js:3094-3101`, `public/script.js:3128-3135`
-- **Severity:** Low
-- **Confidence:** High
-- **Likelihood:** Low. It needs an empty first `<trk>` with points further down.
-- **Defect:**
-  - Only the first `<trk>` is read, and `<rte>` only when the file has no `<trk>` at all.
-  - A file whose first track is empty, or has a single point, is rejected with "This GPX file has no track or route with at least two points", although a later `<trk>` or a `<rte>` has points.
-  - Further tracks are also ignored silently. The single-track wording of the feature makes that part a limitation, not a broken contract.
-- **Trigger:** upload a GPX whose first `<trk>` holds no points and whose second `<trk>` holds a full track.
-- **Evidence / verification:** `getElementsByTagName("trk")[0]` picks the track, the segments come from it alone, and the `<rte>` branch runs only when no `<trk>` exists. The error message contradicts the file's contents.
-- **Suggested fix:** take the first `<trk>` or `<rte>` that has at least two points, or gather the segments of every track.
-
 ### [b/validation-and-coercion/point-download/unvalidated-cluster-ids] Ids that aren't numbers are written as null, and cleanup then empties the folder
 
 - **Location:** `bin/helpers.js:244`. Related: `bin/helpers.js:251-253`, `bin/cleanup.js:19-39`

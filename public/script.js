@@ -3232,16 +3232,40 @@ function parseGpx(text, filename) {
     return "upload.notGpx";
   }
 
-  // Matched by local name in any namespace, so prefixed tags such as <gpx:trk> count too
-  const track = xml.getElementsByTagNameNS("*", "trk")[0];
-  const route = xml.getElementsByTagNameNS("*", "rte")[0];
-  const segments = track
-    ? [...track.getElementsByTagNameNS("*", "trkseg")].map((segment) => [
-        ...segment.getElementsByTagNameNS("*", "trkpt"),
-      ])
-    : route
-      ? [[...route.getElementsByTagNameNS("*", "rtept")]]
-      : [];
+  // Matched by local name in any namespace, so prefixed tags such as <gpx:trk> count too.
+  // The first track with a usable segment is taken, else the first such route
+  const owners = [
+    ...xml.getElementsByTagNameNS("*", "trk"),
+    ...xml.getElementsByTagNameNS("*", "rte"),
+  ];
+
+  for (const owner of owners) {
+    const { paths, elevations } = gpxPaths(owner);
+
+    if (paths.length > 0) {
+      const name = [...owner.children]
+        .find((child) => child.localName === "name")
+        ?.textContent.trim();
+
+      return {
+        name: name || filename.replace(/\.gpx$/i, ""),
+        paths: paths,
+        elevations: elevations,
+      };
+    }
+  }
+
+  return "upload.noTrack";
+}
+
+// The segments of a <trk>, or the points of a <rte>, leaving out those with fewer than two points
+function gpxPaths(owner) {
+  const segments =
+    owner.localName === "trk"
+      ? [...owner.getElementsByTagNameNS("*", "trkseg")].map((segment) => [
+          ...segment.getElementsByTagNameNS("*", "trkpt"),
+        ])
+      : [[...owner.getElementsByTagNameNS("*", "rtept")]];
 
   const paths = [];
   const elevations = [];
@@ -3269,20 +3293,7 @@ function parseGpx(text, filename) {
     }
   }
 
-  if (paths.length === 0) {
-    return "upload.noTrack";
-  }
-
-  const owner = track ?? route;
-  const name = [...owner.children]
-    .find((child) => child.localName === "name")
-    ?.textContent.trim();
-
-  return {
-    name: name || filename.replace(/\.gpx$/i, ""),
-    paths: paths,
-    elevations: elevations,
-  };
+  return { paths: paths, elevations: elevations };
 }
 
 function buildUpload(parsed) {
