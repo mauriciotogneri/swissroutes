@@ -3232,14 +3232,15 @@ function parseGpx(text, filename) {
     return "upload.notGpx";
   }
 
-  const track = xml.getElementsByTagName("trk")[0];
-  const route = xml.getElementsByTagName("rte")[0];
+  // Matched by local name in any namespace, so prefixed tags such as <gpx:trk> count too
+  const track = xml.getElementsByTagNameNS("*", "trk")[0];
+  const route = xml.getElementsByTagNameNS("*", "rte")[0];
   const segments = track
-    ? [...track.getElementsByTagName("trkseg")].map((segment) => [
-        ...segment.getElementsByTagName("trkpt"),
+    ? [...track.getElementsByTagNameNS("*", "trkseg")].map((segment) => [
+        ...segment.getElementsByTagNameNS("*", "trkpt"),
       ])
     : route
-      ? [[...route.getElementsByTagName("rtept")]]
+      ? [[...route.getElementsByTagNameNS("*", "rtept")]]
       : [];
 
   const paths = [];
@@ -3253,7 +3254,7 @@ function parseGpx(text, filename) {
       const lat = parseFloat(element.getAttribute("lat"));
       const lng = parseFloat(element.getAttribute("lon"));
       const height = parseFloat(
-        element.getElementsByTagName("ele")[0]?.textContent,
+        element.getElementsByTagNameNS("*", "ele")[0]?.textContent,
       );
 
       if (Number.isFinite(lat) && Number.isFinite(lng)) {

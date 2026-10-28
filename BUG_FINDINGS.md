@@ -1,14 +1,3 @@
-### [b/validation-and-coercion/gpx-upload/prefixed-namespace-not-matched] GPX files that use a namespace prefix are rejected
-
-- **Location:** `public/script.js:3093`. Related: `public/script.js:3087-3089`, `public/script.js:3094-3097`, `public/script.js:3114`
-- **Severity:** Low
-- **Confidence:** Medium
-- **Likelihood:** Low. Prefixed GPX files are valid but very rare.
-- **Defect:** the root check compares `localName`, so `<gpx:gpx>` passes. The track lookups match the full prefixed name, though, so `<gpx:trk>` is never found, and the file is rejected as having no track.
-- **Trigger:** upload `<gpx:gpx xmlns:gpx="http://www.topografix.com/GPX/1/1"><gpx:trk>…`.
-- **Evidence / verification:** `getElementsByTagName` matches qualified names in XML documents, while the root check uses `localName`.
-- **Suggested fix:** use `getElementsByTagNameNS("*", …)` for the track, segment, point, height and route lookups.
-
 ### [b/contract-mismatches/update-data-procedure/osm-error-search-matches-retries] The update-data check for the OpenStreetMap step reports successful retries as failures
 
 - **Location:** `.claude/skills/update-data/SKILL.md:203`. Related: `bin/helpers.js:201`, `.claude/skills/update-data/SKILL.md:210`
