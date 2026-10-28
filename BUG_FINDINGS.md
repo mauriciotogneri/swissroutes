@@ -1,17 +1,3 @@
-### [b/contract-mismatches/update-data-procedure/osm-error-search-matches-retries] The update-data check for the OpenStreetMap step reports successful retries as failures
-
-- **Location:** `.claude/skills/update-data/SKILL.md:203`. Related: `bin/helpers.js:201`, `.claude/skills/update-data/SKILL.md:210`
-- **Severity:** Low
-- **Confidence:** High
-- **Likelihood:** Low. It needs an Overpass retry during a data refresh.
-- **Defect:**
-  - The step 3b check `grep -nE '^Error|…'` matches the `Error: HTTP 429` (or 500 or 504) line that `getFile` prints right after `Retrying: <url>`, even when the retry succeeds.
-  - A recovered run is judged failed, and the skill says to wait and rerun, which wastes about 3 minutes.
-  - Steps 1 to 3 avoid this with the narrower `^Error (downloading file|getting ids):`.
-- **Trigger:** any Overpass retry during `node bin/osm-downloader.js`.
-- **Evidence / verification:** the committed logs show the two-line retry format (`Retrying: …`, then `Error: HTTP 500`), and the OpenStreetMap downloader uses the same `getFile`.
-- **Suggested fix:** drop the bare `^Error`, and match only the thrown messages (`NO ENTRIES FOUND`, `OVERPASS REMARK`) and stack lines.
-
 ### [b/contract-mismatches/update-data-procedure/empty-my-switzerland-layer-misdescribed] The update-data skill says an empty My Switzerland layer doesn't stop the script, but it does
 
 - **Location:** `.claude/skills/update-data/SKILL.md:183`. Related: `bin/helpers.js:283-285`

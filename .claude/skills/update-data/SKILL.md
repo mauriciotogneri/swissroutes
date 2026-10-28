@@ -200,7 +200,7 @@ node bin/osm-downloader.js 2>&1 | tee logs/osm.log
 **When it worked**, the last line is `campsite: <count>` and the search below prints `no matches`:
 
 ```sh
-grep -nE '^Error|^ +at |NO ENTRIES FOUND|OVERPASS REMARK' logs/osm.log || { [ $? -eq 1 ] && echo "no matches"; }
+grep -nE '^ +at |NO ENTRIES FOUND|OVERPASS REMARK' logs/osm.log || { [ $? -eq 1 ] && echo "no matches"; }
 ```
 
 **When it didn't:**
